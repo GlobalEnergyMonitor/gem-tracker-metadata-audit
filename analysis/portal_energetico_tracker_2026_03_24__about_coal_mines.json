@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "about_coal_mines",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.167120+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.333269+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col1",
@@ -196,7 +198,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col2",
@@ -260,7 +263,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

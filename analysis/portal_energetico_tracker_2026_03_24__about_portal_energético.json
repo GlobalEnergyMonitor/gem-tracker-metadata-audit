@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "about_portal_energético",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.177774+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.345821+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -60,7 +61,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

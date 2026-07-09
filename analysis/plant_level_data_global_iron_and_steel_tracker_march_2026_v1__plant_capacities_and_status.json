@@ -3,7 +3,8 @@
   "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
   "tab_slug": "plant_capacities_and_status",
   "n_rows": 1845,
-  "analyzed_at": "2026-07-07T21:45:22.104876+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.265418+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -400,6 +404,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -498,6 +503,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Lists the main iron and steel production equipment at the plant corresponding to the row's operating status, from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
       "notes_from_readme": null
     },
@@ -547,9 +553,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -647,7 +652,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:11_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that the plant began producing iron/steel in the format YYYY-MM-DD. For announced or construction capacity, this is the earliest start date of any units under development.",
       "notes_from_readme": null
     },
@@ -745,7 +753,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity across all steelmaking processes (ttpa).",
       "notes_from_readme": null
     },
@@ -843,7 +854,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for steel produced by BOF route (ttpa).",
       "notes_from_readme": null
     },
@@ -941,7 +955,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for steel produced by EAF route (ttpa).",
       "notes_from_readme": null
     },
@@ -1042,6 +1059,7 @@
       "flags": [
         "mostly_numeric_with_outliers"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for steel produced by IF route (ttpa).",
       "notes_from_readme": null
     },
@@ -1140,6 +1158,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for steel produced by technology that is not tracked in the GIST (i.e. induction furnace) or for which the production route is unknown.",
       "notes_from_readme": null
     },
@@ -1237,7 +1256,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level operating capacity across all ironmaking processes (ttpa).",
       "notes_from_readme": null
     },
@@ -1335,7 +1357,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for iron produced by BF route (ttpa).",
       "notes_from_readme": null
     },
@@ -1433,7 +1458,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for iron produced by DRI route (ttpa).",
       "notes_from_readme": null
     },
@@ -1535,6 +1563,7 @@
         "mostly_numeric_with_outliers",
         "categorical_rare_values:21_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for iron produced by technology that is not tracked in the GIST (i.e. smelting reduction) or for which the production route is unknown.",
       "notes_from_readme": null
     }

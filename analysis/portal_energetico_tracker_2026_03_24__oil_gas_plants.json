@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "oil_gas_plants",
   "n_rows": 1150,
-  "analyzed_at": "2026-07-07T21:45:22.430441+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.624888+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -196,7 +198,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant name",
@@ -292,7 +295,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant Name in Local Language / Script",
@@ -388,7 +392,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other Name(s)",
@@ -484,7 +489,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit name",
@@ -580,7 +586,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel",
@@ -676,7 +683,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (MW)",
@@ -772,7 +780,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -828,9 +837,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Turbine/Engine Technology",
@@ -870,7 +878,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Equipment Manufacturer/Model",
@@ -966,7 +975,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CHP",
@@ -994,7 +1004,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Hydrogen capable?",
@@ -1024,7 +1037,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CCS attachment?",
@@ -1049,8 +1063,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ]
+        "categorical_rare_values:1_values_below_1pct",
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion/replacement?",
@@ -1070,7 +1086,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion from/replacement of (fuel)",
@@ -1098,7 +1115,11 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:3_values_not_in_reference",
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion from/replacement of (GEM unit ID)",
@@ -1138,7 +1159,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion to (fuel)",
@@ -1153,7 +1175,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion to (GEM unit ID)",
@@ -1168,7 +1193,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Start year",
@@ -1264,7 +1292,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retired year",
@@ -1304,7 +1333,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Planned retire",
@@ -1344,7 +1374,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator(s)",
@@ -1440,7 +1471,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner(s)",
@@ -1536,7 +1568,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner(s) GEM Entity ID",
@@ -1632,7 +1665,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent(s)",
@@ -1728,7 +1762,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent GEM Entity ID",
@@ -1824,7 +1859,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -1920,7 +1956,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -2016,7 +2053,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location accuracy",
@@ -2040,7 +2078,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "City",
@@ -2136,7 +2175,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Local area (taluk, county)",
@@ -2232,7 +2272,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -2328,7 +2369,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "State/Province",
@@ -2424,7 +2466,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subregion",
@@ -2444,7 +2487,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -2464,7 +2508,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other IDs (location)",
@@ -2560,7 +2605,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other IDs (unit)",
@@ -2656,7 +2702,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive industry use",
@@ -2680,7 +2727,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive industry type",
@@ -2733,8 +2781,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive non-industry use",
@@ -2758,7 +2807,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM location ID",
@@ -2854,7 +2904,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM unit ID",
@@ -2950,7 +3001,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel classification?",
@@ -2982,7 +3034,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

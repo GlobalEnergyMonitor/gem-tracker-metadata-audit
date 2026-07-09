@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "lng_terminals",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.394195+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.583554+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "UnitID",
@@ -196,7 +198,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -292,9 +295,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [
-        "categorical_rare_values:7_values_below_1pct"
-      ]
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki",
@@ -390,7 +392,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TerminalName",
@@ -486,7 +489,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "UnitName",
@@ -582,7 +586,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FacilityType",
@@ -606,7 +611,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel",
@@ -626,7 +632,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:1_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -675,8 +684,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ]
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "OtherNames",
@@ -772,7 +782,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LocalNames",
@@ -868,7 +879,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Language",
@@ -896,7 +908,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -992,7 +1005,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner GEM Entity ID",
@@ -1088,7 +1102,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent",
@@ -1184,7 +1199,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent GEM Entity ID",
@@ -1280,7 +1296,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ParentHQCountry",
@@ -1376,7 +1393,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator",
@@ -1472,7 +1490,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity",
@@ -1568,7 +1587,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CapacityUnits",
@@ -1604,7 +1624,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CapacityinMtpa",
@@ -1700,7 +1721,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CapacityinBcm/y",
@@ -1796,7 +1818,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TotImportLNGTerminalCapacityinMtpa",
@@ -1892,7 +1915,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TotImportLNGTerminalCapacityinBcm/y",
@@ -1988,7 +2012,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TotExportLNGTerminalCapacityinMtpa",
@@ -2072,7 +2097,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TotExportLNGTerminalCapacityinBcm/y",
@@ -2156,7 +2182,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ProposalYear",
@@ -2240,7 +2267,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ProposalMonth",
@@ -2304,7 +2332,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ConstructionYear",
@@ -2368,7 +2397,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ConstructionMonth",
@@ -2412,7 +2442,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "OriginalPlannedStartYear",
@@ -2476,7 +2507,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LatestPlannedStartYear",
@@ -2516,7 +2548,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ActualStartYear",
@@ -2604,7 +2637,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ActualStartMonth",
@@ -2644,7 +2678,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:6_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "ActualStartYear2",
@@ -2664,7 +2701,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ActualStartYear3",
@@ -2679,7 +2717,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ShelvedYear",
@@ -2743,7 +2782,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CancelledYear",
@@ -2799,7 +2839,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "StopYear",
@@ -2863,7 +2904,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "PlannedStopYear",
@@ -2887,7 +2929,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ShelvedCancelledStatusType",
@@ -2911,7 +2954,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "TempFacility",
@@ -2931,7 +2977,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ImportExportOnly",
@@ -2946,7 +2993,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location",
@@ -3042,7 +3092,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -3062,7 +3113,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "SubRegion",
@@ -3082,7 +3134,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Prefecture/District",
@@ -3178,7 +3231,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "State/Province",
@@ -3274,7 +3328,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -3370,7 +3425,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -3466,7 +3522,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Accuracy",
@@ -3490,7 +3547,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "AssociatedTerminals",
@@ -3514,7 +3572,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "PowerPlantsSupplied",
@@ -3610,7 +3669,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Cost",
@@ -3706,7 +3766,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CostUnits",
@@ -3730,7 +3791,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CostUSD",
@@ -3826,7 +3888,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "TotKnownTerminalCostsUSD",
@@ -3922,7 +3985,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FIDStatus",
@@ -3946,7 +4010,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "FIDYear",
@@ -3998,7 +4065,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financing",
@@ -4018,7 +4086,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Offshore",
@@ -4038,7 +4107,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:true_false"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Floating",
@@ -4058,7 +4130,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:true_false"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "FloatingVesselName",
@@ -4150,7 +4225,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "VesselOwner",
@@ -4214,7 +4292,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "VesselOperator",
@@ -4283,8 +4362,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "LH2",
@@ -4299,7 +4379,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "NH3",
@@ -4314,7 +4397,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "SyntheticLNG",
@@ -4329,7 +4415,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "RetrofitProposed",
@@ -4344,7 +4433,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "AltFuelPrelimAgreement",
@@ -4359,7 +4451,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "AltFuelCallMarketInterest",
@@ -4374,7 +4469,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CCS",
@@ -4389,7 +4487,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "LastUpdated",
@@ -4485,7 +4586,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:35_invalid_values"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

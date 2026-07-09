@@ -3,7 +3,8 @@
   "tracker_slug": "global_oil_and_gas_plant_tracker_gogpt_january_2026",
   "tab_slug": "gas_oil_units",
   "n_rows": 13635,
-  "analyzed_at": "2026-07-07T21:45:19.213712+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:15.190268+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Plant Tracker - January 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Oil and Gas Plant Tracker, January 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "GEM.wiki URL for plant",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Country/area location of the power station (unabbreviated). The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Commonly used name",
       "notes_from_readme": null
     },
@@ -400,6 +404,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Commonly used name in the locally used script",
       "notes_from_readme": null
     },
@@ -498,6 +503,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Alternative names",
       "notes_from_readme": null
     },
@@ -596,6 +602,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Sequential numbers, grouped by blocks with emdash is necessary (e.g. 1-1, 2-1)",
       "notes_from_readme": null
     },
@@ -694,6 +701,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "All fuel types supported. See Abbreviations tab for mapping to previous abbreviations.",
       "notes_from_readme": null
     },
@@ -792,6 +800,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Installed capacity of the unit, in megawatts",
       "notes_from_readme": null
     },
@@ -849,9 +858,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Current status of plant, see definitions in About tab",
       "notes_from_readme": null,
       "value_definitions": [
@@ -942,6 +950,7 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Equipment technology. Options include: internal combustion, combined cycle, gas turbine, internal combustion combined cycle, integrated solar combined cycle, steam turbine, Allam-Fetvedt Cycle",
       "notes_from_readme": null
     },
@@ -1040,6 +1049,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Equpment manufacturer and model.",
       "notes_from_readme": null
     },
@@ -1069,7 +1079,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Combined heat and power/cogeneration. Options include: yes, no, not found",
       "notes_from_readme": null
     },
@@ -1110,6 +1123,7 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nN - The plant is not capable of using hydrogen. \nnot found - no information found",
       "notes_from_readme": null
     },
@@ -1139,7 +1153,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Carbon capture and storage (CCS) is most relevant for in development projects. Options include: yes, no, not found",
       "notes_from_readme": null
     },
@@ -1178,8 +1195,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
+        "categorical_rare_values:2_values_below_1pct",
+        "wrong_multi_value_separator:comma_only"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found",
       "notes_from_readme": null
     },
@@ -1278,6 +1297,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Fuel that unit is converted from, or being replaced",
       "notes_from_readme": null
     },
@@ -1376,6 +1396,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "GEM Unit ID of unit that is being converted from, or being replaced",
       "notes_from_readme": null
     },
@@ -1473,7 +1494,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion to (GEM unit ID)",
@@ -1569,7 +1591,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Start year",
@@ -1666,6 +1689,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year for the unit's commissioning; For combined cycle sets, which are composed of multiple gas and steam turbines which may not have all been built at the same time, the start year reflects when they began combined cycle operation together.",
       "notes_from_readme": null
     },
@@ -1712,6 +1736,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year the plant is decommissioned",
       "notes_from_readme": null
     },
@@ -1810,6 +1835,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Future date for the unit's planned retirement",
       "notes_from_readme": null
     },
@@ -1908,6 +1934,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that is responsible for day-to-day operations at a plant. This is usually only one company.",
       "notes_from_readme": null
     },
@@ -2006,6 +2033,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
       "notes_from_readme": null
     },
@@ -2103,7 +2131,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent(s)",
@@ -2200,6 +2229,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
       "notes_from_readme": null
     },
@@ -2297,7 +2327,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -2394,6 +2425,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Latitude, assumed WGS84 (google maps)",
       "notes_from_readme": null
     },
@@ -2492,6 +2524,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Longitude, assumed WGS84 (google maps)",
       "notes_from_readme": null
     },
@@ -2518,6 +2551,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Location is \"approximate\" based by using nearest city or other information in research, or Location is \"exact\" based on visibility on map or given in research",
       "notes_from_readme": null
     },
@@ -2616,6 +2650,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "City, town, or village where project is located",
       "notes_from_readme": null
     },
@@ -2714,6 +2749,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "county/taluk where project is located",
       "notes_from_readme": null
     },
@@ -2812,6 +2848,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Prefecture or district where project is located",
       "notes_from_readme": null
     },
@@ -2910,6 +2947,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Province or state where project is located",
       "notes_from_readme": null
     },
@@ -2994,6 +3032,7 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
       "notes_from_readme": null
     },
@@ -3032,6 +3071,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
       "notes_from_readme": null
     },
@@ -3130,6 +3170,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "For example, government database ID",
       "notes_from_readme": null
     },
@@ -3228,6 +3269,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "For example, government database ID",
       "notes_from_readme": null
     },
@@ -3258,6 +3300,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both.",
       "notes_from_readme": null
     },
@@ -3356,6 +3399,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown",
       "notes_from_readme": null
     },
@@ -3390,6 +3434,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, none. 'None' indicates an entirely captive plant.",
       "notes_from_readme": null
     },
@@ -3488,6 +3533,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Internal generated ID for the power station (non-unique)",
       "notes_from_readme": null
     },
@@ -3586,6 +3632,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Internal generated ID for the unit (unique)",
       "notes_from_readme": null
     },
@@ -3619,7 +3666,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel.   Note \"Gas only\" does not include LNG.",
       "notes_from_readme": null
     }

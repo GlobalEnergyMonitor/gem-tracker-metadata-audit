@@ -3,7 +3,8 @@
   "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
   "tab_slug": "project_level_main_data",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:18.967310+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:14.915649+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique project ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Name of the project as it is reported by sources, appended to fuel type and country/area information.",
       "notes_from_readme": null
     },
@@ -301,7 +304,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel type",
@@ -333,7 +337,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "A determination of whether the project is a gas, oil, or oil and gas project.",
       "notes_from_readme": null
     },
@@ -432,6 +439,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The country/area that the project is in. If a project spans country borders, both countries are listed in the project name.",
       "notes_from_readme": null
     },
@@ -530,6 +538,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The subnational state that the project is in (province, state, etc.).",
       "notes_from_readme": null
     },
@@ -560,6 +569,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Tag stating if production from a field uses conventional or unconventional methods.",
       "notes_from_readme": null
     },
@@ -593,7 +603,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "The status of development of a project, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
       "notes_from_readme": null,
       "value_definitions": [
@@ -673,7 +686,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:5_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Additional information on the status, see methodology for details.",
       "notes_from_readme": null
     },
@@ -744,6 +760,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The year of the source of the status information.",
       "notes_from_readme": null
     },
@@ -842,6 +859,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the project was discovered. If the project is made up of multiple fields, the earliest discovery year is listed here.",
       "notes_from_readme": null
     },
@@ -936,6 +954,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the project reach final investment decision. If the project is made up of multiple fields, the earliest FID year is listed here.",
       "notes_from_readme": null
     },
@@ -1034,6 +1053,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the project started commercial production.If the project is made up of multiple fields, the earliest FID year is listed here.",
       "notes_from_readme": null
     },
@@ -1132,6 +1152,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that is the designated operator of the project.",
       "notes_from_readme": null
     },
@@ -1230,6 +1251,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company (or companies) that own the project. Often multiple companies will collaborate to fund a project.",
       "notes_from_readme": null
     },
@@ -1328,6 +1350,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company (or companies) that own the owner companies listed.",
       "notes_from_readme": null
     },
@@ -1381,7 +1404,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "The ID assigned by some governments to the asset.",
       "notes_from_readme": null
     },
@@ -1480,6 +1506,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Project IDs of all field-level projects that make up the project.",
       "notes_from_readme": null
     },
@@ -1578,6 +1605,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "URL for the GEM.wiki page for an associated project, if relevant.",
       "notes_from_readme": null
     },
@@ -1676,6 +1704,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Alternate names for a project-level project.",
       "notes_from_readme": null
     },
@@ -1774,6 +1803,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
       "notes_from_readme": null
     },
@@ -1872,6 +1902,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
       "notes_from_readme": null
     },
@@ -1898,6 +1929,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Locations are designated as \"exact\" if there is information about where exactly the project is (e.g., coordinates explicitly stated, or project shown on a map). If only general information  is available (e.g., which state or county the project is in), an \"approximate\" designation is used.",
       "notes_from_readme": null
     },
@@ -1924,6 +1956,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "If the location of the project is calculated from the location of the field-level projects which make it up, it is tagged as \"location derived from fields\". If data for the location is at the project level, this is tagged as \"project level location\".",
       "notes_from_readme": null
     },
@@ -1954,6 +1987,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Tag stating if a field predominantly located on or offshore.",
       "notes_from_readme": null
     },
@@ -2052,6 +2086,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Field-level projects outline in well-known-text format.",
       "notes_from_readme": null
     },
@@ -2150,6 +2185,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Each field-level project is within a particular basin (short for sedimentary basin), when available, shown here.",
       "notes_from_readme": null
     },
@@ -2247,7 +2283,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

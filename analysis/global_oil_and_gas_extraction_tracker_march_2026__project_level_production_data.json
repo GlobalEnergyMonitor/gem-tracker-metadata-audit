@@ -3,7 +3,8 @@
   "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
   "tab_slug": "project_level_production_data",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:18.972184+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:14.920990+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique project ID number.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Name of the unit as it is reported by sources.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
       "notes_from_readme": null
     },
@@ -388,8 +392,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:8_values_below_1pct"
+        "out_of_set_categorical:17_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
       "notes_from_readme": null
     },
@@ -488,6 +493,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
       "notes_from_readme": null
     },
@@ -518,6 +524,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The common set of units.",
       "notes_from_readme": null
     },
@@ -544,6 +551,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "If the production of the project is calculated from the the field-level projects which make it up, it is tagged as \"production summed from fields\". If data for the location is at the project level, this is tagged as \"project level production\" - if both data types are available, only the project level data is shown here.",
       "notes_from_readme": null
     }

@@ -3,7 +3,8 @@
   "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
   "tab_slug": "field_level_reserves_data",
   "n_rows": 7060,
-  "analyzed_at": "2026-07-07T21:45:18.954517+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:14.899889+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique Unit ID number",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Name of the unit as it is reported by sources.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
       "notes_from_readme": null
     },
@@ -400,8 +404,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:15_values_below_1pct"
+        "out_of_set_categorical:21_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
       "notes_from_readme": null
     },
@@ -500,6 +505,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
       "notes_from_readme": null
     },
@@ -597,7 +603,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Units",
@@ -693,7 +700,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Quantity (converted)",
@@ -790,6 +798,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
       "notes_from_readme": null
     },
@@ -820,6 +829,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The common set of units.",
       "notes_from_readme": null
     },
@@ -918,6 +928,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year the data refers to, or if not listed, year of the source document",
       "notes_from_readme": null
     }

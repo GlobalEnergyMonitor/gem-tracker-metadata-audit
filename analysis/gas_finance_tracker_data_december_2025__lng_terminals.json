@@ -3,7 +3,8 @@
   "tracker_slug": "gas_finance_tracker_data_december_2025",
   "tab_slug": "lng_terminals",
   "n_rows": 972,
-  "analyzed_at": "2026-07-07T21:45:10.381791+00:00",
+  "n_duplicate_rows": 3,
+  "analyzed_at": "2026-07-09T01:35:04.741854+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -84,9 +85,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [
-        "categorical_rare_values:5_values_below_1pct"
-      ]
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Terminal ID",
@@ -182,7 +182,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Combo ID",
@@ -278,7 +279,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Name",
@@ -374,7 +376,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Alternate Project Name(s)",
@@ -470,7 +473,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Local Language Name(s)",
@@ -567,8 +571,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:15_values_below_1pct"
-      ]
+        "categorical_rare_values:15_values_below_1pct",
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Train/Unit Name",
@@ -664,7 +670,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Terminal Type",
@@ -688,7 +695,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -733,8 +741,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ]
+        "out_of_set_categorical:3_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (mtpa)",
@@ -831,8 +840,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Expected Start Year",
@@ -904,7 +914,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:3_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Cost (US$ Million)",
@@ -1000,7 +1013,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FID Status",
@@ -1037,8 +1051,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "FID Date",
@@ -1094,7 +1109,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:2_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -1190,7 +1208,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent Company",
@@ -1286,7 +1305,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financier",
@@ -1382,7 +1402,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Type of Financier",
@@ -1460,8 +1481,9 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:10_values_below_1pct",
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Public/Private",
@@ -1493,7 +1515,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country_2",
@@ -1590,8 +1613,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:12_values_below_1pct"
-      ]
+        "out_of_set_categorical:3_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "All Known Project Finance This Terminal (US$ Million)",
@@ -1669,7 +1693,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "This Financier's Total Share (US$ Million)",
@@ -1747,7 +1772,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:12_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Finance Type",
@@ -1789,7 +1815,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Finance Status",
@@ -1822,8 +1849,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
-      ]
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Close Year",
@@ -1879,7 +1907,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Wiki Link",
@@ -1975,7 +2004,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col26",
@@ -1990,7 +2020,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col27",
@@ -2005,7 +2038,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col28",
@@ -2020,7 +2056,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col29",
@@ -2035,7 +2074,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col30",
@@ -2050,7 +2092,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col31",
@@ -2065,7 +2110,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col32",
@@ -2080,7 +2128,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col33",
@@ -2095,7 +2146,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col34",
@@ -2110,7 +2164,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col35",
@@ -2125,7 +2182,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

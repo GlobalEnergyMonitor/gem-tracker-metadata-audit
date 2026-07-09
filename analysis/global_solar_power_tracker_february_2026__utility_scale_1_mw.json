@@ -3,7 +3,8 @@
   "tracker_slug": "global_solar_power_tracker_february_2026",
   "tab_slug": "utility_scale_1_mw",
   "n_rows": 103940,
-  "analyzed_at": "2026-07-07T21:45:20.940112+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:17.205380+00:00",
   "tracker_info": {
     "title": "Global Solar Power Tracker - February 2026",
     "citation": null,
@@ -105,7 +106,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -201,7 +205,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Name",
@@ -297,7 +302,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Phase Name",
@@ -393,7 +399,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Name in Local Language / Script",
@@ -489,7 +496,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other Name(s)",
@@ -585,7 +593,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (MW)",
@@ -681,7 +690,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity Rating",
@@ -709,7 +719,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Technology Type",
@@ -739,7 +750,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -795,9 +807,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:4_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "operating",
@@ -927,7 +938,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retired year",
@@ -1023,7 +1035,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator",
@@ -1119,7 +1132,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator Name in Local Language / Script",
@@ -1215,7 +1229,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -1311,7 +1326,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner Name in Local Language / Script",
@@ -1407,7 +1423,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Hydrogen",
@@ -1427,7 +1444,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:true_false"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Associated Storage",
@@ -1447,7 +1467,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:true_false"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -1543,7 +1566,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -1639,7 +1663,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location accuracy",
@@ -1669,7 +1694,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "City",
@@ -1765,7 +1791,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Local area (taluk, county)",
@@ -1861,7 +1888,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -1957,7 +1985,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "State/Province",
@@ -2053,7 +2082,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subregion",
@@ -2139,7 +2169,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:6_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -2175,7 +2206,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM location ID",
@@ -2271,7 +2303,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM phase ID",
@@ -2367,7 +2400,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other IDs (location)",
@@ -2463,7 +2497,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other IDs (unit/phase)",
@@ -2559,7 +2594,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki URL",
@@ -2655,7 +2691,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

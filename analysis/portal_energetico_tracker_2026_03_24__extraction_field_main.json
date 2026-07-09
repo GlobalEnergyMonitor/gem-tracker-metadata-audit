@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "extraction_field_main",
   "n_rows": 1224,
-  "analyzed_at": "2026-07-07T21:45:22.286047+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.468910+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit Name",
@@ -196,7 +198,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit name local script",
@@ -292,7 +295,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel type",
@@ -320,7 +324,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:3_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -400,9 +407,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:7_values_below_1pct"
-      ]
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subnational unit (province, state)",
@@ -498,7 +504,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Production Type",
@@ -522,7 +529,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -563,8 +571,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+        "out_of_set_categorical:3_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status detail",
@@ -608,7 +617,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:7_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status year",
@@ -700,7 +712,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Discovery year",
@@ -796,7 +809,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FID Year",
@@ -868,7 +882,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Production start year",
@@ -964,7 +979,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator",
@@ -1060,7 +1076,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -1156,7 +1173,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent",
@@ -1252,7 +1270,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Government unit ID",
@@ -1348,7 +1367,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki URL (project)",
@@ -1444,7 +1464,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki URL",
@@ -1540,7 +1561,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Name Other",
@@ -1636,7 +1658,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -1732,7 +1755,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -1828,7 +1852,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location accuracy",
@@ -1852,7 +1877,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Onshore/Offshore",
@@ -1880,7 +1906,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Field outline (WKT)",
@@ -1976,7 +2003,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Basin",
@@ -2072,7 +2100,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Concession / block",
@@ -2168,7 +2197,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

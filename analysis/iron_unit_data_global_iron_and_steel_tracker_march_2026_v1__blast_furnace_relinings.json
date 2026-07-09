@@ -3,7 +3,8 @@
   "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
   "tab_slug": "blast_furnace_relinings",
   "n_rows": 909,
-  "analyzed_at": "2026-07-07T21:45:22.014804+00:00",
+  "n_duplicate_rows": 5,
+  "analyzed_at": "2026-07-09T01:35:18.160023+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
       "notes_from_readme": null
     },
@@ -144,8 +146,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
+        "out_of_set_categorical:3_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Categories are \"complete\", \"in progress\", \"planned\", or \"cancelled\".",
       "notes_from_readme": null
     },
@@ -176,6 +179,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Type of relining performed on blast furnace unit. Categories are \"full\", \"partial\" and \"unknown\".",
       "notes_from_readme": null
     },
@@ -273,7 +277,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:68_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that furnace stops operations and transitions to maintenance/relining work in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -371,7 +378,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:62_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that furnace resumes operations and begins transition back to ironmaking operations in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -469,7 +479,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Furnace relining number",
@@ -520,6 +531,7 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Number of the furnace relining if known.",
       "notes_from_readme": null
     },
@@ -618,6 +630,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Approximate investment cost of equipment, installation, upgrades, technology, etc for relining work. Does not include revenue lost during relining of blast furnace. Only numerical digits with currency type found in the Relining Cost Unit field.",
       "notes_from_readme": null
     },
@@ -698,6 +711,7 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "ISO three-letter currency code unit for relining cost.",
       "notes_from_readme": null
     },
@@ -796,6 +810,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "If applicable, furnace expansion as a result of the relining maintenance work. \"N/A\" if known that relining will not result in capacity expansion. \"unknown\" if not known whether relining will result in capacity expansion.",
       "notes_from_readme": null
     },
@@ -830,6 +845,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Typically cubic meters (m3) for blast furnace volume.",
       "notes_from_readme": null
     }

@@ -3,7 +3,8 @@
   "tracker_slug": "sqlite_sequence",
   "tab_slug": "data",
   "n_rows": 1,
-  "analyzed_at": "2026-07-07T21:45:22.613684+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.837278+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -24,7 +25,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "seq",
@@ -44,7 +46,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

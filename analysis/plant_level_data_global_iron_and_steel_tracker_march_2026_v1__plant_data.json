@@ -3,7 +3,8 @@
   "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
   "tab_slug": "plant_data",
   "n_rows": 1293,
-  "analyzed_at": "2026-07-07T21:45:22.151665+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.317170+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -400,6 +404,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Other plant names for iron/steel plant in English language.",
       "notes_from_readme": null
     },
@@ -498,6 +503,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Other plant names for iron/steel plant in other language. Language indicated in parentheses following plant name.",
       "notes_from_readme": null
     },
@@ -595,7 +601,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner (other language)",
@@ -692,6 +699,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Name of immediate owner/operator of iron/steel plant in other language.",
       "notes_from_readme": null
     },
@@ -790,6 +798,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Global Energy Monitor's entity ID for the owner/operator of the iron/steel plant.",
       "notes_from_readme": null
     },
@@ -888,6 +897,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "PermID of the immediate owner/operator of the iron/steel plant.",
       "notes_from_readme": null
     },
@@ -917,7 +927,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Identifies an iron/steel plant as a \"full\" or \"partial\" state-owned enterprise (SOE)/government linked company (GLC).",
       "notes_from_readme": null
     },
@@ -1016,6 +1029,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Parent companies and respective ownership shares.",
       "notes_from_readme": null
     },
@@ -1114,6 +1128,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Global Energy Monitor's entity ID for the parent companies and respective ownership shares.",
       "notes_from_readme": null
     },
@@ -1212,6 +1227,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "PermIDs of Parent companies and respective ownership shares.",
       "notes_from_readme": null
     },
@@ -1310,6 +1326,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Physical address of iron/steel plant.",
       "notes_from_readme": null
     },
@@ -1408,6 +1425,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Physical address of iron/steel plant in local language.",
       "notes_from_readme": null
     },
@@ -1506,6 +1524,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Municipality (city, village, town).",
       "notes_from_readme": null
     },
@@ -1604,6 +1623,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Subnational unit (province, state).",
       "notes_from_readme": null
     },
@@ -1702,6 +1722,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -1748,8 +1769,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "potential_multi_value"
+        "multi_value_separator_check:uses_&"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "WEO region.",
       "notes_from_readme": null
     },
@@ -1848,6 +1870,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Coordinates of iron/steel plant.",
       "notes_from_readme": null
     },
@@ -1874,6 +1897,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Coordinate accuracy defined as \"exact\" = location confirmed via satellite imagery, \"approximate\" = location estimated or undefined.",
       "notes_from_readme": null
     },
@@ -1972,6 +1996,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Link to GEM wiki page.",
       "notes_from_readme": null
     },
@@ -2070,8 +2095,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies"
+        "non_standard_null_proxies"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Age of plant in years.",
       "notes_from_readme": null
     },
@@ -2169,7 +2195,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:74_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date of announcement/proposal of iron/steel plant in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -2267,7 +2296,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:61_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that construction on the iron/steel plant began in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -2365,7 +2397,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:5_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that the plant began producing iron/steel in the format YYYY-MM-DD. For announced or construction capacity, this is the earliest start date of any units under development.",
       "notes_from_readme": null
     },
@@ -2463,7 +2498,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:23_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date the company announced its plans to retire the plant in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -2561,7 +2599,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:22_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that iron/steel plant stops iron or steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -2659,7 +2700,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:39_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that iron/steel plant was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -2736,6 +2780,7 @@
       "flags": [
         "categorical_rare_values:12_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for ferronickel (ttpa).",
       "notes_from_readme": null
     },
@@ -2834,6 +2879,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant-level capacity for sinter (ttpa).",
       "notes_from_readme": null
     },
@@ -2932,6 +2978,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant level capacity for coke (ttpa).",
       "notes_from_readme": null
     },
@@ -3030,6 +3077,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Plant level capacity for pellets (ttpa).",
       "notes_from_readme": null
     },
@@ -3080,8 +3128,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
+        "categorical_rare_values:1_values_below_1pct",
+        "wrong_multi_value_separator:comma_only"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Categorizes steel products as \"crude\", \"semi-finished\", or \"finished rolled\" steel products.",
       "notes_from_readme": null
     },
@@ -3180,6 +3230,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Lists steel products produced at plant. Not comprehensive.",
       "notes_from_readme": null
     },
@@ -3277,7 +3328,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:48_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Steel sector end user market. Categories are \"automotive\", \"building and infrastructure\", \"energy\", \"steel packaging\", \"transport\", \"tools and machinery\".",
       "notes_from_readme": null
     },
@@ -3376,8 +3430,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies"
+        "non_standard_null_proxies"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Number of workers at the plant.",
       "notes_from_readme": null
     },
@@ -3476,6 +3531,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Certification year for current ISO 14001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
       "notes_from_readme": null
     },
@@ -3574,6 +3630,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Certification year for current ISO 50001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
       "notes_from_readme": null
     },
@@ -3672,6 +3729,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Certification month and year for current ResponsibleSteel certification.",
       "notes_from_readme": null
     },
@@ -3770,6 +3828,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Lists the main iron and steel production equipment at the plant corresponding to the row's operating status, from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
       "notes_from_readme": null
     },
@@ -3868,6 +3927,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Information about plant power system/source or utility that plant provides power to, if known.",
       "notes_from_readme": null
     },
@@ -3966,6 +4026,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Mine and/or company providing iron ore for iron/steel production, if known.",
       "notes_from_readme": null
     },
@@ -4064,6 +4125,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Mine and/or company providing metallurgical coal for iron/steel production, if known.",
       "notes_from_readme": null
     }

@@ -53,6 +53,7 @@ body {
   margin-bottom: 8px;
   letter-spacing: 0.1px;
 }
+#sidebar-title:hover { color: #fff; }
 
 .sidebar-filter { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--sidebar-dim); cursor: pointer; }
 .sidebar-filter input { cursor: pointer; }
@@ -601,3 +602,141 @@ select { padding-right: 6px; }
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #c4cdd8; border-radius: 3px; }
+
+/* ── New compliance flag classes ─────────────────────────── */
+.flag-error    { background: #fed7d7; color: #742a2a; }
+.flag-warn     { background: #fefcbf; color: #744210; }
+.flag-info     { background: #ebf8ff; color: #2c5282; }
+.flag-suppressed { background: #edf2f7; color: #a0aec0; text-decoration: line-through; opacity: 0.7; }
+
+/* ── Suppress / unsuppress controls ─────────────────────── */
+.flag-with-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.flag-suppressed-row { opacity: 0.65; }
+.suppress-btn {
+  font-size: 10px;
+  padding: 1px 7px;
+  border: 1px solid #cbd5e0;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--dim);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.suppress-btn:hover { background: #f7fafc; border-color: #a0aec0; }
+.unsuppress-btn { border-color: #90cdf4; color: #2b6cb0; }
+.suppress-reason {
+  font-size: 10px;
+  color: var(--dim);
+  font-style: italic;
+}
+.download-overrides-btn {
+  margin-top: 6px;
+  font-size: 11px;
+  padding: 3px 10px;
+  border: 1px solid #90cdf4;
+  border-radius: 4px;
+  background: #ebf8ff;
+  color: #2b6cb0;
+  cursor: pointer;
+}
+.download-overrides-btn:hover { background: #bee3f8; }
+
+/* ── Welcome page — category table ──────────────────────── */
+.welcome-section { margin-top: 24px; }
+.welcome-section h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+.welcome-cat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  max-width: 680px;
+}
+.welcome-cat-table th {
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--dim);
+  border-bottom: 2px solid var(--border);
+}
+.welcome-cat-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+.welcome-cat-table tr:last-child td { border-bottom: none; }
+.welcome-cat-desc { font-size: 10px; color: var(--dim); margin-top: 2px; }
+.welcome-jaccard {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 3px;
+}
+.welcome-cov-bar {
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 6px;
+  overflow: hidden;
+}
+.welcome-cov-bar div { height: 100%; border-radius: 3px; }
+.welcome-hint { margin-top: 8px; font-size: 11px; color: var(--dim); }
+.welcome-hint a { color: var(--blue); text-decoration: none; }
+.welcome-hint a:hover { text-decoration: underline; }
+
+/* ── Welcome page — tracker dot matrix ──────────────────── */
+.welcome-tracker-table {
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.welcome-tracker-table th, .welcome-tracker-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.welcome-tracker-table th { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; color: var(--dim); }
+.welcome-tracker-name { white-space: nowrap; max-width: 220px; overflow: hidden; text-overflow: ellipsis; }
+.welcome-dot-cell { text-align: center; padding: 4px 6px; }
+.welcome-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #e2e8f0;
+  display: inline-block;
+}
+.welcome-dot-on { background: #48bb78; }
+.welcome-dot-head { font-size: 9px; text-align: center; padding: 4px 6px; }
+
+/* ── Category panel styles ───────────────────────────────── */
+.cat-desc {
+  font-size: 11px;
+  color: var(--dim);
+  margin-left: 8px;
+  font-weight: 400;
+}
+.cat-table tr.cat-row-missing td { color: #a0aec0; }
+.cat-present { color: #276749; font-weight: 500; }
+.cat-absent  { color: #a0aec0; }
+.cat-blocker {
+  background: #fff5f5;
+  border: 1px solid #fed7d7;
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-size: 11px;
+  color: #742a2a;
+  margin-bottom: 8px;
+}
+.cat-blocker-soft {
+  background: #fffff0;
+  border: 1px solid #f6e05e;
+  border-radius: 4px;
+  padding: 7px 10px;
+  font-size: 11px;
+  color: #744210;
+  margin-bottom: 8px;
+}

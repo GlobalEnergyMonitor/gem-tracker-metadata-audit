@@ -3,7 +3,8 @@
   "tracker_slug": "gas_finance_tracker_data_december_2025",
   "tab_slug": "introduction_terminology",
   "n_rows": 32,
-  "analyzed_at": "2026-07-07T21:45:10.372730+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:04.716045+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -19,7 +20,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col1",
@@ -34,7 +38,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col2",
@@ -49,7 +56,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col3",
@@ -145,7 +155,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col4",
@@ -241,7 +252,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col5",
@@ -256,7 +268,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col6",
@@ -271,7 +286,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col7",
@@ -286,7 +304,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col8",
@@ -301,7 +322,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col9",
@@ -316,7 +340,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col10",
@@ -331,7 +358,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col11",
@@ -346,7 +376,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col12",
@@ -361,7 +394,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

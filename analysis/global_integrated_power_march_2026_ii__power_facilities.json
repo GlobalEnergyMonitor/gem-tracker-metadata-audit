@@ -3,7 +3,8 @@
   "tracker_slug": "global_integrated_power_march_2026_ii",
   "tab_slug": "power_facilities",
   "n_rows": 182428,
-  "analyzed_at": "2026-07-07T21:45:18.666396+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:14.544934+00:00",
   "tracker_info": {
     "title": "Global Integrated Power Tracker March 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -60,6 +61,7 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "One of eight power technology groups (coal, oil/gas, utility-scale solar, wind, hydropower, nuclear, bioenergy, geothermal)",
       "notes_from_readme": null
     },
@@ -158,6 +160,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The Country/area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries",
       "notes_from_readme": null
     },
@@ -246,6 +249,7 @@
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "One of 17 GEM-defined subregions of the world",
       "notes_from_readme": null
     },
@@ -284,6 +288,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "One of five GEM-defined world regions",
       "notes_from_readme": null
     },
@@ -382,6 +387,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Commonly used name",
       "notes_from_readme": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed"
     },
@@ -482,6 +488,7 @@
       "flags": [
         "mostly_numeric_with_outliers"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Name or number of phase in plant/project",
       "notes_from_readme": "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used"
     },
@@ -580,6 +587,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Commonly used name in the locally used script",
       "notes_from_readme": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible"
     },
@@ -678,6 +686,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Alternative names, including the name in local script",
       "notes_from_readme": null
     },
@@ -776,6 +785,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Total nameplate capacity, or best available data, of the project, in megawatts",
       "notes_from_readme": "Units: MW."
     },
@@ -833,9 +843,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "One of 8 status categories, see rows 112-121 below for description",
       "notes_from_readme": null,
       "value_definitions": [
@@ -976,6 +985,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year the project was or will be commissioned",
       "notes_from_readme": "Units: YYYY."
     },
@@ -1074,6 +1084,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year the project was or will be taken offline",
       "notes_from_readme": "Units: YYYY."
     },
@@ -1172,6 +1183,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See rows 124-182 below for description",
       "notes_from_readme": null,
       "value_definitions": [
@@ -1439,7 +1451,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Associated storage",
@@ -1459,7 +1472,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel (combustion only)",
@@ -1556,6 +1572,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "See rows 185-239 below for description of fuels.",
       "notes_from_readme": null
     },
@@ -1589,7 +1606,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel. Note \"Gas only\" does not include LNG.",
       "notes_from_readme": null
     },
@@ -1688,6 +1708,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Equpment manufacturer and model.",
       "notes_from_readme": null
     },
@@ -1717,7 +1738,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Value of 'yes' if a project phase is dedicated for green hydrogen production, 'no' if not, 'not found' or blank no data found. Only used for wind, solar, and geothermal trackers",
       "notes_from_readme": null
     },
@@ -1758,6 +1782,7 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nno - The plant is not capable of using hydrogen. \nnot found - no information found",
       "notes_from_readme": null
     },
@@ -1779,7 +1804,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Value of 'yes' if the unit connected to a data center through a PPA. Currently geothermal only data field.",
       "notes_from_readme": null
     },
@@ -1878,6 +1906,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Primary country/area where the project is located (unabbreviated)",
       "notes_from_readme": "If project is binational, Country/area 1 is either the country/area listed first in alphabetical order for projects where capacity is shared equally, or the country/area with a larger portion of the total project capacity."
     },
@@ -1976,6 +2005,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Additional country/area where the project is located (unabbreviated)",
       "notes_from_readme": "If project is binational, Country/area 2 is either the country/area listed second in alphabetical order for projects where capacity is shared equally, or the country/area with a smaller portion of the total project capacity."
     },
@@ -2074,6 +2104,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 1, in megawatts, rounded to whole number",
       "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary."
     },
@@ -2172,6 +2203,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 2, in megawatts, rounded to whole number",
       "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary."
     },
@@ -2270,6 +2302,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The name of the river or watercourse on which the project is located",
       "notes_from_readme": null
     },
@@ -2368,6 +2401,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Company that performs day-to-day operations and maintenance of the project.",
       "notes_from_readme": null
     },
@@ -2466,6 +2500,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
       "notes_from_readme": "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]"
     },
@@ -2564,6 +2599,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique identifier assigned by the Global Energy Monitor ownership team",
       "notes_from_readme": "Units: E1+11 digits."
     },
@@ -2662,6 +2698,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
       "notes_from_readme": "If percent ownership is known format is EntityA [X%]; EntityB [Y%]"
     },
@@ -2760,6 +2797,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique identifier assigned by the Global Energy Monitor ownership team",
       "notes_from_readme": "Units: E1+11 digits."
     },
@@ -2789,7 +2827,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Value of 'yes' if a project phase has combined heat and power/cogeneration, 'no' if not, 'not found' or blank if unknown or no data found.",
       "notes_from_readme": null
     },
@@ -2819,7 +2860,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Value of 'yes' if a project has/plans carbon capture and storage (CCS), 'no' if not, 'not found' or blank if unknown or no data found.",
       "notes_from_readme": null
     },
@@ -2874,8 +2918,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:5_values_below_1pct"
+        "categorical_rare_values:5_values_below_1pct",
+        "wrong_multi_value_separator:comma_only"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "oil/gas options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found\nbioenergy options include:\ngas to bioenergy conversion - when a unit has been or will be converted from gas to bioenergy\ncoal to bioenergy conversion - when a unit has been or will be converted from coal to bioenergy\noil to bioenergy conversion - when a unit has been or will be converted from fossil oil to bioenergy\nno conversion - unit is not associated with a conversion",
       "notes_from_readme": null
     },
@@ -2974,6 +3020,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year the unit was or is projected to be converted to bioenergy",
       "notes_from_readme": "Units: yyyy."
     },
@@ -3072,6 +3119,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Fuel that unit is converted from, or being replaced",
       "notes_from_readme": null
     },
@@ -3170,6 +3218,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "GEM Unit ID of unit that is being converted from, or being replaced",
       "notes_from_readme": "Units: G1+6/11 digits."
     },
@@ -3268,6 +3317,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Fuel details connected to another GEM tracker, used when a project conversion is planned. See rows 168-222 below for description of fuels.",
       "notes_from_readme": null
     },
@@ -3366,6 +3416,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
       "notes_from_readme": "Units: G1+11 digits."
     },
@@ -3464,6 +3515,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown.",
       "notes_from_readme": null
     },
@@ -3494,6 +3546,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both, blank.",
       "notes_from_readme": null
     },
@@ -3528,6 +3581,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, blank, None. 'None' indicates an entirely captive plant.",
       "notes_from_readme": null
     },
@@ -3626,6 +3680,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Latitude of the project, assumed WGS84 (Google Maps)",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -3724,6 +3779,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Longitude of the project, assumed WGS84 (Google Maps)",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -3756,6 +3812,7 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Approximate based on using nearest city or other information in research, or exact based on visibility on map or given in research",
       "notes_from_readme": "Units: approximate, exact."
     },
@@ -3854,6 +3911,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "City, town, village or locality where project is located",
       "notes_from_readme": null
     },
@@ -3952,6 +4010,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "County or taluk where project is located",
       "notes_from_readme": null
     },
@@ -4050,6 +4109,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Prefecture or district where project is located",
       "notes_from_readme": null
     },
@@ -4148,6 +4208,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Subnational unit where project is located, usually state or province",
       "notes_from_readme": null
     },
@@ -4246,6 +4307,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "GEM generated ID unique for each project",
       "notes_from_readme": "Units: L1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of L812345 is now L100000812345."
     },
@@ -4344,6 +4406,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "GEM generated ID unique for each phase",
       "notes_from_readme": "Units: G1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of G812345 is now G100000812345."
     },
@@ -4442,6 +4505,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "URL of GEM.wiki pages",
       "notes_from_readme": null
     }

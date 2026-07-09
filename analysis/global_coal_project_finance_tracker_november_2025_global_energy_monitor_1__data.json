@@ -3,7 +3,8 @@
   "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
   "tab_slug": "data",
   "n_rows": 6556,
-  "analyzed_at": "2026-07-07T21:45:11.627335+00:00",
+  "n_duplicate_rows": 57,
+  "analyzed_at": "2026-07-09T01:35:06.220932+00:00",
   "tracker_info": {
     "title": "Global Coal Project Finance Tracker - November 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -105,7 +106,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financier Public or Private",
@@ -147,7 +149,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financier Type",
@@ -185,7 +188,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Domestic/International",
@@ -219,7 +223,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financier Country/Area",
@@ -315,7 +320,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Advisor",
@@ -411,7 +417,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Type of Finance",
@@ -489,7 +496,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:10_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Equity Partnership",
@@ -543,7 +551,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:8_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Units Included",
@@ -639,7 +648,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Financing Status",
@@ -692,8 +702,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:3_values_below_1pct"
-      ]
+        "out_of_set_categorical:6_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Repaid?",
@@ -721,7 +732,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Close Date",
@@ -817,7 +831,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "year_out_of_range:91_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Close Year",
@@ -913,7 +930,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Total Closed Financing at Plant (All Financiers, All Transactions)",
@@ -1010,8 +1028,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "This Financier's Total Financing per Transaction",
@@ -1108,8 +1127,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "This Financier's Unit Share per Transaction",
@@ -1206,8 +1226,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EPC Company",
@@ -1303,7 +1324,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Insurance",
@@ -1385,8 +1407,10 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:14_values_below_1pct",
-        "potential_multi_value"
-      ]
+        "wrong_multi_value_separator:comma_used_alongside_amp_or_semi",
+        "multi_value_separator_check:uses_&_and_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Equipment (GENMFR)",
@@ -1416,7 +1440,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "TurbMFR",
@@ -1462,7 +1487,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:6_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "BoilerMFR",
@@ -1504,8 +1530,9 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:5_values_below_1pct",
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM unit/phase ID",
@@ -1601,7 +1628,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM location ID",
@@ -1697,7 +1725,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -1793,7 +1822,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki URL",
@@ -1889,7 +1919,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant name",
@@ -1985,7 +2016,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit name",
@@ -2081,7 +2113,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -2138,8 +2171,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (MW)",
@@ -2235,7 +2269,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Start year",
@@ -2331,7 +2366,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant name (other)",
@@ -2427,7 +2463,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant name (local)",
@@ -2523,7 +2560,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -2619,7 +2657,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner GEM Entity ID",
@@ -2715,7 +2754,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent",
@@ -2811,7 +2851,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent GEM Entity ID",
@@ -2907,7 +2948,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retired year",
@@ -2967,7 +3009,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Planned retirement",
@@ -3063,7 +3108,10 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Combustion technology",
@@ -3121,7 +3169,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal type",
@@ -3179,7 +3228,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal source",
@@ -3275,7 +3325,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion to (fuel)",
@@ -3356,9 +3407,11 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:6_values_below_1pct",
-        "potential_multi_value"
-      ]
+        "out_of_set_categorical:16_values_not_in_reference",
+        "wrong_multi_value_separator:comma_used_alongside_amp_or_semi",
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Conversion to (GEM unit ID)",
@@ -3454,7 +3507,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Alternate Fuel",
@@ -3515,8 +3569,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+        "out_of_set_categorical:7_values_not_in_reference",
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location",
@@ -3612,7 +3668,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Local area (taluk, county)",
@@ -3708,7 +3765,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -3804,7 +3862,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subnational unit (province, state)",
@@ -3900,7 +3959,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subregion",
@@ -3982,7 +4042,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -4024,7 +4085,8 @@
       "is_required_guess": true,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -4120,7 +4182,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -4216,7 +4279,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location accuracy",
@@ -4246,7 +4310,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Permits",
@@ -4342,7 +4407,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Permit Date",
@@ -4438,7 +4504,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Permit Parsed",
@@ -4534,7 +4603,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive",
@@ -4632,8 +4702,10 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:10_values_below_1pct",
-        "potential_multi_value"
-      ]
+        "wrong_multi_value_separator:comma_used_alongside_amp_or_semi",
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive industry use",
@@ -4667,7 +4739,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Captive residential use",
@@ -4699,7 +4772,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "China Capacity Payment Recipient",
@@ -4719,7 +4793,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CHP",
@@ -4753,7 +4828,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Plant age (years)",
@@ -4849,7 +4925,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "year_out_of_range:66_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity factor",
@@ -4873,7 +4952,10 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Heat rate (Btu per kWh)",
@@ -4969,7 +5051,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Emission factor (kg of CO2 per TJ)",
@@ -5013,7 +5098,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Annual CO2 (million tonnes / annum)",
@@ -5109,7 +5197,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Remaining plant lifetime (years)",
@@ -5205,7 +5294,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "year_out_of_range:43_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Lifetime CO2 (million tonnes)",
@@ -5301,7 +5393,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

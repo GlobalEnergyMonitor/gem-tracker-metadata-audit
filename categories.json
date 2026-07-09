@@ -1,0 +1,59 @@
+{
+  "_comment": "Cross-tracker interoperability categories. Each category lists code_friendly_name patterns (substring match). Edit this file to adjust category membership without touching JS.",
+  "IDs": {
+    "description": "Persistent identifiers used to join records across trackers and to the Ownership API",
+    "patterns": [
+      "gem_unit_id", "gem_location_id", "gem_project_id", "gem_plant_id",
+      "gem_mine_id", "gem_terminal_id", "gem_combo_id", "gem_asset_id",
+      "gem_phase_id", "projectid"
+    ]
+  },
+  "Names": {
+    "description": "Human-readable identity fields used for display and deduplication",
+    "patterns": [
+      "unit_name", "plant_name", "project_name", "mine_name", "phase_name",
+      "terminal_name"
+    ]
+  },
+  "Status": {
+    "description": "Project/unit lifecycle status — biggest known value-encoding divergence across trackers",
+    "patterns": [
+      "status", "unit_status", "operating_status", "project_status",
+      "plant_status", "mine_site_status", "finance_status"
+    ]
+  },
+  "Capacity": {
+    "description": "Primary magnitude field — units vary by sector (MW, MTPA, bbl/day)",
+    "patterns": [
+      "capacity_mw", "capacity_mtpa", "capacity_ttpa", "capacity_boed",
+      "capacity", "installed_capacity", "total_capacity", "production_capacity",
+      "production_mtpa", "capacityunits", "capacityboed"
+    ]
+  },
+  "Location": {
+    "description": "Geographic fields for spatial queries and mapping",
+    "patterns": [
+      "latitude", "longitude", "country_area", "country",
+      "location_accuracy", "state_province", "subnational_unit",
+      "region", "subregion", "local_area_taluk_county",
+      "major_area_prefecture_district", "location"
+    ]
+  },
+  "Temporal": {
+    "description": "Date and year fields required for time-sliced queries (operating in year X)",
+    "patterns": [
+      "start_year", "retired_year", "announced_year", "construction_year",
+      "shelved_year", "cancelled_year", "opening_year", "commissioning_year",
+      "start_date", "retired_date", "announced_date", "construction_date",
+      "shelvedyear", "date_last_researched"
+    ]
+  },
+  "Entities": {
+    "description": "Owner and operator fields — standardized by the Ownership Tracker; key for company-level queries",
+    "patterns": [
+      "owner", "operator", "parent", "owner_name", "operator_name",
+      "parent_name", "owner_gem_entity_id", "parent_gem_entity_id",
+      "operator_gem_entity_id", "owner_s", "parent_s"
+    ]
+  }
+}

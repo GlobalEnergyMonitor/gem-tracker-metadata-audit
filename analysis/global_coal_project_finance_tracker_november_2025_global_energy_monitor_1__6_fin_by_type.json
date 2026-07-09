@@ -3,7 +3,8 @@
   "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
   "tab_slug": "6_fin_by_type",
   "n_rows": 21,
-  "analyzed_at": "2026-07-07T21:45:11.432064+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:06.006037+00:00",
   "tracker_info": {
     "title": "Global Coal Project Finance Tracker - November 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -24,7 +25,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Project Financing ($USD) by Finance Type and Financier Type (2010-April 2025)",
@@ -39,7 +43,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col2",
@@ -79,7 +86,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col3",
@@ -131,7 +141,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col4",
@@ -197,7 +210,8 @@
       "is_required_guess": false,
       "flags": [
         "mostly_numeric_with_outliers"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col5",
@@ -259,7 +273,8 @@
       "is_required_guess": false,
       "flags": [
         "mostly_numeric_with_outliers"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col6",
@@ -321,7 +336,8 @@
       "is_required_guess": false,
       "flags": [
         "mostly_numeric_with_outliers"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col7",
@@ -391,7 +407,8 @@
       "is_required_guess": false,
       "flags": [
         "mostly_numeric_with_outliers"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col8",
@@ -406,7 +423,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

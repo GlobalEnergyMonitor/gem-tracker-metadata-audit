@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ANALYSIS_DIR = Path("analysis")
+CATEGORIES_PATH = Path("categories.json")
 
 SKIP_TRACKER_SLUGS = {"sqlite_sequence"}
 SKIP_TAB_SLUGS = {
@@ -47,6 +48,27 @@ METHODOLOGY = (
     "same-name fields flags tracker-specific extensions or encoding differences that "
     "need resolving before schema unification."
 )
+
+
+# ── Category mapping ──────────────────────────────────────────────────────────
+
+def load_categories():
+    """Load categories.json → {category_name: {description, patterns: [str]}}"""
+    if not CATEGORIES_PATH.exists():
+        return {}
+    with open(CATEGORIES_PATH, encoding="utf-8") as f:
+        raw = json.load(f)
+    return {k: v for k, v in raw.items() if not k.startswith("_")}
+
+
+def assign_category(code_friendly_name, categories):
+    """Return the first matching category name for a cfn, or None."""
+    cfn = code_friendly_name.lower()
+    for cat_name, cat in categories.items():
+        for pattern in cat.get("patterns", []):
+            if cfn == pattern or cfn.startswith(pattern + "_") or cfn.endswith("_" + pattern) or pattern in cfn:
+                return cat_name
+    return None
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
@@ -186,6 +208,9 @@ def main():
     records = load_fields()
     print(f"Loaded {len(records)} field records.")
 
+    categories = load_categories()
+    print(f"Loaded {len(categories)} interoperability categories.")
+
     by_name = defaultdict(list)
     for r in records:
         by_name[r["code_friendly_name"]].append(r)
@@ -200,6 +225,7 @@ def main():
         exact_groups.append({
             "group_key": name,
             "label": most_common_label(fields),
+            "category": assign_category(name, categories),
             "n_trackers": len(trackers),
             "trackers": trackers,
             "subtypes": sorted({f["subtype_guess"] for f in fields if f["subtype_guess"]}),
@@ -245,6 +271,48 @@ def main():
     fuzzy_pairs.sort(key=lambda p: (-p["similarity"], -(p["n_trackers_a"] + p["n_trackers_b"])))
     print(f"Fuzzy pairs (Jaccard ≥{FUZZY_THRESHOLD}): {len(fuzzy_pairs)}")
 
+    # ── Category summary ──────────────────────────────────────────
+    # For each category, collect all trackers that have at least one matching field
+    # and the exact groups assigned to that category.
+    all_trackers = sorted({r["tracker_slug"] for r in records})
+    category_summary = {}
+    for cat_name, cat_info in categories.items():
+        cat_groups = [g for g in exact_groups if g["category"] == cat_name]
+        # Per-tracker: which field name(s) they use for this category
+        tracker_fields = defaultdict(list)
+        for group in cat_groups:
+            for f in group["fields"]:
+                tracker_fields[f["tracker_slug"]].append({
+                    "field_name": f["field_name"],
+                    "group_key": group["group_key"],
+                    "in_research_db": f["in_research_db"],
+                })
+        # Also check single-tracker fields (not in exact_groups) for coverage
+        for r in records:
+            cfn = r["code_friendly_name"]
+            if assign_category(cfn, categories) == cat_name:
+                slug = r["tracker_slug"]
+                already = any(e["group_key"] == cfn for e in tracker_fields[slug])
+                if not already:
+                    tracker_fields[slug].append({
+                        "field_name": r["field_name"],
+                        "group_key": cfn,
+                        "in_research_db": r["in_research_db"],
+                    })
+
+        trackers_with_category = sorted(tracker_fields.keys())
+        category_summary[cat_name] = {
+            "description": cat_info.get("description", ""),
+            "n_trackers_with_field": len(trackers_with_category),
+            "trackers_with_field": trackers_with_category,
+            "trackers_missing_field": [t for t in all_trackers if t not in tracker_fields],
+            "n_exact_groups": len(cat_groups),
+            "exact_group_keys": [g["group_key"] for g in cat_groups],
+            "tracker_fields": dict(tracker_fields),
+            # Value consistency: aggregate Jaccard across categorical groups in this category
+            "value_jaccard": _mean_jaccard(cat_groups),
+        }
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "methodology": METHODOLOGY,
@@ -253,7 +321,9 @@ def main():
             "n_unique_names": len(by_name),
             "n_exact_groups": len(exact_groups),
             "n_fuzzy_pairs": len(fuzzy_pairs),
+            "n_trackers": len(all_trackers),
         },
+        "categories": category_summary,
         "exact_groups": exact_groups,
         "fuzzy_pairs": fuzzy_pairs,
     }
@@ -262,6 +332,18 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f_out:
         json.dump(out, f_out, indent=2, ensure_ascii=False)
     print(f"Output: {out_path}")
+
+
+def _mean_jaccard(groups):
+    """Average value Jaccard across groups that have value_overlap data."""
+    scores = [
+        g["value_overlap"]["jaccard"]
+        for g in groups
+        if g.get("value_overlap") and g["value_overlap"].get("jaccard") is not None
+    ]
+    if not scores:
+        return None
+    return round(sum(scores) / len(scores), 3)
 
 
 if __name__ == "__main__":

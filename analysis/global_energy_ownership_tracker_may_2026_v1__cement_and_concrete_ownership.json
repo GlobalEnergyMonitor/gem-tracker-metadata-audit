@@ -3,7 +3,8 @@
   "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
   "tab_slug": "cement_and_concrete_ownership",
   "n_rows": 10052,
-  "analyzed_at": "2026-07-07T21:45:12.247522+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:06.982977+00:00",
   "tracker_info": {
     "title": "Global Energy Ownership Tracker - May 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -105,7 +106,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent",
@@ -201,7 +203,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent Registration Country",
@@ -297,7 +300,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent Headquarters Country",
@@ -393,7 +397,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project",
@@ -489,7 +494,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Share",
@@ -585,7 +591,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Ownership Path",
@@ -681,7 +688,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Immediate Project Owner",
@@ -777,7 +785,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Immediate Project Owner GEM Entity ID",
@@ -873,7 +882,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Tracker",
@@ -893,7 +903,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -937,9 +948,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:3_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "Announced",
@@ -1095,7 +1105,8 @@
       "is_required_guess": false,
       "flags": [
         "mostly_numeric_with_outliers"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Clinker Capacity (millions metric tonnes per annum)",
@@ -1191,7 +1202,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Plant ID",
@@ -1287,7 +1299,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

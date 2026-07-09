@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "coal_mines",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.214697+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.393949+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "MSHA ID",
@@ -115,7 +117,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country / Area",
@@ -159,7 +164,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Name",
@@ -255,7 +261,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Name AKAs",
@@ -303,7 +310,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Name (Non-ENG)",
@@ -399,7 +407,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Complex Name",
@@ -414,7 +423,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Wiki Page (ENG)",
@@ -510,7 +522,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Wiki Page (Non-ENG)",
@@ -598,7 +611,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -630,7 +644,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:1_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status Detail",
@@ -662,7 +679,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:4_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Type",
@@ -690,7 +710,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Phase",
@@ -705,7 +726,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owners",
@@ -801,7 +825,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner GEM Entity ID",
@@ -897,7 +922,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owners (Non-ENG)",
@@ -917,7 +943,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent Company",
@@ -1006,8 +1033,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Company HQs",
@@ -1063,7 +1091,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (Mtpa)",
@@ -1159,7 +1188,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Production (Mtpa)",
@@ -1255,7 +1285,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Year of Production",
@@ -1299,7 +1330,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst)",
@@ -1314,7 +1346,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Type",
@@ -1343,8 +1378,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mining Method",
@@ -1368,7 +1404,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Size (Km2)",
@@ -1404,7 +1441,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Depth (m)",
@@ -1444,7 +1482,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Depth Accuracy",
@@ -1468,7 +1507,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Workforce Size",
@@ -1564,7 +1604,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Workforce Accuracy",
@@ -1588,7 +1629,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Type",
@@ -1612,7 +1654,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Grade",
@@ -1645,8 +1688,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_&"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Percentage of Met Coal",
@@ -1666,7 +1710,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Percentage of Thermal Coal",
@@ -1686,7 +1731,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Accuracy Rating",
@@ -1706,7 +1752,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reported Year of Percentage Split",
@@ -1721,7 +1768,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Total Reserves (Proven and Probable, Mt)",
@@ -1809,7 +1857,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Year of Total Reserves Recorded",
@@ -1833,7 +1882,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Total Resource (Inferred, Indicated, Measured)",
@@ -1917,7 +1967,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reserve to Production Ratio (R/P)",
@@ -1977,7 +2028,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Opening Year",
@@ -2073,7 +2125,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Closing Year",
@@ -2097,7 +2150,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reported Life of Mine",
@@ -2185,7 +2239,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reported Year of Mine Life",
@@ -2209,7 +2264,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coalfield",
@@ -2245,7 +2301,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location",
@@ -2341,7 +2398,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Prefecture, District",
@@ -2377,7 +2435,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "State, Province",
@@ -2465,7 +2524,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subregion",
@@ -2485,7 +2545,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -2505,7 +2566,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -2601,7 +2663,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -2697,7 +2760,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location Accuracy",
@@ -2721,7 +2785,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Primary Consumer, Destination",
@@ -2753,7 +2818,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Plant, Steel Plant, Terminal",
@@ -2805,7 +2871,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Plant, Steel Plant, Terminal GEM Wiki",
@@ -2845,7 +2914,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Gas-level Rating",
@@ -2860,7 +2930,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Gas-level Rating Appraisal Year",
@@ -2875,7 +2948,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reported Coal Mine Methane Emissions (thousand tonnes per year)",
@@ -2890,7 +2964,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Year of Reported Coal Mine Methane Emissions",
@@ -2905,7 +2980,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Source ID",
@@ -2920,7 +2996,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Has associated plume data",
@@ -2940,7 +3019,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Has associated CMM mitigation data",
@@ -2960,7 +3042,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
@@ -3056,7 +3141,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
@@ -3100,7 +3186,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Methane Gas Content (m^3/tonne) (Updated)",
@@ -3152,7 +3239,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:8_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Methane Emissions Factor (Updated)",
@@ -3180,7 +3270,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:2_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CMM Emissions (CO2e 20 years)",
@@ -3260,7 +3353,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:15_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CMM Emissions (CO2e 100 years)",
@@ -3320,7 +3416,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:10_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "ISO Code",
@@ -3360,7 +3459,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Size (Km2)_2",
@@ -3392,7 +3492,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Depth (m)_2",
@@ -3416,7 +3517,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reason for Closure",
@@ -3440,7 +3542,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Site Status",
@@ -3460,7 +3563,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:1_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

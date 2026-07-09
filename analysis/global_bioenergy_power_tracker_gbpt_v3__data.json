@@ -3,7 +3,8 @@
   "tracker_slug": "global_bioenergy_power_tracker_gbpt_v3",
   "tab_slug": "data",
   "n_rows": 4537,
-  "analyzed_at": "2026-07-07T21:45:10.688813+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:05.132306+00:00",
   "tracker_info": {
     "title": "Global Bioenergy Power Tracker - September 24, 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Bioenergy Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -105,7 +106,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -208,6 +212,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -310,6 +315,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -412,6 +418,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -514,6 +521,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -616,6 +624,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -718,6 +727,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "MW",
@@ -820,6 +830,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -881,9 +892,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:5_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -921,7 +931,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit Conversion Year",
@@ -1017,7 +1028,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Start Year",
@@ -1113,7 +1125,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retired Year",
@@ -1201,7 +1214,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Hydrogen Capable",
@@ -1221,7 +1235,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -1323,7 +1340,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator Name(s) in Local Language / Script",
@@ -1419,7 +1437,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator(s) GEM Entity ID",
@@ -1516,6 +1535,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -1617,7 +1637,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner Name(s) in Local Language / Script",
@@ -1713,7 +1734,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner(s) GEM Entity ID",
@@ -1810,6 +1832,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -1912,6 +1935,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2014,6 +2038,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2116,6 +2141,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "decimal degrees",
@@ -2218,6 +2244,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "decimal degrees",
@@ -2248,6 +2275,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "approximate, exact",
@@ -2350,6 +2378,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2452,6 +2481,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2554,6 +2584,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2656,6 +2687,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2736,6 +2768,7 @@
       "flags": [
         "categorical_rare_values:4_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2778,6 +2811,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -2880,6 +2914,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "L2 + 5 digits",
@@ -2982,6 +3017,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "G2 + 5 digits",
@@ -3084,6 +3120,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -3186,6 +3223,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "n/a",
@@ -3287,7 +3325,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

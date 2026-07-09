@@ -4,11 +4,18 @@
     "tracker_slug": "gas_finance_tracker_data_december_2025",
     "tab_slug": "gas_power_plants",
     "n_rows": 1358,
+    "n_duplicate_rows": 5,
     "n_fields": 33,
-    "n_flagged": 8,
+    "n_flagged": 16,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 7,
-      "mostly_numeric_with_outliers": 1
+      "out_of_set_categorical": 3,
+      "mostly_numeric_with_outliers": 1,
+      "year_out_of_range": 2,
+      "categorical_rare_values": 3,
+      "wrong_multi_value_separator": 1,
+      "boolean_encoding": 7
     },
     "in_research_db": false
   },
@@ -17,9 +24,14 @@
     "tracker_slug": "gas_finance_tracker_data_december_2025",
     "tab_slug": "introduction_terminology",
     "n_rows": 32,
+    "n_duplicate_rows": 1,
     "n_fields": 13,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 11,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 11
+    },
     "in_research_db": false
   },
   {
@@ -27,12 +39,19 @@
     "tracker_slug": "gas_finance_tracker_data_december_2025",
     "tab_slug": "lng_terminals",
     "n_rows": 972,
+    "n_duplicate_rows": 3,
     "n_fields": 36,
-    "n_flagged": 11,
+    "n_flagged": 22,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 10,
-      "numeric_null_proxies": 1,
-      "potential_multi_value": 1
+      "categorical_rare_values": 5,
+      "wrong_multi_value_separator": 1,
+      "out_of_set_categorical": 4,
+      "non_standard_null_proxies": 1,
+      "year_out_of_range": 2,
+      "multi_value_separator_check": 1,
+      "boolean_encoding": 10
     },
     "in_research_db": false
   },
@@ -41,12 +60,18 @@
     "tracker_slug": "gem_ggit_gas_pipelines_2025_11",
     "tab_slug": "pipelines",
     "n_rows": 4246,
+    "n_duplicate_rows": 0,
     "n_fields": 53,
-    "n_flagged": 8,
+    "n_flagged": 29,
+    "n_suppressed": 0,
+    "n_with_definition": 53,
     "flags_by_type": {
-      "categorical_rare_values": 5,
-      "numeric_null_proxies": 2,
-      "mostly_numeric_with_outliers": 1
+      "out_of_set_categorical": 3,
+      "year_out_of_range": 16,
+      "categorical_rare_values": 3,
+      "non_standard_null_proxies": 2,
+      "mostly_numeric_with_outliers": 1,
+      "boolean_encoding": 4
     },
     "in_research_db": false
   },
@@ -55,9 +80,14 @@
     "tracker_slug": "gem_ggit_lng_teminals_2025_09",
     "tab_slug": "about_ggit_lng",
     "n_rows": 94,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 2
+    },
     "in_research_db": true
   },
   {
@@ -65,10 +95,16 @@
     "tracker_slug": "gem_ggit_lng_teminals_2025_09",
     "tab_slug": "lng_terminals",
     "n_rows": 1206,
+    "n_duplicate_rows": 0,
     "n_fields": 73,
-    "n_flagged": 8,
+    "n_flagged": 22,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 8
+      "out_of_set_categorical": 6,
+      "categorical_rare_values": 6,
+      "year_out_of_range": 2,
+      "boolean_encoding": 10
     },
     "in_research_db": true
   },
@@ -77,11 +113,18 @@
     "tracker_slug": "gem_goit_oil_ngl_pipelines_2025_03",
     "tab_slug": "pipelines",
     "n_rows": 1874,
+    "n_duplicate_rows": 0,
     "n_fields": 51,
-    "n_flagged": 6,
+    "n_flagged": 20,
+    "n_suppressed": 0,
+    "n_with_definition": 50,
     "flags_by_type": {
-      "categorical_rare_values": 5,
-      "numeric_null_proxies": 1
+      "out_of_set_categorical": 2,
+      "wrong_multi_value_separator": 1,
+      "year_out_of_range": 13,
+      "categorical_rare_values": 3,
+      "non_standard_null_proxies": 1,
+      "numeric_outliers": 1
     },
     "in_research_db": false
   },
@@ -90,10 +133,15 @@
     "tracker_slug": "geothermal_power_tracker_march_2026_final",
     "tab_slug": "data",
     "n_rows": 835,
+    "n_duplicate_rows": 0,
     "n_fields": 35,
-    "n_flagged": 3,
+    "n_flagged": 7,
+    "n_suppressed": 0,
+    "n_with_definition": 23,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 1,
+      "categorical_rare_values": 2,
+      "boolean_encoding": 4
     },
     "in_research_db": true
   },
@@ -102,10 +150,15 @@
     "tracker_slug": "global_bioenergy_power_tracker_gbpt_v3",
     "tab_slug": "data",
     "n_rows": 4537,
+    "n_duplicate_rows": 0,
     "n_fields": 36,
-    "n_flagged": 2,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 2
+      "year_out_of_range": 1,
+      "boolean_encoding": 1,
+      "categorical_rare_values": 1
     },
     "in_research_db": true
   },
@@ -114,11 +167,17 @@
     "tracker_slug": "global_cement_and_concrete_tracker_july_2025",
     "tab_slug": "plant_data",
     "n_rows": 3722,
+    "n_duplicate_rows": 1,
     "n_fields": 42,
-    "n_flagged": 5,
+    "n_flagged": 20,
+    "n_suppressed": 0,
+    "n_with_definition": 21,
     "flags_by_type": {
       "mostly_numeric_with_outliers": 1,
-      "categorical_rare_values": 4
+      "year_out_of_range": 1,
+      "categorical_rare_values": 3,
+      "boolean_encoding": 16,
+      "out_of_set_categorical": 1
     },
     "in_research_db": false
   },
@@ -127,10 +186,13 @@
     "tracker_slug": "global_coal_mine_tracker_december_2024_supplement_historical_production_from_2018_to_2023",
     "tab_slug": "historical_production_china",
     "n_rows": 674,
+    "n_duplicate_rows": 0,
     "n_fields": 24,
     "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1,
+      "multi_value_separator_check": 1,
       "categorical_rare_values": 1
     },
     "in_research_db": false
@@ -140,9 +202,14 @@
     "tracker_slug": "global_coal_mine_tracker_december_2024_supplement_historical_production_from_2018_to_2023",
     "tab_slug": "historical_production_non_china",
     "n_rows": 1188,
+    "n_duplicate_rows": 0,
     "n_fields": 32,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "year_out_of_range": 1
+    },
     "in_research_db": false
   },
   {
@@ -150,12 +217,19 @@
     "tracker_slug": "global_coal_mine_tracker_may_2026",
     "tab_slug": "closed_mines",
     "n_rows": 1754,
+    "n_duplicate_rows": 0,
     "n_fields": 46,
-    "n_flagged": 10,
+    "n_flagged": 14,
+    "n_suppressed": 0,
+    "n_with_definition": 40,
     "flags_by_type": {
-      "categorical_rare_values": 8,
-      "potential_multi_value": 2,
-      "mostly_numeric_with_outliers": 1
+      "year_out_of_range": 4,
+      "out_of_set_categorical": 4,
+      "multi_value_separator_check": 1,
+      "categorical_rare_values": 4,
+      "numeric_outliers": 1,
+      "mostly_numeric_with_outliers": 1,
+      "boolean_encoding": 3
     },
     "in_research_db": false
   },
@@ -164,9 +238,14 @@
     "tracker_slug": "global_coal_mine_tracker_may_2026",
     "tab_slug": "historic_production_2018_2025",
     "n_rows": 3740,
+    "n_duplicate_rows": 0,
     "n_fields": 34,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 6,
+    "flags_by_type": {
+      "out_of_set_categorical": 1
+    },
     "in_research_db": false
   },
   {
@@ -174,12 +253,20 @@
     "tracker_slug": "global_coal_mine_tracker_may_2026",
     "tab_slug": "non_closed_mines",
     "n_rows": 5382,
+    "n_duplicate_rows": 0,
     "n_fields": 74,
-    "n_flagged": 10,
+    "n_flagged": 22,
+    "n_suppressed": 0,
+    "n_with_definition": 68,
     "flags_by_type": {
-      "categorical_rare_values": 8,
-      "potential_multi_value": 2,
-      "mostly_numeric_with_outliers": 1
+      "out_of_set_categorical": 8,
+      "categorical_rare_values": 3,
+      "multi_value_separator_check": 1,
+      "wrong_multi_value_separator": 2,
+      "year_out_of_range": 7,
+      "mostly_numeric_with_outliers": 1,
+      "boolean_encoding": 3,
+      "numeric_outliers": 1
     },
     "in_research_db": false
   },
@@ -188,9 +275,14 @@
     "tracker_slug": "global_coal_mine_tracker_september_2024_supplement_v2",
     "tab_slug": "historical_production_china",
     "n_rows": 1114,
+    "n_duplicate_rows": 0,
     "n_fields": 24,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "year_out_of_range": 1
+    },
     "in_research_db": false
   },
   {
@@ -198,9 +290,14 @@
     "tracker_slug": "global_coal_mine_tracker_september_2024_supplement_v2",
     "tab_slug": "historical_production_non_chin",
     "n_rows": 770,
+    "n_duplicate_rows": 0,
     "n_fields": 32,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "year_out_of_range": 1
+    },
     "in_research_db": false
   },
   {
@@ -208,10 +305,16 @@
     "tracker_slug": "global_coal_plant_tracker_january_2026",
     "tab_slug": "units",
     "n_rows": 14509,
+    "n_duplicate_rows": 0,
     "n_fields": 49,
-    "n_flagged": 6,
+    "n_flagged": 7,
+    "n_suppressed": 0,
+    "n_with_definition": 45,
     "flags_by_type": {
-      "categorical_rare_values": 6
+      "out_of_set_categorical": 2,
+      "wrong_multi_value_separator": 1,
+      "year_out_of_range": 3,
+      "boolean_encoding": 2
     },
     "in_research_db": true
   },
@@ -220,9 +323,14 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "1_fin_by_proj_countryarea",
     "n_rows": 67,
+    "n_duplicate_rows": 1,
     "n_fields": 1,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 1
+    },
     "in_research_db": false
   },
   {
@@ -230,9 +338,14 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "2_top_fin_by_fin_countryarea",
     "n_rows": 717,
+    "n_duplicate_rows": 1,
     "n_fields": 1,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 1
+    },
     "in_research_db": false
   },
   {
@@ -240,9 +353,14 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "3_top_fin_mw_by_fin_countrya",
     "n_rows": 724,
+    "n_duplicate_rows": 1,
     "n_fields": 3,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 3
+    },
     "in_research_db": false
   },
   {
@@ -250,9 +368,15 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "4_total_closed_fin",
     "n_rows": 25,
+    "n_duplicate_rows": 1,
     "n_fields": 3,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 2,
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -260,9 +384,14 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "5_fin_by_region_of_proj",
     "n_rows": 22,
+    "n_duplicate_rows": 1,
     "n_fields": 1,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 1
+    },
     "in_research_db": false
   },
   {
@@ -270,9 +399,14 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "6_fin_by_type",
     "n_rows": 21,
+    "n_duplicate_rows": 1,
     "n_fields": 9,
-    "n_flagged": 4,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
+      "boolean_encoding": 3,
+      "wrong_multi_value_separator": 2,
       "mostly_numeric_with_outliers": 4
     },
     "in_research_db": false
@@ -282,12 +416,20 @@
     "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
     "tab_slug": "data",
     "n_rows": 6556,
+    "n_duplicate_rows": 57,
     "n_fields": 68,
-    "n_flagged": 24,
+    "n_flagged": 34,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 21,
-      "numeric_null_proxies": 3,
-      "potential_multi_value": 4
+      "categorical_rare_values": 17,
+      "out_of_set_categorical": 4,
+      "boolean_encoding": 1,
+      "year_out_of_range": 5,
+      "non_standard_null_proxies": 3,
+      "wrong_multi_value_separator": 4,
+      "multi_value_separator_check": 4,
+      "numeric_outliers": 4
     },
     "in_research_db": false
   },
@@ -296,10 +438,16 @@
     "tracker_slug": "global_coal_terminals_tracker_december_2024",
     "tab_slug": "terminals",
     "n_rows": 521,
+    "n_duplicate_rows": 0,
     "n_fields": 24,
-    "n_flagged": 3,
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "out_of_set_categorical": 1,
+      "categorical_rare_values": 2,
+      "wrong_multi_value_separator": 1,
+      "boolean_encoding": 1
     },
     "in_research_db": false
   },
@@ -308,11 +456,15 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "all_entities",
     "n_rows": 28214,
+    "n_duplicate_rows": 1,
     "n_fields": 25,
-    "n_flagged": 5,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
       "categorical_rare_values": 1,
-      "numeric_null_proxies": 2,
+      "boolean_encoding": 1,
+      "non_standard_null_proxies": 2,
       "mostly_numeric_with_outliers": 2
     },
     "in_research_db": false
@@ -322,10 +474,14 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "asset_ownership",
     "n_rows": 50861,
+    "n_duplicate_rows": 1,
     "n_fields": 8,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "multi_value_separator_check": 1,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": false
   },
@@ -334,11 +490,12 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "bioenergy_power_ownership",
     "n_rows": 14459,
+    "n_duplicate_rows": 14,
     "n_fields": 14,
-    "n_flagged": 1,
-    "flags_by_type": {
-      "categorical_rare_values": 1
-    },
+    "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {},
     "in_research_db": false
   },
   {
@@ -346,10 +503,12 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "cement_and_concrete_ownership",
     "n_rows": 10052,
+    "n_duplicate_rows": 0,
     "n_fields": 14,
-    "n_flagged": 2,
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1,
       "mostly_numeric_with_outliers": 1
     },
     "in_research_db": false
@@ -359,9 +518,14 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "coal_mine_ownership",
     "n_rows": 16737,
+    "n_duplicate_rows": 7,
     "n_fields": 14,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 1
+    },
     "in_research_db": false
   },
   {
@@ -369,9 +533,14 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "coal_plant_ownership",
     "n_rows": 74494,
+    "n_duplicate_rows": 695,
     "n_fields": 14,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 1
+    },
     "in_research_db": false
   },
   {
@@ -379,9 +548,14 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "entity_ownership",
     "n_rows": 26332,
+    "n_duplicate_rows": 1,
     "n_fields": 7,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -389,10 +563,13 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "gas_pipeline_ownership",
     "n_rows": 29870,
+    "n_duplicate_rows": 103,
     "n_fields": 14,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "out_of_set_categorical": 1
     },
     "in_research_db": false
   },
@@ -401,11 +578,12 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "gas_plant_ownership",
     "n_rows": 75293,
+    "n_duplicate_rows": 84,
     "n_fields": 14,
-    "n_flagged": 1,
-    "flags_by_type": {
-      "categorical_rare_values": 1
-    },
+    "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {},
     "in_research_db": false
   },
   {
@@ -413,11 +591,14 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "iron_mine_ownership",
     "n_rows": 3816,
+    "n_duplicate_rows": 0,
     "n_fields": 15,
     "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1,
-      "numeric_null_proxies": 1
+      "out_of_set_categorical": 1,
+      "non_standard_null_proxies": 1
     },
     "in_research_db": false
   },
@@ -426,11 +607,15 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "oil_ngl_pipeline_ownership",
     "n_rows": 12242,
+    "n_duplicate_rows": 31,
     "n_fields": 14,
-    "n_flagged": 2,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1,
-      "numeric_null_proxies": 1
+      "out_of_set_categorical": 1,
+      "non_standard_null_proxies": 1,
+      "boolean_encoding": 1
     },
     "in_research_db": false
   },
@@ -439,10 +624,13 @@
     "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
     "tab_slug": "steel_plant_ownership",
     "n_rows": 9476,
+    "n_duplicate_rows": 6,
     "n_fields": 14,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "numeric_outliers": 2
     },
     "in_research_db": false
   },
@@ -451,10 +639,15 @@
     "tracker_slug": "global_hydropower_tracker_march_2026",
     "tab_slug": "below_threshold",
     "n_rows": 251,
+    "n_duplicate_rows": 0,
     "n_fields": 39,
-    "n_flagged": 3,
+    "n_flagged": 12,
+    "n_suppressed": 0,
+    "n_with_definition": 38,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 2,
+      "boolean_encoding": 8,
+      "categorical_rare_values": 2
     },
     "in_research_db": true
   },
@@ -463,10 +656,15 @@
     "tracker_slug": "global_hydropower_tracker_march_2026",
     "tab_slug": "data",
     "n_rows": 7027,
+    "n_duplicate_rows": 1,
     "n_fields": 39,
-    "n_flagged": 3,
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 1,
+      "boolean_encoding": 1,
+      "categorical_rare_values": 2
     },
     "in_research_db": true
   },
@@ -475,11 +673,17 @@
     "tracker_slug": "global_integrated_power_march_2026_ii",
     "tab_slug": "power_facilities",
     "n_rows": 182428,
+    "n_duplicate_rows": 0,
     "n_fields": 52,
-    "n_flagged": 7,
+    "n_flagged": 12,
+    "n_suppressed": 0,
+    "n_with_definition": 50,
     "flags_by_type": {
-      "categorical_rare_values": 6,
-      "mostly_numeric_with_outliers": 1
+      "categorical_rare_values": 5,
+      "mostly_numeric_with_outliers": 1,
+      "boolean_encoding": 5,
+      "out_of_set_categorical": 1,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": true
   },
@@ -488,9 +692,14 @@
     "tracker_slug": "global_integrated_power_march_2026_ii",
     "tab_slug": "regions_area_and_countries",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 28,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "boolean_encoding": 1
+    },
     "in_research_db": true
   },
   {
@@ -498,11 +707,15 @@
     "tracker_slug": "global_iron_ore_mines_tracker_august_2025_v1",
     "tab_slug": "main_data",
     "n_rows": 949,
+    "n_duplicate_rows": 0,
     "n_fields": 24,
-    "n_flagged": 2,
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 19,
     "flags_by_type": {
-      "potential_multi_value": 1,
-      "categorical_rare_values": 1
+      "multi_value_separator_check": 1,
+      "out_of_set_categorical": 1,
+      "year_out_of_range": 2
     },
     "in_research_db": false
   },
@@ -511,10 +724,15 @@
     "tracker_slug": "global_nuclear_power_tracker_september_2025",
     "tab_slug": "data",
     "n_rows": 1749,
+    "n_duplicate_rows": 0,
     "n_fields": 38,
-    "n_flagged": 3,
+    "n_flagged": 8,
+    "n_suppressed": 0,
+    "n_with_definition": 38,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 5,
+      "categorical_rare_values": 2,
+      "boolean_encoding": 1
     },
     "in_research_db": true
   },
@@ -523,10 +741,14 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "field_level_main_data",
     "n_rows": 7673,
+    "n_duplicate_rows": 0,
     "n_fields": 27,
-    "n_flagged": 3,
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 26,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "out_of_set_categorical": 3,
+      "year_out_of_range": 1
     },
     "in_research_db": true
   },
@@ -535,8 +757,11 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "field_level_production_data",
     "n_rows": 11834,
+    "n_duplicate_rows": 0,
     "n_fields": 9,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 8,
     "flags_by_type": {
       "categorical_rare_values": 1
     },
@@ -547,10 +772,13 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "field_level_reserves_data",
     "n_rows": 7060,
+    "n_duplicate_rows": 0,
     "n_fields": 10,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 8,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "out_of_set_categorical": 1
     },
     "in_research_db": true
   },
@@ -559,9 +787,15 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "project_level_main_data",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 28,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 26,
+    "flags_by_type": {
+      "out_of_set_categorical": 3,
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": true
   },
   {
@@ -569,10 +803,13 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "project_level_production_data",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 7,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 7,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "out_of_set_categorical": 1
     },
     "in_research_db": true
   },
@@ -581,10 +818,13 @@
     "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
     "tab_slug": "project_level_reserves_data",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 8,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 8,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "out_of_set_categorical": 1
     },
     "in_research_db": true
   },
@@ -593,10 +833,16 @@
     "tracker_slug": "global_oil_and_gas_plant_tracker_gogpt_january_2026",
     "tab_slug": "gas_oil_units",
     "n_rows": 13635,
+    "n_duplicate_rows": 0,
     "n_fields": 44,
-    "n_flagged": 5,
+    "n_flagged": 7,
+    "n_suppressed": 0,
+    "n_with_definition": 40,
     "flags_by_type": {
-      "categorical_rare_values": 5
+      "categorical_rare_values": 4,
+      "boolean_encoding": 2,
+      "wrong_multi_value_separator": 1,
+      "out_of_set_categorical": 1
     },
     "in_research_db": true
   },
@@ -605,12 +851,18 @@
     "tracker_slug": "global_oil_and_gas_plant_tracker_gogpt_january_2026",
     "tab_slug": "sub_threshold_units",
     "n_rows": 1111,
+    "n_duplicate_rows": 0,
     "n_fields": 44,
-    "n_flagged": 6,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 40,
     "flags_by_type": {
       "mostly_numeric_with_outliers": 1,
-      "categorical_rare_values": 5,
-      "potential_multi_value": 1
+      "boolean_encoding": 2,
+      "categorical_rare_values": 4,
+      "out_of_set_categorical": 3,
+      "wrong_multi_value_separator": 2,
+      "multi_value_separator_check": 1
     },
     "in_research_db": true
   },
@@ -619,9 +871,14 @@
     "tracker_slug": "global_solar_power_tracker_february_2026",
     "tab_slug": "distributed_1_mw",
     "n_rows": 31,
+    "n_duplicate_rows": 0,
     "n_fields": 9,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 9,
+    "flags_by_type": {
+      "year_out_of_range": 1
+    },
     "in_research_db": true
   },
   {
@@ -629,10 +886,15 @@
     "tracker_slug": "global_solar_power_tracker_february_2026",
     "tab_slug": "utility_scale_1_mw",
     "n_rows": 103940,
+    "n_duplicate_rows": 0,
     "n_fields": 32,
-    "n_flagged": 4,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 4
+      "year_out_of_range": 1,
+      "categorical_rare_values": 3,
+      "boolean_encoding": 2
     },
     "in_research_db": true
   },
@@ -641,10 +903,15 @@
     "tracker_slug": "global_wind_power_tracker_february_2026",
     "tab_slug": "below_threshold",
     "n_rows": 1841,
+    "n_duplicate_rows": 0,
     "n_fields": 31,
-    "n_flagged": 4,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 27,
     "flags_by_type": {
-      "categorical_rare_values": 4
+      "year_out_of_range": 1,
+      "categorical_rare_values": 3,
+      "boolean_encoding": 2
     },
     "in_research_db": true
   },
@@ -653,10 +920,15 @@
     "tracker_slug": "global_wind_power_tracker_february_2026",
     "tab_slug": "data",
     "n_rows": 33248,
+    "n_duplicate_rows": 0,
     "n_fields": 31,
-    "n_flagged": 3,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 2,
+      "categorical_rare_values": 2,
+      "boolean_encoding": 2
     },
     "in_research_db": true
   },
@@ -665,9 +937,15 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "coal_mines_non_closed",
     "n_rows": 5424,
+    "n_duplicate_rows": 5,
     "n_fields": 14,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 1,
+      "boolean_encoding": 3
+    },
     "in_research_db": false
   },
   {
@@ -675,9 +953,16 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "lng_terminals",
     "n_rows": 1295,
+    "n_duplicate_rows": 0,
     "n_fields": 22,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 5,
+    "n_suppressed": 0,
+    "n_with_definition": 21,
+    "flags_by_type": {
+      "out_of_set_categorical": 1,
+      "year_out_of_range": 2,
+      "boolean_encoding": 2
+    },
     "in_research_db": false
   },
   {
@@ -685,10 +970,14 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "oil_and_gas_extraction_areas",
     "n_rows": 7396,
+    "n_duplicate_rows": 0,
     "n_fields": 13,
-    "n_flagged": 1,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1
+      "out_of_set_categorical": 1,
+      "year_out_of_range": 2
     },
     "in_research_db": false
   },
@@ -697,10 +986,15 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "oil_and_gas_reserves",
     "n_rows": 2338,
+    "n_duplicate_rows": 2,
     "n_fields": 19,
-    "n_flagged": 2,
+    "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 2
+      "categorical_rare_values": 2,
+      "out_of_set_categorical": 1,
+      "year_out_of_range": 1
     },
     "in_research_db": false
   },
@@ -709,11 +1003,14 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "pipelines",
     "n_rows": 3908,
+    "n_duplicate_rows": 0,
     "n_fields": 12,
     "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1,
-      "numeric_null_proxies": 1
+      "out_of_set_categorical": 1,
+      "non_standard_null_proxies": 1
     },
     "in_research_db": false
   },
@@ -722,11 +1019,16 @@
     "tracker_slug": "gmet_v3_12_12_2025",
     "tab_slug": "plumes",
     "n_rows": 3474,
+    "n_duplicate_rows": 0,
     "n_fields": 32,
-    "n_flagged": 3,
+    "n_flagged": 7,
+    "n_suppressed": 0,
+    "n_with_definition": 25,
     "flags_by_type": {
       "categorical_rare_values": 2,
-      "potential_multi_value": 1
+      "year_out_of_range": 2,
+      "multi_value_separator_check": 1,
+      "boolean_encoding": 2
     },
     "in_research_db": false
   },
@@ -735,10 +1037,15 @@
     "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "blast_furnace_relinings",
     "n_rows": 909,
+    "n_duplicate_rows": 5,
     "n_fields": 11,
-    "n_flagged": 3,
+    "n_flagged": 5,
+    "n_suppressed": 0,
+    "n_with_definition": 10,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "out_of_set_categorical": 1,
+      "year_out_of_range": 2,
+      "categorical_rare_values": 2
     },
     "in_research_db": true
   },
@@ -747,12 +1054,18 @@
     "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "blast_furnaces",
     "n_rows": 1654,
+    "n_duplicate_rows": 0,
     "n_fields": 19,
-    "n_flagged": 3,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 18,
     "flags_by_type": {
-      "categorical_rare_values": 2,
-      "numeric_null_proxies": 1,
-      "potential_multi_value": 1
+      "year_out_of_range": 6,
+      "numeric_outliers": 1,
+      "non_standard_null_proxies": 1,
+      "categorical_rare_values": 1,
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": true
   },
@@ -761,10 +1074,17 @@
     "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "direct_reduced_iron_furnaces",
     "n_rows": 647,
+    "n_duplicate_rows": 0,
     "n_fields": 26,
-    "n_flagged": 6,
+    "n_flagged": 11,
+    "n_suppressed": 0,
+    "n_with_definition": 26,
     "flags_by_type": {
-      "categorical_rare_values": 6
+      "year_out_of_range": 5,
+      "numeric_outliers": 1,
+      "categorical_rare_values": 4,
+      "wrong_multi_value_separator": 1,
+      "out_of_set_categorical": 1
     },
     "in_research_db": true
   },
@@ -773,8 +1093,11 @@
     "tracker_slug": "lng_carrier_tracker_december_2025_release",
     "tab_slug": "column_dictionary",
     "n_rows": 33,
+    "n_duplicate_rows": 0,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -783,10 +1106,16 @@
     "tracker_slug": "lng_carrier_tracker_december_2025_release",
     "tab_slug": "data",
     "n_rows": 1143,
+    "n_duplicate_rows": 0,
     "n_fields": 33,
-    "n_flagged": 7,
+    "n_flagged": 10,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 7
+      "categorical_rare_values": 6,
+      "out_of_set_categorical": 2,
+      "year_out_of_range": 2,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": false
   },
@@ -795,9 +1124,14 @@
     "tracker_slug": "plant_level_data_global_chemicals_inventory_november_2025_v1",
     "tab_slug": "plant_data",
     "n_rows": 868,
+    "n_duplicate_rows": 0,
     "n_fields": 21,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 21,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -805,11 +1139,16 @@
     "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "plant_capacities_and_status",
     "n_rows": 1845,
+    "n_duplicate_rows": 0,
     "n_fields": 16,
-    "n_flagged": 3,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 16,
     "flags_by_type": {
-      "categorical_rare_values": 2,
-      "mostly_numeric_with_outliers": 2
+      "year_out_of_range": 1,
+      "numeric_outliers": 6,
+      "mostly_numeric_with_outliers": 2,
+      "categorical_rare_values": 1
     },
     "in_research_db": true
   },
@@ -818,12 +1157,18 @@
     "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "plant_data",
     "n_rows": 1293,
+    "n_duplicate_rows": 0,
     "n_fields": 44,
-    "n_flagged": 5,
+    "n_flagged": 13,
+    "n_suppressed": 0,
+    "n_with_definition": 43,
     "flags_by_type": {
-      "potential_multi_value": 1,
-      "numeric_null_proxies": 2,
-      "categorical_rare_values": 2
+      "out_of_set_categorical": 1,
+      "multi_value_separator_check": 1,
+      "non_standard_null_proxies": 2,
+      "year_out_of_range": 7,
+      "categorical_rare_values": 2,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": true
   },
@@ -832,8 +1177,11 @@
     "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "plant_production",
     "n_rows": 1393,
+    "n_duplicate_rows": 26,
     "n_fields": 10,
     "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 10,
     "flags_by_type": {
       "categorical_rare_values": 2
     },
@@ -844,10 +1192,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_bioenergy",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -856,9 +1208,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_coal_mines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 3,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -866,8 +1223,11 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_coal_plants",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -876,9 +1236,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_coal_terminals",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 2,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 2
+    },
     "in_research_db": false
   },
   {
@@ -886,8 +1251,11 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_gas_pipelines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -896,9 +1264,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_geothermal",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -906,10 +1279,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_hydropower",
     "n_rows": 999,
+    "n_duplicate_rows": 2,
     "n_fields": 4,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -918,8 +1295,11 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_lng_terminals",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -928,10 +1308,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_nuclear",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 2,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -940,9 +1324,13 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_oil_gas_extraction",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
+      "wrong_multi_value_separator": 2,
       "categorical_rare_values": 1
     },
     "in_research_db": false
@@ -952,10 +1340,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_oil_gas_plants",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 3,
     "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -964,8 +1356,11 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_oil_pipelines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -974,9 +1369,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_portal_energ\u00e9tico",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 1,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "wrong_multi_value_separator": 1
+    },
     "in_research_db": false
   },
   {
@@ -984,10 +1384,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_solar",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 2,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -996,10 +1400,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "about_wind",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 4,
-    "n_flagged": 1,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 1
+      "wrong_multi_value_separator": 2,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -1008,11 +1416,18 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "bioenergy",
     "n_rows": 839,
+    "n_duplicate_rows": 0,
     "n_fields": 36,
     "n_flagged": 4,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 4,
-      "potential_multi_value": 1
+      "year_out_of_range": 1,
+      "categorical_rare_values": 1,
+      "wrong_multi_value_separator": 2,
+      "out_of_set_categorical": 1,
+      "multi_value_separator_check": 1,
+      "boolean_encoding": 1
     },
     "in_research_db": false
   },
@@ -1021,10 +1436,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "coal_mines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 73,
-    "n_flagged": 3,
+    "n_flagged": 19,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 3
+      "boolean_encoding": 8,
+      "out_of_set_categorical": 3,
+      "multi_value_separator_check": 3,
+      "wrong_multi_value_separator": 1,
+      "year_out_of_range": 4
     },
     "in_research_db": false
   },
@@ -1033,11 +1455,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "coal_plants",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 49,
-    "n_flagged": 3,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 1,
-      "potential_multi_value": 2
+      "out_of_set_categorical": 2,
+      "wrong_multi_value_separator": 2,
+      "multi_value_separator_check": 2,
+      "boolean_encoding": 4,
+      "year_out_of_range": 2
     },
     "in_research_db": false
   },
@@ -1046,10 +1474,15 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "coal_terminals",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 23,
-    "n_flagged": 2,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 2
+      "multi_value_separator_check": 2,
+      "out_of_set_categorical": 1,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": false
   },
@@ -1058,10 +1491,13 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "extraction_field_main",
     "n_rows": 1224,
+    "n_duplicate_rows": 0,
     "n_fields": 27,
-    "n_flagged": 2,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 2
+      "out_of_set_categorical": 3
     },
     "in_research_db": false
   },
@@ -1070,10 +1506,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "extraction_field_production",
     "n_rows": 2142,
+    "n_duplicate_rows": 0,
     "n_fields": 9,
-    "n_flagged": 4,
+    "n_flagged": 3,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 4
+      "out_of_set_categorical": 1,
+      "categorical_rare_values": 2
     },
     "in_research_db": false
   },
@@ -1082,10 +1522,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "extraction_field_reserves",
     "n_rows": 1899,
+    "n_duplicate_rows": 0,
     "n_fields": 10,
-    "n_flagged": 3,
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "out_of_set_categorical": 1,
+      "categorical_rare_values": 1
     },
     "in_research_db": false
   },
@@ -1094,9 +1538,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "extraction_project_production",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 7,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 1
+    },
     "in_research_db": false
   },
   {
@@ -1104,9 +1553,14 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "extraction_project_reserves",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 8,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 1,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 1
+    },
     "in_research_db": false
   },
   {
@@ -1114,11 +1568,18 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "gas_pipelines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 54,
-    "n_flagged": 6,
+    "n_flagged": 28,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 4,
-      "numeric_null_proxies": 2
+      "out_of_set_categorical": 3,
+      "year_out_of_range": 13,
+      "numeric_outliers": 1,
+      "categorical_rare_values": 3,
+      "non_standard_null_proxies": 2,
+      "boolean_encoding": 6
     },
     "in_research_db": false
   },
@@ -1127,10 +1588,16 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "geothermal",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 34,
-    "n_flagged": 2,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 2
+      "year_out_of_range": 1,
+      "wrong_multi_value_separator": 1,
+      "boolean_encoding": 5,
+      "multi_value_separator_check": 2
     },
     "in_research_db": false
   },
@@ -1139,10 +1606,15 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "hydropower",
     "n_rows": 741,
+    "n_duplicate_rows": 0,
     "n_fields": 39,
-    "n_flagged": 4,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 4
+      "year_out_of_range": 1,
+      "categorical_rare_values": 3,
+      "boolean_encoding": 3
     },
     "in_research_db": false
   },
@@ -1151,11 +1623,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "lng_terminals",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 73,
-    "n_flagged": 3,
+    "n_flagged": 18,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 2,
-      "potential_multi_value": 1
+      "out_of_set_categorical": 4,
+      "year_out_of_range": 2,
+      "boolean_encoding": 10,
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -1164,10 +1642,15 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "nuclear",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 38,
-    "n_flagged": 3,
+    "n_flagged": 10,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "potential_multi_value": 3
+      "year_out_of_range": 5,
+      "multi_value_separator_check": 3,
+      "boolean_encoding": 2
     },
     "in_research_db": false
   },
@@ -1176,11 +1659,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "oil_gas_plants",
     "n_rows": 1150,
+    "n_duplicate_rows": 0,
     "n_fields": 44,
-    "n_flagged": 4,
+    "n_flagged": 8,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3,
-      "potential_multi_value": 1
+      "boolean_encoding": 4,
+      "categorical_rare_values": 2,
+      "out_of_set_categorical": 2,
+      "wrong_multi_value_separator": 1,
+      "multi_value_separator_check": 1
     },
     "in_research_db": false
   },
@@ -1189,11 +1678,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "oil_pipelines",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 52,
-    "n_flagged": 9,
+    "n_flagged": 23,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 7,
-      "numeric_null_proxies": 2
+      "out_of_set_categorical": 3,
+      "wrong_multi_value_separator": 2,
+      "year_out_of_range": 12,
+      "categorical_rare_values": 6,
+      "non_standard_null_proxies": 2
     },
     "in_research_db": false
   },
@@ -1202,9 +1697,16 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "project_level_main_data",
     "n_rows": 999,
+    "n_duplicate_rows": 1,
     "n_fields": 33,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
+    "flags_by_type": {
+      "out_of_set_categorical": 3,
+      "wrong_multi_value_separator": 1,
+      "boolean_encoding": 5
+    },
     "in_research_db": false
   },
   {
@@ -1212,10 +1714,15 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "solar",
     "n_rows": 10493,
+    "n_duplicate_rows": 0,
     "n_fields": 32,
-    "n_flagged": 3,
+    "n_flagged": 5,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3
+      "year_out_of_range": 1,
+      "categorical_rare_values": 2,
+      "boolean_encoding": 2
     },
     "in_research_db": false
   },
@@ -1224,11 +1731,17 @@
     "tracker_slug": "portal_energetico_tracker_2026_03_24",
     "tab_slug": "wind",
     "n_rows": 2783,
+    "n_duplicate_rows": 0,
     "n_fields": 31,
-    "n_flagged": 3,
+    "n_flagged": 6,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {
-      "categorical_rare_values": 3,
-      "potential_multi_value": 1
+      "year_out_of_range": 1,
+      "categorical_rare_values": 2,
+      "multi_value_separator_check": 1,
+      "boolean_encoding": 2,
+      "wrong_multi_value_separator": 1
     },
     "in_research_db": false
   },
@@ -1237,9 +1750,14 @@
     "tracker_slug": "production_consumption_of_met_coal_iron_ore_by_steel_industry_december_2025_standard_copy_v1",
     "tab_slug": "prodconsmetcoalironore",
     "n_rows": 252,
+    "n_duplicate_rows": 0,
     "n_fields": 11,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 9,
+    "flags_by_type": {
+      "boolean_encoding": 2
+    },
     "in_research_db": false
   },
   {
@@ -1247,8 +1765,11 @@
     "tracker_slug": "sqlite_sequence",
     "tab_slug": "data",
     "n_rows": 1,
+    "n_duplicate_rows": 0,
     "n_fields": 2,
     "n_flagged": 0,
+    "n_suppressed": 0,
+    "n_with_definition": 0,
     "flags_by_type": {},
     "in_research_db": false
   },
@@ -1257,12 +1778,16 @@
     "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "basic_oxygen_furnaces",
     "n_rows": 1527,
+    "n_duplicate_rows": 0,
     "n_fields": 18,
-    "n_flagged": 4,
+    "n_flagged": 9,
+    "n_suppressed": 0,
+    "n_with_definition": 17,
     "flags_by_type": {
-      "categorical_rare_values": 3,
-      "potential_multi_value": 1,
-      "numeric_null_proxies": 1
+      "year_out_of_range": 6,
+      "categorical_rare_values": 2,
+      "multi_value_separator_check": 1,
+      "non_standard_null_proxies": 1
     },
     "in_research_db": true
   },
@@ -1271,10 +1796,16 @@
     "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "electric_arc_furnaces",
     "n_rows": 1407,
+    "n_duplicate_rows": 0,
     "n_fields": 27,
-    "n_flagged": 5,
+    "n_flagged": 12,
+    "n_suppressed": 0,
+    "n_with_definition": 27,
     "flags_by_type": {
-      "categorical_rare_values": 5
+      "year_out_of_range": 6,
+      "numeric_outliers": 1,
+      "boolean_encoding": 1,
+      "categorical_rare_values": 4
     },
     "in_research_db": true
   },
@@ -1283,11 +1814,17 @@
     "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "induction_furnaces",
     "n_rows": 605,
+    "n_duplicate_rows": 0,
     "n_fields": 27,
-    "n_flagged": 12,
+    "n_flagged": 15,
+    "n_suppressed": 0,
+    "n_with_definition": 27,
     "flags_by_type": {
-      "categorical_rare_values": 12,
-      "numeric_null_proxies": 1
+      "year_out_of_range": 2,
+      "categorical_rare_values": 10,
+      "numeric_outliers": 1,
+      "non_standard_null_proxies": 1,
+      "boolean_encoding": 3
     },
     "in_research_db": true
   },
@@ -1296,9 +1833,14 @@
     "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
     "tab_slug": "open_hearth_furnaces",
     "n_rows": 10,
+    "n_duplicate_rows": 0,
     "n_fields": 18,
-    "n_flagged": 0,
-    "flags_by_type": {},
+    "n_flagged": 2,
+    "n_suppressed": 0,
+    "n_with_definition": 17,
+    "flags_by_type": {
+      "boolean_encoding": 2
+    },
     "in_research_db": true
   }
 ]

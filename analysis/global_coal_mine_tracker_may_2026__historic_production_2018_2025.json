@@ -3,7 +3,8 @@
   "tracker_slug": "global_coal_mine_tracker_may_2026",
   "tab_slug": "historic_production_2018_2025",
   "n_rows": 3740,
-  "analyzed_at": "2026-07-07T21:45:10.864616+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:05.350595+00:00",
   "tracker_info": {
     "title": "Global Coal Mine Tracker - May 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, May 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "api_metadata": {
         "name": "GEM Mine ID",
         "definition": "A unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
@@ -216,7 +218,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country",
@@ -312,7 +315,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine Name",
@@ -409,6 +413,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "api_metadata": {
         "name": "Mine Name",
         "definition": "The name of a coal mine or proposed coal mine project.",
@@ -519,6 +524,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "api_metadata": {
         "name": "Mine Name AKAs",
         "data_type": "text",
@@ -630,6 +636,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "api_metadata": {
         "name": "Mine Name (Non-ENG)",
         "definition": "The non-english name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
@@ -671,7 +678,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "out_of_set_categorical:1_values_not_in_reference"
+      ],
+      "suppressed_flags": [],
       "value_definitions": [
         {
           "name": "Operating",
@@ -727,7 +737,15 @@
           "Retired": "A previously operating coal mine that has been permanently closed."
         },
         "taxonomy": "status"
-      }
+      },
+      "allowed_values_from_api": [
+        "Cancelled",
+        "Closed",
+        "Mothballed",
+        "Operating",
+        "Proposed",
+        "Shelved"
+      ]
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2025",
@@ -823,7 +841,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2025",
@@ -919,7 +938,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy",
@@ -944,6 +964,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "This column indicates whether the production data is reported or estimated. Reported values come directly from referenced sources, while estimated values are derived using various assumptions.",
       "notes_from_readme": null,
       "value_definitions": [
@@ -1047,7 +1068,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2024",
@@ -1143,7 +1165,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_2",
@@ -1167,7 +1190,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2023",
@@ -1263,7 +1287,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2023",
@@ -1359,7 +1384,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_3",
@@ -1383,7 +1409,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2022",
@@ -1479,7 +1506,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2022",
@@ -1575,7 +1603,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_4",
@@ -1599,7 +1628,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2021",
@@ -1695,7 +1725,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2021",
@@ -1791,7 +1822,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_5",
@@ -1815,7 +1847,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2020",
@@ -1911,7 +1944,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2020",
@@ -2007,7 +2041,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_6",
@@ -2031,7 +2066,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2019",
@@ -2127,7 +2163,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2019",
@@ -2223,7 +2260,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_7",
@@ -2247,7 +2285,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2018",
@@ -2343,7 +2382,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2018",
@@ -2439,7 +2479,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_8",
@@ -2463,7 +2504,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mt) 2017",
@@ -2559,7 +2601,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Coal Output (Annual, Mst) 2017",
@@ -2655,7 +2698,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Output Accuracy_9",
@@ -2679,7 +2723,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

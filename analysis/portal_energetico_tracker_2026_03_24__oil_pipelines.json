@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "oil_pipelines",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.449331+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.648816+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +101,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Fuel",
@@ -128,7 +130,11 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:3_values_not_in_reference",
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartPrefecture/District",
@@ -164,7 +170,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:5_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndState/Province",
@@ -260,7 +269,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:64_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Countries",
@@ -353,8 +365,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:8_values_below_1pct"
-      ]
+        "categorical_rare_values:8_values_below_1pct",
+        "wrong_multi_value_separator:comma_only"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki",
@@ -450,7 +464,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "PipelineName",
@@ -546,7 +561,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "SegmentName",
@@ -642,7 +658,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -683,8 +700,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ]
+        "out_of_set_categorical:2_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -780,7 +798,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Parent",
@@ -876,7 +895,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "OwnerEntityIDs",
@@ -972,7 +992,8 @@
       "type_guess": "text",
       "subtype_guess": "structured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ProposalYear",
@@ -1016,7 +1037,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ConstructionYear",
@@ -1056,7 +1078,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Diameter",
@@ -1152,7 +1175,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "DiameterUnits",
@@ -1178,7 +1202,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartYear1",
@@ -1274,7 +1299,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartYear2",
@@ -1294,7 +1320,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartYear3",
@@ -1309,7 +1336,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CancelledYear",
@@ -1337,7 +1365,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "DelayType",
@@ -1357,7 +1386,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "StopYear",
@@ -1381,7 +1411,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "ShelvedYear",
@@ -1405,7 +1436,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity",
@@ -1501,7 +1533,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CapacityUnits",
@@ -1547,7 +1580,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CapacityBOEd",
@@ -1644,8 +1678,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "LengthKnown",
@@ -1741,7 +1776,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LengthKnownUnits",
@@ -1765,7 +1801,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LengthKnownKm",
@@ -1861,7 +1898,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LengthEstimateKm",
@@ -1958,8 +1996,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [
-        "numeric_null_proxies"
-      ]
+        "non_standard_null_proxies"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "LengthMergedKm",
@@ -2055,7 +2094,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Diameter [ref]",
@@ -2151,7 +2191,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FuelSource",
@@ -2247,7 +2288,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "FuelSource [ref]",
@@ -2315,7 +2357,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "out_of_set_categorical:13_values_not_in_reference"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartLocation",
@@ -2411,7 +2456,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartCountry",
@@ -2487,7 +2535,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:15_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartSubRegion",
@@ -2511,7 +2562,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:2_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "StartRegion",
@@ -2531,7 +2585,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndLocation",
@@ -2627,7 +2684,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndPrefecture/District",
@@ -2675,7 +2735,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:8_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndCountry",
@@ -2747,7 +2810,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:14_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CostUSD",
@@ -2833,7 +2899,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:14_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndRegion",
@@ -2853,7 +2920,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "CostEuro",
@@ -2939,7 +3009,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:14_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "OtherLanguagePrimaryPipelineName",
@@ -3035,7 +3106,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "EndSubRegion",
@@ -3055,7 +3127,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "RouteType",
@@ -3075,7 +3150,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "RouteAccuracy",
@@ -3113,7 +3189,8 @@
       "is_required_guess": false,
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
-      ]
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Cost",
@@ -3193,7 +3270,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "CostUnits",
@@ -3213,7 +3291,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "LastUpdated",
@@ -3309,7 +3388,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:43_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "geometry",
@@ -3405,7 +3487,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

@@ -3,7 +3,8 @@
   "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
   "tab_slug": "field_level_main_data",
   "n_rows": 7673,
-  "analyzed_at": "2026-07-07T21:45:18.879126+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:14.806272+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique Unit ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Name of the unit as it is reported by sources, appended to fuel type and country/area information.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The name of the unit in the local script (e.g., Chinese).",
       "notes_from_readme": null
     },
@@ -336,8 +340,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
+        "out_of_set_categorical:4_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "A determination of whether the unit is a gas, oil, or oil and gas unit.",
       "notes_from_readme": null
     },
@@ -436,6 +441,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
       "notes_from_readme": null
     },
@@ -534,6 +540,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The subnational state that the unit is in (province, state, etc.).",
       "notes_from_readme": null
     },
@@ -560,6 +567,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Tag stating if production from a field uses conventional or unconventional methods.",
       "notes_from_readme": null
     },
@@ -614,8 +622,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:5_values_below_1pct"
+        "out_of_set_categorical:6_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The status of development of a unit, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
       "notes_from_readme": null,
       "value_definitions": [
@@ -716,8 +725,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "categorical_rare_values:2_values_below_1pct"
+        "out_of_set_categorical:10_values_not_in_reference"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Additional information on the status, see methodology for details.",
       "notes_from_readme": null
     },
@@ -816,6 +826,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The year of the source of the status information.",
       "notes_from_readme": null
     },
@@ -914,6 +925,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the unit was discovered.",
       "notes_from_readme": null
     },
@@ -1012,6 +1024,7 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the unit reach final investment decision.",
       "notes_from_readme": null
     },
@@ -1109,7 +1122,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Year in which the unit started commercial production.",
       "notes_from_readme": null
     },
@@ -1208,6 +1224,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that is the designated operator of the unit.",
       "notes_from_readme": null
     },
@@ -1306,6 +1323,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company (or companies) that own the unit. Often multiple companies will collaborate to fund a project.",
       "notes_from_readme": null
     },
@@ -1404,6 +1422,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The company (or companies) that own the owner companies listed.",
       "notes_from_readme": null
     },
@@ -1502,6 +1521,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The ID assigned by some governments to the asset.",
       "notes_from_readme": null
     },
@@ -1600,6 +1620,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "URL for the GEM.wiki page for an associated project, if relevant.",
       "notes_from_readme": null
     },
@@ -1698,6 +1719,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "URL for the GEM.wiki page for the field-level unit.",
       "notes_from_readme": null
     },
@@ -1796,6 +1818,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Alternate names for a field-level unit",
       "notes_from_readme": null
     },
@@ -1894,6 +1917,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
       "notes_from_readme": null
     },
@@ -1992,6 +2016,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
       "notes_from_readme": null
     },
@@ -2018,6 +2043,7 @@
       "subtype_guess": "accuracy",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Locations are designated as \"exact\" if there is information about where exactly the unit is (e.g., coordinates explicitly stated, or unit shown on a map). If only general information is available (e.g., which state or county the unit is in), an \"approximate\" designation is used.",
       "notes_from_readme": null
     },
@@ -2048,6 +2074,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Tag stating if a field predominantly located on or offshore",
       "notes_from_readme": null
     },
@@ -2146,6 +2173,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Field-level units outline in well-known-text format.",
       "notes_from_readme": null
     },
@@ -2244,6 +2272,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Each field-level unit is within a particular basin (short for sedimentary basin), when available, shown here.",
       "notes_from_readme": null
     },
@@ -2341,7 +2370,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

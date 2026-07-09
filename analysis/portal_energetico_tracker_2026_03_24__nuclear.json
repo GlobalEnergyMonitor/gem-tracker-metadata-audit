@@ -3,7 +3,8 @@
   "tracker_slug": "portal_energetico_tracker_2026_03_24",
   "tab_slug": "nuclear",
   "n_rows": 999,
-  "analyzed_at": "2026-07-07T21:45:22.400876+00:00",
+  "n_duplicate_rows": 1,
+  "analyzed_at": "2026-07-09T01:35:18.591224+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -48,7 +49,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:7_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Country/Area",
@@ -88,7 +92,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Name",
@@ -140,7 +145,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Unit Name",
@@ -192,7 +198,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Project Name in Local Language / Script",
@@ -212,7 +219,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Other Name(s)",
@@ -245,8 +253,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Capacity (MW)",
@@ -326,7 +335,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Status",
@@ -374,7 +384,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reactor Type",
@@ -410,7 +421,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Model",
@@ -470,7 +482,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Start Year",
@@ -530,7 +543,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retirement Year",
@@ -554,7 +568,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Planned Retirement",
@@ -574,7 +589,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:y_n"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Cancellation Year",
@@ -602,7 +620,8 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Construction Start Date",
@@ -658,7 +677,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:10_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "First Criticality Date",
@@ -710,7 +732,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:9_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "First Grid Connection",
@@ -758,7 +783,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Commercial Operation Date",
@@ -818,7 +844,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:8_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Retirement Date",
@@ -842,7 +871,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner",
@@ -891,8 +923,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Owner Name in Local Language / Script",
@@ -912,7 +945,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator",
@@ -949,8 +983,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
-      ]
+        "multi_value_separator_check:uses_;"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Operator Name in Local Language / Script",
@@ -965,7 +1000,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "Reference Net Capacity (MW)",
@@ -1021,7 +1059,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Design Net Capacity (MW)",
@@ -1073,7 +1112,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Thermal Capacity (MWt)",
@@ -1125,7 +1165,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Latitude",
@@ -1193,7 +1234,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Longitude",
@@ -1265,7 +1307,8 @@
       "type_guess": "numeric",
       "subtype_guess": null,
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Location Accuracy",
@@ -1289,7 +1332,8 @@
       "type_guess": "text",
       "subtype_guess": "accuracy",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "City",
@@ -1325,7 +1369,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Local Area (taluk, county)",
@@ -1353,7 +1398,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Major Area (prefecture, district)",
@@ -1381,7 +1427,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "State/Province",
@@ -1425,7 +1472,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Subregion",
@@ -1445,7 +1493,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Region",
@@ -1465,7 +1514,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM location ID",
@@ -1517,7 +1567,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM unit ID",
@@ -1613,7 +1664,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Wiki URL",
@@ -1665,7 +1717,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

@@ -3,7 +3,8 @@
   "tracker_slug": "production_consumption_of_met_coal_iron_ore_by_steel_industry_december_2025_standard_copy_v1",
   "tab_slug": "prodconsmetcoalironore",
   "n_rows": 252,
-  "analyzed_at": "2026-07-07T21:45:22.613144+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.836564+00:00",
   "tracker_info": {
     "title": null,
     "citation": null,
@@ -106,6 +107,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Country. Standardized to the GEM Naming Conventions.",
       "notes_from_readme": "N/A"
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Met coal production at country level. Estimated by adding up met coal production by mines in each country. Capacity of the mine was used where production was unknown.",
       "notes_from_readme": "Global Coal Mine Tracker, Global Energy Monitor, May 2025 release"
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Iron ore production data at country level. Estimated by adding up iron ore production by mines in each country. Capacity of the mine multiplied by a 45% capacity utilization rate was used where production was unknown.",
       "notes_from_readme": "Global Iron Ore Mines Tracker, Global Energy Monitor, August 2025 (V1) release"
     },
@@ -400,6 +404,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Met coal consumed at country level for production of pig iron in blast furnaces. Estimated by assuming 780 tonnes met coal consumed per tonne pig iron produced (Raw materials, World Steel Association, https://worldsteel.org/other-topics/raw-materials/, accessed November 2025).",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -498,6 +503,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Iron ore consumed at country level by production of pig iron in blast furnaces. Estimated by assuming 1.6 tonnes of iron ore consumed per tonne of pig iron produced (Raw materials, World Steel Association, https://worldsteel.org/other-topics/raw-materials/, accessed November 2025).",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -596,6 +602,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Iron ore consumed at country level by DRI production in DRI units. Estimated by assuming 1.4 tonnes of iron ore consumed per tonne of DRI (aka sponge iron) produced (Decarbonising Coal-based Direct Reduced Iron Production, CEEW, July 2024; Iron Ore Supply for Direct Reduction: Outlook and Challenges, IIMA, October 2024).",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -694,6 +701,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Total iron ore consumed by production of pig iron and DRI (sum of \"Iron ore consumed by pig iron production (ttpa)\" and \"Iron ore consumed by DRI production (ttpa)\" columns).",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -792,6 +800,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Pig iron production at country level as reported by the World Steel Association (WSA). Blast furnace (BF) capacity from GEM's Global Iron and Steel Tracker (GIST) was used where WSA production was unknown.",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -890,6 +899,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Direct reduced iron (DRI) production at country level as reported by WSA. DRI capacity from GIST was used where WSA production was unknown.",
       "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
     },
@@ -906,7 +916,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "_col10",
@@ -921,7 +934,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": []
     }
   ]
 }

@@ -3,7 +3,8 @@
   "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
   "tab_slug": "induction_furnaces",
   "n_rows": 605,
-  "analyzed_at": "2026-07-07T21:45:22.659195+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.892407+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
       "notes_from_readme": null
     },
@@ -204,6 +206,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "A unique GEM identifier is assigned to each induction furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
       "notes_from_readme": null
     },
@@ -302,6 +305,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
       "notes_from_readme": null
     },
@@ -400,6 +404,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Link to GEM wiki page.",
       "notes_from_readme": null
     },
@@ -469,9 +474,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:7_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Country or territory.",
       "notes_from_readme": null
     },
@@ -513,9 +517,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [
-        "categorical_rare_values:2_values_below_1pct"
-      ],
+      "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Operating status of the induction furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -613,7 +616,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:4_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date of announcement/proposal of induction furnace in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -663,7 +669,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:1_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that construction on the induction furnace began in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -762,6 +771,7 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that induction furnace began producing steel in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -860,6 +870,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Age of induction furnace in years.",
       "notes_from_readme": null
     },
@@ -886,6 +897,7 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Date the company announced its plans to retire the induction furnace in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -912,6 +924,7 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that induction furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -934,6 +947,7 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Date that induction furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -978,6 +992,7 @@
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The company that manufactured the unit, if known.",
       "notes_from_readme": null
     },
@@ -1006,6 +1021,7 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The specific model of the unit, if known.",
       "notes_from_readme": null
     },
@@ -1103,7 +1119,10 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "numeric_outliers:1_non_numeric_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
       "notes_from_readme": null
     },
@@ -1202,9 +1221,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "numeric_null_proxies",
+        "non_standard_null_proxies",
         "categorical_rare_values:10_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The size of the unit in tonnes, or the amount of liquid steel it can process per batch.",
       "notes_from_readme": null
     },
@@ -1234,7 +1254,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:yes_no_lower"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "yes or \"no\" to indicate whether the unit typically operates with some amount of scrap as charge.",
       "notes_from_readme": null
     },
@@ -1331,6 +1354,7 @@
       "flags": [
         "categorical_rare_values:6_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as scrap metal.",
       "notes_from_readme": null
     },
@@ -1419,6 +1443,7 @@
       "flags": [
         "categorical_rare_values:5_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as DRI.",
       "notes_from_readme": null
     },
@@ -1449,8 +1474,10 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [
-        "categorical_rare_values:1_values_below_1pct"
+        "categorical_rare_values:1_values_below_1pct",
+        "boolean_encoding:one_zero"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as HBI.",
       "notes_from_readme": null
     },
@@ -1495,6 +1522,7 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as sponge iron that has not been specified as either DRI or HBI.",
       "notes_from_readme": null
     },
@@ -1555,6 +1583,7 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as basic/merchant pig iron.",
       "notes_from_readme": null
     },
@@ -1595,6 +1624,7 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as granulated pig iron.",
       "notes_from_readme": null
     },
@@ -1643,6 +1673,7 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as pig iron that has not been specified as either basic/merchant pig iron or granulated pig iron.",
       "notes_from_readme": null
     },
@@ -1668,7 +1699,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "boolean_encoding:one_zero"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "The typical percent IF feedstock that is supplied as another unspecified iron source.",
       "notes_from_readme": null
     },
@@ -1695,6 +1729,7 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The sum of all feedstocks used in the unit; the total of the fields % scrap, % DRI, % HBI, % sponge iron (unknown if DRI or HBI), % basic/merchant pig iron, % granulated pig iron, % pig iron (unknown if basic/merchant pig iron or granulated pig iron), and % other iron will add to 100%. If no data is available, they will add to 0%.",
       "notes_from_readme": null
     }

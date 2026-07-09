@@ -4,7 +4,13 @@ let currentData = null;
 let expandedField = null;
 let crossTrackerData = null;
 let currentView = 'welcome'; // 'welcome' | 'table' | 'cross-tracker'
-let ctActiveTab = 'exact';   // 'exact' | 'fuzzy'
+let ctActiveTab = 'categories'; // 'categories' | 'exact' | 'fuzzy'
+
+// Overrides: merged from overrides.json (committed) + localStorage (local edits)
+const LS_OVERRIDES_KEY = 'gem_overrides_v1';
+let committedOverrides = {};  // loaded from overrides.json
+let localOverrides = {};      // loaded from localStorage, merged on top
+let hasUnsavedOverrides = false;
 
 /* Tab slugs that are metadata/lookup tables, not real data */
 const SKIP_TAB_SLUGS = new Set([
@@ -29,24 +35,102 @@ async function init() {
       </div>`;
     return;
   }
+
+  // Load committed overrides.json (non-fatal)
+  fetch('./overrides.json')
+    .then(r => r.ok ? r.json() : {})
+    .then(data => { committedOverrides = data || {}; })
+    .catch(() => {});
+
+  // Load local overrides from localStorage
+  try {
+    const stored = localStorage.getItem(LS_OVERRIDES_KEY);
+    if (stored) localOverrides = JSON.parse(stored);
+  } catch {}
+
+  // Warn before closing if there are unsaved local overrides
+  window.addEventListener('beforeunload', e => {
+    if (hasUnsavedOverrides) {
+      e.preventDefault();
+      e.returnValue = 'You have flag suppressions not yet downloaded to overrides.json.';
+    }
+  });
+
   // Load cross-tracker data in background (non-fatal if missing)
   fetch('./analysis/_cross_tracker.json')
     .then(r => r.ok ? r.json() : null)
-    .then(data => { crossTrackerData = data; renderSidebar(); })
+    .then(data => {
+      crossTrackerData = data;
+      renderSidebar();
+      if (currentView === 'welcome') renderWelcome();
+    })
     .catch(() => {});
 
   renderSidebar();
   renderWelcome();
 }
 
+/* ── Overrides helpers ───────────────────────────────────── */
+function mergedOverrides() {
+  const merged = JSON.parse(JSON.stringify(committedOverrides));
+  for (const [table, fields] of Object.entries(localOverrides)) {
+    if (!merged[table]) merged[table] = {};
+    for (const [field, suppressions] of Object.entries(fields)) {
+      merged[table][field] = suppressions;
+    }
+  }
+  return merged;
+}
+
+function getFieldOverrides(tableName, fieldName) {
+  const m = mergedOverrides();
+  return (m[tableName]?.[fieldName] || []);
+}
+
+function isFlagSuppressed(tableName, fieldName, flagKey) {
+  return getFieldOverrides(tableName, fieldName).some(o => o.flag === flagKey);
+}
+
+function toggleFlagSuppression(tableName, fieldName, flagKey, reason) {
+  if (!localOverrides[tableName]) localOverrides[tableName] = {};
+  const existing = localOverrides[tableName][fieldName] || [];
+  const idx = existing.findIndex(o => o.flag === flagKey);
+  if (idx >= 0) {
+    existing.splice(idx, 1);
+  } else {
+    existing.push({ flag: flagKey, reason: reason || '' });
+  }
+  localOverrides[tableName][fieldName] = existing;
+  try { localStorage.setItem(LS_OVERRIDES_KEY, JSON.stringify(localOverrides)); } catch {}
+  hasUnsavedOverrides = Object.values(localOverrides).some(
+    fields => Object.values(fields).some(arr => arr.length > 0)
+  );
+}
+
+function downloadOverrides() {
+  const merged = mergedOverrides();
+  const blob = new Blob([JSON.stringify(merged, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'overrides.json';
+  a.click();
+  hasUnsavedOverrides = false;
+}
+
 /* ── Sidebar ─────────────────────────────────────────────── */
 
 /* Canonical flag order and sidebar colors (dark-background friendly) */
 const SIDEBAR_FLAGS = [
+  { key: 'numeric_outliers',             color: '#f6ad55' },
   { key: 'mostly_numeric_with_outliers', color: '#f6ad55' },
+  { key: 'non_standard_null_proxies',    color: '#90cdf4' },
   { key: 'numeric_null_proxies',         color: '#90cdf4' },
+  { key: 'out_of_set_categorical',       color: '#fc8181' },
   { key: 'categorical_rare_values',      color: '#fc8181' },
-  { key: 'potential_multi_value',        color: '#63b3ed' },
+  { key: 'wrong_multi_value_separator',  color: '#f6ad55' },
+  { key: 'year_out_of_range',            color: '#f6ad55' },
+  { key: 'boolean_encoding',             color: '#d6bcfa' },
+  { key: 'multi_value_separator_check',  color: '#d6bcfa' },
 ];
 
 function sidebarFlagBadges(flagsByType) {
@@ -127,42 +211,104 @@ function renderSidebar() {
 }
 
 /* ── Welcome screen ──────────────────────────────────────── */
+function showWelcome() {
+  currentView = 'welcome';
+  document.querySelectorAll('.tab-item').forEach(e => e.classList.remove('active'));
+  document.getElementById('toolbar').hidden = true;
+  renderSidebar();
+  renderWelcome();
+}
+
 function renderWelcome() {
   const validItems = summary.filter(
     s => !SKIP_TRACKER_SLUGS.has(s.tracker_slug) &&
          !SKIP_TAB_SLUGS.has(s.tab_slug) &&
          !s.tab_slug.startsWith(SKIP_TAB_PREFIX)
   );
-  const totalFields   = validItems.reduce((s, t) => s + t.n_fields, 0);
-  const totalFlagged  = validItems.reduce((s, t) => s + t.n_flagged, 0);
-  const flagsByType   = {};
-  for (const item of validItems) {
-    for (const [k, v] of Object.entries(item.flags_by_type || {})) {
-      flagsByType[k] = (flagsByType[k] || 0) + v;
-    }
-  }
+  const totalFields  = validItems.reduce((s, t) => s + t.n_fields, 0);
+  const totalFlagged = validItems.reduce((s, t) => s + t.n_flagged, 0);
+  const allTrackers  = [...new Set(validItems.map(i => i.tracker_slug))].sort();
 
-  const flagRows = Object.entries(flagsByType)
-    .sort(([,a],[,b]) => b - a)
-    .map(([k, v]) => `<div class="meta-prop"><label>${escHtml(flagLabel(k, true))}</label><span class="val">${v} fields</span></div>`)
+  // Category summary table (requires crossTrackerData)
+  const cats = crossTrackerData?.categories ?? {};
+  const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal','Entities'];
+
+  const catRows = CAT_ORDER.filter(c => cats[c]).map(catName => {
+    const cat = cats[catName];
+    const coverage = cat.n_trackers_with_field;
+    const total = allTrackers.length;
+    const jac = cat.value_jaccard;
+    const jacStr = jac != null
+      ? `<span class="welcome-jaccard" style="background:${jaccardColor(jac)}">${jac.toFixed(2)}</span>`
+      : '<span style="color:var(--dim)">—</span>';
+    const coveragePct = total > 0 ? Math.round(coverage / total * 100) : 0;
+    const covBar = `<div class="welcome-cov-bar"><div style="width:${coveragePct}%;background:var(--accent)"></div></div>`;
+    return `
+      <tr class="welcome-cat-row" data-cat="${escAttr(catName)}">
+        <td><strong>${escHtml(catName)}</strong><div class="welcome-cat-desc">${escHtml(cat.description)}</div></td>
+        <td>${coverage}/${total} ${covBar}</td>
+        <td>${cat.n_exact_groups}</td>
+        <td>${jacStr}</td>
+      </tr>
+    `;
+  }).join('');
+
+  // Tracker dot matrix — each dot in its own <td> to align with <th> headers
+  const activeCats = CAT_ORDER.filter(c => cats[c]);
+  const trackerRows = allTrackers.map(slug => {
+    const isDb = validItems.some(i => i.tracker_slug === slug && i.in_research_db);
+    const dbBadge = isDb ? `<span class="sb-db-badge">DB</span>` : '';
+    const dotCells = activeCats.map(catName => {
+      const has = cats[catName]?.trackers_with_field?.includes(slug);
+      return `<td class="welcome-dot-cell"><span class="welcome-dot ${has ? 'welcome-dot-on' : ''}" title="${escAttr(catName)}"></span></td>`;
+    }).join('');
+    return `
+      <tr>
+        <td class="welcome-tracker-name">${escHtml(formatTrackerName(slug))}${dbBadge}</td>
+        ${dotCells}
+      </tr>
+    `;
+  }).join('');
+
+  const dotHeaders = activeCats
+    .map(c => `<th class="welcome-dot-head" title="${escAttr(cats[c]?.description||'')}">${escHtml(c.slice(0,3))}</th>`)
     .join('');
+
+  const catSection = catRows ? `
+    <div class="welcome-section">
+      <h3>Interoperability by category</h3>
+      <table class="welcome-cat-table">
+        <thead><tr><th>Category</th><th>Tracker coverage</th><th>Field variants</th><th>Value overlap</th></tr></thead>
+        <tbody>${catRows}</tbody>
+      </table>
+      <p class="welcome-hint">Click <a href="#" id="welcome-ct-link">Cross-tracker analysis</a> for full detail.</p>
+    </div>
+    <div class="welcome-section">
+      <h3>Coverage by tracker</h3>
+      <table class="welcome-tracker-table">
+        <thead><tr><th>Tracker</th>${dotHeaders}</tr></thead>
+        <tbody>${trackerRows}</tbody>
+      </table>
+    </div>
+  ` : `<p style="color:var(--dim)">Run <code>python3 cross_tracker.py</code> to see category compatibility.</p>`;
 
   document.getElementById('content').innerHTML = `
     <div id="welcome">
-      <h2>Tracker Metadata Audit</h2>
-      <p>Select a tracker and tab from the sidebar to browse fields and data quality flags.</p>
+      <h2>GEM Tracker Metadata Audit</h2>
       <div id="summary-grid">
-        <div class="summary-card"><div class="sc-val">${new Set(validItems.map(i => i.tracker_slug)).size}</div><div class="sc-label">Trackers</div></div>
+        <div class="summary-card"><div class="sc-val">${allTrackers.length}</div><div class="sc-label">Trackers</div></div>
         <div class="summary-card"><div class="sc-val">${validItems.length}</div><div class="sc-label">Data tabs</div></div>
         <div class="summary-card"><div class="sc-val">${totalFields.toLocaleString()}</div><div class="sc-label">Fields</div></div>
         <div class="summary-card"><div class="sc-val" style="color:var(--red)">${totalFlagged.toLocaleString()}</div><div class="sc-label">Flagged</div></div>
       </div>
-      <div class="detail-panel" style="max-width:340px">
-        <div class="panel-head">Flags by type</div>
-        <div class="panel-body meta-props">${flagRows}</div>
-      </div>
+      ${catSection}
     </div>
   `;
+
+  document.getElementById('welcome-ct-link')?.addEventListener('click', e => {
+    e.preventDefault();
+    showCrossTracker();
+  });
 }
 
 /* ── Load a tracker tab ──────────────────────────────────── */
@@ -221,10 +367,15 @@ function renderTable() {
     ti.contact ? `<span title="${escAttr(ti.contact)}" style="cursor:help;border-bottom:1px dashed var(--dim)">contact</span>` : null,
   ].filter(Boolean).join(' · ');
 
+  const dupRows = currentData.n_duplicate_rows || 0;
+  const dupNote = dupRows > 0
+    ? ` · <span style="color:var(--red)" title="Rows where all column values match another row">${dupRows} duplicate row${dupRows !== 1 ? 's' : ''}</span>`
+    : '';
+
   const info = document.getElementById('table-info');
   info.innerHTML = `
     <span class="tname">${escHtml(formatTableName(table_name))} ${sourceTag}</span>
-    <span class="tmeta">${n_rows.toLocaleString()} rows · ${fields.length} fields · <span style="color:var(--red)">${nFlagged} flagged</span>${subtitle ? ' · ' + subtitle : ''}</span>
+    <span class="tmeta">${n_rows.toLocaleString()} rows · ${fields.length} fields · <span style="color:var(--red)">${nFlagged} flagged</span>${dupNote}${subtitle ? ' · ' + subtitle : ''}</span>
   `;
 
   const filters = getFilters();
@@ -263,6 +414,21 @@ function renderTable() {
       }
     });
   });
+
+  // Suppress/unsuppress flag buttons (inside detail rows, stop propagation to avoid row toggle)
+  content.querySelectorAll('.suppress-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const { flag, table, field } = btn.dataset;
+      let reason = '';
+      if (!btn.classList.contains('unsuppress-btn')) {
+        reason = prompt(`Reason for suppressing "${flag}" on "${field}" (optional):`) ?? '';
+        if (reason === null) return; // user cancelled
+      }
+      toggleFlagSuppression(table, field, flag, reason);
+      renderTable();
+    });
+  });
 }
 
 function renderFieldRow(field) {
@@ -273,9 +439,14 @@ function renderFieldRow(field) {
   const nullPct = (field.null_rate * 100).toFixed(1);
   const nullCls = field.null_rate > 0.5 ? 'null-high' : field.null_rate > 0.1 ? 'null-mid' : '';
 
-  const flagsHtml = field.flags.map(f =>
-    `<span class="flag flag-${escAttr(flagCls(f))}">${escHtml(flagLabel(f))}</span>`
-  ).join('');
+  const flagsHtml = [
+    ...field.flags.map(f =>
+      `<span class="flag flag-${escAttr(flagCls(f))}">${escHtml(flagLabel(f))}</span>`
+    ),
+    ...(field.suppressed_flags || []).map(s =>
+      `<span class="flag flag-suppressed" title="Suppressed: ${escAttr(s.reason || 'no reason given')}">${escHtml(flagLabel(s.flag))}</span>`
+    ),
+  ].join('');
 
   const isExp = expandedField === field.field_name;
   let html = `
@@ -312,10 +483,32 @@ function renderDetail(field) {
     </div>
   `;
 
-  /* ── Flags ── */
-  const flagsHtml = field.flags.length > 0 ? `
+  /* ── Flags with suppress toggles ── */
+  const tableName = currentData?.table_name ?? '';
+  const allFlags = [
+    ...field.flags.map(f => ({ flag: f, suppressed: false })),
+    ...(field.suppressed_flags || []).map(s => ({ flag: s.flag, suppressed: true, reason: s.reason })),
+  ];
+  const flagsHtml = allFlags.length > 0 ? `
     <div class="detail-flags">
-      ${field.flags.map(f => `<span class="flag flag-${escAttr(flagCls(f))}">${escHtml(f)}</span>`).join('')}
+      ${allFlags.map(({ flag, suppressed, reason }) => {
+        const key = flag.split(':')[0];
+        const btnLabel = suppressed ? 'Unsuppress' : 'Suppress';
+        const btnCls = suppressed ? 'suppress-btn unsuppress-btn' : 'suppress-btn';
+        return `
+          <div class="flag-with-action ${suppressed ? 'flag-suppressed-row' : ''}">
+            <span class="flag flag-${escAttr(flagCls(flag))} ${suppressed ? 'flag-suppressed' : ''}"
+                  title="${suppressed ? 'Suppressed: ' + escAttr(reason || 'no reason') : escHtml(flag)}"
+            >${escHtml(flagLabel(flag))}</span>
+            <button class="${btnCls}"
+              data-flag="${escAttr(key)}"
+              data-table="${escAttr(tableName)}"
+              data-field="${escAttr(field.field_name)}"
+            >${btnLabel}</button>
+            ${suppressed && reason ? `<span class="suppress-reason">${escHtml(reason)}</span>` : ''}
+          </div>`;
+      }).join('')}
+      <button class="download-overrides-btn" onclick="downloadOverrides()">⬇ Download overrides.json</button>
     </div>
   ` : '';
 
@@ -519,16 +712,19 @@ function renderCrossTracker() {
       </details>
 
       <div class="ct-tabs">
+        <button class="ct-tab ${ctActiveTab==='categories'?'active':''}" data-tab="categories">
+          Categories <span class="ct-tab-count">7</span>
+        </button>
         <button class="ct-tab ${ctActiveTab==='exact'?'active':''}" data-tab="exact">
-          Exact name matches <span class="ct-tab-count">${s.n_exact_groups}</span>
+          Exact matches <span class="ct-tab-count">${s.n_exact_groups}</span>
         </button>
         <button class="ct-tab ${ctActiveTab==='fuzzy'?'active':''}" data-tab="fuzzy">
-          Fuzzy name pairs <span class="ct-tab-count">${s.n_fuzzy_pairs}</span>
+          Fuzzy pairs <span class="ct-tab-count">${s.n_fuzzy_pairs}</span>
         </button>
       </div>
 
-      <div class="ct-filters" id="ct-filters">
-        ${ctActiveTab === 'exact' ? renderExactFilters() : renderFuzzyFilters()}
+      <div class="ct-filters" id="ct-filters" ${ctActiveTab === 'categories' ? 'style="display:none"' : ''}>
+        ${ctActiveTab === 'exact' ? renderExactFilters() : ctActiveTab === 'fuzzy' ? renderFuzzyFilters() : ''}
       </div>
 
       <div id="ct-groups"></div>
@@ -548,6 +744,72 @@ function renderCrossTracker() {
   });
 
   refreshCtGroups();
+}
+
+/* ── Category panels ─────────────────────────────────────── */
+const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal','Entities'];
+
+function renderCategoryPanels() {
+  const cats = crossTrackerData?.categories ?? {};
+  const allTrackers = [...new Set(summary
+    .filter(s => !SKIP_TRACKER_SLUGS.has(s.tracker_slug) && !s.tab_slug.startsWith(SKIP_TAB_PREFIX))
+    .map(s => s.tracker_slug)
+  )].sort();
+
+  return CAT_ORDER.filter(c => cats[c]).map(catName => {
+    const cat = cats[catName];
+    const jac = cat.value_jaccard;
+    const jacStr = jac != null
+      ? `<span class="ct-jaccard" style="background:${jaccardColor(jac)}" title="Mean value Jaccard across categorical groups">value overlap ${jac.toFixed(2)}</span>`
+      : '';
+
+    // Per-tracker rows
+    const rows = allTrackers.map(slug => {
+      const isDb = summary.some(s => s.tracker_slug === slug && s.in_research_db);
+      const fields = cat.tracker_fields?.[slug] || [];
+      const present = fields.length > 0;
+      const fieldNames = fields.map(f => f.field_name).join(', ');
+      const groupKeys = [...new Set(fields.map(f => f.group_key))].join(', ');
+      return `
+        <tr class="${present ? '' : 'cat-row-missing'}">
+          <td>${escHtml(formatTrackerName(slug))}${isDb ? ' <span class="sb-db-badge" style="font-size:8px">DB</span>' : ''}</td>
+          <td>${present
+            ? `<span class="cat-present" title="${escAttr(groupKeys)}">✓ ${escHtml(fieldNames)}</span>`
+            : '<span class="cat-absent">—</span>'}</td>
+        </tr>`;
+    }).join('');
+
+    // Compatibility blocker note
+    let blocker = '';
+    if (catName === 'Status' && jac != null && jac < 0.5) {
+      const vo = crossTrackerData.exact_groups.find(g => g.group_key === 'status')?.value_overlap;
+      if (vo) blocker = `<div class="cat-blocker">⚠ ${vo.tracker_specific ? Object.keys(vo.tracker_specific).length : '?'} trackers have tracker-specific status values not shared by others. Shared: ${vo.shared_values.slice(0,4).join(', ')}${vo.shared_values.length > 4 ? '…' : ''}.</div>`;
+    } else if (cat.n_trackers_with_field > 0 && cat.n_trackers_with_field < allTrackers.length) {
+      const nMissing = allTrackers.length - cat.n_trackers_with_field;
+      blocker = `<div class="cat-blocker-soft">${nMissing} tracker${nMissing !== 1 ? 's' : ''} missing this category.</div>`;
+    }
+
+    return `
+      <div class="ct-card ct-card-expanded">
+        <div class="ct-card-head">
+          <div class="ct-card-title">
+            <span class="ct-field-name">${escHtml(catName)}</span>
+            <span class="cat-desc">${escHtml(cat.description)}</span>
+            ${jacStr}
+          </div>
+          <div class="ct-card-right">
+            <span class="ct-tracker-count">${cat.n_trackers_with_field}/${allTrackers.length} trackers</span>
+          </div>
+        </div>
+        <div class="ct-card-body">
+          ${blocker}
+          <table class="ct-field-table cat-table">
+            <thead><tr><th>Tracker</th><th>Field(s) used</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
+  }).join('');
 }
 
 function renderExactFilters() {
@@ -580,6 +842,11 @@ function renderFuzzyFilters() {
 function refreshCtGroups() {
   const container = document.getElementById('ct-groups');
   if (!container) return;
+
+  if (ctActiveTab === 'categories') {
+    container.innerHTML = renderCategoryPanels();
+    return;
+  }
 
   if (ctActiveTab === 'exact') {
     const search   = document.getElementById('ct-search')?.value.toLowerCase() ?? '';
@@ -796,22 +1063,56 @@ function formatTableName(name) {
 }
 
 function flagCls(flag) {
-  if (flag === 'numeric_null_proxies')         return 'soft';
-  if (flag.startsWith('mostly_numeric'))       return 'numeric';
-  if (flag.startsWith('categorical_rare'))     return 'rare';
-  if (flag.startsWith('potential_multi'))      return 'multi';
+  const key = flag.split(':')[0];
+  if (key === 'numeric_outliers')            return 'error';
+  if (key === 'out_of_set_categorical')      return 'error';
+  if (key === 'wrong_multi_value_separator') return 'error';
+  if (key === 'non_standard_null_proxies')   return 'soft';
+  if (key === 'numeric_null_proxies')        return 'soft';
+  if (key === 'mostly_numeric_with_outliers') return 'numeric';
+  if (key === 'categorical_rare_values')     return 'rare';
+  if (key === 'potential_multi_value')       return 'multi';
+  if (key === 'year_out_of_range')           return 'warn';
+  if (key === 'boolean_encoding')            return 'info';
+  if (key === 'multi_value_separator_check') return 'info';
+  if (key === 'required_field_has_nulls')    return 'warn';
   return 'other';
 }
 
 function flagLabel(flag, long = false) {
-  if (flag === 'numeric_null_proxies')             return long ? 'Non-standard null values' : 'chars as nulls';
-  if (flag.startsWith('mostly_numeric_with'))      return long ? 'Numeric with outliers' : 'numeric outliers';
-  if (flag.startsWith('categorical_rare')) {
-    const m = flag.match(/(\d+)_values/);
-    const n = m ? m[1] : '?';
+  const [key, detail] = flag.split(':');
+  if (key === 'numeric_outliers') {
+    const m = flag.match(/(\d+)_non/); const n = m?.[1] ?? '?';
+    return long ? 'Non-numeric values in numeric field' : `${n} non-numeric`;
+  }
+  if (key === 'out_of_set_categorical') {
+    const m = flag.match(/(\d+)_values/); const n = m?.[1] ?? '?';
+    return long ? 'Values outside reference set' : `${n} out-of-set`;
+  }
+  if (key === 'wrong_multi_value_separator')
+    return long ? 'Wrong multi-value separator (comma)' : 'wrong separator';
+  if (key === 'non_standard_null_proxies')
+    return long ? 'Non-standard null shorthands' : 'null shorthands';
+  if (key === 'numeric_null_proxies')
+    return long ? 'Non-standard null values' : 'chars as nulls';
+  if (key === 'mostly_numeric_with_outliers')
+    return long ? 'Numeric with outliers' : 'numeric outliers';
+  if (key === 'categorical_rare_values') {
+    const m = flag.match(/(\d+)_values/); const n = m?.[1] ?? '?';
     return long ? 'Rare categorical values' : `${n} rare value${n !== '1' ? 's' : ''}`;
   }
-  if (flag.startsWith('potential_multi'))          return long ? 'Potential multi-value' : 'multi-value';
+  if (key === 'potential_multi_value')
+    return long ? 'Potential multi-value' : 'multi-value';
+  if (key === 'year_out_of_range') {
+    const m = flag.match(/(\d+)_invalid/); const n = m?.[1] ?? '?';
+    return long ? 'Year values out of range' : `${n} invalid year${n !== '1' ? 's' : ''}`;
+  }
+  if (key === 'boolean_encoding')
+    return long ? `Boolean encoding: ${detail || ''}` : `bool: ${detail || ''}`;
+  if (key === 'multi_value_separator_check')
+    return long ? `Multi-value separator in use: ${detail || ''}` : `sep: ${detail || ''}`;
+  if (key === 'required_field_has_nulls')
+    return long ? 'Required field has null values' : 'required+nulls';
   return flag;
 }
 

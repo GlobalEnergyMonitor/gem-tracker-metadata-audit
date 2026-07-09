@@ -3,7 +3,8 @@
   "tracker_slug": "gmet_v3_12_12_2025",
   "tab_slug": "plumes",
   "n_rows": 3474,
-  "analyzed_at": "2026-07-07T21:45:22.006680+00:00",
+  "n_duplicate_rows": 0,
+  "analyzed_at": "2026-07-09T01:35:18.150437+00:00",
   "tracker_info": {
     "title": "Global Methane Emitters Tracker - December 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
@@ -106,6 +107,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Unique ID for the methane plume satellite observation",
       "notes_from_readme": null
     },
@@ -203,7 +205,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "GEM Wiki",
@@ -300,6 +303,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Link to project's GEM.wiki page",
       "notes_from_readme": null
     },
@@ -326,6 +330,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The organization which created the methane plume imagery",
       "notes_from_readme": null
     },
@@ -374,6 +379,7 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "The instrument used by the satellite data provider to create the imagery, i.e. the type of imaging spectrometer",
       "notes_from_readme": null
     },
@@ -471,7 +477,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": true,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "The date and time when the plume imagery was created",
       "notes_from_readme": null
     },
@@ -570,6 +579,7 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The unique ID for the plume as created by the data provider",
       "notes_from_readme": null
     },
@@ -596,6 +606,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The URL corresponding to the satellite data provider's website",
       "notes_from_readme": null
     },
@@ -694,6 +705,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The emissions of the plume, as determined by the satellite data provider",
       "notes_from_readme": null
     },
@@ -791,7 +803,8 @@
       "type_guess": "numeric",
       "subtype_guess": "measurement",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Type of Infrastructure",
@@ -887,7 +900,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": false,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Mine feature category (BETA)",
@@ -920,6 +934,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Describes the general categorization of the coal mine feature where a methane plume was observed, e.g., mine boundary, degasification system, ventilation system, or other. For a complete explanation of the referenced coal mine feature categories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
       "notes_from_readme": null
     },
@@ -950,6 +965,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Indicates the certainty of the mine feature categorization",
       "notes_from_readme": null
     },
@@ -1030,6 +1046,7 @@
       "flags": [
         "categorical_rare_values:8_values_below_1pct"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Describes the subcategory of the coal mine feature where a methane plume was observed, e.g., ventilation shaft, drainage station, flare, etc. For a complete explanation of the referenced coal mine feature subcategories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
       "notes_from_readme": null
     },
@@ -1060,6 +1077,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Indicates the certainty of the mine feature's subcategory categorization",
       "notes_from_readme": null
     },
@@ -1158,6 +1176,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Qualitative observations of plume location, proximity to infrastructure, and possible attribution recorded by GEM researchers",
       "notes_from_readme": null
     },
@@ -1256,6 +1275,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The name of the GEM asset in which the plume origin falls",
       "notes_from_readme": null
     },
@@ -1354,6 +1374,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The GEM wiki page for the GEM asset in which the plume origin falls",
       "notes_from_readme": null
     },
@@ -1452,6 +1473,7 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The ID of a well on the same wellpad as the plume. For multi-well pads, this is typically the closest well with few exceptions, elaborated in the notes column. For most American wells, this is the American Petroleum Instiute (API) number. (The exception is for Pennsylvania, for which we've provided the Primary_FID listed in the Pennsylvania Department Environmental Protection oil and gas well GIS dataset.) Note that these numbers are provided if the plume origin is within 10m of the well with no other obvious sources of methane, or the plume is within a clearly defined wellpad. These IDs are used as a stand-in for the entire wellpad, and so it is possible that the actual source of the emission is a storage tank, pipeline leading from the well, or another well on the wellpad.",
       "notes_from_readme": null
     },
@@ -1550,6 +1572,7 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "ID for assets within California's VISTA database or other government infrastructure databases. See methodology wiki for details.",
       "notes_from_readme": null
     },
@@ -1648,6 +1671,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "This column lists the multiple coal mines adjacent to the plume in cases where the plume cannot be more definitively associated with either mine through the bulk review attribution methodology",
       "notes_from_readme": null
     },
@@ -1746,6 +1770,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The subnational unit in which the methane plume was observed",
       "notes_from_readme": null
     },
@@ -1844,6 +1869,7 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "The geographic country or area where a coal mine or proposed coal mine project is located.",
       "notes_from_readme": null
     },
@@ -1942,6 +1968,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Latitude of origin of the plume, as estimated by the data provider",
       "notes_from_readme": null
     },
@@ -2040,6 +2067,7 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Longitude of origin of the plume, as estimated by the data provider",
       "notes_from_readme": null
     },
@@ -2065,7 +2093,8 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     },
     {
       "field_name": "Workflow version",
@@ -2090,6 +2119,7 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
+      "suppressed_flags": [],
       "definition_from_readme": "Indicates which methodology (\"Original\" or \"Bulk review\") was used by GEM researchers to review and potentially attribute the methane plume satellite observation. See the tracker's \"Methodology\" wiki for details.",
       "notes_from_readme": null
     },
@@ -2148,8 +2178,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [
-        "potential_multi_value"
+        "multi_value_separator_check:uses_;"
       ],
+      "suppressed_flags": [],
       "definition_from_readme": "Provides details of changes made to plume attributions due to updated research processes",
       "notes_from_readme": null
     },
@@ -2247,7 +2278,10 @@
       "type_guess": "datetime",
       "subtype_guess": "year",
       "is_required_guess": false,
-      "flags": [],
+      "flags": [
+        "year_out_of_range:100_invalid_values"
+      ],
+      "suppressed_flags": [],
       "definition_from_readme": "The date or dates of basemap imagery against which the methane plume was visually reviewed.",
       "notes_from_readme": null
     },
@@ -2273,7 +2307,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": true,
-      "flags": []
+      "flags": [
+        "boolean_encoding:y_n"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "for internal use - auto attributed to PPSE",
@@ -2293,7 +2330,10 @@
       "type_guess": "text",
       "subtype_guess": "categorical",
       "is_required_guess": false,
-      "flags": []
+      "flags": [
+        "boolean_encoding:y_n"
+      ],
+      "suppressed_flags": []
     },
     {
       "field_name": "for internal use - gem subnational unit",
@@ -2389,7 +2429,8 @@
       "type_guess": "text",
       "subtype_guess": "unstructured",
       "is_required_guess": true,
-      "flags": []
+      "flags": [],
+      "suppressed_flags": []
     }
   ]
 }

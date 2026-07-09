@@ -1,0 +1,17 @@
+title: GEM Tracker Metadata Audit
+description: Field-level audit and standardization documentation for Global Energy Monitor tracker spreadsheets
+theme: minima
+
+# Keep the audit app's index.html as the site root
+include:
+  - docs/
+
+# Don't process gem-data or analysis as Jekyll content
+exclude:
+  - gem-data/
+  - researchDBfiles/
+  - "*.py"
+  - "*.db"
+  - plans/
+  - metadata/
+  - CLAUDE.md
