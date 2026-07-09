@@ -1,0 +1,350 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_geothermal",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_geothermal",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.170773+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Geothermal Power Tracker - March 2026",
+      "code_friendly_name_guess": "global_geothermal_power_tracker_march_2026",
+      "n_total": 999,
+      "n_null": 938,
+      "n_non_null": 61,
+      "null_rate": 0.9389,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "Status",
+          11
+        ],
+        [
+          "Technology",
+          10
+        ],
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Unit Name",
+          1
+        ],
+        [
+          "Unit Capacity (MW)",
+          1
+        ],
+        [
+          "Type",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "State/Province",
+          1
+        ],
+        [
+          "Start year",
+          1
+        ],
+        [
+          "Retired year",
+          1
+        ],
+        [
+          "Release Notes",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Geothermal Power Tracker, March 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Project Name in Local Language / Script",
+          1
+        ],
+        [
+          "Project Name",
+          1
+        ],
+        [
+          "Owner Name in Local Language / Script",
+          1
+        ],
+        [
+          "Owner",
+          1
+        ],
+        [
+          "Other Name(s)",
+          1
+        ],
+        [
+          "Other IDs (unit/phase)",
+          1
+        ],
+        [
+          "Other IDs (location)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 948,
+      "n_non_null": 51,
+      "null_rate": 0.9489,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "n/a",
+          16
+        ],
+        [
+          "yyyy",
+          2
+        ],
+        [
+          "see above",
+          2
+        ],
+        [
+          "not found, yes, no",
+          2
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "unknown type",
+          1
+        ],
+        [
+          "shelved - inferred 2 y",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "mm/dd/yyyy",
+          1
+        ],
+        [
+          "flash steam - unknown",
+          1
+        ],
+        [
+          "flash steam - triple",
+          1
+        ],
+        [
+          "flash steam - single",
+          1
+        ],
+        [
+          "flash steam - double",
+          1
+        ],
+        [
+          "dry steam",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 945,
+      "n_non_null": 54,
+      "null_rate": 0.9459,
+      "n_unique": 54,
+      "top_values": [
+        [
+          "Year the project is or is expected to be commissioned.",
+          1
+        ],
+        [
+          "Year the plant is or is expected to be taken offline.",
+          1
+        ],
+        [
+          "Unit identifier from external datasets.",
+          1
+        ],
+        [
+          "URL of existing GEM.wiki page.",
+          1
+        ],
+        [
+          "The type of geothermal power is not specified.",
+          1
+        ],
+        [
+          "The project is inferred to be shelved because, or no progress has been observed for at least two years. ",
+          1
+        ],
+        [
+          "The project is inferred to be cancelled because, or no progress has been observed for at least four years",
+          1
+        ],
+        [
+          "The company that operates the project.",
+          1
+        ],
+        [
+          "The company that directly owns the plant. When owned by a special purpose vehicle, the next level of ownership is provided.",
+          1
+        ],
+        [
+          "Suspension of the project operation has been announced.",
+          1
+        ],
+        [
+          "Such systems use three flashes to generate three different steam pressures: high, intermediate, and low. The steam flows are then used to rotate two or more turbines.",
+          1
+        ],
+        [
+          "Subregion location of the project based on United Nations definition.",
+          1
+        ],
+        [
+          "Subnational unit where the project is located.",
+          1
+        ],
+        [
+          "See rows 25-32 above.",
+          1
+        ],
+        [
+          "See rows 16-23 above.",
+          1
+        ],
+        [
+          "Region location of the project based on United Nations definition.",
+          1
+        ],
+        [
+          "Qualitative notes on employment numbers related to construction or operation of the project.",
+          1
+        ],
+        [
+          "Projects where the remaining water after the first flash is still warm enough to flash again and used to run a second, low-pressure steam turbine.",
+          1
+        ],
+        [
+          "Projects where the high-pressure geothermal fluid is converted to steam only once.",
+          1
+        ],
+        [
+          "Projects where the high-pressure geothermal fluid is converted to steam but the number of flashes is unknown.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 990,
+      "n_non_null": 9,
+      "null_rate": 0.991,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "This includes mothballed plants - whenever the unit stops operating.",
+          1
+        ],
+        [
+          "The company that performs day-to-day operations and maintenance of the project.",
+          1
+        ],
+        [
+          "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used.",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible.",
+          1
+        ],
+        [
+          "Latest date was taken when original data source provided a range. Start years not included for projects that are cancelled or shelved.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

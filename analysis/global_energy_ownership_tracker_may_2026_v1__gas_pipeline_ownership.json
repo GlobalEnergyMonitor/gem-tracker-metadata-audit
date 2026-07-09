@@ -1,0 +1,1295 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__gas_pipeline_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "gas_pipeline_ownership",
+  "n_rows": 29870,
+  "analyzed_at": "2026-07-07T21:45:13.424755+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 1228,
+      "top_values": [
+        [
+          "E100001015587",
+          2319
+        ],
+        [
+          "E100000123261",
+          1198
+        ],
+        [
+          "E100001010595",
+          914
+        ],
+        [
+          "E100001015833",
+          912
+        ],
+        [
+          "E100001000348",
+          912
+        ],
+        [
+          "E100001010596",
+          629
+        ],
+        [
+          "E100002001974",
+          415
+        ],
+        [
+          "E100000132388",
+          343
+        ],
+        [
+          "E100001000094",
+          320
+        ],
+        [
+          "E100001000270",
+          319
+        ],
+        [
+          "E100000121185",
+          316
+        ],
+        [
+          "E100000001492",
+          314
+        ],
+        [
+          "E100001015521",
+          264
+        ],
+        [
+          "E100001015519",
+          264
+        ],
+        [
+          "E100000001595",
+          261
+        ],
+        [
+          "E100001016677",
+          243
+        ],
+        [
+          "E100001013560",
+          243
+        ],
+        [
+          "E100001000514",
+          224
+        ],
+        [
+          "E100001000086",
+          224
+        ],
+        [
+          "E100001014312",
+          209
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 1225,
+      "top_values": [
+        [
+          "small shareholder(s) ",
+          2319
+        ],
+        [
+          "natural person(s) ",
+          1198
+        ],
+        [
+          "The Vanguard Group Inc",
+          914
+        ],
+        [
+          "Blackrock Advisors LLC",
+          912
+        ],
+        [
+          "BlackRock Inc",
+          912
+        ],
+        [
+          "State Street Corp",
+          629
+        ],
+        [
+          "member/employee owned ",
+          415
+        ],
+        [
+          "unknown ",
+          343
+        ],
+        [
+          "Government of Russia ",
+          320
+        ],
+        [
+          "Federal Agency for State Property Management (Russia) ",
+          319
+        ],
+        [
+          "Rosneftegaz JSC",
+          316
+        ],
+        [
+          "Gazprom PJSC",
+          314
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission of the People's Government of Shaanxi Province ",
+          264
+        ],
+        [
+          "Shanxi Guoxin Energy Co Ltd",
+          264
+        ],
+        [
+          "National Petroleum and Natural Gas Pipeline Network Group Co Ltd",
+          261
+        ],
+        [
+          "Government of Italy ",
+          243
+        ],
+        [
+          "Cassa Depositi e Prestiti SpA",
+          243
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission ",
+          224
+        ],
+        [
+          "State Grid Corporation of China ",
+          224
+        ],
+        [
+          "Royal Bank of Canada ",
+          209
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 29870,
+      "n_null": 5751,
+      "n_non_null": 24119,
+      "null_rate": 0.1925,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "United States",
+          6443
+        ],
+        [
+          "China",
+          3852
+        ],
+        [
+          "Japan",
+          2407
+        ],
+        [
+          "Russia",
+          1359
+        ],
+        [
+          "Italy",
+          969
+        ],
+        [
+          "Australia",
+          921
+        ],
+        [
+          "Canada",
+          752
+        ],
+        [
+          "United Kingdom",
+          560
+        ],
+        [
+          "Spain",
+          505
+        ],
+        [
+          "Algeria",
+          366
+        ],
+        [
+          "Hong Kong",
+          337
+        ],
+        [
+          "Germany",
+          334
+        ],
+        [
+          "India",
+          289
+        ],
+        [
+          "France",
+          268
+        ],
+        [
+          "Colombia",
+          213
+        ],
+        [
+          "Austria",
+          182
+        ],
+        [
+          "Qatar",
+          172
+        ],
+        [
+          "Brazil",
+          168
+        ],
+        [
+          "Saudi Arabia",
+          166
+        ],
+        [
+          "Netherlands",
+          166
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 29870,
+      "n_null": 5030,
+      "n_non_null": 24840,
+      "null_rate": 0.1684,
+      "n_unique": 119,
+      "top_values": [
+        [
+          "United States",
+          6438
+        ],
+        [
+          "China",
+          4042
+        ],
+        [
+          "Japan",
+          2414
+        ],
+        [
+          "Russia",
+          1359
+        ],
+        [
+          "Italy",
+          972
+        ],
+        [
+          "Australia",
+          921
+        ],
+        [
+          "Canada",
+          779
+        ],
+        [
+          "United Kingdom",
+          561
+        ],
+        [
+          "Spain",
+          505
+        ],
+        [
+          "Algeria",
+          366
+        ],
+        [
+          "Hong Kong",
+          361
+        ],
+        [
+          "Germany",
+          334
+        ],
+        [
+          "India",
+          292
+        ],
+        [
+          "France",
+          269
+        ],
+        [
+          "Colombia",
+          216
+        ],
+        [
+          "Austria",
+          207
+        ],
+        [
+          "United Arab Emirates",
+          189
+        ],
+        [
+          "Brazil",
+          187
+        ],
+        [
+          "Egypt",
+          174
+        ],
+        [
+          "Qatar",
+          172
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 2306,
+      "top_values": [
+        [
+          "Shanxi Gas Pipeline Network",
+          1716
+        ],
+        [
+          "Nova Gas Transmission (NGTL) Pipeline",
+          506
+        ],
+        [
+          "Anhui Gas Pipeline Network",
+          480
+        ],
+        [
+          "Shandong Gas Pipeline Network",
+          476
+        ],
+        [
+          "Florida Gas Transmission Pipeline",
+          416
+        ],
+        [
+          "Zhejiang Natural Gas Pipeline Network",
+          403
+        ],
+        [
+          "Liaoning Gas Pipeline Network",
+          392
+        ],
+        [
+          "Inner Mongolia Gas Pipeline Network",
+          384
+        ],
+        [
+          "Guizhou Gas Pipeline Network",
+          310
+        ],
+        [
+          "Trans-Mediterranean Gas Pipeline",
+          224
+        ],
+        [
+          "Yunnan Gas Pipeline Network",
+          176
+        ],
+        [
+          "Gulf Coast Southbound Pipeline",
+          170
+        ],
+        [
+          "Moomba Sydney Pipeline System",
+          168
+        ],
+        [
+          "Los Ramones Gas Pipeline",
+          156
+        ],
+        [
+          "Eastern Goldfields Pipeline System",
+          144
+        ],
+        [
+          "Shaanxi Gas Pipeline Network",
+          138
+        ],
+        [
+          "West-East Gas Pipeline 2",
+          135
+        ],
+        [
+          "Transcontinental Gas Pipeline",
+          126
+        ],
+        [
+          "Promigas Pipeline Network",
+          119
+        ],
+        [
+          "Trans-Adriatic Gas Pipeline",
+          118
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 29870,
+      "n_null": 6826,
+      "n_non_null": 23044,
+      "null_rate": 0.2285,
+      "n_unique": 1377,
+      "top_values": [
+        [
+          "100",
+          3888
+        ],
+        [
+          "10.97",
+          521
+        ],
+        [
+          "38.37",
+          492
+        ],
+        [
+          "0",
+          435
+        ],
+        [
+          "90",
+          302
+        ],
+        [
+          "50",
+          301
+        ],
+        [
+          "51",
+          283
+        ],
+        [
+          "6.25",
+          274
+        ],
+        [
+          "10",
+          267
+        ],
+        [
+          "0.01",
+          257
+        ],
+        [
+          "50.66",
+          246
+        ],
+        [
+          "5",
+          243
+        ],
+        [
+          "0.02",
+          233
+        ],
+        [
+          "13.41",
+          222
+        ],
+        [
+          "8.99",
+          185
+        ],
+        [
+          "12.3",
+          174
+        ],
+        [
+          "49",
+          168
+        ],
+        [
+          "0.86",
+          147
+        ],
+        [
+          "7.45",
+          140
+        ],
+        [
+          "10.19",
+          139
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 18082,
+      "top_values": [
+        [
+          "China Petrochemical Corp -> Sinopec Natural Gas Co Ltd [100.0%] -> Shanxi Guohua Energy Co Ltd [49.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          132
+        ],
+        [
+          "natural person(s)  -> Shanxi Santong Natural Gas Co Ltd [65.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "natural person(s)  -> Shanxi Guoxin Energy Co Ltd [13.01%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Sanjin New Energy Development Co Ltd [26.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "natural person(s)  -> Shanxi Guoxin Energy Co Ltd [13.01%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Linxian Guoxin Gas Co Ltd [unknown %] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "natural person(s)  -> Shanxi Guoxin Energy Co Ltd [13.01%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "natural person(s)  -> Shanxi Guoxin Energy Co Ltd [13.01%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission of the People's Government of Shaanxi Province  -> Shanxi Guoxin Energy Co Ltd [35.19%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Sanjin New Energy Development Co Ltd [26.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission of the People's Government of Shaanxi Province  -> Shanxi Guoxin Energy Co Ltd [35.19%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Linxian Guoxin Gas Co Ltd [unknown %] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission of the People's Government of Shaanxi Province  -> Shanxi Guoxin Energy Co Ltd [35.19%] -> Shanxi Natural Gas Co Ltd [unknown %] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "State-owned Assets Supervision and Administration Commission of the People's Government of Shaanxi Province  -> Shanxi Guoxin Energy Co Ltd [35.19%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Zhongsheng Entrepreneurship Energy Co Ltd -> Shanxi Santong Natural Gas Co Ltd [5.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Wanzhong Energy Development Co Ltd -> Shanxi Wanzhong Zongheng Gas Pipeline Co Ltd [100.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi State-Owned Capital Investment and Operation Co Ltd -> Shanxi Guoxin Energy Development Group Co Ltd [90.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi State-Owned Capital Investment and Operation Co Ltd -> Shanxi Gemeng International Energy Group Co Ltd [90.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Provincial People's Government State-owned Assets Supervision and Administration Commission  -> Shanxi State-Owned Capital Investment and Operation Co Ltd [100.0%] -> Shanxi Guoxin Energy Development Group Co Ltd [90.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Provincial People's Government State-owned Assets Supervision and Administration Commission  -> Shanxi State-Owned Capital Investment and Operation Co Ltd [100.0%] -> Shanxi Gemeng International Energy Group Co Ltd [90.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Provincial Department of Finance  -> Shanxi Guoxin Energy Development Group Co Ltd [10.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Provincial Department of Finance  -> Shanxi Gemeng International Energy Group Co Ltd [10.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi Jinlian Real Estate Development Co Ltd -> Shanxi Santong Natural Gas Co Ltd [30.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ],
+        [
+          "Shanxi International Energy Group Gasification Investment Management Co Ltd -> Shanxi Guohua Energy Co Ltd [51.0%] -> Shanxi Gas Pipeline Network [100.0%]",
+          66
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 730,
+      "top_values": [
+        [
+          "Gazprom PJSC",
+          1454
+        ],
+        [
+          "Snam Rete Gas SpA",
+          1211
+        ],
+        [
+          "APA Group ",
+          938
+        ],
+        [
+          "Tokyo Gas Co Ltd",
+          728
+        ],
+        [
+          "TC Energy Corp",
+          638
+        ],
+        [
+          "INPEX Corp",
+          627
+        ],
+        [
+          "Tongliao Longshengfeng Natural Gas Co Ltd",
+          608
+        ],
+        [
+          "Osaka Gas Co Ltd",
+          540
+        ],
+        [
+          "Florida Gas Transmission Co LLC",
+          416
+        ],
+        [
+          "Huaihe Energy Gas Group Co Ltd",
+          384
+        ],
+        [
+          "eustream AS",
+          358
+        ],
+        [
+          "Gas Connect Austria GmbH",
+          350
+        ],
+        [
+          "Sonatrach SpA",
+          322
+        ],
+        [
+          "Enagás SA",
+          305
+        ],
+        [
+          "Shanxi Guohua Energy Co Ltd",
+          264
+        ],
+        [
+          "Infraestructura Energética Nova SAPI de CV",
+          262
+        ],
+        [
+          "NOVA Gas Transmission Ltd",
+          253
+        ],
+        [
+          "Santos Ltd",
+          249
+        ],
+        [
+          "Hellenic Gas Transmission System Operator SA",
+          249
+        ],
+        [
+          "Guizhou Wujiang Energy Group Co Ltd",
+          248
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 731,
+      "top_values": [
+        [
+          "E100000001492",
+          1454
+        ],
+        [
+          "E100001015687",
+          1211
+        ],
+        [
+          "E100000001768",
+          938
+        ],
+        [
+          "E100000000660",
+          728
+        ],
+        [
+          "E100000000136",
+          638
+        ],
+        [
+          "E100000000638",
+          627
+        ],
+        [
+          "E100001015893",
+          608
+        ],
+        [
+          "E100000000654",
+          540
+        ],
+        [
+          "E100001014756",
+          416
+        ],
+        [
+          "E100000123295",
+          384
+        ],
+        [
+          "E100002001228",
+          358
+        ],
+        [
+          "E100001014786",
+          350
+        ],
+        [
+          "E100000000003",
+          322
+        ],
+        [
+          "E100001014505",
+          305
+        ],
+        [
+          "E100001015483",
+          264
+        ],
+        [
+          "E100000150238",
+          262
+        ],
+        [
+          "E100001015406",
+          253
+        ],
+        [
+          "E100001015045",
+          249
+        ],
+        [
+          "E100001014529",
+          249
+        ],
+        [
+          "E100000124904",
+          248
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Gas Infrastructure Tracker",
+          29870
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          22216
+        ],
+        [
+          "proposed",
+          3418
+        ],
+        [
+          "cancelled",
+          1726
+        ],
+        [
+          "construction",
+          1590
+        ],
+        [
+          "shelved",
+          575
+        ],
+        [
+          "retired",
+          170
+        ],
+        [
+          "idle",
+          126
+        ],
+        [
+          "mothballed",
+          49
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "CapacityBcm/y",
+      "code_friendly_name_guess": "capacitybcm_y",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 662,
+      "top_values": [
+        [
+          "--",
+          10810
+        ],
+        [
+          "0.5",
+          399
+        ],
+        [
+          "10",
+          321
+        ],
+        [
+          "20.44",
+          266
+        ],
+        [
+          "0.4",
+          240
+        ],
+        [
+          "10.22",
+          228
+        ],
+        [
+          "1.02",
+          221
+        ],
+        [
+          "8",
+          197
+        ],
+        [
+          "2",
+          191
+        ],
+        [
+          "0.49",
+          179
+        ],
+        [
+          "0.3",
+          178
+        ],
+        [
+          "1",
+          168
+        ],
+        [
+          "3.07",
+          163
+        ],
+        [
+          "3",
+          163
+        ],
+        [
+          "2.04",
+          159
+        ],
+        [
+          "21.46",
+          156
+        ],
+        [
+          "1.5",
+          151
+        ],
+        [
+          "0.25",
+          151
+        ],
+        [
+          "5.7",
+          148
+        ],
+        [
+          "7",
+          144
+        ]
+      ],
+      "portion_numeric": 0.562,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityBOEd",
+      "code_friendly_name_guess": "capacityboed",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 950,
+      "top_values": [
+        [
+          "--",
+          10810
+        ],
+        [
+          "161178.08",
+          321
+        ],
+        [
+          "329448",
+          266
+        ],
+        [
+          "164724",
+          228
+        ],
+        [
+          "6447.12",
+          207
+        ],
+        [
+          "128942.47",
+          197
+        ],
+        [
+          "32235.62",
+          191
+        ],
+        [
+          "16472.4",
+          189
+        ],
+        [
+          "16117.81",
+          167
+        ],
+        [
+          "49417.2",
+          163
+        ],
+        [
+          "48353.42",
+          163
+        ],
+        [
+          "7897.73",
+          162
+        ],
+        [
+          "32944.8",
+          159
+        ],
+        [
+          "345920.4",
+          156
+        ],
+        [
+          "4835.34",
+          154
+        ],
+        [
+          "91871.51",
+          148
+        ],
+        [
+          "24176.71",
+          148
+        ],
+        [
+          "8058.9",
+          146
+        ],
+        [
+          "112824.66",
+          144
+        ],
+        [
+          "5641.23",
+          141
+        ]
+      ],
+      "portion_numeric": 0.562,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 29870,
+      "n_null": 0,
+      "n_non_null": 29870,
+      "null_rate": 0.0,
+      "n_unique": 3524,
+      "top_values": [
+        [
+          "P3203",
+          59
+        ],
+        [
+          "P0724",
+          59
+        ],
+        [
+          "P2979",
+          56
+        ],
+        [
+          "P4184",
+          52
+        ],
+        [
+          "P4183",
+          52
+        ],
+        [
+          "P1279",
+          52
+        ],
+        [
+          "P3646",
+          50
+        ],
+        [
+          "P1133",
+          50
+        ],
+        [
+          "P5955",
+          49
+        ],
+        [
+          "P5954",
+          49
+        ],
+        [
+          "P5930",
+          47
+        ],
+        [
+          "P5929",
+          47
+        ],
+        [
+          "P4209",
+          47
+        ],
+        [
+          "P5878",
+          46
+        ],
+        [
+          "P2070",
+          46
+        ],
+        [
+          "P1134",
+          45
+        ],
+        [
+          "P5956",
+          44
+        ],
+        [
+          "P5949",
+          44
+        ],
+        [
+          "P5119",
+          44
+        ],
+        [
+          "P3631",
+          44
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

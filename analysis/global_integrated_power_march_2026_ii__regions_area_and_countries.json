@@ -1,0 +1,1275 @@
+{
+  "table_name": "global_integrated_power_march_2026_ii__regions_area_and_countries",
+  "tracker_slug": "global_integrated_power_march_2026_ii",
+  "tab_slug": "regions_area_and_countries",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:18.675810+00:00",
+  "tracker_info": {
+    "title": "Global Integrated Power Tracker March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: James Norman, Research Analyst, Global Energy Monitor james.norman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Integrated Power Tracker, March 2026 release.  Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Standard Country Name/Area",
+      "code_friendly_name_guess": "gem_standard_country_name_area",
+      "n_total": 999,
+      "n_null": 748,
+      "n_non_null": 251,
+      "null_rate": 0.7487,
+      "n_unique": 251,
+      "top_values": [
+        [
+          "Åland Islands",
+          1
+        ],
+        [
+          "Zimbabwe",
+          1
+        ],
+        [
+          "Zambia",
+          1
+        ],
+        [
+          "Yemen",
+          1
+        ],
+        [
+          "Western Sahara",
+          1
+        ],
+        [
+          "Wallis and Futuna",
+          1
+        ],
+        [
+          "Virgin Islands (U.S.)",
+          1
+        ],
+        [
+          "Virgin Islands (British)",
+          1
+        ],
+        [
+          "Vietnam",
+          1
+        ],
+        [
+          "Venezuela",
+          1
+        ],
+        [
+          "Vanuatu",
+          1
+        ],
+        [
+          "Uzbekistan",
+          1
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States Minor Outlying Islands",
+          1
+        ],
+        [
+          "United States",
+          1
+        ],
+        [
+          "United Kingdom",
+          1
+        ],
+        [
+          "United Arab Emirates",
+          1
+        ],
+        [
+          "Ukraine",
+          1
+        ],
+        [
+          "Uganda",
+          1
+        ],
+        [
+          "Türkiye",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Col A = Col M?",
+      "code_friendly_name_guess": "col_a_col_m",
+      "n_total": 999,
+      "n_null": 748,
+      "n_non_null": 251,
+      "null_rate": 0.7487,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "True",
+          220
+        ],
+        [
+          "False",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM region",
+      "code_friendly_name_guess": "gem_region",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Africa",
+          60
+        ],
+        [
+          "Americas",
+          57
+        ],
+        [
+          "Europe",
+          53
+        ],
+        [
+          "Asia",
+          51
+        ],
+        [
+          "Oceania",
+          29
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM subregion",
+      "code_friendly_name_guess": "gem_subregion",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Sub-Saharan Africa",
+          53
+        ],
+        [
+          "Latin America and the Caribbean",
+          52
+        ],
+        [
+          "Western Asia",
+          18
+        ],
+        [
+          "Southern Europe",
+          17
+        ],
+        [
+          "Northern Europe",
+          17
+        ],
+        [
+          "South-eastern Asia",
+          11
+        ],
+        [
+          "Polynesia",
+          10
+        ],
+        [
+          "Eastern Europe",
+          10
+        ],
+        [
+          "Western Europe",
+          9
+        ],
+        [
+          "Southern Asia",
+          9
+        ],
+        [
+          "Micronesia",
+          8
+        ],
+        [
+          "Eastern Asia",
+          8
+        ],
+        [
+          "Northern Africa",
+          7
+        ],
+        [
+          "Australia and New Zealand",
+          6
+        ],
+        [
+          "Northern America",
+          5
+        ],
+        [
+          "Melanesia",
+          5
+        ],
+        [
+          "Central Asia",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Global Code (M49)",
+      "code_friendly_name_guess": "global_code_m49",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "001",
+          249
+        ],
+        [
+          "002",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Global Name (M49)",
+      "code_friendly_name_guess": "global_name_m49",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "World",
+          250
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region Code (M49)",
+      "code_friendly_name_guess": "region_code_m49",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "002",
+          60
+        ],
+        [
+          "019",
+          57
+        ],
+        [
+          "150",
+          52
+        ],
+        [
+          "142",
+          50
+        ],
+        [
+          "009",
+          29
+        ],
+        [
+          "143",
+          1
+        ],
+        [
+          "000",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region Name (M49)",
+      "code_friendly_name_guess": "region_name_m49",
+      "n_total": 999,
+      "n_null": 750,
+      "n_non_null": 249,
+      "null_rate": 0.7508,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Africa",
+          60
+        ],
+        [
+          "Americas",
+          57
+        ],
+        [
+          "Europe",
+          52
+        ],
+        [
+          "Asia",
+          51
+        ],
+        [
+          "Oceania",
+          29
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Sub-region Code (M49)",
+      "code_friendly_name_guess": "sub_region_code_m49",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "202",
+          53
+        ],
+        [
+          "419",
+          52
+        ],
+        [
+          "145",
+          18
+        ],
+        [
+          "154",
+          17
+        ],
+        [
+          "039",
+          16
+        ],
+        [
+          "035",
+          11
+        ],
+        [
+          "151",
+          10
+        ],
+        [
+          "061",
+          10
+        ],
+        [
+          "155",
+          9
+        ],
+        [
+          "034",
+          9
+        ],
+        [
+          "057",
+          8
+        ],
+        [
+          "030",
+          7
+        ],
+        [
+          "015",
+          7
+        ],
+        [
+          "053",
+          6
+        ],
+        [
+          "143",
+          5
+        ],
+        [
+          "054",
+          5
+        ],
+        [
+          "021",
+          5
+        ],
+        [
+          "031",
+          1
+        ],
+        [
+          "000",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Sub-region Name (M49)",
+      "code_friendly_name_guess": "sub_region_name_m49",
+      "n_total": 999,
+      "n_null": 750,
+      "n_non_null": 249,
+      "null_rate": 0.7508,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Sub-Saharan Africa",
+          53
+        ],
+        [
+          "Latin America and the Caribbean",
+          52
+        ],
+        [
+          "Western Asia",
+          18
+        ],
+        [
+          "Northern Europe",
+          17
+        ],
+        [
+          "Southern Europe",
+          16
+        ],
+        [
+          "South-eastern Asia",
+          11
+        ],
+        [
+          "Polynesia",
+          10
+        ],
+        [
+          "Eastern Europe",
+          10
+        ],
+        [
+          "Western Europe",
+          9
+        ],
+        [
+          "Southern Asia",
+          9
+        ],
+        [
+          "Micronesia",
+          8
+        ],
+        [
+          "Eastern Asia",
+          8
+        ],
+        [
+          "Northern Africa",
+          7
+        ],
+        [
+          "Australia and New Zealand",
+          6
+        ],
+        [
+          "Northern America",
+          5
+        ],
+        [
+          "Melanesia",
+          5
+        ],
+        [
+          "Central Asia",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Intermediate Region Code (M49)",
+      "code_friendly_name_guess": "intermediate_region_code_m49",
+      "n_total": 999,
+      "n_null": 891,
+      "n_non_null": 108,
+      "null_rate": 0.8919,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "029",
+          28
+        ],
+        [
+          "014",
+          22
+        ],
+        [
+          "011",
+          17
+        ],
+        [
+          "005",
+          16
+        ],
+        [
+          "017",
+          9
+        ],
+        [
+          "013",
+          8
+        ],
+        [
+          "018",
+          5
+        ],
+        [
+          "830",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Intermediate Region Name (M49)",
+      "code_friendly_name_guess": "intermediate_region_name_m49",
+      "n_total": 999,
+      "n_null": 891,
+      "n_non_null": 108,
+      "null_rate": 0.8919,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Caribbean",
+          28
+        ],
+        [
+          "Eastern Africa",
+          22
+        ],
+        [
+          "Western Africa",
+          17
+        ],
+        [
+          "South America",
+          16
+        ],
+        [
+          "Middle Africa",
+          9
+        ],
+        [
+          "Central America",
+          8
+        ],
+        [
+          "Southern Africa",
+          5
+        ],
+        [
+          "Channel Islands",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country or Area (M49)",
+      "code_friendly_name_guess": "country_or_area_m49",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 250,
+      "top_values": [
+        [
+          "Åland Islands",
+          1
+        ],
+        [
+          "Zimbabwe",
+          1
+        ],
+        [
+          "Zambia",
+          1
+        ],
+        [
+          "Yemen",
+          1
+        ],
+        [
+          "Western Sahara",
+          1
+        ],
+        [
+          "Wallis and Futuna Islands",
+          1
+        ],
+        [
+          "Viet Nam",
+          1
+        ],
+        [
+          "Venezuela (Bolivarian Republic of)",
+          1
+        ],
+        [
+          "Vanuatu",
+          1
+        ],
+        [
+          "Uzbekistan",
+          1
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States of America",
+          1
+        ],
+        [
+          "United States Virgin Islands",
+          1
+        ],
+        [
+          "United States Minor Outlying Islands",
+          1
+        ],
+        [
+          "United Republic of Tanzania",
+          1
+        ],
+        [
+          "United Kingdom of Great Britain and Northern Ireland",
+          1
+        ],
+        [
+          "United Arab Emirates",
+          1
+        ],
+        [
+          "Ukraine",
+          1
+        ],
+        [
+          "Uganda",
+          1
+        ],
+        [
+          "Türkiye",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "M49 Country Code",
+      "code_friendly_name_guess": "m49_country_code",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 250,
+      "top_values": [
+        [
+          "96.0",
+          1
+        ],
+        [
+          "92.0",
+          1
+        ],
+        [
+          "90.0",
+          1
+        ],
+        [
+          "894.0",
+          1
+        ],
+        [
+          "887.0",
+          1
+        ],
+        [
+          "882.0",
+          1
+        ],
+        [
+          "876.0",
+          1
+        ],
+        [
+          "862.0",
+          1
+        ],
+        [
+          "860.0",
+          1
+        ],
+        [
+          "86.0",
+          1
+        ],
+        [
+          "858.0",
+          1
+        ],
+        [
+          "854.0",
+          1
+        ],
+        [
+          "850.0",
+          1
+        ],
+        [
+          "840.0",
+          1
+        ],
+        [
+          "84.0",
+          1
+        ],
+        [
+          "834.0",
+          1
+        ],
+        [
+          "833.0",
+          1
+        ],
+        [
+          "832.0",
+          1
+        ],
+        [
+          "831.0",
+          1
+        ],
+        [
+          "826.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ISO-alpha2 Code",
+      "code_friendly_name_guess": "iso_alpha2_code",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 250,
+      "top_values": [
+        [
+          "ZW",
+          1
+        ],
+        [
+          "ZM",
+          1
+        ],
+        [
+          "ZA",
+          1
+        ],
+        [
+          "YT",
+          1
+        ],
+        [
+          "YE",
+          1
+        ],
+        [
+          "XK",
+          1
+        ],
+        [
+          "WS",
+          1
+        ],
+        [
+          "WF",
+          1
+        ],
+        [
+          "VU",
+          1
+        ],
+        [
+          "VN",
+          1
+        ],
+        [
+          "VI",
+          1
+        ],
+        [
+          "VG",
+          1
+        ],
+        [
+          "VE",
+          1
+        ],
+        [
+          "VC",
+          1
+        ],
+        [
+          "VA",
+          1
+        ],
+        [
+          "UZ",
+          1
+        ],
+        [
+          "UY",
+          1
+        ],
+        [
+          "US",
+          1
+        ],
+        [
+          "UM",
+          1
+        ],
+        [
+          "UG",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ISO-alpha3 Code",
+      "code_friendly_name_guess": "iso_alpha3_code",
+      "n_total": 999,
+      "n_null": 749,
+      "n_non_null": 250,
+      "null_rate": 0.7497,
+      "n_unique": 250,
+      "top_values": [
+        [
+          "ZWE",
+          1
+        ],
+        [
+          "ZMB",
+          1
+        ],
+        [
+          "ZAF",
+          1
+        ],
+        [
+          "YEM",
+          1
+        ],
+        [
+          "XKX",
+          1
+        ],
+        [
+          "WSM",
+          1
+        ],
+        [
+          "WLF",
+          1
+        ],
+        [
+          "VUT",
+          1
+        ],
+        [
+          "VNM",
+          1
+        ],
+        [
+          "VIR",
+          1
+        ],
+        [
+          "VGB",
+          1
+        ],
+        [
+          "VEN",
+          1
+        ],
+        [
+          "VCT",
+          1
+        ],
+        [
+          "VAT",
+          1
+        ],
+        [
+          "UZB",
+          1
+        ],
+        [
+          "USA",
+          1
+        ],
+        [
+          "URY",
+          1
+        ],
+        [
+          "UMI",
+          1
+        ],
+        [
+          "UKR",
+          1
+        ],
+        [
+          "UGA",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Least Developed Countries (LDC)",
+      "code_friendly_name_guess": "least_developed_countries_ldc",
+      "n_total": 999,
+      "n_null": 955,
+      "n_non_null": 44,
+      "null_rate": 0.956,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          44
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Land Locked Developing Countries (LLDC)",
+      "code_friendly_name_guess": "land_locked_developing_countries_lldc",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          31
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Small Island Developing States (SIDS)",
+      "code_friendly_name_guess": "small_island_developing_states_sids",
+      "n_total": 999,
+      "n_null": 946,
+      "n_non_null": 53,
+      "null_rate": 0.9469,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          53
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EU27",
+      "code_friendly_name_guess": "eu27",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          27
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "G20 (including EU27 and African Union)",
+      "code_friendly_name_guess": "g20_including_eu27_and_african_union",
+      "n_total": 999,
+      "n_null": 902,
+      "n_non_null": 97,
+      "null_rate": 0.9029,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          97
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "G7 (excluding EU27)",
+      "code_friendly_name_guess": "g7_excluding_eu27",
+      "n_total": 999,
+      "n_null": 992,
+      "n_non_null": 7,
+      "null_rate": 0.993,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "G7 (including EU27)",
+      "code_friendly_name_guess": "g7_including_eu27",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          31
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "African Union",
+      "code_friendly_name_guess": "african_union",
+      "n_total": 999,
+      "n_null": 944,
+      "n_non_null": 55,
+      "null_rate": 0.9449,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          55
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "OECD",
+      "code_friendly_name_guess": "oecd",
+      "n_total": 999,
+      "n_null": 961,
+      "n_non_null": 38,
+      "null_rate": 0.962,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Non-OECD (exc. China)",
+      "code_friendly_name_guess": "non_oecd_exc_china",
+      "n_total": 999,
+      "n_null": 789,
+      "n_non_null": 210,
+      "null_rate": 0.7898,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          210
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "BRICS (Brazil, Russia, India China, South Africa)",
+      "code_friendly_name_guess": "brics_brazil_russia_india_china_south_africa",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "BRICS+ (Brazil, Russia, India, China, South Africa, Ethiopia, the United Arab Emirates, Iran, Egypt, and Indonesia)",
+      "code_friendly_name_guess": "brics_brazil_russia_india_china_south_africa_ethiopia_the_united_arab_emirates_iran_egypt_and_indonesia",
+      "n_total": 999,
+      "n_null": 989,
+      "n_non_null": 10,
+      "null_rate": 0.99,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "1.0",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

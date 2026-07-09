@@ -1,0 +1,352 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_nuclear",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_nuclear",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.174180+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Nuclear Power Tracker - September 4, 2025",
+      "code_friendly_name_guess": "global_nuclear_power_tracker_september_4_2025",
+      "n_total": 999,
+      "n_null": 939,
+      "n_non_null": 60,
+      "null_rate": 0.9399,
+      "n_unique": 50,
+      "top_values": [
+        [
+          "Status",
+          11
+        ],
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Unit Name",
+          1
+        ],
+        [
+          "This update covers all regions of the globe, and uses the United Nations’ Statistics Division definitions of region and subregion.",
+          1
+        ],
+        [
+          "This is the fourth release of the Global Nuclear Power Tracker dataset. Previous releases were in January 2023, October 2023, and July 2024.",
+          1
+        ],
+        [
+          "Thermal Capacity (MWt)",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "State/Province",
+          1
+        ],
+        [
+          "Start Year",
+          1
+        ],
+        [
+          "September 2025 Release Notes",
+          1
+        ],
+        [
+          "Retirement Year",
+          1
+        ],
+        [
+          "Retirement Date",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Reference Net Capacity (MW)",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Nuclear Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Reactor Type",
+          1
+        ],
+        [
+          "Project Name in Local Language / Script",
+          1
+        ],
+        [
+          "Project Name",
+          1
+        ],
+        [
+          "Planned Retirement",
+          1
+        ],
+        [
+          "Owner Name in Local Language / Script",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "n/a",
+          19
+        ],
+        [
+          "yyyy-mm-dd [when available]",
+          5
+        ],
+        [
+          "yyyy",
+          3
+        ],
+        [
+          "MW",
+          3
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "yyyy-mm-dd",
+          1
+        ],
+        [
+          "shelved - inferred 2 y",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ],
+        [
+          "approximate, exact",
+          1
+        ],
+        [
+          "announced",
+          1
+        ],
+        [
+          "Y or N",
+          1
+        ],
+        [
+          "Units",
+          1
+        ],
+        [
+          "MWt",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "Latitude, assumed WGS84 (google maps)",
+          2
+        ],
+        [
+          "see rows 14-23 above",
+          1
+        ],
+        [
+          "Year the unit is taken offline",
+          1
+        ],
+        [
+          "Year the unit is commissioned",
+          1
+        ],
+        [
+          "Year the unit is cancelled",
+          1
+        ],
+        [
+          "Unit suspension has been announced.",
+          1
+        ],
+        [
+          "URL of corresponding GEM.wiki pages",
+          1
+        ],
+        [
+          "The unit is inferred to be shelved because no progress has been observed for at least two years.",
+          1
+        ],
+        [
+          "The unit is inferred to be cancelled because no progress has been observed for at least four years.",
+          1
+        ],
+        [
+          "The unit is disused, but not dismantled.",
+          1
+        ],
+        [
+          "The unit is actively moving forward in seeking governmental approvals, land rights, or financing.",
+          1
+        ],
+        [
+          "The unit has site preparation and equipment installation underway.",
+          1
+        ],
+        [
+          "The unit has been formally commissioned; commercial operation has begun.",
+          1
+        ],
+        [
+          "The unit has been described in corporate or government plans but concrete steps such as applying for permits have not yet been taken.",
+          1
+        ],
+        [
+          "The unit has been decommissioned.",
+          1
+        ],
+        [
+          "The company(ies) that operates the unit",
+          1
+        ],
+        [
+          "The company(ies) that directly own(s) the unit",
+          1
+        ],
+        [
+          "Subregion (using UN Population and Statistics definitions) where unit is located",
+          1
+        ],
+        [
+          "Subnational unit where unit is located",
+          1
+        ],
+        [
+          "Specific design series of the reactor",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 990,
+      "n_non_null": 9,
+      "null_rate": 0.991,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "No capacity threshold",
+          1
+        ],
+        [
+          "Left blank for local languages that use the Roman/Latin alphabet. Otherwise owner name(s) in local script included if possible",
+          1
+        ],
+        [
+          "Left blank for local languages that use the Roman/Latin alphabet. Otherwise operator name(s) in local script included if possible",
+          1
+        ],
+        [
+          "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible",
+          1
+        ],
+        [
+          "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]",
+          1
+        ],
+        [
+          "Company that performs day-to-day operations and maintenance of the unit",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

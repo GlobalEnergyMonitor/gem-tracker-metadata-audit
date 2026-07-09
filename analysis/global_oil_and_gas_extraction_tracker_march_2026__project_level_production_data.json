@@ -1,0 +1,551 @@
+{
+  "table_name": "global_oil_and_gas_extraction_tracker_march_2026__project_level_production_data",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "tab_slug": "project_level_production_data",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:18.972184+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 240,
+      "top_values": [
+        [
+          "L100000302760",
+          4
+        ],
+        [
+          "L100000302759",
+          4
+        ],
+        [
+          "L100000301998",
+          4
+        ],
+        [
+          "L100001080422",
+          3
+        ],
+        [
+          "L100000324529",
+          3
+        ],
+        [
+          "L100000324217",
+          3
+        ],
+        [
+          "L100000313022",
+          3
+        ],
+        [
+          "L100000312591",
+          3
+        ],
+        [
+          "L100001064234",
+          2
+        ],
+        [
+          "L100001062462",
+          2
+        ],
+        [
+          "L100001062453",
+          2
+        ],
+        [
+          "L100001055979",
+          2
+        ],
+        [
+          "L100000324448",
+          2
+        ],
+        [
+          "L100000324400",
+          2
+        ],
+        [
+          "L100000324223",
+          2
+        ],
+        [
+          "L100000324214",
+          2
+        ],
+        [
+          "L100000324182",
+          2
+        ],
+        [
+          "L100000324165",
+          2
+        ],
+        [
+          "L100000323477",
+          2
+        ],
+        [
+          "L100000323374",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unique project ID number.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 240,
+      "top_values": [
+        [
+          "J-Area Oil Project (United Kingdom)",
+          4
+        ],
+        [
+          "Elgin-Franklin Oil and Gas Project (United Kingdom)",
+          4
+        ],
+        [
+          "BKR Oil and Gas Project (United Kingdom)",
+          4
+        ],
+        [
+          "Tengiz Oil and Gas Project (Kazakhstan)",
+          3
+        ],
+        [
+          "SK309 & SK311 Oil and Gas Project (Malaysia)",
+          3
+        ],
+        [
+          "North Rankin Complex Gas and Condensate Project (Western Australia, Australia)",
+          3
+        ],
+        [
+          "Kunnar Pasakhi Deep-Tando Allah Yar (KPD-TAY) Oil and Gas Project (Pakistan)",
+          3
+        ],
+        [
+          "Jabung Block Oil and Gas Project (Indonesia)",
+          3
+        ],
+        [
+          "Zhongyuan Oil Project (Henan, China)",
+          2
+        ],
+        [
+          "Yurubcheno-Tokhomskoye Oil and Gas Project (Krasnoyarsk Krai, Russia)",
+          2
+        ],
+        [
+          "Yibal Khuff Oil and Gas Project (Oman)",
+          2
+        ],
+        [
+          "Xinjiang Oil and Gas Project (Xinjiang, China)",
+          2
+        ],
+        [
+          "Who Dat (MC503) Oil and Gas Project (Federal offshore, United States)",
+          2
+        ],
+        [
+          "Wheatstone/Iago Gas Project (Western Australia, Australia)",
+          2
+        ],
+        [
+          "Wattenberg Oil and Gas Project (Colorado, United States)",
+          2
+        ],
+        [
+          "Vostok Oil Oil and Gas Project (Russia)",
+          2
+        ],
+        [
+          "Velásquez-Palagua Oil Project (Boyaca, Colombia)",
+          2
+        ],
+        [
+          "Uzen & Karamandybas Oil and Gas Project (Kazakhstan)",
+          2
+        ],
+        [
+          "Utorogu/Ughelli Oil and Gas Project (Nigeria)",
+          2
+        ],
+        [
+          "Urikhtau Oil and Gas Project (Kazakhstan)",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of the unit as it is reported by sources.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "Russia",
+          30
+        ],
+        [
+          "China",
+          30
+        ],
+        [
+          "Malaysia",
+          21
+        ],
+        [
+          "Indonesia",
+          21
+        ],
+        [
+          "India",
+          19
+        ],
+        [
+          "Australia",
+          18
+        ],
+        [
+          "Nigeria",
+          17
+        ],
+        [
+          "Angola",
+          17
+        ],
+        [
+          "Kazakhstan",
+          15
+        ],
+        [
+          "Canada",
+          15
+        ],
+        [
+          "Colombia",
+          14
+        ],
+        [
+          "United Kingdom",
+          12
+        ],
+        [
+          "United States",
+          9
+        ],
+        [
+          "Oman",
+          8
+        ],
+        [
+          "Algeria",
+          8
+        ],
+        [
+          "Venezuela",
+          7
+        ],
+        [
+          "Iran",
+          6
+        ],
+        [
+          "Egypt",
+          5
+        ],
+        [
+          "Azerbaijan",
+          5
+        ],
+        [
+          "Trinidad and Tobago",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "oil",
+          143
+        ],
+        [
+          "gas",
+          115
+        ],
+        [
+          "hydrocarbons",
+          16
+        ],
+        [
+          "condensate",
+          16
+        ],
+        [
+          "oil and condensate",
+          8
+        ],
+        [
+          "crude oil and condensate",
+          6
+        ],
+        [
+          "gas condensate",
+          4
+        ],
+        [
+          "dry gas",
+          4
+        ],
+        [
+          "coal seam gas",
+          4
+        ],
+        [
+          "liquids",
+          3
+        ],
+        [
+          "crude oil",
+          3
+        ],
+        [
+          "associated gas",
+          3
+        ],
+        [
+          "LPG",
+          2
+        ],
+        [
+          "oil and gas condensate",
+          1
+        ],
+        [
+          "oil and gas",
+          1
+        ],
+        [
+          "liquid hydrocarbons",
+          1
+        ],
+        [
+          "LNG",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ],
+      "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 303,
+      "top_values": [
+        [
+          "0.0",
+          11
+        ],
+        [
+          "18.25",
+          5
+        ],
+        [
+          "29.2",
+          3
+        ],
+        [
+          "109.5",
+          3
+        ],
+        [
+          "826.88",
+          2
+        ],
+        [
+          "73.0",
+          2
+        ],
+        [
+          "7.3",
+          2
+        ],
+        [
+          "5.475",
+          2
+        ],
+        [
+          "36.65",
+          2
+        ],
+        [
+          "2.677",
+          2
+        ],
+        [
+          "2.555",
+          2
+        ],
+        [
+          "1447.04",
+          2
+        ],
+        [
+          "10220.0",
+          2
+        ],
+        [
+          "0.73",
+          2
+        ],
+        [
+          "9900.0",
+          1
+        ],
+        [
+          "9700.0",
+          1
+        ],
+        [
+          "96.345",
+          1
+        ],
+        [
+          "96.023",
+          1
+        ],
+        [
+          "920.0",
+          1
+        ],
+        [
+          "9152.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million bbl/y",
+          186
+        ],
+        [
+          "million m³/y",
+          127
+        ],
+        [
+          "million boe/y",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Data source type",
+      "code_friendly_name_guess": "data_source_type",
+      "n_total": 999,
+      "n_null": 668,
+      "n_non_null": 331,
+      "null_rate": 0.6687,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level production",
+          270
+        ],
+        [
+          "production summed from fields",
+          61
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If the production of the project is calculated from the the field-level projects which make it up, it is tagged as \"production summed from fields\". If data for the location is at the project level, this is tagged as \"project level production\" - if both data types are available, only the project level data is shown here.",
+      "notes_from_readme": null
+    }
+  ]
+}

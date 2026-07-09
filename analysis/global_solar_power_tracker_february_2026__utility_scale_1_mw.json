@@ -1,0 +1,2661 @@
+{
+  "table_name": "global_solar_power_tracker_february_2026__utility_scale_1_mw",
+  "tracker_slug": "global_solar_power_tracker_february_2026",
+  "tab_slug": "utility_scale_1_mw",
+  "n_rows": 103940,
+  "analyzed_at": "2026-07-07T21:45:20.940112+00:00",
+  "tracker_info": {
+    "title": "Global Solar Power Tracker - February 2026",
+    "citation": null,
+    "contact": "Contact: Kasandra O'Malia, Global Solar Power Tracker Project Manager, Global Energy Monitor - kasandra.omalia@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 835,
+      "top_values": [
+        [
+          "2025/08/05",
+          11838
+        ],
+        [
+          "2024/12/16",
+          9026
+        ],
+        [
+          "2025/09/15",
+          7960
+        ],
+        [
+          "2025/08/04",
+          7506
+        ],
+        [
+          "2025/05/08",
+          6547
+        ],
+        [
+          "2025/06/11",
+          5971
+        ],
+        [
+          "2025/08/25",
+          5607
+        ],
+        [
+          "2024/03/06",
+          5470
+        ],
+        [
+          "2025/12/05",
+          4647
+        ],
+        [
+          "2022/03/01",
+          2345
+        ],
+        [
+          "2025/08/09",
+          2162
+        ],
+        [
+          "2025/10/14",
+          2046
+        ],
+        [
+          "2025/12/03",
+          1746
+        ],
+        [
+          "2024/11/12",
+          1680
+        ],
+        [
+          "2024/02/28",
+          1059
+        ],
+        [
+          "2026/01/12",
+          659
+        ],
+        [
+          "2026/01/13",
+          644
+        ],
+        [
+          "2025/12/01",
+          557
+        ],
+        [
+          "2025/09/19",
+          517
+        ],
+        [
+          "2025/04/28",
+          498
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 214,
+      "top_values": [
+        [
+          "China",
+          17756
+        ],
+        [
+          "Japan",
+          10716
+        ],
+        [
+          "United States",
+          8700
+        ],
+        [
+          "Germany",
+          8607
+        ],
+        [
+          "Brazil",
+          7243
+        ],
+        [
+          "Greece",
+          5665
+        ],
+        [
+          "Poland",
+          4778
+        ],
+        [
+          "India",
+          4467
+        ],
+        [
+          "Spain",
+          3990
+        ],
+        [
+          "South Korea",
+          3089
+        ],
+        [
+          "United Kingdom",
+          2957
+        ],
+        [
+          "Türkiye",
+          2944
+        ],
+        [
+          "France",
+          2309
+        ],
+        [
+          "Vietnam",
+          1573
+        ],
+        [
+          "Italy",
+          1286
+        ],
+        [
+          "Chile",
+          943
+        ],
+        [
+          "Australia",
+          911
+        ],
+        [
+          "Hungary",
+          805
+        ],
+        [
+          "Netherlands",
+          775
+        ],
+        [
+          "Czech Republic",
+          735
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 94491,
+      "top_values": [
+        [
+          "Solaris (Pacto) solar farm",
+          125
+        ],
+        [
+          "Aurora solar farm (Brazil)",
+          92
+        ],
+        [
+          "Assiros solar project",
+          58
+        ],
+        [
+          "Pateiro solar farm",
+          44
+        ],
+        [
+          "Walfrido Avila solar farm",
+          40
+        ],
+        [
+          "Morro Preto solar farm",
+          40
+        ],
+        [
+          "Paineira solar farm",
+          39
+        ],
+        [
+          "Kilkis Vaptistis solar farm",
+          37
+        ],
+        [
+          "Jaguar (Uruquê) solar farm",
+          33
+        ],
+        [
+          "Granja solar farm",
+          33
+        ],
+        [
+          "Veredas solar farm",
+          32
+        ],
+        [
+          "Barreiro solar farm",
+          30
+        ],
+        [
+          "Alegria solar farm",
+          30
+        ],
+        [
+          "Santa Luzia solar farm",
+          28
+        ],
+        [
+          "Ingenostrum (Ibicuitinga) Solar Complex",
+          27
+        ],
+        [
+          "Sol de Itaueira solar farm",
+          26
+        ],
+        [
+          "Kilkis Mikrokabos solar project",
+          26
+        ],
+        [
+          "Santa Rita (Atlas) solar farm",
+          25
+        ],
+        [
+          "Kilkis Neo Gynaikokastro solar project",
+          25
+        ],
+        [
+          "Arinos Solar Complex",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Phase Name",
+      "code_friendly_name_guess": "phase_name",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 3175,
+      "top_values": [
+        [
+          "--",
+          86573
+        ],
+        [
+          "1",
+          4527
+        ],
+        [
+          "2",
+          3587
+        ],
+        [
+          "3",
+          1293
+        ],
+        [
+          "4",
+          735
+        ],
+        [
+          "5",
+          506
+        ],
+        [
+          "6",
+          342
+        ],
+        [
+          "7",
+          283
+        ],
+        [
+          "8",
+          240
+        ],
+        [
+          "9",
+          184
+        ],
+        [
+          "10",
+          162
+        ],
+        [
+          "PV1",
+          156
+        ],
+        [
+          "11",
+          136
+        ],
+        [
+          "12",
+          107
+        ],
+        [
+          "13",
+          95
+        ],
+        [
+          "14",
+          87
+        ],
+        [
+          "15",
+          76
+        ],
+        [
+          "16",
+          65
+        ],
+        [
+          "17",
+          61
+        ],
+        [
+          "18",
+          57
+        ]
+      ],
+      "portion_numeric": 0.214,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 103940,
+      "n_null": 72428,
+      "n_non_null": 31512,
+      "null_rate": 0.6968,
+      "n_unique": 26569,
+      "top_values": [
+        [
+          "Usina Solar Solaris (Pacto)",
+          125
+        ],
+        [
+          "Ασσηρος",
+          58
+        ],
+        [
+          "Usina Solar Pateiro",
+          44
+        ],
+        [
+          "Usina Solar Jaguar",
+          41
+        ],
+        [
+          "Usina Solar Walfrido Avila",
+          40
+        ],
+        [
+          "Usina Solar Morro Preto",
+          40
+        ],
+        [
+          "Βαπτιστης",
+          37
+        ],
+        [
+          "Usina Solar Veredas",
+          32
+        ],
+        [
+          "Usina Solar Barreiro",
+          30
+        ],
+        [
+          "Usina Solar Alegria",
+          30
+        ],
+        [
+          "Ξηροχωρι",
+          29
+        ],
+        [
+          "Μεγαλο Μοναστηρι",
+          29
+        ],
+        [
+          "Usina Solar Santa Luzia",
+          28
+        ],
+        [
+          "Usina Solar São Miguel",
+          27
+        ],
+        [
+          "Complexo Solar Ingenostrum (Ibicuitinga )",
+          27
+        ],
+        [
+          "Νεο Γυναικοκαστρο",
+          26
+        ],
+        [
+          "Μικροκαμπος",
+          26
+        ],
+        [
+          "Usina Solar Sol de Itaueira",
+          26
+        ],
+        [
+          "Usina Solar Santa Rita (Atlas)",
+          25
+        ],
+        [
+          "Complejo Solar Arinos",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 103940,
+      "n_null": 94390,
+      "n_non_null": 9550,
+      "null_rate": 0.9081,
+      "n_unique": 7684,
+      "top_values": [
+        [
+          "Colinas 1-3 (Phase 41-43)",
+          44
+        ],
+        [
+          "AC solar farm, Aurora Sol do Cerrado, Aurora Cluster I",
+          35
+        ],
+        [
+          "Luiz Carlos",
+          25
+        ],
+        [
+          "Jaíba 5 (Phases C, CE, CN, CO, CS, L1, L2, N, NE1, NE2, NE3, NO1, NO2, O, S, SE1, SE2, SO)",
+          21
+        ],
+        [
+          "Ufv Janaub (Phases 1, 2, 3, 4, 5, 6, 7, 8, 9)",
+          20
+        ],
+        [
+          "Cassilandia 138-2 (Phase 2), Cassilandia 138-1 (Phase 1)",
+          19
+        ],
+        [
+          "Noor Energy 1 (Phases 4a, 4b, 4c), DEWA IV - 100MW tower segment (Phase 4b), DEWA CSP Trough Project (Phase 4a), Shuaa Energy 1 (Phase 2), DEWA CSP Tower Project (Phase 4b)",
+          16
+        ],
+        [
+          "Waldpolenz 1/Inbetriebnahmeblock 1-19 (Phase 1)",
+          15
+        ],
+        [
+          "龙源横州市六景风光储氢一体化示范项目(光伏）",
+          14
+        ],
+        [
+          "North Shandong Shoreline Alkaline wind and solar first batch project 鲁北盐碱滩涂地千万千瓦级风光储基地首批项目",
+          14
+        ],
+        [
+          "Zenith solar farm",
+          13
+        ],
+        [
+          "Antelope Valley (Phases 1, 2, 3, 4, 5, 6)",
+          13
+        ],
+        [
+          "Solar Park",
+          12
+        ],
+        [
+          "Saint Triada",
+          12
+        ],
+        [
+          "Loc Ninh Solar-5 Pv (Phase 5), Loc Ninh Solar-1 Pv (Phase 1), Loc Ninh Solar-2 Pv (Phase 3), Loc Ninh Solar-4 Pv (Phase 4), Loc Ninh Solar-3 Pv (Phase 2)",
+          12
+        ],
+        [
+          "Juscelino Kubitschek",
+          12
+        ],
+        [
+          "Jalaun Ultra Mega Renewable Energy Power Park",
+          12
+        ],
+        [
+          "Intrepid Solar Complex",
+          11
+        ],
+        [
+          "SSM solar farm",
+          10
+        ],
+        [
+          "Parque Solar Celeo Barreiras",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 1780,
+      "top_values": [
+        [
+          "1",
+          16175
+        ],
+        [
+          "2",
+          5526
+        ],
+        [
+          "50",
+          3235
+        ],
+        [
+          "1.5",
+          3199
+        ],
+        [
+          "100",
+          2740
+        ],
+        [
+          "1.2",
+          2583
+        ],
+        [
+          "20",
+          2490
+        ],
+        [
+          "5",
+          2404
+        ],
+        [
+          "1.1",
+          1980
+        ],
+        [
+          "1.3",
+          1824
+        ],
+        [
+          "30",
+          1803
+        ],
+        [
+          "10",
+          1718
+        ],
+        [
+          "1.4",
+          1709
+        ],
+        [
+          "1.8",
+          1615
+        ],
+        [
+          "1.6",
+          1605
+        ],
+        [
+          "3",
+          1565
+        ],
+        [
+          "2.5",
+          1507
+        ],
+        [
+          "1.9",
+          1377
+        ],
+        [
+          "1.7",
+          1242
+        ],
+        [
+          "200",
+          996
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity Rating",
+      "code_friendly_name_guess": "capacity_rating",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "MWac",
+          46601
+        ],
+        [
+          "unknown",
+          34071
+        ],
+        [
+          "MWp/dc",
+          23268
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Technology Type",
+      "code_friendly_name_guess": "technology_type",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "PV",
+          79156
+        ],
+        [
+          "Assumed PV",
+          24500
+        ],
+        [
+          "Solar Thermal",
+          284
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          81377
+        ],
+        [
+          "pre-construction",
+          12715
+        ],
+        [
+          "announced",
+          3092
+        ],
+        [
+          "construction",
+          2844
+        ],
+        [
+          "cancelled",
+          1401
+        ],
+        [
+          "shelved - inferred 2 y",
+          1118
+        ],
+        [
+          "cancelled - inferred 4 y",
+          859
+        ],
+        [
+          "shelved",
+          470
+        ],
+        [
+          "retired",
+          46
+        ],
+        [
+          "mothballed",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved."
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun (not just clearing/roads)."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase 2” at a location where “Phase 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension announced. The status is marked as \"shelved - inferred 2y\" if no updates have been published in 2 or more years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled."
+        },
+        {
+          "name": "cancelled",
+          "definition": "Cancellation announced. The status is marked as \"cancelled - inferred 4y\" if no updates have been publishe din 4 or more years."
+        }
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 103940,
+      "n_null": 30230,
+      "n_non_null": 73710,
+      "null_rate": 0.2908,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "2017",
+          10780
+        ],
+        [
+          "2023",
+          8881
+        ],
+        [
+          "2024",
+          6810
+        ],
+        [
+          "2022",
+          5153
+        ],
+        [
+          "2018",
+          4787
+        ],
+        [
+          "2025",
+          4456
+        ],
+        [
+          "2021",
+          4431
+        ],
+        [
+          "2019",
+          4208
+        ],
+        [
+          "2020",
+          4115
+        ],
+        [
+          "2016",
+          4027
+        ],
+        [
+          "2015",
+          3578
+        ],
+        [
+          "2014",
+          2901
+        ],
+        [
+          "2013",
+          2571
+        ],
+        [
+          "2026",
+          1692
+        ],
+        [
+          "2012",
+          1273
+        ],
+        [
+          "2011",
+          1036
+        ],
+        [
+          "2027",
+          797
+        ],
+        [
+          "2010",
+          687
+        ],
+        [
+          "2028",
+          314
+        ],
+        [
+          "2009",
+          304
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 103940,
+      "n_null": 94039,
+      "n_non_null": 9901,
+      "null_rate": 0.9047,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "2035",
+          1809
+        ],
+        [
+          "2034",
+          1548
+        ],
+        [
+          "2033",
+          1301
+        ],
+        [
+          "2036",
+          1227
+        ],
+        [
+          "2040",
+          1009
+        ],
+        [
+          "2037",
+          868
+        ],
+        [
+          "2038",
+          689
+        ],
+        [
+          "2039",
+          546
+        ],
+        [
+          "2041",
+          363
+        ],
+        [
+          "2042",
+          246
+        ],
+        [
+          "2032",
+          94
+        ],
+        [
+          "2043",
+          72
+        ],
+        [
+          "2044",
+          42
+        ],
+        [
+          "2045",
+          16
+        ],
+        [
+          "2049",
+          9
+        ],
+        [
+          "2031",
+          9
+        ],
+        [
+          "2021",
+          7
+        ],
+        [
+          "2030",
+          4
+        ],
+        [
+          "2028",
+          4
+        ],
+        [
+          "2024",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 103940,
+      "n_null": 84287,
+      "n_non_null": 19653,
+      "null_rate": 0.8109,
+      "n_unique": 9889,
+      "top_values": [
+        [
+          "Cypress Creek Renewables",
+          204
+        ],
+        [
+          "AES Distributed Energy",
+          194
+        ],
+        [
+          "MN8 Energy",
+          147
+        ],
+        [
+          "Strata Manager",
+          141
+        ],
+        [
+          "Greenbacker Renewable Energy",
+          136
+        ],
+        [
+          "NextEra Energy",
+          114
+        ],
+        [
+          "Florida Power & Light",
+          113
+        ],
+        [
+          "Altus Power America Management",
+          107
+        ],
+        [
+          "Tesla",
+          104
+        ],
+        [
+          "Consolidated Edison Development Inc.",
+          83
+        ],
+        [
+          "National Grid Renewables",
+          78
+        ],
+        [
+          "Nautilus Solar Solutions",
+          76
+        ],
+        [
+          "Ecoplexus",
+          75
+        ],
+        [
+          "Standard Solar",
+          70
+        ],
+        [
+          "Solatio Brasil Gestão de Projetos",
+          63
+        ],
+        [
+          "Terraform Arcadia",
+          56
+        ],
+        [
+          "AES",
+          56
+        ],
+        [
+          "Duke Energy",
+          51
+        ],
+        [
+          "Generate Capital",
+          50
+        ],
+        [
+          "United States Solar",
+          49
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 103940,
+      "n_null": 95633,
+      "n_non_null": 8307,
+      "null_rate": 0.9201,
+      "n_unique": 5506,
+      "top_values": [
+        [
+          "سكاتك",
+          45
+        ],
+        [
+          "法國電力再生能源公司",
+          41
+        ],
+        [
+          "国家电投集团贵州金元威宁能源股份有限公司",
+          40
+        ],
+        [
+          "华能澜沧江（大理）新能源有限公司",
+          25
+        ],
+        [
+          "EDPR Ανανεωσιμες Πηγες Ενεργειας Ελλας 1 Μονοπροσωπη Ανωνυμη Εταιρεια",
+          24
+        ],
+        [
+          "广东省电力开发有限公司",
+          20
+        ],
+        [
+          "贵州能源集团电力投资有限公司",
+          18
+        ],
+        [
+          "广西龙源风力发电有限公司",
+          18
+        ],
+        [
+          "贵州乌江水电开发有限责任公司",
+          16
+        ],
+        [
+          "会泽华电道成清洁能源开发有限公司",
+          15
+        ],
+        [
+          "中核山东能源有限公司",
+          15
+        ],
+        [
+          "华能澜沧江水电股份有限公司",
+          14
+        ],
+        [
+          "中广核风电有限公司",
+          14
+        ],
+        [
+          "中国电建集团贵州电力设计研究院有限公司",
+          14
+        ],
+        [
+          "鄂尔多斯市库布其新能源有限公司",
+          13
+        ],
+        [
+          "مصدر",
+          13
+        ],
+        [
+          "罗甸乌江水电新能源有限公司",
+          12
+        ],
+        [
+          "特变电工新疆新能源股份有限公司",
+          12
+        ],
+        [
+          "天合光能股份有限公司",
+          12
+        ],
+        [
+          "华能陇东能源有限责任公司",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 103940,
+      "n_null": 79799,
+      "n_non_null": 24141,
+      "null_rate": 0.7677,
+      "n_unique": 9550,
+      "top_values": [
+        [
+          "NextEra Energy Inc [100%]",
+          171
+        ],
+        [
+          "Omega Energía [100%]",
+          123
+        ],
+        [
+          "Solatio Energia [100%]",
+          113
+        ],
+        [
+          "Egnatia Wind Energy SA [100%]",
+          107
+        ],
+        [
+          "Enel Green Power SpA [100%]",
+          101
+        ],
+        [
+          "Adani Group [100%]",
+          100
+        ],
+        [
+          "Aurora Energias Renováveis [100%]",
+          89
+        ],
+        [
+          "Pacto Geração e Transmissão Ltda [100%]",
+          83
+        ],
+        [
+          "CECEP Solar Energy Technology Co Ltd [100%]",
+          82
+        ],
+        [
+          "AES Corp [100%]",
+          82
+        ],
+        [
+          "Empresa Desenvolvedora de Empreendimentos Energéticos Ltda [100%]",
+          72
+        ],
+        [
+          "Florida Power & Light Co [100%]",
+          71
+        ],
+        [
+          "China Three Gorges New Energy (Group) Co Ltd [100%]",
+          70
+        ],
+        [
+          "EDF Renewables [100%]",
+          68
+        ],
+        [
+          "Iberdrola SA [100%]",
+          67
+        ],
+        [
+          "ENGIE SA [100%]",
+          66
+        ],
+        [
+          "Solaria Energía y Medio Ambiente SA [100%]",
+          65
+        ],
+        [
+          "Dominion Energy Inc [100%]",
+          65
+        ],
+        [
+          "Voltalia SA [100%]",
+          63
+        ],
+        [
+          "Huadian New Energy Group Co Ltd [100%]",
+          59
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 103940,
+      "n_null": 94331,
+      "n_non_null": 9609,
+      "null_rate": 0.9076,
+      "n_unique": 3626,
+      "top_values": [
+        [
+          "中国三峡新能源（集团）股份有限公司",
+          127
+        ],
+        [
+          "中核汇能有限公司",
+          121
+        ],
+        [
+          "中节能太阳能科技有限公司",
+          111
+        ],
+        [
+          "Εγνατια Wind Ενεργειακη Ανωνυμη Εταιρεια",
+          107
+        ],
+        [
+          "中广核太阳能开发有限公司",
+          97
+        ],
+        [
+          "سكاتك",
+          92
+        ],
+        [
+          "法國電力再生能源公司",
+          90
+        ],
+        [
+          "晶科电力科技股份有限公司",
+          72
+        ],
+        [
+          "カナディアン・ソーラー・プロジェクト株式会社",
+          64
+        ],
+        [
+          "华电新能源集团股份有限公司",
+          62
+        ],
+        [
+          "龙源电力集团股份有限公司",
+          58
+        ],
+        [
+          "Τερνα Ενεργειακη Ανωνυμη Βιομηχανικη Εμπορικη Τεχνικη Εταιρεια Α Ε",
+          58
+        ],
+        [
+          "华能新能源股份有限公司",
+          51
+        ],
+        [
+          "北京京能清洁能源电力股份有限公司",
+          51
+        ],
+        [
+          "EDPR Ανανεωσιμες Πηγες Ενεργειας Ελλας 1 Μονοπροσωπη Ανωνυμη Εταιρεια",
+          49
+        ],
+        [
+          "华润电力新能源投资有限公司",
+          48
+        ],
+        [
+          "大唐国际发电股份有限公司",
+          45
+        ],
+        [
+          "天合光能股份有限公司",
+          43
+        ],
+        [
+          "华能国际电力股份有限公司",
+          43
+        ],
+        [
+          "中国大唐集团有限公司",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Hydrogen",
+      "code_friendly_name_guess": "hydrogen",
+      "n_total": 103940,
+      "n_null": 103451,
+      "n_non_null": 489,
+      "null_rate": 0.9953,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          489
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Associated Storage",
+      "code_friendly_name_guess": "associated_storage",
+      "n_total": 103940,
+      "n_null": 101796,
+      "n_non_null": 2144,
+      "null_rate": 0.9794,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          2144
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 72750,
+      "top_values": [
+        [
+          "33.0000",
+          164
+        ],
+        [
+          "31.9216",
+          130
+        ],
+        [
+          "29.8622",
+          129
+        ],
+        [
+          "-15.0000",
+          125
+        ],
+        [
+          "30.7474",
+          109
+        ],
+        [
+          "30.2490",
+          100
+        ],
+        [
+          "31.2323",
+          92
+        ],
+        [
+          "29.0000",
+          89
+        ],
+        [
+          "31.5777",
+          86
+        ],
+        [
+          "31.8666",
+          81
+        ],
+        [
+          "36.3990",
+          77
+        ],
+        [
+          "29.9992",
+          76
+        ],
+        [
+          "31.9828",
+          63
+        ],
+        [
+          "31.8123",
+          61
+        ],
+        [
+          "46.7000",
+          60
+        ],
+        [
+          "48.5000",
+          55
+        ],
+        [
+          "30.5142",
+          55
+        ],
+        [
+          "48.3000",
+          54
+        ],
+        [
+          "32.0110",
+          54
+        ],
+        [
+          "30.6333",
+          53
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 77433,
+      "top_values": [
+        [
+          "120.0000",
+          253
+        ],
+        [
+          "121.6204",
+          129
+        ],
+        [
+          "120.2809",
+          129
+        ],
+        [
+          "-56.0000",
+          125
+        ],
+        [
+          "120.7511",
+          109
+        ],
+        [
+          "120.2052",
+          100
+        ],
+        [
+          "121.4691",
+          91
+        ],
+        [
+          "120.2953",
+          86
+        ],
+        [
+          "117.2814",
+          81
+        ],
+        [
+          "120.5769",
+          76
+        ],
+        [
+          "118.5056",
+          74
+        ],
+        [
+          "120.0001",
+          73
+        ],
+        [
+          "116.0000",
+          67
+        ],
+        [
+          "120.8905",
+          63
+        ],
+        [
+          "119.9692",
+          61
+        ],
+        [
+          "120.6760",
+          55
+        ],
+        [
+          "35.2000",
+          54
+        ],
+        [
+          "120.5333",
+          53
+        ],
+        [
+          "120.5811",
+          50
+        ],
+        [
+          "118.6689",
+          49
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "exact",
+          55277
+        ],
+        [
+          "approximate",
+          48592
+        ],
+        [
+          "Approximate",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 103940,
+      "n_null": 43895,
+      "n_non_null": 60045,
+      "null_rate": 0.4223,
+      "n_unique": 22266,
+      "top_values": [
+        [
+          "Dimotiki Enotita Domokoy",
+          212
+        ],
+        [
+          "Dimotiki Enotita Xuniados",
+          208
+        ],
+        [
+          "Juazeiro ",
+          150
+        ],
+        [
+          "Municipal Unit Of Nikea",
+          138
+        ],
+        [
+          "Municipal Unit Of Astakos",
+          116
+        ],
+        [
+          "Municipal Unit Of Assiros",
+          109
+        ],
+        [
+          "Municipal Unit Of Almyros",
+          107
+        ],
+        [
+          "Municipal Unit Of Agios Athanasios",
+          102
+        ],
+        [
+          "Municipal Unit Of Fyteies",
+          96
+        ],
+        [
+          "Bom Jesus da Lapa ",
+          95
+        ],
+        [
+          "Municipal Unit Of Koufalia",
+          91
+        ],
+        [
+          "Arinos ",
+          89
+        ],
+        [
+          "Janaúba ",
+          88
+        ],
+        [
+          "Municipal Unit Of Lamia",
+          82
+        ],
+        [
+          "Ichihara",
+          82
+        ],
+        [
+          "Brasília",
+          79
+        ],
+        [
+          "Buritizeiro",
+          78
+        ],
+        [
+          "Namwon-si",
+          77
+        ],
+        [
+          "Icapuí ",
+          76
+        ],
+        [
+          "Hamamatsu",
+          74
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 103940,
+      "n_null": 49709,
+      "n_non_null": 54231,
+      "null_rate": 0.4782,
+      "n_unique": 9127,
+      "top_values": [
+        [
+          "Larisa Regional Unit",
+          708
+        ],
+        [
+          "Phthiotis Regional Unit",
+          639
+        ],
+        [
+          "Kilkis Regional Unit",
+          586
+        ],
+        [
+          "Aetolia-Acarnania Regional Unit",
+          391
+        ],
+        [
+          "Thessaloniki Regional Unit",
+          363
+        ],
+        [
+          "Kozani Regional Unit",
+          290
+        ],
+        [
+          "Evros Regional Unit",
+          253
+        ],
+        [
+          "Regional Unit of Magnesia",
+          208
+        ],
+        [
+          "Regional Unit of Boeotia",
+          206
+        ],
+        [
+          "Kern County",
+          172
+        ],
+        [
+          "Los Angeles County",
+          167
+        ],
+        [
+          "Worcester County",
+          164
+        ],
+        [
+          "Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro",
+          155
+        ],
+        [
+          "Devon",
+          145
+        ],
+        [
+          "Gonghe",
+          140
+        ],
+        [
+          "Somerset",
+          132
+        ],
+        [
+          "Jiangyin City",
+          130
+        ],
+        [
+          "Serres Regional Unit",
+          129
+        ],
+        [
+          "Bouches-du-Rhône",
+          123
+        ],
+        [
+          "Chalkidiki Regional Unit",
+          121
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 103940,
+      "n_null": 55220,
+      "n_non_null": 48720,
+      "null_rate": 0.5313,
+      "n_unique": 4677,
+      "top_values": [
+        [
+          "Central Macedonia",
+          1278
+        ],
+        [
+          "Thessaly",
+          848
+        ],
+        [
+          "Ibaraki Prefecture",
+          835
+        ],
+        [
+          "Central Greece",
+          800
+        ],
+        [
+          "South West",
+          658
+        ],
+        [
+          "Região Geográfica Intermediária de Montes Claros",
+          611
+        ],
+        [
+          "Chiba Prefecture",
+          607
+        ],
+        [
+          "Eastern Macedonia and Thrace",
+          513
+        ],
+        [
+          "Tochigi Prefecture",
+          506
+        ],
+        [
+          "Hokkaido Prefecture",
+          496
+        ],
+        [
+          "Kagoshima Prefecture",
+          483
+        ],
+        [
+          "Fukuoka Prefecture",
+          479
+        ],
+        [
+          "Hyogo Prefecture",
+          476
+        ],
+        [
+          "Mie Prefecture",
+          425
+        ],
+        [
+          "South East",
+          417
+        ],
+        [
+          "Eastern",
+          394
+        ],
+        [
+          "Western Greece",
+          377
+        ],
+        [
+          "Gunma Prefecture",
+          369
+        ],
+        [
+          "Fukushima Prefecture",
+          362
+        ],
+        [
+          "East Midlands",
+          362
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 103940,
+      "n_null": 20762,
+      "n_non_null": 83178,
+      "null_rate": 0.1997,
+      "n_unique": 2229,
+      "top_values": [
+        [
+          "Bayern",
+          2813
+        ],
+        [
+          "England",
+          2479
+        ],
+        [
+          "Minas Gerais",
+          2097
+        ],
+        [
+          "Thessaly and Central Greece",
+          2021
+        ],
+        [
+          "Macedonia and Thrace",
+          1962
+        ],
+        [
+          "Jiangsu",
+          1883
+        ],
+        [
+          "Zhejiang",
+          1759
+        ],
+        [
+          "Shandong",
+          1572
+        ],
+        [
+          "California",
+          1202
+        ],
+        [
+          "Yunnan",
+          995
+        ],
+        [
+          "Hebei",
+          989
+        ],
+        [
+          "Xinjiang",
+          868
+        ],
+        [
+          "North Carolina",
+          831
+        ],
+        [
+          "Anhui",
+          829
+        ],
+        [
+          "Wielkopolskie",
+          826
+        ],
+        [
+          "Castilla-La Mancha",
+          823
+        ],
+        [
+          "Brandenburg",
+          789
+        ],
+        [
+          "New York",
+          772
+        ],
+        [
+          "Andalucía",
+          765
+        ],
+        [
+          "Minnesota",
+          738
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Eastern Asia",
+          32036
+        ],
+        [
+          "Western Europe",
+          12262
+        ],
+        [
+          "Southern Europe",
+          11798
+        ],
+        [
+          "Latin America and the Caribbean",
+          10493
+        ],
+        [
+          "Northern America",
+          9019
+        ],
+        [
+          "Eastern Europe",
+          8297
+        ],
+        [
+          "Southern Asia",
+          5303
+        ],
+        [
+          "Northern Europe",
+          4356
+        ],
+        [
+          "Western Asia",
+          4109
+        ],
+        [
+          "South-eastern Asia",
+          3193
+        ],
+        [
+          "Sub-Saharan Africa",
+          1487
+        ],
+        [
+          "Australia and New Zealand",
+          997
+        ],
+        [
+          "Northern Africa",
+          362
+        ],
+        [
+          "Central Asia",
+          147
+        ],
+        [
+          "Melanesia",
+          47
+        ],
+        [
+          "Micronesia",
+          22
+        ],
+        [
+          "Polynesia",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          44788
+        ],
+        [
+          "Europe",
+          36713
+        ],
+        [
+          "Americas",
+          19512
+        ],
+        [
+          "Africa",
+          1849
+        ],
+        [
+          "Oceania",
+          1078
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 94491,
+      "top_values": [
+        [
+          "L100000831877",
+          125
+        ],
+        [
+          "L100000807858",
+          92
+        ],
+        [
+          "L100001057803",
+          58
+        ],
+        [
+          "L100000831813",
+          44
+        ],
+        [
+          "L100000831907",
+          40
+        ],
+        [
+          "L100000831794",
+          40
+        ],
+        [
+          "L100001022231",
+          39
+        ],
+        [
+          "L100001059100",
+          37
+        ],
+        [
+          "L100001021790",
+          33
+        ],
+        [
+          "L100000831760",
+          33
+        ],
+        [
+          "L100000831905",
+          32
+        ],
+        [
+          "L100000831660",
+          30
+        ],
+        [
+          "L100000831636",
+          30
+        ],
+        [
+          "L100000831844",
+          28
+        ],
+        [
+          "L100000807903",
+          27
+        ],
+        [
+          "L100001059082",
+          26
+        ],
+        [
+          "L100000831867",
+          26
+        ],
+        [
+          "L100001059084",
+          25
+        ],
+        [
+          "L100000831845",
+          25
+        ],
+        [
+          "L100000807582",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 103940,
+      "top_values": [
+        [
+          "G100001092093",
+          1
+        ],
+        [
+          "G100001092092",
+          1
+        ],
+        [
+          "G100001092069",
+          1
+        ],
+        [
+          "G100001092068",
+          1
+        ],
+        [
+          "G100001092067",
+          1
+        ],
+        [
+          "G100001092066",
+          1
+        ],
+        [
+          "G100001092065",
+          1
+        ],
+        [
+          "G100001092064",
+          1
+        ],
+        [
+          "G100001092057",
+          1
+        ],
+        [
+          "G100001092056",
+          1
+        ],
+        [
+          "G100001092055",
+          1
+        ],
+        [
+          "G100001092054",
+          1
+        ],
+        [
+          "G100001092053",
+          1
+        ],
+        [
+          "G100001092052",
+          1
+        ],
+        [
+          "G100001092051",
+          1
+        ],
+        [
+          "G100001092050",
+          1
+        ],
+        [
+          "G100001092049",
+          1
+        ],
+        [
+          "G100001092044",
+          1
+        ],
+        [
+          "G100001092039",
+          1
+        ],
+        [
+          "G100001091952",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 103940,
+      "n_null": 94367,
+      "n_non_null": 9573,
+      "null_rate": 0.9079,
+      "n_unique": 8534,
+      "top_values": [
+        [
+          "SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P3,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P5,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P8,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P4,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P6,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P4,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P1,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P1,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P5,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P2,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A4-2000:500-P3,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P6,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A4-2000:500-P2,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P3,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A4-2000:500-P1,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A1-2000:500-P3,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P7,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A4-2000,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A1-2000,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000:500-P7,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A1-2000:500-P4,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P8,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000:500-P2,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A2-2000,SECI: SPD-MANUFACTURING-ISTS-AGEFL-A3-2000",
+          21
+        ],
+        [
+          "World Resources Institute: WKS0066304,World Resources Institute: WKS006630",
+          20
+        ],
+        [
+          "SECI: SPD-MANUFACTURING-ISTS-APIPL-A4-2000,SECI: SPD-MANUFACTURING-ISTS-APIPL-A2-2000,SECI: SPD-MANUFACTURING-ISTS-APIPL-A3-2000",
+          19
+        ],
+        [
+          "OpenCSP: 127,World Resources Institute: WKS0069243,World Resources Institute: WKS0065024,OpenCSP: 126,World Resources Institute: WKS0069244",
+          16
+        ],
+        [
+          "World Resources Institute: Wks0060014,World Resources Institute: Wri1025877",
+          15
+        ],
+        [
+          "EIA: 65675,EIA: 65676,EIA: 65677,EIA: 64928,EIA: 64879,EIA: 65674,EIA: 64878,EIA: 64929,EIA: 64877,EIA: 68846",
+          11
+        ],
+        [
+          "EIA: 57993",
+          11
+        ],
+        [
+          "EIA: 60094,EIA: 60092,EIA: 60095,EIA: 60093",
+          10
+        ],
+        [
+          "EIA: 58915",
+          10
+        ],
+        [
+          "World Resources Institute: WKS0066781",
+          9
+        ],
+        [
+          "EIA: 58542",
+          9
+        ],
+        [
+          "World Resources Institute: WKS0069781,World Resources Institute: WKS0066308,World Resources Institute: WKS0069515",
+          8
+        ],
+        [
+          "World Resources Institute: WKS0063214",
+          8
+        ],
+        [
+          "TZ: 75571,TZ: 69057",
+          8
+        ],
+        [
+          "EIA: 64098",
+          8
+        ],
+        [
+          "EIA: 58644",
+          8
+        ],
+        [
+          "EIA: 58462",
+          8
+        ],
+        [
+          "EIA: 10440,OpenCSP: 8,OpenCSP: 3,EIA: 10438,OpenCSP: 5,OpenCSP: 2,EIA: 10443,EIA: 10439,OpenCSP: 4,OpenCSP: 7,OpenCSP: 9,EIA: 10446,EIA: 10444,OpenCSP: 6,EIA: 10441,EIA: 10442",
+          8
+        ],
+        [
+          "World Resources Institute: WRI1023939",
+          7
+        ],
+        [
+          "World Resources Institute: WKS0066301",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 103940,
+      "n_null": 39743,
+      "n_non_null": 64197,
+      "null_rate": 0.3824,
+      "n_unique": 63770,
+      "top_values": [
+        [
+          "WKSL: 71967",
+          9
+        ],
+        [
+          "WKSL: 75218",
+          5
+        ],
+        [
+          "WKSL: 81734",
+          4
+        ],
+        [
+          "WKSL: 76897",
+          4
+        ],
+        [
+          "WKSL: 65226",
+          4
+        ],
+        [
+          "SIEL ID: 1605",
+          4
+        ],
+        [
+          "WKSL: 85135",
+          3
+        ],
+        [
+          "WKSL: 84248",
+          3
+        ],
+        [
+          "WKSL: 80722",
+          3
+        ],
+        [
+          "WKSL: 76789",
+          3
+        ],
+        [
+          "WKSL: 74479",
+          3
+        ],
+        [
+          "WKSL: 73849",
+          3
+        ],
+        [
+          "WKSL: 65893",
+          3
+        ],
+        [
+          "WKSL: 63908",
+          3
+        ],
+        [
+          "WKSL: 63907",
+          3
+        ],
+        [
+          "SIEL ID: 3481",
+          3
+        ],
+        [
+          "SIEL ID: 1684",
+          3
+        ],
+        [
+          "NEA: ",
+          3
+        ],
+        [
+          "World Resources Institute: WSK0068722,WKSL: 68722",
+          2
+        ],
+        [
+          "WKSL: 87460",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 103940,
+      "n_null": 0,
+      "n_non_null": 103940,
+      "null_rate": 0.0,
+      "n_unique": 94474,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Solaris_(Pacto)_solar_farm",
+          125
+        ],
+        [
+          "https://www.gem.wiki/Aurora_solar_farm_(Brazil)",
+          92
+        ],
+        [
+          "https://www.gem.wiki/Assiros_solar_project",
+          58
+        ],
+        [
+          "https://www.gem.wiki/Pateiro_solar_farm",
+          44
+        ],
+        [
+          "https://www.gem.wiki/Walfrido_Avila_solar_farm",
+          40
+        ],
+        [
+          "https://www.gem.wiki/Morro_Preto_solar_farm",
+          40
+        ],
+        [
+          "https://www.gem.wiki/Paineira_solar_farm",
+          39
+        ],
+        [
+          "https://www.gem.wiki/Kilkis_Vaptistis_solar_farm",
+          37
+        ],
+        [
+          "https://www.gem.wiki/Jaguar_(Uruquê)_solar_farm",
+          33
+        ],
+        [
+          "https://www.gem.wiki/Granja_solar_farm",
+          33
+        ],
+        [
+          "https://www.gem.wiki/Veredas_solar_farm",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Barreiro_solar_farm",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Alegria_solar_farm",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Santa_Luzia_solar_farm",
+          28
+        ],
+        [
+          "https://www.gem.wiki/Ingenostrum_(Ibicuitinga)_Solar_Complex",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Sol_de_Itaueira_solar_farm",
+          26
+        ],
+        [
+          "https://www.gem.wiki/Kilkis_Mikrokabos_solar_project",
+          26
+        ],
+        [
+          "https://www.gem.wiki/Santa_Rita_(Atlas)_solar_farm",
+          25
+        ],
+        [
+          "https://www.gem.wiki/Kilkis_Neo_Gynaikokastro_solar_project",
+          25
+        ],
+        [
+          "https://www.gem.wiki/Arinos_Solar_Complex",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

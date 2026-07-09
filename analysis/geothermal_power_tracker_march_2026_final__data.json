@@ -1,0 +1,2833 @@
+{
+  "table_name": "geothermal_power_tracker_march_2026_final__data",
+  "tracker_slug": "geothermal_power_tracker_march_2026_final",
+  "tab_slug": "data",
+  "n_rows": 835,
+  "analyzed_at": "2026-07-07T21:45:10.599512+00:00",
+  "tracker_info": {
+    "title": "Global Geothermal Power Tracker - March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Geothermal Tracker, March 2026 release\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sophia Bauer, Global Geothermal Power Tracker Project Manager, Global Energy Monitor - sophia.bauer@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Geothermal Power Tracker, March 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 82,
+      "top_values": [
+        [
+          "2023-05-02 00:00:00",
+          82
+        ],
+        [
+          "2023-05-11 00:00:00",
+          73
+        ],
+        [
+          "2023-05-03 00:00:00",
+          67
+        ],
+        [
+          "2023-05-08 00:00:00",
+          34
+        ],
+        [
+          "2025-01-08 00:00:00",
+          32
+        ],
+        [
+          "2026-01-07 00:00:00",
+          28
+        ],
+        [
+          "2025-12-08 00:00:00",
+          28
+        ],
+        [
+          "2023-05-18 00:00:00",
+          25
+        ],
+        [
+          "2025-11-18 00:00:00",
+          22
+        ],
+        [
+          "2023-05-04 00:00:00",
+          19
+        ],
+        [
+          "2025-01-06 00:00:00",
+          17
+        ],
+        [
+          "2025-12-15 00:00:00",
+          16
+        ],
+        [
+          "2025-12-10 00:00:00",
+          15
+        ],
+        [
+          "2025-11-25 00:00:00",
+          15
+        ],
+        [
+          "2025-09-23 00:00:00",
+          14
+        ],
+        [
+          "2025-01-28 00:00:00",
+          14
+        ],
+        [
+          "2024-03-13 00:00:00",
+          14
+        ],
+        [
+          "2025-01-14 00:00:00",
+          13
+        ],
+        [
+          "2025-11-19 00:00:00",
+          12
+        ],
+        [
+          "2026-01-12 00:00:00",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that this project was last researched by the researcher.",
+      "notes_from_readme": "Units: mm/dd/yyyy."
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 56,
+      "top_values": [
+        [
+          "United States",
+          186
+        ],
+        [
+          "Indonesia",
+          119
+        ],
+        [
+          "Türkiye",
+          96
+        ],
+        [
+          "Philippines",
+          68
+        ],
+        [
+          "Kenya",
+          47
+        ],
+        [
+          "New Zealand",
+          40
+        ],
+        [
+          "Japan",
+          34
+        ],
+        [
+          "Italy",
+          32
+        ],
+        [
+          "Iceland",
+          31
+        ],
+        [
+          "Mexico",
+          28
+        ],
+        [
+          "El Salvador",
+          14
+        ],
+        [
+          "Germany",
+          12
+        ],
+        [
+          "Croatia",
+          10
+        ],
+        [
+          "Canada",
+          10
+        ],
+        [
+          "Costa Rica",
+          9
+        ],
+        [
+          "Ethiopia",
+          8
+        ],
+        [
+          "Nicaragua",
+          7
+        ],
+        [
+          "Tanzania",
+          6
+        ],
+        [
+          "Taiwan",
+          5
+        ],
+        [
+          "Russia",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country/area the project is located in (Unabbreviated).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 484,
+      "top_values": [
+        [
+          "Olkaria 1 geothermal power plant",
+          9
+        ],
+        [
+          "Lahendong geothermal power plant",
+          8
+        ],
+        [
+          "Svartsengi geothermal power plant",
+          7
+        ],
+        [
+          "Salton Sea geothermal plant",
+          7
+        ],
+        [
+          "Hellisheiðarvirkjun geothermal power plant",
+          7
+        ],
+        [
+          "Hell's Kitchen geothermal plant",
+          7
+        ],
+        [
+          "Gunung Salak geothermal power plant",
+          7
+        ],
+        [
+          "Wairakei geothermal power plant",
+          6
+        ],
+        [
+          "Tiwi geothermal power plant",
+          6
+        ],
+        [
+          "PamukÖren geothermal power plant",
+          6
+        ],
+        [
+          "Makban geothermal power plant",
+          6
+        ],
+        [
+          "Los Azufres geothermal power plant",
+          6
+        ],
+        [
+          "Greeneco Sarayköy geothermal plant",
+          6
+        ],
+        [
+          "Efeler geothermal power plant",
+          6
+        ],
+        [
+          "Dora geothermal power plant",
+          6
+        ],
+        [
+          "Dieng geothermal power plant",
+          6
+        ],
+        [
+          "Star Peak geothermal power plant",
+          5
+        ],
+        [
+          "Sorik Marapi geothermal power plant",
+          5
+        ],
+        [
+          "Second Imperial geothermal power plant",
+          5
+        ],
+        [
+          "Ngatamariki geothermal power plant",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Commonly used name.",
+      "notes_from_readme": "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken."
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 835,
+      "n_null": 2,
+      "n_non_null": 833,
+      "null_rate": 0.0024,
+      "n_unique": 129,
+      "top_values": [
+        [
+          "--",
+          254
+        ],
+        [
+          "1.0",
+          156
+        ],
+        [
+          "2.0",
+          128
+        ],
+        [
+          "3.0",
+          63
+        ],
+        [
+          "4.0",
+          30
+        ],
+        [
+          "5.0",
+          17
+        ],
+        [
+          "Pilot",
+          10
+        ],
+        [
+          "6.0",
+          10
+        ],
+        [
+          "future units",
+          9
+        ],
+        [
+          "Future units",
+          8
+        ],
+        [
+          "A",
+          5
+        ],
+        [
+          "7.0",
+          5
+        ],
+        [
+          "GEN2",
+          4
+        ],
+        [
+          "B",
+          4
+        ],
+        [
+          "OEC2",
+          3
+        ],
+        [
+          "Expansion",
+          3
+        ],
+        [
+          "Binary",
+          3
+        ],
+        [
+          "8.0",
+          3
+        ],
+        [
+          "11.0",
+          3
+        ],
+        [
+          "OEC1",
+          2
+        ]
+      ],
+      "portion_numeric": 0.544,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Common name of the project unit.",
+      "notes_from_readme": "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used."
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 835,
+      "n_null": 562,
+      "n_non_null": 273,
+      "null_rate": 0.6731,
+      "n_unique": 156,
+      "top_values": [
+        [
+          "Virkjunin í Svartsengi",
+          7
+        ],
+        [
+          "Hellisheiði Cogen verksmiðja",
+          7
+        ],
+        [
+          "Pembangkit Listrik Tenaga Uap Dieng",
+          6
+        ],
+        [
+          "Pamukören Jeotermal Santrali",
+          6
+        ],
+        [
+          "Greeneco Sarayköy Jeotermal Santrali",
+          6
+        ],
+        [
+          "Efeler Buhar Tesisi",
+          6
+        ],
+        [
+          "Dora Jeotermal Santrali",
+          6
+        ],
+        [
+          "Central geotérmica Los Azufres 3",
+          6
+        ],
+        [
+          "Central geotérmica Cerro Prieto 1",
+          5
+        ],
+        [
+          "Planta geotérmica Miravalles",
+          4
+        ],
+        [
+          "Cogen verksmiðja á Nesjavöllum, Nesjavallavirkjun",
+          4
+        ],
+        [
+          "Central geotérmica Cerro Prieto 4",
+          4
+        ],
+        [
+          "Central geotérmica Berlín",
+          4
+        ],
+        [
+          "Central geotérmica Ahuachapán",
+          4
+        ],
+        [
+          "九州電力（株） 八丁原発電所",
+          3
+        ],
+        [
+          "Мутновская ГеоЭС",
+          3
+        ],
+        [
+          "Reykjanesvirkjun, Jarðvarmaver á Reykjanesi",
+          3
+        ],
+        [
+          "Planta Geotérmica San Jacinto-Tizate, Central geotérmica San Jacinto - Tizate",
+          3
+        ],
+        [
+          "Jeotermal Enerji Santrali",
+          3
+        ],
+        [
+          "Jarðhitaver á Þeistareykjum",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Commonly used name in the locally used script.",
+      "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible."
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 835,
+      "n_null": 528,
+      "n_non_null": 307,
+      "null_rate": 0.6323,
+      "n_unique": 175,
+      "top_values": [
+        [
+          "Kiwanda Cha Nguvu Za Jotoardhi Cha Olkaria-I (Repower)",
+          9
+        ],
+        [
+          "Svartsengi Geothermal Cogen Plant",
+          7
+        ],
+        [
+          "Hellisheidi",
+          7
+        ],
+        [
+          "Hell's Kitchen geothermal lithium project, Hell's Kitchen Geothermal Project (Salton Sea Geothermal)",
+          7
+        ],
+        [
+          "MakBan Geothermal Power Plant",
+          6
+        ],
+        [
+          "Second Imperial Geothermal Company - Heber II",
+          5
+        ],
+        [
+          "Ngā Tamariki Geothermal System",
+          5
+        ],
+        [
+          "Bruce Levy Geothermal, Dale Burgett",
+          5
+        ],
+        [
+          "Türkerler JES-3, Alaşehir-3&4",
+          4
+        ],
+        [
+          "Rafferty Geothermal Power Project (Torquay), Canada's Conventional Geothermal Power Plant",
+          4
+        ],
+        [
+          "Planta De Energía Geotérmica LaGeo De Berlín",
+          4
+        ],
+        [
+          "Ngawha I Geothermal Power Plant (Ngāwhā)",
+          4
+        ],
+        [
+          "Mt. Apo geothermal plant (Phases 1, 2, 3), Mindanao One And Two Steam Plant, Mindanao Three Steam Plant",
+          4
+        ],
+        [
+          "Mahanagdong Geothermal 1 Power Plant, Leyte Mahanagdong (Phases A1, A2, B1), Mahanagdong Geothermal 2 Power Plant",
+          4
+        ],
+        [
+          "Bacman Geothermal Power Plant(Bacon-Manito)",
+          4
+        ],
+        [
+          "Zorlu",
+          3
+        ],
+        [
+          "Wkp Baturraden, Baturaden-Slamet",
+          3
+        ],
+        [
+          "Wilis-Ngebel",
+          3
+        ],
+        [
+          "Theistareykir",
+          3
+        ],
+        [
+          "Tarawera Power Plant (Kawerau Bope)",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternative names, including the name in local script.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit Capacity (MW)",
+      "code_friendly_name_guess": "unit_capacity_mw",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 167,
+      "top_values": [
+        [
+          "55.0",
+          58
+        ],
+        [
+          "30.0",
+          51
+        ],
+        [
+          "5.0",
+          49
+        ],
+        [
+          "50.0",
+          40
+        ],
+        [
+          "20.0",
+          40
+        ],
+        [
+          "100.0",
+          24
+        ],
+        [
+          "40.0",
+          23
+        ],
+        [
+          "10.0",
+          22
+        ],
+        [
+          "15.0",
+          21
+        ],
+        [
+          "12.0",
+          21
+        ],
+        [
+          "60.0",
+          20
+        ],
+        [
+          "35.0",
+          20
+        ],
+        [
+          "25.0",
+          20
+        ],
+        [
+          "2.0",
+          19
+        ],
+        [
+          "45.0",
+          16
+        ],
+        [
+          "24.0",
+          16
+        ],
+        [
+          "110.0",
+          16
+        ],
+        [
+          "70.0",
+          12
+        ],
+        [
+          "38.0",
+          12
+        ],
+        [
+          "26.0",
+          12
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Nameplate capacity, or best available data, of the unit in megawatts rounded to whole number.",
+      "notes_from_readme": "Units: Megawatts (MW)."
+    },
+    {
+      "field_name": "Technology",
+      "code_friendly_name_guess": "technology",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "unknown type",
+          337
+        ],
+        [
+          "binary cycle",
+          234
+        ],
+        [
+          "flash steam - single",
+          124
+        ],
+        [
+          "flash steam - double",
+          50
+        ],
+        [
+          "dry steam",
+          50
+        ],
+        [
+          "flash steam - unknown",
+          14
+        ],
+        [
+          "enhanced geothermal systems (EGS)",
+          14
+        ],
+        [
+          "flash steam - triple",
+          5
+        ],
+        [
+          "advanced geothermal systems (AGS)",
+          5
+        ],
+        [
+          "geopressured geothermal system (GGS)",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "dry steam",
+          "definition": "Projects that use steam directly from a geothermal reservoir to turn a turbine."
+        },
+        {
+          "name": "flash steam - single",
+          "definition": "Projects where the high-pressure geothermal fluid is converted to steam only once."
+        },
+        {
+          "name": "flash steam - double",
+          "definition": "Projects where the remaining water after the first flash is still warm enough to flash again and used to run a second, low-pressure steam turbine."
+        },
+        {
+          "name": "flash steam - triple",
+          "definition": "Such systems use three flashes to generate three different steam pressures: high, intermediate, and low. The steam flows are then used to rotate two or more turbines."
+        },
+        {
+          "name": "flash steam - unknown",
+          "definition": "Projects where the high-pressure geothermal fluid is converted to steam but the number of flashes is unknown."
+        },
+        {
+          "name": "binary cycle",
+          "definition": "Projects that transfer the heat from geothermal fluid to another liquid. The heat causes the second liquid to turn to steam, which is used to drive a turbine."
+        },
+        {
+          "name": "EGS (Enhanced Geothermal Systems)",
+          "definition": "Projects that creates machine-made geothermal reservoirs in regions where there is naturally hot rock but insufficient permeability of fluid for a traditional geothermal power plant."
+        },
+        {
+          "name": "AGS (Advanced Geothermal Systems)",
+          "definition": "Projects that use deep, large, artificial closed-loop circuits in which a working fluid is circulated and heated by sub-surface rocks through conductive heat transfer."
+        },
+        {
+          "name": "GGS (Geopressured Geothermal Systems)",
+          "definition": "Pojects that repurpose fracking technology to extract thermal energy from miles below the Earth’s surface."
+        },
+        {
+          "name": "unknown type",
+          "definition": "The type of geothermal power is not specified."
+        }
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          505
+        ],
+        [
+          "pre-construction",
+          120
+        ],
+        [
+          "announced",
+          82
+        ],
+        [
+          "construction",
+          53
+        ],
+        [
+          "cancelled - inferred 4 y",
+          25
+        ],
+        [
+          "cancelled",
+          17
+        ],
+        [
+          "shelved - inferred 2 y",
+          13
+        ],
+        [
+          "retired",
+          11
+        ],
+        [
+          "shelved",
+          6
+        ],
+        [
+          "mothballed",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "See rows 16-23 above.",
+      "notes_from_readme": "Units: see above.",
+      "value_definitions": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved."
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun (not just clearing/roads)."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Unit 2” at a location where “Unit 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of the project operation has been announced."
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "The project is inferred to be shelved because, or no progress has been observed for at least two years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled."
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made."
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "The project is inferred to be cancelled because, or no progress has been observed for at least four years"
+        }
+      ]
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 835,
+      "n_null": 222,
+      "n_non_null": 613,
+      "null_rate": 0.2659,
+      "n_unique": 68,
+      "top_values": [
+        [
+          "2026.0",
+          37
+        ],
+        [
+          "2027.0",
+          34
+        ],
+        [
+          "2018.0",
+          26
+        ],
+        [
+          "2028.0",
+          21
+        ],
+        [
+          "2013.0",
+          21
+        ],
+        [
+          "2019.0",
+          18
+        ],
+        [
+          "2017.0",
+          18
+        ],
+        [
+          "2014.0",
+          18
+        ],
+        [
+          "2012.0",
+          18
+        ],
+        [
+          "2030.0",
+          17
+        ],
+        [
+          "2022.0",
+          15
+        ],
+        [
+          "2023.0",
+          14
+        ],
+        [
+          "2025.0",
+          13
+        ],
+        [
+          "2000.0",
+          13
+        ],
+        [
+          "2015.0",
+          12
+        ],
+        [
+          "1990.0",
+          12
+        ],
+        [
+          "1983.0",
+          12
+        ],
+        [
+          "2029.0",
+          11
+        ],
+        [
+          "2016.0",
+          11
+        ],
+        [
+          "2008.0",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 835,
+      "n_null": 813,
+      "n_non_null": 22,
+      "null_rate": 0.9737,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "2031.0",
+          5
+        ],
+        [
+          "2016.0",
+          4
+        ],
+        [
+          "2026.0",
+          3
+        ],
+        [
+          "2023.0",
+          3
+        ],
+        [
+          "2006.0",
+          2
+        ],
+        [
+          "2052.0",
+          1
+        ],
+        [
+          "2048.0",
+          1
+        ],
+        [
+          "2029.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 835,
+      "n_null": 385,
+      "n_non_null": 450,
+      "null_rate": 0.4611,
+      "n_unique": 115,
+      "top_values": [
+        [
+          "Energy Development CORP (EDC)",
+          32
+        ],
+        [
+          "Comision Federal De Electricidad",
+          27
+        ],
+        [
+          "Kenya Electricity Generating Company",
+          21
+        ],
+        [
+          "Pertamina Geothermal Energy",
+          19
+        ],
+        [
+          "Geysers Power",
+          15
+        ],
+        [
+          "Contact Energy",
+          15
+        ],
+        [
+          "Ormat Technology",
+          13
+        ],
+        [
+          "Orkuveita Reykjavikur",
+          13
+        ],
+        [
+          "AP Renewables INC (APRI)",
+          12
+        ],
+        [
+          "Enel Green Power",
+          11
+        ],
+        [
+          "PT Geo Dipa Energi (GDE)",
+          10
+        ],
+        [
+          "LaGeo",
+          9
+        ],
+        [
+          "Geothermal Development Company (GDC)",
+          9
+        ],
+        [
+          "HS Orka",
+          8
+        ],
+        [
+          "Star Energy Geothermal",
+          7
+        ],
+        [
+          "Landsvirkjun",
+          7
+        ],
+        [
+          "CalEnergy Operating",
+          7
+        ],
+        [
+          "PT PLN (Persero)",
+          6
+        ],
+        [
+          "Mercury NZ",
+          6
+        ],
+        [
+          "Menderes Geothermal Elektrik",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that operates the project.",
+      "notes_from_readme": "The company that performs day-to-day operations and maintenance of the project."
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 835,
+      "n_null": 799,
+      "n_non_null": 36,
+      "null_rate": 0.9569,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "PT Perusahaan Listrik Negara",
+          6
+        ],
+        [
+          "Menderes Geothermal Elektrik Uretim A.S.",
+          6
+        ],
+        [
+          "九州電力株式会社",
+          5
+        ],
+        [
+          "東北電力株式会社",
+          4
+        ],
+        [
+          "ኢትዮጵያ ኤሌክትሪክ ኃይል",
+          3
+        ],
+        [
+          "結元能源開發股份有限公司",
+          2
+        ],
+        [
+          "当雄县羊易地热电站有限公司",
+          2
+        ],
+        [
+          "出光興産株式会社",
+          2
+        ],
+        [
+          "Зарубежнефть",
+          2
+        ],
+        [
+          "電源開発株式会社",
+          1
+        ],
+        [
+          "西藏羊八井地热发电有限公司",
+          1
+        ],
+        [
+          "北海道電力株式会社",
+          1
+        ],
+        [
+          "ПАО «РусГидро»",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name that operates the project in the locally used script.",
+      "notes_from_readme": "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible."
+    },
+    {
+      "field_name": "Operator GEM Entity ID",
+      "code_friendly_name_guess": "operator_gem_entity_id",
+      "n_total": 835,
+      "n_null": 385,
+      "n_non_null": 450,
+      "null_rate": 0.4611,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "E100000185981",
+          32
+        ],
+        [
+          "E100000186226",
+          27
+        ],
+        [
+          "E100000002000",
+          21
+        ],
+        [
+          "E100000186013",
+          19
+        ],
+        [
+          "E100000186076",
+          15
+        ],
+        [
+          "E100000002037",
+          15
+        ],
+        [
+          "E100000185995",
+          13
+        ],
+        [
+          "E100000185993",
+          13
+        ],
+        [
+          "E100000186114",
+          12
+        ],
+        [
+          "E100000186005",
+          10
+        ],
+        [
+          "E100000186032",
+          9
+        ],
+        [
+          "E100000185987",
+          9
+        ],
+        [
+          "E100000186027",
+          8
+        ],
+        [
+          "E100000185997",
+          8
+        ],
+        [
+          "E100000186082",
+          7
+        ],
+        [
+          "E100000186004",
+          7
+        ],
+        [
+          "E100000185996",
+          7
+        ],
+        [
+          "E100002007478",
+          6
+        ],
+        [
+          "E100000186107",
+          6
+        ],
+        [
+          "E100000186038",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 835,
+      "n_null": 129,
+      "n_non_null": 706,
+      "null_rate": 0.1545,
+      "n_unique": 235,
+      "top_values": [
+        [
+          "Ormat Technology Inc [100%]",
+          45
+        ],
+        [
+          "Energy Development CORP (EDC) [100%]",
+          28
+        ],
+        [
+          "Pertamina Geothermal Energy [100%]",
+          23
+        ],
+        [
+          "Kenya Electricity Generating Company PLC",
+          22
+        ],
+        [
+          "Comision Federal De Electricidad [100%]",
+          15
+        ],
+        [
+          "PT PLN (Persero) [100%]",
+          14
+        ],
+        [
+          "Ormat Technology Inc",
+          14
+        ],
+        [
+          "Orkuveita Reykjavikur [100%]",
+          13
+        ],
+        [
+          "CalEnergy Operating Corp [100%]",
+          13
+        ],
+        [
+          "Zorlu Enerji [100%]",
+          12
+        ],
+        [
+          "Comision Federal De Electricidad",
+          12
+        ],
+        [
+          "Calpine Corp [100%]",
+          12
+        ],
+        [
+          "AboitizPower Corp [100%]",
+          12
+        ],
+        [
+          "PT Geo Dipa Energi (GDE) [100%]",
+          10
+        ],
+        [
+          "LaGeo [100%]",
+          9
+        ],
+        [
+          "Geothermal Development Company (GDC) [100%]",
+          9
+        ],
+        [
+          "Enel Green Power [100%]",
+          9
+        ],
+        [
+          "Contact Energy Ltd [100%]",
+          9
+        ],
+        [
+          "Mogan Enerji Yatirim Holding [100%]",
+          8
+        ],
+        [
+          "HS Orka [100%]",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that directly owns the plant. When owned by a special purpose vehicle, the next level of ownership is provided.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 835,
+      "n_null": 767,
+      "n_non_null": 68,
+      "null_rate": 0.9186,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "PT Perusahaan Listrik Negara",
+          15
+        ],
+        [
+          "Menderes Geothermal Elektrik Uretim A.S.",
+          6
+        ],
+        [
+          "ПАО «РусГидро»",
+          5
+        ],
+        [
+          "東北電力株式会社",
+          4
+        ],
+        [
+          "九州電力株式会社",
+          4
+        ],
+        [
+          "ኢትዮጵያ ኤሌክትሪክ ኃይል",
+          3
+        ],
+        [
+          "電源開発株式会社",
+          2
+        ],
+        [
+          "西藏华电地热开发有限公司",
+          2
+        ],
+        [
+          "株式会社INPEX; 住友商事株式会社",
+          2
+        ],
+        [
+          "出光興産株式会社",
+          2
+        ],
+        [
+          "住友商事株式会社",
+          2
+        ],
+        [
+          "オリックス株式会社",
+          2
+        ],
+        [
+          "KİPAŞ Holding",
+          2
+        ],
+        [
+          "Güzelyurt Jeotermal Enerji",
+          2
+        ],
+        [
+          "進金生能源服務",
+          1
+        ],
+        [
+          "結元能源開發股份有限公司; 台灣汽電共生股份有限公司",
+          1
+        ],
+        [
+          "株式会社大林組",
+          1
+        ],
+        [
+          "東北電力株式会社; 丸紅株式会社",
+          1
+        ],
+        [
+          "東京電力ホールディングス株式会社",
+          1
+        ],
+        [
+          "安比地熱株式会社",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name that directly owns the project in the locally used script.",
+      "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible."
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 835,
+      "n_null": 129,
+      "n_non_null": 706,
+      "null_rate": 0.1545,
+      "n_unique": 235,
+      "top_values": [
+        [
+          "E100000185993 [100%]",
+          45
+        ],
+        [
+          "E100000185981 [100%]",
+          28
+        ],
+        [
+          "E100000186013 [100%]",
+          23
+        ],
+        [
+          "E100000002000",
+          22
+        ],
+        [
+          "E100000186226 [100%]",
+          15
+        ],
+        [
+          "E100000000537 [100%]",
+          14
+        ],
+        [
+          "E100000186082 [100%]",
+          13
+        ],
+        [
+          "E100000185995 [100%]",
+          13
+        ],
+        [
+          "E100000185993",
+          13
+        ],
+        [
+          "E100000186226",
+          12
+        ],
+        [
+          "E100000186064 [100%]",
+          12
+        ],
+        [
+          "E100000186054 [100%]",
+          12
+        ],
+        [
+          "E100000001170 [100%]",
+          12
+        ],
+        [
+          "E100000186005 [100%]",
+          10
+        ],
+        [
+          "E100000186032 [100%]",
+          9
+        ],
+        [
+          "E100000186027 [100%]",
+          9
+        ],
+        [
+          "E100000185987 [100%]",
+          9
+        ],
+        [
+          "E100000002037 [100%]",
+          9
+        ],
+        [
+          "E100000186067 [100%]",
+          8
+        ],
+        [
+          "E100000185997 [100%]",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 835,
+      "n_null": 835,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Green Hydrogen Producing",
+      "code_friendly_name_guess": "green_hydrogen_producing",
+      "n_total": 835,
+      "n_null": 751,
+      "n_non_null": 84,
+      "null_rate": 0.8994,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "not found",
+          59
+        ],
+        [
+          "no",
+          18
+        ],
+        [
+          "yes",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Is green hydrogen produced by the project.",
+      "notes_from_readme": "Units: not found, yes, no."
+    },
+    {
+      "field_name": "Data Center PPA",
+      "code_friendly_name_guess": "data_center_ppa",
+      "n_total": 835,
+      "n_null": 817,
+      "n_non_null": 18,
+      "null_rate": 0.9784,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Is the unit connected to a data center through a PPA",
+      "notes_from_readme": "Units: not found, yes, no."
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 487,
+      "top_values": [
+        [
+          "38.777",
+          12
+        ],
+        [
+          "64.0373",
+          7
+        ],
+        [
+          "-0.8893",
+          7
+        ],
+        [
+          "38.2877",
+          6
+        ],
+        [
+          "37.9346",
+          6
+        ],
+        [
+          "37.9167",
+          6
+        ],
+        [
+          "37.857",
+          6
+        ],
+        [
+          "14.0917",
+          6
+        ],
+        [
+          "13.4655",
+          6
+        ],
+        [
+          "-7.2261",
+          6
+        ],
+        [
+          "-6.7416",
+          6
+        ],
+        [
+          "-38.6266",
+          6
+        ],
+        [
+          "-0.8644",
+          6
+        ],
+        [
+          "40.5321",
+          5
+        ],
+        [
+          "32.8484",
+          5
+        ],
+        [
+          "32.7144",
+          5
+        ],
+        [
+          "32.3985",
+          5
+        ],
+        [
+          "32.1447",
+          5
+        ],
+        [
+          "19.7904",
+          5
+        ],
+        [
+          "0.7475",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Latitude, assumed WGS84 (google maps), of the project unit.",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 484,
+      "top_values": [
+        [
+          "-122.745",
+          12
+        ],
+        [
+          "36.2557",
+          7
+        ],
+        [
+          "-21.4007",
+          7
+        ],
+        [
+          "36.2985",
+          6
+        ],
+        [
+          "28.7969",
+          6
+        ],
+        [
+          "28.5305",
+          6
+        ],
+        [
+          "28.0716",
+          6
+        ],
+        [
+          "176.1055",
+          6
+        ],
+        [
+          "123.6486",
+          6
+        ],
+        [
+          "121.2143",
+          6
+        ],
+        [
+          "109.8975",
+          6
+        ],
+        [
+          "106.648",
+          6
+        ],
+        [
+          "-122.46",
+          6
+        ],
+        [
+          "-115.536",
+          6
+        ],
+        [
+          "-100.667",
+          6
+        ],
+        [
+          "99.5751",
+          5
+        ],
+        [
+          "176.1953",
+          5
+        ],
+        [
+          "107.7851",
+          5
+        ],
+        [
+          "-118.272",
+          5
+        ],
+        [
+          "-115.571",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Longitude, assumed WGS84 (google maps), of the project unit.",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          555
+        ],
+        [
+          "approximate",
+          280
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 835,
+      "n_null": 766,
+      "n_non_null": 69,
+      "null_rate": 0.9174,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "Ormoc",
+          6
+        ],
+        [
+          "Ribeira Grande (Conceição)",
+          5
+        ],
+        [
+          "Sorsogon City",
+          4
+        ],
+        [
+          "Manisa",
+          4
+        ],
+        [
+          "Kidapawan",
+          4
+        ],
+        [
+          "Kaikohe-Hokianga Community",
+          4
+        ],
+        [
+          "Berlín",
+          4
+        ],
+        [
+          "Ahuachapan",
+          4
+        ],
+        [
+          "Padaawas",
+          3
+        ],
+        [
+          "Ollagüe",
+          3
+        ],
+        [
+          "Karataş",
+          3
+        ],
+        [
+          "Calamba",
+          3
+        ],
+        [
+          "Gyaidar",
+          2
+        ],
+        [
+          "Charlestown",
+          2
+        ],
+        [
+          "Yuzawa",
+          1
+        ],
+        [
+          "Yangbajing",
+          1
+        ],
+        [
+          "Swarna Dwipa",
+          1
+        ],
+        [
+          "Salandar",
+          1
+        ],
+        [
+          "Newcastle",
+          1
+        ],
+        [
+          "Lovelock",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, village, or township (China) where the project is located.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 835,
+      "n_null": 404,
+      "n_non_null": 431,
+      "null_rate": 0.4838,
+      "n_unique": 106,
+      "top_values": [
+        [
+          "Imperial County",
+          31
+        ],
+        [
+          "Taupō District",
+          21
+        ],
+        [
+          "Sonoma County",
+          21
+        ],
+        [
+          "Naivasha",
+          20
+        ],
+        [
+          "Churchill County",
+          18
+        ],
+        [
+          "Washoe County",
+          14
+        ],
+        [
+          "Municipio de Mexicali",
+          13
+        ],
+        [
+          "Bandung",
+          12
+        ],
+        [
+          "Sarayköy",
+          10
+        ],
+        [
+          "Beaver County",
+          10
+        ],
+        [
+          "Mono County",
+          9
+        ],
+        [
+          "Tanggamus",
+          8
+        ],
+        [
+          "Pershing County",
+          8
+        ],
+        [
+          "Sveitarfélagið Ölfus",
+          7
+        ],
+        [
+          "Lake County",
+          7
+        ],
+        [
+          "Grosseto",
+          7
+        ],
+        [
+          "Wonosobo",
+          6
+        ],
+        [
+          "Lahendong Tompaso",
+          6
+        ],
+        [
+          "Köşk",
+          6
+        ],
+        [
+          "Hidalgo",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 835,
+      "n_null": 667,
+      "n_non_null": 168,
+      "null_rate": 0.7988,
+      "n_unique": 77,
+      "top_values": [
+        [
+          "Southern Region",
+          11
+        ],
+        [
+          "Leyte 4th District",
+          9
+        ],
+        [
+          "Southern Peninsula",
+          7
+        ],
+        [
+          "Sulut",
+          6
+        ],
+        [
+          "CAL Fire Northern Region",
+          6
+        ],
+        [
+          "Bogor Regency",
+          6
+        ],
+        [
+          "Kuyucak",
+          5
+        ],
+        [
+          "Darajat",
+          5
+        ],
+        [
+          "Northeastern Region",
+          4
+        ],
+        [
+          "Estevan",
+          4
+        ],
+        [
+          "Alaşehir",
+          4
+        ],
+        [
+          "Tinglayan",
+          3
+        ],
+        [
+          "Theistareykir",
+          3
+        ],
+        [
+          "Sud Lípez",
+          3
+        ],
+        [
+          "Subang",
+          3
+        ],
+        [
+          "Lhasa",
+          3
+        ],
+        [
+          "Garut Regency",
+          3
+        ],
+        [
+          "Blawan Ijen",
+          3
+        ],
+        [
+          "Bandung Regency",
+          3
+        ],
+        [
+          "Arsi",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 835,
+      "n_null": 303,
+      "n_non_null": 532,
+      "null_rate": 0.3629,
+      "n_unique": 102,
+      "top_values": [
+        [
+          "California",
+          78
+        ],
+        [
+          "Nevada",
+          60
+        ],
+        [
+          "Nakuru",
+          29
+        ],
+        [
+          "West Java",
+          27
+        ],
+        [
+          "Waikato",
+          21
+        ],
+        [
+          "Baja California",
+          15
+        ],
+        [
+          "Utah",
+          11
+        ],
+        [
+          "Tuscany",
+          10
+        ],
+        [
+          "North Sumatra",
+          10
+        ],
+        [
+          "Leyte",
+          10
+        ],
+        [
+          "Lampung",
+          10
+        ],
+        [
+          "Central Java",
+          10
+        ],
+        [
+          "Laguna",
+          9
+        ],
+        [
+          "Aydın",
+          9
+        ],
+        [
+          "Aydin",
+          8
+        ],
+        [
+          "Manisa",
+          7
+        ],
+        [
+          "Albay",
+          7
+        ],
+        [
+          "Michoacán",
+          6
+        ],
+        [
+          "Leon",
+          6
+        ],
+        [
+          "East Nusa Tenggara",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit where the project is located.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Northern America",
+          196
+        ],
+        [
+          "South-eastern Asia",
+          191
+        ],
+        [
+          "Western Asia",
+          97
+        ],
+        [
+          "Latin America and the Caribbean",
+          86
+        ],
+        [
+          "Sub-Saharan Africa",
+          71
+        ],
+        [
+          "Southern Europe",
+          48
+        ],
+        [
+          "Eastern Asia",
+          44
+        ],
+        [
+          "Australia and New Zealand",
+          41
+        ],
+        [
+          "Northern Europe",
+          33
+        ],
+        [
+          "Western Europe",
+          14
+        ],
+        [
+          "Eastern Europe",
+          9
+        ],
+        [
+          "Melanesia",
+          3
+        ],
+        [
+          "Southern Asia",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Subregion location of the project based on United Nations definition.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          334
+        ],
+        [
+          "Americas",
+          282
+        ],
+        [
+          "Europe",
+          104
+        ],
+        [
+          "Africa",
+          71
+        ],
+        [
+          "Oceania",
+          44
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Region location of the project based on United Nations definition.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 484,
+      "top_values": [
+        [
+          "L100000700130",
+          9
+        ],
+        [
+          "L100000700205",
+          8
+        ],
+        [
+          "L100000700168",
+          7
+        ],
+        [
+          "L100000700153",
+          7
+        ],
+        [
+          "L100000700065",
+          7
+        ],
+        [
+          "L100000700064",
+          7
+        ],
+        [
+          "L100000700058",
+          7
+        ],
+        [
+          "L100000700189",
+          6
+        ],
+        [
+          "L100000700178",
+          6
+        ],
+        [
+          "L100000700137",
+          6
+        ],
+        [
+          "L100000700094",
+          6
+        ],
+        [
+          "L100000700089",
+          6
+        ],
+        [
+          "L100000700057",
+          6
+        ],
+        [
+          "L100000700046",
+          6
+        ],
+        [
+          "L100000700043",
+          6
+        ],
+        [
+          "L100000700040",
+          6
+        ],
+        [
+          "L100000700288",
+          5
+        ],
+        [
+          "L100000700275",
+          5
+        ],
+        [
+          "L100000700160",
+          5
+        ],
+        [
+          "L100000700122",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 835,
+      "top_values": [
+        [
+          "G100001092999",
+          1
+        ],
+        [
+          "G100001092968",
+          1
+        ],
+        [
+          "G100001092966",
+          1
+        ],
+        [
+          "G100001092916",
+          1
+        ],
+        [
+          "G100001092875",
+          1
+        ],
+        [
+          "G100001092873",
+          1
+        ],
+        [
+          "G100001092872",
+          1
+        ],
+        [
+          "G100001091032",
+          1
+        ],
+        [
+          "G100001090875",
+          1
+        ],
+        [
+          "G100001090873",
+          1
+        ],
+        [
+          "G100001090866",
+          1
+        ],
+        [
+          "G100001090865",
+          1
+        ],
+        [
+          "G100001090864",
+          1
+        ],
+        [
+          "G100001074310",
+          1
+        ],
+        [
+          "G100001073931",
+          1
+        ],
+        [
+          "G100001073853",
+          1
+        ],
+        [
+          "G100001073714",
+          1
+        ],
+        [
+          "G100001073547",
+          1
+        ],
+        [
+          "G100001073536",
+          1
+        ],
+        [
+          "G100001072676",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 835,
+      "n_null": 509,
+      "n_non_null": 326,
+      "null_rate": 0.6096,
+      "n_unique": 124,
+      "top_values": [
+        [
+          "World Resources Institute: Wri1061218, World Resources Institute: WRI1061219, World Resources Institute: Wri1000048",
+          9
+        ],
+        [
+          "World Resources Institute: Wri1000778",
+          8
+        ],
+        [
+          "World Resources Institute: USA0000286, EIA: 286",
+          8
+        ],
+        [
+          "World Resources Institute: WRI1002810",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1002796",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1000759",
+          7
+        ],
+        [
+          "EIA: 10878, World Resources Institute: USA0054996, World Resources Institute: USA0055983, EIA: 54996, EIA: 10879, World Resources Institute: USA0010759, EIA: 10759, EIA: 55983",
+          7
+        ],
+        [
+          "World Resources Institute: Wri1018954, World Resources Institute: Wri1018955, World Resources Institute: Wri1018952, World Resources Institute: WRI1018956, World Resources Institute: Wri1018953, World Resources Institute: Wri1018951",
+          6
+        ],
+        [
+          "World Resources Institute: Wri1018954, World Resources Institute: WRI1018957",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1018960",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1001890",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1001888",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1000752",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1000331",
+          6
+        ],
+        [
+          "World Resources Institute: MEX0006611",
+          5
+        ],
+        [
+          "EIA: 65773",
+          5
+        ],
+        [
+          "EIA: 58629",
+          5
+        ],
+        [
+          "EIA: 54111, EIA: 541111, World Resources Institute: USA0054111",
+          5
+        ],
+        [
+          "World Resources Institute: WRI1061220",
+          4
+        ],
+        [
+          "World Resources Institute: WRI1002805",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location identifier from external datasets.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 835,
+      "n_null": 830,
+      "n_non_null": 5,
+      "null_rate": 0.994,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "EIA: 34691",
+          2
+        ],
+        [
+          "SIEL ID: 3677",
+          1
+        ],
+        [
+          "EIA: 66579",
+          1
+        ],
+        [
+          "EIA: 56764",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unit identifier from external datasets.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 835,
+      "n_null": 0,
+      "n_non_null": 835,
+      "null_rate": 0.0,
+      "n_unique": 484,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Olkaria_1_geothermal_power_plant",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Lahendong_geothermal_power_plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Svartsengi_geothermal_power_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Salton_Sea_geothermal_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Hellisheiðarvirkjun_geothermal_power_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Hell's_Kitchen_geothermal_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Gunung_Salak_geothermal_power_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Wairakei_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Tiwi_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/PamukÖren_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Makban_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Los_Azufres_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Greeneco_Sarayköy_geothermal_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Efeler_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Dora_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Dieng_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Star_Peak_geothermal_power_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Sorik_Marapi_geothermal_power_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Second_Imperial_geothermal_power_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Ngatamariki_geothermal_power_plant",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL of existing GEM.wiki page.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "_col34",
+      "code_friendly_name_guess": "col34",
+      "n_total": 835,
+      "n_null": 835,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

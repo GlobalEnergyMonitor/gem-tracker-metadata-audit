@@ -1,0 +1,232 @@
+{
+  "table_name": "gem_ggit_lng_teminals_2025_09__about_ggit_lng",
+  "tracker_slug": "gem_ggit_lng_teminals_2025_09",
+  "tab_slug": "about_ggit_lng",
+  "n_rows": 94,
+  "analyzed_at": "2026-07-07T21:45:10.476993+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Gas Infrastructure Tracker - LNG Terminals - September 2025",
+      "code_friendly_name_guess": "global_gas_infrastructure_tracker_lng_terminals_september_2025",
+      "n_total": 94,
+      "n_null": 6,
+      "n_non_null": 88,
+      "null_rate": 0.0638,
+      "n_unique": 88,
+      "top_values": [
+        [
+          "mtpa",
+          1
+        ],
+        [
+          "bcm/y",
+          1
+        ],
+        [
+          "bcf/d",
+          1
+        ],
+        [
+          "Wiki",
+          1
+        ],
+        [
+          "VesselOwner",
+          1
+        ],
+        [
+          "VesselOperator",
+          1
+        ],
+        [
+          "Variable Name",
+          1
+        ],
+        [
+          "UnitName",
+          1
+        ],
+        [
+          "UnitID",
+          1
+        ],
+        [
+          "TotTerminalCostUSD",
+          1
+        ],
+        [
+          "TotImportLNGTerminalCapacityinMtpa",
+          1
+        ],
+        [
+          "TotImportLNGTerminalCapacityinBcm/y",
+          1
+        ],
+        [
+          "TotExportLNGTerminalCapacityinMtpa",
+          1
+        ],
+        [
+          "TotExportLNGTerminalCapacityinBcm/y",
+          1
+        ],
+        [
+          "TerminalName",
+          1
+        ],
+        [
+          "TempFacility",
+          1
+        ],
+        [
+          "SyntheticLNG",
+          1
+        ],
+        [
+          "SubRegion",
+          1
+        ],
+        [
+          "StopYear",
+          1
+        ],
+        [
+          "Status",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 94,
+      "n_null": 15,
+      "n_non_null": 79,
+      "null_rate": 0.1596,
+      "n_unique": 79,
+      "top_values": [
+        [
+          "million tonnes per annum*",
+          1
+        ],
+        [
+          "billion cubic meters per year",
+          1
+        ],
+        [
+          "billion cubic feet per day",
+          1
+        ],
+        [
+          "Year unit was shelved",
+          1
+        ],
+        [
+          "Year unit was originally expected to begin",
+          1
+        ],
+        [
+          "Year unit was most recently expected to begin",
+          1
+        ],
+        [
+          "Year unit was cancelled",
+          1
+        ],
+        [
+          "Year unit began operating",
+          1
+        ],
+        [
+          "Year unit became inactive, such as through being cancelled if in development, or mothballed, idled, or retired if already operating.",
+          1
+        ],
+        [
+          "Year the unit was first proposed",
+          1
+        ],
+        [
+          "Year of FID, planned if FIDStatus = Pre-FID, and actual if FIDStatus = FID",
+          1
+        ],
+        [
+          "Year construction began or is expected to begin",
+          1
+        ],
+        [
+          "Units of the estimated cost of the (LNG terminal) unit",
+          1
+        ],
+        [
+          "Unit that capacity is publicly reported in (e.g., mtpa, bcf/d, bcm/y, gal/day)",
+          1
+        ],
+        [
+          "Type of facility (import or export terminal)",
+          1
+        ],
+        [
+          "True if a unit does not do regasification or liquefaction, and only imports or exports LNG",
+          1
+        ],
+        [
+          "Total terminal LNG import capacity in mtpa, either known across the whole project or summed across its units",
+          1
+        ],
+        [
+          "Total terminal LNG import capacity in bcm/y, either known across the whole project or summed across its units",
+          1
+        ],
+        [
+          "Total terminal LNG export capacity in mtpa, either known across the whole project or summed across its units",
+          1
+        ],
+        [
+          "Total terminal LNG export capacity in bcm/y, either known across the whole project or summed across its units",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 94,
+      "n_null": 94,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 94,
+      "n_null": 94,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

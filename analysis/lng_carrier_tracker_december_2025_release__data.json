@@ -1,0 +1,2332 @@
+{
+  "table_name": "lng_carrier_tracker_december_2025_release__data",
+  "tracker_slug": "lng_carrier_tracker_december_2025_release",
+  "tab_slug": "data",
+  "n_rows": 1143,
+  "analyzed_at": "2026-07-07T21:45:22.072430+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "IMO number",
+      "code_friendly_name_guess": "imo_number",
+      "n_total": 1143,
+      "n_null": 43,
+      "n_non_null": 1100,
+      "null_rate": 0.0376,
+      "n_unique": 1100,
+      "top_values": [
+        [
+          "9999993.0",
+          1
+        ],
+        [
+          "9999981.0",
+          1
+        ],
+        [
+          "9997701.0",
+          1
+        ],
+        [
+          "9997696.0",
+          1
+        ],
+        [
+          "9997684.0",
+          1
+        ],
+        [
+          "9997672.0",
+          1
+        ],
+        [
+          "9997658.0",
+          1
+        ],
+        [
+          "9997634.0",
+          1
+        ],
+        [
+          "9995739.0",
+          1
+        ],
+        [
+          "9995727.0",
+          1
+        ],
+        [
+          "9995480.0",
+          1
+        ],
+        [
+          "9994321.0",
+          1
+        ],
+        [
+          "9994319.0",
+          1
+        ],
+        [
+          "9994046.0",
+          1
+        ],
+        [
+          "9994034.0",
+          1
+        ],
+        [
+          "9994008.0",
+          1
+        ],
+        [
+          "9992880.0",
+          1
+        ],
+        [
+          "9992878.0",
+          1
+        ],
+        [
+          "9992244.0",
+          1
+        ],
+        [
+          "9992232.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "IMO number [ref]",
+      "code_friendly_name_guess": "imo_number_ref",
+      "n_total": 1143,
+      "n_null": 42,
+      "n_non_null": 1101,
+      "null_rate": 0.0367,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1069
+        ],
+        [
+          "https://www.shipvault.com/ships/94117",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73086",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73085",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490167",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490166",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490165",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490164",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487159",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487116",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487115",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/483838",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478884",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478883",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478882",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478881",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477423",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477422",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/470097",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/469431",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Name",
+      "code_friendly_name_guess": "name",
+      "n_total": 1143,
+      "n_null": 0,
+      "n_non_null": 1143,
+      "null_rate": 0.0,
+      "n_unique": 1143,
+      "top_values": [
+        [
+          "unknown",
+          1
+        ],
+        [
+          "Zoe Knutsen",
+          1
+        ],
+        [
+          "Zhores Alferov",
+          1
+        ],
+        [
+          "Zekreet",
+          1
+        ],
+        [
+          "Zarga",
+          1
+        ],
+        [
+          "Yiannis",
+          1
+        ],
+        [
+          "Yenisei River",
+          1
+        ],
+        [
+          "Yari LNG",
+          1
+        ],
+        [
+          "Yakov Gakkel",
+          1
+        ],
+        [
+          "Xinhang Energy",
+          1
+        ],
+        [
+          "Wudang",
+          1
+        ],
+        [
+          "Woodside Scarlet Ibis",
+          1
+        ],
+        [
+          "Woodside Rogers",
+          1
+        ],
+        [
+          "Woodside Rees Withers",
+          1
+        ],
+        [
+          "Woodside Jirrubakura",
+          1
+        ],
+        [
+          "Woodside Goode",
+          1
+        ],
+        [
+          "Woodside Energy 16",
+          1
+        ],
+        [
+          "Woodside Energy 15",
+          1
+        ],
+        [
+          "Woodside Energy 14",
+          1
+        ],
+        [
+          "Woodside Energy 13",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Name [ref]",
+      "code_friendly_name_guess": "name_ref",
+      "n_total": 1143,
+      "n_null": 0,
+      "n_non_null": 1143,
+      "null_rate": 0.0,
+      "n_unique": 81,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1028
+        ],
+        [
+          "https://www.imarinenews.com/28729.html",
+          17
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875728",
+          16
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+          4
+        ],
+        [
+          "https://splash247.com/hyundai-glovis-clinches-15-year-lng-newbuild-deal/",
+          2
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9988700",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9982689",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9981398",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9981386",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9980851",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977294",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977282",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977270",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977268",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977256",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977244",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9974149",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9972218",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9969223",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9961398",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other names",
+      "code_friendly_name_guess": "other_names",
+      "n_total": 1143,
+      "n_null": 1044,
+      "n_non_null": 99,
+      "null_rate": 0.9134,
+      "n_unique": 99,
+      "top_values": [
+        [
+          "Victor Hugo (Hull 8107)",
+          1
+        ],
+        [
+          "Torben Spirit",
+          1
+        ],
+        [
+          "Pacific Eurus",
+          1
+        ],
+        [
+          "Methane Shirley Elizabeth",
+          1
+        ],
+        [
+          "LNG Vesta",
+          1
+        ],
+        [
+          "LNG Pioneer",
+          1
+        ],
+        [
+          "LNG Flora",
+          1
+        ],
+        [
+          "Jules Verne",
+          1
+        ],
+        [
+          "Hull H1908A",
+          1
+        ],
+        [
+          "Hull H1896A",
+          1
+        ],
+        [
+          "Hull H1895A",
+          1
+        ],
+        [
+          "Hull H1894A",
+          1
+        ],
+        [
+          "Hull H1893A",
+          1
+        ],
+        [
+          "Hull H1892A",
+          1
+        ],
+        [
+          "Hull H1888A",
+          1
+        ],
+        [
+          "Hull H1887A",
+          1
+        ],
+        [
+          "Hull H1886A",
+          1
+        ],
+        [
+          "Hull H1885A",
+          1
+        ],
+        [
+          "Hull H1884A",
+          1
+        ],
+        [
+          "Hull H1883A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other names [ref]",
+      "code_friendly_name_guess": "other_names_ref",
+      "n_total": 1143,
+      "n_null": 1036,
+      "n_non_null": 107,
+      "null_rate": 0.9064,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          104
+        ],
+        [
+          "https://www.shipspotting.com/photos/2457794",
+          1
+        ],
+        [
+          "http://www.chinashipbuilding.cn/ship.aspx?pklujyukkpp4scBcBanmkhTk8Pl4EN",
+          1
+        ],
+        [
+          "http://chinashipbuilding.cn/ship.aspx?pklujyukkpp4scBcCanmkhTk8Pl4EN",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1143,
+      "n_null": 0,
+      "n_non_null": 1143,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "active",
+          821
+        ],
+        [
+          "on order",
+          283
+        ],
+        [
+          "proposed",
+          39
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Last updated",
+      "code_friendly_name_guess": "last_updated",
+      "n_total": 1143,
+      "n_null": 0,
+      "n_non_null": 1143,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "2024-12-31 00:00:00",
+          990
+        ],
+        [
+          "2025-12-08 00:00:00",
+          70
+        ],
+        [
+          "2025-12-11 00:00:00",
+          44
+        ],
+        [
+          "2025-12-17 00:00:00",
+          32
+        ],
+        [
+          "2025-12-18 00:00:00",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status [ref]",
+      "code_friendly_name_guess": "status_ref",
+      "n_total": 1143,
+      "n_null": 0,
+      "n_non_null": 1143,
+      "null_rate": 0.0,
+      "n_unique": 128,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          986
+        ],
+        [
+          "https://www.imarinenews.com/28729.html",
+          17
+        ],
+        [
+          "https://www.rivieramm.com/news-content-hub/news-content-hub/fleet-of-ice-breaking-carriers-propel-russiarsquos-arctic-lng-ambitions-61509",
+          11
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+          4
+        ],
+        [
+          "https://splash247.com/hyundai-glovis-clinches-15-year-lng-newbuild-deal/",
+          2
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9989118",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9988700",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9986283",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9982689",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9982677",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9981398",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9981386",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9981374",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9980851",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977294",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977282",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977270",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977268",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9977256",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9976915",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Shipowner",
+      "code_friendly_name_guess": "shipowner",
+      "n_total": 1143,
+      "n_null": 21,
+      "n_non_null": 1122,
+      "null_rate": 0.0184,
+      "n_unique": 186,
+      "top_values": [
+        [
+          "Nakilat",
+          61
+        ],
+        [
+          "Maran Gas Maritime",
+          52
+        ],
+        [
+          "MOL",
+          51
+        ],
+        [
+          "Knutsen OAS",
+          41
+        ],
+        [
+          "NYK Line",
+          34
+        ],
+        [
+          "MISC",
+          31
+        ],
+        [
+          "Seapeak",
+          30
+        ],
+        [
+          "GasLog",
+          29
+        ],
+        [
+          "JP Morgan",
+          28
+        ],
+        [
+          "TMS Cardiff Gas",
+          27
+        ],
+        [
+          "BW",
+          25
+        ],
+        [
+          "Capital Gas",
+          23
+        ],
+        [
+          "Dynagas",
+          22
+        ],
+        [
+          "Celsius Shipping",
+          18
+        ],
+        [
+          "MOL, NYK",
+          17
+        ],
+        [
+          "Hyundai LNG Shipping",
+          16
+        ],
+        [
+          "H-Line Shipping",
+          16
+        ],
+        [
+          "Smart LNG",
+          15
+        ],
+        [
+          "ADNOC L&S",
+          14
+        ],
+        [
+          "MOL, Cosco Shipping Energy Transportation",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipowner [ref]",
+      "code_friendly_name_guess": "shipowner_ref",
+      "n_total": 1143,
+      "n_null": 19,
+      "n_non_null": 1124,
+      "null_rate": 0.0166,
+      "n_unique": 39,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1065
+        ],
+        [
+          "https://www.imarinenews.com/28729.html",
+          17
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+          4
+        ],
+        [
+          "https://system.new-vessels.com/orderer-45411-TMS_Cardiff_Gas_Ltd.html",
+          2
+        ],
+        [
+          "https://splash247.com/hyundai-glovis-clinches-15-year-lng-newbuild-deal/",
+          2
+        ],
+        [
+          "https://www.shipvault.com/ships/94117",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490167",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490166",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490165",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490164",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487159",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487116",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487115",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/483838",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478884",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477423",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477422",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/470097",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/469431",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/465070",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipowner country/area",
+      "code_friendly_name_guess": "shipowner_country_area",
+      "n_total": 1143,
+      "n_null": 1088,
+      "n_non_null": 55,
+      "null_rate": 0.9519,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "Japan",
+          19
+        ],
+        [
+          "Greece",
+          12
+        ],
+        [
+          "South Korea",
+          6
+        ],
+        [
+          "United States",
+          4
+        ],
+        [
+          "United Arab Emirates",
+          4
+        ],
+        [
+          "Singapore, Norway, Greece, Canada, Japan",
+          4
+        ],
+        [
+          "Denmark",
+          3
+        ],
+        [
+          "United Kingdom",
+          1
+        ],
+        [
+          "Türkiye",
+          1
+        ],
+        [
+          "Malaysia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipowner country/area [ref]",
+      "code_friendly_name_guess": "shipowner_country_area_ref",
+      "n_total": 1143,
+      "n_null": 1090,
+      "n_non_null": 53,
+      "null_rate": 0.9536,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "https://www.imarinenews.com/28729.html",
+          17
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+          4
+        ],
+        [
+          "https://www.sinokor.co.kr/en/",
+          2
+        ],
+        [
+          "https://system.new-vessels.com/orderer-45411-TMS_Cardiff_Gas_Ltd.html",
+          2
+        ],
+        [
+          "https://www.shipvault.com/ships/490167",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490166",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490165",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490164",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487116",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487115",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/483838",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478883",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478882",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478881",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477423",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477422",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/470097",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/469431",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/465070",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/465056",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipbuilder",
+      "code_friendly_name_guess": "shipbuilder",
+      "n_total": 1143,
+      "n_null": 18,
+      "n_non_null": 1125,
+      "null_rate": 0.0157,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "Hanwha Ocean",
+          270
+        ],
+        [
+          "Samsung Heavy Industries",
+          260
+        ],
+        [
+          "HD Hyundai Heavy Industries",
+          253
+        ],
+        [
+          "Hudong-Zhonghua Shipbuilding",
+          103
+        ],
+        [
+          "Mitsubishi Heavy Industries",
+          53
+        ],
+        [
+          "Hyundai Samho Heavy Industries",
+          37
+        ],
+        [
+          "Kawasaki Heavy Industries",
+          32
+        ],
+        [
+          "DSIC (Dalian Shipbuilding Industry Co)",
+          17
+        ],
+        [
+          "Zvezda Shipbuilding",
+          15
+        ],
+        [
+          "Mitsui E&S Shipbuilding",
+          13
+        ],
+        [
+          "Jiangnan Shipyard",
+          10
+        ],
+        [
+          "Chantiers de l'Atlantique",
+          7
+        ],
+        [
+          "STX Offshore & Shipbuilding",
+          6
+        ],
+        [
+          "IZAR",
+          6
+        ],
+        [
+          "China Merchants Heavy Industries",
+          6
+        ],
+        [
+          "Imabari Shipbuilding",
+          5
+        ],
+        [
+          "Hanjin H.I.",
+          5
+        ],
+        [
+          "Kvaerner Masa",
+          4
+        ],
+        [
+          "Japan Marine United",
+          4
+        ],
+        [
+          "General Dynamics",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipbuilder [ref]",
+      "code_friendly_name_guess": "shipbuilder_ref",
+      "n_total": 1143,
+      "n_null": 18,
+      "n_non_null": 1125,
+      "null_rate": 0.0157,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1069
+        ],
+        [
+          "https://www.imarinenews.com/28729.html",
+          17
+        ],
+        [
+          "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+          4
+        ],
+        [
+          "https://system.new-vessels.com/orderer-45411-TMS_Cardiff_Gas_Ltd.html",
+          2
+        ],
+        [
+          "https://www.trusteddocks.com/vessel/9976135-kool-tiger",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73086",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73085",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490167",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490166",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490165",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490164",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487159",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487116",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487115",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/483838",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478884",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478883",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478882",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478881",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/477423",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Shipbuilder yard country/area",
+      "code_friendly_name_guess": "shipbuilder_yard_country_area",
+      "n_total": 1143,
+      "n_null": 16,
+      "n_non_null": 1127,
+      "null_rate": 0.014,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "South Korea",
+          833
+        ],
+        [
+          "China",
+          141
+        ],
+        [
+          "Japan",
+          109
+        ],
+        [
+          "Russia",
+          15
+        ],
+        [
+          "France",
+          9
+        ],
+        [
+          "Spain",
+          6
+        ],
+        [
+          "United States",
+          5
+        ],
+        [
+          "Finland",
+          4
+        ],
+        [
+          "Italy",
+          2
+        ],
+        [
+          "Singapore",
+          1
+        ],
+        [
+          "Norway",
+          1
+        ],
+        [
+          "Germany",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Shipbuilder yard country/area [ref]",
+      "code_friendly_name_guess": "shipbuilder_yard_country_area_ref",
+      "n_total": 1143,
+      "n_null": 16,
+      "n_non_null": 1127,
+      "null_rate": 0.014,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "https://www.hanwha.com/companies/hanwha-ocean.do",
+          269
+        ],
+        [
+          "https://www.samsungshi.com/En/Default.aspx",
+          260
+        ],
+        [
+          "https://www.hd.com/en/main",
+          253
+        ],
+        [
+          "https://www.shipyards.gr/shipyards/new-buildings-shipyards/newbuilding-farest-pacific-ocean/newbuilding-far-east-china-sea/china-south/hudong-zhonghua-shipbuilding-group-coltd",
+          103
+        ],
+        [
+          "https://www.mhi.com/",
+          53
+        ],
+        [
+          "https://www.hshi.co.kr/eng/",
+          36
+        ],
+        [
+          "https://www.khi.co.jp/corporate/network/sakaide.html",
+          32
+        ],
+        [
+          "http://www.dsic.cn/English/CorporateProfile/AboutUs/index.htm",
+          17
+        ],
+        [
+          "https://www.sskzvezda.ru/",
+          15
+        ],
+        [
+          "https://www.mes.co.jp/en/",
+          13
+        ],
+        [
+          "https://www.jnshipyard.com.cn/",
+          10
+        ],
+        [
+          "https://chantiers-atlantique.com/en/",
+          7
+        ],
+        [
+          "https://www.globalsecurity.org/military/world/europe/es-izar.htm",
+          6
+        ],
+        [
+          "https://www.cmhijs.com/en/index.php/about.html",
+          6
+        ],
+        [
+          "https://www.new-ships.com/app/shipyards/98141-jinhae-shipyard-k-shipbuilding",
+          5
+        ],
+        [
+          "https://www.imazo.co.jp/",
+          5
+        ],
+        [
+          "http://macnetkorea.com/sub/eng_sub.aspx?s_code=0503590000",
+          5
+        ],
+        [
+          "https://www.jmuc.co.jp/en/",
+          4
+        ],
+        [
+          "https://helsinkishipyard.fi/company/history-of-the-shipyard/",
+          4
+        ],
+        [
+          "https://www.trusteddocks.com/company-group/102275-yangzijiang-shipbuilding-group-ltd",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Yard location latitude",
+      "code_friendly_name_guess": "yard_location_latitude",
+      "n_total": 1143,
+      "n_null": 18,
+      "n_non_null": 1125,
+      "null_rate": 0.0157,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "34.87385",
+          270
+        ],
+        [
+          "34.89804",
+          260
+        ],
+        [
+          "35.51613",
+          253
+        ],
+        [
+          "31.271988",
+          103
+        ],
+        [
+          "35.412837",
+          53
+        ],
+        [
+          "34.75031",
+          37
+        ],
+        [
+          "34.327891",
+          32
+        ],
+        [
+          "38.937861",
+          17
+        ],
+        [
+          "43.12037",
+          15
+        ],
+        [
+          "35.54789",
+          13
+        ],
+        [
+          "31.355766",
+          10
+        ],
+        [
+          "47.284334",
+          7
+        ],
+        [
+          "41.579516",
+          6
+        ],
+        [
+          "35.109584",
+          6
+        ],
+        [
+          "22.33849",
+          6
+        ],
+        [
+          "35.09599",
+          5
+        ],
+        [
+          "34.338173",
+          5
+        ],
+        [
+          "60.153931",
+          4
+        ],
+        [
+          "34.676776",
+          4
+        ],
+        [
+          "42.2425982591923",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Yard location longitude",
+      "code_friendly_name_guess": "yard_location_longitude",
+      "n_total": 1143,
+      "n_null": 18,
+      "n_non_null": 1125,
+      "null_rate": 0.0157,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "128.6966",
+          270
+        ],
+        [
+          "128.6045",
+          260
+        ],
+        [
+          "129.4383",
+          253
+        ],
+        [
+          "121.575478",
+          103
+        ],
+        [
+          "139.668503",
+          53
+        ],
+        [
+          "126.3875",
+          37
+        ],
+        [
+          "133.832534",
+          32
+        ],
+        [
+          "121.638613",
+          17
+        ],
+        [
+          "132.3456",
+          15
+        ],
+        [
+          "140.0945",
+          13
+        ],
+        [
+          "121.502217",
+          10
+        ],
+        [
+          "-2.182615",
+          7
+        ],
+        [
+          "2.562883",
+          6
+        ],
+        [
+          "128.716097",
+          6
+        ],
+        [
+          "114.092895",
+          6
+        ],
+        [
+          "133.04354",
+          5
+        ],
+        [
+          "129.0521",
+          5
+        ],
+        [
+          "24.928542",
+          4
+        ],
+        [
+          "136.540315",
+          4
+        ],
+        [
+          "-70.973478",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Yard location plus code",
+      "code_friendly_name_guess": "yard_location_plus_code",
+      "n_total": 1143,
+      "n_null": 23,
+      "n_non_null": 1120,
+      "null_rate": 0.0201,
+      "n_unique": 28,
+      "top_values": [
+        [
+          "VMCW+V7 Geoje-si, Gyeongsangnam-do",
+          270
+        ],
+        [
+          "VJW3+QV Geoje-si, Gyeongsangnam-do",
+          260
+        ],
+        [
+          "GC8Q+M6 Ulsan",
+          253
+        ],
+        [
+          "7HCG+R4 Pudong, Shanghai, China",
+          103
+        ],
+        [
+          "CM8G+QG Yokohama, Kanagawa, Japan",
+          53
+        ],
+        [
+          "Q92P+7M Yeongam-gun, Jeollanam-do",
+          37
+        ],
+        [
+          "8RHM+63 Sakaide, Kagawa, Japan",
+          32
+        ],
+        [
+          "WJMP+FX6, Binhai St, Xigang District, Dalian, Dalian, Liaoning, China, 116006",
+          17
+        ],
+        [
+          "48CW+88 Bolshoy Kamen, Primorsky Krai, Russia",
+          15
+        ],
+        [
+          "H32V+CC Ichihara, Chiba, Japan",
+          13
+        ],
+        [
+          "9G32+XJ Baoshan, Shanghai, China",
+          10
+        ],
+        [
+          "7RM8+PW Saint-Nazaire, France",
+          7
+        ],
+        [
+          "MGHR+MV Tsu, Mie, Japan",
+          6
+        ],
+        [
+          "HHH7+R4 Arenys de Mar, Spain",
+          6
+        ],
+        [
+          "83QV+H7 Sai Tso Wan, Hong Kong",
+          6
+        ],
+        [
+          "4P58+RC Changwon-si, Gyeongsangnam-do, South Korea",
+          6
+        ],
+        [
+          "82QV+F9 Mihara, Hiroshima, Japan",
+          5
+        ],
+        [
+          "33W3+74 Busan",
+          5
+        ],
+        [
+          "5W3H+QP Helsinki, Finland",
+          4
+        ],
+        [
+          "X558+4PJ, Jingjiang, Taizhou, Jiangsu, China, 214533",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Yard location accuracy",
+      "code_friendly_name_guess": "yard_location_accuracy",
+      "n_total": 1143,
+      "n_null": 18,
+      "n_non_null": 1125,
+      "null_rate": 0.0157,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          1120
+        ],
+        [
+          "approximate",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Yard location lat/lon [ref]",
+      "code_friendly_name_guess": "yard_location_lat_lon_ref",
+      "n_total": 1143,
+      "n_null": 21,
+      "n_non_null": 1122,
+      "null_rate": 0.0184,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "https://www.google.com/maps/place/Hanwha+Ocean/data=!3m1!1e3!4m10!1m2!2m1!1sHanwha+Ocean!3m6!1s0x356ecd1d7a72f7db:0x3bfe90e7d8bf93f0!8m2!3d34.8721913!4d128.6956963!15sCgxIYW53aGEgT2NlYW5aDiIMaGFud2hhIG9jZWFukgEfc2hpcGJ1aWxkaW5nX2FuZF9yZXBhaXJfY29tcGFueZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVSUmRYVkVTMWhuRUFF4AEA-gEECAAQLA!16s%2Fg%2F11swmd6_76?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          270
+        ],
+        [
+          "https://www.google.com/maps/place/Samsung+Heavy+industries/data=!3m1!1e3!4m10!1m2!2m1!1ssamsung+heavy+industries!3m6!1s0x356ecd83691a8fb5:0xd4204e9a1bb0ef10!8m2!3d34.8969682!4d128.6046376!15sChhzYW1zdW5nIGhlYXZ5IGluZHVzdHJpZXOSAQhzaGlweWFyZOABAA!16s%2Fg%2F1tgcpry6?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          260
+        ],
+        [
+          "https://www.google.com/maps/place/HD+Hyundai+Heavy+Industries+Ulsan+Shipyard/data=!3m1!1e3!4m10!1m2!2m1!1sHD+Hyundai!3m6!1s0x3567ce56ebbfb645:0xd94a696f9fca5d90!8m2!3d35.5167468!4d129.4380269!15sCgpIRCBIeXVuZGFpkgEIc2hpcHlhcmTgAQA!16s%2Fg%2F1tfhd8y1?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          254
+        ],
+        [
+          "https://www.google.com/maps/place/Hudong-Zhonghua+Shipbuilding/@31.2720706,121.5727207,753m/data=!3m2!1e3!4b1!4m6!3m5!1s0x35b2742eceeb203d:0x37fddc7176d2cc24!8m2!3d31.2720706!4d121.5752956!16s%2Fg%2F1td0qx6d?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          103
+        ],
+        [
+          "https://www.google.com/maps/place/Mitsubishi+Heavy+Industries+Yokohama+Dockyard+%26+Machinery+Works/@35.5677012,139.4295502,45835m/data=!3m1!1e3!4m10!1m2!2m1!1sMitsubishi+Heavy+Industries!3m6!1s0x601842bd2acc85ff:0x1c719ae9bbc013df!8m2!3d35.4169184!4d139.6762959!15sChtNaXRzdWJpc2hpIEhlYXZ5IEluZHVzdHJpZXMiA4gBAZIBCHNoaXB5YXJk4AEA!16s%2Fg%2F11btvwmdj6?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          53
+        ],
+        [
+          "https://www.google.com/maps/place/Hyundai+Samho+Heavy+Industries+Entrance/data=!3m1!1e3!4m10!1m2!2m1!1sHyundai+Samho+Heavy+Industries!3m6!1s0x3573a4568dfe21d7:0x865a025eb9b373b5!8m2!3d34.75066!4d126.386691!15sCh5IeXVuZGFpIFNhbWhvIEhlYXZ5IEluZHVzdHJpZXOSAQhidXNfc3RvcOABAA!16s%2Fg%2F11b77sqk26?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          36
+        ],
+        [
+          "https://www.google.com/maps/place/Kawasaki+Heavy+Industries+Sakaide+Works/@34.3281037,133.8301629,727m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3553defcdee0be77:0x45602ea060d2d040!8m2!3d34.3281037!4d133.8327378!16s%2Fg%2F11btww0875?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          32
+        ],
+        [
+          "https://www.google.com/maps/place/Dalian+Shipbuilding+Heavy+Industry+Co.,Ltd./@38.9301597,121.6171177,2740m/data=!3m1!1e3!4m15!1m7!2m6!1sDalian+Shipbuilding+Industry+Co!3m4!2s60.153931,+24.928542!4m2!1d24.9285418!2d60.1539309!3m6!1s0x3585f55b64d083c7:0x46a88d8ffb6405f2!8m2!3d38.9336592!4d121.6374032!15sCh9EYWxpYW4gU2hpcGJ1aWxkaW5nIEluZHVzdHJ5IENvkgEHY29tcGFueeABAA!16s%2Fg%2F1tf_qtz_?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          17
+        ],
+        [
+          "https://www.google.com/maps/place/%D0%A1%D0%A1%D0%9A+%C2%AB%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%C2%BB/@43.121004,132.34029,643m/data=!3m1!1e3!4m15!1m7!2m6!1sZvezda+Shipbuilding!3m4!2s39.890604,+-75.188622!4m2!1d-75.1886219!2d39.8906036!3m6!1s0x5fb3c2dbb55ec52d:0x1380efacbe890818!8m2!3d43.1207847!4d132.3458251!15sChNadmV6ZGEgU2hpcGJ1aWxkaW5nkgEIc2hpcHlhcmTgAQA!16s%2Fg%2F11f03_n1zt?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          15
+        ],
+        [
+          "https://www.google.com/maps/place/(%E6%A0%AA)%E4%B8%89%E4%BA%95%EF%BC%A5%EF%BC%86%EF%BC%B3+%E5%8D%83%E8%91%89%E4%BA%8B%E6%A5%AD%E5%A0%B4/@35.5961305,139.9368296,22877m/data=!3m1!1e3!4m10!1m2!2m1!1sMitsui+SB+(Chiba)!3m6!1s0x60229c7a5bd91a11:0xdae29ebde28b0943!8m2!3d35.5510419!4d140.0935883!15sChFNaXRzdWkgU0IgKENoaWJhKZIBEGNvcnBvcmF0ZV9vZmZpY2XgAQA!16s%2Fg%2F11btrr1q6f?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          13
+        ],
+        [
+          "https://www.google.com/maps/place/Jiangnan+Shipyard+%EF%BC%88Group%EF%BC%89+Co.,+Ltd./@31.354923,121.4990201,752m/data=!3m2!1e3!4b1!4m6!3m5!1s0x35b27324c39e47ab:0x7a74ae921f6eb2ab!8m2!3d31.354923!4d121.501595!16s%2Fg%2F11cnpghcr_?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          10
+        ],
+        [
+          "https://maps.app.goo.gl/aXheTTWUa76FHyui7",
+          7
+        ],
+        [
+          "https://www.google.com/maps/place/China+Merchants+Industry+Co+Ltd/@22.338976,114.0905771,814m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3403fed4344ce4b1:0x32fadf093b2cb212!8m2!3d22.338976!4d114.093152!16s%2Fg%2F12hmyy568?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          6
+        ],
+        [
+          "https://www.google.com/maps/place/ARESA+SHIPYARD/@41.5798212,2.5599317,809m/data=!3m1!1e3!4m6!3m5!1s0x12bb3623a661b4a5:0xcf2c76d98efea980!8m2!3d41.579563!4d2.56282!16s%2Fg%2F11bzzgkk40?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          6
+        ],
+        [
+          "https://maps.app.goo.gl/y9tmTkh8ffCQD74p6",
+          6
+        ],
+        [
+          "https://www.google.com/maps/place/IMABARI+HIROSHIMA/@34.3386169,132.4336624,93054m/data=!3m1!1e3!4m10!1m2!2m1!1simabari+shipbuilding!3m6!1s0x355050f316fc8f27:0xf231e8038b90b4a1!8m2!3d34.3387409!4d133.0434844!15sChRpbWFiYXJpIHNoaXBidWlsZGluZ1oWIhRpbWFiYXJpIHNoaXBidWlsZGluZ5IBCHNoaXB5YXJkmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5YYUZCcWJURkJSUkFC4AEA-gEECAAQHQ!16s%2Fg%2F11bwfk6wzs?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          5
+        ],
+        [
+          "https://www.google.com/maps/place/HJ+Shipbuilding+%26+Construction+Shipbuilding+Part+HQ/@35.7847587,116.7537988,2925451m/data=!3m1!1e3!4m10!1m2!2m1!1sHanjin+Heavy+Indsustries+!3m6!1s0x3568e943d5c03d35:0x2b4b4c7535d5b01d!8m2!3d35.0957327!4d129.052857!15sChdIYW5qaW4gSGVhdnkgSW5kdXN0cmllc5IBCHNoaXB5YXJk4AEA!16s%2Fg%2F1tdczks4?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          5
+        ],
+        [
+          "https://www.google.com/maps/place/Japan+Marin+United+Tsu+Shipyard/@34.6783937,131.6656494,741406m/data=!3m1!1e3!4m10!1m2!2m1!1sJapan+Marine+United!3m6!1s0x60046d6ed304597f:0xfb2a25b520ae8e5f!8m2!3d34.6791561!4d136.5422246!15sChNKYXBhbiBNYXJpbmUgVW5pdGVkIgOIAQGSAQhzaGlweWFyZOABAA!16s%2Fg%2F11btrrg1y7?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          4
+        ],
+        [
+          "https://www.google.com/maps/place/DNY+Finland+Oy,+Helsinki+Shipyard/@60.1545203,24.9265061,504m/data=!3m1!1e3!4m14!1m7!3m6!1s0x46920bb18216e13f:0x2cbca901e7fc9539!2sDNY+Finland+Oy,+Helsinki+Shipyard!8m2!3d60.1544387!4d24.9293674!16s%2Fg%2F1w97t19k!3m5!1s0x46920bb18216e13f:0x2cbca901e7fc9539!8m2!3d60.1544387!4d24.9293674!16s%2Fg%2F1w97t19k?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D",
+          4
+        ],
+        [
+          "https://www.trusteddocks.com/company-group/102275-yangzijiang-shipbuilding-group-ltd",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity",
+      "code_friendly_name_guess": "capacity",
+      "n_total": 1143,
+      "n_null": 62,
+      "n_non_null": 1081,
+      "null_rate": 0.0542,
+      "n_unique": 131,
+      "top_values": [
+        [
+          "174000.0",
+          440
+        ],
+        [
+          "173400.0",
+          51
+        ],
+        [
+          "180000.0",
+          37
+        ],
+        [
+          "155000.0",
+          29
+        ],
+        [
+          "175000.0",
+          26
+        ],
+        [
+          "160000.0",
+          26
+        ],
+        [
+          "271000.0",
+          24
+        ],
+        [
+          "138000.0",
+          23
+        ],
+        [
+          "172600.0",
+          22
+        ],
+        [
+          "200000.0",
+          19
+        ],
+        [
+          "145700.0",
+          17
+        ],
+        [
+          "172000.0",
+          16
+        ],
+        [
+          "170000.0",
+          16
+        ],
+        [
+          "145000.0",
+          14
+        ],
+        [
+          "135000.0",
+          14
+        ],
+        [
+          "210200.0",
+          10
+        ],
+        [
+          "147000.0",
+          10
+        ],
+        [
+          "173000.0",
+          9
+        ],
+        [
+          "162000.0",
+          9
+        ],
+        [
+          "137000.0",
+          9
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity units",
+      "code_friendly_name_guess": "capacity_units",
+      "n_total": 1143,
+      "n_null": 62,
+      "n_non_null": 1081,
+      "null_rate": 0.0542,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "cbm",
+          1081
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity [ref]",
+      "code_friendly_name_guess": "capacity_ref",
+      "n_total": 1143,
+      "n_null": 67,
+      "n_non_null": 1076,
+      "null_rate": 0.0586,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1076
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Cargo type",
+      "code_friendly_name_guess": "cargo_type",
+      "n_total": 1143,
+      "n_null": 403,
+      "n_non_null": 740,
+      "null_rate": 0.3526,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "membrane",
+          621
+        ],
+        [
+          "spherical",
+          110
+        ],
+        [
+          "self-supporting prismatic",
+          5
+        ],
+        [
+          "type C",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Cargo type [ref]",
+      "code_friendly_name_guess": "cargo_type_ref",
+      "n_total": 1143,
+      "n_null": 403,
+      "n_non_null": 740,
+      "null_rate": 0.3526,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          740
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Vessel type",
+      "code_friendly_name_guess": "vessel_type",
+      "n_total": 1143,
+      "n_null": 396,
+      "n_non_null": 747,
+      "null_rate": 0.3465,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "conventional",
+          615
+        ],
+        [
+          "FSRU",
+          49
+        ],
+        [
+          "q-flex",
+          31
+        ],
+        [
+          "icebreaker",
+          15
+        ],
+        [
+          "q-max",
+          14
+        ],
+        [
+          "FSU",
+          10
+        ],
+        [
+          "Supporting",
+          5
+        ],
+        [
+          "small-scale",
+          4
+        ],
+        [
+          "mid-scale",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Vessel type [ref]",
+      "code_friendly_name_guess": "vessel_type_ref",
+      "n_total": 1143,
+      "n_null": 402,
+      "n_non_null": 741,
+      "null_rate": 0.3517,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          740
+        ],
+        [
+          "https://investors.seatrium.com/newsroom/Seatrium_Secures_FSRU_Conversion_Contract_from_Kinetics,_a_Karpowership_Initiative_3_July_2025.pdf",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Propulsion type",
+      "code_friendly_name_guess": "propulsion_type",
+      "n_total": 1143,
+      "n_null": 67,
+      "n_non_null": 1076,
+      "null_rate": 0.0586,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "X-DF",
+          365
+        ],
+        [
+          "DFDE",
+          212
+        ],
+        [
+          "steam",
+          211
+        ],
+        [
+          "ME-GA",
+          117
+        ],
+        [
+          "ME-GI",
+          98
+        ],
+        [
+          "SSD",
+          48
+        ],
+        [
+          "steam reheat",
+          12
+        ],
+        [
+          "STaGE",
+          8
+        ],
+        [
+          "prismatic conventional DFDE",
+          4
+        ],
+        [
+          "prismatic small-scale DFDE",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Propulsion type [ref]",
+      "code_friendly_name_guess": "propulsion_type_ref",
+      "n_total": 1143,
+      "n_null": 67,
+      "n_non_null": 1076,
+      "null_rate": 0.0586,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1076
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Delivery year",
+      "code_friendly_name_guess": "delivery_year",
+      "n_total": 1143,
+      "n_null": 40,
+      "n_non_null": 1103,
+      "null_rate": 0.035,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "2026.0",
+          120
+        ],
+        [
+          "2025.0",
+          75
+        ],
+        [
+          "2027.0",
+          73
+        ],
+        [
+          "2028.0",
+          69
+        ],
+        [
+          "2024.0",
+          64
+        ],
+        [
+          "2021.0",
+          58
+        ],
+        [
+          "2018.0",
+          53
+        ],
+        [
+          "2008.0",
+          50
+        ],
+        [
+          "2019.0",
+          42
+        ],
+        [
+          "2009.0",
+          41
+        ],
+        [
+          "2020.0",
+          35
+        ],
+        [
+          "2014.0",
+          33
+        ],
+        [
+          "2023.0",
+          32
+        ],
+        [
+          "2007.0",
+          31
+        ],
+        [
+          "2016.0",
+          29
+        ],
+        [
+          "2015.0",
+          29
+        ],
+        [
+          "2022.0",
+          27
+        ],
+        [
+          "2017.0",
+          27
+        ],
+        [
+          "2006.0",
+          27
+        ],
+        [
+          "2010.0",
+          23
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Delivery year [ref]",
+      "code_friendly_name_guess": "delivery_year_ref",
+      "n_total": 1143,
+      "n_null": 40,
+      "n_non_null": 1103,
+      "null_rate": 0.035,
+      "n_unique": 53,
+      "top_values": [
+        [
+          "https://www.igu.org/igu-reports/2025-world-lng-report",
+          1039
+        ],
+        [
+          "https://www.rivieramm.com/news-content-hub/news-content-hub/fleet-of-ice-breaking-carriers-propel-russiarsquos-arctic-lng-ambitions-61509",
+          12
+        ],
+        [
+          "https://system.new-vessels.com/groupowner-27274671-Hanwha_Shipping_LLC.html",
+          2
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9928097",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/9928061",
+          1
+        ],
+        [
+          "https://www.vesselfinder.com/vessels/details/1023865",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/94117",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73086",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/73085",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490167",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490166",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490165",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/490164",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487159",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487116",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/487115",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/483838",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478884",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478883",
+          1
+        ],
+        [
+          "https://www.shipvault.com/ships/478882",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "source_file": "Global-Integrated-Power-March-2026-II.xlsx",
+  "tracker_slug": "global_integrated_power_march_2026_ii",
+  "header_info": {
+    "title": "Global Integrated Power Tracker March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: James Norman, Research Analyst, Global Energy Monitor james.norman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Integrated Power Tracker, March 2026 release.  Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "power_facilities": "Power facilities",
+    "regions_area_and_countries": "Regions, area, and countries"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Columns",
+      "section_type": "columns",
+      "tab_key": "power_facilities",
+      "entries": [
+        {
+          "name": "Type",
+          "definition": "One of eight power technology groups (coal, oil/gas, utility-scale solar, wind, hydropower, nuclear, bioenergy, geothermal)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "The Country/area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subregion",
+          "definition": "One of 17 GEM-defined subregions of the world",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "One of five GEM-defined world regions",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant / Project name",
+          "definition": "Commonly used name",
+          "notes": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit / Phase name",
+          "definition": "Name or number of phase in plant/project",
+          "notes": "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant / Project name (local)",
+          "definition": "Commonly used name in the locally used script",
+          "notes": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant / Project name (other)",
+          "definition": "Alternative names, including the name in local script",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (MW)",
+          "definition": "Total nameplate capacity, or best available data, of the project, in megawatts",
+          "notes": "Units: MW.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "One of 8 status categories, see rows 112-121 below for description",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start year",
+          "definition": "Year the project was or will be commissioned",
+          "notes": "Units: YYYY.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired year",
+          "definition": "Year the project was or will be taken offline",
+          "notes": "Units: YYYY.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Technology",
+          "definition": "See rows 124-182 below for description",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity Rating (solar only)",
+          "definition": "The reported capacity rating, unknown selected if not provided",
+          "notes": "Units: MWac, MWp/dc, unknown. Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Associated Storage",
+          "definition": "Value of 'yes' if a project phase has existing or planned co-located storage. Blank value otherwise. Currently data for solar and wind only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel (combustion only)",
+          "definition": "See rows 185-239 below for description of fuels.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel classification (oil/gas only)",
+          "definition": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel. Note \"Gas only\" does not include LNG.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Equipment Manufacturer/Model (oil/gas only)",
+          "definition": "Equpment manufacturer and model.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen production",
+          "definition": "Value of 'yes' if a project phase is dedicated for green hydrogen production, 'no' if not, 'not found' or blank no data found. Only used for wind, solar, and geothermal trackers",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen capable",
+          "definition": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nno - The plant is not capable of using hydrogen. \nnot found - no information found",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data Center PPA (geothermal only)",
+          "definition": "Value of 'yes' if the unit connected to a data center through a PPA. Currently geothermal only data field.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area 1 (hydropower only)",
+          "definition": "Primary country/area where the project is located (unabbreviated)",
+          "notes": "If project is binational, Country/area 1 is either the country/area listed first in alphabetical order for projects where capacity is shared equally, or the country/area with a larger portion of the total project capacity.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area 2 (hydropower only)",
+          "definition": "Additional country/area where the project is located (unabbreviated)",
+          "notes": "If project is binational, Country/area 2 is either the country/area listed second in alphabetical order for projects where capacity is shared equally, or the country/area with a smaller portion of the total project capacity.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area 1 Capacity (MW) (hydropower only)",
+          "definition": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 1, in megawatts, rounded to whole number",
+          "notes": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area 2 Capacity (MW) (hydropower only)",
+          "definition": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 2, in megawatts, rounded to whole number",
+          "notes": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "River / Watercourse (hydropower only)",
+          "definition": "The name of the river or watercourse on which the project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator(s)",
+          "definition": "Company that performs day-to-day operations and maintenance of the project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner(s)",
+          "definition": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
+          "notes": "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner(s) GEM Entity ID",
+          "definition": "Unique identifier assigned by the Global Energy Monitor ownership team",
+          "notes": "Units: E1+11 digits.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent(s)",
+          "definition": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
+          "notes": "If percent ownership is known format is EntityA [X%]; EntityB [Y%]",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent(s) GEM Entity ID",
+          "definition": "Unique identifier assigned by the Global Energy Monitor ownership team",
+          "notes": "Units: E1+11 digits.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CHP",
+          "definition": "Value of 'yes' if a project phase has combined heat and power/cogeneration, 'no' if not, 'not found' or blank if unknown or no data found.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS",
+          "definition": "Value of 'yes' if a project has/plans carbon capture and storage (CCS), 'no' if not, 'not found' or blank if unknown or no data found.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion/replacement",
+          "definition": "oil/gas options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found\nbioenergy options include:\ngas to bioenergy conversion - when a unit has been or will be converted from gas to bioenergy\ncoal to bioenergy conversion - when a unit has been or will be converted from coal to bioenergy\noil to bioenergy conversion - when a unit has been or will be converted from fossil oil to bioenergy\nno conversion - unit is not associated with a conversion",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit conversion year",
+          "definition": "Year the unit was or is projected to be converted to bioenergy",
+          "notes": "Units: yyyy.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion from/replacement of (fuel)",
+          "definition": "Fuel that unit is converted from, or being replaced",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion from/replacement of (GEM unit ID)",
+          "definition": "GEM Unit ID of unit that is being converted from, or being replaced",
+          "notes": "Units: G1+6/11 digits.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion to (fuel)",
+          "definition": "Fuel details connected to another GEM tracker, used when a project conversion is planned. See rows 168-222 below for description of fuels.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion to (GEM unit ID)",
+          "definition": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+          "notes": "Units: G1+11 digits.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive Industry Type",
+          "definition": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive Industry Use",
+          "definition": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both, blank.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive Non Industry Use",
+          "definition": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, blank, None. 'None' indicates an entirely captive plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Latitude of the project, assumed WGS84 (Google Maps)",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Longitude of the project, assumed WGS84 (Google Maps)",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Approximate based on using nearest city or other information in research, or exact based on visibility on map or given in research",
+          "notes": "Units: approximate, exact.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "City",
+          "definition": "City, town, village or locality where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Local area (taluk, county)",
+          "definition": "County or taluk where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Major area (prefecture, district)",
+          "definition": "Prefecture or district where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit (state, province)",
+          "definition": "Subnational unit where project is located, usually state or province",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM.Wiki URL",
+          "definition": "URL of GEM.wiki pages",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM location ID",
+          "definition": "GEM generated ID unique for each project",
+          "notes": "Units: L1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of L812345 is now L100000812345.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit/phase ID",
+          "definition": "GEM generated ID unique for each phase",
+          "notes": "Units: G1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of G812345 is now G100000812345.",
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Definitions and naming",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported in corporate or governmental planning documents or media coverage but not yet actively moving forward by applying for permits or seeking land, material, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing (the sum of 'pre-permit' and 'permitted' statuses in the Global Coal Plant Tracker)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "construction",
+          "definition": "Projects where site preparation and/or equipment installation are underway.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of the project has been announced, or no progress has been observed for at least two years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "Inferred status based on lack of observed progress for 2 years",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "operating",
+          "definition": "The project has been formally commissioned; commercial operation has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement for the project has been made, or no progress has been observed for at least four years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "Inferred status based on lack of observed progress for 4 years",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "mothballed",
+          "definition": "The project is disused, but not dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "retired",
+          "definition": "The project has been decommissioned or dismantled; this term is also used if the plant has been destroyed by war.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Coal",
+          "definition": "Subcritical",
+          "notes": "Subcritical",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Supercritical",
+          "notes": "Supercritical",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Ultra-supercritical",
+          "notes": "Ultra-supercritical",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "CFB",
+          "notes": "Circulating fluidized bed",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "IGCC",
+          "notes": "Integrated gasification combined cycle",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Unknown",
+          "notes": "Unknown combustion technology",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "IGCC/CCS",
+          "notes": "IGCC with carbon capture and sequestration",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Ultra-supercritical/CCS",
+          "notes": "Ultra-supercritical with carbon capture and sequestration",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Supercritical/CCS",
+          "notes": "Supercritical with carbon capture and sequestration",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Subcritical/CCS",
+          "notes": "Subcritical with carbon capture and sequestration",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Coal",
+          "definition": "Unknown/CCS",
+          "notes": "Unknown combustion technology with carbon capture and sequestration",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "internal combustion",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "combined cycle",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "gas turbine",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "ICCC",
+          "notes": "internal combustion combined cycle",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "ISCC",
+          "notes": "integrated solar combined cycle",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "steam turbine",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "AFC",
+          "notes": "Allam-Fetvedt Cycle",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "dry steam",
+          "notes": "Projects that use steam directly from a geothermal reservoir to turn a turbine.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - single",
+          "notes": "Projects where the high-pressure geothermal fluid is converted to steam only once.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - double",
+          "notes": "Projects where the remaining water after the first flash is still warm enough to flash again and used to run a second, low-pressure steam turbine.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - triple",
+          "notes": "Such systems use three flashes to generate three different steam pressures: high, intermediate, and low. The steam flows are then used to rotate two or more turbines.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - unknown",
+          "notes": "Projects where the high-pressure geothermal fluid is converted to steam but the number of flashes is unknown.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "binary cycle",
+          "notes": "Projects that transfer the heat from geothermal fluid to another liquid. The heat causes the second liquid to turn to steam, which is used to drive a turbine.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "EGS (Enhanced Geothermal Systems)",
+          "notes": "Projects that creates machine-made geothermal reservoirs in regions where there is naturally hot rock but insufficient permeability of fluid for a traditional geothermal power plant.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "AGS (Advanced Geothermal Systems)",
+          "notes": "Projects that use deep, large, artificial closed-loop circuits in which a working fluid is circulated and heated by sub-surface rocks through conductive heat transfer.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "GGS (Geopressured Geothermal Systems)",
+          "notes": "Pojects that repurpose fracking technology to extract thermal energy from miles below the Earth’s surface.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "unknown type",
+          "notes": "The type of geothermal power is not specified.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "PV",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "Solar Thermal",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "Assumed PV",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Wind",
+          "definition": "onshore",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Wind",
+          "definition": "unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore mount unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore hard mount",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore floating",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "pressurized heavy water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "pressurized water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "boiling water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "small modular reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "heavy water light water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "high temperature gas reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "fast breeder reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "molten salt reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "heavy water gas-cooled reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "gas-cooled reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "advanced boiling water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "light water graphite reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "liquid-metal-cooled fast reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "steam-generating heavy water reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "fast neutron reactor",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional storage",
+          "notes": "The project typically or entirely generates electricity from water stored in a reservoir.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "pumped storage",
+          "notes": "The project generates electricity using water which is cycled between a lower and an upper reservoir by a pumping system.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "run-of-river",
+          "notes": "The project typically or entirely generates electricity from flowing water with little to no storage capacity.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "unknown",
+          "notes": "Technology type not specified.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional and pumped storage",
+          "notes": "The project has both conventional storage and pumped storage capability.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional and run-of-river",
+          "notes": "The project has both conventional storage and run-of-river capability.",
+          "entry_type": "definition",
+          "parent_field": "Technology"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: natural gas",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: LNG",
+          "notes": "liquefied natural gas",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: waste heat from natural gas",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: refuse (municipal and industrial wastes)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: paper mill wastes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: refuse (landfill gas)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: agricultural waste (biogas)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "bioenergy: wood & other biomass (solids)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "industrial by-product: blast furnace gas",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "industrial by-product: coke oven gas",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "coal: bituminous",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "coal: waste coal",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "coal: subbituminous",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "coal: unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: coalbed methane",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: crude oil",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: diesel",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: fuel oil",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: heavy fuel oil",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: light fuel oil",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: petroleum coke",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: jet fuel",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: liquefied petroleum gas",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: naphtha",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: gasoline",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "other: hydrogen (green)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "other: hydrogen (unknown)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "other: solar thermal",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: waste/other oil",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil liquids: kerosene",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: gaseous propane",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "fossil gas: unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "other: other",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "bituminous",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "lignite",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "subbituminous",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "waste coal",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Coal",
+          "definition": "anthracite",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - agricultural waste (biogas)",
+          "notes": "Biogas is composed of methane (CH4), which is the primary component of natural gas, at a relatively high percentage (50 to 75 percent), carbon dioxide (CO2), hydrogen sulfide (H2S), water vapor, and trace amounts of other gases. The energy in biogas can be used like natural gas to provide heat, generate electricity, and power cooling systems, among other uses.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - agricultural waste (solids)",
+          "notes": "Agricultural byproducts can be used as a fuel source. Common examples include sugar cane pulp (bagasse), rice husks, or palm kernal shells.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - agricultural waste (syngas)",
+          "notes": "Syngas made from agricultural waste. To produce syngas, biomass is first broken down at high temperature (between 700-800°C) and high pressure in a low-oxygen environment. Under these conditions, the biomass is converted into a mixture of gases, mainly carbon monoxide, hydrogen and methane (sometimes collectively called syngas). To produce a pure stream of biomethane, this syngas is cleaned to remove any acidic and corrosive components. The methanation process then uses a catalyst to promote a reaction between the hydrogen and carbon monoxide or CO2 to produce methane. Any remaining CO2 or water is removed at the end of this process.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - agricultural waste (unknown)",
+          "notes": "This fuel type category captures agricultural wastes whose specifics are unknown.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - biodiesel",
+          "notes": "Biodiesel is a fuel manufactured domestically from vegetable oils, animal fats, or recycled restaurant grease.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - ethanol",
+          "notes": "Ethanol is a clear, colorless alcohol made from a variety of biomass materials called feedstocks. Ethanol is often made from food grains and crops with high starch and sugar content, such as corn, sorghum, barley, sugar cane, and sugar beets. Ethanol can also be made from grasses, trees, and agricultural and forestry residues such as corn cobs and stocks, rice straw, sawdust, and wood chips.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - paper mill wastes",
+          "notes": "Paper mill wastes, sludges, waste water, and black liquor. Black liquor is a byproduct of the paper production process that can be used as a source of energy. Alkaline spent liquor is removed from digesters in the process of chemically pulping wood. After evaporation, the residual \"black\" liquor is burned as a fuel in a recovery furnace that permits the recovery of certain basic chemicals.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - refuse (landfill gas)",
+          "notes": "Landfill gas (LFG) is a byproduct of the decomposition of organic material in landfills. LFG is composed of roughly 50 percent methane (the primary component of natural gas), 50 percent carbon dioxide (CO2) and a small amount of non-methane organic compounds.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - refuse (municipal and industrial wastes)",
+          "notes": "Refuse, also called municipal solid waste (MSW), or garbage, is combusted to harness energy at waste incinerators. MSW contains 1) biogenic (plant or animal products) materials such as paper, cardboard, food waste, grass clippings, leaves, wood, and leather products; 2) non-biomass combustible materials such as plastics and other synthetic materials made from petroleum; 3) Noncombustible materials such as glass and metals.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - refuse (syngas)",
+          "notes": "Syngas made from refuse. Syngas is produced through gasification, which uses oxygen and water vapor to produce a combustible synthesis gas (syngas) from organic compounds in the MSW, which can be used to generate electricity, produce chemicals, liquid fuels, hydrogen (H2), etc.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - wastewater and sewage sludge (solids or biogas)",
+          "notes": "Wastewater sludge can produce biogas through a process of thermal hydrolysis and anaerobic digestion.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - wood & other biomass (biocoal)",
+          "notes": "Biocoal is produced by processing dry biomass in an inert environment (no oxygen) at high temperatures, a process referred to as pyrolysis. Depending on the temperatures and the characteristics of the end product, the process may also be referred to as torrefaction. This process is commonly carried out using an indirect-fired rotary kiln.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - wood & other biomass (solids)",
+          "notes": "Includes forestry products and byproducts, scrap lumber, lumber mill byproducts, wood chips and pellets, agricultural crops grown for energy production, etc.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - wood & other biomass (syngas)",
+          "notes": "Syngas made from wood and other biomass. To produce syngas, biomass is first broken down at high temperature (between 700-800°C) and high pressure in a low-oxygen environment. Under these conditions, the biomass is converted into a mixture of gases, mainly carbon monoxide, hydrogen and methane (sometimes collectively called syngas). To produce a pure stream of biomethane, this syngas is cleaned to remove any acidic and corrosive components. The methanation process then uses a catalyst to promote a reaction between the hydrogen and carbon monoxide or CO2 to produce methane. Any remaining CO2 or water is removed at the end of this process.",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "Bioenergy",
+          "definition": "bioenergy - unknown",
+          "notes": "This category is used when the bioenergy fuel source is unknown",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        }
+      ]
+    }
+  ]
+}

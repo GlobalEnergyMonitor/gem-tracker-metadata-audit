@@ -1,0 +1,434 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__extraction_project_production",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "extraction_project_production",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.308489+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "L100000324400",
+          2
+        ],
+        [
+          "L100000324165",
+          2
+        ],
+        [
+          "L100000320344",
+          2
+        ],
+        [
+          "L100000304884",
+          2
+        ],
+        [
+          "L100000304818",
+          2
+        ],
+        [
+          "L100000304817",
+          2
+        ],
+        [
+          "L100000304753",
+          2
+        ],
+        [
+          "L100000304593",
+          2
+        ],
+        [
+          "L100000324417",
+          1
+        ],
+        [
+          "L100000324238",
+          1
+        ],
+        [
+          "L100000324158",
+          1
+        ],
+        [
+          "L100000320700",
+          1
+        ],
+        [
+          "L100000319056",
+          1
+        ],
+        [
+          "L100000319008",
+          1
+        ],
+        [
+          "L100000313931",
+          1
+        ],
+        [
+          "L100000310908",
+          1
+        ],
+        [
+          "L100000310792",
+          1
+        ],
+        [
+          "L100000310791",
+          1
+        ],
+        [
+          "L100000309197",
+          1
+        ],
+        [
+          "L100000305178",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "Velásquez-Palagua Oil Project (Boyaca, Colombia)",
+          2
+        ],
+        [
+          "Tigana/Jacana Oil Project (Casanare, Colombia)",
+          2
+        ],
+        [
+          "Ruby Oil and Gas Project (Trinidad and Tobago)",
+          2
+        ],
+        [
+          "Parque das Baleias Oil and Gas Project (Espírito Santo, Brazil)",
+          2
+        ],
+        [
+          "Cira-Infantas Oil and Gas Project (Santander, Colombia)",
+          2
+        ],
+        [
+          "Chichimene Oil Project (Meta, Colombia)",
+          2
+        ],
+        [
+          "Caño Limón Oil and Gas Project (Arauca, Colombia)",
+          2
+        ],
+        [
+          "Camisea Oil and Gas Project (Peru)",
+          2
+        ],
+        [
+          "Yumuri-Seboruco Oil Project (Matanzas, Cuba)",
+          1
+        ],
+        [
+          "Payara-Pacora Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Oritupano-Leona Oil and Gas Project (Venezuela)",
+          1
+        ],
+        [
+          "Margarita - Huacaya Gas Project (Tarija, Bolivia)",
+          1
+        ],
+        [
+          "Loran-Manatee Gas Project (Venezuela, Trinidad and Tobago)",
+          1
+        ],
+        [
+          "Junin - Junin Este Gas Project (Santa Cruz, Bolivia)",
+          1
+        ],
+        [
+          "Junin (Area) Oil Project (Venezuela)",
+          1
+        ],
+        [
+          "Greater Angostura Gas Project (Trinidad and Tobago)",
+          1
+        ],
+        [
+          "Cusiana Oil and Gas Project (Casanare, Colombia)",
+          1
+        ],
+        [
+          "Cruces Manueles Oil Project (Venezuela)",
+          1
+        ],
+        [
+          "Clarinete Gas Project (Sucre, Colombia)",
+          1
+        ],
+        [
+          "Castilla Oil Project (Meta, Colombia)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Colombia",
+          14
+        ],
+        [
+          "Venezuela",
+          7
+        ],
+        [
+          "Trinidad and Tobago",
+          4
+        ],
+        [
+          "Peru",
+          2
+        ],
+        [
+          "Brazil",
+          2
+        ],
+        [
+          "Bolivia",
+          2
+        ],
+        [
+          "Guyana",
+          1
+        ],
+        [
+          "Ecuador",
+          1
+        ],
+        [
+          "Cuba",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "oil",
+          18
+        ],
+        [
+          "gas",
+          13
+        ],
+        [
+          "hydrocarbons",
+          2
+        ],
+        [
+          "liquids",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 34,
+      "top_values": [
+        [
+          "9.994",
+          1
+        ],
+        [
+          "9.339",
+          1
+        ],
+        [
+          "86.421",
+          1
+        ],
+        [
+          "833.253",
+          1
+        ],
+        [
+          "826.88",
+          1
+        ],
+        [
+          "80.3",
+          1
+        ],
+        [
+          "80.078",
+          1
+        ],
+        [
+          "8.26",
+          1
+        ],
+        [
+          "7752.0",
+          1
+        ],
+        [
+          "6.591",
+          1
+        ],
+        [
+          "5.84",
+          1
+        ],
+        [
+          "5.364",
+          1
+        ],
+        [
+          "49.813",
+          1
+        ],
+        [
+          "43.992",
+          1
+        ],
+        [
+          "4139.1",
+          1
+        ],
+        [
+          "4.913",
+          1
+        ],
+        [
+          "4.311",
+          1
+        ],
+        [
+          "38.325",
+          1
+        ],
+        [
+          "3.749",
+          1
+        ],
+        [
+          "28.35",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million bbl/y",
+          18
+        ],
+        [
+          "million m³/y",
+          13
+        ],
+        [
+          "million boe/y",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Data source type",
+      "code_friendly_name_guess": "data_source_type",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level production",
+          17
+        ],
+        [
+          "production summed from fields",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

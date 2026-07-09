@@ -1,0 +1,1281 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__coal_mine_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "coal_mine_ownership",
+  "n_rows": 16737,
+  "analyzed_at": "2026-07-07T21:45:12.335102+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1485,
+      "top_values": [
+        [
+          "E100001015587",
+          1126
+        ],
+        [
+          "E100000123261",
+          874
+        ],
+        [
+          "E100001000397",
+          455
+        ],
+        [
+          "E100001000396",
+          349
+        ],
+        [
+          "E100001010595",
+          260
+        ],
+        [
+          "E100001015833",
+          258
+        ],
+        [
+          "E100001000348",
+          258
+        ],
+        [
+          "E100000132388",
+          181
+        ],
+        [
+          "E100002001974",
+          148
+        ],
+        [
+          "E100001010596",
+          117
+        ],
+        [
+          "E100001000382",
+          65
+        ],
+        [
+          "E100001000330",
+          57
+        ],
+        [
+          "E100000000845",
+          57
+        ],
+        [
+          "E100000000839",
+          57
+        ],
+        [
+          "E100002022039",
+          55
+        ],
+        [
+          "E100001016380",
+          55
+        ],
+        [
+          "E100000181249",
+          55
+        ],
+        [
+          "E100000135826",
+          55
+        ],
+        [
+          "E100002004294",
+          54
+        ],
+        [
+          "E100002004292",
+          54
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1485,
+      "top_values": [
+        [
+          "small shareholder(s) ",
+          1126
+        ],
+        [
+          "natural person(s) ",
+          874
+        ],
+        [
+          "Government of India ",
+          455
+        ],
+        [
+          "Coal India Ltd",
+          349
+        ],
+        [
+          "The Vanguard Group Inc",
+          260
+        ],
+        [
+          "Blackrock Advisors LLC",
+          258
+        ],
+        [
+          "BlackRock Inc",
+          258
+        ],
+        [
+          "unknown ",
+          181
+        ],
+        [
+          "member/employee owned ",
+          148
+        ],
+        [
+          "State Street Corp",
+          117
+        ],
+        [
+          "Nippon Life Insurance Co",
+          65
+        ],
+        [
+          "Qatar Investment Authority ",
+          57
+        ],
+        [
+          "Qatar Holding LLC",
+          57
+        ],
+        [
+          "Government of Qatar ",
+          57
+        ],
+        [
+          "Citigroup Pty Ltd",
+          55
+        ],
+        [
+          "Citigroup Inc",
+          55
+        ],
+        [
+          "Citibank Overseas Investment Corp",
+          55
+        ],
+        [
+          "Citibank National Association ",
+          55
+        ],
+        [
+          "The Capital Group Companies Inc",
+          54
+        ],
+        [
+          "Glencore PLC",
+          54
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 16737,
+      "n_null": 8554,
+      "n_non_null": 8183,
+      "null_rate": 0.5111,
+      "n_unique": 86,
+      "top_values": [
+        [
+          "United States",
+          2053
+        ],
+        [
+          "India",
+          1457
+        ],
+        [
+          "Japan",
+          847
+        ],
+        [
+          "Australia",
+          608
+        ],
+        [
+          "Indonesia",
+          481
+        ],
+        [
+          "China",
+          412
+        ],
+        [
+          "Russia",
+          280
+        ],
+        [
+          "South Africa",
+          262
+        ],
+        [
+          "Qatar",
+          171
+        ],
+        [
+          "Cyprus",
+          134
+        ],
+        [
+          "Thailand",
+          133
+        ],
+        [
+          "United Kingdom",
+          123
+        ],
+        [
+          "Singapore",
+          97
+        ],
+        [
+          "Jersey",
+          73
+        ],
+        [
+          "Netherlands",
+          66
+        ],
+        [
+          "Vietnam",
+          61
+        ],
+        [
+          "Bermuda",
+          60
+        ],
+        [
+          "France",
+          42
+        ],
+        [
+          "Türkiye",
+          41
+        ],
+        [
+          "Serbia",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 16737,
+      "n_null": 8354,
+      "n_non_null": 8383,
+      "null_rate": 0.4991,
+      "n_unique": 85,
+      "top_values": [
+        [
+          "United States",
+          2055
+        ],
+        [
+          "India",
+          1464
+        ],
+        [
+          "Japan",
+          847
+        ],
+        [
+          "Australia",
+          620
+        ],
+        [
+          "China",
+          524
+        ],
+        [
+          "Indonesia",
+          484
+        ],
+        [
+          "South Africa",
+          268
+        ],
+        [
+          "Russia",
+          266
+        ],
+        [
+          "Qatar",
+          171
+        ],
+        [
+          "Thailand",
+          133
+        ],
+        [
+          "Cyprus",
+          131
+        ],
+        [
+          "United Kingdom",
+          121
+        ],
+        [
+          "Singapore",
+          112
+        ],
+        [
+          "Switzerland",
+          63
+        ],
+        [
+          "Netherlands",
+          63
+        ],
+        [
+          "Vietnam",
+          61
+        ],
+        [
+          "Bermuda",
+          60
+        ],
+        [
+          "Ukraine",
+          53
+        ],
+        [
+          "Türkiye",
+          51
+        ],
+        [
+          "France",
+          42
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1997,
+      "top_values": [
+        [
+          "Guizhou Jinsha Mukong Coal Mine",
+          107
+        ],
+        [
+          "Narrabri Coal Mine",
+          98
+        ],
+        [
+          "Maules Creek Coal Mine",
+          92
+        ],
+        [
+          "Boggabri Coal Mine",
+          64
+        ],
+        [
+          "Peak Downs Coal Mine",
+          60
+        ],
+        [
+          "Caval Ridge Coal Mine",
+          60
+        ],
+        [
+          "Bulga Coal Mine",
+          60
+        ],
+        [
+          "Benga Coal Mine",
+          60
+        ],
+        [
+          "Fording River Operations",
+          58
+        ],
+        [
+          "Carborough Downs Coal Mine",
+          52
+        ],
+        [
+          "Vickery Coal Mine",
+          50
+        ],
+        [
+          "Gregory Crinum Coal Mines",
+          48
+        ],
+        [
+          "Blackwood Coal Mine",
+          45
+        ],
+        [
+          "Severny Coal Mine",
+          42
+        ],
+        [
+          "United Wambo Coal Mine",
+          39
+        ],
+        [
+          "Wambo Underground Coal Mine",
+          33
+        ],
+        [
+          "Hunter Valley South Coal Mine",
+          32
+        ],
+        [
+          "Hunter Valley North Coal Mine",
+          32
+        ],
+        [
+          "Commodore Coal Mine",
+          32
+        ],
+        [
+          "Mackenzie Coal Project",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 16737,
+      "n_null": 7901,
+      "n_non_null": 8836,
+      "null_rate": 0.4721,
+      "n_unique": 1307,
+      "top_values": [
+        [
+          "100",
+          1526
+        ],
+        [
+          "63.13",
+          344
+        ],
+        [
+          "36.87",
+          344
+        ],
+        [
+          "0.01",
+          134
+        ],
+        [
+          "50",
+          124
+        ],
+        [
+          "0",
+          112
+        ],
+        [
+          "51",
+          81
+        ],
+        [
+          "49",
+          80
+        ],
+        [
+          "5.6",
+          77
+        ],
+        [
+          "0.03",
+          63
+        ],
+        [
+          "0.02",
+          57
+        ],
+        [
+          "8.94",
+          54
+        ],
+        [
+          "5",
+          49
+        ],
+        [
+          "3.15",
+          45
+        ],
+        [
+          "10",
+          45
+        ],
+        [
+          "0.18",
+          45
+        ],
+        [
+          "9.9",
+          42
+        ],
+        [
+          "0.21",
+          40
+        ],
+        [
+          "0.27",
+          39
+        ],
+        [
+          "0.13",
+          37
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 9755,
+      "top_values": [
+        [
+          "small shareholder(s)  -> International Coal Ventures Pvt Ltd [0.29%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "natural person(s)  -> Dorabji Tata Trust  [100.0%] -> Tata Sons Pvt Ltd [27.98%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Cement Australia Holdings Pty Ltd [50.0%] -> Cornwall Coal Company Pty Ltd [unknown %] -> Cullenswood Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Tata Steel Ltd -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Tata Sons Pvt Ltd -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Sterling Investment Corporation Pvt Ltd -> Tata Sons Pvt Ltd [9.0%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Steel Authority of India Ltd -> International Coal Ventures Pvt Ltd [47.83%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Shapoorji Pallonji And Company Pvt Ltd -> Sterling Investment Corporation Pvt Ltd [100.0%] -> Tata Sons Pvt Ltd [9.0%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Ratan Tata Trust  -> Tata Sons Pvt Ltd [23.56%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Rashtriya Ispat Nigam Ltd -> International Coal Ventures Pvt Ltd [25.94%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "National Mineral Development Corp Ltd -> International Coal Ventures Pvt Ltd [25.94%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Ministry of Steel (India)  -> Rashtriya Ispat Nigam Ltd [100.0%] -> International Coal Ventures Pvt Ltd [25.94%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Life Insurance Corporation of India Ltd -> Tata Steel Ltd [7.81%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Guizhou Panjiang Investment Holding (Group) Co Ltd -> Liuzhi Industry and Mine (Group) Co Ltd [45.83%] -> Guizhou Hualong Coal Industry Co Ltd [100.0%] -> Huale Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Guangdong Hengjian Investment Holding Co Ltd -> Guangdong Energy Group Co Ltd [76.0%] -> Upper Horn Investments Ltd [unknown %] -> Upper Horn Investments (Australia) Ltd [100.0%] -> Narrabri Coal Joint Venture  [7.5%] -> Narrabri Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Government of India  -> National Mineral Development Corp Ltd [60.79%] -> International Coal Ventures Pvt Ltd [25.94%] -> Minas De Benga (Mauritius) Ltd [65.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Dorabji Tata Trust  -> Tata Sons Pvt Ltd [27.98%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "Cyrus Investments Pvt Ltd -> Tata Sons Pvt Ltd [9.0%] -> Tata Steel Ltd [31.76%] -> Minas De Benga (Mauritius) Ltd [35.0%] -> Minas De Benga Lda [100.0%] -> Benga Coal Mine [100.0%]",
+          4
+        ],
+        [
+          "small shareholder(s)  -> Dolguchan LLC [3.5%] -> Lokuchakitsky Coal Mine [100.0%]",
+          3
+        ],
+        [
+          "small shareholder(s)  -> Bathurst Resources Ltd [61.4%] -> Escarpment Coal Mine [100.0%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1072,
+      "top_values": [
+        [
+          "BHP Mitsubishi Alliance ",
+          240
+        ],
+        [
+          "South Eastern Coalfields Ltd",
+          231
+        ],
+        [
+          "Eastern Coalfields Ltd",
+          216
+        ],
+        [
+          "Western Coalfields Ltd",
+          183
+        ],
+        [
+          "Ramaco Resources LLC",
+          168
+        ],
+        [
+          "Central Coalfields Ltd",
+          168
+        ],
+        [
+          "Bowen Coking Coal Ltd",
+          156
+        ],
+        [
+          "Elk Valley Resources Ltd",
+          145
+        ],
+        [
+          "The Singareni Collieries Co Ltd",
+          132
+        ],
+        [
+          "Bharat Coking Coal Ltd",
+          117
+        ],
+        [
+          "Guizhou Yuneng Mining Co Ltd",
+          107
+        ],
+        [
+          "Universal Coal PLC",
+          104
+        ],
+        [
+          "Fitzroy Australia Resources Pty Ltd",
+          104
+        ],
+        [
+          "PT Berau Coal ",
+          100
+        ],
+        [
+          "Narrabri Coal Joint Venture ",
+          98
+        ],
+        [
+          "Maules Creek Coal Pty Ltd",
+          92
+        ],
+        [
+          "Mahanadi Coalfields Ltd",
+          81
+        ],
+        [
+          "Whitehaven Coal Ltd",
+          75
+        ],
+        [
+          "Sojitz Blue Pty Ltd",
+          72
+        ],
+        [
+          "Hunter Valley Operations Pty Ltd",
+          64
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1072,
+      "top_values": [
+        [
+          "E100001000762",
+          240
+        ],
+        [
+          "E100001000806",
+          231
+        ],
+        [
+          "E100001000804",
+          216
+        ],
+        [
+          "E100001000801",
+          183
+        ],
+        [
+          "E100001013705",
+          168
+        ],
+        [
+          "E100001000803",
+          168
+        ],
+        [
+          "E100001010170",
+          156
+        ],
+        [
+          "E100001011006",
+          145
+        ],
+        [
+          "E100001000809",
+          132
+        ],
+        [
+          "E100001000805",
+          117
+        ],
+        [
+          "E100000126837",
+          107
+        ],
+        [
+          "E100001010416",
+          104
+        ],
+        [
+          "E100000132325",
+          104
+        ],
+        [
+          "E100001010287",
+          100
+        ],
+        [
+          "E100001010388",
+          98
+        ],
+        [
+          "E100001010387",
+          92
+        ],
+        [
+          "E100001000807",
+          81
+        ],
+        [
+          "E100001010381",
+          75
+        ],
+        [
+          "E100001010423",
+          72
+        ],
+        [
+          "E100001013354",
+          64
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Coal Mine Tracker",
+          10869
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Operating",
+          6815
+        ],
+        [
+          "Proposed",
+          2357
+        ],
+        [
+          "Mothballed",
+          871
+        ],
+        [
+          "Shelved",
+          450
+        ],
+        [
+          "Cancelled",
+          376
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity (Mtpa)",
+      "code_friendly_name_guess": "capacity_mtpa",
+      "n_total": 16737,
+      "n_null": 9833,
+      "n_non_null": 6904,
+      "null_rate": 0.5875,
+      "n_unique": 251,
+      "top_values": [
+        [
+          "0.9",
+          547
+        ],
+        [
+          "0.6",
+          435
+        ],
+        [
+          "4",
+          347
+        ],
+        [
+          "3",
+          252
+        ],
+        [
+          "10",
+          231
+        ],
+        [
+          "6",
+          221
+        ],
+        [
+          "1.5",
+          201
+        ],
+        [
+          "1.2",
+          188
+        ],
+        [
+          "8",
+          181
+        ],
+        [
+          "5",
+          171
+        ],
+        [
+          "2",
+          164
+        ],
+        [
+          "3.5",
+          131
+        ],
+        [
+          "0.5",
+          131
+        ],
+        [
+          "15",
+          118
+        ],
+        [
+          "2.5",
+          113
+        ],
+        [
+          "9",
+          105
+        ],
+        [
+          "0.3",
+          96
+        ],
+        [
+          "2.4",
+          95
+        ],
+        [
+          "1",
+          94
+        ],
+        [
+          "20",
+          91
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Production (Mtpa)",
+      "code_friendly_name_guess": "production_mtpa",
+      "n_total": 16737,
+      "n_null": 9962,
+      "n_non_null": 6775,
+      "null_rate": 0.5952,
+      "n_unique": 574,
+      "top_values": [
+        [
+          "0",
+          349
+        ],
+        [
+          "0.05",
+          104
+        ],
+        [
+          "5.1",
+          101
+        ],
+        [
+          "0.6",
+          94
+        ],
+        [
+          "0.12",
+          85
+        ],
+        [
+          "4",
+          68
+        ],
+        [
+          "2",
+          68
+        ],
+        [
+          "0.01",
+          63
+        ],
+        [
+          "0.02",
+          61
+        ],
+        [
+          "0.5",
+          60
+        ],
+        [
+          "0.15",
+          59
+        ],
+        [
+          "0.3",
+          55
+        ],
+        [
+          "6",
+          53
+        ],
+        [
+          "1.4",
+          53
+        ],
+        [
+          "1.2",
+          53
+        ],
+        [
+          "1.8",
+          49
+        ],
+        [
+          "0.08",
+          48
+        ],
+        [
+          "1",
+          47
+        ],
+        [
+          "10.5",
+          46
+        ],
+        [
+          "0.7",
+          46
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Mine ID",
+      "code_friendly_name_guess": "gem_mine_id",
+      "n_total": 16737,
+      "n_null": 5868,
+      "n_non_null": 10869,
+      "null_rate": 0.3506,
+      "n_unique": 1997,
+      "top_values": [
+        [
+          "M5178",
+          107
+        ],
+        [
+          "M0081",
+          98
+        ],
+        [
+          "M0065",
+          92
+        ],
+        [
+          "M0014",
+          64
+        ],
+        [
+          "M0738",
+          60
+        ],
+        [
+          "M0087",
+          60
+        ],
+        [
+          "M0024",
+          60
+        ],
+        [
+          "M0017",
+          60
+        ],
+        [
+          "M0142",
+          58
+        ],
+        [
+          "M0022",
+          52
+        ],
+        [
+          "M0110",
+          50
+        ],
+        [
+          "M0044",
+          48
+        ],
+        [
+          "M1529",
+          45
+        ],
+        [
+          "M0721",
+          42
+        ],
+        [
+          "M0107",
+          39
+        ],
+        [
+          "M0113",
+          33
+        ],
+        [
+          "M0050",
+          32
+        ],
+        [
+          "M0049",
+          32
+        ],
+        [
+          "M0029",
+          32
+        ],
+        [
+          "M3025",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

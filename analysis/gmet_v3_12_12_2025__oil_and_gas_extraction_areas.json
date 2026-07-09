@@ -1,0 +1,1157 @@
+{
+  "table_name": "gmet_v3_12_12_2025__oil_and_gas_extraction_areas",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "tab_slug": "oil_and_gas_extraction_areas",
+  "n_rows": 7396,
+  "analyzed_at": "2026-07-07T21:45:21.881911+00:00",
+  "tracker_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "fields": [
+    {
+      "field_name": "GEM GOGET ID",
+      "code_friendly_name_guess": "gem_goget_id",
+      "n_total": 7396,
+      "n_null": 0,
+      "n_non_null": 7396,
+      "null_rate": 0.0,
+      "n_unique": 7396,
+      "top_values": [
+        [
+          "OG0023338",
+          1
+        ],
+        [
+          "OG0023336",
+          1
+        ],
+        [
+          "OG0023335",
+          1
+        ],
+        [
+          "OG0023333",
+          1
+        ],
+        [
+          "OG0023089",
+          1
+        ],
+        [
+          "OG0023088",
+          1
+        ],
+        [
+          "OG0023087",
+          1
+        ],
+        [
+          "OG0023086",
+          1
+        ],
+        [
+          "OG0023085",
+          1
+        ],
+        [
+          "OG0023084",
+          1
+        ],
+        [
+          "OG0023083",
+          1
+        ],
+        [
+          "OG0023082",
+          1
+        ],
+        [
+          "OG0023081",
+          1
+        ],
+        [
+          "OG0023080",
+          1
+        ],
+        [
+          "OG0023079",
+          1
+        ],
+        [
+          "OG0023078",
+          1
+        ],
+        [
+          "OG0023077",
+          1
+        ],
+        [
+          "OG0023076",
+          1
+        ],
+        [
+          "OG0023075",
+          1
+        ],
+        [
+          "OG0023074",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 7396,
+      "n_null": 0,
+      "n_non_null": 7396,
+      "null_rate": 0.0,
+      "n_unique": 7334,
+      "top_values": [
+        [
+          "Salman",
+          3
+        ],
+        [
+          "Orca",
+          3
+        ],
+        [
+          "Gorgon",
+          3
+        ],
+        [
+          "Barracuda",
+          3
+        ],
+        [
+          "Zorro",
+          2
+        ],
+        [
+          "Zeus",
+          2
+        ],
+        [
+          "Zama",
+          2
+        ],
+        [
+          "Yadavaran",
+          2
+        ],
+        [
+          "Weizhou 12-2",
+          2
+        ],
+        [
+          "Venus",
+          2
+        ],
+        [
+          "Vega",
+          2
+        ],
+        [
+          "Varadero",
+          2
+        ],
+        [
+          "Utgard",
+          2
+        ],
+        [
+          "Unity",
+          2
+        ],
+        [
+          "Tunu",
+          2
+        ],
+        [
+          "Tembakau",
+          2
+        ],
+        [
+          "Statfjord",
+          2
+        ],
+        [
+          "Shaw",
+          2
+        ],
+        [
+          "Sacha",
+          2
+        ],
+        [
+          "Ruby",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki",
+      "code_friendly_name_guess": "gem_wiki",
+      "n_total": 7396,
+      "n_null": 0,
+      "n_non_null": 7396,
+      "null_rate": 0.0,
+      "n_unique": 7396,
+      "top_values": [
+        [
+          "https://www.gem.wiki/环江_Oil_Field_(Gansu,_China)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Șincai_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Șaroș_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Șamșud_Oil_and_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żuchlów_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żołynia-Leżajsk_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żakowo_Oil_and_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Środa_Wielkopolska_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Łękawica_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Łukowa_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Øst_Frigg_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ørn_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Íride_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ébano_Oil_and_Gas_Field_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ébano_Chapacao_Oil_and_Gas_Field_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Çaycuma_Gas_Field_(Türkiye)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ærfugl_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ærfugl_Nord_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Åsgard_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Água_Grande_Oil_and_Gas_Field_(Bahia,_Brazil)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 7396,
+      "n_null": 265,
+      "n_non_null": 7131,
+      "null_rate": 0.0358,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          6160
+        ],
+        [
+          "discovered",
+          476
+        ],
+        [
+          "shut in",
+          234
+        ],
+        [
+          "in development",
+          205
+        ],
+        [
+          "decommissioned",
+          26
+        ],
+        [
+          "abandoned",
+          13
+        ],
+        [
+          "cancelled",
+          6
+        ],
+        [
+          "UGS",
+          6
+        ],
+        [
+          "exploration",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status year",
+      "code_friendly_name_guess": "status_year",
+      "n_total": 7396,
+      "n_null": 262,
+      "n_non_null": 7134,
+      "null_rate": 0.0354,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "2023.0",
+          2469
+        ],
+        [
+          "2024.0",
+          1608
+        ],
+        [
+          "2022.0",
+          1287
+        ],
+        [
+          "2020.0",
+          523
+        ],
+        [
+          "2021.0",
+          457
+        ],
+        [
+          "2015.0",
+          232
+        ],
+        [
+          "2019.0",
+          217
+        ],
+        [
+          "2017.0",
+          160
+        ],
+        [
+          "2018.0",
+          60
+        ],
+        [
+          "2016.0",
+          40
+        ],
+        [
+          "2013.0",
+          14
+        ],
+        [
+          "2025.0",
+          11
+        ],
+        [
+          "2007.0",
+          9
+        ],
+        [
+          "2014.0",
+          8
+        ],
+        [
+          "2011.0",
+          8
+        ],
+        [
+          "[not stated]",
+          7
+        ],
+        [
+          "2009.0",
+          5
+        ],
+        [
+          "2012.0",
+          3
+        ],
+        [
+          "2010.0",
+          3
+        ],
+        [
+          "2005.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 7396,
+      "n_null": 1325,
+      "n_non_null": 6071,
+      "null_rate": 0.1792,
+      "n_unique": 1589,
+      "top_values": [
+        [
+          "PEMEX",
+          156
+        ],
+        [
+          "PKN ORLEN",
+          94
+        ],
+        [
+          "Ecopetrol S.A.",
+          87
+        ],
+        [
+          "Petrobras",
+          69
+        ],
+        [
+          "Nederlandse Aardolie Maatschappij B.V.",
+          69
+        ],
+        [
+          "Equinor Energy AS",
+          66
+        ],
+        [
+          "EP Petroecuador",
+          65
+        ],
+        [
+          "Canadian Natural Resources Limited",
+          61
+        ],
+        [
+          "Eni S.P.A.",
+          60
+        ],
+        [
+          "Ypf S.A.",
+          59
+        ],
+        [
+          "TotalEnergies",
+          53
+        ],
+        [
+          "CNOOC Limited",
+          49
+        ],
+        [
+          "BP",
+          40
+        ],
+        [
+          "ExxonMobil",
+          39
+        ],
+        [
+          "Frontera Energy Colombia Corp Sucursal Colombia",
+          36
+        ],
+        [
+          "Shell",
+          35
+        ],
+        [
+          "Shell Petroleum Development Company of Nigeria",
+          33
+        ],
+        [
+          "Pan American Energy Sl",
+          33
+        ],
+        [
+          "Nigerian Agip Oil Company",
+          33
+        ],
+        [
+          "Saudi Aramco",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ClimateTrace Field (encompasses GEM field)",
+      "code_friendly_name_guess": "climatetrace_field_encompasses_gem_field",
+      "n_total": 7396,
+      "n_null": 6705,
+      "n_non_null": 691,
+      "null_rate": 0.9066,
+      "n_unique": 400,
+      "top_values": [
+        [
+          "Bakken-CA",
+          70
+        ],
+        [
+          "Powder River",
+          54
+        ],
+        [
+          "Uinta",
+          20
+        ],
+        [
+          "Denver Julesburg",
+          10
+        ],
+        [
+          "Santa Barbara Complex",
+          8
+        ],
+        [
+          "Cantarell",
+          7
+        ],
+        [
+          "Alaska North Slope",
+          7
+        ],
+        [
+          "El Sharara",
+          6
+        ],
+        [
+          "San Juan",
+          5
+        ],
+        [
+          "Russkinskoye",
+          4
+        ],
+        [
+          "Orinoco Oil Belt",
+          4
+        ],
+        [
+          "Gannet Complex",
+          4
+        ],
+        [
+          "Castilla",
+          4
+        ],
+        [
+          "Urengoyskoye",
+          3
+        ],
+        [
+          "Tarkosalin-Termokarstovoye",
+          3
+        ],
+        [
+          "Sakhalin 1",
+          3
+        ],
+        [
+          "Qinghai-Sebei",
+          3
+        ],
+        [
+          "Obiafu-Obrikom",
+          3
+        ],
+        [
+          "Marlim",
+          3
+        ],
+        [
+          "Magallanes",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Climate TRACE Field Emissions (tonnes/year)",
+      "code_friendly_name_guess": "climate_trace_field_emissions_tonnes_year",
+      "n_total": 7396,
+      "n_null": 6751,
+      "n_non_null": 645,
+      "null_rate": 0.9128,
+      "n_unique": 359,
+      "top_values": [
+        [
+          "17579.92465",
+          70
+        ],
+        [
+          "61767.36109",
+          54
+        ],
+        [
+          "137483.4418",
+          20
+        ],
+        [
+          "293555.6885",
+          10
+        ],
+        [
+          "498877.5281",
+          8
+        ],
+        [
+          "83419.69748",
+          7
+        ],
+        [
+          "71082.85611",
+          7
+        ],
+        [
+          "60458.73089",
+          6
+        ],
+        [
+          "78920.98977",
+          5
+        ],
+        [
+          "64880.98736",
+          4
+        ],
+        [
+          "3997.270332",
+          4
+        ],
+        [
+          "29122.4403",
+          4
+        ],
+        [
+          "230357.2172",
+          4
+        ],
+        [
+          "9772.578766",
+          3
+        ],
+        [
+          "8661.823999",
+          3
+        ],
+        [
+          "8607.87195",
+          3
+        ],
+        [
+          "68600.42927",
+          3
+        ],
+        [
+          "59217.51653",
+          3
+        ],
+        [
+          "48585.51378",
+          3
+        ],
+        [
+          "47518.69621",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Climate TRACE Field Estimate Year",
+      "code_friendly_name_guess": "climate_trace_field_estimate_year",
+      "n_total": 7396,
+      "n_null": 6751,
+      "n_non_null": 645,
+      "null_rate": 0.9128,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "2022.0",
+          625
+        ],
+        [
+          "2021.0",
+          14
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2017.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Climate TRACE Field Emissions Factor (T CH4 per T of product produced)",
+      "code_friendly_name_guess": "climate_trace_field_emissions_factor_t_ch4_per_t_of_product_produced",
+      "n_total": 7396,
+      "n_null": 6751,
+      "n_non_null": 645,
+      "null_rate": 0.9128,
+      "n_unique": 358,
+      "top_values": [
+        [
+          "0.000496358",
+          70
+        ],
+        [
+          "0.000672143",
+          54
+        ],
+        [
+          "0.000855569",
+          20
+        ],
+        [
+          "0.000702508",
+          10
+        ],
+        [
+          "0.007689739",
+          8
+        ],
+        [
+          "0.002393542",
+          7
+        ],
+        [
+          "0.000589098",
+          7
+        ],
+        [
+          "0.001128951",
+          6
+        ],
+        [
+          "0.001011316",
+          5
+        ],
+        [
+          "0.00112663",
+          4
+        ],
+        [
+          "0.000900066",
+          4
+        ],
+        [
+          "0.0007892",
+          4
+        ],
+        [
+          "0.000688336",
+          4
+        ],
+        [
+          "0.003395257",
+          3
+        ],
+        [
+          "0.00293408",
+          3
+        ],
+        [
+          "0.002006535",
+          3
+        ],
+        [
+          "0.001472643",
+          3
+        ],
+        [
+          "0.001285898",
+          3
+        ],
+        [
+          "0.00113146",
+          3
+        ],
+        [
+          "0.001127475",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 7396,
+      "n_null": 0,
+      "n_non_null": 7396,
+      "null_rate": 0.0,
+      "n_unique": 107,
+      "top_values": [
+        [
+          "United States",
+          1731
+        ],
+        [
+          "Canada",
+          1230
+        ],
+        [
+          "Russia",
+          340
+        ],
+        [
+          "United Kingdom",
+          321
+        ],
+        [
+          "Colombia",
+          289
+        ],
+        [
+          "Nigeria",
+          252
+        ],
+        [
+          "Mexico",
+          212
+        ],
+        [
+          "Australia",
+          206
+        ],
+        [
+          "Argentina",
+          204
+        ],
+        [
+          "Netherlands",
+          164
+        ],
+        [
+          "China",
+          153
+        ],
+        [
+          "Venezuela",
+          148
+        ],
+        [
+          "Norway",
+          139
+        ],
+        [
+          "Brazil",
+          120
+        ],
+        [
+          "Poland",
+          111
+        ],
+        [
+          "Egypt",
+          103
+        ],
+        [
+          "Iran",
+          100
+        ],
+        [
+          "Ecuador",
+          94
+        ],
+        [
+          "Angola",
+          86
+        ],
+        [
+          "Indonesia",
+          85
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 7396,
+      "n_null": 750,
+      "n_non_null": 6646,
+      "null_rate": 0.1014,
+      "n_unique": 5985,
+      "top_values": [
+        [
+          "26.8614",
+          15
+        ],
+        [
+          "20.3293",
+          12
+        ],
+        [
+          "3.894",
+          11
+        ],
+        [
+          "26.57116",
+          11
+        ],
+        [
+          "7.167",
+          7
+        ],
+        [
+          "4.052",
+          7
+        ],
+        [
+          "3.104",
+          7
+        ],
+        [
+          "70.2222190706577",
+          6
+        ],
+        [
+          "6.93",
+          6
+        ],
+        [
+          "6.321",
+          6
+        ],
+        [
+          "53.365",
+          6
+        ],
+        [
+          "53.276",
+          6
+        ],
+        [
+          "4.41",
+          6
+        ],
+        [
+          "4.174",
+          6
+        ],
+        [
+          "35.13659",
+          6
+        ],
+        [
+          "31.3452653501356",
+          6
+        ],
+        [
+          "13.0955038199437",
+          6
+        ],
+        [
+          "9.632",
+          5
+        ],
+        [
+          "6.884",
+          5
+        ],
+        [
+          "55.893",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 7396,
+      "n_null": 750,
+      "n_non_null": 6646,
+      "null_rate": 0.1014,
+      "n_unique": 6043,
+      "top_values": [
+        [
+          "52.1813",
+          15
+        ],
+        [
+          "56.0697",
+          12
+        ],
+        [
+          "51.85212",
+          11
+        ],
+        [
+          "-73.666",
+          10
+        ],
+        [
+          "-75.304",
+          7
+        ],
+        [
+          "-73.84",
+          7
+        ],
+        [
+          "-73.438",
+          7
+        ],
+        [
+          "40.34339",
+          6
+        ],
+        [
+          "105.007307661713",
+          6
+        ],
+        [
+          "-74.478",
+          6
+        ],
+        [
+          "-72.652",
+          6
+        ],
+        [
+          "-72.014",
+          6
+        ],
+        [
+          "-71.18",
+          6
+        ],
+        [
+          "-59.4759130643917",
+          6
+        ],
+        [
+          "-148.45286980862",
+          6
+        ],
+        [
+          "-109.528",
+          6
+        ],
+        [
+          "-109.408",
+          6
+        ],
+        [
+          "-109.182",
+          6
+        ],
+        [
+          "101.158",
+          5
+        ],
+        [
+          "10.6341",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

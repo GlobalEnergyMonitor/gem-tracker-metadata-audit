@@ -1,0 +1,202 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_coal_plants",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_coal_plants",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.167952+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Coal Plant Tracker, Global Energy Monitor January 2026 Release",
+      "code_friendly_name_guess": "global_coal_plant_tracker_global_energy_monitor_january_2026_release",
+      "n_total": 999,
+      "n_null": 927,
+      "n_non_null": 72,
+      "null_rate": 0.9279,
+      "n_unique": 72,
+      "top_values": [
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Unit name",
+          1
+        ],
+        [
+          "The Global Coal Plant Tracker includes global coal-fired units that are 30 megawatts (MW) or larger within the following parameters: all operating/mothballed units; all units retired since 2000; and all units proposed since 2010.",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "Subnational unit",
+          1
+        ],
+        [
+          "Status Definitions",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "Start year",
+          1
+        ],
+        [
+          "Shelved",
+          1
+        ],
+        [
+          "Retired year",
+          1
+        ],
+        [
+          "Retired",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Coal Plant Tracker, January 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Pre-permit",
+          1
+        ],
+        [
+          "Plant name (other)",
+          1
+        ],
+        [
+          "Plant name (local)",
+          1
+        ],
+        [
+          "Plant name",
+          1
+        ],
+        [
+          "Plant age",
+          1
+        ],
+        [
+          "Planned retirement",
+          1
+        ],
+        [
+          "Phaseout commitment",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 943,
+      "n_non_null": 56,
+      "null_rate": 0.9439,
+      "n_unique": 56,
+      "top_values": [
+        [
+          "Year the unit was decommissioned",
+          1
+        ],
+        [
+          "Year the unit was commissioned",
+          1
+        ],
+        [
+          "Year of planned country-level coal phaseout",
+          1
+        ],
+        [
+          "Year of country-level net-zero target",
+          1
+        ],
+        [
+          "Year a specific unit is planned to retire (specific, not national commitments)",
+          1
+        ],
+        [
+          "Whether the unit is used for combined heat and power",
+          1
+        ],
+        [
+          "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
+          1
+        ],
+        [
+          "Whether the plant sell excess heat, power, or both",
+          1
+        ],
+        [
+          "Whether coordinates are exact or approximate",
+          1
+        ],
+        [
+          "Whether a captive power station provides heat, power, or both",
+          1
+        ],
+        [
+          "WGS 84 Decimal longitude",
+          1
+        ],
+        [
+          "WGS 84 Decimal latitude",
+          1
+        ],
+        [
+          "Units that have been permanently decommissioned or converted to another fuel.",
+          1
+        ],
+        [
+          "Units that have been formally commissioned or that have entered commercial operation.",
+          1
+        ],
+        [
+          "Units that have been deactivated or put into an inactive state but are not retired.",
+          1
+        ],
+        [
+          "Unique label for each unit at the same power station",
+          1
+        ],
+        [
+          "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year.",
+          1
+        ],
+        [
+          "The GCPT estimates for CO2 emissions are intended to provide guidance on overall country and regional emissions over the lifecycle of the existing and proposed fleet of plants. They are not intended to provide detailed impact analysis for particular plants. For this reason, the average capacity factor by country is used for all plants. In general, newer plants will tend to have higher capacity factors than the average, and older plants will have lower capacity factors than the average. Similarly, heat rates and emission factors represent broad performance; these factors will differ for particular plants and coal supplies.",
+          1
+        ],
+        [
+          "Taluk, county",
+          1
+        ],
+        [
+          "Status designation, see more details above",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

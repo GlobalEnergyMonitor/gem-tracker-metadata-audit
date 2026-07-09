@@ -1,0 +1,837 @@
+{
+  "table_name": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1__blast_furnace_relinings",
+  "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "blast_furnace_relinings",
+  "n_rows": 909,
+  "analyzed_at": "2026-07-07T21:45:22.014804+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 568,
+      "top_values": [
+        [
+          "U100000140002",
+          9
+        ],
+        [
+          "U100000141179",
+          7
+        ],
+        [
+          "U100000141346",
+          6
+        ],
+        [
+          "U100000141308",
+          5
+        ],
+        [
+          "U100000141162",
+          5
+        ],
+        [
+          "U100000140990",
+          5
+        ],
+        [
+          "U100000140962",
+          5
+        ],
+        [
+          "U100000140041",
+          5
+        ],
+        [
+          "U100000141280",
+          4
+        ],
+        [
+          "U100000141272",
+          4
+        ],
+        [
+          "U100000141252",
+          4
+        ],
+        [
+          "U100000141178",
+          4
+        ],
+        [
+          "U100000141105",
+          4
+        ],
+        [
+          "U100000141070",
+          4
+        ],
+        [
+          "U100000140445",
+          4
+        ],
+        [
+          "U100000140383",
+          4
+        ],
+        [
+          "U100000140130",
+          4
+        ],
+        [
+          "U100000140109",
+          4
+        ],
+        [
+          "U100000140072",
+          4
+        ],
+        [
+          "U100000140027",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining status",
+      "code_friendly_name_guess": "relining_status",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "complete",
+          853
+        ],
+        [
+          "planned",
+          31
+        ],
+        [
+          "unknown",
+          13
+        ],
+        [
+          "in progress",
+          7
+        ],
+        [
+          "cancelled",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Categories are \"complete\", \"in progress\", \"planned\", or \"cancelled\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining type",
+      "code_friendly_name_guess": "relining_type",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "full",
+          506
+        ],
+        [
+          "partial",
+          241
+        ],
+        [
+          "unknown",
+          162
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Type of relining performed on blast furnace unit. Categories are \"full\", \"partial\" and \"unknown\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace relining start date",
+      "code_friendly_name_guess": "furnace_relining_start_date",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 425,
+      "top_values": [
+        [
+          "unknown",
+          249
+        ],
+        [
+          "2022",
+          12
+        ],
+        [
+          "2025",
+          10
+        ],
+        [
+          "2021",
+          10
+        ],
+        [
+          "2020",
+          10
+        ],
+        [
+          "2019",
+          10
+        ],
+        [
+          "2021-03-01 00:00:00",
+          8
+        ],
+        [
+          "2014",
+          8
+        ],
+        [
+          "2004",
+          8
+        ],
+        [
+          "2023-04-01 00:00:00",
+          7
+        ],
+        [
+          "2023",
+          7
+        ],
+        [
+          "2030",
+          6
+        ],
+        [
+          "2024",
+          6
+        ],
+        [
+          "2022-05-01 00:00:00",
+          6
+        ],
+        [
+          "2018",
+          5
+        ],
+        [
+          "2009",
+          5
+        ],
+        [
+          "2007",
+          5
+        ],
+        [
+          "1990",
+          5
+        ],
+        [
+          "2027",
+          4
+        ],
+        [
+          "2025-08-01 00:00:00",
+          4
+        ]
+      ],
+      "portion_numeric": 0.234,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that furnace stops operations and transitions to maintenance/relining work in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace relining stop date",
+      "code_friendly_name_guess": "furnace_relining_stop_date",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 500,
+      "top_values": [
+        [
+          "unknown",
+          118
+        ],
+        [
+          "2022",
+          15
+        ],
+        [
+          "2020",
+          14
+        ],
+        [
+          "2021",
+          11
+        ],
+        [
+          "2019",
+          11
+        ],
+        [
+          "2016",
+          11
+        ],
+        [
+          "2017",
+          10
+        ],
+        [
+          "2007",
+          10
+        ],
+        [
+          "2005",
+          9
+        ],
+        [
+          "2024",
+          8
+        ],
+        [
+          "2008",
+          8
+        ],
+        [
+          "2025",
+          7
+        ],
+        [
+          "2018",
+          7
+        ],
+        [
+          "2000",
+          6
+        ],
+        [
+          "1984",
+          6
+        ],
+        [
+          "2020-12-01 00:00:00",
+          5
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2010",
+          5
+        ],
+        [
+          "1996",
+          5
+        ],
+        [
+          "1991",
+          5
+        ]
+      ],
+      "portion_numeric": 0.316,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that furnace resumes operations and begins transition back to ironmaking operations in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace relining duration (Days)",
+      "code_friendly_name_guess": "furnace_relining_duration_days",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 144,
+      "top_values": [
+        [
+          "unknown",
+          553
+        ],
+        [
+          "30",
+          23
+        ],
+        [
+          "90",
+          14
+        ],
+        [
+          "20",
+          13
+        ],
+        [
+          "15",
+          13
+        ],
+        [
+          "60",
+          9
+        ],
+        [
+          "7",
+          8
+        ],
+        [
+          "58",
+          8
+        ],
+        [
+          "45",
+          8
+        ],
+        [
+          "2",
+          7
+        ],
+        [
+          "10",
+          7
+        ],
+        [
+          "25",
+          6
+        ],
+        [
+          "100",
+          6
+        ],
+        [
+          "75",
+          5
+        ],
+        [
+          "35",
+          5
+        ],
+        [
+          "28",
+          5
+        ],
+        [
+          "80",
+          4
+        ],
+        [
+          "62",
+          4
+        ],
+        [
+          "5",
+          4
+        ],
+        [
+          "40",
+          4
+        ]
+      ],
+      "portion_numeric": 0.368,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Furnace relining number",
+      "code_friendly_name_guess": "furnace_relining_number",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "unknown",
+          691
+        ],
+        [
+          "1",
+          111
+        ],
+        [
+          "2",
+          55
+        ],
+        [
+          "3",
+          33
+        ],
+        [
+          "4",
+          11
+        ],
+        [
+          "5",
+          4
+        ],
+        [
+          "6",
+          3
+        ],
+        [
+          "9",
+          1
+        ]
+      ],
+      "portion_numeric": 0.21,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "definition_from_readme": "Number of the furnace relining if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining cost",
+      "code_friendly_name_guess": "relining_cost",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 96,
+      "top_values": [
+        [
+          "unknown",
+          775
+        ],
+        [
+          "200000000",
+          7
+        ],
+        [
+          "300000000",
+          5
+        ],
+        [
+          "100000000",
+          5
+        ],
+        [
+          "185000000",
+          4
+        ],
+        [
+          "150000000",
+          4
+        ],
+        [
+          "80000000",
+          3
+        ],
+        [
+          "35000000000",
+          3
+        ],
+        [
+          "180000000",
+          3
+        ],
+        [
+          "130000000",
+          3
+        ],
+        [
+          "1150000000",
+          3
+        ],
+        [
+          "90000000",
+          2
+        ],
+        [
+          "85000000",
+          2
+        ],
+        [
+          "260000000",
+          2
+        ],
+        [
+          "25000000",
+          2
+        ],
+        [
+          "2000000000",
+          2
+        ],
+        [
+          "17000000",
+          2
+        ],
+        [
+          "140000000",
+          2
+        ],
+        [
+          "1300000000",
+          2
+        ],
+        [
+          "1000000000",
+          2
+        ]
+      ],
+      "portion_numeric": 0.134,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Approximate investment cost of equipment, installation, upgrades, technology, etc for relining work. Does not include revenue lost during relining of blast furnace. Only numerical digits with currency type found in the Relining Cost Unit field.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining cost unit",
+      "code_friendly_name_guess": "relining_cost_unit",
+      "n_total": 909,
+      "n_null": 778,
+      "n_non_null": 131,
+      "null_rate": 0.8559,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "USD",
+          36
+        ],
+        [
+          "RUB",
+          19
+        ],
+        [
+          "EUR",
+          18
+        ],
+        [
+          "UAH",
+          16
+        ],
+        [
+          "BRL",
+          10
+        ],
+        [
+          "YEN",
+          8
+        ],
+        [
+          "INR",
+          7
+        ],
+        [
+          "GBP",
+          5
+        ],
+        [
+          "ZAR",
+          3
+        ],
+        [
+          "PLN",
+          2
+        ],
+        [
+          "KRW",
+          2
+        ],
+        [
+          "AUD",
+          2
+        ],
+        [
+          "RMB",
+          1
+        ],
+        [
+          "KZT",
+          1
+        ],
+        [
+          "CAN",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "definition_from_readme": "ISO three-letter currency code unit for relining cost.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining capacity expansion",
+      "code_friendly_name_guess": "relining_capacity_expansion",
+      "n_total": 909,
+      "n_null": 0,
+      "n_non_null": 909,
+      "null_rate": 0.0,
+      "n_unique": 90,
+      "top_values": [
+        [
+          "unknown",
+          787
+        ],
+        [
+          "500",
+          6
+        ],
+        [
+          "300",
+          6
+        ],
+        [
+          "50",
+          5
+        ],
+        [
+          "30",
+          4
+        ],
+        [
+          "250",
+          3
+        ],
+        [
+          "10",
+          3
+        ],
+        [
+          "95",
+          2
+        ],
+        [
+          "80",
+          2
+        ],
+        [
+          "600",
+          2
+        ],
+        [
+          "46",
+          2
+        ],
+        [
+          "400",
+          2
+        ],
+        [
+          "316",
+          2
+        ],
+        [
+          "29",
+          2
+        ],
+        [
+          "168",
+          2
+        ],
+        [
+          "1500",
+          2
+        ],
+        [
+          "112",
+          2
+        ],
+        [
+          "1077",
+          2
+        ],
+        [
+          "100",
+          2
+        ],
+        [
+          "960",
+          1
+        ]
+      ],
+      "portion_numeric": 0.12,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "If applicable, furnace expansion as a result of the relining maintenance work. \"N/A\" if known that relining will not result in capacity expansion. \"unknown\" if not known whether relining will result in capacity expansion.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Relining capacity expansion unit",
+      "code_friendly_name_guess": "relining_capacity_expansion_unit",
+      "n_total": 909,
+      "n_null": 786,
+      "n_non_null": 123,
+      "null_rate": 0.8647,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "m3",
+          59
+        ],
+        [
+          "ttpa",
+          54
+        ],
+        [
+          "%",
+          7
+        ],
+        [
+          "m",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Typically cubic meters (m3) for blast furnace volume.",
+      "notes_from_readme": null
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_wind",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_wind",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.179627+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Wind Power Tracker - February 2026",
+      "code_friendly_name_guess": "global_wind_power_tracker_february_2026",
+      "n_total": 999,
+      "n_null": 945,
+      "n_non_null": 54,
+      "null_rate": 0.9459,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "Status",
+          9
+        ],
+        [
+          "Wind farm capacity cut-off, Global",
+          2
+        ],
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Thresholds for Data tab",
+          1
+        ],
+        [
+          "Thresholds for Below Threshold tab",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "State/Province",
+          1
+        ],
+        [
+          "Start year",
+          1
+        ],
+        [
+          "Retired year",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Wind Power Tracker, February 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Project Name in Local Language / Script",
+          1
+        ],
+        [
+          "Project Name",
+          1
+        ],
+        [
+          "Phase Name",
+          1
+        ],
+        [
+          "Owner Name in Local Language / Script",
+          1
+        ],
+        [
+          "Owner",
+          1
+        ],
+        [
+          "Other Name(s)",
+          1
+        ],
+        [
+          "Other IDs (unit/phase)",
+          1
+        ],
+        [
+          "Other IDs (location)",
+          1
+        ],
+        [
+          "Operator Name in Local Language / Script",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 956,
+      "n_non_null": 43,
+      "null_rate": 0.957,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "n/a",
+          19
+        ],
+        [
+          "yyyy",
+          2
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "True, blank",
+          2
+        ],
+        [
+          "yyyy/mm/dd",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "onshore, offshore hard mount, offshore floating, offshore mount unknown",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ],
+        [
+          "approximate, exact",
+          1
+        ],
+        [
+          "announced",
+          1
+        ],
+        [
+          "Units",
+          1
+        ],
+        [
+          "Projects smaller than 1 MW not included",
+          1
+        ],
+        [
+          "MW",
+          1
+        ],
+        [
+          "L1+11 digits",
+          1
+        ],
+        [
+          "G1+11 digits",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 958,
+      "n_non_null": 41,
+      "null_rate": 0.959,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "see rows 19-26 above",
+          1
+        ],
+        [
+          "Year the project is or is expected to be commissioned",
+          1
+        ],
+        [
+          "Year the plant is taken offline",
+          1
+        ],
+        [
+          "Unit or Phase identifier from external dataset",
+          1
+        ],
+        [
+          "URL of existing or planned GEM.wiki page",
+          1
+        ],
+        [
+          "True if storage is associated with a project phase",
+          1
+        ],
+        [
+          "True if a project phase is dedicated for green hydrogen production",
+          1
+        ],
+        [
+          "The company that operates the project",
+          1
+        ],
+        [
+          "The company that directly owns the plant",
+          1
+        ],
+        [
+          "Suspension of operation has been announced. The status is marked as ‘shelved - inferred 2 y’ if no progress has been observed for at least two years.",
+          1
+        ],
+        [
+          "Subregion location based on United Nations definition",
+          1
+        ],
+        [
+          "Subnational unit where project is located",
+          1
+        ],
+        [
+          "Region location based on United Nations definition",
+          1
+        ],
+        [
+          "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase II” at a location where “Phase I” is currently under pre-construction, (2) Projects that are described in long-range company or governmental planning documents.",
+          1
+        ],
+        [
+          "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+          1
+        ],
+        [
+          "Prefecture, district, or municipality (China) where project is located",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Nameplate capacity, or best available data, of the phase in megawatts",
+          1
+        ],
+        [
+          "Longitude, assumed WGS84 (google maps), of the project phase",
+          1
+        ],
+        [
+          "Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 989,
+      "n_non_null": 10,
+      "null_rate": 0.99,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used.",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script is included if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible.",
+          1
+        ],
+        [
+          "Latest date was taken when original data source provided a range; Start years not included for projects that are cancelled or shelved.",
+          1
+        ],
+        [
+          "Hard mount vs floating is dependant on the depth of the water.",
+          1
+        ],
+        [
+          "Cut-offs: >=10MW globally",
+          1
+        ],
+        [
+          "Company that performs day-to-day operations and maintenance of the project.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

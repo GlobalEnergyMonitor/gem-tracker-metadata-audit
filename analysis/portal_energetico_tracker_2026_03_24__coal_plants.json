@@ -1,0 +1,2988 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__coal_plants",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "coal_plants",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.227850+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "GEM unit/phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 180,
+      "top_values": [
+        [
+          "G100001020600",
+          1
+        ],
+        [
+          "G100000406860",
+          1
+        ],
+        [
+          "G100000406859",
+          1
+        ],
+        [
+          "G100000114956",
+          1
+        ],
+        [
+          "G100000114955",
+          1
+        ],
+        [
+          "G100000114750",
+          1
+        ],
+        [
+          "G100000114310",
+          1
+        ],
+        [
+          "G100000114113",
+          1
+        ],
+        [
+          "G100000114112",
+          1
+        ],
+        [
+          "G100000114111",
+          1
+        ],
+        [
+          "G100000114110",
+          1
+        ],
+        [
+          "G100000114109",
+          1
+        ],
+        [
+          "G100000113951",
+          1
+        ],
+        [
+          "G100000113950",
+          1
+        ],
+        [
+          "G100000113904",
+          1
+        ],
+        [
+          "G100000113903",
+          1
+        ],
+        [
+          "G100000113902",
+          1
+        ],
+        [
+          "G100000113857",
+          1
+        ],
+        [
+          "G100000113265",
+          1
+        ],
+        [
+          "G100000110582",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 79,
+      "top_values": [
+        [
+          "L100000103031",
+          9
+        ],
+        [
+          "L100000100134",
+          7
+        ],
+        [
+          "L100000100187",
+          6
+        ],
+        [
+          "L100000101765",
+          5
+        ],
+        [
+          "L100000100188",
+          5
+        ],
+        [
+          "L100000100131",
+          5
+        ],
+        [
+          "L100000104797",
+          4
+        ],
+        [
+          "L100000103029",
+          4
+        ],
+        [
+          "L100000101771",
+          4
+        ],
+        [
+          "L100000101769",
+          4
+        ],
+        [
+          "L100000100194",
+          4
+        ],
+        [
+          "L100000100186",
+          4
+        ],
+        [
+          "L100000100184",
+          4
+        ],
+        [
+          "L100000104549",
+          3
+        ],
+        [
+          "L100000104458",
+          3
+        ],
+        [
+          "L100000102008",
+          3
+        ],
+        [
+          "L100000101826",
+          3
+        ],
+        [
+          "L100000100192",
+          3
+        ],
+        [
+          "L100000100190",
+          3
+        ],
+        [
+          "L100000100124",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "Chile",
+          57
+        ],
+        [
+          "Brazil",
+          38
+        ],
+        [
+          "Colombia",
+          23
+        ],
+        [
+          "Mexico",
+          20
+        ],
+        [
+          "Dominican Republic",
+          9
+        ],
+        [
+          "Venezuela",
+          5
+        ],
+        [
+          "Panama",
+          5
+        ],
+        [
+          "Guatemala",
+          5
+        ],
+        [
+          "Argentina",
+          5
+        ],
+        [
+          "Jamaica",
+          3
+        ],
+        [
+          "Honduras",
+          3
+        ],
+        [
+          "Guadeloupe",
+          3
+        ],
+        [
+          "Peru",
+          2
+        ],
+        [
+          "El Salvador",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 79,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Petacalco_power_station",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Jorge_Lacerda_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Castilla_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Termopaipa_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Presidente_M%C3%A9dici_Candiota_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guacolda_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Ventanas_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Tocopilla_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Termozipa_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Termotasajero_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Mejillones_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Jos%C3%A9_L%C3%B3pez_Portillo_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Carb%C3%B3n_II_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/San_Nicolás_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Porto_do_Pec%C3%A9m_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Le_Moule_Power_Station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/La_Luna_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Itabo_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Energ%C3%ADa_Minera_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Barrancones_power_station",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name",
+      "code_friendly_name_guess": "plant_name",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 79,
+      "top_values": [
+        [
+          "Petacalco power station",
+          9
+        ],
+        [
+          "Jorge Lacerda power station",
+          7
+        ],
+        [
+          "Castilla power station",
+          6
+        ],
+        [
+          "Termopaipa power station",
+          5
+        ],
+        [
+          "Presidente Médici Candiota power station",
+          5
+        ],
+        [
+          "Guacolda power station",
+          5
+        ],
+        [
+          "Ventanas power station",
+          4
+        ],
+        [
+          "Tocopilla power station",
+          4
+        ],
+        [
+          "Termozipa power station",
+          4
+        ],
+        [
+          "Termotasajero power station",
+          4
+        ],
+        [
+          "Mejillones power station",
+          4
+        ],
+        [
+          "José López Portillo power station",
+          4
+        ],
+        [
+          "Carbón II power station",
+          4
+        ],
+        [
+          "San Nicolás power station",
+          3
+        ],
+        [
+          "Porto do Pecém power station",
+          3
+        ],
+        [
+          "Le Moule Power Station",
+          3
+        ],
+        [
+          "La Luna power station",
+          3
+        ],
+        [
+          "Itabo power station",
+          3
+        ],
+        [
+          "Energía Minera power station",
+          3
+        ],
+        [
+          "Barrancones power station",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 34,
+      "top_values": [
+        [
+          "Unit 2",
+          44
+        ],
+        [
+          "Unit 1",
+          44
+        ],
+        [
+          "--",
+          22
+        ],
+        [
+          "Unit 3",
+          17
+        ],
+        [
+          "Unit 4",
+          10
+        ],
+        [
+          "Unit 5",
+          9
+        ],
+        [
+          "Unit 6",
+          4
+        ],
+        [
+          "Unit 2, timepoint 1",
+          3
+        ],
+        [
+          "Unit 1, timepoint 1",
+          2
+        ],
+        [
+          "Unit S1",
+          1
+        ],
+        [
+          "Unit 7 (Pacífico coal-fired expansion project Unit 1)",
+          1
+        ],
+        [
+          "Unit 7",
+          1
+        ],
+        [
+          "Unit 4 (IEM), timepoint 1",
+          1
+        ],
+        [
+          "Unit 3, timepoint 1",
+          1
+        ],
+        [
+          "Unit 2 (Hornitos), timepoint 1",
+          1
+        ],
+        [
+          "Unit 15",
+          1
+        ],
+        [
+          "Unit 14",
+          1
+        ],
+        [
+          "Unit 13",
+          1
+        ],
+        [
+          "Unit 12",
+          1
+        ],
+        [
+          "Unit 1 (Andina), timepoint 1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name (other)",
+      "code_friendly_name_guess": "plant_name_other",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "Carboeléctrica Pacífico, Proyecto 62 CCE Pacífico, Pacífico coal-fired expansion project (Unit 7), Pacifico-2 power station, Central Termoeléctrica Presidente Plutarco Elías Calles",
+          9
+        ],
+        [
+          "CTJL",
+          7
+        ],
+        [
+          "Usina Termelétrica Candiota III (Presidente Médici-C power station Unit 5)",
+          5
+        ],
+        [
+          "Sochagota power station (Unit 4)",
+          5
+        ],
+        [
+          "Huasco power station",
+          5
+        ],
+        [
+          "Tasajero power station",
+          4
+        ],
+        [
+          "Río Escondido power station, Carbón I power station",
+          4
+        ],
+        [
+          "Nueva Ventanas power station (Unit 3), Campiche power station (Unit 4), Ventanas Campiche power station",
+          4
+        ],
+        [
+          "Martín del Corral power station",
+          4
+        ],
+        [
+          "IEM2 (Unit 5), Infraestructura Energética de Mejillones, CTM (Unit 1, Unit2), IEM1 (Unit 4), Red Dragon (Unit 4, Unit 5)",
+          4
+        ],
+        [
+          "Termoelectrico Colon, Termoelectrico Colon RP 2 (Unit 2), Termoelectrico Colon RP 3 (Unit 3), Termoelectrico Colon RP 1 (Unit 1)",
+          3
+        ],
+        [
+          "Porto do Açu",
+          3
+        ],
+        [
+          "Tarapacá power station",
+          2
+        ],
+        [
+          "TG1 and TG2",
+          2
+        ],
+        [
+          "Sul Power Station",
+          2
+        ],
+        [
+          "PACO power station",
+          2
+        ],
+        [
+          "Ouro Negro power station",
+          2
+        ],
+        [
+          "Norgener power station",
+          2
+        ],
+        [
+          "Miroel Wolowski power station",
+          2
+        ],
+        [
+          "Ilo 21",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name (local)",
+      "code_friendly_name_guess": "plant_name_local",
+      "n_total": 999,
+      "n_null": 822,
+      "n_non_null": 177,
+      "null_rate": 0.8228,
+      "n_unique": 76,
+      "top_values": [
+        [
+          "Central Termoeléctrica Presidente Plutarco Elías Calles",
+          9
+        ],
+        [
+          "Complexo Termelétrico Jorge Lacerda",
+          7
+        ],
+        [
+          "Termoeléctrica Castilla",
+          6
+        ],
+        [
+          "Usina Termelétrica Candiota",
+          5
+        ],
+        [
+          "Termoeléctrica Guacolda",
+          5
+        ],
+        [
+          "Central Térmica Termopaipa",
+          5
+        ],
+        [
+          "Termoeléctrica Ventanas",
+          4
+        ],
+        [
+          "Termoeléctrica Tocopilla",
+          4
+        ],
+        [
+          "Termoeléctrica Mejillones",
+          4
+        ],
+        [
+          "Central termoeléctrica Carbón II",
+          4
+        ],
+        [
+          "Central Térmica Termozipa",
+          4
+        ],
+        [
+          "Central Térmica Termotasajero",
+          4
+        ],
+        [
+          "Central Termoeléctrica José López Portillo",
+          4
+        ],
+        [
+          "Usina a carvão Porto do Açu",
+          3
+        ],
+        [
+          "Usina Terméletrica Pecém",
+          3
+        ],
+        [
+          "Termoeléctrica Energía Minera",
+          3
+        ],
+        [
+          "Planta Termoeléctrica Bahía las Minas",
+          3
+        ],
+        [
+          "Complejo Termoeléctrico La Luna",
+          3
+        ],
+        [
+          "Centrale Thermique du Moule",
+          3
+        ],
+        [
+          "Central Térmica San Nicolás",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          19
+        ],
+        [
+          "Eneva SA [100%]",
+          11
+        ],
+        [
+          "ENGIE Energía Chile SA [100%]",
+          10
+        ],
+        [
+          "Diamante Geração de Energia Ltda [100%]",
+          7
+        ],
+        [
+          "Enel Generación Chile SA [100%]",
+          6
+        ],
+        [
+          "AES Andes SA [100%]",
+          6
+        ],
+        [
+          "Âmbar Energia SA [100%]",
+          5
+        ],
+        [
+          "El Aguila Energy SpA [100%]",
+          5
+        ],
+        [
+          "Termotasajero SA ESP [100%]",
+          4
+        ],
+        [
+          "Quintero Energía SpA [100%]",
+          4
+        ],
+        [
+          "Gecelca SA ESP [100%]",
+          4
+        ],
+        [
+          "Enel Colombia SA ESP [100%]",
+          4
+        ],
+        [
+          "Sloane Energy Ltd [100%]",
+          3
+        ],
+        [
+          "Petróleos de Venezuela SA [100%]",
+          3
+        ],
+        [
+          "Gensa SA ESP [100%]",
+          3
+        ],
+        [
+          "Empresa Generadora de Electricidad Itabo SA [100%]",
+          3
+        ],
+        [
+          "Empresa Generadora de Electricidad Haina SA [100%]",
+          3
+        ],
+        [
+          "ENGIE SA [100%]",
+          3
+        ],
+        [
+          "Corporación Nacional del Cobre de Chile [100%]",
+          3
+        ],
+        [
+          "CELSIA SA [100%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "E100000002016 [100%]",
+          19
+        ],
+        [
+          "E100000000067 [100%]",
+          11
+        ],
+        [
+          "E100000002867 [100%]",
+          10
+        ],
+        [
+          "E100000002810 [100%]",
+          7
+        ],
+        [
+          "E100000120009 [100%]",
+          6
+        ],
+        [
+          "E100000002936 [100%]",
+          6
+        ],
+        [
+          "E100000120383 [100%]",
+          5
+        ],
+        [
+          "E100000004389 [100%]",
+          5
+        ],
+        [
+          "E100002005860 [100%]",
+          4
+        ],
+        [
+          "E100000121428 [100%]",
+          4
+        ],
+        [
+          "E100000120488 [100%]",
+          4
+        ],
+        [
+          "E100000120404 [100%]",
+          4
+        ],
+        [
+          "E100001000593 [100%]",
+          3
+        ],
+        [
+          "E100000150106 [100%]",
+          3
+        ],
+        [
+          "E100000138127 [100%]",
+          3
+        ],
+        [
+          "E100000132515 [100%]",
+          3
+        ],
+        [
+          "E100000121307 [100%]",
+          3
+        ],
+        [
+          "E100000120360 [100%]",
+          3
+        ],
+        [
+          "E100000002370 [100%]",
+          3
+        ],
+        [
+          "E100000001332 [100%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "Comisión Federal de Electricidad EPE [100.0%]",
+          19
+        ],
+        [
+          "Eneva SA [100.0%]",
+          11
+        ],
+        [
+          "ENGIE Energía Chile SA [100.0%]",
+          10
+        ],
+        [
+          "Fram Capital Gestão de Ativos SA",
+          9
+        ],
+        [
+          "Southern Cross Group",
+          6
+        ],
+        [
+          "Enel Generación Chile SA [100.0%]",
+          6
+        ],
+        [
+          "AES Andes SA [100.0%]",
+          6
+        ],
+        [
+          "J&F Investimentos SA [100.0%]",
+          5
+        ],
+        [
+          "Capital Advisors [100.0%]",
+          5
+        ],
+        [
+          "Quintero Energía SpA [100.0%]",
+          4
+        ],
+        [
+          "Gecelca SA ESP [100.0%]",
+          4
+        ],
+        [
+          "Enel Américas SA [57.3%]; Grupo Energía Bogotá SA ESP [42.5%]",
+          4
+        ],
+        [
+          "Colgener SA [100.0%]",
+          4
+        ],
+        [
+          "Petróleos de Venezuela SA [100.0%]",
+          3
+        ],
+        [
+          "Mast Energy Developments PLC",
+          3
+        ],
+        [
+          "KKR & Co. Inc",
+          3
+        ],
+        [
+          "InterEnergy Holdings",
+          3
+        ],
+        [
+          "Grupo Linda [50.0%]; Fondo Patrimonial de las Empresas Reformadas [50.0%]; unknown [0.0%]",
+          3
+        ],
+        [
+          "Gensa SA ESP [100.0%]",
+          3
+        ],
+        [
+          "ENGIE SA [100.0%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "E100000002016 [100.0%]",
+          19
+        ],
+        [
+          "E100000000067 [100.0%]",
+          11
+        ],
+        [
+          "E100000002867 [100.0%]",
+          10
+        ],
+        [
+          "E100002015256",
+          9
+        ],
+        [
+          "E100000121327",
+          6
+        ],
+        [
+          "E100000120009 [100.0%]",
+          6
+        ],
+        [
+          "E100000002936 [100.0%]",
+          6
+        ],
+        [
+          "E100000120205 [100.0%]",
+          5
+        ],
+        [
+          "E100000000079 [100.0%]",
+          5
+        ],
+        [
+          "E100002005860 [100.0%]",
+          4
+        ],
+        [
+          "E100001001046 [57.3%]; E100000000324 [42.5%]",
+          4
+        ],
+        [
+          "E100000120488 [100.0%]",
+          4
+        ],
+        [
+          "E100000120273 [100.0%]",
+          4
+        ],
+        [
+          "E100002000346",
+          3
+        ],
+        [
+          "E100001000594 [50.0%]; E100001000595 [50.0%]; E100000132388 [0.0%]",
+          3
+        ],
+        [
+          "E100000150106 [100.0%]",
+          3
+        ],
+        [
+          "E100000138127 [100.0%]",
+          3
+        ],
+        [
+          "E100000001332 [100.0%]",
+          3
+        ],
+        [
+          "E100000001305 [100.0%]",
+          3
+        ],
+        [
+          "E100000001247",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 70,
+      "top_values": [
+        [
+          "350.0",
+          30
+        ],
+        [
+          "300.0",
+          16
+        ],
+        [
+          "375.0",
+          8
+        ],
+        [
+          "700.0",
+          7
+        ],
+        [
+          "150.0",
+          6
+        ],
+        [
+          "152.0",
+          5
+        ],
+        [
+          "120.0",
+          5
+        ],
+        [
+          "63.0",
+          4
+        ],
+        [
+          "52.0",
+          3
+        ],
+        [
+          "50.0",
+          3
+        ],
+        [
+          "40.0",
+          3
+        ],
+        [
+          "38.0",
+          3
+        ],
+        [
+          "363.0",
+          3
+        ],
+        [
+          "360.0",
+          3
+        ],
+        [
+          "180.0",
+          3
+        ],
+        [
+          "160.0",
+          3
+        ],
+        [
+          "75.0",
+          2
+        ],
+        [
+          "72.0",
+          2
+        ],
+        [
+          "66.0",
+          2
+        ],
+        [
+          "376.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "cancelled",
+          73
+        ],
+        [
+          "operating",
+          68
+        ],
+        [
+          "retired",
+          33
+        ],
+        [
+          "shelved",
+          3
+        ],
+        [
+          "mothballed",
+          2
+        ],
+        [
+          "construction",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 999,
+      "n_null": 889,
+      "n_non_null": 110,
+      "null_rate": 0.8899,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "2011.0",
+          10
+        ],
+        [
+          "1993.0",
+          6
+        ],
+        [
+          "2015.0",
+          5
+        ],
+        [
+          "2010.0",
+          5
+        ],
+        [
+          "2022.0",
+          4
+        ],
+        [
+          "2016.0",
+          4
+        ],
+        [
+          "2013.0",
+          4
+        ],
+        [
+          "1998.0",
+          4
+        ],
+        [
+          "1996.0",
+          4
+        ],
+        [
+          "1987.0",
+          4
+        ],
+        [
+          "1985.0",
+          4
+        ],
+        [
+          "1983.0",
+          4
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2018.0",
+          3
+        ],
+        [
+          "2012.0",
+          3
+        ],
+        [
+          "2009.0",
+          3
+        ],
+        [
+          "1995.0",
+          3
+        ],
+        [
+          "1982.0",
+          3
+        ],
+        [
+          "1974.0",
+          3
+        ],
+        [
+          "2027.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 999,
+      "n_null": 966,
+      "n_non_null": 33,
+      "null_rate": 0.967,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "2025.0",
+          7
+        ],
+        [
+          "2017.0",
+          6
+        ],
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2022.0",
+          4
+        ],
+        [
+          "2021.0",
+          4
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2023.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Planned retirement",
+      "code_friendly_name_guess": "planned_retirement",
+      "n_total": 999,
+      "n_null": 960,
+      "n_non_null": 39,
+      "null_rate": 0.961,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "2040.0",
+          18
+        ],
+        [
+          "2035.0",
+          6
+        ],
+        [
+          "2027.0",
+          6
+        ],
+        [
+          "2026.0",
+          6
+        ],
+        [
+          "2037.0",
+          2
+        ],
+        [
+          "2043.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal phaseout year",
+      "code_friendly_name_guess": "coal_phaseout_year",
+      "n_total": 999,
+      "n_null": 914,
+      "n_non_null": 85,
+      "null_rate": 0.9149,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "2040.0",
+          57
+        ],
+        [
+          "2030.0",
+          23
+        ],
+        [
+          "2026.0",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Net zero year",
+      "code_friendly_name_guess": "net_zero_year",
+      "n_total": 999,
+      "n_null": 837,
+      "n_non_null": 162,
+      "null_rate": 0.8378,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2050.0",
+          159
+        ],
+        [
+          "2060.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Combustion technology",
+      "code_friendly_name_guess": "combustion_technology",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "subcritical",
+          137
+        ],
+        [
+          "unknown",
+          31
+        ],
+        [
+          "supercritical",
+          9
+        ],
+        [
+          "ultra-supercritical",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal type",
+      "code_friendly_name_guess": "coal_type",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "unknown",
+          87
+        ],
+        [
+          "bituminous",
+          79
+        ],
+        [
+          "subbituminous",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal source",
+      "code_friendly_name_guess": "coal_source",
+      "n_total": 999,
+      "n_null": 969,
+      "n_non_null": 30,
+      "null_rate": 0.97,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Australia, Colombia, Canada, United States",
+          7
+        ],
+        [
+          "Seival mine",
+          6
+        ],
+        [
+          "imported",
+          5
+        ],
+        [
+          "Río Turbio coal mine",
+          3
+        ],
+        [
+          "La Luna coal mine",
+          3
+        ],
+        [
+          "Candiota mine",
+          3
+        ],
+        [
+          "Las Palmeras mine",
+          2
+        ],
+        [
+          "Bijao coal mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Conversion to (fuel)",
+      "code_friendly_name_guess": "conversion_to_fuel",
+      "n_total": 999,
+      "n_null": 988,
+      "n_non_null": 11,
+      "null_rate": 0.989,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "fossil liquids: petroleum coke",
+          2
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (green)",
+          2
+        ],
+        [
+          "fossil gas: natural gas",
+          2
+        ],
+        [
+          "bioenergy: unknown",
+          2
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          2
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Conversion to (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_to_gem_unit_id",
+      "n_total": 999,
+      "n_null": 988,
+      "n_non_null": 11,
+      "null_rate": 0.989,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "G100001054405",
+          1
+        ],
+        [
+          "G100001054404",
+          1
+        ],
+        [
+          "G100001052206",
+          1
+        ],
+        [
+          "G100001052205",
+          1
+        ],
+        [
+          "G100001030952",
+          1
+        ],
+        [
+          "G100001030951",
+          1
+        ],
+        [
+          "G100001017924",
+          1
+        ],
+        [
+          "G100000410195",
+          1
+        ],
+        [
+          "G100000202470",
+          1
+        ],
+        [
+          "G100000202469",
+          1
+        ],
+        [
+          "G100000202468",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Alternate Fuel",
+      "code_friendly_name_guess": "alternate_fuel",
+      "n_total": 999,
+      "n_null": 975,
+      "n_non_null": 24,
+      "null_rate": 0.976,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "fossil liquids",
+          12
+        ],
+        [
+          "bioenergy",
+          6
+        ],
+        [
+          "fossil gas, fossil liquids",
+          3
+        ],
+        [
+          "fossil gas",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 999,
+      "n_null": 823,
+      "n_non_null": 176,
+      "null_rate": 0.8238,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "Nava",
+          10
+        ],
+        [
+          "Mejillones",
+          10
+        ],
+        [
+          "Petacalco",
+          9
+        ],
+        [
+          "Candiota",
+          9
+        ],
+        [
+          "Puchuncaví",
+          7
+        ],
+        [
+          "Capivari de Baixo",
+          7
+        ],
+        [
+          "Tocopilla",
+          6
+        ],
+        [
+          "Coronel",
+          6
+        ],
+        [
+          "Copiapo",
+          6
+        ],
+        [
+          "Paipa",
+          5
+        ],
+        [
+          "Huasco",
+          5
+        ],
+        [
+          "Tocancipá",
+          4
+        ],
+        [
+          "San Cayetano",
+          4
+        ],
+        [
+          "São Gonçalo do Amarante",
+          3
+        ],
+        [
+          "San Nicolás de los Arroyos",
+          3
+        ],
+        [
+          "Puerto Libertador",
+          3
+        ],
+        [
+          "Porto do Acu",
+          3
+        ],
+        [
+          "Le Moule",
+          3
+        ],
+        [
+          "La Higuera",
+          3
+        ],
+        [
+          "Haina",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Pacocha",
+          2
+        ],
+        [
+          "Coclé del Norte",
+          2
+        ],
+        [
+          "El Paso",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 999,
+      "n_null": 917,
+      "n_non_null": 82,
+      "null_rate": 0.9179,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "Nava",
+          10
+        ],
+        [
+          "La Unión de Isidoro Montes de Oca",
+          9
+        ],
+        [
+          "Capivari de Baixo",
+          7
+        ],
+        [
+          "Tocopilla",
+          6
+        ],
+        [
+          "Huasco",
+          5
+        ],
+        [
+          "Candiota",
+          5
+        ],
+        [
+          "Valparaíso",
+          4
+        ],
+        [
+          "Tocancipá",
+          4
+        ],
+        [
+          "Cúcuta",
+          4
+        ],
+        [
+          "San Nicolás",
+          3
+        ],
+        [
+          "Puerto Libertador",
+          3
+        ],
+        [
+          "Cativa",
+          3
+        ],
+        [
+          "Bajos de Haina",
+          3
+        ],
+        [
+          "Iquique",
+          2
+        ],
+        [
+          "Ilo",
+          2
+        ],
+        [
+          "Güer Aike",
+          2
+        ],
+        [
+          "Donoso",
+          2
+        ],
+        [
+          "Dibulla",
+          2
+        ],
+        [
+          "Concepción",
+          2
+        ],
+        [
+          "São Luís",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subnational unit (province, state)",
+      "code_friendly_name_guess": "subnational_unit_province_state",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 50,
+      "top_values": [
+        [
+          "Rio Grande do Sul",
+          16
+        ],
+        [
+          "Coahuila",
+          11
+        ],
+        [
+          "Guerrero",
+          9
+        ],
+        [
+          "Santa Catarina",
+          8
+        ],
+        [
+          "III Region",
+          8
+        ],
+        [
+          "Antofagasta Region",
+          8
+        ],
+        [
+          "Antofagasta",
+          8
+        ],
+        [
+          "Atacama Region",
+          7
+        ],
+        [
+          "V Region",
+          5
+        ],
+        [
+          "San Cristóbal",
+          5
+        ],
+        [
+          "Cundinamarca",
+          5
+        ],
+        [
+          "Colón",
+          5
+        ],
+        [
+          "Boyacá",
+          5
+        ],
+        [
+          "Valparaíso Region",
+          4
+        ],
+        [
+          "Norte de Santander",
+          4
+        ],
+        [
+          "Maranhão",
+          4
+        ],
+        [
+          "IV Region",
+          4
+        ],
+        [
+          "Escuintla",
+          4
+        ],
+        [
+          "Cesar",
+          4
+        ],
+        [
+          "Biobio Region",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          180
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          180
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 81,
+      "top_values": [
+        [
+          "17.98365",
+          9
+        ],
+        [
+          "-28.452084",
+          7
+        ],
+        [
+          "-27.366667",
+          6
+        ],
+        [
+          "-28.465013",
+          5
+        ],
+        [
+          "7.8473",
+          4
+        ],
+        [
+          "5.7682",
+          4
+        ],
+        [
+          "4.970817",
+          4
+        ],
+        [
+          "28.46815",
+          4
+        ],
+        [
+          "28.468066",
+          4
+        ],
+        [
+          "-32.7512",
+          4
+        ],
+        [
+          "-31.5513644",
+          4
+        ],
+        [
+          "-23.0892",
+          4
+        ],
+        [
+          "-22.096386",
+          4
+        ],
+        [
+          "9.657608",
+          3
+        ],
+        [
+          "9.379612",
+          3
+        ],
+        [
+          "18.405797",
+          3
+        ],
+        [
+          "16.304873",
+          3
+        ],
+        [
+          "-33.35492",
+          3
+        ],
+        [
+          "-32.733333",
+          3
+        ],
+        [
+          "-3.5827",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "-102.115439",
+          9
+        ],
+        [
+          "-48.968482",
+          7
+        ],
+        [
+          "-70.333333",
+          6
+        ],
+        [
+          "-71.256541",
+          5
+        ],
+        [
+          "-73.947258",
+          4
+        ],
+        [
+          "-73.1472",
+          4
+        ],
+        [
+          "-72.6328",
+          4
+        ],
+        [
+          "-71.4825",
+          4
+        ],
+        [
+          "-70.4103",
+          4
+        ],
+        [
+          "-70.211759",
+          4
+        ],
+        [
+          "-53.6830179",
+          4
+        ],
+        [
+          "-100.697606",
+          4
+        ],
+        [
+          "-100.697406",
+          4
+        ],
+        [
+          "-79.821886",
+          3
+        ],
+        [
+          "-73.740011",
+          3
+        ],
+        [
+          "-71.416667",
+          3
+        ],
+        [
+          "-71.2667",
+          3
+        ],
+        [
+          "-70.027169",
+          3
+        ],
+        [
+          "-61.326223",
+          3
+        ],
+        [
+          "-60.172917",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          115
+        ],
+        [
+          "approximate",
+          65
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Permits",
+      "code_friendly_name_guess": "permits",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Permit Date",
+      "code_friendly_name_guess": "permit_date",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Permit Parsed",
+      "code_friendly_name_guess": "permit_parsed",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Captive",
+      "code_friendly_name_guess": "captive",
+      "n_total": 999,
+      "n_null": 979,
+      "n_non_null": 20,
+      "null_rate": 0.98,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "other metals & mining",
+          8
+        ],
+        [
+          "aluminum",
+          7
+        ],
+        [
+          "sugar",
+          3
+        ],
+        [
+          "cement & building",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Captive industry use",
+      "code_friendly_name_guess": "captive_industry_use",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "power",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Captive residential use",
+      "code_friendly_name_guess": "captive_residential_use",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "power",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CHP",
+      "code_friendly_name_guess": "chp",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "not found",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity factor",
+      "code_friendly_name_guess": "capacity_factor",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "0.0",
+          106
+        ],
+        [
+          "0.55",
+          22
+        ],
+        [
+          "0.62",
+          16
+        ],
+        [
+          "0.26",
+          15
+        ],
+        [
+          "0.52",
+          14
+        ],
+        [
+          "0.23",
+          5
+        ],
+        [
+          "0.17",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant age (years)",
+      "code_friendly_name_guess": "plant_age_years",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "0.0",
+          77
+        ],
+        [
+          "10.0",
+          8
+        ],
+        [
+          "32.0",
+          7
+        ],
+        [
+          "15.0",
+          7
+        ],
+        [
+          "9.0",
+          5
+        ],
+        [
+          "43.0",
+          5
+        ],
+        [
+          "29.0",
+          5
+        ],
+        [
+          "14.0",
+          5
+        ],
+        [
+          "27.0",
+          4
+        ],
+        [
+          "12.0",
+          4
+        ],
+        [
+          "7.0",
+          3
+        ],
+        [
+          "6.0",
+          3
+        ],
+        [
+          "42.0",
+          3
+        ],
+        [
+          "40.0",
+          3
+        ],
+        [
+          "31.0",
+          3
+        ],
+        [
+          "30.0",
+          3
+        ],
+        [
+          "69.0",
+          2
+        ],
+        [
+          "50.0",
+          2
+        ],
+        [
+          "46.0",
+          2
+        ],
+        [
+          "38.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Heat rate (Btu per kWh)",
+      "code_friendly_name_guess": "heat_rate_btu_per_kwh",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "12618.0",
+          33
+        ],
+        [
+          "10442.0",
+          33
+        ],
+        [
+          "9572.0",
+          24
+        ],
+        [
+          "11313.0",
+          21
+        ],
+        [
+          "9466.0",
+          16
+        ],
+        [
+          "11748.0",
+          14
+        ],
+        [
+          "12183.0",
+          10
+        ],
+        [
+          "8605.0",
+          8
+        ],
+        [
+          "8409.0",
+          5
+        ],
+        [
+          "10326.0",
+          5
+        ],
+        [
+          "9250.0",
+          4
+        ],
+        [
+          "9099.0",
+          3
+        ],
+        [
+          "8702.0",
+          2
+        ],
+        [
+          "12047.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Emission factor (kg of CO2 per TJ)",
+      "code_friendly_name_guess": "emission_factor_kg_of_co2_per_tj",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "96100.0",
+          101
+        ],
+        [
+          "94600.0",
+          79
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Annual CO2 (million tonnes / annum)",
+      "code_friendly_name_guess": "annual_co2_million_tonnes_annum",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "0.0",
+          106
+        ],
+        [
+          "0.9",
+          20
+        ],
+        [
+          "0.8",
+          13
+        ],
+        [
+          "1.4",
+          6
+        ],
+        [
+          "0.2",
+          6
+        ],
+        [
+          "0.4",
+          5
+        ],
+        [
+          "0.3",
+          5
+        ],
+        [
+          "2.1",
+          4
+        ],
+        [
+          "1.7",
+          4
+        ],
+        [
+          "1.8",
+          3
+        ],
+        [
+          "1.3",
+          2
+        ],
+        [
+          "1.0",
+          2
+        ],
+        [
+          "0.5",
+          2
+        ],
+        [
+          "2.2",
+          1
+        ],
+        [
+          "2.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Remaining plant lifetime (years)",
+      "code_friendly_name_guess": "remaining_plant_lifetime_years",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "0.0",
+          106
+        ],
+        [
+          "15.0",
+          18
+        ],
+        [
+          "5.0",
+          9
+        ],
+        [
+          "10.0",
+          7
+        ],
+        [
+          "3.0",
+          6
+        ],
+        [
+          "2.0",
+          6
+        ],
+        [
+          "1.0",
+          6
+        ],
+        [
+          "35.0",
+          4
+        ],
+        [
+          "28.0",
+          3
+        ],
+        [
+          "4.0",
+          2
+        ],
+        [
+          "26.0",
+          2
+        ],
+        [
+          "25.0",
+          2
+        ],
+        [
+          "12.0",
+          2
+        ],
+        [
+          "9.0",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "32.0",
+          1
+        ],
+        [
+          "30.0",
+          1
+        ],
+        [
+          "29.0",
+          1
+        ],
+        [
+          "20.0",
+          1
+        ],
+        [
+          "18.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Lifetime CO2 (million tonnes)",
+      "code_friendly_name_guess": "lifetime_co2_million_tonnes",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "0.0",
+          106
+        ],
+        [
+          "2.8",
+          6
+        ],
+        [
+          "4.0",
+          4
+        ],
+        [
+          "1.4",
+          4
+        ],
+        [
+          "58.3",
+          3
+        ],
+        [
+          "5.1",
+          3
+        ],
+        [
+          "11.7",
+          3
+        ],
+        [
+          "0.8",
+          3
+        ],
+        [
+          "6.8",
+          2
+        ],
+        [
+          "6.6",
+          2
+        ],
+        [
+          "4.4",
+          2
+        ],
+        [
+          "4.1",
+          2
+        ],
+        [
+          "3.7",
+          2
+        ],
+        [
+          "22.1",
+          2
+        ],
+        [
+          "19.9",
+          2
+        ],
+        [
+          "13.4",
+          2
+        ],
+        [
+          "1.0",
+          2
+        ],
+        [
+          "0.9",
+          2
+        ],
+        [
+          "9.5",
+          1
+        ],
+        [
+          "9.2",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "China capacity payment recipient",
+      "code_friendly_name_guess": "china_capacity_payment_recipient",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

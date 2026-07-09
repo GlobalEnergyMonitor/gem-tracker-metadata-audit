@@ -1,0 +1,1331 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__iron_mine_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "iron_mine_ownership",
+  "n_rows": 3816,
+  "analyzed_at": "2026-07-07T21:45:14.206877+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 569,
+      "top_values": [
+        [
+          "E100000123261",
+          305
+        ],
+        [
+          "E100001015587",
+          284
+        ],
+        [
+          "E100001015833",
+          96
+        ],
+        [
+          "E100001010595",
+          96
+        ],
+        [
+          "E100001000348",
+          96
+        ],
+        [
+          "E100001000397",
+          71
+        ],
+        [
+          "E100001000520",
+          58
+        ],
+        [
+          "E100001010596",
+          56
+        ],
+        [
+          "E100002001974",
+          48
+        ],
+        [
+          "E100002022203",
+          39
+        ],
+        [
+          "E100002011285",
+          39
+        ],
+        [
+          "E100001016498",
+          39
+        ],
+        [
+          "E100001016492",
+          39
+        ],
+        [
+          "E100001016257",
+          39
+        ],
+        [
+          "E100001016256",
+          39
+        ],
+        [
+          "E100001016255",
+          39
+        ],
+        [
+          "E100001016126",
+          39
+        ],
+        [
+          "E100001016125",
+          39
+        ],
+        [
+          "E100001011617",
+          39
+        ],
+        [
+          "E100001000382",
+          39
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 569,
+      "top_values": [
+        [
+          "natural person(s) ",
+          305
+        ],
+        [
+          "small shareholder(s) ",
+          284
+        ],
+        [
+          "The Vanguard Group Inc",
+          96
+        ],
+        [
+          "Blackrock Advisors LLC",
+          96
+        ],
+        [
+          "BlackRock Inc",
+          96
+        ],
+        [
+          "Government of India ",
+          71
+        ],
+        [
+          "Life Insurance Corporation of India Ltd",
+          58
+        ],
+        [
+          "State Street Corp",
+          56
+        ],
+        [
+          "member/employee owned ",
+          48
+        ],
+        [
+          "The Norinchukin Trust & Banking Co Ltd",
+          39
+        ],
+        [
+          "The Master Trust Bank of Japan Ltd",
+          39
+        ],
+        [
+          "The Dai-ichi Life Insurance Co Ltd",
+          39
+        ],
+        [
+          "Sumitomo Mitsui Trust Group ",
+          39
+        ],
+        [
+          "State Street Bank and Trust Co",
+          39
+        ],
+        [
+          "Resonac Holdings Corp",
+          39
+        ],
+        [
+          "Resona Bank Ltd",
+          39
+        ],
+        [
+          "Norinchukin Bank ",
+          39
+        ],
+        [
+          "Nippon Life Insurance Co",
+          39
+        ],
+        [
+          "Mizuho Financial Group Inc",
+          39
+        ],
+        [
+          "Mitsubishi UFJ Trust and Banking Corp",
+          39
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 3816,
+      "n_null": 746,
+      "n_non_null": 3070,
+      "null_rate": 0.1955,
+      "n_unique": 76,
+      "top_values": [
+        [
+          "Japan",
+          644
+        ],
+        [
+          "India",
+          619
+        ],
+        [
+          "United States",
+          606
+        ],
+        [
+          "Australia",
+          273
+        ],
+        [
+          "Brazil",
+          94
+        ],
+        [
+          "Luxembourg",
+          85
+        ],
+        [
+          "China",
+          63
+        ],
+        [
+          "United Kingdom",
+          62
+        ],
+        [
+          "Russia",
+          50
+        ],
+        [
+          "South Africa",
+          42
+        ],
+        [
+          "Singapore",
+          41
+        ],
+        [
+          "Sweden",
+          32
+        ],
+        [
+          "South Korea",
+          32
+        ],
+        [
+          "Netherlands",
+          29
+        ],
+        [
+          "Cyprus",
+          25
+        ],
+        [
+          "Vietnam",
+          24
+        ],
+        [
+          "Mauritius",
+          20
+        ],
+        [
+          "Jersey",
+          18
+        ],
+        [
+          "Mongolia",
+          17
+        ],
+        [
+          "Tunisia",
+          16
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 3816,
+      "n_null": 690,
+      "n_non_null": 3126,
+      "null_rate": 0.1808,
+      "n_unique": 79,
+      "top_values": [
+        [
+          "Japan",
+          644
+        ],
+        [
+          "India",
+          623
+        ],
+        [
+          "United States",
+          606
+        ],
+        [
+          "Australia",
+          273
+        ],
+        [
+          "Brazil",
+          95
+        ],
+        [
+          "Luxembourg",
+          85
+        ],
+        [
+          "China",
+          76
+        ],
+        [
+          "United Kingdom",
+          62
+        ],
+        [
+          "Russia",
+          51
+        ],
+        [
+          "South Africa",
+          48
+        ],
+        [
+          "Singapore",
+          41
+        ],
+        [
+          "Sweden",
+          32
+        ],
+        [
+          "South Korea",
+          32
+        ],
+        [
+          "Netherlands",
+          29
+        ],
+        [
+          "Cyprus",
+          25
+        ],
+        [
+          "Vietnam",
+          24
+        ],
+        [
+          "North Korea",
+          19
+        ],
+        [
+          "Mauritius",
+          19
+        ],
+        [
+          "Türkiye",
+          18
+        ],
+        [
+          "Mongolia",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 577,
+      "top_values": [
+        [
+          "CSN Engenho Mine",
+          34
+        ],
+        [
+          "CSN Casa de Pedra Mine",
+          34
+        ],
+        [
+          "Anglo American Minas-Rio Mine",
+          33
+        ],
+        [
+          "Anglo American Minas-Rio (Serpentine) Mine",
+          33
+        ],
+        [
+          "LMEL Surjagarh Mine",
+          32
+        ],
+        [
+          "BHP Yandi Mine",
+          32
+        ],
+        [
+          "BHP South Flank Mine",
+          32
+        ],
+        [
+          "BHP Mount Newman Mine",
+          32
+        ],
+        [
+          "BHP Jimblebar Mine",
+          32
+        ],
+        [
+          "BHP Area C Mine",
+          32
+        ],
+        [
+          "Vale Minas Centrais Complex Mine",
+          31
+        ],
+        [
+          "Vale Vargem Grande Complex Mine",
+          30
+        ],
+        [
+          "Vale Timbopeba Mine",
+          30
+        ],
+        [
+          "Vale Serra Sul Complex Mine",
+          30
+        ],
+        [
+          "Vale Serra Norte Complex Mine",
+          30
+        ],
+        [
+          "Vale Serra Leste Complex Mine",
+          30
+        ],
+        [
+          "Vale Paraopeba Complex Mine",
+          30
+        ],
+        [
+          "Vale Mariana Complex Mine",
+          30
+        ],
+        [
+          "Vale Itabira Complex Mine",
+          30
+        ],
+        [
+          "Vale Gongo Soco Mine",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 3816,
+      "n_null": 582,
+      "n_non_null": 3234,
+      "null_rate": 0.1525,
+      "n_unique": 536,
+      "top_values": [
+        [
+          "100",
+          424
+        ],
+        [
+          "11.82",
+          110
+        ],
+        [
+          "0.55",
+          59
+        ],
+        [
+          "0",
+          58
+        ],
+        [
+          "0.07",
+          57
+        ],
+        [
+          "0.02",
+          54
+        ],
+        [
+          "0.1",
+          50
+        ],
+        [
+          "0.03",
+          46
+        ],
+        [
+          "9.43",
+          44
+        ],
+        [
+          "10.82",
+          38
+        ],
+        [
+          "0.01",
+          38
+        ],
+        [
+          "0.08",
+          35
+        ],
+        [
+          "0.06",
+          32
+        ],
+        [
+          "0.48",
+          31
+        ],
+        [
+          "5.02",
+          30
+        ],
+        [
+          "26.25",
+          30
+        ],
+        [
+          "15",
+          30
+        ],
+        [
+          "7.48",
+          28
+        ],
+        [
+          "50",
+          27
+        ],
+        [
+          "0.13",
+          27
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 3816,
+      "top_values": [
+        [
+          "Özce Madencilik ve Ticaret ve LŞ -> Güncem Madencilik LŞ [unknown %] -> Ozce Maden Kesikkopru Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Zimbabwe Iron and Steel Co [11.0%] -> Buchwa Iron Mining Company Pvt Ltd [100.0%] -> BIMCO Buchwa Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Yuzhniy GOK PJSC [54.13%] -> YGOK Yuzhniy Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Ternium México SA de CV [10.75%] -> Las Encinas SA de CV [100.0%] -> Las Encinas Complex Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Saudi Basic Industries Corp [30.0%] -> Saudi Mauritanian Metals and Steel Co [50.0%] -> Takamul Atomai Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Santa Fe Mining SA [30.0%] -> SFM Bellavista Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Novolipetsk Steel PJSC [unknown %] -> Stoylenskiy Gorno-Obogatitel'nyi Kombinat JSC [100.0%] -> NLMK Stoilensky Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Metinvest BV [5.0%] -> Northern GOK PJSC [100.0%] -> Metinvest Northern Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Metinvest BV [5.0%] -> Metinvest Management BV [100.0%] -> Ingulets GOK PJSC [100.0%] -> Metinvest Ingulets Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Metinvest BV [5.0%] -> Central GOK PJSC [50.0%] -> Metinvest Central Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Korea Shipping Corp [unknown %] -> Handuk Iron Mine & Construction Co Ltd [100.0%] -> Handuk Sineyemi Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> JDVC Resources Corp [9.53%] -> JDVC Resources Corporation Offshore Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Gold Valley Iron and Manganese Pty Ltd [50.0%] -> Gold Valley Yarram Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Godawari Power and Ispat Ltd [unknown %] -> GPIL Kachche Aridongri Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Godawari Power and Ispat Ltd [unknown %] -> GPIL Boria Tibbu Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Gema Impak Sdn Bhd [50.0%] -> Gema Impak Ibam Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Erdemir Madencilik Sanayi ve Ticaret AŞ [10.0%] -> Ermaden Hasancelebi Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Erdemir Madencilik Sanayi ve Ticaret AŞ [10.0%] -> Ermaden Divrigi Complex Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Erdemir Madencilik Sanayi ve Ticaret AŞ [10.0%] -> Ermaden Bingol-Avnik Mine [100.0%]",
+          1
+        ],
+        [
+          "unknown  -> Camina SA [10.0%] -> Camina Ngovayang Mine [100.0%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 297,
+      "top_values": [
+        [
+          "Vale SA",
+          330
+        ],
+        [
+          "JSW Steel Ltd",
+          323
+        ],
+        [
+          "Mineral Resources Ltd",
+          229
+        ],
+        [
+          "Rio Tinto Ltd",
+          114
+        ],
+        [
+          "Compania Minera del Pacifico SA",
+          108
+        ],
+        [
+          "Mineração Usiminas SA",
+          90
+        ],
+        [
+          "Tata Steel Ltd",
+          88
+        ],
+        [
+          "ITOCHU Minerals & Energy of Australia Pty Ltd",
+          77
+        ],
+        [
+          "Steel Authority of India Ltd",
+          72
+        ],
+        [
+          "CSN Mineração SA",
+          68
+        ],
+        [
+          "Anglo American Minerio de Ferro Brasil SA",
+          66
+        ],
+        [
+          "ArcelorMittal Nippon Steel India Ltd",
+          58
+        ],
+        [
+          "FMG Solomon Pty Ltd",
+          57
+        ],
+        [
+          "Chichester Metals Pty Ltd",
+          57
+        ],
+        [
+          "BHP Minerals Pty Ltd",
+          55
+        ],
+        [
+          "United States Steel Corp",
+          48
+        ],
+        [
+          "Akora Resources Ltd",
+          48
+        ],
+        [
+          "Société Nationale Industrielle et Minière SA",
+          45
+        ],
+        [
+          "Vedanta Ltd",
+          40
+        ],
+        [
+          "Sishen Iron Ore Company Pty Ltd",
+          34
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 297,
+      "top_values": [
+        [
+          "E100001000480",
+          330
+        ],
+        [
+          "E100001000516",
+          323
+        ],
+        [
+          "E100002002924",
+          229
+        ],
+        [
+          "E100002002847",
+          114
+        ],
+        [
+          "E100002003892",
+          108
+        ],
+        [
+          "E100002004223",
+          90
+        ],
+        [
+          "E100001010018",
+          88
+        ],
+        [
+          "E100001010563",
+          77
+        ],
+        [
+          "E100001000703",
+          72
+        ],
+        [
+          "E100002004100",
+          68
+        ],
+        [
+          "E100002004083",
+          66
+        ],
+        [
+          "E100000002455",
+          58
+        ],
+        [
+          "E100002002870",
+          57
+        ],
+        [
+          "E100002002790",
+          57
+        ],
+        [
+          "E100002002765",
+          55
+        ],
+        [
+          "E100002003740",
+          48
+        ],
+        [
+          "E100000001319",
+          48
+        ],
+        [
+          "E100001010510",
+          45
+        ],
+        [
+          "E100001000479",
+          40
+        ],
+        [
+          "E100002003980",
+          34
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Iron Ore Mine Tracker",
+          3816
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Operating status",
+      "code_friendly_name_guess": "operating_status",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "operating",
+          2834
+        ],
+        [
+          "proposed",
+          594
+        ],
+        [
+          "mothballed",
+          372
+        ],
+        [
+          "retired",
+          10
+        ],
+        [
+          "shelved",
+          4
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Production 2023 (ttpa)",
+      "code_friendly_name_guess": "production_2023_ttpa",
+      "n_total": 3816,
+      "n_null": 842,
+      "n_non_null": 2974,
+      "null_rate": 0.2206,
+      "n_unique": 189,
+      "top_values": [
+        [
+          "unknown",
+          611
+        ],
+        [
+          "1267",
+          138
+        ],
+        [
+          "0",
+          83
+        ],
+        [
+          "18290",
+          60
+        ],
+        [
+          "5200",
+          46
+        ],
+        [
+          "3000",
+          45
+        ],
+        [
+          "48650",
+          38
+        ],
+        [
+          "2400",
+          35
+        ],
+        [
+          "39283",
+          34
+        ],
+        [
+          "3300",
+          34
+        ],
+        [
+          "24200",
+          33
+        ],
+        [
+          "78589",
+          32
+        ],
+        [
+          "68410",
+          32
+        ],
+        [
+          "66994",
+          32
+        ],
+        [
+          "58470",
+          32
+        ],
+        [
+          "25188",
+          32
+        ],
+        [
+          "24700",
+          31
+        ],
+        [
+          "1400",
+          31
+        ],
+        [
+          "91700",
+          30
+        ],
+        [
+          "75000",
+          30
+        ]
+      ],
+      "portion_numeric": 0.774,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Production 2022 (ttpa)",
+      "code_friendly_name_guess": "production_2022_ttpa",
+      "n_total": 3816,
+      "n_null": 889,
+      "n_non_null": 2927,
+      "null_rate": 0.233,
+      "n_unique": 193,
+      "top_values": [
+        [
+          "unknown",
+          544
+        ],
+        [
+          "1446",
+          138
+        ],
+        [
+          "0",
+          130
+        ],
+        [
+          "3000",
+          66
+        ],
+        [
+          "21830",
+          60
+        ],
+        [
+          "5500",
+          54
+        ],
+        [
+          "30000",
+          53
+        ],
+        [
+          "4900",
+          46
+        ],
+        [
+          "6000",
+          45
+        ],
+        [
+          "45750",
+          38
+        ],
+        [
+          "2200",
+          36
+        ],
+        [
+          "3300",
+          34
+        ],
+        [
+          "21600",
+          33
+        ],
+        [
+          "75900",
+          32
+        ],
+        [
+          "69156",
+          32
+        ],
+        [
+          "67107",
+          32
+        ],
+        [
+          "45791",
+          32
+        ],
+        [
+          "36080",
+          32
+        ],
+        [
+          "2800",
+          32
+        ],
+        [
+          "20800",
+          31
+        ]
+      ],
+      "portion_numeric": 0.798,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Design capacity (ttpa)",
+      "code_friendly_name_guess": "design_capacity_ttpa",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 198,
+      "top_values": [
+        [
+          "unknown",
+          770
+        ],
+        [
+          "10000",
+          150
+        ],
+        [
+          "1333",
+          138
+        ],
+        [
+          "2000",
+          114
+        ],
+        [
+          "6000",
+          106
+        ],
+        [
+          "5000",
+          75
+        ],
+        [
+          "50000",
+          70
+        ],
+        [
+          "1500",
+          66
+        ],
+        [
+          "20000",
+          63
+        ],
+        [
+          "30000",
+          62
+        ],
+        [
+          "21830",
+          60
+        ],
+        [
+          "3000",
+          57
+        ],
+        [
+          "300",
+          56
+        ],
+        [
+          "40000",
+          50
+        ],
+        [
+          "7000",
+          49
+        ],
+        [
+          "35000",
+          49
+        ],
+        [
+          "12800",
+          49
+        ],
+        [
+          "1000",
+          44
+        ],
+        [
+          "4000",
+          42
+        ],
+        [
+          "16000",
+          40
+        ]
+      ],
+      "portion_numeric": 0.842,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "GEM Asset ID",
+      "code_friendly_name_guess": "gem_asset_id",
+      "n_total": 3816,
+      "n_null": 0,
+      "n_non_null": 3816,
+      "null_rate": 0.0,
+      "n_unique": 577,
+      "top_values": [
+        [
+          "P100000128839",
+          34
+        ],
+        [
+          "P100000128830",
+          34
+        ],
+        [
+          "P100000129455",
+          33
+        ],
+        [
+          "P100000128145",
+          33
+        ],
+        [
+          "P100000128896",
+          32
+        ],
+        [
+          "P100000128112",
+          32
+        ],
+        [
+          "P100000128100",
+          32
+        ],
+        [
+          "P100000128086",
+          32
+        ],
+        [
+          "P100000128079",
+          32
+        ],
+        [
+          "P100000128037",
+          32
+        ],
+        [
+          "P100000128156",
+          31
+        ],
+        [
+          "P100000128853",
+          30
+        ],
+        [
+          "P100000128840",
+          30
+        ],
+        [
+          "P100000128295",
+          30
+        ],
+        [
+          "P100000128209",
+          30
+        ],
+        [
+          "P100000128207",
+          30
+        ],
+        [
+          "P100000128206",
+          30
+        ],
+        [
+          "P100000128166",
+          30
+        ],
+        [
+          "P100000128154",
+          30
+        ],
+        [
+          "P100000128141",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

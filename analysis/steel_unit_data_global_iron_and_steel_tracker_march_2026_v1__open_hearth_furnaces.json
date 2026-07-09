@@ -1,0 +1,525 @@
+{
+  "table_name": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1__open_hearth_furnaces",
+  "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "open_hearth_furnaces",
+  "n_rows": 10,
+  "analyzed_at": "2026-07-07T21:45:22.661024+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "P100000120916",
+          7
+        ],
+        [
+          "P100000120906",
+          1
+        ],
+        [
+          "P100000120691",
+          1
+        ],
+        [
+          "P100000120688",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "U100000144216",
+          1
+        ],
+        [
+          "U100000144215",
+          1
+        ],
+        [
+          "U100000143271",
+          1
+        ],
+        [
+          "U100000143270",
+          1
+        ],
+        [
+          "U100000143269",
+          1
+        ],
+        [
+          "U100000143268",
+          1
+        ],
+        [
+          "U100000143267",
+          1
+        ],
+        [
+          "U100000143266",
+          1
+        ],
+        [
+          "U100000143265",
+          1
+        ],
+        [
+          "U100000143264",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each induction furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "unknown OHF (1)",
+          2
+        ],
+        [
+          "OHF 6",
+          2
+        ],
+        [
+          "OHF 7",
+          1
+        ],
+        [
+          "OHF 5",
+          1
+        ],
+        [
+          "OHF 4",
+          1
+        ],
+        [
+          "OHF 3",
+          1
+        ],
+        [
+          "OHF 2",
+          1
+        ],
+        [
+          "OHF 1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Metinvest_Zaporizhstal_steel_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Kim_Chaek_Iron_and_Steel_Complex_steel_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Hwanghae_Iron_and_Steel_Complex_steel_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/ArcelorMittal_Kryvyi_Rih_steel_plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM wiki page.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Ukraine",
+          8
+        ],
+        [
+          "North Korea",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or territory.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit status",
+      "code_friendly_name_guess": "unit_status",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "operating",
+          9
+        ],
+        [
+          "retired",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Operating status of the induction furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Announced date",
+      "code_friendly_name_guess": "announced_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date of announcement/proposal of induction furnace in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Construction date",
+      "code_friendly_name_guess": "construction_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that construction on the induction furnace began in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "unknown",
+          8
+        ],
+        [
+          "1935",
+          2
+        ]
+      ],
+      "portion_numeric": 0.2,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace began producing steel in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit age",
+      "code_friendly_name_guess": "unit_age",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "unknown",
+          8
+        ],
+        [
+          "91",
+          2
+        ]
+      ],
+      "portion_numeric": 0.2,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Age of induction furnace in years.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Pre-retirement announcement Date",
+      "code_friendly_name_guess": "pre_retirement_announcement_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Idled date",
+      "code_friendly_name_guess": "idled_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Retired date",
+      "code_friendly_name_guess": "retired_date",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace manufacturer",
+      "code_friendly_name_guess": "furnace_manufacturer",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The company that manufactured the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace model",
+      "code_friendly_name_guess": "furnace_model",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "unknown",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The specific model of the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current capacity (ttpa)",
+      "code_friendly_name_guess": "current_capacity_ttpa",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "586",
+          7
+        ],
+        [
+          "1500",
+          2
+        ],
+        [
+          "750",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current size",
+      "code_friendly_name_guess": "current_size",
+      "n_total": 10,
+      "n_null": 0,
+      "n_non_null": 10,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "unknown",
+          9
+        ],
+        [
+          "50",
+          1
+        ]
+      ],
+      "portion_numeric": 0.1,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The size of the unit, in volume or load size.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current size unit",
+      "code_friendly_name_guess": "current_size_unit",
+      "n_total": 10,
+      "n_null": 9,
+      "n_non_null": 1,
+      "null_rate": 0.9,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "tonnes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The unit of measurement used for \"current size\". Options are tonnes and m3.",
+      "notes_from_readme": null
+    }
+  ]
+}

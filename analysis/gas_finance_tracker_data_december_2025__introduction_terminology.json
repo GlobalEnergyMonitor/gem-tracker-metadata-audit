@@ -1,0 +1,367 @@
+{
+  "table_name": "gas_finance_tracker_data_december_2025__introduction_terminology",
+  "tracker_slug": "gas_finance_tracker_data_december_2025",
+  "tab_slug": "introduction_terminology",
+  "n_rows": 32,
+  "analyzed_at": "2026-07-07T21:45:10.372730+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "_col0",
+      "code_friendly_name_guess": "col0",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 32,
+      "n_null": 3,
+      "n_non_null": 29,
+      "null_rate": 0.0938,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "Unit Name/Terminal ID",
+          1
+        ],
+        [
+          "Type of Financier",
+          1
+        ],
+        [
+          "This Financier's Unit Share Per Transaction (US$ Million)",
+          1
+        ],
+        [
+          "This Financier's Total Financing Per Transaction (US$ million)",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "Public/Private",
+          1
+        ],
+        [
+          "Project cost (US$ million)",
+          1
+        ],
+        [
+          "Parents",
+          1
+        ],
+        [
+          "Owners",
+          1
+        ],
+        [
+          "Local Language Names(s)",
+          1
+        ],
+        [
+          "GEM Wiki",
+          1
+        ],
+        [
+          "GEM Unit ID",
+          1
+        ],
+        [
+          "GEM Terminal ID",
+          1
+        ],
+        [
+          "GEM Project ID",
+          1
+        ],
+        [
+          "GEM Combo ID",
+          1
+        ],
+        [
+          "Financier Country",
+          1
+        ],
+        [
+          "Financier",
+          1
+        ],
+        [
+          "Finance Type",
+          1
+        ],
+        [
+          "Finance Status",
+          1
+        ],
+        [
+          "FID Status",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col4",
+      "code_friendly_name_guess": "col4",
+      "n_total": 32,
+      "n_null": 5,
+      "n_non_null": 27,
+      "null_rate": 0.1562,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "Year/date in which FID was reached, if applicable and available.",
+          1
+        ],
+        [
+          "Unique GEM-specific ID for an energy project - in this case, a gas power plant project.",
+          1
+        ],
+        [
+          "Unique GEM-specific ID for an LNG terminal project.",
+          1
+        ],
+        [
+          "Totals all known project finance for a unit/project by a specific financier.",
+          1
+        ],
+        [
+          "Totals all known project finance for a unit/project across all known financiers.",
+          1
+        ],
+        [
+          "The ultimate parent of the direct owner for a project. Please see GEM's Ownership Tracker Methodology for more details. \n",
+          1
+        ],
+        [
+          "The lowest-level (direct) owner for a project. Please see GEM's Ownership Tracker Methodology for more details.",
+          1
+        ],
+        [
+          "The expected or projected start year for a unit/project. If the year is in the past, the unit/project may be delayed.",
+          1
+        ],
+        [
+          "The expected or projected cost for a unit/project.",
+          1
+        ],
+        [
+          "The country in which a unit/project is located.",
+          1
+        ],
+        [
+          "Specific identifier for a particular unit of a gas power plant project.",
+          1
+        ],
+        [
+          "Name of the project financier.",
+          1
+        ],
+        [
+          "Known local (in-country) language names for a unit/project).",
+          1
+        ],
+        [
+          "Known alternate names for a unit/project.",
+          1
+        ],
+        [
+          "Indicates whether the financier is a public or private organization.",
+          1
+        ],
+        [
+          "Indicates whether final investment decision (FID) has been reached, if a project is pre-FID with no known progress, or in the process of securing financing.",
+          1
+        ],
+        [
+          "Indicates type of financier/financial institution, such as commercial bank, development bank, ECA, utility, private equity firm, etc.",
+          1
+        ],
+        [
+          "Indicates known project finance type for this financier/transaction, such as a loan, bond, equity, etc.",
+          1
+        ],
+        [
+          "Indicates financing status of the unit/project.",
+          1
+        ],
+        [
+          "Indicates close year for units/projects that have reached FID.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col5",
+      "code_friendly_name_guess": "col5",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col6",
+      "code_friendly_name_guess": "col6",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col7",
+      "code_friendly_name_guess": "col7",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col8",
+      "code_friendly_name_guess": "col8",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col9",
+      "code_friendly_name_guess": "col9",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col10",
+      "code_friendly_name_guess": "col10",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col11",
+      "code_friendly_name_guess": "col11",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col12",
+      "code_friendly_name_guess": "col12",
+      "n_total": 32,
+      "n_null": 32,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

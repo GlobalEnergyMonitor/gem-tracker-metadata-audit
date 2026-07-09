@@ -1,0 +1,320 @@
+{
+  "source_file": "Global-Solar-Power-Tracker-February-2026.xlsx",
+  "tracker_slug": "global_solar_power_tracker_february_2026",
+  "header_info": {
+    "title": "Global Solar Power Tracker - February 2026",
+    "citation": null,
+    "contact": "Contact: Kasandra O'Malia, Global Solar Power Tracker Project Manager, Global Energy Monitor - kasandra.omalia@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "utility_scale_1_mw": "Utility-Scale (1 MW+)",
+    "distributed_1_mw": "Distributed (<1 MW)"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun (not just clearing/roads).",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase 2” at a location where “Phase 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension announced. The status is marked as \"shelved - inferred 2y\" if no updates have been published in 2 or more years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled",
+          "definition": "Cancellation announced. The status is marked as \"cancelled - inferred 4y\" if no updates have been publishe din 4 or more years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Columns",
+      "section_type": "columns",
+      "tab_key": "distributed_1_mw",
+      "entries": [
+        {
+          "name": "Date Last Researched",
+          "definition": "Date that this project was last researched by the researcher",
+          "notes": "Units: yyyy/mm/dd.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country or area the project is located in (Unabbreviated)",
+          "notes": "The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name",
+          "definition": "Commonly used name",
+          "notes": "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken, or the name was generated based on project location.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Phase Name",
+          "definition": "Common name of the project phase",
+          "notes": "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name in Local Language / Script",
+          "definition": "Commonly used name in the locally used script",
+          "notes": "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other Name(s)",
+          "definition": "Alternative names, including the name in local script",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (MW)",
+          "definition": "Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",
+          "notes": "Units: Megawatt (MW). Please refer to \"Thresholds for Data Categories\" section above.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity Rating",
+          "definition": "The reported capacity rating, unknown selected if not provided",
+          "notes": "Units: MWac, MWp/dc, unknown. Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Technology Type",
+          "definition": "If the solar installation uses PV (Photovoltaic) technology to create a current or uses heat from the sun to run a turbine",
+          "notes": "Units: PV, Solar Thermal, Assumed PV. Projects for which no information could be found specifying the technology type are listed as \"Assumed PV\" because PV is by far the most common technology.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "see rows 20-27 above",
+          "notes": "Units: see above.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start year",
+          "definition": "Year the project is or is expected to be commissioned",
+          "notes": "Units: yyyy. Latest date was taken when original data source provided a range; Start years not included for projects that are cancelled or shelved.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Year",
+          "definition": "Capacity value is accurate as of the end of this year",
+          "notes": "Units: yyyy. Specific to distributed solar tab.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired year",
+          "definition": "Year the plant is or is expected to be taken offline",
+          "notes": "Units: yyyy.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator",
+          "definition": "The company that operates the project",
+          "notes": "Company that performs day-to-day operations and maintenance of the project.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator Name in Local Language / Script",
+          "definition": "Company name that operates the project in the locally used script",
+          "notes": "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "The company that directly owns the plant",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner Name in Local Language / Script",
+          "definition": "Company name that directly owns the project in the locally used script",
+          "notes": "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen",
+          "definition": "True if a project phase is dedicated for green hydrogen production",
+          "notes": "Units: True, blank.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Associated Storage",
+          "definition": "True if a project phase has existing or planned co-located storage",
+          "notes": "Units: True, blank.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Latitude, assumed WGS84 (google maps), of the project phase",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Longitude, assumed WGS84 (google maps), of the project phase",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",
+          "notes": "Units: approximate, exact. Locations feature 4 decimal places for Latitude and Longitude fields.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "City",
+          "definition": "City, town, village, or township (China) where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Local area (taluk, county)",
+          "definition": "County, taluk, or district (China) where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Major area (prefecture, district)",
+          "definition": "Prefecture, district, or municipality (China) where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "State/Province",
+          "definition": "Subnational unit where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subregion",
+          "definition": "Subregion location based on United Nations definition",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "Region location based on United Nations definition",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other IDs (location)",
+          "definition": "Location identifier from external datasets",
+          "notes": "If there are multiple external datasets, entries are comma separated.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other IDs (unit/phase)",
+          "definition": "Unit or Phase identifier from external datasets",
+          "notes": "If there are multiple external datasets, entries are comma separated.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM location ID",
+          "definition": "GEM generated ID unique for each project",
+          "notes": "Units: L1+11 digits. Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of L812345 is now L100000812345.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM phase ID",
+          "definition": "GEM generated ID unique for each phase",
+          "notes": "Units: G1+11 digits. Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of G812345 is now G100000812345.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL",
+          "definition": "URL of existing, footnoted factsheet GEM.wiki page",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

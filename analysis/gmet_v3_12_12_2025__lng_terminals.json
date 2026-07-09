@@ -1,0 +1,1749 @@
+{
+  "table_name": "gmet_v3_12_12_2025__lng_terminals",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "tab_slug": "lng_terminals",
+  "n_rows": 1295,
+  "analyzed_at": "2026-07-07T21:45:21.839347+00:00",
+  "tracker_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "fields": [
+    {
+      "field_name": "TerminalID",
+      "code_friendly_name_guess": "terminalid",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 784,
+      "top_values": [
+        [
+          "T0212",
+          18
+        ],
+        [
+          "T0243",
+          14
+        ],
+        [
+          "T0259",
+          13
+        ],
+        [
+          "T1072",
+          12
+        ],
+        [
+          "T0221",
+          12
+        ],
+        [
+          "T0216",
+          12
+        ],
+        [
+          "T0226",
+          10
+        ],
+        [
+          "T0432",
+          9
+        ],
+        [
+          "T0278",
+          9
+        ],
+        [
+          "T0817",
+          8
+        ],
+        [
+          "T0240",
+          8
+        ],
+        [
+          "T0598",
+          7
+        ],
+        [
+          "T0275",
+          7
+        ],
+        [
+          "T0244",
+          7
+        ],
+        [
+          "T0214",
+          7
+        ],
+        [
+          "T0636",
+          6
+        ],
+        [
+          "T0372",
+          6
+        ],
+        [
+          "T0367",
+          6
+        ],
+        [
+          "T0362",
+          6
+        ],
+        [
+          "T0239",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Assigned ID number to every whole terminal. Unique to each distinct terminal.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "0.0",
+          565
+        ],
+        [
+          "1.0",
+          316
+        ],
+        [
+          "2.0",
+          156
+        ],
+        [
+          "3.0",
+          88
+        ],
+        [
+          "4.0",
+          55
+        ],
+        [
+          "5.0",
+          31
+        ],
+        [
+          "6.0",
+          24
+        ],
+        [
+          "7.0",
+          14
+        ],
+        [
+          "8.0",
+          11
+        ],
+        [
+          "9.0",
+          9
+        ],
+        [
+          "10.0",
+          8
+        ],
+        [
+          "11.0",
+          6
+        ],
+        [
+          "12.0",
+          4
+        ],
+        [
+          "13.0",
+          3
+        ],
+        [
+          "18.0",
+          1
+        ],
+        [
+          "17.0",
+          1
+        ],
+        [
+          "16.0",
+          1
+        ],
+        [
+          "15.0",
+          1
+        ],
+        [
+          "14.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Assigned ID number to every project within a whole terminal. Unique within each distinct TerminalID.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ComboID",
+      "code_friendly_name_guess": "comboid",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 1295,
+      "top_values": [
+        [
+          "T117800",
+          1
+        ],
+        [
+          "T117700",
+          1
+        ],
+        [
+          "T117601",
+          1
+        ],
+        [
+          "T117600",
+          1
+        ],
+        [
+          "T117500",
+          1
+        ],
+        [
+          "T117400",
+          1
+        ],
+        [
+          "T117300",
+          1
+        ],
+        [
+          "T117200",
+          1
+        ],
+        [
+          "T117100",
+          1
+        ],
+        [
+          "T117001",
+          1
+        ],
+        [
+          "T116901",
+          1
+        ],
+        [
+          "T116801",
+          1
+        ],
+        [
+          "T116700",
+          1
+        ],
+        [
+          "T116600",
+          1
+        ],
+        [
+          "T116500",
+          1
+        ],
+        [
+          "T116400",
+          1
+        ],
+        [
+          "T116302",
+          1
+        ],
+        [
+          "T116301",
+          1
+        ],
+        [
+          "T116200",
+          1
+        ],
+        [
+          "T116100",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Combined TerminalID and ProjectID to create unique index value for every observation.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki",
+      "code_friendly_name_guess": "wiki",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 788,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Calcasieu_Pass_LNG_Terminal",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Arzew-Bethioua_LNG_Terminal",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Nigeria_LNG_Terminal",
+          13
+        ],
+        [
+          "https://www.gem.wiki/PAWA_PNG_FSRU_Project",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Elba_Island_LNG_Terminal",
+          12
+        ],
+        [
+          "https://www.gem.wiki/G2_LNG_Terminal",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Corpus_Christi_LNG",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Cyprus_LNG_Terminal",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Bontang_LNG_Terminal",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Sabine_Pass_LNG_Terminal",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Qatar_North_Field_LNG_Terminal",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sonatrach_Skikda_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Cameron_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Arun_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/WCC_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Stewart_Energy_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Rio_Grande_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Orca_FLNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Monkey_Island_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Main_Pass_Energy_Hub_FLNG_Terminal",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to project's GEM.wiki page",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "TerminalName",
+      "code_friendly_name_guess": "terminalname",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 799,
+      "top_values": [
+        [
+          "Calcasieu Pass LNG Terminal",
+          18
+        ],
+        [
+          "Arzew-Bethioua LNG Terminal",
+          14
+        ],
+        [
+          "Nigeria LNG Terminal",
+          13
+        ],
+        [
+          "PAWA PNG FSRU Project",
+          12
+        ],
+        [
+          "Elba Island LNG Terminal",
+          12
+        ],
+        [
+          "Corpus Christi LNG Terminal",
+          12
+        ],
+        [
+          "G2 LNG Terminal",
+          10
+        ],
+        [
+          "Cyprus LNG Terminal",
+          9
+        ],
+        [
+          "Bontang LNG Terminal",
+          9
+        ],
+        [
+          "Qatar North Field LNG Terminal",
+          8
+        ],
+        [
+          "Skikda LNG Terminal",
+          7
+        ],
+        [
+          "Sabine Pass LNG Terminal",
+          7
+        ],
+        [
+          "Cameron LNG Terminal",
+          7
+        ],
+        [
+          "WCC LNG Terminal",
+          6
+        ],
+        [
+          "Stewart Energy LNG Terminal",
+          6
+        ],
+        [
+          "Rio Grande LNG Terminal",
+          6
+        ],
+        [
+          "Orca FLNG Terminal",
+          6
+        ],
+        [
+          "Monkey Island LNG Terminal",
+          6
+        ],
+        [
+          "Main Pass Energy Hub FLNG Terminal",
+          6
+        ],
+        [
+          "Commonwealth LNG Terminal",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Terminal name",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "UnitName",
+      "code_friendly_name_guess": "unitname",
+      "n_total": 1295,
+      "n_null": 614,
+      "n_non_null": 681,
+      "null_rate": 0.4741,
+      "n_unique": 155,
+      "top_values": [
+        [
+          "T2",
+          105
+        ],
+        [
+          "T1",
+          104
+        ],
+        [
+          "T3",
+          70
+        ],
+        [
+          "T4",
+          47
+        ],
+        [
+          "Phase 2",
+          41
+        ],
+        [
+          "Phase 1",
+          39
+        ],
+        [
+          "T5",
+          24
+        ],
+        [
+          "Expansion",
+          20
+        ],
+        [
+          "T6",
+          18
+        ],
+        [
+          "Phase 3",
+          13
+        ],
+        [
+          "Phase I",
+          10
+        ],
+        [
+          "T7",
+          9
+        ],
+        [
+          "T8",
+          7
+        ],
+        [
+          "T9",
+          6
+        ],
+        [
+          "T10",
+          6
+        ],
+        [
+          "Phase II",
+          6
+        ],
+        [
+          "Phase 1 Expansion",
+          4
+        ],
+        [
+          "T12",
+          3
+        ],
+        [
+          "T11",
+          3
+        ],
+        [
+          "Import Terminal",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Smaller unit within a terminal (including trains T1, T2; phases Phase 1, Phase 2; expansions; project revivals/recommissions; etc.)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FacilityType",
+      "code_friendly_name_guess": "facilitytype",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Import",
+          677
+        ],
+        [
+          "Export",
+          618
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Type of facility (import or export terminal)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Operating",
+          380
+        ],
+        [
+          "Cancelled",
+          349
+        ],
+        [
+          "Proposed",
+          311
+        ],
+        [
+          "Construction",
+          112
+        ],
+        [
+          "Shelved",
+          88
+        ],
+        [
+          "Retired",
+          24
+        ],
+        [
+          "Mothballed",
+          16
+        ],
+        [
+          "Idle",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The status of development of a unit, e.g., discovered, in development, operating, shut in, decommissioned, abandoned, or UGS. For individual status defintions, see GEM's Global Oil and Gas Extraction Tracker",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 109,
+      "top_values": [
+        [
+          "United States",
+          232
+        ],
+        [
+          "China",
+          141
+        ],
+        [
+          "Canada",
+          89
+        ],
+        [
+          "Australia",
+          53
+        ],
+        [
+          "Japan",
+          49
+        ],
+        [
+          "Indonesia",
+          46
+        ],
+        [
+          "Russia",
+          44
+        ],
+        [
+          "India",
+          36
+        ],
+        [
+          "Vietnam",
+          25
+        ],
+        [
+          "Nigeria",
+          25
+        ],
+        [
+          "Papua New Guinea",
+          24
+        ],
+        [
+          "Mexico",
+          24
+        ],
+        [
+          "Brazil",
+          24
+        ],
+        [
+          "Qatar",
+          22
+        ],
+        [
+          "Algeria",
+          21
+        ],
+        [
+          "Italy",
+          18
+        ],
+        [
+          "Malaysia",
+          16
+        ],
+        [
+          "Iran",
+          16
+        ],
+        [
+          "Philippines",
+          14
+        ],
+        [
+          "United Kingdom",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The country or area that the unit is in. If a unit spans country borders, it is handled on a case-by-case basis. Some units may be split in the data provided; therefore, the portion in each country is reported separately.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 682,
+      "top_values": [
+        [
+          "New Fortress Energy [100.00%]",
+          22
+        ],
+        [
+          "Sonatrach [100.00%]",
+          21
+        ],
+        [
+          "unknown [unknown %]",
+          19
+        ],
+        [
+          "Venture Global Calcasieu Pass [100.00%]",
+          18
+        ],
+        [
+          "Nigeria LNG [100.00%]",
+          13
+        ],
+        [
+          "Southern LNG Company LLC [100.00%]",
+          12
+        ],
+        [
+          "Dirio Gas & Power [unknown %]; Government of Papua New Guinea [unknown %]; Twenty20 Energy [unknown %]",
+          12
+        ],
+        [
+          "CPC Corporation [100.00%]",
+          11
+        ],
+        [
+          "G2 Net-Zero LNG LLC [100.00%]",
+          10
+        ],
+        [
+          "Petronet LNG [100.00%]",
+          9
+        ],
+        [
+          "Government of Indonesia [100.00%]",
+          9
+        ],
+        [
+          "Excelerate Energy [100.00%]",
+          8
+        ],
+        [
+          "DEFA [100.00%]",
+          8
+        ],
+        [
+          "Sabine Pass Liquefaction [100.00%]",
+          7
+        ],
+        [
+          "QatarEnergy [100.00%]",
+          7
+        ],
+        [
+          "KOGAS [100.00%]",
+          7
+        ],
+        [
+          "Engie [100.00%]",
+          7
+        ],
+        [
+          "Corpus Christi Liquefaction Stage III, LLC [100.00%]",
+          7
+        ],
+        [
+          "Cameron LNG LLC [100.00%]",
+          7
+        ],
+        [
+          "Steelhead LNG [100.00%]",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Owner company name(s), percent ownership if available; here \"owner\" means lowest level of ownership that we're able to trace.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 640,
+      "top_values": [
+        [
+          "Venture Global LNG [100.00%]",
+          25
+        ],
+        [
+          "New Fortress Energy [100.00%]",
+          25
+        ],
+        [
+          "Sonatrach [100.00%]",
+          21
+        ],
+        [
+          "Cheniere Energy [100.00%]",
+          21
+        ],
+        [
+          "unknown [unknown %]",
+          19
+        ],
+        [
+          "Nigerian National Petroleum Corporation [49.00%]; Shell [25.60%]; TotalEnergies [15.00%]; Eni [10.40%]",
+          13
+        ],
+        [
+          "Government of Papua New Guinea [unknown %]; Twenty20 Energy [unknown %]",
+          12
+        ],
+        [
+          "Blackstone Group [49.00%]; Kinder Morgan [25.50%]; unknown [25.50%]",
+          12
+        ],
+        [
+          "CPC Corporation [100.00%]",
+          11
+        ],
+        [
+          "G2 Net-Zero LNG LLC [100.00%]",
+          10
+        ],
+        [
+          "Petronet LNG [100.00%]",
+          9
+        ],
+        [
+          "Government of Indonesia [100.00%]",
+          9
+        ],
+        [
+          "Excelerate Energy [100.00%]",
+          9
+        ],
+        [
+          "Novatek [100.00%]",
+          8
+        ],
+        [
+          "DEFA [100.00%]",
+          8
+        ],
+        [
+          "Shell [100.00%]",
+          7
+        ],
+        [
+          "Sempra Energy [50.20%]; Mitsui Group [16.60%]; TotalEnergies [16.60%]; Mitsubishi [11.62%]; NYK [4.98%]",
+          7
+        ],
+        [
+          "QatarEnergy [100.00%]",
+          7
+        ],
+        [
+          "KOGAS [100.00%]",
+          7
+        ],
+        [
+          "Engie [100.00%]",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Parent company name(s), percent ownership if available, taken from the Parent tab; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders). For state-owned enterprises, we prioritize the name of the company (e.g., PipeChina) or the ministry (e.g., Iran Ministry of Oil) rather than Government of China or Government of Iran.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CapacityInMtpa",
+      "code_friendly_name_guess": "capacityinmtpa",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 229,
+      "top_values": [
+        [
+          "--",
+          135
+        ],
+        [
+          "3.0",
+          83
+        ],
+        [
+          "5.0",
+          78
+        ],
+        [
+          "6.0",
+          41
+        ],
+        [
+          "4.0",
+          39
+        ],
+        [
+          "2.0",
+          38
+        ],
+        [
+          "1.0",
+          33
+        ],
+        [
+          "1.5",
+          29
+        ],
+        [
+          "3.8",
+          22
+        ],
+        [
+          "8.0",
+          20
+        ],
+        [
+          "4.5",
+          18
+        ],
+        [
+          "0.67",
+          18
+        ],
+        [
+          "0.63",
+          17
+        ],
+        [
+          "0.5",
+          17
+        ],
+        [
+          "3.5",
+          16
+        ],
+        [
+          "7.0",
+          15
+        ],
+        [
+          "10.0",
+          15
+        ],
+        [
+          "1.3",
+          15
+        ],
+        [
+          "3.6",
+          14
+        ],
+        [
+          "2.5",
+          14
+        ]
+      ],
+      "portion_numeric": 0.954,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Publicly reported capacity value, converted to mtpa",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Methane/total throughput",
+      "code_friendly_name_guess": "methane_total_throughput",
+      "n_total": 1295,
+      "n_null": 2,
+      "n_non_null": 1293,
+      "null_rate": 0.0015,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "0.0018",
+          676
+        ],
+        [
+          "0.0007",
+          617
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The emission factor for either regassification or liquefaction for the LNG terminal, drawn from Innocenti et al., 2023. See GMET Methodology wiki for more details.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Methane emissions (Mt/year)",
+      "code_friendly_name_guess": "methane_emissions_mt_year",
+      "n_total": 1295,
+      "n_null": 137,
+      "n_non_null": 1158,
+      "null_rate": 0.1058,
+      "n_unique": 291,
+      "top_values": [
+        [
+          "0.0054",
+          66
+        ],
+        [
+          "0.0035",
+          43
+        ],
+        [
+          "0.009",
+          35
+        ],
+        [
+          "0.0108",
+          30
+        ],
+        [
+          "0.0028",
+          25
+        ],
+        [
+          "0.0018",
+          20
+        ],
+        [
+          "0.0014",
+          20
+        ],
+        [
+          "0.0036",
+          18
+        ],
+        [
+          "0.000469",
+          18
+        ],
+        [
+          "0.00315",
+          17
+        ],
+        [
+          "0.0021",
+          17
+        ],
+        [
+          "0.00684",
+          16
+        ],
+        [
+          "0.00105",
+          16
+        ],
+        [
+          "0.000441",
+          16
+        ],
+        [
+          "0.0072",
+          14
+        ],
+        [
+          "0.0063",
+          13
+        ],
+        [
+          "0.0056",
+          13
+        ],
+        [
+          "0.0007",
+          13
+        ],
+        [
+          "0.000175",
+          13
+        ],
+        [
+          "0.0027",
+          12
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 1295,
+      "n_null": 79,
+      "n_non_null": 1216,
+      "null_rate": 0.061,
+      "n_unique": 612,
+      "top_values": [
+        [
+          "Cameron Parish",
+          40
+        ],
+        [
+          "Ras Laffan Industrial City",
+          22
+        ],
+        [
+          "Brownsville",
+          16
+        ],
+        [
+          "Bethioua",
+          14
+        ],
+        [
+          "Bonny Island",
+          13
+        ],
+        [
+          "Sabine Pass",
+          12
+        ],
+        [
+          "Elba Island",
+          12
+        ],
+        [
+          "Corpus Christi",
+          12
+        ],
+        [
+          "Prince Rupert",
+          10
+        ],
+        [
+          "Plaquemines Parish",
+          10
+        ],
+        [
+          "Curtis Island",
+          10
+        ],
+        [
+          "Bintulu",
+          10
+        ],
+        [
+          "Vasilikos",
+          9
+        ],
+        [
+          "Port Qasim",
+          9
+        ],
+        [
+          "Nangang",
+          9
+        ],
+        [
+          "Bontang",
+          9
+        ],
+        [
+          "Rudong",
+          8
+        ],
+        [
+          "Perth",
+          8
+        ],
+        [
+          "Lake Charles",
+          8
+        ],
+        [
+          "Gulf of Mexico",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, or village location",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 1295,
+      "n_null": 192,
+      "n_non_null": 1103,
+      "null_rate": 0.1483,
+      "n_unique": 290,
+      "top_values": [
+        [
+          "Louisiana",
+          102
+        ],
+        [
+          "British Columbia",
+          65
+        ],
+        [
+          "Texas",
+          56
+        ],
+        [
+          "Guangdong",
+          28
+        ],
+        [
+          "Western Australia",
+          24
+        ],
+        [
+          "Shandong",
+          22
+        ],
+        [
+          "Al Khawr",
+          22
+        ],
+        [
+          "Zhejiang",
+          20
+        ],
+        [
+          "Jiangsu",
+          20
+        ],
+        [
+          "Queensland",
+          15
+        ],
+        [
+          "Rivers",
+          14
+        ],
+        [
+          "Oran",
+          14
+        ],
+        [
+          "Georgia",
+          12
+        ],
+        [
+          "Leningrad Oblast",
+          11
+        ],
+        [
+          "Florida",
+          11
+        ],
+        [
+          "Sarawak",
+          10
+        ],
+        [
+          "Larnaca",
+          10
+        ],
+        [
+          "Gujarat",
+          10
+        ],
+        [
+          "Tianjin",
+          9
+        ],
+        [
+          "Sindh",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "State or province location",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 1295,
+      "n_null": 4,
+      "n_non_null": 1291,
+      "null_rate": 0.0031,
+      "n_unique": 749,
+      "top_values": [
+        [
+          "54.31219",
+          21
+        ],
+        [
+          "29.77293",
+          18
+        ],
+        [
+          "25.95084",
+          16
+        ],
+        [
+          "35.80452",
+          14
+        ],
+        [
+          "4.41836",
+          13
+        ],
+        [
+          "32.09111",
+          12
+        ],
+        [
+          "27.91354",
+          12
+        ],
+        [
+          "29.81157",
+          10
+        ],
+        [
+          "34.72024",
+          9
+        ],
+        [
+          "0.10123",
+          9
+        ],
+        [
+          "29.7541",
+          8
+        ],
+        [
+          "5.2234",
+          7
+        ],
+        [
+          "36.8779",
+          7
+        ],
+        [
+          "30.03547",
+          7
+        ],
+        [
+          "71.2733",
+          6
+        ],
+        [
+          "55.93583",
+          6
+        ],
+        [
+          "29.79363",
+          6
+        ],
+        [
+          "29.76416",
+          6
+        ],
+        [
+          "29.26556",
+          6
+        ],
+        [
+          "28.932",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 1295,
+      "n_null": 4,
+      "n_non_null": 1291,
+      "null_rate": 0.0031,
+      "n_unique": 750,
+      "top_values": [
+        [
+          "-130.327",
+          21
+        ],
+        [
+          "-93.3343",
+          18
+        ],
+        [
+          "-97.4108",
+          16
+        ],
+        [
+          "-0.24097",
+          14
+        ],
+        [
+          "7.16157",
+          13
+        ],
+        [
+          "-97.2866",
+          12
+        ],
+        [
+          "-81.0003",
+          12
+        ],
+        [
+          "-93.3596",
+          10
+        ],
+        [
+          "33.32384",
+          9
+        ],
+        [
+          "117.4701",
+          9
+        ],
+        [
+          "-93.8741",
+          8
+        ],
+        [
+          "97.083",
+          7
+        ],
+        [
+          "6.9415",
+          7
+        ],
+        [
+          "-93.3384",
+          7
+        ],
+        [
+          "72.0725",
+          6
+        ],
+        [
+          "52.6075",
+          6
+        ],
+        [
+          "52.06796",
+          6
+        ],
+        [
+          "-95.3174",
+          6
+        ],
+        [
+          "-93.3481",
+          6
+        ],
+        [
+          "-93.3414",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Accuracy",
+      "code_friendly_name_guess": "accuracy",
+      "n_total": 1295,
+      "n_null": 4,
+      "n_non_null": 1291,
+      "null_rate": 0.0031,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "approximate",
+          718
+        ],
+        [
+          "exact",
+          573
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Are the coordinates known exactly or only approximated? (Options: \"exact\" or \"approximate\"); exact means the coordinate values were found from a citable reference",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ImportExportOnly",
+      "code_friendly_name_guess": "importexportonly",
+      "n_total": 1295,
+      "n_null": 1293,
+      "n_non_null": 2,
+      "null_rate": 0.9985,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"yes\" if it's import or export only, and doesn't do any regasification or liquefaction; otherwise leave blank",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CCS",
+      "code_friendly_name_guess": "ccs",
+      "n_total": 1295,
+      "n_null": 1216,
+      "n_non_null": 79,
+      "null_rate": 0.939,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          79
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Is there a CCS project associated with the terminal? (yes if operating or proposed; blank otherwise)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LastUpdated",
+      "code_friendly_name_guess": "lastupdated",
+      "n_total": 1295,
+      "n_null": 0,
+      "n_non_null": 1295,
+      "null_rate": 0.0,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "2024-07-08 00:00:00",
+          138
+        ],
+        [
+          "2024-09-09 00:00:00",
+          84
+        ],
+        [
+          "2024-07-12 00:00:00",
+          45
+        ],
+        [
+          "2024-07-26 00:00:00",
+          42
+        ],
+        [
+          "2024-05-29 00:00:00",
+          41
+        ],
+        [
+          "2024-07-18 00:00:00",
+          40
+        ],
+        [
+          "2024-05-21 00:00:00",
+          40
+        ],
+        [
+          "2024-08-26 00:00:00",
+          39
+        ],
+        [
+          "2024-06-24 00:00:00",
+          37
+        ],
+        [
+          "2024-07-16 00:00:00",
+          33
+        ],
+        [
+          "2024-07-11 00:00:00",
+          32
+        ],
+        [
+          "2024-09-12 00:00:00",
+          31
+        ],
+        [
+          "2024-07-15 00:00:00",
+          28
+        ],
+        [
+          "2024-07-24 00:00:00",
+          27
+        ],
+        [
+          "2024-09-10 00:00:00",
+          26
+        ],
+        [
+          "2024-09-13 00:00:00",
+          24
+        ],
+        [
+          "2024-05-22 00:00:00",
+          24
+        ],
+        [
+          "2024-09-04 00:00:00",
+          22
+        ],
+        [
+          "2024-07-01 00:00:00",
+          22
+        ],
+        [
+          "2024-07-23 00:00:00",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that the project was last researched (filled in by Researcher)",
+      "notes_from_readme": null
+    }
+  ]
+}

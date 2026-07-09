@@ -1,0 +1,2395 @@
+{
+  "table_name": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1__electric_arc_furnaces",
+  "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "electric_arc_furnaces",
+  "n_rows": 1407,
+  "analyzed_at": "2026-07-07T21:45:22.646589+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 823,
+      "top_values": [
+        [
+          "P100000120501",
+          10
+        ],
+        [
+          "P100000120690",
+          9
+        ],
+        [
+          "P100000120365",
+          9
+        ],
+        [
+          "P100000120584",
+          8
+        ],
+        [
+          "P100001063692",
+          7
+        ],
+        [
+          "P100000120696",
+          7
+        ],
+        [
+          "P100000120833",
+          6
+        ],
+        [
+          "P100000120717",
+          6
+        ],
+        [
+          "P100000120583",
+          6
+        ],
+        [
+          "P100000120329",
+          6
+        ],
+        [
+          "P100000120188",
+          6
+        ],
+        [
+          "P100000120097",
+          6
+        ],
+        [
+          "P100000121070",
+          5
+        ],
+        [
+          "P100000121004",
+          5
+        ],
+        [
+          "P100000120812",
+          5
+        ],
+        [
+          "P100000120795",
+          5
+        ],
+        [
+          "P100000120697",
+          5
+        ],
+        [
+          "P100000120585",
+          5
+        ],
+        [
+          "P100000120510",
+          5
+        ],
+        [
+          "P100000120446",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 1407,
+      "top_values": [
+        [
+          "U100001092937",
+          1
+        ],
+        [
+          "U100001092936",
+          1
+        ],
+        [
+          "U100001092935",
+          1
+        ],
+        [
+          "U100001092932",
+          1
+        ],
+        [
+          "U100001092930",
+          1
+        ],
+        [
+          "U100001092920",
+          1
+        ],
+        [
+          "U100001092919",
+          1
+        ],
+        [
+          "U100001092814",
+          1
+        ],
+        [
+          "U100001092249",
+          1
+        ],
+        [
+          "U100001092178",
+          1
+        ],
+        [
+          "U100001091090",
+          1
+        ],
+        [
+          "U100001091089",
+          1
+        ],
+        [
+          "U100001091071",
+          1
+        ],
+        [
+          "U100001091010",
+          1
+        ],
+        [
+          "U100001090900",
+          1
+        ],
+        [
+          "U100001090899",
+          1
+        ],
+        [
+          "U100001090803",
+          1
+        ],
+        [
+          "U100001090644",
+          1
+        ],
+        [
+          "U100001074236",
+          1
+        ],
+        [
+          "U100001073947",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each induction furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 36,
+      "top_values": [
+        [
+          "unknown EAF (1)",
+          764
+        ],
+        [
+          "unknown EAF (2)",
+          304
+        ],
+        [
+          "unknown EAF (3)",
+          103
+        ],
+        [
+          "EAF 1",
+          48
+        ],
+        [
+          "unknown EAF (4)",
+          41
+        ],
+        [
+          "EAF 2",
+          41
+        ],
+        [
+          "unknown EAF (5)",
+          16
+        ],
+        [
+          "EAF 3",
+          16
+        ],
+        [
+          "unknown EAF (6)",
+          12
+        ],
+        [
+          "EAF 4",
+          12
+        ],
+        [
+          "EAF 5",
+          7
+        ],
+        [
+          "unknown EAF (7)",
+          6
+        ],
+        [
+          "unknown EAF (8)",
+          4
+        ],
+        [
+          "EAF 6",
+          4
+        ],
+        [
+          "unknown EAF (9)",
+          3
+        ],
+        [
+          "Unknown EAF (1)",
+          3
+        ],
+        [
+          "Unknown EAF (2)",
+          2
+        ],
+        [
+          "EAF 8",
+          2
+        ],
+        [
+          "EAF #1",
+          2
+        ],
+        [
+          "unknown EAF (10)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 823,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Krakatau_Steel_Cilegon_plant",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Wuzhou_Yongda_Iron_and_Steel_Co_Ltd",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Ch'ollima_Steel_Complex_steel_plant",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Mobarakeh_Steel_Complex_Isfahan",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Shandong_Jinguan_Metallurgical_Technology_Co_Ltd",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Hyundai_Steel_Incheon_steel_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/SABIC_Hadeed_Al_Jubail_steel_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Libyan_Iron_and_Steel_Misrata_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Khouzestan_Steel_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Jiangsu_Shagang_Iron_&_Steel_Co_Ltd",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guizhou_United_Iron_and_Steel_Group_Co_Ltd",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Chengdu_Changfeng_Iron_and_Steel_Group_Co_Ltd",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Sidor_Ciudad_Guayana_steel_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Natanz_Steel_Company_Isfahan_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Metalloinvest_OEMK_steel_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/JSW_BPSL_Jharsuguda_steel_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Industries_Qatar_Steel_Mesaieed_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Hyundai_Steel_Pohang_steel_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Hubei_Lijin_Steel_Group_Co_Ltd",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Daye_Special_Steel_Co_Ltd",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM wiki page.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 87,
+      "top_values": [
+        [
+          "China",
+          438
+        ],
+        [
+          "United States",
+          105
+        ],
+        [
+          "Iran",
+          93
+        ],
+        [
+          "India",
+          75
+        ],
+        [
+          "Japan",
+          49
+        ],
+        [
+          "Russia",
+          41
+        ],
+        [
+          "Türkiye",
+          40
+        ],
+        [
+          "South Korea",
+          40
+        ],
+        [
+          "Italy",
+          33
+        ],
+        [
+          "Mexico",
+          29
+        ],
+        [
+          "Germany",
+          29
+        ],
+        [
+          "Brazil",
+          22
+        ],
+        [
+          "Vietnam",
+          21
+        ],
+        [
+          "Spain",
+          21
+        ],
+        [
+          "Saudi Arabia",
+          21
+        ],
+        [
+          "Indonesia",
+          21
+        ],
+        [
+          "Egypt",
+          19
+        ],
+        [
+          "Malaysia",
+          15
+        ],
+        [
+          "Thailand",
+          14
+        ],
+        [
+          "Taiwan",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or territory.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit status",
+      "code_friendly_name_guess": "unit_status",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          904
+        ],
+        [
+          "announced",
+          187
+        ],
+        [
+          "construction",
+          101
+        ],
+        [
+          "retired",
+          96
+        ],
+        [
+          "mothballed",
+          42
+        ],
+        [
+          "cancelled",
+          40
+        ],
+        [
+          "operating pre-retirement",
+          35
+        ],
+        [
+          "mothballed pre-retirement",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Operating status of the induction furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Announced date",
+      "code_friendly_name_guess": "announced_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 122,
+      "top_values": [
+        [
+          "unknown",
+          1113
+        ],
+        [
+          "2021",
+          25
+        ],
+        [
+          "2022",
+          23
+        ],
+        [
+          "2018",
+          14
+        ],
+        [
+          "2023",
+          12
+        ],
+        [
+          "2024",
+          10
+        ],
+        [
+          "2021-12-01 00:00:00",
+          7
+        ],
+        [
+          "2016",
+          7
+        ],
+        [
+          "2024-01-01 00:00:00",
+          6
+        ],
+        [
+          "2021-10-01 00:00:00",
+          6
+        ],
+        [
+          "2019",
+          6
+        ],
+        [
+          "2017",
+          6
+        ],
+        [
+          "2022-06-01 00:00:00",
+          5
+        ],
+        [
+          "2021-07-01 00:00:00",
+          5
+        ],
+        [
+          "2007",
+          5
+        ],
+        [
+          "2022-12-01 00:00:00",
+          4
+        ],
+        [
+          "2022-03-01 00:00:00",
+          4
+        ],
+        [
+          "2022-01-01 00:00:00",
+          4
+        ],
+        [
+          "2021-11-01 00:00:00",
+          4
+        ],
+        [
+          "2008",
+          4
+        ]
+      ],
+      "portion_numeric": 0.102,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date of announcement/proposal of induction furnace in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Construction date",
+      "code_friendly_name_guess": "construction_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 76,
+      "top_values": [
+        [
+          "unknown",
+          1246
+        ],
+        [
+          "2022",
+          15
+        ],
+        [
+          "2024",
+          11
+        ],
+        [
+          "2023",
+          10
+        ],
+        [
+          "2018",
+          9
+        ],
+        [
+          "2025",
+          8
+        ],
+        [
+          "2026",
+          7
+        ],
+        [
+          "2020",
+          5
+        ],
+        [
+          "2025-04-09 00:00:00",
+          3
+        ],
+        [
+          "2024-09-01 00:00:00",
+          3
+        ],
+        [
+          "2024-04-01 00:00:00",
+          3
+        ],
+        [
+          "2022-06-01 00:00:00",
+          3
+        ],
+        [
+          "2019",
+          3
+        ],
+        [
+          "2012",
+          3
+        ],
+        [
+          "2008",
+          3
+        ],
+        [
+          "2025-09-01 00:00:00",
+          2
+        ],
+        [
+          "2025-07-01 00:00:00",
+          2
+        ],
+        [
+          "2025-01-01 00:00:00",
+          2
+        ],
+        [
+          "2024-12-01 00:00:00",
+          2
+        ],
+        [
+          "2024-08-01 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.08,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that construction on the induction furnace began in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 73,
+      "top_values": [
+        [
+          "unknown",
+          712
+        ],
+        [
+          "2026",
+          39
+        ],
+        [
+          "2027",
+          30
+        ],
+        [
+          "2030",
+          28
+        ],
+        [
+          "2024",
+          28
+        ],
+        [
+          "2023",
+          28
+        ],
+        [
+          "2013",
+          25
+        ],
+        [
+          "2025",
+          24
+        ],
+        [
+          "2022",
+          23
+        ],
+        [
+          "2019",
+          22
+        ],
+        [
+          "2020",
+          18
+        ],
+        [
+          "2007",
+          18
+        ],
+        [
+          "2021",
+          16
+        ],
+        [
+          "2018",
+          16
+        ],
+        [
+          "2011",
+          16
+        ],
+        [
+          "2005",
+          16
+        ],
+        [
+          "2012",
+          15
+        ],
+        [
+          "2029",
+          14
+        ],
+        [
+          "2010",
+          14
+        ],
+        [
+          "1997",
+          14
+        ]
+      ],
+      "portion_numeric": 0.494,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace began producing steel in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit age",
+      "code_friendly_name_guess": "unit_age",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "unknown",
+          712
+        ],
+        [
+          "N/A",
+          90
+        ],
+        [
+          "0",
+          39
+        ],
+        [
+          "3",
+          28
+        ],
+        [
+          "2",
+          28
+        ],
+        [
+          "13",
+          25
+        ],
+        [
+          "1",
+          24
+        ],
+        [
+          "4",
+          23
+        ],
+        [
+          "7",
+          22
+        ],
+        [
+          "6",
+          18
+        ],
+        [
+          "19",
+          18
+        ],
+        [
+          "8",
+          16
+        ],
+        [
+          "5",
+          16
+        ],
+        [
+          "21",
+          16
+        ],
+        [
+          "15",
+          16
+        ],
+        [
+          "14",
+          15
+        ],
+        [
+          "29",
+          14
+        ],
+        [
+          "16",
+          14
+        ],
+        [
+          "33",
+          13
+        ],
+        [
+          "30",
+          13
+        ]
+      ],
+      "portion_numeric": 0.4717,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Age of induction furnace in years.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Pre-retirement announcement date",
+      "code_friendly_name_guess": "pre_retirement_announcement_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "unknown",
+          1309
+        ],
+        [
+          "2023",
+          6
+        ],
+        [
+          "2022",
+          6
+        ],
+        [
+          "2021-10-01 00:00:00",
+          6
+        ],
+        [
+          "2021",
+          5
+        ],
+        [
+          "2018",
+          5
+        ],
+        [
+          "2017",
+          5
+        ],
+        [
+          "2017-12-06 00:00:00",
+          4
+        ],
+        [
+          "2017-12-01 00:00:00",
+          4
+        ],
+        [
+          "2022-04-02 00:00:00",
+          3
+        ],
+        [
+          "2022-01-21 00:00:00",
+          3
+        ],
+        [
+          "2024-07-22 00:00:00",
+          2
+        ],
+        [
+          "2024-07-18 00:00:00",
+          2
+        ],
+        [
+          "2023-07-14 00:00:00",
+          2
+        ],
+        [
+          "2022-12-01 00:00:00",
+          2
+        ],
+        [
+          "2022-11-29 00:00:00",
+          2
+        ],
+        [
+          "2022-08-01 00:00:00",
+          2
+        ],
+        [
+          "2022-02-14 00:00:00",
+          2
+        ],
+        [
+          "2021-12-01 00:00:00",
+          2
+        ],
+        [
+          "2021-11-26 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.018,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date the company announced its plans to retire the induction furnace in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Idled date",
+      "code_friendly_name_guess": "idled_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "unknown",
+          1372
+        ],
+        [
+          "2023-08-01 00:00:00",
+          4
+        ],
+        [
+          "2013",
+          4
+        ],
+        [
+          "2025",
+          3
+        ],
+        [
+          "2022",
+          3
+        ],
+        [
+          "2024-07-01 00:00:00",
+          2
+        ],
+        [
+          "2021-03-01 00:00:00",
+          2
+        ],
+        [
+          "2020",
+          2
+        ],
+        [
+          "2017",
+          2
+        ],
+        [
+          "2016",
+          2
+        ],
+        [
+          "2025-07-01 00:00:00",
+          1
+        ],
+        [
+          "2025-01-01 00:00:00",
+          1
+        ],
+        [
+          "2024-08-01 00:00:00",
+          1
+        ],
+        [
+          "2024-04-01 00:00:00",
+          1
+        ],
+        [
+          "2022-02-01 00:00:00",
+          1
+        ],
+        [
+          "2021",
+          1
+        ],
+        [
+          "2020-11-01 00:00:00",
+          1
+        ],
+        [
+          "2020-06-01 00:00:00",
+          1
+        ],
+        [
+          "2014",
+          1
+        ],
+        [
+          "2008",
+          1
+        ]
+      ],
+      "portion_numeric": 0.01,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Retired date",
+      "code_friendly_name_guess": "retired_date",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "unknown",
+          1300
+        ],
+        [
+          "2022",
+          12
+        ],
+        [
+          "2023",
+          11
+        ],
+        [
+          "2021",
+          8
+        ],
+        [
+          "2026",
+          7
+        ],
+        [
+          "2019",
+          6
+        ],
+        [
+          "2024",
+          5
+        ],
+        [
+          "2025-10-01 00:00:00",
+          4
+        ],
+        [
+          "2023-11-01 00:00:00",
+          4
+        ],
+        [
+          "2025-11-01 00:00:00",
+          3
+        ],
+        [
+          "2025-05-01 00:00:00",
+          3
+        ],
+        [
+          "2028",
+          2
+        ],
+        [
+          "2027",
+          2
+        ],
+        [
+          "2025-09-01 00:00:00",
+          2
+        ],
+        [
+          "2025",
+          2
+        ],
+        [
+          "2024-10-01 00:00:00",
+          2
+        ],
+        [
+          "2024-06-19 00:00:00",
+          2
+        ],
+        [
+          "2024-02-01 00:00:00",
+          2
+        ],
+        [
+          "2023-06-01 00:00:00",
+          2
+        ],
+        [
+          "2022-10-01 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.03,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that induction furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace manufacturer",
+      "code_friendly_name_guess": "furnace_manufacturer",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 107,
+      "top_values": [
+        [
+          "unknown",
+          1004
+        ],
+        [
+          "Danieli",
+          111
+        ],
+        [
+          "Tenova",
+          31
+        ],
+        [
+          "Primetals",
+          22
+        ],
+        [
+          "SMS",
+          16
+        ],
+        [
+          "Fuchs",
+          15
+        ],
+        [
+          "Tagliaferri",
+          12
+        ],
+        [
+          "Demag",
+          12
+        ],
+        [
+          "Steel Plantech",
+          10
+        ],
+        [
+          "SMS Demag",
+          9
+        ],
+        [
+          "MAN GHH",
+          8
+        ],
+        [
+          "Siemens VAI",
+          7
+        ],
+        [
+          "SMS Group",
+          7
+        ],
+        [
+          "Sarralle",
+          6
+        ],
+        [
+          "SMS Concast",
+          5
+        ],
+        [
+          "Demag, Rev. Superior Machine",
+          5
+        ],
+        [
+          "Voestalpine",
+          4
+        ],
+        [
+          "SMS Siemag",
+          4
+        ],
+        [
+          "Nikko Kobe",
+          4
+        ],
+        [
+          "NKK",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The company that manufactured the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace model",
+      "code_friendly_name_guess": "furnace_model",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 98,
+      "top_values": [
+        [
+          "unknown",
+          1246
+        ],
+        [
+          "Consteel",
+          22
+        ],
+        [
+          "Digimelter",
+          11
+        ],
+        [
+          "EBT",
+          7
+        ],
+        [
+          "Quantum EAF",
+          4
+        ],
+        [
+          "High Alloy Electric Furnace",
+          4
+        ],
+        [
+          "DC",
+          4
+        ],
+        [
+          "ECOARC",
+          3
+        ],
+        [
+          "Zerobucket",
+          2
+        ],
+        [
+          "STARQ",
+          2
+        ],
+        [
+          "SMS-SHARC",
+          2
+        ],
+        [
+          "Q-One Technology",
+          2
+        ],
+        [
+          "FastArc",
+          2
+        ],
+        [
+          "FASTARC",
+          2
+        ],
+        [
+          "Electric smelting furnace (Smelter)",
+          2
+        ],
+        [
+          "EDGE",
+          2
+        ],
+        [
+          "EAF Quantum",
+          2
+        ],
+        [
+          "Danieli Danarc",
+          2
+        ],
+        [
+          "Danarc",
+          2
+        ],
+        [
+          "DC furnace",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The specific model of the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current capacity (ttpa)",
+      "code_friendly_name_guess": "current_capacity_ttpa",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 256,
+      "top_values": [
+        [
+          "1000",
+          120
+        ],
+        [
+          "500",
+          99
+        ],
+        [
+          "1500",
+          56
+        ],
+        [
+          "1200",
+          53
+        ],
+        [
+          "750",
+          51
+        ],
+        [
+          "600",
+          49
+        ],
+        [
+          "360",
+          45
+        ],
+        [
+          "800",
+          39
+        ],
+        [
+          "700",
+          39
+        ],
+        [
+          "400",
+          37
+        ],
+        [
+          "300",
+          24
+        ],
+        [
+          "1250",
+          24
+        ],
+        [
+          "650",
+          23
+        ],
+        [
+          "2000",
+          23
+        ],
+        [
+          "1100",
+          23
+        ],
+        [
+          "900",
+          20
+        ],
+        [
+          "260",
+          19
+        ],
+        [
+          "1300",
+          19
+        ],
+        [
+          "550",
+          18
+        ],
+        [
+          "575",
+          17
+        ]
+      ],
+      "portion_numeric": 0.996,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current size (tonnes)",
+      "code_friendly_name_guess": "current_size_tonnes",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 100,
+      "top_values": [
+        [
+          "unknown",
+          364
+        ],
+        [
+          "100",
+          134
+        ],
+        [
+          "70",
+          87
+        ],
+        [
+          "50",
+          80
+        ],
+        [
+          "120",
+          62
+        ],
+        [
+          "150",
+          50
+        ],
+        [
+          "75",
+          45
+        ],
+        [
+          "80",
+          44
+        ],
+        [
+          "60",
+          40
+        ],
+        [
+          "40",
+          39
+        ],
+        [
+          "90",
+          37
+        ],
+        [
+          "110",
+          31
+        ],
+        [
+          "45",
+          27
+        ],
+        [
+          "200",
+          24
+        ],
+        [
+          "180",
+          23
+        ],
+        [
+          "130",
+          23
+        ],
+        [
+          "160",
+          22
+        ],
+        [
+          "35",
+          21
+        ],
+        [
+          "140",
+          20
+        ],
+        [
+          "105",
+          16
+        ]
+      ],
+      "portion_numeric": 0.726,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The size of the unit in tonnes, or the amount of liquid steel it can process per batch.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Scrap-based",
+      "code_friendly_name_guess": "scrap_based",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "yes",
+          1103
+        ],
+        [
+          "unknown",
+          267
+        ],
+        [
+          "no",
+          37
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "yes or \"no\" to indicate whether the unit typically operates with some amount of scrap as charge.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% scrap",
+      "code_friendly_name_guess": "scrap",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 65,
+      "top_values": [
+        [
+          ">0",
+          484
+        ],
+        [
+          "1",
+          273
+        ],
+        [
+          "unknown",
+          267
+        ],
+        [
+          "0",
+          37
+        ],
+        [
+          "0.9",
+          30
+        ],
+        [
+          "0.2",
+          19
+        ],
+        [
+          "0.95",
+          16
+        ],
+        [
+          "0.1",
+          16
+        ],
+        [
+          "0.98",
+          14
+        ],
+        [
+          "0.97",
+          12
+        ],
+        [
+          "0.7",
+          12
+        ],
+        [
+          "0.99",
+          11
+        ],
+        [
+          "0.93",
+          11
+        ],
+        [
+          "0.6",
+          11
+        ],
+        [
+          "0.96",
+          10
+        ],
+        [
+          "0.75",
+          9
+        ],
+        [
+          "0.3",
+          9
+        ],
+        [
+          "0.09",
+          8
+        ],
+        [
+          "0.08",
+          8
+        ],
+        [
+          "0.94",
+          7
+        ]
+      ],
+      "portion_numeric": 0.452,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as scrap metal.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% DRI",
+      "code_friendly_name_guess": "dri",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "unknown",
+          775
+        ],
+        [
+          "0",
+          379
+        ],
+        [
+          ">0",
+          139
+        ],
+        [
+          "0.8",
+          21
+        ],
+        [
+          "1",
+          17
+        ],
+        [
+          "0.9",
+          15
+        ],
+        [
+          "0.75",
+          7
+        ],
+        [
+          "0.7",
+          6
+        ],
+        [
+          "0.98",
+          5
+        ],
+        [
+          "0.55",
+          5
+        ],
+        [
+          "0.97",
+          4
+        ],
+        [
+          "0.92",
+          4
+        ],
+        [
+          "0.15",
+          4
+        ],
+        [
+          "0.95",
+          3
+        ],
+        [
+          "0.61",
+          3
+        ],
+        [
+          "0.5",
+          3
+        ],
+        [
+          "0.91",
+          2
+        ],
+        [
+          "0.73",
+          2
+        ],
+        [
+          "0.49",
+          2
+        ],
+        [
+          "0.16",
+          2
+        ]
+      ],
+      "portion_numeric": 0.344,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as DRI.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% HBI",
+      "code_friendly_name_guess": "hbi",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "unknown",
+          861
+        ],
+        [
+          "0",
+          469
+        ],
+        [
+          ">0",
+          64
+        ],
+        [
+          "0.1",
+          3
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "0.12",
+          2
+        ],
+        [
+          "0.8",
+          1
+        ],
+        [
+          "0.3",
+          1
+        ],
+        [
+          "0.18",
+          1
+        ],
+        [
+          "0.15",
+          1
+        ],
+        [
+          "0.05",
+          1
+        ],
+        [
+          "0.02",
+          1
+        ]
+      ],
+      "portion_numeric": 0.33,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:9_values_below_1pct"
+      ],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as HBI.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% sponge iron (unknown if DRI or HBI)",
+      "code_friendly_name_guess": "sponge_iron_unknown_if_dri_or_hbi",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "unknown",
+          869
+        ],
+        [
+          "0",
+          493
+        ],
+        [
+          ">0",
+          6
+        ],
+        [
+          "1",
+          6
+        ],
+        [
+          "0.92",
+          6
+        ],
+        [
+          "0.91",
+          5
+        ],
+        [
+          "0.6",
+          5
+        ],
+        [
+          "0.95",
+          3
+        ],
+        [
+          "0.2",
+          3
+        ],
+        [
+          "0.8",
+          2
+        ],
+        [
+          "0.98",
+          1
+        ],
+        [
+          "0.9",
+          1
+        ],
+        [
+          "0.75",
+          1
+        ],
+        [
+          "0.67",
+          1
+        ],
+        [
+          "0.5",
+          1
+        ],
+        [
+          "0.4",
+          1
+        ],
+        [
+          "0.3",
+          1
+        ],
+        [
+          "0.15",
+          1
+        ],
+        [
+          "0.02",
+          1
+        ]
+      ],
+      "portion_numeric": 0.358,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:17_values_below_1pct"
+      ],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as sponge iron that has not been specified as either DRI or HBI.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% basic/merchant pig iron",
+      "code_friendly_name_guess": "basic_merchant_pig_iron",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "unknown",
+          794
+        ],
+        [
+          "0",
+          453
+        ],
+        [
+          ">0",
+          125
+        ],
+        [
+          "0.4",
+          5
+        ],
+        [
+          "0.38",
+          3
+        ],
+        [
+          "0.07",
+          3
+        ],
+        [
+          "0.02",
+          3
+        ],
+        [
+          "0.6",
+          2
+        ],
+        [
+          "0.55",
+          2
+        ],
+        [
+          "0.49",
+          2
+        ],
+        [
+          "0.25",
+          2
+        ],
+        [
+          "0.1",
+          2
+        ],
+        [
+          "0.93",
+          1
+        ],
+        [
+          "0.7",
+          1
+        ],
+        [
+          "0.57",
+          1
+        ],
+        [
+          "0.5",
+          1
+        ],
+        [
+          "0.37",
+          1
+        ],
+        [
+          "0.35",
+          1
+        ],
+        [
+          "0.33",
+          1
+        ],
+        [
+          "0.3",
+          1
+        ]
+      ],
+      "portion_numeric": 0.326,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:20_values_below_1pct"
+      ],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as basic/merchant pig iron.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% granulated pig iron",
+      "code_friendly_name_guess": "granulated_pig_iron",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "unknown",
+          910
+        ],
+        [
+          "0",
+          485
+        ],
+        [
+          ">0",
+          6
+        ],
+        [
+          "0.83",
+          3
+        ],
+        [
+          "0.85",
+          1
+        ],
+        [
+          "0.71",
+          1
+        ],
+        [
+          "0.13",
+          1
+        ]
+      ],
+      "portion_numeric": 0.33,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as granulated pig iron.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% pig iron (unknown if basic/merchant or granulated)",
+      "code_friendly_name_guess": "pig_iron_unknown_if_basic_merchant_or_granulated",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "unknown",
+          861
+        ],
+        [
+          "0",
+          492
+        ],
+        [
+          ">0",
+          18
+        ],
+        [
+          "0.3",
+          4
+        ],
+        [
+          "0.07",
+          4
+        ],
+        [
+          "1",
+          3
+        ],
+        [
+          "0.22",
+          3
+        ],
+        [
+          "0.1",
+          3
+        ],
+        [
+          "0.21",
+          2
+        ],
+        [
+          "0.05",
+          2
+        ],
+        [
+          "0.85",
+          1
+        ],
+        [
+          "0.65",
+          1
+        ],
+        [
+          "0.4",
+          1
+        ],
+        [
+          "0.37",
+          1
+        ],
+        [
+          "0.25",
+          1
+        ],
+        [
+          "0.23",
+          1
+        ],
+        [
+          "0.2",
+          1
+        ],
+        [
+          "0.16",
+          1
+        ],
+        [
+          "0.15",
+          1
+        ],
+        [
+          "0.12",
+          1
+        ]
+      ],
+      "portion_numeric": 0.358,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as pig iron that has not been specified as either basic/merchant pig iron or granulated pig iron.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% other iron",
+      "code_friendly_name_guess": "other_iron",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 40,
+      "top_values": [
+        [
+          "unknown",
+          749
+        ],
+        [
+          "0",
+          473
+        ],
+        [
+          "0.1",
+          27
+        ],
+        [
+          "0.05",
+          19
+        ],
+        [
+          "0.03",
+          12
+        ],
+        [
+          "0.01",
+          12
+        ],
+        [
+          "0.02",
+          11
+        ],
+        [
+          "0.04",
+          9
+        ],
+        [
+          "0.2",
+          7
+        ],
+        [
+          "0.07",
+          7
+        ],
+        [
+          "0.3",
+          5
+        ],
+        [
+          "0.28",
+          5
+        ],
+        [
+          "0.27",
+          5
+        ],
+        [
+          "0.25",
+          5
+        ],
+        [
+          "0.11",
+          5
+        ],
+        [
+          "0.06",
+          5
+        ],
+        [
+          "0.4",
+          4
+        ],
+        [
+          "0.21",
+          4
+        ],
+        [
+          "0.16",
+          4
+        ],
+        [
+          "0.15",
+          4
+        ]
+      ],
+      "portion_numeric": 0.452,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The typical percent IF feedstock that is supplied as another unspecified iron source.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "% known total",
+      "code_friendly_name_guess": "known_total",
+      "n_total": 1407,
+      "n_null": 0,
+      "n_non_null": 1407,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "0",
+          747
+        ],
+        [
+          "1",
+          660
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The sum of all feedstocks used in the unit; the total of the fields % scrap, % DRI, % HBI, % sponge iron (unknown if DRI or HBI), % basic/merchant pig iron, % granulated pig iron, % pig iron (unknown if basic/merchant pig iron or granulated pig iron), and % other iron will add to 100%. If no data is available, they will add to 0%.",
+      "notes_from_readme": null
+    }
+  ]
+}

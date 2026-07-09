@@ -1,0 +1,384 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_solar",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_solar",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.178558+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Solar Power Tracker - February 2026",
+      "code_friendly_name_guess": "global_solar_power_tracker_february_2026",
+      "n_total": 999,
+      "n_null": 940,
+      "n_non_null": 59,
+      "null_rate": 0.9409,
+      "n_unique": 51,
+      "top_values": [
+        [
+          "Status",
+          9
+        ],
+        [
+          "Year",
+          1
+        ],
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Utility-scale",
+          1
+        ],
+        [
+          "Thresholds for Data Categories",
+          1
+        ],
+        [
+          "This update covers research across the entire globe.",
+          1
+        ],
+        [
+          "Technology Type",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "State/Province",
+          1
+        ],
+        [
+          "Start year",
+          1
+        ],
+        [
+          "Retired year",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Records with a WKSL ID in the Other IDs (unit/phase) column were partially or fully sourced from the wiki-solar.org April, 2023 proprietary dataset.",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Solar Power Tracker, February 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Project Name in Local Language / Script",
+          1
+        ],
+        [
+          "Project Name",
+          1
+        ],
+        [
+          "Please note records with a “TZ ID” in the Other IDs (unit/phase) column were partially or fully sourced from the TransitionZero, Solar Asset Mapper, August 2025. \nCopyright © TransitionZero, Solar Asset Mapper, August 2025. Distributed under a Creative Commons Attribution-Non-Commercial 4.0 International License (CC BY-NC 4.0).",
+          1
+        ],
+        [
+          "Phase Name",
+          1
+        ],
+        [
+          "Owner Name in Local Language / Script",
+          1
+        ],
+        [
+          "Owner",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 954,
+      "n_non_null": 45,
+      "null_rate": 0.955,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "n/a",
+          18
+        ],
+        [
+          "yyyy",
+          3
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "True, blank",
+          2
+        ],
+        [
+          "yyyy/mm/dd",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "see above",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ],
+        [
+          "approximate, exact",
+          1
+        ],
+        [
+          "announced",
+          1
+        ],
+        [
+          "Units",
+          1
+        ],
+        [
+          "PV, Solar Thermal, Assumed PV",
+          1
+        ],
+        [
+          "Megawatt (MW)",
+          1
+        ],
+        [
+          "MWac, MWp/dc, unknown",
+          1
+        ],
+        [
+          "Less than 1 MW nominally. Refer to wiki pages for specific methodologies and definitions used for each country.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 956,
+      "n_non_null": 43,
+      "null_rate": 0.957,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "see rows 20-27 above",
+          1
+        ],
+        [
+          "Year the project is or is expected to be commissioned",
+          1
+        ],
+        [
+          "Year the plant is or is expected to be taken offline",
+          1
+        ],
+        [
+          "Unit or Phase identifier from external datasets",
+          1
+        ],
+        [
+          "URL of existing, footnoted factsheet GEM.wiki page",
+          1
+        ],
+        [
+          "True if a project phase is dedicated for green hydrogen production",
+          1
+        ],
+        [
+          "True if a project phase has existing or planned co-located storage",
+          1
+        ],
+        [
+          "The reported capacity rating, unknown selected if not provided",
+          1
+        ],
+        [
+          "The company that operates the project",
+          1
+        ],
+        [
+          "The company that directly owns the plant",
+          1
+        ],
+        [
+          "Suspension announced. The status is marked as \"shelved - inferred 2y\" if no updates have been published in 2 or more years.",
+          1
+        ],
+        [
+          "Subregion location based on United Nations definition",
+          1
+        ],
+        [
+          "Subnational unit where project is located",
+          1
+        ],
+        [
+          "Region location based on United Nations definition",
+          1
+        ],
+        [
+          "Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase 2” at a location where “Phase 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents.",
+          1
+        ],
+        [
+          "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+          1
+        ],
+        [
+          "Prefecture, district, or municipality (China) where project is located",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",
+          1
+        ],
+        [
+          "Longitude, assumed WGS84 (google maps), of the project phase",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 981,
+      "n_non_null": 18,
+      "null_rate": 0.982,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "If there are multiple external datasets, entries are comma separated.",
+          2
+        ],
+        [
+          "The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
+          1
+        ],
+        [
+          "Specific to distributed solar tab.",
+          1
+        ],
+        [
+          "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used.",
+          1
+        ],
+        [
+          "Projects for which no information could be found specifying the technology type are listed as \"Assumed PV\" because PV is by far the most common technology.",
+          1
+        ],
+        [
+          "Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of L812345 is now L100000812345.",
+          1
+        ],
+        [
+          "Previous GEM ID numbers have been preserved from releases prior to 2024. For example, a previous GEM ID of G812345 is now G100000812345.",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken, or the name was generated based on project location.",
+          1
+        ],
+        [
+          "Please refer to \"Thresholds for Data Categories\" section above.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Locations feature 4 decimal places for Latitude and Longitude fields.",
+          1
+        ],
+        [
+          "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible.",
+          1
+        ],
+        [
+          "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible.",
+          1
+        ],
+        [
+          "Latest date was taken when original data source provided a range; Start years not included for projects that are cancelled or shelved.",
+          1
+        ],
+        [
+          "Company that performs day-to-day operations and maintenance of the project.",
+          1
+        ],
+        [
+          "Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

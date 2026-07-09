@@ -1,0 +1,1438 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__coal_terminals",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "coal_terminals",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.232055+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Coal Terminal Name",
+      "code_friendly_name_guess": "coal_terminal_name",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "Puerto Brisa Coal Terminal",
+          2
+        ],
+        [
+          "Port of Buenaventura Coal Terminal",
+          2
+        ],
+        [
+          "Santa Cruz de Mara Export Terminal",
+          1
+        ],
+        [
+          "Rio Cordoba Coal Port",
+          1
+        ],
+        [
+          "Puerto de Quintero Coal Terminal",
+          1
+        ],
+        [
+          "Puerto de Coronel Coal Terminal",
+          1
+        ],
+        [
+          "Puerto Prodeco Coal Port",
+          1
+        ],
+        [
+          "Puerto Nuevo Coal Terminal",
+          1
+        ],
+        [
+          "Puerto Industrial Aguadulce Coal Terminal",
+          1
+        ],
+        [
+          "Puerto Drummond Coal Port",
+          1
+        ],
+        [
+          "Puerto Bolivar Coal Export Terminal",
+          1
+        ],
+        [
+          "Puerto América Export Terminal",
+          1
+        ],
+        [
+          "Port of Tubarão Coal Terminal",
+          1
+        ],
+        [
+          "Port of Quetzal San José Coal Terminal",
+          1
+        ],
+        [
+          "Port of Pecém Coal Terminal",
+          1
+        ],
+        [
+          "Port of Mejillones Coal Terminal",
+          1
+        ],
+        [
+          "Port of Mamonal Coal Terminal",
+          1
+        ],
+        [
+          "Port of Lázaro Cárdenas Coal Terminal",
+          1
+        ],
+        [
+          "Port of La Ceiba Coal Terminal",
+          1
+        ],
+        [
+          "Port of Huasco Coal Terminal",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Terminal Name (detail or other)",
+      "code_friendly_name_guess": "coal_terminal_name_detail_or_other",
+      "n_total": 999,
+      "n_null": 973,
+      "n_non_null": 26,
+      "null_rate": 0.974,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "Terminal de Carbón de Puerto Brisa",
+          2
+        ],
+        [
+          "Puerto de Buenaventura",
+          2
+        ],
+        [
+          "Terminal de Exportación de Santa Cruz de Mara",
+          1
+        ],
+        [
+          "Terminal de Exportación de Puerto América",
+          1
+        ],
+        [
+          "Terminal de Exportación de Carbón de Puerto Bolívar",
+          1
+        ],
+        [
+          "Terminal de Carbón de Puerto Nuevo",
+          1
+        ],
+        [
+          "Terminal Puerto Industrial Aguadulce",
+          1
+        ],
+        [
+          "Sociedad Portuaria de Santa Marta",
+          1
+        ],
+        [
+          "Puerto de carbón de Puerto Drummond",
+          1
+        ],
+        [
+          "Puerto de Mejillones",
+          1
+        ],
+        [
+          "Puerto de Lázaro Cárdenas",
+          1
+        ],
+        [
+          "Puerto de Huasco; Guacolda 1 Terminal",
+          1
+        ],
+        [
+          "Puerto de Guaymas",
+          1
+        ],
+        [
+          "Puerto de Coronel",
+          1
+        ],
+        [
+          "Puerto de Cartagena",
+          1
+        ],
+        [
+          "Puerto de Carbón de Río Córdoba",
+          1
+        ],
+        [
+          "Puerto de Carbón de Puerto Prodeco",
+          1
+        ],
+        [
+          "Puerto de Barranquilla",
+          1
+        ],
+        [
+          "Puerto Quetzal San José Terminal",
+          1
+        ],
+        [
+          "Puerto La Ceiba",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Parent Port Name",
+      "code_friendly_name_guess": "parent_port_name",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "-",
+          3
+        ],
+        [
+          "Puerto Brisa",
+          2
+        ],
+        [
+          "Port of Buenaventura",
+          2
+        ],
+        [
+          "Puerto Ventanas",
+          1
+        ],
+        [
+          "Puerto Nuevo",
+          1
+        ],
+        [
+          "Puerto Mamonal",
+          1
+        ],
+        [
+          "Puerto Industrial Aguadulce",
+          1
+        ],
+        [
+          "Puerto Drummond",
+          1
+        ],
+        [
+          "Puerto Bolívar",
+          1
+        ],
+        [
+          "Port of Rio Cordoba",
+          1
+        ],
+        [
+          "Port of Quetzal San José",
+          1
+        ],
+        [
+          "Port of Pecém",
+          1
+        ],
+        [
+          "Port of Mejillones",
+          1
+        ],
+        [
+          "Port of Lázaro Cárdenas",
+          1
+        ],
+        [
+          "Port of La Ceiba",
+          1
+        ],
+        [
+          "Port of Huasco",
+          1
+        ],
+        [
+          "Port of Guaymas",
+          1
+        ],
+        [
+          "Port of Coronel",
+          1
+        ],
+        [
+          "Port of Cartagena",
+          1
+        ],
+        [
+          "Port of Barranquilla",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Puerto_Brisa_coal_terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Buenaventura",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Santa_Cruz_de_Mara_export_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Rio_Cordoba_coal_port",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_de_Coronel_Coal_Terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Prodeco_coal_port",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Nuevo_coal_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Industrial_Aguadulce",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Drummond_coal_port",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Bolivar_coal_export_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Am%C3%A9rica_export_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Tubarao",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Quintero",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Quetzal_San_Jos%C3%A9_Terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Pec%C3%A9m",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Mejillones",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Mamonal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_La_Ceiba",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_L%C3%A1zaro_C%C3%A1rdenas",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Huasco",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Operating",
+          17
+        ],
+        [
+          "Retired",
+          5
+        ],
+        [
+          "Shelved",
+          2
+        ],
+        [
+          "Proposed",
+          1
+        ],
+        [
+          "Mothballed",
+          1
+        ],
+        [
+          "Cancelled",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Type",
+      "code_friendly_name_guess": "project_type",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Expansion",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "-",
+          4
+        ],
+        [
+          "Sociedad Portuaria Regional de Buenaventura S.A.",
+          2
+        ],
+        [
+          "Sociedad Portuaria Puerto Brisa S.A.",
+          2
+        ],
+        [
+          "Yıldırım Group",
+          1
+        ],
+        [
+          "Sociedad Portuaria de Barranquilla S.A.",
+          1
+        ],
+        [
+          "Quetzal Port Company",
+          1
+        ],
+        [
+          "Puerto de Mamonal S.A.",
+          1
+        ],
+        [
+          "Puerto Ventanas",
+          1
+        ],
+        [
+          "Prodeco Group",
+          1
+        ],
+        [
+          "Murray Energy Corporation",
+          1
+        ],
+        [
+          "MEXPORT Coal & Minerals Terminal",
+          1
+        ],
+        [
+          "Glenco International",
+          1
+        ],
+        [
+          "Drummond Ltd.",
+          1
+        ],
+        [
+          "Development Company of the Industrial and Port Complex of Pecém, Port of Rotterdam",
+          1
+        ],
+        [
+          "Complejo Portuario Mejillones",
+          1
+        ],
+        [
+          "Compas, Sociedad Puerto Industrial Aguadulce S.A.",
+          1
+        ],
+        [
+          "Compania Puerto de Coronel SA",
+          1
+        ],
+        [
+          "Cerrejon Coal Company ",
+          1
+        ],
+        [
+          "Carbosan",
+          1
+        ],
+        [
+          "Carbones del Guasare",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Capacity (Mt)",
+      "code_friendly_name_guess": "capacity_mt",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "*",
+          7
+        ],
+        [
+          "30.0",
+          3
+        ],
+        [
+          "20.0",
+          3
+        ],
+        [
+          "12.0",
+          2
+        ],
+        [
+          "8.0",
+          1
+        ],
+        [
+          "7.0",
+          1
+        ],
+        [
+          "60.0",
+          1
+        ],
+        [
+          "5.4",
+          1
+        ],
+        [
+          "40.0",
+          1
+        ],
+        [
+          "35.0",
+          1
+        ],
+        [
+          "3.5",
+          1
+        ],
+        [
+          "25.7",
+          1
+        ],
+        [
+          "2.2",
+          1
+        ],
+        [
+          "2.0",
+          1
+        ],
+        [
+          "1.73",
+          1
+        ],
+        [
+          "0.6",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Product Type",
+      "code_friendly_name_guess": "product_type",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Coal",
+          25
+        ],
+        [
+          "All Cargo",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Terminal Type",
+      "code_friendly_name_guess": "terminal_type",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exports",
+          19
+        ],
+        [
+          "Imports",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "-",
+          20
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2008.0",
+          1
+        ],
+        [
+          "2001.0",
+          1
+        ],
+        [
+          "1966.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "-",
+          25
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 999,
+      "n_null": 985,
+      "n_non_null": 14,
+      "null_rate": 0.986,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Ciénaga",
+          3
+        ],
+        [
+          "Buenaventura",
+          3
+        ],
+        [
+          "Santa Marta",
+          2
+        ],
+        [
+          "Tubarão",
+          1
+        ],
+        [
+          "San José",
+          1
+        ],
+        [
+          "Guaymas",
+          1
+        ],
+        [
+          "Dibulla",
+          1
+        ],
+        [
+          "Cartagena",
+          1
+        ],
+        [
+          "Barranquilla",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Magdalena",
+          5
+        ],
+        [
+          "La Guajira",
+          4
+        ],
+        [
+          "Valle del Cauca",
+          3
+        ],
+        [
+          "Zulia",
+          2
+        ],
+        [
+          "Bolívar",
+          2
+        ],
+        [
+          "Valparaiso",
+          1
+        ],
+        [
+          "Trujillo",
+          1
+        ],
+        [
+          "Sonora",
+          1
+        ],
+        [
+          "Michoacán",
+          1
+        ],
+        [
+          "Espirito Santo",
+          1
+        ],
+        [
+          "Escuintla",
+          1
+        ],
+        [
+          "Ceará",
+          1
+        ],
+        [
+          "Biobio",
+          1
+        ],
+        [
+          "Atlántico",
+          1
+        ],
+        [
+          "Atacama",
+          1
+        ],
+        [
+          "Antofagasta",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Colombia",
+          15
+        ],
+        [
+          "Chile",
+          4
+        ],
+        [
+          "Venezuela",
+          3
+        ],
+        [
+          "Mexico",
+          2
+        ],
+        [
+          "Brazil",
+          2
+        ],
+        [
+          "Guatemala",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "3.883056",
+          2
+        ],
+        [
+          "11.261433",
+          2
+        ],
+        [
+          "9.46329",
+          1
+        ],
+        [
+          "3.903983",
+          1
+        ],
+        [
+          "27.92239705",
+          1
+        ],
+        [
+          "17.940522",
+          1
+        ],
+        [
+          "13.92921962",
+          1
+        ],
+        [
+          "12.250618",
+          1
+        ],
+        [
+          "11.2615818",
+          1
+        ],
+        [
+          "11.252104",
+          1
+        ],
+        [
+          "11.22004",
+          1
+        ],
+        [
+          "11.113144",
+          1
+        ],
+        [
+          "11.059034",
+          1
+        ],
+        [
+          "11.050268",
+          1
+        ],
+        [
+          "10.996649",
+          1
+        ],
+        [
+          "10.964787",
+          1
+        ],
+        [
+          "10.803167",
+          1
+        ],
+        [
+          "10.4055141",
+          1
+        ],
+        [
+          "10.340631",
+          1
+        ],
+        [
+          "-37.03247788",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "-77.055278",
+          2
+        ],
+        [
+          "-73.381748",
+          2
+        ],
+        [
+          "-90.79623589",
+          1
+        ],
+        [
+          "-77.085408",
+          1
+        ],
+        [
+          "-75.5345249",
+          1
+        ],
+        [
+          "-75.505514",
+          1
+        ],
+        [
+          "-74.75647",
+          1
+        ],
+        [
+          "-74.24114",
+          1
+        ],
+        [
+          "-74.228486",
+          1
+        ],
+        [
+          "-74.222975",
+          1
+        ],
+        [
+          "-74.222774",
+          1
+        ],
+        [
+          "-74.219204",
+          1
+        ],
+        [
+          "-73.4039497",
+          1
+        ],
+        [
+          "-73.16581075",
+          1
+        ],
+        [
+          "-71.963718",
+          1
+        ],
+        [
+          "-71.679268",
+          1
+        ],
+        [
+          "-71.61499",
+          1
+        ],
+        [
+          "-71.48615533",
+          1
+        ],
+        [
+          "-71.24963346",
+          1
+        ],
+        [
+          "-71.067476",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          25
+        ],
+        [
+          "Approximate",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Source",
+      "code_friendly_name_guess": "coal_source",
+      "n_total": 999,
+      "n_null": 983,
+      "n_non_null": 16,
+      "null_rate": 0.984,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Colombia",
+          4
+        ],
+        [
+          "Cienaga, Colombia",
+          3
+        ],
+        [
+          "Puerto Bolivar, Colombia",
+          1
+        ],
+        [
+          "Powder River Basin, other USA locations",
+          1
+        ],
+        [
+          "Paso Diablo Mine",
+          1
+        ],
+        [
+          "EU-27, Turkey",
+          1
+        ],
+        [
+          "Colombia, Venezuela",
+          1
+        ],
+        [
+          "Cienaga, Santa Marta, and Puerto Bolivar (Colombia)",
+          1
+        ],
+        [
+          "Cienaga (Colombia)",
+          1
+        ],
+        [
+          "Cesar Department (Colombia)",
+          1
+        ],
+        [
+          "Cerrejon, El Descanso, Prodeco, and others within Colombia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Terminal ID",
+      "code_friendly_name_guess": "gem_terminal_id",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "T1128",
+          2
+        ],
+        [
+          "T1127",
+          2
+        ],
+        [
+          "T1412",
+          1
+        ],
+        [
+          "T1411",
+          1
+        ],
+        [
+          "T1410",
+          1
+        ],
+        [
+          "T1409",
+          1
+        ],
+        [
+          "T1408",
+          1
+        ],
+        [
+          "T1370",
+          1
+        ],
+        [
+          "T1369",
+          1
+        ],
+        [
+          "T1239",
+          1
+        ],
+        [
+          "T1238",
+          1
+        ],
+        [
+          "T1152",
+          1
+        ],
+        [
+          "T1133",
+          1
+        ],
+        [
+          "T1132",
+          1
+        ],
+        [
+          "T1131",
+          1
+        ],
+        [
+          "T1130",
+          1
+        ],
+        [
+          "T1129",
+          1
+        ],
+        [
+          "T1091",
+          1
+        ],
+        [
+          "T1090",
+          1
+        ],
+        [
+          "T1089",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Unit/Phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "T11375",
+          1
+        ],
+        [
+          "T11374",
+          1
+        ],
+        [
+          "T11370",
+          1
+        ],
+        [
+          "T01412",
+          1
+        ],
+        [
+          "T01411",
+          1
+        ],
+        [
+          "T01410",
+          1
+        ],
+        [
+          "T01409",
+          1
+        ],
+        [
+          "T01408",
+          1
+        ],
+        [
+          "T01369",
+          1
+        ],
+        [
+          "T01239",
+          1
+        ],
+        [
+          "T01238",
+          1
+        ],
+        [
+          "T01152",
+          1
+        ],
+        [
+          "T01133",
+          1
+        ],
+        [
+          "T01132",
+          1
+        ],
+        [
+          "T01131",
+          1
+        ],
+        [
+          "T01130",
+          1
+        ],
+        [
+          "T01129",
+          1
+        ],
+        [
+          "T01128",
+          1
+        ],
+        [
+          "T01127",
+          1
+        ],
+        [
+          "T01091",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

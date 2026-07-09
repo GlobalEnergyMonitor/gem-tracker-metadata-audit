@@ -1,0 +1,2410 @@
+{
+  "table_name": "global_cement_and_concrete_tracker_july_2025__plant_data",
+  "tracker_slug": "global_cement_and_concrete_tracker_july_2025",
+  "tab_slug": "plant_data",
+  "n_rows": 3722,
+  "analyzed_at": "2026-07-07T21:45:10.755106+00:00",
+  "tracker_info": {
+    "title": "Global Cement and Concrete Tracker - July 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Cement and Concrete Tracker, July 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contacts:  Joshua Clement, Project Manager, joshua.clement@globalenergymonitor.org Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Cement and Concrete Tracker, July 2025 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 3515,
+      "top_values": [
+        [
+          "P100000127748",
+          1
+        ],
+        [
+          "P100000127747",
+          1
+        ],
+        [
+          "P100000127746",
+          1
+        ],
+        [
+          "P100000127745",
+          1
+        ],
+        [
+          "P100000127744",
+          1
+        ],
+        [
+          "P100000127743",
+          1
+        ],
+        [
+          "P100000127742",
+          1
+        ],
+        [
+          "P100000127741",
+          1
+        ],
+        [
+          "P100000127740",
+          1
+        ],
+        [
+          "P100000127739",
+          1
+        ],
+        [
+          "P100000127738",
+          1
+        ],
+        [
+          "P100000127737",
+          1
+        ],
+        [
+          "P100000127736",
+          1
+        ],
+        [
+          "P100000127735",
+          1
+        ],
+        [
+          "P100000127733",
+          1
+        ],
+        [
+          "P100000127732",
+          1
+        ],
+        [
+          "P100000127731",
+          1
+        ],
+        [
+          "P100000127730",
+          1
+        ],
+        [
+          "P100000127729",
+          1
+        ],
+        [
+          "P100000127728",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the Global Cement and Concrete Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM Asset name (English)",
+      "code_friendly_name_guess": "gem_asset_name_english",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 3515,
+      "top_values": [
+        [
+          "Şehitkamil Cement Plant",
+          1
+        ],
+        [
+          "İlkadım Cement Plant",
+          1
+        ],
+        [
+          "Ünye Ordu Cement Plant",
+          1
+        ],
+        [
+          "Çavdir Cement Plant",
+          1
+        ],
+        [
+          "Zuoquan BBMG Cement Co Ltd Cement Plant",
+          1
+        ],
+        [
+          "Zunyi Yingfeng Building Materials Co Ltd Cement Plant",
+          1
+        ],
+        [
+          "Zunyi Saide Cement Limited Company Cement Plant",
+          1
+        ],
+        [
+          "Zunyi Conch Panjiang Cement Co Ltd Cement Plant",
+          1
+        ],
+        [
+          "Zuari Cement Yerraguntla Cement Plant",
+          1
+        ],
+        [
+          "Zuari Cement Solapur Cement Plant",
+          1
+        ],
+        [
+          "Zuari Cement Sitapuram Cement Plant",
+          1
+        ],
+        [
+          "Zuari Cement Attipattu Cement Plant",
+          1
+        ],
+        [
+          "Zlatna Panega Cement Plant",
+          1
+        ],
+        [
+          "Zibo Zhongchang Special Cement Co.,Ltd. Cement Plant",
+          1
+        ],
+        [
+          "Zibo Shuangfeng Shanshui Cement Co Ltd Cement Plant",
+          1
+        ],
+        [
+          "Zibo Shanshui Cement Company Cement Plant",
+          1
+        ],
+        [
+          "Zibo Shanshui Cement Co Ltd Cement Plant",
+          1
+        ],
+        [
+          "Zibo Luzhong Cement Co. Cement Plant",
+          1
+        ],
+        [
+          "Zibo Duoshan Cement Limited Company Cement Plant",
+          1
+        ],
+        [
+          "Zhuolu BBMG Cement Co Ltd Cement Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The plant name format is \"Location - Cement Plant\" or \"Parent Company - Location - Cement Plant\" (ex. \"XYZ London Cement Plant\" for a cement plant located in London and owned by company XYZ).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Asset name (other language)",
+      "code_friendly_name_guess": "asset_name_other_language",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2395,
+      "top_values": [
+        [
+          "n/a",
+          1049
+        ],
+        [
+          "unknown",
+          34
+        ],
+        [
+          "Fábrica de Cemento Sogamoso (Spanish)",
+          3
+        ],
+        [
+          "龙口市泛林水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "确山县汇鑫水泥粉磨有限公司 (Chinese)",
+          2
+        ],
+        [
+          "湖南益阳海螺水泥有限责任公司 (Chinese)",
+          2
+        ],
+        [
+          "湖南岳阳南方水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "湖北白兆山水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "淄博山水水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "梅州市华山水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "梅州宁江水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "新乡市振新水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "广西登高(集团)田东水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "广东广信青洲水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "平阴山水水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "宿州中联水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "奎山水泥有限公司 (奎山冀东水泥有限公司) (Chinese)",
+          2
+        ],
+        [
+          "天瑞集团南召水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "卫辉王氏水泥有限公司 (Chinese)",
+          2
+        ],
+        [
+          "南京江星水泥有限公司 (Chinese)",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Translation of the asset name into country's native language. Includes language in english in parenthases following translation. (ie \" Zementwerk (German)\").",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Alternative asset name(s)",
+      "code_friendly_name_guess": "alternative_asset_name_s",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 472,
+      "top_values": [
+        [
+          "n/a",
+          3044
+        ],
+        [
+          "Цементный завод Заполярного филиала",
+          1
+        ],
+        [
+          "АО \"ACIG\"",
+          1
+        ],
+        [
+          "İskenderun Cement Works",
+          1
+        ],
+        [
+          "nova Cimangola Luanda Cement Plant",
+          1
+        ],
+        [
+          "nova Cimangola II Cement Plant",
+          1
+        ],
+        [
+          "northern Region Cement",
+          1
+        ],
+        [
+          "northern Cement Plant",
+          1
+        ],
+        [
+          "north Cement Plant",
+          1
+        ],
+        [
+          "cementi della lucania",
+          1
+        ],
+        [
+          "ashil Cement Plant",
+          1
+        ],
+        [
+          "Zuari Cements Chennai grinding unit",
+          1
+        ],
+        [
+          "Zdolbunovskiy cement-slate combinate",
+          1
+        ],
+        [
+          "Zaveh Cement Plant",
+          1
+        ],
+        [
+          "Zanjan Cement Plant",
+          1
+        ],
+        [
+          "Zambezi Portland Cement",
+          1
+        ],
+        [
+          "Zaman Cement Company (formerly)",
+          1
+        ],
+        [
+          "Yonbon Cement Plant",
+          1
+        ],
+        [
+          "Yanbu Cement",
+          1
+        ],
+        [
+          "Wotan Cement Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternate names used for plants that do not conform to our standard naming convention. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "SFI ID",
+      "code_friendly_name_guess": "sfi_id",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2873,
+      "top_values": [
+        [
+          "n/a",
+          636
+        ],
+        [
+          "GACTVNM0033",
+          2
+        ],
+        [
+          "GACTVNM0012",
+          2
+        ],
+        [
+          "GACTTUR0028",
+          2
+        ],
+        [
+          "GACTJPN0030",
+          2
+        ],
+        [
+          "GACTITA0020",
+          2
+        ],
+        [
+          "GACTIDN0011",
+          2
+        ],
+        [
+          "GACTFRA0005",
+          2
+        ],
+        [
+          "GACTZWE0006",
+          1
+        ],
+        [
+          "GACTZWE0005",
+          1
+        ],
+        [
+          "GACTZWE0004",
+          1
+        ],
+        [
+          "GACTZWE0003",
+          1
+        ],
+        [
+          "GACTZWE0002",
+          1
+        ],
+        [
+          "GACTZWE0001",
+          1
+        ],
+        [
+          "GACTZMB0006",
+          1
+        ],
+        [
+          "GACTZMB0005",
+          1
+        ],
+        [
+          "GACTZMB0004",
+          1
+        ],
+        [
+          "GACTZMB0003",
+          1
+        ],
+        [
+          "GACTZMB0002",
+          1
+        ],
+        [
+          "GACTZMB0001",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Spatial Finance Initiative (SFI) tracker ID from the Global Database of Cement Production Assets. Some IDs are repeated.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LeadIT Project ID",
+      "code_friendly_name_guess": "leadit_project_id",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 56,
+      "top_values": [
+        [
+          "n/a",
+          3460
+        ],
+        [
+          "GCTTB014",
+          1
+        ],
+        [
+          "GCTTB012",
+          1
+        ],
+        [
+          "GCTTB009",
+          1
+        ],
+        [
+          "GCTTB008",
+          1
+        ],
+        [
+          "GCTTB007",
+          1
+        ],
+        [
+          "GCTTB006",
+          1
+        ],
+        [
+          "GCTTB004",
+          1
+        ],
+        [
+          "GCTTB003",
+          1
+        ],
+        [
+          "GCTTB001",
+          1
+        ],
+        [
+          "GCTTA58 ; GCTTA048",
+          1
+        ],
+        [
+          "GCTTA56 ; GCTTA032",
+          1
+        ],
+        [
+          "GCTTA54 ; GCTTA004",
+          1
+        ],
+        [
+          "GCTTA53 ; GCTTA003",
+          1
+        ],
+        [
+          "GCTTA46 ; GCTTA018",
+          1
+        ],
+        [
+          "GCTTA050",
+          1
+        ],
+        [
+          "GCTTA049",
+          1
+        ],
+        [
+          "GCTTA047",
+          1
+        ],
+        [
+          "GCTTA046",
+          1
+        ],
+        [
+          "GCTTA045",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "LeadIT Project ID from Green Cement Technology Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinates",
+      "code_friendly_name_guess": "coordinates",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 3504,
+      "top_values": [
+        [
+          "32.557071, 54.178550",
+          4
+        ],
+        [
+          "43.078132, 45.756772",
+          2
+        ],
+        [
+          "35.968449, 68.685855",
+          2
+        ],
+        [
+          "35.843690, 113.345858",
+          2
+        ],
+        [
+          "34.032635, 75.015643",
+          2
+        ],
+        [
+          "23.108180, 89.354091",
+          2
+        ],
+        [
+          "18.867810, 102.491632",
+          2
+        ],
+        [
+          "17.967783, 102.628081",
+          2
+        ],
+        [
+          "11.146109, 79.098187",
+          2
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "P100000127742",
+          1
+        ],
+        [
+          "9.983709, -63.310672",
+          1
+        ],
+        [
+          "9.955604, 105.847626",
+          1
+        ],
+        [
+          "9.929924, -67.240061",
+          1
+        ],
+        [
+          "9.928846, -84.686416",
+          1
+        ],
+        [
+          "9.864247, -84.039684",
+          1
+        ],
+        [
+          "9.831578, -83.904531",
+          1
+        ],
+        [
+          "9.809819, 80.033891",
+          1
+        ],
+        [
+          "9.764973, 13.965796",
+          1
+        ],
+        [
+          "9.754562, 2.352805",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Exact coordinate for center of plant. If exact location is unknown, an approximate central coordinate of lowest level of address known is used (i.e. city, then subnational unit, country as last resort).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinate accuracy",
+      "code_friendly_name_guess": "coordinate_accuracy",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          3294
+        ],
+        [
+          "approximate",
+          221
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "exact = plant location confirmed via satellite imagery, approximate = location estimated or undefined.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 3515,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Şehitkamil_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/İlkadım_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ünye_Ordu_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Çavdir_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zuoquan_BBMG_Cement_Co_Ltd_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zunyi_Yingfeng_Building_Materials_Co_Ltd_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zunyi_Saide_Cement_Limited_Company_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zunyi_Conch_Panjiang_Cement_Co_Ltd_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zuari_Cement_Yerraguntla_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zuari_Cement_Solapur_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zuari_Cement_Sitapuram_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zuari_Cement_Attipattu_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zlatna_Panega_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Zhongchang_Special_Cement_Co.,Ltd._Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Shuangfeng_Shanshui_Cement_Co_Ltd_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Shanshui_Cement_Company_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Shanshui_Cement_Co_Ltd_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Luzhong_Cement_Co._Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Duoshan_Cement_Limited_Company_Cement_Plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhuolu_BBMG_Cement_Co_Ltd_Cement_Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Municipality",
+      "code_friendly_name_guess": "municipality",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2360,
+      "top_values": [
+        [
+          "unknown",
+          40
+        ],
+        [
+          "Hangzhou",
+          13
+        ],
+        [
+          "Zaozhuang",
+          12
+        ],
+        [
+          "Tangshan",
+          12
+        ],
+        [
+          "Lvliang",
+          12
+        ],
+        [
+          "Jiaxing",
+          12
+        ],
+        [
+          "Liaoyang",
+          11
+        ],
+        [
+          "Huzhou",
+          11
+        ],
+        [
+          "Longyan",
+          10
+        ],
+        [
+          "Baoji",
+          10
+        ],
+        [
+          "Zhengzhou",
+          9
+        ],
+        [
+          "Xinxiang",
+          9
+        ],
+        [
+          "Xingtai",
+          9
+        ],
+        [
+          "Kunming",
+          9
+        ],
+        [
+          "Jian",
+          9
+        ],
+        [
+          "Dalian",
+          9
+        ],
+        [
+          "Yulin",
+          8
+        ],
+        [
+          "Suzhou",
+          8
+        ],
+        [
+          "Sanming",
+          8
+        ],
+        [
+          "Quzhou",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Municipality (city, village, town) within which the plant resides.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 1092,
+      "top_values": [
+        [
+          "Shandong",
+          78
+        ],
+        [
+          "Zhejiang",
+          67
+        ],
+        [
+          "Henan",
+          66
+        ],
+        [
+          "Sichuan",
+          64
+        ],
+        [
+          "Shanxi",
+          64
+        ],
+        [
+          "Anhui",
+          57
+        ],
+        [
+          "Liaoning",
+          55
+        ],
+        [
+          "Inner Mongolia",
+          54
+        ],
+        [
+          "Hebei",
+          54
+        ],
+        [
+          "Hunan",
+          50
+        ],
+        [
+          "Jiangxi",
+          49
+        ],
+        [
+          "Yunnan",
+          46
+        ],
+        [
+          "Jiangsu",
+          45
+        ],
+        [
+          "Shaanxi",
+          43
+        ],
+        [
+          "Hubei",
+          43
+        ],
+        [
+          "Guangdong",
+          39
+        ],
+        [
+          "Guizhou",
+          35
+        ],
+        [
+          "Andhra Pradesh",
+          35
+        ],
+        [
+          "Guangxi",
+          31
+        ],
+        [
+          "Lumbini",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit (province, state, region, etc) within which the plant resides.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 167,
+      "top_values": [
+        [
+          "China",
+          1094
+        ],
+        [
+          "India",
+          333
+        ],
+        [
+          "Brazil",
+          102
+        ],
+        [
+          "United States",
+          100
+        ],
+        [
+          "Vietnam",
+          99
+        ],
+        [
+          "Iran",
+          84
+        ],
+        [
+          "Türkiye",
+          76
+        ],
+        [
+          "Russia",
+          67
+        ],
+        [
+          "Italy",
+          66
+        ],
+        [
+          "Nepal",
+          62
+        ],
+        [
+          "France",
+          52
+        ],
+        [
+          "Germany",
+          51
+        ],
+        [
+          "Indonesia",
+          49
+        ],
+        [
+          "Bangladesh",
+          45
+        ],
+        [
+          "Spain",
+          41
+        ],
+        [
+          "Mexico",
+          38
+        ],
+        [
+          "South Korea",
+          34
+        ],
+        [
+          "Pakistan",
+          32
+        ],
+        [
+          "Japan",
+          31
+        ],
+        [
+          "Iraq",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Cement Capacity (millions metric tonnes per annum)",
+      "code_friendly_name_guess": "cement_capacity_millions_metric_tonnes_per_annum",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 467,
+      "top_values": [
+        [
+          ">0",
+          324
+        ],
+        [
+          "1.0",
+          271
+        ],
+        [
+          "2.0",
+          228
+        ],
+        [
+          "1.2",
+          140
+        ],
+        [
+          "1.5",
+          133
+        ],
+        [
+          "3.0",
+          96
+        ],
+        [
+          "0.5",
+          92
+        ],
+        [
+          "0.6",
+          84
+        ],
+        [
+          "0.8",
+          67
+        ],
+        [
+          "1.8",
+          62
+        ],
+        [
+          "1.6",
+          59
+        ],
+        [
+          "1.1",
+          59
+        ],
+        [
+          "unknown",
+          57
+        ],
+        [
+          "2.2",
+          57
+        ],
+        [
+          "1.3",
+          56
+        ],
+        [
+          "0.7",
+          52
+        ],
+        [
+          "1.4",
+          47
+        ],
+        [
+          "0.9",
+          47
+        ],
+        [
+          "2.5",
+          44
+        ],
+        [
+          "4.0",
+          43
+        ]
+      ],
+      "portion_numeric": 0.9452,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "Total cement production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Clinker Capacity (millions metric tonnes per annum)",
+      "code_friendly_name_guess": "clinker_capacity_millions_metric_tonnes_per_annum",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 404,
+      "top_values": [
+        [
+          "n/a",
+          951
+        ],
+        [
+          ">0",
+          827
+        ],
+        [
+          "unknown",
+          113
+        ],
+        [
+          "1.825",
+          104
+        ],
+        [
+          "0.9125",
+          103
+        ],
+        [
+          "1.46",
+          63
+        ],
+        [
+          "1.0",
+          43
+        ],
+        [
+          "1.6425",
+          42
+        ],
+        [
+          "1.2",
+          38
+        ],
+        [
+          "1.5",
+          35
+        ],
+        [
+          "1.095",
+          33
+        ],
+        [
+          "1.8",
+          32
+        ],
+        [
+          "3.65",
+          31
+        ],
+        [
+          "1.1",
+          30
+        ],
+        [
+          "0.365",
+          28
+        ],
+        [
+          "0.73",
+          27
+        ],
+        [
+          "2.0",
+          25
+        ],
+        [
+          "0.9",
+          24
+        ],
+        [
+          "2.19",
+          23
+        ],
+        [
+          "3.0",
+          19
+        ]
+      ],
+      "portion_numeric": 0.6038,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Total clinker production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Majority Cement Type",
+      "code_friendly_name_guess": "majority_cement_type",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "unknown",
+          1618
+        ],
+        [
+          "opc",
+          1043
+        ],
+        [
+          "blended",
+          813
+        ],
+        [
+          "blast furnace slag",
+          41
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Cement Color",
+      "code_friendly_name_guess": "cement_color",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "grey",
+          2134
+        ],
+        [
+          "unknown",
+          1254
+        ],
+        [
+          "both",
+          78
+        ],
+        [
+          "white",
+          49
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Cement color (Grey or White) produced. Typical construction cement is grey. White cement is used commonly for architectural projects and production results in higher emissions. Some plants produce both white and grey cement.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operating status",
+      "code_friendly_name_guess": "operating_status",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          3172
+        ],
+        [
+          "retired",
+          105
+        ],
+        [
+          "announced",
+          85
+        ],
+        [
+          "mothballed",
+          68
+        ],
+        [
+          "unknown",
+          38
+        ],
+        [
+          "construction",
+          37
+        ],
+        [
+          "operating pre-retirement",
+          8
+        ],
+        [
+          "cancelled",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Current operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 158,
+      "top_values": [
+        [
+          "unknown",
+          879
+        ],
+        [
+          "2010",
+          122
+        ],
+        [
+          "2009",
+          117
+        ],
+        [
+          "2008",
+          99
+        ],
+        [
+          "2011",
+          96
+        ],
+        [
+          "2012",
+          85
+        ],
+        [
+          "2014",
+          84
+        ],
+        [
+          "2013",
+          77
+        ],
+        [
+          "2004",
+          65
+        ],
+        [
+          "2007",
+          63
+        ],
+        [
+          "2016",
+          61
+        ],
+        [
+          "2017",
+          59
+        ],
+        [
+          "2005",
+          58
+        ],
+        [
+          "2015",
+          57
+        ],
+        [
+          "2018",
+          51
+        ],
+        [
+          "2006",
+          50
+        ],
+        [
+          "2003",
+          47
+        ],
+        [
+          "2002",
+          40
+        ],
+        [
+          "2019",
+          36
+        ],
+        [
+          "2001",
+          34
+        ]
+      ],
+      "portion_numeric": 0.81,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner name (English)",
+      "code_friendly_name_guess": "owner_name_english",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2355,
+      "top_values": [
+        [
+          "UltraTech Cement Ltd [100.0%]",
+          51
+        ],
+        [
+          "unknown",
+          36
+        ],
+        [
+          "Votorantim Cimentos SA [100.0%]",
+          32
+        ],
+        [
+          "CEMEX SAB de CV [100.0%]",
+          19
+        ],
+        [
+          "Ambuja Cements Ltd [100.0%]",
+          19
+        ],
+        [
+          "ACC Ltd [100.0%]",
+          19
+        ],
+        [
+          "Heidelberg Materials US Inc [100.0%]",
+          18
+        ],
+        [
+          "Shree Cement Ltd [100.0%]",
+          17
+        ],
+        [
+          "Ministry of Construction and Building-Materials Industry (North Korea) [100.0%]",
+          16
+        ],
+        [
+          "Heidelberg Materials Italia Cementi SpA [100.0%]",
+          16
+        ],
+        [
+          "InterCement Brasil SA [100.0%]",
+          15
+        ],
+        [
+          "Holcim (US) Inc [100.0%]",
+          15
+        ],
+        [
+          "J K Cement Ltd [100.0%]",
+          14
+        ],
+        [
+          "Dangote Cement PLC [100.0%]",
+          14
+        ],
+        [
+          "Lafarge France [100.0%]",
+          13
+        ],
+        [
+          "Ciments de L'Afrique [100.0%]",
+          13
+        ],
+        [
+          "CSN Cimentos Brasil SA [100.0%]",
+          13
+        ],
+        [
+          "Colacem SpA [100.0%]",
+          12
+        ],
+        [
+          "Buzzi SpA [100.0%]",
+          12
+        ],
+        [
+          "Ramco Cements Ltd [100.0%]",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of cement plant in English.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner name (other language)",
+      "code_friendly_name_guess": "owner_name_other_language",
+      "n_total": 3722,
+      "n_null": 211,
+      "n_non_null": 3511,
+      "null_rate": 0.0567,
+      "n_unique": 1508,
+      "top_values": [
+        [
+          "n/a",
+          1765
+        ],
+        [
+          "unknown",
+          62
+        ],
+        [
+          "건설건축자재산업부 (Korean) [100%]",
+          16
+        ],
+        [
+          "한일현대시멘트(주) (Korean) [100%]",
+          11
+        ],
+        [
+          "Limak Cimento Sanayi ve Ticaret AS [100%] (Turkish)",
+          10
+        ],
+        [
+          "三菱宇部興産セメント株式会社 (Japanese) [100%]",
+          7
+        ],
+        [
+          "Holcim Deutschland AG (German) [100%]",
+          7
+        ],
+        [
+          "太平洋セメント株式会社 (Japanese) [100%]",
+          6
+        ],
+        [
+          "Askale Cimento Sanayi TAS [100%] (Turkish)",
+          6
+        ],
+        [
+          "한라시멘트(주) (Korean) [100%]",
+          5
+        ],
+        [
+          "Министерство промышленности и строительного производства (Russian) [100%]",
+          5
+        ],
+        [
+          "쌍용양회공업(주) (Korean) [100%]",
+          4
+        ],
+        [
+          "삼표시멘트(주) (Korean) [100%]",
+          4
+        ],
+        [
+          "住友大阪セメント株式会社 (Japanese) [100%]",
+          4
+        ],
+        [
+          "লাফার্জহোলসিম বাংলাদেশ লি (Bangla) [100%]",
+          4
+        ],
+        [
+          "ООО «Цементум Центр» (Russian) [100%]",
+          4
+        ],
+        [
+          "Α.Ε. ΤΣΙΜΕΝΤΩΝ ΤΙΤΑΝ (Greek) [100%]",
+          4
+        ],
+        [
+          "SCHWENK Zement KG (German) [100%]",
+          4
+        ],
+        [
+          "Ferçim Çimento Fabrikası [100%] (Turkish)",
+          4
+        ],
+        [
+          "Cimentas Cimento Fabrikasi TAS [100%] (Turkish)",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of cement plant in local language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner Entity ID",
+      "code_friendly_name_guess": "owner_entity_id",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2355,
+      "top_values": [
+        [
+          "E100000000531 [100.0%]",
+          51
+        ],
+        [
+          "E100000132388 [unknown%]",
+          36
+        ],
+        [
+          "E100000187709 [100.0%]",
+          32
+        ],
+        [
+          "E100002004994 [100.0%]",
+          19
+        ],
+        [
+          "E100001014342 [100.0%]",
+          19
+        ],
+        [
+          "E100001000639 [100.0%]",
+          19
+        ],
+        [
+          "E100002006415 [100.0%]",
+          18
+        ],
+        [
+          "E100000121281 [100.0%]",
+          17
+        ],
+        [
+          "E100002007282 [100.0%]",
+          16
+        ],
+        [
+          "E100002006728 [100.0%]",
+          16
+        ],
+        [
+          "E100002006849 [100.0%]",
+          15
+        ],
+        [
+          "E100002006815 [100.0%]",
+          15
+        ],
+        [
+          "E100002002182 [100.0%]",
+          14
+        ],
+        [
+          "E100001000659 [100.0%]",
+          14
+        ],
+        [
+          "E100002007048 [100.0%]",
+          13
+        ],
+        [
+          "E100002005926 [100.0%]",
+          13
+        ],
+        [
+          "E100002005914 [100.0%]",
+          13
+        ],
+        [
+          "E100002006121 [100.0%]",
+          12
+        ],
+        [
+          "E100002005243 [100.0%]",
+          12
+        ],
+        [
+          "E100002006687 [100.0%]",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2143,
+      "top_values": [
+        [
+          "Heidelberg Materials AG [100.0%]",
+          76
+        ],
+        [
+          "UltraTech Cement Ltd [100.0%]",
+          56
+        ],
+        [
+          "Holcim AG [100.0%]",
+          52
+        ],
+        [
+          "Holcim AG [unknown%]",
+          38
+        ],
+        [
+          "Buzzi SpA [100.0%]",
+          38
+        ],
+        [
+          "unknown",
+          37
+        ],
+        [
+          "CRH PLC [100.0%]",
+          34
+        ],
+        [
+          "Votorantim SA [100.0%]",
+          32
+        ],
+        [
+          "Heidelberg Materials AG [unknown%]",
+          23
+        ],
+        [
+          "CEMEX SAB de CV [100.0%]",
+          20
+        ],
+        [
+          "ACC Ltd [100.0%]",
+          20
+        ],
+        [
+          "Omnium des industries et de la promotion [unknown%]",
+          19
+        ],
+        [
+          "Ambuja Cements Ltd [100.0%]",
+          19
+        ],
+        [
+          "Shree Cement Ltd [100.0%]",
+          17
+        ],
+        [
+          "J K Cement Ltd [100.0%]",
+          17
+        ],
+        [
+          "CEMEX SAB de CV [99.9%]",
+          17
+        ],
+        [
+          "Ministry of Construction and Building-Materials Industry (North Korea) [100.0%]",
+          16
+        ],
+        [
+          "Taiheiyo Cement Corp [100.0%]",
+          15
+        ],
+        [
+          "InterCement Participações SA [unknown%]",
+          15
+        ],
+        [
+          "Huaxin Cement Co Ltd [100.0%]",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Entity ID",
+      "code_friendly_name_guess": "parent_entity_id",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 2142,
+      "top_values": [
+        [
+          "E100000000414 [100.0%]",
+          76
+        ],
+        [
+          "E100000000531 [100.0%]",
+          56
+        ],
+        [
+          "E100001000571 [100.0%]",
+          52
+        ],
+        [
+          "E100002005243 [100.0%]",
+          38
+        ],
+        [
+          "E100001000571 [unknown%]",
+          38
+        ],
+        [
+          "E100000132388",
+          36
+        ],
+        [
+          "E100000131458 [100.0%]",
+          34
+        ],
+        [
+          "E100000186749 [100.0%]",
+          32
+        ],
+        [
+          "E100000000414 [unknown%]",
+          23
+        ],
+        [
+          "E100002004994 [100.0%]",
+          20
+        ],
+        [
+          "E100001014342 [100.0%]",
+          20
+        ],
+        [
+          "E100002005915 [unknown%]",
+          19
+        ],
+        [
+          "E100001000639 [100.0%]",
+          19
+        ],
+        [
+          "E100002002182 [100.0%]",
+          17
+        ],
+        [
+          "E100001014342 [99.9%]",
+          17
+        ],
+        [
+          "E100000121281 [100.0%]",
+          17
+        ],
+        [
+          "E100002007282 [100.0%]",
+          16
+        ],
+        [
+          "E100002006277 [unknown%]",
+          15
+        ],
+        [
+          "E100001000932 [100.0%]",
+          15
+        ],
+        [
+          "E100002006398 [unknown%]",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant type",
+      "code_friendly_name_guess": "plant_type",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "integrated",
+          2421
+        ],
+        [
+          "grinding",
+          947
+        ],
+        [
+          "unknown",
+          118
+        ],
+        [
+          "clinker only",
+          29
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "The type of cement plant (integrated, grinding, or clinker-only).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production type",
+      "code_friendly_name_guess": "production_type",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "dry",
+          2159
+        ],
+        [
+          "n/a",
+          949
+        ],
+        [
+          "unknown",
+          305
+        ],
+        [
+          "wet",
+          83
+        ],
+        [
+          "semidry",
+          13
+        ],
+        [
+          "mixed",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "The production process used to produce the clinker at integrated plants (wet, dry, semidry, or mixed). Mixed production includes plants that have multiple different production lines, such as wet and dry.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CCS/CCUS",
+      "code_friendly_name_guess": "ccs_ccus",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "no",
+          2134
+        ],
+        [
+          "n/a",
+          972
+        ],
+        [
+          "unknown",
+          347
+        ],
+        [
+          "yes",
+          62
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates whether the plant uses a carbon capture storage or utilization (CCS/CCUS) project. \"Unknown\" is used when a CCS/CCUS project could not be confirmed at the site, but there was indication of a potential project. Carbon capture, storage, and utilization can take various forms, but ultimately serves the purpose of capturing carbon emissions at the plant level before they enter the atmosphere. The emissions then either enter permanant storage, or are used for other processes which require carbon. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making CCUS in this context irrelevant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Alternative Fuel",
+      "code_friendly_name_guess": "alternative_fuel",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "no",
+          1573
+        ],
+        [
+          "n/a",
+          972
+        ],
+        [
+          "yes",
+          561
+        ],
+        [
+          "unknown",
+          409
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates whether the plant utilizes alternative fuel. \"unknown\" is used when alternative fuel use could not be confirmed at the site, but there was indication of potential usage. Alternative fuels are those that replace the traditional fossil fuels used for clinker production in the kiln, including biomass, waste-derived fuels, industrial by-products, etc.  All grinding plants have 'n/a' listed due to the lack of a kiln, thus making alternative fuel in this context irrelevant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Clay Calcination",
+      "code_friendly_name_guess": "clay_calcination",
+      "n_total": 3722,
+      "n_null": 207,
+      "n_non_null": 3515,
+      "null_rate": 0.0556,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "no",
+          2151
+        ],
+        [
+          "n/a",
+          972
+        ],
+        [
+          "unknown",
+          365
+        ],
+        [
+          "yes",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Indicates whether the plant utilizes clay calcination. \"unknown\" is used when clay calcination could not be confirmed at the site, but there was indication of potential usage. Calcined clay is a supplementary cementitious material (SCM) used in cement manufacturing to partially replace clinker, reducing both emissions and energy use. It is produced by heating clay (typically kaolinite-rich) to around 700–850°C, which activates its pozzolanic properties without generating CO₂ from limestone, unlike clinker production. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making clay calcination in this context irrelevant. Two plants in the tracker (P100000126921 and P100000125604) produce only clacined clay cement and are thus labeled as \"integrated\" while at the same time listing \"n/a\" in the 'clinker capacity' field.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "_col28",
+      "code_friendly_name_guess": "col28",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col29",
+      "code_friendly_name_guess": "col29",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col30",
+      "code_friendly_name_guess": "col30",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col31",
+      "code_friendly_name_guess": "col31",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col32",
+      "code_friendly_name_guess": "col32",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col33",
+      "code_friendly_name_guess": "col33",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col34",
+      "code_friendly_name_guess": "col34",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col35",
+      "code_friendly_name_guess": "col35",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col36",
+      "code_friendly_name_guess": "col36",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col37",
+      "code_friendly_name_guess": "col37",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col38",
+      "code_friendly_name_guess": "col38",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col39",
+      "code_friendly_name_guess": "col39",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col40",
+      "code_friendly_name_guess": "col40",
+      "n_total": 3722,
+      "n_null": 3721,
+      "n_non_null": 1,
+      "null_rate": 0.9997,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "jhuyuyuyuyuyuyuyuy",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col41",
+      "code_friendly_name_guess": "col41",
+      "n_total": 3722,
+      "n_null": 3722,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

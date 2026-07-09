@@ -1,0 +1,706 @@
+{
+  "source_file": "Global Coal Mine Tracker, May 2026__.xlsx",
+  "tracker_slug": "global_coal_mine_tracker_may_2026",
+  "header_info": {
+    "title": "Global Coal Mine Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, May 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Dorothy Lan Mei, Project Manager, Global Energy Monitor - dorothy.mei@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Mine Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "non_closed_mines": "Non-closed mines",
+    "closed_mines": "Closed mines",
+    "historic_production_2018_2025": "Historic Production (2018-2025)"
+  },
+  "metadata_tabs": {
+    "readme": "README"
+  },
+  "sections": [
+    {
+      "section_name": "Dictionary (Non-closed mines)",
+      "section_type": "dictionary",
+      "tab_key": "non_closed_mines",
+      "entries": [
+        {
+          "name": "Status",
+          "definition": "\"Status\" describes the various active/inactive stages of a coal mine or mine project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operating",
+          "definition": "A coal mine where coal removal is occurring for commercial purposes. This includes mines that have produced coal within the year, even if operations were temporarily suspended for several months.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Proposed",
+          "definition": "A coal mine project that has not yet begun operation. This includes projects that have been announced (via corporate or government planning documents), projects that are under permitting (including feasibility studies), projects that are under construction, as well as those in test operation.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "A coal mine that is neither operating nor retired, such as those that are idled or put on \"care and maintenance.\" Such mines could return to operation, but are not currently operating.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A proposed coal mine project for which a cancellation announcement has been made by the owning company or government authorities. GEM also assigns a status of \"cancelled\" to projects when no progress has been observed for 4+ years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Shelved",
+          "definition": "A proposed coal mine project for which no public updates nor progress has been observed for 2+ years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Closed",
+          "definition": "A previously operating coal mine that has been permanently closed.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Status Detail",
+          "definition": "\"Status detail\" describes the mine status on a granular level, such as which planning stage a proposed coal mine project has progressed to, or whether an operating mine is experiencing temporary work stoppages.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced",
+          "definition": "A status assigned when a coal mine project has been described in corporate or government plans, but full details remain unknown.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "Pre-Permit",
+          "definition": "A status assigned when permit applications (environmental assessments, land use rights, water licenses, etc.) for a coal mine project have been filed, but not yet obtained.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "Permitted",
+          "definition": "A status assigned to a coal mine project that has been granted permit approvals, but has not yet begun construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "Construction",
+          "definition": "A status assigned when a coal mine project has begun construction of its mining infrastructure and facilities.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "Test Operation",
+          "definition": "A status assigned when a coal mine project begins coal removal, but not yet for commercial purposes.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "Care and Maintenance",
+          "definition": "A status assigned when an operating mine temporarily closes, but there is potential to recommence operations at a later date. During the care and maintenance period, coal production stops but the mine site is still managed by minimal staff to ensure it remains in a safe and stable condition.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status Detail"
+        },
+        {
+          "name": "GEM Mine ID",
+          "definition": "A static unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "MSHA ID",
+          "definition": "A static unique numerical identifier assigned to each US coal mine by the US Mine Safety and Health Administration (MSHA) for identification purposes nationwide.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country / Area",
+          "definition": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Name",
+          "definition": "The name of a coal mine or proposed coal mine project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Name AKAs",
+          "definition": "The nickname or alias of a coal mine or proposed coal mine project. AKAs are often used with proposed projects which have not yet been assigned an official name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Name (Non-ENG)",
+          "definition": "The non-English name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Complex Name",
+          "definition": "The name of the larger mining complex or group that an individual coal mine belongs to (if any).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki Page (ENG)",
+          "definition": "The URL corresponding to a coal mine's or proposed coal mine project's English GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki Page (Non-ENG)",
+          "definition": "The URL corresponding to a coal mine's or proposed coal mine project's non-English GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Type",
+          "definition": "Refers to the type of coal mine project: expansion, extension, or new.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "New",
+          "definition": "A \"new\" mine is a greenfield mine planned to be developed in an area where there was no previous mining activity.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Project Type"
+        },
+        {
+          "name": "Expansion",
+          "definition": "An \"expansion\" is when an existing mine seeks to increase its existing coal capacity.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Project Type"
+        },
+        {
+          "name": "Extension",
+          "definition": "An \"extension\" is when an existing mine seeks to mine new areas to extend its mine life.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Project Type"
+        },
+        {
+          "name": "Resource Consolidation and Restructuring",
+          "definition": "A mine that has been established, expanded, or reorganized through the consolidation of fragmented mining rights, resources, assets, or production capacity. This type of asset is predominantly found in China.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Project Type"
+        },
+        {
+          "name": "Project Phase",
+          "definition": "Refers to proposed coal mine projects that will be developed in stages, often with initial development followed by subsequent expansions over time (e.g., Phase I, II, III).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owners",
+          "definition": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owners (Non-ENG)",
+          "definition": "The non-English name of the immediate owner of the coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent Company",
+          "definition": "The highest-level owner of a coal mine or coal mine project. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Company HQs",
+          "definition": "The geographic country or area where a coal mine or coal mine project’s parent company is headquartered in.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner/Parent GEM Entity ID",
+          "definition": "A static unique identifier assigned by GEM's Global Energy Ownership Tracker team for internal ownership identification purposes.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Company HQs"
+        },
+        {
+          "name": "Capacity (Mtpa)",
+          "definition": "The maximum amount of coal a mine or mine project is engineered to produce, expressed in millions of tonnes per year.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production (Mtpa)",
+          "definition": "The actual amount of coal produced by a mine, expressed in millions of tonnes per year.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Year of Production",
+          "definition": "The calendar year (or financial year, depending on the country) during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Output (Annual, Mst)",
+          "definition": "The actual amount of coal produced by a US mine, expressed in millions of short tons per year. This value applies to US coal mines only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Type",
+          "definition": "The classification of a coal mine or coal mine project based upon the mining method it uses to extract coal.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Surface",
+          "definition": "A coal mine or coal mine project that extracts coal from shallow seams near the earth’s surface.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mine Type"
+        },
+        {
+          "name": "Underground",
+          "definition": "A coal mine or coal mine project that extracts coal from deep below the earth’s surface via shafts or tunnels. Also known as “UG” mines.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mine Type"
+        },
+        {
+          "name": "Underground & Surface",
+          "definition": "A coal mine or coal mine project that extracts coal from both underground and surface methods.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mine Type"
+        },
+        {
+          "name": "Mining Method",
+          "definition": "The specific technique used to extract coal from the earth.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Open Pit",
+          "definition": "A surface mining method that extracts coal from open pits near ground level. Also known as “open cast” mining.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Strip",
+          "definition": "A surface mining method where the overlying vegetation, rock, and soil (overburden) is removed in order to reach the underlying coal seam, which usually lies a few feet beneath the surface.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Mountaintop Removal",
+          "definition": "A surface mining method that extracts coal at the summit or summit ridge of a mountain, often by using explosives to remove their “tops” and expose underlying coal seams.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Board and Pillar",
+          "definition": "An underground mining method in which seams of coal are partially mined, leaving large pillars of coal intact to support the overlying layers of rock. Also known as “room and pillar.”",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Longwall",
+          "definition": "An underground mining method in which a large “wall” of coal is progressively sheared off.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Mixed",
+          "definition": "Indicates a coal mine or coal mine project uses more than one mining method.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Mining Method"
+        },
+        {
+          "name": "Mine Size (Km2)",
+          "definition": "The total surface area of the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Depth (m)",
+          "definition": "The vertical distance between the ground surface and the coal seam that is being mined.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Depth Accuracy",
+          "definition": "Indicates the confidence level in the reported depth of the coal mine. \"Exact\" means the depth is directly stated in a reliable source, while \"Estimated\" means it is inferred from averages at the national level in a variety of industry and government reports.",
+          "notes": "For more details, please refer to GEM’s methodology wiki page on estimating methane emissions from coal mines.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Workforce Size",
+          "definition": "The total number of personnel employed by a coal mining operation, including those directly involved in extraction and those supporting operations.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Workforce Accuracy",
+          "definition": "Indicates the accuracy level of workforce data. \"Exact\" means the workforce size is explicitly reported in data sources, while \"Estimated\" refers to figures generated using GEM’s machine learning model when official data is unavailable.",
+          "notes": "For more details, please refer to GEM's wiki page on estimating coal mine workforce size.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Type",
+          "definition": "The classification of coal based on its physical and chemical properties, particularly its carbon content, calorific value, moisture, volatile matter, and ash content. Global Coal Mine Tracker uses British coal types (lignite, subbituminous, bituminous, anthracite).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Grade",
+          "definition": "The classification of coal based on its  reported or intended end use, as indicated by coal type, stated use, or project design information.:\n- Thermal Coal: Used for power generation or industrial heating.\n- Metallurgical Coal (Coking Coal): Used for steelmaking and other industrial processes.\n- Chemical Coal: Coal used primarily as a feedstock in coal-to-chemicals processes, which convert coal into gaseous, liquid, or solid fuels and chemical products, particularly in China. In the GCMT, this category includes coal-to-liquids and coal-to-natural gas.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Percentage of Met Coal",
+          "definition": "The proportion (expressed as a percentage) of metallurgical coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines. Applies to mines that produce a blend of “Thermal & Met” coal only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Percentage of Thermal Coal",
+          "definition": "The proportion (expressed as a percentage) of thermal coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines. Applies to mines that produce a blend of “Thermal & Met” coal only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Accuracy Rating",
+          "definition": "Indicates the confidence level in the accuracy of the information provided. A percentage split is marked as \"Exact\" when it is explicitly stated in the data source, and \"Estimated\" when it is based on the researcher’s interpretation or experience drawn from available sources. If no data is found, a 50/50 split is assumed and this default is also classified as “Estimated”. Applies to “Thermal & Met” coal mines only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reported Year of Percentage Split",
+          "definition": "The year in which the percentage breakdown of coal grade was reported or documented. Applies to “Thermal & Met” coal mines only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Total Reserves (Proven and Probable, Mt)",
+          "definition": "The total amount of economically recoverable or minable coal. (This includes the measured coal quantities that are sufficiently \"proven\" plus indicated coal quantities that are \"probable.\")",
+          "notes": "Please see GEM's wiki on coal reserves for details.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Year of Total Reserves Recorded",
+          "definition": "The year in which the total coal reserves of the mine were reported or evaluated.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Total Resource (Inferred, Indicated, Measured)",
+          "definition": "The total estimated volume of a coal deposit in the ground. Also known as “geological reserves” in some countries.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reserve to Production Ratio (R/P)",
+          "definition": "A measure of how long a coal reserve will last at the current annual rate of production.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Opening Year",
+          "definition": "The year when the mine commenced its commercial operations.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Closing Year",
+          "definition": "The year in which the coal mine is scheduled to permanently close or did close in, if it has already ceased operations.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reported Life of Mine",
+          "definition": "The expected operational lifespan of a mine, expressed in years, based on the currently known and economically recoverable reserves, and the planned annual production rate.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reported Year of Mine Life",
+          "definition": "The year in which the life of mine is reported or evaluated.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coalfield",
+          "definition": "The coalfield to which a coal mine belongs.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "The location of the coal mine or coal mine project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "The location of the coal mine or coal mine project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location Accuracy",
+          "definition": "Indicates whether the location is \"Approximate\" or \"Exact\". Location is \"Approximate\" based on using nearest city or inferred from contextual information in the data source. Location is \"Exact\" when explicitly provided in the source materials.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Primary Consumer, Destination",
+          "definition": "The main end user or receiving entity of the coal produced by the mine. This may include coal power plants, steel plants, chemical plants, export terminals, or industrial facilities that rely on coal as a primary source.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Primary Consumer, DestinationName",
+          "definition": "The name of the end user or receiving entity of the coal. The project name should match exactly with those documented by GEM to ensure consistency wherever possible.",
+          "notes": "Previously listed as “Coal Plant, Steel Plant, Terminal” for this column",
+          "entry_type": "definition",
+          "parent_field": "Primary Consumer, Destination"
+        },
+        {
+          "name": "Primary Consumer, Destination GEM Wiki",
+          "definition": "GEM's Wiki URLs of end user or receiving entity of the coal",
+          "notes": "Previously listed as “Coal Plant, Steel Plant, Terminal GEM Wiki” for this column",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Gas-level Rating",
+          "definition": "The gas-level rating of a coal mine is a classification system that indicates the methane content and gas-related risk level of a coal mine.",
+          "notes": "In this release, this indicator is available only for coal mines in China, where mines are typically classified into three levels: Low-gas, High-gas, and Outburst. For a detailed explanation of the methodology, please visit the wiki page here.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Gas-level Rating Appraisal Year",
+          "definition": "The year in which the gas-level rating of the coal mine was appraised or officially reported.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+          "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes per year.",
+          "notes": "Column name changed from \"Reported Coal Mine Methane Emissions (thousand tonnes per year)\" to \"Reported Coal Mine Methane Emissions (thousand tonnes CH4) \"",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+          "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes of carbon dioxide equivalents (CO₂e) per year.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Year of Reported Coal Mine Methane Emissions",
+          "definition": "The year in which the coal mine methane emissions were reported or released.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reference Type",
+          "definition": "Indicates the official source (national government data or company report) where the reported coal mine methane figures were found.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Source ID",
+          "definition": "The identifier assigned by the reporting agency to the coal mine associated with the reported methane emissions.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Has mine boundary and methane emissions sources data",
+          "definition": "A “Yes” in this field indicates that a coal mine boundary/boundaries and potential sources of coal mine methane have been identified for this GCMT asset.",
+          "notes": "See methodology wiki page here for more information",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Has associated plume data",
+          "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a remotely sensed methane plume detailed in the Global Methane Emitters Tracker. Yes* refers to the one mine (Mandalong Coal Mine) which had methane plumes associated with it in the December 2024 briefing which were not included in the version of GMET public at the time due to minor differences in query methodology.",
+          "notes": "Some mines may have multiple plumes from different dates/times of observation associated with them. See the wiki page for each GCMT asset for details and download the full Global Methane Emitters Tracker here.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Has associated CMM mitigation data",
+          "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a known coal mine methane mitigation project (e.g., pre-mining drainage, flaring, ventilation air methane destruction, utilization, etc.).",
+          "notes": "Some mitigation projects span multiple mines, and some mines are associated with multiple mitigation projects. See this companion dataset for more details, and methodology wiki page here.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+          "definition": "An estimate of annual methane emissions from a coal mine calculated by GEM, expressed in million cubic meters per year (MCM/yr). This estimate is based on the Model for Calculating Coal Mine Methane (MC2M).",
+          "notes": "Due to limited production data for Chinese coal mines, CMM emissions are estimated using the latest annual capacity utilization rate—72.8% for the coal mining and washing industry—as reported by the National Bureau of Statistics of China in 2024.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+          "definition": "An estimate of annual methane emissions from a coal mine, expressed in million metric tonnes per year.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CMM Emissions (CO2e 20 years)",
+          "definition": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 20-year time horizon.",
+          "notes": "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 20-year Global Warming Potential (GWP) of 82.5.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CMM Emissions (CO2e 100 years)",
+          "definition": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 100-year time horizon.",
+          "notes": "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 100-year Global Warming Potential (GWP) of 29.8.",
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Dictionary (Closed mines)",
+      "section_type": "dictionary",
+      "tab_key": "closed_mines",
+      "entries": [
+        {
+          "name": "Reason for Closure",
+          "definition": "The primary factor or circumstance that led to a coal mine ceasing operations. This may include economic factors such as reserve exhaustion, end of permitted mine life, or economic unviability; regulatory or policy-driven closures such as government-mandated shutdowns or environmental regulations; safety-related closures following accidents or hazardous conditions; or operational factors such as consolidation, acquisition, or closure of an associated power plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Site Status",
+          "definition": "The present condition or land use of a coal mine site following the cessation of mining operations. This reflects what has happened to the site after closure.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Dictionary (Historic Production)",
+      "section_type": "dictionary",
+      "tab_key": "historic_production_2018_2025",
+      "entries": [
+        {
+          "name": "Coal Output (Annual, Mt)",
+          "definition": "This column contains annual production data for coal mines in million tons (Mt)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Output (Annual, Mst)",
+          "definition": "This column contains annual production data for U.S. coal mines in million short tons (Mst), sourced from the Mine Safety and Health Administration (MSHA).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Output Accuracy",
+          "definition": "This column indicates whether the production data is reported or estimated. Reported values come directly from referenced sources, while estimated values are derived using various assumptions.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Chinese coal mines",
+          "definition": "Due to limited historical production data for most Chinese coal mines, GEM used the annual capacity utilization rate of the coal mining and washing industry (煤炭开采和洗选业产能利用率), as reported by the National Bureau of Statistics of China, to estimate production across different years.",
+          "notes": "Annual Capacity Utilization Rate of the Coal Mining and Washing Industry in China (2018–2025)\nYear    Utilization Rate\n 2025        69.8%\n 2024        72.8%\n 2023        74.4%\n 2022        74.9%\n 2021        74.5%\n 2020        69.8%\n 2019        70.6%\n 2018        70.6%",
+          "entry_type": "definition",
+          "parent_field": "Output Accuracy"
+        }
+      ]
+    }
+  ]
+}

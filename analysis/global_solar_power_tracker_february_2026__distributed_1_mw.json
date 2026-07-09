@@ -1,0 +1,551 @@
+{
+  "table_name": "global_solar_power_tracker_february_2026__distributed_1_mw",
+  "tracker_slug": "global_solar_power_tracker_february_2026",
+  "tab_slug": "distributed_1_mw",
+  "n_rows": 31,
+  "analyzed_at": "2026-07-07T21:45:19.245506+00:00",
+  "tracker_info": {
+    "title": "Global Solar Power Tracker - February 2026",
+    "citation": null,
+    "contact": "Contact: Kasandra O'Malia, Global Solar Power Tracker Project Manager, Global Energy Monitor - kasandra.omalia@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "2026-01-19 00:00:00",
+          13
+        ],
+        [
+          "2026-01-20 00:00:00",
+          10
+        ],
+        [
+          "2026-01-15 00:00:00",
+          5
+        ],
+        [
+          "2026-01-31 00:00:00",
+          2
+        ],
+        [
+          "2026-01-27 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that this project was last researched by the researcher",
+      "notes_from_readme": "Units: yyyy/mm/dd."
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "United States",
+          1
+        ],
+        [
+          "United Kingdom",
+          1
+        ],
+        [
+          "Taiwan",
+          1
+        ],
+        [
+          "Switzerland",
+          1
+        ],
+        [
+          "Sweden",
+          1
+        ],
+        [
+          "Spain",
+          1
+        ],
+        [
+          "South Africa",
+          1
+        ],
+        [
+          "Portugal",
+          1
+        ],
+        [
+          "Poland",
+          1
+        ],
+        [
+          "Philippines",
+          1
+        ],
+        [
+          "Pakistan",
+          1
+        ],
+        [
+          "Netherlands",
+          1
+        ],
+        [
+          "Mexico",
+          1
+        ],
+        [
+          "Luxembourg",
+          1
+        ],
+        [
+          "Lithuania",
+          1
+        ],
+        [
+          "Japan",
+          1
+        ],
+        [
+          "Italy",
+          1
+        ],
+        [
+          "India",
+          1
+        ],
+        [
+          "Hungary",
+          1
+        ],
+        [
+          "Greece",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or area the project is located in (Unabbreviated)",
+      "notes_from_readme": "The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries."
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "9700",
+          1
+        ],
+        [
+          "96",
+          1
+        ],
+        [
+          "8700",
+          1
+        ],
+        [
+          "7982",
+          1
+        ],
+        [
+          "7415",
+          1
+        ],
+        [
+          "7388",
+          1
+        ],
+        [
+          "7242",
+          1
+        ],
+        [
+          "69482",
+          1
+        ],
+        [
+          "661",
+          1
+        ],
+        [
+          "634",
+          1
+        ],
+        [
+          "6046",
+          1
+        ],
+        [
+          "58066",
+          1
+        ],
+        [
+          "4942",
+          1
+        ],
+        [
+          "488561",
+          1
+        ],
+        [
+          "4752",
+          1
+        ],
+        [
+          "39568",
+          1
+        ],
+        [
+          "3853",
+          1
+        ],
+        [
+          "3541",
+          1
+        ],
+        [
+          "30206",
+          1
+        ],
+        [
+          "29210",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",
+      "notes_from_readme": "Units: Megawatt (MW). Please refer to \"Thresholds for Data Categories\" section above."
+    },
+    {
+      "field_name": "Capacity Rating",
+      "code_friendly_name_guess": "capacity_rating",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "MWac",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The reported capacity rating, unknown selected if not provided",
+      "notes_from_readme": "Units: MWac, MWp/dc, unknown. Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'."
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "operating",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "see rows 20-27 above",
+      "notes_from_readme": "Units: see above.",
+      "value_definitions": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved."
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun (not just clearing/roads)."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase 2” at a location where “Phase 1” is currently under development, (2) Projects that are described in long-range company or governmental planning documents."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension announced. The status is marked as \"shelved - inferred 2y\" if no updates have been published in 2 or more years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled."
+        },
+        {
+          "name": "cancelled",
+          "definition": "Cancellation announced. The status is marked as \"cancelled - inferred 4y\" if no updates have been publishe din 4 or more years."
+        }
+      ]
+    },
+    {
+      "field_name": "Year",
+      "code_friendly_name_guess": "year",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2025",
+          28
+        ],
+        [
+          "2024",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Capacity value is accurate as of the end of this year",
+      "notes_from_readme": "Units: yyyy. Specific to distributed solar tab."
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Western Europe",
+          6
+        ],
+        [
+          "Northern Europe",
+          5
+        ],
+        [
+          "Southern Europe",
+          4
+        ],
+        [
+          "Latin America and the Caribbean",
+          4
+        ],
+        [
+          "Eastern Europe",
+          3
+        ],
+        [
+          "Eastern Asia",
+          3
+        ],
+        [
+          "Southern Asia",
+          2
+        ],
+        [
+          "Sub-Saharan Africa",
+          1
+        ],
+        [
+          "South-eastern Asia",
+          1
+        ],
+        [
+          "Northern America",
+          1
+        ],
+        [
+          "Australia and New Zealand",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Subregion location based on United Nations definition",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Europe",
+          18
+        ],
+        [
+          "Asia",
+          6
+        ],
+        [
+          "Americas",
+          5
+        ],
+        [
+          "Oceania",
+          1
+        ],
+        [
+          "Africa",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Region location based on United Nations definition",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 31,
+      "n_null": 0,
+      "n_non_null": 31,
+      "null_rate": 0.0,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "http://www.gem.wiki/United_States_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/United_Kingdom_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Taiwan_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Switzerland_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Sweden_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Spain_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/South_Africa_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Portugal_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Poland_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Philippines_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Pakistan_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Netherlands_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Mexico_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Luxembourg_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Lithuania_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Japan_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Italy_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/India_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Hungary_Aggregated_Distributed_Solar_Capacity",
+          1
+        ],
+        [
+          "http://www.gem.wiki/Greece_Aggregated_Distributed_Solar_Capacity",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL of existing, footnoted factsheet GEM.wiki page",
+      "notes_from_readme": null
+    }
+  ]
+}

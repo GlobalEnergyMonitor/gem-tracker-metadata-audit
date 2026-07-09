@@ -1,0 +1,2639 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__hydropower",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "hydropower",
+  "n_rows": 741,
+  "analyzed_at": "2026-07-07T21:45:22.377937+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 60,
+      "top_values": [
+        [
+          "2022-05-20",
+          144
+        ],
+        [
+          "2025-01-04",
+          46
+        ],
+        [
+          "2025-11-13",
+          43
+        ],
+        [
+          "2025-11-10",
+          34
+        ],
+        [
+          "2025-11-12",
+          23
+        ],
+        [
+          "2022-05-17",
+          23
+        ],
+        [
+          "2022-05-18",
+          22
+        ],
+        [
+          "2022-05-26",
+          20
+        ],
+        [
+          "2022-05-24",
+          20
+        ],
+        [
+          "2022-05-13",
+          19
+        ],
+        [
+          "2023-10-16",
+          18
+        ],
+        [
+          "2025-10-30",
+          17
+        ],
+        [
+          "2025-10-29",
+          16
+        ],
+        [
+          "2025-10-28",
+          16
+        ],
+        [
+          "2022-05-11",
+          16
+        ],
+        [
+          "2025-11-04",
+          15
+        ],
+        [
+          "2025-11-14",
+          14
+        ],
+        [
+          "2025-11-07",
+          14
+        ],
+        [
+          "2025-11-06",
+          14
+        ],
+        [
+          "2025-11-05",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 1",
+      "code_friendly_name_guess": "country_area_1",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "Brazil",
+          233
+        ],
+        [
+          "Ecuador",
+          74
+        ],
+        [
+          "Peru",
+          73
+        ],
+        [
+          "Chile",
+          57
+        ],
+        [
+          "Colombia",
+          50
+        ],
+        [
+          "Mexico",
+          49
+        ],
+        [
+          "Argentina",
+          46
+        ],
+        [
+          "Bolivia",
+          30
+        ],
+        [
+          "Costa Rica",
+          24
+        ],
+        [
+          "Panama",
+          20
+        ],
+        [
+          "Nicaragua",
+          19
+        ],
+        [
+          "Guatemala",
+          14
+        ],
+        [
+          "Venezuela",
+          11
+        ],
+        [
+          "Honduras",
+          11
+        ],
+        [
+          "Dominican Republic",
+          10
+        ],
+        [
+          "El Salvador",
+          5
+        ],
+        [
+          "Uruguay",
+          3
+        ],
+        [
+          "Suriname",
+          3
+        ],
+        [
+          "Paraguay",
+          2
+        ],
+        [
+          "Haiti",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 2",
+      "code_friendly_name_guess": "country_area_2",
+      "n_total": 741,
+      "n_null": 734,
+      "n_non_null": 7,
+      "null_rate": 0.9906,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Paraguay",
+          4
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "Mexico",
+          1
+        ],
+        [
+          "Brazil",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 738,
+      "top_values": [
+        [
+          "Hidroituango hydroelectric plant",
+          2
+        ],
+        [
+          "Belisario Domínguez hydroelectric plant",
+          2
+        ],
+        [
+          "Acaray hydroelectric plant",
+          2
+        ],
+        [
+          "Ñuble hydroelectric plant",
+          1
+        ],
+        [
+          "Ángel Albino Corzo hydroelectric plant",
+          1
+        ],
+        [
+          "Água Vermelha hydroelectric plant",
+          1
+        ],
+        [
+          "Água Limpa hydroelectric plant",
+          1
+        ],
+        [
+          "Zamora G9 hydroelectric plant",
+          1
+        ],
+        [
+          "Zamora G8 hydroelectric plant",
+          1
+        ],
+        [
+          "Zamora G10 hydroelectric plant",
+          1
+        ],
+        [
+          "Yucán hydroelectric plant",
+          1
+        ],
+        [
+          "Ypê hydroelectric plant",
+          1
+        ],
+        [
+          "Yaupi hydroelectric plant",
+          1
+        ],
+        [
+          "Yauco hydroelectric plant",
+          1
+        ],
+        [
+          "Yanuncay hydroelectric plant",
+          1
+        ],
+        [
+          "Yanango hydroelectric plant",
+          1
+        ],
+        [
+          "Yanacachi Norte hydroelectric plant",
+          1
+        ],
+        [
+          "Yacyretá hydroelectric plant",
+          1
+        ],
+        [
+          "Xingó hydroelectric plant",
+          1
+        ],
+        [
+          "Xalalá hydroelectric plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name (local lang/script)",
+      "code_friendly_name_guess": "project_name_local_lang_script",
+      "n_total": 741,
+      "n_null": 142,
+      "n_non_null": 599,
+      "null_rate": 0.1916,
+      "n_unique": 587,
+      "top_values": [
+        [
+          "Usina Hidrelétrica Santo Antônio",
+          2
+        ],
+        [
+          "Usina Hidrelétrica Estreito",
+          2
+        ],
+        [
+          "Central Hidroeléctrica San Francisco",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Pucará",
+          2
+        ],
+        [
+          "Central Hidroeléctrica La Garita",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Hidroituango",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Corani",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Belisario Domínguez",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Arenal",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Angostura",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Acaray",
+          2
+        ],
+        [
+          "Central Hidroeléctrica Abanico",
+          2
+        ],
+        [
+          "Usina Nova Maurício",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Água Vermelha",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Água Limpa",
+          1
+        ],
+        [
+          "Usina Hidrelétrica de Ourinhos",
+          1
+        ],
+        [
+          "Usina Hidrelétrica de Canoa Quebrada",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Xingó",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Volta Grande",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Uruçuí",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 741,
+      "n_null": 553,
+      "n_non_null": 188,
+      "null_rate": 0.7463,
+      "n_unique": 182,
+      "top_values": [
+        [
+          "Santiago",
+          3
+        ],
+        [
+          "West Suriname",
+          2
+        ],
+        [
+          "San Gabán 4",
+          2
+        ],
+        [
+          "La Angostura II (Phase 2)",
+          2
+        ],
+        [
+          "Ituango",
+          2
+        ],
+        [
+          "Ñuble de Pasada, Hidroñuble",
+          1
+        ],
+        [
+          "Álvaro de Souza Lima",
+          1
+        ],
+        [
+          "Zoquiapa Dam",
+          1
+        ],
+        [
+          "Zimapán",
+          1
+        ],
+        [
+          "Veracruz Marañon",
+          1
+        ],
+        [
+          "Valencia",
+          1
+        ],
+        [
+          "Utcubamba Hydro",
+          1
+        ],
+        [
+          "Usina Hidrelétrica Garabi",
+          1
+        ],
+        [
+          "Toro 3",
+          1
+        ],
+        [
+          "Tocoma",
+          1
+        ],
+        [
+          "Tenosique Dam project",
+          1
+        ],
+        [
+          "São Roque Canoas",
+          1
+        ],
+        [
+          "Soldados-Yanuncay",
+          1
+        ],
+        [
+          "Simón Bolívar, Raul Leoni",
+          1
+        ],
+        [
+          "Segredo",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 335,
+      "top_values": [
+        [
+          "30.0",
+          45
+        ],
+        [
+          "120.0",
+          14
+        ],
+        [
+          "80.0",
+          12
+        ],
+        [
+          "40.0",
+          11
+        ],
+        [
+          "32.0",
+          10
+        ],
+        [
+          "60.0",
+          9
+        ],
+        [
+          "210.0",
+          9
+        ],
+        [
+          "150.0",
+          9
+        ],
+        [
+          "51.0",
+          8
+        ],
+        [
+          "50.0",
+          8
+        ],
+        [
+          "38.0",
+          8
+        ],
+        [
+          "36.0",
+          8
+        ],
+        [
+          "240.0",
+          8
+        ],
+        [
+          "90.0",
+          7
+        ],
+        [
+          "48.0",
+          7
+        ],
+        [
+          "300.0",
+          7
+        ],
+        [
+          "27.0",
+          7
+        ],
+        [
+          "180.0",
+          7
+        ],
+        [
+          "52.0",
+          6
+        ],
+        [
+          "10.0",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Binational",
+      "code_friendly_name_guess": "binational",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "No",
+          734
+        ],
+        [
+          "Yes",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Country/Area 1 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_1_capacity_mw",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 333,
+      "top_values": [
+        [
+          "30.0",
+          45
+        ],
+        [
+          "120.0",
+          14
+        ],
+        [
+          "80.0",
+          12
+        ],
+        [
+          "40.0",
+          11
+        ],
+        [
+          "32.0",
+          10
+        ],
+        [
+          "60.0",
+          9
+        ],
+        [
+          "210.0",
+          9
+        ],
+        [
+          "150.0",
+          9
+        ],
+        [
+          "51.0",
+          8
+        ],
+        [
+          "50.0",
+          8
+        ],
+        [
+          "38.0",
+          8
+        ],
+        [
+          "36.0",
+          8
+        ],
+        [
+          "240.0",
+          8
+        ],
+        [
+          "90.0",
+          7
+        ],
+        [
+          "48.0",
+          7
+        ],
+        [
+          "300.0",
+          7
+        ],
+        [
+          "27.0",
+          7
+        ],
+        [
+          "180.0",
+          7
+        ],
+        [
+          "52.0",
+          6
+        ],
+        [
+          "10.0",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 2 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_2_capacity_mw",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "0.0",
+          734
+        ],
+        [
+          "945.0",
+          1
+        ],
+        [
+          "7000.0",
+          1
+        ],
+        [
+          "33.0",
+          1
+        ],
+        [
+          "288.0",
+          1
+        ],
+        [
+          "1550.0",
+          1
+        ],
+        [
+          "1440.0",
+          1
+        ],
+        [
+          "135.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Turbines",
+      "code_friendly_name_guess": "turbines",
+      "n_total": 741,
+      "n_null": 338,
+      "n_non_null": 403,
+      "null_rate": 0.4561,
+      "n_unique": 246,
+      "top_values": [
+        [
+          "2.0",
+          46
+        ],
+        [
+          "3.0",
+          33
+        ],
+        [
+          "4.0",
+          22
+        ],
+        [
+          "5.0",
+          13
+        ],
+        [
+          "6.0",
+          4
+        ],
+        [
+          "3 x 60 MW",
+          4
+        ],
+        [
+          "3 x 40 MW",
+          4
+        ],
+        [
+          "2 x 15 MW",
+          4
+        ],
+        [
+          "4 x 35 MW",
+          3
+        ],
+        [
+          "3 x 54 MW",
+          3
+        ],
+        [
+          "3 x 44 MW",
+          3
+        ],
+        [
+          "2 x 75 MW",
+          3
+        ],
+        [
+          "2 x 60 MW",
+          3
+        ],
+        [
+          "2 x 40 MW",
+          3
+        ],
+        [
+          "2 x 25 MW",
+          3
+        ],
+        [
+          "1.0",
+          3
+        ],
+        [
+          "8.0",
+          2
+        ],
+        [
+          "7.0",
+          2
+        ],
+        [
+          "6 x 175 MW",
+          2
+        ],
+        [
+          "4 x 30 MW",
+          2
+        ]
+      ],
+      "portion_numeric": 0.3201,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          490
+        ],
+        [
+          "pre-construction",
+          84
+        ],
+        [
+          "cancelled - inferred 4 y",
+          43
+        ],
+        [
+          "announced",
+          37
+        ],
+        [
+          "shelved - inferred 2 y",
+          26
+        ],
+        [
+          "shelved",
+          25
+        ],
+        [
+          "construction",
+          15
+        ],
+        [
+          "cancelled",
+          13
+        ],
+        [
+          "mothballed",
+          7
+        ],
+        [
+          "retired",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Complex",
+      "code_friendly_name_guess": "complex",
+      "n_total": 741,
+      "n_null": 663,
+      "n_non_null": 78,
+      "null_rate": 0.8947,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "Cuenca Media Del Río Grande Complex",
+          7
+        ],
+        [
+          "Complexo Hidrelétrico Do Tapajós",
+          5
+        ],
+        [
+          "Complexo De Paulo Afonso",
+          5
+        ],
+        [
+          "Paute Complex",
+          4
+        ],
+        [
+          "Zamora-Santiago Complex",
+          3
+        ],
+        [
+          "Uribante Caparo Complex",
+          3
+        ],
+        [
+          "Maqueo Complex",
+          3
+        ],
+        [
+          "Jacuí Complex",
+          3
+        ],
+        [
+          "Diamante Complex",
+          3
+        ],
+        [
+          "Complexo Energético Do Rio Das Antas",
+          3
+        ],
+        [
+          "Chiriquí Complex",
+          3
+        ],
+        [
+          "Yacyreta Complex",
+          2
+        ],
+        [
+          "San Gabán 4 Complex",
+          2
+        ],
+        [
+          "Río Huamuco Complex",
+          2
+        ],
+        [
+          "Nestor Kirchner-Jorge Cepernic Complex",
+          2
+        ],
+        [
+          "Miguillas Complex",
+          2
+        ],
+        [
+          "Mantaro Complex",
+          2
+        ],
+        [
+          "Los Blancos Complex",
+          2
+        ],
+        [
+          "Ivirizu Complex",
+          2
+        ],
+        [
+          "Hidroarma Complex",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 741,
+      "n_null": 192,
+      "n_non_null": 549,
+      "null_rate": 0.2591,
+      "n_unique": 104,
+      "top_values": [
+        [
+          "2016.0",
+          18
+        ],
+        [
+          "2028.0",
+          15
+        ],
+        [
+          "2006.0",
+          15
+        ],
+        [
+          "2015.0",
+          14
+        ],
+        [
+          "2010.0",
+          14
+        ],
+        [
+          "2002.0",
+          14
+        ],
+        [
+          "1973.0",
+          14
+        ],
+        [
+          "2027.0",
+          13
+        ],
+        [
+          "2029.0",
+          12
+        ],
+        [
+          "2012.0",
+          12
+        ],
+        [
+          "2011.0",
+          12
+        ],
+        [
+          "2014.0",
+          11
+        ],
+        [
+          "2008.0",
+          11
+        ],
+        [
+          "2013.0",
+          10
+        ],
+        [
+          "1999.0",
+          9
+        ],
+        [
+          "2026.0",
+          8
+        ],
+        [
+          "2018.0",
+          8
+        ],
+        [
+          "2017.0",
+          8
+        ],
+        [
+          "2009.0",
+          8
+        ],
+        [
+          "2007.0",
+          8
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 741,
+      "n_null": 741,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 741,
+      "n_null": 137,
+      "n_non_null": 604,
+      "null_rate": 0.1849,
+      "n_unique": 283,
+      "top_values": [
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          27
+        ],
+        [
+          "Empresa Nacional de Electricidad Corp [100%]",
+          21
+        ],
+        [
+          "Corporación Eléctrica del Ecuador SA [100%]",
+          20
+        ],
+        [
+          "Empresa Nicaragüense de Electricidad [100%]",
+          15
+        ],
+        [
+          "Eletrobras Furnas [100%]",
+          14
+        ],
+        [
+          "Corporación Eléctrica Nacional SA [100%]",
+          11
+        ],
+        [
+          "Instituto Costarricense de Electricidad [100%]",
+          10
+        ],
+        [
+          "Engie Brasil Energia SA [100%]",
+          10
+        ],
+        [
+          "Enel Generación Chile SA [100%]",
+          10
+        ],
+        [
+          "Empresas Públicas de Medellín ESP [100%]",
+          10
+        ],
+        [
+          "Companhia Hidro Elétrica do São Francisco SA (CHESF) [100%]",
+          10
+        ],
+        [
+          "Colbún SA [100%]",
+          8
+        ],
+        [
+          "CTG Brasil [100%]",
+          8
+        ],
+        [
+          "Enel Generación [100%]",
+          7
+        ],
+        [
+          "Empresa Nacional de Energía Eléctrica [100%]",
+          7
+        ],
+        [
+          "Colbun SA",
+          7
+        ],
+        [
+          "AES Brasil [100%]",
+          7
+        ],
+        [
+          "ISAGEN Energía Productiva [100%]",
+          6
+        ],
+        [
+          "Costa Rican Electricity Institute (ICE)",
+          6
+        ],
+        [
+          "Comisión Federal de Electricidad EPE",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name (local lang/script)",
+      "code_friendly_name_guess": "owner_name_local_lang_script",
+      "n_total": 741,
+      "n_null": 698,
+      "n_non_null": 43,
+      "null_rate": 0.942,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "ENDE Corporación",
+          21
+        ],
+        [
+          "Colbún SA",
+          7
+        ],
+        [
+          "中国长江三峡集团有限公司",
+          3
+        ],
+        [
+          "Administración Nacional de Usinas y Trasmisiones Eléctricas",
+          3
+        ],
+        [
+          "Empresa Nacional de Electricidad (ENDE)",
+          2
+        ],
+        [
+          "中国葛洲坝集团海外投资香港有限公司",
+          1
+        ],
+        [
+          "三井物産株式会社",
+          1
+        ],
+        [
+          "Usina Terméletrica Norte Fluminense",
+          1
+        ],
+        [
+          "SPIC Brasil Energia Participações",
+          1
+        ],
+        [
+          "Panamá Energy Finance",
+          1
+        ],
+        [
+          "Gerdau Aços Longos",
+          1
+        ],
+        [
+          "Autoridad de Energía Eléctrica (Puerto Rico)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 741,
+      "n_null": 411,
+      "n_non_null": 330,
+      "null_rate": 0.5547,
+      "n_unique": 147,
+      "top_values": [
+        [
+          "Comisión Federal de Electricidad",
+          19
+        ],
+        [
+          "Empresa Nicaragüense de Electricidad",
+          17
+        ],
+        [
+          "Corporación Eléctrica del Ecuador",
+          17
+        ],
+        [
+          "Furnas-Centrais Elétricas",
+          11
+        ],
+        [
+          "Empresas Públicas de Medellín",
+          10
+        ],
+        [
+          "Instituto Costarricense de Electricidad",
+          9
+        ],
+        [
+          "Enel Generación Chile",
+          9
+        ],
+        [
+          "Companhia Hidro Elétrica do São Francisco SA (CHESF)",
+          9
+        ],
+        [
+          "Colbún",
+          9
+        ],
+        [
+          "Enel Generación",
+          7
+        ],
+        [
+          "AES Brasil Operações",
+          7
+        ],
+        [
+          "Engie Brasil Energia",
+          6
+        ],
+        [
+          "Ende Corani",
+          6
+        ],
+        [
+          "Elecaustro",
+          5
+        ],
+        [
+          "ENDE Valle Hermoso",
+          5
+        ],
+        [
+          "Rio Paranapanema Energia",
+          4
+        ],
+        [
+          "ISAGEN Energía Productiva",
+          4
+        ],
+        [
+          "Copel Geração e Transmissão",
+          4
+        ],
+        [
+          "Celsia Colombia",
+          4
+        ],
+        [
+          "UTE",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name (local lang/script)",
+      "code_friendly_name_guess": "operator_name_local_lang_script",
+      "n_total": 741,
+      "n_null": 734,
+      "n_non_null": 7,
+      "null_rate": 0.9906,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Administración Nacional de Usinas y Trasmisiones Eléctricas",
+          3
+        ],
+        [
+          "SPIC Brasil Energia Participações",
+          1
+        ],
+        [
+          "Empresa Nacional de Electricidad (ENDE)",
+          1
+        ],
+        [
+          "ENDE Corporación",
+          1
+        ],
+        [
+          "Autoridad de Energía Eléctrica (Puerto Rico)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Technology Type",
+      "code_friendly_name_guess": "technology_type",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "conventional storage",
+          330
+        ],
+        [
+          "unknown",
+          229
+        ],
+        [
+          "run-of-river",
+          151
+        ],
+        [
+          "conventional and run-of-river",
+          24
+        ],
+        [
+          "pumped storage",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "River / Watercourse",
+      "code_friendly_name_guess": "river_watercourse",
+      "n_total": 741,
+      "n_null": 193,
+      "n_non_null": 548,
+      "null_rate": 0.2605,
+      "n_unique": 304,
+      "top_values": [
+        [
+          "Rio Grande",
+          16
+        ],
+        [
+          "Rio São Francisco",
+          10
+        ],
+        [
+          "Rio Tocantins",
+          8
+        ],
+        [
+          "Rio Paranapanema",
+          8
+        ],
+        [
+          "Rio Tietê",
+          7
+        ],
+        [
+          "Rio Paraíba do Sul",
+          7
+        ],
+        [
+          "Rio Grande River",
+          7
+        ],
+        [
+          "Rio Araguari",
+          7
+        ],
+        [
+          "Río Grijalva",
+          6
+        ],
+        [
+          "Río Grande de Matagalpa",
+          6
+        ],
+        [
+          "Río Caroní",
+          6
+        ],
+        [
+          "Rio Iguaçu",
+          6
+        ],
+        [
+          "Río San Juan",
+          5
+        ],
+        [
+          "Río Marañón",
+          5
+        ],
+        [
+          "Río Guayllabamba",
+          5
+        ],
+        [
+          "Río Chiriquí Viejo",
+          5
+        ],
+        [
+          "Rio Uruguai",
+          5
+        ],
+        [
+          "Rio Doce",
+          5
+        ],
+        [
+          "Río Paraná",
+          4
+        ],
+        [
+          "Río Negro",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 701,
+      "top_values": [
+        [
+          "-18.9038",
+          7
+        ],
+        [
+          "5.0618",
+          4
+        ],
+        [
+          "12.9288",
+          4
+        ],
+        [
+          "-15.497",
+          3
+        ],
+        [
+          "8.3039",
+          2
+        ],
+        [
+          "7.1347",
+          2
+        ],
+        [
+          "4.0416",
+          2
+        ],
+        [
+          "16.4017",
+          2
+        ],
+        [
+          "15.4755",
+          2
+        ],
+        [
+          "14.8211",
+          2
+        ],
+        [
+          "13.1303",
+          2
+        ],
+        [
+          "13.0884",
+          2
+        ],
+        [
+          "-8.6545",
+          2
+        ],
+        [
+          "-6.4393",
+          2
+        ],
+        [
+          "-5.7592",
+          2
+        ],
+        [
+          "-40.445",
+          2
+        ],
+        [
+          "-37.7178",
+          2
+        ],
+        [
+          "-37.5404",
+          2
+        ],
+        [
+          "-36.5193",
+          2
+        ],
+        [
+          "-33.7339",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 702,
+      "top_values": [
+        [
+          "-63.3978",
+          7
+        ],
+        [
+          "-75.5034",
+          4
+        ],
+        [
+          "-85.9151",
+          3
+        ],
+        [
+          "-70.1302",
+          3
+        ],
+        [
+          "-92.7784",
+          2
+        ],
+        [
+          "-90.3758",
+          2
+        ],
+        [
+          "-85.9989",
+          2
+        ],
+        [
+          "-85.955",
+          2
+        ],
+        [
+          "-84.1249",
+          2
+        ],
+        [
+          "-78.4507",
+          2
+        ],
+        [
+          "-76.5795",
+          2
+        ],
+        [
+          "-76.3144",
+          2
+        ],
+        [
+          "-75.6624",
+          2
+        ],
+        [
+          "-74.6556",
+          2
+        ],
+        [
+          "-74.6371",
+          2
+        ],
+        [
+          "-72.9021",
+          2
+        ],
+        [
+          "-72.2369",
+          2
+        ],
+        [
+          "-71.5861",
+          2
+        ],
+        [
+          "-70.9802",
+          2
+        ],
+        [
+          "-70.3511",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          553
+        ],
+        [
+          "approximate",
+          188
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City 1",
+      "code_friendly_name_guess": "city_1",
+      "n_total": 741,
+      "n_null": 591,
+      "n_non_null": 150,
+      "null_rate": 0.7976,
+      "n_unique": 123,
+      "top_values": [
+        [
+          "Paulo Afonso",
+          5
+        ],
+        [
+          "La Paz",
+          4
+        ],
+        [
+          "Itaituba",
+          4
+        ],
+        [
+          "Cuenca",
+          3
+        ],
+        [
+          "Venustiano Carranza",
+          2
+        ],
+        [
+          "Uberlândia",
+          2
+        ],
+        [
+          "Tangará da Serra",
+          2
+        ],
+        [
+          "San Félix",
+          2
+        ],
+        [
+          "Ribeirao Prata",
+          2
+        ],
+        [
+          "Porto Velho",
+          2
+        ],
+        [
+          "Municipio Yanacachi",
+          2
+        ],
+        [
+          "Matiguás",
+          2
+        ],
+        [
+          "Manuel Cornejo Astorga (Tandapi)",
+          2
+        ],
+        [
+          "Luziânia",
+          2
+        ],
+        [
+          "Los Andes",
+          2
+        ],
+        [
+          "Ituango",
+          2
+        ],
+        [
+          "Commune Boucan Carré",
+          2
+        ],
+        [
+          "Cholón",
+          2
+        ],
+        [
+          "Araguari",
+          2
+        ],
+        [
+          "Zúñiga",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Area 1",
+      "code_friendly_name_guess": "local_area_1",
+      "n_total": 741,
+      "n_null": 508,
+      "n_non_null": 233,
+      "null_rate": 0.6856,
+      "n_unique": 175,
+      "top_values": [
+        [
+          "Quito Canton",
+          7
+        ],
+        [
+          "Abapó",
+          7
+        ],
+        [
+          "São Paulo",
+          4
+        ],
+        [
+          "Pedro Domingo Murillo",
+          4
+        ],
+        [
+          "San Carlos",
+          3
+        ],
+        [
+          "Região Metropolitana do Vale do Paraíba e Litoral Norte",
+          3
+        ],
+        [
+          "Região Integrada de Desenvolvimento do Distrito Federal e Entorno",
+          3
+        ],
+        [
+          "Provincia de Bío-Bío",
+          3
+        ],
+        [
+          "Municipio Caroní",
+          3
+        ],
+        [
+          "Morona",
+          3
+        ],
+        [
+          "Mira",
+          3
+        ],
+        [
+          "Marcapata",
+          3
+        ],
+        [
+          "Totora",
+          2
+        ],
+        [
+          "Santa Rosa de Alto Yanajanca",
+          2
+        ],
+        [
+          "San Rafael",
+          2
+        ],
+        [
+          "San Fabián de Alico",
+          2
+        ],
+        [
+          "Região Metropolitana de Umuarama",
+          2
+        ],
+        [
+          "Região Metropolitana de São José do Rio Preto",
+          2
+        ],
+        [
+          "Região Metropolitana de Ribeirão Preto",
+          2
+        ],
+        [
+          "Região Metropolitana de Curitiba",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major Area 1",
+      "code_friendly_name_guess": "major_area_1",
+      "n_total": 741,
+      "n_null": 381,
+      "n_non_null": 360,
+      "null_rate": 0.5142,
+      "n_unique": 186,
+      "top_values": [
+        [
+          "Região Geográfica Intermediária de Rio Verde",
+          11
+        ],
+        [
+          "Região Geográfica Intermediária de Santarém",
+          8
+        ],
+        [
+          "Valle Grande",
+          7
+        ],
+        [
+          "Região Geográfica Intermediária de Uberlândia",
+          7
+        ],
+        [
+          "Região Geográfica Intermediária de Sinop",
+          6
+        ],
+        [
+          "Região Geográfica Intermediária de Paulo Afonso",
+          6
+        ],
+        [
+          "Região Geográfica Intermediária de Cuiabá",
+          6
+        ],
+        [
+          "Região Geográfica Intermediária de Caxias do Sul",
+          6
+        ],
+        [
+          "Oriente",
+          6
+        ],
+        [
+          "Carabaya",
+          6
+        ],
+        [
+          "Região Geográfica Intermediária de Passo Fundo",
+          5
+        ],
+        [
+          "Região Geográfica Intermediária de Guarapuava",
+          5
+        ],
+        [
+          "Região Geográfica Intermediária de Cascavel",
+          5
+        ],
+        [
+          "Norte",
+          5
+        ],
+        [
+          "Departamento San Rafael",
+          5
+        ],
+        [
+          "Região Geográfica Intermediária de Volta Redonda-Barra Mansa",
+          4
+        ],
+        [
+          "Região Geográfica Intermediária de Uberaba",
+          4
+        ],
+        [
+          "Região Geográfica Intermediária de São José dos Campos",
+          4
+        ],
+        [
+          "Região Geográfica Intermediária de Sorocaba",
+          4
+        ],
+        [
+          "Região Geográfica Intermediária de Marília",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province 1",
+      "code_friendly_name_guess": "state_province_1",
+      "n_total": 741,
+      "n_null": 33,
+      "n_non_null": 708,
+      "null_rate": 0.0445,
+      "n_unique": 197,
+      "top_values": [
+        [
+          "Minas Gerais",
+          41
+        ],
+        [
+          "São Paulo",
+          28
+        ],
+        [
+          "Mato Grosso",
+          22
+        ],
+        [
+          "Goiás",
+          20
+        ],
+        [
+          "Antioquia",
+          20
+        ],
+        [
+          "Paraná",
+          19
+        ],
+        [
+          "Rio Grande do Sul",
+          17
+        ],
+        [
+          "Pichincha",
+          15
+        ],
+        [
+          "Mendoza",
+          14
+        ],
+        [
+          "Pará",
+          13
+        ],
+        [
+          "Biobío Region",
+          13
+        ],
+        [
+          "Santa Catarina",
+          12
+        ],
+        [
+          "Santa Cruz",
+          11
+        ],
+        [
+          "Chiriquí",
+          11
+        ],
+        [
+          "Lima",
+          10
+        ],
+        [
+          "Bahia",
+          10
+        ],
+        [
+          "Rio de Janeiro",
+          9
+        ],
+        [
+          "Puno",
+          9
+        ],
+        [
+          "La Paz",
+          8
+        ],
+        [
+          "Azuay",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion 1",
+      "code_friendly_name_guess": "subregion_1",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          740
+        ],
+        [
+          "Northern America",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region 1",
+      "code_friendly_name_guess": "region_1",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          741
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City 2",
+      "code_friendly_name_guess": "city_2",
+      "n_total": 741,
+      "n_null": 741,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Area 2",
+      "code_friendly_name_guess": "local_area_2",
+      "n_total": 741,
+      "n_null": 741,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major Area 2",
+      "code_friendly_name_guess": "major_area_2",
+      "n_total": 741,
+      "n_null": 740,
+      "n_non_null": 1,
+      "null_rate": 0.9987,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Região Geográfica Intermediária de Ijui",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province 2",
+      "code_friendly_name_guess": "state_province_2",
+      "n_total": 741,
+      "n_null": 734,
+      "n_non_null": 7,
+      "null_rate": 0.9906,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Itapúa",
+          2
+        ],
+        [
+          "Salto",
+          1
+        ],
+        [
+          "Rio Grande do Sul",
+          1
+        ],
+        [
+          "Misiones",
+          1
+        ],
+        [
+          "Coahuila",
+          1
+        ],
+        [
+          "Alto Paraná",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion 2",
+      "code_friendly_name_guess": "subregion_2",
+      "n_total": 741,
+      "n_null": 734,
+      "n_non_null": 7,
+      "null_rate": 0.9906,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region 2",
+      "code_friendly_name_guess": "region_2",
+      "n_total": 741,
+      "n_null": 734,
+      "n_non_null": 7,
+      "null_rate": 0.9906,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 738,
+      "top_values": [
+        [
+          "L100000604157",
+          2
+        ],
+        [
+          "L100000602467",
+          2
+        ],
+        [
+          "L100000601416",
+          2
+        ],
+        [
+          "L100001062827",
+          1
+        ],
+        [
+          "L100001062825",
+          1
+        ],
+        [
+          "L100001062824",
+          1
+        ],
+        [
+          "L100001062601",
+          1
+        ],
+        [
+          "L100001062600",
+          1
+        ],
+        [
+          "L100001062592",
+          1
+        ],
+        [
+          "L100001062583",
+          1
+        ],
+        [
+          "L100001062577",
+          1
+        ],
+        [
+          "L100001062572",
+          1
+        ],
+        [
+          "L100001062563",
+          1
+        ],
+        [
+          "L100001062557",
+          1
+        ],
+        [
+          "L100001062554",
+          1
+        ],
+        [
+          "L100001062548",
+          1
+        ],
+        [
+          "L100001062539",
+          1
+        ],
+        [
+          "L100001062452",
+          1
+        ],
+        [
+          "L100001062447",
+          1
+        ],
+        [
+          "L100001062406",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 741,
+      "top_values": [
+        [
+          "G100001072170",
+          1
+        ],
+        [
+          "G100001072168",
+          1
+        ],
+        [
+          "G100001072167",
+          1
+        ],
+        [
+          "G100001071898",
+          1
+        ],
+        [
+          "G100001071897",
+          1
+        ],
+        [
+          "G100001071888",
+          1
+        ],
+        [
+          "G100001071876",
+          1
+        ],
+        [
+          "G100001071866",
+          1
+        ],
+        [
+          "G100001071859",
+          1
+        ],
+        [
+          "G100001071849",
+          1
+        ],
+        [
+          "G100001071844",
+          1
+        ],
+        [
+          "G100001071841",
+          1
+        ],
+        [
+          "G100001071834",
+          1
+        ],
+        [
+          "G100001071827",
+          1
+        ],
+        [
+          "G100001071725",
+          1
+        ],
+        [
+          "G100001071718",
+          1
+        ],
+        [
+          "G100001071675",
+          1
+        ],
+        [
+          "G100001071666",
+          1
+        ],
+        [
+          "G100001071662",
+          1
+        ],
+        [
+          "G100001071658",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 741,
+      "n_null": 0,
+      "n_non_null": 741,
+      "null_rate": 0.0,
+      "n_unique": 738,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Hidroituango_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Belisario_Domínguez_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Acaray_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Ñuble_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ángel_Albino_Corzo_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Água_Vermelha_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Água_Limpa_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zamora_G9_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zamora_G8_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zamora_G10_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yucán_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ypê_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yaupi_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yauco_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yanuncay_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yanango_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yanacachi_Norte_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yacyretá_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xingó_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xalalá_hydroelectric_plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,1865 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__project_level_main_data",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "project_level_main_data",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.455839+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "L100001080895",
+          1
+        ],
+        [
+          "L100001080894",
+          1
+        ],
+        [
+          "L100001063693",
+          1
+        ],
+        [
+          "L100001055776",
+          1
+        ],
+        [
+          "L100001055766",
+          1
+        ],
+        [
+          "L100000324830",
+          1
+        ],
+        [
+          "L100000324417",
+          1
+        ],
+        [
+          "L100000324400",
+          1
+        ],
+        [
+          "L100000324242",
+          1
+        ],
+        [
+          "L100000324240",
+          1
+        ],
+        [
+          "L100000324239",
+          1
+        ],
+        [
+          "L100000324238",
+          1
+        ],
+        [
+          "L100000324167",
+          1
+        ],
+        [
+          "L100000324165",
+          1
+        ],
+        [
+          "L100000324158",
+          1
+        ],
+        [
+          "L100000323392",
+          1
+        ],
+        [
+          "L100000320702",
+          1
+        ],
+        [
+          "L100000320700",
+          1
+        ],
+        [
+          "L100000320698",
+          1
+        ],
+        [
+          "L100000320344",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "Yumuri-Seboruco Oil Project (Matanzas, Cuba)",
+          1
+        ],
+        [
+          "Yellowtail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Whiptail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Velásquez-Palagua Oil Project (Boyaca, Colombia)",
+          1
+        ],
+        [
+          "Uaru Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Tigana/Jacana Oil Project (Casanare, Colombia)",
+          1
+        ],
+        [
+          "Sirius Gas Project (Guajira, Colombia)",
+          1
+        ],
+        [
+          "Sergipe-Alagoas Deepwater Oil and Gas Project (Brazil)",
+          1
+        ],
+        [
+          "Sea Lion Oil and Gas Project (Falkland Islands)",
+          1
+        ],
+        [
+          "Sacha Oil and Gas Project (Ecuador)",
+          1
+        ],
+        [
+          "Ruby Oil and Gas Project (Trinidad and Tobago)",
+          1
+        ],
+        [
+          "Polok-Chinwol Oil Project (Mexico)",
+          1
+        ],
+        [
+          "Pit-Baksha Oil and Gas Project (Mexico)",
+          1
+        ],
+        [
+          "Payara-Pacora Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Parque das Baleias Oil and Gas Project (Espírito Santo, Brazil)",
+          1
+        ],
+        [
+          "Oritupano-Leona Oil and Gas Project (Venezuela)",
+          1
+        ],
+        [
+          "Orca Oil and Gas Project (Rio de Janeiro, Brazil)",
+          1
+        ],
+        [
+          "Matapal Oil and Gas Project (Trinidad and Tobago)",
+          1
+        ],
+        [
+          "Margarita - Huacaya Gas Project (Tarija, Bolivia)",
+          1
+        ],
+        [
+          "Manakin-Cocuina Gas Project (Venezuela, Trinidad and Tobago)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project local script",
+      "code_friendly_name_guess": "project_local_script",
+      "n_total": 999,
+      "n_null": 970,
+      "n_non_null": 29,
+      "null_rate": 0.971,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "Yumurí-Seboruco",
+          1
+        ],
+        [
+          "Velásquez-Palagua",
+          1
+        ],
+        [
+          "Tigana/Jacana",
+          1
+        ],
+        [
+          "Sirius",
+          1
+        ],
+        [
+          "Project Barracuda",
+          1
+        ],
+        [
+          "Parque das Baleias",
+          1
+        ],
+        [
+          "Oritupano-Leona",
+          1
+        ],
+        [
+          "Margarita - Huacaya",
+          1
+        ],
+        [
+          "Manakin-Cocuina",
+          1
+        ],
+        [
+          "Loran-Manatee",
+          1
+        ],
+        [
+          "Kapok-Dorado",
+          1
+        ],
+        [
+          "Junín - Junín Este",
+          1
+        ],
+        [
+          "Gato do Mato",
+          1
+        ],
+        [
+          "Cusiana",
+          1
+        ],
+        [
+          "Cruces Manueles",
+          1
+        ],
+        [
+          "Clarinete",
+          1
+        ],
+        [
+          "Cira-Infantas",
+          1
+        ],
+        [
+          "Chichimene",
+          1
+        ],
+        [
+          "Caño Limón",
+          1
+        ],
+        [
+          "Castilla",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel type",
+      "code_friendly_name_guess": "fuel_type",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "oil and gas",
+          24
+        ],
+        [
+          "oil",
+          13
+        ],
+        [
+          "gas",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Venezuela",
+          11
+        ],
+        [
+          "Colombia",
+          10
+        ],
+        [
+          "Trinidad and Tobago",
+          7
+        ],
+        [
+          "Guyana",
+          5
+        ],
+        [
+          "Brazil",
+          5
+        ],
+        [
+          "Ecuador",
+          3
+        ],
+        [
+          "Mexico",
+          2
+        ],
+        [
+          "Bolivia",
+          2
+        ],
+        [
+          "Peru",
+          1
+        ],
+        [
+          "Falkland Islands",
+          1
+        ],
+        [
+          "Cuba",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 999,
+      "n_null": 982,
+      "n_non_null": 17,
+      "null_rate": 0.983,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Meta",
+          3
+        ],
+        [
+          "Rio de Janeiro",
+          2
+        ],
+        [
+          "Casanare",
+          2
+        ],
+        [
+          "Tarija",
+          1
+        ],
+        [
+          "São Paulo",
+          1
+        ],
+        [
+          "Sucre",
+          1
+        ],
+        [
+          "Santander",
+          1
+        ],
+        [
+          "Santa Cruz",
+          1
+        ],
+        [
+          "Matanzas",
+          1
+        ],
+        [
+          "Guajira",
+          1
+        ],
+        [
+          "Espírito Santo",
+          1
+        ],
+        [
+          "Boyaca",
+          1
+        ],
+        [
+          "Arauca",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Production Type",
+      "code_friendly_name_guess": "production_type",
+      "n_total": 999,
+      "n_null": 960,
+      "n_non_null": 39,
+      "null_rate": 0.961,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "conventional",
+          38
+        ],
+        [
+          "mixed",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "operating",
+          33
+        ],
+        [
+          "in-development",
+          9
+        ],
+        [
+          "discovered",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status detail",
+      "code_friendly_name_guess": "status_detail",
+      "n_total": 999,
+      "n_null": 992,
+      "n_non_null": 7,
+      "null_rate": 0.993,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "ramp up",
+          3
+        ],
+        [
+          "actual",
+          2
+        ],
+        [
+          "early",
+          1
+        ],
+        [
+          "advanced",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status year",
+      "code_friendly_name_guess": "status_year",
+      "n_total": 999,
+      "n_null": 954,
+      "n_non_null": 45,
+      "null_rate": 0.955,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "2025.0",
+          12
+        ],
+        [
+          "2024.0",
+          10
+        ],
+        [
+          "2023.0",
+          9
+        ],
+        [
+          "2018.0",
+          5
+        ],
+        [
+          "2021.0",
+          3
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2019.0",
+          2
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Discovery year",
+      "code_friendly_name_guess": "discovery_year",
+      "n_total": 999,
+      "n_null": 979,
+      "n_non_null": 20,
+      "null_rate": 0.98,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "1983.0",
+          3
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "1999.0",
+          2
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ],
+        [
+          "1998.0",
+          1
+        ],
+        [
+          "1996.0",
+          1
+        ],
+        [
+          "1991.0",
+          1
+        ],
+        [
+          "1989.0",
+          1
+        ],
+        [
+          "1969.0",
+          1
+        ],
+        [
+          "1946.0",
+          1
+        ],
+        [
+          "1918.0",
+          1
+        ],
+        [
+          "1916.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FID Year",
+      "code_friendly_name_guess": "fid_year",
+      "n_total": 999,
+      "n_null": 986,
+      "n_non_null": 13,
+      "null_rate": 0.987,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "2025.0",
+          3
+        ],
+        [
+          "2023.0",
+          3
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Production start year",
+      "code_friendly_name_guess": "production_start_year",
+      "n_total": 999,
+      "n_null": 986,
+      "n_non_null": 13,
+      "null_rate": 0.987,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "2025.0",
+          3
+        ],
+        [
+          "2021.0",
+          3
+        ],
+        [
+          "2022.0",
+          1
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2005.0",
+          1
+        ],
+        [
+          "2003.0",
+          1
+        ],
+        [
+          "2000.0",
+          1
+        ],
+        [
+          "1921.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 999,
+      "n_null": 959,
+      "n_non_null": 40,
+      "null_rate": 0.96,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "ExxonMobil Guyana",
+          5
+        ],
+        [
+          "Ecopetrol",
+          5
+        ],
+        [
+          "BP Trinidad & Tobago",
+          4
+        ],
+        [
+          "EP Petroecuador",
+          3
+        ],
+        [
+          "Petróleo Brasileiro",
+          2
+        ],
+        [
+          "YPFB Chaco",
+          1
+        ],
+        [
+          "Sierracol Energy Arauca",
+          1
+        ],
+        [
+          "Sheritt International",
+          1
+        ],
+        [
+          "Shell TT",
+          1
+        ],
+        [
+          "Shell Brasil Petroleo",
+          1
+        ],
+        [
+          "Shell",
+          1
+        ],
+        [
+          "Repsol E&P Bolivia",
+          1
+        ],
+        [
+          "Repsol",
+          1
+        ],
+        [
+          "PlusPetrol; Repsol",
+          1
+        ],
+        [
+          "Petróleos Mexicanos",
+          1
+        ],
+        [
+          "Petrovictoria",
+          1
+        ],
+        [
+          "Petrokariña",
+          1
+        ],
+        [
+          "Petrocarabobo",
+          1
+        ],
+        [
+          "Perenco T&T",
+          1
+        ],
+        [
+          "Perenco",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 999,
+      "n_null": 963,
+      "n_non_null": 36,
+      "null_rate": 0.964,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "CNOOC Petroleum Guyana Ltd [25%]; Hess Guyana Exploration Ltd [30%]; ExxonMobil Guyana Ltd [45%]",
+          5
+        ],
+        [
+          "Ecopetrol SA [100%]",
+          4
+        ],
+        [
+          "BP Trinidad & Tobago LLC [100%]",
+          3
+        ],
+        [
+          "YPFB Chaco SA [100%]",
+          1
+        ],
+        [
+          "SierraCol Energy [45%]; Ecopetrol SA [54%]",
+          1
+        ],
+        [
+          "Shell TT [90%]; Heritage Petroleum Co Ltd [10%]",
+          1
+        ],
+        [
+          "Shell PLC [50%]; Ecopetrol SA [30%]; TotalEnergies SE [20%]",
+          1
+        ],
+        [
+          "Shell PLC [100%]",
+          1
+        ],
+        [
+          "Roszarubezhneft [40%]; Petróleos de Venezuela SA [60%]",
+          1
+        ],
+        [
+          "Rockhopper Exploration [35%]; Navitas Petroleum [65%]",
+          1
+        ],
+        [
+          "Repsol SA [46%]; Harbour Energy PLC [25%]; Petroliam Nasional Bhd [28%]",
+          1
+        ],
+        [
+          "Repsol SA [35%]; Petróleo Brasileiro SA [30%]; Equinor ASA [35%]",
+          1
+        ],
+        [
+          "Petróleos Mexicanos EPE",
+          1
+        ],
+        [
+          "Petróleo Brasileiro SA [44%]; Ecopetrol SA [55%]",
+          1
+        ],
+        [
+          "Petróleo Brasileiro SA [100%]",
+          1
+        ],
+        [
+          "Perenco T&T [45%]; Chaoyang Petroleum (Trinidad) Ltd [25%]; National Gas Company of Trinidad and Tobago Ltd [30%]",
+          1
+        ],
+        [
+          "PAE [25%]; Repsol SA [37%]; BG Bolivia [37%]",
+          1
+        ],
+        [
+          "ONGC Videsh Ltd [11%]; Indian Oil Corporation Ltd [3%]; Repsol SA [11%]; Petróleos de Venezuela SA [71%]; Oil India Ltd [3%]",
+          1
+        ],
+        [
+          "National Gas Company of Trinidad and Tobago Ltd [31%]; Perenco T&T [68%]",
+          1
+        ],
+        [
+          "GeoPark Colombia SAS [45%]; Parex Resources [55%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 999,
+      "n_null": 963,
+      "n_non_null": 36,
+      "null_rate": 0.964,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "Hess Corp [30.0%]; China National Offshore Oil Corp; Exxon Mobil Corp",
+          5
+        ],
+        [
+          "Ecopetrol SA [100.0%]",
+          4
+        ],
+        [
+          "BP PLC [70.0%]; Repsol SA [30.0%]",
+          3
+        ],
+        [
+          "Shell PLC [100.0%]",
+          2
+        ],
+        [
+          "Yacimientos Petrolíferos Fiscales Bolivianos Corp [99.3%]",
+          1
+        ],
+        [
+          "Shell PLC [90.0%]; Heritage Petroleum Co Ltd [10.0%]",
+          1
+        ],
+        [
+          "Shell PLC [50.0%]; Ecopetrol SA [30.0%]; TotalEnergies SE [20.0%]",
+          1
+        ],
+        [
+          "Repsol SA [46.7%]; Petroliam Nasional Bhd [28.3%]; Harbour Energy PLC [25.0%]",
+          1
+        ],
+        [
+          "Repsol SA [37.5%]; Shell PLC [37.5%]; BP PLC [12.5%]; Bridas Corp [12.5%]",
+          1
+        ],
+        [
+          "Petróleos de Venezuela SA [71.0%]; Oil and Natural Gas Corporation Ltd [11.0%]; Repsol SA [11.0%]; Indian Oil Corporation Ltd [3.5%]; Oil India Ltd [3.5%]",
+          1
+        ],
+        [
+          "Petróleos de Venezuela SA [60.0%]; Roszarubezhneft [40.0%]",
+          1
+        ],
+        [
+          "Petróleos de Venezuela SA [60.0%]; Integra Oil and Gas SAS [22.0%]; Occidental Petroleum Corp [18.0%]",
+          1
+        ],
+        [
+          "Petróleos Mexicanos EPE",
+          1
+        ],
+        [
+          "Petróleo Brasileiro SA [100.0%]",
+          1
+        ],
+        [
+          "Perenco SA [68.5%]; National Gas Company of Trinidad and Tobago Ltd [31.5%]",
+          1
+        ],
+        [
+          "Perenco SA [45.0%]; National Gas Company of Trinidad and Tobago Ltd [30.0%]; China Petrochemical Corp [12.5%]; CNOOC Ltd [12.5%]",
+          1
+        ],
+        [
+          "Parex Resources [55.0%]; GeoPark Ltd [45.0%]",
+          1
+        ],
+        [
+          "Navitas Petroleum [65.0%]; Rockhopper Exploration PLC [35.0%]",
+          1
+        ],
+        [
+          "Equinor ASA [40.0%]; Exxon Mobil Corp [40.0%]; Galp Energia SGPS SA [14.0%]; China Petroleum & Chemical Corp [6.0%]",
+          1
+        ],
+        [
+          "Equinor ASA [35.0%]; Repsol SA [35.0%]; Petróleo Brasileiro SA [30.0%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Government unit ID",
+      "code_friendly_name_guess": "government_unit_id",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "ANEEL: 1620",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Units (list of IDs)",
+      "code_friendly_name_guess": "units_list_of_ids",
+      "n_total": 999,
+      "n_null": 954,
+      "n_non_null": 45,
+      "null_rate": 0.955,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "L100000320732",
+          1
+        ],
+        [
+          "L100000320606, L100000320602, L100000320607, L100000320603, L100000320597, L100000320599, L100000320604",
+          1
+        ],
+        [
+          "L100000320324, L100000320326, L100000320325",
+          1
+        ],
+        [
+          "L100000320301",
+          1
+        ],
+        [
+          "L100000319056",
+          1
+        ],
+        [
+          "L100000319017",
+          1
+        ],
+        [
+          "L100000319014",
+          1
+        ],
+        [
+          "L100000319008, L100000304604",
+          1
+        ],
+        [
+          "L100000318404, L100000310910",
+          1
+        ],
+        [
+          "L100000318403, L100000310906",
+          1
+        ],
+        [
+          "L100000318398, L100000320451, L100000320700",
+          1
+        ],
+        [
+          "L100000318397, L100000320699",
+          1
+        ],
+        [
+          "L100000317982, L100000313095, L100000313094, L100000313083",
+          1
+        ],
+        [
+          "L100000317980, L100000318396, L100000310905",
+          1
+        ],
+        [
+          "L100000317625, L100000320342, L100000321192, L100000321193",
+          1
+        ],
+        [
+          "L100000317566, L100000313091, L100000313158",
+          1
+        ],
+        [
+          "L100000313931, L100000310911, L100000310922",
+          1
+        ],
+        [
+          "L100000313919, L100000313920",
+          1
+        ],
+        [
+          "L100000313096, L100000313093",
+          1
+        ],
+        [
+          "L100000313090, L100000313085, L100000313088, L100001082598",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL (project)",
+      "code_friendly_name_guess": "wiki_url_project",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Yumuri-Seboruco_Oil_Project_(Matanzas,_Cuba)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yellowtail_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Whiptail_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Velásquez-Palagua_Oil_Project_(Boyaca,_Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Uaru_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Tigana/Jacana_Oil_Project_(Casanare,_Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Sirius_Gas_Project_(Guajira,_Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Sergipe-Alagoas_Deepwater_Oil_and_Gas_Project_(Brazil)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Sea_Lion_Oil_and_Gas_Project_(Falkland_Islands)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Sacha_Oil_and_Gas_Project_(Ecuador)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ruby_Oil_and_Gas_Project_(Trinidad_and_Tobago)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Polok-Chinwol_Oil_Project_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Pit-Baksha_Oil_and_Gas_Project_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Payara-Pacora_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Parque_das_Baleias_Oil_and_Gas_Project_(Espírito_Santo,_Brazil)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Oritupano-Leona_Oil_and_Gas_Project_(Venezuela)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Orca_Oil_and_Gas_Project_(Rio_de_Janeiro,_Brazil)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Matapal_Oil_and_Gas_Project_(Trinidad_and_Tobago)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Margarita_-_Huacaya_Gas_Project_(Tarija,_Bolivia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Manakin-Cocuina_Gas_Project_(Venezuela,_Trinidad_and_Tobago)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Name Other",
+      "code_friendly_name_guess": "name_other",
+      "n_total": 999,
+      "n_null": 992,
+      "n_non_null": 7,
+      "null_rate": 0.993,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Uchuva",
+          1
+        ],
+        [
+          "Sergipe Deepwater Project II",
+          1
+        ],
+        [
+          "Manakin-Coquina",
+          1
+        ],
+        [
+          "Gato do Mato",
+          1
+        ],
+        [
+          "Errea Wittu",
+          1
+        ],
+        [
+          "Block 5C",
+          1
+        ],
+        [
+          "Akacias Phase 1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 44,
+      "top_values": [
+        [
+          "8.4187",
+          2
+        ],
+        [
+          "3.894",
+          2
+        ],
+        [
+          "9.974",
+          1
+        ],
+        [
+          "9.9694",
+          1
+        ],
+        [
+          "9.873",
+          1
+        ],
+        [
+          "9.0319",
+          1
+        ],
+        [
+          "8.81",
+          1
+        ],
+        [
+          "8.774",
+          1
+        ],
+        [
+          "8.6483887",
+          1
+        ],
+        [
+          "8.4704",
+          1
+        ],
+        [
+          "8.4308",
+          1
+        ],
+        [
+          "8.3841517",
+          1
+        ],
+        [
+          "8.2603055",
+          1
+        ],
+        [
+          "8.0068",
+          1
+        ],
+        [
+          "7.9537653",
+          1
+        ],
+        [
+          "7.8722667",
+          1
+        ],
+        [
+          "7.82",
+          1
+        ],
+        [
+          "6.955",
+          1
+        ],
+        [
+          "6.949",
+          1
+        ],
+        [
+          "6.131",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 44,
+      "top_values": [
+        [
+          "-73.666",
+          2
+        ],
+        [
+          "-64.7396",
+          2
+        ],
+        [
+          "-93.9792581",
+          1
+        ],
+        [
+          "-92.3413",
+          1
+        ],
+        [
+          "-81.598",
+          1
+        ],
+        [
+          "-76.8992",
+          1
+        ],
+        [
+          "-75.233",
+          1
+        ],
+        [
+          "-74.477",
+          1
+        ],
+        [
+          "-73.77",
+          1
+        ],
+        [
+          "-73.735",
+          1
+        ],
+        [
+          "-73.689",
+          1
+        ],
+        [
+          "-72.9925092",
+          1
+        ],
+        [
+          "-72.726",
+          1
+        ],
+        [
+          "-72.652",
+          1
+        ],
+        [
+          "-72.501",
+          1
+        ],
+        [
+          "-71.0945",
+          1
+        ],
+        [
+          "-66.4742934",
+          1
+        ],
+        [
+          "-65.2068",
+          1
+        ],
+        [
+          "-64.1453",
+          1
+        ],
+        [
+          "-63.8575",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "approximate",
+          29
+        ],
+        [
+          "exact",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project location type",
+      "code_friendly_name_guess": "project_location_type",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level location",
+          39
+        ],
+        [
+          "location derived from fields",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Onshore/Offshore",
+      "code_friendly_name_guess": "onshore_offshore",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "onshore",
+          24
+        ],
+        [
+          "offshore",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project outline (WKT)",
+      "code_friendly_name_guess": "project_outline_wkt",
+      "n_total": 999,
+      "n_null": 989,
+      "n_non_null": 10,
+      "null_rate": 0.99,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "POLYGON ((-63.3689232971724 8.61619220620542,-63.35983358755 8.61621442665448,-63.3598620259118 8.62524329534187,-63.2235879757044 8.62555695908645,-63.2235438567635 8.60751717757573,-63.15539035608 8.60767838644841,-63.1554240905493 8.58965193378975,-63.0876860784497 8.58968767554585,-63.0876658005362 8.50091752002759,-63.3361474521432 8.50078227458238,-63.3362085457877 8.57061370425907,-63.3698999842969 8.57058290967359,-63.3689232971724 8.61619220620542))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-72.5019535429282 8.87150189991294,-72.465571828425 8.91697904304198,-72.4504127807153 8.868470090371,-72.4564763997991 8.80783389953227,-72.5201444001798 8.71991142281612,-72.5413670669734 8.72597504189999,-72.5625897337669 8.77751580411291,-72.5019535429282 8.87150189991294)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-65.6805915497957 8.92337832034373,-65.7266571633752 8.96944393392325,-66.6302518912812 8.94818288150194,-66.7401006621247 8.93400884655439,-67.1936697804462 8.92337832034373,-67.3495841648692 8.88439972423798,-67.4665199531864 8.86668218055355,-67.4913245143446 8.8028990232896,-67.4771504793971 8.53004885054935,-67.3814757435012 8.41665657096898,-67.356671182343 8.37059095738946,-67.3141490775003 8.2820032389673,-67.0412989047601 7.99143552254262,-66.8216013630731 7.86032569927783,-66.6585999611763 7.76110745464501,-66.5097725942271 7.78236850706633,-66.421184875805 7.71858534980237,-66.3609452272779 7.7114983323286,-66.3396841748566 7.70795482359171,-66.2723575088557 7.62291061390644,-66.2105271566577 7.63098027861219,-66.1732724846492 7.66668267262037,-66.0951820720114 7.67251973622285,-66.019596962614 7.68220545262393,-65.953441722536 7.66188921001219,-65.8834371482034 7.68412352943619,-65.8389437347501 7.70465895103003,-65.7961616064296 7.74230722395207,-65.7585487420072 7.83197762938274,-65.6841350585326 7.87449973422537,-65.6805915497957 8.92337832034373)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-65.6777599611683 8.92007506031122,-65.3721646365894 8.83026153486865,-65.1540471695786 8.8744745349384,-64.8091857690346 8.83615660154461,-64.7738153689788 8.6946750013214,-64.5055898352223 8.68877993464543,-64.5138756826911 8.0280350641906,-64.5350651686021 7.94305400013558,-64.5085373685602 7.85168046665809,-64.4584293018145 7.80157239991237,-64.5674880353199 7.74851679982866,-64.6735992354873 7.75146433316665,-64.8445561690904 7.65124819967521,-64.9507867508166 7.67385581863927,-65.0243557027074 7.75735939984261,-65.1982601696484 7.8310477332922,-65.2837386364499 7.85168046665809,-65.4723807700809 7.84578539998212,-65.5001092784518 7.88605517510895,-65.5719832540302 7.91343573723406,-65.6669179703878 7.87820826669994,-65.6846031704157 7.87820826669994,-65.6777599611683 8.92007506031122)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-64.5064445412703 8.68360588680504,-63.9917145642133 8.66987975408352,-63.9162208342449 8.59438602411515,-63.8235694383746 8.63556442227971,-63.7720964406689 8.78998341539682,-63.5593413834854 8.80370954811834,-63.3568809258429 8.8963609439886,-63.3465863263018 8.83802487992214,-63.4083539235486 8.75223655041264,-63.4023570951424 8.51428293196101,-63.4016370407046 8.27558943522343,-63.3980593240075 8.19632817519106,-63.4661119824471 8.15819638091861,-63.5506593117133 8.14907256840788,-63.6364231493142 8.14907256840788,-63.6760135116183 8.12769751158346,-63.7094136494001 8.13812399339499,-63.7716665715973 8.14246976285264,-63.820749845875 8.12283645314157,-63.888574006695 8.0335941362731,-63.9333785001468 7.96641545210559,-63.971125365131 7.94582625302331,-64.0617494425423 7.95441116704737,-64.1259343785133 7.98650363503288,-64.2146606135321 8.09316389627885,-64.3175452903092 8.09222000016163,-64.3579885934232 8.03002444359836,-64.4119349020313 7.99688649232231,-64.4402517855479 8.04030571371447,-64.4732881496506 8.05257636323835,-64.5123778016056 8.02734717409231,-64.5064445412703 8.68360588680504)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-63.3231461691453 8.89221377063722,-63.2346747895613 8.89526450786426,-63.1706093077935 8.80984386550724,-62.8716370595439 8.81899607718835,-62.706897249284 8.9410255662698,-62.459787533894 8.93187335458869,-62.2462359280015 9.06610579257829,-62.1425108622823 9.08746095316755,-62.1150542272389 9.05390284367015,-62.0540394826982 9.06305505535126,-62.0631916943793 8.91051819399944,-62.0021769498386 8.88611229618315,-61.9949912586227 8.87401030380416,-62.0215638557289 8.83949344832886,-62.0549947036382 8.81392868228058,-62.0560060031634 8.76113302640382,-62.0835092503844 8.74411720576415,-62.1326722620157 8.71068635785488,-62.1897013555079 8.66152334622359,-62.2545965308613 8.59367839017241,-62.296143899297 8.59772371213868,-62.3377580448126 8.55663267566323,-62.425112179973 8.52054584338766,-62.539106701797 8.50171940557657,-62.6221188449427 8.44641446945576,-62.7094516964241 8.37939158343514,-62.7419476411614 8.40274804371505,-62.7713970910796 8.40579453853417,-62.807955028909 8.33064766632923,-62.8922413855713 8.27073326821988,-62.9775432405066 8.32557017496403,-63.0790930678106 8.30729120604931,-63.1674414175651 8.31439969396059,-63.2578207638656 8.27276426476596,-63.3380451274357 8.22909783902525,-63.3994145998212 8.20274715732701,-63.4085155709185 8.75269942639143,-63.3414505925075 8.84340197500464,-63.3658564903238 8.89526450786426,-63.3231461691453 8.89221377063722)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-60.5958275685005 10.7211925419258,-60.594762059031 10.7216187457136,-60.5800580283524 10.7335524517716,-60.566845710931 10.7365358782861,-60.5610919597959 10.7354703688166,-60.560878857902 10.7197008286686,-60.5659933033554 10.7071278169289,-60.5800580283524 10.6945548051892,-60.5964668741821 10.6785721631472,-60.6069088669829 10.6743101252694,-60.6162853503142 10.6766542461022,-60.6196949806165 10.6834735067068,-60.6173508597836 10.6960465184465,-60.6062695613012 10.7133077718518,-60.5958275685005 10.7211925419258)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-60.2457931473994 10.1058329269445,-60.2415208178488 10.1021431877872,-60.2395788498713 10.1027257781805,-60.2362775043095 10.0935985286861,-60.2316167811634 10.0941811190793,-60.2290922227927 10.0906855767198,-60.2265676644219 10.0914623639108,-60.2232663188601 10.0860248535737,-60.217052021332 10.090491379922,-60.2217127444781 10.1044735493602,-60.2197707765005 10.1066097141355,-60.2143332661635 10.1002012198097,-60.2087015590286 10.0883552151468,-60.1956903735792 10.0813641304277,-60.1916122408264 10.0749556361018,-60.1910296504331 10.0667993705962,-60.1886992888601 10.0590314986861,-60.1912238472309 10.0568953339108,-60.1960787671747 10.0605850730681,-60.1995743095343 10.0611676634614,-60.2019046711073 10.0629154346412,-60.19821493195 10.0518462171693,-60.202098867905 10.0506810363827,-60.2050118198713 10.0524288075625,-60.2096725430174 10.0586431050906,-60.2123912981859 10.0605850730681,-60.2166636277365 10.0627212378434,-60.219382382905 10.0600024826749,-60.2176346117253 10.0549533659333,-60.2283154356017 10.0506810363827,-60.2364717011073 10.066216780203,-60.2452105570061 10.0706833065513,-60.2487060993657 10.0794221624501,-60.2461815409949 10.085053869585,-60.2506480673432 10.0996186294164,-60.2457931473994 10.1058329269445)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-60.1371924803471 10.1015303100969,-60.1383651526573 10.0986474906675,-60.1404661905465 10.097035066241,-60.1411013880479 10.0942988308504,-60.1418343082418 10.0920023475761,-60.1383162913111 10.0887286373767,-60.1349448584191 10.0872627969889,-60.1323063457211 10.0849663137147,-60.1297166943693 10.0867741835263,-60.1277622405189 10.0885820533379,-60.1265895682086 10.0954226418144,-60.1269804589787 10.1007485285567,-60.1308893666795 10.1026541210609,-60.1344073836103 10.103045011831,-60.1371924803471 10.1015303100969)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((-44.099396802575 -25.5005056865587,-44.0993967931218 -25.497901508219,-44.0993967836699 -25.4952973298782,-44.0993967742194 -25.4926931515364,-44.0993967647702 -25.4900889731936,-44.0993967553223 -25.4874847948497,-44.0993967458757 -25.4848806165047,-44.0993967364304 -25.4822764381587,-44.0993967269864 -25.4796722598117,-44.0993967175437 -25.4770680814637,-44.0993967081023 -25.4744639031146,-44.0993966986623 -25.4718597247644,-44.0993966892236 -25.4692555464133,-44.0993966797861 -25.466651368061,-44.09939667035 -25.4640471897078,-44.0993966609152 -25.4614430113535,-44.0993966514817 -25.4588388329981,-44.0967924617362 -25.4588388407727,-44.0941882719898 -25.4588388485468,-44.0915840822425 -25.4588388563205,-44.0889798924943 -25.4588388640938,-44.0863757027452 -25.4588388718667,-44.0837715129952 -25.4588388796392,-44.0811673232443 -25.4588388874112,-44.0785631334925 -25.4588388951829,-44.0759589437397 -25.4588389029542,-44.0733547539861 -25.458838910725,-44.0707505642316 -25.4588389184954,-44.0681463744761 -25.4588389262655,-44.0655421847198 -25.4588389340351,-44.0629379949625 -25.4588389418043,-44.0629379855373 -25.4562347634376,-44.0629379761134 -25.4536305850698,-44.0629379666908 -25.451026406701,-44.0629379572695 -25.4484222283311,-44.0629379478495 -25.4458180499602,-44.0629379384308 -25.4432138715883,-44.0629379290134 -25.4406096932153,-44.0629379195973 -25.4380055148413,-44.0629379101825 -25.4354013364662,-44.0629379007691 -25.4327971580901,-44.0629378913569 -25.430192979713,-44.0629378819461 -25.4275888013348,-44.0629378725366 -25.4249846229556,-44.0629378631283 -25.4223804445754,-44.0629378537214 -25.4197762661941,-44.0629378443158 -25.4171720878117,-44.0603336545656 -25.4171720955687,-44.0577294648144 -25.4171721033253,-44.0551252750624 -25.4171721110814,-44.0525210853095 -25.4171721188372,-44.0499168955557 -25.4171721265925,-44.0473127058009 -25.4171721343474,-44.0447085160453 -25.417172142102,-44.0421043262887 -25.4171721498561,-44.0395001365313 -25.4171721576098,-44.0368959467729 -25.4171721653631,-44.0342917570137 -25.4171721731159,-44.0316875672535 -25.4171721808684,-44.0290833774925 -25.4171721886205,-44.0264791877305 -25.4171721963721,-44.0238749979676 -25.4171722041234,-44.0212708082038 -25.4171722118742,-44.0186666184392 -25.4171722196246,-44.0160624286736 -25.4171722273746,-44.0134582389071 -25.4171722351243,-44.0108540491397 -25.4171722428735,-44.0082498593714 -25.4171722506222,-44.0056456696022 -25.4171722583706,-44.0030414798321 -25.4171722661186,-44.0004372900611 -25.4171722738662,-43.9978331002892 -25.4171722816133,-43.9952289105164 -25.4171722893601,-43.9926247207427 -25.4171722971064,-43.990020530968 -25.4171723048523,-43.9874163411925 -25.4171723125978,-43.9848121514161 -25.4171723203429,-43.9822079616388 -25.4171723280876,-43.9796037718605 -25.4171723358319,-43.9769995820814 -25.4171723435758,-43.9743953923014 -25.4171723513193,-43.9717912025204 -25.4171723590623,-43.9691870127386 -25.417172366805,-43.9665828229558 -25.4171723745472,-43.9639786331722 -25.417172382289,-43.9613744433876 -25.4171723900305,-43.9587702536022 -25.4171723977715,-43.9561660638158 -25.4171724055121,-43.9535618740286 -25.4171724132523,-43.9509576842404 -25.417172420992,-43.9483534944513 -25.4171724287314,-43.9457493046614 -25.4171724364704,-43.9431451148705 -25.4171724442089,-43.9405409250787 -25.4171724519471,-43.9379367352861 -25.4171724596848,-43.9379367446679 -25.4197766381026,-43.937936754051 -25.4223808165193,-43.9379367634353 -25.424984994935,-43.9379367728211 -25.4275891733497,-43.9379367822081 -25.4301933517633,-43.9379367915964 -25.4327975301758,-43.937936800986 -25.4354017085874,-43.9379368103769 -25.4380058869978,-43.9379368197691 -25.4406100654073,-43.9379368291627 -25.4432142438157,-43.9379368385575 -25.4458184222231,-43.9379368479536 -25.4484226006294,-43.9379368573511 -25.4510267790347,-43.9379368667498 -25.4536309574389,-43.9379368761499 -25.4562351358421,-43.9379368855513 -25.4588393142442,-43.9379368949539 -25.4614434926454,-43.9379369043579 -25.4640476710454,-43.9379369137632 -25.4666518494445,-43.9379369231698 -25.4692560278424,-43.9379369325776 -25.4718602062394,-43.9379369419868 -25.4744643846353,-43.9379369513973 -25.4770685630302,-43.9379369608092 -25.479672741424,-43.9379369702223 -25.4822769198168,-43.9379369796367 -25.4848810982085,-43.9379369890524 -25.4874852765992,-43.9379369984695 -25.4900894549889,-43.9379370078878 -25.4926936333775,-43.9379370173075 -25.4952978117651,-43.9379370267284 -25.4979019901516,-43.9379370361507 -25.5005061685371,-43.9379370455742 -25.5031103469215,-43.9379370549991 -25.5057145253049,-43.9379370644253 -25.5083187036873,-43.9379370738528 -25.5109228820686,-43.9379370832816 -25.5135270604489,-43.9379370927117 -25.5161312388281,-43.9379371021432 -25.5187354172063,-43.9379371115759 -25.5213395955835,-43.9379371210099 -25.5239437739596,-43.9379371304453 -25.5265479523347,-43.9379371398819 -25.5291521307087,-43.9379371493199 -25.5317563090817,-43.9379371587592 -25.5343604874536,-43.9379371681997 -25.5369646658246,-43.9379371776416 -25.5395688441944,-43.9379371870848 -25.5421730225632,-43.9405413769014 -25.5421730147901,-43.9431455667171 -25.5421730070166,-43.9457497565319 -25.5421729992427,-43.9483539463458 -25.5421729914683,-43.9509581361588 -25.5421729836936,-43.9535623259709 -25.5421729759184,-43.956166515782 -25.5421729681428,-43.9587707055923 -25.5421729603669,-43.9613748954017 -25.5421729525905,-43.9639790852102 -25.5421729448136,-43.9665832750177 -25.5421729370364,-43.9691874648244 -25.5421729292588,-43.9717916546301 -25.5421729214807,-43.974395844435 -25.5421729137023,-43.9770000342389 -25.5421729059234,-43.979604224042 -25.5421728981441,-43.9822084138441 -25.5421728903645,-43.9848126036454 -25.5421728825844,-43.9874167934457 -25.5421728748038,-43.9900209832451 -25.5421728670229,-43.9926251730436 -25.5421728592416,-43.9952293628413 -25.5421728514598,-43.997833552638 -25.5421728436777,-44.0004377424338 -25.5421728358951,-44.0004377329786 -25.539568657544,-44.0004377235247 -25.5369644791918,-44.0004377140721 -25.5343603008386,-44.0004377046209 -25.5317561224843,-44.0004376951709 -25.529151944129,-44.0004376857223 -25.5265477657727,-44.0004376762749 -25.5239435874153,-44.0004376668289 -25.5213394090569,-44.0004376573842 -25.5187352306974,-44.0004376479408 -25.5161310523369,-44.0004376384987 -25.5135268739754,-44.0004376290579 -25.5109226956128,-44.0004376196184 -25.5083185172491,-44.0004376101803 -25.5057143388845,-44.0004376007434 -25.5031101605188,-44.0004375913079 -25.500505982152,-44.0030417810948 -25.5005059743808,-44.0056459708808 -25.5005059666092,-44.0082501606659 -25.5005059588372,-44.0108543504501 -25.5005059510648,-44.0134585402335 -25.500505943292,-44.0160627300159 -25.5005059355188,-44.0186669197974 -25.5005059277451,-44.021271109578 -25.5005059199711,-44.0238752993576 -25.5005059121966,-44.0264794891364 -25.5005059044218,-44.0290836789143 -25.5005058966465,-44.0316878686913 -25.5005058888708,-44.0342920584673 -25.5005058810947,-44.0368962482425 -25.5005058733182,-44.0395004380168 -25.5005058655412,-44.0421046277901 -25.5005058577639,-44.0447088175626 -25.5005058499862,-44.0473130073341 -25.500505842208,-44.0499171971048 -25.5005058344294,-44.0525213868745 -25.5005058266505,-44.0551255766433 -25.5005058188711,-44.0577297664112 -25.5005058110913,-44.0603339561783 -25.5005058033111,-44.0629381459444 -25.5005057955304,-44.0655423357096 -25.5005057877494,-44.0681465254739 -25.500505779968,-44.0707507152373 -25.5005057721861,-44.0733549049998 -25.5005057644039,-44.0759590947614 -25.5005057566212,-44.0785632845221 -25.5005057488381,-44.0811674742819 -25.5005057410546,-44.0837716640407 -25.5005057332707,-44.0863758537987 -25.5005057254864,-44.0889800435558 -25.5005057177017,-44.0915842333119 -25.5005057099166,-44.0941884230672 -25.500505702131,-44.0967926128215 -25.5005056943451,-44.099396802575 -25.5005056865587,-44.099396802575 -25.5005056865587)))",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Basin",
+      "code_friendly_name_guess": "basin",
+      "n_total": 999,
+      "n_null": 980,
+      "n_non_null": 19,
+      "null_rate": 0.981,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Columbus",
+          5
+        ],
+        [
+          "Santos",
+          2
+        ],
+        [
+          "Campos",
+          2
+        ],
+        [
+          "Ucayail",
+          1
+        ],
+        [
+          "Sureste",
+          1
+        ],
+        [
+          "Sergipe",
+          1
+        ],
+        [
+          "Salinas-Sureste",
+          1
+        ],
+        [
+          "Oriente",
+          1
+        ],
+        [
+          "North Falkland",
+          1
+        ],
+        [
+          "Middle Magdalena",
+          1
+        ],
+        [
+          "Maturin",
+          1
+        ],
+        [
+          "Maracaibo",
+          1
+        ],
+        [
+          "Llanos Orientales Basin",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Block(s)",
+      "code_friendly_name_guess": "block_s",
+      "n_total": 999,
+      "n_null": 962,
+      "n_non_null": 37,
+      "null_rate": 0.963,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "Stabroek Block",
+          4
+        ],
+        [
+          "East Mayaro Block TT",
+          2
+        ],
+        [
+          "Cubarral",
+          2
+        ],
+        [
+          "Vim 5",
+          1
+        ],
+        [
+          "Stabroek; Stabroek Block",
+          1
+        ],
+        [
+          "SEG Cassia Block",
+          1
+        ],
+        [
+          "Río Chitamena; Tauramena",
+          1
+        ],
+        [
+          "PL004b; PL032",
+          1
+        ],
+        [
+          "Oritupano-Leona",
+          1
+        ],
+        [
+          "Lla 34",
+          1
+        ],
+        [
+          "La Cira Infantas",
+          1
+        ],
+        [
+          "Guaguaqui - Teran; Palagua",
+          1
+        ],
+        [
+          "East Mayaro; East Mayaro Block",
+          1
+        ],
+        [
+          "Cravo Norte",
+          1
+        ],
+        [
+          "Cpo 9",
+          1
+        ],
+        [
+          "Carabobo-2 North and Carabobo-4 West",
+          1
+        ],
+        [
+          "Carabobo-1 Norte and Carabobo-1 Centro",
+          1
+        ],
+        [
+          "Capipendi",
+          1
+        ],
+        [
+          "Block 6",
+          1
+        ],
+        [
+          "Block 5b",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Data source type",
+      "code_friendly_name_guess": "data_source_type",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reserves classification",
+      "code_friendly_name_guess": "reserves_classification",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

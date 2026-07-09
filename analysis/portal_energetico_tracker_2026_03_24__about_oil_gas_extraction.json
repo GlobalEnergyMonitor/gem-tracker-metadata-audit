@@ -1,0 +1,340 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_oil_gas_extraction",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_oil_gas_extraction",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.175466+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Oil and Gas Extraction Tracker - March 2026",
+      "code_friendly_name_guess": "global_oil_and_gas_extraction_tracker_march_2026",
+      "n_total": 999,
+      "n_null": 993,
+      "n_non_null": 6,
+      "null_rate": 0.994,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Status definitions",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Oil and Gas Extraction Tracker, February 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, February 2026 release. Distributed under a Creative Commons Attribution 4.0 International License.",
+          1
+        ],
+        [
+          "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+          1
+        ],
+        [
+          "Column Key",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 893,
+      "n_non_null": 106,
+      "null_rate": 0.8939,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "Project-level main data",
+          28
+        ],
+        [
+          "Field-level main data",
+          27
+        ],
+        [
+          "Project-level reserves data",
+          10
+        ],
+        [
+          "Field-level reserves data",
+          10
+        ],
+        [
+          "Field-level production data",
+          9
+        ],
+        [
+          "Project-level production data",
+          7
+        ],
+        [
+          "Underground gas storage",
+          1
+        ],
+        [
+          "UGS",
+          1
+        ],
+        [
+          "Sheet",
+          1
+        ],
+        [
+          "Operating",
+          1
+        ],
+        [
+          "Mothballed",
+          1
+        ],
+        [
+          "In-development",
+          1
+        ],
+        [
+          "Exploration",
+          1
+        ],
+        [
+          "Discovered",
+          1
+        ],
+        [
+          "Decommissioning",
+          1
+        ],
+        [
+          "Cancelled",
+          1
+        ],
+        [
+          "Abandoned",
+          1
+        ],
+        [
+          "4. The Global Energy Monitor website provides a mapping tool for this data: https://globalenergymonitor.org/projects/global-oil-and-gas-extraction-tracker/tracker/",
+          1
+        ],
+        [
+          "3. This data set includes units only units that have production of 1 million boe/yr or more and/or reserves of 25 million boe, or those that were included in previous iterations of GOGET ",
+          1
+        ],
+        [
+          "2. For the Methodology, see https://globalenergymonitor.org/projects/global-oil-and-gas-extraction-tracker/methodology/",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:15_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 897,
+      "n_non_null": 102,
+      "null_rate": 0.8979,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "Country/Area",
+          6
+        ],
+        [
+          "Units (converted)",
+          4
+        ],
+        [
+          "Quantity (converted)",
+          4
+        ],
+        [
+          "Fuel description",
+          4
+        ],
+        [
+          "Units (original)",
+          3
+        ],
+        [
+          "Unit ID",
+          3
+        ],
+        [
+          "Quantity (original)",
+          3
+        ],
+        [
+          "Project Name",
+          3
+        ],
+        [
+          "Project ID",
+          3
+        ],
+        [
+          "Wiki URL (project)",
+          2
+        ],
+        [
+          "Unit name local script",
+          2
+        ],
+        [
+          "Unit Name",
+          2
+        ],
+        [
+          "Subnational unit",
+          2
+        ],
+        [
+          "Status year",
+          2
+        ],
+        [
+          "Status detail",
+          2
+        ],
+        [
+          "Status",
+          2
+        ],
+        [
+          "Reserves classification",
+          2
+        ],
+        [
+          "Production start year",
+          2
+        ],
+        [
+          "Production Type",
+          2
+        ],
+        [
+          "Parent(s)",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 907,
+      "n_non_null": 92,
+      "null_rate": 0.9079,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          5
+        ],
+        [
+          "The quantity after the conversion of data into a common set of units.",
+          4
+        ],
+        [
+          "The common set of units.",
+          4
+        ],
+        [
+          "Name of the unit as it is reported by sources.",
+          4
+        ],
+        [
+          "Year the data refers to, or if not listed, year of the source document",
+          2
+        ],
+        [
+          "Unique project ID number.",
+          2
+        ],
+        [
+          "URL for the GEM.wiki page for an associated project, if relevant.",
+          2
+        ],
+        [
+          "The year of the source of the status information.",
+          2
+        ],
+        [
+          "The units of measurement, as specified by the source documents",
+          2
+        ],
+        [
+          "The quantity of fuel, as specified by the source documents",
+          2
+        ],
+        [
+          "The company (or companies) that own the owner companies listed.",
+          2
+        ],
+        [
+          "The ID assigned by some governments to the asset.",
+          2
+        ],
+        [
+          "Tag stating if production from a field uses conventional or unconventional methods.",
+          2
+        ],
+        [
+          "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
+          2
+        ],
+        [
+          "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
+          2
+        ],
+        [
+          "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+          2
+        ],
+        [
+          "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
+          2
+        ],
+        [
+          "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
+          2
+        ],
+        [
+          "Additional information on the status, see methodology for details.",
+          2
+        ],
+        [
+          "Year in which the unit was discovered.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

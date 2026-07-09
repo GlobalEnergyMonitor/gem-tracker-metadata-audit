@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEM Tracker Metadata Audit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <div id="sidebar-title">GEM Metadata Audit</div>
+      <label class="sidebar-filter">
+        <input type="checkbox" id="sidebar-flagged-only"> Flagged tabs only
+      </label>
+    </div>
+    <div id="tracker-list">
+      <div class="loading-sidebar">Loading…</div>
+    </div>
+  </aside>
+
+  <div id="main">
+    <div id="toolbar" hidden>
+      <div id="table-info"></div>
+      <div id="filters">
+        <input type="search" id="search" placeholder="Search fields…">
+        <select id="filter-flag">
+          <option value="">All flags</option>
+          <option value="mostly_numeric_with_outliers">Numeric outliers</option>
+          <option value="numeric_null_proxies">Chars as nulls</option>
+          <option value="categorical_rare_values">Rare categorical values</option>
+          <option value="potential_multi_value">Multi-value</option>
+          <option value="__any__">Any flag</option>
+        </select>
+        <select id="filter-type">
+          <option value="">All types</option>
+          <optgroup label="text">
+            <option value="text/categorical">categorical</option>
+            <option value="text/ordinal">ordinal</option>
+            <option value="text/accuracy">accuracy</option>
+            <option value="text/structured">structured</option>
+            <option value="text/unstructured">unstructured</option>
+          </optgroup>
+          <optgroup label="numeric">
+            <option value="numeric/measurement">measurement</option>
+            <option value="numeric/percent">percent</option>
+            <option value="numeric">numeric (other)</option>
+          </optgroup>
+          <option value="datetime/year">datetime / year</option>
+          <option value="boolean">boolean</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="content">
+      <!-- Welcome / table view rendered here -->
+    </div>
+  </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

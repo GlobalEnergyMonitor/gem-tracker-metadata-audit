@@ -1,0 +1,278 @@
+{
+  "source_file": "Global-Iron-Ore-Mines-Tracker-August-2025-V1.xlsx",
+  "tracker_slug": "global_iron_ore_mines_tracker_august_2025_v1",
+  "header_info": {
+    "title": "Global Iron Ore Mines Tracker - August 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Iron Ore Mines Tracker, August 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contacts: Henna Khadeeja, Research Analyst, Heavy Industry, henna.khadeeja@globalenergymonitor.org Caitlin Swalec, Program Director, Heavy Industry caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron Ore Mines Tracker, August 2025 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "main_data": "Main Data"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "metadata": "Metadata"
+  },
+  "sections": [
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Proposed",
+          "definition": "A mine is considered “proposed” if at any stage prior to that (announced, leasing, permitting, construction, etc.)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "A mine is considered “operating” if iron ore is coming out of the ground for commercial purposes.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Shelved",
+          "definition": "A mine is considered “shelved” if there are no updates or evidence of the proposed project developing for more than 2 years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Retired",
+          "definition": "A mine is considered \"retired\" if it is either permanently closed or non-operational for more than one year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "A mine is considered \"mothballed\" if the mine is not operating, but not officially retired and has operated within the past year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A mine is considered “cancelled” if the project has been officially cancelled or there are no updates or evidence of the proposed project developing for more than 3 years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Production",
+          "definition": "Production is actual tonnes of iron ore produced at a mine in a given year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Design Capacity",
+          "definition": "Design capacity is the maximum amount of ore that the mine is designed to produce annually. Due to the nature of mine exploration and planning, actual production can exceed design capacity when reserves and/or resources prove to be larger than initially identified or a mine extracts beyond planned capacity.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Total Resources",
+          "definition": "Total resources is the cumulative quantity of iron ore deposits identified through exploration of the mine. Where known, resources are recorded inclusive of reserves.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Total Reserves",
+          "definition": "Total reserves is the amount of iron ore that has been deemed economically viable for extration based on current geological, engineering, and economic data.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "ttpa",
+          "definition": "thousands of metric tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Field Definitions",
+      "section_type": "flat",
+      "tab_key": "main_data",
+      "entries": [
+        {
+          "name": "GEM Asset ID",
+          "definition": "A unique GEM identifier is assigned to each Mine. Uses format P10000012XXXX where P stands for \"project\", and XXXX increases with every new project added to the Global Iron Ore Mines Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Asset name (English)",
+          "definition": "Projects are named using a non-conforming name used by the company or government that supercedes our standards. For all other projects, the project name format is \"Parent Company Location Mine\" (ex. \"XYZ London Mine\" for an iron ore Mine located in London and owned by company XYZ)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Asset name (other language)",
+          "definition": "Include language in english (ie \"Stahlwerke (German)\")",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinates",
+          "definition": "Ideally coordinate for center of Mine. If several Mines are clustered together, do best to identify individual Mine. If exact location is unknown, use central coordinates of lowest level of address known (i.e. city, then subnational unit, country as last resort).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinate accuracy",
+          "definition": "exact = location confirmed via satellite imagery, approximate = location estimated or undefined",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Municipality",
+          "definition": "Municipality (city, village, town)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "Subnational unit (province, state)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country or area",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "WEO Region",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production 2024 (ttpa)",
+          "definition": "Total production data of the year 2024 (thousands of metric tonnes per annum) of iron ore",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production 2023 (ttpa)",
+          "definition": "Total production data of the year 2023 (thousands of metric tonnes per annum) of iron ore",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production 2022 (ttpa)",
+          "definition": "Total production data of the year 2022 (thousands of metric tonnes per annum) of iron ore",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Design Capacity (ttpa)",
+          "definition": "The production capacity of the mining asset that has been declared or permitted by the company in thousands of metric tonnes per annum. Due to the nature of mine exploration and planning, actual production can exceed design capacity when reserves and/or resources prove to be larger than initially identified.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Total Reserves (Proven and Probable, thousand metric tonnes)",
+          "definition": "Total reserves of the iron ore mines asset over its lifetime (thousands of metric tonnes)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Total Resource (Inferred, Indicated and Measured, thousand metric tonnes)",
+          "definition": "Total resources of the iron ore mines indicate the total deposits of the iron ore within each iron ore mine site (thousands of metric tonnes). Inclusive of reserves when known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operating status",
+          "definition": "Categories are \"proposed\", \"operating\", \"shelved\", \"mothballed\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start Date",
+          "definition": "Date that iron ore Mine began producing in the format \"YYYY-MM-DD\", \"YYYY-MM\" or \"YYYY\" as acceptable formats.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Stop Date",
+          "definition": "Date that iron ore Mine stopped producing or plans to stop producing in the format \"YYYY-MM-DD\", \"YYYY-MM\" or \"YYYY\" as acceptable formats.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "Immediate owner/operator of iron ore Mine.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner GEM Entity ID",
+          "definition": "A GEM identifier assigned to each company and owner through the Global Ownership Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner name in local language/script",
+          "definition": "Immediate owner/operator of iron ore Mine in local language",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent",
+          "definition": "Ends of parent branches for the Mine owner from GEM's Global Energy Ownership Tracker data.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent GEM Entity ID",
+          "definition": "A GEM identifier assigned to each company and parent through the Global Ownership Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page URL",
+          "definition": "Link to GEM wiki page in English.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

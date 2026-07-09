@@ -1,0 +1,271 @@
+{
+  "source_file": "Global-Cement-and-Concrete-Tracker_July-2025.xlsx",
+  "tracker_slug": "global_cement_and_concrete_tracker_july_2025",
+  "header_info": {
+    "title": "Global Cement and Concrete Tracker - July 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Cement and Concrete Tracker, July 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contacts:  Joshua Clement, Project Manager, joshua.clement@globalenergymonitor.org Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Cement and Concrete Tracker, July 2025 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "plant_data": "Plant Data"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "metadata": "Metadata"
+  },
+  "sections": [
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Plants that have been announced in corporate or governmental planning documents, but have not begun construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Construction of a physical plant facility has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Plant is operating one or more clinker or cement manufacturing unit(s).",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Plant has been idled such that it cannot be brought into operation immediately, but is not closed. Note that plants undergoing routine maintenance are still considered \"operating.\"",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating pre-retirement",
+          "definition": "Plant has announced plans to retire its cement capacity but has not yet ceased operations.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Plant has ceased operations and no longer has the ability to produce clinker and/or cement.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Plant previously planned or under development that has been cancelled. If no progress or announcements for an announced plant are made after 5 years, the plant is considered to be cancelled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mt",
+          "definition": "million tonnes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Field Definitions",
+      "section_type": "flat",
+      "tab_key": "plant_data",
+      "entries": [
+        {
+          "name": "GEM Plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the Global Cement and Concrete Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Asset name (English)",
+          "definition": "The plant name format is \"Location - Cement Plant\" or \"Parent Company - Location - Cement Plant\" (ex. \"XYZ London Cement Plant\" for a cement plant located in London and owned by company XYZ).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Asset name (other language)",
+          "definition": "Translation of the asset name into country's native language. Includes language in english in parenthases following translation. (ie \" Zementwerk (German)\").",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Alternative asset name(s)",
+          "definition": "Alternate names used for plants that do not conform to our standard naming convention. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "SFI ID",
+          "definition": "Spatial Finance Initiative (SFI) tracker ID from the Global Database of Cement Production Assets. Some IDs are repeated.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LeadIT Project ID",
+          "definition": "LeadIT Project ID from Green Cement Technology Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinates",
+          "definition": "Exact coordinate for center of plant. If exact location is unknown, an approximate central coordinate of lowest level of address known is used (i.e. city, then subnational unit, country as last resort).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinate accuracy",
+          "definition": "exact = plant location confirmed via satellite imagery, approximate = location estimated or undefined.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Municipality",
+          "definition": "Municipality (city, village, town) within which the plant resides.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "Subnational unit (province, state, region, etc) within which the plant resides.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or area within which the plant resides.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Cement Capacity (millions metric tonnes per annum)",
+          "definition": "Total cement production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Clinker Capacity (millions metric tonnes per annum)",
+          "definition": "Total clinker production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Cement Type",
+          "definition": "Majority cement type produced using standardized categories of Ordinary Portland Cement (OPC), Blended Cement, or Blast Furnace Slag.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Cement Color",
+          "definition": "Cement color (Grey or White) produced. Typical construction cement is grey. White cement is used commonly for architectural projects and production results in higher emissions. Some plants produce both white and grey cement.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operating status",
+          "definition": "Current operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start year",
+          "definition": "Year that cement/concrete plant began producing.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner name (English)",
+          "definition": "Immediate owner/operator of cement plant in English.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner name (other language)",
+          "definition": "Immediate owner/operator of cement plant in local language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Entity ID",
+          "definition": "Unique entity identifier assigned through GEM's global ownership tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant type",
+          "definition": "The type of cement plant (integrated, grinding, or clinker-only).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production type",
+          "definition": "The production process used to produce the clinker at integrated plants (wet, dry, semidry, or mixed). Mixed production includes plants that have multiple different production lines, such as wet and dry.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS/CCUS",
+          "definition": "Indicates whether the plant uses a carbon capture storage or utilization (CCS/CCUS) project. \"Unknown\" is used when a CCS/CCUS project could not be confirmed at the site, but there was indication of a potential project. Carbon capture, storage, and utilization can take various forms, but ultimately serves the purpose of capturing carbon emissions at the plant level before they enter the atmosphere. The emissions then either enter permanant storage, or are used for other processes which require carbon. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making CCUS in this context irrelevant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Alternative Fuel",
+          "definition": "Indicates whether the plant utilizes alternative fuel. \"unknown\" is used when alternative fuel use could not be confirmed at the site, but there was indication of potential usage. Alternative fuels are those that replace the traditional fossil fuels used for clinker production in the kiln, including biomass, waste-derived fuels, industrial by-products, etc.  All grinding plants have 'n/a' listed due to the lack of a kiln, thus making alternative fuel in this context irrelevant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Clay Calcination",
+          "definition": "Indicates whether the plant utilizes clay calcination. \"unknown\" is used when clay calcination could not be confirmed at the site, but there was indication of potential usage. Calcined clay is a supplementary cementitious material (SCM) used in cement manufacturing to partially replace clinker, reducing both emissions and energy use. It is produced by heating clay (typically kaolinite-rich) to around 700–850°C, which activates its pozzolanic properties without generating CO₂ from limestone, unlike clinker production. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making clay calcination in this context irrelevant. Two plants in the tracker (P100000126921 and P100000125604) produce only clacined clay cement and are thus labeled as \"integrated\" while at the same time listing \"n/a\" in the 'clinker capacity' field.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5307 @@
+{
+  "table_name": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1__data",
+  "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
+  "tab_slug": "data",
+  "n_rows": 6556,
+  "analyzed_at": "2026-07-07T21:45:11.627335+00:00",
+  "tracker_info": {
+    "title": "Global Coal Project Finance Tracker - November 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": null,
+    "license": "Copyright © Global Energy Monitor. Global Coal Project Tracker, November 2025 release."
+  },
+  "fields": [
+    {
+      "field_name": "Financier",
+      "code_friendly_name_guess": "financier",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 710,
+      "top_values": [
+        [
+          "Unknown",
+          1874
+        ],
+        [
+          "TBD",
+          134
+        ],
+        [
+          "Export-Import Bank of China",
+          129
+        ],
+        [
+          "State Bank of India",
+          112
+        ],
+        [
+          "China Development Bank",
+          97
+        ],
+        [
+          "Power Finance Corporation",
+          85
+        ],
+        [
+          "Industrial and Commercial Bank of China (ICBC)",
+          83
+        ],
+        [
+          "Bank of China",
+          83
+        ],
+        [
+          "Rural Electrification Corporation",
+          72
+        ],
+        [
+          "Bank of Baroda",
+          64
+        ],
+        [
+          "United Bank of India",
+          57
+        ],
+        [
+          "Punjab National Bank",
+          56
+        ],
+        [
+          "Industrial Development Bank of India (IDBI)",
+          55
+        ],
+        [
+          "Sumitomo Mitsui Banking Corporation",
+          53
+        ],
+        [
+          "UCO Bank",
+          47
+        ],
+        [
+          "NTPC",
+          45
+        ],
+        [
+          "DBS Bank",
+          44
+        ],
+        [
+          "Japan Bank for International Cooperation",
+          43
+        ],
+        [
+          "BNP Paribas",
+          43
+        ],
+        [
+          "Axis Bank",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Financier Public or Private",
+      "code_friendly_name_guess": "financier_public_or_private",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Private",
+          3725
+        ],
+        [
+          "Unknown",
+          2017
+        ],
+        [
+          "Public",
+          791
+        ],
+        [
+          "Various investors",
+          18
+        ],
+        [
+          "TBD",
+          4
+        ],
+        [
+          "Unknown ",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Financier Type",
+      "code_friendly_name_guess": "financier_type",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Unknown",
+          2041
+        ],
+        [
+          "Government-owned commercial institution",
+          1946
+        ],
+        [
+          "Privately-owned commercial institution",
+          1798
+        ],
+        [
+          "Government Policy Institution",
+          768
+        ],
+        [
+          "TBD",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Domestic/International",
+      "code_friendly_name_guess": "domestic_international",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Domestic",
+          2614
+        ],
+        [
+          "International",
+          2045
+        ],
+        [
+          "Unknown",
+          1894
+        ],
+        [
+          "TBD",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Financier Country/Area",
+      "code_friendly_name_guess": "financier_country_area",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 88,
+      "top_values": [
+        [
+          "Unknown",
+          1954
+        ],
+        [
+          "India",
+          1690
+        ],
+        [
+          "China",
+          748
+        ],
+        [
+          "Japan",
+          345
+        ],
+        [
+          "South Korea",
+          290
+        ],
+        [
+          "Indonesia",
+          181
+        ],
+        [
+          "Philippines",
+          151
+        ],
+        [
+          "France",
+          111
+        ],
+        [
+          "Singapore",
+          93
+        ],
+        [
+          "United States",
+          92
+        ],
+        [
+          "United Kingdom",
+          92
+        ],
+        [
+          "Pakistan",
+          68
+        ],
+        [
+          "Türkiye",
+          64
+        ],
+        [
+          "Germany",
+          61
+        ],
+        [
+          "Vietnam",
+          58
+        ],
+        [
+          "Malaysia",
+          44
+        ],
+        [
+          "Thailand",
+          35
+        ],
+        [
+          "Russia",
+          34
+        ],
+        [
+          "United Arab Emirates",
+          21
+        ],
+        [
+          "Netherlands",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Advisor",
+      "code_friendly_name_guess": "advisor",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "Unknown",
+          5070
+        ],
+        [
+          "SBI Capital Markets",
+          205
+        ],
+        [
+          "Bank of China",
+          100
+        ],
+        [
+          "SBI Capital Markets (sponsor)",
+          90
+        ],
+        [
+          "HSBC",
+          80
+        ],
+        [
+          "SBI Capital Markets (sponsor); Power Finance Corporation (government)",
+          78
+        ],
+        [
+          "SBI Capital Markets (sponsor); BNP Paribas (ECAs)",
+          74
+        ],
+        [
+          "EY (Awarding Authority); HSBC (Awarding Authority); Deloitte (Lender)",
+          60
+        ],
+        [
+          "DBS Bank",
+          60
+        ],
+        [
+          "SBI Capital Markets (sponsors)",
+          51
+        ],
+        [
+          "Sumitomo Mitsui Banking Corporation",
+          49
+        ],
+        [
+          "Standard Chartered Bank (sponsor)",
+          42
+        ],
+        [
+          "KPMG (Ncondezi); Synergy Consulting (sponsor)",
+          37
+        ],
+        [
+          "Citigroup (sponsors)",
+          35
+        ],
+        [
+          "Axis Bank (sponsor)",
+          35
+        ],
+        [
+          "Bancolombia",
+          34
+        ],
+        [
+          "Credit Agricole Group (authority); HSBC (AES)",
+          32
+        ],
+        [
+          "HSBC (National Electricity Office)",
+          28
+        ],
+        [
+          "Yorick Advisory (sponsor); RCBC Capital Corporation (lender)",
+          24
+        ],
+        [
+          "Sumitomo Mitsui Banking Corporation (Awarding Authority)",
+          22
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Type of Finance",
+      "code_friendly_name_guess": "type_of_finance",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Loan",
+          3509
+        ],
+        [
+          "Unknown",
+          1820
+        ],
+        [
+          "Equity",
+          787
+        ],
+        [
+          "Refinancing loan",
+          259
+        ],
+        [
+          "Bond",
+          77
+        ],
+        [
+          "bond",
+          24
+        ],
+        [
+          "equity",
+          22
+        ],
+        [
+          "Insurance",
+          20
+        ],
+        [
+          "Refinancing bond",
+          12
+        ],
+        [
+          "reFinancing loan",
+          11
+        ],
+        [
+          "Retirement refinancing loan",
+          5
+        ],
+        [
+          "TBD",
+          4
+        ],
+        [
+          "Grant",
+          4
+        ],
+        [
+          "reFinancing bond",
+          1
+        ],
+        [
+          "Construction finance",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:10_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Equity Partnership",
+      "code_friendly_name_guess": "equity_partnership",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "N/A",
+          6419
+        ],
+        [
+          "JV",
+          44
+        ],
+        [
+          "Construction and finance",
+          42
+        ],
+        [
+          "BOOT",
+          24
+        ],
+        [
+          "Construction and Finance",
+          14
+        ],
+        [
+          "BOT",
+          6
+        ],
+        [
+          "JV ",
+          4
+        ],
+        [
+          "BOOT ",
+          2
+        ],
+        [
+          "TBD",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Units Included",
+      "code_friendly_name_guess": "units_included",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 78,
+      "top_values": [
+        [
+          "1,2",
+          2040
+        ],
+        [
+          "N/A",
+          1975
+        ],
+        [
+          "1-6",
+          492
+        ],
+        [
+          "1-3",
+          425
+        ],
+        [
+          "1-4",
+          292
+        ],
+        [
+          "1",
+          289
+        ],
+        [
+          "1-5",
+          135
+        ],
+        [
+          "3,4",
+          102
+        ],
+        [
+          "1-10",
+          100
+        ],
+        [
+          "2",
+          91
+        ],
+        [
+          "1,2,3",
+          78
+        ],
+        [
+          "9,10",
+          52
+        ],
+        [
+          "3",
+          49
+        ],
+        [
+          "5,6",
+          38
+        ],
+        [
+          "4",
+          35
+        ],
+        [
+          "1,2,3,4",
+          27
+        ],
+        [
+          "1,2,3,4,5,6,7,8",
+          24
+        ],
+        [
+          "2021-01-04 00:00:00",
+          20
+        ],
+        [
+          "6",
+          19
+        ],
+        [
+          "4,5",
+          18
+        ]
+      ],
+      "portion_numeric": 0.67,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Financing Status",
+      "code_friendly_name_guess": "financing_status",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Closed",
+          4191
+        ],
+        [
+          "Unknown",
+          1235
+        ],
+        [
+          "N/A",
+          518
+        ],
+        [
+          "Financing",
+          265
+        ],
+        [
+          "Stopped",
+          217
+        ],
+        [
+          "Financing ",
+          67
+        ],
+        [
+          "Unknown ",
+          36
+        ],
+        [
+          "stopped",
+          25
+        ],
+        [
+          "stopped ",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Repaid?",
+      "code_friendly_name_guess": "repaid",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Unknown",
+          5828
+        ],
+        [
+          "N/A",
+          518
+        ],
+        [
+          "Yes",
+          210
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Close Date",
+      "code_friendly_name_guess": "close_date",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 359,
+      "top_values": [
+        [
+          "N/A",
+          2568
+        ],
+        [
+          "Unknown",
+          231
+        ],
+        [
+          "2010-11-20 00:00:00",
+          162
+        ],
+        [
+          "2020-12-15 00:00:00",
+          100
+        ],
+        [
+          "2009-04-20 00:00:00",
+          78
+        ],
+        [
+          "2021-04-01 00:00:00",
+          63
+        ],
+        [
+          "2016-11-30 00:00:00",
+          60
+        ],
+        [
+          "2009-05-26 00:00:00",
+          60
+        ],
+        [
+          "2017.0",
+          58
+        ],
+        [
+          "2011-09-01 00:00:00",
+          57
+        ],
+        [
+          "2013.0",
+          53
+        ],
+        [
+          "2008-04-24 00:00:00",
+          50
+        ],
+        [
+          "2011-03-01 00:00:00",
+          46
+        ],
+        [
+          "2010-09-28 00:00:00",
+          45
+        ],
+        [
+          "2010-07-01 00:00:00",
+          44
+        ],
+        [
+          "2011-12-15 00:00:00",
+          42
+        ],
+        [
+          "2009-05-22 00:00:00",
+          42
+        ],
+        [
+          "December 2015",
+          40
+        ],
+        [
+          "2010-05-01 00:00:00",
+          39
+        ],
+        [
+          "2016-11-21 00:00:00",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0318,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Close Year",
+      "code_friendly_name_guess": "close_year",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "N/A",
+          2431
+        ],
+        [
+          "2010.0",
+          681
+        ],
+        [
+          "2009.0",
+          415
+        ],
+        [
+          "2011.0",
+          388
+        ],
+        [
+          "2015.0",
+          362
+        ],
+        [
+          "2017.0",
+          273
+        ],
+        [
+          "2016.0",
+          246
+        ],
+        [
+          "2020.0",
+          216
+        ],
+        [
+          "2008.0",
+          215
+        ],
+        [
+          "2018.0",
+          206
+        ],
+        [
+          "2014.0",
+          205
+        ],
+        [
+          "2013.0",
+          187
+        ],
+        [
+          "2012.0",
+          174
+        ],
+        [
+          "2019.0",
+          137
+        ],
+        [
+          "2021.0",
+          135
+        ],
+        [
+          "2023.0",
+          83
+        ],
+        [
+          "2007.0",
+          47
+        ],
+        [
+          "Unknown",
+          38
+        ],
+        [
+          "2024.0",
+          37
+        ],
+        [
+          "n/a",
+          27
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Total Closed Financing at Plant (All Financiers, All Transactions)",
+      "code_friendly_name_guess": "total_closed_financing_at_plant_all_financiers_all_transactions",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 378,
+      "top_values": [
+        [
+          "N/A",
+          1918
+        ],
+        [
+          "Unknown",
+          506
+        ],
+        [
+          "3384610000.0",
+          162
+        ],
+        [
+          "5898020000.0",
+          126
+        ],
+        [
+          "5663693992.000008",
+          95
+        ],
+        [
+          "833430000.0",
+          93
+        ],
+        [
+          "1482540000.0",
+          93
+        ],
+        [
+          "2000000000.0",
+          76
+        ],
+        [
+          "7727774095.0",
+          66
+        ],
+        [
+          "2073040000.0",
+          66
+        ],
+        [
+          "3076520000.0",
+          60
+        ],
+        [
+          "1874360000.0",
+          51
+        ],
+        [
+          "1746000000.0",
+          50
+        ],
+        [
+          "3901229795.0",
+          46
+        ],
+        [
+          "3041400000.0",
+          40
+        ],
+        [
+          "2033000000.0",
+          40
+        ],
+        [
+          "1377525000.0",
+          38
+        ],
+        [
+          "762647000.0",
+          37
+        ],
+        [
+          "606920000.0",
+          36
+        ],
+        [
+          "1463100000.0",
+          36
+        ]
+      ],
+      "portion_numeric": 0.8974,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "This Financier's Total Financing per Transaction",
+      "code_friendly_name_guess": "this_financier_s_total_financing_per_transaction",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 942,
+      "top_values": [
+        [
+          "N/A",
+          1957
+        ],
+        [
+          "Unknown",
+          636
+        ],
+        [
+          "70000000.0",
+          64
+        ],
+        [
+          "100000.0",
+          57
+        ],
+        [
+          "55520000.0",
+          52
+        ],
+        [
+          "85000000.0",
+          48
+        ],
+        [
+          "139480000.0",
+          48
+        ],
+        [
+          "103140000.0",
+          43
+        ],
+        [
+          "109960000.0",
+          42
+        ],
+        [
+          "100000000.0",
+          42
+        ],
+        [
+          "65086749.0",
+          40
+        ],
+        [
+          "250000000.0",
+          40
+        ],
+        [
+          "42823329.0",
+          36
+        ],
+        [
+          "110030000.0",
+          36
+        ],
+        [
+          "62615000.0",
+          34
+        ],
+        [
+          "47110000.0",
+          33
+        ],
+        [
+          "49390000.0",
+          32
+        ],
+        [
+          "59467000.0",
+          30
+        ],
+        [
+          "44010000.0",
+          30
+        ],
+        [
+          "22010000.0",
+          30
+        ]
+      ],
+      "portion_numeric": 0.8946,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "This Financier's Unit Share per Transaction",
+      "code_friendly_name_guess": "this_financier_s_unit_share_per_transaction",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 974,
+      "top_values": [
+        [
+          "N/A",
+          1957
+        ],
+        [
+          "Unknown",
+          619
+        ],
+        [
+          "35000000.0",
+          64
+        ],
+        [
+          "33333.333333333336",
+          57
+        ],
+        [
+          "13880000.0",
+          52
+        ],
+        [
+          "23246666.666666668",
+          48
+        ],
+        [
+          "17190000.0",
+          43
+        ],
+        [
+          "36653333.333333336",
+          42
+        ],
+        [
+          "13017349.8",
+          40
+        ],
+        [
+          "100000000.0",
+          39
+        ],
+        [
+          "42500000.0",
+          38
+        ],
+        [
+          "21411664.5",
+          36
+        ],
+        [
+          "18338333.333333332",
+          36
+        ],
+        [
+          "62615000.0",
+          34
+        ],
+        [
+          "50000000.0",
+          34
+        ],
+        [
+          "15703333.333333334",
+          33
+        ],
+        [
+          "12347500.0",
+          32
+        ],
+        [
+          "7335000.0",
+          30
+        ],
+        [
+          "3668333.3333333335",
+          30
+        ],
+        [
+          "29733500.0",
+          30
+        ]
+      ],
+      "portion_numeric": 0.8946,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "EPC Company",
+      "code_friendly_name_guess": "epc_company",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 119,
+      "top_values": [
+        [
+          "Unknown",
+          5337
+        ],
+        [
+          "Shangdong Electric (SEPCO)",
+          162
+        ],
+        [
+          "PowerChina",
+          94
+        ],
+        [
+          "Doosan Heavy Industries & Construction Company",
+          93
+        ],
+        [
+          "Harbin Electric",
+          76
+        ],
+        [
+          "Harbin-General Electric alliance",
+          46
+        ],
+        [
+          "China Energy Engineering Corporation",
+          41
+        ],
+        [
+          "Bharat Heavy Electricals Limited",
+          37
+        ],
+        [
+          "Hub Power Company, Fauji Foundation, China Machinery Engineering Corporation (Sinomach)",
+          36
+        ],
+        [
+          "China National Machinery Industry Corporation (Sinomach)",
+          35
+        ],
+        [
+          "Doosan and Hutama Karya",
+          32
+        ],
+        [
+          "POSCO E&C and Doosan",
+          30
+        ],
+        [
+          "Shanghai Electric (SEPCO)",
+          28
+        ],
+        [
+          "China Machinery Engineering Corporation, General Electric",
+          20
+        ],
+        [
+          "Gezhouba International Engineering Co., Ltd.(EnergyChina)",
+          19
+        ],
+        [
+          "Energy China",
+          19
+        ],
+        [
+          "China National Electric Engineering Co. Shandong",
+          18
+        ],
+        [
+          "State Power Investment Corporation",
+          16
+        ],
+        [
+          "Sumitomo Corporation, Toshiba Corporation, and IHI Corporation",
+          14
+        ],
+        [
+          "Toshiba",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Insurance",
+      "code_friendly_name_guess": "insurance",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Unknown",
+          6340
+        ],
+        [
+          "Nippon Export and Investment Insurance (NEXI)",
+          74
+        ],
+        [
+          "China Export & Credit Insurance Corporation (Sinosure)",
+          32
+        ],
+        [
+          "Korea Trade Insurance Corporation (K-Sure) (covered US$839 million of private bank loans)",
+          24
+        ],
+        [
+          "Korea Trade Insurance Corporation (K-Sure) (only covered US$122 million)",
+          12
+        ],
+        [
+          "Export-Import Bank of Korea (coverage for US$ 45 million of loan)",
+          12
+        ],
+        [
+          "Servizi Assicurativi del Commercio Estero (SACE)",
+          10
+        ],
+        [
+          "Nippon Export and Investment Insurance, K-Sure",
+          10
+        ],
+        [
+          "K-Sure",
+          10
+        ],
+        [
+          "Export Import Bank of Korea (US$155 million in total coverage); Korea Trade and Insurance Corportion (K-Sure) (US$455 million total)",
+          10
+        ],
+        [
+          "Military Insurance, BIDV Insurance, PVI Insurance, Bao Viet Insurance, and Saigon - Hanoi Insurance",
+          6
+        ],
+        [
+          "Vietnam Ministry of Finance",
+          4
+        ],
+        [
+          "KUKE S.A.",
+          4
+        ],
+        [
+          "Export-Import Bank of Korea, Nippon Export and Investment Insurance",
+          4
+        ],
+        [
+          "Nippon Export and Investment Insurance",
+          2
+        ],
+        [
+          "Korea Trade Insurance Corporation",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:14_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Equipment (GENMFR)",
+      "code_friendly_name_guess": "equipment_genmfr",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Unknown",
+          6544
+        ],
+        [
+          "Dongfang Electric Corporation ",
+          8
+        ],
+        [
+          "Bharat Heavy Electricals Limited (BHEL) ",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "TurbMFR",
+      "code_friendly_name_guess": "turbmfr",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Unknown",
+          6520
+        ],
+        [
+          "General Electric",
+          17
+        ],
+        [
+          "Dongfang Electric Corporation ",
+          8
+        ],
+        [
+          "Bharat Heavy Electricals Limited (BHEL) ",
+          4
+        ],
+        [
+          "Bharat Heavy Electricals Limited (BHEL)",
+          4
+        ],
+        [
+          "Doosan Heavy Industries",
+          2
+        ],
+        [
+          "Dongfang Electric Corporation Limited",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "BoilerMFR",
+      "code_friendly_name_guess": "boilermfr",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Unknown",
+          6528
+        ],
+        [
+          "General Electric",
+          12
+        ],
+        [
+          "Babcock & Wilcox Beijing",
+          6
+        ],
+        [
+          "Bharat Heavy Electricals Limited (BHEL) ",
+          4
+        ],
+        [
+          "Bharat Heavy Electricals Limited (BHEL)",
+          4
+        ],
+        [
+          "Huaxi Energy",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "GEM unit/phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 2753,
+      "top_values": [
+        [
+          "G100000109986",
+          57
+        ],
+        [
+          "G100000109985",
+          38
+        ],
+        [
+          "G100000105008",
+          33
+        ],
+        [
+          "G100000105007",
+          33
+        ],
+        [
+          "G100000106130",
+          31
+        ],
+        [
+          "G100000106129",
+          31
+        ],
+        [
+          "G100000106128",
+          31
+        ],
+        [
+          "G100000105991",
+          27
+        ],
+        [
+          "G100000105990",
+          27
+        ],
+        [
+          "G100000105989",
+          27
+        ],
+        [
+          "G100000105988",
+          27
+        ],
+        [
+          "G100000105987",
+          27
+        ],
+        [
+          "G100000105986",
+          27
+        ],
+        [
+          "G100000105511",
+          26
+        ],
+        [
+          "G100000105510",
+          26
+        ],
+        [
+          "G100000105509",
+          26
+        ],
+        [
+          "G100000108461",
+          25
+        ],
+        [
+          "G100000108460",
+          25
+        ],
+        [
+          "G100000103107",
+          23
+        ],
+        [
+          "G100000103106",
+          23
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 1259,
+      "top_values": [
+        [
+          "L100000102159",
+          162
+        ],
+        [
+          "L100000102360",
+          126
+        ],
+        [
+          "L100000105022",
+          101
+        ],
+        [
+          "L100000102230",
+          98
+        ],
+        [
+          "L100000102638",
+          96
+        ],
+        [
+          "L100000102476",
+          93
+        ],
+        [
+          "L100000104831",
+          83
+        ],
+        [
+          "L100000104306",
+          67
+        ],
+        [
+          "L100000103432",
+          66
+        ],
+        [
+          "L100000102338",
+          66
+        ],
+        [
+          "L100000103749",
+          62
+        ],
+        [
+          "L100000102616",
+          51
+        ],
+        [
+          "L100000102515",
+          51
+        ],
+        [
+          "L100000103484",
+          46
+        ],
+        [
+          "L100000102640",
+          45
+        ],
+        [
+          "L100000104335",
+          44
+        ],
+        [
+          "L100000100118",
+          39
+        ],
+        [
+          "L100000103151",
+          38
+        ],
+        [
+          "L100000102444",
+          38
+        ],
+        [
+          "L100000100019",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 90,
+      "top_values": [
+        [
+          "India",
+          2307
+        ],
+        [
+          "Indonesia",
+          948
+        ],
+        [
+          "Vietnam",
+          454
+        ],
+        [
+          "Philippines",
+          263
+        ],
+        [
+          "South Korea",
+          251
+        ],
+        [
+          "Türkiye",
+          208
+        ],
+        [
+          "Pakistan",
+          165
+        ],
+        [
+          "Australia",
+          145
+        ],
+        [
+          "Bangladesh",
+          131
+        ],
+        [
+          "Japan",
+          113
+        ],
+        [
+          "South Africa",
+          99
+        ],
+        [
+          "Zimbabwe",
+          95
+        ],
+        [
+          "Russia",
+          88
+        ],
+        [
+          "United States",
+          82
+        ],
+        [
+          "Brazil",
+          76
+        ],
+        [
+          "Chile",
+          66
+        ],
+        [
+          "United Arab Emirates",
+          64
+        ],
+        [
+          "Mongolia",
+          57
+        ],
+        [
+          "Botswana",
+          55
+        ],
+        [
+          "Kazakhstan",
+          54
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 1260,
+      "top_values": [
+        [
+          "https://www.gem.wiki/KSK_Mahanadi_Power_Project",
+          162
+        ],
+        [
+          "https://www.gem.wiki/Sasan_Ultra_Mega_Power_Project",
+          126
+        ],
+        [
+          "https://www.gem.wiki/Delong_Nickel_Phase_II_power_station",
+          101
+        ],
+        [
+          "https://www.gem.wiki/Tata_Mundra_Ultra_Mega_Power_Project",
+          98
+        ],
+        [
+          "https://www.gem.wiki/Lalitpur_power_project",
+          96
+        ],
+        [
+          "https://www.gem.wiki/Kamalanga_power_station",
+          93
+        ],
+        [
+          "https://www.gem.wiki/PT_Halmahera_Persada_Lygend_Nickel_Smelter_power_station",
+          83
+        ],
+        [
+          "https://www.gem.wiki/Vinh_Tan_power_station",
+          67
+        ],
+        [
+          "https://www.gem.wiki/Medupi_power_station",
+          66
+        ],
+        [
+          "https://www.gem.wiki/Jaypee_Nigrie_Super_Thermal_Power_Project",
+          66
+        ],
+        [
+          "https://www.gem.wiki/Hassyan_Clean-Coal_Power_Project",
+          62
+        ],
+        [
+          "https://www.gem.wiki/Rajpura_Thermal_Power_Project",
+          51
+        ],
+        [
+          "https://www.gem.wiki/Bara_Thermal_Power_Project",
+          51
+        ],
+        [
+          "https://www.gem.wiki/Goseong_Green_power_station",
+          46
+        ],
+        [
+          "https://www.gem.wiki/Meja_Thermal_Power_Project",
+          45
+        ],
+        [
+          "https://www.gem.wiki/Mong_Duong_power_station",
+          44
+        ],
+        [
+          "https://www.gem.wiki/Porto_do_Pec%C3%A9m_power_station",
+          39
+        ],
+        [
+          "https://www.gem.wiki/Thar_Block_II_power_station",
+          38
+        ],
+        [
+          "https://www.gem.wiki/Millmerran_power_station",
+          38
+        ],
+        [
+          "https://www.gem.wiki/Angul_Steel_power_station",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name",
+      "code_friendly_name_guess": "plant_name",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 1259,
+      "top_values": [
+        [
+          "KSK Mahanadi Power Project",
+          162
+        ],
+        [
+          "Sasan Ultra Mega Power Project",
+          126
+        ],
+        [
+          "Delong Nickel Phase II power station",
+          101
+        ],
+        [
+          "Tata Mundra Ultra Mega Power Project",
+          98
+        ],
+        [
+          "Lalitpur power project",
+          96
+        ],
+        [
+          "Kamalanga power station",
+          93
+        ],
+        [
+          "PT Halmahera Persada Lygend Nickel Smelter power station",
+          83
+        ],
+        [
+          "Vinh Tan power station",
+          67
+        ],
+        [
+          "Medupi power station",
+          66
+        ],
+        [
+          "Jaypee Nigrie Super Thermal Power Project",
+          66
+        ],
+        [
+          "Hassyan Clean-Coal Power Project",
+          62
+        ],
+        [
+          "Rajpura Thermal Power Project",
+          51
+        ],
+        [
+          "Bara Thermal Power Project",
+          51
+        ],
+        [
+          "Goseong Green power station",
+          46
+        ],
+        [
+          "Meja Thermal Power Project",
+          45
+        ],
+        [
+          "Mong Duong power station",
+          44
+        ],
+        [
+          "Porto do Pecém power station",
+          39
+        ],
+        [
+          "Thar Block II power station",
+          38
+        ],
+        [
+          "Millmerran power station",
+          38
+        ],
+        [
+          "Angul Steel power station",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 256,
+      "top_values": [
+        [
+          "Unit 1",
+          1466
+        ],
+        [
+          "Unit 2",
+          1432
+        ],
+        [
+          "Unit 3",
+          489
+        ],
+        [
+          "Unit 4",
+          365
+        ],
+        [
+          "--",
+          330
+        ],
+        [
+          "Unit 5",
+          264
+        ],
+        [
+          "Unit 6",
+          191
+        ],
+        [
+          "Phase I Unit 2",
+          157
+        ],
+        [
+          "Phase I Unit 1",
+          153
+        ],
+        [
+          "Phase I Unit 3",
+          80
+        ],
+        [
+          "Unit 10",
+          74
+        ],
+        [
+          "Unit 8",
+          60
+        ],
+        [
+          "Unit 7",
+          60
+        ],
+        [
+          "Unit 9",
+          57
+        ],
+        [
+          "Phase 2 Unit 1",
+          54
+        ],
+        [
+          "Phase 1 Unit 2",
+          53
+        ],
+        [
+          "Phase 1 Unit 1",
+          53
+        ],
+        [
+          "Phase 2 Unit 2",
+          51
+        ],
+        [
+          "IGCC",
+          38
+        ],
+        [
+          "Phase II Unit 3",
+          37
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          4530
+        ],
+        [
+          "cancelled",
+          880
+        ],
+        [
+          "construction",
+          376
+        ],
+        [
+          "pre-permit",
+          230
+        ],
+        [
+          "announced",
+          157
+        ],
+        [
+          "shelved",
+          143
+        ],
+        [
+          "permitted",
+          117
+        ],
+        [
+          "retired",
+          82
+        ],
+        [
+          "mothballed",
+          40
+        ],
+        [
+          "Operating",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 280,
+      "top_values": [
+        [
+          "660.0",
+          957
+        ],
+        [
+          "600.0",
+          639
+        ],
+        [
+          "150.0",
+          487
+        ],
+        [
+          "800.0",
+          334
+        ],
+        [
+          "350.0",
+          297
+        ],
+        [
+          "300.0",
+          279
+        ],
+        [
+          "135.0",
+          245
+        ],
+        [
+          "50.0",
+          193
+        ],
+        [
+          "30.0",
+          162
+        ],
+        [
+          "1000.0",
+          157
+        ],
+        [
+          "330.0",
+          121
+        ],
+        [
+          "100.0",
+          113
+        ],
+        [
+          "500.0",
+          110
+        ],
+        [
+          "270.0",
+          106
+        ],
+        [
+          "250.0",
+          85
+        ],
+        [
+          "700.0",
+          84
+        ],
+        [
+          "794.8",
+          66
+        ],
+        [
+          "1040.0",
+          64
+        ],
+        [
+          "360.0",
+          63
+        ],
+        [
+          "380.0",
+          57
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 6556,
+      "n_null": 940,
+      "n_non_null": 5616,
+      "null_rate": 0.1434,
+      "n_unique": 75,
+      "top_values": [
+        [
+          "2013.0",
+          607
+        ],
+        [
+          "2016.0",
+          509
+        ],
+        [
+          "2014.0",
+          481
+        ],
+        [
+          "2015.0",
+          473
+        ],
+        [
+          "2021.0",
+          339
+        ],
+        [
+          "2019.0",
+          315
+        ],
+        [
+          "2017.0",
+          291
+        ],
+        [
+          "2025.0",
+          265
+        ],
+        [
+          "2023.0",
+          245
+        ],
+        [
+          "2022.0",
+          234
+        ],
+        [
+          "2018.0",
+          201
+        ],
+        [
+          "2011.0",
+          189
+        ],
+        [
+          "2012.0",
+          172
+        ],
+        [
+          "2020.0",
+          159
+        ],
+        [
+          "2024.0",
+          133
+        ],
+        [
+          "2010.0",
+          120
+        ],
+        [
+          "2027.0",
+          108
+        ],
+        [
+          "2026.0",
+          102
+        ],
+        [
+          "2028.0",
+          89
+        ],
+        [
+          "2030.0",
+          80
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name (other)",
+      "code_friendly_name_guess": "plant_name_other",
+      "n_total": 6556,
+      "n_null": 3332,
+      "n_non_null": 3224,
+      "null_rate": 0.5082,
+      "n_unique": 525,
+      "top_values": [
+        [
+          "Akaltara Ultra Mega Power Project, Akaltara TPP",
+          162
+        ],
+        [
+          "德龙镍业印尼肯达里自备电厂二期",
+          101
+        ],
+        [
+          "宁波力勤印尼镍铁项目自备电厂",
+          83
+        ],
+        [
+          "Vinh Tan-4 extension (Phase 4 extension)",
+          67
+        ],
+        [
+          "Hassyan Power Complex, Hassyan Power Plant",
+          62
+        ],
+        [
+          "Prayagraj TPP",
+          51
+        ],
+        [
+          "Goseong Hi, Goseong High, 고성그린파워, Goseung Hai",
+          46
+        ],
+        [
+          "百通电站",
+          40
+        ],
+        [
+          "Thar Engro power station, Engro Powergen Thar Ltd. power station, EPTL power station",
+          38
+        ],
+        [
+          "魏桥集团印尼宏发韦立氧化铝公司印尼热电厂",
+          37
+        ],
+        [
+          "Lanao Coal, Kauswagan, Lanao del Norte",
+          36
+        ],
+        [
+          "Buk-Pyeong power station; GS Donghae power station, 북평화력",
+          36
+        ],
+        [
+          "英德拉玛玉电站",
+          35
+        ],
+        [
+          "Nasik RattanIndia Thermal Power Project",
+          35
+        ],
+        [
+          "Jawa-9 (Unit 09), 爪哇10号 (Unit 10), 爪哇9号 (Unit 09), 苏娜拉亚电站, Jawa-10 (Unit 10), 苏拉拉耶",
+          33
+        ],
+        [
+          "Tiroda-1 Thermal Power Project Unit 2 (Phase I Unit 2), Tiroda-3 Thermal Power Project Unit 1 (Phase III Unit 4), Tiroda-3 Thermal Power Project Unit 2 (Phase III Unit 5), Tiroda-2 Thermal Power Project Unit 1 (Phase II Unit 3), Tiroda-1 Thermal Power Project Unit 1 (Phase I Unit 1)",
+          31
+        ],
+        [
+          "Samcheok Dongyang Power, 삼척화력, Samcheok power station, Pospower power station",
+          30
+        ],
+        [
+          "Utkal TPP (Odisha), Sahajbahal",
+          28
+        ],
+        [
+          "Thamminapatnam TPP,  St-II (Units 3 and 4), Thamminapatnam",
+          28
+        ],
+        [
+          "Hau River",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Plant name (local)",
+      "code_friendly_name_guess": "plant_name_local",
+      "n_total": 6556,
+      "n_null": 5482,
+      "n_non_null": 1074,
+      "null_rate": 0.8362,
+      "n_unique": 269,
+      "top_values": [
+        [
+          "محطة حصيان لإنتاج الطاقة",
+          62
+        ],
+        [
+          "고성그린파워",
+          46
+        ],
+        [
+          "Usina Terméletrica Pecém",
+          39
+        ],
+        [
+          "북평화력",
+          36
+        ],
+        [
+          "Tufanbeyli-Adana Termik Santrali",
+          36
+        ],
+        [
+          "Planta Termoeléctrica Jaguar Energy",
+          34
+        ],
+        [
+          "삼척블루파워",
+          30
+        ],
+        [
+          "Termoeléctrica Cochrane",
+          28
+        ],
+        [
+          "Termoeléctrica Angamos",
+          26
+        ],
+        [
+          "새만금발전소",
+          20
+        ],
+        [
+          "広野発電所",
+          20
+        ],
+        [
+          "勿来発電所",
+          20
+        ],
+        [
+          "강릉 안인",
+          18
+        ],
+        [
+          "당진 발전소",
+          16
+        ],
+        [
+          "Central Termoeléctrica Punta Catalina",
+          16
+        ],
+        [
+          "신보령화력",
+          14
+        ],
+        [
+          "삼척그린파워",
+          14
+        ],
+        [
+          "横須賀発電所",
+          12
+        ],
+        [
+          "김천열병합발전소",
+          10
+        ],
+        [
+          "Экибастузская ГРЭС-2",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 6556,
+      "n_null": 7,
+      "n_non_null": 6549,
+      "null_rate": 0.0011,
+      "n_unique": 972,
+      "top_values": [
+        [
+          "KSK Energy Ventures Ltd [100%]",
+          166
+        ],
+        [
+          "Reliance Power Ltd [100%]",
+          146
+        ],
+        [
+          "PT PLN (Persero) [100%]",
+          133
+        ],
+        [
+          "Jaiprakash Power Ventures Ltd [100%]",
+          128
+        ],
+        [
+          "Tata Power Company Ltd [100%]",
+          110
+        ],
+        [
+          "Lalitpur Power Generation Co Ltd [100%]",
+          106
+        ],
+        [
+          "PT Obsidian Stainless Steel [100%]",
+          101
+        ],
+        [
+          "NTPC Ltd [100%]",
+          100
+        ],
+        [
+          "GMR Energy Ltd [100%]",
+          93
+        ],
+        [
+          "Adani Power Ltd [100%]",
+          84
+        ],
+        [
+          "Eskom Holdings SOC Ltd [100%]",
+          78
+        ],
+        [
+          "Vietnam Electricity LLC [100%]",
+          68
+        ],
+        [
+          "to be determined [100%]",
+          66
+        ],
+        [
+          "Jindal Steel & Power Ltd [100%]",
+          65
+        ],
+        [
+          "PT Halmahera Persada Lygend [100%]",
+          64
+        ],
+        [
+          "PetroVietnam Power Corporation JSC [100%]",
+          62
+        ],
+        [
+          "Hassyan Energy Phase I PSC [100%]",
+          62
+        ],
+        [
+          "Hindalco Industries Ltd [100%]",
+          58
+        ],
+        [
+          "Nabha Power Ltd [100%]",
+          51
+        ],
+        [
+          "Meja Urja Nigam Pvt Ltd [100%]",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 6556,
+      "n_null": 8,
+      "n_non_null": 6548,
+      "null_rate": 0.0012,
+      "n_unique": 971,
+      "top_values": [
+        [
+          "E100000001919 [100%]",
+          166
+        ],
+        [
+          "E100001000083 [100%]",
+          146
+        ],
+        [
+          "E100000000537 [100%]",
+          133
+        ],
+        [
+          "E100001000611 [100%]",
+          128
+        ],
+        [
+          "E100000001940 [100%]",
+          110
+        ],
+        [
+          "E100000120761 [100%]",
+          106
+        ],
+        [
+          "E100000121048 [100%]",
+          101
+        ],
+        [
+          "E100000001926 [100%]",
+          100
+        ],
+        [
+          "E100000003060 [100%]",
+          93
+        ],
+        [
+          "E100001000558 [100%]",
+          84
+        ],
+        [
+          "E100000000921 [100%]",
+          78
+        ],
+        [
+          "E100000004303 [100%]",
+          68
+        ],
+        [
+          "E100000121374 [100%]",
+          66
+        ],
+        [
+          "E100001000439 [100%]",
+          65
+        ],
+        [
+          "E100000121020 [100%]",
+          64
+        ],
+        [
+          "E100001014654 [100%]",
+          62
+        ],
+        [
+          "E100000003809 [100%]",
+          62
+        ],
+        [
+          "E100000120560 [100%]",
+          58
+        ],
+        [
+          "E100000120893 [100%]",
+          51
+        ],
+        [
+          "E100000120838 [100%]",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 6556,
+      "n_null": 7,
+      "n_non_null": 6549,
+      "null_rate": 0.0011,
+      "n_unique": 874,
+      "top_values": [
+        [
+          "KSK Energy Ventures Ltd [100.0%]",
+          166
+        ],
+        [
+          "PT PLN (Persero) [100.0%]",
+          155
+        ],
+        [
+          "Reliance Power Ltd [100.0%]",
+          146
+        ],
+        [
+          "Jaiprakash Power Ventures Ltd [100.0%]",
+          128
+        ],
+        [
+          "Tata Power Company Ltd [100.0%]",
+          112
+        ],
+        [
+          "Bajaj Group [100.0%]",
+          106
+        ],
+        [
+          "Adani Power Ltd [100.0%]",
+          104
+        ],
+        [
+          "Xiamen Xiangyu Group Co Ltd [51.0%]; Jiangsu Delong Nickel Industry Co Ltd [49.0%]",
+          101
+        ],
+        [
+          "NTPC Ltd [100.0%]",
+          101
+        ],
+        [
+          "GMR Power and Urban Infra Ltd [69.6%]; GMR Airports Infrastructure Ltd [12.2%]; Claymore Investments (Mauritius) Pte Ltd [11.7%]",
+          93
+        ],
+        [
+          "Vietnam Electricity LLC [100.0%]",
+          89
+        ],
+        [
+          "Harita Group [63.1%]; Ningbo Lygend [36.9%]",
+          83
+        ],
+        [
+          "Eskom Holdings SOC Ltd [100.0%]",
+          78
+        ],
+        [
+          "Korea Electric Power Corp [100.0%]",
+          76
+        ],
+        [
+          "Jindal Steel & Power Ltd [100.0%]",
+          67
+        ],
+        [
+          "to be determined [100.0%]",
+          66
+        ],
+        [
+          "PetroVietnam Power Corporation JSC [100.0%]",
+          62
+        ],
+        [
+          "Dubai Electricity and Water Authority PJSC [51.0%]; ACWA Power Co [27.0%]; Harbin Electric Corp [8.9%]; The Silk Road Fund Co Ltd [7.4%]; Shareholders of overseas listed foreign shares [5.8%]",
+          62
+        ],
+        [
+          "Hindalco Industries Ltd [100.0%]",
+          58
+        ],
+        [
+          "NTPC Ltd [50.0%]; Uttar Pradesh Rajya Vidyut Utpadan Nigam Ltd [50.0%]",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 6556,
+      "n_null": 7,
+      "n_non_null": 6549,
+      "null_rate": 0.0011,
+      "n_unique": 874,
+      "top_values": [
+        [
+          "E100000001919 [100.0%]",
+          166
+        ],
+        [
+          "E100000000537 [100.0%]",
+          155
+        ],
+        [
+          "E100001000083 [100.0%]",
+          146
+        ],
+        [
+          "E100001000611 [100.0%]",
+          128
+        ],
+        [
+          "E100000001940 [100.0%]",
+          112
+        ],
+        [
+          "E100000120124 [100.0%]",
+          106
+        ],
+        [
+          "E100001000558 [100.0%]",
+          104
+        ],
+        [
+          "E100000121550 [51.0%]; E100000126498 [49.0%]",
+          101
+        ],
+        [
+          "E100000001926 [100.0%]",
+          101
+        ],
+        [
+          "E100002000010 [69.6%]; E100001010674 [12.2%]; E100001010675 [11.7%]",
+          93
+        ],
+        [
+          "E100000004303 [100.0%]",
+          89
+        ],
+        [
+          "E100000120543 [63.1%]; E100000120928 [36.9%]",
+          83
+        ],
+        [
+          "E100000000921 [100.0%]",
+          78
+        ],
+        [
+          "E100000000947 [100.0%]",
+          76
+        ],
+        [
+          "E100001000439 [100.0%]",
+          67
+        ],
+        [
+          "E100000121374 [100.0%]",
+          66
+        ],
+        [
+          "E100000003809 [100.0%]",
+          62
+        ],
+        [
+          "E100000002158 [51.0%]; E100000000882 [27.0%]; E100000124527 [8.9%]; E100001010605 [7.4%]; E100000125870 [5.8%]",
+          62
+        ],
+        [
+          "E100000120560 [100.0%]",
+          58
+        ],
+        [
+          "E100000120765 [100.0%]",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 6556,
+      "n_null": 6469,
+      "n_non_null": 87,
+      "null_rate": 0.9867,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "2022.0",
+          33
+        ],
+        [
+          "2025.0",
+          18
+        ],
+        [
+          "2021.0",
+          9
+        ],
+        [
+          "2023.0",
+          5
+        ],
+        [
+          "#N/A",
+          5
+        ],
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2020.0",
+          4
+        ],
+        [
+          "2018.0",
+          4
+        ],
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2015.0",
+          2
+        ],
+        [
+          "2012.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9425,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Planned retirement",
+      "code_friendly_name_guess": "planned_retirement",
+      "n_total": 6556,
+      "n_null": 5886,
+      "n_non_null": 670,
+      "null_rate": 0.8978,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "2047.0",
+          105
+        ],
+        [
+          "2051.0",
+          92
+        ],
+        [
+          "2040.0",
+          58
+        ],
+        [
+          "2028.0",
+          46
+        ],
+        [
+          "2025.0",
+          37
+        ],
+        [
+          "2054.0",
+          30
+        ],
+        [
+          "2044.0",
+          27
+        ],
+        [
+          "2035.0",
+          27
+        ],
+        [
+          "2067.0",
+          22
+        ],
+        [
+          "2027.0",
+          22
+        ],
+        [
+          "2046.0",
+          21
+        ],
+        [
+          "2041.0",
+          20
+        ],
+        [
+          "2052.0",
+          18
+        ],
+        [
+          "2037.0",
+          14
+        ],
+        [
+          "2026.0",
+          14
+        ],
+        [
+          "2071.0",
+          13
+        ],
+        [
+          "2069.0",
+          13
+        ],
+        [
+          "2068.0",
+          11
+        ],
+        [
+          "2065.0",
+          11
+        ],
+        [
+          "2033.0",
+          10
+        ]
+      ],
+      "portion_numeric": 0.992,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Combustion technology",
+      "code_friendly_name_guess": "combustion_technology",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "subcritical",
+          2734
+        ],
+        [
+          "supercritical",
+          1616
+        ],
+        [
+          "unknown",
+          1020
+        ],
+        [
+          "ultra-supercritical",
+          799
+        ],
+        [
+          "CFB",
+          318
+        ],
+        [
+          "IGCC",
+          59
+        ],
+        [
+          "unknown/CCS",
+          6
+        ],
+        [
+          "subcritical/CCS",
+          2
+        ],
+        [
+          "supercritical/CCS",
+          1
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Coal type",
+      "code_friendly_name_guess": "coal_type",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "unknown",
+          3750
+        ],
+        [
+          "bituminous",
+          1186
+        ],
+        [
+          "lignite",
+          700
+        ],
+        [
+          "subbituminous",
+          629
+        ],
+        [
+          "anthracite",
+          253
+        ],
+        [
+          "waste coal",
+          28
+        ],
+        [
+          "unknown with CCS",
+          5
+        ],
+        [
+          "lignite with CCS",
+          2
+        ],
+        [
+          "bituminous with CCS",
+          2
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Coal source",
+      "code_friendly_name_guess": "coal_source",
+      "n_total": 6556,
+      "n_null": 3791,
+      "n_non_null": 2765,
+      "null_rate": 0.5782,
+      "n_unique": 291,
+      "top_values": [
+        [
+          "imported",
+          361
+        ],
+        [
+          "domestic",
+          211
+        ],
+        [
+          "domestic and imported",
+          175
+        ],
+        [
+          "Moher coal mine, Moher-Amlori Extension coal mine",
+          126
+        ],
+        [
+          "mine-mouth",
+          95
+        ],
+        [
+          "Rampia coal blocks, Ib Valley",
+          78
+        ],
+        [
+          "Grootegeluk coal mine",
+          66
+        ],
+        [
+          "Amelia and Dongrital Blocks",
+          66
+        ],
+        [
+          "Indonesia",
+          57
+        ],
+        [
+          "Thar block II",
+          52
+        ],
+        [
+          "Imported",
+          45
+        ],
+        [
+          "Tufanbeyli coal mine",
+          36
+        ],
+        [
+          "South Eastern Coalfields Limited, Western Coalfields Limited and Mahanadi Coalfields Limited",
+          35
+        ],
+        [
+          "Rampia Coal Block of MCL",
+          32
+        ],
+        [
+          "Mahan coal block",
+          30
+        ],
+        [
+          "Ekibastuz coal basin",
+          29
+        ],
+        [
+          "Wankie colliery open cast mine",
+          28
+        ],
+        [
+          "Morupule coalfield",
+          28
+        ],
+        [
+          "MCL mines and Mandakini Block in Talcher",
+          28
+        ],
+        [
+          "Thar Block I",
+          26
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Conversion to (fuel)",
+      "code_friendly_name_guess": "conversion_to_fuel",
+      "n_total": 6556,
+      "n_null": 6409,
+      "n_non_null": 147,
+      "null_rate": 0.9776,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "fossil gas: natural gas",
+          64
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (green)",
+          34
+        ],
+        [
+          "fossil gas: LNG",
+          23
+        ],
+        [
+          "#N/A",
+          5
+        ],
+        [
+          "fossil liquids: heavy fuel oil",
+          3
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          3
+        ],
+        [
+          "bioenergy: wood & other biomass (biocoal)",
+          3
+        ],
+        [
+          "fossil liquids: petroleum coke",
+          2
+        ],
+        [
+          "fossil gas: natural gas, coal: bituminous",
+          2
+        ],
+        [
+          "bioenergy: unknown",
+          2
+        ],
+        [
+          "fossil gas: natural gas, coal: unknown",
+          1
+        ],
+        [
+          "fossil gas: LNG, coal: bituminous",
+          1
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), fossil liquids: waste/other oil",
+          1
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+          1
+        ],
+        [
+          "bioenergy: wood & other biomass (solids) [51%], coal: unknown [49%]",
+          1
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Conversion to (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_to_gem_unit_id",
+      "n_total": 6556,
+      "n_null": 6409,
+      "n_non_null": 147,
+      "null_rate": 0.9776,
+      "n_unique": 55,
+      "top_values": [
+        [
+          "G100001052206",
+          17
+        ],
+        [
+          "G100001052205",
+          17
+        ],
+        [
+          "G100001018045",
+          15
+        ],
+        [
+          "G100001018043",
+          15
+        ],
+        [
+          "G100000411297",
+          10
+        ],
+        [
+          "G100000411296",
+          10
+        ],
+        [
+          "G100001017958",
+          5
+        ],
+        [
+          "#N/A",
+          5
+        ],
+        [
+          "G100001020962",
+          3
+        ],
+        [
+          "G100001018027",
+          3
+        ],
+        [
+          "G100001018026",
+          3
+        ],
+        [
+          "G100001054533",
+          1
+        ],
+        [
+          "G100001054405",
+          1
+        ],
+        [
+          "G100001054404",
+          1
+        ],
+        [
+          "G100001053802",
+          1
+        ],
+        [
+          "G100001050441",
+          1
+        ],
+        [
+          "G100001050440",
+          1
+        ],
+        [
+          "G100001048355",
+          1
+        ],
+        [
+          "G100001048113",
+          1
+        ],
+        [
+          "G100001048112",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Alternate Fuel",
+      "code_friendly_name_guess": "alternate_fuel",
+      "n_total": 6556,
+      "n_null": 6190,
+      "n_non_null": 366,
+      "null_rate": 0.9442,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "bioenergy",
+          253
+        ],
+        [
+          "fossil liquids",
+          41
+        ],
+        [
+          "fossil gas",
+          34
+        ],
+        [
+          "bioenergy, fossil gas",
+          9
+        ],
+        [
+          "fossil liquids, bioenergy, fossil gas",
+          6
+        ],
+        [
+          "other",
+          5
+        ],
+        [
+          "bioenergy, other",
+          5
+        ],
+        [
+          "#N/A",
+          5
+        ],
+        [
+          "fossil liquids, fossil gas",
+          4
+        ],
+        [
+          "fossil liquids, bioenergy",
+          3
+        ],
+        [
+          "bioenergy, other, fossil gas",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 6556,
+      "n_null": 1337,
+      "n_non_null": 5219,
+      "null_rate": 0.2039,
+      "n_unique": 870,
+      "top_values": [
+        [
+          "Nariyara",
+          162
+        ],
+        [
+          "Sasan",
+          126
+        ],
+        [
+          "Tunda Wand",
+          98
+        ],
+        [
+          "Mirchwara and Buraugaon",
+          96
+        ],
+        [
+          "Kamalanga",
+          93
+        ],
+        [
+          "Kawasi",
+          91
+        ],
+        [
+          "Lephalale",
+          68
+        ],
+        [
+          "Nigri",
+          66
+        ],
+        [
+          "Derang",
+          66
+        ],
+        [
+          "Jebel Ali",
+          62
+        ],
+        [
+          "Mejillones",
+          57
+        ],
+        [
+          "Singhara",
+          55
+        ],
+        [
+          "Hwange",
+          52
+        ],
+        [
+          "Nalash",
+          51
+        ],
+        [
+          "Hai-myeon",
+          46
+        ],
+        [
+          "Meja",
+          45
+        ],
+        [
+          "Bhinor",
+          41
+        ],
+        [
+          "São Gonçalo do Amarante",
+          39
+        ],
+        [
+          "Millmerran",
+          38
+        ],
+        [
+          "Libertad/Tacub",
+          36
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 6556,
+      "n_null": 2646,
+      "n_non_null": 3910,
+      "null_rate": 0.4036,
+      "n_unique": 481,
+      "top_values": [
+        [
+          "Akaltara",
+          162
+        ],
+        [
+          "Mundra",
+          111
+        ],
+        [
+          "Kendari",
+          109
+        ],
+        [
+          "Mahroni",
+          96
+        ],
+        [
+          "Odapada",
+          95
+        ],
+        [
+          "Obi",
+          91
+        ],
+        [
+          "Vinh Tan",
+          67
+        ],
+        [
+          "Deosar",
+          66
+        ],
+        [
+          "Rajpura",
+          51
+        ],
+        [
+          "Bara",
+          51
+        ],
+        [
+          "Geumseong",
+          48
+        ],
+        [
+          "Mong Duong",
+          44
+        ],
+        [
+          "Chhendipada",
+          42
+        ],
+        [
+          "Paiton",
+          41
+        ],
+        [
+          "Singrauli",
+          39
+        ],
+        [
+          "Kendawangan",
+          37
+        ],
+        [
+          "Kayarcık",
+          36
+        ],
+        [
+          "Kauswagan",
+          36
+        ],
+        [
+          "Sukra",
+          35
+        ],
+        [
+          "Sinnar",
+          35
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 6556,
+      "n_null": 1574,
+      "n_non_null": 4982,
+      "null_rate": 0.2401,
+      "n_unique": 546,
+      "top_values": [
+        [
+          "Singrauli",
+          195
+        ],
+        [
+          "Janjgir-Champa",
+          184
+        ],
+        [
+          "Dhenkanal",
+          137
+        ],
+        [
+          "Kutch",
+          121
+        ],
+        [
+          "Lalitpur",
+          96
+        ],
+        [
+          "Allahabad",
+          96
+        ],
+        [
+          "South Halmahera",
+          91
+        ],
+        [
+          "Angul",
+          79
+        ],
+        [
+          "Tuy Phong",
+          67
+        ],
+        [
+          "Raigarh",
+          63
+        ],
+        [
+          "Nellore",
+          63
+        ],
+        [
+          "Bataan",
+          61
+        ],
+        [
+          "Thoothukudi",
+          60
+        ],
+        [
+          "Thatta",
+          57
+        ],
+        [
+          "Morowali Regency",
+          57
+        ],
+        [
+          "Chandrapur",
+          56
+        ],
+        [
+          "Patiala",
+          51
+        ],
+        [
+          "Sidhi",
+          50
+        ],
+        [
+          "Cam Pha",
+          49
+        ],
+        [
+          "Hadong",
+          48
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subnational unit (province, state)",
+      "code_friendly_name_guess": "subnational_unit_province_state",
+      "n_total": 6556,
+      "n_null": 14,
+      "n_non_null": 6542,
+      "null_rate": 0.0021,
+      "n_unique": 437,
+      "top_values": [
+        [
+          "Odisha",
+          355
+        ],
+        [
+          "Madhya Pradesh",
+          327
+        ],
+        [
+          "Chhattisgarh",
+          314
+        ],
+        [
+          "Uttar Pradesh",
+          274
+        ],
+        [
+          "Maharashtra",
+          190
+        ],
+        [
+          "Gujarat",
+          173
+        ],
+        [
+          "North Maluku",
+          116
+        ],
+        [
+          "Sindh",
+          113
+        ],
+        [
+          "Andhra Pradesh",
+          113
+        ],
+        [
+          "Southeast Sulawesi",
+          111
+        ],
+        [
+          "Tamil Nadu",
+          107
+        ],
+        [
+          "Gangwon",
+          98
+        ],
+        [
+          "Rajasthan",
+          96
+        ],
+        [
+          "Punjab",
+          86
+        ],
+        [
+          "Quang Ninh",
+          80
+        ],
+        [
+          "West Java",
+          79
+        ],
+        [
+          "Limpopo",
+          76
+        ],
+        [
+          "Banten",
+          71
+        ],
+        [
+          "Central Luzon",
+          70
+        ],
+        [
+          "Binh Thuan",
+          67
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Southern Asia",
+          2620
+        ],
+        [
+          "South-eastern Asia",
+          1839
+        ],
+        [
+          "Sub-Saharan Africa",
+          453
+        ],
+        [
+          "Eastern Asia",
+          445
+        ],
+        [
+          "Western Asia",
+          277
+        ],
+        [
+          "Latin America and the Caribbean",
+          220
+        ],
+        [
+          "Eastern Europe",
+          196
+        ],
+        [
+          "Australia and New Zealand",
+          145
+        ],
+        [
+          "Northern America",
+          85
+        ],
+        [
+          "Southern Europe",
+          72
+        ],
+        [
+          "Central Asia",
+          71
+        ],
+        [
+          "Western Europe",
+          56
+        ],
+        [
+          "Northern Africa",
+          56
+        ],
+        [
+          "Northern Europe",
+          15
+        ],
+        [
+          "Melanesia",
+          5
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Asia",
+          5252
+        ],
+        [
+          "Africa",
+          509
+        ],
+        [
+          "Europe",
+          339
+        ],
+        [
+          "Americas",
+          305
+        ],
+        [
+          "Oceania",
+          150
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 6556,
+      "n_null": 1,
+      "n_non_null": 6555,
+      "null_rate": 0.0002,
+      "n_unique": 1266,
+      "top_values": [
+        [
+          "21.960296",
+          162
+        ],
+        [
+          "23.9775233",
+          126
+        ],
+        [
+          "22.8158",
+          98
+        ],
+        [
+          "24.795833",
+          96
+        ],
+        [
+          "20.870576",
+          93
+        ],
+        [
+          "11.317",
+          67
+        ],
+        [
+          "24.14997",
+          66
+        ],
+        [
+          "-23.704973",
+          66
+        ],
+        [
+          "24.911516",
+          62
+        ],
+        [
+          "-1.5614331",
+          56
+        ],
+        [
+          "30.558963",
+          51
+        ],
+        [
+          "25.196345",
+          51
+        ],
+        [
+          "34.904909",
+          46
+        ],
+        [
+          "25.145867",
+          45
+        ],
+        [
+          "21.07324",
+          44
+        ],
+        [
+          "-3.8282793",
+          40
+        ],
+        [
+          "-3.8279104",
+          40
+        ],
+        [
+          "-3.5827",
+          39
+        ],
+        [
+          "24.812481",
+          38
+        ],
+        [
+          "20.892474",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 6556,
+      "n_null": 1,
+      "n_non_null": 6555,
+      "null_rate": 0.0002,
+      "n_unique": 1268,
+      "top_values": [
+        [
+          "82.409064",
+          162
+        ],
+        [
+          "82.6264733",
+          126
+        ],
+        [
+          "69.5281",
+          98
+        ],
+        [
+          "78.646944",
+          96
+        ],
+        [
+          "85.266979",
+          93
+        ],
+        [
+          "108.808",
+          67
+        ],
+        [
+          "81.904525",
+          66
+        ],
+        [
+          "27.563839",
+          66
+        ],
+        [
+          "54.915494",
+          62
+        ],
+        [
+          "127.4210337",
+          56
+        ],
+        [
+          "81.658534",
+          51
+        ],
+        [
+          "76.577593",
+          51
+        ],
+        [
+          "128.125406",
+          46
+        ],
+        [
+          "81.940096",
+          45
+        ],
+        [
+          "107.34847",
+          44
+        ],
+        [
+          "122.4682708",
+          40
+        ],
+        [
+          "122.4662306",
+          40
+        ],
+        [
+          "-38.875",
+          39
+        ],
+        [
+          "84.99039",
+          38
+        ],
+        [
+          "70.394069",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 6556,
+      "n_null": 1,
+      "n_non_null": 6555,
+      "null_rate": 0.0002,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "exact",
+          5708
+        ],
+        [
+          "approximate",
+          846
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Permits",
+      "code_friendly_name_guess": "permits",
+      "n_total": 6556,
+      "n_null": 4951,
+      "n_non_null": 1605,
+      "null_rate": 0.7552,
+      "n_unique": 204,
+      "top_values": [
+        [
+          "May 26, 2016 – Environmental Clearance",
+          162
+        ],
+        [
+          "July 21, 2009 – Environmental Clearance",
+          126
+        ],
+        [
+          "March 31, 2011 – Environmental Clearance; Environmental Clearance Amendment: 2014-05-20",
+          93
+        ],
+        [
+          "February 5, 2008 – Environmental Clearance",
+          78
+        ],
+        [
+          "February 25, 2010 – Environmental Clearance",
+          66
+        ],
+        [
+          "September 8, 2009 – Environmental Clearance; Environmental Clearance Amendment: 2023-09",
+          51
+        ],
+        [
+          "October 3, 2008 – Environmental Clearance Extension: 2014-02-05",
+          50
+        ],
+        [
+          "July 28, 2010 – Environmental Clearance",
+          35
+        ],
+        [
+          "February 17, 2010 – Environmental Clearance",
+          32
+        ],
+        [
+          "March 3, 2009 – Environmental Clearance",
+          30
+        ],
+        [
+          "September 29, 2008 – Environmental Clearance",
+          28
+        ],
+        [
+          "May 9, 2008 – Environmental Clearance; Environmental Clearance Amendment: 2014-02-19; Environmental Clearance Extension: 2014-02-19",
+          28
+        ],
+        [
+          "May 4, 2011 – Environmental Clearance; Environmental Clearance Amendment: 2014-03-14",
+          24
+        ],
+        [
+          "June 13, 2007 – Environmental Clearance; Environmental Clearance Amendment",
+          24
+        ],
+        [
+          "November 4, 2009 – Environmental Clearance",
+          22
+        ],
+        [
+          "May 25, 2010 – Environmental Clearance",
+          22
+        ],
+        [
+          "July 20, 2007 – Environmental Clearance",
+          21
+        ],
+        [
+          "October 18, 2007 – Environmental Clearance",
+          18
+        ],
+        [
+          "May 9, 2011 – Environmental Clearance",
+          17
+        ],
+        [
+          "May 29, 2008 – Environmental Clearance",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Permit Date",
+      "code_friendly_name_guess": "permit_date",
+      "n_total": 6556,
+      "n_null": 4951,
+      "n_non_null": 1605,
+      "null_rate": 0.7552,
+      "n_unique": 184,
+      "top_values": [
+        [
+          "26-May-16",
+          162
+        ],
+        [
+          "21-Jul-09",
+          126
+        ],
+        [
+          "31-Mar-11",
+          93
+        ],
+        [
+          "5-Feb-08",
+          78
+        ],
+        [
+          "25-Feb-10",
+          66
+        ],
+        [
+          "8-Sep-09",
+          51
+        ],
+        [
+          "3-Oct-08",
+          50
+        ],
+        [
+          "28-Jul-10",
+          35
+        ],
+        [
+          "17-Feb-10",
+          32
+        ],
+        [
+          "9-May-08",
+          31
+        ],
+        [
+          "3-Mar-09",
+          30
+        ],
+        [
+          "30-Nov-09",
+          28
+        ],
+        [
+          "29-Sep-08",
+          28
+        ],
+        [
+          "13-Jun-07",
+          25
+        ],
+        [
+          "4-May-11",
+          24
+        ],
+        [
+          "4-Nov-09",
+          22
+        ],
+        [
+          "25-May-10",
+          22
+        ],
+        [
+          "20-Jul-07",
+          21
+        ],
+        [
+          "19-Oct-09",
+          19
+        ],
+        [
+          "18-Oct-07",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Permit Parsed",
+      "code_friendly_name_guess": "permit_parsed",
+      "n_total": 6556,
+      "n_null": 4951,
+      "n_non_null": 1605,
+      "null_rate": 0.7552,
+      "n_unique": 184,
+      "top_values": [
+        [
+          "Year: 2016, Month: 5, Day: 26",
+          162
+        ],
+        [
+          "Year: 2009, Month: 7, Day: 21",
+          126
+        ],
+        [
+          "Year: 2011, Month: 3, Day: 31",
+          93
+        ],
+        [
+          "Year: 2008, Month: 2, Day: 5",
+          78
+        ],
+        [
+          "Year: 2010, Month: 2, Day: 25",
+          66
+        ],
+        [
+          "Year: 2009, Month: 9, Day: 8",
+          51
+        ],
+        [
+          "Year: 2008, Month: 10, Day: 3",
+          50
+        ],
+        [
+          "Year: 2010, Month: 7, Day: 28",
+          35
+        ],
+        [
+          "Year: 2010, Month: 2, Day: 17",
+          32
+        ],
+        [
+          "Year: 2008, Month: 5, Day: 9",
+          31
+        ],
+        [
+          "Year: 2009, Month: 3, Day: 3",
+          30
+        ],
+        [
+          "Year: 2009, Month: 11, Day: 30",
+          28
+        ],
+        [
+          "Year: 2008, Month: 9, Day: 29",
+          28
+        ],
+        [
+          "Year: 2007, Month: 6, Day: 13",
+          25
+        ],
+        [
+          "Year: 2011, Month: 5, Day: 4",
+          24
+        ],
+        [
+          "Year: 2010, Month: 5, Day: 25",
+          22
+        ],
+        [
+          "Year: 2009, Month: 11, Day: 4",
+          22
+        ],
+        [
+          "Year: 2007, Month: 7, Day: 20",
+          21
+        ],
+        [
+          "Year: 2009, Month: 10, Day: 19",
+          19
+        ],
+        [
+          "Year: 2007, Month: 10, Day: 18",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Captive",
+      "code_friendly_name_guess": "captive",
+      "n_total": 6556,
+      "n_null": 5582,
+      "n_non_null": 974,
+      "null_rate": 0.8514,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "nickel",
+          277
+        ],
+        [
+          "aluminum",
+          165
+        ],
+        [
+          "iron & steel",
+          130
+        ],
+        [
+          "other metals & mining",
+          108
+        ],
+        [
+          "chemicals",
+          79
+        ],
+        [
+          "cement & building",
+          73
+        ],
+        [
+          "machinery",
+          32
+        ],
+        [
+          "pulp & paper",
+          28
+        ],
+        [
+          "oil & refining",
+          19
+        ],
+        [
+          "industrial park",
+          16
+        ],
+        [
+          "textiles",
+          10
+        ],
+        [
+          "coal mining & coal products",
+          9
+        ],
+        [
+          "aluminum, nickel",
+          9
+        ],
+        [
+          "sugar",
+          6
+        ],
+        [
+          "agriculture",
+          5
+        ],
+        [
+          "other",
+          2
+        ],
+        [
+          "agriculture, other metals & mining",
+          2
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "electronics",
+          1
+        ],
+        [
+          "automobiles, textiles",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:10_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Captive industry use",
+      "code_friendly_name_guess": "captive_industry_use",
+      "n_total": 6556,
+      "n_null": 5721,
+      "n_non_null": 835,
+      "null_rate": 0.8726,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "power",
+          788
+        ],
+        [
+          "both",
+          44
+        ],
+        [
+          "heat",
+          2
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Captive residential use",
+      "code_friendly_name_guess": "captive_residential_use",
+      "n_total": 6556,
+      "n_null": 6471,
+      "n_non_null": 85,
+      "null_rate": 0.987,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "power",
+          68
+        ],
+        [
+          "both",
+          11
+        ],
+        [
+          "heat",
+          5
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "China Capacity Payment Recipient",
+      "code_friendly_name_guess": "china_capacity_payment_recipient",
+      "n_total": 6556,
+      "n_null": 6555,
+      "n_non_null": 1,
+      "null_rate": 0.9998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CHP",
+      "code_friendly_name_guess": "chp",
+      "n_total": 6556,
+      "n_null": 6130,
+      "n_non_null": 426,
+      "null_rate": 0.935,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "yes",
+          343
+        ],
+        [
+          "no",
+          69
+        ],
+        [
+          "not found",
+          13
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Plant age (years)",
+      "code_friendly_name_guess": "plant_age_years",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 66,
+      "top_values": [
+        [
+          "0.0",
+          1960
+        ],
+        [
+          "12.0",
+          593
+        ],
+        [
+          "9.0",
+          500
+        ],
+        [
+          "11.0",
+          469
+        ],
+        [
+          "10.0",
+          458
+        ],
+        [
+          "6.0",
+          311
+        ],
+        [
+          "4.0",
+          297
+        ],
+        [
+          "8.0",
+          286
+        ],
+        [
+          "2.0",
+          217
+        ],
+        [
+          "3.0",
+          214
+        ],
+        [
+          "7.0",
+          199
+        ],
+        [
+          "14.0",
+          166
+        ],
+        [
+          "13.0",
+          159
+        ],
+        [
+          "5.0",
+          129
+        ],
+        [
+          "15.0",
+          105
+        ],
+        [
+          "1.0",
+          105
+        ],
+        [
+          "16.0",
+          62
+        ],
+        [
+          "17.0",
+          48
+        ],
+        [
+          "22.0",
+          20
+        ],
+        [
+          "26.0",
+          19
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity factor",
+      "code_friendly_name_guess": "capacity_factor",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "0.55",
+          6555
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Heat rate (Btu per kWh)",
+      "code_friendly_name_guess": "heat_rate_btu_per_kwh",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "10442.4",
+          1333
+        ],
+        [
+          "8409.0",
+          862
+        ],
+        [
+          "8272.0",
+          718
+        ],
+        [
+          "9249.900000000001",
+          688
+        ],
+        [
+          "11312.6",
+          686
+        ],
+        [
+          "9572.2",
+          588
+        ],
+        [
+          "10326.0",
+          525
+        ],
+        [
+          "8702.0",
+          256
+        ],
+        [
+          "8605.0",
+          239
+        ],
+        [
+          "9465.5",
+          228
+        ],
+        [
+          "12617.9",
+          136
+        ],
+        [
+          "9099.2",
+          80
+        ],
+        [
+          "7528.0",
+          48
+        ],
+        [
+          "10931.7",
+          39
+        ],
+        [
+          "10877.5",
+          31
+        ],
+        [
+          "11186.5",
+          26
+        ],
+        [
+          "10090.8",
+          20
+        ],
+        [
+          "11747.7",
+          19
+        ],
+        [
+          "13787.4",
+          6
+        ],
+        [
+          "10511.25",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Emission factor (kg of CO2 per TJ)",
+      "code_friendly_name_guess": "emission_factor_kg_of_co2_per_tj",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "96100.0",
+          4379
+        ],
+        [
+          "94600.0",
+          1214
+        ],
+        [
+          "101000.0",
+          700
+        ],
+        [
+          "98300.0",
+          253
+        ],
+        [
+          "9460.0",
+          7
+        ],
+        [
+          "10100.0",
+          2
+        ],
+        [
+          "#N/A",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Annual CO2 (million tonnes / annum)",
+      "code_friendly_name_guess": "annual_co2_million_tonnes_annum",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 697,
+      "top_values": [
+        [
+          "2.71127283080049",
+          341
+        ],
+        [
+          "2.98240011388054",
+          238
+        ],
+        [
+          "2.80574339084622",
+          163
+        ],
+        [
+          "0.76520274295806",
+          150
+        ],
+        [
+          "2.5506758098602",
+          143
+        ],
+        [
+          "0.6810058196780849",
+          101
+        ],
+        [
+          "0.75667313297565",
+          100
+        ],
+        [
+          "3.615030441067321",
+          98
+        ],
+        [
+          "1.75760408042604",
+          96
+        ],
+        [
+          "1.387234077122025",
+          89
+        ],
+        [
+          "2.4246368994672",
+          88
+        ],
+        [
+          "4.041061499112001",
+          86
+        ],
+        [
+          "3.2328491992896",
+          84
+        ],
+        [
+          "0.8289696382045649",
+          83
+        ],
+        [
+          "1.40287169542311",
+          81
+        ],
+        [
+          "0.25506758098602",
+          75
+        ],
+        [
+          "2.66895327568914",
+          71
+        ],
+        [
+          "3.2863913100612",
+          70
+        ],
+        [
+          "1.53040548591612",
+          69
+        ],
+        [
+          "1.377364937324508",
+          69
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Remaining plant lifetime (years)",
+      "code_friendly_name_guess": "remaining_plant_lifetime_years",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "35.0",
+          1943
+        ],
+        [
+          "23.0",
+          549
+        ],
+        [
+          "26.0",
+          510
+        ],
+        [
+          "24.0",
+          461
+        ],
+        [
+          "25.0",
+          425
+        ],
+        [
+          "29.0",
+          293
+        ],
+        [
+          "31.0",
+          231
+        ],
+        [
+          "22.0",
+          230
+        ],
+        [
+          "27.0",
+          217
+        ],
+        [
+          "33.0",
+          191
+        ],
+        [
+          "28.0",
+          190
+        ],
+        [
+          "32.0",
+          181
+        ],
+        [
+          "21.0",
+          152
+        ],
+        [
+          "30.0",
+          124
+        ],
+        [
+          "5.0",
+          107
+        ],
+        [
+          "20.0",
+          101
+        ],
+        [
+          "0.0",
+          82
+        ],
+        [
+          "19.0",
+          80
+        ],
+        [
+          "34.0",
+          74
+        ],
+        [
+          "15.0",
+          60
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Lifetime CO2 (million tonnes)",
+      "code_friendly_name_guess": "lifetime_co2_million_tonnes",
+      "n_total": 6556,
+      "n_null": 0,
+      "n_non_null": 6556,
+      "null_rate": 0.0,
+      "n_unique": 1087,
+      "top_values": [
+        [
+          "71.57760273313296",
+          109
+        ],
+        [
+          "26.7820960035321",
+          100
+        ],
+        [
+          "94.89454907801715",
+          95
+        ],
+        [
+          "83.14570014454839",
+          95
+        ],
+        [
+          "74.56000284701351",
+          93
+        ],
+        [
+          "89.273653345107",
+          87
+        ],
+        [
+          "48.55319269927088",
+          87
+        ],
+        [
+          "70.49309360081274",
+          82
+        ],
+        [
+          "0.0",
+          82
+        ],
+        [
+          "113.149721975136",
+          76
+        ],
+        [
+          "67.33784138030927",
+          63
+        ],
+        [
+          "8.9273653345107",
+          61
+        ],
+        [
+          "141.43715246892",
+          60
+        ],
+        [
+          "19.89527131690956",
+          57
+        ],
+        [
+          "57.28392756311034",
+          54
+        ],
+        [
+          "40.42489384979893",
+          52
+        ],
+        [
+          "26.48355965414775",
+          51
+        ],
+        [
+          "21.11118041002063",
+          51
+        ],
+        [
+          "75.91563926241375",
+          50
+        ],
+        [
+          "115.023695852142",
+          50
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

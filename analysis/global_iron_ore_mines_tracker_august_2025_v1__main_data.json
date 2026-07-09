@@ -1,0 +1,2169 @@
+{
+  "table_name": "global_iron_ore_mines_tracker_august_2025_v1__main_data",
+  "tracker_slug": "global_iron_ore_mines_tracker_august_2025_v1",
+  "tab_slug": "main_data",
+  "n_rows": 949,
+  "analyzed_at": "2026-07-07T21:45:18.695669+00:00",
+  "tracker_info": {
+    "title": "Global Iron Ore Mines Tracker - August 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Iron Ore Mines Tracker, August 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contacts: Henna Khadeeja, Research Analyst, Heavy Industry, henna.khadeeja@globalenergymonitor.org Caitlin Swalec, Program Director, Heavy Industry caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron Ore Mines Tracker, August 2025 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Asset ID",
+      "code_friendly_name_guess": "gem_asset_id",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 949,
+      "top_values": [
+        [
+          "P100000129461",
+          1
+        ],
+        [
+          "P100000129460",
+          1
+        ],
+        [
+          "P100000129459",
+          1
+        ],
+        [
+          "P100000129458",
+          1
+        ],
+        [
+          "P100000129457",
+          1
+        ],
+        [
+          "P100000129456",
+          1
+        ],
+        [
+          "P100000129455",
+          1
+        ],
+        [
+          "P100000129454",
+          1
+        ],
+        [
+          "P100000129453",
+          1
+        ],
+        [
+          "P100000129452",
+          1
+        ],
+        [
+          "P100000129451",
+          1
+        ],
+        [
+          "P100000129450",
+          1
+        ],
+        [
+          "P100000129449",
+          1
+        ],
+        [
+          "P100000129448",
+          1
+        ],
+        [
+          "P100000129447",
+          1
+        ],
+        [
+          "P100000129446",
+          1
+        ],
+        [
+          "P100000129445",
+          1
+        ],
+        [
+          "P100000129444",
+          1
+        ],
+        [
+          "P100000129443",
+          1
+        ],
+        [
+          "P100000129442",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each Mine. Uses format P10000012XXXX where P stands for \"project\", and XXXX increases with every new project added to the Global Iron Ore Mines Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Asset name (English)",
+      "code_friendly_name_guess": "asset_name_english",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 949,
+      "top_values": [
+        [
+          "Zuolong iron Mine",
+          1
+        ],
+        [
+          "Zhujia Baobao Mine",
+          1
+        ],
+        [
+          "Zhuchong Iron Mine",
+          1
+        ],
+        [
+          "Zhouyoufang-Huoqiu Mine",
+          1
+        ],
+        [
+          "Zhoutaizi Mine",
+          1
+        ],
+        [
+          "Zhouji Mine-Huoqiu Mine",
+          1
+        ],
+        [
+          "Zhongjia Mine",
+          1
+        ],
+        [
+          "Zhejiang Litie Group Lizhu Mine",
+          1
+        ],
+        [
+          "Zhaocun Mine",
+          1
+        ],
+        [
+          "Zhalanzhangzi Mine",
+          1
+        ],
+        [
+          "Zasag Chandmani Mine",
+          1
+        ],
+        [
+          "Zanaga Iron Ore Project Mine",
+          1
+        ],
+        [
+          "ZZRK Zaporizhzhya Mine",
+          1
+        ],
+        [
+          "ZTC Ramgad Mine",
+          1
+        ],
+        [
+          "ZTC Dharmapur Mine",
+          1
+        ],
+        [
+          "ZCM Resources Jerantut Mine",
+          1
+        ],
+        [
+          "Yangquejing Mine",
+          1
+        ],
+        [
+          "Yangpi Mine",
+          1
+        ],
+        [
+          "Yamansu Mine",
+          1
+        ],
+        [
+          "YSPL Kolmong Mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Projects are named using a non-conforming name used by the company or government that supercedes our standards. For all other projects, the project name format is \"Parent Company Location Mine\" (ex. \"XYZ London Mine\" for an iron ore Mine located in London and owned by company XYZ)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Asset name (other language)",
+      "code_friendly_name_guess": "asset_name_other_language",
+      "n_total": 949,
+      "n_null": 552,
+      "n_non_null": 397,
+      "null_rate": 0.5817,
+      "n_unique": 397,
+      "top_values": [
+        [
+          "황주민 (Korean)",
+          1
+        ],
+        [
+          "허촌 광산 (Korean)",
+          1
+        ],
+        [
+          "한덕신예미광산 (Korean)",
+          1
+        ],
+        [
+          "하성미네 (Korean)",
+          1
+        ],
+        [
+          "풍산광산 (Korean)",
+          1
+        ],
+        [
+          "태탄광산 (Korean)",
+          1
+        ],
+        [
+          "천동광산 (Korean)",
+          1
+        ],
+        [
+          "재령광산 (Korean)",
+          1
+        ],
+        [
+          "은율광산 (Korean)",
+          1
+        ],
+        [
+          "오룡광산 (Korean)",
+          1
+        ],
+        [
+          "연산광산 (Korean)",
+          1
+        ],
+        [
+          "양양광산 (Korean)",
+          1
+        ],
+        [
+          "아낙 광산 (Korean)",
+          1
+        ],
+        [
+          "송림광산 (Korean)",
+          1
+        ],
+        [
+          "선해리 광산 (Korean)",
+          1
+        ],
+        [
+          "무산광산 (Korean)",
+          1
+        ],
+        [
+          "리원광산 (Korean)",
+          1
+        ],
+        [
+          "덕현미네 (Korean)",
+          1
+        ],
+        [
+          "대한양양광산 (Korean)",
+          1
+        ],
+        [
+          "단촌광산 (Korean)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Include language in english (ie \"Stahlwerke (German)\")",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinates",
+      "code_friendly_name_guess": "coordinates",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 946,
+      "top_values": [
+        [
+          "36.271528, 117.632083",
+          3
+        ],
+        [
+          "-20.075471, -43.901256",
+          2
+        ],
+        [
+          "9.861159, 123.034538",
+          1
+        ],
+        [
+          "9.451129, 7.375633",
+          1
+        ],
+        [
+          "9.102512, -8.941486",
+          1
+        ],
+        [
+          "8.985653, -11.708523",
+          1
+        ],
+        [
+          "8.678657, -12.500283",
+          1
+        ],
+        [
+          "8.526285, -8.899708",
+          1
+        ],
+        [
+          "8.008081, 6.633072",
+          1
+        ],
+        [
+          "71.336994, -79.228748",
+          1
+        ],
+        [
+          "7.659655, -8.374993",
+          1
+        ],
+        [
+          "7.610208, 6.298810",
+          1
+        ],
+        [
+          "7.484306, 79.880115",
+          1
+        ],
+        [
+          "7.481819, -63.239898",
+          1
+        ],
+        [
+          "7.455944, -63.387226",
+          1
+        ],
+        [
+          "7.445486, -8.640608",
+          1
+        ],
+        [
+          "7.408491, -63.172576",
+          1
+        ],
+        [
+          "7.404588, -63.206069",
+          1
+        ],
+        [
+          "7.389471, -63.227164",
+          1
+        ],
+        [
+          "7.338179, -11.121342",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Ideally coordinate for center of Mine. If several Mines are clustered together, do best to identify individual Mine. If exact location is unknown, use central coordinates of lowest level of address known (i.e. city, then subnational unit, country as last resort).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinate accuracy",
+      "code_friendly_name_guess": "coordinate_accuracy",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          727
+        ],
+        [
+          "approximate",
+          222
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "exact = location confirmed via satellite imagery, approximate = location estimated or undefined",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Municipality",
+      "code_friendly_name_guess": "municipality",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 579,
+      "top_values": [
+        [
+          "Sandur",
+          24
+        ],
+        [
+          "Newman",
+          16
+        ],
+        [
+          "Linyi",
+          13
+        ],
+        [
+          "Kryvyi Rih",
+          12
+        ],
+        [
+          "Koira",
+          12
+        ],
+        [
+          "Anshan",
+          11
+        ],
+        [
+          "Panzhihua",
+          9
+        ],
+        [
+          "Liuan",
+          9
+        ],
+        [
+          "Liangshan Yi Autonomous Prefecture",
+          9
+        ],
+        [
+          "Ji'an",
+          9
+        ],
+        [
+          "Baotou",
+          9
+        ],
+        [
+          "Zhangye",
+          8
+        ],
+        [
+          "Xinzhou",
+          8
+        ],
+        [
+          "Mount Sheila",
+          8
+        ],
+        [
+          "Maanshan",
+          7
+        ],
+        [
+          "Benxi",
+          7
+        ],
+        [
+          "Tangshan",
+          6
+        ],
+        [
+          "Nova Lima",
+          6
+        ],
+        [
+          "Kathu",
+          6
+        ],
+        [
+          "Hefei",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Municipality (city, village, town)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 219,
+      "top_values": [
+        [
+          "Odisha",
+          79
+        ],
+        [
+          "Western Australia",
+          76
+        ],
+        [
+          "Karnataka",
+          73
+        ],
+        [
+          "Minas Gerais",
+          45
+        ],
+        [
+          "Anhui",
+          34
+        ],
+        [
+          "Hebei",
+          26
+        ],
+        [
+          "Liaoning",
+          25
+        ],
+        [
+          "Chhattisgarh",
+          24
+        ],
+        [
+          "Shandong",
+          20
+        ],
+        [
+          "Sichuan",
+          19
+        ],
+        [
+          "Jharkhand",
+          18
+        ],
+        [
+          "Andhra Pradesh",
+          14
+        ],
+        [
+          "Dnipropetrovsk Oblast",
+          12
+        ],
+        [
+          "South Australia",
+          11
+        ],
+        [
+          "Shanxi",
+          11
+        ],
+        [
+          "Rajasthan",
+          11
+        ],
+        [
+          "Inner Mongolia",
+          11
+        ],
+        [
+          "Goa",
+          11
+        ],
+        [
+          "Gansu",
+          11
+        ],
+        [
+          "Northern Cape",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Subnational unit (province, state)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 74,
+      "top_values": [
+        [
+          "India",
+          248
+        ],
+        [
+          "China",
+          201
+        ],
+        [
+          "Australia",
+          98
+        ],
+        [
+          "Brazil",
+          56
+        ],
+        [
+          "Russia",
+          31
+        ],
+        [
+          "North Korea",
+          19
+        ],
+        [
+          "Malaysia",
+          18
+        ],
+        [
+          "Mongolia",
+          17
+        ],
+        [
+          "Ukraine",
+          16
+        ],
+        [
+          "Türkiye",
+          15
+        ],
+        [
+          "South Africa",
+          14
+        ],
+        [
+          "Iran",
+          12
+        ],
+        [
+          "Mexico",
+          11
+        ],
+        [
+          "Canada",
+          11
+        ],
+        [
+          "United States",
+          10
+        ],
+        [
+          "Tunisia",
+          8
+        ],
+        [
+          "Sweden",
+          8
+        ],
+        [
+          "Vietnam",
+          7
+        ],
+        [
+          "Mauritania",
+          7
+        ],
+        [
+          "Liberia",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or area",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Asia Pacific",
+          653
+        ],
+        [
+          "Africa",
+          90
+        ],
+        [
+          "Central & South America",
+          72
+        ],
+        [
+          "Europe",
+          49
+        ],
+        [
+          "Eurasia",
+          41
+        ],
+        [
+          "North America",
+          32
+        ],
+        [
+          "Middle East",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "WEO Region",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production 2024 (ttpa)",
+      "code_friendly_name_guess": "production_2024_ttpa",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 195,
+      "top_values": [
+        [
+          "unknown",
+          475
+        ],
+        [
+          "N/A",
+          239
+        ],
+        [
+          "0.0",
+          16
+        ],
+        [
+          "18782.0",
+          10
+        ],
+        [
+          "85.0",
+          3
+        ],
+        [
+          "300.0",
+          3
+        ],
+        [
+          "20.0",
+          3
+        ],
+        [
+          "100.0",
+          3
+        ],
+        [
+          "900.0",
+          2
+        ],
+        [
+          "700.0",
+          2
+        ],
+        [
+          "500.0",
+          2
+        ],
+        [
+          "47152.0",
+          2
+        ],
+        [
+          "460.0",
+          2
+        ],
+        [
+          "4100.0",
+          2
+        ],
+        [
+          "3800.0",
+          2
+        ],
+        [
+          "2610.0",
+          2
+        ],
+        [
+          "243.0",
+          2
+        ],
+        [
+          "1000.0",
+          2
+        ],
+        [
+          "unkonwn",
+          1
+        ],
+        [
+          "997.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.3521,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total production data of the year 2024 (thousands of metric tonnes per annum) of iron ore",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production 2023 (ttpa)",
+      "code_friendly_name_guess": "production_2023_ttpa",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 254,
+      "top_values": [
+        [
+          "unknown",
+          354
+        ],
+        [
+          "N/A",
+          255
+        ],
+        [
+          "0.0",
+          31
+        ],
+        [
+          "18290.0",
+          10
+        ],
+        [
+          "3000.0",
+          6
+        ],
+        [
+          "1267.0",
+          6
+        ],
+        [
+          "4000.0",
+          4
+        ],
+        [
+          "5200.0",
+          3
+        ],
+        [
+          "2500.0",
+          3
+        ],
+        [
+          "2400.0",
+          3
+        ],
+        [
+          "1400.0",
+          3
+        ],
+        [
+          "120.0",
+          3
+        ],
+        [
+          "10000.0",
+          3
+        ],
+        [
+          "1000.0",
+          3
+        ],
+        [
+          "996.0",
+          2
+        ],
+        [
+          "930.0",
+          2
+        ],
+        [
+          "5610.0",
+          2
+        ],
+        [
+          "5600.0",
+          2
+        ],
+        [
+          "511.0",
+          2
+        ],
+        [
+          "500.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.5073,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total production data of the year 2023 (thousands of metric tonnes per annum) of iron ore",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production 2022 (ttpa)",
+      "code_friendly_name_guess": "production_2022_ttpa",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 261,
+      "top_values": [
+        [
+          "unknown",
+          343
+        ],
+        [
+          "N/A",
+          262
+        ],
+        [
+          "0.0",
+          42
+        ],
+        [
+          "21830.0",
+          10
+        ],
+        [
+          "3000.0",
+          6
+        ],
+        [
+          "1446.0",
+          6
+        ],
+        [
+          "6000.0",
+          5
+        ],
+        [
+          "2400.0",
+          4
+        ],
+        [
+          "5000.0",
+          3
+        ],
+        [
+          "1000.0",
+          3
+        ],
+        [
+          "80.0",
+          2
+        ],
+        [
+          "5700.0",
+          2
+        ],
+        [
+          "5500.0",
+          2
+        ],
+        [
+          "50.7",
+          2
+        ],
+        [
+          "4900.0",
+          2
+        ],
+        [
+          "45750.0",
+          2
+        ],
+        [
+          "4000.0",
+          2
+        ],
+        [
+          "3100.0",
+          2
+        ],
+        [
+          "30000.0",
+          2
+        ],
+        [
+          "300.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.5015,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total production data of the year 2022 (thousands of metric tonnes per annum) of iron ore",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Design capacity (ttpa)",
+      "code_friendly_name_guess": "design_capacity_ttpa",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 263,
+      "top_values": [
+        [
+          "unknown",
+          220
+        ],
+        [
+          "2000.0",
+          30
+        ],
+        [
+          "1000.0",
+          28
+        ],
+        [
+          "3000.0",
+          25
+        ],
+        [
+          "10000.0",
+          22
+        ],
+        [
+          "1500.0",
+          21
+        ],
+        [
+          "5000.0",
+          20
+        ],
+        [
+          "6000.0",
+          17
+        ],
+        [
+          "500.0",
+          16
+        ],
+        [
+          "4000.0",
+          15
+        ],
+        [
+          "300.0",
+          15
+        ],
+        [
+          "600.0",
+          14
+        ],
+        [
+          "7000.0",
+          13
+        ],
+        [
+          "100.0",
+          11
+        ],
+        [
+          "21830.0",
+          10
+        ],
+        [
+          "200.0",
+          10
+        ],
+        [
+          "1200.0",
+          10
+        ],
+        [
+          "3500.0",
+          9
+        ],
+        [
+          "2500.0",
+          9
+        ],
+        [
+          "1800.0",
+          9
+        ]
+      ],
+      "portion_numeric": 0.7996,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Total reserves (proven and probable, thousand metric tonnes)",
+      "code_friendly_name_guess": "total_reserves_proven_and_probable_thousand_metric_tonnes",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 472,
+      "top_values": [
+        [
+          "unknown",
+          437
+        ],
+        [
+          "140111.0",
+          9
+        ],
+        [
+          "137400.0",
+          5
+        ],
+        [
+          "100000.0",
+          5
+        ],
+        [
+          "3000.0",
+          4
+        ],
+        [
+          "36667.0",
+          3
+        ],
+        [
+          "188667.0",
+          3
+        ],
+        [
+          "165000.0",
+          3
+        ],
+        [
+          "870000.0",
+          2
+        ],
+        [
+          "70000.0",
+          2
+        ],
+        [
+          "5882.0",
+          2
+        ],
+        [
+          "53500.0",
+          2
+        ],
+        [
+          "50000.0",
+          2
+        ],
+        [
+          "308000.0",
+          2
+        ],
+        [
+          "300000.0",
+          2
+        ],
+        [
+          "24900.0",
+          2
+        ],
+        [
+          "230000.0",
+          2
+        ],
+        [
+          "2298.0",
+          2
+        ],
+        [
+          "2138.0",
+          2
+        ],
+        [
+          "213500.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.52,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Total resource (inferred, indicated and measured, thousand metric tonnes)",
+      "code_friendly_name_guess": "total_resource_inferred_indicated_and_measured_thousand_metric_tonnes",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 499,
+      "top_values": [
+        [
+          "unknown",
+          373
+        ],
+        [
+          "1361333.0",
+          9
+        ],
+        [
+          "500000.0",
+          6
+        ],
+        [
+          "200000.0",
+          6
+        ],
+        [
+          "1000000.0",
+          6
+        ],
+        [
+          "1178600.0",
+          5
+        ],
+        [
+          "10000.0",
+          5
+        ],
+        [
+          "50000.0",
+          4
+        ],
+        [
+          "400000.0",
+          4
+        ],
+        [
+          "300000.0",
+          4
+        ],
+        [
+          "40000.0",
+          3
+        ],
+        [
+          "35000.0",
+          3
+        ],
+        [
+          "2771667.0",
+          3
+        ],
+        [
+          "210000.0",
+          3
+        ],
+        [
+          "166667.0",
+          3
+        ],
+        [
+          "150000.0",
+          3
+        ],
+        [
+          "1200000.0",
+          3
+        ],
+        [
+          "9700.0",
+          2
+        ],
+        [
+          "95500.0",
+          2
+        ],
+        [
+          "890000.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.652,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Operating status",
+      "code_friendly_name_guess": "operating_status",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "operating",
+          673
+        ],
+        [
+          "proposed",
+          164
+        ],
+        [
+          "mothballed",
+          80
+        ],
+        [
+          "retired",
+          16
+        ],
+        [
+          "unknown",
+          10
+        ],
+        [
+          "shelved",
+          4
+        ],
+        [
+          "cancelled",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Categories are \"proposed\", \"operating\", \"shelved\", \"mothballed\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 949,
+      "n_null": 45,
+      "n_non_null": 904,
+      "null_rate": 0.0474,
+      "n_unique": 279,
+      "top_values": [
+        [
+          "unknown",
+          277
+        ],
+        [
+          "2011.0",
+          16
+        ],
+        [
+          "2023.0",
+          14
+        ],
+        [
+          "2008.0",
+          14
+        ],
+        [
+          "2006.0",
+          14
+        ],
+        [
+          "2013.0",
+          13
+        ],
+        [
+          "2007.0",
+          13
+        ],
+        [
+          "2021.0",
+          12
+        ],
+        [
+          "2020.0",
+          12
+        ],
+        [
+          "2017.0",
+          12
+        ],
+        [
+          "2014.0",
+          11
+        ],
+        [
+          "2003.0",
+          10
+        ],
+        [
+          "2025.0",
+          9
+        ],
+        [
+          "2022.0",
+          9
+        ],
+        [
+          "2010.0",
+          9
+        ],
+        [
+          "2005.0",
+          8
+        ],
+        [
+          "2026.0",
+          7
+        ],
+        [
+          "2002.0",
+          7
+        ],
+        [
+          "1994.0",
+          7
+        ],
+        [
+          "1977.0",
+          7
+        ]
+      ],
+      "portion_numeric": 0.5562,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Stop date",
+      "code_friendly_name_guess": "stop_date",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "N/A",
+          850
+        ],
+        [
+          "unknown",
+          75
+        ],
+        [
+          "2024-12-30 00:00:00",
+          6
+        ],
+        [
+          "2023.0",
+          3
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2019.0",
+          2
+        ],
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2060.0",
+          1
+        ],
+        [
+          "2045-12-31 00:00:00",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2002.0",
+          1
+        ],
+        [
+          "2000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2281,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 598,
+      "top_values": [
+        [
+          "natural person(s) [100%]",
+          29
+        ],
+        [
+          "unknown",
+          19
+        ],
+        [
+          "North Korea Ministry of Metallurgical Industry",
+          19
+        ],
+        [
+          "Steel Authority of India [100%]",
+          18
+        ],
+        [
+          "JSW Steel [100%]",
+          17
+        ],
+        [
+          "Odisha Mining Corporation Ltd [100%]",
+          12
+        ],
+        [
+          "Rio Tinto [100%]",
+          11
+        ],
+        [
+          "National Mineral Development Corporation Ltd [100%]",
+          11
+        ],
+        [
+          "Vale SA [100%]",
+          10
+        ],
+        [
+          "Mineral Resources Ltd [100%]",
+          9
+        ],
+        [
+          "Tata Steel [100%]",
+          8
+        ],
+        [
+          "Djebel Djerissa Company [100%]",
+          8
+        ],
+        [
+          "MSPL Limited [100%]",
+          7
+        ],
+        [
+          "Gansu Jingtieshan Mining Co. [100%]",
+          7
+        ],
+        [
+          "Altos Hornos de Mexico SAB de CV [100%]",
+          7
+        ],
+        [
+          "Société Nationale Industriale et Minière de Mauritanie (SNIM) [100%]",
+          5
+        ],
+        [
+          "SIMEC Mining [100%]",
+          5
+        ],
+        [
+          "Cedro Mineração [100%]",
+          5
+        ],
+        [
+          "CVG FerroMinera Orinoco CA [100%]",
+          5
+        ],
+        [
+          "Atlas Iron Ltd [100%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of iron ore Mine.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 545,
+      "top_values": [
+        [
+          "--",
+          66
+        ],
+        [
+          "E100000123261 [100.0%]",
+          29
+        ],
+        [
+          "E100002004230",
+          19
+        ],
+        [
+          "E100001000703 [100.0%]",
+          17
+        ],
+        [
+          "E100001000516 [100.0%]",
+          16
+        ],
+        [
+          "E100000132388",
+          16
+        ],
+        [
+          "E100002000286 [100.0%]",
+          12
+        ],
+        [
+          "E100002002847 [100.0%]",
+          11
+        ],
+        [
+          "E100001000686 [100.0%]",
+          11
+        ],
+        [
+          "E100001000480 [100.0%]",
+          10
+        ],
+        [
+          "E100002002924 [100.0%]",
+          9
+        ],
+        [
+          "E100002003096 [100.0%]",
+          8
+        ],
+        [
+          "E100001010310 [100.0%]",
+          7
+        ],
+        [
+          "E100001010018 [100.0%]",
+          7
+        ],
+        [
+          "E100000152996 [100.0%]",
+          7
+        ],
+        [
+          "E100002004030 [100.0%]",
+          6
+        ],
+        [
+          "E100002004116 [100.0%]",
+          5
+        ],
+        [
+          "E100002002844 [100.0%]",
+          5
+        ],
+        [
+          "E100002002748 [100.0%]",
+          5
+        ],
+        [
+          "E100001010510 [100.0%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A GEM identifier assigned to each company and owner through the Global Ownership Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner name in local language/script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 949,
+      "n_null": 642,
+      "n_non_null": 307,
+      "null_rate": 0.6765,
+      "n_unique": 218,
+      "top_values": [
+        [
+          "금속공업부",
+          19
+        ],
+        [
+          "شركة جبل الجريصة (Arabic); Société Djebel Djerissa SA (French)\n",
+          8
+        ],
+        [
+          "甘肃镜铁山矿业有限公司",
+          7
+        ],
+        [
+          "鞍钢集团有限公司",
+          5
+        ],
+        [
+          "Горно-металлургическая компания \"Тимир\" (ГМК \"Тимир\")",
+          4
+        ],
+        [
+          "Бэрэн Майнинг ХХК",
+          4
+        ],
+        [
+          "Societe des Mines de Fer d'Algerie",
+          4
+        ],
+        [
+          "Luossavaara-Kiirunavaara AB (Swedish)",
+          4
+        ],
+        [
+          "Kryvbaszalizrudkom JSC",
+          4
+        ],
+        [
+          "鲁中矿业有限公司",
+          3
+        ],
+        [
+          "首钢集团有限公司矿业公司",
+          3
+        ],
+        [
+          "河北钢铁集团矿业有限公司",
+          3
+        ],
+        [
+          "شرکت توسعه معدنی و صنعتی صبانور  [%100] (Persian)",
+          3
+        ],
+        [
+          "Харанга хүдэр ХХК",
+          3
+        ],
+        [
+          "ЕВРАЗ Нижнетагильский металлургический комбинат (ЕВРАЗ ЗСМК)",
+          3
+        ],
+        [
+          "Дарханы төмөрлөгийн үйлдвэр ХК",
+          3
+        ],
+        [
+          "Высокогорский горно-обогатительный комбинат (ОАО «ВГОК»)",
+          3
+        ],
+        [
+          "Özkoyuncu Madencilik Metalurji İnşaat Sanayi ve Ticaret A.Ş. (Turkish)",
+          3
+        ],
+        [
+          "Erdemir Madencilik Sanayi ve Ticaret A.Ş. (Turkish)",
+          3
+        ],
+        [
+          "马钢集团姑山矿业公司",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of iron ore Mine in local language",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 234,
+      "top_values": [
+        [
+          "--",
+          432
+        ],
+        [
+          "natural person(s) [100.0%]",
+          29
+        ],
+        [
+          "Ministry of Metallurgical Industry (North Korea)",
+          19
+        ],
+        [
+          "Steel Authority of India Ltd [100.0%]",
+          17
+        ],
+        [
+          "JSW Steel Ltd [100.0%]",
+          17
+        ],
+        [
+          "Odisha Mining Corporation Ltd [100.0%]",
+          12
+        ],
+        [
+          "Rio Tinto Ltd [100.0%]",
+          11
+        ],
+        [
+          "National Mineral Development Corp Ltd [100.0%]",
+          11
+        ],
+        [
+          "Vale SA [100.0%]",
+          10
+        ],
+        [
+          "Mineral Resources Ltd [100.0%]",
+          10
+        ],
+        [
+          "Tata Steel Ltd [100.0%]",
+          7
+        ],
+        [
+          "Grupo Acerero del Norte SA de CV [64.0%]; small shareholder(s) [34.0%]; natural person(s) [2.0%]",
+          7
+        ],
+        [
+          "Fortescue Ltd [100.0%]",
+          7
+        ],
+        [
+          "Société Djebel Djerissa SA [100.0%]",
+          6
+        ],
+        [
+          "Hancock Prospecting Pty Ltd",
+          5
+        ],
+        [
+          "Government of Mauritania [78.4%]; small shareholder(s) [8.3%]; Kia Corp [7.7%]; Arab Mining Co [5.7%]",
+          5
+        ],
+        [
+          "GFG Alliance Ltd",
+          5
+        ],
+        [
+          "Corporación Siderúrgica de Venezuela SA",
+          5
+        ],
+        [
+          "Cleveland-Cliffs Inc [100.0%]",
+          5
+        ],
+        [
+          "Cedro Participações SA [100.0%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Ends of parent branches for the Mine owner from GEM's Global Energy Ownership Tracker data.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 234,
+      "top_values": [
+        [
+          "--",
+          432
+        ],
+        [
+          "E100000123261 [100.0%]",
+          29
+        ],
+        [
+          "E100002004230",
+          19
+        ],
+        [
+          "E100001000703 [100.0%]",
+          17
+        ],
+        [
+          "E100001000516 [100.0%]",
+          17
+        ],
+        [
+          "E100002000286 [100.0%]",
+          12
+        ],
+        [
+          "E100002002847 [100.0%]",
+          11
+        ],
+        [
+          "E100001000686 [100.0%]",
+          11
+        ],
+        [
+          "E100002002924 [100.0%]",
+          10
+        ],
+        [
+          "E100001000480 [100.0%]",
+          10
+        ],
+        [
+          "E100001011127 [100.0%]",
+          7
+        ],
+        [
+          "E100001010018 [100.0%]",
+          7
+        ],
+        [
+          "E100000131250 [64.0%]; E100001015587 [34.0%]; E100000123261 [2.0%]",
+          7
+        ],
+        [
+          "E100002004030 [100.0%]",
+          6
+        ],
+        [
+          "E100002004117 [100.0%]",
+          5
+        ],
+        [
+          "E100001000959",
+          5
+        ],
+        [
+          "E100001000649 [100.0%]",
+          5
+        ],
+        [
+          "E100001000556",
+          5
+        ],
+        [
+          "E100001000470",
+          5
+        ],
+        [
+          "E100001000087 [78.4%]; E100001015587 [8.3%]; E100001010263 [7.7%]; E100001011198 [5.7%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A GEM identifier assigned to each company and parent through the Global Ownership Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page URL",
+      "code_friendly_name_guess": "gem_wiki_page_url",
+      "n_total": 949,
+      "n_null": 0,
+      "n_non_null": 949,
+      "null_rate": 0.0,
+      "n_unique": 949,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Zuolong_iron_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhujia_Baobao_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhuchong_Iron_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhouyoufang-Huoqiu_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhoutaizi_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhouji_Mine-Huoqiu_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongjia_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Litie_Group_Lizhu_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhaocun_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhalanzhangzi_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zasag_Chandmani_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zanaga_Iron_Ore_Project_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/ZZRK_Zaporizhzhya_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/ZTC_Ramgad_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/ZTC_Dharmapur_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/ZCM_Resources_Jerantut_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yangquejing_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yangpi_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yamansu_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/YSPL_Kolmong_Mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM wiki page in English.",
+      "notes_from_readme": null
+    }
+  ]
+}

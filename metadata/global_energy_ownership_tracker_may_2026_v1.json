@@ -1,0 +1,169 @@
+{
+  "source_file": "Global-Energy-Ownership-Tracker-May-2026-V1.xlsx",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "header_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "data_tabs": {
+    "all_entities": "All Entities",
+    "entity_ownership": "Entity Ownership",
+    "asset_ownership": "Asset Ownership",
+    "coal_plant_ownership": "Coal Plant Ownership",
+    "gas_plant_ownership": "Gas Plant Ownership",
+    "bioenergy_power_ownership": "Bioenergy Power Ownership",
+    "coal_mine_ownership": "Coal Mine Ownership",
+    "iron_mine_ownership": "Iron Mine Ownership",
+    "gas_pipeline_ownership": "Gas Pipeline Ownership",
+    "oil_ngl_pipeline_ownership": "Oil & NGL Pipeline Ownership",
+    "steel_plant_ownership": "Steel Plant Ownership",
+    "cement_and_concrete_ownership": "Cement and Concrete Ownership"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Each row contain one ownership link. One entity may have multiple owners which would be reflected across multiple rows. The dataset uses the Beneficial Ownership Data Standards definitions for \"subject entity\" and \"interested party\".",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Subject Entity",
+          "definition": "Entity owned by the interested party",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": null
+        },
+        {
+          "name": "Interested Party",
+          "definition": "An entity that has an ownership share of the subject entity",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": null
+        },
+        {
+          "name": "% Share of Ownership",
+          "definition": "Percent of ownership the interested party has in the entity. If the percent value is missing it's because it couldn't be identified.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": null
+        },
+        {
+          "name": "Data Source URL",
+          "definition": "Weblink to data source that contains information on the ownership relationship",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

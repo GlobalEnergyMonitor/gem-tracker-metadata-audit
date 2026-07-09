@@ -1,0 +1,1297 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__coal_plant_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "coal_plant_ownership",
+  "n_rows": 74494,
+  "analyzed_at": "2026-07-07T21:45:13.083092+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 4089,
+      "top_values": [
+        [
+          "E100001015587",
+          3809
+        ],
+        [
+          "E100000123261",
+          3396
+        ],
+        [
+          "E100000132388",
+          2534
+        ],
+        [
+          "E100001015833",
+          1772
+        ],
+        [
+          "E100001010595",
+          1772
+        ],
+        [
+          "E100001000348",
+          1772
+        ],
+        [
+          "E100001010596",
+          927
+        ],
+        [
+          "E100002001974",
+          902
+        ],
+        [
+          "E100000000239",
+          828
+        ],
+        [
+          "E100001000397",
+          664
+        ],
+        [
+          "E100001000382",
+          433
+        ],
+        [
+          "E100000000217",
+          433
+        ],
+        [
+          "E100000000175",
+          394
+        ],
+        [
+          "E100000136108",
+          384
+        ],
+        [
+          "E100002022203",
+          380
+        ],
+        [
+          "E100002011285",
+          380
+        ],
+        [
+          "E100001016498",
+          380
+        ],
+        [
+          "E100001016492",
+          380
+        ],
+        [
+          "E100001016257",
+          380
+        ],
+        [
+          "E100001016256",
+          380
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 74494,
+      "n_null": 1,
+      "n_non_null": 74493,
+      "null_rate": 0.0,
+      "n_unique": 4086,
+      "top_values": [
+        [
+          "small shareholder(s) ",
+          3809
+        ],
+        [
+          "natural person(s) ",
+          3396
+        ],
+        [
+          "unknown ",
+          2534
+        ],
+        [
+          "The Vanguard Group Inc",
+          1772
+        ],
+        [
+          "Blackrock Advisors LLC",
+          1772
+        ],
+        [
+          "BlackRock Inc",
+          1772
+        ],
+        [
+          "State Street Corp",
+          927
+        ],
+        [
+          "member/employee owned ",
+          902
+        ],
+        [
+          "China Energy Investment Corp",
+          828
+        ],
+        [
+          "Government of India ",
+          664
+        ],
+        [
+          "Nippon Life Insurance Co",
+          433
+        ],
+        [
+          "Huaneng Power International Inc",
+          433
+        ],
+        [
+          "China Shenhua Energy Co Ltd",
+          394
+        ],
+        [
+          "State Street Bank and Trust Co",
+          384
+        ],
+        [
+          "The Norinchukin Trust & Banking Co Ltd",
+          380
+        ],
+        [
+          "The Master Trust Bank of Japan Ltd",
+          380
+        ],
+        [
+          "The Dai-ichi Life Insurance Co Ltd",
+          380
+        ],
+        [
+          "Sumitomo Mitsui Trust Group ",
+          380
+        ],
+        [
+          "Resonac Holdings Corp",
+          380
+        ],
+        [
+          "Resona Bank Ltd",
+          380
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 74494,
+      "n_null": 18689,
+      "n_non_null": 55805,
+      "null_rate": 0.2509,
+      "n_unique": 114,
+      "top_values": [
+        [
+          "China",
+          18771
+        ],
+        [
+          "United States",
+          9779
+        ],
+        [
+          "Japan",
+          6519
+        ],
+        [
+          "India",
+          5446
+        ],
+        [
+          "Russia",
+          1499
+        ],
+        [
+          "Hong Kong",
+          1055
+        ],
+        [
+          "Qatar",
+          807
+        ],
+        [
+          "Poland",
+          773
+        ],
+        [
+          "Indonesia",
+          768
+        ],
+        [
+          "Philippines",
+          694
+        ],
+        [
+          "Germany",
+          650
+        ],
+        [
+          "South Korea",
+          649
+        ],
+        [
+          "France",
+          493
+        ],
+        [
+          "Australia",
+          474
+        ],
+        [
+          "South Africa",
+          372
+        ],
+        [
+          "Mauritius",
+          365
+        ],
+        [
+          "Canada",
+          318
+        ],
+        [
+          "Netherlands",
+          298
+        ],
+        [
+          "United Arab Emirates",
+          295
+        ],
+        [
+          "Czech Republic",
+          290
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 74494,
+      "n_null": 14547,
+      "n_non_null": 59947,
+      "null_rate": 0.1953,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "China",
+          22355
+        ],
+        [
+          "United States",
+          9781
+        ],
+        [
+          "Japan",
+          6515
+        ],
+        [
+          "India",
+          5473
+        ],
+        [
+          "Russia",
+          1512
+        ],
+        [
+          "Hong Kong",
+          1041
+        ],
+        [
+          "Poland",
+          825
+        ],
+        [
+          "Qatar",
+          807
+        ],
+        [
+          "Indonesia",
+          773
+        ],
+        [
+          "Germany",
+          698
+        ],
+        [
+          "Philippines",
+          694
+        ],
+        [
+          "South Korea",
+          651
+        ],
+        [
+          "France",
+          495
+        ],
+        [
+          "Australia",
+          469
+        ],
+        [
+          "South Africa",
+          387
+        ],
+        [
+          "Mauritius",
+          371
+        ],
+        [
+          "Czech Republic",
+          328
+        ],
+        [
+          "United Arab Emirates",
+          321
+        ],
+        [
+          "Canada",
+          318
+        ],
+        [
+          "Netherlands",
+          298
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 13576,
+      "top_values": [
+        [
+          "Chongqing Baihe power station Phase II Unit 4",
+          64
+        ],
+        [
+          "Chongqing Baihe power station Phase II Unit 3",
+          64
+        ],
+        [
+          "Chongqing Baihe power station Phase I Unit 2",
+          64
+        ],
+        [
+          "Chongqing Baihe power station Phase I Unit 1",
+          64
+        ],
+        [
+          "Wansheng power station Unit 2",
+          61
+        ],
+        [
+          "Wansheng power station Unit 1",
+          61
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase III Unit 6",
+          60
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase III Unit 5",
+          60
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase II Unit 4",
+          60
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase II Unit 3",
+          60
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase I Unit 2",
+          60
+        ],
+        [
+          "Chongqing Shuanghuai power station Phase I Unit 1",
+          60
+        ],
+        [
+          "Chongqing Shizhu power station Unit 2",
+          60
+        ],
+        [
+          "Chongqing Shizhu power station Unit 1",
+          60
+        ],
+        [
+          "Chongqing Fangsheng power station --",
+          60
+        ],
+        [
+          "Nantong Coal Waste power station Unit 2",
+          59
+        ],
+        [
+          "Nantong Coal Waste power station Unit 1",
+          59
+        ],
+        [
+          "Hami-Chongqing UHV Transmission Line power station Unit 2",
+          59
+        ],
+        [
+          "Hami-Chongqing UHV Transmission Line power station Unit 1",
+          59
+        ],
+        [
+          "Dafang Waste Coal power station Unit 2",
+          59
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 74494,
+      "n_null": 11435,
+      "n_non_null": 63059,
+      "null_rate": 0.1535,
+      "n_unique": 2880,
+      "top_values": [
+        [
+          "100",
+          9677
+        ],
+        [
+          "0",
+          1441
+        ],
+        [
+          "0.01",
+          934
+        ],
+        [
+          "50",
+          808
+        ],
+        [
+          "0.02",
+          764
+        ],
+        [
+          "10",
+          710
+        ],
+        [
+          "0.03",
+          592
+        ],
+        [
+          "51",
+          587
+        ],
+        [
+          "5",
+          564
+        ],
+        [
+          "20",
+          539
+        ],
+        [
+          "25",
+          452
+        ],
+        [
+          "0.06",
+          442
+        ],
+        [
+          "40",
+          421
+        ],
+        [
+          "49",
+          370
+        ],
+        [
+          "60",
+          360
+        ],
+        [
+          "0.05",
+          344
+        ],
+        [
+          "9",
+          317
+        ],
+        [
+          "30",
+          313
+        ],
+        [
+          "0.08",
+          294
+        ],
+        [
+          "48.9",
+          281
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 74494,
+      "n_null": 1,
+      "n_non_null": 74493,
+      "null_rate": 0.0,
+      "n_unique": 71839,
+      "top_values": [
+        [
+          "Yunnan Energy Investment Co Ltd -> Xuanwei Gangue power station Unit 2 [100.0%]",
+          3
+        ],
+        [
+          "Yunnan Energy Investment Co Ltd -> Xuanwei Gangue power station Unit 1 [100.0%]",
+          3
+        ],
+        [
+          "Xining Urban Investment Management Co Ltd -> Xining China Low-Carbon Industry Fund Investment Management Co Ltd [16.67%] -> Qinghai Shenhua Low Carbon Energy Investment Co Ltd [49.0%] -> Shenhua Golmud power station Unit 2 [100.0%]",
+          3
+        ],
+        [
+          "Xining Urban Investment Management Co Ltd -> Xining China Low-Carbon Industry Fund Investment Management Co Ltd [16.67%] -> Qinghai Shenhua Low Carbon Energy Investment Co Ltd [49.0%] -> Shenhua Golmud power station Unit 1 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase VI Unit 12 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase VI Unit 11 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase V Unit 9 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase V Unit 10 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase IV Unit 8 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase IV Unit 7 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase III Unit 6 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase III Unit 5 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase II Unit 4 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase II Unit 3 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase I Unit 2 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Tianjin Junliangcheng Power Generation Co Ltd [51.0%] -> Junliangcheng power station Phase I Unit 1 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Huadian Guangxi Energy Co Ltd [49.0%] -> Yulin Longtan power station Unit 2 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> Huadian Guangxi Energy Co Ltd [49.0%] -> Yulin Longtan power station Unit 1 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> CHD Guigang Electric Power Co Ltd [100.0%] -> Guigang power station Phase II Unit 4 [100.0%]",
+          3
+        ],
+        [
+          "State Power Investment Ronghe Investment Co Ltd -> BRIDGE Trust Co Ltd [50.24%] -> Zhongyuan Asset Management Co Ltd [5.0%] -> CHD Power Plant Operation Co Ltd [13.01%] -> CHD Guigang Electric Power Co Ltd [100.0%] -> Guigang power station Phase II Unit 3 [100.0%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 3324,
+      "top_values": [
+        [
+          "China Resources Power (Guizhou) Coal Electricity Integration Co Ltd",
+          826
+        ],
+        [
+          "Far Eastern Generating Company JSC",
+          666
+        ],
+        [
+          "NTPC Ltd",
+          624
+        ],
+        [
+          "Baikal Energy Company LLC",
+          598
+        ],
+        [
+          "Electric Power Development Co Ltd",
+          552
+        ],
+        [
+          "TAURON Wytwarzanie SA",
+          518
+        ],
+        [
+          "JSW Energy Ltd",
+          510
+        ],
+        [
+          "RWE Power AG",
+          416
+        ],
+        [
+          "State Power Investment Group Chongqing Hechuan Power Generation Co Ltd",
+          360
+        ],
+        [
+          "Yangcheng International Power Generating Co Ltd",
+          352
+        ],
+        [
+          "Adani Power Ltd",
+          343
+        ],
+        [
+          "JERA Co Inc",
+          336
+        ],
+        [
+          "Jindal Steel Ltd",
+          315
+        ],
+        [
+          "Georgia Power Co",
+          312
+        ],
+        [
+          "CESC Ltd",
+          290
+        ],
+        [
+          "Tianjin Junliangcheng Power Generation Co Ltd",
+          288
+        ],
+        [
+          "OGK-2 PJSC",
+          288
+        ],
+        [
+          "NLC India Ltd",
+          282
+        ],
+        [
+          "Sakhalinenergo PJSC",
+          273
+        ],
+        [
+          "Hindalco Industries Ltd",
+          261
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 3325,
+      "top_values": [
+        [
+          "E100000121864",
+          826
+        ],
+        [
+          "E100000003018",
+          666
+        ],
+        [
+          "E100000001926",
+          624
+        ],
+        [
+          "E100000120122",
+          598
+        ],
+        [
+          "E100000000641",
+          552
+        ],
+        [
+          "E100000001704",
+          518
+        ],
+        [
+          "E100001000522",
+          510
+        ],
+        [
+          "E100000003875",
+          416
+        ],
+        [
+          "E100000121672",
+          360
+        ],
+        [
+          "E100000122967",
+          352
+        ],
+        [
+          "E100001000558",
+          343
+        ],
+        [
+          "E100000001533",
+          336
+        ],
+        [
+          "E100001000439",
+          315
+        ],
+        [
+          "E100000003093",
+          312
+        ],
+        [
+          "E100001000736",
+          290
+        ],
+        [
+          "E100000004219",
+          288
+        ],
+        [
+          "E100000002087",
+          288
+        ],
+        [
+          "E100001000440",
+          282
+        ],
+        [
+          "E100000121235",
+          273
+        ],
+        [
+          "E100000120560",
+          261
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Coal Plant Tracker",
+          74494
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          38150
+        ],
+        [
+          "retired",
+          16131
+        ],
+        [
+          "cancelled",
+          13166
+        ],
+        [
+          "construction",
+          1667
+        ],
+        [
+          "announced",
+          1466
+        ],
+        [
+          "pre-permit",
+          1078
+        ],
+        [
+          "shelved",
+          1009
+        ],
+        [
+          "permitted",
+          920
+        ],
+        [
+          "mothballed",
+          907
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 832,
+      "top_values": [
+        [
+          "660",
+          7313
+        ],
+        [
+          "350",
+          4726
+        ],
+        [
+          "1000",
+          4452
+        ],
+        [
+          "300",
+          4441
+        ],
+        [
+          "50",
+          4229
+        ],
+        [
+          "600",
+          3610
+        ],
+        [
+          "150",
+          2600
+        ],
+        [
+          "330",
+          2352
+        ],
+        [
+          "60",
+          1919
+        ],
+        [
+          "30",
+          1885
+        ],
+        [
+          "135",
+          1787
+        ],
+        [
+          "100",
+          1422
+        ],
+        [
+          "200",
+          1350
+        ],
+        [
+          "800",
+          1276
+        ],
+        [
+          "125",
+          1029
+        ],
+        [
+          "500",
+          981
+        ],
+        [
+          "55",
+          807
+        ],
+        [
+          "250",
+          751
+        ],
+        [
+          "110",
+          689
+        ],
+        [
+          "700",
+          650
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 4385,
+      "top_values": [
+        [
+          "L100000101543",
+          432
+        ],
+        [
+          "L100000100269",
+          360
+        ],
+        [
+          "L100000100937",
+          312
+        ],
+        [
+          "L100000101587",
+          288
+        ],
+        [
+          "L100000100260",
+          256
+        ],
+        [
+          "L100000100257",
+          236
+        ],
+        [
+          "L100000101874",
+          222
+        ],
+        [
+          "L100000101509",
+          222
+        ],
+        [
+          "L100000102216",
+          204
+        ],
+        [
+          "L100000102526",
+          195
+        ],
+        [
+          "L100000100969",
+          189
+        ],
+        [
+          "L100000104309",
+          186
+        ],
+        [
+          "L100000101241",
+          186
+        ],
+        [
+          "L100000102542",
+          170
+        ],
+        [
+          "L100000101802",
+          168
+        ],
+        [
+          "L100000101795",
+          168
+        ],
+        [
+          "L100000103181",
+          164
+        ],
+        [
+          "L100000102714",
+          164
+        ],
+        [
+          "L100000101011",
+          152
+        ],
+        [
+          "L100000100467",
+          150
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 74494,
+      "n_null": 0,
+      "n_non_null": 74494,
+      "null_rate": 0.0,
+      "n_unique": 13576,
+      "top_values": [
+        [
+          "G100000101531",
+          64
+        ],
+        [
+          "G100000101530",
+          64
+        ],
+        [
+          "G100000101529",
+          64
+        ],
+        [
+          "G100000101528",
+          64
+        ],
+        [
+          "G100000110727",
+          61
+        ],
+        [
+          "G100000110726",
+          61
+        ],
+        [
+          "G100000115811",
+          60
+        ],
+        [
+          "G100000115810",
+          60
+        ],
+        [
+          "G100000113119",
+          60
+        ],
+        [
+          "G100000101552",
+          60
+        ],
+        [
+          "G100000101551",
+          60
+        ],
+        [
+          "G100000101550",
+          60
+        ],
+        [
+          "G100000101549",
+          60
+        ],
+        [
+          "G100000101548",
+          60
+        ],
+        [
+          "G100000101547",
+          60
+        ],
+        [
+          "G100001053237",
+          59
+        ],
+        [
+          "G100001053236",
+          59
+        ],
+        [
+          "G100000115494",
+          59
+        ],
+        [
+          "G100000115493",
+          59
+        ],
+        [
+          "G100000113329",
+          59
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

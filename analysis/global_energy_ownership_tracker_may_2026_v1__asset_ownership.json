@@ -1,0 +1,669 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__asset_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "asset_ownership",
+  "n_rows": 50861,
+  "analyzed_at": "2026-07-07T21:45:12.061149+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Asset Type",
+      "code_friendly_name_guess": "asset_type",
+      "n_total": 50861,
+      "n_null": 1470,
+      "n_non_null": 49391,
+      "null_rate": 0.0289,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Coal Plant",
+          14969
+        ],
+        [
+          "Oil & Gas Plant",
+          14103
+        ],
+        [
+          "Natural Gas Transmission Pipeline",
+          4450
+        ],
+        [
+          "Bioenergy Plant",
+          4120
+        ],
+        [
+          "Coal Mine",
+          3756
+        ],
+        [
+          "Cement or Concrete Plant",
+          3491
+        ],
+        [
+          "Oil or NGL Pipeline",
+          2227
+        ],
+        [
+          "Iron & Steel Plant",
+          1302
+        ],
+        [
+          "Iron Ore Mine",
+          973
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Asset ID",
+      "code_friendly_name_guess": "asset_id",
+      "n_total": 50861,
+      "n_null": 1471,
+      "n_non_null": 49390,
+      "null_rate": 0.0289,
+      "n_unique": 28118,
+      "top_values": [
+        [
+          "L100000405561",
+          44
+        ],
+        [
+          "L100000405560",
+          34
+        ],
+        [
+          "L100000408239",
+          32
+        ],
+        [
+          "L100000104189",
+          30
+        ],
+        [
+          "L100000407022",
+          27
+        ],
+        [
+          "L100000407540",
+          25
+        ],
+        [
+          "L100000405559",
+          24
+        ],
+        [
+          "L100000401547",
+          24
+        ],
+        [
+          "L100000104619",
+          24
+        ],
+        [
+          "L100000409133",
+          23
+        ],
+        [
+          "L100000102019",
+          23
+        ],
+        [
+          "L100000103546",
+          22
+        ],
+        [
+          "L100000406880",
+          21
+        ],
+        [
+          "L100000405499",
+          21
+        ],
+        [
+          "L100000405151",
+          21
+        ],
+        [
+          "L100000407706",
+          20
+        ],
+        [
+          "L100000407285",
+          20
+        ],
+        [
+          "L100000103848",
+          20
+        ],
+        [
+          "L100000103112",
+          20
+        ],
+        [
+          "L100000103106",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Asset Unit ID",
+      "code_friendly_name_guess": "asset_unit_id",
+      "n_total": 50861,
+      "n_null": 17669,
+      "n_non_null": 33192,
+      "null_rate": 0.3474,
+      "n_unique": 31588,
+      "top_values": [
+        [
+          "G100000108131",
+          9
+        ],
+        [
+          "G100000108130",
+          9
+        ],
+        [
+          "G100001055214",
+          7
+        ],
+        [
+          "G100001054761",
+          6
+        ],
+        [
+          "G100000401958",
+          6
+        ],
+        [
+          "G100000401829",
+          6
+        ],
+        [
+          "G100000202211",
+          6
+        ],
+        [
+          "G100000202082",
+          6
+        ],
+        [
+          "G100000202019",
+          6
+        ],
+        [
+          "G100000201860",
+          6
+        ],
+        [
+          "G100000201859",
+          6
+        ],
+        [
+          "G100000108780",
+          6
+        ],
+        [
+          "G100000107318",
+          6
+        ],
+        [
+          "G100000107317",
+          6
+        ],
+        [
+          "G100000104836",
+          6
+        ],
+        [
+          "G100000101720",
+          6
+        ],
+        [
+          "G100001052557",
+          5
+        ],
+        [
+          "G100001006639",
+          5
+        ],
+        [
+          "G100001006638",
+          5
+        ],
+        [
+          "G100000414156",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Asset Name",
+      "code_friendly_name_guess": "asset_name",
+      "n_total": 50861,
+      "n_null": 1471,
+      "n_non_null": 49390,
+      "null_rate": 0.0289,
+      "n_unique": 44721,
+      "top_values": [
+        [
+          "Shanxi Gas Pipeline Network",
+          66
+        ],
+        [
+          "Anhui Gas Pipeline Network",
+          48
+        ],
+        [
+          "Druzhba Oil Pipeline",
+          42
+        ],
+        [
+          "Shandong Gas Pipeline Network",
+          34
+        ],
+        [
+          "Zhejiang Natural Gas Pipeline Network",
+          32
+        ],
+        [
+          "Guizhou Gas Pipeline Network",
+          31
+        ],
+        [
+          "Chongqing Gas Pipeline Network",
+          28
+        ],
+        [
+          "West-East Gas Pipeline 2",
+          27
+        ],
+        [
+          "NTS Gas Pipeline Network",
+          26
+        ],
+        [
+          "Florida Gas Transmission Pipeline",
+          26
+        ],
+        [
+          "Hebei Gas Pipeline Network",
+          25
+        ],
+        [
+          "Inner Mongolia Gas Pipeline Network",
+          24
+        ],
+        [
+          "Shaanxi Gas Pipeline Network",
+          23
+        ],
+        [
+          "Nova Gas Transmission (NGTL) Pipeline",
+          23
+        ],
+        [
+          "Yunnan Gas Pipeline Network",
+          22
+        ],
+        [
+          "Caspian Pipeline",
+          22
+        ],
+        [
+          "Transcontinental Gas Pipeline",
+          21
+        ],
+        [
+          "MGS III Gas Pipelines",
+          21
+        ],
+        [
+          "Guangdong Pearl River Delta gas pipeline network",
+          21
+        ],
+        [
+          "White Cliffs Oil Pipeline",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Owner Entity ID",
+      "code_friendly_name_guess": "immediate_owner_entity_id",
+      "n_total": 50861,
+      "n_null": 1470,
+      "n_non_null": 49391,
+      "null_rate": 0.0289,
+      "n_unique": 15978,
+      "top_values": [
+        [
+          "E100000000890",
+          370
+        ],
+        [
+          "E100000132388",
+          333
+        ],
+        [
+          "E100000001492",
+          289
+        ],
+        [
+          "E100000001354",
+          260
+        ],
+        [
+          "E100000000537",
+          225
+        ],
+        [
+          "E100000001926",
+          222
+        ],
+        [
+          "E100000002329",
+          188
+        ],
+        [
+          "E100000001533",
+          160
+        ],
+        [
+          "E100000000003",
+          159
+        ],
+        [
+          "E100000000878",
+          153
+        ],
+        [
+          "E100000002016",
+          139
+        ],
+        [
+          "E100001015687",
+          129
+        ],
+        [
+          "E100000000921",
+          127
+        ],
+        [
+          "E100000000571",
+          122
+        ],
+        [
+          "E100000000112",
+          115
+        ],
+        [
+          "E100000002005",
+          105
+        ],
+        [
+          "E100000000556",
+          104
+        ],
+        [
+          "E100000002081",
+          98
+        ],
+        [
+          "E100000004059",
+          97
+        ],
+        [
+          "E100000002128",
+          97
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Owner Entity Name",
+      "code_friendly_name_guess": "immediate_owner_entity_name",
+      "n_total": 50861,
+      "n_null": 1470,
+      "n_non_null": 49391,
+      "null_rate": 0.0289,
+      "n_unique": 15969,
+      "top_values": [
+        [
+          "Saudi Electricity Co",
+          370
+        ],
+        [
+          "unknown",
+          333
+        ],
+        [
+          "Gazprom PJSC",
+          289
+        ],
+        [
+          "Ministry of Electricity (Iraq)",
+          260
+        ],
+        [
+          "PT PLN (Persero)",
+          225
+        ],
+        [
+          "NTPC Ltd",
+          222
+        ],
+        [
+          "Tennessee Valley Authority",
+          188
+        ],
+        [
+          "JERA Co Inc",
+          160
+        ],
+        [
+          "Sonatrach SpA",
+          159
+        ],
+        [
+          "T Plus PJSC",
+          153
+        ],
+        [
+          "Comisión Federal de Electricidad EPE",
+          139
+        ],
+        [
+          "Snam Rete Gas SpA",
+          129
+        ],
+        [
+          "Eskom Holdings SOC Ltd",
+          127
+        ],
+        [
+          "Ministry of Oil (Iraq)",
+          122
+        ],
+        [
+          "Enbridge Inc",
+          115
+        ],
+        [
+          "General Electricity Company of Libya",
+          105
+        ],
+        [
+          "National Iranian Oil Co",
+          104
+        ],
+        [
+          "Mosenergo PJSC",
+          98
+        ],
+        [
+          "Taiwan Power Co",
+          97
+        ],
+        [
+          "Société Algérienne de Production de l'Electricité SpA",
+          97
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "% Share of Ownership",
+      "code_friendly_name_guess": "share_of_ownership",
+      "n_total": 50861,
+      "n_null": 1470,
+      "n_non_null": 49391,
+      "null_rate": 0.0289,
+      "n_unique": 268,
+      "top_values": [
+        [
+          "100",
+          44862
+        ],
+        [
+          "50",
+          1349
+        ],
+        [
+          "25",
+          224
+        ],
+        [
+          "33.3",
+          194
+        ],
+        [
+          "20",
+          138
+        ],
+        [
+          "10",
+          119
+        ],
+        [
+          "30",
+          111
+        ],
+        [
+          "51",
+          101
+        ],
+        [
+          "15",
+          86
+        ],
+        [
+          "40",
+          83
+        ],
+        [
+          "0",
+          80
+        ],
+        [
+          "49",
+          78
+        ],
+        [
+          "60",
+          70
+        ],
+        [
+          "5",
+          64
+        ],
+        [
+          "70",
+          60
+        ],
+        [
+          "75",
+          58
+        ],
+        [
+          "35",
+          56
+        ],
+        [
+          "33",
+          55
+        ],
+        [
+          "12",
+          53
+        ],
+        [
+          "80",
+          48
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Share Imputed?",
+      "code_friendly_name_guess": "share_imputed",
+      "n_total": 50861,
+      "n_null": 1470,
+      "n_non_null": 49391,
+      "null_rate": 0.0289,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "known value, not imputed",
+          44557
+        ],
+        [
+          "imputed value",
+          4834
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

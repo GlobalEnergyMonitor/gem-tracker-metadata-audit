@@ -1,0 +1,2453 @@
+{
+  "table_name": "global_coal_mine_tracker_september_2024_supplement_v2__historical_production_non_chin",
+  "tracker_slug": "global_coal_mine_tracker_september_2024_supplement_v2",
+  "tab_slug": "historical_production_non_chin",
+  "n_rows": 770,
+  "analyzed_at": "2026-07-07T21:45:11.063745+00:00",
+  "tracker_info": {
+    "title": "Global Coal Mine Tracker - September 2024 Supplement (Historical Production from 2018 to 2023)",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, September 2024 Supplement release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Dorothy Mei, Project Manager, Global Energy Monitor - dorothy.mei@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Mine Tracker, September 2024 Supplement release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Mine ID",
+      "code_friendly_name_guess": "gem_mine_id",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 768,
+      "top_values": [
+        [
+          "M1276",
+          2
+        ],
+        [
+          "M0750",
+          2
+        ],
+        [
+          "M5573",
+          1
+        ],
+        [
+          "M4700",
+          1
+        ],
+        [
+          "M4698",
+          1
+        ],
+        [
+          "M4544",
+          1
+        ],
+        [
+          "M4514",
+          1
+        ],
+        [
+          "M4513",
+          1
+        ],
+        [
+          "M4509",
+          1
+        ],
+        [
+          "M4499",
+          1
+        ],
+        [
+          "M4489",
+          1
+        ],
+        [
+          "M4471",
+          1
+        ],
+        [
+          "M4466",
+          1
+        ],
+        [
+          "M4463",
+          1
+        ],
+        [
+          "M4449",
+          1
+        ],
+        [
+          "M4447",
+          1
+        ],
+        [
+          "M4446",
+          1
+        ],
+        [
+          "M4443",
+          1
+        ],
+        [
+          "M4442",
+          1
+        ],
+        [
+          "M4437",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "MSHA IDs",
+      "code_friendly_name_guess": "msha_ids",
+      "n_total": 770,
+      "n_null": 694,
+      "n_non_null": 76,
+      "null_rate": 0.9013,
+      "n_unique": 75,
+      "top_values": [
+        [
+          "1103203",
+          2
+        ],
+        [
+          "503836",
+          1
+        ],
+        [
+          "503672",
+          1
+        ],
+        [
+          "503505",
+          1
+        ],
+        [
+          "502962",
+          1
+        ],
+        [
+          "502838",
+          1
+        ],
+        [
+          "4801429",
+          1
+        ],
+        [
+          "4801353",
+          1
+        ],
+        [
+          "4801337",
+          1
+        ],
+        [
+          "4801215",
+          1
+        ],
+        [
+          "4801200",
+          1
+        ],
+        [
+          "4801180",
+          1
+        ],
+        [
+          "4801078",
+          1
+        ],
+        [
+          "4801034",
+          1
+        ],
+        [
+          "4800993",
+          1
+        ],
+        [
+          "4800992",
+          1
+        ],
+        [
+          "4800977",
+          1
+        ],
+        [
+          "4800732",
+          1
+        ],
+        [
+          "4800677",
+          1
+        ],
+        [
+          "4800086",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country",
+      "code_friendly_name_guess": "country",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "India",
+          140
+        ],
+        [
+          "Russia",
+          121
+        ],
+        [
+          "Indonesia",
+          102
+        ],
+        [
+          "Australia",
+          86
+        ],
+        [
+          "United States",
+          77
+        ],
+        [
+          "South Africa",
+          53
+        ],
+        [
+          "Vietnam",
+          24
+        ],
+        [
+          "Poland",
+          17
+        ],
+        [
+          "Türkiye",
+          15
+        ],
+        [
+          "Ukraine",
+          13
+        ],
+        [
+          "Mongolia",
+          13
+        ],
+        [
+          "Kazakhstan",
+          12
+        ],
+        [
+          "Canada",
+          12
+        ],
+        [
+          "North Korea",
+          8
+        ],
+        [
+          "Germany",
+          8
+        ],
+        [
+          "Romania",
+          7
+        ],
+        [
+          "Czech Republic",
+          6
+        ],
+        [
+          "Colombia",
+          6
+        ],
+        [
+          "Brazil",
+          6
+        ],
+        [
+          "Serbia",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name",
+      "code_friendly_name_guess": "mine_name",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 769,
+      "top_values": [
+        [
+          "Thar Coal Mine",
+          2
+        ],
+        [
+          "ČSA Coal Mine",
+          1
+        ],
+        [
+          "Çayırhan Coal Mine",
+          1
+        ],
+        [
+          "Zibulo Coal Mine",
+          1
+        ],
+        [
+          "Zarechny Coal Mine",
+          1
+        ],
+        [
+          "Zarechnaya Coal Mine",
+          1
+        ],
+        [
+          "Zapolyarnaya Coal Mine",
+          1
+        ],
+        [
+          "Zadubrovsky Novy Coal Mine",
+          1
+        ],
+        [
+          "ZG Sobieski Coal Mine",
+          1
+        ],
+        [
+          "ZG Janina Coal Mine",
+          1
+        ],
+        [
+          "Yuzhnaya Coal Mine",
+          1
+        ],
+        [
+          "Yuvileyna Coal Mine",
+          1
+        ],
+        [
+          "Yesaulskaya Coal Mine",
+          1
+        ],
+        [
+          "Yerunakovskaya-8 Coal Mine",
+          1
+        ],
+        [
+          "Yeniköy Lignite Mines (Kemerköy)",
+          1
+        ],
+        [
+          "Yenikoy Lignite Mines (Yeniköy)",
+          1
+        ],
+        [
+          "Yarrabee Coal Mine",
+          1
+        ],
+        [
+          "Yallourn Coal Mine",
+          1
+        ],
+        [
+          "Yalevsky Coal Mine",
+          1
+        ],
+        [
+          "Wyodak Coal Mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name AKAs",
+      "code_friendly_name_guess": "mine_name_akas",
+      "n_total": 770,
+      "n_null": 428,
+      "n_non_null": 342,
+      "null_rate": 0.5558,
+      "n_unique": 326,
+      "top_values": [
+        [
+          "Oltenia Energy Complex",
+          7
+        ],
+        [
+          "Kolubara Mine Complex",
+          4
+        ],
+        [
+          "Yuzhkuzbassugol",
+          3
+        ],
+        [
+          "Pennsylvania Mining Complex",
+          3
+        ],
+        [
+          "Shubarkol Komir",
+          2
+        ],
+        [
+          "Maritsa East, Maritsa Iztok, Maritsa",
+          2
+        ],
+        [
+          "Magadh Amrapali Area",
+          2
+        ],
+        [
+          "Łaziska",
+          1
+        ],
+        [
+          "ČSA, ČSM",
+          1
+        ],
+        [
+          "ÇLI",
+          1
+        ],
+        [
+          "iMpunzi North, iMpunzi East, Participative Coal Business, Arthur Taylor, ATCOM, Phoenix pit, Office pit",
+          1
+        ],
+        [
+          "cluster IV",
+          1
+        ],
+        [
+          "Zarechny Severny",
+          1
+        ],
+        [
+          "Zakhidno-Donbasʹka, Zapadno-Donbasskaya",
+          1
+        ],
+        [
+          "Zabrze Bielszowice, Halemba I, II, Pokój, Śmiłowice",
+          1
+        ],
+        [
+          "Yongdeung, Kujang, Gujang",
+          1
+        ],
+        [
+          "Yongala",
+          1
+        ],
+        [
+          "Yarrabee North",
+          1
+        ],
+        [
+          "Yallourn East, Yallourn Township, Maryvale Field, East Field",
+          1
+        ],
+        [
+          "Yalevskogo, Kotinskaya",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name (Non-ENG)",
+      "code_friendly_name_guess": "mine_name_non_eng",
+      "n_total": 770,
+      "n_null": 563,
+      "n_non_null": 207,
+      "null_rate": 0.7312,
+      "n_unique": 204,
+      "top_values": [
+        [
+          "see joint production for Maritsa Mines in years 2021 and earlier",
+          3
+        ],
+        [
+          "Восточный разрез",
+          2
+        ],
+        [
+          "함남지구탄광연합기업소",
+          1
+        ],
+        [
+          "청남탄광",
+          1
+        ],
+        [
+          "용등탄광",
+          1
+        ],
+        [
+          "령대탄광",
+          1
+        ],
+        [
+          "덕천지구탄광연합기업소",
+          1
+        ],
+        [
+          "개천탄광",
+          1
+        ],
+        [
+          "강동지구탄광연합기업소",
+          1
+        ],
+        [
+          "တီကျစ်",
+          1
+        ],
+        [
+          "فجر مزینوی",
+          1
+        ],
+        [
+          "шахта Ялевского, Котинская",
+          1
+        ],
+        [
+          "шахта Южная",
+          1
+        ],
+        [
+          "шахта Шерловская-Наклонная",
+          1
+        ],
+        [
+          "шахта Чертинская-Коксовая",
+          1
+        ],
+        [
+          "шахта Талдинское-Южное",
+          1
+        ],
+        [
+          "шахта Сибирская",
+          1
+        ],
+        [
+          "шахта Северная, ш/у Ургальское",
+          1
+        ],
+        [
+          "шахта Садкинская",
+          1
+        ],
+        [
+          "шахта Распадская-Коксовая",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki Page (ENG)",
+      "code_friendly_name_guess": "gem_wiki_page_eng",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 754,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Husnicioara_Coal_Mine",
+          7
+        ],
+        [
+          "https://www.gem.wiki/JSW_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Bokaro_and_Kargali_coal_mines",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Thar_Mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Tauron_mines",
+          2
+        ],
+        [
+          "https://www.gem.wiki/North_Tisra_South_Tisra_(NTST)_coal_mines",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Neyveli_I_coal_mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Magadh_Amrapali_coal_mines",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Çayırhan_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibulo_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zarechny_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zarechnaya_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zapolyarnaya_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zadubrovsky_Novy_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yuzhnaya_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yuvileyna_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yesaulskaya_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yerunakovskaya_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yenikoy_Lignite_Mines_(Yenik%C3%B6y)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yenik%C3%B6y_Lignite_Mines_(Kemerk%C3%B6y)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Operating",
+          770
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "Operating",
+          "definition": "Mines commissioned and in commercial operation"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Mt",
+          "definition": "Million tonnes"
+        },
+        {
+          "name": "Mst",
+          "definition": "Million short tonnes"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity (Mtpa)",
+      "code_friendly_name_guess": "capacity_mtpa",
+      "n_total": 770,
+      "n_null": 3,
+      "n_non_null": 767,
+      "null_rate": 0.0039,
+      "n_unique": 117,
+      "top_values": [
+        [
+          "-",
+          419
+        ],
+        [
+          "3",
+          22
+        ],
+        [
+          "1",
+          21
+        ],
+        [
+          "2",
+          19
+        ],
+        [
+          "2.5",
+          17
+        ],
+        [
+          "3.5",
+          13
+        ],
+        [
+          "6",
+          11
+        ],
+        [
+          "10",
+          11
+        ],
+        [
+          "1.5",
+          11
+        ],
+        [
+          "4",
+          10
+        ],
+        [
+          "15",
+          10
+        ],
+        [
+          "20",
+          9
+        ],
+        [
+          "8",
+          7
+        ],
+        [
+          "5",
+          7
+        ],
+        [
+          "4.5",
+          7
+        ],
+        [
+          "9",
+          6
+        ],
+        [
+          "7",
+          6
+        ],
+        [
+          "4.2",
+          6
+        ],
+        [
+          "2.4",
+          5
+        ],
+        [
+          "11",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Opening Year",
+      "code_friendly_name_guess": "opening_year",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 97,
+      "top_values": [
+        [
+          "-",
+          121
+        ],
+        [
+          "2010",
+          25
+        ],
+        [
+          "2019",
+          20
+        ],
+        [
+          "2017",
+          20
+        ],
+        [
+          "2015",
+          20
+        ],
+        [
+          "2011",
+          19
+        ],
+        [
+          "2012",
+          18
+        ],
+        [
+          "2009",
+          18
+        ],
+        [
+          "2006",
+          18
+        ],
+        [
+          "2016",
+          17
+        ],
+        [
+          "2005",
+          17
+        ],
+        [
+          "2018",
+          16
+        ],
+        [
+          "2014",
+          16
+        ],
+        [
+          "2013",
+          15
+        ],
+        [
+          "1982",
+          15
+        ],
+        [
+          "2021",
+          14
+        ],
+        [
+          "2007",
+          14
+        ],
+        [
+          "2020",
+          12
+        ],
+        [
+          "1978",
+          12
+        ],
+        [
+          "2022",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "ROM or Saleable",
+      "code_friendly_name_guess": "rom_or_saleable",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "ROM",
+          573
+        ],
+        [
+          "Saleable",
+          197
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2023",
+      "code_friendly_name_guess": "coal_output_annual_mt_2023",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 357,
+      "top_values": [
+        [
+          "-",
+          227
+        ],
+        [
+          "2",
+          13
+        ],
+        [
+          "1.5",
+          8
+        ],
+        [
+          "2.1",
+          7
+        ],
+        [
+          "1.6",
+          7
+        ],
+        [
+          "1.2",
+          7
+        ],
+        [
+          "3",
+          6
+        ],
+        [
+          "2.5",
+          5
+        ],
+        [
+          "2.2",
+          5
+        ],
+        [
+          "1",
+          5
+        ],
+        [
+          "7.8",
+          4
+        ],
+        [
+          "6.3",
+          4
+        ],
+        [
+          "5.35",
+          4
+        ],
+        [
+          "5",
+          4
+        ],
+        [
+          "2.9",
+          4
+        ],
+        [
+          "2.3",
+          4
+        ],
+        [
+          "2.27",
+          4
+        ],
+        [
+          "1.84",
+          4
+        ],
+        [
+          "1.8",
+          4
+        ],
+        [
+          "6.1",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2023",
+      "code_friendly_name_guess": "coal_output_annual_mst_2023",
+      "n_total": 770,
+      "n_null": 701,
+      "n_non_null": 69,
+      "null_rate": 0.9104,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "2.5",
+          2
+        ],
+        [
+          "2.03",
+          2
+        ],
+        [
+          "9.9",
+          1
+        ],
+        [
+          "9.55",
+          1
+        ],
+        [
+          "9.4",
+          1
+        ],
+        [
+          "8.7",
+          1
+        ],
+        [
+          "7.7",
+          1
+        ],
+        [
+          "7.58",
+          1
+        ],
+        [
+          "7.41",
+          1
+        ],
+        [
+          "7.04",
+          1
+        ],
+        [
+          "7.03",
+          1
+        ],
+        [
+          "62",
+          1
+        ],
+        [
+          "60.57",
+          1
+        ],
+        [
+          "6.99",
+          1
+        ],
+        [
+          "6.83",
+          1
+        ],
+        [
+          "6.71",
+          1
+        ],
+        [
+          "6.6",
+          1
+        ],
+        [
+          "6.45",
+          1
+        ],
+        [
+          "6.24",
+          1
+        ],
+        [
+          "5.93",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy",
+      "code_friendly_name_guess": "output_accuracy",
+      "n_total": 770,
+      "n_null": 227,
+      "n_non_null": 543,
+      "null_rate": 0.2948,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          494
+        ],
+        [
+          "Estimated",
+          49
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2022",
+      "code_friendly_name_guess": "coal_output_annual_mt_2022",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 410,
+      "top_values": [
+        [
+          "-",
+          155
+        ],
+        [
+          "2",
+          15
+        ],
+        [
+          "1.5",
+          9
+        ],
+        [
+          "1.1",
+          8
+        ],
+        [
+          "1",
+          8
+        ],
+        [
+          "3",
+          7
+        ],
+        [
+          "1.2",
+          7
+        ],
+        [
+          "3.5",
+          6
+        ],
+        [
+          "2.8",
+          6
+        ],
+        [
+          "2.5",
+          6
+        ],
+        [
+          "4.4",
+          5
+        ],
+        [
+          "4",
+          5
+        ],
+        [
+          "3.9",
+          5
+        ],
+        [
+          "3.3",
+          5
+        ],
+        [
+          "2.1",
+          5
+        ],
+        [
+          "1.8",
+          5
+        ],
+        [
+          "1.4",
+          5
+        ],
+        [
+          "1.3",
+          5
+        ],
+        [
+          "7.5",
+          4
+        ],
+        [
+          "6.3",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2022",
+      "code_friendly_name_guess": "coal_output_annual_mst_2022",
+      "n_total": 770,
+      "n_null": 739,
+      "n_non_null": 31,
+      "null_rate": 0.9597,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "2.2",
+          3
+        ],
+        [
+          "1.8",
+          3
+        ],
+        [
+          "7",
+          2
+        ],
+        [
+          "6.4",
+          2
+        ],
+        [
+          "1.4",
+          2
+        ],
+        [
+          "1.1",
+          2
+        ],
+        [
+          "9.6",
+          1
+        ],
+        [
+          "9.3",
+          1
+        ],
+        [
+          "7.7",
+          1
+        ],
+        [
+          "7.4",
+          1
+        ],
+        [
+          "6.8",
+          1
+        ],
+        [
+          "6.5",
+          1
+        ],
+        [
+          "5.4",
+          1
+        ],
+        [
+          "5.3",
+          1
+        ],
+        [
+          "4.7",
+          1
+        ],
+        [
+          "4.5",
+          1
+        ],
+        [
+          "4.3",
+          1
+        ],
+        [
+          "3.9",
+          1
+        ],
+        [
+          "3.2",
+          1
+        ],
+        [
+          "2.1",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_2",
+      "code_friendly_name_guess": "output_accuracy_2",
+      "n_total": 770,
+      "n_null": 155,
+      "n_non_null": 615,
+      "null_rate": 0.2013,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          554
+        ],
+        [
+          "Estimated",
+          61
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2021",
+      "code_friendly_name_guess": "coal_output_annual_mt_2021",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 445,
+      "top_values": [
+        [
+          "-",
+          145
+        ],
+        [
+          "1.5",
+          9
+        ],
+        [
+          "3.5",
+          8
+        ],
+        [
+          "2.5",
+          8
+        ],
+        [
+          "2.4",
+          8
+        ],
+        [
+          "2",
+          8
+        ],
+        [
+          "1.3",
+          8
+        ],
+        [
+          "1.8",
+          7
+        ],
+        [
+          "1.2",
+          6
+        ],
+        [
+          "4",
+          5
+        ],
+        [
+          "2.1",
+          5
+        ],
+        [
+          "2.05",
+          5
+        ],
+        [
+          "6",
+          4
+        ],
+        [
+          "5.3",
+          4
+        ],
+        [
+          "5.2",
+          4
+        ],
+        [
+          "3.7",
+          4
+        ],
+        [
+          "3.2",
+          4
+        ],
+        [
+          "2.8",
+          4
+        ],
+        [
+          "2.2",
+          4
+        ],
+        [
+          "1.87",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2021",
+      "code_friendly_name_guess": "coal_output_annual_mst_2021",
+      "n_total": 770,
+      "n_null": 739,
+      "n_non_null": 31,
+      "null_rate": 0.9597,
+      "n_unique": 28,
+      "top_values": [
+        [
+          "2.06",
+          3
+        ],
+        [
+          "5.97",
+          2
+        ],
+        [
+          "8.75",
+          1
+        ],
+        [
+          "7.86",
+          1
+        ],
+        [
+          "7.24",
+          1
+        ],
+        [
+          "6.71",
+          1
+        ],
+        [
+          "6.63",
+          1
+        ],
+        [
+          "6.49",
+          1
+        ],
+        [
+          "6.18",
+          1
+        ],
+        [
+          "6.14",
+          1
+        ],
+        [
+          "4.93",
+          1
+        ],
+        [
+          "4.11",
+          1
+        ],
+        [
+          "4.03",
+          1
+        ],
+        [
+          "3.58",
+          1
+        ],
+        [
+          "3.19",
+          1
+        ],
+        [
+          "2.66",
+          1
+        ],
+        [
+          "2.32",
+          1
+        ],
+        [
+          "2.29",
+          1
+        ],
+        [
+          "2.02",
+          1
+        ],
+        [
+          "13.09",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_3",
+      "code_friendly_name_guess": "output_accuracy_3",
+      "n_total": 770,
+      "n_null": 145,
+      "n_non_null": 625,
+      "null_rate": 0.1883,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          574
+        ],
+        [
+          "Estimated",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2020",
+      "code_friendly_name_guess": "coal_output_annual_mt_2020",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 470,
+      "top_values": [
+        [
+          "-",
+          158
+        ],
+        [
+          "2",
+          11
+        ],
+        [
+          "1.8",
+          8
+        ],
+        [
+          "1",
+          7
+        ],
+        [
+          "1.2",
+          6
+        ],
+        [
+          "6.2",
+          5
+        ],
+        [
+          "2.8",
+          5
+        ],
+        [
+          "2.1",
+          5
+        ],
+        [
+          "1.9",
+          5
+        ],
+        [
+          "1.4",
+          5
+        ],
+        [
+          "7.5",
+          4
+        ],
+        [
+          "4.1",
+          4
+        ],
+        [
+          "3",
+          4
+        ],
+        [
+          "2.9",
+          4
+        ],
+        [
+          "2.6",
+          4
+        ],
+        [
+          "6",
+          3
+        ],
+        [
+          "5.7",
+          3
+        ],
+        [
+          "4.6",
+          3
+        ],
+        [
+          "4.2",
+          3
+        ],
+        [
+          "3.4",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2020",
+      "code_friendly_name_guess": "coal_output_annual_mst_2020",
+      "n_total": 770,
+      "n_null": 740,
+      "n_non_null": 30,
+      "null_rate": 0.961,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "9.51",
+          1
+        ],
+        [
+          "8.85",
+          1
+        ],
+        [
+          "7.19",
+          1
+        ],
+        [
+          "6.43",
+          1
+        ],
+        [
+          "6.02",
+          1
+        ],
+        [
+          "5.62",
+          1
+        ],
+        [
+          "5.31",
+          1
+        ],
+        [
+          "4.99",
+          1
+        ],
+        [
+          "4.88",
+          1
+        ],
+        [
+          "4.44",
+          1
+        ],
+        [
+          "3.87",
+          1
+        ],
+        [
+          "3.84",
+          1
+        ],
+        [
+          "3.77",
+          1
+        ],
+        [
+          "2.88",
+          1
+        ],
+        [
+          "2.64",
+          1
+        ],
+        [
+          "2.62",
+          1
+        ],
+        [
+          "2.12",
+          1
+        ],
+        [
+          "2.1",
+          1
+        ],
+        [
+          "2.08",
+          1
+        ],
+        [
+          "2.01",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_4",
+      "code_friendly_name_guess": "output_accuracy_4",
+      "n_total": 770,
+      "n_null": 158,
+      "n_non_null": 612,
+      "null_rate": 0.2052,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          590
+        ],
+        [
+          "Estimated",
+          22
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2019",
+      "code_friendly_name_guess": "coal_output_annual_mt_2019",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 420,
+      "top_values": [
+        [
+          "-",
+          196
+        ],
+        [
+          "2",
+          12
+        ],
+        [
+          "5",
+          9
+        ],
+        [
+          "1",
+          9
+        ],
+        [
+          "3",
+          8
+        ],
+        [
+          "2.5",
+          6
+        ],
+        [
+          "1.4",
+          6
+        ],
+        [
+          "4.1",
+          5
+        ],
+        [
+          "3.6",
+          5
+        ],
+        [
+          "2.7",
+          5
+        ],
+        [
+          "2.6",
+          5
+        ],
+        [
+          "4.9",
+          4
+        ],
+        [
+          "3.5",
+          4
+        ],
+        [
+          "3.3",
+          4
+        ],
+        [
+          "2.8",
+          4
+        ],
+        [
+          "2.1",
+          4
+        ],
+        [
+          "1.8",
+          4
+        ],
+        [
+          "1.5",
+          4
+        ],
+        [
+          "7.4",
+          3
+        ],
+        [
+          "6.5",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2019",
+      "code_friendly_name_guess": "coal_output_annual_mst_2019",
+      "n_total": 770,
+      "n_null": 743,
+      "n_non_null": 27,
+      "null_rate": 0.9649,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "9.59",
+          1
+        ],
+        [
+          "7.01",
+          1
+        ],
+        [
+          "6.8",
+          1
+        ],
+        [
+          "6.6",
+          1
+        ],
+        [
+          "6.59",
+          1
+        ],
+        [
+          "6.43",
+          1
+        ],
+        [
+          "5.96",
+          1
+        ],
+        [
+          "5.88",
+          1
+        ],
+        [
+          "5.26",
+          1
+        ],
+        [
+          "5.17",
+          1
+        ],
+        [
+          "4.09",
+          1
+        ],
+        [
+          "3.12",
+          1
+        ],
+        [
+          "3",
+          1
+        ],
+        [
+          "2.15",
+          1
+        ],
+        [
+          "2.03",
+          1
+        ],
+        [
+          "12.79",
+          1
+        ],
+        [
+          "11.92",
+          1
+        ],
+        [
+          "11.71",
+          1
+        ],
+        [
+          "1.98",
+          1
+        ],
+        [
+          "1.95",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_5",
+      "code_friendly_name_guess": "output_accuracy_5",
+      "n_total": 770,
+      "n_null": 196,
+      "n_non_null": 574,
+      "null_rate": 0.2545,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          546
+        ],
+        [
+          "Estimated",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2018",
+      "code_friendly_name_guess": "coal_output_annual_mt_2018",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 404,
+      "top_values": [
+        [
+          "-",
+          249
+        ],
+        [
+          "3",
+          8
+        ],
+        [
+          "1",
+          8
+        ],
+        [
+          "2.6",
+          6
+        ],
+        [
+          "2.5",
+          6
+        ],
+        [
+          "3.9",
+          5
+        ],
+        [
+          "8",
+          4
+        ],
+        [
+          "6.9",
+          4
+        ],
+        [
+          "6.3",
+          4
+        ],
+        [
+          "4.9",
+          4
+        ],
+        [
+          "4.7",
+          4
+        ],
+        [
+          "3.8",
+          4
+        ],
+        [
+          "2.8",
+          4
+        ],
+        [
+          "2.7",
+          4
+        ],
+        [
+          "2.2",
+          4
+        ],
+        [
+          "2.1",
+          4
+        ],
+        [
+          "2",
+          4
+        ],
+        [
+          "1.6",
+          4
+        ],
+        [
+          "1.3",
+          4
+        ],
+        [
+          "1.2",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2018",
+      "code_friendly_name_guess": "coal_output_annual_mst_2018",
+      "n_total": 770,
+      "n_null": 743,
+      "n_non_null": 27,
+      "null_rate": 0.9649,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "1.45",
+          2
+        ],
+        [
+          "8.68",
+          1
+        ],
+        [
+          "7.56",
+          1
+        ],
+        [
+          "7.21",
+          1
+        ],
+        [
+          "6.88",
+          1
+        ],
+        [
+          "6.5",
+          1
+        ],
+        [
+          "6.42",
+          1
+        ],
+        [
+          "6.33",
+          1
+        ],
+        [
+          "6.29",
+          1
+        ],
+        [
+          "6.13",
+          1
+        ],
+        [
+          "3.94",
+          1
+        ],
+        [
+          "3.82",
+          1
+        ],
+        [
+          "3.39",
+          1
+        ],
+        [
+          "2.97",
+          1
+        ],
+        [
+          "2.14",
+          1
+        ],
+        [
+          "2.07",
+          1
+        ],
+        [
+          "2.03",
+          1
+        ],
+        [
+          "14.46",
+          1
+        ],
+        [
+          "13.76",
+          1
+        ],
+        [
+          "11.43",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_6",
+      "code_friendly_name_guess": "output_accuracy_6",
+      "n_total": 770,
+      "n_null": 249,
+      "n_non_null": 521,
+      "null_rate": 0.3234,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          500
+        ],
+        [
+          "Estimated",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mt) 2017",
+      "code_friendly_name_guess": "coal_output_annual_mt_2017",
+      "n_total": 770,
+      "n_null": 0,
+      "n_non_null": 770,
+      "null_rate": 0.0,
+      "n_unique": 366,
+      "top_values": [
+        [
+          "-",
+          313
+        ],
+        [
+          "3.5",
+          6
+        ],
+        [
+          "3",
+          6
+        ],
+        [
+          "2.5",
+          6
+        ],
+        [
+          "6.5",
+          4
+        ],
+        [
+          "2.1",
+          4
+        ],
+        [
+          "1.4",
+          4
+        ],
+        [
+          "6.8",
+          3
+        ],
+        [
+          "4.9",
+          3
+        ],
+        [
+          "4.2",
+          3
+        ],
+        [
+          "4",
+          3
+        ],
+        [
+          "3.77",
+          3
+        ],
+        [
+          "3.54",
+          3
+        ],
+        [
+          "3.4",
+          3
+        ],
+        [
+          "2.9",
+          3
+        ],
+        [
+          "2.4",
+          3
+        ],
+        [
+          "2.23",
+          3
+        ],
+        [
+          "2.2",
+          3
+        ],
+        [
+          "2",
+          3
+        ],
+        [
+          "1.93",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst) 2017",
+      "code_friendly_name_guess": "coal_output_annual_mst_2017",
+      "n_total": 770,
+      "n_null": 743,
+      "n_non_null": 27,
+      "null_rate": 0.9649,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "7.13",
+          1
+        ],
+        [
+          "6.76",
+          1
+        ],
+        [
+          "6.33",
+          1
+        ],
+        [
+          "6.2",
+          1
+        ],
+        [
+          "6.12",
+          1
+        ],
+        [
+          "6.11",
+          1
+        ],
+        [
+          "6.04",
+          1
+        ],
+        [
+          "5.88",
+          1
+        ],
+        [
+          "3.66",
+          1
+        ],
+        [
+          "3.61",
+          1
+        ],
+        [
+          "3.57",
+          1
+        ],
+        [
+          "3.07",
+          1
+        ],
+        [
+          "2.31",
+          1
+        ],
+        [
+          "12.81",
+          1
+        ],
+        [
+          "12.72",
+          1
+        ],
+        [
+          "11.65",
+          1
+        ],
+        [
+          "10.99",
+          1
+        ],
+        [
+          "1.99",
+          1
+        ],
+        [
+          "1.9",
+          1
+        ],
+        [
+          "1.61",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Output Accuracy_7",
+      "code_friendly_name_guess": "output_accuracy_7",
+      "n_total": 770,
+      "n_null": 313,
+      "n_non_null": 457,
+      "null_rate": 0.4065,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Reported",
+          439
+        ],
+        [
+          "Estimated",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

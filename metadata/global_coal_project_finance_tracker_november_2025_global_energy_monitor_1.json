@@ -1,0 +1,23 @@
+{
+  "source_file": "Global-Coal-Project-Finance-Tracker_November-2025_Global-Energy-Monitor-1.xlsx",
+  "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
+  "header_info": {
+    "title": "Global Coal Project Finance Tracker - November 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": null,
+    "license": "Copyright © Global Energy Monitor. Global Coal Project Tracker, November 2025 release."
+  },
+  "data_tabs": {
+    "data": "Data",
+    "1_fin_by_proj_countryarea": "#1 Fin by Proj CountryArea",
+    "2_top_fin_by_fin_countryarea": "#2 Top Fin by Fin CountryArea",
+    "3_top_fin_mw_by_fin_countrya": "#3 Top Fin (MW) by Fin CountryA",
+    "4_total_closed_fin": "#4 Total Closed Fin",
+    "5_fin_by_region_of_proj": "#5 Fin by Region of Proj",
+    "6_fin_by_type": "#6 Fin by Type"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": []
+}

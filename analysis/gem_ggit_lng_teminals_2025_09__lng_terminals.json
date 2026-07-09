@@ -1,0 +1,5305 @@
+{
+  "table_name": "gem_ggit_lng_teminals_2025_09__lng_terminals",
+  "tracker_slug": "gem_ggit_lng_teminals_2025_09",
+  "tab_slug": "lng_terminals",
+  "n_rows": 1206,
+  "analyzed_at": "2026-07-07T21:45:10.525323+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 813,
+      "top_values": [
+        [
+          "T100000130259",
+          13
+        ],
+        [
+          "T100000131072",
+          12
+        ],
+        [
+          "T100000130221",
+          12
+        ],
+        [
+          "T100000130278",
+          9
+        ],
+        [
+          "T100000130240",
+          8
+        ],
+        [
+          "T100000130275",
+          7
+        ],
+        [
+          "T100000130244",
+          7
+        ],
+        [
+          "T100000130239",
+          7
+        ],
+        [
+          "T100000130214",
+          7
+        ],
+        [
+          "T100000130224",
+          6
+        ],
+        [
+          "T100000130216",
+          6
+        ],
+        [
+          "T100000130215",
+          6
+        ],
+        [
+          "T100000131069",
+          5
+        ],
+        [
+          "T100000130685",
+          5
+        ],
+        [
+          "T100000130593",
+          5
+        ],
+        [
+          "T100000130579",
+          5
+        ],
+        [
+          "T100000130426",
+          5
+        ],
+        [
+          "T100000130405",
+          5
+        ],
+        [
+          "T100000130400",
+          5
+        ],
+        [
+          "T100000130337",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "UnitID",
+      "code_friendly_name_guess": "unitid",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 1206,
+      "top_values": [
+        [
+          "G100002118201",
+          1
+        ],
+        [
+          "G100002117800",
+          1
+        ],
+        [
+          "G100002117700",
+          1
+        ],
+        [
+          "G100002117601",
+          1
+        ],
+        [
+          "G100002117600",
+          1
+        ],
+        [
+          "G100002117500",
+          1
+        ],
+        [
+          "G100002117300",
+          1
+        ],
+        [
+          "G100002117100",
+          1
+        ],
+        [
+          "G100002117001",
+          1
+        ],
+        [
+          "G100002116901",
+          1
+        ],
+        [
+          "G100002116801",
+          1
+        ],
+        [
+          "G100002116700",
+          1
+        ],
+        [
+          "G100002116600",
+          1
+        ],
+        [
+          "G100002116500",
+          1
+        ],
+        [
+          "G100002116400",
+          1
+        ],
+        [
+          "G100002116302",
+          1
+        ],
+        [
+          "G100002116301",
+          1
+        ],
+        [
+          "G100002116200",
+          1
+        ],
+        [
+          "G100002116100",
+          1
+        ],
+        [
+          "G100002115901",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 111,
+      "top_values": [
+        [
+          "United States",
+          167
+        ],
+        [
+          "China",
+          154
+        ],
+        [
+          "Japan",
+          49
+        ],
+        [
+          "Canada",
+          48
+        ],
+        [
+          "Russia",
+          46
+        ],
+        [
+          "Australia",
+          46
+        ],
+        [
+          "Indonesia",
+          44
+        ],
+        [
+          "India",
+          39
+        ],
+        [
+          "Vietnam",
+          33
+        ],
+        [
+          "Brazil",
+          26
+        ],
+        [
+          "Nigeria",
+          25
+        ],
+        [
+          "Mexico",
+          25
+        ],
+        [
+          "Papua New Guinea",
+          24
+        ],
+        [
+          "Italy",
+          19
+        ],
+        [
+          "Germany",
+          18
+        ],
+        [
+          "Taiwan",
+          16
+        ],
+        [
+          "South Korea",
+          16
+        ],
+        [
+          "Malaysia",
+          15
+        ],
+        [
+          "United Kingdom",
+          14
+        ],
+        [
+          "Philippines",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki",
+      "code_friendly_name_guess": "wiki",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 812,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Nigeria_LNG_Terminal",
+          13
+        ],
+        [
+          "https://www.gem.wiki/PAWA_PNG_FSRU_Project",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Elba_Island_LNG_Terminal",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Bontang_LNG_Terminal",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Sabine_Pass_LNG_Terminal",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Skikda_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Rio_Grande_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Cameron_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Arun_LNG_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Freeport_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Corpus_Christi_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Commonwealth_LNG_Terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Zeebrugge_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Yung-An_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Taichung_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Shanghai_Yangshan_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Qidong_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Papua_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Oman_Qalhat_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/North_West_Shelf_LNG_Terminal",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "TerminalName",
+      "code_friendly_name_guess": "terminalname",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 813,
+      "top_values": [
+        [
+          "Nigeria LNG Terminal",
+          13
+        ],
+        [
+          "PAWA PNG FSRU Project",
+          12
+        ],
+        [
+          "Elba Island LNG Terminal",
+          12
+        ],
+        [
+          "Bontang LNG Terminal",
+          9
+        ],
+        [
+          "Sabine Pass LNG Terminal",
+          8
+        ],
+        [
+          "Skikda LNG Terminal",
+          7
+        ],
+        [
+          "Rio Grande LNG Terminal",
+          7
+        ],
+        [
+          "Cameron LNG Terminal",
+          7
+        ],
+        [
+          "Arun LNG Terminal",
+          7
+        ],
+        [
+          "Freeport LNG Terminal",
+          6
+        ],
+        [
+          "Corpus Christi LNG Terminal",
+          6
+        ],
+        [
+          "Commonwealth LNG Terminal",
+          6
+        ],
+        [
+          "Zeebrugge LNG Terminal",
+          5
+        ],
+        [
+          "Yung-An LNG Terminal",
+          5
+        ],
+        [
+          "Taichung LNG Terminal",
+          5
+        ],
+        [
+          "Shanghai Yangshan LNG Terminal",
+          5
+        ],
+        [
+          "Qidong LNG Terminal",
+          5
+        ],
+        [
+          "Papua LNG Terminal",
+          5
+        ],
+        [
+          "Oman Qalhat LNG Terminal",
+          5
+        ],
+        [
+          "North West Shelf LNG Terminal",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "UnitName",
+      "code_friendly_name_guess": "unitname",
+      "n_total": 1206,
+      "n_null": 590,
+      "n_non_null": 616,
+      "null_rate": 0.4892,
+      "n_unique": 219,
+      "top_values": [
+        [
+          "Phase 1",
+          64
+        ],
+        [
+          "T1",
+          53
+        ],
+        [
+          "T2",
+          51
+        ],
+        [
+          "Phase 2",
+          51
+        ],
+        [
+          "T3",
+          32
+        ],
+        [
+          "Expansion",
+          20
+        ],
+        [
+          "T4",
+          17
+        ],
+        [
+          "Import Terminal",
+          16
+        ],
+        [
+          "Phase 3",
+          14
+        ],
+        [
+          "T1-T2",
+          9
+        ],
+        [
+          "T5",
+          8
+        ],
+        [
+          "T1-T3",
+          8
+        ],
+        [
+          "Phase I",
+          8
+        ],
+        [
+          "T1-T4",
+          7
+        ],
+        [
+          "Phase II",
+          6
+        ],
+        [
+          "T6",
+          5
+        ],
+        [
+          "T10",
+          4
+        ],
+        [
+          "T1-T6",
+          4
+        ],
+        [
+          "Export Terminal",
+          4
+        ],
+        [
+          "T1-T5",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FacilityType",
+      "code_friendly_name_guess": "facilitytype",
+      "n_total": 1206,
+      "n_null": 6,
+      "n_non_null": 1200,
+      "null_rate": 0.005,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "import",
+          736
+        ],
+        [
+          "export",
+          464
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "LNG",
+          1197
+        ],
+        [
+          "NH3",
+          6
+        ],
+        [
+          "LH2",
+          2
+        ],
+        [
+          "eLNG",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          376
+        ],
+        [
+          "cancelled",
+          301
+        ],
+        [
+          "proposed",
+          282
+        ],
+        [
+          "shelved",
+          105
+        ],
+        [
+          "construction",
+          89
+        ],
+        [
+          "retired",
+          26
+        ],
+        [
+          "mothballed",
+          17
+        ],
+        [
+          "idled",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "OtherNames",
+      "code_friendly_name_guess": "othernames",
+      "n_total": 1206,
+      "n_null": 770,
+      "n_non_null": 436,
+      "null_rate": 0.6385,
+      "n_unique": 267,
+      "top_values": [
+        [
+          "NLNG",
+          13
+        ],
+        [
+          "Southern LNG",
+          12
+        ],
+        [
+          "Oman LNG, Port of Qalhat",
+          5
+        ],
+        [
+          "No. 1 LNG Terminal, CNPC First Terminal",
+          5
+        ],
+        [
+          "NWS T1",
+          5
+        ],
+        [
+          "Guanghui LNG Terminal",
+          5
+        ],
+        [
+          "Caution Bay LNG Terminal, Papua LNG",
+          5
+        ],
+        [
+          "CNPC Second Terminal, No. 2 LNG Terminal",
+          5
+        ],
+        [
+          "Altamira Fast LNG, Altamira Offshore LNG Hub",
+          5
+        ],
+        [
+          "Tilbury Island facility in Delta",
+          4
+        ],
+        [
+          "Tianjin FSRU (CNOOC), Tianjin LNG Terminal (CNOOC)",
+          4
+        ],
+        [
+          "Qatargas LNG Terminal",
+          4
+        ],
+        [
+          "OK LNG",
+          4
+        ],
+        [
+          "Mjarsa Al-Brega",
+          4
+        ],
+        [
+          "Krk LNG Terminal, Hrvatska LNG Terminal, LNG Croatia",
+          4
+        ],
+        [
+          "Kribi FLNG Terminal, Hilli Episeyo FLNG Terminal",
+          4
+        ],
+        [
+          "Jiangsu LNG Terminal",
+          4
+        ],
+        [
+          "Argentina GNL, Golfo San Matías FLNG Terminal",
+          4
+        ],
+        [
+          "Area 1",
+          4
+        ],
+        [
+          "Świnoujście LNG Terminal",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LocalNames",
+      "code_friendly_name_guess": "localnames",
+      "n_total": 1206,
+      "n_null": 891,
+      "n_non_null": 315,
+      "null_rate": 0.7388,
+      "n_unique": 201,
+      "top_values": [
+        [
+          "臺中LNG接收站 (中油), 第二接收站，簡稱二接",
+          5
+        ],
+        [
+          "永安LNG接收站（第一接收站）",
+          5
+        ],
+        [
+          "广汇LNG接收站, 广汇能源启东LNG接收站",
+          5
+        ],
+        [
+          "上海洋山LNG接收站, 小洋山上海LNG接收站",
+          5
+        ],
+        [
+          "Terminal de Exportación de GNL New Fortress Altamira",
+          5
+        ],
+        [
+          "盐城LNG接收站, 中海油江苏滨海LNG接收站",
+          4
+        ],
+        [
+          "国家管网天津LNG接收站, 中海油天津LNG接收站 (原名), 中海油天津海上浮储LNG接收站（原名）",
+          4
+        ],
+        [
+          "中石油江苏LNG接收站, 中石油江苏如东LNG接收站",
+          4
+        ],
+        [
+          "Ямал СПГ",
+          4
+        ],
+        [
+          "Terminal Argentina GNL",
+          4
+        ],
+        [
+          "绥中LNG接收站, 东戴河LNG接收站",
+          3
+        ],
+        [
+          "浙江LNG接收站, 宁波“绿能港”LNG接收站, 中海油浙江宁波LNG接收站",
+          3
+        ],
+        [
+          "日照LNG接收站",
+          3
+        ],
+        [
+          "新澳舟山LNG接收站",
+          3
+        ],
+        [
+          "新天唐山曹妃甸LNG接收站",
+          3
+        ],
+        [
+          "广西LNG接收站, 国家管网北海LNG接收站, 中石化北海LNG接收站（原名）",
+          3
+        ],
+        [
+          "北京燃气天津LNG接收站, 北京燃气天津南港LNG应急储备项目",
+          3
+        ],
+        [
+          "中石油唐山曹妃甸LNG接收站",
+          3
+        ],
+        [
+          "中石化青岛董家口LNG接收站, 山东LNG接收站, 青岛LNG接收站",
+          3
+        ],
+        [
+          "中石化天津LNG接收站",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Language",
+      "code_friendly_name_guess": "language",
+      "n_total": 1206,
+      "n_null": 892,
+      "n_non_null": 314,
+      "null_rate": 0.7396,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Chinese",
+          171
+        ],
+        [
+          "Spanish",
+          72
+        ],
+        [
+          "Russian",
+          45
+        ],
+        [
+          "Portuguese",
+          25
+        ],
+        [
+          "French",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 1206,
+      "n_null": 12,
+      "n_non_null": 1194,
+      "null_rate": 0.01,
+      "n_unique": 720,
+      "top_values": [
+        [
+          "New Fortress Energy Inc [100%]",
+          16
+        ],
+        [
+          "unknown",
+          13
+        ],
+        [
+          "Nigeria LNG Ltd [100%]",
+          13
+        ],
+        [
+          "CPC Corporation Taiwan [100%]",
+          13
+        ],
+        [
+          "Southern LNG Company LLC [100%]",
+          12
+        ],
+        [
+          "Government of Papua New Guinea; Dirio Gas & Power ; Twenty20 Energy",
+          12
+        ],
+        [
+          "Sonatrach SpA [100%]",
+          11
+        ],
+        [
+          "Government of Indonesia [100%]",
+          9
+        ],
+        [
+          "Petronet LNG [100%]",
+          8
+        ],
+        [
+          "Sabine Pass Liquefaction LLC [100%]",
+          7
+        ],
+        [
+          "Rio Grande LNG LLC [100%]",
+          7
+        ],
+        [
+          "KOGAS Canada Ltd [100%]",
+          7
+        ],
+        [
+          "Cameron LNG LLC [100%]",
+          7
+        ],
+        [
+          "Exxon Mobil Corp [30%]; PT Pertamina (Persero) [55%]; PT Japan Indonesia LNG Co (JILCO) [15%]",
+          6
+        ],
+        [
+          "Excelerate Energy LP [100%]",
+          6
+        ],
+        [
+          "EGAS [100%]",
+          6
+        ],
+        [
+          "Commonwealth LNG Co Ltd [100%]",
+          6
+        ],
+        [
+          "Woodside Energy Group Ltd [16%]; BHP Group Ltd [16%]; Chevron Corp [16%]; BP PLC [16%]; Shell PLC [16%]; Japan Australia LNG Pty Ltd [16%]",
+          5
+        ],
+        [
+          "Operator Gazociagow Przesylowych GAZ-SYSTEM SP zoo [100%]",
+          5
+        ],
+        [
+          "Guanghui Energy Integrated Logistics Development Co Ltd [100%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 1206,
+      "n_null": 12,
+      "n_non_null": 1194,
+      "null_rate": 0.01,
+      "n_unique": 719,
+      "top_values": [
+        [
+          "E100000001265 [100%]",
+          16
+        ],
+        [
+          "E100000132388",
+          13
+        ],
+        [
+          "E100000003649 [100%]",
+          13
+        ],
+        [
+          "E100000001010 [100%]",
+          13
+        ],
+        [
+          "E100002004710 [100%]",
+          12
+        ],
+        [
+          "E100000188823; E100000188822; E100001011705",
+          12
+        ],
+        [
+          "E100000000003 [100%]",
+          11
+        ],
+        [
+          "E100001000084 [100%]",
+          9
+        ],
+        [
+          "E100000188412 [100%]",
+          8
+        ],
+        [
+          "E100002004652 [100%]",
+          7
+        ],
+        [
+          "E100002004221 [100%]",
+          7
+        ],
+        [
+          "E100002004141 [100%]",
+          7
+        ],
+        [
+          "E100001016063 [100%]",
+          7
+        ],
+        [
+          "E100002004296 [100%]",
+          6
+        ],
+        [
+          "E100000188677 [100%]",
+          6
+        ],
+        [
+          "E100000188419 [15%]; E100000000538 [55%]; E100000001213 [30%]",
+          6
+        ],
+        [
+          "E100000002251 [100%]",
+          6
+        ],
+        [
+          "E100002016869 [100%]",
+          5
+        ],
+        [
+          "E100001016083 [16%]; E100000188463 [16%]; E100000001096 [16%]; E100000000015 [16%]; E100000001179 [16%]; E100000000746 [16%]",
+          5
+        ],
+        [
+          "E100001014902 [100%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 1206,
+      "n_null": 12,
+      "n_non_null": 1194,
+      "null_rate": 0.01,
+      "n_unique": 682,
+      "top_values": [
+        [
+          "New Fortress Energy Inc [100.0%]",
+          17
+        ],
+        [
+          "unknown",
+          13
+        ],
+        [
+          "NNPC Ltd [49.0%]; Shell PLC [25.6%]; TotalEnergies SE [15.0%]; Eni SpA [10.4%]",
+          13
+        ],
+        [
+          "CPC Corporation Taiwan [100.0%]",
+          13
+        ],
+        [
+          "Dirio Gas & Power ; Government of Papua New Guinea; Twenty20 Energy",
+          12
+        ],
+        [
+          "Blackstone Inc [49.0%]; Kinder Morgan Inc [25.5%]; unknown [25.5%]",
+          12
+        ],
+        [
+          "Sonatrach SpA [100.0%]",
+          11
+        ],
+        [
+          "Korea Gas Corp [100.0%]",
+          9
+        ],
+        [
+          "Government of Indonesia [100.0%]",
+          9
+        ],
+        [
+          "Venture Global Holdings Inc",
+          8
+        ],
+        [
+          "Petronet LNG [100.0%]",
+          8
+        ],
+        [
+          "Cheniere Energy Partners LP [100.0%]",
+          8
+        ],
+        [
+          "Excelerate Energy Inc [24.3%]; Excelerate Energy Holdings LLC",
+          7
+        ],
+        [
+          "Cameron LNG LLC [100.0%]",
+          7
+        ],
+        [
+          "BlackRock Inc [34.4%]; NextDecade Corp [20.8%]; TotalEnergies SE [16.7%]; GIC Pte Ltd [9.9%]; Mubadala Investment Co [6.5%]; Abu Dhabi National Oil Co",
+          7
+        ],
+        [
+          "Shell PLC [100.0%]",
+          6
+        ],
+        [
+          "PT Pertamina (Persero) [55.0%]; Exxon Mobil Corp [30.0%]; PT Japan Indonesia LNG Co (JILCO) [15.0%]",
+          6
+        ],
+        [
+          "Kimmeridge Energy Management Co LLC [65.9%]; Mubadala Petroleum LLC [24.1%]",
+          6
+        ],
+        [
+          "EGAS [100.0%]",
+          6
+        ],
+        [
+          "Publigaz SA [77.4%]; Energy Infrastructure Partners AG [15.2%]; small shareholder(s) [7.4%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 1206,
+      "n_null": 12,
+      "n_non_null": 1194,
+      "null_rate": 0.01,
+      "n_unique": 682,
+      "top_values": [
+        [
+          "E100000001265 [100.0%]",
+          17
+        ],
+        [
+          "E100000132388",
+          13
+        ],
+        [
+          "E100000001010 [100.0%]",
+          13
+        ],
+        [
+          "E100000000758 [49.0%]; E100000000746 [25.6%]; E100000000387 [15.0%]; E100000000610 [10.4%]",
+          13
+        ],
+        [
+          "E100000188822; E100001011705; E100000188823",
+          12
+        ],
+        [
+          "E100000001158 [49.0%]; E100000001245 [25.5%]; E100000132388 [25.5%]",
+          12
+        ],
+        [
+          "E100000000003 [100.0%]",
+          11
+        ],
+        [
+          "E100001011066 [100.0%]",
+          9
+        ],
+        [
+          "E100001000084 [100.0%]",
+          9
+        ],
+        [
+          "E100002001303",
+          8
+        ],
+        [
+          "E100001016064 [100.0%]",
+          8
+        ],
+        [
+          "E100000188412 [100.0%]",
+          8
+        ],
+        [
+          "E100002007946 [24.3%]; E100002007947",
+          7
+        ],
+        [
+          "E100002004221 [100.0%]",
+          7
+        ],
+        [
+          "E100001000348 [34.4%]; E100002004566 [20.8%]; E100000000387 [16.7%]; E100001010928 [9.9%]; E100000189455 [6.5%]; E100000001079",
+          7
+        ],
+        [
+          "E100002017105 [65.9%]; E100001015757 [24.1%]",
+          6
+        ],
+        [
+          "E100000188677 [100.0%]",
+          6
+        ],
+        [
+          "E100000000746 [100.0%]",
+          6
+        ],
+        [
+          "E100000000538 [55.0%]; E100000001213 [30.0%]; E100000188419 [15.0%]",
+          6
+        ],
+        [
+          "E100002004308 [77.4%]; E100000152013 [15.2%]; E100001015587 [7.4%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ParentHQCountry",
+      "code_friendly_name_guess": "parenthqcountry",
+      "n_total": 1206,
+      "n_null": 296,
+      "n_non_null": 910,
+      "null_rate": 0.2454,
+      "n_unique": 218,
+      "top_values": [
+        [
+          "United States",
+          125
+        ],
+        [
+          "China",
+          50
+        ],
+        [
+          "United States, United States",
+          31
+        ],
+        [
+          "Japan",
+          30
+        ],
+        [
+          "Russia",
+          27
+        ],
+        [
+          "China, China",
+          23
+        ],
+        [
+          "Canada",
+          23
+        ],
+        [
+          "United Kingdom",
+          18
+        ],
+        [
+          "Indonesia",
+          18
+        ],
+        [
+          "Taiwan",
+          15
+        ],
+        [
+          "Spain",
+          15
+        ],
+        [
+          "South Korea",
+          14
+        ],
+        [
+          "Papua New Guinea",
+          13
+        ],
+        [
+          "Nigeria, United Kingdom, France, Italy",
+          13
+        ],
+        [
+          "Malaysia",
+          12
+        ],
+        [
+          "Australia",
+          11
+        ],
+        [
+          "Algeria",
+          11
+        ],
+        [
+          "Italy",
+          10
+        ],
+        [
+          "France",
+          10
+        ],
+        [
+          "Colombia",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 1206,
+      "n_null": 783,
+      "n_non_null": 423,
+      "null_rate": 0.6493,
+      "n_unique": 198,
+      "top_values": [
+        [
+          "Nigeria LNG",
+          13
+        ],
+        [
+          "Southern LNG Company",
+          12
+        ],
+        [
+          "Sonatrach",
+          11
+        ],
+        [
+          "QatarEnergy LNG",
+          10
+        ],
+        [
+          "Petroliam Nasional",
+          9
+        ],
+        [
+          "PT Badak NTL",
+          9
+        ],
+        [
+          "New Fortress Energy",
+          9
+        ],
+        [
+          "Cheniere",
+          8
+        ],
+        [
+          "KN Energies",
+          7
+        ],
+        [
+          "Golar LNG",
+          7
+        ],
+        [
+          "Cameron LNG",
+          7
+        ],
+        [
+          "Shell",
+          6
+        ],
+        [
+          "Abu Dhabi Gas Liquefaction Company",
+          6
+        ],
+        [
+          "Woodside",
+          5
+        ],
+        [
+          "Operator Gazociagow Przesylowych GAZ-SYSTEM",
+          5
+        ],
+        [
+          "Oman LNG",
+          5
+        ],
+        [
+          "Fluxys LNG",
+          5
+        ],
+        [
+          "Elengy",
+          5
+        ],
+        [
+          "Atlantic LNG",
+          5
+        ],
+        [
+          "Yamal LNG",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity",
+      "code_friendly_name_guess": "capacity",
+      "n_total": 1206,
+      "n_null": 168,
+      "n_non_null": 1038,
+      "null_rate": 0.1393,
+      "n_unique": 215,
+      "top_values": [
+        [
+          "3",
+          85
+        ],
+        [
+          "5",
+          73
+        ],
+        [
+          "6",
+          34
+        ],
+        [
+          "1",
+          34
+        ],
+        [
+          "2",
+          32
+        ],
+        [
+          "1.5",
+          26
+        ],
+        [
+          "4",
+          25
+        ],
+        [
+          "3.8",
+          21
+        ],
+        [
+          "3.5",
+          21
+        ],
+        [
+          "10",
+          20
+        ],
+        [
+          "8",
+          16
+        ],
+        [
+          "2.5",
+          16
+        ],
+        [
+          "4.5",
+          15
+        ],
+        [
+          "0.5",
+          14
+        ],
+        [
+          "1.4",
+          13
+        ],
+        [
+          "0.4",
+          13
+        ],
+        [
+          "7.5",
+          12
+        ],
+        [
+          "12",
+          12
+        ],
+        [
+          "5.2",
+          11
+        ],
+        [
+          "0.6",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityUnits",
+      "code_friendly_name_guess": "capacityunits",
+      "n_total": 1206,
+      "n_null": 168,
+      "n_non_null": 1038,
+      "null_rate": 0.1393,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "mtpa",
+          921
+        ],
+        [
+          "bcm/y",
+          76
+        ],
+        [
+          "bcf/d",
+          33
+        ],
+        [
+          "gal/day",
+          3
+        ],
+        [
+          "tpa",
+          2
+        ],
+        [
+          "TJ/d",
+          1
+        ],
+        [
+          "MWh/d",
+          1
+        ],
+        [
+          "MMcf/d",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "CapacityinMtpa",
+      "code_friendly_name_guess": "capacityinmtpa",
+      "n_total": 1206,
+      "n_null": 173,
+      "n_non_null": 1033,
+      "null_rate": 0.1434,
+      "n_unique": 241,
+      "top_values": [
+        [
+          "3",
+          85
+        ],
+        [
+          "5",
+          65
+        ],
+        [
+          "6",
+          31
+        ],
+        [
+          "2",
+          31
+        ],
+        [
+          "1",
+          31
+        ],
+        [
+          "1.5",
+          26
+        ],
+        [
+          "4",
+          21
+        ],
+        [
+          "3.8",
+          21
+        ],
+        [
+          "3.5",
+          20
+        ],
+        [
+          "10",
+          19
+        ],
+        [
+          "4.5",
+          13
+        ],
+        [
+          "2.5",
+          13
+        ],
+        [
+          "1.4",
+          13
+        ],
+        [
+          "0.5",
+          12
+        ],
+        [
+          "8",
+          11
+        ],
+        [
+          "7.5",
+          11
+        ],
+        [
+          "12",
+          11
+        ],
+        [
+          "0.25",
+          11
+        ],
+        [
+          "5.2",
+          10
+        ],
+        [
+          "2.7",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityinBcm/y",
+      "code_friendly_name_guess": "capacityinbcm_y",
+      "n_total": 1206,
+      "n_null": 173,
+      "n_non_null": 1033,
+      "null_rate": 0.1434,
+      "n_unique": 241,
+      "top_values": [
+        [
+          "4.08",
+          85
+        ],
+        [
+          "6.8",
+          65
+        ],
+        [
+          "8.16",
+          31
+        ],
+        [
+          "2.72",
+          31
+        ],
+        [
+          "1.36",
+          31
+        ],
+        [
+          "2.04",
+          26
+        ],
+        [
+          "5.44",
+          21
+        ],
+        [
+          "5.17",
+          21
+        ],
+        [
+          "4.76",
+          20
+        ],
+        [
+          "13.61",
+          19
+        ],
+        [
+          "6.12",
+          13
+        ],
+        [
+          "3.4",
+          13
+        ],
+        [
+          "1.9",
+          13
+        ],
+        [
+          "0.68",
+          12
+        ],
+        [
+          "16.33",
+          11
+        ],
+        [
+          "10.88",
+          11
+        ],
+        [
+          "10.2",
+          11
+        ],
+        [
+          "0.34",
+          11
+        ],
+        [
+          "7.07",
+          10
+        ],
+        [
+          "3.67",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotImportLNGTerminalCapacityinMtpa",
+      "code_friendly_name_guess": "totimportlngterminalcapacityinmtpa",
+      "n_total": 1206,
+      "n_null": 525,
+      "n_non_null": 681,
+      "null_rate": 0.4353,
+      "n_unique": 181,
+      "top_values": [
+        [
+          "3",
+          49
+        ],
+        [
+          "6",
+          41
+        ],
+        [
+          "5",
+          32
+        ],
+        [
+          "12",
+          28
+        ],
+        [
+          "10",
+          18
+        ],
+        [
+          "1",
+          17
+        ],
+        [
+          "7.5",
+          14
+        ],
+        [
+          "1.5",
+          13
+        ],
+        [
+          "3.8",
+          11
+        ],
+        [
+          "2",
+          11
+        ],
+        [
+          "12.3",
+          10
+        ],
+        [
+          "7",
+          9
+        ],
+        [
+          "30.4",
+          8
+        ],
+        [
+          "3.67",
+          8
+        ],
+        [
+          "13",
+          8
+        ],
+        [
+          "6.4",
+          7
+        ],
+        [
+          "4",
+          7
+        ],
+        [
+          "11.4",
+          7
+        ],
+        [
+          "11",
+          7
+        ],
+        [
+          "0.4",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotImportLNGTerminalCapacityinBcm/y",
+      "code_friendly_name_guess": "totimportlngterminalcapacityinbcm_y",
+      "n_total": 1206,
+      "n_null": 525,
+      "n_non_null": 681,
+      "null_rate": 0.4353,
+      "n_unique": 181,
+      "top_values": [
+        [
+          "4.08",
+          49
+        ],
+        [
+          "8.16",
+          41
+        ],
+        [
+          "6.8",
+          32
+        ],
+        [
+          "16.33",
+          28
+        ],
+        [
+          "13.61",
+          18
+        ],
+        [
+          "1.36",
+          17
+        ],
+        [
+          "10.2",
+          14
+        ],
+        [
+          "2.04",
+          13
+        ],
+        [
+          "5.17",
+          11
+        ],
+        [
+          "2.72",
+          11
+        ],
+        [
+          "16.73",
+          10
+        ],
+        [
+          "9.52",
+          9
+        ],
+        [
+          "41.36",
+          8
+        ],
+        [
+          "4.99",
+          8
+        ],
+        [
+          "17.69",
+          8
+        ],
+        [
+          "8.71",
+          7
+        ],
+        [
+          "5.44",
+          7
+        ],
+        [
+          "15.51",
+          7
+        ],
+        [
+          "14.97",
+          7
+        ],
+        [
+          "0.54",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotExportLNGTerminalCapacityinMtpa",
+      "code_friendly_name_guess": "totexportlngterminalcapacityinmtpa",
+      "n_total": 1206,
+      "n_null": 738,
+      "n_non_null": 468,
+      "null_rate": 0.6119,
+      "n_unique": 134,
+      "top_values": [
+        [
+          "3",
+          17
+        ],
+        [
+          "10",
+          16
+        ],
+        [
+          "29.8",
+          13
+        ],
+        [
+          "2.9",
+          12
+        ],
+        [
+          "9.6",
+          10
+        ],
+        [
+          "30",
+          9
+        ],
+        [
+          "25.1",
+          9
+        ],
+        [
+          "20",
+          9
+        ],
+        [
+          "2",
+          9
+        ],
+        [
+          "7",
+          8
+        ],
+        [
+          "49.5",
+          8
+        ],
+        [
+          "11",
+          8
+        ],
+        [
+          "9.5",
+          7
+        ],
+        [
+          "51.51",
+          7
+        ],
+        [
+          "25.93",
+          7
+        ],
+        [
+          "19.3",
+          7
+        ],
+        [
+          "1.5",
+          7
+        ],
+        [
+          "52.28",
+          6
+        ],
+        [
+          "5",
+          6
+        ],
+        [
+          "26",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotExportLNGTerminalCapacityinBcm/y",
+      "code_friendly_name_guess": "totexportlngterminalcapacityinbcm_y",
+      "n_total": 1206,
+      "n_null": 738,
+      "n_non_null": 468,
+      "null_rate": 0.6119,
+      "n_unique": 134,
+      "top_values": [
+        [
+          "4.08",
+          17
+        ],
+        [
+          "13.61",
+          16
+        ],
+        [
+          "40.54",
+          13
+        ],
+        [
+          "3.95",
+          12
+        ],
+        [
+          "13.06",
+          10
+        ],
+        [
+          "40.82",
+          9
+        ],
+        [
+          "34.15",
+          9
+        ],
+        [
+          "27.21",
+          9
+        ],
+        [
+          "2.72",
+          9
+        ],
+        [
+          "9.52",
+          8
+        ],
+        [
+          "67.35",
+          8
+        ],
+        [
+          "14.97",
+          8
+        ],
+        [
+          "70.08",
+          7
+        ],
+        [
+          "35.28",
+          7
+        ],
+        [
+          "26.26",
+          7
+        ],
+        [
+          "2.04",
+          7
+        ],
+        [
+          "12.93",
+          7
+        ],
+        [
+          "71.13",
+          6
+        ],
+        [
+          "6.8",
+          6
+        ],
+        [
+          "35.37",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ProposalYear",
+      "code_friendly_name_guess": "proposalyear",
+      "n_total": 1206,
+      "n_null": 615,
+      "n_non_null": 591,
+      "null_rate": 0.51,
+      "n_unique": 28,
+      "top_values": [
+        [
+          "2022",
+          86
+        ],
+        [
+          "2019",
+          77
+        ],
+        [
+          "2021",
+          52
+        ],
+        [
+          "2023",
+          45
+        ],
+        [
+          "2018",
+          35
+        ],
+        [
+          "2024",
+          32
+        ],
+        [
+          "2020",
+          30
+        ],
+        [
+          "2017",
+          29
+        ],
+        [
+          "2016",
+          28
+        ],
+        [
+          "2013",
+          27
+        ],
+        [
+          "2025",
+          25
+        ],
+        [
+          "2014",
+          21
+        ],
+        [
+          "2015",
+          18
+        ],
+        [
+          "2005",
+          16
+        ],
+        [
+          "2012",
+          14
+        ],
+        [
+          "2011",
+          10
+        ],
+        [
+          "2010",
+          7
+        ],
+        [
+          "2008",
+          7
+        ],
+        [
+          "2007",
+          6
+        ],
+        [
+          "2006",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ProposalMonth",
+      "code_friendly_name_guess": "proposalmonth",
+      "n_total": 1206,
+      "n_null": 923,
+      "n_non_null": 283,
+      "null_rate": 0.7653,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "March",
+          38
+        ],
+        [
+          "May",
+          31
+        ],
+        [
+          "July",
+          30
+        ],
+        [
+          "April",
+          30
+        ],
+        [
+          "December",
+          26
+        ],
+        [
+          "September",
+          21
+        ],
+        [
+          "January",
+          19
+        ],
+        [
+          "February",
+          19
+        ],
+        [
+          "August",
+          18
+        ],
+        [
+          "October",
+          17
+        ],
+        [
+          "June",
+          17
+        ],
+        [
+          "November",
+          14
+        ],
+        [
+          "Q4",
+          2
+        ],
+        [
+          "Q1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "ConstructionYear",
+      "code_friendly_name_guess": "constructionyear",
+      "n_total": 1206,
+      "n_null": 942,
+      "n_non_null": 264,
+      "null_rate": 0.7811,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "2022",
+          31
+        ],
+        [
+          "2023",
+          25
+        ],
+        [
+          "2021",
+          24
+        ],
+        [
+          "2020",
+          22
+        ],
+        [
+          "2024",
+          21
+        ],
+        [
+          "2019",
+          16
+        ],
+        [
+          "2018",
+          16
+        ],
+        [
+          "2016",
+          14
+        ],
+        [
+          "2025",
+          13
+        ],
+        [
+          "2014",
+          11
+        ],
+        [
+          "2017",
+          9
+        ],
+        [
+          "2012",
+          9
+        ],
+        [
+          "2015",
+          6
+        ],
+        [
+          "2026",
+          5
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2011",
+          5
+        ],
+        [
+          "2005",
+          5
+        ],
+        [
+          "2008",
+          4
+        ],
+        [
+          "2027",
+          3
+        ],
+        [
+          "2009",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ConstructionMonth",
+      "code_friendly_name_guess": "constructionmonth",
+      "n_total": 1206,
+      "n_null": 1048,
+      "n_non_null": 158,
+      "null_rate": 0.869,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "December",
+          17
+        ],
+        [
+          "October",
+          16
+        ],
+        [
+          "July",
+          16
+        ],
+        [
+          "April",
+          16
+        ],
+        [
+          "September",
+          15
+        ],
+        [
+          "August",
+          14
+        ],
+        [
+          "November",
+          12
+        ],
+        [
+          "May",
+          10
+        ],
+        [
+          "June",
+          10
+        ],
+        [
+          "February",
+          9
+        ],
+        [
+          "March",
+          6
+        ],
+        [
+          "January",
+          6
+        ],
+        [
+          "Q4",
+          5
+        ],
+        [
+          "H2",
+          4
+        ],
+        [
+          "Q3",
+          1
+        ],
+        [
+          "Q1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "OriginalPlannedStartYear",
+      "code_friendly_name_guess": "originalplannedstartyear",
+      "n_total": 1206,
+      "n_null": 724,
+      "n_non_null": 482,
+      "null_rate": 0.6003,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "2025",
+          69
+        ],
+        [
+          "2026",
+          64
+        ],
+        [
+          "2023",
+          54
+        ],
+        [
+          "2027",
+          50
+        ],
+        [
+          "2024",
+          50
+        ],
+        [
+          "2022",
+          39
+        ],
+        [
+          "2030",
+          25
+        ],
+        [
+          "2021",
+          24
+        ],
+        [
+          "2029",
+          23
+        ],
+        [
+          "2028",
+          19
+        ],
+        [
+          "2020",
+          17
+        ],
+        [
+          "2018",
+          8
+        ],
+        [
+          "2016",
+          7
+        ],
+        [
+          "2019",
+          6
+        ],
+        [
+          "2031",
+          5
+        ],
+        [
+          "2017",
+          5
+        ],
+        [
+          "2035",
+          4
+        ],
+        [
+          "2014",
+          4
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2011",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LatestPlannedStartYear",
+      "code_friendly_name_guess": "latestplannedstartyear",
+      "n_total": 1206,
+      "n_null": 1060,
+      "n_non_null": 146,
+      "null_rate": 0.8789,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "2028",
+          27
+        ],
+        [
+          "2027",
+          25
+        ],
+        [
+          "2025",
+          19
+        ],
+        [
+          "2031",
+          16
+        ],
+        [
+          "2026",
+          16
+        ],
+        [
+          "2030",
+          14
+        ],
+        [
+          "2029",
+          10
+        ],
+        [
+          "2024",
+          8
+        ],
+        [
+          "2023",
+          5
+        ],
+        [
+          "2032",
+          4
+        ],
+        [
+          "2033",
+          1
+        ],
+        [
+          "2022",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear",
+      "code_friendly_name_guess": "actualstartyear",
+      "n_total": 1206,
+      "n_null": 776,
+      "n_non_null": 430,
+      "null_rate": 0.6434,
+      "n_unique": 55,
+      "top_values": [
+        [
+          "2023",
+          28
+        ],
+        [
+          "2019",
+          26
+        ],
+        [
+          "2018",
+          25
+        ],
+        [
+          "2016",
+          22
+        ],
+        [
+          "2024",
+          19
+        ],
+        [
+          "2014",
+          18
+        ],
+        [
+          "2009",
+          18
+        ],
+        [
+          "2020",
+          17
+        ],
+        [
+          "2025",
+          16
+        ],
+        [
+          "2022",
+          16
+        ],
+        [
+          "2021",
+          16
+        ],
+        [
+          "2013",
+          14
+        ],
+        [
+          "2017",
+          13
+        ],
+        [
+          "2015",
+          11
+        ],
+        [
+          "2008",
+          11
+        ],
+        [
+          "2006",
+          11
+        ],
+        [
+          "2010",
+          10
+        ],
+        [
+          "2011",
+          9
+        ],
+        [
+          "2005",
+          9
+        ],
+        [
+          "2012",
+          8
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartMonth",
+      "code_friendly_name_guess": "actualstartmonth",
+      "n_total": 1206,
+      "n_null": 1085,
+      "n_non_null": 121,
+      "null_rate": 0.8997,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "January",
+          15
+        ],
+        [
+          "November",
+          14
+        ],
+        [
+          "August",
+          13
+        ],
+        [
+          "October",
+          12
+        ],
+        [
+          "September",
+          11
+        ],
+        [
+          "May",
+          11
+        ],
+        [
+          "June",
+          11
+        ],
+        [
+          "April",
+          10
+        ],
+        [
+          "July",
+          7
+        ],
+        [
+          "December",
+          7
+        ],
+        [
+          "March",
+          6
+        ],
+        [
+          "February",
+          3
+        ],
+        [
+          "H2",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear2",
+      "code_friendly_name_guess": "actualstartyear2",
+      "n_total": 1206,
+      "n_null": 1191,
+      "n_non_null": 15,
+      "null_rate": 0.9876,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "2025",
+          3
+        ],
+        [
+          "2024",
+          3
+        ],
+        [
+          "2021",
+          3
+        ],
+        [
+          "2022",
+          2
+        ],
+        [
+          "2015",
+          2
+        ],
+        [
+          "2018",
+          1
+        ],
+        [
+          "2017",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear3",
+      "code_friendly_name_guess": "actualstartyear3",
+      "n_total": 1206,
+      "n_null": 1206,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ShelvedYear",
+      "code_friendly_name_guess": "shelvedyear",
+      "n_total": 1206,
+      "n_null": 927,
+      "n_non_null": 279,
+      "null_rate": 0.7687,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "2023",
+          42
+        ],
+        [
+          "2025",
+          35
+        ],
+        [
+          "2022",
+          34
+        ],
+        [
+          "2024",
+          23
+        ],
+        [
+          "2021",
+          23
+        ],
+        [
+          "2016",
+          22
+        ],
+        [
+          "2019",
+          17
+        ],
+        [
+          "2017",
+          16
+        ],
+        [
+          "2020",
+          15
+        ],
+        [
+          "2018",
+          11
+        ],
+        [
+          "2015",
+          9
+        ],
+        [
+          "2013",
+          6
+        ],
+        [
+          "2014",
+          5
+        ],
+        [
+          "2007",
+          5
+        ],
+        [
+          "2009",
+          4
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2010",
+          3
+        ],
+        [
+          "2012",
+          2
+        ],
+        [
+          "2006",
+          2
+        ],
+        [
+          "2008",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CancelledYear",
+      "code_friendly_name_guess": "cancelledyear",
+      "n_total": 1206,
+      "n_null": 926,
+      "n_non_null": 280,
+      "null_rate": 0.7678,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "2023",
+          30
+        ],
+        [
+          "2018",
+          29
+        ],
+        [
+          "2024",
+          28
+        ],
+        [
+          "2021",
+          28
+        ],
+        [
+          "2025",
+          25
+        ],
+        [
+          "2019",
+          21
+        ],
+        [
+          "2022",
+          19
+        ],
+        [
+          "2017",
+          19
+        ],
+        [
+          "2020",
+          13
+        ],
+        [
+          "2016",
+          13
+        ],
+        [
+          "2015",
+          12
+        ],
+        [
+          "2009",
+          7
+        ],
+        [
+          "2012",
+          6
+        ],
+        [
+          "2011",
+          6
+        ],
+        [
+          "2014",
+          5
+        ],
+        [
+          "2010",
+          5
+        ],
+        [
+          "2013",
+          4
+        ],
+        [
+          "2008",
+          3
+        ],
+        [
+          "2007",
+          3
+        ],
+        [
+          "2006",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StopYear",
+      "code_friendly_name_guess": "stopyear",
+      "n_total": 1206,
+      "n_null": 879,
+      "n_non_null": 327,
+      "null_rate": 0.7289,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "2023",
+          35
+        ],
+        [
+          "2024",
+          34
+        ],
+        [
+          "2025",
+          30
+        ],
+        [
+          "2021",
+          29
+        ],
+        [
+          "2018",
+          29
+        ],
+        [
+          "2022",
+          23
+        ],
+        [
+          "2019",
+          21
+        ],
+        [
+          "2017",
+          20
+        ],
+        [
+          "2020",
+          17
+        ],
+        [
+          "2015",
+          15
+        ],
+        [
+          "2016",
+          13
+        ],
+        [
+          "2011",
+          11
+        ],
+        [
+          "2012",
+          9
+        ],
+        [
+          "2013",
+          8
+        ],
+        [
+          "2009",
+          7
+        ],
+        [
+          "2014",
+          6
+        ],
+        [
+          "2010",
+          6
+        ],
+        [
+          "2008",
+          3
+        ],
+        [
+          "2007",
+          3
+        ],
+        [
+          "2004",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PlannedStopYear",
+      "code_friendly_name_guess": "plannedstopyear",
+      "n_total": 1206,
+      "n_null": 1197,
+      "n_non_null": 9,
+      "null_rate": 0.9925,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "2027",
+          3
+        ],
+        [
+          "2029",
+          2
+        ],
+        [
+          "2025",
+          2
+        ],
+        [
+          "2028",
+          1
+        ],
+        [
+          "2026",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ShelvedCancelledStatusType",
+      "code_friendly_name_guess": "shelvedcancelledstatustype",
+      "n_total": 1206,
+      "n_null": 781,
+      "n_non_null": 425,
+      "null_rate": 0.6476,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "inferred",
+          259
+        ],
+        [
+          "confirmed",
+          166
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TempFacility",
+      "code_friendly_name_guess": "tempfacility",
+      "n_total": 1206,
+      "n_null": 1189,
+      "n_non_null": 17,
+      "null_rate": 0.9859,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "interim facility",
+          9
+        ],
+        [
+          "permanent replacement",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ImportExportOnly",
+      "code_friendly_name_guess": "importexportonly",
+      "n_total": 1206,
+      "n_null": 1204,
+      "n_non_null": 2,
+      "null_rate": 0.9983,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 1206,
+      "n_null": 139,
+      "n_non_null": 1067,
+      "null_rate": 0.1153,
+      "n_unique": 602,
+      "top_values": [
+        [
+          "Bonny Island",
+          13
+        ],
+        [
+          "Sabine Pass",
+          12
+        ],
+        [
+          "Elba Island",
+          12
+        ],
+        [
+          "Brownsville",
+          11
+        ],
+        [
+          "Ras Laffan Industrial City",
+          10
+        ],
+        [
+          "Cameron Parish",
+          10
+        ],
+        [
+          "Port Qasim",
+          9
+        ],
+        [
+          "Bontang",
+          9
+        ],
+        [
+          "Sunshine Island",
+          8
+        ],
+        [
+          "Plaquemines Parish",
+          8
+        ],
+        [
+          "Perth",
+          8
+        ],
+        [
+          "Skikda",
+          7
+        ],
+        [
+          "Lhokseumawe",
+          7
+        ],
+        [
+          "Hackberry",
+          7
+        ],
+        [
+          "Curtis Island",
+          7
+        ],
+        [
+          "Bintulu",
+          7
+        ],
+        [
+          "Wilhelmshaven",
+          6
+        ],
+        [
+          "Taichung Harbor",
+          6
+        ],
+        [
+          "Port of Ain Sokhna",
+          6
+        ],
+        [
+          "Nangang",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          499
+        ],
+        [
+          "Americas",
+          333
+        ],
+        [
+          "Europe",
+          191
+        ],
+        [
+          "Africa",
+          113
+        ],
+        [
+          "Oceania",
+          70
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "SubRegion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Eastern Asia",
+          236
+        ],
+        [
+          "Northern America",
+          215
+        ],
+        [
+          "South-eastern Asia",
+          132
+        ],
+        [
+          "Latin America and the Caribbean",
+          118
+        ],
+        [
+          "Sub-Saharan Africa",
+          83
+        ],
+        [
+          "Southern Asia",
+          76
+        ],
+        [
+          "Eastern Europe",
+          56
+        ],
+        [
+          "Western Asia",
+          54
+        ],
+        [
+          "Southern Europe",
+          47
+        ],
+        [
+          "Northern Europe",
+          46
+        ],
+        [
+          "Australia and New Zealand",
+          46
+        ],
+        [
+          "Western Europe",
+          42
+        ],
+        [
+          "Northern Africa",
+          30
+        ],
+        [
+          "Melanesia",
+          24
+        ],
+        [
+          "Central Asia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Prefecture/District",
+      "code_friendly_name_guess": "prefecture_district",
+      "n_total": 1206,
+      "n_null": 759,
+      "n_non_null": 447,
+      "null_rate": 0.6294,
+      "n_unique": 215,
+      "top_values": [
+        [
+          "Nantong",
+          13
+        ],
+        [
+          "Zhoushan",
+          9
+        ],
+        [
+          "Yantai",
+          9
+        ],
+        [
+          "Yamalo-Nenets Autonomous Okrug",
+          9
+        ],
+        [
+          "Karachi",
+          9
+        ],
+        [
+          "Cox's Bazar",
+          9
+        ],
+        [
+          "Tangshan",
+          8
+        ],
+        [
+          "Burrup Peninsula",
+          8
+        ],
+        [
+          "Skikda",
+          7
+        ],
+        [
+          "Kaien Island",
+          7
+        ],
+        [
+          "Gladstone",
+          7
+        ],
+        [
+          "Binhai",
+          7
+        ],
+        [
+          "Shenzhen",
+          6
+        ],
+        [
+          "Bouches-du-Rhône",
+          6
+        ],
+        [
+          "Bruges",
+          5
+        ],
+        [
+          "Asaluyeh County",
+          5
+        ],
+        [
+          "Zhuhai",
+          4
+        ],
+        [
+          "Yancheng",
+          4
+        ],
+        [
+          "Putian",
+          4
+        ],
+        [
+          "Plaquemines Parish",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 1206,
+      "n_null": 217,
+      "n_non_null": 989,
+      "null_rate": 0.1799,
+      "n_unique": 296,
+      "top_values": [
+        [
+          "Louisiana",
+          56
+        ],
+        [
+          "Texas",
+          41
+        ],
+        [
+          "British Columbia",
+          34
+        ],
+        [
+          "Guangdong",
+          30
+        ],
+        [
+          "Western Australia",
+          24
+        ],
+        [
+          "Jiangsu",
+          24
+        ],
+        [
+          "Shandong",
+          22
+        ],
+        [
+          "Zhejiang",
+          19
+        ],
+        [
+          "Rivers",
+          14
+        ],
+        [
+          "Georgia",
+          12
+        ],
+        [
+          "Leningrad Oblast",
+          11
+        ],
+        [
+          "Gujarat",
+          11
+        ],
+        [
+          "Tianjin",
+          10
+        ],
+        [
+          "Liaoning",
+          10
+        ],
+        [
+          "Al Khawr",
+          10
+        ],
+        [
+          "Sindh",
+          9
+        ],
+        [
+          "Queensland",
+          9
+        ],
+        [
+          "Kansai",
+          9
+        ],
+        [
+          "Hebei",
+          9
+        ],
+        [
+          "Fujian",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 1206,
+      "n_null": 8,
+      "n_non_null": 1198,
+      "null_rate": 0.0066,
+      "n_unique": 785,
+      "top_values": [
+        [
+          "4.41836",
+          13
+        ],
+        [
+          "32.091111",
+          12
+        ],
+        [
+          "25.950835",
+          11
+        ],
+        [
+          "54.312194",
+          9
+        ],
+        [
+          "0.10123",
+          9
+        ],
+        [
+          "29.7540967",
+          8
+        ],
+        [
+          "5.2234",
+          7
+        ],
+        [
+          "36.8779",
+          7
+        ],
+        [
+          "30.035379",
+          7
+        ],
+        [
+          "29.764163",
+          6
+        ],
+        [
+          "28.932003",
+          6
+        ],
+        [
+          "27.9135423",
+          6
+        ],
+        [
+          "71.2733",
+          5
+        ],
+        [
+          "51.353",
+          5
+        ],
+        [
+          "38.938745",
+          5
+        ],
+        [
+          "32.041846",
+          5
+        ],
+        [
+          "29.64863",
+          5
+        ],
+        [
+          "27.476111",
+          5
+        ],
+        [
+          "24.25304",
+          5
+        ],
+        [
+          "22.80928",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 1206,
+      "n_null": 8,
+      "n_non_null": 1198,
+      "null_rate": 0.0066,
+      "n_unique": 785,
+      "top_values": [
+        [
+          "7.16157",
+          13
+        ],
+        [
+          "-81.000278",
+          12
+        ],
+        [
+          "-97.410844",
+          11
+        ],
+        [
+          "117.4701",
+          9
+        ],
+        [
+          "-130.327083",
+          9
+        ],
+        [
+          "-93.8740512",
+          8
+        ],
+        [
+          "97.083",
+          7
+        ],
+        [
+          "6.9415",
+          7
+        ],
+        [
+          "-93.3383732",
+          7
+        ],
+        [
+          "-97.2865629",
+          6
+        ],
+        [
+          "-95.317355",
+          6
+        ],
+        [
+          "-93.348066",
+          6
+        ],
+        [
+          "72.0725",
+          5
+        ],
+        [
+          "59.40748",
+          5
+        ],
+        [
+          "52.6075",
+          5
+        ],
+        [
+          "32.355923",
+          5
+        ],
+        [
+          "3.22241",
+          5
+        ],
+        [
+          "146.9872856",
+          5
+        ],
+        [
+          "121.746907",
+          5
+        ],
+        [
+          "120.49586",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Accuracy",
+      "code_friendly_name_guess": "accuracy",
+      "n_total": 1206,
+      "n_null": 8,
+      "n_non_null": 1198,
+      "null_rate": 0.0066,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "approximate",
+          641
+        ],
+        [
+          "exact",
+          557
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AssociatedTerminals",
+      "code_friendly_name_guess": "associatedterminals",
+      "n_total": 1206,
+      "n_null": 1156,
+      "n_non_null": 50,
+      "null_rate": 0.9585,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "Dunkirk LNG Terminal",
+          5
+        ],
+        [
+          "Zeebrugge LNG Terminal",
+          3
+        ],
+        [
+          "Brunsbüttel LNG Terminal",
+          3
+        ],
+        [
+          "Arctic LNG 1 Terminal, Arctic LNG 3 Terminal",
+          3
+        ],
+        [
+          "Wilhelmshaven FSRU, Wilhelmshaven TES FSRU",
+          2
+        ],
+        [
+          "Paldiski FSRU",
+          2
+        ],
+        [
+          "Mukran FSRU",
+          2
+        ],
+        [
+          "Lubmin FSRU, Ain Sokhna FSRU",
+          2
+        ],
+        [
+          "Fujairah export LNG Terminal",
+          2
+        ],
+        [
+          "Calcasieu Pass LNG Terminal",
+          2
+        ],
+        [
+          "Argent LNG Terminal",
+          2
+        ],
+        [
+          "Yamal LNG Terminal",
+          1
+        ],
+        [
+          "Wilhelmshaven TES LNG Terminal",
+          1
+        ],
+        [
+          "Tangguh LNG Terminal",
+          1
+        ],
+        [
+          "Stade LNG Terminal",
+          1
+        ],
+        [
+          "Stade FSRU",
+          1
+        ],
+        [
+          "Songkhla Chana power station",
+          1
+        ],
+        [
+          "Pointe LNG Terminal",
+          1
+        ],
+        [
+          "Pluto LNG Terminal",
+          1
+        ],
+        [
+          "New Fortress Wyalusing LNG Terminal",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PowerPlantsSupplied",
+      "code_friendly_name_guess": "powerplantssupplied",
+      "n_total": 1206,
+      "n_null": 1095,
+      "n_non_null": 111,
+      "null_rate": 0.908,
+      "n_unique": 94,
+      "top_values": [
+        [
+          "Ulsan GPS power station",
+          3
+        ],
+        [
+          "Tonbak LNG power station",
+          3
+        ],
+        [
+          "Termobarranquilla power station, Termocandelaria power station, Termo Flores power station",
+          3
+        ],
+        [
+          "Ratnagiri Combined Cycle power plant",
+          3
+        ],
+        [
+          "Nhon Trach power station",
+          3
+        ],
+        [
+          "West Africa Kamsar power station",
+          2
+        ],
+        [
+          "Termoceará power station, Fortaleza power station",
+          2
+        ],
+        [
+          "Son My I power station, Son My II power station",
+          2
+        ],
+        [
+          "Nathaniel Maxuilili",
+          2
+        ],
+        [
+          "Hibiki Natural Gas power plant",
+          2
+        ],
+        [
+          "From Canada",
+          2
+        ],
+        [
+          "Ca Mau power station",
+          2
+        ],
+        [
+          "Zahrani Power Plant",
+          1
+        ],
+        [
+          "Yugadanavi power station",
+          1
+        ],
+        [
+          "Vung Ang power station",
+          1
+        ],
+        [
+          "Vila do Conde power station",
+          1
+        ],
+        [
+          "Vasilikos power station",
+          1
+        ],
+        [
+          "Tien Lang power station",
+          1
+        ],
+        [
+          "Thilawa (Sumitomo) power station",
+          1
+        ],
+        [
+          "Thai Binh Combined Cycle power station",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Cost",
+      "code_friendly_name_guess": "cost",
+      "n_total": 1206,
+      "n_null": 769,
+      "n_non_null": 437,
+      "null_rate": 0.6376,
+      "n_unique": 221,
+      "top_values": [
+        [
+          "1000000000",
+          20
+        ],
+        [
+          "5000000000",
+          14
+        ],
+        [
+          "200000000",
+          14
+        ],
+        [
+          "500000000",
+          11
+        ],
+        [
+          "300000000",
+          10
+        ],
+        [
+          "4000000000",
+          9
+        ],
+        [
+          "350000000",
+          8
+        ],
+        [
+          "3000000000",
+          8
+        ],
+        [
+          "4500000000",
+          7
+        ],
+        [
+          "1200000000",
+          7
+        ],
+        [
+          "10000000000",
+          7
+        ],
+        [
+          "100000000",
+          7
+        ],
+        [
+          "7000000000",
+          6
+        ],
+        [
+          "600000000",
+          6
+        ],
+        [
+          "550000000",
+          6
+        ],
+        [
+          "3333333333",
+          6
+        ],
+        [
+          "2000000000",
+          6
+        ],
+        [
+          "8000000000",
+          5
+        ],
+        [
+          "6500000000",
+          5
+        ],
+        [
+          "3600000000",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostUnits",
+      "code_friendly_name_guess": "costunits",
+      "n_total": 1206,
+      "n_null": 769,
+      "n_non_null": 437,
+      "null_rate": 0.6376,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "USD",
+          249
+        ],
+        [
+          "RMB",
+          91
+        ],
+        [
+          "EUR",
+          47
+        ],
+        [
+          "RUB",
+          8
+        ],
+        [
+          "NTD",
+          8
+        ],
+        [
+          "AUD",
+          8
+        ],
+        [
+          "INR",
+          7
+        ],
+        [
+          "KRW",
+          4
+        ],
+        [
+          "CAN",
+          4
+        ],
+        [
+          "PHP",
+          3
+        ],
+        [
+          "BRL",
+          3
+        ],
+        [
+          "THB",
+          1
+        ],
+        [
+          "SWE",
+          1
+        ],
+        [
+          "MR",
+          1
+        ],
+        [
+          "LTL",
+          1
+        ],
+        [
+          "GBP",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:9_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "CostUSD",
+      "code_friendly_name_guess": "costusd",
+      "n_total": 1206,
+      "n_null": 769,
+      "n_non_null": 437,
+      "null_rate": 0.6376,
+      "n_unique": 269,
+      "top_values": [
+        [
+          "200000000",
+          12
+        ],
+        [
+          "5000000000",
+          9
+        ],
+        [
+          "1000000000",
+          9
+        ],
+        [
+          "800000000",
+          8
+        ],
+        [
+          "500000000",
+          8
+        ],
+        [
+          "1090000000",
+          8
+        ],
+        [
+          "3333333333",
+          6
+        ],
+        [
+          "600000000",
+          5
+        ],
+        [
+          "550000000",
+          5
+        ],
+        [
+          "4500000000",
+          5
+        ],
+        [
+          "4000000000",
+          5
+        ],
+        [
+          "3600000000",
+          5
+        ],
+        [
+          "350000000",
+          5
+        ],
+        [
+          "3000000000",
+          5
+        ],
+        [
+          "300000000",
+          5
+        ],
+        [
+          "2000000000",
+          5
+        ],
+        [
+          "1200000000",
+          5
+        ],
+        [
+          "10000000000",
+          5
+        ],
+        [
+          "100000000",
+          5
+        ],
+        [
+          "7000000000",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotKnownTerminalCostsUSD",
+      "code_friendly_name_guess": "totknownterminalcostsusd",
+      "n_total": 1206,
+      "n_null": 586,
+      "n_non_null": 620,
+      "null_rate": 0.4859,
+      "n_unique": 245,
+      "top_values": [
+        [
+          "2000000000",
+          20
+        ],
+        [
+          "6500000000",
+          13
+        ],
+        [
+          "1090000000",
+          13
+        ],
+        [
+          "9999999999",
+          11
+        ],
+        [
+          "500000000",
+          11
+        ],
+        [
+          "1200000000",
+          11
+        ],
+        [
+          "4000000000",
+          10
+        ],
+        [
+          "2800000000",
+          9
+        ],
+        [
+          "35500000000",
+          8
+        ],
+        [
+          "25000000000",
+          8
+        ],
+        [
+          "10000000000",
+          8
+        ],
+        [
+          "600000000",
+          7
+        ],
+        [
+          "31799999999",
+          7
+        ],
+        [
+          "20000000000",
+          7
+        ],
+        [
+          "13500000000",
+          7
+        ],
+        [
+          "800000000",
+          6
+        ],
+        [
+          "23500000001",
+          6
+        ],
+        [
+          "11000000000",
+          6
+        ],
+        [
+          "1000000000",
+          6
+        ],
+        [
+          "545000000",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FIDStatus",
+      "code_friendly_name_guess": "fidstatus",
+      "n_total": 1206,
+      "n_null": 999,
+      "n_non_null": 207,
+      "null_rate": 0.8284,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Pre-FID",
+          113
+        ],
+        [
+          "FID",
+          94
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FIDYear",
+      "code_friendly_name_guess": "fidyear",
+      "n_total": 1206,
+      "n_null": 1031,
+      "n_non_null": 175,
+      "null_rate": 0.8549,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "2025",
+          44
+        ],
+        [
+          "2023",
+          22
+        ],
+        [
+          "2021",
+          17
+        ],
+        [
+          "2026",
+          15
+        ],
+        [
+          "2022",
+          15
+        ],
+        [
+          "2024",
+          13
+        ],
+        [
+          "2019",
+          11
+        ],
+        [
+          "2008",
+          5
+        ],
+        [
+          "2020",
+          4
+        ],
+        [
+          "2015",
+          4
+        ],
+        [
+          "2012",
+          4
+        ],
+        [
+          "2028",
+          3
+        ],
+        [
+          "2018",
+          3
+        ],
+        [
+          "2014",
+          3
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2007",
+          2
+        ],
+        [
+          "2027",
+          1
+        ],
+        [
+          "2017",
+          1
+        ],
+        [
+          "2016",
+          1
+        ],
+        [
+          "2013",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Financing",
+      "code_friendly_name_guess": "financing",
+      "n_total": 1206,
+      "n_null": 1147,
+      "n_non_null": 59,
+      "null_rate": 0.9511,
+      "n_unique": 40,
+      "top_values": [
+        [
+          "US$730 million in debt financing to EIG Global Energy Partners to fund its acquisition from Kinder Morgan of a 49% stake in the Elba Liquefaction Company",
+          10
+        ],
+        [
+          "Initial project financing in 2014 from Japan Bank for International Cooperation (UD$2.6 billion) and from various Japanese commercial banks and Dutch bank ING (US$1.67 billion), with the private financing portion insured by Nippon Export and Investment Insurance (NEXI)",
+          3
+        ],
+        [
+          "US$50 million equity investment from Bechtel",
+          2
+        ],
+        [
+          "US$14.9 billion in loans from the African Development Bank, eight export credit agencies and 19 commercial banks,",
+          2
+        ],
+        [
+          "US$12.2 billion from Russian National Welfare Fund,",
+          2
+        ],
+        [
+          "Potential loan of US$3.2 billion from Export-Import Bank of the United States and the U.S. Development Finance Corporation for Son My LNG Terminal and [[Son My II]] gas power plant",
+          2
+        ],
+        [
+          "JPMorgan Chase is the project's Financial Advisor",
+          2
+        ],
+        [
+          "Initial construction loan package of US$20 billion consisting of US$5.83 billion in direct export credit agency (ECA) loans, US$5.37 billion in ECA-covered debt, US$4.8 billion in commercial bank debt from 24 lenders and US$4 billion in sponsor loans",
+          2
+        ],
+        [
+          "Initial US$500 million loan from Bank of America, JPMorgan Chase, Mizuho and Morgan Stanley (Phases 1 and 2)",
+          2
+        ],
+        [
+          "European Investment Bank loan of €150 million, Connecting Europe Facility grant of €101 million, European Bank for Reconstruction and Development loan of €80 million, €43 million equity contribution from the Electricity Authority of Cyprus",
+          2
+        ],
+        [
+          "€9.5 billion (US$10.7 billion) in loans from Russian and European commercial banks, and from several export credit agencies",
+          1
+        ],
+        [
+          "€25 million from the European Commission",
+          1
+        ],
+        [
+          "€19.6 million (US$20.7 million) grant from the EU's Connecting Europe Facility; loan agreement for Mitsui OSK Lines amounting to up to USD252 million from JBIC, SMBC, and Credit Agricole as of June 20252.2 billion zlotys ($593 million) loan from state bank BGK to finance the onshore segment as of June 2025;",
+          1
+        ],
+        [
+          "€133 million (US$189.9 million) loan from the European Investment Bank; €75 million (US$94.7 million) loan from the European Bank for Reconstruction and Development; €311 million (US$377.46 million) equity investment by Gaz-System; €121.8 million (US$147.6 million) grant from the European Structural Funds and a €65.3 million (US$79.12 million) grant from the European Commission",
+          1
+        ],
+        [
+          "US$85.5 million equity investment from PetroVietnam; US$80 million loan from HSBC and two Taiwanese banks, Mega Bank and Taipei Fubon Bank; US$81.2 million loan from two Vietnamese banks, Southeast Asia Commercial Joint Stock Bank and Vietnam Export Import Bank",
+          1
+        ],
+        [
+          "US$7.7 billion in debt financing across three tranches and agreed in 2014: US$2.5 billion loan from Japan Bank for International Cooperation; a US$2 billion loan from a consortium of international banks (loan insured by Nippon Export and Investment Insurance); a US$3.265 billion loan from international banks",
+          1
+        ],
+        [
+          "US$4 billion in debt financing is being sought, JPMorgan Chase is the financial advisor",
+          1
+        ],
+        [
+          "US$300 million loan from the European Investment Bank",
+          1
+        ],
+        [
+          "US$3.85 billion term loan facility at Rio Grande LNG Train 4, LLC; US$1.13 billion in equity commitments from NextDecade; and US$1.70 billion in equity commitments from partners Global Infrastructure Partners, a part of BlackRock; GIC; Mubadala Investment Company (together, the Financial Investors); and TotalEnergies",
+          1
+        ],
+        [
+          "US$3 billion debt financing from 21 international commercial banks, including Mitsubishi UFJ, Mizuho, Sumitomo Mitusi, JPMorgan and Scotiabank",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Offshore",
+      "code_friendly_name_guess": "offshore",
+      "n_total": 1206,
+      "n_null": 870,
+      "n_non_null": 336,
+      "null_rate": 0.7214,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          336
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Floating",
+      "code_friendly_name_guess": "floating",
+      "n_total": 1206,
+      "n_null": 879,
+      "n_non_null": 327,
+      "null_rate": 0.7289,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          327
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FloatingVesselName",
+      "code_friendly_name_guess": "floatingvesselname",
+      "n_total": 1206,
+      "n_null": 1115,
+      "n_non_null": 91,
+      "null_rate": 0.9245,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "Hoegh Galleon, Energos Power, Energos Eskimo, Hoegh Gandria, Ertugrul Gazi",
+          5
+        ],
+        [
+          "Hilli Episeyo",
+          4
+        ],
+        [
+          "Golar Hilli Episeyo FLNG, Golar MK II FLNG",
+          4
+        ],
+        [
+          "Höegh Grace",
+          3
+        ],
+        [
+          "Höegh Gannet",
+          3
+        ],
+        [
+          "Excelsior",
+          3
+        ],
+        [
+          "Energos Winter",
+          3
+        ],
+        [
+          "Vasant 1",
+          2
+        ],
+        [
+          "Neptune",
+          2
+        ],
+        [
+          "Independence",
+          2
+        ],
+        [
+          "Höegh Esperanza",
+          2
+        ],
+        [
+          "FSU Ghasha",
+          2
+        ],
+        [
+          "Explorer, Golar Igloo",
+          2
+        ],
+        [
+          "Excelerate Exquisite",
+          2
+        ],
+        [
+          "Energos Power",
+          2
+        ],
+        [
+          "Eemshaven LNG, Energos Igloo",
+          2
+        ],
+        [
+          "Vasant FSU, Torman LNG FRU",
+          1
+        ],
+        [
+          "Vasant",
+          1
+        ],
+        [
+          "Transgas Force",
+          1
+        ],
+        [
+          "Tenaga Empat (FSU), Tenaga Satu (FSU)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "VesselOwner",
+      "code_friendly_name_guess": "vesselowner",
+      "n_total": 1206,
+      "n_null": 1138,
+      "n_non_null": 68,
+      "null_rate": 0.9436,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "Excelerate Energy",
+          11
+        ],
+        [
+          "Höegh Evi",
+          8
+        ],
+        [
+          "Karpowership",
+          4
+        ],
+        [
+          "Golar LNG",
+          4
+        ],
+        [
+          "Energos",
+          4
+        ],
+        [
+          "New Fortress Energy",
+          3
+        ],
+        [
+          "Energos Infrastructure",
+          3
+        ],
+        [
+          "BW Group",
+          3
+        ],
+        [
+          "TotalEnergies; Höegh Evi",
+          2
+        ],
+        [
+          "Mitsui O.S.K. Lines",
+          2
+        ],
+        [
+          "KN Energies",
+          2
+        ],
+        [
+          "Energos Infrastructure; Exmar",
+          2
+        ],
+        [
+          "BW LNG",
+          2
+        ],
+        [
+          "Abu Dhabi National Oil",
+          2
+        ],
+        [
+          "Zhejiang Huaxiang",
+          1
+        ],
+        [
+          "TotalEnergies",
+          1
+        ],
+        [
+          "Sycar - LNG",
+          1
+        ],
+        [
+          "Snam",
+          1
+        ],
+        [
+          "SCM (Sembcorp Marine)",
+          1
+        ],
+        [
+          "Pardus Energy",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "VesselOperator",
+      "code_friendly_name_guess": "vesseloperator",
+      "n_total": 1206,
+      "n_null": 1145,
+      "n_non_null": 61,
+      "null_rate": 0.9494,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "Excelerate Energy",
+          8
+        ],
+        [
+          "KN Energies",
+          6
+        ],
+        [
+          "Höegh Evi",
+          6
+        ],
+        [
+          "Energos",
+          5
+        ],
+        [
+          "Karpowership",
+          4
+        ],
+        [
+          "Mitsui O.S.K. Lines",
+          3
+        ],
+        [
+          "BW LNG",
+          3
+        ],
+        [
+          "Höegh LNG Klaipeda",
+          2
+        ],
+        [
+          "Hoegh Evi",
+          2
+        ],
+        [
+          "Atlantic Gulf and Pacific",
+          2
+        ],
+        [
+          "TotalEnergies",
+          1
+        ],
+        [
+          "Sycar - LNG",
+          1
+        ],
+        [
+          "Snam",
+          1
+        ],
+        [
+          "Sevan SSP",
+          1
+        ],
+        [
+          "Reganosa",
+          1
+        ],
+        [
+          "Petroliam Nasional",
+          1
+        ],
+        [
+          "Pardus Energy",
+          1
+        ],
+        [
+          "PT Pelindo Energi Logistik",
+          1
+        ],
+        [
+          "PT Nusantara Regas",
+          1
+        ],
+        [
+          "PT GTS Internasional",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LH2",
+      "code_friendly_name_guess": "lh2",
+      "n_total": 1206,
+      "n_null": 1178,
+      "n_non_null": 28,
+      "null_rate": 0.9768,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "NH3",
+      "code_friendly_name_guess": "nh3",
+      "n_total": 1206,
+      "n_null": 1185,
+      "n_non_null": 21,
+      "null_rate": 0.9826,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "SyntheticLNG",
+      "code_friendly_name_guess": "syntheticlng",
+      "n_total": 1206,
+      "n_null": 1194,
+      "n_non_null": 12,
+      "null_rate": 0.99,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "RetrofitProposed",
+      "code_friendly_name_guess": "retrofitproposed",
+      "n_total": 1206,
+      "n_null": 1202,
+      "n_non_null": 4,
+      "null_rate": 0.9967,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AltFuelPrelimAgreement",
+      "code_friendly_name_guess": "altfuelprelimagreement",
+      "n_total": 1206,
+      "n_null": 1198,
+      "n_non_null": 8,
+      "null_rate": 0.9934,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AltFuelCallMarketInterest",
+      "code_friendly_name_guess": "altfuelcallmarketinterest",
+      "n_total": 1206,
+      "n_null": 1202,
+      "n_non_null": 4,
+      "null_rate": 0.9967,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CCS",
+      "code_friendly_name_guess": "ccs",
+      "n_total": 1206,
+      "n_null": 1160,
+      "n_non_null": 46,
+      "null_rate": 0.9619,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          46
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LastUpdated",
+      "code_friendly_name_guess": "lastupdated",
+      "n_total": 1206,
+      "n_null": 0,
+      "n_non_null": 1206,
+      "null_rate": 0.0,
+      "n_unique": 106,
+      "top_values": [
+        [
+          "2025-09-03 00:00:00",
+          58
+        ],
+        [
+          "2025-08-21 00:00:00",
+          44
+        ],
+        [
+          "2025-09-26 00:00:00",
+          36
+        ],
+        [
+          "2025-09-08 00:00:00",
+          34
+        ],
+        [
+          "2025-06-18 00:00:00",
+          32
+        ],
+        [
+          "2025-08-28 00:00:00",
+          30
+        ],
+        [
+          "2025-07-09 00:00:00",
+          28
+        ],
+        [
+          "2025-06-25 00:00:00",
+          28
+        ],
+        [
+          "2025-06-05 00:00:00",
+          28
+        ],
+        [
+          "2025-07-16 00:00:00",
+          26
+        ],
+        [
+          "2025-07-25 00:00:00",
+          25
+        ],
+        [
+          "2025-07-23 00:00:00",
+          25
+        ],
+        [
+          "2025-07-31 00:00:00",
+          24
+        ],
+        [
+          "2025-07-17 00:00:00",
+          24
+        ],
+        [
+          "2025-06-02 00:00:00",
+          24
+        ],
+        [
+          "2025-07-28 00:00:00",
+          23
+        ],
+        [
+          "2025-05-28 00:00:00",
+          23
+        ],
+        [
+          "2025-09-02 00:00:00",
+          22
+        ],
+        [
+          "2025-07-30 00:00:00",
+          22
+        ],
+        [
+          "2025-07-21 00:00:00",
+          22
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

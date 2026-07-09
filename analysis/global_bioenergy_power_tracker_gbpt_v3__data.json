@@ -1,0 +1,3293 @@
+{
+  "table_name": "global_bioenergy_power_tracker_gbpt_v3__data",
+  "tracker_slug": "global_bioenergy_power_tracker_gbpt_v3",
+  "tab_slug": "data",
+  "n_rows": 4537,
+  "analyzed_at": "2026-07-07T21:45:10.688813+00:00",
+  "tracker_info": {
+    "title": "Global Bioenergy Power Tracker - September 24, 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Bioenergy Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sophia Bauer, Project Manager, Global Bioenergy Power Tracker, Global Energy Monitor - sophia.bauer@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Bioenergy Power Tracker, September 2025 Release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date last researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 234,
+      "top_values": [
+        [
+          "2025-08-18 00:00:00",
+          438
+        ],
+        [
+          "2022-11-03 00:00:00",
+          241
+        ],
+        [
+          "2025-06-04 00:00:00",
+          99
+        ],
+        [
+          "2022-11-16 00:00:00",
+          75
+        ],
+        [
+          "2025-05-23 00:00:00",
+          64
+        ],
+        [
+          "2025-04-15 00:00:00",
+          63
+        ],
+        [
+          "2025-05-22 00:00:00",
+          61
+        ],
+        [
+          "2025-05-21 00:00:00",
+          61
+        ],
+        [
+          "2025-04-10 00:00:00",
+          59
+        ],
+        [
+          "2025-04-09 00:00:00",
+          59
+        ],
+        [
+          "2025-04-08 00:00:00",
+          58
+        ],
+        [
+          "2025-04-17 00:00:00",
+          55
+        ],
+        [
+          "2025-04-07 00:00:00",
+          50
+        ],
+        [
+          "2025-05-14 00:00:00",
+          49
+        ],
+        [
+          "2025-04-11 00:00:00",
+          49
+        ],
+        [
+          "2025-04-14 00:00:00",
+          47
+        ],
+        [
+          "2025-06-18 00:00:00",
+          45
+        ],
+        [
+          "2025-06-02 00:00:00",
+          45
+        ],
+        [
+          "2025-05-15 00:00:00",
+          45
+        ],
+        [
+          "2025-04-28 00:00:00",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Date that the unit was last researched"
+        }
+      ]
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "China",
+          1825
+        ],
+        [
+          "Brazil",
+          676
+        ],
+        [
+          "United States",
+          339
+        ],
+        [
+          "India",
+          158
+        ],
+        [
+          "United Kingdom",
+          132
+        ],
+        [
+          "Japan",
+          121
+        ],
+        [
+          "Thailand",
+          111
+        ],
+        [
+          "Germany",
+          83
+        ],
+        [
+          "Sweden",
+          80
+        ],
+        [
+          "Canada",
+          74
+        ],
+        [
+          "Türkiye",
+          59
+        ],
+        [
+          "Finland",
+          46
+        ],
+        [
+          "South Korea",
+          44
+        ],
+        [
+          "Vietnam",
+          36
+        ],
+        [
+          "Philippines",
+          34
+        ],
+        [
+          "South Africa",
+          33
+        ],
+        [
+          "Mexico",
+          33
+        ],
+        [
+          "France",
+          33
+        ],
+        [
+          "Australia",
+          31
+        ],
+        [
+          "Spain",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Country in which the project is located (Unabbreviated)"
+        }
+      ]
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3539,
+      "top_values": [
+        [
+          "Mumias Sugar Company power station",
+          8
+        ],
+        [
+          "Jiangsu Suzhou Wuzhong District power station",
+          8
+        ],
+        [
+          "Sichuan Chengdu Longquanyi District power station",
+          7
+        ],
+        [
+          "Guangdong Guangzhou Huangpu District power station",
+          7
+        ],
+        [
+          "Guangdong Dongguan Hengli power station",
+          7
+        ],
+        [
+          "Zhejiang Shangyu power station",
+          6
+        ],
+        [
+          "Hainan Haikou Laocheng power station",
+          6
+        ],
+        [
+          "Guangdong Zhuhai power station",
+          6
+        ],
+        [
+          "Guangdong Xinfeng power station",
+          6
+        ],
+        [
+          "Guangdong Foshan Nanhai District power station",
+          6
+        ],
+        [
+          "Compagnie Sucriere Senegalaise power station",
+          6
+        ],
+        [
+          "Beijing Chaoyang District power station",
+          6
+        ],
+        [
+          "Zhejiang Taizhou (Wangneng) power station",
+          5
+        ],
+        [
+          "Zhejiang Huzhou power station",
+          5
+        ],
+        [
+          "Shanghai Laogang power station",
+          5
+        ],
+        [
+          "Maidstone power station",
+          5
+        ],
+        [
+          "Hubei Jianli (Nine Dragons Paper) power station",
+          5
+        ],
+        [
+          "Guangdong Zhanjiang (Chenming) power station",
+          5
+        ],
+        [
+          "Guangdong Shenzhen Bao'an power station",
+          5
+        ],
+        [
+          "Guangdong Huizhou power station",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Commonly used name"
+        }
+      ]
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 4537,
+      "n_null": 1,
+      "n_non_null": 4536,
+      "null_rate": 0.0002,
+      "n_unique": 265,
+      "top_values": [
+        [
+          "1.0",
+          1652
+        ],
+        [
+          "--",
+          1211
+        ],
+        [
+          "2.0",
+          345
+        ],
+        [
+          "1900-01-01 02:24:00",
+          265
+        ],
+        [
+          "1900-01-02 02:24:00",
+          264
+        ],
+        [
+          "3.0",
+          91
+        ],
+        [
+          "GEN1",
+          85
+        ],
+        [
+          "1900-01-01 04:48:00",
+          41
+        ],
+        [
+          "GEN2",
+          39
+        ],
+        [
+          "4.0",
+          39
+        ],
+        [
+          "1900-01-02 04:48:00",
+          38
+        ],
+        [
+          "1900-01-03 02:24:00",
+          22
+        ],
+        [
+          "1, timepoint 2",
+          21
+        ],
+        [
+          "5.0",
+          18
+        ],
+        [
+          "1900-01-02 07:12:00",
+          16
+        ],
+        [
+          "1900-01-01 07:12:00",
+          16
+        ],
+        [
+          "GEN3",
+          11
+        ],
+        [
+          "6.0",
+          11
+        ],
+        [
+          "GEN4",
+          10
+        ],
+        [
+          "2, timepoint 2",
+          8
+        ]
+      ],
+      "portion_numeric": 0.438,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Common name of the project unit. Numerals are used if none were provided, beginning with 1"
+        }
+      ]
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 4537,
+      "n_null": 1525,
+      "n_non_null": 3012,
+      "null_rate": 0.3361,
+      "n_unique": 2286,
+      "top_values": [
+        [
+          "江苏省苏州市吴中区垃圾焚烧发电项目",
+          8
+        ],
+        [
+          "横沥环保热电厂",
+          7
+        ],
+        [
+          "成都市万兴环保发电厂",
+          7
+        ],
+        [
+          "广州市第三资源热力电厂, 广东广州黄埔区垃圾焚烧发电项目",
+          7
+        ],
+        [
+          "老城开发区海口环保发电厂, 海口生活垃圾焚烧发电厂",
+          6
+        ],
+        [
+          "浙江春晖环保能源有限公司生物质发电工程",
+          6
+        ],
+        [
+          "广东珠海垃圾焚烧发电项目",
+          6
+        ],
+        [
+          "广东新丰旭能生物质发电项目",
+          6
+        ],
+        [
+          "北京市朝阳生活垃圾综合处理厂焚烧中心, 北京高安屯垃圾焚烧发电厂",
+          6
+        ],
+        [
+          "佛山南海垃圾焚烧发电项目, 南海固废处理环保产业园",
+          6
+        ],
+        [
+          "福州红庙岭垃圾焚烧发电厂",
+          5
+        ],
+        [
+          "湖北监利（玖龙纸业）碱回收和固废发电项目",
+          5
+        ],
+        [
+          "深圳市宝安（老虎坑）垃圾焚烧发电厂二期工程, 深圳市宝安（老虎坑）垃圾焚烧发电厂三期工程",
+          5
+        ],
+        [
+          "浙江湖州垃圾焚烧发电项目",
+          5
+        ],
+        [
+          "广东湛江晨鸣发电厂",
+          5
+        ],
+        [
+          "广东惠州市惠阳区榄子垅垃圾综合处理项目",
+          5
+        ],
+        [
+          "安徽郎溪生物质发电项目",
+          5
+        ],
+        [
+          "台州市城市生活垃圾焚烧发电工程",
+          5
+        ],
+        [
+          "东莞市区环保热电厂",
+          5
+        ],
+        [
+          "上海老港生活垃圾焚烧发电厂",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Commonly used name in the locally used script"
+        }
+      ]
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 4537,
+      "n_null": 2840,
+      "n_non_null": 1697,
+      "null_rate": 0.626,
+      "n_unique": 1358,
+      "top_values": [
+        [
+          "广州福山循环经济产业园生活垃圾应急综合处理项目",
+          7
+        ],
+        [
+          "珠海市环保生物质热电工程",
+          6
+        ],
+        [
+          "CSS",
+          6
+        ],
+        [
+          "湛江晨鸣浆纸有限公司公司自备热电站",
+          5
+        ],
+        [
+          "湖州南太湖环保能源有限公司1000吨炉排炉垃圾焚烧发电改造项目",
+          5
+        ],
+        [
+          "宝安能源生态园",
+          5
+        ],
+        [
+          "Maidstone Mill Steam Cogen Plant, Tongaat Hulett Sugar Maidstone Mill, Maidstone Mill",
+          5
+        ],
+        [
+          "鲁家山垃圾焚烧发电厂二期, 鲁家山垃圾焚烧发电厂",
+          4
+        ],
+        [
+          "玖龙纸业(北海)有限公司碱回收工程",
+          4
+        ],
+        [
+          "广西建晖纸业有限公司林浆纸一体化项目",
+          4
+        ],
+        [
+          "WestRock-West Point Mill, RockTenn West Point Mill (St. Laurent Paper Products)",
+          4
+        ],
+        [
+          "Welkayit Sugar Factory, Wolkaiyt Sugar Factory, Welkayte Sugar Factory",
+          4
+        ],
+        [
+          "UK Oxy CCS Demonstration Project (White Rose CCS Project)",
+          4
+        ],
+        [
+          "Impianto di Acerra Cogen, Acerra Fri-El",
+          4
+        ],
+        [
+          "I-Malelane Mill Steam Cogen Plant, Tsb Sugar Warehouse, Malelane",
+          4
+        ],
+        [
+          "Finca Buganvilla",
+          4
+        ],
+        [
+          "Bahia Sul",
+          4
+        ],
+        [
+          "郑州（西部）环保能源工程",
+          3
+        ],
+        [
+          "郑州（东部）环保能源工程",
+          3
+        ],
+        [
+          "梧州静脉产业园生活垃圾焚烧发电项目",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Alternative power station names, including the name in local script"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 411,
+      "top_values": [
+        [
+          "30.0",
+          561
+        ],
+        [
+          "12.0",
+          395
+        ],
+        [
+          "15.0",
+          275
+        ],
+        [
+          "40.0",
+          202
+        ],
+        [
+          "25.0",
+          193
+        ],
+        [
+          "10.0",
+          167
+        ],
+        [
+          "50.0",
+          166
+        ],
+        [
+          "20.0",
+          156
+        ],
+        [
+          "35.0",
+          142
+        ],
+        [
+          "18.0",
+          131
+        ],
+        [
+          "6.0",
+          78
+        ],
+        [
+          "9.0",
+          70
+        ],
+        [
+          "45.0",
+          62
+        ],
+        [
+          "60.0",
+          52
+        ],
+        [
+          "7.5",
+          51
+        ],
+        [
+          "75.0",
+          37
+        ],
+        [
+          "22.0",
+          37
+        ],
+        [
+          "24.0",
+          35
+        ],
+        [
+          "32.0",
+          34
+        ],
+        [
+          "80.0",
+          33
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "MW",
+          "definition": "Gross capacity, or best available data, of the project in megawatts rounded to whole number. The summed nameplate capacity of all operating units regardless of unit capacity."
+        }
+      ]
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 167,
+      "top_values": [
+        [
+          "bioenergy: refuse (municipal and industrial wastes)",
+          1610
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          1220
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          508
+        ],
+        [
+          "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+          250
+        ],
+        [
+          "bioenergy: paper mill wastes",
+          117
+        ],
+        [
+          "bioenergy: refuse (landfill gas)",
+          84
+        ],
+        [
+          "bioenergy: unknown",
+          74
+        ],
+        [
+          "bioenergy: refuse (municipal and industrial wastes), bioenergy: wastewater and sewage sludge (solids or biogas)",
+          69
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+          51
+        ],
+        [
+          "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+          37
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+          29
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes",
+          23
+        ],
+        [
+          "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids)",
+          22
+        ],
+        [
+          "bioenergy: refuse (municipal and industrial wastes), fossil gas: natural gas",
+          21
+        ],
+        [
+          "bioenergy: biodiesel",
+          21
+        ],
+        [
+          "bioenergy: paper mill wastes, fossil gas: natural gas",
+          18
+        ],
+        [
+          "bioenergy: agricultural waste (biogas)",
+          18
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+          17
+        ],
+        [
+          "bioenergy: wastewater and sewage sludge (solids or biogas)",
+          15
+        ],
+        [
+          "bioenergy: wood & other biomass (biocoal)",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "see rows 30-79 above"
+        }
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          3850
+        ],
+        [
+          "construction",
+          176
+        ],
+        [
+          "pre-construction",
+          162
+        ],
+        [
+          "announced",
+          122
+        ],
+        [
+          "cancelled - inferred 4 y",
+          75
+        ],
+        [
+          "retired",
+          45
+        ],
+        [
+          "shelved - inferred 2 y",
+          35
+        ],
+        [
+          "mothballed",
+          28
+        ],
+        [
+          "cancelled",
+          23
+        ],
+        [
+          "shelved",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "see rows 18-28 above"
+        }
+      ]
+    },
+    {
+      "field_name": "Conversion/Replacement?",
+      "code_friendly_name_guess": "conversion_replacement",
+      "n_total": 4537,
+      "n_null": 4451,
+      "n_non_null": 86,
+      "null_rate": 0.981,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "coal to bioenergy conversion",
+          75
+        ],
+        [
+          "oil to bioenergy conversion",
+          4
+        ],
+        [
+          "gas to bioenergy conversion",
+          4
+        ],
+        [
+          "coal to bioenergy",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Conversion Year",
+      "code_friendly_name_guess": "unit_conversion_year",
+      "n_total": 4537,
+      "n_null": 4475,
+      "n_non_null": 62,
+      "null_rate": 0.9863,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "2012.0",
+          8
+        ],
+        [
+          "2013.0",
+          7
+        ],
+        [
+          "2016.0",
+          5
+        ],
+        [
+          "2014.0",
+          5
+        ],
+        [
+          "2009.0",
+          5
+        ],
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2018.0",
+          4
+        ],
+        [
+          "2015.0",
+          4
+        ],
+        [
+          "2018",
+          3
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ],
+        [
+          "2006.0",
+          2
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2013",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 4537,
+      "n_null": 872,
+      "n_non_null": 3665,
+      "null_rate": 0.1922,
+      "n_unique": 87,
+      "top_values": [
+        [
+          "2021.0",
+          325
+        ],
+        [
+          "2020.0",
+          262
+        ],
+        [
+          "2019.0",
+          211
+        ],
+        [
+          "2022.0",
+          187
+        ],
+        [
+          "2017.0",
+          163
+        ],
+        [
+          "2018.0",
+          154
+        ],
+        [
+          "2023.0",
+          140
+        ],
+        [
+          "2015.0",
+          131
+        ],
+        [
+          "2013.0",
+          131
+        ],
+        [
+          "2012.0",
+          122
+        ],
+        [
+          "2014.0",
+          119
+        ],
+        [
+          "2011.0",
+          103
+        ],
+        [
+          "2016.0",
+          101
+        ],
+        [
+          "2010.0",
+          98
+        ],
+        [
+          "2009.0",
+          97
+        ],
+        [
+          "2024.0",
+          93
+        ],
+        [
+          "2025.0",
+          81
+        ],
+        [
+          "2008.0",
+          78
+        ],
+        [
+          "2007.0",
+          68
+        ],
+        [
+          "2006.0",
+          67
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 4537,
+      "n_null": 4479,
+      "n_non_null": 58,
+      "null_rate": 0.9872,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "2024.0",
+          10
+        ],
+        [
+          "2027.0",
+          8
+        ],
+        [
+          "2023.0",
+          8
+        ],
+        [
+          "2019.0",
+          6
+        ],
+        [
+          "2025.0",
+          4
+        ],
+        [
+          "2020.0",
+          4
+        ],
+        [
+          "1995.0",
+          3
+        ],
+        [
+          "2050.0",
+          2
+        ],
+        [
+          "2029.0",
+          2
+        ],
+        [
+          "2018.0",
+          2
+        ],
+        [
+          "2015.0",
+          2
+        ],
+        [
+          "2072.0",
+          1
+        ],
+        [
+          "2043.0",
+          1
+        ],
+        [
+          "2028.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2008.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Hydrogen Capable",
+      "code_friendly_name_guess": "hydrogen_capable",
+      "n_total": 4537,
+      "n_null": 4532,
+      "n_non_null": 5,
+      "null_rate": 0.9989,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "not found",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "If the unit is capable of producing hydrogen"
+        }
+      ]
+    },
+    {
+      "field_name": "Operator(s)",
+      "code_friendly_name_guess": "operator_s",
+      "n_total": 4537,
+      "n_null": 1649,
+      "n_non_null": 2888,
+      "null_rate": 0.3635,
+      "n_unique": 1871,
+      "top_values": [
+        [
+          "International Paper",
+          28
+        ],
+        [
+          "Shenzhen Energy and Environmental Protection",
+          13
+        ],
+        [
+          "Suzano",
+          12
+        ],
+        [
+          "Westrock",
+          11
+        ],
+        [
+          "Viridor",
+          10
+        ],
+        [
+          "Arauco Bioenergía",
+          10
+        ],
+        [
+          "Biosev",
+          9
+        ],
+        [
+          "Bioenergia Barra",
+          9
+        ],
+        [
+          "Zhongnan Yueshui Investment",
+          8
+        ],
+        [
+          "Guangzhou Environmental Investment Huacheng Environmental Protection Energy",
+          8
+        ],
+        [
+          "Everbright Environmental Energy (Suzhou)",
+          8
+        ],
+        [
+          "Wheelabrator Environmental Systems",
+          7
+        ],
+        [
+          "Stockholm Exergi",
+          7
+        ],
+        [
+          "Klabin",
+          7
+        ],
+        [
+          "Guangzhou Environmental Investment Fushan Environmental Energy",
+          7
+        ],
+        [
+          "Chengdu Xingrong Renewable Energy",
+          7
+        ],
+        [
+          "Açucareira Quatá",
+          7
+        ],
+        [
+          "Zhejiang Chunhui Environmental Protection Energy",
+          6
+        ],
+        [
+          "Södra Skogsägarna",
+          6
+        ],
+        [
+          "Hanlan Green Power Solid Waste Treatment (Foshan)",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name(s) in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_s_in_local_language_script",
+      "n_total": 4537,
+      "n_null": 2701,
+      "n_non_null": 1836,
+      "null_rate": 0.5953,
+      "n_unique": 1239,
+      "top_values": [
+        [
+          "深圳能源环保股份有限公司",
+          13
+        ],
+        [
+          "广州环投南沙环保能源有限公司",
+          8
+        ],
+        [
+          "光大环保能源(苏州)有限公司",
+          8
+        ],
+        [
+          "中南粤水电投资有限公司",
+          8
+        ],
+        [
+          "成都市兴蓉再生能源有限公司",
+          7
+        ],
+        [
+          "广州环投福山环保能源有限公司",
+          7
+        ],
+        [
+          "韶能集团新丰旭能生物质发电有限公司",
+          6
+        ],
+        [
+          "瀚蓝绿电固废处理（佛山）有限公司",
+          6
+        ],
+        [
+          "浙江春晖环保能源有限公司",
+          6
+        ],
+        [
+          "北京高安屯垃圾焚烧有限公司",
+          6
+        ],
+        [
+          "郎溪理昂生物质发电有限公司",
+          5
+        ],
+        [
+          "玖龙纸业（湖北）有限公司",
+          5
+        ],
+        [
+          "湛江晨鸣浆纸有限公司",
+          5
+        ],
+        [
+          "湖州南太湖环保能源有限公司",
+          5
+        ],
+        [
+          "台州旺能再生资源利用有限公司",
+          5
+        ],
+        [
+          "东莞粤丰环保电力有限公司",
+          5
+        ],
+        [
+          "东莞市科伟环保电力有限公司",
+          5
+        ],
+        [
+          "上海老港固废综合开发有限公司",
+          5
+        ],
+        [
+          "齐齐哈尔九洲环境能源有限公司",
+          4
+        ],
+        [
+          "银川中科环保电力有限公司",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator(s) GEM Entity ID",
+      "code_friendly_name_guess": "operator_s_gem_entity_id",
+      "n_total": 4537,
+      "n_null": 1649,
+      "n_non_null": 2888,
+      "null_rate": 0.3635,
+      "n_unique": 1874,
+      "top_values": [
+        [
+          "E100000001241",
+          28
+        ],
+        [
+          "E100000129256",
+          13
+        ],
+        [
+          "E100001000044",
+          12
+        ],
+        [
+          "E100001001078",
+          11
+        ],
+        [
+          "E100001000112",
+          10
+        ],
+        [
+          "E100000132985",
+          10
+        ],
+        [
+          "E100001000065",
+          9
+        ],
+        [
+          "E100001000059",
+          9
+        ],
+        [
+          "E100001017527",
+          8
+        ],
+        [
+          "E100001017467",
+          8
+        ],
+        [
+          "E100001017079",
+          8
+        ],
+        [
+          "E100001017121",
+          7
+        ],
+        [
+          "E100001016996",
+          7
+        ],
+        [
+          "E100001000074",
+          7
+        ],
+        [
+          "E100001000057",
+          7
+        ],
+        [
+          "E100001000049",
+          7
+        ],
+        [
+          "E100001000046",
+          7
+        ],
+        [
+          "E100002015181",
+          6
+        ],
+        [
+          "E100002010641",
+          6
+        ],
+        [
+          "E100001017431",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each operator"
+        }
+      ]
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 4537,
+      "n_null": 892,
+      "n_non_null": 3645,
+      "null_rate": 0.1966,
+      "n_unique": 2028,
+      "top_values": [
+        [
+          "unknown [100%]",
+          47
+        ],
+        [
+          "National Bio Energy Group Ltd [100%]",
+          38
+        ],
+        [
+          "Chongqing Sanfeng Environment Group Corp Ltd [100%]",
+          33
+        ],
+        [
+          "China National Environmental Protection Group",
+          32
+        ],
+        [
+          "Kaidi Ecological and Environmental Technology Co Ltd [100%]",
+          28
+        ],
+        [
+          "International Paper Co [100%]",
+          26
+        ],
+        [
+          "Dynagreen Environmental Protection Group Co Ltd",
+          24
+        ],
+        [
+          "Grandblue Environment Co Ltd",
+          22
+        ],
+        [
+          "China Everbright International Co Ltd",
+          22
+        ],
+        [
+          "Zhejiang Weiming Environmental Protection Co Ltd",
+          20
+        ],
+        [
+          "eRex Co Ltd",
+          19
+        ],
+        [
+          "Guangdong Chant Group Inc [100%]",
+          18
+        ],
+        [
+          "Chongqing Sanfeng Environment Group Corp Ltd",
+          18
+        ],
+        [
+          "Everbright Green Energy (Anhui) Holdings Co Ltd [100%]",
+          16
+        ],
+        [
+          "Shanghai SUS Environment Co Ltd",
+          15
+        ],
+        [
+          "Guangzhou Yongxing Environmental Protection Energy Co Ltd [100%]",
+          15
+        ],
+        [
+          "Anhui Province Energy Group Company Limited Ltd",
+          15
+        ],
+        [
+          "Absolute Clean Energy PCL",
+          15
+        ],
+        [
+          "China Everbright Environment (Group) Co Ltd",
+          14
+        ],
+        [
+          "Li Ang Ecological Energy Co Ltd",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name(s) in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_s_in_local_language_script",
+      "n_total": 4537,
+      "n_null": 3170,
+      "n_non_null": 1367,
+      "null_rate": 0.6987,
+      "n_unique": 522,
+      "top_values": [
+        [
+          "重庆三峰环境集团股份有限公司",
+          51
+        ],
+        [
+          "国能生物发电集团有限公司",
+          38
+        ],
+        [
+          "绿色动力环保集团股份有限公司",
+          36
+        ],
+        [
+          "中国环境保护集团有限公司",
+          34
+        ],
+        [
+          "凯迪生态环境科技股份有限公司",
+          28
+        ],
+        [
+          "广东长青（集团）股份有限公司",
+          26
+        ],
+        [
+          "瀚蓝环境股份有限公司",
+          24
+        ],
+        [
+          "中国光大国际有限公司",
+          23
+        ],
+        [
+          "上海康恒环境股份有限公司",
+          22
+        ],
+        [
+          "理昂生态能源股份有限公司",
+          21
+        ],
+        [
+          "浙江伟明环保股份有限公司",
+          21
+        ],
+        [
+          "中国光大环境（集团）有限公司",
+          20
+        ],
+        [
+          "persons",
+          20
+        ],
+        [
+          "イーレックス",
+          19
+        ],
+        [
+          "光大绿色环保再生能源(安徽)控股有限公司",
+          16
+        ],
+        [
+          "深圳能源环保股份有限公司",
+          15
+        ],
+        [
+          "广州永兴环保能源有限公司",
+          15
+        ],
+        [
+          "安徽皖能集团有限公司",
+          15
+        ],
+        [
+          "บริษัท แอ๊บโซลูท คลีน เอ็นเนอร์จี้ จำกัด (มหาชน)",
+          15
+        ],
+        [
+          "粤丰环保电力有限公司",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner(s) GEM Entity ID",
+      "code_friendly_name_guess": "owner_s_gem_entity_id",
+      "n_total": 4537,
+      "n_null": 892,
+      "n_non_null": 3645,
+      "null_rate": 0.1966,
+      "n_unique": 2028,
+      "top_values": [
+        [
+          "E100000132388 [100%]",
+          47
+        ],
+        [
+          "E100000129738 [100%]",
+          38
+        ],
+        [
+          "E100000129850 [100%]",
+          33
+        ],
+        [
+          "E100000129671",
+          32
+        ],
+        [
+          "E100001000064 [100%]",
+          28
+        ],
+        [
+          "E100000001241 [100%]",
+          26
+        ],
+        [
+          "E100000129713",
+          24
+        ],
+        [
+          "E100002000406",
+          22
+        ],
+        [
+          "E100000129846",
+          22
+        ],
+        [
+          "E100001017067",
+          20
+        ],
+        [
+          "E100000121583",
+          19
+        ],
+        [
+          "E100000129850",
+          18
+        ],
+        [
+          "E100000123874 [100%]",
+          18
+        ],
+        [
+          "E100001017385 [100%]",
+          16
+        ],
+        [
+          "E100001016997 [100%]",
+          15
+        ],
+        [
+          "E100000179356",
+          15
+        ],
+        [
+          "E100000129639",
+          15
+        ],
+        [
+          "E100000001021",
+          15
+        ],
+        [
+          "E100000130448",
+          14
+        ],
+        [
+          "E100000129791",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each owner"
+        }
+      ]
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 4537,
+      "n_null": 892,
+      "n_non_null": 3645,
+      "null_rate": 0.1966,
+      "n_unique": 1865,
+      "top_values": [
+        [
+          "unknown [100.0%]",
+          47
+        ],
+        [
+          "State Power Investment Corp Ltd [65.4%]; State Grid Corporation of China [27.5%]; unknown [7.2%]",
+          38
+        ],
+        [
+          "Kaidi Ecological and Environmental Technology Co Ltd [100.0%]",
+          37
+        ],
+        [
+          "China Energy Conservation and Environmental Protection Group Co Ltd",
+          35
+        ],
+        [
+          "Chongqing Sanfeng Environment Group Corp Ltd [100.0%]",
+          33
+        ],
+        [
+          "Raizen SA [100.0%]",
+          27
+        ],
+        [
+          "International Paper Co [100.0%]",
+          26
+        ],
+        [
+          "Dynagreen Environmental Protection Group Co Ltd",
+          24
+        ],
+        [
+          "Paper Excellence BV",
+          23
+        ],
+        [
+          "China Everbright International Co Ltd",
+          23
+        ],
+        [
+          "Grandblue Environment Co Ltd",
+          22
+        ],
+        [
+          "Zhejiang Weiming Environmental Protection Co Ltd",
+          20
+        ],
+        [
+          "eRex Co Ltd",
+          19
+        ],
+        [
+          "Guangdong Chant Group Inc [100.0%]",
+          18
+        ],
+        [
+          "Chongqing Sanfeng Environment Group Corp Ltd",
+          18
+        ],
+        [
+          "Everbright Green Energy (Anhui) Holdings Co Ltd [100.0%]",
+          16
+        ],
+        [
+          "Veolia Environnement SA",
+          15
+        ],
+        [
+          "Guangzhou Yongxing Environmental Protection Energy Co Ltd [100.0%]",
+          15
+        ],
+        [
+          "EQT AB; GIC Pte Ltd",
+          15
+        ],
+        [
+          "Digital Economy Capital Ltd; natural person(s); Ningbo Tongshang Holding Group Co Ltd; Shanghai Kangsui Investment Center LP; SIIC Yangtze River Delta Ecological Development Co Ltd; unknown; Zhejiang Financial Development Co Ltd",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Parent company of the Owner"
+        }
+      ]
+    },
+    {
+      "field_name": "Parent(s) GEM Entity ID",
+      "code_friendly_name_guess": "parent_s_gem_entity_id",
+      "n_total": 4537,
+      "n_null": 892,
+      "n_non_null": 3645,
+      "null_rate": 0.1966,
+      "n_unique": 1868,
+      "top_values": [
+        [
+          "E100000132388 [100.0%]",
+          47
+        ],
+        [
+          "E100000000273 [65.4%]; E100001000514 [27.5%]; E100000132388 [7.2%]",
+          38
+        ],
+        [
+          "E100001000064 [100.0%]",
+          37
+        ],
+        [
+          "E100000001416",
+          35
+        ],
+        [
+          "E100000129850 [100.0%]",
+          33
+        ],
+        [
+          "E100002001393 [100.0%]",
+          27
+        ],
+        [
+          "E100000001241 [100.0%]",
+          26
+        ],
+        [
+          "E100000129713",
+          24
+        ],
+        [
+          "E100002000600",
+          23
+        ],
+        [
+          "E100002000406",
+          23
+        ],
+        [
+          "E100000129846",
+          22
+        ],
+        [
+          "E100001017067",
+          20
+        ],
+        [
+          "E100000121583",
+          19
+        ],
+        [
+          "E100000129850",
+          18
+        ],
+        [
+          "E100000123874 [100.0%]",
+          18
+        ],
+        [
+          "E100001017385 [100.0%]",
+          16
+        ],
+        [
+          "E100001016997 [100.0%]",
+          15
+        ],
+        [
+          "E100000179356",
+          15
+        ],
+        [
+          "E100000130626; E100000123261; E100000125065; E100000129900; E100000130414; E100000132388; E100001000032",
+          15
+        ],
+        [
+          "E100000001021",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each parent company"
+        }
+      ]
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3538,
+      "top_values": [
+        [
+          "31.244448",
+          8
+        ],
+        [
+          "0.3643",
+          8
+        ],
+        [
+          "30.641433",
+          7
+        ],
+        [
+          "23.2868",
+          7
+        ],
+        [
+          "23.042736",
+          7
+        ],
+        [
+          "39.946931",
+          6
+        ],
+        [
+          "30.131225",
+          6
+        ],
+        [
+          "24.1345",
+          6
+        ],
+        [
+          "23.159006",
+          6
+        ],
+        [
+          "22.204027",
+          6
+        ],
+        [
+          "19.930426",
+          6
+        ],
+        [
+          "15.9982419",
+          6
+        ],
+        [
+          "33.3602",
+          5
+        ],
+        [
+          "31.0412",
+          5
+        ],
+        [
+          "31.0045",
+          5
+        ],
+        [
+          "30.794543",
+          5
+        ],
+        [
+          "29.6309",
+          5
+        ],
+        [
+          "28.548893",
+          5
+        ],
+        [
+          "22.945705",
+          5
+        ],
+        [
+          "22.831",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "decimal degrees",
+          "definition": "Latitude, assumed WGS84 (google maps), of the project (not by unit)"
+        }
+      ]
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3541,
+      "top_values": [
+        [
+          "34.5052",
+          8
+        ],
+        [
+          "120.54618",
+          8
+        ],
+        [
+          "113.931819",
+          7
+        ],
+        [
+          "113.5063",
+          7
+        ],
+        [
+          "104.361715",
+          7
+        ],
+        [
+          "120.841468",
+          6
+        ],
+        [
+          "116.614655",
+          6
+        ],
+        [
+          "114.3174",
+          6
+        ],
+        [
+          "113.119269",
+          6
+        ],
+        [
+          "113.035223",
+          6
+        ],
+        [
+          "110.066435",
+          6
+        ],
+        [
+          "-16.422929",
+          6
+        ],
+        [
+          "31.1303949",
+          5
+        ],
+        [
+          "121.8394",
+          5
+        ],
+        [
+          "121.548239",
+          5
+        ],
+        [
+          "120.183883",
+          5
+        ],
+        [
+          "119.109",
+          5
+        ],
+        [
+          "113.8454",
+          5
+        ],
+        [
+          "113.763403",
+          5
+        ],
+        [
+          "113.2633",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "decimal degrees",
+          "definition": "Longitude, assumed WGS84 (google maps), of the project (not by unit)"
+        }
+      ]
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          3682
+        ],
+        [
+          "approximate",
+          855
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "approximate, exact",
+          "definition": "Location is Approximate based by using nearest city or other information in research, or Location is Exact based on visibility on map or given in research"
+        }
+      ]
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 4537,
+      "n_null": 2600,
+      "n_non_null": 1937,
+      "null_rate": 0.5731,
+      "n_unique": 1308,
+      "top_values": [
+        [
+          "Shoushan",
+          8
+        ],
+        [
+          "Mudu",
+          8
+        ],
+        [
+          "Lençóis Paulista",
+          8
+        ],
+        [
+          "Xinxu",
+          7
+        ],
+        [
+          "Luodai",
+          7
+        ],
+        [
+          "Jiulong",
+          7
+        ],
+        [
+          "Hengli",
+          7
+        ],
+        [
+          "Três Lagoas",
+          6
+        ],
+        [
+          "Saint Louis",
+          6
+        ],
+        [
+          "Rio Brilhante",
+          6
+        ],
+        [
+          "Matou",
+          6
+        ],
+        [
+          "Jinzhan",
+          6
+        ],
+        [
+          "Doumen",
+          6
+        ],
+        [
+          "Taiping",
+          5
+        ],
+        [
+          "Taihe",
+          5
+        ],
+        [
+          "Songgang",
+          5
+        ],
+        [
+          "Shatian",
+          5
+        ],
+        [
+          "Pengjie",
+          5
+        ],
+        [
+          "Nancheng Residential District",
+          5
+        ],
+        [
+          "Maidstone",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "City, town, or village where project is located"
+        }
+      ]
+    },
+    {
+      "field_name": "Local Area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 4537,
+      "n_null": 2243,
+      "n_non_null": 2294,
+      "null_rate": 0.4944,
+      "n_unique": 1294,
+      "top_values": [
+        [
+          "N/A",
+          27
+        ],
+        [
+          "Yongqiao District",
+          9
+        ],
+        [
+          "Pudong New District",
+          9
+        ],
+        [
+          "Wuzhong District",
+          8
+        ],
+        [
+          "Tieshangang District",
+          8
+        ],
+        [
+          "Chaoyang District",
+          8
+        ],
+        [
+          "Xishan District",
+          7
+        ],
+        [
+          "Xinfeng",
+          7
+        ],
+        [
+          "Xiang'an District",
+          7
+        ],
+        [
+          "Longwan District",
+          7
+        ],
+        [
+          "Longquanyi District",
+          7
+        ],
+        [
+          "Jianli",
+          7
+        ],
+        [
+          "Jiangxia District",
+          7
+        ],
+        [
+          "Huangpu District",
+          7
+        ],
+        [
+          "Huangdao District",
+          7
+        ],
+        [
+          "Yushu City",
+          6
+        ],
+        [
+          "Värmland County",
+          6
+        ],
+        [
+          "Teng",
+          6
+        ],
+        [
+          "Stockholm County",
+          6
+        ],
+        [
+          "Shangyu District",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "County/taluk where project is located"
+        }
+      ]
+    },
+    {
+      "field_name": "Major Area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 4537,
+      "n_null": 2370,
+      "n_non_null": 2167,
+      "null_rate": 0.5224,
+      "n_unique": 518,
+      "top_values": [
+        [
+          "N/A",
+          113
+        ],
+        [
+          "Suzhou",
+          38
+        ],
+        [
+          "Wenzhou",
+          27
+        ],
+        [
+          "Guangzhou",
+          26
+        ],
+        [
+          "Fuzhou",
+          24
+        ],
+        [
+          "Taizhou",
+          20
+        ],
+        [
+          "Harbin",
+          20
+        ],
+        [
+          "Qiqihar",
+          19
+        ],
+        [
+          "Dongguan",
+          19
+        ],
+        [
+          "Suihua",
+          18
+        ],
+        [
+          "Shenzhen",
+          18
+        ],
+        [
+          "Jingzhou",
+          18
+        ],
+        [
+          "Changchun",
+          17
+        ],
+        [
+          "Xuzhou",
+          16
+        ],
+        [
+          "Wuhan",
+          16
+        ],
+        [
+          "Shijiazhuang",
+          16
+        ],
+        [
+          "Qingdao",
+          16
+        ],
+        [
+          "Linyi",
+          16
+        ],
+        [
+          "Chengdu",
+          16
+        ],
+        [
+          "Shaoxing",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Prefecture or district where project is located"
+        }
+      ]
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 4537,
+      "n_null": 1424,
+      "n_non_null": 3113,
+      "null_rate": 0.3139,
+      "n_unique": 434,
+      "top_values": [
+        [
+          "Guangdong",
+          172
+        ],
+        [
+          "Shandong",
+          170
+        ],
+        [
+          "São Paulo",
+          125
+        ],
+        [
+          "Jiangsu",
+          122
+        ],
+        [
+          "Anhui",
+          119
+        ],
+        [
+          "Zhejiang",
+          117
+        ],
+        [
+          "Henan",
+          110
+        ],
+        [
+          "Heilongjiang",
+          103
+        ],
+        [
+          "Hebei",
+          101
+        ],
+        [
+          "Guangxi",
+          79
+        ],
+        [
+          "England",
+          75
+        ],
+        [
+          "Hubei",
+          70
+        ],
+        [
+          "Jilin",
+          68
+        ],
+        [
+          "Fujian",
+          67
+        ],
+        [
+          "Sichuan",
+          64
+        ],
+        [
+          "Jiangxi",
+          59
+        ],
+        [
+          "Liaoning",
+          57
+        ],
+        [
+          "Hunan",
+          44
+        ],
+        [
+          "Mato Grosso do Sul",
+          36
+        ],
+        [
+          "Guizhou",
+          34
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Subnational unit where project is located"
+        }
+      ]
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "Eastern Asia",
+          2015
+        ],
+        [
+          "Latin America and the Caribbean",
+          839
+        ],
+        [
+          "Northern America",
+          413
+        ],
+        [
+          "Northern Europe",
+          291
+        ],
+        [
+          "South-eastern Asia",
+          233
+        ],
+        [
+          "Southern Asia",
+          189
+        ],
+        [
+          "Western Europe",
+          185
+        ],
+        [
+          "Sub-Saharan Africa",
+          124
+        ],
+        [
+          "Southern Europe",
+          74
+        ],
+        [
+          "Western Asia",
+          73
+        ],
+        [
+          "Eastern Europe",
+          39
+        ],
+        [
+          "Australia and New Zealand",
+          39
+        ],
+        [
+          "Northern Africa",
+          13
+        ],
+        [
+          "Melanesia",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Subregion location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/"
+        }
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          2510
+        ],
+        [
+          "Americas",
+          1252
+        ],
+        [
+          "Europe",
+          589
+        ],
+        [
+          "Africa",
+          137
+        ],
+        [
+          "Oceania",
+          49
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Region location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/"
+        }
+      ]
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3539,
+      "top_values": [
+        [
+          "L100000201676",
+          8
+        ],
+        [
+          "L100000200007",
+          8
+        ],
+        [
+          "L100001046834",
+          7
+        ],
+        [
+          "L100000201542",
+          7
+        ],
+        [
+          "L100000201443",
+          7
+        ],
+        [
+          "L100001047644",
+          6
+        ],
+        [
+          "L100001046979",
+          6
+        ],
+        [
+          "L100001046558",
+          6
+        ],
+        [
+          "L100001018736",
+          6
+        ],
+        [
+          "L100000201789",
+          6
+        ],
+        [
+          "L100000201576",
+          6
+        ],
+        [
+          "L100000201422",
+          6
+        ],
+        [
+          "L100001047250",
+          5
+        ],
+        [
+          "L100001047101",
+          5
+        ],
+        [
+          "L100001019509",
+          5
+        ],
+        [
+          "L100001018873",
+          5
+        ],
+        [
+          "L100000201896",
+          5
+        ],
+        [
+          "L100000201720",
+          5
+        ],
+        [
+          "L100000201508",
+          5
+        ],
+        [
+          "L100000201488",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "L2 + 5 digits",
+          "definition": "GEM generated ID unique for each project"
+        }
+      ]
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 4537,
+      "top_values": [
+        [
+          "G100001057130",
+          1
+        ],
+        [
+          "G100001055831",
+          1
+        ],
+        [
+          "G100001055830",
+          1
+        ],
+        [
+          "G100001055829",
+          1
+        ],
+        [
+          "G100001055827",
+          1
+        ],
+        [
+          "G100001055826",
+          1
+        ],
+        [
+          "G100001055824",
+          1
+        ],
+        [
+          "G100001055821",
+          1
+        ],
+        [
+          "G100001055818",
+          1
+        ],
+        [
+          "G100001055817",
+          1
+        ],
+        [
+          "G100001055815",
+          1
+        ],
+        [
+          "G100001055809",
+          1
+        ],
+        [
+          "G100001055808",
+          1
+        ],
+        [
+          "G100001055807",
+          1
+        ],
+        [
+          "G100001055806",
+          1
+        ],
+        [
+          "G100001055790",
+          1
+        ],
+        [
+          "G100001055789",
+          1
+        ],
+        [
+          "G100001055776",
+          1
+        ],
+        [
+          "G100001055774",
+          1
+        ],
+        [
+          "G100001055773",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "G2 + 5 digits",
+          "definition": "GEM generated ID unique for each unit"
+        }
+      ]
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 4537,
+      "n_null": 3251,
+      "n_non_null": 1286,
+      "null_rate": 0.7166,
+      "n_unique": 1082,
+      "top_values": [
+        [
+          "World Resources Institute: BRA0030047, ANEEL: UTE.AI.SP.030047-0.1",
+          4
+        ],
+        [
+          "World Resources Institute: BRA0000187, ANEEL: UTE.FL.BA.000187-2.1",
+          4
+        ],
+        [
+          "REPD: 174, Beyond Fossil Fuels: UK-58, ENTSO-E: 48WSTN0000DRAXXK, REPD: 192, REPD: 175, REPD: 6659",
+          4
+        ],
+        [
+          "EIA: 10017",
+          4
+        ],
+        [
+          "ANEEL: UTE.AI.SP.029665-1.1, World Resources Institute: BRA0029665, ANEEL: UTE.FL.RR.044603-3.1",
+          4
+        ],
+        [
+          "World Resources Institute: BRA0029713, ANEEL: UTE.AI.SP.029713-5.1",
+          3
+        ],
+        [
+          "World Resources Institute: 1019438",
+          3
+        ],
+        [
+          "REPD: 115",
+          3
+        ],
+        [
+          "GWCouncil: 224",
+          3
+        ],
+        [
+          "GWCouncil: 181",
+          3
+        ],
+        [
+          "GWCouncil: 160",
+          3
+        ],
+        [
+          "GWCouncil: 151",
+          3
+        ],
+        [
+          "EIA: 60960",
+          3
+        ],
+        [
+          "EIA: 54998",
+          3
+        ],
+        [
+          "EIA: 54427",
+          3
+        ],
+        [
+          "EIA: 54104",
+          3
+        ],
+        [
+          "EIA: 54091",
+          3
+        ],
+        [
+          "EIA: 54087",
+          3
+        ],
+        [
+          "EIA: 50881",
+          3
+        ],
+        [
+          "EIA: 50810",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "Lists of power station IDs from other systems. For example, an ID from the World Resources Institute is reported as \"WRI: WRI1002265\""
+        }
+      ]
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3537,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Mumias_Sugar_Company_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Jiangsu_Suzhou_Wuzhong_District_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sichuan_Chengdu_Longquanyi_District_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Guangzhou_Huangpu_District_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Dongguan_Hengli_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Shangyu_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Hainan_Haikou_Laocheng_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Zhuhai_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Xinfeng_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Foshan_Nanhai_District_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Compagnie_Sucriere_Senegalaise_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Beijing_Chaoyang_District_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Taizhou_(Wangneng)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Huzhou_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Shanghai_Laogang_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Maidstone_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Hubei_Jianli_(Nine_Dragons_Paper)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Zhanjiang_(Chenming)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Shenzhen_Bao'an_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Huizhou_power_station",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "value_definitions": [
+        {
+          "name": "n/a",
+          "definition": "URL of existing or planned GEM.wiki pages"
+        }
+      ]
+    },
+    {
+      "field_name": "_col35",
+      "code_friendly_name_guess": "col35",
+      "n_total": 4537,
+      "n_null": 0,
+      "n_non_null": 4537,
+      "null_rate": 0.0,
+      "n_unique": 3539,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Mumias_Sugar_Company_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Jiangsu_Suzhou_Wuzhong_District_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sichuan_Chengdu_Longquanyi_District_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Guangzhou_Huangpu_District_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Dongguan_Hengli_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Shangyu_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Hainan_Haikou_Laocheng_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Zhuhai_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Xinfeng_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Foshan_Nanhai_District_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Compagnie_Sucriere_Senegalaise_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Beijing_Chaoyang_District_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Taizhou_(Wangneng)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Huzhou_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Shanghai_Laogang_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Maidstone_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Hubei_Jianli_(Nine_Dragons_Paper)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Zhanjiang_(Chenming)_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Shenzhen_Bao'an_power_station",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Huizhou_power_station",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

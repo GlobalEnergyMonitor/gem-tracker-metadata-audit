@@ -1,0 +1,844 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__extraction_field_reserves",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "extraction_field_reserves",
+  "n_rows": 1899,
+  "analyzed_at": "2026-07-07T21:45:22.307043+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Unit ID",
+      "code_friendly_name_guess": "unit_id",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 886,
+      "top_values": [
+        [
+          "L100000321195",
+          8
+        ],
+        [
+          "L100000320881",
+          4
+        ],
+        [
+          "L100000300064",
+          4
+        ],
+        [
+          "L100000320884",
+          3
+        ],
+        [
+          "L100000320883",
+          3
+        ],
+        [
+          "L100000320882",
+          3
+        ],
+        [
+          "L100000320876",
+          3
+        ],
+        [
+          "L100000320866",
+          3
+        ],
+        [
+          "L100000320857",
+          3
+        ],
+        [
+          "L100000320855",
+          3
+        ],
+        [
+          "L100000320854",
+          3
+        ],
+        [
+          "L100000320850",
+          3
+        ],
+        [
+          "L100000320454",
+          3
+        ],
+        [
+          "L100000320453",
+          3
+        ],
+        [
+          "L100000320452",
+          3
+        ],
+        [
+          "L100000320450",
+          3
+        ],
+        [
+          "L100000320449",
+          3
+        ],
+        [
+          "L100000320448",
+          3
+        ],
+        [
+          "L100000320447",
+          3
+        ],
+        [
+          "L100000320446",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 886,
+      "top_values": [
+        [
+          "Tambaqui Oil and Gas Field (Amazonas, Brazil)",
+          8
+        ],
+        [
+          "Boa Vista Oil and Gas Field (Rio Grande do Norte, Brazil)",
+          4
+        ],
+        [
+          "Bakte Oil and Gas Field (Mexico)",
+          4
+        ],
+        [
+          "Íride Oil and Gas Field (Tabasco, Mexico)",
+          3
+        ],
+        [
+          "Ébano Chapacao Oil and Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Zorro Oil Field (Venezuela)",
+          3
+        ],
+        [
+          "Zapatos Oil Field (Venezuela)",
+          3
+        ],
+        [
+          "Zama Oil and Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Zaap Oil and Gas Field (Federal Offshore, Mexico)",
+          3
+        ],
+        [
+          "Yopales Oil Field (Venezuela)",
+          3
+        ],
+        [
+          "Yaxché Oil and Gas Field (Federal Offshore, Mexico)",
+          3
+        ],
+        [
+          "Yatzil Oil Field (Federal Offshore, Mexico)",
+          3
+        ],
+        [
+          "Yagual Oil and Gas Field (Tabasco, Mexico)",
+          3
+        ],
+        [
+          "Xux Oil and Gas Field (Federal Offshore, Mexico)",
+          3
+        ],
+        [
+          "Xolotl Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Xikin Oil and Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Xanab SE Oil and Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Xanab Oil and Gas Field (Federal Offshore, Mexico)",
+          3
+        ],
+        [
+          "Xale Gas Field (Mexico)",
+          3
+        ],
+        [
+          "Velero Oil and Gas Field (Tamaulipas, Mexico)",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "Mexico",
+          663
+        ],
+        [
+          "Argentina",
+          404
+        ],
+        [
+          "Venezuela",
+          320
+        ],
+        [
+          "Brazil",
+          314
+        ],
+        [
+          "Ecuador",
+          56
+        ],
+        [
+          "Colombia",
+          40
+        ],
+        [
+          "Trinidad and Tobago",
+          35
+        ],
+        [
+          "Guyana",
+          28
+        ],
+        [
+          "Bolivia",
+          14
+        ],
+        [
+          "Peru",
+          8
+        ],
+        [
+          "Cuba",
+          6
+        ],
+        [
+          "Suriname",
+          5
+        ],
+        [
+          "Guatemala",
+          4
+        ],
+        [
+          "Barbados",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "oil",
+          982
+        ],
+        [
+          "gas",
+          657
+        ],
+        [
+          "condensate",
+          217
+        ],
+        [
+          "hydrocarbons",
+          25
+        ],
+        [
+          "liquids",
+          7
+        ],
+        [
+          "oil and condensate",
+          3
+        ],
+        [
+          "crude oil and condensate",
+          3
+        ],
+        [
+          "crude oil",
+          2
+        ],
+        [
+          "associated gas",
+          2
+        ],
+        [
+          "nonassociated gas",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Reserves classification",
+      "code_friendly_name_guess": "reserves_classification",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "2p reserves",
+          643
+        ],
+        [
+          "2P reserves",
+          422
+        ],
+        [
+          "volume in place",
+          291
+        ],
+        [
+          "remaining recoverable reserves",
+          112
+        ],
+        [
+          "EUR",
+          104
+        ],
+        [
+          "oil in place",
+          101
+        ],
+        [
+          "reserves",
+          34
+        ],
+        [
+          "remaining reserves",
+          26
+        ],
+        [
+          "proved reserves",
+          23
+        ],
+        [
+          "1P reserves",
+          19
+        ],
+        [
+          "Resources",
+          13
+        ],
+        [
+          "1p reserves",
+          12
+        ],
+        [
+          "proven reserves",
+          11
+        ],
+        [
+          "3P reserves",
+          9
+        ],
+        [
+          "resources",
+          6
+        ],
+        [
+          "original oil in place",
+          6
+        ],
+        [
+          "2C resources",
+          5
+        ],
+        [
+          "recoverable resources",
+          4
+        ],
+        [
+          "recoverable reserves",
+          4
+        ],
+        [
+          "estimated reserves",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity",
+      "code_friendly_name_guess": "quantity",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 1364,
+      "top_values": [
+        [
+          "0.0",
+          226
+        ],
+        [
+          "0.02",
+          12
+        ],
+        [
+          "0.01",
+          12
+        ],
+        [
+          "0.08",
+          7
+        ],
+        [
+          "0.06",
+          7
+        ],
+        [
+          "0.03",
+          7
+        ],
+        [
+          "1.0",
+          6
+        ],
+        [
+          "0.04",
+          6
+        ],
+        [
+          "500.0",
+          5
+        ],
+        [
+          "21.0",
+          5
+        ],
+        [
+          "100.0",
+          5
+        ],
+        [
+          "1.5",
+          5
+        ],
+        [
+          "0.12",
+          5
+        ],
+        [
+          "0.07",
+          5
+        ],
+        [
+          "79.0",
+          4
+        ],
+        [
+          "78.0",
+          4
+        ],
+        [
+          "75.0",
+          4
+        ],
+        [
+          "73.0",
+          4
+        ],
+        [
+          "52.0",
+          4
+        ],
+        [
+          "42.0",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Units",
+      "code_friendly_name_guess": "units",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "million bbl",
+          805
+        ],
+        [
+          "bcf",
+          268
+        ],
+        [
+          "million m³",
+          211
+        ],
+        [
+          "thousand m³",
+          201
+        ],
+        [
+          "bbl",
+          182
+        ],
+        [
+          "m³",
+          142
+        ],
+        [
+          "tcf",
+          23
+        ],
+        [
+          "million boe",
+          20
+        ],
+        [
+          "thousand bbl",
+          18
+        ],
+        [
+          "bcm",
+          7
+        ],
+        [
+          "billion scf",
+          4
+        ],
+        [
+          "million tons",
+          3
+        ],
+        [
+          "billion cubic feet",
+          3
+        ],
+        [
+          "giga cubic feet",
+          2
+        ],
+        [
+          "billion boe",
+          2
+        ],
+        [
+          "billion bbl",
+          2
+        ],
+        [
+          "trillion cubic feet",
+          1
+        ],
+        [
+          "thousand cubic feet",
+          1
+        ],
+        [
+          "million stock tank bbls",
+          1
+        ],
+        [
+          "million scf",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:14_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 1439,
+      "top_values": [
+        [
+          "0.0",
+          226
+        ],
+        [
+          "0.01",
+          12
+        ],
+        [
+          "0.02",
+          11
+        ],
+        [
+          "0.08",
+          7
+        ],
+        [
+          "0.06",
+          7
+        ],
+        [
+          "0.04",
+          6
+        ],
+        [
+          "0.03",
+          6
+        ],
+        [
+          "500.0",
+          5
+        ],
+        [
+          "75.0",
+          4
+        ],
+        [
+          "50.0",
+          4
+        ],
+        [
+          "42475.5",
+          4
+        ],
+        [
+          "42.0",
+          4
+        ],
+        [
+          "34.0",
+          4
+        ],
+        [
+          "28317.0",
+          4
+        ],
+        [
+          "25.0",
+          4
+        ],
+        [
+          "23.0",
+          4
+        ],
+        [
+          "21.0",
+          4
+        ],
+        [
+          "100.0",
+          4
+        ],
+        [
+          "0.13",
+          4
+        ],
+        [
+          "0.12",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 1899,
+      "n_null": 0,
+      "n_non_null": 1899,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million bbl",
+          1214
+        ],
+        [
+          "million m³",
+          660
+        ],
+        [
+          "million boe",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Data Year",
+      "code_friendly_name_guess": "data_year",
+      "n_total": 1899,
+      "n_null": 4,
+      "n_non_null": 1895,
+      "null_rate": 0.0021,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "2024.0",
+          949
+        ],
+        [
+          "2021.0",
+          341
+        ],
+        [
+          "2022.0",
+          237
+        ],
+        [
+          "2023.0",
+          212
+        ],
+        [
+          "2016.0",
+          44
+        ],
+        [
+          "2020.0",
+          28
+        ],
+        [
+          "1994.0",
+          22
+        ],
+        [
+          "2025.0",
+          12
+        ],
+        [
+          "2015.0",
+          10
+        ],
+        [
+          "2018.0",
+          6
+        ],
+        [
+          "2017.0",
+          6
+        ],
+        [
+          "2014.0",
+          5
+        ],
+        [
+          "2007.0",
+          5
+        ],
+        [
+          "2000.0",
+          4
+        ],
+        [
+          "2006.0",
+          3
+        ],
+        [
+          "2012.0",
+          2
+        ],
+        [
+          "2011.0",
+          2
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

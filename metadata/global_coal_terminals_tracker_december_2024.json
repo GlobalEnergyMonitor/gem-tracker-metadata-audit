@@ -1,0 +1,81 @@
+{
+  "source_file": "Global-Coal-Terminals-Tracker-December-2024.xlsx",
+  "tracker_slug": "global_coal_terminals_tracker_december_2024",
+  "header_info": {
+    "title": "Global Coal Terminals Tracker - December 2024",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Terminals Tracker, December 2024 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Coal Program Director, Global Energy Monitor - flora.champenois@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Terminals Tracker, December 2024 release. Distributed under a Creative Commons Attribution 4.0 International License"
+  },
+  "data_tabs": {
+    "terminals": "Terminals"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Status Definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Proposed",
+          "definition": "Projects announced or in planning, but not yet under physical construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects officially shelved by a sponsor, or that show no activity over a period of 2 years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Projects officially cancelled by a sponsor, or that show no activity over a period of 4 years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Terminals that have been formally commissioned or that have entered commercial operation.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Terminals that have been deactivated or put into an inactive state but are not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Terminals that have been permanently shut down.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mt",
+          "definition": "Million tonnes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source_file": "Global-Coal-Mine-Tracker-December-2024-Supplement-Historical-Production-from-2018-to-2023.xlsx",
+  "tracker_slug": "global_coal_mine_tracker_december_2024_supplement_historical_production_from_2018_to_2023",
+  "header_info": {
+    "title": "Global Coal Mine Tracker - December 2024 Supplement (Historical Production from 2018 to 2023)",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, December 2024 Supplement release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Dorothy Mei, Project Manager, Global Energy Monitor - dorothy.mei@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Mine Tracker, December 2024 Supplement release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "historical_production_non_china": "Historical Production(non-China",
+    "historical_production_china": "Historical Production (China)"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Operating",
+          "definition": "Mines commissioned and in commercial operation",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mt",
+          "definition": "Million tonnes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mst",
+          "definition": "Million short tonnes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Acronym definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "ROM",
+          "definition": "run-of-mine refers to the coal delivered directly from the mine to the coal preparation plant",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Saleable",
+          "definition": "saleable coal is the coal that's ready to be sold or used for various purposes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2023",
+          "definition": "0.744",
+          "notes": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=9&id=151744",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2022",
+          "definition": "0.749",
+          "notes": "https://www.cctd.com.cn/index.php?m=content&c=index&a=show&catid=679&id=230512",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2021",
+          "definition": "0.745",
+          "notes": "https://m.bjx.com.cn/mnews/20220118/1200063.shtml",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2020",
+          "definition": "0.698",
+          "notes": "https://www.ccera.com.cn/web/65/202101/6951.html",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2019",
+          "definition": "0.706",
+          "notes": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900601.html",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "2018",
+          "definition": "0.706",
+          "notes": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900206.html",
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        }
+      ]
+    }
+  ]
+}

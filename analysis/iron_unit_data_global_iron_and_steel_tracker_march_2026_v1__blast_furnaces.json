@@ -1,0 +1,1834 @@
+{
+  "table_name": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1__blast_furnaces",
+  "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "blast_furnaces",
+  "n_rows": 1654,
+  "analyzed_at": "2026-07-07T21:45:22.033960+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 554,
+      "top_values": [
+        [
+          "P100000120240",
+          22
+        ],
+        [
+          "P100000120188",
+          16
+        ],
+        [
+          "P100000120192",
+          13
+        ],
+        [
+          "P100000120120",
+          12
+        ],
+        [
+          "P100000120300",
+          11
+        ],
+        [
+          "P100000121253",
+          10
+        ],
+        [
+          "P100000120193",
+          10
+        ],
+        [
+          "P100000120110",
+          10
+        ],
+        [
+          "P100000120094",
+          10
+        ],
+        [
+          "P100000120906",
+          9
+        ],
+        [
+          "P100000120807",
+          9
+        ],
+        [
+          "P100000120146",
+          9
+        ],
+        [
+          "P100000120118",
+          9
+        ],
+        [
+          "P100000120284",
+          8
+        ],
+        [
+          "P100000120280",
+          8
+        ],
+        [
+          "P100000120273",
+          8
+        ],
+        [
+          "P100000120260",
+          8
+        ],
+        [
+          "P100000120214",
+          8
+        ],
+        [
+          "P100000120182",
+          8
+        ],
+        [
+          "P100000120108",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 1654,
+      "top_values": [
+        [
+          "U100001092866",
+          1
+        ],
+        [
+          "U100001073946",
+          1
+        ],
+        [
+          "U100001073945",
+          1
+        ],
+        [
+          "U100001073944",
+          1
+        ],
+        [
+          "U100001073773",
+          1
+        ],
+        [
+          "U100001073757",
+          1
+        ],
+        [
+          "U100001073756",
+          1
+        ],
+        [
+          "U100001073728",
+          1
+        ],
+        [
+          "U100001073720",
+          1
+        ],
+        [
+          "U100001073719",
+          1
+        ],
+        [
+          "U100001073712",
+          1
+        ],
+        [
+          "U100001073711",
+          1
+        ],
+        [
+          "U100001073698",
+          1
+        ],
+        [
+          "U100001073686",
+          1
+        ],
+        [
+          "U100001073685",
+          1
+        ],
+        [
+          "U100001073340",
+          1
+        ],
+        [
+          "U100001073339",
+          1
+        ],
+        [
+          "U100001073338",
+          1
+        ],
+        [
+          "U100001073293",
+          1
+        ],
+        [
+          "U100001073270",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 92,
+      "top_values": [
+        [
+          "unknown BF (1)",
+          307
+        ],
+        [
+          "BF 1",
+          215
+        ],
+        [
+          "BF 2",
+          203
+        ],
+        [
+          "unknown BF (2)",
+          178
+        ],
+        [
+          "BF 3",
+          137
+        ],
+        [
+          "unknown BF (3)",
+          96
+        ],
+        [
+          "BF 4",
+          86
+        ],
+        [
+          "unknown BF (4)",
+          57
+        ],
+        [
+          "BF 5",
+          55
+        ],
+        [
+          "unknown BF (5)",
+          40
+        ],
+        [
+          "BF 6",
+          36
+        ],
+        [
+          "unknown BF (6)",
+          23
+        ],
+        [
+          "BF 7",
+          22
+        ],
+        [
+          "BF 8",
+          17
+        ],
+        [
+          "BF #2",
+          15
+        ],
+        [
+          "unknown BF (7)",
+          13
+        ],
+        [
+          "BF #1",
+          13
+        ],
+        [
+          "BF A",
+          11
+        ],
+        [
+          "BF B",
+          9
+        ],
+        [
+          "BF #3",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"Unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki Page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 554,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Rizhao_Steel_Holding_Group_Co_Ltd",
+          22
+        ],
+        [
+          "https://www.gem.wiki/Jiangsu_Shagang_Iron_&_Steel_Co_Ltd",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Lianfeng_Steel_Zhangjiagang_Co_Ltd",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Jingye_Iron_and_Steel_Co_Ltd",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Yunnan_Yuxi_Iron_and_Steel_Group_Yukun_Iron_and_Steel_Co_Ltd",
+          11
+        ],
+        [
+          "https://www.gem.wiki/Zenith_Steel_Group_Co_Ltd",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Qian_an_Jiujiang_Wire_Co_Ltd",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Guangxi_Shenglong_Metallurgical_Co_Ltd",
+          10
+        ],
+        [
+          "https://www.gem.wiki/BER-PIG_Iron_and_Steel_Company_Redcliff_plant",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Tangshan_Ganglu_Iron_and_Steel_Co_Ltd",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Tangshan_Donghai_Iron_and_Steel_Group_Co_Ltd",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Magnitogorsk_Iron_and_Steel_Works",
+          9
+        ],
+        [
+          "https://www.gem.wiki/ArcelorMittal_Kryvyi_Rih_steel_plant",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Xinyu_Iron_and_Steel_Group_Co_Ltd",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tianjin_New_Tiangang_United_Special_Steel_Co_Ltd",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tianjin_Iron_Plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tangshan_Donghua_Iron_and_Steel_Enterprise_Group_Co_Ltd",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sansteel_Minguang_Co_Ltd_Fujian_plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Lvliang_Jianlong_Industrial_Co_Ltd",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Jincheng_Fusheng_Iron_and_Steel_Co_Ltd",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 55,
+      "top_values": [
+        [
+          "China",
+          1101
+        ],
+        [
+          "India",
+          175
+        ],
+        [
+          "Russia",
+          38
+        ],
+        [
+          "Ukraine",
+          37
+        ],
+        [
+          "Brazil",
+          34
+        ],
+        [
+          "Japan",
+          29
+        ],
+        [
+          "United States",
+          20
+        ],
+        [
+          "Vietnam",
+          19
+        ],
+        [
+          "Zimbabwe",
+          16
+        ],
+        [
+          "Germany",
+          15
+        ],
+        [
+          "North Korea",
+          13
+        ],
+        [
+          "Türkiye",
+          12
+        ],
+        [
+          "South Korea",
+          12
+        ],
+        [
+          "Indonesia",
+          12
+        ],
+        [
+          "Malaysia",
+          8
+        ],
+        [
+          "France",
+          7
+        ],
+        [
+          "United Kingdom",
+          6
+        ],
+        [
+          "Taiwan",
+          6
+        ],
+        [
+          "Canada",
+          6
+        ],
+        [
+          "Kazakhstan",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or territory.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit status",
+      "code_friendly_name_guess": "unit_status",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          893
+        ],
+        [
+          "retired",
+          400
+        ],
+        [
+          "announced",
+          126
+        ],
+        [
+          "operating pre-retirement",
+          114
+        ],
+        [
+          "mothballed",
+          52
+        ],
+        [
+          "construction",
+          34
+        ],
+        [
+          "cancelled",
+          27
+        ],
+        [
+          "mothballed pre-retirement",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Operating status of the direct reduced iron unit. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Announced date",
+      "code_friendly_name_guess": "announced_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 125,
+      "top_values": [
+        [
+          "unknown",
+          1320
+        ],
+        [
+          "2021",
+          23
+        ],
+        [
+          "2018",
+          17
+        ],
+        [
+          "2017",
+          16
+        ],
+        [
+          "2021-12-01 00:00:00",
+          15
+        ],
+        [
+          "2019",
+          13
+        ],
+        [
+          "2024",
+          12
+        ],
+        [
+          "2020",
+          11
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2016",
+          8
+        ],
+        [
+          "2021-07-01 00:00:00",
+          6
+        ],
+        [
+          "2019-12-01 00:00:00",
+          6
+        ],
+        [
+          "2025",
+          5
+        ],
+        [
+          "2021-05-01 00:00:00",
+          5
+        ],
+        [
+          "2011",
+          5
+        ],
+        [
+          "2008",
+          5
+        ],
+        [
+          "2022-04-01 00:00:00",
+          4
+        ],
+        [
+          "2021-06-01 00:00:00",
+          4
+        ],
+        [
+          "2017-01-25 00:00:00",
+          4
+        ],
+        [
+          "2010",
+          4
+        ]
+      ],
+      "portion_numeric": 0.12,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date of announcement/proposal of furnace in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Construction date",
+      "code_friendly_name_guess": "construction_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 114,
+      "top_values": [
+        [
+          "unknown",
+          1450
+        ],
+        [
+          "2023",
+          11
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2025",
+          7
+        ],
+        [
+          "2021",
+          7
+        ],
+        [
+          "2019",
+          7
+        ],
+        [
+          "2024",
+          6
+        ],
+        [
+          "2017",
+          5
+        ],
+        [
+          "2020",
+          4
+        ],
+        [
+          "2019-04-01 00:00:00",
+          4
+        ],
+        [
+          "2024-12-01 00:00:00",
+          3
+        ],
+        [
+          "2022-07-01 00:00:00",
+          3
+        ],
+        [
+          "2021-11-01 00:00:00",
+          3
+        ],
+        [
+          "2020-04-01 00:00:00",
+          3
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2013",
+          3
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2010",
+          3
+        ],
+        [
+          "2024-06-01 00:00:00",
+          2
+        ],
+        [
+          "2023-09-17 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.07,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that construction of the furnace began in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 112,
+      "top_values": [
+        [
+          "unknown",
+          734
+        ],
+        [
+          "2022",
+          41
+        ],
+        [
+          "2013",
+          41
+        ],
+        [
+          "2021",
+          39
+        ],
+        [
+          "2011",
+          38
+        ],
+        [
+          "2007",
+          35
+        ],
+        [
+          "2012",
+          33
+        ],
+        [
+          "2010",
+          32
+        ],
+        [
+          "2024",
+          31
+        ],
+        [
+          "2009",
+          29
+        ],
+        [
+          "2004",
+          29
+        ],
+        [
+          "2023",
+          28
+        ],
+        [
+          "2020",
+          27
+        ],
+        [
+          "2008",
+          26
+        ],
+        [
+          "2005",
+          24
+        ],
+        [
+          "2025",
+          21
+        ],
+        [
+          "2014",
+          18
+        ],
+        [
+          "2019",
+          17
+        ],
+        [
+          "2016",
+          17
+        ],
+        [
+          "2026",
+          14
+        ]
+      ],
+      "portion_numeric": 0.61,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Furnace start date in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit age",
+      "code_friendly_name_guess": "unit_age",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "unknown",
+          760
+        ],
+        [
+          "4",
+          41
+        ],
+        [
+          "5",
+          39
+        ],
+        [
+          "13",
+          39
+        ],
+        [
+          "15",
+          35
+        ],
+        [
+          "1",
+          34
+        ],
+        [
+          "14",
+          33
+        ],
+        [
+          "19",
+          31
+        ],
+        [
+          "16",
+          31
+        ],
+        [
+          "2",
+          30
+        ],
+        [
+          "3",
+          28
+        ],
+        [
+          "6",
+          27
+        ],
+        [
+          "17",
+          26
+        ],
+        [
+          "18",
+          25
+        ],
+        [
+          "22",
+          23
+        ],
+        [
+          "21",
+          20
+        ],
+        [
+          "12",
+          18
+        ],
+        [
+          "7",
+          16
+        ],
+        [
+          "10",
+          16
+        ],
+        [
+          "0",
+          14
+        ]
+      ],
+      "portion_numeric": 0.606,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Furnace age in years.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Pre-retirement announcement date",
+      "code_friendly_name_guess": "pre_retirement_announcement_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 97,
+      "top_values": [
+        [
+          "unknown",
+          1306
+        ],
+        [
+          "2021",
+          19
+        ],
+        [
+          "2017",
+          16
+        ],
+        [
+          "2019",
+          14
+        ],
+        [
+          "2020",
+          13
+        ],
+        [
+          "2023",
+          11
+        ],
+        [
+          "2019-12-01 00:00:00",
+          11
+        ],
+        [
+          "2018",
+          10
+        ],
+        [
+          "2023-06-16 00:00:00",
+          9
+        ],
+        [
+          "2021-06-04 00:00:00",
+          8
+        ],
+        [
+          "2019-12-18 00:00:00",
+          8
+        ],
+        [
+          "2021-12-01 00:00:00",
+          7
+        ],
+        [
+          "2021-11-24 00:00:00",
+          7
+        ],
+        [
+          "2019-10-01 00:00:00",
+          7
+        ],
+        [
+          "2023-01-31 00:00:00",
+          6
+        ],
+        [
+          "2022-04-25 00:00:00",
+          6
+        ],
+        [
+          "2022",
+          6
+        ],
+        [
+          "2021-10-01 00:00:00",
+          6
+        ],
+        [
+          "2018-06-26 00:00:00",
+          6
+        ],
+        [
+          "2023-11-17 00:00:00",
+          5
+        ]
+      ],
+      "portion_numeric": 0.07,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date the company announced its plans to retire the direct reduced iron unit in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Idled date",
+      "code_friendly_name_guess": "idled_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 62,
+      "top_values": [
+        [
+          "unknown",
+          1502
+        ],
+        [
+          "2022",
+          19
+        ],
+        [
+          "2021",
+          12
+        ],
+        [
+          "2022-03-01 00:00:00",
+          8
+        ],
+        [
+          "2018",
+          8
+        ],
+        [
+          "2022-07-01 00:00:00",
+          6
+        ],
+        [
+          "2022-12-01 00:00:00",
+          5
+        ],
+        [
+          "2024-12-01 00:00:00",
+          4
+        ],
+        [
+          "2023",
+          4
+        ],
+        [
+          "2022-12-12 00:00:00",
+          4
+        ],
+        [
+          "2021-11-01 00:00:00",
+          4
+        ],
+        [
+          "2021-09-01 00:00:00",
+          4
+        ],
+        [
+          "2023-12-28 00:00:00",
+          3
+        ],
+        [
+          "2018-11-01 00:00:00",
+          3
+        ],
+        [
+          "2017",
+          3
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2025-09-01 00:00:00",
+          2
+        ],
+        [
+          "2025-07-01 00:00:00",
+          2
+        ],
+        [
+          "2024-10-24 00:00:00",
+          2
+        ],
+        [
+          "2024-10-17 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.04,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that direct reduced iron unit stops iron production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Retired date",
+      "code_friendly_name_guess": "retired_date",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "unknown",
+          1233
+        ],
+        [
+          "2022",
+          44
+        ],
+        [
+          "2021",
+          44
+        ],
+        [
+          "2025",
+          27
+        ],
+        [
+          "2020",
+          25
+        ],
+        [
+          "2023",
+          24
+        ],
+        [
+          "2030",
+          15
+        ],
+        [
+          "2024",
+          11
+        ],
+        [
+          "2021-11-29 00:00:00",
+          9
+        ],
+        [
+          "2019",
+          7
+        ],
+        [
+          "2027",
+          6
+        ],
+        [
+          "2026",
+          6
+        ],
+        [
+          "2023-09-30 00:00:00",
+          6
+        ],
+        [
+          "2023-03-01 00:00:00",
+          6
+        ],
+        [
+          "2022-12-01 00:00:00",
+          6
+        ],
+        [
+          "2018",
+          6
+        ],
+        [
+          "2022-05-01 00:00:00",
+          5
+        ],
+        [
+          "2021-11-01 00:00:00",
+          5
+        ],
+        [
+          "2021-08-01 00:00:00",
+          5
+        ],
+        [
+          "2045",
+          4
+        ]
+      ],
+      "portion_numeric": 0.14,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that direct reduced iron unit was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace manufacturer",
+      "code_friendly_name_guess": "furnace_manufacturer",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 120,
+      "top_values": [
+        [
+          "unknown",
+          1430
+        ],
+        [
+          "Paul Wurth",
+          18
+        ],
+        [
+          "Danieli Corus",
+          16
+        ],
+        [
+          "Saint-Gobain (parts)",
+          15
+        ],
+        [
+          "Paul Wurth (parts)",
+          13
+        ],
+        [
+          "CISDI",
+          9
+        ],
+        [
+          "MECON (Govt. of India)",
+          7
+        ],
+        [
+          "Tata Korf - Korf Technology",
+          5
+        ],
+        [
+          "Davy International; POSCO",
+          4
+        ],
+        [
+          "The Soviet Union",
+          3
+        ],
+        [
+          "Sinosteel",
+          3
+        ],
+        [
+          "Paul Wurth; Saint-Gobain (parts)",
+          3
+        ],
+        [
+          "POSCO",
+          3
+        ],
+        [
+          "M/s Head Wrightson",
+          3
+        ],
+        [
+          "Heavy Engineering Corporation; the Soviet Union",
+          3
+        ],
+        [
+          "Democratic People's Republic of Korea (Government)",
+          3
+        ],
+        [
+          "Siemens-VAI; Primetals Technologies",
+          2
+        ],
+        [
+          "Primetals Technologies, Siemens VAI",
+          2
+        ],
+        [
+          "Primetals Technologies",
+          2
+        ],
+        [
+          "Mitsubishi",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The company that manufactured the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Furnace model",
+      "code_friendly_name_guess": "furnace_model",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 36,
+      "top_values": [
+        [
+          "unknown",
+          1546
+        ],
+        [
+          "Hoogovens",
+          15
+        ],
+        [
+          "Kalugin Shaftless Stove (KSS)",
+          12
+        ],
+        [
+          "Bell-less top furnace",
+          9
+        ],
+        [
+          "Siemens VAI Blast Furnace Design",
+          6
+        ],
+        [
+          "Paul Wurth Modern Blast Furnace Design",
+          6
+        ],
+        [
+          "Kalugin shaftless stove (KSS)",
+          6
+        ],
+        [
+          "Mini blast furnace",
+          5
+        ],
+        [
+          "CISDI-design blast furnace",
+          5
+        ],
+        [
+          "Primetals Technologies Blast Furnace Design",
+          4
+        ],
+        [
+          "Paul Wurth Blast Furnace Design",
+          4
+        ],
+        [
+          "Paul Wurth Bell-Less Top",
+          4
+        ],
+        [
+          "Mini Blast Furnace",
+          3
+        ],
+        [
+          "Siemens-Martin",
+          2
+        ],
+        [
+          "Paul Wurth Parallel Hopper Bell Less Top",
+          2
+        ],
+        [
+          "Paul Wurth Bell-less Top (Gipromez design)",
+          2
+        ],
+        [
+          "Mini BF- Chinese Bell less top",
+          2
+        ],
+        [
+          "Coranit Ceramic Cup",
+          2
+        ],
+        [
+          "\"Indestructible bosh\"",
+          2
+        ],
+        [
+          "two-bells",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The specific model of the unit, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current capacity (ttpa)",
+      "code_friendly_name_guess": "current_capacity_ttpa",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 461,
+      "top_values": [
+        [
+          "1040",
+          87
+        ],
+        [
+          "550",
+          85
+        ],
+        [
+          "1000",
+          43
+        ],
+        [
+          "500",
+          32
+        ],
+        [
+          "1130",
+          31
+        ],
+        [
+          "650",
+          30
+        ],
+        [
+          "1220",
+          28
+        ],
+        [
+          "700",
+          27
+        ],
+        [
+          "1150",
+          27
+        ],
+        [
+          "2500",
+          25
+        ],
+        [
+          "1100",
+          23
+        ],
+        [
+          "1370",
+          22
+        ],
+        [
+          "1200",
+          22
+        ],
+        [
+          "1180",
+          22
+        ],
+        [
+          "2000",
+          20
+        ],
+        [
+          "1520",
+          19
+        ],
+        [
+          "800",
+          18
+        ],
+        [
+          "730",
+          18
+        ],
+        [
+          "680",
+          18
+        ],
+        [
+          "1330",
+          18
+        ]
+      ],
+      "portion_numeric": 0.998,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Current size (m3)",
+      "code_friendly_name_guess": "current_size_m3",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 332,
+      "top_values": [
+        [
+          "1080",
+          167
+        ],
+        [
+          "450",
+          144
+        ],
+        [
+          "unknown",
+          115
+        ],
+        [
+          "550",
+          39
+        ],
+        [
+          "1260",
+          38
+        ],
+        [
+          "1350",
+          36
+        ],
+        [
+          "1250",
+          35
+        ],
+        [
+          "1200",
+          35
+        ],
+        [
+          "580",
+          32
+        ],
+        [
+          "630",
+          31
+        ],
+        [
+          "600",
+          28
+        ],
+        [
+          "3200",
+          27
+        ],
+        [
+          "1580",
+          27
+        ],
+        [
+          "1280",
+          27
+        ],
+        [
+          "2500",
+          25
+        ],
+        [
+          "2000",
+          22
+        ],
+        [
+          "530",
+          21
+        ],
+        [
+          "1780",
+          21
+        ],
+        [
+          "1800",
+          18
+        ],
+        [
+          "650",
+          17
+        ]
+      ],
+      "portion_numeric": 0.876,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ],
+      "definition_from_readme": "Physical furnace size (example: 3000 m3).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CCS/CCUS",
+      "code_friendly_name_guess": "ccs_ccus",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "N/A",
+          1608
+        ],
+        [
+          "In August 2022, the company announced it would use CCUS technology, reducing carbon emissions by over 365 thousand tons per year in phase 1. It's unclear which blast furnaces will be affected by this project.",
+          8
+        ],
+        [
+          "In 2021 Jamshedpur works launched a 5 tonne per day pilot CCU plant, with the goal of reducing emissions by >50%",
+          6
+        ],
+        [
+          "On April 3, 2024, US Steel Corporation and CarbonFree signed an agreement to implement CarbonFree’s SkyCycle™ technology at U.S. Steel’s Gary Works Blast Furnaces. This innovative project will capture and mineralize up to 50,000 metric tons of carbon dioxide annually, marking a significant step in carbon capture efforts.",
+          4
+        ],
+        [
+          "British Steel states that it plans to employ CCS technology on its existing blast furnace production, but has not announced any progress toward that goal yet.",
+          4
+        ],
+        [
+          "HBIS signed an agreement with BHP in 2023 for a small trial CCUS technologies in its Hebei steelmaking. It's unclear if this furnace will be directly affected.",
+          3
+        ],
+        [
+          "An ANDRITZ pilot plant that separates carbon dioxide from flue gases using an amine-based process; Captured CO2 is put in industrial gas bottles and delivered to an energy storage company that is investigating methods to make it available for reuse in steel production.",
+          3
+        ],
+        [
+          "Through its Everest project, Tata is hoping to operationalize CCUS at IJmuiden by 2027.",
+          2
+        ],
+        [
+          "Plans to advance carbon capture utilization and storage (CCUS) project in collaboration with Exxon Mobil's Indonesain affliate",
+          2
+        ],
+        [
+          "CCUS trial underway; Part of new \"Steelanol\" CCU technology rollout. Four bioreactors arrive onsight in 2021 for upgrading capture CO2 into ethanol. Will produce 80 million litres of ethanol per year.",
+          2
+        ],
+        [
+          "Before closure, there were plans to run a trial C02 storage program with the furnace under the ULCOS II project.",
+          2
+        ],
+        [
+          "Trialing CCU at the unit, using Sekisui Chemical technology to capture CO2 and convert it to syngas for reduction agent. Finding a conversion rate of 90% in trials.",
+          1
+        ],
+        [
+          "Set to pilot a polymer membrane CCU system with NETL in 2025",
+          1
+        ],
+        [
+          "Plans to implement carbon capture in 5-10 years",
+          1
+        ],
+        [
+          "Plans to implement SMS group’s electric-assisted syngas smelter technology (EASyMelt) in the facility's E blast furnace, aiming to cut CO2 emissions by at least 50% from the unit's baseline operation.",
+          1
+        ],
+        [
+          "In Feb 2024, SAIL signed an MoU with Primetals to collaborate on projects and technologies related to decarbonization at the plant including but not limited to carbon capture and utilization (CCU), digitalization, hydrogen-based steel production, electric steelmaking, and advanced gas-cleaning solutions.",
+          1
+        ],
+        [
+          "In 2020 funded design for a system to capture 50 to 70% of the CO2 emissions. Recently completed its first phase of research in carbon capture at the plan and is requesting more government funding to support further advancements.",
+          1
+        ],
+        [
+          "GTI Energy will partner with U.S. Steel Corporation to advance the ROTA-CAP™ carbon dioxide (CO2) capture system to pilot scale (3 tonnes of CO2 captured/day). The project aims to design, build, and operate an engineering-scale plant at U.S. Steel’s Edgar Thomson industrial iron and steel production facility in Braddock, Allegheny County, Pennsylvania.",
+          1
+        ],
+        [
+          "Cleveland-Cliffs funded an FEED study in 2020 to evaluate a CCUS system for capturing 50-70% of the CO2 emissions from the plant, targeting up to 2.8 million tons of CO2/yr from blast-furnace gas at a net efficiency of≥95%. Phase 1 is complete, and additional funding is being sought.",
+          1
+        ],
+        [
+          "CCS",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:20_values_below_1pct",
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "Notes on any carbon capture projects related to the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Most recent relining",
+      "code_friendly_name_guess": "most_recent_relining",
+      "n_total": 1654,
+      "n_null": 0,
+      "n_non_null": 1654,
+      "null_rate": 0.0,
+      "n_unique": 382,
+      "top_values": [
+        [
+          "N/A",
+          1087
+        ],
+        [
+          "unknown",
+          25
+        ],
+        [
+          "2022",
+          15
+        ],
+        [
+          "2021",
+          9
+        ],
+        [
+          "2020",
+          9
+        ],
+        [
+          "2019",
+          7
+        ],
+        [
+          "2018",
+          7
+        ],
+        [
+          "2025",
+          6
+        ],
+        [
+          "2024",
+          6
+        ],
+        [
+          "2017",
+          6
+        ],
+        [
+          "2020-12-01 00:00:00",
+          5
+        ],
+        [
+          "2016",
+          5
+        ],
+        [
+          "2025-08-01 00:00:00",
+          4
+        ],
+        [
+          "2023-04-01 00:00:00",
+          4
+        ],
+        [
+          "2022-11-01 00:00:00",
+          4
+        ],
+        [
+          "2022-06-01 00:00:00",
+          4
+        ],
+        [
+          "2021-03-01 00:00:00",
+          4
+        ],
+        [
+          "2014",
+          4
+        ],
+        [
+          "2007",
+          4
+        ],
+        [
+          "2023-11-01 00:00:00",
+          3
+        ]
+      ],
+      "portion_numeric": 0.2526,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Most recent relining date in format YYYY-MM-DD where unit has a known relining. \"Unknown\" indicates the unit has no known relinings or only has relining events with no known dates. This date is the stop date of the relining or the start date if stop date is unknown. Further detail on relinings can be found in the \"Blast furnace relinings\" sheet.",
+      "notes_from_readme": null
+    }
+  ]
+}

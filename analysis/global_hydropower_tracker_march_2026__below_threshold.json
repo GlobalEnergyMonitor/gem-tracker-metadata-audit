@@ -1,0 +1,2786 @@
+{
+  "table_name": "global_hydropower_tracker_march_2026__below_threshold",
+  "tracker_slug": "global_hydropower_tracker_march_2026",
+  "tab_slug": "below_threshold",
+  "n_rows": 251,
+  "analyzed_at": "2026-07-07T21:45:14.348034+00:00",
+  "tracker_info": {
+    "title": "Global Hydropower Tracker - March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Hydropower Tracker, March 2026 release\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Joe Bernardi, Project Manager, Global Hydro and Nuclear Trackers, Global Energy Monitor: joe.bernardi@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Hydropower Tracker, March 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "2025-11-05 00:00:00",
+          31
+        ],
+        [
+          "2022-12-15 00:00:00",
+          29
+        ],
+        [
+          "2025-11-10 00:00:00",
+          28
+        ],
+        [
+          "2022-05-18 00:00:00",
+          13
+        ],
+        [
+          "2025-11-12 00:00:00",
+          11
+        ],
+        [
+          "2025-11-06 00:00:00",
+          10
+        ],
+        [
+          "2025-11-04 00:00:00",
+          10
+        ],
+        [
+          "2025-11-25 00:00:00",
+          5
+        ],
+        [
+          "2025-11-24 00:00:00",
+          5
+        ],
+        [
+          "2025-11-07 00:00:00",
+          5
+        ],
+        [
+          "2026-01-24 00:00:00",
+          4
+        ],
+        [
+          "2026-01-23 00:00:00",
+          4
+        ],
+        [
+          "2025-12-23 00:00:00",
+          4
+        ],
+        [
+          "2025-12-09 00:00:00",
+          4
+        ],
+        [
+          "2025-11-13 00:00:00",
+          4
+        ],
+        [
+          "2025-10-29 00:00:00",
+          4
+        ],
+        [
+          "2025-09-30 00:00:00",
+          4
+        ],
+        [
+          "2026-01-27 00:00:00",
+          3
+        ],
+        [
+          "2025-12-14 00:00:00",
+          3
+        ],
+        [
+          "2025-11-21 00:00:00",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that this project was last researched",
+      "notes_from_readme": "Units: yyyy-mm-dd."
+    },
+    {
+      "field_name": "Country/Area 1",
+      "code_friendly_name_guess": "country_area_1",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "Nepal",
+          87
+        ],
+        [
+          "China",
+          49
+        ],
+        [
+          "Ecuador",
+          26
+        ],
+        [
+          "Norway",
+          12
+        ],
+        [
+          "India",
+          8
+        ],
+        [
+          "Italy",
+          7
+        ],
+        [
+          "Brazil",
+          7
+        ],
+        [
+          "Türkiye",
+          6
+        ],
+        [
+          "France",
+          6
+        ],
+        [
+          "Russia",
+          5
+        ],
+        [
+          "Serbia",
+          4
+        ],
+        [
+          "United States",
+          3
+        ],
+        [
+          "Sweden",
+          3
+        ],
+        [
+          "Spain",
+          3
+        ],
+        [
+          "United Kingdom",
+          2
+        ],
+        [
+          "Switzerland",
+          2
+        ],
+        [
+          "Slovenia",
+          2
+        ],
+        [
+          "Philippines",
+          2
+        ],
+        [
+          "Pakistan",
+          2
+        ],
+        [
+          "Germany",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Primary country/area where the project is located (unabbreviated)",
+      "notes_from_readme": "If project is binational, Country/Area 1 is either the country/area listed first in alphabetical order for projects where capacity is shared equally, or the country/area with a larger portion of the total project capacity."
+    },
+    {
+      "field_name": "Country/Area 2",
+      "code_friendly_name_guess": "country_area_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Additional country/area where the project is located (unabbreviated)",
+      "notes_from_readme": "If project is binational, Country/Area 2 is either the country/area listed second in alphabetical order for projects where capacity is shared equally, or the country/area with a smaller portion of the total project capacity."
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 247,
+      "top_values": [
+        [
+          "Vlasina hydroelectric plant",
+          3
+        ],
+        [
+          "Bhadra hydroelectric plant",
+          2
+        ],
+        [
+          "Avesta hydroelectric plant",
+          2
+        ],
+        [
+          "Øksenelvane hydroelectric plant",
+          1
+        ],
+        [
+          "Çaykara hydroelectric plant",
+          1
+        ],
+        [
+          "Zileng River hydroelectric plant",
+          1
+        ],
+        [
+          "Zhongjundu hydroelectric plant",
+          1
+        ],
+        [
+          "Zhongfang Sanjiaotan hydroelectric plant",
+          1
+        ],
+        [
+          "Zhenquan hydroelectric plant",
+          1
+        ],
+        [
+          "Yulongtan hydroelectric plant",
+          1
+        ],
+        [
+          "Yuexi Tuanjie hydroelectric plant",
+          1
+        ],
+        [
+          "Yongxing Stage 2 hydroelectric plant",
+          1
+        ],
+        [
+          "Yongxi Stage 4 hydroelectric plant",
+          1
+        ],
+        [
+          "Yingpan hydroelectric plant",
+          1
+        ],
+        [
+          "Yanwa River hydroelectric plant",
+          1
+        ],
+        [
+          "Yanuncay hydroelectric plant",
+          1
+        ],
+        [
+          "Xuelongtan hydroelectric plant",
+          1
+        ],
+        [
+          "Ximagu hydroelectric plant",
+          1
+        ],
+        [
+          "Xichou Luoshuidong hydroelectric plant",
+          1
+        ],
+        [
+          "Xiaoxing hydroelectric plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Commonly used name",
+      "notes_from_readme": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed."
+    },
+    {
+      "field_name": "Project Name (local lang/script)",
+      "code_friendly_name_guess": "project_name_local_lang_script",
+      "n_total": 251,
+      "n_null": 163,
+      "n_non_null": 88,
+      "null_rate": 0.6494,
+      "n_unique": 88,
+      "top_values": [
+        [
+          "黄田水电站",
+          1
+        ],
+        [
+          "高河一级水电站",
+          1
+        ],
+        [
+          "高椅水电站",
+          1
+        ],
+        [
+          "雪龙滩水电厂",
+          1
+        ],
+        [
+          "镇泉引水电站",
+          1
+        ],
+        [
+          "越西团结水电站",
+          1
+        ],
+        [
+          "西畴县落水洞水电站",
+          1
+        ],
+        [
+          "蓝口水电站",
+          1
+        ],
+        [
+          "蒙江石门坎水电站",
+          1
+        ],
+        [
+          "翠江水电站",
+          1
+        ],
+        [
+          "红土水电站",
+          1
+        ],
+        [
+          "程江口水电站",
+          1
+        ],
+        [
+          "石棉县白水河电站",
+          1
+        ],
+        [
+          "甲米二级水电站",
+          1
+        ],
+        [
+          "玉龙滩水电厂",
+          1
+        ],
+        [
+          "牛都水电站",
+          1
+        ],
+        [
+          "涌溪四级水电站",
+          1
+        ],
+        [
+          "江西南河水电站",
+          1
+        ],
+        [
+          "永兴二级水电站",
+          1
+        ],
+        [
+          "柳城水电站",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Commonly used name in the locally used script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 251,
+      "n_null": 188,
+      "n_non_null": 63,
+      "null_rate": 0.749,
+      "n_unique": 59,
+      "top_values": [
+        [
+          "Vlasinska, Vlasinske, Vrla",
+          3
+        ],
+        [
+          "Lakkavalli Dam, Bhadra River Project",
+          2
+        ],
+        [
+          "Avesta Storfors, Avestaforsen",
+          2
+        ],
+        [
+          "Ézaro, Nueva Castrelo, Novo Castelo 1",
+          1
+        ],
+        [
+          "Vlasinski II",
+          1
+        ],
+        [
+          "Varzo 1 Cairasca",
+          1
+        ],
+        [
+          "Val Beynette, Beneyte",
+          1
+        ],
+        [
+          "Upper Seti Hydropower",
+          1
+        ],
+        [
+          "Upper Mailung",
+          1
+        ],
+        [
+          "Upper Brahmayani",
+          1
+        ],
+        [
+          "Upallo Khimti hydroelectric plant",
+          1
+        ],
+        [
+          "Thulokhola",
+          1
+        ],
+        [
+          "Tet",
+          1
+        ],
+        [
+          "Temple sur Lot",
+          1
+        ],
+        [
+          "Svean Rebuild",
+          1
+        ],
+        [
+          "Sunkoshi hydroelectric plant",
+          1
+        ],
+        [
+          "Storavatn 2",
+          1
+        ],
+        [
+          "Solu Khola hydroelectric plant",
+          1
+        ],
+        [
+          "Soldados-Yanuncay",
+          1
+        ],
+        [
+          "Seti Khola, Seti River hydroelectric plant, Seti Nadi",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "25",
+          31
+        ],
+        [
+          "24",
+          27
+        ],
+        [
+          "20",
+          20
+        ],
+        [
+          "15",
+          20
+        ],
+        [
+          "22",
+          16
+        ],
+        [
+          "28",
+          15
+        ],
+        [
+          "27",
+          14
+        ],
+        [
+          "26",
+          14
+        ],
+        [
+          "21",
+          14
+        ],
+        [
+          "29",
+          13
+        ],
+        [
+          "23",
+          11
+        ],
+        [
+          "12",
+          10
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "14",
+          8
+        ],
+        [
+          "13",
+          6
+        ],
+        [
+          "18",
+          5
+        ],
+        [
+          "16",
+          5
+        ],
+        [
+          "11",
+          5
+        ],
+        [
+          "19",
+          4
+        ],
+        [
+          "17",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total nameplate capacity, or best available data, of the project, in megawatts",
+      "notes_from_readme": "Units: MW."
+    },
+    {
+      "field_name": "Binational",
+      "code_friendly_name_guess": "binational",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "No",
+          251
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Indicates whether the project is located on an international boundary",
+      "notes_from_readme": "Units: Yes / No."
+    },
+    {
+      "field_name": "Country/Area 1 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_1_capacity_mw",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "25",
+          31
+        ],
+        [
+          "24",
+          27
+        ],
+        [
+          "20",
+          20
+        ],
+        [
+          "15",
+          20
+        ],
+        [
+          "22",
+          16
+        ],
+        [
+          "28",
+          15
+        ],
+        [
+          "27",
+          14
+        ],
+        [
+          "26",
+          14
+        ],
+        [
+          "21",
+          14
+        ],
+        [
+          "29",
+          13
+        ],
+        [
+          "23",
+          11
+        ],
+        [
+          "12",
+          10
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "14",
+          8
+        ],
+        [
+          "13",
+          6
+        ],
+        [
+          "18",
+          5
+        ],
+        [
+          "16",
+          5
+        ],
+        [
+          "11",
+          5
+        ],
+        [
+          "19",
+          4
+        ],
+        [
+          "17",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/Area 1, in megawatts, rounded to whole number",
+      "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within the boundaries of one country/area."
+    },
+    {
+      "field_name": "Country/Area 2 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_2_capacity_mw",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "0",
+          251
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/Area 2, in megawatts, rounded to whole number",
+      "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within the boundaries of one country/area."
+    },
+    {
+      "field_name": "Turbines",
+      "code_friendly_name_guess": "turbines",
+      "n_total": 251,
+      "n_null": 128,
+      "n_non_null": 123,
+      "null_rate": 0.51,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "2",
+          32
+        ],
+        [
+          "3",
+          21
+        ],
+        [
+          "2 x 12.5 MW",
+          8
+        ],
+        [
+          "2 x 10 MW",
+          7
+        ],
+        [
+          "1",
+          7
+        ],
+        [
+          "4",
+          5
+        ],
+        [
+          "2 x 12 MW",
+          4
+        ],
+        [
+          "5",
+          3
+        ],
+        [
+          "2 x 11 MW",
+          3
+        ],
+        [
+          "2 x 10.5 MW",
+          3
+        ],
+        [
+          "6",
+          2
+        ],
+        [
+          "2 x 7 MW",
+          2
+        ],
+        [
+          "2 x 6 MW",
+          2
+        ],
+        [
+          "6 x 3.5 MW; 1 x 3 MW",
+          1
+        ],
+        [
+          "4 x 6.3 MW",
+          1
+        ],
+        [
+          "4 x 6 MW",
+          1
+        ],
+        [
+          "3 x 9 MW",
+          1
+        ],
+        [
+          "3 x 8.8 MW",
+          1
+        ],
+        [
+          "3 x 8.5 MW",
+          1
+        ],
+        [
+          "3 x 8 MW",
+          1
+        ]
+      ],
+      "portion_numeric": 0.5691,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Turbine number and capacity",
+      "notes_from_readme": "Information about the project's turbines, semicolon-separated."
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          181
+        ],
+        [
+          "pre-construction",
+          35
+        ],
+        [
+          "construction",
+          17
+        ],
+        [
+          "announced",
+          8
+        ],
+        [
+          "shelved - inferred 2 y",
+          5
+        ],
+        [
+          "mothballed",
+          2
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "see rows 22-31 above",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "announced",
+          "definition": "Described in corporate or government plans but have not yet taken concrete steps such as applying for permits."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "construction",
+          "definition": "Site preparation and equipment installation are underway."
+        },
+        {
+          "name": "operating",
+          "definition": "Formally commissioned; commercial operation has begun."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of progress has been announced."
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "Inferred to be shelved if no progress has been observed for at least two years."
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made."
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "Inferred to be cancelled if no progress has been observed for at least four years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused, but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "Decommissioned."
+        }
+      ]
+    },
+    {
+      "field_name": "Complex",
+      "code_friendly_name_guess": "complex",
+      "n_total": 251,
+      "n_null": 245,
+      "n_non_null": 6,
+      "null_rate": 0.9761,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Upper Modi Complex",
+          1
+        ],
+        [
+          "Tambre Complex",
+          1
+        ],
+        [
+          "Khenifra Complex",
+          1
+        ],
+        [
+          "Kalanga Complex",
+          1
+        ],
+        [
+          "Caliraya-Botocan-Kalayaan (CBK) Complex",
+          1
+        ],
+        [
+          "Apiacás Complex",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of the complex that this project is a part of, if any",
+      "notes_from_readme": "Used to link together multiple projects that are part of a collection of related power-generating infrastructure but which should be considered different plants due to distinct physical infrastructure, geographic separation, and/or other factors such as ownership or operation. Left blank if not part of a complex."
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 251,
+      "n_null": 81,
+      "n_non_null": 170,
+      "null_rate": 0.3227,
+      "n_unique": 77,
+      "top_values": [
+        [
+          "2023",
+          7
+        ],
+        [
+          "2022",
+          7
+        ],
+        [
+          "2024",
+          6
+        ],
+        [
+          "2013",
+          6
+        ],
+        [
+          "2017",
+          5
+        ],
+        [
+          "2016",
+          5
+        ],
+        [
+          "2012",
+          5
+        ],
+        [
+          "2008",
+          5
+        ],
+        [
+          "2004",
+          5
+        ],
+        [
+          "1955",
+          5
+        ],
+        [
+          "2021",
+          4
+        ],
+        [
+          "2019",
+          4
+        ],
+        [
+          "2006",
+          4
+        ],
+        [
+          "2003",
+          4
+        ],
+        [
+          "1965",
+          4
+        ],
+        [
+          "1958",
+          4
+        ],
+        [
+          "2025",
+          3
+        ],
+        [
+          "2018",
+          3
+        ],
+        [
+          "2014",
+          3
+        ],
+        [
+          "2009",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the project was or will be commissioned",
+      "notes_from_readme": "Units: yyyy."
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 251,
+      "n_null": 250,
+      "n_non_null": 1,
+      "null_rate": 0.996,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "2028",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the project was or will be taken offline",
+      "notes_from_readme": "Units: yyyy."
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 251,
+      "n_null": 68,
+      "n_non_null": 183,
+      "null_rate": 0.2709,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "Nepal Electricity Authority (NEA) [100%]",
+          8
+        ],
+        [
+          "Enel SpA [100%]",
+          5
+        ],
+        [
+          "Electricité de France SA [100%]",
+          5
+        ],
+        [
+          "Elektroprivreda Srbije (EPS)",
+          4
+        ],
+        [
+          "Å Energi [100%]",
+          3
+        ],
+        [
+          "Karnataka Power Corp Ltd [100%]",
+          3
+        ],
+        [
+          "Hidrotérmica SA",
+          3
+        ],
+        [
+          "Uniper SE",
+          2
+        ],
+        [
+          "Tafjord Kraft [100%]",
+          2
+        ],
+        [
+          "Synergy Power Development Ltd [100%]",
+          2
+        ],
+        [
+          "Shenzhen Fuyuan Industrial (Group) Co Ltd",
+          2
+        ],
+        [
+          "SSE PLC [100%]",
+          2
+        ],
+        [
+          "RusHydro PJSC [100%]",
+          2
+        ],
+        [
+          "Qinghai Hydropower (group) Co Ltd",
+          2
+        ],
+        [
+          "Himalayan Hydropower Pvt Ltd [100%]",
+          2
+        ],
+        [
+          "Guoneng Diqing Shangri-La (Nujiang) Power Generation Co Ltd",
+          2
+        ],
+        [
+          "Fortum Oyj [100%]",
+          2
+        ],
+        [
+          "ÖBB-Infrastruktur AG",
+          1
+        ],
+        [
+          "Zhenkang Xiangneng Hydropower Development Co Ltd",
+          1
+        ],
+        [
+          "Zhejiang Huanyu Energy Group Co Ltd",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that directly owns the project",
+      "notes_from_readme": "If percent ownership is known, format is CompanyA [X%]; CompanyB [Y%]."
+    },
+    {
+      "field_name": "Owner Name (local lang/script)",
+      "code_friendly_name_guess": "owner_name_local_lang_script",
+      "n_total": 251,
+      "n_null": 212,
+      "n_non_null": 39,
+      "null_rate": 0.8446,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "Électricité de France",
+          5
+        ],
+        [
+          "青海省水利水电（集团）有限责任公司",
+          2
+        ],
+        [
+          "深圳市富源实业（集团）有限公司",
+          2
+        ],
+        [
+          "国能迪庆香格里拉（怒江）发电有限公司",
+          2
+        ],
+        [
+          "ПАО «РусГидро»",
+          2
+        ],
+        [
+          "镇康湘能水电开发有限公司",
+          1
+        ],
+        [
+          "越西县星光电力开发有限责任公司",
+          1
+        ],
+        [
+          "福贡县恒大水电开发有限公司",
+          1
+        ],
+        [
+          "盈江鸿福实业有限公司",
+          1
+        ],
+        [
+          "湖南省邵阳市中电投资有限公司",
+          1
+        ],
+        [
+          "浙江寰宇能源集团有限公司",
+          1
+        ],
+        [
+          "汉能控股集团有限公司",
+          1
+        ],
+        [
+          "德化涌溪水电有限公司",
+          1
+        ],
+        [
+          "广西河源电力开发有限公司",
+          1
+        ],
+        [
+          "广西水利电力建设集团有限公司",
+          1
+        ],
+        [
+          "广东梅雁水电股份有限公司",
+          1
+        ],
+        [
+          "巫溪县后溪河水电开发有限公司",
+          1
+        ],
+        [
+          "大唐华银怀化巫水流域水电开发有限公司",
+          1
+        ],
+        [
+          "国能四川能源有限公司",
+          1
+        ],
+        [
+          "国家能源集团云南电力有限公司",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name(s) of owner(s) in the locally used script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 251,
+      "n_null": 144,
+      "n_non_null": 107,
+      "null_rate": 0.5737,
+      "n_unique": 86,
+      "top_values": [
+        [
+          "Enel Green Power",
+          5
+        ],
+        [
+          "Electricité de France",
+          5
+        ],
+        [
+          "Elecaustro",
+          5
+        ],
+        [
+          "Å Energi Vannkraft",
+          3
+        ],
+        [
+          "Karnataka Power",
+          3
+        ],
+        [
+          "Tafjord Kraftproduksjon",
+          2
+        ],
+        [
+          "Svelgen Kraft",
+          2
+        ],
+        [
+          "SSE Renewables",
+          2
+        ],
+        [
+          "PJSC TGC-1 (Territorial generating company number 1)",
+          2
+        ],
+        [
+          "Heyuan Fuyuan Hydropower",
+          2
+        ],
+        [
+          "ÖBB-Infrastruktur",
+          1
+        ],
+        [
+          "Zhejiang Guangsha Beichuan Hydropower Development",
+          1
+        ],
+        [
+          "Yunhe County Shapulong Hydropower",
+          1
+        ],
+        [
+          "Yongtong Ganzhou Hydropower",
+          1
+        ],
+        [
+          "Yingjiang Hongfu Industrial",
+          1
+        ],
+        [
+          "Yangbi Hydropower Development",
+          1
+        ],
+        [
+          "Upper Solu Hydroelectric CO",
+          1
+        ],
+        [
+          "Upper Seti Hydro",
+          1
+        ],
+        [
+          "United Modi Hydropower LTD (UMHL)",
+          1
+        ],
+        [
+          "Thulo Khola Hydropower",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company(ies) that operates the project",
+      "notes_from_readme": "Company that performs day-to-day operations and maintenance of the project."
+    },
+    {
+      "field_name": "Operator Name (local lang/script)",
+      "code_friendly_name_guess": "operator_name_local_lang_script",
+      "n_total": 251,
+      "n_null": 226,
+      "n_non_null": 25,
+      "null_rate": 0.9004,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Électricité de France",
+          5
+        ],
+        [
+          "河源市富源水电有限公司",
+          2
+        ],
+        [
+          "ПАО «ТГК-1»",
+          2
+        ],
+        [
+          "翠江水力发电有限公司",
+          1
+        ],
+        [
+          "祁阳市内下电站有限责任公司",
+          1
+        ],
+        [
+          "盈江鸿福实业有限公司",
+          1
+        ],
+        [
+          "漾濞水能开发有限责任公司",
+          1
+        ],
+        [
+          "湖南联诚程江口发电有限公司",
+          1
+        ],
+        [
+          "浙江广厦北川水电开发有限公司",
+          1
+        ],
+        [
+          "河池市宜州区桂龙水电有限公司",
+          1
+        ],
+        [
+          "永通赣州水电有限公司",
+          1
+        ],
+        [
+          "梅州丙村水电有限公司",
+          1
+        ],
+        [
+          "广东韶能集团股份有限公司永州市冷水滩顺和水电有限公司",
+          1
+        ],
+        [
+          "师宗县冒水洞发电有限责任公司",
+          1
+        ],
+        [
+          "国能麻栗坡三转湾发电有限公司",
+          1
+        ],
+        [
+          "国电恩施水电开发有限公司",
+          1
+        ],
+        [
+          "四川盐源甲米河水电开发有限公司",
+          1
+        ],
+        [
+          "云和县沙铺砻水力发电有限责任公司",
+          1
+        ],
+        [
+          "المكتب الوطنى للكهرباء والماء الصالح للشرب",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name(s) of operator(s) in the locally used script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Technology Type",
+      "code_friendly_name_guess": "technology_type",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "run-of-river",
+          129
+        ],
+        [
+          "unknown",
+          69
+        ],
+        [
+          "conventional storage",
+          48
+        ],
+        [
+          "conventional and run-of-river",
+          4
+        ],
+        [
+          "pumped storage",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "see rows 34-39 above",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "conventional storage",
+          "definition": "The project typically or entirely generates electricity from water stored in a reservoir."
+        },
+        {
+          "name": "pumped storage",
+          "definition": "The project generates electricity using water which is cycled between a lower and an upper reservoir by a pumping system."
+        },
+        {
+          "name": "run-of-river",
+          "definition": "The project typically or entirely generates electricty from flowing water with little to no storage capacity."
+        },
+        {
+          "name": "unknown",
+          "definition": "Technology type not specified."
+        },
+        {
+          "name": "conventional and pumped storage",
+          "definition": "The project has both conventional storage and pumped storage capability."
+        },
+        {
+          "name": "conventional and run-of-river",
+          "definition": "The project has both conventional storage and run-of-river capability."
+        }
+      ]
+    },
+    {
+      "field_name": "River / Watercourse",
+      "code_friendly_name_guess": "river_watercourse",
+      "n_total": 251,
+      "n_null": 57,
+      "n_non_null": 194,
+      "null_rate": 0.2271,
+      "n_unique": 161,
+      "top_values": [
+        [
+          "Modi Khola River",
+          5
+        ],
+        [
+          "Kabeli Khola River",
+          5
+        ],
+        [
+          "Long River",
+          4
+        ],
+        [
+          "Rio Paraúna",
+          3
+        ],
+        [
+          "Mei River",
+          3
+        ],
+        [
+          "Dong River",
+          3
+        ],
+        [
+          "Xiaoxinggou River",
+          2
+        ],
+        [
+          "Wu River",
+          2
+        ],
+        [
+          "Trishuli River",
+          2
+        ],
+        [
+          "Tafjordvassdraget",
+          2
+        ],
+        [
+          "Solu Khola River",
+          2
+        ],
+        [
+          "Seti River",
+          2
+        ],
+        [
+          "Seti Khola River",
+          2
+        ],
+        [
+          "Panlong River",
+          2
+        ],
+        [
+          "Nyadi River",
+          2
+        ],
+        [
+          "Mai Khola River",
+          2
+        ],
+        [
+          "Lei River",
+          2
+        ],
+        [
+          "Irkhuwa Khola River",
+          2
+        ],
+        [
+          "Hewa Khola River",
+          2
+        ],
+        [
+          "Datong River",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The name of the river or watercourse on which the project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 248,
+      "top_values": [
+        [
+          "28.3841",
+          2
+        ],
+        [
+          "28.335",
+          2
+        ],
+        [
+          "28.2106",
+          2
+        ],
+        [
+          "9.946",
+          1
+        ],
+        [
+          "67.3811",
+          1
+        ],
+        [
+          "66.4743",
+          1
+        ],
+        [
+          "64.5133",
+          1
+        ],
+        [
+          "63.3064",
+          1
+        ],
+        [
+          "63.2793",
+          1
+        ],
+        [
+          "62.2264",
+          1
+        ],
+        [
+          "62.1505",
+          1
+        ],
+        [
+          "61.8415",
+          1
+        ],
+        [
+          "61.769",
+          1
+        ],
+        [
+          "61.7167",
+          1
+        ],
+        [
+          "60.5545",
+          1
+        ],
+        [
+          "60.1511",
+          1
+        ],
+        [
+          "60.1501",
+          1
+        ],
+        [
+          "59.5418",
+          1
+        ],
+        [
+          "58.5294",
+          1
+        ],
+        [
+          "58.3567",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Latitude of the project, assumed WGS84 (Google Maps)",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 248,
+      "top_values": [
+        [
+          "84.1356",
+          2
+        ],
+        [
+          "84.0363",
+          2
+        ],
+        [
+          "84.0017",
+          2
+        ],
+        [
+          "99.6238",
+          1
+        ],
+        [
+          "99.1638",
+          1
+        ],
+        [
+          "99.1415",
+          1
+        ],
+        [
+          "98.9027",
+          1
+        ],
+        [
+          "98.6526",
+          1
+        ],
+        [
+          "97.8574",
+          1
+        ],
+        [
+          "97.7562",
+          1
+        ],
+        [
+          "9.9455",
+          1
+        ],
+        [
+          "9.8599",
+          1
+        ],
+        [
+          "9.4833",
+          1
+        ],
+        [
+          "9.397",
+          1
+        ],
+        [
+          "9.06001",
+          1
+        ],
+        [
+          "87.9636",
+          1
+        ],
+        [
+          "87.8998",
+          1
+        ],
+        [
+          "87.89001",
+          1
+        ],
+        [
+          "87.88001",
+          1
+        ],
+        [
+          "87.8784",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Longitude of the project, assumed WGS84 (Google Maps)",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          170
+        ],
+        [
+          "approximate",
+          81
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Approximate based on using nearest city or other information in research, or exact based on visibility on map or given in research",
+      "notes_from_readme": "Units: approximate, exact."
+    },
+    {
+      "field_name": "City 1",
+      "code_friendly_name_guess": "city_1",
+      "n_total": 251,
+      "n_null": 113,
+      "n_non_null": 138,
+      "null_rate": 0.4502,
+      "n_unique": 121,
+      "top_values": [
+        [
+          "Surdulica Municipality",
+          3
+        ],
+        [
+          "Cuenca",
+          3
+        ],
+        [
+          "Yamphudin Village",
+          2
+        ],
+        [
+          "Sudian",
+          2
+        ],
+        [
+          "Shikha Village",
+          2
+        ],
+        [
+          "Salpasilichho Rural Municipality",
+          2
+        ],
+        [
+          "Rubi Valley Rural Municipality",
+          2
+        ],
+        [
+          "Ribeirao Prata",
+          2
+        ],
+        [
+          "Namarjung Village",
+          2
+        ],
+        [
+          "Mudi Village",
+          2
+        ],
+        [
+          "Marsyandi Rural Municipality",
+          2
+        ],
+        [
+          "Gudel Village",
+          2
+        ],
+        [
+          "Gaurishankar Ward",
+          2
+        ],
+        [
+          "Dhodeni",
+          2
+        ],
+        [
+          "Chilkhaya Village",
+          2
+        ],
+        [
+          "Zhugu",
+          1
+        ],
+        [
+          "Zhongfang",
+          1
+        ],
+        [
+          "Yanyun",
+          1
+        ],
+        [
+          "Yanchi",
+          1
+        ],
+        [
+          "Xieluo",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, or village where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local Area 1",
+      "code_friendly_name_guess": "local_area_1",
+      "n_total": 251,
+      "n_null": 32,
+      "n_non_null": 219,
+      "null_rate": 0.1275,
+      "n_unique": 150,
+      "top_values": [
+        [
+          "Taplejung District",
+          7
+        ],
+        [
+          "Myagdi District",
+          7
+        ],
+        [
+          "Solukhumbu District",
+          5
+        ],
+        [
+          "Kaski District",
+          5
+        ],
+        [
+          "Vestland",
+          4
+        ],
+        [
+          "Quito Canton",
+          4
+        ],
+        [
+          "Pcinja Administrative District",
+          4
+        ],
+        [
+          "Lamjung District",
+          4
+        ],
+        [
+          "Dongyuan",
+          3
+        ],
+        [
+          "Dhading District",
+          3
+        ],
+        [
+          "Bhojpur District",
+          3
+        ],
+        [
+          "Agder",
+          3
+        ],
+        [
+          "Yingjiang",
+          2
+        ],
+        [
+          "Verbano-Cusio-Ossola",
+          2
+        ],
+        [
+          "Taplejung",
+          2
+        ],
+        [
+          "Songpan",
+          2
+        ],
+        [
+          "Sindhupalchowk",
+          2
+        ],
+        [
+          "Sindhupalchok District",
+          2
+        ],
+        [
+          "Shimian",
+          2
+        ],
+        [
+          "Sankhuwasabha District",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "County or taluk where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Major Area 1",
+      "code_friendly_name_guess": "major_area_1",
+      "n_total": 251,
+      "n_null": 126,
+      "n_non_null": 125,
+      "null_rate": 0.502,
+      "n_unique": 70,
+      "top_values": [
+        [
+          "Gandaki Zone",
+          10
+        ],
+        [
+          "Bagmati Zone",
+          8
+        ],
+        [
+          "Taplejung District",
+          5
+        ],
+        [
+          "Dhaulagiri Zone",
+          5
+        ],
+        [
+          "Sagarmatha Zone",
+          4
+        ],
+        [
+          "Hechi",
+          4
+        ],
+        [
+          "Ngawa AP",
+          3
+        ],
+        [
+          "Heyuan",
+          3
+        ],
+        [
+          "Chenzhou",
+          3
+        ],
+        [
+          "Ya'an",
+          2
+        ],
+        [
+          "Wenshan AP",
+          2
+        ],
+        [
+          "Solukhumbu District",
+          2
+        ],
+        [
+          "Sindhupalchok District",
+          2
+        ],
+        [
+          "Shimoga",
+          2
+        ],
+        [
+          "Nujiang AP",
+          2
+        ],
+        [
+          "Myagdi District",
+          2
+        ],
+        [
+          "Meizhou",
+          2
+        ],
+        [
+          "Mechi Zone",
+          2
+        ],
+        [
+          "Liangshan AP",
+          2
+        ],
+        [
+          "Lamjung District",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "State/Province 1",
+      "code_friendly_name_guess": "state_province_1",
+      "n_total": 251,
+      "n_null": 49,
+      "n_non_null": 202,
+      "null_rate": 0.1952,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "Gandaki Province",
+          22
+        ],
+        [
+          "Province No. 1",
+          19
+        ],
+        [
+          "Yunnan",
+          13
+        ],
+        [
+          "Bagmati Province",
+          13
+        ],
+        [
+          "Hunan",
+          9
+        ],
+        [
+          "Sichuan",
+          8
+        ],
+        [
+          "Minas Gerais",
+          6
+        ],
+        [
+          "Pichincha",
+          5
+        ],
+        [
+          "Guangdong",
+          5
+        ],
+        [
+          "Karnataka",
+          4
+        ],
+        [
+          "Guangxi",
+          4
+        ],
+        [
+          "Sudurpashchim Province",
+          3
+        ],
+        [
+          "Napo",
+          3
+        ],
+        [
+          "Galicia",
+          3
+        ],
+        [
+          "Chimborazo",
+          3
+        ],
+        [
+          "Azuay",
+          3
+        ],
+        [
+          "Vorarlberg",
+          2
+        ],
+        [
+          "Uttarakhand",
+          2
+        ],
+        [
+          "Tungurahua",
+          2
+        ],
+        [
+          "Scotland",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion 1",
+      "code_friendly_name_guess": "subregion_1",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Southern Asia",
+          97
+        ],
+        [
+          "Eastern Asia",
+          49
+        ],
+        [
+          "Latin America and the Caribbean",
+          36
+        ],
+        [
+          "Northern Europe",
+          17
+        ],
+        [
+          "Southern Europe",
+          16
+        ],
+        [
+          "Western Europe",
+          12
+        ],
+        [
+          "Western Asia",
+          7
+        ],
+        [
+          "Eastern Europe",
+          5
+        ],
+        [
+          "Northern America",
+          4
+        ],
+        [
+          "South-eastern Asia",
+          3
+        ],
+        [
+          "Northern Africa",
+          3
+        ],
+        [
+          "Sub-Saharan Africa",
+          1
+        ],
+        [
+          "Central Asia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Subregion (using UN Population and Statistics definitions) where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region 1",
+      "code_friendly_name_guess": "region_1",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Asia",
+          157
+        ],
+        [
+          "Europe",
+          50
+        ],
+        [
+          "Americas",
+          40
+        ],
+        [
+          "Africa",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Region (using UN Population and Statistics definitions) where project is located within Country/Area 1",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "City 2",
+      "code_friendly_name_guess": "city_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, or village where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local Area 2",
+      "code_friendly_name_guess": "local_area_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "County or taluk where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Major Area 2",
+      "code_friendly_name_guess": "major_area_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "State/Province 2",
+      "code_friendly_name_guess": "state_province_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion 2",
+      "code_friendly_name_guess": "subregion_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subregion (using UN Population and Statistics definitions) where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region 2",
+      "code_friendly_name_guess": "region_2",
+      "n_total": 251,
+      "n_null": 251,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Region (using UN Population and Statistics definitions) where project is located within Country/Area 2, if applicable",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 247,
+      "top_values": [
+        [
+          "L100001081888",
+          3
+        ],
+        [
+          "L100001080774",
+          2
+        ],
+        [
+          "L100001063306",
+          2
+        ],
+        [
+          "L100001081934",
+          1
+        ],
+        [
+          "L100001081927",
+          1
+        ],
+        [
+          "L100001081923",
+          1
+        ],
+        [
+          "L100001081903",
+          1
+        ],
+        [
+          "L100001081902",
+          1
+        ],
+        [
+          "L100001081901",
+          1
+        ],
+        [
+          "L100001081900",
+          1
+        ],
+        [
+          "L100001081889",
+          1
+        ],
+        [
+          "L100001081861",
+          1
+        ],
+        [
+          "L100001081824",
+          1
+        ],
+        [
+          "L100001081024",
+          1
+        ],
+        [
+          "L100001081011",
+          1
+        ],
+        [
+          "L100001080851",
+          1
+        ],
+        [
+          "L100001080777",
+          1
+        ],
+        [
+          "L100001080771",
+          1
+        ],
+        [
+          "L100001080193",
+          1
+        ],
+        [
+          "L100001064454",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "GEM-generated ID unique for each project",
+      "notes_from_readme": "Units: L100000600001 - L100000699999."
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 251,
+      "top_values": [
+        [
+          "G100001093050",
+          1
+        ],
+        [
+          "G100001092257",
+          1
+        ],
+        [
+          "G100001092250",
+          1
+        ],
+        [
+          "G100001092245",
+          1
+        ],
+        [
+          "G100001092222",
+          1
+        ],
+        [
+          "G100001092221",
+          1
+        ],
+        [
+          "G100001092220",
+          1
+        ],
+        [
+          "G100001092219",
+          1
+        ],
+        [
+          "G100001092207",
+          1
+        ],
+        [
+          "G100001092206",
+          1
+        ],
+        [
+          "G100001092205",
+          1
+        ],
+        [
+          "G100001092204",
+          1
+        ],
+        [
+          "G100001092166",
+          1
+        ],
+        [
+          "G100001092138",
+          1
+        ],
+        [
+          "G100001092118",
+          1
+        ],
+        [
+          "G100001091077",
+          1
+        ],
+        [
+          "G100001091062",
+          1
+        ],
+        [
+          "G100001090806",
+          1
+        ],
+        [
+          "G100001090711",
+          1
+        ],
+        [
+          "G100001090708",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "GEM-generated ID unique for each unit",
+      "notes_from_readme": "Units: G100000600001 - G100000699999."
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 251,
+      "n_null": 0,
+      "n_non_null": 251,
+      "null_rate": 0.0,
+      "n_unique": 247,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Vlasina_hydroelectric_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Bhadra_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Avesta_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Øksenelvane_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Çaykara_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zileng_River_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongjundu_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongfang_Sanjiaotan_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhenquan_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yulongtan_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yuexi_Tuanjie_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yongxing_Stage_2_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yongxi_Stage_4_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yingpan_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yanwa_River_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yanuncay_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xuelongtan_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ximagu_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xichou_Luoshuidong_hydroelectric_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xiaoxing_hydroelectric_plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL of GEM.wiki pages",
+      "notes_from_readme": "Wiki page links not included for Below Threshold projects."
+    }
+  ]
+}

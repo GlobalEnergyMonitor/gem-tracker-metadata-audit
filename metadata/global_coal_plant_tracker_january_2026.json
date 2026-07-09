@@ -1,0 +1,424 @@
+{
+  "source_file": "Global-Coal-Plant-Tracker-January-2026.xlsx",
+  "tracker_slug": "global_coal_plant_tracker_january_2026",
+  "header_info": {
+    "title": "Global Coal Plant Tracker, Global Energy Monitor  January 2026 Release",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Plant Tracker, January 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Christine Shearer, Project Manager, Global Energy Monitor - christine.shearer@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Plant Tracker, January 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "units": "Units"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Status Definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled\" (or two years since being marked \"shelved\"), unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "GCPT Field Descriptions",
+      "section_type": "dictionary",
+      "tab_key": "units",
+      "entries": [
+        {
+          "name": "GEM unit/phase ID",
+          "definition": "ID unique to the coal-fired unit",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM location ID",
+          "definition": "ID unique to the entire power station",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country where the power station is/was located or is/was in development",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL",
+          "definition": "Link to GEM's power station wiki page, featuring narrative descriptions and source attribution",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name",
+          "definition": "Identical label across all units at the same power station",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "Unique label for each unit at the same power station",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (other)",
+          "definition": "Alternative and former labels for the power station",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (local)",
+          "definition": "Power station name in a local language or government plan",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "Lowest level, direct power station owner(s)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner GEM Entity ID",
+          "definition": "GEOT ID unique to the entity",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent",
+          "definition": "Highest level power station owner(s) and their share of ownership, if known",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent GEM Entity ID",
+          "definition": "GEOT ID unique to the parent or parent configuration",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (MW)",
+          "definition": "Nameplate/gross/installed capacity, in megawatts",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "Status designation, see more details above",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start year",
+          "definition": "Year the unit was commissioned",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired year",
+          "definition": "Year the unit was decommissioned",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Planned retirement",
+          "definition": "Year a specific unit is planned to retire (specific, not national commitments)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Phaseout commitment",
+          "definition": "Year of planned country-level coal phaseout",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Planned retirement"
+        },
+        {
+          "name": "Net-zero commitment",
+          "definition": "Year of country-level net-zero target",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Planned retirement"
+        },
+        {
+          "name": "Combustion technology",
+          "definition": "Power station technology type. Fore more info about each type, see https://www.gem.wiki/Coal_power_technologies",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal type",
+          "definition": "Anthracite, bituminous, lignite, subbituminous, waste coal, or unknown",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal source",
+          "definition": "Mine, region, or country of coal origin, to highest level of known specificity",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion to (fuel)",
+          "definition": "Fuel details connected to another GEM tracker, used when a project conversion is planned",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion to (GEM unit ID)",
+          "definition": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Alternate Fuel",
+          "definition": "Details about co-firing with another fuel, generally excluding any start-up fuels or cold-start fuels",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location",
+          "definition": "Closest location (e.g. city or town)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Local area",
+          "definition": "Taluk, county",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Location"
+        },
+        {
+          "name": "Major area",
+          "definition": "Prefecture, district",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Location"
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "Province, state",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Location"
+        },
+        {
+          "name": "Subregion",
+          "definition": "Global subregion",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "Global region",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "WGS 84 Decimal latitude",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "WGS 84 Decimal longitude",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Whether coordinates are exact or approximate",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Permits",
+          "definition": "Date the power station received environmental clearance",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive",
+          "definition": "Industry, if the power station is designated for paricular non-grid use",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive industry use",
+          "definition": "Whether a captive power station provides heat, power, or both",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive residential use",
+          "definition": "Whether the plant sell excess heat, power, or both",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CHP",
+          "definition": "Whether the unit is used for combined heat and power",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "China capacity payment recipient",
+          "definition": "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Metholology",
+          "definition": "For CO2 calculation method, see \"Estimating carbon dioxide emissions from coal plants\" at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "China capacity payment recipient"
+        },
+        {
+          "name": "Note",
+          "definition": "The GCPT estimates for CO2 emissions are intended to provide guidance on overall country and regional emissions over the lifecycle of the existing and proposed fleet of plants. They are not intended to provide detailed impact analysis for particular plants. For this reason, the average capacity factor by country is used for all plants. In general, newer plants will tend to have higher capacity factors than the average, and older plants will have lower capacity factors than the average. Similarly, heat rates and emission factors represent broad performance; these factors will differ for particular plants and coal supplies.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "China capacity payment recipient"
+        },
+        {
+          "name": "Capacity factor",
+          "definition": "Average capacity factor by country, based on GEM's global operating coal power capacity (2025) and Ember's power generation data (accessed 23 January 2026). Plants that are retired or cancelled are given a capacity factor of 0, i.e. no generation is assumed. Capacity data for Indonesia includes grid plants only, as the generation data excludes captive plants. Because the GCPT excludes coal-fired units under 30 MW, the average capacity factor reported here likely overstates national averages in countries with a non-trivial share of small units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant age",
+          "definition": "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity factor"
+        },
+        {
+          "name": "Lifetime",
+          "definition": "Lifetime emissions assume a plant lifetime of 35 years, based on the global average retirement age of 37 years. Plants older than 35 years are assumed to operate an additional 5 years. Plants with a planned retirement date are assumed to cease operations that year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity factor"
+        },
+        {
+          "name": "Heat rate",
+          "definition": "Heat rate is based on type of combustion technology, with performance penalties for older and smaller units. More discussion at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity factor"
+        },
+        {
+          "name": "Emission factor",
+          "definition": "Based on type of coal using the 2006 IPPC Guidelines for National Greenhouse Inventories, Table 2.2, page 2.16.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity factor"
+        }
+      ]
+    }
+  ]
+}

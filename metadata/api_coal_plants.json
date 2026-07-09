@@ -1,0 +1,1286 @@
+{
+  "citation": {
+    "copyright": "© Global Energy Monitor. Global Coal Plant Tracker, January 2026 release. Distributed under a Creative Commons Attribution 4.0 International License.",
+    "citation": "\"Global Energy Monitor, Global Coal Plant Tracker, January 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Christine Shearer, Project Manager, Global Energy Monitor - christine.shearer@globalenergymonitor.org"
+  },
+  "sources": {
+    "sheetId": "...",
+    "tabs": [
+      "Units"
+    ]
+  },
+  "fieldCategoriesOrdered": [
+    "IDs",
+    "Names",
+    "Geography",
+    "Main",
+    "Size",
+    "Age",
+    "Details",
+    "Reference",
+    "Ownership",
+    "CO2 estimates"
+  ],
+  "fieldsDetail": [
+    {
+      "name": "GEM unit/phase ID",
+      "definition": "ID unique to the coal-fired unit",
+      "is_required": true,
+      "category": "IDs",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^G\\d+$",
+      "code_friendly_name": "gem_unit_phase_id",
+      "data_sub_type": "structured",
+      "taxonomy": "unit",
+      "url": "/catalog/metadata/coal-plants/fields/gem_unit_phase_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/gem_unit_phase_id/count"
+      }
+    },
+    {
+      "name": "GEM location ID",
+      "definition": "ID unique to the entire power station",
+      "is_required": true,
+      "category": "IDs",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^L\\d+$",
+      "code_friendly_name": "gem_location_id",
+      "data_sub_type": "structured",
+      "taxonomy": "location",
+      "url": "/catalog/metadata/coal-plants/fields/gem_location_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/gem_location_id/count"
+      }
+    },
+    {
+      "name": "Country/Area",
+      "definition": "Country where the power station is/was located or is/was in development",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "country_area",
+      "data_sub_type": "categorical",
+      "taxonomy": "country_area",
+      "url": "/catalog/metadata/coal-plants/fields/country_area/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/country_area/count"
+      }
+    },
+    {
+      "name": "Wiki URL",
+      "definition": "Link to GEM's power station wiki page, featuring narrative descriptions and source attribution",
+      "is_required": true,
+      "category": "Reference",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^https://www.gem.wiki/.*",
+      "code_friendly_name": "wiki_url",
+      "data_sub_type": "structured",
+      "url": "/catalog/metadata/coal-plants/fields/wiki_url/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/wiki_url/count"
+      }
+    },
+    {
+      "name": "Plant name",
+      "definition": "Identical label across all units at the same power station",
+      "is_required": true,
+      "category": "Names",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "plant_name",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/plant_name/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/plant_name/count"
+      }
+    },
+    {
+      "name": "Unit name",
+      "definition": "Unique label for each unit at the same power station",
+      "is_required": true,
+      "category": "Names",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "unit_name",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/unit_name/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/unit_name/count"
+      }
+    },
+    {
+      "name": "Plant name (other)",
+      "definition": "Alternative and former labels for the power station",
+      "is_required": false,
+      "category": "Names",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "plant_name_other",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/plant_name_other/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/plant_name_other/count"
+      }
+    },
+    {
+      "name": "Plant name (local)",
+      "definition": "Power station name in a local language or government plan",
+      "is_required": false,
+      "category": "Names",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "plant_name_local",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/plant_name_local/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/plant_name_local/count"
+      }
+    },
+    {
+      "name": "Owner",
+      "definition": "Lowest level, direct power station owner(s)",
+      "is_required": false,
+      "category": "Ownership",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "owner",
+      "data_sub_type": "unstructured",
+      "taxonomy": "owner_name",
+      "url": "/catalog/metadata/coal-plants/fields/owner/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/owner/count"
+      }
+    },
+    {
+      "name": "Owner GEM Entity ID",
+      "definition": "GEOT ID unique to the entity",
+      "is_required": false,
+      "category": "Ownership",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^E\\d+$",
+      "code_friendly_name": "owner_gem_entity_id",
+      "data_sub_type": "structured",
+      "taxonomy": "owner_entity_id",
+      "url": "/catalog/metadata/coal-plants/fields/owner_gem_entity_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/owner_gem_entity_id/count"
+      }
+    },
+    {
+      "name": "Parent",
+      "definition": "Highest level power station owner(s) and their share of ownership, if known",
+      "is_required": false,
+      "category": "Ownership",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "parent",
+      "data_sub_type": "unstructured",
+      "taxonomy": "parent_name",
+      "url": "/catalog/metadata/coal-plants/fields/parent/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/parent/count"
+      }
+    },
+    {
+      "name": "Parent GEM Entity ID",
+      "definition": "GEOT ID unique to the parent or parent configuration",
+      "is_required": false,
+      "category": "Ownership",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^E\\d+$",
+      "code_friendly_name": "parent_gem_entity_id",
+      "data_sub_type": "structured",
+      "taxonomy": "parent_entity_id",
+      "url": "/catalog/metadata/coal-plants/fields/parent_gem_entity_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/parent_gem_entity_id/count"
+      }
+    },
+    {
+      "name": "Capacity (MW)",
+      "definition": "Nameplate/gross/installed capacity, in megawatts",
+      "is_required": true,
+      "category": "Size",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "MW",
+      "unit_name_long": "Megawatts",
+      "code_friendly_name": "capacity_mw",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/capacity_mw/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/capacity_mw/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/capacity_mw/avg",
+        "count": "/catalog/metadata/coal-plants/fields/capacity_mw/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Status",
+      "definition": "Status designation, see more details above",
+      "is_required": true,
+      "category": "Main",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "operating",
+        "retired",
+        "cancelled",
+        "construction",
+        "announced",
+        "shelved",
+        "permitted",
+        "pre-permit",
+        "mothballed"
+      ],
+      "values_definitions": {
+        "Announced": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing.\t\t\t\t",
+        "Pre-permit": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed.",
+        "Permitted": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level.",
+        "Construction": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun.",
+        "Shelved": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary.",
+        "Cancelled": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled\" (or two years since being marked \"shelved\"), unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants.",
+        "Operating": "Units that have been formally commissioned or that have entered commercial operation.",
+        "Mothballed": "Units that have been deactivated or put into an inactive state but are not retired.",
+        "Retired": "Units that have been permanently decommissioned or converted to another fuel."
+      },
+      "code_friendly_name": "status",
+      "data_sub_type": "categorical",
+      "taxonomy": "status",
+      "url": "/catalog/metadata/coal-plants/fields/status/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/status/count"
+      }
+    },
+    {
+      "name": "Start year",
+      "definition": "Year the unit was commissioned",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "start_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-plants/fields/start_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/start_year/count"
+      }
+    },
+    {
+      "name": "Retired year",
+      "definition": "Year the unit was decommissioned",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "retired_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-plants/fields/retired_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/retired_year/count"
+      }
+    },
+    {
+      "name": "Planned retirement",
+      "definition": "Year a specific unit is planned to retire (specific, not national commitments)",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "planned_retirement",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-plants/fields/planned_retirement/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/planned_retirement/count"
+      }
+    },
+    {
+      "name": "Coal phaseout year",
+      "definition": "Year of planned country-level coal phaseout",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "coal_phaseout_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-plants/fields/coal_phaseout_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/coal_phaseout_year/count"
+      }
+    },
+    {
+      "name": "Net zero year",
+      "definition": "Year of country-level net-zero target",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "net_zero_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-plants/fields/net_zero_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/net_zero_year/count"
+      }
+    },
+    {
+      "name": "Combustion technology",
+      "definition": "Power station technology type. Fore more info about each type, see https://www.gem.wiki/Coal_power_technologies",
+      "is_required": true,
+      "category": "Main",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "subcritical",
+        "unknown",
+        "supercritical",
+        "ultra-supercritical",
+        "IGCC",
+        "ultra-supercritical/CCS",
+        "subcritical/CCS",
+        "supercritical/CCS",
+        "unknown/CCS"
+      ],
+      "code_friendly_name": "combustion_technology",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/combustion_technology/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/combustion_technology/count"
+      }
+    },
+    {
+      "name": "Coal type",
+      "definition": "Anthracite, bituminous, lignite, subbituminous, waste coal, or unknown",
+      "is_required": true,
+      "category": "Main",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "unknown",
+        "bituminous",
+        "lignite",
+        "subbituminous",
+        "anthracite",
+        "waste coal",
+        "unknown with CCS",
+        "bituminous with CCS",
+        "lignite with CCS",
+        "subbituminous with CCS"
+      ],
+      "code_friendly_name": "coal_type",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/coal_type/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/coal_type/count"
+      }
+    },
+    {
+      "name": "Coal source",
+      "definition": "Mine, region, or country of coal origin, to highest level of known specificity",
+      "is_required": false,
+      "category": "Main",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "coal_source",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/coal_source/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/coal_source/count"
+      }
+    },
+    {
+      "name": "Conversion to (fuel)",
+      "definition": "Fuel details connected to another GEM tracker, used when a project conversion is planned",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "conversion_to_fuel",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/conversion_to_fuel/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull",
+        "startswith"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/conversion_to_fuel/count"
+      }
+    },
+    {
+      "name": "Conversion to (GEM unit ID)",
+      "definition": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^\\D\\d+$",
+      "code_friendly_name": "conversion_to_gem_unit_id",
+      "data_sub_type": "structured",
+      "url": "/catalog/metadata/coal-plants/fields/conversion_to_gem_unit_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/conversion_to_gem_unit_id/count"
+      }
+    },
+    {
+      "name": "Alternate Fuel",
+      "definition": "Details about co-firing with another fuel, generally excluding any start-up fuels or cold-start fuels",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "bioenergy",
+        "fossil gas",
+        "fossil liquids",
+        "other",
+        "industrial by-product"
+      ],
+      "multiple_values_separator": ",",
+      "code_friendly_name": "alternate_fuel",
+      "is_array": true,
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/alternate_fuel/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull",
+        "has",
+        "has_all"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/alternate_fuel/count"
+      }
+    },
+    {
+      "name": "Location",
+      "definition": "Closest location (e.g. city or town)",
+      "is_required": false,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "location",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/location/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/location/count"
+      }
+    },
+    {
+      "name": "Local area (Taluk, county)",
+      "definition": "",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "local_area_taluk_county",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/local_area_taluk_county/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/local_area_taluk_county/count"
+      }
+    },
+    {
+      "name": "Major area (prefecture, district)",
+      "definition": "Prefecture, district",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "major_area_prefecture_district",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/major_area_prefecture_district/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/major_area_prefecture_district/count"
+      }
+    },
+    {
+      "name": "Subnational unit (province, state)",
+      "definition": "Province, state",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "subnational_unit_province_state",
+      "data_sub_type": "unstructured",
+      "taxonomy": "state_province",
+      "url": "/catalog/metadata/coal-plants/fields/subnational_unit_province_state/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/subnational_unit_province_state/count"
+      }
+    },
+    {
+      "name": "Subregion",
+      "definition": "Global subregion",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Eastern Asia",
+        "Southern Asia",
+        "Northern America",
+        "Eastern Europe",
+        "South-eastern Asia",
+        "Sub-Saharan Africa",
+        "Western Europe",
+        "Western Asia",
+        "Southern Europe",
+        "Latin America and the Caribbean",
+        "Central Asia",
+        "Northern Europe",
+        "Australia and New Zealand",
+        "Northern Africa",
+        "Melanesia"
+      ],
+      "code_friendly_name": "subregion",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/subregion/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/subregion/count"
+      }
+    },
+    {
+      "name": "Region",
+      "definition": "Global region",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Asia",
+        "Europe",
+        "Americas",
+        "Africa",
+        "Oceania"
+      ],
+      "code_friendly_name": "region",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/region/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/region/count"
+      }
+    },
+    {
+      "name": "Latitude",
+      "definition": "WGS 84 Decimal latitude",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "latitude",
+      "data_sub_type": null,
+      "taxonomy": "latitude",
+      "url": "/catalog/metadata/coal-plants/fields/latitude/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/latitude/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/latitude/avg",
+        "count": "/catalog/metadata/coal-plants/fields/latitude/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Longitude",
+      "definition": "WGS 84 Decimal longitude",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "longitude",
+      "data_sub_type": null,
+      "taxonomy": "longitude",
+      "url": "/catalog/metadata/coal-plants/fields/longitude/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/longitude/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/longitude/avg",
+        "count": "/catalog/metadata/coal-plants/fields/longitude/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Location accuracy",
+      "definition": "Whether coordinates are exact or approximate",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "exact",
+        "approximate"
+      ],
+      "accuracy_for_field": [
+        "Latitude",
+        "Longitude"
+      ],
+      "order_of_values": "",
+      "code_friendly_name": "location_accuracy",
+      "data_sub_type": "accuracy",
+      "url": "/catalog/metadata/coal-plants/fields/location_accuracy/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/location_accuracy/count"
+      }
+    },
+    {
+      "name": "Permits",
+      "definition": "Date the power station received environmental clearance",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "permits",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/permits/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/permits/count"
+      }
+    },
+    {
+      "name": "Permit Date",
+      "definition": "",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "code_friendly_name": "permit_date",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-plants/fields/permit_date/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/permit_date/count"
+      }
+    },
+    {
+      "name": "Permit Parsed",
+      "definition": "",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "permit_parsed",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-plants/fields/permit_parsed/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/permit_parsed/count"
+      }
+    },
+    {
+      "name": "Captive",
+      "definition": "Industry, if the power station is designated for paricular non-grid use",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "aluminum",
+        "chemicals",
+        "iron & steel",
+        "pulp & paper",
+        "other metals & mining",
+        "nickel",
+        "cement & building",
+        "coal mining & coal products",
+        "oil & refining",
+        "industrial park",
+        "machinery",
+        "agriculture",
+        "data center",
+        "sugar",
+        "textiles",
+        "automobiles",
+        "rubber",
+        "electronics",
+        "cryptocurrency",
+        "other",
+        "unknown"
+      ],
+      "code_friendly_name": "captive",
+      "is_array": true,
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/captive/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull",
+        "has",
+        "has_all"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/captive/count"
+      }
+    },
+    {
+      "name": "Captive industry use",
+      "definition": "Whether a captive power station provides heat, power, or both",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "both",
+        "power",
+        "heat"
+      ],
+      "code_friendly_name": "captive_industry_use",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/captive_industry_use/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/captive_industry_use/count"
+      }
+    },
+    {
+      "name": "Captive residential use",
+      "definition": "Whether the plant sell excess heat, power, or both",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "heat",
+        "both",
+        "power",
+        "none"
+      ],
+      "code_friendly_name": "captive_residential_use",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/captive_residential_use/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/captive_residential_use/count"
+      }
+    },
+    {
+      "name": "CHP",
+      "definition": "Whether the unit is used for combined heat and power",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "yes",
+        "no",
+        "not found"
+      ],
+      "code_friendly_name": "chp",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-plants/fields/chp/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/chp/count"
+      }
+    },
+    {
+      "name": "China capacity payment recipient",
+      "definition": "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "boolean",
+      "yes_value": "yes",
+      "no_value": "null",
+      "code_friendly_name": "china_capacity_payment_recipient",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-plants/fields/china_capacity_payment_recipient/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-plants/fields/china_capacity_payment_recipient/count"
+      }
+    },
+    {
+      "name": "Capacity factor",
+      "definition": "Average capacity factor by country, based on GEM's global operating coal power capacity (2025) and Ember's power generation data (accessed 23 January 2026). Plants that are retired or cancelled are given a capacity factor of 0, i.e. no generation is assumed. Capacity data for Indonesia includes grid plants only, as the generation data excludes captive plants. Because the GCPT excludes coal-fired units under 30 MW, the average capacity factor reported here likely overstates national averages in countries with a non-trivial share of small units.",
+      "is_required": true,
+      "category": "CO2 estimates",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "capacity_factor",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-plants/fields/capacity_factor/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/capacity_factor/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/capacity_factor/avg",
+        "count": "/catalog/metadata/coal-plants/fields/capacity_factor/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Plant age (years)",
+      "definition": "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year.",
+      "is_required": true,
+      "category": "CO2 estimates",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "years",
+      "unit_name_long": "years",
+      "code_friendly_name": "plant_age_years",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/plant_age_years/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/plant_age_years/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/plant_age_years/avg",
+        "count": "/catalog/metadata/coal-plants/fields/plant_age_years/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Remaining plant lifetime (years)",
+      "definition": "Lifetime emissions assume a plant lifetime of 35 years, based on the global average retirement age of 37 years. Plants older than 35 years are assumed to operate an additional 5 years. Plants with a planned retirement date are assumed to cease operations that year.",
+      "is_required": false,
+      "category": "CO2 estimates",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "",
+      "unit_name_long": "",
+      "code_friendly_name": "remaining_plant_lifetime_years",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/remaining_plant_lifetime_years/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/remaining_plant_lifetime_years/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/remaining_plant_lifetime_years/avg",
+        "count": "/catalog/metadata/coal-plants/fields/remaining_plant_lifetime_years/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Heat rate (Btu per kWh)",
+      "definition": "Heat rate is based on type of combustion technology, with performance penalties for older and smaller units. More discussion at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "Btu per kWh",
+      "unit_name_long": "Btu per kilowatt hour",
+      "code_friendly_name": "heat_rate_btu_per_kwh",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/heat_rate_btu_per_kwh/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/heat_rate_btu_per_kwh/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/heat_rate_btu_per_kwh/avg",
+        "count": "/catalog/metadata/coal-plants/fields/heat_rate_btu_per_kwh/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Emission factor (kg of CO2 per TJ)",
+      "definition": "Based on type of coal using the 2006 IPPC Guidelines for National Greenhouse Inventories, Table 2.2, page 2.16.",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "kg of CO2 per TJ",
+      "unit_name_long": "kg of CO2 per TJ",
+      "code_friendly_name": "emission_factor_kg_of_co2_per_tj",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/emission_factor_kg_of_co2_per_tj/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/emission_factor_kg_of_co2_per_tj/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/emission_factor_kg_of_co2_per_tj/avg",
+        "count": "/catalog/metadata/coal-plants/fields/emission_factor_kg_of_co2_per_tj/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Annual CO2 (million tonnes / annum)",
+      "definition": "For CO2 calculation method, see \"Estimating carbon dioxide emissions from coal plants\" at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "million tonnes / annum",
+      "unit_name_long": "million tonnes / annum",
+      "code_friendly_name": "annual_co2_million_tonnes___annum",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/annual_co2_million_tonnes___annum/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/annual_co2_million_tonnes___annum/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/annual_co2_million_tonnes___annum/avg",
+        "count": "/catalog/metadata/coal-plants/fields/annual_co2_million_tonnes___annum/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Lifetime CO2 (million tonnes)",
+      "definition": "",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Units"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "",
+      "unit_name_long": "",
+      "code_friendly_name": "lifetime_co2_million_tonnes",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-plants/fields/lifetime_co2_million_tonnes/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-plants/fields/lifetime_co2_million_tonnes/sum",
+        "avg": "/catalog/metadata/coal-plants/fields/lifetime_co2_million_tonnes/avg",
+        "count": "/catalog/metadata/coal-plants/fields/lifetime_co2_million_tonnes/count"
+      },
+      "histogram_weight": 0.5
+    }
+  ]
+}

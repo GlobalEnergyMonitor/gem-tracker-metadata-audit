@@ -1,0 +1,773 @@
+{
+  "source_file": "GMET_V3_12-12-2025.xlsx",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "header_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "data_tabs": {
+    "pipelines": "Pipelines",
+    "lng_terminals": "LNG Terminals",
+    "coal_mines_non_closed": "Coal Mines - Non-closed",
+    "plumes": "Plumes",
+    "oil_and_gas_extraction_areas": "Oil and Gas Extraction Areas",
+    "oil_and_gas_reserves": "Oil and Gas Reserves"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "data_dictionary": "Data Dictionary"
+  },
+  "sections": [
+    {
+      "section_name": "Plumes",
+      "section_type": "flat",
+      "tab_key": "plumes",
+      "entries": [
+        {
+          "name": "GEM Methane Plume ID",
+          "definition": "Unique ID for the methane plume satellite observation",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki",
+          "definition": "The URL corresponding to the methane plume satellite observation's GEM wiki page",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Satellite Data Provider",
+          "definition": "The organization which created the methane plume imagery",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Instrument",
+          "definition": "The instrument used by the satellite data provider to create the imagery, i.e. the type of imaging spectrometer",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Observation Date",
+          "definition": "The date and time when the plume imagery was created",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Provider ID",
+          "definition": "The unique ID for the plume as created by the data provider",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Satellite Data Provider Ref",
+          "definition": "The URL corresponding to the satellite data provider's website",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions (kg/hr)",
+          "definition": "The emissions of the plume, as determined by the satellite data provider",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions Uncertainity (kg/hr)",
+          "definition": "See satellite data provider methodology for details",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Type of infrastructure",
+          "definition": "Broad types of infrastructure are drawn largely from the California VISTA definitions, with a few changes: 1) wellpad refers to either an oil or gas well, or infrastructure (storage tank, flare stack, etc.) located within a clearly defined wellpad, 2) compressor stations are identified for assets not contained in the VISTA data, 3) offshore platforms are identified, and 4) dairies and livestock facilities are combined.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine feature category (BETA)",
+          "definition": "Describes the general categorization of the coal mine feature where a methane plume was observed, e.g., mine boundary, degasification system, ventilation system, or other. For a complete explanation of the referenced coal mine feature categories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Feature certainty 1 to 3 (3 = most certain)",
+          "definition": "Indicates the certainty of the mine feature categorization",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine feature subcategory (BETA)",
+          "definition": "Describes the subcategory of the coal mine feature where a methane plume was observed, e.g., ventilation shaft, drainage station, flare, etc. For a complete explanation of the referenced coal mine feature subcategories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Feature subcategory certainty 1 to 3 (3 = most certain)",
+          "definition": "Indicates the certainty of the mine feature's subcategory categorization",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Infrastructure Notes",
+          "definition": "Qualitative observations of plume location, proximity to infrastructure, and possible attribution recorded by GEM researchers",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Infrastructure Name (Nearby)",
+          "definition": "The name of the GEM asset in which the plume origin falls",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Infrastructure Wiki",
+          "definition": "The GEM wiki page for the GEM asset in which the plume origin falls",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Government Well ID (Nearby)",
+          "definition": "The ID of a well on the same wellpad as the plume. For multi-well pads, this is typically the closest well with few exceptions, elaborated in the notes column. For most American wells, this is the American Petroleum Instiute (API) number. (The exception is for Pennsylvania, for which we've provided the Primary_FID listed in the Pennsylvania Department Environmental Protection oil and gas well GIS dataset.) Note that these numbers are provided if the plume origin is within 10m of the well with no other obvious sources of methane, or the plume is within a clearly defined wellpad. These IDs are used as a stand-in for the entire wellpad, and so it is possible that the actual source of the emission is a storage tank, pipeline leading from the well, or another well on the wellpad.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "California VISTA and other Government ID Assets (Nearby)",
+          "definition": "ID for assets within California's VISTA database or other government infrastructure databases. See methodology wiki for details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Auto-attribution for edge cases",
+          "definition": "This column lists the multiple coal mines adjacent to the plume in cases where the plume cannot be more definitively associated with either mine through the bulk review attribution methodology",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational Unit",
+          "definition": "The subnational unit in which the methane plume was observed",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The geographic country or area in which the methane plume was observed",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plume Origin Latitude",
+          "definition": "Latitude of origin of the plume, as estimated by the data provider",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plume Origin Longitude",
+          "definition": "Longitude of origin of the plume, as estimated by the data provider",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Workflow version",
+          "definition": "Indicates which methodology (\"Original\" or \"Bulk review\") was used by GEM researchers to review and potentially attribute the methane plume satellite observation. See the tracker's \"Methodology\" wiki for details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Improvements implemented between versions",
+          "definition": "Provides details of changes made to plume attributions due to updated research processes",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Satellite Imagery Dates",
+          "definition": "The date or dates of basemap imagery against which the methane plume was visually reviewed.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Mines - Non-closed",
+          "definition": "Built on the Global Coal Mine Tracker - May 2025 V2",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Mine ID",
+          "definition": "A unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Mine Name",
+          "definition": "The name of a coal mine or proposed coal mine project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki URLs",
+          "definition": "The URL corresponding to a coal mine's or proposed coal mine project's english GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "\"Status\" describes the various active/inactive stages of a coal mine or mine project. For individual status defintions, download data from GEM's Global Coal Mine Tracker",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production (Mtpa)",
+          "definition": "The amount of coal produced by a mine, expressed in millions of tonnes per year.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coal Output (Annual, Mst)",
+          "definition": "The amount of coal produced by a US mine, expressed in millions of short tons per year. This value applies to US coal mines only.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owners",
+          "definition": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Coal Mine Methane Emissions Estimate (Mt/yr)",
+          "definition": "The estimated coal mine methane emissions. See GEM's coal mine methane emissions estimation methodology",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Has associated plume data",
+          "definition": "Indicates whether GEM researchers have identified a methane plume within the boundaries of the coal mine, or within 30m of a potential point source emitter (potential point sourc) that is associated with the coal mine's operations.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Has associated CMM mitigation data",
+          "definition": "Indicates whether GEM researchers have identified at least one Coal Mine Methane (CMM) mitigation or utilization project that is associated with the coal mine.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pipelines",
+          "definition": "Built on the Global Gas Infrastructure Tracker  - Gas Pipelines data, December 2024",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Project ID",
+          "definition": "A unique ID for each project (all the phases, segments, expansions, etc. belonging to the same overall pipeline do not necesssarily share a ProjectID, but they should share the same PipelineName)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pipeline Name",
+          "definition": "Name of the pipeline (or pipeline system, when it has multiple pieces, phases, segments, or expansions)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki",
+          "definition": "Link to project's GEM.wiki page",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "\"Status\" describes the various active/inactive stages of a pipeline. For individual status defintions, download data from GEM's Global Gas Infrastructure Tracker",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Length Merged Km",
+          "definition": "Merge between LengthKnownKm (the publicly available length in km) and LengthEstimateKm (the esitmated length in km). (LengthKnownKm is priotized when available; otherwise LengthEstimateKm is used). For more information, see GEM's Global Gas Infrastructure Tracker",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (Bcm/y)",
+          "definition": "Pipeline capacity converted to billion cubic meters (bcm) per year",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions factor, 2019 (tonnes/kilometer)",
+          "definition": "Tier 1 emissions factor from the 2019 Refinement to the 2006 IPCC guidelines. As of November 2023, all of these assume no Lead Detection and Repair (LDAR).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions if Operational (tonnes/yr)",
+          "definition": "Estimated emissions the pipeline emits (or would admit) per year if operational",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions if Operational Lower Bound (tonnes/yr)",
+          "definition": "According to the IPCC methodology, the 95% confidence interval is approximately values within -20% to 30% of the annual emissions value. This column represents the upper bound.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions if Operational Upper Bound (tonnes/yr)",
+          "definition": "According to the IPCC methodology, the 95% confidence interval is approximately values within -20% to 30% of the annual emissions value. This column represents the upper bound.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Countries/Areas",
+          "definition": "Countries that the pipeline passes through, in order from beginning to end (where possible); note Hong Kong and Macao are recognized as sovereign states here",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "WKTFormat",
+          "definition": "The pipeline's geographical information expressed in Well-Known Text (WKT) format.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "LNG Terminals",
+      "section_type": "flat",
+      "tab_key": "lng_terminals",
+      "entries": [
+        {
+          "name": "TerminalID",
+          "definition": "Assigned ID number to every whole terminal. Unique to each distinct terminal.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ProjectID",
+          "definition": "Assigned ID number to every project within a whole terminal. Unique within each distinct TerminalID.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ComboID",
+          "definition": "Combined TerminalID and ProjectID to create unique index value for every observation.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki",
+          "definition": "Link to project's GEM.wiki page",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "TerminalName",
+          "definition": "Terminal name",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "UnitName",
+          "definition": "Smaller unit within a terminal (including trains T1, T2; phases Phase 1, Phase 2; expansions; project revivals/recommissions; etc.)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FacilityType",
+          "definition": "Type of facility (import or export terminal)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "Operating, Proposed, Retired, Construction, Shelved, Cancelled, Idle, or Mothballed. If there have been no development updates in the two years following the project's proposal, then the status is assumed to be \"Shelved\". If there have been no development updates in the 4 years following the project's proposal or longer, the status is assumed to be \"Cancelled\"",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country of location; note Hong Kong and Macao are considered separate countries so that their infrastructure can be tracked independently of China",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "Owner company name(s), percent ownership if available; here \"owner\" means lowest level of ownership that we're able to trace.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent",
+          "definition": "Parent company name(s), percent ownership if available, taken from the Parent tab; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders). For state-owned enterprises, we prioritize the name of the company (e.g., PipeChina) or the ministry (e.g., Iran Ministry of Oil) rather than Government of China or Government of Iran.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CapacityInMtpa",
+          "definition": "Publicly reported capacity value, converted to mtpa",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Methane/total throughput",
+          "definition": "The emission factor for either regassification or liquefaction for the LNG terminal, drawn from Innocenti et al., 2023. See GMET Methodology wiki for more details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "methane emissions (Mt/year)",
+          "definition": "GEM's estimates of the total methane emitted by the terminal through either liquefaction or regassification in million metric tonnes per year. See the tracker's\"Methodology wiki for more details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location",
+          "definition": "City, town, or village location",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "State/Province",
+          "definition": "State or province location",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Latitude",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Longitude",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Accuracy",
+          "definition": "Are the coordinates known exactly or only approximated? (Options: \"exact\" or \"approximate\"); exact means the coordinate values were found from a citable reference",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ImportExportOnly",
+          "definition": "\"yes\" if it's import or export only, and doesn't do any regasification or liquefaction; otherwise leave blank",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS",
+          "definition": "Is there a CCS project associated with the terminal? (yes if operating or proposed; blank otherwise)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LastUpdated",
+          "definition": "Date that the project was last researched (filled in by Researcher)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Oil and Gas Extraction Areas",
+          "definition": "Built on the Global Oil and Gas Extraction Tracker - February 2025",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM GOGET ID",
+          "definition": "Unique project ID number",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "Name of the unit as it is reported by sources.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM Wiki",
+          "definition": "URL for the GEM.wiki page. If the wiki page hasn't been created yet, this is blank.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "The status of development of a unit, e.g., discovered, in development, operating, shut in, decommissioned, abandoned, or UGS. For individual status defintions, see GEM's Global Oil and Gas Extraction Tracker",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status year",
+          "definition": "The year of the source of the status information.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator",
+          "definition": "The company that is the designated operator of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ClimateTrace Field (encompasses GEM field)",
+          "definition": "This is the field in ClimateTRACE in which the GEM asset is contained. Assets for which this is blank are those we were unable to associate definitively to a field in TRACE's database.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Climate TRACE Field Emissions (tonnes/year)",
+          "definition": "This is the annual methane emissions estimate for the ClimateTRACE field which contains the GEM asset. Note that the GEM asset is often not responsible for the entirety of the emissions of the assets in which it falls, and that the ClimateTRACE field may not be completely represented by all of the fields associated with it in this database.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Climate TRACE Field Emissions Factor (T CH4 per T of product produced)",
+          "definition": "This is the emissions factor, in tonnes per product refined, developed by the ClimateTRACE coaliton for the ClimateTRACE field containing the GEM asset",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country or area that the unit is in. If a unit spans country borders, it is handled on a case-by-case basis. Some units may be split in the data provided; therefore, the portion in each country is reported separately.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Oil and Gas Reserves",
+          "definition": "Built on the Global Oil and Gas Extraction Tracker - February 2025",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Closest Match OCI+ Region",
+          "definition": "Region encompassing the Country/Area as defined by OCI+. For countries/areas in regions not found in OCI+, GEM researchers selected the closet geographical match.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production/reserves",
+          "definition": "Type of data, e.g., reserves, production (annual), or cumulative production. Note that annual production may be expressed in terms of daily units, e.g., bbl/d, but the data is usually an annual average.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel description",
+          "definition": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reserves classification (original)",
+          "definition": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (original)",
+          "definition": "The quantity of fuel, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (original)",
+          "definition": "The units of measurement, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data year",
+          "definition": "Year the data refers to, or if not listed, year of the source document",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (converted)",
+          "definition": "The quantity after the conversion of data into a common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (converted)",
+          "definition": "The common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (BOE)",
+          "definition": "The amount of fuel (either oil, gas, or condensate) after its conversion to barrels of oil equivalent. For details, see methodology wiki",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Upstream Emissions Factors, kgCH4/BOE",
+          "definition": "The upstream emissions factor used for the field, derived from OCI+. For more details, see methodology wiki",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Emissions for whole reserves with latest emissions factors (tonnes)",
+          "definition": "The estimated amount of methane released if the entire reserves quantity as listed here is extratacted according to current practices",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EF Derivation Method",
+          "definition": "Whether the field's emission factor was dervied by averaging country/area and fuel type, region and fuel type, or just country/area",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Location of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Location of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

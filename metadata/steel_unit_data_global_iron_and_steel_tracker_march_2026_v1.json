@@ -1,0 +1,834 @@
+{
+  "source_file": "Steel-unit-data-Global-Iron-and-Steel-Tracker-March-2026-V1.xlsx",
+  "tracker_slug": "steel_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "header_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "electric_arc_furnaces": "Electric arc furnaces",
+    "basic_oxygen_furnaces": "Basic oxygen furnaces",
+    "open_hearth_furnaces": "Open hearth furnaces",
+    "induction_furnaces": "Induction furnaces"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "metadata": "Metadata"
+  },
+  "sections": [
+    {
+      "section_name": "Acronym definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "BF",
+          "definition": "Blast furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "BOF",
+          "definition": "Basic oxygen furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "DRI",
+          "definition": "Direct reduced iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "EAF",
+          "definition": "Electric arc furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "HBI",
+          "definition": "Hot briquetted iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "IF",
+          "definition": "Induction furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "mtpa",
+          "definition": "million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "OHF",
+          "definition": "Open hearth furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "ttpa",
+          "definition": "thousand tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Capacity",
+          "definition": "Capacity is the tonnes of crude iron per annum that a steel unit is capable of producing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Production",
+          "definition": "Production is only captured at the plant-level. See the \"Plant-level data\" document.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Note",
+          "definition": "Additional information about the research method and estimations of capacity and production are available on the GEM website at https://globalenergymonitor.org/projects/global-iron-and-steel-tracker/methodology/",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        }
+      ]
+    },
+    {
+      "section_name": "Capacity status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Capacity that has been announced in corporate or governmental planning documents, but has not begun construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Physical furnace structure building has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Furnace(s) is currently operating and producing iron or steel.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating pre-retirement",
+          "definition": "Company has announced plans to retire this iron or steelmaking capacity but it has not yet ceased operations.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately, but is not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed pre-retirement",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately. It has not yet been permanently retired/decommissioned, but the plant has announced plans to do so in the future.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Furnace has ceased operations and no longer has ability to produce iron or steel. If the capacity has been mothballed for over 5 years it is considered retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Capacity previously planned or under development that has been cancelled. If no progress or announcements for announced capacity are made after 5 years it is considered to be cancelled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        }
+      ]
+    },
+    {
+      "section_name": "\"Electric arc furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each electric arc furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the electric arc furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of electric arc furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction on the electric arc furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that electric arc furnace began producing steel in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Age of electric arc furnace in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the electric arc furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that electric arc furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that electric arc furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size (tonnes)",
+          "definition": "The size of the unit in tonnes, or the amount of liquid steel it can process per batch.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Scrap-based",
+          "definition": "yes or \"no\" to indicate whether the unit typically operates with some amount of scrap as charge.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% scrap",
+          "definition": "The typical percent EAF feedstock that is supplied as scrap metal.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% DRI",
+          "definition": "The typical percent EAF feedstock that is supplied as DRI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% HBI",
+          "definition": "The typical percent EAF feedstock that is supplied as HBI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% sponge iron (unknown if DRI or HBI)",
+          "definition": "The typical percent EAF feedstock that is supplied as sponge iron that has not been specified as either DRI or HBI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% basic/merchant pig iron",
+          "definition": "The typical percent EAF feedstock that is supplied as basic/merchant pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% granulated pig iron",
+          "definition": "The typical percent EAF feedstock that is supplied as granulated pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% pig iron (unknown if basic/merchant or granulated)",
+          "definition": "The typical percent EAF feedstock that is supplied as pig iron that has not been specified as either basic/merchant pig iron or granulated pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% other iron",
+          "definition": "The typical percent EAF feedstock that is supplied as another unspecified iron source.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% known total",
+          "definition": "The sum of all feedstocks used in the unit; the total of the fields % scrap, % DRI, % HBI, % sponge iron (unknown if DRI or HBI), % basic/merchant pig iron, % granulated pig iron, % pig iron (unknown if basic/merchant pig iron or granulated pig iron), and % other iron will add to 100%. If no data is available, they will add to 0%.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Basic oxygen furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each basic oxygen furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the basic oxygen furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of basic oxygen furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction on the basic oxygen furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that basic oxygen furnace began producing steel in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Age of basic oxygen furnace in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the basic oxygen furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that basic oxygen furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that basic oxygen furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size",
+          "definition": "The size of the unit, in volume or load size.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size unit",
+          "definition": "The unit of measurement used for \"current size\". Options are tonnes and m3.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Open hearth furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each open hearth furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the open hearth furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of open hearth furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction on the open hearth furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that open hearth furnace began producing steel in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Age of open hearth furnace in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the open hearth furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that open hearth furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that open hearth furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size",
+          "definition": "The size of the unit, in volume or load size.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size unit",
+          "definition": "The unit of measurement used for \"current size\". Options are tonnes and m3.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Induction furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each induction furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the induction furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of induction furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction on the induction furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that induction furnace began producing steel in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Age of induction furnace in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the induction furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that induction furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that induction furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size (tonnes)",
+          "definition": "The size of the unit in tonnes, or the amount of liquid steel it can process per batch.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Scrap-based",
+          "definition": "yes or \"no\" to indicate whether the unit typically operates with some amount of scrap as charge.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% scrap",
+          "definition": "The typical percent IF feedstock that is supplied as scrap metal.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% DRI",
+          "definition": "The typical percent IF feedstock that is supplied as DRI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% HBI",
+          "definition": "The typical percent IF feedstock that is supplied as HBI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% sponge iron (unknown if DRI or HBI)",
+          "definition": "The typical percent IF feedstock that is supplied as sponge iron that has not been specified as either DRI or HBI.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% basic/merchant pig iron",
+          "definition": "The typical percent IF feedstock that is supplied as basic/merchant pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% granulated pig iron",
+          "definition": "The typical percent IF feedstock that is supplied as granulated pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% pig iron (unknown if basic/merchant or granulated)",
+          "definition": "The typical percent IF feedstock that is supplied as pig iron that has not been specified as either basic/merchant pig iron or granulated pig iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% other iron",
+          "definition": "The typical percent IF feedstock that is supplied as another unspecified iron source.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "% known total",
+          "definition": "The sum of all feedstocks used in the unit; the total of the fields % scrap, % DRI, % HBI, % sponge iron (unknown if DRI or HBI), % basic/merchant pig iron, % granulated pig iron, % pig iron (unknown if basic/merchant pig iron or granulated pig iron), and % other iron will add to 100%. If no data is available, they will add to 0%.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

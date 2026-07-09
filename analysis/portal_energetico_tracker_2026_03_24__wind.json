@@ -1,0 +1,2356 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__wind",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "wind",
+  "n_rows": 2783,
+  "analyzed_at": "2026-07-07T21:45:22.609715+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 122,
+      "top_values": [
+        [
+          "2025/06/26",
+          1004
+        ],
+        [
+          "2024/09/04",
+          320
+        ],
+        [
+          "2024/09/05",
+          155
+        ],
+        [
+          "2022/07/26",
+          67
+        ],
+        [
+          "2025/12/17",
+          59
+        ],
+        [
+          "2025/11/10",
+          56
+        ],
+        [
+          "2026/01/12",
+          53
+        ],
+        [
+          "2022/06/14",
+          52
+        ],
+        [
+          "2021/11/04",
+          51
+        ],
+        [
+          "2025/12/18",
+          48
+        ],
+        [
+          "2025/12/06",
+          43
+        ],
+        [
+          "2025/12/11",
+          39
+        ],
+        [
+          "2022/06/22",
+          35
+        ],
+        [
+          "2022/06/15",
+          32
+        ],
+        [
+          "2025/03/14",
+          31
+        ],
+        [
+          "2025/01/30",
+          31
+        ],
+        [
+          "2022/07/19",
+          31
+        ],
+        [
+          "2022/08/08",
+          30
+        ],
+        [
+          "2025/11/25",
+          28
+        ],
+        [
+          "2025/02/27",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "Brazil",
+          1962
+        ],
+        [
+          "Chile",
+          151
+        ],
+        [
+          "Argentina",
+          138
+        ],
+        [
+          "Mexico",
+          132
+        ],
+        [
+          "Colombia",
+          111
+        ],
+        [
+          "Peru",
+          68
+        ],
+        [
+          "Uruguay",
+          37
+        ],
+        [
+          "Dominican Republic",
+          30
+        ],
+        [
+          "Cuba",
+          25
+        ],
+        [
+          "Costa Rica",
+          24
+        ],
+        [
+          "Panama",
+          20
+        ],
+        [
+          "Bolivia",
+          16
+        ],
+        [
+          "Ecuador",
+          15
+        ],
+        [
+          "Honduras",
+          9
+        ],
+        [
+          "Nicaragua",
+          7
+        ],
+        [
+          "Venezuela",
+          4
+        ],
+        [
+          "Jamaica",
+          4
+        ],
+        [
+          "Guatemala",
+          4
+        ],
+        [
+          "Curaçao",
+          4
+        ],
+        [
+          "Puerto Rico",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 1188,
+      "top_values": [
+        [
+          "Serra do Assuruá wind farm",
+          24
+        ],
+        [
+          "Alto Sertão 3 wind farm",
+          24
+        ],
+        [
+          "Serra da Palmeira wind farm",
+          23
+        ],
+        [
+          "Serra Das Almas wind farm",
+          21
+        ],
+        [
+          "Lagoa Dos Ventos wind farm",
+          21
+        ],
+        [
+          "Castanheira wind farm (Brazil)",
+          20
+        ],
+        [
+          "Ventos de São Rafael wind farm",
+          19
+        ],
+        [
+          "União Dos Ventos wind farm",
+          18
+        ],
+        [
+          "Ventos de Santa Rosa wind farm",
+          17
+        ],
+        [
+          "Ventos de Santa Luzia wind farm",
+          17
+        ],
+        [
+          "Umburanas wind farm",
+          17
+        ],
+        [
+          "Três Divisas Wind Complex",
+          17
+        ],
+        [
+          "Assuruá wind farm",
+          16
+        ],
+        [
+          "Delta Maranhão wind farm",
+          15
+        ],
+        [
+          "Chafariz wind farm",
+          15
+        ],
+        [
+          "Alto Sertão 2 wind farm",
+          15
+        ],
+        [
+          "Ventos de Acaraú wind farm",
+          14
+        ],
+        [
+          "Ventos Do Araripe 3 wind farm",
+          14
+        ],
+        [
+          "Ventos De São Vitor wind farm",
+          14
+        ],
+        [
+          "Serra Da Babilônia wind farm",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Phase Name",
+      "code_friendly_name_guess": "phase_name",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 711,
+      "top_values": [
+        [
+          "--",
+          694
+        ],
+        [
+          "1.0",
+          316
+        ],
+        [
+          "2.0",
+          237
+        ],
+        [
+          "3.0",
+          146
+        ],
+        [
+          "4.0",
+          113
+        ],
+        [
+          "5.0",
+          91
+        ],
+        [
+          "6.0",
+          78
+        ],
+        [
+          "7.0",
+          55
+        ],
+        [
+          "8.0",
+          50
+        ],
+        [
+          "9.0",
+          43
+        ],
+        [
+          "10.0",
+          37
+        ],
+        [
+          "11.0",
+          30
+        ],
+        [
+          "12.0",
+          29
+        ],
+        [
+          "13.0",
+          22
+        ],
+        [
+          "14.0",
+          19
+        ],
+        [
+          "17.0",
+          14
+        ],
+        [
+          "16.0",
+          14
+        ],
+        [
+          "15.0",
+          14
+        ],
+        [
+          "18.0",
+          13
+        ],
+        [
+          "19.0",
+          11
+        ]
+      ],
+      "portion_numeric": 0.422,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 2783,
+      "n_null": 415,
+      "n_non_null": 2368,
+      "null_rate": 0.1491,
+      "n_unique": 1083,
+      "top_values": [
+        [
+          "Complexo Eólico Alto Sertão 3",
+          24
+        ],
+        [
+          "Parque Eólico Serra da Palmeira",
+          23
+        ],
+        [
+          "Parque Eólico Lagoa dos Ventos",
+          21
+        ],
+        [
+          "Complexo Eólico Serra das Almas",
+          21
+        ],
+        [
+          "Parque Eólico Ventos de Santa Rosa, Complexo Eólico Dom Inocêncio Sul",
+          17
+        ],
+        [
+          "Complexo Eólico Umburanas",
+          17
+        ],
+        [
+          "Complexo Eólico Três Divisas",
+          17
+        ],
+        [
+          "Complexo Eólico Assuruá",
+          16
+        ],
+        [
+          "Complexo Eólico Delta Maranhão",
+          15
+        ],
+        [
+          "Complexo Eólico Chafariz",
+          15
+        ],
+        [
+          "Complexo Eólico Alto Sertão 2",
+          15
+        ],
+        [
+          "Parque Eólico Ventos de Acaraú",
+          14
+        ],
+        [
+          "Conjunto Eólico Santo Agostinho",
+          14
+        ],
+        [
+          "Complexo Eólico Ventos de São Vitor",
+          14
+        ],
+        [
+          "Complexo Eólico Ventos do Araripe 3",
+          14
+        ],
+        [
+          "Complexo Eólico Serra da Babilônia",
+          14
+        ],
+        [
+          "Parque Eólico Ventos de São Carlos, Parque Eólico Sento Se I",
+          12
+        ],
+        [
+          "Parque Eólico Ventos de Santo Elias",
+          12
+        ],
+        [
+          "Parque Eólico Fenix",
+          12
+        ],
+        [
+          "Conjunto Eólico GPEXPAN",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 2783,
+      "n_null": 2240,
+      "n_non_null": 543,
+      "null_rate": 0.8049,
+      "n_unique": 282,
+      "top_values": [
+        [
+          "Serra do Tigre wind farm",
+          19
+        ],
+        [
+          "Dom Inocêncio Sul wind farm",
+          17
+        ],
+        [
+          "ex Delta 5-5 (Phase Delta 5 - 2)",
+          15
+        ],
+        [
+          "Serra Babilonia",
+          14
+        ],
+        [
+          "12, EDF Serra Do Seridó (Phases 11, 14)",
+          13
+        ],
+        [
+          "Sento Sé I wind farm",
+          12
+        ],
+        [
+          "Jacobina wind farm",
+          11
+        ],
+        [
+          "Ventos de São Cléofas",
+          10
+        ],
+        [
+          "Ventos Do Araripe 4 wind farm, Feijão wind farm",
+          10
+        ],
+        [
+          "Kairós Wind",
+          10
+        ],
+        [
+          "Lagoa dos Ventos 5 wind farm",
+          9
+        ],
+        [
+          "Tiangua 3 wind farm",
+          7
+        ],
+        [
+          "Laudato Si Phase 2 (Phases Nuevo Chagres Fase 2, Rosa de los Vientos), Portobello Bastillas (Phase Portobelo 1), Laudato Si Phase 3 (Phases Marañón, Portobelo 1)",
+          7
+        ],
+        [
+          "Caetés",
+          7
+        ],
+        [
+          "Aura Tanque Novo 02 (Phase 2), Aura Tanque Novo 03 (Phase 3)",
+          7
+        ],
+        [
+          "Sento Sé II wind farm",
+          6
+        ],
+        [
+          "PEPE, PEPE II, PEPE III, PEPE IV, PEPE IV, Coronel Rosales Pepe 4 (Phase 3 expansion)",
+          6
+        ],
+        [
+          "PEA",
+          6
+        ],
+        [
+          "Vilas Wind Power Complex, Serra Branca (Br)",
+          5
+        ],
+        [
+          "Ventos de Vila Ceará 1, Ventos de Vila Ceará 2), Sb Ventos S Miguel (Phases Ventos de Vila Acre 2",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 571,
+      "top_values": [
+        [
+          "30.0",
+          155
+        ],
+        [
+          "50.0",
+          85
+        ],
+        [
+          "42.0",
+          58
+        ],
+        [
+          "49.5",
+          56
+        ],
+        [
+          "27.0",
+          49
+        ],
+        [
+          "45.0",
+          47
+        ],
+        [
+          "50.4",
+          46
+        ],
+        [
+          "24.0",
+          46
+        ],
+        [
+          "36.0",
+          44
+        ],
+        [
+          "29.4",
+          43
+        ],
+        [
+          "25.2",
+          43
+        ],
+        [
+          "31.5",
+          41
+        ],
+        [
+          "21.0",
+          39
+        ],
+        [
+          "20.0",
+          39
+        ],
+        [
+          "32.0",
+          37
+        ],
+        [
+          "63.0",
+          35
+        ],
+        [
+          "40.5",
+          35
+        ],
+        [
+          "18.0",
+          33
+        ],
+        [
+          "100.0",
+          33
+        ],
+        [
+          "45.6",
+          30
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Installation Type",
+      "code_friendly_name_guess": "installation_type",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Onshore",
+          2624
+        ],
+        [
+          "Offshore mount unknown",
+          120
+        ],
+        [
+          "Unknown",
+          30
+        ],
+        [
+          "Offshore hard mount",
+          8
+        ],
+        [
+          "Offshore floating",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          1503
+        ],
+        [
+          "pre-construction",
+          620
+        ],
+        [
+          "announced",
+          241
+        ],
+        [
+          "cancelled - inferred 4 y",
+          139
+        ],
+        [
+          "cancelled",
+          136
+        ],
+        [
+          "construction",
+          76
+        ],
+        [
+          "shelved - inferred 2 y",
+          47
+        ],
+        [
+          "shelved",
+          15
+        ],
+        [
+          "mothballed",
+          5
+        ],
+        [
+          "retired",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 2783,
+      "n_null": 1219,
+      "n_non_null": 1564,
+      "null_rate": 0.438,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "2023.0",
+          155
+        ],
+        [
+          "2014.0",
+          137
+        ],
+        [
+          "2021.0",
+          133
+        ],
+        [
+          "2016.0",
+          126
+        ],
+        [
+          "2015.0",
+          125
+        ],
+        [
+          "2024.0",
+          121
+        ],
+        [
+          "2017.0",
+          103
+        ],
+        [
+          "2018.0",
+          101
+        ],
+        [
+          "2022.0",
+          97
+        ],
+        [
+          "2019.0",
+          81
+        ],
+        [
+          "2020.0",
+          79
+        ],
+        [
+          "2026.0",
+          50
+        ],
+        [
+          "2012.0",
+          40
+        ],
+        [
+          "2025.0",
+          27
+        ],
+        [
+          "2013.0",
+          26
+        ],
+        [
+          "2010.0",
+          26
+        ],
+        [
+          "2027.0",
+          25
+        ],
+        [
+          "2009.0",
+          24
+        ],
+        [
+          "2011.0",
+          22
+        ],
+        [
+          "2028.0",
+          15
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 2783,
+      "n_null": 2783,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 2783,
+      "n_null": 749,
+      "n_non_null": 2034,
+      "null_rate": 0.2691,
+      "n_unique": 450,
+      "top_values": [
+        [
+          "AES",
+          104
+        ],
+        [
+          "Enel Green Power Brasil Participações",
+          86
+        ],
+        [
+          "Omega Geração",
+          60
+        ],
+        [
+          "EDF Renewables",
+          54
+        ],
+        [
+          "Iberdrola Neoenergia",
+          44
+        ],
+        [
+          "Echoenergia",
+          42
+        ],
+        [
+          "CPFL Renováveis",
+          42
+        ],
+        [
+          "PEC Energia",
+          40
+        ],
+        [
+          "Voltalia Energia do Brasil",
+          36
+        ],
+        [
+          "CGN Brasil Energia",
+          36
+        ],
+        [
+          "Rio Energy International",
+          31
+        ],
+        [
+          "Companhia Paranaense de Energia",
+          28
+        ],
+        [
+          "CGT Eletrosul",
+          28
+        ],
+        [
+          "Ibitu Energia",
+          27
+        ],
+        [
+          "Renova",
+          25
+        ],
+        [
+          "Casa dos Ventos",
+          25
+        ],
+        [
+          "Engie Brasil Energia",
+          24
+        ],
+        [
+          "Enerfín do Brasil",
+          24
+        ],
+        [
+          "Statkraft",
+          23
+        ],
+        [
+          "Brasil Ventos Energia SA (BVE)",
+          23
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 2783,
+      "n_null": 2711,
+      "n_non_null": 72,
+      "null_rate": 0.9741,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "法國電力再生能源公司",
+          55
+        ],
+        [
+          "Empresa Nacional de Electricidad (ENDE)",
+          7
+        ],
+        [
+          "達德能源股份有限公司",
+          4
+        ],
+        [
+          "Colbún SA",
+          3
+        ],
+        [
+          "中国船舶重工集团有限公司",
+          2
+        ],
+        [
+          "株式会社ユーラスエナジーホールディングス",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 2783,
+      "n_null": 364,
+      "n_non_null": 2419,
+      "null_rate": 0.1308,
+      "n_unique": 489,
+      "top_values": [
+        [
+          "AES Corp [100%]",
+          104
+        ],
+        [
+          "Enel Green Power Brasil Participações Ltda [100%]",
+          91
+        ],
+        [
+          "Omega Geração SA [100%]",
+          79
+        ],
+        [
+          "Engie Brasil Energia SA [100%]",
+          62
+        ],
+        [
+          "PEC Energia [100%]",
+          60
+        ],
+        [
+          "EDF Renewables [100%]",
+          51
+        ],
+        [
+          "Voltalia Energia do Brasil Ltda [100%]",
+          45
+        ],
+        [
+          "Iberdrola Neoenergia [100%]",
+          44
+        ],
+        [
+          "Rio Energy International Inc [100%]",
+          43
+        ],
+        [
+          "Echoenergia [100%]",
+          42
+        ],
+        [
+          "CPFL Renováveis [100%]",
+          42
+        ],
+        [
+          "ENGIE SA [100%]",
+          39
+        ],
+        [
+          "CGN Brasil Energia [100%]",
+          36
+        ],
+        [
+          "Companhia Paranaense de Energia [100%]",
+          35
+        ],
+        [
+          "Enel Green Power SpA [100%]",
+          32
+        ],
+        [
+          "Votorantim Geração de Energia SA; Canada Pension Plan Investment Board",
+          31
+        ],
+        [
+          "Casa dos Ventos [100%]",
+          30
+        ],
+        [
+          "Companhia Hidro Elétrica do São Francisco SA (CHESF) [100%]",
+          29
+        ],
+        [
+          "Casa dos Ventos Energias Renováveis SA [100%]",
+          28
+        ],
+        [
+          "CGT Eletrosul [100%]",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 2783,
+      "n_null": 2673,
+      "n_non_null": 110,
+      "null_rate": 0.9605,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "法國電力再生能源公司",
+          68
+        ],
+        [
+          "Empresa Nacional de Electricidad (ENDE)",
+          7
+        ],
+        [
+          "Siemens Gamesa Renewable Energy A.E.",
+          6
+        ],
+        [
+          "Colbún SA",
+          6
+        ],
+        [
+          "Électricité de France",
+          5
+        ],
+        [
+          "達德能源股份有限公司",
+          4
+        ],
+        [
+          "科理歐永續能源",
+          4
+        ],
+        [
+          "戸田建設株式会社",
+          2
+        ],
+        [
+          "中国船舶重工集团有限公司",
+          2
+        ],
+        [
+          "EDPR Ανανεωσιμες Πηγες Ενεργειας Ελλας 1 Μονοπροσωπη Ανωνυμη Εταιρεια",
+          2
+        ],
+        [
+          "株式会社ユーラスエナジーホールディングス",
+          1
+        ],
+        [
+          "哈尔滨电气股份有限公司",
+          1
+        ],
+        [
+          "三井物産株式会社; 法國電力再生能源公司",
+          1
+        ],
+        [
+          "三井物産株式会社",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Hydrogen",
+      "code_friendly_name_guess": "hydrogen",
+      "n_total": 2783,
+      "n_null": 2747,
+      "n_non_null": 36,
+      "null_rate": 0.9871,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          36
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Associated Storage",
+      "code_friendly_name_guess": "associated_storage",
+      "n_total": 2783,
+      "n_null": 2771,
+      "n_non_null": 12,
+      "null_rate": 0.9957,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 2390,
+      "top_values": [
+        [
+          "-4.867",
+          36
+        ],
+        [
+          "-7.8563",
+          25
+        ],
+        [
+          "-12.5779",
+          15
+        ],
+        [
+          "-5.7996",
+          14
+        ],
+        [
+          "11.9917",
+          13
+        ],
+        [
+          "-2.7227",
+          10
+        ],
+        [
+          "-11.0117",
+          10
+        ],
+        [
+          "-30.258",
+          9
+        ],
+        [
+          "-12.7025",
+          9
+        ],
+        [
+          "11.6887",
+          8
+        ],
+        [
+          "-6.975",
+          8
+        ],
+        [
+          "-2.9066",
+          8
+        ],
+        [
+          "8.4606",
+          7
+        ],
+        [
+          "11.3804",
+          7
+        ],
+        [
+          "-9.2602",
+          7
+        ],
+        [
+          "-9.7322",
+          5
+        ],
+        [
+          "-9.5585",
+          5
+        ],
+        [
+          "-5.535",
+          5
+        ],
+        [
+          "-42.6246",
+          5
+        ],
+        [
+          "-4.9587",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 2356,
+      "top_values": [
+        [
+          "-39.6514",
+          36
+        ],
+        [
+          "-43.3796",
+          26
+        ],
+        [
+          "-38.0049",
+          15
+        ],
+        [
+          "-36.5569",
+          14
+        ],
+        [
+          "-71.6769",
+          13
+        ],
+        [
+          "-42.5398",
+          10
+        ],
+        [
+          "-42.3984",
+          10
+        ],
+        [
+          "-50.5098",
+          9
+        ],
+        [
+          "-41.475",
+          9
+        ],
+        [
+          "-72.4173",
+          8
+        ],
+        [
+          "-38.9909",
+          8
+        ],
+        [
+          "-36.8345",
+          8
+        ],
+        [
+          "-80.3584",
+          7
+        ],
+        [
+          "-72.2256",
+          7
+        ],
+        [
+          "-41.0168",
+          7
+        ],
+        [
+          "-65.2781",
+          5
+        ],
+        [
+          "-62.2257",
+          5
+        ],
+        [
+          "-42.2755",
+          5
+        ],
+        [
+          "-41.8867",
+          5
+        ],
+        [
+          "-39.4761",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          2077
+        ],
+        [
+          "approximate",
+          706
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 2783,
+      "n_null": 509,
+      "n_non_null": 2274,
+      "null_rate": 0.1829,
+      "n_unique": 490,
+      "top_values": [
+        [
+          "Sento Sé",
+          60
+        ],
+        [
+          "Gentio do Ouro",
+          59
+        ],
+        [
+          "Santa Vitória do Palmar ",
+          50
+        ],
+        [
+          "Dom Inocêncio",
+          45
+        ],
+        [
+          "Sento Sé ",
+          43
+        ],
+        [
+          "Uribia",
+          32
+        ],
+        [
+          "Morro do Chapéu ",
+          32
+        ],
+        [
+          "Morro do Chapéu",
+          32
+        ],
+        [
+          "Lajes",
+          32
+        ],
+        [
+          "Trairi ",
+          31
+        ],
+        [
+          "João Câmara ",
+          29
+        ],
+        [
+          "Serra do Mel ",
+          28
+        ],
+        [
+          "Campo Formoso ",
+          26
+        ],
+        [
+          "Caetité ",
+          24
+        ],
+        [
+          "Parazinho ",
+          22
+        ],
+        [
+          "Igaporã ",
+          22
+        ],
+        [
+          "Pindaí ",
+          21
+        ],
+        [
+          "Jandaíra ",
+          20
+        ],
+        [
+          "Touros ",
+          19
+        ],
+        [
+          "Pedro Avelino",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 2783,
+      "n_null": 2330,
+      "n_non_null": 453,
+      "null_rate": 0.8372,
+      "n_unique": 182,
+      "top_values": [
+        [
+          "Região Metropolitana de Patos",
+          27
+        ],
+        [
+          "Provincia de Bío-Bío",
+          18
+        ],
+        [
+          "Aglomeração Urbana do Litoral Norte",
+          17
+        ],
+        [
+          "Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro",
+          16
+        ],
+        [
+          "Região Metropolitana de Barra de Santa Rosa",
+          15
+        ],
+        [
+          "Região Metropolitana do Vale do Mamanguape",
+          12
+        ],
+        [
+          "Heroica Ciudad de Juchitán de Zaragoza",
+          11
+        ],
+        [
+          "Distrito Penonomé",
+          10
+        ],
+        [
+          "Aglomeração Urbana do Sul",
+          10
+        ],
+        [
+          "Provincia de Malleco",
+          9
+        ],
+        [
+          "Taltal",
+          8
+        ],
+        [
+          "Santiago",
+          8
+        ],
+        [
+          "Provincia de Limarí",
+          6
+        ],
+        [
+          "Cantón Tilarán",
+          6
+        ],
+        [
+          "Região Metropolitana de Esperança",
+          5
+        ],
+        [
+          "Puerto Madryn",
+          5
+        ],
+        [
+          "Provincia de Antofagasta",
+          5
+        ],
+        [
+          "Guayubín",
+          5
+        ],
+        [
+          "Bahía Blanca",
+          5
+        ],
+        [
+          "Santo Domingo Ingenio",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 2783,
+      "n_null": 1448,
+      "n_non_null": 1335,
+      "null_rate": 0.5203,
+      "n_unique": 81,
+      "top_values": [
+        [
+          "Região Geográfica Intermediária de Natal",
+          213
+        ],
+        [
+          "Região Geográfica Intermediária de Irecê",
+          143
+        ],
+        [
+          "Região Geográfica Intermediária de Mossoró",
+          104
+        ],
+        [
+          "Região Geográfica Intermediária de Guanambi",
+          98
+        ],
+        [
+          "Região Geográfica Intermediária de Juazeiro",
+          85
+        ],
+        [
+          "Região Geográfica Intermediária de Picos",
+          71
+        ],
+        [
+          "Região Geográfica Intermediária de São Raimundo Nonato",
+          57
+        ],
+        [
+          "Região Geográfica Intermediária de Pelotas",
+          51
+        ],
+        [
+          "Região Geográfica Intermediária de Fortaleza",
+          51
+        ],
+        [
+          "Região Geográfica Intermediária de Feira de Santana",
+          42
+        ],
+        [
+          "Região Geográfica Intermediária de Sobral",
+          36
+        ],
+        [
+          "Região Geográfica Intermediária de Campina Grande",
+          36
+        ],
+        [
+          "Região Geográfica Intermediária de Quixadá",
+          33
+        ],
+        [
+          "Região Geográfica Intermediária de Caicó",
+          33
+        ],
+        [
+          "Região Geográfica Intermediária de Caruaru",
+          27
+        ],
+        [
+          "Região Geográfica Intermediária de Porto Alegre",
+          20
+        ],
+        [
+          "Região Geográfica Intermediária de Patos",
+          19
+        ],
+        [
+          "Região Geográfica Intermediária de Paulo Afonso",
+          17
+        ],
+        [
+          "Região Geográfica Intermediária de São Luís",
+          15
+        ],
+        [
+          "Ica",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 2783,
+      "n_null": 17,
+      "n_non_null": 2766,
+      "null_rate": 0.0061,
+      "n_unique": 144,
+      "top_values": [
+        [
+          "Bahia",
+          652
+        ],
+        [
+          "Rio Grande do Norte",
+          445
+        ],
+        [
+          "Ceará",
+          211
+        ],
+        [
+          "Piauí",
+          188
+        ],
+        [
+          "Rio Grande do Sul",
+          187
+        ],
+        [
+          "Paraíba",
+          119
+        ],
+        [
+          "La Guajira",
+          78
+        ],
+        [
+          "Pernambuco",
+          67
+        ],
+        [
+          "Buenos Aires",
+          55
+        ],
+        [
+          "Maranhão",
+          36
+        ],
+        [
+          "Chubut",
+          36
+        ],
+        [
+          "Antofagasta",
+          34
+        ],
+        [
+          "Oaxaca",
+          32
+        ],
+        [
+          "Biobío",
+          28
+        ],
+        [
+          "Ica",
+          25
+        ],
+        [
+          "Tamaulipas",
+          24
+        ],
+        [
+          "Guanacaste",
+          22
+        ],
+        [
+          "Santa Cruz",
+          21
+        ],
+        [
+          "Rio de Janeiro",
+          19
+        ],
+        [
+          "Coquimbo",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          2783
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          2783
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 1188,
+      "top_values": [
+        [
+          "L100000916499",
+          24
+        ],
+        [
+          "L100000905463",
+          24
+        ],
+        [
+          "L100000916497",
+          23
+        ],
+        [
+          "L100000905439",
+          21
+        ],
+        [
+          "L100000905202",
+          21
+        ],
+        [
+          "L100001021060",
+          20
+        ],
+        [
+          "L100000916520",
+          19
+        ],
+        [
+          "L100000905471",
+          18
+        ],
+        [
+          "L100000921816",
+          17
+        ],
+        [
+          "L100000916514",
+          17
+        ],
+        [
+          "L100000916506",
+          17
+        ],
+        [
+          "L100000905273",
+          17
+        ],
+        [
+          "L100000905417",
+          16
+        ],
+        [
+          "L100000905418",
+          15
+        ],
+        [
+          "L100000905336",
+          15
+        ],
+        [
+          "L100000904956",
+          15
+        ],
+        [
+          "L100000921811",
+          14
+        ],
+        [
+          "L100000905505",
+          14
+        ],
+        [
+          "L100000905468",
+          14
+        ],
+        [
+          "L100000905279",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 2783,
+      "top_values": [
+        [
+          "G100001091629",
+          1
+        ],
+        [
+          "G100001091628",
+          1
+        ],
+        [
+          "G100001091627",
+          1
+        ],
+        [
+          "G100001091626",
+          1
+        ],
+        [
+          "G100001091625",
+          1
+        ],
+        [
+          "G100001091624",
+          1
+        ],
+        [
+          "G100001091623",
+          1
+        ],
+        [
+          "G100001091622",
+          1
+        ],
+        [
+          "G100001091621",
+          1
+        ],
+        [
+          "G100001090732",
+          1
+        ],
+        [
+          "G100001090728",
+          1
+        ],
+        [
+          "G100001090727",
+          1
+        ],
+        [
+          "G100001090725",
+          1
+        ],
+        [
+          "G100001090663",
+          1
+        ],
+        [
+          "G100001090647",
+          1
+        ],
+        [
+          "G100001090380",
+          1
+        ],
+        [
+          "G100001090379",
+          1
+        ],
+        [
+          "G100001090378",
+          1
+        ],
+        [
+          "G100001090377",
+          1
+        ],
+        [
+          "G100001090376",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 2783,
+      "n_null": 2745,
+      "n_non_null": 38,
+      "null_rate": 0.9863,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "ANEEL: EOL.CV.PI.031688-1,ANEEL: EOL.CV.PI.031687-3,ANEEL: EOL.CV.PI.031686-5,ANEEL: EOL.CV.PI.031691-1,ANEEL: EOL.CV.PI.031690-3,ANEEL: EOL.CV.PI.031689-0,ANEEL: EOL.CV.PI.031685-7",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1023729",
+          4
+        ],
+        [
+          "World Resources Institute: WRI1023922",
+          3
+        ],
+        [
+          "The Wind Power: 33563",
+          3
+        ],
+        [
+          "World Resources Institute: WRI1029371",
+          2
+        ],
+        [
+          "The Wind Power: 40465",
+          2
+        ],
+        [
+          "The Wind Power: 40060",
+          2
+        ],
+        [
+          "MinEnergíaChile: PE_159",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.RS.031536-2,ANEEL: EOL.CV.RS.031535-4",
+          2
+        ],
+        [
+          "World Resources Institute: WRI1061452",
+          1
+        ],
+        [
+          "World Resources Institute: WRI1029291",
+          1
+        ],
+        [
+          "The Wind Power: 38864",
+          1
+        ],
+        [
+          "The Wind Power: 33867",
+          1
+        ],
+        [
+          "EIA: 61132",
+          1
+        ],
+        [
+          "EIA: 61014",
+          1
+        ],
+        [
+          "CRE: CNE/E/8/GEN/2025",
+          1
+        ],
+        [
+          "ANEEL: EOL.CV.RS.031562-1.1",
+          1
+        ],
+        [
+          "ANEEL: EOL.CV.RN.032588-0.1",
+          1
+        ],
+        [
+          "ANEEL: EOL.CV.CE.002142-3",
+          1
+        ],
+        [
+          "ANEEL: EOL.CV.BA.044878-8.1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 2783,
+      "n_null": 933,
+      "n_non_null": 1850,
+      "null_rate": 0.3352,
+      "n_unique": 1834,
+      "top_values": [
+        [
+          "ANEEL: EOL.CV.RN.051587-6",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.RN.051586-8",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.RN.051585-0",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.051590-6",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.051589-2",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.051588-4",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049423-2",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049422-4",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049421-6",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049420-8",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049419-4",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049418-6",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049417-8",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049416-0",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049399-6",
+          2
+        ],
+        [
+          "ANEEL: EOL.CV.BA.049398-8",
+          2
+        ],
+        [
+          "SIEL ID: 985",
+          1
+        ],
+        [
+          "SIEL ID: 955",
+          1
+        ],
+        [
+          "SIEL ID: 878",
+          1
+        ],
+        [
+          "SIEL ID: 873",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 2783,
+      "n_null": 0,
+      "n_non_null": 2783,
+      "null_rate": 0.0,
+      "n_unique": 1187,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Serra_do_Assuruá_wind_farm",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Alto_Sertão_3_wind_farm",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Serra_da_Palmeira_wind_farm",
+          23
+        ],
+        [
+          "https://www.gem.wiki/Serra_Das_Almas_wind_farm",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Lagoa_Dos_Ventos_wind_farm",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Castanheira_wind_farm_(Brazil)",
+          20
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_São_Rafael_wind_farm",
+          19
+        ],
+        [
+          "https://www.gem.wiki/União_Dos_Ventos_wind_farm",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Santa_Rosa_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Santa_Luzia_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Umburanas_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Três_Divisas_Wind_Complex",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Assuruá_wind_farm",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Delta_Maranhão_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Chafariz_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Alto_Sertão_2_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Acaraú_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Ventos_Do_Araripe_3_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Ventos_De_São_Vitor_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Serra_Da_Babilônia_wind_farm",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

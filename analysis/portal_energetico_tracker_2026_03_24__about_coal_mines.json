@@ -1,0 +1,266 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_coal_mines",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_coal_mines",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.167120+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Coal Mine Tracker - May 2025",
+      "code_friendly_name_guess": "global_coal_mine_tracker_may_2025",
+      "n_total": 999,
+      "n_null": 899,
+      "n_non_null": 100,
+      "null_rate": 0.8999,
+      "n_unique": 99,
+      "top_values": [
+        [
+          "Complex Name",
+          2
+        ],
+        [
+          "Year of Total Reserves Recorded",
+          1
+        ],
+        [
+          "Year of Reported Coal Mine Methane Emissions",
+          1
+        ],
+        [
+          "Year of Production",
+          1
+        ],
+        [
+          "Workforce Size",
+          1
+        ],
+        [
+          "Workforce Accuracy",
+          1
+        ],
+        [
+          "Total Resource (Inferred, Indicated, Measured)",
+          1
+        ],
+        [
+          "Total Reserves (Proven and Probable, Mt)",
+          1
+        ],
+        [
+          "Test Operation",
+          1
+        ],
+        [
+          "Strip",
+          1
+        ],
+        [
+          "Status Detail",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "Source ID",
+          1
+        ],
+        [
+          "Shelved",
+          1
+        ],
+        [
+          "Retired",
+          1
+        ],
+        [
+          "Reserve to Production Ratio (R/P)",
+          1
+        ],
+        [
+          "Reported Year of Percentage Split",
+          1
+        ],
+        [
+          "Reported Year of Mine Life",
+          1
+        ],
+        [
+          "Reported Life of Mine",
+          1
+        ],
+        [
+          "Reported Coal Mine Methane Emissions (thousand tonnes per year)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 915,
+      "n_non_null": 84,
+      "null_rate": 0.9159,
+      "n_unique": 83,
+      "top_values": [
+        [
+          "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+          2
+        ],
+        [
+          "is a type of underground mining method used to extract coal from a seam that is too deep for open-pit mining",
+          1
+        ],
+        [
+          "is a type of surface mining where the overlying vegetation, rock, and soil (overburden) is removed in order to reach the underlying coal seam, which usually lies a few feet beneath the surface.",
+          1
+        ],
+        [
+          "is a mining practice where the tops of mountains are removed, exposing the seams of coal. It is a form of surface mining at the summit or summit ridge of a mountain.",
+          1
+        ],
+        [
+          "also known as “Room and Pillar”, it’s a method of underground mining. In this method, seams of coal are mined partially, leaving large pillars of coal intact to support the overlying layers of rock",
+          1
+        ],
+        [
+          "also known as “Open Cast”, refers to mining directly on the ground surface",
+          1
+        ],
+        [
+          "Unique identifier assigned by the GEM's Global Energy Ownership Tracker team.",
+          1
+        ],
+        [
+          "The year when the mine commenced its commercial operations.",
+          1
+        ],
+        [
+          "The year in which the total coal reserves of the mine were reported or evaluated.",
+          1
+        ],
+        [
+          "The year in which the percentage breakdown of coal grade was reported or deocumented.",
+          1
+        ],
+        [
+          "The year in which the life of mine is reported or evaluated.",
+          1
+        ],
+        [
+          "The year in which the gas-level rating of the coal mine was appraised or officially reported.",
+          1
+        ],
+        [
+          "The year in which the coal mine methane emissions were reported or released.",
+          1
+        ],
+        [
+          "The year in which the coal mine is scheduled to close or has already ceased operations.",
+          1
+        ],
+        [
+          "The year during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
+          1
+        ],
+        [
+          "The vertical distance from the ground surface down to the coal seam that is being mined.",
+          1
+        ],
+        [
+          "The total surface area of the mining covered by the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
+          1
+        ],
+        [
+          "The total number of personnel employed by a coal mining operation, including those directly involved in extraction and those supporting operations.",
+          1
+        ],
+        [
+          "The total estimated volume of a coal deposit in the ground",
+          1
+        ],
+        [
+          "The specific technique used to extract coal from the earth.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 987,
+      "n_non_null": 12,
+      "null_rate": 0.988,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 20-year Global Warming Potential (GWP) of 82.5.",
+          1
+        ],
+        [
+          "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 100-year Global Warming Potential (GWP) of 29.8.",
+          1
+        ],
+        [
+          "Some mitigation projects span multiple mines, and some mines are associated with multiple mitigation projects. See this companion dataset for more details, and methodology wiki page here.",
+          1
+        ],
+        [
+          "Some mines may have multiple plumes from different dates/times of observation associated with them. See the wiki page for each GCMT asset for details and download the full Global Methane Emitters Tracker here.",
+          1
+        ],
+        [
+          "Please see GEM's wiki on coal reserves for details.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "In this release, this indicator is available only for coal mines in China, where mines are typically classified into three levels: Low-gas, High-gas, and Outburst. For a detailed explanation of the methodology, please visit the wiki page here.",
+          1
+        ],
+        [
+          "For more details, please refer to GEM’s methodology wiki page on estimating methane emissions from coal mines.",
+          1
+        ],
+        [
+          "For more details, please refer to GEM's wiki page on estimating coal mine workforce size.",
+          1
+        ],
+        [
+          "Due to limited production data for Chinese coal mines, CMM emissions are estimated using the latest annual capacity utilization rate—72.8% for the coal mining and washing industry—as reported by the National Bureau of Statistics of China in 2024.                                      \n",
+          1
+        ],
+        [
+          "Column name changed from \"Reported Coal Mine Methane Emissions (thousand tonnes  CO2e)\" to \"Reported Coal Mine Methane Emissions (thousand tonnes per year)\"",
+          1
+        ],
+        [
+          "Column name changed from \"Country\"  to \"Country/Area\"",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

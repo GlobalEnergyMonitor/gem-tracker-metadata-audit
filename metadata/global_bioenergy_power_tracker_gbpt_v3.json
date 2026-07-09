@@ -1,0 +1,522 @@
+{
+  "source_file": "Global-Bioenergy-Power-Tracker-GBPT-V3.xlsx",
+  "tracker_slug": "global_bioenergy_power_tracker_gbpt_v3",
+  "header_info": {
+    "title": "Global Bioenergy Power Tracker - September 24, 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Bioenergy Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sophia Bauer, Project Manager, Global Bioenergy Power Tracker, Global Energy Monitor - sophia.bauer@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Bioenergy Power Tracker, September 2025 Release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "data": "Data"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Attribute Explanations",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "\"Status\" column options",
+          "definition": "Notes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "announced",
+          "definition": "The unit has been described in corporate or government plans but concrete steps such as applying for permits have not yet been taken.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "The unit is actively moving forward in seeking governmental approvals, land rights, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "construction",
+          "definition": "The unit has site preparation and equipment installation underway.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "shelved",
+          "definition": "The unit has had suspension of operation announced, or no progress has been observed for at least two years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "Inferred status based on lack of observed progress for 2 years",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "operating",
+          "definition": "The unit has been formally commissioned; commercial operation has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement for the unit has been made, or no progress has been observed for at least four years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "Inferred status based on lack of observed progress for 4 years",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "mothballed",
+          "definition": "The unit is disused, but not dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "retired",
+          "definition": "The unit has been decommissioned.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "Fuel column options:",
+          "definition": "Notes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - agricultural waste (biogas)",
+          "definition": "Biogas is composed of methane (CH4), which is the primary component of natural gas, at a relatively high percentage (50 to 75 percent), carbon dioxide (CO2), hydrogen sulfide (H2S), water vapor, and trace amounts of other gases. The energy in biogas can be used like natural gas to provide heat, generate electricity, and power cooling systems, among other uses.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - agricultural waste (solids)",
+          "definition": "Agricultural byproducts can be used as a fuel source. Common examples include sugar cane pulp (bagasse), rice husks, or palm kernal shells.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - agricultural waste (syngas)",
+          "definition": "Syngas made from agricultural waste. To produce syngas, biomass is first broken down at high temperature (between 700-800°C) and high pressure in a low-oxygen environment. Under these conditions, the biomass is converted into a mixture of gases, mainly carbon monoxide, hydrogen and methane (sometimes collectively called syngas). To produce a pure stream of biomethane, this syngas is cleaned to remove any acidic and corrosive components. The methanation process then uses a catalyst to promote a reaction between the hydrogen and carbon monoxide or CO2 to produce methane. Any remaining CO2 or water is removed at the end of this process.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - agricultural waste (unknown)",
+          "definition": "This fuel type category captures agricultural wastes whose specifics are unknown.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - biodiesel",
+          "definition": "Biodiesel is a fuel manufactured domestically from vegetable oils, animal fats, or recycled restaurant grease.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - ethanol",
+          "definition": "Ethanol is a clear, colorless alcohol made from a variety of biomass materials called feedstocks. Ethanol is often made from food grains and crops with high starch and sugar content, such as corn, sorghum, barley, sugar cane, and sugar beets. Ethanol can also be made from grasses, trees, and agricultural and forestry residues such as corn cobs and stocks, rice straw, sawdust, and wood chips.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - paper mill wastes",
+          "definition": "Paper mill wastes, sludges, waste water, and black liquor. Black liquor is a byproduct of the paper production process that can be used as a source of energy. Alkaline spent liquor is removed from digesters in the process of chemically pulping wood. After evaporation, the residual \"black\" liquor is burned as a fuel in a recovery furnace that permits the recovery of certain basic chemicals.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - refuse (landfill gas)",
+          "definition": "Landfill gas (LFG) is a byproduct of the decomposition of organic material in landfills. LFG is composed of roughly 50 percent methane (the primary component of natural gas), 50 percent carbon dioxide (CO2) and a small amount of non-methane organic compounds.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - refuse (municipal and industrial wastes)",
+          "definition": "Refuse, also called municipal solid waste (MSW), or garbage, is combusted to harness energy at waste incinerators. MSW contains 1) biogenic (plant or animal products) materials such as paper, cardboard, food waste, grass clippings, leaves, wood, and leather products; 2) non-biomass combustible materials such as plastics and other synthetic materials made from petroleum; 3) Noncombustible materials such as glass and metals.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - refuse (syngas)",
+          "definition": "Syngas made from refuse. Syngas is produced through gasification, which uses oxygen and water vapor to produce a combustible synthesis gas (syngas) from organic compounds in the MSW, which can be used to generate electricity, produce chemicals, liquid fuels, hydrogen (H2), etc.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - wastewater and sewage sludge (solids or biogas)",
+          "definition": "Wastewater sludge can produce biogas through a process of thermal hydrolysis and anaerobic digestion.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - wood & other biomass (biocoal)",
+          "definition": "Biocoal is produced by processing dry biomass in an inert environment (no oxygen) at high temperatures, a process referred to as pyrolysis. Depending on the temperatures and the characteristics of the end product, the process may also be referred to as torrefaction. This process is commonly carried out using an indirect-fired rotary kiln.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - wood & other biomass (solids)",
+          "definition": "Includes forestry products and byproducts, scrap lumber, lumber mill byproducts, wood chips and pellets, agricultural crops grown for energy production, etc.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - wood & other biomass (syngas)",
+          "definition": "Syngas made from wood and other biomass. To produce syngas, biomass is first broken down at high temperature (between 700-800°C) and high pressure in a low-oxygen environment. Under these conditions, the biomass is converted into a mixture of gases, mainly carbon monoxide, hydrogen and methane (sometimes collectively called syngas). To produce a pure stream of biomethane, this syngas is cleaned to remove any acidic and corrosive components. The methanation process then uses a catalyst to promote a reaction between the hydrogen and carbon monoxide or CO2 to produce methane. Any remaining CO2 or water is removed at the end of this process.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "bioenergy - unknown",
+          "definition": "This category is used when the bioenergy fuel source is unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "coal - unknown",
+          "definition": "This category is used when the coal type is unknown",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "industrial by-product - blast furnace gas",
+          "definition": "Blast furnace gas is a byproduct gas produced during the iron/steelmaking process during the production of hot metal (pig iron) in a blast furnace, where iron ore is reduced with coke to produce hot metal.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "industrial by-product - coke oven gas",
+          "definition": "Coke oven gas is a byproduct gas produced during the iron/steelmaking process during the production of coke, through the distillation of coking coal in coke ovens.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "other - solar thermal",
+          "definition": "Concentrated solar energy is used to heat a fluid, usually a molten salt. The heat is then transferred to water to run a steam turbine.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "\"Conversion/Replacement?\" column options",
+          "definition": "Notes",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "gas to bioenergy conversion",
+          "definition": "when a unit has been or will be converted from gas to bioenergy",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "coal to bioenergy conversion",
+          "definition": "when a unit has been or will be converted from coal to bioenergy",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "oil to bioenergy conversion",
+          "definition": "when a unit has been or will be converted from fossil oil to bioenergy",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "no conversion",
+          "definition": "unit is not associated with a conversion",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Attribute"
+        },
+        {
+          "name": "n/a",
+          "definition": "Date that the unit was last researched",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Date last researched"
+        },
+        {
+          "name": "n/a",
+          "definition": "Country in which the project is located (Unabbreviated)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Country/Area"
+        },
+        {
+          "name": "n/a",
+          "definition": "Commonly used name",
+          "notes": "Preference is for a government provided name. Without that information use the name the owner or operating company uses.",
+          "entry_type": "definition",
+          "parent_field": "Project Name"
+        },
+        {
+          "name": "n/a",
+          "definition": "Common name of the project unit. Numerals are used if none were provided, beginning with 1",
+          "notes": "Roman numerals are changed to numbers. If the Sponsor uses non-sequential numbers or other characters, those are used.",
+          "entry_type": "definition",
+          "parent_field": "Unit Name"
+        },
+        {
+          "name": "n/a",
+          "definition": "Commonly used name in the locally used script",
+          "notes": "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible",
+          "entry_type": "definition",
+          "parent_field": "Project Name in Local Language / Script"
+        },
+        {
+          "name": "n/a",
+          "definition": "Alternative power station names, including the name in local script",
+          "notes": "Semi-colon separated",
+          "entry_type": "definition",
+          "parent_field": "Other Name(s)"
+        },
+        {
+          "name": "MW",
+          "definition": "Gross capacity, or best available data, of the project in megawatts rounded to whole number. The summed nameplate capacity of all operating units regardless of unit capacity.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity (MW)"
+        },
+        {
+          "name": "n/a",
+          "definition": "see rows 30-79 above",
+          "notes": "Semi-colon separated",
+          "entry_type": "definition",
+          "parent_field": "Fuel"
+        },
+        {
+          "name": "n/a",
+          "definition": "see rows 18-28 above",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "yyyy",
+          "definition": "Year the unit was or is projected to be converted to bioenergy",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Unit conversion year"
+        },
+        {
+          "name": "yyyy",
+          "definition": "The year the unit was commissioned, regardless of fuel type",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Unit start year"
+        },
+        {
+          "name": "yyyy",
+          "definition": "Year the plant is taken offline",
+          "notes": "This includes mothballed plants - whenever the unit stops operating.",
+          "entry_type": "definition",
+          "parent_field": "Retired year"
+        },
+        {
+          "name": "n/a",
+          "definition": "If the unit is capable of producing hydrogen",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Hydrogen Capable"
+        },
+        {
+          "name": "n/a",
+          "definition": "The company that operates the project",
+          "notes": "Company that performs day-to-day operations and maintenance of the project",
+          "entry_type": "definition",
+          "parent_field": "Operator"
+        },
+        {
+          "name": "n/a",
+          "definition": "Company name that operates the project in the locally used script",
+          "notes": "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible",
+          "entry_type": "definition",
+          "parent_field": "Operator name in local language / script"
+        },
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each operator",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Operator(s) GEM Entity ID"
+        },
+        {
+          "name": "n/a",
+          "definition": "The immdiate owner of the plant",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Owner"
+        },
+        {
+          "name": "n/a",
+          "definition": "Company name that directly owns the project in the locally used script",
+          "notes": "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible",
+          "entry_type": "definition",
+          "parent_field": "Owner name in local language / script"
+        },
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each owner",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Owner(s) GEM Entity ID"
+        },
+        {
+          "name": "n/a",
+          "definition": "Parent company of the Owner",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Parent(s)"
+        },
+        {
+          "name": "n/a",
+          "definition": "GEM generated ID unique for each parent company",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Parent(s) GEM Entity ID"
+        },
+        {
+          "name": "decimal degrees",
+          "definition": "Latitude, assumed WGS84 (google maps), of the project (not by unit)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Latitude"
+        },
+        {
+          "name": "decimal degrees",
+          "definition": "Longitude, assumed WGS84 (google maps), of the project (not by unit)",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Longitude"
+        },
+        {
+          "name": "approximate, exact",
+          "definition": "Location is Approximate based by using nearest city or other information in research, or Location is Exact based on visibility on map or given in research",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Location Accuracy"
+        },
+        {
+          "name": "n/a",
+          "definition": "City, town, or village where project is located",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "City"
+        },
+        {
+          "name": "n/a",
+          "definition": "County/taluk where project is located",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Local Area (taluk, county)"
+        },
+        {
+          "name": "n/a",
+          "definition": "Prefecture or district where project is located",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Major Area (prefecture, district)"
+        },
+        {
+          "name": "n/a",
+          "definition": "Subnational unit where project is located",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "State/Province"
+        },
+        {
+          "name": "n/a",
+          "definition": "Subregion location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Subregion"
+        },
+        {
+          "name": "n/a",
+          "definition": "Region location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Region"
+        },
+        {
+          "name": "L2 + 5 digits",
+          "definition": "GEM generated ID unique for each project",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "GEM location ID"
+        },
+        {
+          "name": "G2 + 5 digits",
+          "definition": "GEM generated ID unique for each unit",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "GEM phase ID"
+        },
+        {
+          "name": "n/a",
+          "definition": "Lists of power station IDs from other systems. For example, an ID from the World Resources Institute is reported as \"WRI: WRI1002265\"",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Other IDs (location)"
+        },
+        {
+          "name": "n/a",
+          "definition": "Lists of power station unit IDs from other systems.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Other IDs (unit)"
+        },
+        {
+          "name": "n/a",
+          "definition": "URL of existing or planned GEM.wiki pages",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Wiki URL"
+        }
+      ]
+    }
+  ]
+}

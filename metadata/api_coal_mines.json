@@ -1,0 +1,1732 @@
+{
+  "citation": {
+    "copyright": "© Global Energy Monitor. Global Coal Mine Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International License.",
+    "citation": "\"Global Energy Monitor, Global Coal Mine Tracker, May 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Dorothy Lan Mei, Project Manager, Global Energy Monitor - dorothy.mei@globalenergymonitor.org"
+  },
+  "sources": {
+    "sheetId": "1YSlF9ADnRZH2ug9NwUGjp2bphbFZxkz1FnxSO1NV-ks",
+    "tabs": [
+      "Non-closed mines",
+      "Closed mines"
+    ]
+  },
+  "fieldCategoriesOrdered": [
+    "IDs",
+    "Names",
+    "Geography",
+    "Main",
+    "Size",
+    "Age",
+    "Details",
+    "Reference",
+    "Ownership",
+    "End Users",
+    "Methane"
+  ],
+  "fieldsDetail": [
+    {
+      "name": "GEM Mine ID",
+      "definition": "A unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
+      "is_required": true,
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "^M\\d+$",
+      "category": "IDs",
+      "code_friendly_name": "gem_mine_id",
+      "taxonomy": "location",
+      "url": "/catalog/metadata/coal-mines/fields/gem_mine_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/gem_mine_id/count"
+      }
+    },
+    {
+      "name": "MSHA ID",
+      "definition": "A unique numerical identifier assigned to each US coal mine by the US Mine Safety and Health Administration (MSHA) for identification purposes nationwide.",
+      "is_required": false,
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "data_type": "numeric",
+      "category": "IDs",
+      "code_friendly_name": "msha_id",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-mines/fields/msha_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/msha_id/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/msha_id/avg",
+        "count": "/catalog/metadata/coal-mines/fields/msha_id/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Country / Area",
+      "definition": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+      "is_required": true,
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "allowed_values": [],
+      "code_friendly_name": "country_area",
+      "category": "Geography",
+      "taxonomy": "country_area",
+      "url": "/catalog/metadata/coal-mines/fields/country_area/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/country_area/count"
+      }
+    },
+    {
+      "name": "Mine Name",
+      "definition": "The name of a coal mine or proposed coal mine project.",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "is_required": true,
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "code_friendly_name": "mine_name",
+      "other_rules": "Must be unique unless the Mine ID is the same, then we consider it a unit within the mine project parent, duplicates can occur because official Mine names are duplicated within the industry",
+      "category": "Names",
+      "url": "/catalog/metadata/coal-mines/fields/mine_name/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mine_name/count"
+      }
+    },
+    {
+      "name": "Mine Name AKAs",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "null_is_what": "Not found, Not applicable, Not yet researched",
+      "definition": "The nickname or alias of a coal mine or proposed coal mine project. AKAs are often used with proposed projects which have not yet been assigned an official name.",
+      "category": "Names",
+      "code_friendly_name": "mine_name_akas",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "other_rules": "",
+      "other_notes": "",
+      "url": "/catalog/metadata/coal-mines/fields/mine_name_akas/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mine_name_akas/count"
+      }
+    },
+    {
+      "name": "Mine Name (Non-ENG)",
+      "definition": "The non-english name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "category": "Names",
+      "code_friendly_name": "mine_name_non_eng",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "other_notes": "",
+      "other_rules": "",
+      "url": "/catalog/metadata/coal-mines/fields/mine_name_non_eng/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mine_name_non_eng/count"
+      }
+    },
+    {
+      "name": "Complex Name",
+      "definition": "The name of the larger mining complex or group to which one or more coal mines belong.",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "category": "Names",
+      "code_friendly_name": "complex_name",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "other_notes": "",
+      "other_rules": "",
+      "url": "/catalog/metadata/coal-mines/fields/complex_name/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/complex_name/count"
+      }
+    },
+    {
+      "name": "GEM Wiki Page (ENG)",
+      "definition": "The URL corresponding to a coal mine's or proposed coal mine project's English GEM wiki page.",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "^https://www.gem.wiki/.*",
+      "category": "Reference",
+      "code_friendly_name": "gem_wiki_page_eng",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/gem_wiki_page_eng/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/gem_wiki_page_eng/count"
+      }
+    },
+    {
+      "name": "GEM Wiki Page (Non-ENG)",
+      "definition": "The URL corresponding to a coal mine's or proposed coal mine project's non-English GEM wiki page.",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "^https://www.gem.wiki/.*",
+      "category": "Reference",
+      "null_is_what": "Required if country/name is China",
+      "code_friendly_name": "gem_wiki_page_non_eng",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/gem_wiki_page_non_eng/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/gem_wiki_page_non_eng/count"
+      }
+    },
+    {
+      "name": "Status",
+      "definition": "\"Status\" describes the various active/inactive stages of a coal mine or mine project.",
+      "is_required": true,
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "category": "Main",
+      "code_friendly_name": "status",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Cancelled",
+        "Operating",
+        "Shelved",
+        "Proposed",
+        "Mothballed",
+        "Closed"
+      ],
+      "values_definitions": {
+        "Operating": "A coal mine where coal removal is occurring for commercial purposes. This includes mines that have produced coal within the year, even if operations were temporarily suspended for several months.",
+        "Proposed": "A coal mine project that has not yet begun operation. This includes projects that have been announced (via corporate or government planning documents), projects that are under permitting (including feasibility studies), projects that are under construction, as well as those in test operation.",
+        "Mothballed": "A coal mine that is neither operating nor retired, such as those that are idled or put on \"care and maintenance.\" Such mines could return to operation, but are not currently operating.",
+        "Cancelled": "A proposed coal mine project for which a cancellation announcement has been made by the owning company or government authorities. GEM also assigns a status of \"cancelled\" to projects when no progress has been observed for 4+ years.",
+        "Shelved": "A proposed coal mine project for which no public updates nor progress has been observed for 2+ years.",
+        "Retired": "A previously operating coal mine that has been permanently closed."
+      },
+      "taxonomy": "status",
+      "url": "/catalog/metadata/coal-mines/fields/status/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/status/count"
+      }
+    },
+    {
+      "name": "Status Detail",
+      "definition": "\"Status detail\" describes the mine status on a granular level, such as which planning stage a proposed coal mine project has progressed to, or whether an operating mine is experiencing temporary work stoppages.",
+      "data_type": "text",
+      "data_sub_type": "ordinal",
+      "category": "Main",
+      "code_friendly_name": "status_detail",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Announced",
+        "Exploration",
+        "Pre-Permit",
+        "Permitted",
+        "Construction",
+        "Test Operation",
+        "Care and Maintenance"
+      ],
+      "order_of_values": [
+        "Announced",
+        "Exploration",
+        "Pre-Permit",
+        "Permitted",
+        "Construction",
+        "Test Operation",
+        "Care and Maintenance"
+      ],
+      "values_definitions": {
+        "Announced": "A status assigned when a coal mine project has been described in corporate or government plans, but full details remain unknown.",
+        "Exploration": "A status assigned when the economic viability of a coal mine project is being explored. During the exploration stage, information is gathered about a potential mine site's characteristics via geological surveys, pre-feasability studies, and the drilling of boreholes.",
+        "Pre-Permit": "A status assigned when permit applications (environmental assessments, land use rights, water licenses, etc.) for a coal mine project have been filed, but not yet obtained.",
+        "Permitted": "A status assigned to a coal mine project that has been granted permit approvals, but has not yet begun construction.",
+        "Construction": "A status assigned when a coal mine project has begun construction of its mining infrastructure and facilities.",
+        "Test Operation": "A status assigned when a coal mine project begins coal removal, but not yet for commercial purposes.",
+        "Care and Maintenance": "A status assigned when an operating mine temporarily closes, but there is potential to recommence operations at a later date. During the care and maintenance period, coal production stops but the mine site is still managed by minimal staff to ensure it remains in a safe and stable condition."
+      },
+      "url": "/catalog/metadata/coal-mines/fields/status_detail/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/status_detail/count"
+      }
+    },
+    {
+      "name": "Project Type",
+      "definition": "Refers to the type of coal mine project: expansion, extension, or new.",
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "category": "Main",
+      "code_friendly_name": "project_type",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Expansion",
+        "New",
+        "Extension",
+        "Recommission"
+      ],
+      "values_definitions": {
+        "New": "A \"new\" mine is a greenfield mine planned to be developed in an area where there was no previous mining activity.",
+        "Expansion": "An \"expansion\" is when an existing mine seeks to increase its existing coal capacity.",
+        "Extension": "An \"extension\" is when an existing mine seeks to mine new areas to extend its mine life."
+      },
+      "url": "/catalog/metadata/coal-mines/fields/project_type/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/project_type/count"
+      }
+    },
+    {
+      "name": "Project Phase",
+      "definition": "Refers to proposed coal mine projects that will be developed in stages, often with initial development followed by subsequent expansions over time (e.g., Phase I, II, III).",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "category": "Main",
+      "code_friendly_name": "project_phase",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/project_phase/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/project_phase/count"
+      }
+    },
+    {
+      "name": "Owners",
+      "definition": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "",
+      "category": "Ownership",
+      "code_friendly_name": "owners",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "taxonomy": "owner_name",
+      "url": "/catalog/metadata/coal-mines/fields/owners/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/owners/count"
+      }
+    },
+    {
+      "name": "Owners GEM Entity ID",
+      "definition": "Unique identifier assigned by the GEM's Global Energy Ownership Tracker team. Renamed from 'Owner GEM Entity ID' in the May-2026 release; format also changed from 'E12345 [100%]' to 'E12345' (ownership percentages are now exclusively in the Global Energy Ownership Tracker, not denormalized into this cell).",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "",
+      "category": "Ownership",
+      "code_friendly_name": "owners_gem_entity_id",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "taxonomy": "owner_entity_id",
+      "url": "/catalog/metadata/coal-mines/fields/owners_gem_entity_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/owners_gem_entity_id/count"
+      }
+    },
+    {
+      "name": "Owners (Non-ENG)",
+      "definition": "The non-english name of the immediate owner of the coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "",
+      "category": "Ownership",
+      "code_friendly_name": "owners_non_eng",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/owners_non_eng/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/owners_non_eng/count"
+      }
+    },
+    {
+      "name": "Parent Company",
+      "definition": "The highest-level owner of a coal mine or coal mine project. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "code_friendly_name": "parent_company",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "category": "Ownership",
+      "taxonomy": "parent_name",
+      "url": "/catalog/metadata/coal-mines/fields/parent_company/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/parent_company/count"
+      }
+    },
+    {
+      "name": "Company HQs",
+      "definition": "The geographic country or area where the parent company is headquartered in.",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "",
+      "category": "Ownership",
+      "code_friendly_name": "company_hqs",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/company_hqs/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/company_hqs/count"
+      }
+    },
+    {
+      "name": "Capacity (Mtpa)",
+      "definition": "The maximum amount of coal a mine or mine project is engineered to produce, expressed in millions of tonnes per year.",
+      "flags": "field includes * instead of UA",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "category": "Size",
+      "code_friendly_name": "capacity_mtpa",
+      "unit_name_short": "mtpa",
+      "unit_name_full": "million tons per annum",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/capacity_mtpa/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/capacity_mtpa/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/capacity_mtpa/avg",
+        "count": "/catalog/metadata/coal-mines/fields/capacity_mtpa/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Production (Mtpa)",
+      "definition": "The amount of coal produced by a mine, expressed in millions of tonnes per year.",
+      "flags": "field includes * instead of UA",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "unit_name_short": "mtpa",
+      "unit_name_full": "million tons per annum",
+      "category": "Size",
+      "code_friendly_name": "production_mtpa",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/production_mtpa/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/production_mtpa/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/production_mtpa/avg",
+        "count": "/catalog/metadata/coal-mines/fields/production_mtpa/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Year of Production",
+      "definition": "The year during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
+      "data_type": "datetime",
+      "data_sub_type": "year",
+      "category": "Size",
+      "code_friendly_name": "year_of_production",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "datetime_format": "YYYY",
+      "url": "/catalog/metadata/coal-mines/fields/year_of_production/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/year_of_production/count"
+      }
+    },
+    {
+      "name": "Coal Output (Annual, Mst)",
+      "definition": "The amount of coal produced by a US mine, expressed in millions of short tons per year. This value applies to US coal mines only.",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "unit_name_short": "Mst",
+      "unit_name_full": "annual million short tons",
+      "category": "Size",
+      "code_friendly_name": "coal_output_annual_mst",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/coal_output_annual_mst/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/coal_output_annual_mst/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/coal_output_annual_mst/avg",
+        "count": "/catalog/metadata/coal-mines/fields/coal_output_annual_mst/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Mine Type",
+      "definition": "The classification of coal mines by mining method, including \"Surface,\" \"Underground,\" and combined \"Underground & Surface\" facilities.",
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "category": "Main",
+      "code_friendly_name": "mine_type",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "other_notes": "should potentially convert from string to array, since there are two types, but mines can be either or both",
+      "allowed_values": [
+        "Surface",
+        "Underground",
+        "Underground & Surface"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/mine_type/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mine_type/count"
+      }
+    },
+    {
+      "name": "Mining Method",
+      "definition": "The specific technique used to extract coal from the earth.",
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "category": "Main",
+      "code_friendly_name": "mining_method",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Strip",
+        "Board and Pillar",
+        "Mixed",
+        "Longwall",
+        "Open Pit",
+        "Mountaintop Removal"
+      ],
+      "values_definitions": {
+        "Open Pit": "also known as “Open Cast”, refers to mining directly on the ground surface",
+        "Strip": "is a type of surface mining where the overlying vegetation, rock, and soil (overburden) is removed in order to reach the underlying coal seam, which usually lies a few feet beneath the surface.",
+        "Mountain Top Removal": "is a mining practice where the tops of mountains are removed, exposing the seams of coal. It is a form of surface mining at the summit or summit ridge of a mountain.",
+        "Board and Pillar": "also known as “Room and Pillar”, it’s a method of underground mining. In this method, seams of coal are mined partially, leaving large pillars of coal intact to support the overlying layers of rock",
+        "Longwall": "is a type of underground mining method used to extract coal from a seam that is too deep for open-pit mining",
+        "Mixed": "More than one mining method."
+      },
+      "url": "/catalog/metadata/coal-mines/fields/mining_method/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mining_method/count"
+      }
+    },
+    {
+      "name": "Mine Size (Km2)",
+      "definition": "The total surface area of the mining covered by the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "unit_name_short": "Km2",
+      "unit_name_full": "square kilometer",
+      "category": "Size",
+      "code_friendly_name": "mine_size_km2",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/mine_size_km2/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/mine_size_km2/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/mine_size_km2/avg",
+        "count": "/catalog/metadata/coal-mines/fields/mine_size_km2/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Mine Depth (m)",
+      "definition": "The vertical distance from the ground surface down to the coal seam that is being mined.",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "unit_name_short": "m",
+      "unit_name_full": "meters",
+      "category": "Size",
+      "code_friendly_name": "mine_depth_m",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/mine_depth_m/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/mine_depth_m/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/mine_depth_m/avg",
+        "count": "/catalog/metadata/coal-mines/fields/mine_depth_m/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Depth Accuracy",
+      "definition": "Indicates the confidence level in the reported depth of the coal mine. \"Exact\" means the depth is directly stated in a reliable source, while \"Estimated\" means it is inferred from averages at the national level in a variety of industry and government reports.",
+      "data_type": "text",
+      "data_sub_type": "accuracy",
+      "category": "Size",
+      "code_friendly_name": "depth_accuracy",
+      "accuracy_for_field": "mine_depth_m",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Exact",
+        "Estimate"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/depth_accuracy/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/depth_accuracy/count"
+      }
+    },
+    {
+      "name": "Workforce Size",
+      "definition": "The total number of personnel employed by a coal mining operation, including both direct employees and contractors working on-site.",
+      "flags": "",
+      "data_type": "numeric",
+      "data_sub_type": "measurement",
+      "unit_name_short": "workers",
+      "unit_name_full": "workers",
+      "category": "Size",
+      "code_friendly_name": "workforce_size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/workforce_size/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/workforce_size/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/workforce_size/avg",
+        "count": "/catalog/metadata/coal-mines/fields/workforce_size/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Workforce Accuracy",
+      "definition": "Indicates the accuracy level of workforce data. \"Exact\" means the workforce size is explicitly reported in data sources, while \"Estimated\" refers to figures generated using GEM’s machine learning model when official data is unavailable.",
+      "data_type": "text",
+      "data_sub_type": "accuracy",
+      "category": "Size",
+      "code_friendly_name": "workforce_accuracy",
+      "accuracy_for_field": "workforce_size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "allowed_values": [
+        "Exact",
+        "Estimate"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/workforce_accuracy/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/workforce_accuracy/count"
+      }
+    },
+    {
+      "name": "Coal Type",
+      "definition": "The classification of coal based on its physical and chemical properties, particularly its carbon content, calorific value, moisture, volatile matter, and ash content. Global Coal Mine Tracker use British coal type (lignite, subbituminous, bituminous, anthracite).",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Bituminous",
+        "Subbituminous",
+        "Anthracite",
+        "Lignite"
+      ],
+      "multiple_values_separator": "&",
+      "code_friendly_name": "coal_type",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-mines/fields/coal_type/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/coal_type/count"
+      }
+    },
+    {
+      "name": "Coal Grade",
+      "definition": "The classification of coal based on its primary use: -Thermal Coal: Used for power generation or industrial heating. -Metallurgical Coal (Coking Coal): Used for steelmaking and other industrial processes.",
+      "is_required": true,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Thermal",
+        "Met"
+      ],
+      "multiple_values_separator": "&",
+      "code_friendly_name": "coal_grade",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-mines/fields/coal_grade/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/coal_grade/count"
+      }
+    },
+    {
+      "name": "Percentage of Met Coal",
+      "definition": "The proportion of metallurgical coal within the \"Thermal & Met\" classification under Coal Grades for opearting coal mines.",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "percentage_of_met_coal",
+      "data_sub_type": "percent",
+      "url": "/catalog/metadata/coal-mines/fields/percentage_of_met_coal/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull",
+        "gt"
+      ],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/percentage_of_met_coal/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/percentage_of_met_coal/avg",
+        "count": "/catalog/metadata/coal-mines/fields/percentage_of_met_coal/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Percentage of Thermal Coal",
+      "definition": "The proportion of thermal coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines.",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "percentage_of_thermal_coal",
+      "data_sub_type": "percent",
+      "url": "/catalog/metadata/coal-mines/fields/percentage_of_thermal_coal/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull",
+        "gt"
+      ],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/percentage_of_thermal_coal/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/percentage_of_thermal_coal/avg",
+        "count": "/catalog/metadata/coal-mines/fields/percentage_of_thermal_coal/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Accuracy Rating",
+      "definition": "Indicates the confidence level in the accuracy of the information provided. A percentage split is marked as \"Exact\" when it is explicitly stated in the data source, and \"Estimated\" when it is based on the researcher’s interpretation or experience drawn from available sources.",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Estimated",
+        "Reported"
+      ],
+      "accuracy_for_field": [
+        "Percentage of Met Coal",
+        "Percentage of Thermal Coal"
+      ],
+      "order_of_values": "",
+      "code_friendly_name": "accuracy_rating",
+      "data_sub_type": "accuracy",
+      "url": "/catalog/metadata/coal-mines/fields/accuracy_rating/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/accuracy_rating/count"
+      }
+    },
+    {
+      "name": "Reported Year of Percentage Split",
+      "definition": "The year in which the percentage breakdown of coal grade was reported or deocumented.",
+      "is_required": false,
+      "category": "Details",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "associated_field": [
+        "Percentage of Met Coal",
+        "Percentage of Thermal Coal"
+      ],
+      "code_friendly_name": "reported_year_of_percentage_split",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/reported_year_of_percentage_split/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/reported_year_of_percentage_split/count"
+      }
+    },
+    {
+      "name": "Total Reserves (Proven and Probable, Mt)",
+      "definition": "The combined amount of economically recoverable or minable coal.",
+      "is_required": false,
+      "category": "Size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "Mt",
+      "unit_name_long": "Million tons (proven and possible)",
+      "code_friendly_name": "total_reserves_proven_and_probable_mt",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/total_reserves_proven_and_probable_mt/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/total_reserves_proven_and_probable_mt/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/total_reserves_proven_and_probable_mt/avg",
+        "count": "/catalog/metadata/coal-mines/fields/total_reserves_proven_and_probable_mt/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Year of Total Reserves Recorded",
+      "definition": "The year in which the total coal reserves of the mine were reported or evaluated.",
+      "is_required": false,
+      "category": "Size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "associated_field": [
+        "Year of Total Reserves Recorded"
+      ],
+      "code_friendly_name": "year_of_total_reserves_recorded",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/year_of_total_reserves_recorded/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/year_of_total_reserves_recorded/count"
+      }
+    },
+    {
+      "name": "Total Resource (Inferred, Indicated, Measured)",
+      "definition": "The total estimated volume of a coal deposit in the ground",
+      "is_required": false,
+      "category": "Size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "Mt(?)",
+      "unit_name_long": "Million tons (Inferred, Indicated, Measured)",
+      "code_friendly_name": "total_resource_inferred_indicated_measured",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/total_resource_inferred_indicated_measured/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/total_resource_inferred_indicated_measured/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/total_resource_inferred_indicated_measured/avg",
+        "count": "/catalog/metadata/coal-mines/fields/total_resource_inferred_indicated_measured/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Reserve to Production Ratio (R/P)",
+      "definition": "A measure of how long a coal reserve will last at the current annual rate of production.",
+      "is_required": false,
+      "category": "Size",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "reserve_to_production_ratio_r_p",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-mines/fields/reserve_to_production_ratio_r_p/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/reserve_to_production_ratio_r_p/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/reserve_to_production_ratio_r_p/avg",
+        "count": "/catalog/metadata/coal-mines/fields/reserve_to_production_ratio_r_p/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Opening Year",
+      "definition": "The year when the mine commenced its commercial operations.",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "",
+      "code_friendly_name": "opening_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/opening_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/opening_year/count"
+      }
+    },
+    {
+      "name": "Closing Year",
+      "definition": "The year in which the coal mine is scheduled to close or has already ceased operations.",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "code_friendly_name": "closing_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/closing_year/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/closing_year/count"
+      }
+    },
+    {
+      "name": "Reported Life of Mine",
+      "definition": "The expected operational lifespan of a mine, expressed in year, based on the currently known and economically recoverable reserves, and the planned annual production rate.",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "year",
+      "unit_name_long": "year",
+      "code_friendly_name": "reported_life_of_mine",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/reported_life_of_mine/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/reported_life_of_mine/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/reported_life_of_mine/avg",
+        "count": "/catalog/metadata/coal-mines/fields/reported_life_of_mine/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Reported Year of Mine Life",
+      "definition": "The year in which the life of mine is reported or evaluated.",
+      "is_required": false,
+      "category": "Age",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "associated_field": [
+        "Reported Life of Mine"
+      ],
+      "code_friendly_name": "reported_year_of_mine_life",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/reported_year_of_mine_life/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/reported_year_of_mine_life/count"
+      }
+    },
+    {
+      "name": "Coalfield",
+      "definition": "Coalfield to which a coal mine belongs.",
+      "is_required": false,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "coalfield",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-mines/fields/coalfield/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/coalfield/count"
+      }
+    },
+    {
+      "name": "Latitude",
+      "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "latitude",
+      "data_sub_type": null,
+      "taxonomy": "latitude",
+      "url": "/catalog/metadata/coal-mines/fields/latitude/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/latitude/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/latitude/avg",
+        "count": "/catalog/metadata/coal-mines/fields/latitude/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Longitude",
+      "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "code_friendly_name": "longitude",
+      "data_sub_type": null,
+      "taxonomy": "longitude",
+      "url": "/catalog/metadata/coal-mines/fields/longitude/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/longitude/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/longitude/avg",
+        "count": "/catalog/metadata/coal-mines/fields/longitude/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Location Accuracy",
+      "definition": "Indicates whether the location is \"Approximate\" or \"Exact\". Location is \"Approximate\" based on using nearest city or inferred from contextual information in the data source. Location is \"Exact\" when explicitly provided in the source materials.",
+      "is_required": true,
+      "category": "Geography",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Exact",
+        "Approximate"
+      ],
+      "accuracy_for_field": [
+        "Latitude",
+        "Longitude"
+      ],
+      "code_friendly_name": "location_accuracy",
+      "data_sub_type": "accuracy",
+      "url": "/catalog/metadata/coal-mines/fields/location_accuracy/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/location_accuracy/count"
+      }
+    },
+    {
+      "name": "Primary Consumer, Destination",
+      "definition": "The main end user or receiving entity of the coal produced by the mine. This may include coal power plants, steel plants, export terminals, or industrial facilities that rely on coal as a primary source.",
+      "is_required": false,
+      "category": "End Users",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "primary_consumer_destination",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-mines/fields/primary_consumer_destination/stats",
+      "is_filterable": true,
+      "filter_operators": [
+        "eq",
+        "isnull"
+      ],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/primary_consumer_destination/count"
+      }
+    },
+    {
+      "name": "Primary Consumer, Destination Name",
+      "definition": "The name of the end user or receiving entity of the coal. The project name should match exactly with those documented by GEM to ensure consistency. Renamed from 'Coal Plant, Steel Plant, Terminal' in the May-2026 release; same field, broader scope (any primary consumer/destination, not just plants/terminals).",
+      "is_required": false,
+      "category": "End Users",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "primary_consumer_destination_name",
+      "data_sub_type": "unstructured",
+      "url": "/catalog/metadata/coal-mines/fields/primary_consumer_destination_name/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/primary_consumer_destination_name/count"
+      }
+    },
+    {
+      "name": "Primary Consumer, Destination GEM Wiki",
+      "definition": "GEM's Wiki URLs of end user or receiving entity of the coal. Renamed from 'Coal Plant, Steel Plant, Terminal GEM Wiki' in the May-2026 release.",
+      "is_required": false,
+      "category": "End Users",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "required_format_regex": "^https://www.gem.wiki/.*",
+      "code_friendly_name": "primary_consumer_destination_gem_wiki",
+      "data_sub_type": "structured",
+      "url": "/catalog/metadata/coal-mines/fields/primary_consumer_destination_gem_wiki/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/primary_consumer_destination_gem_wiki/count"
+      }
+    },
+    {
+      "name": "Gas-level Rating",
+      "definition": "The gas-level rating of a coal mine is a classification system that indicates the methane content and gas-related risk level of a coal mine.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Low-gas",
+        "Outburst",
+        "High-gas"
+      ],
+      "order_of_values": [
+        "Low-gas",
+        "High-gas",
+        "Outburst"
+      ],
+      "code_friendly_name": "gas-level_rating",
+      "data_sub_type": "ordinal",
+      "url": "/catalog/metadata/coal-mines/fields/gas-level_rating/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/gas-level_rating/count"
+      }
+    },
+    {
+      "name": "Gas-level Rating Appraisal Year",
+      "definition": "The year in which the gas-level rating of the coal mine was appraised or officially reported.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "",
+      "associated_field": [
+        "Gas-level Rating"
+      ],
+      "code_friendly_name": "gas-level_rating_appraisal_year",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/gas-level_rating_appraisal_year/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/gas-level_rating_appraisal_year/count"
+      }
+    },
+    {
+      "name": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+      "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes per year.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "ttpy CH4",
+      "unit_name_long": "thousand tonnes CH4 per year",
+      "code_friendly_name": "reported_coal_mine_methane_emissions_thousand_tonnes_ch4",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_ch4/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_ch4/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_ch4/avg",
+        "count": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_ch4/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+      "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes of carbon dioxide equivalents (CO₂e) per year.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "ttpy CO2e",
+      "unit_name_long": "thousand tonnes CO2 equivalent per year",
+      "code_friendly_name": "reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent/avg",
+        "count": "/catalog/metadata/coal-mines/fields/reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Year of Reported Coal Mine Methane Emissions",
+      "definition": "The year in which the coal mine methane emissions were reported or released.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "datetime",
+      "datetime_format": "YYYY",
+      "associated_field": [
+        "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+        "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)"
+      ],
+      "code_friendly_name": "year_of_reported_coal_mine_methane_emissions",
+      "data_sub_type": "year",
+      "url": "/catalog/metadata/coal-mines/fields/year_of_reported_coal_mine_methane_emissions/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/year_of_reported_coal_mine_methane_emissions/count"
+      }
+    },
+    {
+      "name": "Source ID",
+      "definition": "The identifier assigned by the reporting agency to the coal mine associated with the reported methane emissions.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "code_friendly_name": "source_id",
+      "data_sub_type": "unstructured",
+      "taxonomy": "source_id",
+      "url": "/catalog/metadata/coal-mines/fields/source_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/source_id/count"
+      }
+    },
+    {
+      "name": "Has associated plume data",
+      "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a remotely sensed methane plume detailed in the Global Methane Emitters Tracker. Yes* refers to the one mine (Mandalong Coal Mine) which had methane plumes associated with it in the December 2024 briefing which were not included in the version of GMET public at the time due to minor differences in query methodology.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "text",
+      "allowed_values": [
+        "Yes",
+        "Yes*"
+      ],
+      "code_friendly_name": "has_associated_plume_data",
+      "data_sub_type": "categorical",
+      "url": "/catalog/metadata/coal-mines/fields/has_associated_plume_data/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/has_associated_plume_data/count"
+      }
+    },
+    {
+      "name": "Has associated CMM mitigation data",
+      "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a known coal mine methane mitigation project (e.g., pre-mining drainage, flaring, ventilation air methane destruction, utilization, etc.).",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "boolean",
+      "yes_value": "Yes",
+      "no_value": "null",
+      "code_friendly_name": "has_associated_cmm_mitigation_data",
+      "data_sub_type": null,
+      "url": "/catalog/metadata/coal-mines/fields/has_associated_cmm_mitigation_data/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/has_associated_cmm_mitigation_data/count"
+      }
+    },
+    {
+      "name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+      "definition": "An estimate of annual methane emissions from a coal mine calculated by GEM, expressed in million cubic meters per year (MCM/yr). This estimate is based on the Model for Calculating Coal Mine Methane (MC2M).",
+      "is_required": true,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "MCM/yr",
+      "unit_name_long": "million cubic meters per year",
+      "code_friendly_name": "gem_coal_mine_methane_emissions_estimate_mcm_yr",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_mcm_yr/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_mcm_yr/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_mcm_yr/avg",
+        "count": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_mcm_yr/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+      "definition": "An estimate of annual methane emissions from a coal mine, expressed in million metric tonnes per year.",
+      "is_required": false,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "M tonnes/yr",
+      "unit_name_long": "million metric tonnes per year",
+      "code_friendly_name": "gem_coal_mine_methane_emissions_estimate_m_tonnes_yr",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_m_tonnes_yr/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_m_tonnes_yr/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_m_tonnes_yr/avg",
+        "count": "/catalog/metadata/coal-mines/fields/gem_coal_mine_methane_emissions_estimate_m_tonnes_yr/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "CMM Emissions (CO2e 20 years)",
+      "definition": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 20-year time horizon.",
+      "is_required": true,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": "CO2e 20 years",
+      "unit_name_long": "carbon dioxide equivalents over a 20-year time horizon.",
+      "code_friendly_name": "cmm_emissions_co2e_20_years",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_20_years/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_20_years/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_20_years/avg",
+        "count": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_20_years/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "CMM Emissions (CO2e 100 years)",
+      "definition": "CMM Emissions (CO2e 100 years)",
+      "is_required": true,
+      "category": "Methane",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "flags": "",
+      "other_notes": "",
+      "other_rules": "",
+      "data_type": "numeric",
+      "unit_name_short": " CO2e 20 years",
+      "unit_name_long": "carbon dioxide equivalents over a 20-year time horizon.",
+      "code_friendly_name": "cmm_emissions_co2e_100_years",
+      "data_sub_type": "measurement",
+      "url": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_100_years/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_100_years/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_100_years/avg",
+        "count": "/catalog/metadata/coal-mines/fields/cmm_emissions_co2e_100_years/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Parent GEM Entity ID",
+      "definition": "A static unique identifier assigned by GEM's Global Energy Ownership Tracker (GEOT) to the highest-level parent owner of a coal mine.",
+      "data_type": "text",
+      "data_sub_type": "structured",
+      "required_format_regex": "",
+      "category": "Ownership",
+      "code_friendly_name": "parent_gem_entity_id",
+      "present_in_tabs": [
+        "Non-closed mines"
+      ],
+      "taxonomy": "parent_entity_id",
+      "url": "/catalog/metadata/coal-mines/fields/parent_gem_entity_id/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/parent_gem_entity_id/count"
+      }
+    },
+    {
+      "name": "Location (Non-ENG)",
+      "definition": "The non-English name of the closest city/town to a coal mine or proposed coal mine project.",
+      "data_type": "text",
+      "data_sub_type": "unstructured",
+      "category": "Geography",
+      "code_friendly_name": "location_non_eng",
+      "present_in_tabs": [
+        "Non-closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/location_non_eng/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/location_non_eng/count"
+      }
+    },
+    {
+      "name": "Reference Type",
+      "definition": "Indicates the official source (national government data or company report) where the reported coal mine methane figures were found.",
+      "data_type": "text",
+      "data_sub_type": "categorical",
+      "category": "Reference",
+      "allowed_values": [],
+      "code_friendly_name": "reference_type",
+      "present_in_tabs": [
+        "Non-closed mines",
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/reference_type/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/reference_type/count"
+      }
+    },
+    {
+      "name": "Methane Emissions Factor",
+      "definition": "Methane Emissions Factor",
+      "is_required": false,
+      "category": "Methane",
+      "data_type": "numeric",
+      "unit_name_short": "",
+      "unit_name_long": "",
+      "code_friendly_name": "methane_emissions_factor",
+      "data_sub_type": "measurement",
+      "present_in_tabs": [
+        "Non-closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/methane_emissions_factor/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/methane_emissions_factor/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/methane_emissions_factor/avg",
+        "count": "/catalog/metadata/coal-mines/fields/methane_emissions_factor/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Methane Gas Content (m^3/tonne)",
+      "definition": "Methane Gas Content (m^3/tonne)",
+      "is_required": false,
+      "category": "Methane",
+      "data_type": "numeric",
+      "unit_name_short": "m^3/tonne",
+      "unit_name_long": "cubic meters per tonne",
+      "code_friendly_name": "methane_gas_content_m_3_tonne",
+      "data_sub_type": "measurement",
+      "present_in_tabs": [
+        "Non-closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/methane_gas_content_m_3_tonne/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "sum": "/catalog/metadata/coal-mines/fields/methane_gas_content_m_3_tonne/sum",
+        "avg": "/catalog/metadata/coal-mines/fields/methane_gas_content_m_3_tonne/avg",
+        "count": "/catalog/metadata/coal-mines/fields/methane_gas_content_m_3_tonne/count"
+      },
+      "histogram_weight": 0.5
+    },
+    {
+      "name": "Mine boundary and methane emissions sources data available?",
+      "definition": "A “Yes” in this field indicates that a coal mine boundary/boundaries and potential sources of coal mine methane have been identified for this GCMT asset.",
+      "is_required": false,
+      "category": "Methane",
+      "data_type": "text",
+      "allowed_values": [
+        "Y",
+        "N"
+      ],
+      "code_friendly_name": "mine_boundary_and_methane_emissions_sources_data_available_",
+      "data_sub_type": "categorical",
+      "present_in_tabs": [
+        "Non-closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/mine_boundary_and_methane_emissions_sources_data_available_/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/mine_boundary_and_methane_emissions_sources_data_available_/count"
+      }
+    },
+    {
+      "name": "Has mine boundary and methane emissions sources data?",
+      "definition": "A “Yes” in this field indicates that a coal mine boundary/boundaries and potential sources of coal mine methane have been identified for this GCMT asset.",
+      "is_required": false,
+      "category": "Methane",
+      "data_type": "text",
+      "allowed_values": [
+        "Y",
+        "N"
+      ],
+      "code_friendly_name": "has_mine_boundary_and_methane_emissions_sources_data_",
+      "data_sub_type": "categorical",
+      "present_in_tabs": [
+        "Closed mines"
+      ],
+      "url": "/catalog/metadata/coal-mines/fields/has_mine_boundary_and_methane_emissions_sources_data_/stats",
+      "is_filterable": false,
+      "filter_operators": [],
+      "aggregate_urls": {
+        "count": "/catalog/metadata/coal-mines/fields/has_mine_boundary_and_methane_emissions_sources_data_/count"
+      }
+    }
+  ]
+}

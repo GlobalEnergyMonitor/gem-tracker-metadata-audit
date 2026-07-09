@@ -1,0 +1,779 @@
+{
+  "source_file": "Global-Oil-and-Gas-Extraction-Tracker-March-2026.xlsx",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "header_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "field_level_main_data": "Field-level main data",
+    "field_level_reserves_data": "Field-level reserves data",
+    "field_level_production_data": "Field-level production data",
+    "project_level_main_data": "Project-level main data",
+    "project_level_reserves_data": "Project-level reserves data ",
+    "project_level_production_data": "Project-level production data"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Column Key",
+      "section_type": "column_key_tabbed",
+      "tab_key": "field_level_main_data",
+      "entries": [
+        {
+          "name": "Unit ID",
+          "definition": "Unique Unit ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit Name",
+          "definition": "Name of the unit as it is reported by sources, appended to fuel type and country/area information.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name local script",
+          "definition": "The name of the unit in the local script (e.g., Chinese).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel type",
+          "definition": "A determination of whether the unit is a gas, oil, or oil and gas unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "The subnational state that the unit is in (province, state, etc.).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production Type",
+          "definition": "Tag stating if production from a field uses conventional or unconventional methods.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "The status of development of a unit, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status detail",
+          "definition": "Additional information on the status, see methodology for details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status year",
+          "definition": "The year of the source of the status information.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Discovery year",
+          "definition": "Year in which the unit was discovered.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FID Year",
+          "definition": "Year in which the unit reach final investment decision.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production start year",
+          "definition": "Year in which the unit started commercial production.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator",
+          "definition": "The company that is the designated operator of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner(s)",
+          "definition": "The company (or companies) that own the unit. Often multiple companies will collaborate to fund a project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent(s)",
+          "definition": "The company (or companies) that own the owner companies listed.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Government unit ID",
+          "definition": "The ID assigned by some governments to the asset.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL (project)",
+          "definition": "URL for the GEM.wiki page for an associated project, if relevant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL (field)",
+          "definition": "URL for the GEM.wiki page for the field-level unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Name Other",
+          "definition": "Alternate names for a field-level unit",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Locations are designated as \"exact\" if there is information about where exactly the unit is (e.g., coordinates explicitly stated, or unit shown on a map). If only general information is available (e.g., which state or county the unit is in), an \"approximate\" designation is used.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Onshore/Offshore",
+          "definition": "Tag stating if a field predominantly located on or offshore",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Field outline (WKT)",
+          "definition": "Field-level units outline in well-known-text format.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Basin",
+          "definition": "Each field-level unit is within a particular basin (short for sedimentary basin), when available, shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Block",
+          "definition": "Each unit is generally within a single concession or block, which is an area that the government licenses for exploration, when available, shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Column Key (Field-level reserves data)",
+      "section_type": "column_key_tabbed",
+      "tab_key": "field_level_reserves_data",
+      "entries": [
+        {
+          "name": "Unit ID",
+          "definition": "Unique Unit ID number",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit Name",
+          "definition": "Name of the unit as it is reported by sources.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel description",
+          "definition": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reserves classification",
+          "definition": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (original)",
+          "definition": "The quantity of fuel, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (original)",
+          "definition": "The units of measurement, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (converted)",
+          "definition": "The quantity after the conversion of data into a common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (converted)",
+          "definition": "The common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data Year",
+          "definition": "Year the data refers to, or if not listed, year of the source document",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Column Key (Field-level production data)",
+      "section_type": "column_key_tabbed",
+      "tab_key": "field_level_production_data",
+      "entries": [
+        {
+          "name": "Unit ID",
+          "definition": "Unique project ID number",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "Name of the unit as it is reported by sources.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel description",
+          "definition": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (original)",
+          "definition": "The quantity of fuel, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (original)",
+          "definition": "The units of measurement, as specified by the source documents",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (converted)",
+          "definition": "The quantity after the conversion of data into a common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (converted)",
+          "definition": "The common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data Year",
+          "definition": "Year the data refers to, or if not listed, year of the source document",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Column Key (Project-level main data)",
+      "section_type": "column_key_tabbed",
+      "tab_key": "project_level_main_data",
+      "entries": [
+        {
+          "name": "Project ID",
+          "definition": "Unique project ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name",
+          "definition": "Name of the project as it is reported by sources, appended to fuel type and country/area information.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name local script",
+          "definition": "The name of the project in the local script (e.g., Chinese).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel type",
+          "definition": "A determination of whether the project is a gas, oil, or oil and gas project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the project is in. If a project spans country borders, both countries are listed in the project name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "The subnational state that the project is in (province, state, etc.).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production Type",
+          "definition": "Tag stating if production from a field uses conventional or unconventional methods.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "The status of development of a project, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status detail",
+          "definition": "Additional information on the status, see methodology for details.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status year",
+          "definition": "The year of the source of the status information.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Discovery year",
+          "definition": "Year in which the project was discovered. If the project is made up of multiple fields, the earliest discovery year is listed here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FID Year",
+          "definition": "Year in which the project reach final investment decision. If the project is made up of multiple fields, the earliest FID year is listed here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Production start year",
+          "definition": "Year in which the project started commercial production.If the project is made up of multiple fields, the earliest FID year is listed here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator",
+          "definition": "The company that is the designated operator of the project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner(s)",
+          "definition": "The company (or companies) that own the project. Often multiple companies will collaborate to fund a project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent(s)",
+          "definition": "The company (or companies) that own the owner companies listed.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Government unit ID",
+          "definition": "The ID assigned by some governments to the asset.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (list of IDs)",
+          "definition": "Project IDs of all field-level projects that make up the project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL (project)",
+          "definition": "URL for the GEM.wiki page for an associated project, if relevant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Name Other",
+          "definition": "Alternate names for a project-level project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Locations are designated as \"exact\" if there is information about where exactly the project is (e.g., coordinates explicitly stated, or project shown on a map). If only general information  is available (e.g., which state or county the project is in), an \"approximate\" designation is used.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project location type",
+          "definition": "If the location of the project is calculated from the location of the field-level projects which make it up, it is tagged as \"location derived from fields\". If data for the location is at the project level, this is tagged as \"project level location\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Onshore/Offshore",
+          "definition": "Tag stating if a field predominantly located on or offshore.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project outline (WKT)",
+          "definition": "Field-level projects outline in well-known-text format.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Basin",
+          "definition": "Each field-level project is within a particular basin (short for sedimentary basin), when available, shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Block",
+          "definition": "Each project is generally within a single concession or block, which is an area that the government licenses for exploration, when available, shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Column Key (Project-level reserves data)",
+      "section_type": "column_key_tabbed",
+      "tab_key": "project_level_reserves_data",
+      "entries": [
+        {
+          "name": "Project ID",
+          "definition": "Unique project ID number.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name",
+          "definition": "Name of the unit as it is reported by sources.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel description",
+          "definition": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reserves classification",
+          "definition": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (original)",
+          "definition": "The quantity of fuel, as specified by the source documents.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (original)",
+          "definition": "The units of measurement, as specified by the source documents.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (converted)",
+          "definition": "The quantity after the conversion of data into a common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (converted)",
+          "definition": "The common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data source type",
+          "definition": "If the reserves of the project is calculated from the the field-level projects which make it up, it is tagged as \"reserves summed from fields\". If data for the location is at the project level, this is tagged as \"project level reserves\" - if both data types are available, only the project level data is shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Column Key (Project-level production data)",
+      "section_type": "column_key_tabbed",
+      "tab_key": "project_level_production_data",
+      "entries": [
+        {
+          "name": "Project ID",
+          "definition": "Unique project ID number.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name",
+          "definition": "Name of the unit as it is reported by sources.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel description",
+          "definition": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Quantity (converted)",
+          "definition": "The quantity after the conversion of data into a common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Units (converted)",
+          "definition": "The common set of units.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Data source type",
+          "definition": "If the production of the project is calculated from the the field-level projects which make it up, it is tagged as \"production summed from fields\". If data for the location is at the project level, this is tagged as \"project level production\" - if both data types are available, only the project level data is shown here.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Discovered",
+          "definition": "A unit is typically considered to be discovered when there has been a well drilled into a particular formation, and it yielded some significant quantity of oil and/or gas. Discovered units are not necessarily economic to exploit.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "In-development",
+          "definition": "Following discovery, the process of moving toward commercial production has begun. This means that a company is planning to develop the project, as evidenced by one or more of the following criteria being reached: the company has applied for approval for commercial production (if needed in the jurisdiction), the project has reached the Final Investment Decision (FID), a final environmental impact statement has been published, and/or the drilling of development (not appraisal) wells and/or adding takeaway capacity (infrastructure such as pipelines, storage tanks, etc.) to enable commercial production has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Operating",
+          "definition": "The unit has commercial production of oil/gas (that is, quantities that are being sold to market).",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Abandoned",
+          "definition": "Operations have ceased, but the wells/unit were not decommissioned following all the usual steps, such as plugging the wells (including filling the well with cement).",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Operations temporarily shut down; may be restarted.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Decommissioning",
+          "definition": "Operations permanently ceased; infrastructure is typically removed.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "UGS",
+          "definition": "Exhausted units may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS.”",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Exploration",
+          "definition": "An unproven concessionary block or region that potentially contains an undiscovered field is actively being explored for reserves.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A discovered or in-development field that did not reach commercial production. This is evidenced by a formal acknowledgment by a company involved that a project is not going forward.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "Underground gas storage",
+          "definition": "Exhausted fields may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS” or “UGS (converted).”",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5100 @@
+{
+  "table_name": "global_coal_plant_tracker_january_2026__units",
+  "tracker_slug": "global_coal_plant_tracker_january_2026",
+  "tab_slug": "units",
+  "n_rows": 14509,
+  "analyzed_at": "2026-07-07T21:45:11.426865+00:00",
+  "tracker_info": {
+    "title": "Global Coal Plant Tracker, Global Energy Monitor  January 2026 Release",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Plant Tracker, January 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Christine Shearer, Project Manager, Global Energy Monitor - christine.shearer@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Plant Tracker, January 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM unit/phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 14509,
+      "top_values": [
+        [
+          "G100001092240",
+          1
+        ],
+        [
+          "G100001092214",
+          1
+        ],
+        [
+          "G100001092213",
+          1
+        ],
+        [
+          "G100001092211",
+          1
+        ],
+        [
+          "G100001092202",
+          1
+        ],
+        [
+          "G100001092192",
+          1
+        ],
+        [
+          "G100001092191",
+          1
+        ],
+        [
+          "G100001092190",
+          1
+        ],
+        [
+          "G100001092132",
+          1
+        ],
+        [
+          "G100001092130",
+          1
+        ],
+        [
+          "G100001092059",
+          1
+        ],
+        [
+          "G100001092058",
+          1
+        ],
+        [
+          "G100001092041",
+          1
+        ],
+        [
+          "G100001092040",
+          1
+        ],
+        [
+          "G100001091075",
+          1
+        ],
+        [
+          "G100001091067",
+          1
+        ],
+        [
+          "G100001091041",
+          1
+        ],
+        [
+          "G100001091033",
+          1
+        ],
+        [
+          "G100001091031",
+          1
+        ],
+        [
+          "G100001091030",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "ID unique to the coal-fired unit",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM unit/phase ID",
+        "definition": "ID unique to the coal-fired unit",
+        "is_required": true,
+        "category": "IDs",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^G\\d+$",
+        "code_friendly_name": "gem_unit_phase_id",
+        "data_sub_type": "structured",
+        "taxonomy": "unit"
+      }
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 4865,
+      "top_values": [
+        [
+          "L100000104619",
+          24
+        ],
+        [
+          "L100000103106",
+          20
+        ],
+        [
+          "L100000102644",
+          17
+        ],
+        [
+          "L100000103674",
+          16
+        ],
+        [
+          "L100000101937",
+          16
+        ],
+        [
+          "L100000101124",
+          16
+        ],
+        [
+          "L100000103576",
+          15
+        ],
+        [
+          "L100000102281",
+          15
+        ],
+        [
+          "L100000101094",
+          15
+        ],
+        [
+          "L100000100998",
+          15
+        ],
+        [
+          "L100000104613",
+          14
+        ],
+        [
+          "L100000104361",
+          14
+        ],
+        [
+          "L100000103216",
+          14
+        ],
+        [
+          "L100000101617",
+          14
+        ],
+        [
+          "L100000101222",
+          14
+        ],
+        [
+          "L100000103738",
+          13
+        ],
+        [
+          "L100000103425",
+          13
+        ],
+        [
+          "L100000102526",
+          13
+        ],
+        [
+          "L100000102371",
+          13
+        ],
+        [
+          "L100000101165",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "ID unique to the entire power station",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM location ID",
+        "definition": "ID unique to the entire power station",
+        "is_required": true,
+        "category": "IDs",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^L\\d+$",
+        "code_friendly_name": "gem_location_id",
+        "data_sub_type": "structured",
+        "taxonomy": "location"
+      }
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 109,
+      "top_values": [
+        [
+          "China",
+          6520
+        ],
+        [
+          "India",
+          1977
+        ],
+        [
+          "United States",
+          1221
+        ],
+        [
+          "Indonesia",
+          526
+        ],
+        [
+          "Russia",
+          440
+        ],
+        [
+          "Türkiye",
+          248
+        ],
+        [
+          "Germany",
+          246
+        ],
+        [
+          "Poland",
+          231
+        ],
+        [
+          "Japan",
+          201
+        ],
+        [
+          "Vietnam",
+          197
+        ],
+        [
+          "South Africa",
+          164
+        ],
+        [
+          "Philippines",
+          147
+        ],
+        [
+          "Australia",
+          135
+        ],
+        [
+          "Kazakhstan",
+          133
+        ],
+        [
+          "Ukraine",
+          117
+        ],
+        [
+          "South Korea",
+          104
+        ],
+        [
+          "United Kingdom",
+          102
+        ],
+        [
+          "Czech Republic",
+          91
+        ],
+        [
+          "Taiwan",
+          89
+        ],
+        [
+          "Pakistan",
+          88
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country where the power station is/was located or is/was in development",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Country/Area",
+        "definition": "Country where the power station is/was located or is/was in development",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "country_area",
+        "data_sub_type": "categorical",
+        "taxonomy": "country_area"
+      }
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 4865,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Nanshan_Industrial_Park_power_station",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Pukchang_power_station",
+          20
+        ],
+        [
+          "https://www.gem.wiki/Obra_Thermal_Power_Station",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Frimmersdorf_power_station",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Changxing_Island_Hengli_Petrochemical_power_station",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Af%C5%9Fin-Elbistan_power_stations",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Patratu_JSEB_power_station",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Mae_Moh_power_station",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Jilin_cogen_power_station",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Jianbi_power_station",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Weda_Bay_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Qiaotou_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Hwange_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/East_Hope_Metals_Wucaiwan_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Belchatow_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Vindhyachal_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Liaoning-1_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Kelvin_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/JSW_Barmer_Jalipa_Kapurdi_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Burshtyn_power_station",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM's power station wiki page, featuring narrative descriptions and source attribution",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Wiki URL",
+        "definition": "Link to GEM's power station wiki page, featuring narrative descriptions and source attribution",
+        "is_required": true,
+        "category": "Reference",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^https://www.gem.wiki/.*",
+        "code_friendly_name": "wiki_url",
+        "data_sub_type": "structured"
+      }
+    },
+    {
+      "field_name": "Plant name",
+      "code_friendly_name_guess": "plant_name",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 4865,
+      "top_values": [
+        [
+          "Nanshan Industrial Park power station",
+          24
+        ],
+        [
+          "Pukchang power station",
+          20
+        ],
+        [
+          "Obra Thermal Power Station",
+          17
+        ],
+        [
+          "Frimmersdorf power station",
+          16
+        ],
+        [
+          "Changxing Island Hengli Petrochemical power station",
+          16
+        ],
+        [
+          "Afşin-Elbistan power stations",
+          16
+        ],
+        [
+          "Patratu JSEB power station",
+          15
+        ],
+        [
+          "Mae Moh power station",
+          15
+        ],
+        [
+          "Jilin cogen power station",
+          15
+        ],
+        [
+          "Jianbi power station",
+          15
+        ],
+        [
+          "Weda Bay power station",
+          14
+        ],
+        [
+          "Qiaotou power station",
+          14
+        ],
+        [
+          "Hwange power station",
+          14
+        ],
+        [
+          "East Hope Metals Wucaiwan power station",
+          14
+        ],
+        [
+          "Belchatow power station",
+          14
+        ],
+        [
+          "Vindhyachal power station",
+          13
+        ],
+        [
+          "Liaoning-1 power station",
+          13
+        ],
+        [
+          "Kelvin power station",
+          13
+        ],
+        [
+          "JSW Barmer Jalipa Kapurdi power station",
+          13
+        ],
+        [
+          "Burshtyn power station",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Identical label across all units at the same power station",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Plant name",
+        "definition": "Identical label across all units at the same power station",
+        "is_required": true,
+        "category": "Names",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "plant_name",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 677,
+      "top_values": [
+        [
+          "Unit 1",
+          2852
+        ],
+        [
+          "Unit 2",
+          2681
+        ],
+        [
+          "Unit 3",
+          1220
+        ],
+        [
+          "Unit 4",
+          919
+        ],
+        [
+          "--",
+          627
+        ],
+        [
+          "Unit 5",
+          581
+        ],
+        [
+          "Unit 6",
+          439
+        ],
+        [
+          "Phase I Unit 1",
+          419
+        ],
+        [
+          "Phase I Unit 2",
+          410
+        ],
+        [
+          "Phase II Unit 3",
+          366
+        ],
+        [
+          "Phase II Unit 4",
+          347
+        ],
+        [
+          "Unit 7",
+          266
+        ],
+        [
+          "Unit 8",
+          209
+        ],
+        [
+          "Unit 9",
+          132
+        ],
+        [
+          "Phase III Unit 5",
+          108
+        ],
+        [
+          "Unit 10",
+          102
+        ],
+        [
+          "Phase III Unit 6",
+          99
+        ],
+        [
+          "Phase II Unit 2",
+          91
+        ],
+        [
+          "Phase II Unit 1",
+          89
+        ],
+        [
+          "Unit 1, timepoint 1",
+          85
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Unique label for each unit at the same power station",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Unit name",
+        "definition": "Unique label for each unit at the same power station",
+        "is_required": true,
+        "category": "Names",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "unit_name",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Plant name (other)",
+      "code_friendly_name_guess": "plant_name_other",
+      "n_total": 14509,
+      "n_null": 8702,
+      "n_non_null": 5807,
+      "null_rate": 0.5998,
+      "n_unique": 1639,
+      "top_values": [
+        [
+          "南山宾坦工业园自备电厂",
+          24
+        ],
+        [
+          "Bukchang power station",
+          20
+        ],
+        [
+          "国能吉林热电厂“等容量替换”2×350MW热电联产项目, Jilin Longtan power station, Jilin power station, 吉林龙潭热电厂",
+          15
+        ],
+        [
+          "Patratu UMPP",
+          15
+        ],
+        [
+          "Mae Moh Thermal Power Plant Project, Unit 14 (Units 4-7 replacement), MMRP2; Mae Moh Thermal Power Plant Project (Units 8-9 replacement), Unit 15 (Units 8-9 replacement), MMRP1 (Units 4-7 replacement)",
+          15
+        ],
+        [
+          "青海省投3×66万千瓦“上大压小”火电机组项目 (Phase II Unit 6-8), Qinghai Ningbei power station (Phase I Unit 7 & 8), 青海宁北电厂 (Phase I Unit 7 & 8)",
+          14
+        ],
+        [
+          "青山集团纬达贝工业园自备电厂",
+          14
+        ],
+        [
+          "电力二公司 (Unit 5, Unit 6, Unit 7, Unit 8, Unit 9), 电力二公司） (Unit 10), 电力一公司 (Unit 1, Unit 2, Unit 3, Unit 4), Ordos Shuangxin power station (New Unit 1, New Unit 2), 鄂尔多斯双欣发电厂 (New Unit 1, New Unit 2)",
+          12
+        ],
+        [
+          "深圳能源沙角B电厂 (Units B 1-2), 粤电广东沙角C电厂 (Units C 1-3), 粤电广东沙角A电厂 (Units A 1-7)",
+          12
+        ],
+        [
+          "新疆其亚2×66万千瓦煤电项目(Unit 7&8)",
+          12
+        ],
+        [
+          "德龙镍业印尼自备电厂三期",
+          12
+        ],
+        [
+          "天津津源热电 (Phase II Unit 3, Phase II Unit 4), 天津军电热电公司 (Phase V Unit 10, Phase V Unit 9)",
+          12
+        ],
+        [
+          "国电石嘴山发电厂 (Phase I Unit 7-10), 国电宁夏石嘴山发电厂 (Phase II Unit 1-6, Phase III Unit 1-2)",
+          12
+        ],
+        [
+          "华能石洞口第一发电厂 (Phase I Unit 1 - 4), 华能石洞口第二发电厂 (Phase II Unit 1 - 4), 华能石洞口第一发电厂等容量煤电替代项目 (Phase III Unit 5 - 6)",
+          12
+        ],
+        [
+          "Đồng Phát Hải Hà (CHP)",
+          12
+        ],
+        [
+          "Zhonghuo power station",
+          12
+        ],
+        [
+          "Zhejiang Taishan power station (Unit 1, Unit 2, Unit 3, Unit 4, Unit 5, Unit 6)",
+          12
+        ],
+        [
+          "Telangana super thermal power project (Stage IV Units 8-9, Stage V Units 10-12), Telangana TPP (Stage IV Units 8-9, Stage V Units 10-12)",
+          12
+        ],
+        [
+          "Prunéřov power station",
+          12
+        ],
+        [
+          "PLTU Obi Sinar Timur (Phase III), 宁波力勤印尼镍铁项目自备电厂",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternative and former labels for the power station",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Plant name (other)",
+        "definition": "Alternative and former labels for the power station",
+        "is_required": false,
+        "category": "Names",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "plant_name_other",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Plant name (local)",
+      "code_friendly_name_guess": "plant_name_local",
+      "n_total": 14509,
+      "n_null": 6286,
+      "n_non_null": 8223,
+      "null_rate": 0.4332,
+      "n_unique": 2466,
+      "top_values": [
+        [
+          "북창 화력발전 연합기업소",
+          20
+        ],
+        [
+          "长兴岛恒力石化热电厂",
+          16
+        ],
+        [
+          "国电谏壁发电厂",
+          15
+        ],
+        [
+          "国电吉林热电厂",
+          15
+        ],
+        [
+          "国家电投抚顺发电厂",
+          15
+        ],
+        [
+          "โรงไฟฟ้าแม่เมาะ",
+          15
+        ],
+        [
+          "青海省投资集团桥头铝电公司发电厂",
+          14
+        ],
+        [
+          "东方希望有色金属公司五彩湾自备电厂",
+          14
+        ],
+        [
+          "国家电投辽宁发电厂一期",
+          13
+        ],
+        [
+          "ДТЕК Бурштинська ТЕС",
+          13
+        ],
+        [
+          "鄂尔多斯电力冶金股份棋盘井自备电厂",
+          12
+        ],
+        [
+          "臺灣電力台中發電廠, 台中火力發電廠",
+          12
+        ],
+        [
+          "盛虹石化连云港虹洋热电",
+          12
+        ],
+        [
+          "浙能台州发电厂2×660MW“以大代小”高质量转型升级项目, 浙能台州发电厂",
+          12
+        ],
+        [
+          "新疆其亚铝电自备电厂, 昌吉宜化（其亚）2×66万千瓦煤电项目",
+          12
+        ],
+        [
+          "广东能源东莞谢岗调峰气电项目（Unit 1 and Unit 2), 谢岗沙角C 电厂替代调峰项目, 深圳沙角电厂",
+          12
+        ],
+        [
+          "宁夏石嘴山发电厂",
+          12
+        ],
+        [
+          "国家电投神头第一发电厂",
+          12
+        ],
+        [
+          "华能石洞口发电厂",
+          12
+        ],
+        [
+          "华电天津军粮城发电厂",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Power station name in a local language or government plan",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Plant name (local)",
+        "definition": "Power station name in a local language or government plan",
+        "is_required": false,
+        "category": "Names",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "plant_name_local",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 14509,
+      "n_null": 30,
+      "n_non_null": 14479,
+      "null_rate": 0.0021,
+      "n_unique": 3819,
+      "top_values": [
+        [
+          "NTPC Ltd [100%]",
+          193
+        ],
+        [
+          "Eskom Holdings SOC Ltd [100%]",
+          106
+        ],
+        [
+          "PT PLN (Persero) [100%]",
+          103
+        ],
+        [
+          "to be determined [100%]",
+          88
+        ],
+        [
+          "Tennessee Valley Authority [100%]",
+          63
+        ],
+        [
+          "Maharashtra State Power Generation Co Ltd [100%]",
+          60
+        ],
+        [
+          "RWE Power AG [100%]",
+          52
+        ],
+        [
+          "U.P. Rajya Vidyut Utpadan Nigam Ltd [100%]",
+          45
+        ],
+        [
+          "Baikal Energy Company LLC [100%]",
+          45
+        ],
+        [
+          "Adani Power Ltd [100%]",
+          45
+        ],
+        [
+          "Taiwan Power Co [100%]",
+          42
+        ],
+        [
+          "Jindal Steel & Power Ltd [100%]",
+          41
+        ],
+        [
+          "Shandong Weiqiao Pioneering Group Co Ltd [100%]",
+          40
+        ],
+        [
+          "NLC India Ltd [100%]",
+          40
+        ],
+        [
+          "Tamil Nadu Generation and Distribution Co Ltd [100%]",
+          38
+        ],
+        [
+          "TAURON Wytwarzanie SA [100%]",
+          37
+        ],
+        [
+          "Gujarat State Electricity Corporation Ltd [100%]",
+          37
+        ],
+        [
+          "CEZ AS [100%]",
+          37
+        ],
+        [
+          "Datang International Power Generation Co Ltd [100%]",
+          36
+        ],
+        [
+          "OGK-2 PJSC [100%]",
+          32
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Lowest level, direct power station owner(s)",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Owner",
+        "definition": "Lowest level, direct power station owner(s)",
+        "is_required": false,
+        "category": "Ownership",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "owner",
+        "data_sub_type": "unstructured",
+        "taxonomy": "owner_name"
+      }
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 14509,
+      "n_null": 30,
+      "n_non_null": 14479,
+      "null_rate": 0.0021,
+      "n_unique": 3820,
+      "top_values": [
+        [
+          "E100000001926 [100%]",
+          193
+        ],
+        [
+          "E100000000921 [100%]",
+          106
+        ],
+        [
+          "E100000000537 [100%]",
+          103
+        ],
+        [
+          "E100000121374 [100%]",
+          88
+        ],
+        [
+          "E100000002329 [100%]",
+          63
+        ],
+        [
+          "E100000001923 [100%]",
+          60
+        ],
+        [
+          "E100000003875 [100%]",
+          52
+        ],
+        [
+          "E100002009039 [100%]",
+          45
+        ],
+        [
+          "E100001000558 [100%]",
+          45
+        ],
+        [
+          "E100000120122 [100%]",
+          45
+        ],
+        [
+          "E100000002128 [100%]",
+          42
+        ],
+        [
+          "E100001000439 [100%]",
+          41
+        ],
+        [
+          "E100001000440 [100%]",
+          40
+        ],
+        [
+          "E100000122698 [100%]",
+          40
+        ],
+        [
+          "E100000004157 [100%]",
+          38
+        ],
+        [
+          "E100000001914 [100%]",
+          37
+        ],
+        [
+          "E100000001704 [100%]",
+          37
+        ],
+        [
+          "E100000000337 [100%]",
+          37
+        ],
+        [
+          "E100000000181 [100%]",
+          36
+        ],
+        [
+          "E100000003018 [100%]",
+          32
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "GEOT ID unique to the entity",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Owner GEM Entity ID",
+        "definition": "GEOT ID unique to the entity",
+        "is_required": false,
+        "category": "Ownership",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^E\\d+$",
+        "code_friendly_name": "owner_gem_entity_id",
+        "data_sub_type": "structured",
+        "taxonomy": "owner_entity_id"
+      }
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 14509,
+      "n_null": 30,
+      "n_non_null": 14479,
+      "null_rate": 0.0021,
+      "n_unique": 3069,
+      "top_values": [
+        [
+          "NTPC Ltd [100.0%]",
+          197
+        ],
+        [
+          "Huaneng Power International Inc [100.0%]",
+          171
+        ],
+        [
+          "China Energy Investment Corp [100.0%]",
+          156
+        ],
+        [
+          "PT PLN (Persero) [100.0%]",
+          120
+        ],
+        [
+          "Datang International Power Generation Co Ltd [100.0%]",
+          115
+        ],
+        [
+          "China Datang Corp Ltd [100.0%]",
+          115
+        ],
+        [
+          "China Huadian Corp Ltd [100.0%]",
+          108
+        ],
+        [
+          "Eskom Holdings SOC Ltd [100.0%]",
+          106
+        ],
+        [
+          "unknown",
+          99
+        ],
+        [
+          "to be determined [100.0%]",
+          88
+        ],
+        [
+          "State Power Investment Corp Ltd [100.0%]",
+          87
+        ],
+        [
+          "Korea Electric Power Corp [100.0%]",
+          84
+        ],
+        [
+          "Adani Power Ltd [100.0%]",
+          81
+        ],
+        [
+          "China Huaneng Group Co Ltd [100.0%]",
+          80
+        ],
+        [
+          "Huadian Power International Co Ltd [100.0%]",
+          71
+        ],
+        [
+          "China Resources Power Holdings Co Ltd [100.0%]",
+          67
+        ],
+        [
+          "Tennessee Valley Authority [100.0%]",
+          63
+        ],
+        [
+          "RWE AG [100.0%]",
+          63
+        ],
+        [
+          "MSEB Holding Co Ltd [100.0%]",
+          60
+        ],
+        [
+          "Duke Energy Corp [100.0%]",
+          57
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Highest level power station owner(s) and their share of ownership, if known",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Parent",
+        "definition": "Highest level power station owner(s) and their share of ownership, if known",
+        "is_required": false,
+        "category": "Ownership",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "parent",
+        "data_sub_type": "unstructured",
+        "taxonomy": "parent_name"
+      }
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 14509,
+      "n_null": 30,
+      "n_non_null": 14479,
+      "null_rate": 0.0021,
+      "n_unique": 3070,
+      "top_values": [
+        [
+          "E100000001926 [100.0%]",
+          197
+        ],
+        [
+          "E100000000217 [100.0%]",
+          171
+        ],
+        [
+          "E100000000239 [100.0%]",
+          156
+        ],
+        [
+          "E100000000537 [100.0%]",
+          120
+        ],
+        [
+          "E100000000181 [100.0%]",
+          115
+        ],
+        [
+          "E100000000163 [100.0%]",
+          115
+        ],
+        [
+          "E100000000170 [100.0%]",
+          108
+        ],
+        [
+          "E100000000921 [100.0%]",
+          106
+        ],
+        [
+          "E100000132388",
+          99
+        ],
+        [
+          "E100000121374 [100.0%]",
+          88
+        ],
+        [
+          "E100000000273 [100.0%]",
+          87
+        ],
+        [
+          "E100000000947 [100.0%]",
+          84
+        ],
+        [
+          "E100001000558 [100.0%]",
+          81
+        ],
+        [
+          "E100000000171 [100.0%]",
+          80
+        ],
+        [
+          "E100000000213 [100.0%]",
+          71
+        ],
+        [
+          "E100000000174 [100.0%]",
+          67
+        ],
+        [
+          "E100000002329 [100.0%]",
+          63
+        ],
+        [
+          "E100000000433 [100.0%]",
+          63
+        ],
+        [
+          "E100001011211 [100.0%]",
+          60
+        ],
+        [
+          "E100000001194 [100.0%]",
+          57
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "GEOT ID unique to the parent or parent configuration",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Parent GEM Entity ID",
+        "definition": "GEOT ID unique to the parent or parent configuration",
+        "is_required": false,
+        "category": "Ownership",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^E\\d+$",
+        "code_friendly_name": "parent_gem_entity_id",
+        "data_sub_type": "structured",
+        "taxonomy": "parent_entity_id"
+      }
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 861,
+      "top_values": [
+        [
+          "660.0",
+          1451
+        ],
+        [
+          "50.0",
+          990
+        ],
+        [
+          "350.0",
+          941
+        ],
+        [
+          "1000.0",
+          839
+        ],
+        [
+          "300.0",
+          803
+        ],
+        [
+          "600.0",
+          658
+        ],
+        [
+          "150.0",
+          442
+        ],
+        [
+          "330.0",
+          420
+        ],
+        [
+          "30.0",
+          410
+        ],
+        [
+          "200.0",
+          398
+        ],
+        [
+          "60.0",
+          393
+        ],
+        [
+          "100.0",
+          393
+        ],
+        [
+          "135.0",
+          379
+        ],
+        [
+          "800.0",
+          295
+        ],
+        [
+          "125.0",
+          236
+        ],
+        [
+          "500.0",
+          227
+        ],
+        [
+          "210.0",
+          227
+        ],
+        [
+          "250.0",
+          171
+        ],
+        [
+          "55.0",
+          155
+        ],
+        [
+          "110.0",
+          154
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Nameplate/gross/installed capacity, in megawatts",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Capacity (MW)",
+        "definition": "Nameplate/gross/installed capacity, in megawatts",
+        "is_required": true,
+        "category": "Size",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "MW",
+        "unit_name_long": "Megawatts",
+        "code_friendly_name": "capacity_mw",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          6580
+        ],
+        [
+          "retired",
+          3168
+        ],
+        [
+          "cancelled",
+          3070
+        ],
+        [
+          "construction",
+          427
+        ],
+        [
+          "announced",
+          344
+        ],
+        [
+          "shelved",
+          255
+        ],
+        [
+          "permitted",
+          243
+        ],
+        [
+          "pre-permit",
+          232
+        ],
+        [
+          "mothballed",
+          190
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Status designation, see more details above",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled\" (or two years since being marked \"shelved\"), unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        }
+      ],
+      "api_metadata": {
+        "name": "Status",
+        "definition": "Status designation, see more details above",
+        "is_required": true,
+        "category": "Main",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "operating",
+          "retired",
+          "cancelled",
+          "construction",
+          "announced",
+          "shelved",
+          "permitted",
+          "pre-permit",
+          "mothballed"
+        ],
+        "values_definitions": {
+          "Announced": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing.\t\t\t\t",
+          "Pre-permit": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed.",
+          "Permitted": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level.",
+          "Construction": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun.",
+          "Shelved": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary.",
+          "Cancelled": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled\" (or two years since being marked \"shelved\"), unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants.",
+          "Operating": "Units that have been formally commissioned or that have entered commercial operation.",
+          "Mothballed": "Units that have been deactivated or put into an inactive state but are not retired.",
+          "Retired": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        "code_friendly_name": "status",
+        "data_sub_type": "categorical",
+        "taxonomy": "status"
+      }
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 14509,
+      "n_null": 3804,
+      "n_non_null": 10705,
+      "null_rate": 0.2622,
+      "n_unique": 99,
+      "top_values": [
+        [
+          "2006.0",
+          307
+        ],
+        [
+          "2025.0",
+          301
+        ],
+        [
+          "2011.0",
+          285
+        ],
+        [
+          "2015.0",
+          278
+        ],
+        [
+          "2007.0",
+          274
+        ],
+        [
+          "2010.0",
+          273
+        ],
+        [
+          "2013.0",
+          262
+        ],
+        [
+          "2012.0",
+          256
+        ],
+        [
+          "2008.0",
+          251
+        ],
+        [
+          "2016.0",
+          246
+        ],
+        [
+          "2005.0",
+          226
+        ],
+        [
+          "2009.0",
+          225
+        ],
+        [
+          "2014.0",
+          215
+        ],
+        [
+          "2019.0",
+          208
+        ],
+        [
+          "2017.0",
+          200
+        ],
+        [
+          "2023.0",
+          186
+        ],
+        [
+          "2026.0",
+          184
+        ],
+        [
+          "2004.0",
+          174
+        ],
+        [
+          "2003.0",
+          157
+        ],
+        [
+          "2024.0",
+          156
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the unit was commissioned",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Start year",
+        "definition": "Year the unit was commissioned",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "start_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 14509,
+      "n_null": 11341,
+      "n_non_null": 3168,
+      "null_rate": 0.7817,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "2015.0",
+          232
+        ],
+        [
+          "2016.0",
+          227
+        ],
+        [
+          "2020.0",
+          223
+        ],
+        [
+          "2017.0",
+          189
+        ],
+        [
+          "2019.0",
+          184
+        ],
+        [
+          "2018.0",
+          180
+        ],
+        [
+          "2012.0",
+          167
+        ],
+        [
+          "2014.0",
+          163
+        ],
+        [
+          "2007.0",
+          157
+        ],
+        [
+          "2021.0",
+          148
+        ],
+        [
+          "2013.0",
+          138
+        ],
+        [
+          "2010.0",
+          138
+        ],
+        [
+          "2024.0",
+          128
+        ],
+        [
+          "2009.0",
+          127
+        ],
+        [
+          "2008.0",
+          122
+        ],
+        [
+          "2022.0",
+          117
+        ],
+        [
+          "2023.0",
+          110
+        ],
+        [
+          "2011.0",
+          109
+        ],
+        [
+          "2025.0",
+          106
+        ],
+        [
+          "2002.0",
+          46
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the unit was decommissioned",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Retired year",
+        "definition": "Year the unit was decommissioned",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "retired_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Planned retirement",
+      "code_friendly_name_guess": "planned_retirement",
+      "n_total": 14509,
+      "n_null": 13519,
+      "n_non_null": 990,
+      "null_rate": 0.9318,
+      "n_unique": 44,
+      "top_values": [
+        [
+          "2030.0",
+          150
+        ],
+        [
+          "2028.0",
+          104
+        ],
+        [
+          "2027.0",
+          102
+        ],
+        [
+          "2026.0",
+          98
+        ],
+        [
+          "2035.0",
+          71
+        ],
+        [
+          "2029.0",
+          69
+        ],
+        [
+          "2031.0",
+          44
+        ],
+        [
+          "2025.0",
+          43
+        ],
+        [
+          "2040.0",
+          38
+        ],
+        [
+          "2038.0",
+          25
+        ],
+        [
+          "2023.0",
+          25
+        ],
+        [
+          "2033.0",
+          19
+        ],
+        [
+          "2037.0",
+          16
+        ],
+        [
+          "2034.0",
+          15
+        ],
+        [
+          "2024.0",
+          14
+        ],
+        [
+          "2047.0",
+          12
+        ],
+        [
+          "2042.0",
+          12
+        ],
+        [
+          "2032.0",
+          12
+        ],
+        [
+          "2020.0",
+          12
+        ],
+        [
+          "2045.0",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year a specific unit is planned to retire (specific, not national commitments)",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Phaseout commitment",
+          "definition": "Year of planned country-level coal phaseout"
+        },
+        {
+          "name": "Net-zero commitment",
+          "definition": "Year of country-level net-zero target"
+        }
+      ],
+      "api_metadata": {
+        "name": "Planned retirement",
+        "definition": "Year a specific unit is planned to retire (specific, not national commitments)",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "planned_retirement",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Coal phaseout year",
+      "code_friendly_name_guess": "coal_phaseout_year",
+      "n_total": 14509,
+      "n_null": 11407,
+      "n_non_null": 3102,
+      "null_rate": 0.7862,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "2035.0",
+          1361
+        ],
+        [
+          "2038.0",
+          298
+        ],
+        [
+          "2050.0",
+          271
+        ],
+        [
+          "2049.0",
+          231
+        ],
+        [
+          "2040.0",
+          178
+        ],
+        [
+          "2033.0",
+          105
+        ],
+        [
+          "2024.0",
+          102
+        ],
+        [
+          "2030.0",
+          100
+        ],
+        [
+          "2028.0",
+          69
+        ],
+        [
+          "2025.0",
+          69
+        ],
+        [
+          "2029.0",
+          65
+        ],
+        [
+          "2032.0",
+          63
+        ],
+        [
+          "2044.0",
+          54
+        ],
+        [
+          "2026.0",
+          41
+        ],
+        [
+          "2027.0",
+          30
+        ],
+        [
+          "2021.0",
+          25
+        ],
+        [
+          "2016.0",
+          20
+        ],
+        [
+          "2020.0",
+          11
+        ],
+        [
+          "2041.0",
+          5
+        ],
+        [
+          "2037.0",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Coal phaseout year",
+        "definition": "Year of planned country-level coal phaseout",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "coal_phaseout_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Net zero year",
+      "code_friendly_name_guess": "net_zero_year",
+      "n_total": 14509,
+      "n_null": 694,
+      "n_non_null": 13815,
+      "null_rate": 0.0478,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "2060.0",
+          7772
+        ],
+        [
+          "2050.0",
+          3500
+        ],
+        [
+          "2070.0",
+          1984
+        ],
+        [
+          "2045.0",
+          275
+        ],
+        [
+          "2053.0",
+          248
+        ],
+        [
+          "2035.0",
+          25
+        ],
+        [
+          "2040.0",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Net zero year",
+        "definition": "Year of country-level net-zero target",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "net_zero_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Combustion technology",
+      "code_friendly_name_guess": "combustion_technology",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "subcritical",
+          8210
+        ],
+        [
+          "unknown",
+          2338
+        ],
+        [
+          "supercritical",
+          2114
+        ],
+        [
+          "ultra-supercritical",
+          1769
+        ],
+        [
+          "IGCC",
+          45
+        ],
+        [
+          "ultra-supercritical/CCS",
+          15
+        ],
+        [
+          "subcritical/CCS",
+          9
+        ],
+        [
+          "supercritical/CCS",
+          6
+        ],
+        [
+          "unknown/CCS",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "Power station technology type. Fore more info about each type, see https://www.gem.wiki/Coal_power_technologies",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Combustion technology",
+        "definition": "Power station technology type. Fore more info about each type, see https://www.gem.wiki/Coal_power_technologies",
+        "is_required": true,
+        "category": "Main",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "subcritical",
+          "unknown",
+          "supercritical",
+          "ultra-supercritical",
+          "IGCC",
+          "ultra-supercritical/CCS",
+          "subcritical/CCS",
+          "supercritical/CCS",
+          "unknown/CCS"
+        ],
+        "code_friendly_name": "combustion_technology",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Coal type",
+      "code_friendly_name_guess": "coal_type",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "unknown",
+          6798
+        ],
+        [
+          "bituminous",
+          4482
+        ],
+        [
+          "lignite",
+          1270
+        ],
+        [
+          "subbituminous",
+          775
+        ],
+        [
+          "anthracite",
+          669
+        ],
+        [
+          "waste coal",
+          482
+        ],
+        [
+          "unknown with CCS",
+          17
+        ],
+        [
+          "bituminous with CCS",
+          14
+        ],
+        [
+          "subbituminous with CCS",
+          1
+        ],
+        [
+          "lignite with CCS",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "Anthracite, bituminous, lignite, subbituminous, waste coal, or unknown",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coal type",
+        "definition": "Anthracite, bituminous, lignite, subbituminous, waste coal, or unknown",
+        "is_required": true,
+        "category": "Main",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "unknown",
+          "bituminous",
+          "lignite",
+          "subbituminous",
+          "anthracite",
+          "waste coal",
+          "unknown with CCS",
+          "bituminous with CCS",
+          "lignite with CCS",
+          "subbituminous with CCS"
+        ],
+        "code_friendly_name": "coal_type",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Coal source",
+      "code_friendly_name_guess": "coal_source",
+      "n_total": 14509,
+      "n_null": 12269,
+      "n_non_null": 2240,
+      "null_rate": 0.8456,
+      "n_unique": 490,
+      "top_values": [
+        [
+          "imported",
+          360
+        ],
+        [
+          "domestic",
+          111
+        ],
+        [
+          "Indonesia",
+          58
+        ],
+        [
+          "Ekibastuz coal basin",
+          50
+        ],
+        [
+          "Borodinsky coal mine",
+          44
+        ],
+        [
+          "mine-mouth",
+          38
+        ],
+        [
+          "Ekibastuz coal",
+          22
+        ],
+        [
+          "Angren coal mine",
+          19
+        ],
+        [
+          "Maritsa Iztok coal basin",
+          18
+        ],
+        [
+          "Baganuur and Shivee Ovoo coal mines",
+          17
+        ],
+        [
+          "Morupule coalfield",
+          16
+        ],
+        [
+          "Lviv Volyny coalfield",
+          16
+        ],
+        [
+          "Kuznetsk basin",
+          16
+        ],
+        [
+          "Garzweiler mine",
+          15
+        ],
+        [
+          "Mae Moh mine",
+          14
+        ],
+        [
+          "Kara Keche coal mine & Karazhyra field",
+          12
+        ],
+        [
+          "Bełchatów coal mine",
+          12
+        ],
+        [
+          "unknown",
+          11
+        ],
+        [
+          "Mozambique",
+          11
+        ],
+        [
+          "Wankie colliery open cast mine",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Mine, region, or country of coal origin, to highest level of known specificity",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coal source",
+        "definition": "Mine, region, or country of coal origin, to highest level of known specificity",
+        "is_required": false,
+        "category": "Main",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "coal_source",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Conversion to (fuel)",
+      "code_friendly_name_guess": "conversion_to_fuel",
+      "n_total": 14509,
+      "n_null": 14143,
+      "n_non_null": 366,
+      "null_rate": 0.9748,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "fossil gas: natural gas",
+          199
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          29
+        ],
+        [
+          "fossil gas: natural gas, coal: unknown",
+          15
+        ],
+        [
+          "fossil gas: LNG",
+          14
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+          13
+        ],
+        [
+          "fossil gas: natural gas, coal: bituminous",
+          11
+        ],
+        [
+          "fossil gas: natural gas, coal: unknown, fossil liquids: fuel oil",
+          8
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          8
+        ],
+        [
+          "fossil liquids: heavy fuel oil",
+          6
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: fuel oil",
+          5
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+          5
+        ],
+        [
+          "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+          5
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil, coal: unknown",
+          3
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+          3
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+          3
+        ],
+        [
+          "fossil liquids: petroleum coke",
+          2
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (green)",
+          2
+        ],
+        [
+          "fossil gas: natural gas, industrial by-product: coke oven gas, industrial by-product: blast furnace gas",
+          2
+        ],
+        [
+          "fossil gas: natural gas, coal: waste coal, fossil liquids: heavy fuel oil, industrial by-product: coke oven gas",
+          2
+        ],
+        [
+          "fossil gas: natural gas, bioenergy: unknown",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Fuel details connected to another GEM tracker, used when a project conversion is planned",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Conversion to (fuel)",
+        "definition": "Fuel details connected to another GEM tracker, used when a project conversion is planned",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "conversion_to_fuel",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Conversion to (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_to_gem_unit_id",
+      "n_total": 14509,
+      "n_null": 14143,
+      "n_non_null": 366,
+      "null_rate": 0.9748,
+      "n_unique": 366,
+      "top_values": [
+        [
+          "G100001090992",
+          1
+        ],
+        [
+          "G100001090715",
+          1
+        ],
+        [
+          "G100001073977",
+          1
+        ],
+        [
+          "G100001073482",
+          1
+        ],
+        [
+          "G100001073481",
+          1
+        ],
+        [
+          "G100001073132",
+          1
+        ],
+        [
+          "G100001072702",
+          1
+        ],
+        [
+          "G100001072624",
+          1
+        ],
+        [
+          "G100001072162",
+          1
+        ],
+        [
+          "G100001071461",
+          1
+        ],
+        [
+          "G100001071459",
+          1
+        ],
+        [
+          "G100001071458",
+          1
+        ],
+        [
+          "G100001070647",
+          1
+        ],
+        [
+          "G100001070646",
+          1
+        ],
+        [
+          "G100001070645",
+          1
+        ],
+        [
+          "G100001070644",
+          1
+        ],
+        [
+          "G100001055749",
+          1
+        ],
+        [
+          "G100001055688",
+          1
+        ],
+        [
+          "G100001055687",
+          1
+        ],
+        [
+          "G100001055686",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Conversion to (GEM unit ID)",
+        "definition": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^\\D\\d+$",
+        "code_friendly_name": "conversion_to_gem_unit_id",
+        "data_sub_type": "structured"
+      }
+    },
+    {
+      "field_name": "Alternate Fuel",
+      "code_friendly_name_guess": "alternate_fuel",
+      "n_total": 14509,
+      "n_null": 13832,
+      "n_non_null": 677,
+      "null_rate": 0.9533,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "bioenergy",
+          342
+        ],
+        [
+          "fossil gas",
+          194
+        ],
+        [
+          "fossil gas, fossil liquids",
+          44
+        ],
+        [
+          "fossil liquids",
+          36
+        ],
+        [
+          "fossil liquids, bioenergy",
+          12
+        ],
+        [
+          "fossil gas, bioenergy",
+          11
+        ],
+        [
+          "fossil gas, fossil liquids, bioenergy",
+          10
+        ],
+        [
+          "other",
+          8
+        ],
+        [
+          "other, bioenergy",
+          7
+        ],
+        [
+          "industrial by-product",
+          7
+        ],
+        [
+          "fossil liquids, industrial by-product",
+          3
+        ],
+        [
+          "fossil gas, industrial by-product",
+          2
+        ],
+        [
+          "other, fossil gas, bioenergy",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "definition_from_readme": "Details about co-firing with another fuel, generally excluding any start-up fuels or cold-start fuels",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Alternate Fuel",
+        "definition": "Details about co-firing with another fuel, generally excluding any start-up fuels or cold-start fuels",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "bioenergy",
+          "fossil gas",
+          "fossil liquids",
+          "other",
+          "industrial by-product"
+        ],
+        "multiple_values_separator": ",",
+        "code_friendly_name": "alternate_fuel",
+        "is_array": true,
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 14509,
+      "n_null": 2172,
+      "n_non_null": 12337,
+      "null_rate": 0.1497,
+      "n_unique": 3536,
+      "top_values": [
+        [
+          "Wucaiwan Town",
+          59
+        ],
+        [
+          "Economy Development District",
+          46
+        ],
+        [
+          "Xinfa Industrial Park",
+          31
+        ],
+        [
+          "Hwange",
+          30
+        ],
+        [
+          "Shihezi City",
+          24
+        ],
+        [
+          "Neyveli",
+          24
+        ],
+        [
+          "Grevenbroich",
+          23
+        ],
+        [
+          "Novosibirsk",
+          22
+        ],
+        [
+          "Changxing Island",
+          21
+        ],
+        [
+          "Pukchang",
+          20
+        ],
+        [
+          "Kawasi",
+          20
+        ],
+        [
+          "Chengguan Town",
+          20
+        ],
+        [
+          "Changqian Road",
+          20
+        ],
+        [
+          "Ulaanbaatar",
+          19
+        ],
+        [
+          "Palapye",
+          19
+        ],
+        [
+          "Kemerovo",
+          19
+        ],
+        [
+          "Sihanoukville",
+          18
+        ],
+        [
+          "Maheshkhali",
+          18
+        ],
+        [
+          "Jinjie",
+          18
+        ],
+        [
+          "Gulei Town",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Closest location (e.g. city or town)",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Local area",
+          "definition": "Taluk, county"
+        },
+        {
+          "name": "Major area",
+          "definition": "Prefecture, district"
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "Province, state"
+        }
+      ],
+      "api_metadata": {
+        "name": "Location",
+        "definition": "Closest location (e.g. city or town)",
+        "is_required": false,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "location",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 14509,
+      "n_null": 4103,
+      "n_non_null": 10406,
+      "null_rate": 0.2828,
+      "n_unique": 2167,
+      "top_values": [
+        [
+          "Zouping",
+          81
+        ],
+        [
+          "Jimsar",
+          66
+        ],
+        [
+          "Shenmu",
+          51
+        ],
+        [
+          "Junggar",
+          48
+        ],
+        [
+          "Lingwu",
+          45
+        ],
+        [
+          "Shihezi",
+          41
+        ],
+        [
+          "Yuyang District",
+          39
+        ],
+        [
+          "Datong",
+          36
+        ],
+        [
+          "Chiping",
+          35
+        ],
+        [
+          "Qingshan",
+          34
+        ],
+        [
+          "Holingol",
+          33
+        ],
+        [
+          "Hami",
+          32
+        ],
+        [
+          "Fugu",
+          32
+        ],
+        [
+          "Jefferson",
+          31
+        ],
+        [
+          "Otog Front Banner",
+          30
+        ],
+        [
+          "Dudhi",
+          30
+        ],
+        [
+          "Pan",
+          28
+        ],
+        [
+          "Yungang",
+          27
+        ],
+        [
+          "Shuicheng",
+          26
+        ],
+        [
+          "Mundra",
+          26
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 14509,
+      "n_null": 3065,
+      "n_non_null": 11444,
+      "null_rate": 0.2112,
+      "n_unique": 1319,
+      "top_values": [
+        [
+          "Binzhou",
+          175
+        ],
+        [
+          "Yulin",
+          167
+        ],
+        [
+          "Ordos",
+          160
+        ],
+        [
+          "Changji",
+          132
+        ],
+        [
+          "Suzhou",
+          88
+        ],
+        [
+          "Bijie",
+          77
+        ],
+        [
+          "Ili",
+          74
+        ],
+        [
+          "Liaocheng",
+          72
+        ],
+        [
+          "Jining",
+          72
+        ],
+        [
+          "Liupanshui",
+          71
+        ],
+        [
+          "Zibo",
+          70
+        ],
+        [
+          "Baotou",
+          68
+        ],
+        [
+          "Korba",
+          64
+        ],
+        [
+          "Xilingol",
+          63
+        ],
+        [
+          "Huainan",
+          63
+        ],
+        [
+          "Tangshan",
+          62
+        ],
+        [
+          "Yantai",
+          57
+        ],
+        [
+          "Xuzhou",
+          56
+        ],
+        [
+          "Raigarh",
+          56
+        ],
+        [
+          "Angul",
+          55
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Major area (prefecture, district)",
+        "definition": "Prefecture, district",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "major_area_prefecture_district",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Subnational unit (province, state)",
+      "code_friendly_name_guess": "subnational_unit_province_state",
+      "n_total": 14509,
+      "n_null": 37,
+      "n_non_null": 14472,
+      "null_rate": 0.0026,
+      "n_unique": 748,
+      "top_values": [
+        [
+          "Shandong",
+          776
+        ],
+        [
+          "Inner Mongolia",
+          611
+        ],
+        [
+          "Xinjiang",
+          493
+        ],
+        [
+          "Jiangsu",
+          378
+        ],
+        [
+          "Shanxi",
+          371
+        ],
+        [
+          "Henan",
+          336
+        ],
+        [
+          "Guangdong",
+          319
+        ],
+        [
+          "Shaanxi",
+          295
+        ],
+        [
+          "Guizhou",
+          280
+        ],
+        [
+          "Hebei",
+          275
+        ],
+        [
+          "Liaoning",
+          260
+        ],
+        [
+          "Anhui",
+          235
+        ],
+        [
+          "Odisha",
+          199
+        ],
+        [
+          "Chhattisgarh",
+          194
+        ],
+        [
+          "Maharashtra",
+          185
+        ],
+        [
+          "Hubei",
+          179
+        ],
+        [
+          "Zhejiang",
+          178
+        ],
+        [
+          "Madhya Pradesh",
+          175
+        ],
+        [
+          "Uttar Pradesh",
+          169
+        ],
+        [
+          "Tamil Nadu",
+          165
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Subnational unit (province, state)",
+        "definition": "Province, state",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "subnational_unit_province_state",
+        "data_sub_type": "unstructured",
+        "taxonomy": "state_province"
+      }
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Eastern Asia",
+          7041
+        ],
+        [
+          "Southern Asia",
+          2158
+        ],
+        [
+          "Northern America",
+          1291
+        ],
+        [
+          "Eastern Europe",
+          1047
+        ],
+        [
+          "South-eastern Asia",
+          1039
+        ],
+        [
+          "Sub-Saharan Africa",
+          430
+        ],
+        [
+          "Western Europe",
+          319
+        ],
+        [
+          "Western Asia",
+          274
+        ],
+        [
+          "Southern Europe",
+          221
+        ],
+        [
+          "Latin America and the Caribbean",
+          180
+        ],
+        [
+          "Central Asia",
+          175
+        ],
+        [
+          "Northern Europe",
+          153
+        ],
+        [
+          "Australia and New Zealand",
+          139
+        ],
+        [
+          "Northern Africa",
+          35
+        ],
+        [
+          "Melanesia",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "definition_from_readme": "Global subregion",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Subregion",
+        "definition": "Global subregion",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Eastern Asia",
+          "Southern Asia",
+          "Northern America",
+          "Eastern Europe",
+          "South-eastern Asia",
+          "Sub-Saharan Africa",
+          "Western Europe",
+          "Western Asia",
+          "Southern Europe",
+          "Latin America and the Caribbean",
+          "Central Asia",
+          "Northern Europe",
+          "Australia and New Zealand",
+          "Northern Africa",
+          "Melanesia"
+        ],
+        "code_friendly_name": "subregion",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          10687
+        ],
+        [
+          "Europe",
+          1740
+        ],
+        [
+          "Americas",
+          1471
+        ],
+        [
+          "Africa",
+          465
+        ],
+        [
+          "Oceania",
+          146
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Global region",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Region",
+        "definition": "Global region",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Asia",
+          "Europe",
+          "Americas",
+          "Africa",
+          "Oceania"
+        ],
+        "code_friendly_name": "region",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 4954,
+      "top_values": [
+        [
+          "0.911643",
+          24
+        ],
+        [
+          "39.586142",
+          20
+        ],
+        [
+          "39.574197",
+          16
+        ],
+        [
+          "51.055469",
+          15
+        ],
+        [
+          "43.899596",
+          15
+        ],
+        [
+          "32.17693",
+          15
+        ],
+        [
+          "23.64",
+          15
+        ],
+        [
+          "18.296",
+          15
+        ],
+        [
+          "51.266389",
+          14
+        ],
+        [
+          "44.6829461",
+          14
+        ],
+        [
+          "41.921944",
+          13
+        ],
+        [
+          "41.853874",
+          13
+        ],
+        [
+          "25.895391",
+          13
+        ],
+        [
+          "24.4445803",
+          13
+        ],
+        [
+          "24.0983",
+          13
+        ],
+        [
+          "-26.115776",
+          13
+        ],
+        [
+          "51.58293",
+          12
+        ],
+        [
+          "49.51333",
+          12
+        ],
+        [
+          "49.208629",
+          12
+        ],
+        [
+          "42.871747",
+          12
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "WGS 84 Decimal latitude",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Latitude",
+        "definition": "WGS 84 Decimal latitude",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "latitude",
+        "data_sub_type": null,
+        "taxonomy": "latitude",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 4962,
+      "top_values": [
+        [
+          "104.6505404",
+          24
+        ],
+        [
+          "126.305072",
+          20
+        ],
+        [
+          "121.254736",
+          16
+        ],
+        [
+          "99.752",
+          15
+        ],
+        [
+          "85.2931",
+          15
+        ],
+        [
+          "6.57635",
+          15
+        ],
+        [
+          "126.570146",
+          15
+        ],
+        [
+          "119.57554",
+          15
+        ],
+        [
+          "89.1158667",
+          14
+        ],
+        [
+          "19.330556",
+          14
+        ],
+        [
+          "82.9803325",
+          13
+        ],
+        [
+          "82.6719",
+          13
+        ],
+        [
+          "71.329871",
+          13
+        ],
+        [
+          "28.194019",
+          13
+        ],
+        [
+          "124.091944",
+          13
+        ],
+        [
+          "123.881956",
+          13
+        ],
+        [
+          "85.1902199",
+          12
+        ],
+        [
+          "80.69355",
+          12
+        ],
+        [
+          "78.177072",
+          12
+        ],
+        [
+          "77.901242",
+          12
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "WGS 84 Decimal longitude",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Longitude",
+        "definition": "WGS 84 Decimal longitude",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "longitude",
+        "data_sub_type": null,
+        "taxonomy": "longitude",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          12046
+        ],
+        [
+          "approximate",
+          2463
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Whether coordinates are exact or approximate",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Location accuracy",
+        "definition": "Whether coordinates are exact or approximate",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "exact",
+          "approximate"
+        ],
+        "accuracy_for_field": [
+          "Latitude",
+          "Longitude"
+        ],
+        "order_of_values": "",
+        "code_friendly_name": "location_accuracy",
+        "data_sub_type": "accuracy"
+      }
+    },
+    {
+      "field_name": "Permits",
+      "code_friendly_name_guess": "permits",
+      "n_total": 14509,
+      "n_null": 11699,
+      "n_non_null": 2810,
+      "null_rate": 0.8063,
+      "n_unique": 1183,
+      "top_values": [
+        [
+          "2005.0",
+          25
+        ],
+        [
+          "2015-01-15 00:00:00",
+          20
+        ],
+        [
+          "2015-06-26 00:00:00",
+          18
+        ],
+        [
+          "2014-12-31 00:00:00",
+          16
+        ],
+        [
+          "2013-03-18 00:00:00",
+          12
+        ],
+        [
+          "March 10, 2014 – Environmental Clearance",
+          10
+        ],
+        [
+          "2026-03-20 00:00:00",
+          10
+        ],
+        [
+          "2015-05-28 00:00:00",
+          10
+        ],
+        [
+          "2015-05-19 00:00:00",
+          10
+        ],
+        [
+          "2026-04-10 00:00:00",
+          9
+        ],
+        [
+          "May 28, 2010 – Environmental Clearance",
+          8
+        ],
+        [
+          "December 2023 – 吐市发改能交(2023)358号",
+          8
+        ],
+        [
+          "2022.0",
+          8
+        ],
+        [
+          "2016-07-01 00:00:00",
+          8
+        ],
+        [
+          "2015.0",
+          8
+        ],
+        [
+          "2015-06-30 00:00:00",
+          8
+        ],
+        [
+          "2015-06-16 00:00:00",
+          8
+        ],
+        [
+          "2014-12-30 00:00:00",
+          8
+        ],
+        [
+          "2014-12-29 00:00:00",
+          8
+        ],
+        [
+          "2008-06-10 00:00:00",
+          8
+        ]
+      ],
+      "portion_numeric": 0.022,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Date the power station received environmental clearance",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Permits",
+        "definition": "Date the power station received environmental clearance",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "permits",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Permit Date",
+      "code_friendly_name_guess": "permit_date",
+      "n_total": 14509,
+      "n_null": 11699,
+      "n_non_null": 2810,
+      "null_rate": 0.8063,
+      "n_unique": 1036,
+      "top_values": [
+        [
+          "2005.0",
+          25
+        ],
+        [
+          "2015-06-26 00:00:00",
+          24
+        ],
+        [
+          "2015-01-15 00:00:00",
+          20
+        ],
+        [
+          "2014-12-31 00:00:00",
+          16
+        ],
+        [
+          "2023.0",
+          14
+        ],
+        [
+          "2024.0",
+          13
+        ],
+        [
+          "2014-03-10 00:00:00",
+          12
+        ],
+        [
+          "2013-03-18 00:00:00",
+          12
+        ],
+        [
+          "2023-06-30 00:00:00",
+          11
+        ],
+        [
+          "2022.0",
+          11
+        ],
+        [
+          "2026-03-20 00:00:00",
+          10
+        ],
+        [
+          "2015-05-28 00:00:00",
+          10
+        ],
+        [
+          "2015-05-19 00:00:00",
+          10
+        ],
+        [
+          "2026-12-23 00:00:00",
+          9
+        ],
+        [
+          "2026-04-10 00:00:00",
+          9
+        ],
+        [
+          "2025.0",
+          9
+        ],
+        [
+          "2011-05-18 00:00:00",
+          9
+        ],
+        [
+          "2010-12-27 00:00:00",
+          9
+        ],
+        [
+          "2009-02-05 00:00:00",
+          9
+        ],
+        [
+          "2026-06-24 00:00:00",
+          8
+        ]
+      ],
+      "portion_numeric": 0.042,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Permit Date",
+        "definition": "",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "code_friendly_name": "permit_date",
+        "data_sub_type": null
+      }
+    },
+    {
+      "field_name": "Permit Parsed",
+      "code_friendly_name_guess": "permit_parsed",
+      "n_total": 14509,
+      "n_null": 11699,
+      "n_non_null": 2810,
+      "null_rate": 0.8063,
+      "n_unique": 1036,
+      "top_values": [
+        [
+          "Year: 2005",
+          25
+        ],
+        [
+          "Year: 2015, Month: 6, Day: 26",
+          24
+        ],
+        [
+          "Year: 2015, Month: 1, Day: 15",
+          20
+        ],
+        [
+          "Year: 2014, Month: 12, Day: 31",
+          16
+        ],
+        [
+          "Year: 2023",
+          14
+        ],
+        [
+          "Year: 2024",
+          13
+        ],
+        [
+          "Year: 2014, Month: 3, Day: 10",
+          12
+        ],
+        [
+          "Year: 2013, Month: 3, Day: 18",
+          12
+        ],
+        [
+          "Year: 2023, Month: 6, Day: 30",
+          11
+        ],
+        [
+          "Year: 2022",
+          11
+        ],
+        [
+          "Year: 2020, Month: 3",
+          10
+        ],
+        [
+          "Year: 2015, Month: 5, Day: 28",
+          10
+        ],
+        [
+          "Year: 2015, Month: 5, Day: 19",
+          10
+        ],
+        [
+          "Year: 2025",
+          9
+        ],
+        [
+          "Year: 2023, Month: 12",
+          9
+        ],
+        [
+          "Year: 2011, Month: 5, Day: 18",
+          9
+        ],
+        [
+          "Year: 2010, Month: 4",
+          9
+        ],
+        [
+          "Year: 2010, Month: 12, Day: 27",
+          9
+        ],
+        [
+          "Year: 2009, Month: 2, Day: 5",
+          9
+        ],
+        [
+          "Year: 2024, Month: 6",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Permit Parsed",
+        "definition": "",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "permit_parsed",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Captive",
+      "code_friendly_name_guess": "captive",
+      "n_total": 14509,
+      "n_null": 12152,
+      "n_non_null": 2357,
+      "null_rate": 0.8375,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "aluminum",
+          598
+        ],
+        [
+          "chemicals",
+          539
+        ],
+        [
+          "iron & steel",
+          241
+        ],
+        [
+          "pulp & paper",
+          228
+        ],
+        [
+          "other metals & mining",
+          209
+        ],
+        [
+          "nickel",
+          95
+        ],
+        [
+          "cement & building",
+          73
+        ],
+        [
+          "coal mining & coal products",
+          63
+        ],
+        [
+          "oil & refining",
+          55
+        ],
+        [
+          "industrial park",
+          52
+        ],
+        [
+          "machinery",
+          48
+        ],
+        [
+          "agriculture",
+          42
+        ],
+        [
+          "data center",
+          22
+        ],
+        [
+          "sugar",
+          16
+        ],
+        [
+          "textiles",
+          12
+        ],
+        [
+          "chemicals, iron & steel, machinery, other metals & mining",
+          12
+        ],
+        [
+          "automobiles",
+          9
+        ],
+        [
+          "aluminum, nickel",
+          9
+        ],
+        [
+          "rubber",
+          6
+        ],
+        [
+          "aluminum, iron & steel",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Industry, if the power station is designated for paricular non-grid use",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Captive",
+        "definition": "Industry, if the power station is designated for paricular non-grid use",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "aluminum",
+          "chemicals",
+          "iron & steel",
+          "pulp & paper",
+          "other metals & mining",
+          "nickel",
+          "cement & building",
+          "coal mining & coal products",
+          "oil & refining",
+          "industrial park",
+          "machinery",
+          "agriculture",
+          "data center",
+          "sugar",
+          "textiles",
+          "automobiles",
+          "rubber",
+          "electronics",
+          "cryptocurrency",
+          "other",
+          "unknown"
+        ],
+        "code_friendly_name": "captive",
+        "is_array": true,
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Captive industry use",
+      "code_friendly_name_guess": "captive_industry_use",
+      "n_total": 14509,
+      "n_null": 12543,
+      "n_non_null": 1966,
+      "null_rate": 0.8645,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "both",
+          1097
+        ],
+        [
+          "power",
+          855
+        ],
+        [
+          "heat",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Whether a captive power station provides heat, power, or both",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Captive industry use",
+        "definition": "Whether a captive power station provides heat, power, or both",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "both",
+          "power",
+          "heat"
+        ],
+        "code_friendly_name": "captive_industry_use",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Captive residential use",
+      "code_friendly_name_guess": "captive_residential_use",
+      "n_total": 14509,
+      "n_null": 14106,
+      "n_non_null": 403,
+      "null_rate": 0.9722,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "heat",
+          167
+        ],
+        [
+          "both",
+          127
+        ],
+        [
+          "power",
+          99
+        ],
+        [
+          "none",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Whether the plant sell excess heat, power, or both",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Captive residential use",
+        "definition": "Whether the plant sell excess heat, power, or both",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "heat",
+          "both",
+          "power",
+          "none"
+        ],
+        "code_friendly_name": "captive_residential_use",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "CHP",
+      "code_friendly_name_guess": "chp",
+      "n_total": 14509,
+      "n_null": 9376,
+      "n_non_null": 5133,
+      "null_rate": 0.6462,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "yes",
+          5010
+        ],
+        [
+          "no",
+          95
+        ],
+        [
+          "not found",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Whether the unit is used for combined heat and power",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "CHP",
+        "definition": "Whether the unit is used for combined heat and power",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "yes",
+          "no",
+          "not found"
+        ],
+        "code_friendly_name": "chp",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Capacity factor",
+      "code_friendly_name_guess": "capacity_factor",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "0.0",
+          6237
+        ],
+        [
+          "0.54",
+          4329
+        ],
+        [
+          "0.69",
+          1063
+        ],
+        [
+          "0.64",
+          430
+        ],
+        [
+          "0.39",
+          410
+        ],
+        [
+          "0.55",
+          340
+        ],
+        [
+          "0.67",
+          310
+        ],
+        [
+          "0.37",
+          205
+        ],
+        [
+          "0.68",
+          158
+        ],
+        [
+          "0.5",
+          114
+        ],
+        [
+          "0.08",
+          100
+        ],
+        [
+          "0.63",
+          95
+        ],
+        [
+          "0.52",
+          95
+        ],
+        [
+          "0.66",
+          89
+        ],
+        [
+          "0.71",
+          79
+        ],
+        [
+          "0.44",
+          71
+        ],
+        [
+          "0.34",
+          54
+        ],
+        [
+          "0.17",
+          52
+        ],
+        [
+          "0.28",
+          50
+        ],
+        [
+          "0.21",
+          35
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Average capacity factor by country, based on GEM's global operating coal power capacity (2025) and Ember's power generation data (accessed 23 January 2026). Plants that are retired or cancelled are given a capacity factor of 0, i.e. no generation is assumed. Capacity data for Indonesia includes grid plants only, as the generation data excludes captive plants. Because the GCPT excludes coal-fired units under 30 MW, the average capacity factor reported here likely overstates national averages in countries with a non-trivial share of small units.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Plant age",
+          "definition": "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year."
+        },
+        {
+          "name": "Lifetime",
+          "definition": "Lifetime emissions assume a plant lifetime of 35 years, based on the global average retirement age of 37 years. Plants older than 35 years are assumed to operate an additional 5 years. Plants with a planned retirement date are assumed to cease operations that year."
+        },
+        {
+          "name": "Heat rate",
+          "definition": "Heat rate is based on type of combustion technology, with performance penalties for older and smaller units. More discussion at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants"
+        },
+        {
+          "name": "Emission factor",
+          "definition": "Based on type of coal using the 2006 IPPC Guidelines for National Greenhouse Inventories, Table 2.2, page 2.16."
+        }
+      ],
+      "api_metadata": {
+        "name": "Capacity factor",
+        "definition": "Average capacity factor by country, based on GEM's global operating coal power capacity (2025) and Ember's power generation data (accessed 23 January 2026). Plants that are retired or cancelled are given a capacity factor of 0, i.e. no generation is assumed. Capacity data for Indonesia includes grid plants only, as the generation data excludes captive plants. Because the GCPT excludes coal-fired units under 30 MW, the average capacity factor reported here likely overstates national averages in countries with a non-trivial share of small units.",
+        "is_required": true,
+        "category": "CO2 estimates",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "capacity_factor",
+        "data_sub_type": null,
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Plant age (years)",
+      "code_friendly_name_guess": "plant_age_years",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 78,
+      "top_values": [
+        [
+          "0.0",
+          4725
+        ],
+        [
+          "30.0",
+          309
+        ],
+        [
+          "12.0",
+          306
+        ],
+        [
+          "19.0",
+          303
+        ],
+        [
+          "14.0",
+          297
+        ],
+        [
+          "18.0",
+          294
+        ],
+        [
+          "13.0",
+          293
+        ],
+        [
+          "10.0",
+          290
+        ],
+        [
+          "15.0",
+          289
+        ],
+        [
+          "17.0",
+          256
+        ],
+        [
+          "16.0",
+          255
+        ],
+        [
+          "9.0",
+          250
+        ],
+        [
+          "11.0",
+          248
+        ],
+        [
+          "6.0",
+          223
+        ],
+        [
+          "20.0",
+          211
+        ],
+        [
+          "8.0",
+          208
+        ],
+        [
+          "21.0",
+          165
+        ],
+        [
+          "7.0",
+          161
+        ],
+        [
+          "2.0",
+          156
+        ],
+        [
+          "22.0",
+          152
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Plant age (years)",
+        "definition": "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year.",
+        "is_required": true,
+        "category": "CO2 estimates",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "years",
+        "unit_name_long": "years",
+        "code_friendly_name": "plant_age_years",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Heat rate (Btu per kWh)",
+      "code_friendly_name_guess": "heat_rate_btu_per_kwh",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "12617.9",
+          2799
+        ],
+        [
+          "10442.4",
+          1745
+        ],
+        [
+          "8272.0",
+          1469
+        ],
+        [
+          "11312.6",
+          1454
+        ],
+        [
+          "8409.0",
+          834
+        ],
+        [
+          "9249.9",
+          819
+        ],
+        [
+          "12182.8",
+          759
+        ],
+        [
+          "10326.0",
+          747
+        ],
+        [
+          "8605.0",
+          736
+        ],
+        [
+          "9572.2",
+          476
+        ],
+        [
+          "11747.7",
+          448
+        ],
+        [
+          "10877.5",
+          402
+        ],
+        [
+          "9465.5",
+          366
+        ],
+        [
+          "9099.2",
+          272
+        ],
+        [
+          "10090.8",
+          217
+        ],
+        [
+          "11186.5",
+          215
+        ],
+        [
+          "12477.25",
+          191
+        ],
+        [
+          "10511.25",
+          160
+        ],
+        [
+          "8702.0",
+          127
+        ],
+        [
+          "12047.0",
+          74
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Heat rate (Btu per kWh)",
+        "definition": "Heat rate is based on type of combustion technology, with performance penalties for older and smaller units. More discussion at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "Btu per kWh",
+        "unit_name_long": "Btu per kilowatt hour",
+        "code_friendly_name": "heat_rate_btu_per_kwh",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Emission factor (kg of CO2 per TJ)",
+      "code_friendly_name_guess": "emission_factor_kg_of_co2_per_tj",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "96100.0",
+          7573
+        ],
+        [
+          "94600.0",
+          4964
+        ],
+        [
+          "101000.0",
+          1270
+        ],
+        [
+          "98300.0",
+          669
+        ],
+        [
+          "9460.0",
+          31
+        ],
+        [
+          "9610.0",
+          1
+        ],
+        [
+          "10100.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Emission factor (kg of CO2 per TJ)",
+        "definition": "Based on type of coal using the 2006 IPPC Guidelines for National Greenhouse Inventories, Table 2.2, page 2.16.",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "kg of CO2 per TJ",
+        "unit_name_long": "kg of CO2 per TJ",
+        "code_friendly_name": "emission_factor_kg_of_co2_per_tj",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Annual CO2 (million tonnes / annum)",
+      "code_friendly_name_guess": "annual_co2_million_tonnes_annum",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 1871,
+      "top_values": [
+        [
+          "0.0",
+          6237
+        ],
+        [
+          "3.967587654",
+          332
+        ],
+        [
+          "2.618607851",
+          331
+        ],
+        [
+          "1.552819894",
+          175
+        ],
+        [
+          "1.479126551",
+          136
+        ],
+        [
+          "0.250429989",
+          116
+        ],
+        [
+          "1.652837925",
+          111
+        ],
+        [
+          "2.57773468",
+          97
+        ],
+        [
+          "3.905658606",
+          95
+        ],
+        [
+          "2.620426852",
+          87
+        ],
+        [
+          "4.055756268",
+          81
+        ],
+        [
+          "1.627039206",
+          77
+        ],
+        [
+          "1.693985339",
+          74
+        ],
+        [
+          "1.602387097",
+          70
+        ],
+        [
+          "1.528582331",
+          66
+        ],
+        [
+          "3.401415006",
+          59
+        ],
+        [
+          "0.24763848",
+          59
+        ],
+        [
+          "1.598620802",
+          55
+        ],
+        [
+          "1.502579932",
+          55
+        ],
+        [
+          "2.835508148",
+          48
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Annual CO2 (million tonnes / annum)",
+        "definition": "For CO2 calculation method, see \"Estimating carbon dioxide emissions from coal plants\" at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "million tonnes / annum",
+        "unit_name_long": "million tonnes / annum",
+        "code_friendly_name": "annual_co2_million_tonnes___annum",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Remaining plant lifetime (years)",
+      "code_friendly_name_guess": "remaining_plant_lifetime_years",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "0.0",
+          6237
+        ],
+        [
+          "35.0",
+          1654
+        ],
+        [
+          "5.0",
+          1261
+        ],
+        [
+          "16.0",
+          258
+        ],
+        [
+          "17.0",
+          257
+        ],
+        [
+          "25.0",
+          249
+        ],
+        [
+          "21.0",
+          248
+        ],
+        [
+          "20.0",
+          246
+        ],
+        [
+          "22.0",
+          240
+        ],
+        [
+          "23.0",
+          233
+        ],
+        [
+          "26.0",
+          227
+        ],
+        [
+          "18.0",
+          212
+        ],
+        [
+          "19.0",
+          207
+        ],
+        [
+          "24.0",
+          199
+        ],
+        [
+          "29.0",
+          195
+        ],
+        [
+          "15.0",
+          195
+        ],
+        [
+          "1.0",
+          182
+        ],
+        [
+          "27.0",
+          177
+        ],
+        [
+          "33.0",
+          150
+        ],
+        [
+          "3.0",
+          150
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Remaining plant lifetime (years)",
+        "definition": "Lifetime emissions assume a plant lifetime of 35 years, based on the global average retirement age of 37 years. Plants older than 35 years are assumed to operate an additional 5 years. Plants with a planned retirement date are assumed to cease operations that year.",
+        "is_required": false,
+        "category": "CO2 estimates",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "",
+        "unit_name_long": "",
+        "code_friendly_name": "remaining_plant_lifetime_years",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Lifetime CO2 (million tonnes)",
+      "code_friendly_name_guess": "lifetime_co2_million_tonnes",
+      "n_total": 14509,
+      "n_null": 0,
+      "n_non_null": 14509,
+      "null_rate": 0.0,
+      "n_unique": 3077,
+      "top_values": [
+        [
+          "0.0",
+          6237
+        ],
+        [
+          "138.8655679",
+          252
+        ],
+        [
+          "91.6512748",
+          223
+        ],
+        [
+          "141.9514694",
+          79
+        ],
+        [
+          "136.6980512",
+          76
+        ],
+        [
+          "90.2207138",
+          58
+        ],
+        [
+          "7.993104011",
+          42
+        ],
+        [
+          "54.34869629",
+          40
+        ],
+        [
+          "8.765049601",
+          39
+        ],
+        [
+          "8.667346796",
+          32
+        ],
+        [
+          "144.3024548",
+          32
+        ],
+        [
+          "40.37331724",
+          27
+        ],
+        [
+          "53.50038157",
+          26
+        ],
+        [
+          "42.34963347",
+          25
+        ],
+        [
+          "33.0567585",
+          25
+        ],
+        [
+          "23.66602481",
+          25
+        ],
+        [
+          "44.54725649",
+          24
+        ],
+        [
+          "40.65564813",
+          24
+        ],
+        [
+          "0.89768949",
+          24
+        ],
+        [
+          "5.516289863",
+          23
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "api_metadata": {
+        "name": "Lifetime CO2 (million tonnes)",
+        "definition": "",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "",
+        "unit_name_long": "",
+        "code_friendly_name": "lifetime_co2_million_tonnes",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "China capacity payment recipient",
+      "code_friendly_name_guess": "china_capacity_payment_recipient",
+      "n_total": 14509,
+      "n_null": 13642,
+      "n_non_null": 867,
+      "null_rate": 0.9402,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          867
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Metholology",
+          "definition": "For CO2 calculation method, see \"Estimating carbon dioxide emissions from coal plants\" at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants"
+        },
+        {
+          "name": "Note",
+          "definition": "The GCPT estimates for CO2 emissions are intended to provide guidance on overall country and regional emissions over the lifecycle of the existing and proposed fleet of plants. They are not intended to provide detailed impact analysis for particular plants. For this reason, the average capacity factor by country is used for all plants. In general, newer plants will tend to have higher capacity factors than the average, and older plants will have lower capacity factors than the average. Similarly, heat rates and emission factors represent broad performance; these factors will differ for particular plants and coal supplies."
+        }
+      ],
+      "api_metadata": {
+        "name": "China capacity payment recipient",
+        "definition": "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Units"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "boolean",
+        "yes_value": "yes",
+        "no_value": "null",
+        "code_friendly_name": "china_capacity_payment_recipient",
+        "data_sub_type": null
+      }
+    }
+  ]
+}

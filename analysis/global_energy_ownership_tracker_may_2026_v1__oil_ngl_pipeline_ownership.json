@@ -1,0 +1,1216 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__oil_ngl_pipeline_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "oil_ngl_pipeline_ownership",
+  "n_rows": 12242,
+  "analyzed_at": "2026-07-07T21:45:14.272764+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 682,
+      "top_values": [
+        [
+          "E100001015587",
+          1088
+        ],
+        [
+          "E100001010595",
+          411
+        ],
+        [
+          "E100001015833",
+          407
+        ],
+        [
+          "E100001000348",
+          407
+        ],
+        [
+          "E100001010596",
+          332
+        ],
+        [
+          "E100000123261",
+          304
+        ],
+        [
+          "E100001000094",
+          301
+        ],
+        [
+          "E100000132388",
+          287
+        ],
+        [
+          "E100001014432",
+          194
+        ],
+        [
+          "E100002001974",
+          163
+        ],
+        [
+          "E100000000839",
+          117
+        ],
+        [
+          "E100001014312",
+          114
+        ],
+        [
+          "E100002007660",
+          111
+        ],
+        [
+          "E100001000615",
+          111
+        ],
+        [
+          "E100000001096",
+          111
+        ],
+        [
+          "E100001000270",
+          110
+        ],
+        [
+          "E100000121185",
+          110
+        ],
+        [
+          "E100000000746",
+          108
+        ],
+        [
+          "E100001016677",
+          97
+        ],
+        [
+          "E100001013560",
+          97
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 682,
+      "top_values": [
+        [
+          "small shareholder(s) ",
+          1088
+        ],
+        [
+          "The Vanguard Group Inc",
+          411
+        ],
+        [
+          "Blackrock Advisors LLC",
+          407
+        ],
+        [
+          "BlackRock Inc",
+          407
+        ],
+        [
+          "State Street Corp",
+          332
+        ],
+        [
+          "natural person(s) ",
+          304
+        ],
+        [
+          "Government of Russia ",
+          301
+        ],
+        [
+          "unknown ",
+          287
+        ],
+        [
+          "Transneft PJSC",
+          194
+        ],
+        [
+          "member/employee owned ",
+          163
+        ],
+        [
+          "Government of Qatar ",
+          117
+        ],
+        [
+          "Royal Bank of Canada ",
+          114
+        ],
+        [
+          "J.P. Morgan Capital Holdings Ltd",
+          111
+        ],
+        [
+          "Guaranty Nominees Ltd",
+          111
+        ],
+        [
+          "BP PLC",
+          111
+        ],
+        [
+          "Rosneftegaz JSC",
+          110
+        ],
+        [
+          "Federal Agency for State Property Management (Russia) ",
+          110
+        ],
+        [
+          "Shell PLC",
+          108
+        ],
+        [
+          "Government of Italy ",
+          97
+        ],
+        [
+          "Cassa Depositi e Prestiti SpA",
+          97
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 12242,
+      "n_null": 2233,
+      "n_non_null": 10009,
+      "null_rate": 0.1824,
+      "n_unique": 98,
+      "top_values": [
+        [
+          "United States",
+          3678
+        ],
+        [
+          "Russia",
+          1383
+        ],
+        [
+          "United Kingdom",
+          729
+        ],
+        [
+          "Qatar",
+          340
+        ],
+        [
+          "China",
+          327
+        ],
+        [
+          "Italy",
+          293
+        ],
+        [
+          "Canada",
+          285
+        ],
+        [
+          "Japan",
+          219
+        ],
+        [
+          "Iran",
+          188
+        ],
+        [
+          "Kazakhstan",
+          166
+        ],
+        [
+          "Australia",
+          131
+        ],
+        [
+          "India",
+          130
+        ],
+        [
+          "Hungary",
+          116
+        ],
+        [
+          "Hong Kong",
+          112
+        ],
+        [
+          "Germany",
+          109
+        ],
+        [
+          "Libya",
+          105
+        ],
+        [
+          "Saudi Arabia",
+          101
+        ],
+        [
+          "United Arab Emirates",
+          98
+        ],
+        [
+          "Slovakia",
+          96
+        ],
+        [
+          "Ukraine",
+          82
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 12242,
+      "n_null": 1936,
+      "n_non_null": 10306,
+      "null_rate": 0.1581,
+      "n_unique": 99,
+      "top_values": [
+        [
+          "United States",
+          3681
+        ],
+        [
+          "Russia",
+          1384
+        ],
+        [
+          "United Kingdom",
+          729
+        ],
+        [
+          "Qatar",
+          340
+        ],
+        [
+          "China",
+          340
+        ],
+        [
+          "Italy",
+          293
+        ],
+        [
+          "Canada",
+          285
+        ],
+        [
+          "Japan",
+          219
+        ],
+        [
+          "Kazakhstan",
+          201
+        ],
+        [
+          "Iran",
+          188
+        ],
+        [
+          "Hungary",
+          169
+        ],
+        [
+          "Australia",
+          131
+        ],
+        [
+          "India",
+          130
+        ],
+        [
+          "Hong Kong",
+          112
+        ],
+        [
+          "Poland",
+          110
+        ],
+        [
+          "Germany",
+          109
+        ],
+        [
+          "Libya",
+          105
+        ],
+        [
+          "Saudi Arabia",
+          101
+        ],
+        [
+          "United Arab Emirates",
+          98
+        ],
+        [
+          "Slovakia",
+          96
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 1211,
+      "top_values": [
+        [
+          "Druzhba Oil Pipeline",
+          2424
+        ],
+        [
+          "Oldelval Oil Pipeline",
+          190
+        ],
+        [
+          "Chayvo-De-Kastri Oil Pipeline",
+          168
+        ],
+        [
+          "NATO Pipeline System",
+          165
+        ],
+        [
+          "Diamond Oil Pipeline",
+          162
+        ],
+        [
+          "Transalpine Oil Pipeline",
+          123
+        ],
+        [
+          "White Cliffs Oil Pipeline",
+          120
+        ],
+        [
+          "Vostok Oil Pipeline",
+          120
+        ],
+        [
+          "South Texas Crude Oil Pipeline System (NuStar Energy)",
+          105
+        ],
+        [
+          "Caspian Pipeline",
+          90
+        ],
+        [
+          "Karachaganak-Orenburg Condensate Pipeline",
+          85
+        ],
+        [
+          "Baku-Supsa Oil Pipeline",
+          78
+        ],
+        [
+          "South Texas Crude Oil Pipeline System (Enterprise)",
+          76
+        ],
+        [
+          "Cactus II Oil Pipeline",
+          72
+        ],
+        [
+          "Rostock-Schwedt Oil Pipeline",
+          66
+        ],
+        [
+          "Red River Oil Pipeline",
+          64
+        ],
+        [
+          "Permian Express Oil Pipeline",
+          64
+        ],
+        [
+          "Cactus Oil Pipeline",
+          63
+        ],
+        [
+          "Shin Oak NGL Pipeline",
+          62
+        ],
+        [
+          "North-West Oil Pipeline Network",
+          60
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 12242,
+      "n_null": 3874,
+      "n_non_null": 8368,
+      "null_rate": 0.3165,
+      "n_unique": 898,
+      "top_values": [
+        [
+          "100",
+          1596
+        ],
+        [
+          "0.21",
+          163
+        ],
+        [
+          "50",
+          157
+        ],
+        [
+          "21.4",
+          135
+        ],
+        [
+          "78.55",
+          134
+        ],
+        [
+          "0.1",
+          100
+        ],
+        [
+          "15.15",
+          78
+        ],
+        [
+          "6.82",
+          72
+        ],
+        [
+          "1.81",
+          66
+        ],
+        [
+          "94.91",
+          57
+        ],
+        [
+          "5.09",
+          57
+        ],
+        [
+          "4.01",
+          52
+        ],
+        [
+          "37.5",
+          52
+        ],
+        [
+          "38.37",
+          50
+        ],
+        [
+          "16.88",
+          48
+        ],
+        [
+          "0.49",
+          47
+        ],
+        [
+          "0.45",
+          45
+        ],
+        [
+          "0.13",
+          45
+        ],
+        [
+          "0.05",
+          45
+        ],
+        [
+          "0.01",
+          45
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 6663,
+      "top_values": [
+        [
+          "small shareholder(s)  -> Transneft PJSC [21.4%] -> Transneft-Druzhba JSC [100.0%] -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "small shareholder(s)  -> Transneft PJSC [21.4%] -> Transneft-Druzhba JSC [100.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "small shareholder(s)  -> Transneft PJSC [21.4%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "small shareholder(s)  -> TotalEnergies SE [86.2%] -> TotalEnergies Raffinerie Mitteldeutschland GmbH [100.0%] -> Mineralölverbundleitung Schwedt GmbH [55.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "small shareholder(s)  -> Rosneft PJSC [1.09%] -> Rosneft Deutschland GmbH [100.0%] -> PCK Raffinerie GmbH [37.5%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "small shareholder(s)  -> MOL Magyar Olajes Gazipari Nyrt [69.51%] -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "member/employee owned  -> TotalEnergies SE [7.7%] -> TotalEnergies Raffinerie Mitteldeutschland GmbH [100.0%] -> Mineralölverbundleitung Schwedt GmbH [55.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "Vitol Holding II SA -> Vitol SA [100.0%] -> Latvian Transit SIA [100.0%] -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "Transpetrol AS -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "Transpetrol AS -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "Transneft PJSC -> Transneft-Druzhba JSC [100.0%] -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "Transneft PJSC -> Transneft-Druzhba JSC [100.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "Transneft PJSC -> Druzhba Oil Pipeline [unknown %]",
+          24
+        ],
+        [
+          "Transneft PJSC -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "TotalEnergies SE -> TotalEnergies Raffinerie Mitteldeutschland GmbH [100.0%] -> Mineralölverbundleitung Schwedt GmbH [55.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "The Vanguard Group Inc -> BlackRock Inc [8.66%] -> TotalEnergies SE [6.1%] -> TotalEnergies Raffinerie Mitteldeutschland GmbH [100.0%] -> Mineralölverbundleitung Schwedt GmbH [55.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "The Vanguard Group Inc -> BlackRock Inc [8.66%] -> BP PLC [9.24%] -> Bp International Ltd [unknown %] -> BP Russian Investments Ltd [unknown %] -> Rosneft PJSC [19.75%] -> Rosneft Deutschland GmbH [100.0%] -> PCK Raffinerie GmbH [37.5%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "State Street Corp -> State Street Bank and Trust Co [100.0%] -> Moscow Exchange MICEX-RTS PJSC [5.35%] -> National Settlement Depository JSC [100.0%] -> Rosneft PJSC [10.7%] -> Rosneft Deutschland GmbH [100.0%] -> PCK Raffinerie GmbH [37.5%] -> Mineralölverbundleitung Schwedt GmbH [45.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "State Street Corp -> State Street Bank and Trust Co [100.0%] -> Moscow Exchange MICEX-RTS PJSC [5.35%] -> National Settlement Depository JSC [100.0%] -> Rosneft PJSC [10.7%] -> Rosneft Deutschland GmbH [100.0%] -> PCK Raffinerie GmbH [37.5%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ],
+        [
+          "State Street Bank and Trust Co -> Moscow Exchange MICEX-RTS PJSC [5.35%] -> National Settlement Depository JSC [100.0%] -> Rosneft PJSC [10.7%] -> Rosneft Deutschland GmbH [100.0%] -> PCK Raffinerie GmbH [37.5%] -> Mineralölverbundleitung Schwedt GmbH [45.0%] -> Druzhba Oil Pipeline [100.0%]",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 417,
+      "top_values": [
+        [
+          "PCK Raffinerie GmbH",
+          858
+        ],
+        [
+          "Mineralölverbundleitung Schwedt GmbH",
+          840
+        ],
+        [
+          "Plains All American Pipeline LP",
+          400
+        ],
+        [
+          "Transneft PJSC",
+          394
+        ],
+        [
+          "Energy Transfer LP",
+          320
+        ],
+        [
+          "unknown ",
+          235
+        ],
+        [
+          "NuStar Energy LP",
+          231
+        ],
+        [
+          "Enbridge Inc",
+          200
+        ],
+        [
+          "Oleoductos del Valle SA",
+          180
+        ],
+        [
+          "MOL Magyar Olajes Gazipari Nyrt",
+          174
+        ],
+        [
+          "National Iranian Oil Co",
+          168
+        ],
+        [
+          "China Petroleum & Chemical Corp",
+          168
+        ],
+        [
+          "Santos Ltd",
+          160
+        ],
+        [
+          "Société du Pipeline Sud-Européen SA",
+          154
+        ],
+        [
+          "Zhejiang Petroleum & Chemical Co Ltd",
+          144
+        ],
+        [
+          "Transneft-Druzhba JSC",
+          144
+        ],
+        [
+          "KazTransOil JSC",
+          139
+        ],
+        [
+          "Saudi Aramco Power Co",
+          138
+        ],
+        [
+          "Gazprom PJSC",
+          138
+        ],
+        [
+          "TC Energy Corp",
+          128
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 417,
+      "top_values": [
+        [
+          "E100000003733",
+          858
+        ],
+        [
+          "E100001015277",
+          840
+        ],
+        [
+          "E100001014325",
+          400
+        ],
+        [
+          "E100001014432",
+          394
+        ],
+        [
+          "E100001014294",
+          320
+        ],
+        [
+          "E100000132388",
+          235
+        ],
+        [
+          "E100001015522",
+          231
+        ],
+        [
+          "E100000000112",
+          200
+        ],
+        [
+          "E100001015656",
+          180
+        ],
+        [
+          "E100000000505",
+          174
+        ],
+        [
+          "E100001014455",
+          168
+        ],
+        [
+          "E100000000556",
+          168
+        ],
+        [
+          "E100001015045",
+          160
+        ],
+        [
+          "E100001015713",
+          154
+        ],
+        [
+          "E100002001363",
+          144
+        ],
+        [
+          "E100000004373",
+          144
+        ],
+        [
+          "E100001015202",
+          139
+        ],
+        [
+          "E100001000322",
+          138
+        ],
+        [
+          "E100000001492",
+          138
+        ],
+        [
+          "E100000000136",
+          128
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Oil Infrastructure Tracker",
+          12242
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 12242,
+      "n_null": 1,
+      "n_non_null": 12241,
+      "null_rate": 0.0001,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          9672
+        ],
+        [
+          "cancelled",
+          912
+        ],
+        [
+          "proposed",
+          688
+        ],
+        [
+          "construction",
+          406
+        ],
+        [
+          "idle",
+          332
+        ],
+        [
+          "retired",
+          133
+        ],
+        [
+          "mothballed",
+          61
+        ],
+        [
+          "shelved",
+          37
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "CapacityBOEd",
+      "code_friendly_name_guess": "capacityboed",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 461,
+      "top_values": [
+        [
+          "--",
+          2424
+        ],
+        [
+          "120493.15",
+          365
+        ],
+        [
+          "100000",
+          234
+        ],
+        [
+          "200000",
+          222
+        ],
+        [
+          "300000",
+          218
+        ],
+        [
+          "102419.18",
+          205
+        ],
+        [
+          "401643.84",
+          195
+        ],
+        [
+          "150000",
+          169
+        ],
+        [
+          "321315.07",
+          150
+        ],
+        [
+          "502054.79",
+          149
+        ],
+        [
+          "50000",
+          146
+        ],
+        [
+          "140575.34",
+          146
+        ],
+        [
+          "100410.96",
+          146
+        ],
+        [
+          "40000",
+          133
+        ],
+        [
+          "400000",
+          116
+        ],
+        [
+          "168690.41",
+          115
+        ],
+        [
+          "180739.73",
+          113
+        ],
+        [
+          "441808.22",
+          110
+        ],
+        [
+          "351438.36",
+          107
+        ],
+        [
+          "349430.14",
+          107
+        ]
+      ],
+      "portion_numeric": 0.806,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 12242,
+      "n_null": 0,
+      "n_non_null": 12242,
+      "null_rate": 0.0,
+      "n_unique": 1687,
+      "top_values": [
+        [
+          "P7280",
+          101
+        ],
+        [
+          "P7279",
+          101
+        ],
+        [
+          "P6307",
+          101
+        ],
+        [
+          "P5331",
+          101
+        ],
+        [
+          "P5330",
+          101
+        ],
+        [
+          "P5329",
+          101
+        ],
+        [
+          "P5327",
+          101
+        ],
+        [
+          "P5326",
+          101
+        ],
+        [
+          "P5325",
+          101
+        ],
+        [
+          "P5324",
+          101
+        ],
+        [
+          "P5323",
+          101
+        ],
+        [
+          "P5322",
+          101
+        ],
+        [
+          "P5207",
+          101
+        ],
+        [
+          "P5190",
+          101
+        ],
+        [
+          "P5189",
+          101
+        ],
+        [
+          "P5188",
+          101
+        ],
+        [
+          "P5146",
+          101
+        ],
+        [
+          "P5137",
+          101
+        ],
+        [
+          "P5134",
+          101
+        ],
+        [
+          "P5133",
+          101
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "_col13",
+      "code_friendly_name_guess": "col13",
+      "n_total": 12242,
+      "n_null": 12242,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

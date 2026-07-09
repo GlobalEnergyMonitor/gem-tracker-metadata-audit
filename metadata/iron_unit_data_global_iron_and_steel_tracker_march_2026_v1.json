@@ -1,0 +1,588 @@
+{
+  "source_file": "Iron-unit-data-Global-Iron-and-Steel-Tracker-March-2026-V1.xlsx",
+  "tracker_slug": "iron_unit_data_global_iron_and_steel_tracker_march_2026_v1",
+  "header_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "blast_furnaces": "Blast furnaces",
+    "direct_reduced_iron_furnaces": "Direct reduced iron furnaces",
+    "blast_furnace_relinings": "Blast furnace relinings"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "metadata": "Metadata"
+  },
+  "sections": [
+    {
+      "section_name": "Acronym definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "BF",
+          "definition": "Blast furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "BOF",
+          "definition": "Basic oxygen furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "DRI",
+          "definition": "Direct reduced iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "EAF",
+          "definition": "Electric arc furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "HBI",
+          "definition": "Hot briquetted iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "IF",
+          "definition": "Induction furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "mtpa",
+          "definition": "million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "OHF",
+          "definition": "Open hearth furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "ttpa",
+          "definition": "thousand tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Capacity",
+          "definition": "Capacity is the tonnes of crude iron per annum that an iron unit is capable of producing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Production",
+          "definition": "Production is only captured at the plant-level. See the \"Plant-level data\" document.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Note",
+          "definition": "Additional information about the research method and estimations of capacity and production are available on the GEM website at https://globalenergymonitor.org/projects/global-iron-and-steel-tracker/methodology/",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        }
+      ]
+    },
+    {
+      "section_name": "Capacity status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Capacity that has been announced in corporate or governmental planning documents, but has not begun construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Physical furnace structure building has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Furnace(s) is currently operating and producing iron or steel.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating pre-retirement",
+          "definition": "Company has announced plans to retire this iron or steelmaking capacity but it has not yet ceased operations.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately, but is not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed pre-retirement",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately. It has not yet been permanently retired/decommissioned, but the plant has announced plans to do so in the future.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Furnace has ceased operations and no longer has ability to produce iron or steel. If the capacity has been mothballed for over 5 years it is considered retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Capacity previously planned or under development that has been cancelled. If no progress or announcements for announced capacity are made after 5 years it is considered to be cancelled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        }
+      ]
+    },
+    {
+      "section_name": "\"Blast furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"Unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the blast furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction of the furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Furnace start date in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Furnace age in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the blast furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that blast furnace stops iron production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that blast furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current size (m3)",
+          "definition": "Physical furnace size (example: 3000 m3).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS/CCUS",
+          "definition": "Carbon capture and storage or carbon capture, utilization, and storage. Notes on any carbon capture projects related to the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Most recent relining",
+          "definition": "Most recent relining date in format YYYY-MM-DD where unit has a known relining. \"Unknown\" indicates the unit has no known relinings or only has relining events with no known dates. This date is the stop date of the relining or the start date if stop date is unknown. Further detail on relinings can be found in the \"Blast furnace relinings\" sheet.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Direct reduced iron furnaces\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each direct reduced iron unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker. \"N/A\" indicates that the number of units at the plant is unknown, so no unit ID has been assigned.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "If the furnace has a unit name (may be a letter or number) assigned to it. \"Unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit status",
+          "definition": "Operating status of the direct reduced iron unit. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of furnace in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction of the furnace began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Furnace start date in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit age",
+          "definition": "Furnace age in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the direct reduced iron unit in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that direct reduced iron unit stops iron production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that direct reduced iron unit was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace manufacturer",
+          "definition": "The company that manufactured the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace model",
+          "definition": "The specific model of the unit, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace type",
+          "definition": "Options are: \"shaft furnace\", \"fluidized bed\", \"rotary kiln\", \"hearth\", and \"unknown\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current capacity (ttpa)",
+          "definition": "Production capacity of unit in thousands of metric tonnes per annum.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace height",
+          "definition": "The height of the furnace in meters.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace diameter",
+          "definition": "The diameter or width of the furnace in meters.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS/CCUS",
+          "definition": "Notes on any carbon capture projects related to the unit.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current or initial Reductant",
+          "definition": "Options are: \"gas\", \"coal (solid)\", \"biomass (solid)\", and \"unknown\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Gas reductant",
+          "definition": "If \"gas\" is selected as reductant. Options are: \"syngas (reformed methane)\", \"syngas (gasified coal)\", \"syngas (biomass)\", \"fossil gas (unreformed)\", \"waste gas recovery (coke oven)\", \"waste gas recovery (other)\", \"\"hydrogen\", and \"gas (unknown type)\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Current or initial hydrogen reductant color",
+          "definition": "If \"hydrogen\" is selected as gas reductant type. If the furnace uses or plans to use hydrogen as a reductant upon startup, this is the color of that hydrogen. Options are: \"green\", \"blue\", \"gray\", \"black\", \"pink\", \"turquoise\", \"yellow\", \"white\", and \"unknown\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen reductant status",
+          "definition": "Notes whether the furnace is currently capable of using hydrogen as a reductant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Future hydrogen reductant color",
+          "definition": "If the furnace plans to switch to hydrogen as a reductant in the future, or plans to switch hydrogen colors in the future, this is the color of that hydrogen. Options are: \"green\", \"blue\", \"gray\", \"black\", \"pink\", \"turquoise\", \"yellow\", \"white\", and \"unknown\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen reductant conversion date",
+          "definition": "Date when the furnace is set to switch to hydrogen reductant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Blast furnace relinings\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM unit ID",
+          "definition": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining status",
+          "definition": "Categories are \"complete\", \"in progress\", \"planned\", or \"cancelled\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining type",
+          "definition": "Type of relining performed on blast furnace unit. Categories are \"full\", \"partial\" and \"unknown\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace relining start date",
+          "definition": "Date that furnace stops operations and transitions to maintenance/relining work in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace relining stop date",
+          "definition": "Date that furnace resumes operations and begins transition back to ironmaking operations in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace relining duration (days)",
+          "definition": "Approximate number of days that blast furnace unit was stopped to undergo maintenance.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Furnace relining number",
+          "definition": "Number of the furnace relining if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining cost",
+          "definition": "Approximate investment cost of equipment, installation, upgrades, technology, etc for relining work. Does not include revenue lost during relining of blast furnace. Only numerical digits with currency type found in the Relining Cost Unit field.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining cost unit",
+          "definition": "ISO three-letter currency code unit for relining cost.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining capacity expansion",
+          "definition": "If applicable, furnace expansion as a result of the relining maintenance work. \"N/A\" if known that relining will not result in capacity expansion. \"unknown\" if not known whether relining will result in capacity expansion.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Relining capacity expansion unit",
+          "definition": "Typically cubic meters (m3) for blast furnace volume.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

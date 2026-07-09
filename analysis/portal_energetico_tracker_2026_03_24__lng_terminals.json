@@ -1,0 +1,4491 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__lng_terminals",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "lng_terminals",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.394195+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "T100000131069",
+          5
+        ],
+        [
+          "T100000130579",
+          5
+        ],
+        [
+          "T100000130832",
+          4
+        ],
+        [
+          "T100000130810",
+          3
+        ],
+        [
+          "T100000130562",
+          3
+        ],
+        [
+          "T100001049499",
+          2
+        ],
+        [
+          "T100001049377",
+          2
+        ],
+        [
+          "T100000131177",
+          2
+        ],
+        [
+          "T100000130917",
+          2
+        ],
+        [
+          "T100000130809",
+          2
+        ],
+        [
+          "T100000130626",
+          2
+        ],
+        [
+          "T100000130560",
+          2
+        ],
+        [
+          "T100000130548",
+          2
+        ],
+        [
+          "T100001061417",
+          1
+        ],
+        [
+          "T100001061406",
+          1
+        ],
+        [
+          "T100001061364",
+          1
+        ],
+        [
+          "T100001054469",
+          1
+        ],
+        [
+          "T100001054266",
+          1
+        ],
+        [
+          "T100001049463",
+          1
+        ],
+        [
+          "T100001049368",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "UnitID",
+      "code_friendly_name_guess": "unitid",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 118,
+      "top_values": [
+        [
+          "G100002118201",
+          1
+        ],
+        [
+          "G100002117800",
+          1
+        ],
+        [
+          "G100002117700",
+          1
+        ],
+        [
+          "G100002117300",
+          1
+        ],
+        [
+          "G100002113900",
+          1
+        ],
+        [
+          "G100002112200",
+          1
+        ],
+        [
+          "G100002112100",
+          1
+        ],
+        [
+          "G100002111900",
+          1
+        ],
+        [
+          "G100002111700",
+          1
+        ],
+        [
+          "G100002111600",
+          1
+        ],
+        [
+          "G100002111500",
+          1
+        ],
+        [
+          "G100002111400",
+          1
+        ],
+        [
+          "G100002109401",
+          1
+        ],
+        [
+          "G100002108300",
+          1
+        ],
+        [
+          "G100002108200",
+          1
+        ],
+        [
+          "G100002108100",
+          1
+        ],
+        [
+          "G100002106905",
+          1
+        ],
+        [
+          "G100002106904",
+          1
+        ],
+        [
+          "G100002106903",
+          1
+        ],
+        [
+          "G100002106902",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "Brazil",
+          26
+        ],
+        [
+          "Mexico",
+          25
+        ],
+        [
+          "Colombia",
+          14
+        ],
+        [
+          "Argentina",
+          10
+        ],
+        [
+          "Chile",
+          7
+        ],
+        [
+          "Venezuela",
+          5
+        ],
+        [
+          "Trinidad and Tobago",
+          5
+        ],
+        [
+          "Panama",
+          3
+        ],
+        [
+          "Dominican Republic",
+          3
+        ],
+        [
+          "Bahamas",
+          3
+        ],
+        [
+          "Suriname",
+          2
+        ],
+        [
+          "Peru",
+          2
+        ],
+        [
+          "Jamaica",
+          2
+        ],
+        [
+          "El Salvador",
+          2
+        ],
+        [
+          "Ecuador",
+          2
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "Nicaragua",
+          1
+        ],
+        [
+          "Honduras",
+          1
+        ],
+        [
+          "Haiti",
+          1
+        ],
+        [
+          "Guyana",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:7_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Wiki",
+      "code_friendly_name_guess": "wiki",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "https://www.gem.wiki/New_Fortress_Altamira_FLNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Atlantic_LNG_Terminal",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Argentina_GNL_Terminal",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Costa_Azul_LNG_Terminal",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Cartagena_FSRU_(Colombia)",
+          3
+        ],
+        [
+          "https://www.gem.wiki/TGS_Puerto_Galv%C3%A1n_LNG_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Saguaro_Energ%C3%ADa_LNG_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Quintero_LNG_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Brisa_LNG_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Pec%C3%A9m_FSRU",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Delta_Caribe_Oriental_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Coveñas_FSRU",
+          2
+        ],
+        [
+          "https://www.gem.wiki/AMIGO_LNG_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Vista_Pacifico_LNG_Terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Venezuela_Offshore_LNG_Terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Terminal_G%C3%A1s_Sul_FSRU",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Terg%C3%A1s_LNG_Terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Tepor_Maca%C3%A9_FSRU",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Telfers_FSRU",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Talcahuano_FSRU",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TerminalName",
+      "code_friendly_name_guess": "terminalname",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "New Fortress Altamira LNG Terminal",
+          5
+        ],
+        [
+          "Atlantic LNG Terminal",
+          5
+        ],
+        [
+          "Argentina LNG Terminal",
+          4
+        ],
+        [
+          "Costa Azul LNG Terminal",
+          3
+        ],
+        [
+          "Cartagena FSRU (Colombia)",
+          3
+        ],
+        [
+          "TGS Puerto Galván LNG Terminal",
+          2
+        ],
+        [
+          "Saguaro Energía LNG Terminal",
+          2
+        ],
+        [
+          "Quintero LNG Terminal",
+          2
+        ],
+        [
+          "Puerto Brisa LNG Terminal",
+          2
+        ],
+        [
+          "Pecém FSRU",
+          2
+        ],
+        [
+          "Delta Caribe Oriental Terminal",
+          2
+        ],
+        [
+          "Coveñas FSRU",
+          2
+        ],
+        [
+          "AMIGO FLNG Terminal",
+          2
+        ],
+        [
+          "Vista Pacifico LNG Terminal",
+          1
+        ],
+        [
+          "Venezuela Offshore LNG Terminal",
+          1
+        ],
+        [
+          "Terminal Gás Sul FSRU",
+          1
+        ],
+        [
+          "Tergás Rio Grande LNG Terminal",
+          1
+        ],
+        [
+          "Tepor Macaé FSRU",
+          1
+        ],
+        [
+          "Telfers FSRU",
+          1
+        ],
+        [
+          "Talcahuano FSRU",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "UnitName",
+      "code_friendly_name_guess": "unitname",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "T2",
+          3
+        ],
+        [
+          "T1",
+          3
+        ],
+        [
+          "Phase 2",
+          3
+        ],
+        [
+          "Phase 1",
+          2
+        ],
+        [
+          "Unit 5",
+          1
+        ],
+        [
+          "Unit 4",
+          1
+        ],
+        [
+          "Unit 3",
+          1
+        ],
+        [
+          "Unit 2",
+          1
+        ],
+        [
+          "Unit 1",
+          1
+        ],
+        [
+          "T5",
+          1
+        ],
+        [
+          "T4",
+          1
+        ],
+        [
+          "T3",
+          1
+        ],
+        [
+          "Stage 2",
+          1
+        ],
+        [
+          "Stage 1",
+          1
+        ],
+        [
+          "Phase 3",
+          1
+        ],
+        [
+          "Phase 2 (Trains 4-6)",
+          1
+        ],
+        [
+          "Phase 1.2  (Golar MK II FLNG)",
+          1
+        ],
+        [
+          "Phase 1.1  (Golar Hilli Episeyo FLNG)",
+          1
+        ],
+        [
+          "Phase 1 (Trains 1-3)",
+          1
+        ],
+        [
+          "Petrobras Terminal",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FacilityType",
+      "code_friendly_name_guess": "facilitytype",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "import",
+          75
+        ],
+        [
+          "export",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "LNG",
+          118
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "proposed",
+          40
+        ],
+        [
+          "operating",
+          25
+        ],
+        [
+          "cancelled",
+          25
+        ],
+        [
+          "shelved",
+          16
+        ],
+        [
+          "construction",
+          7
+        ],
+        [
+          "mothballed",
+          2
+        ],
+        [
+          "idled",
+          2
+        ],
+        [
+          "retired",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "OtherNames",
+      "code_friendly_name_guess": "othernames",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "Altamira Fast LNG, Altamira Offshore LNG Hub",
+          5
+        ],
+        [
+          "Argentina GNL, Golfo San Matías FLNG Terminal",
+          4
+        ],
+        [
+          "SPEC FSRU",
+          3
+        ],
+        [
+          "Terminal Brisa",
+          2
+        ],
+        [
+          "Mexico Pacific LNG Terminal",
+          2
+        ],
+        [
+          "Mariscal Sucre LNG, Terminal de GNL Delta Caribe Oriental, Venezuela LNG",
+          2
+        ],
+        [
+          "Unidad Flotante de Almacenamiento y Regasificación (UFAR) El Salvador",
+          1
+        ],
+        [
+          "Terminal de LNG de Old Harbour",
+          1
+        ],
+        [
+          "Terminal de GNL Pemex",
+          1
+        ],
+        [
+          "Terminal de GNL Lázaro Cárdenas",
+          1
+        ],
+        [
+          "Terminal de GNL El Viajano Altenesol, Nataly 1 LNG",
+          1
+        ],
+        [
+          "Terminal de GNL Colbún",
+          1
+        ],
+        [
+          "Terminal de FLNG de Gas Atacama",
+          1
+        ],
+        [
+          "Terminal Marítimo GNL Talcahuano, Terminal GNL Talcahuano",
+          1
+        ],
+        [
+          "Tango FLNG Terminal",
+          1
+        ],
+        [
+          "TR-BA Regasification Terminal, Madre de Deus Regasification Terminal",
+          1
+        ],
+        [
+          "Porto Central LNG Terminal",
+          1
+        ],
+        [
+          "Port of Nickerie LNG",
+          1
+        ],
+        [
+          "Pacific Terminal",
+          1
+        ],
+        [
+          "Pacific LNG Terminal",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LocalNames",
+      "code_friendly_name_guess": "localnames",
+      "n_total": 999,
+      "n_null": 901,
+      "n_non_null": 98,
+      "null_rate": 0.9019,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "Terminal de Exportación de GNL New Fortress Altamira",
+          5
+        ],
+        [
+          "Terminal Argentina GNL",
+          4
+        ],
+        [
+          "Terminal de importación de GNL Costa Azul",
+          3
+        ],
+        [
+          "FSRU de Cartagena (Colombia)",
+          3
+        ],
+        [
+          "Terminal de GNL Saguaro Energía",
+          2
+        ],
+        [
+          "Terminal de GNL Quintero",
+          2
+        ],
+        [
+          "Terminal de GNL Delta Caribe Oriental",
+          2
+        ],
+        [
+          "Terminal FLNG AMIGO",
+          2
+        ],
+        [
+          "Terminal Brisa, Terminal de GNL de Puerto Brisa",
+          2
+        ],
+        [
+          "Planta de GNL Puerto Galván (TGS)",
+          2
+        ],
+        [
+          "FSRU do Porto do Pecém",
+          2
+        ],
+        [
+          "Unidad Flotante de Almacenamiento y Regasificación (UFAR) El Salvador",
+          1
+        ],
+        [
+          "Terminal de Importación/Exportación de Gas Natural Licuado Ciénaga LNG",
+          1
+        ],
+        [
+          "Terminal de Importación de GNL de Bahía Blanca",
+          1
+        ],
+        [
+          "Terminal de Gás Natural Liquefeito TGNL São Luis",
+          1
+        ],
+        [
+          "Terminal de GNLe da Bacia_de_Santos",
+          1
+        ],
+        [
+          "Terminal de GNL de San Pedro de Macorís",
+          1
+        ],
+        [
+          "Terminal de GNL de Salina Cruz (Pilot/GFI)",
+          1
+        ],
+        [
+          "Terminal de GNL de Salina Cruz (CFE)",
+          1
+        ],
+        [
+          "Terminal de GNL de Progreso",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Language",
+      "code_friendly_name_guess": "language",
+      "n_total": 999,
+      "n_null": 901,
+      "n_non_null": 98,
+      "null_rate": 0.9019,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Spanish",
+          72
+        ],
+        [
+          "Portuguese",
+          25
+        ],
+        [
+          "French",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 89,
+      "top_values": [
+        [
+          "New Fortress Energy Inc [100%]",
+          11
+        ],
+        [
+          "Ecopetrol SA",
+          4
+        ],
+        [
+          "Sociedad Portuaria El Cayao (SPEC) [100%]",
+          3
+        ],
+        [
+          "Petróleo Brasileiro SA [100%]",
+          3
+        ],
+        [
+          "TransEnergy LNG SASESP; Energy Developments LLC",
+          2
+        ],
+        [
+          "TotalEnergies SE [16%]; Sempra Energy [83%]",
+          2
+        ],
+        [
+          "TGS - Transportadora de Gas del Sur SA [100%]",
+          2
+        ],
+        [
+          "Southern Energy SA [100%]",
+          2
+        ],
+        [
+          "Petróleos de Venezuela SA [100%]",
+          2
+        ],
+        [
+          "Mexico Pacific Holdings LLC [100%]",
+          2
+        ],
+        [
+          "LNG Alliance; Epcilon LNG LLC",
+          2
+        ],
+        [
+          "Excelerate Energy Inc [100%]",
+          2
+        ],
+        [
+          "ENAP [20%]; Fluxys NV [40%]; EIG Global Energy Partners [40%]",
+          2
+        ],
+        [
+          "CFEnergía SA de CV [100%]",
+          2
+        ],
+        [
+          "BP PLC [47%]; National Gas Company of Trinidad and Tobago Ltd [5%]; Shell PLC [47%]",
+          2
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "Yacimientos Petrolíferos Fiscales Bolivianos Corp [100%]",
+          1
+        ],
+        [
+          "YPF SA; Shell PLC",
+          1
+        ],
+        [
+          "YPF SA; Eni SpA",
+          1
+        ],
+        [
+          "YPF SA; Corporación America International",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 89,
+      "top_values": [
+        [
+          "E100000001265 [100%]",
+          11
+        ],
+        [
+          "E100000002892",
+          4
+        ],
+        [
+          "E100000188616 [100%]",
+          3
+        ],
+        [
+          "E100000000084 [100%]",
+          3
+        ],
+        [
+          "E100002017787 [100%]",
+          2
+        ],
+        [
+          "E100002017226; E100002017225",
+          2
+        ],
+        [
+          "E100002015987 [100%]",
+          2
+        ],
+        [
+          "E100002007946 [100%]",
+          2
+        ],
+        [
+          "E100001014344 [100%]",
+          2
+        ],
+        [
+          "E100000188879 [100%]",
+          2
+        ],
+        [
+          "E100000188759; E100000188758",
+          2
+        ],
+        [
+          "E100000188615 [20%]; E100000153201 [40%]; E100000188614 [40%]",
+          2
+        ],
+        [
+          "E100000001332 [100%]",
+          2
+        ],
+        [
+          "E100000000746 [47%]; E100000001096 [47%]; E100001015428 [5%]",
+          2
+        ],
+        [
+          "E100000000387 [16%]; E100000001293 [83%]",
+          2
+        ],
+        [
+          "E100002019249 [100%]",
+          1
+        ],
+        [
+          "E100002019235; E100002019234",
+          1
+        ],
+        [
+          "E100002019219 [100%]",
+          1
+        ],
+        [
+          "E100002017811 [100%]",
+          1
+        ],
+        [
+          "E100002017807 [50%]; E100002017808 [50%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 89,
+      "top_values": [
+        [
+          "New Fortress Energy Inc [100.0%]",
+          11
+        ],
+        [
+          "Ecopetrol SA",
+          4
+        ],
+        [
+          "Promigas SA ESP [51.0%]; Vopak [49.0%]",
+          3
+        ],
+        [
+          "Petróleo Brasileiro SA [100.0%]",
+          3
+        ],
+        [
+          "YPF SA [25.0%]; Pampa Energia SA [20.0%]; BC Energy Investments Corp [15.0%]; BP PLC [15.0%]; Harbour Energy PLC [15.0%]; Golar LNG Ltd [10.0%]",
+          2
+        ],
+        [
+          "Sempra Energy [83.4%]; TotalEnergies SE [16.6%]",
+          2
+        ],
+        [
+          "Petróleos de Venezuela SA [100.0%]",
+          2
+        ],
+        [
+          "Pampa Energia SA [25.5%]; other [25.0%]; Fondo de Garantía de Sustentabilidad - Anses [24.0%]; EMS Capital LP; Grupo Inversor Petroquímica SL",
+          2
+        ],
+        [
+          "Mexico Pacific Holdings LLC [100.0%]",
+          2
+        ],
+        [
+          "Excelerate Energy Inc [100.0%]",
+          2
+        ],
+        [
+          "Epcilon LNG LLC; LNG Alliance",
+          2
+        ],
+        [
+          "Energy Developments LLC; TransEnergy LNG SASESP",
+          2
+        ],
+        [
+          "EIG Global Energy Partners [40.0%]; Publigaz SA [31.0%]; ENAP [20.0%]; Energy Infrastructure Partners AG [6.1%]; small shareholder(s) [3.0%]",
+          2
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100.0%]",
+          2
+        ],
+        [
+          "BP PLC [47.2%]; Shell PLC [47.2%]; National Gas Company of Trinidad and Tobago Ltd [5.7%]",
+          2
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "other [65.0%]; Nimofast [35.0%]",
+          1
+        ],
+        [
+          "Yacimientos Petrolíferos Fiscales Bolivianos Corp [100.0%]",
+          1
+        ],
+        [
+          "YPF SA [100.0%]",
+          1
+        ],
+        [
+          "Vopak [60.0%]; Enagás SA [40.0%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 89,
+      "top_values": [
+        [
+          "E100000001265 [100.0%]",
+          11
+        ],
+        [
+          "E100000002892",
+          4
+        ],
+        [
+          "E100001015905 [51.0%]; E100000188535 [49.0%]",
+          3
+        ],
+        [
+          "E100000000084 [100.0%]",
+          3
+        ],
+        [
+          "E100002017787 [100.0%]",
+          2
+        ],
+        [
+          "E100002017226; E100002017225",
+          2
+        ],
+        [
+          "E100002007946 [100.0%]",
+          2
+        ],
+        [
+          "E100000188758; E100000188759",
+          2
+        ],
+        [
+          "E100000188614 [40.0%]; E100002004308 [31.0%]; E100000188615 [20.0%]; E100000152013 [6.1%]; E100001015587 [3.0%]",
+          2
+        ],
+        [
+          "E100000002016 [100.0%]",
+          2
+        ],
+        [
+          "E100000001763 [25.5%]; E100000001753 [25.0%]; E100000189062 [24.0%]; E100002015947; E100002015944",
+          2
+        ],
+        [
+          "E100000001332 [100.0%]",
+          2
+        ],
+        [
+          "E100000001293 [83.4%]; E100000000387 [16.6%]",
+          2
+        ],
+        [
+          "E100000001096 [47.2%]; E100000000746 [47.2%]; E100001015428 [5.7%]",
+          2
+        ],
+        [
+          "E100000000013 [25.0%]; E100000001763 [20.0%]; E100000000005 [15.0%]; E100000001096 [15.0%]; E100001012815 [15.0%]; E100000000054 [10.0%]",
+          2
+        ],
+        [
+          "E100002019249 [100.0%]",
+          1
+        ],
+        [
+          "E100002019238; E100002019235; E100002019236",
+          1
+        ],
+        [
+          "E100002019219 [100.0%]",
+          1
+        ],
+        [
+          "E100002017811 [100.0%]",
+          1
+        ],
+        [
+          "E100002017808 [50.0%]; E100002017807 [50.0%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ParentHQCountry",
+      "code_friendly_name_guess": "parenthqcountry",
+      "n_total": 999,
+      "n_null": 904,
+      "n_non_null": 95,
+      "null_rate": 0.9049,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "United States",
+          21
+        ],
+        [
+          "Colombia",
+          10
+        ],
+        [
+          "Brazil",
+          8
+        ],
+        [
+          "United Kingdom, United Kingdom, Trinidad and Tobago",
+          4
+        ],
+        [
+          "Spain",
+          3
+        ],
+        [
+          "Mexico",
+          3
+        ],
+        [
+          "Argentina",
+          3
+        ],
+        [
+          "Venezuela",
+          2
+        ],
+        [
+          "United States, France",
+          2
+        ],
+        [
+          "United States, Colombia",
+          2
+        ],
+        [
+          "United Kingdom",
+          2
+        ],
+        [
+          "Belgium, Switzerland",
+          2
+        ],
+        [
+          "Argentina, United States, Spain",
+          2
+        ],
+        [
+          "Argentina, Argentina, Argentina, United Kingdom, United Kingdom, Bermuda",
+          2
+        ],
+        [
+          "Venezuela, United States",
+          1
+        ],
+        [
+          "Venezuela, Russia",
+          1
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States, Japan, Venezuela, United Kingdom",
+          1
+        ],
+        [
+          "United States, Dominican Republic, Panama, Dominican Republic",
+          1
+        ],
+        [
+          "United States, Dominican Republic, Panama",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "New Fortress Energy",
+          8
+        ],
+        [
+          "Atlantic LNG",
+          5
+        ],
+        [
+          "Ecopetrol",
+          3
+        ],
+        [
+          "TGS - Transportadora de Gas del Sur",
+          2
+        ],
+        [
+          "Mexico Pacific Limited",
+          2
+        ],
+        [
+          "YPF",
+          1
+        ],
+        [
+          "Water- en Energiebedrijf Aruba",
+          1
+        ],
+        [
+          "Ursus Aqualita LNG",
+          1
+        ],
+        [
+          "Terminal de Regaseificação de São Paulo, SA (TRSP SA)",
+          1
+        ],
+        [
+          "Terminal KMS",
+          1
+        ],
+        [
+          "Sycar, PDVSA",
+          1
+        ],
+        [
+          "Shell",
+          1
+        ],
+        [
+          "Rosneft",
+          1
+        ],
+        [
+          "Puertos, Inversiones y Obras",
+          1
+        ],
+        [
+          "Petróleo Brasileiro",
+          1
+        ],
+        [
+          "Petronas International",
+          1
+        ],
+        [
+          "Pacificterminal",
+          1
+        ],
+        [
+          "Nimofast",
+          1
+        ],
+        [
+          "New Fortress Energy / Celba",
+          1
+        ],
+        [
+          "LC Terminais Portuários",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity",
+      "code_friendly_name_guess": "capacity",
+      "n_total": 999,
+      "n_null": 901,
+      "n_non_null": 98,
+      "null_rate": 0.9019,
+      "n_unique": 60,
+      "top_values": [
+        [
+          "1.4",
+          7
+        ],
+        [
+          "7.67",
+          5
+        ],
+        [
+          "5.11",
+          4
+        ],
+        [
+          "2.7",
+          4
+        ],
+        [
+          "0.5",
+          4
+        ],
+        [
+          "6.0",
+          3
+        ],
+        [
+          "4.0",
+          3
+        ],
+        [
+          "3.8",
+          3
+        ],
+        [
+          "1.5",
+          3
+        ],
+        [
+          "0.4",
+          3
+        ],
+        [
+          "5.0",
+          2
+        ],
+        [
+          "4.7",
+          2
+        ],
+        [
+          "3.6",
+          2
+        ],
+        [
+          "3.4",
+          2
+        ],
+        [
+          "3.0",
+          2
+        ],
+        [
+          "2.19",
+          2
+        ],
+        [
+          "15.0",
+          2
+        ],
+        [
+          "12.0",
+          2
+        ],
+        [
+          "1.0",
+          2
+        ],
+        [
+          "8.69",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityUnits",
+      "code_friendly_name_guess": "capacityunits",
+      "n_total": 999,
+      "n_null": 901,
+      "n_non_null": 98,
+      "null_rate": 0.9019,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "mtpa",
+          68
+        ],
+        [
+          "bcm/y",
+          17
+        ],
+        [
+          "bcf/d",
+          11
+        ],
+        [
+          "tpa",
+          1
+        ],
+        [
+          "MMcf/d",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityinMtpa",
+      "code_friendly_name_guess": "capacityinmtpa",
+      "n_total": 999,
+      "n_null": 903,
+      "n_non_null": 96,
+      "null_rate": 0.9039,
+      "n_unique": 57,
+      "top_values": [
+        [
+          "1.4",
+          7
+        ],
+        [
+          "5.64",
+          6
+        ],
+        [
+          "3.76",
+          4
+        ],
+        [
+          "2.7",
+          4
+        ],
+        [
+          "0.5",
+          4
+        ],
+        [
+          "6.0",
+          3
+        ],
+        [
+          "3.8",
+          3
+        ],
+        [
+          "3.07",
+          3
+        ],
+        [
+          "1.5",
+          3
+        ],
+        [
+          "1.0",
+          3
+        ],
+        [
+          "5.0",
+          2
+        ],
+        [
+          "4.7",
+          2
+        ],
+        [
+          "4.0",
+          2
+        ],
+        [
+          "3.6",
+          2
+        ],
+        [
+          "3.4",
+          2
+        ],
+        [
+          "3.0",
+          2
+        ],
+        [
+          "15.0",
+          2
+        ],
+        [
+          "12.0",
+          2
+        ],
+        [
+          "1.61",
+          2
+        ],
+        [
+          "7.6",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityinBcm/y",
+      "code_friendly_name_guess": "capacityinbcm_y",
+      "n_total": 999,
+      "n_null": 903,
+      "n_non_null": 96,
+      "null_rate": 0.9039,
+      "n_unique": 57,
+      "top_values": [
+        [
+          "1.9",
+          7
+        ],
+        [
+          "7.67",
+          6
+        ],
+        [
+          "5.12",
+          4
+        ],
+        [
+          "3.67",
+          4
+        ],
+        [
+          "0.68",
+          4
+        ],
+        [
+          "8.16",
+          3
+        ],
+        [
+          "5.17",
+          3
+        ],
+        [
+          "4.18",
+          3
+        ],
+        [
+          "2.04",
+          3
+        ],
+        [
+          "1.36",
+          3
+        ],
+        [
+          "6.8",
+          2
+        ],
+        [
+          "6.39",
+          2
+        ],
+        [
+          "5.44",
+          2
+        ],
+        [
+          "4.9",
+          2
+        ],
+        [
+          "4.63",
+          2
+        ],
+        [
+          "4.08",
+          2
+        ],
+        [
+          "20.41",
+          2
+        ],
+        [
+          "2.19",
+          2
+        ],
+        [
+          "16.33",
+          2
+        ],
+        [
+          "8.73",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotImportLNGTerminalCapacityinMtpa",
+      "code_friendly_name_guess": "totimportlngterminalcapacityinmtpa",
+      "n_total": 999,
+      "n_null": 937,
+      "n_non_null": 62,
+      "null_rate": 0.9379,
+      "n_unique": 39,
+      "top_values": [
+        [
+          "5.64",
+          5
+        ],
+        [
+          "3.76",
+          4
+        ],
+        [
+          "7.6",
+          3
+        ],
+        [
+          "4.14",
+          3
+        ],
+        [
+          "1.5",
+          3
+        ],
+        [
+          "9.44",
+          2
+        ],
+        [
+          "6.0",
+          2
+        ],
+        [
+          "5.35",
+          2
+        ],
+        [
+          "4.91",
+          2
+        ],
+        [
+          "4.06",
+          2
+        ],
+        [
+          "3.8",
+          2
+        ],
+        [
+          "2.7",
+          2
+        ],
+        [
+          "1.61",
+          2
+        ],
+        [
+          "1.0",
+          2
+        ],
+        [
+          "0.5",
+          2
+        ],
+        [
+          "7.5",
+          1
+        ],
+        [
+          "6.42",
+          1
+        ],
+        [
+          "6.39",
+          1
+        ],
+        [
+          "6.1",
+          1
+        ],
+        [
+          "5.7",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotImportLNGTerminalCapacityinBcm/y",
+      "code_friendly_name_guess": "totimportlngterminalcapacityinbcm_y",
+      "n_total": 999,
+      "n_null": 937,
+      "n_non_null": 62,
+      "null_rate": 0.9379,
+      "n_unique": 39,
+      "top_values": [
+        [
+          "7.67",
+          5
+        ],
+        [
+          "5.12",
+          4
+        ],
+        [
+          "5.63",
+          3
+        ],
+        [
+          "2.04",
+          3
+        ],
+        [
+          "10.34",
+          3
+        ],
+        [
+          "8.16",
+          2
+        ],
+        [
+          "7.28",
+          2
+        ],
+        [
+          "6.68",
+          2
+        ],
+        [
+          "5.52",
+          2
+        ],
+        [
+          "5.17",
+          2
+        ],
+        [
+          "3.67",
+          2
+        ],
+        [
+          "2.19",
+          2
+        ],
+        [
+          "12.84",
+          2
+        ],
+        [
+          "1.36",
+          2
+        ],
+        [
+          "0.68",
+          2
+        ],
+        [
+          "8.73",
+          1
+        ],
+        [
+          "8.69",
+          1
+        ],
+        [
+          "8.3",
+          1
+        ],
+        [
+          "7.76",
+          1
+        ],
+        [
+          "7.62",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotExportLNGTerminalCapacityinMtpa",
+      "code_friendly_name_guess": "totexportlngterminalcapacityinmtpa",
+      "n_total": 999,
+      "n_null": 961,
+      "n_non_null": 38,
+      "null_rate": 0.962,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "30.0",
+          6
+        ],
+        [
+          "7.0",
+          5
+        ],
+        [
+          "15.3",
+          5
+        ],
+        [
+          "15.25",
+          3
+        ],
+        [
+          "9.4",
+          2
+        ],
+        [
+          "7.8",
+          2
+        ],
+        [
+          "5.4",
+          2
+        ],
+        [
+          "3.0",
+          2
+        ],
+        [
+          "2.7",
+          2
+        ],
+        [
+          "0.5",
+          2
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "5.0",
+          1
+        ],
+        [
+          "4.6",
+          1
+        ],
+        [
+          "4.45",
+          1
+        ],
+        [
+          "4.0",
+          1
+        ],
+        [
+          "1.4",
+          1
+        ],
+        [
+          "0.34",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotExportLNGTerminalCapacityinBcm/y",
+      "code_friendly_name_guess": "totexportlngterminalcapacityinbcm_y",
+      "n_total": 999,
+      "n_null": 961,
+      "n_non_null": 38,
+      "null_rate": 0.962,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "40.82",
+          6
+        ],
+        [
+          "9.52",
+          5
+        ],
+        [
+          "20.82",
+          5
+        ],
+        [
+          "20.75",
+          3
+        ],
+        [
+          "7.35",
+          2
+        ],
+        [
+          "4.08",
+          2
+        ],
+        [
+          "3.67",
+          2
+        ],
+        [
+          "12.79",
+          2
+        ],
+        [
+          "10.61",
+          2
+        ],
+        [
+          "0.68",
+          2
+        ],
+        [
+          "8.16",
+          1
+        ],
+        [
+          "6.8",
+          1
+        ],
+        [
+          "6.26",
+          1
+        ],
+        [
+          "6.05",
+          1
+        ],
+        [
+          "5.44",
+          1
+        ],
+        [
+          "1.9",
+          1
+        ],
+        [
+          "0.46",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ProposalYear",
+      "code_friendly_name_guess": "proposalyear",
+      "n_total": 999,
+      "n_null": 929,
+      "n_non_null": 70,
+      "null_rate": 0.9299,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "2022.0",
+          13
+        ],
+        [
+          "2021.0",
+          9
+        ],
+        [
+          "2024.0",
+          8
+        ],
+        [
+          "2025.0",
+          7
+        ],
+        [
+          "2019.0",
+          6
+        ],
+        [
+          "2018.0",
+          5
+        ],
+        [
+          "2020.0",
+          4
+        ],
+        [
+          "2023.0",
+          3
+        ],
+        [
+          "2016.0",
+          3
+        ],
+        [
+          "2015.0",
+          2
+        ],
+        [
+          "2014.0",
+          2
+        ],
+        [
+          "2013.0",
+          2
+        ],
+        [
+          "2007.0",
+          2
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2005.0",
+          1
+        ],
+        [
+          "2003.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ProposalMonth",
+      "code_friendly_name_guess": "proposalmonth",
+      "n_total": 999,
+      "n_null": 965,
+      "n_non_null": 34,
+      "null_rate": 0.966,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "July",
+          7
+        ],
+        [
+          "August",
+          5
+        ],
+        [
+          "October",
+          4
+        ],
+        [
+          "November",
+          4
+        ],
+        [
+          "September",
+          2
+        ],
+        [
+          "May",
+          2
+        ],
+        [
+          "March",
+          2
+        ],
+        [
+          "June",
+          2
+        ],
+        [
+          "February",
+          2
+        ],
+        [
+          "April",
+          2
+        ],
+        [
+          "Q4",
+          1
+        ],
+        [
+          "January",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ConstructionYear",
+      "code_friendly_name_guess": "constructionyear",
+      "n_total": 999,
+      "n_null": 982,
+      "n_non_null": 17,
+      "null_rate": 0.983,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "2022.0",
+          3
+        ],
+        [
+          "2025.0",
+          2
+        ],
+        [
+          "2021.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2024.0",
+          1
+        ],
+        [
+          "2023.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ],
+        [
+          "2005.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ConstructionMonth",
+      "code_friendly_name_guess": "constructionmonth",
+      "n_total": 999,
+      "n_null": 989,
+      "n_non_null": 10,
+      "null_rate": 0.99,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "November",
+          3
+        ],
+        [
+          "July",
+          2
+        ],
+        [
+          "September",
+          1
+        ],
+        [
+          "Q3",
+          1
+        ],
+        [
+          "January",
+          1
+        ],
+        [
+          "December",
+          1
+        ],
+        [
+          "August",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "OriginalPlannedStartYear",
+      "code_friendly_name_guess": "originalplannedstartyear",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "2027.0",
+          11
+        ],
+        [
+          "2026.0",
+          9
+        ],
+        [
+          "2025.0",
+          7
+        ],
+        [
+          "2024.0",
+          5
+        ],
+        [
+          "2028.0",
+          4
+        ],
+        [
+          "2029.0",
+          3
+        ],
+        [
+          "2016.0",
+          3
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2031.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LatestPlannedStartYear",
+      "code_friendly_name_guess": "latestplannedstartyear",
+      "n_total": 999,
+      "n_null": 990,
+      "n_non_null": 9,
+      "null_rate": 0.991,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "2028.0",
+          2
+        ],
+        [
+          "2027.0",
+          2
+        ],
+        [
+          "2025.0",
+          2
+        ],
+        [
+          "2030.0",
+          1
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2024.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear",
+      "code_friendly_name_guess": "actualstartyear",
+      "n_total": 999,
+      "n_null": 969,
+      "n_non_null": 30,
+      "null_rate": 0.97,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2008.0",
+          3
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2021.0",
+          2
+        ],
+        [
+          "2019.0",
+          2
+        ],
+        [
+          "2016.0",
+          2
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "2009.0",
+          2
+        ],
+        [
+          "2003.0",
+          2
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ],
+        [
+          "2002.0",
+          1
+        ],
+        [
+          "1999.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartMonth",
+      "code_friendly_name_guess": "actualstartmonth",
+      "n_total": 999,
+      "n_null": 991,
+      "n_non_null": 8,
+      "null_rate": 0.992,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "March",
+          2
+        ],
+        [
+          "April",
+          2
+        ],
+        [
+          "October",
+          1
+        ],
+        [
+          "January",
+          1
+        ],
+        [
+          "February",
+          1
+        ],
+        [
+          "August",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear2",
+      "code_friendly_name_guess": "actualstartyear2",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "2021.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ActualStartYear3",
+      "code_friendly_name_guess": "actualstartyear3",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ShelvedYear",
+      "code_friendly_name_guess": "shelvedyear",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "2025.0",
+          9
+        ],
+        [
+          "2023.0",
+          4
+        ],
+        [
+          "2017.0",
+          4
+        ],
+        [
+          "2016.0",
+          3
+        ],
+        [
+          "2013.0",
+          3
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2024.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2002.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CancelledYear",
+      "code_friendly_name_guess": "cancelledyear",
+      "n_total": 999,
+      "n_null": 979,
+      "n_non_null": 20,
+      "null_rate": 0.98,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "2018.0",
+          4
+        ],
+        [
+          "2025.0",
+          3
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2015.0",
+          3
+        ],
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2004.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StopYear",
+      "code_friendly_name_guess": "stopyear",
+      "n_total": 999,
+      "n_null": 974,
+      "n_non_null": 25,
+      "null_rate": 0.975,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "2025.0",
+          4
+        ],
+        [
+          "2018.0",
+          4
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2015.0",
+          3
+        ],
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2024.0",
+          1
+        ],
+        [
+          "2023.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2004.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PlannedStopYear",
+      "code_friendly_name_guess": "plannedstopyear",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2025.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ShelvedCancelledStatusType",
+      "code_friendly_name_guess": "shelvedcancelledstatustype",
+      "n_total": 999,
+      "n_null": 956,
+      "n_non_null": 43,
+      "null_rate": 0.957,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "inferred",
+          31
+        ],
+        [
+          "confirmed",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TempFacility",
+      "code_friendly_name_guess": "tempfacility",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "interim facility",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ImportExportOnly",
+      "code_friendly_name_guess": "importexportonly",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 999,
+      "n_null": 892,
+      "n_non_null": 107,
+      "null_rate": 0.8929,
+      "n_unique": 76,
+      "top_values": [
+        [
+          "Point Fortin bor",
+          5
+        ],
+        [
+          "Las Grutas",
+          4
+        ],
+        [
+          "Altamira",
+          4
+        ],
+        [
+          "Manzanillo",
+          3
+        ],
+        [
+          "Ensenada",
+          3
+        ],
+        [
+          "Cartagena",
+          3
+        ],
+        [
+          "Bay of Quintero",
+          3
+        ],
+        [
+          "Valdez",
+          2
+        ],
+        [
+          "Salina Cruz",
+          2
+        ],
+        [
+          "Puerto Libertad",
+          2
+        ],
+        [
+          "Porto de Vila do Conde",
+          2
+        ],
+        [
+          "Porto de Pecém",
+          2
+        ],
+        [
+          "Mejillones",
+          2
+        ],
+        [
+          "Guaymas",
+          2
+        ],
+        [
+          "Dibulla",
+          2
+        ],
+        [
+          "Coveñas",
+          2
+        ],
+        [
+          "Colon",
+          2
+        ],
+        [
+          "Bay of Buenaventura",
+          2
+        ],
+        [
+          "Bahía Blanca, Buenos Aires",
+          2
+        ],
+        [
+          "Bahía Blanca",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          118
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "SubRegion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          118
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Prefecture/District",
+      "code_friendly_name_guess": "prefecture_district",
+      "n_total": 999,
+      "n_null": 969,
+      "n_non_null": 30,
+      "null_rate": 0.97,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "Golfo San Matías",
+          4
+        ],
+        [
+          "Ensenada",
+          3
+        ],
+        [
+          "São Gonçalo do Amarante",
+          2
+        ],
+        [
+          "Barcarena",
+          2
+        ],
+        [
+          "Tampico",
+          1
+        ],
+        [
+          "São Luis",
+          1
+        ],
+        [
+          "São João da Barra",
+          1
+        ],
+        [
+          "São Francisco do Conde",
+          1
+        ],
+        [
+          "Santos",
+          1
+        ],
+        [
+          "Salina Cruz",
+          1
+        ],
+        [
+          "Presidente Kennedy",
+          1
+        ],
+        [
+          "Pampa Melchorita",
+          1
+        ],
+        [
+          "Old Harbour Bay",
+          1
+        ],
+        [
+          "Manzanillo",
+          1
+        ],
+        [
+          "Lázaro Cárdenas",
+          1
+        ],
+        [
+          "La Unión",
+          1
+        ],
+        [
+          "Dock Sud",
+          1
+        ],
+        [
+          "Colonche",
+          1
+        ],
+        [
+          "Bulnes",
+          1
+        ],
+        [
+          "Boca Chica",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 999,
+      "n_null": 903,
+      "n_non_null": 96,
+      "null_rate": 0.9039,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "Tamaulipas",
+          6
+        ],
+        [
+          "Rio de Janeiro",
+          5
+        ],
+        [
+          "Maranhão",
+          5
+        ],
+        [
+          "Buenos Aires",
+          5
+        ],
+        [
+          "Sucre",
+          4
+        ],
+        [
+          "Sonora",
+          4
+        ],
+        [
+          "Río Negro",
+          4
+        ],
+        [
+          "Veracruz",
+          3
+        ],
+        [
+          "Valparaíso",
+          3
+        ],
+        [
+          "Oaxaca",
+          3
+        ],
+        [
+          "La Guajira",
+          3
+        ],
+        [
+          "Bolivar",
+          3
+        ],
+        [
+          "Baja",
+          3
+        ],
+        [
+          "São Paulo",
+          2
+        ],
+        [
+          "Pernambuco",
+          2
+        ],
+        [
+          "Pará",
+          2
+        ],
+        [
+          "Paraná",
+          2
+        ],
+        [
+          "Espírito Santo",
+          2
+        ],
+        [
+          "Colon",
+          2
+        ],
+        [
+          "Colima",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 92,
+      "top_values": [
+        [
+          "22.494775",
+          5
+        ],
+        [
+          "10.18106",
+          5
+        ],
+        [
+          "-41.11535",
+          4
+        ],
+        [
+          "31.988557",
+          3
+        ],
+        [
+          "10.4",
+          3
+        ],
+        [
+          "-32.783333",
+          3
+        ],
+        [
+          "9.4146045",
+          2
+        ],
+        [
+          "29.905838",
+          2
+        ],
+        [
+          "27.922867",
+          2
+        ],
+        [
+          "11.27525",
+          2
+        ],
+        [
+          "10.599336",
+          2
+        ],
+        [
+          "-38.787784",
+          2
+        ],
+        [
+          "-38.784331",
+          2
+        ],
+        [
+          "-3.531956",
+          2
+        ],
+        [
+          "9.384621",
+          1
+        ],
+        [
+          "9.357222",
+          1
+        ],
+        [
+          "9.3389775",
+          1
+        ],
+        [
+          "8.75",
+          1
+        ],
+        [
+          "8.548292",
+          1
+        ],
+        [
+          "7.2053",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 92,
+      "top_values": [
+        [
+          "-97.89468",
+          5
+        ],
+        [
+          "-61.69189",
+          5
+        ],
+        [
+          "-65.08253",
+          4
+        ],
+        [
+          "-75.5",
+          3
+        ],
+        [
+          "-71.533333",
+          3
+        ],
+        [
+          "-116.846466",
+          3
+        ],
+        [
+          "-75.69104",
+          2
+        ],
+        [
+          "-73.38434",
+          2
+        ],
+        [
+          "-62.315522",
+          2
+        ],
+        [
+          "-62.299546",
+          2
+        ],
+        [
+          "-62.289504",
+          2
+        ],
+        [
+          "-38.797218",
+          2
+        ],
+        [
+          "-112.688038",
+          2
+        ],
+        [
+          "-110.868082",
+          2
+        ],
+        [
+          "-97.68048",
+          1
+        ],
+        [
+          "-95.4018",
+          1
+        ],
+        [
+          "-95.209909",
+          1
+        ],
+        [
+          "-95.195759",
+          1
+        ],
+        [
+          "-95.192147",
+          1
+        ],
+        [
+          "-94.406895",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Accuracy",
+      "code_friendly_name_guess": "accuracy",
+      "n_total": 999,
+      "n_null": 882,
+      "n_non_null": 117,
+      "null_rate": 0.8829,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "approximate",
+          87
+        ],
+        [
+          "exact",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AssociatedTerminals",
+      "code_friendly_name_guess": "associatedterminals",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Bahía Blanca FLNG Terminal",
+          1
+        ],
+        [
+          "Bahia Blanca GasPort FSRU",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PowerPlantsSupplied",
+      "code_friendly_name_guess": "powerplantssupplied",
+      "n_total": 999,
+      "n_null": 955,
+      "n_non_null": 44,
+      "null_rate": 0.956,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "Termobarranquilla power station, Termocandelaria power station, Termo Flores power station",
+          3
+        ],
+        [
+          "Termoceará power station, Fortaleza power station",
+          2
+        ],
+        [
+          "Vila do Conde power station",
+          1
+        ],
+        [
+          "Termopernambuco power station",
+          1
+        ],
+        [
+          "Termogas Machala I power station",
+          1
+        ],
+        [
+          "Telfers power station, Gatún power station",
+          1
+        ],
+        [
+          "São Marcos I and II power stations",
+          1
+        ],
+        [
+          "South Jamaica Power Centre, Jamalco power station",
+          1
+        ],
+        [
+          "Rio Grande power station",
+          1
+        ],
+        [
+          "RECIP (Balashi) power plant",
+          1
+        ],
+        [
+          "Puerto Sandino power station",
+          1
+        ],
+        [
+          "Presidente Kennedy power station",
+          1
+        ],
+        [
+          "Porto de Sergipe power station",
+          1
+        ],
+        [
+          "Porto Norte Fluminense I & II power stations",
+          1
+        ],
+        [
+          "Pacífico Acajutla power station",
+          1
+        ],
+        [
+          "Novo Tempo Barcarena power station",
+          1
+        ],
+        [
+          "Norte Fluminense, Marlim Azul, Vale Azul II & III, Litos I-IV power stations",
+          1
+        ],
+        [
+          "Norte Catarinense power station",
+          1
+        ],
+        [
+          "Mejillones power station, Tocopilla power station",
+          1
+        ],
+        [
+          "Manzanillo power station",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Cost",
+      "code_friendly_name_guess": "cost",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "550000000.0",
+          2
+        ],
+        [
+          "433333333.0",
+          2
+        ],
+        [
+          "350000000.0",
+          2
+        ],
+        [
+          "3439000000.0",
+          2
+        ],
+        [
+          "200000000.0",
+          2
+        ],
+        [
+          "1200000000.0",
+          2
+        ],
+        [
+          "1000000000.0",
+          2
+        ],
+        [
+          "100000000.0",
+          2
+        ],
+        [
+          "950000000.0",
+          1
+        ],
+        [
+          "700000000.0",
+          1
+        ],
+        [
+          "60000000.0",
+          1
+        ],
+        [
+          "5400000000.0",
+          1
+        ],
+        [
+          "500000000.0",
+          1
+        ],
+        [
+          "50000000.0",
+          1
+        ],
+        [
+          "4500000000.0",
+          1
+        ],
+        [
+          "450000000.0",
+          1
+        ],
+        [
+          "400000000.0",
+          1
+        ],
+        [
+          "3800000000.0",
+          1
+        ],
+        [
+          "30000000000.0",
+          1
+        ],
+        [
+          "290900000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostUnits",
+      "code_friendly_name_guess": "costunits",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "USD",
+          28
+        ],
+        [
+          "BRL",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostUSD",
+      "code_friendly_name_guess": "costusd",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "550000000.0",
+          2
+        ],
+        [
+          "433333333.0",
+          2
+        ],
+        [
+          "350000000.0",
+          2
+        ],
+        [
+          "3439000000.0",
+          2
+        ],
+        [
+          "200000000.0",
+          2
+        ],
+        [
+          "1200000000.0",
+          2
+        ],
+        [
+          "100000000.0",
+          2
+        ],
+        [
+          "950000000.0",
+          1
+        ],
+        [
+          "700000000.0",
+          1
+        ],
+        [
+          "60000000.0",
+          1
+        ],
+        [
+          "5400000000.0",
+          1
+        ],
+        [
+          "52362000.0",
+          1
+        ],
+        [
+          "500000000.0",
+          1
+        ],
+        [
+          "50000000.0",
+          1
+        ],
+        [
+          "4500000000.0",
+          1
+        ],
+        [
+          "450000000.0",
+          1
+        ],
+        [
+          "400000000.0",
+          1
+        ],
+        [
+          "3800000000.0",
+          1
+        ],
+        [
+          "31554000.0",
+          1
+        ],
+        [
+          "30000000000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "TotKnownTerminalCostsUSD",
+      "code_friendly_name_guess": "totknownterminalcostsusd",
+      "n_total": 999,
+      "n_null": 961,
+      "n_non_null": 38,
+      "null_rate": 0.962,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "3300000000.0",
+          5
+        ],
+        [
+          "1566666666.0",
+          5
+        ],
+        [
+          "36878000000.0",
+          4
+        ],
+        [
+          "600000000.0",
+          2
+        ],
+        [
+          "350000000.0",
+          2
+        ],
+        [
+          "200000000.0",
+          2
+        ],
+        [
+          "1200000000.0",
+          2
+        ],
+        [
+          "100000000.0",
+          2
+        ],
+        [
+          "950000000.0",
+          1
+        ],
+        [
+          "60000000.0",
+          1
+        ],
+        [
+          "5400000000.0",
+          1
+        ],
+        [
+          "52362000.0",
+          1
+        ],
+        [
+          "500000000.0",
+          1
+        ],
+        [
+          "50000000.0",
+          1
+        ],
+        [
+          "4500000000.0",
+          1
+        ],
+        [
+          "450000000.0",
+          1
+        ],
+        [
+          "400000000.0",
+          1
+        ],
+        [
+          "3800000000.0",
+          1
+        ],
+        [
+          "31554000.0",
+          1
+        ],
+        [
+          "2000000000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FIDStatus",
+      "code_friendly_name_guess": "fidstatus",
+      "n_total": 999,
+      "n_null": 975,
+      "n_non_null": 24,
+      "null_rate": 0.976,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Pre-FID",
+          12
+        ],
+        [
+          "FID",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FIDYear",
+      "code_friendly_name_guess": "fidyear",
+      "n_total": 999,
+      "n_null": 977,
+      "n_non_null": 22,
+      "null_rate": 0.978,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "2025.0",
+          7
+        ],
+        [
+          "2021.0",
+          5
+        ],
+        [
+          "2026.0",
+          2
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ],
+        [
+          "2028.0",
+          1
+        ],
+        [
+          "2024.0",
+          1
+        ],
+        [
+          "2022.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Financing",
+      "code_friendly_name_guess": "financing",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Bancomext (Banco Nacional de Comercio Exterior)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Offshore",
+      "code_friendly_name_guess": "offshore",
+      "n_total": 999,
+      "n_null": 938,
+      "n_non_null": 61,
+      "null_rate": 0.9389,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "TRUE",
+          61
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Floating",
+      "code_friendly_name_guess": "floating",
+      "n_total": 999,
+      "n_null": 939,
+      "n_non_null": 60,
+      "null_rate": 0.9399,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "TRUE",
+          60
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FloatingVesselName",
+      "code_friendly_name_guess": "floatingvesselname",
+      "n_total": 999,
+      "n_null": 973,
+      "n_non_null": 26,
+      "null_rate": 0.974,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Golar Hilli Episeyo FLNG, Golar MK II FLNG",
+          4
+        ],
+        [
+          "Höegh Grace",
+          3
+        ],
+        [
+          "Energos Winter",
+          3
+        ],
+        [
+          "Sevan Driller",
+          1
+        ],
+        [
+          "LNGt Powership Asia",
+          1
+        ],
+        [
+          "Höegh Giant",
+          1
+        ],
+        [
+          "Höegh Gallant",
+          1
+        ],
+        [
+          "GasLog Singapore (FSU only)",
+          1
+        ],
+        [
+          "Exmar Tango",
+          1
+        ],
+        [
+          "Excelerate Sequoia",
+          1
+        ],
+        [
+          "Excelerate Experience",
+          1
+        ],
+        [
+          "Excelerate Expedient",
+          1
+        ],
+        [
+          "Excelerate Excelsior",
+          1
+        ],
+        [
+          "Energos Princess",
+          1
+        ],
+        [
+          "Energos Nanook",
+          1
+        ],
+        [
+          "Energos Freeze FSRU",
+          1
+        ],
+        [
+          "Energos Celsius",
+          1
+        ],
+        [
+          "BW Tatiana",
+          1
+        ],
+        [
+          "BW Magna",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "VesselOwner",
+      "code_friendly_name_guess": "vesselowner",
+      "n_total": 999,
+      "n_null": 980,
+      "n_non_null": 19,
+      "null_rate": 0.981,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "Energos",
+          4
+        ],
+        [
+          "Excelerate Energy",
+          3
+        ],
+        [
+          "Höegh Evi",
+          2
+        ],
+        [
+          "Energos Infrastructure",
+          2
+        ],
+        [
+          "Sycar - LNG",
+          1
+        ],
+        [
+          "SCM (Sembcorp Marine)",
+          1
+        ],
+        [
+          "New Fortress Energy",
+          1
+        ],
+        [
+          "Mitsui O.S.K. Lines",
+          1
+        ],
+        [
+          "Karpowership",
+          1
+        ],
+        [
+          "Gaslog",
+          1
+        ],
+        [
+          "Exmar",
+          1
+        ],
+        [
+          "BW Group",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "VesselOperator",
+      "code_friendly_name_guess": "vesseloperator",
+      "n_total": 999,
+      "n_null": 977,
+      "n_non_null": 22,
+      "null_rate": 0.978,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Excelerate Energy",
+          4
+        ],
+        [
+          "Energos",
+          4
+        ],
+        [
+          "Höegh Evi",
+          3
+        ],
+        [
+          "BW LNG",
+          2
+        ],
+        [
+          "Sycar - LNG",
+          1
+        ],
+        [
+          "Sevan SSP",
+          1
+        ],
+        [
+          "New Fortress Energy; Energía 2000",
+          1
+        ],
+        [
+          "New Fortress Energy",
+          1
+        ],
+        [
+          "Mitsui O.S.K. Lines",
+          1
+        ],
+        [
+          "Karpowership",
+          1
+        ],
+        [
+          "Golar LNG",
+          1
+        ],
+        [
+          "Exmar",
+          1
+        ],
+        [
+          "Energos Infrastructure",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "LH2",
+      "code_friendly_name_guess": "lh2",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "NH3",
+      "code_friendly_name_guess": "nh3",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "SyntheticLNG",
+      "code_friendly_name_guess": "syntheticlng",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "RetrofitProposed",
+      "code_friendly_name_guess": "retrofitproposed",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AltFuelPrelimAgreement",
+      "code_friendly_name_guess": "altfuelprelimagreement",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "AltFuelCallMarketInterest",
+      "code_friendly_name_guess": "altfuelcallmarketinterest",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CCS",
+      "code_friendly_name_guess": "ccs",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LastUpdated",
+      "code_friendly_name_guess": "lastupdated",
+      "n_total": 999,
+      "n_null": 881,
+      "n_non_null": 118,
+      "null_rate": 0.8819,
+      "n_unique": 35,
+      "top_values": [
+        [
+          "9/8/2025",
+          17
+        ],
+        [
+          "9/4/2025",
+          11
+        ],
+        [
+          "6/25/2025",
+          7
+        ],
+        [
+          "9/5/2025",
+          6
+        ],
+        [
+          "9/3/2025",
+          6
+        ],
+        [
+          "9/2/2025",
+          6
+        ],
+        [
+          "8/5/2025",
+          6
+        ],
+        [
+          "7/25/2025",
+          5
+        ],
+        [
+          "7/23/2025",
+          5
+        ],
+        [
+          "9/9/2025",
+          3
+        ],
+        [
+          "8/4/2025",
+          3
+        ],
+        [
+          "8/29/2025",
+          3
+        ],
+        [
+          "7/30/2025",
+          3
+        ],
+        [
+          "7/29/2025",
+          3
+        ],
+        [
+          "7/15/2025",
+          3
+        ],
+        [
+          "6/27/2025",
+          3
+        ],
+        [
+          "9/6/2025",
+          2
+        ],
+        [
+          "7/31/2025",
+          2
+        ],
+        [
+          "7/28/2025",
+          2
+        ],
+        [
+          "7/21/2025",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

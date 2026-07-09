@@ -1,0 +1,252 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_oil_gas_plants",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_oil_gas_plants",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.176284+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Oil and Gas Plant Tracker - January 2026",
+      "code_friendly_name_guess": "global_oil_and_gas_plant_tracker_january_2026",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Unit name",
+          1
+        ],
+        [
+          "Turbine/Engine Technology",
+          1
+        ],
+        [
+          "Subregion",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "State/Province",
+          1
+        ],
+        [
+          "Start year",
+          1
+        ],
+        [
+          "Retired year",
+          1
+        ],
+        [
+          "Region",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Oil and Gas Plant Tracker, January 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Plant name",
+          1
+        ],
+        [
+          "Plant Name in Local Language / Script",
+          1
+        ],
+        [
+          "Planned retire",
+          1
+        ],
+        [
+          "Parent(s)",
+          1
+        ],
+        [
+          "Parent GEM Entity ID",
+          1
+        ],
+        [
+          "Owner(s)",
+          1
+        ],
+        [
+          "Owner GEM Entity ID",
+          1
+        ],
+        [
+          "Other Name(s)",
+          1
+        ],
+        [
+          "Other IDs (unit)",
+          1
+        ],
+        [
+          "Other IDs (location)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 938,
+      "n_non_null": 61,
+      "null_rate": 0.9389,
+      "n_unique": 59,
+      "top_values": [
+        [
+          "For example, government database ID",
+          2
+        ],
+        [
+          "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
+          2
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "county/taluk where project is located ",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled",
+          1
+        ],
+        [
+          "announced",
+          1
+        ],
+        [
+          "Year the plant is decommissioned",
+          1
+        ],
+        [
+          "Year for the unit's commissioning; For combined cycle sets, which are composed of multiple gas and steam turbines which may not have all been built at the same time, the start year reflects when they began combined cycle operation together.",
+          1
+        ],
+        [
+          "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown",
+          1
+        ],
+        [
+          "The company that is responsible for day-to-day operations at a plant. This is usually only one company.",
+          1
+        ],
+        [
+          "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
+          1
+        ],
+        [
+          "Status definitions",
+          1
+        ],
+        [
+          "Sequential numbers, grouped by blocks with emdash is necessary (e.g. 1-1, 2-1)",
+          1
+        ],
+        [
+          "Province or state where project is located",
+          1
+        ],
+        [
+          "Prefecture or district where project is located",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 991,
+      "n_non_null": 8,
+      "null_rate": 0.992,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Two years have passed with no action on a project after the project proposal.",
+          1
+        ],
+        [
+          "The project is disused, but not dismantled.",
+          1
+        ],
+        [
+          "The project has been decommissioned; this term is also used if the plant has been destroyed by war.",
+          1
+        ],
+        [
+          "The plant has been formally commissioned; commercial operation has begun.",
+          1
+        ],
+        [
+          "Site preparation and other activities are underway.",
+          1
+        ],
+        [
+          "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing.",
+          1
+        ],
+        [
+          "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+          1
+        ],
+        [
+          "A cancellation announcement has been made. The status is marked as ‘cancelled – inferred 4 y’ if no progress has been observed for at least four years.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

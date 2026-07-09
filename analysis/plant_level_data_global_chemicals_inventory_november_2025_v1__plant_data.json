@@ -1,0 +1,1825 @@
+{
+  "table_name": "plant_level_data_global_chemicals_inventory_november_2025_v1__plant_data",
+  "tracker_slug": "plant_level_data_global_chemicals_inventory_november_2025_v1",
+  "tab_slug": "plant_data",
+  "n_rows": 868,
+  "analyzed_at": "2026-07-07T21:45:22.088387+00:00",
+  "tracker_info": {
+    "title": "Global Chemicals Inventory - November 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Chemicals Inventory, November 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contacts: Joe Hittinger, Chemicals Project Manager, joe.hittinger@globalenergymonitor.org; Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Chemicals Inventory, November 2025 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 868,
+      "top_values": [
+        [
+          "P100000141516",
+          1
+        ],
+        [
+          "P100000141515",
+          1
+        ],
+        [
+          "P100000140953",
+          1
+        ],
+        [
+          "P100000140952",
+          1
+        ],
+        [
+          "P100000140951",
+          1
+        ],
+        [
+          "P100000140950",
+          1
+        ],
+        [
+          "P100000140949",
+          1
+        ],
+        [
+          "P100000140948",
+          1
+        ],
+        [
+          "P100000140947",
+          1
+        ],
+        [
+          "P100000140946",
+          1
+        ],
+        [
+          "P100000140944",
+          1
+        ],
+        [
+          "P100000140942",
+          1
+        ],
+        [
+          "P100000140941",
+          1
+        ],
+        [
+          "P100000140940",
+          1
+        ],
+        [
+          "P100000140939",
+          1
+        ],
+        [
+          "P100000140938",
+          1
+        ],
+        [
+          "P100000140937",
+          1
+        ],
+        [
+          "P100000140936",
+          1
+        ],
+        [
+          "P100000140935",
+          1
+        ],
+        [
+          "P100000140934",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000014XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the chemicals inventory list.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (English)",
+      "code_friendly_name_guess": "plant_name_english",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 868,
+      "top_values": [
+        [
+          "Zibo Qixiang Tengda Chemical Plant",
+          1
+        ],
+        [
+          "Zhuhai Changlian Petrochemical Plant",
+          1
+        ],
+        [
+          "Zhongtian Hechuang Coal-to-Chemicals Plant",
+          1
+        ],
+        [
+          "Zhongke Guangdong Refining and Chemical Plant",
+          1
+        ],
+        [
+          "Zhongjiao (Inner Mongolia) New Material Chemical Plant",
+          1
+        ],
+        [
+          "Zhong'an United Coal Chemical Company Huainan Methanol Plant",
+          1
+        ],
+        [
+          "Zhenyuan County Hydrogen-to-Methanol Plant",
+          1
+        ],
+        [
+          "Zhenxiong Chishuiyuan Ammonia Plant",
+          1
+        ],
+        [
+          "Zhenjiang Dagang Fusheng Chemical Plant",
+          1
+        ],
+        [
+          "Zhejiang Xingxing New Energy Technology Chemical Plant",
+          1
+        ],
+        [
+          "Zhejiang Petrochemical Plant",
+          1
+        ],
+        [
+          "Zhejiang Petrochemical Daishan Complex",
+          1
+        ],
+        [
+          "Zhejiang Jinhua Zhongyuan Ammonia Plant",
+          1
+        ],
+        [
+          "Zhejiang Jiangshan Ammonia Plant",
+          1
+        ],
+        [
+          "Zapsibneftekhim Chemical Plant",
+          1
+        ],
+        [
+          "Zagros Asaluyeh Methanol Plant",
+          1
+        ],
+        [
+          "Yuntian International Red Phosphorus Ammonia Plant",
+          1
+        ],
+        [
+          "Yunnan Yuxi Yinhe Ammonia Plant",
+          1
+        ],
+        [
+          "Yunnan Yunwei Ammonia Plant",
+          1
+        ],
+        [
+          "Yunnan Yunfeng Ammonia Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Common plant name for chemical plant in English language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (other language)",
+      "code_friendly_name_guess": "plant_name_other_language",
+      "n_total": 868,
+      "n_null": 336,
+      "n_non_null": 532,
+      "null_rate": 0.3871,
+      "n_unique": 528,
+      "top_values": [
+        [
+          "内蒙古远兴能源股份有限公司 (Chinese)",
+          2
+        ],
+        [
+          "中国石化海南炼油化工有限公司 (Chinese)",
+          2
+        ],
+        [
+          "Complejo Petroquímico Nanchital (Spanish)",
+          2
+        ],
+        [
+          "(Arabic) الشركة الليبية للأسمدة",
+          2
+        ],
+        [
+          "흥남연합비료회사 (Korean)",
+          1
+        ],
+        [
+          "현대케미칼 대산화학공장 (Korean)",
+          1
+        ],
+        [
+          "여천 NCC 화학 3공장 (Korean)",
+          1
+        ],
+        [
+          "여천 NCC 화학 1공장 (Korean)",
+          1
+        ],
+        [
+          "순천린비료공장 (Korean)",
+          1
+        ],
+        [
+          "롯데케미칼 울산공장 (Korean)",
+          1
+        ],
+        [
+          "롯데 MCC 여수공장 (Korean)",
+          1
+        ],
+        [
+          "롯데 MCC 대산공장 (Korean)",
+          1
+        ],
+        [
+          "대산정유·석유화학 통합 플랫폼 (Korean)",
+          1
+        ],
+        [
+          "남흥청소년화학단지 (Korean)",
+          1
+        ],
+        [
+          "龙腾化工有限公司 (Chinese)",
+          1
+        ],
+        [
+          "黑龙江省龙油石油化工股份有限公司 (Chinese)",
+          1
+        ],
+        [
+          "黑龙江省旭焱燃料有限公司 (Chinese)",
+          1
+        ],
+        [
+          "鲁油鲁炼转型升级技术改造项目 (Chinese)",
+          1
+        ],
+        [
+          "香港特種氣體有限公司 (Chinese)",
+          1
+        ],
+        [
+          "顺北原油蒸汽裂解百万吨级乙烯项目 (Chinese)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Common plant name for chemical plant in other language. Language indicated in parentheses following plant name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other plant names (English)",
+      "code_friendly_name_guess": "other_plant_names_english",
+      "n_total": 868,
+      "n_null": 781,
+      "n_non_null": 87,
+      "null_rate": 0.8998,
+      "n_unique": 86,
+      "top_values": [
+        [
+          "Chandra Asri CAP",
+          2
+        ],
+        [
+          "YARA Fertilizer Complex Babrala",
+          1
+        ],
+        [
+          "Xuyang Weishan New Energy Coking Project",
+          1
+        ],
+        [
+          "Vadodara Manufacturing Division; RIL-VMD",
+          1
+        ],
+        [
+          "UCC Taft Plant",
+          1
+        ],
+        [
+          "Trigen I Plant",
+          1
+        ],
+        [
+          "The Vakhsh Nitrogen-Mineral Fertilizer Plant (predecessor)",
+          1
+        ],
+        [
+          "The LINE Project",
+          1
+        ],
+        [
+          "Tesside Site",
+          1
+        ],
+        [
+          "TPPI Olefin Complex Development Project",
+          1
+        ],
+        [
+          "TOAZ plant",
+          1
+        ],
+        [
+          "TKAC",
+          1
+        ],
+        [
+          "Singapore Essential Chemicals Complex",
+          1
+        ],
+        [
+          "Shell Polymers Monaca",
+          1
+        ],
+        [
+          "Sergeant Bluff Facility",
+          1
+        ],
+        [
+          "Saudi Ethylene and Polyethylene Company (SEPC)",
+          1
+        ],
+        [
+          "Sasol One Site, Sasol Midlands Site",
+          1
+        ],
+        [
+          "Sarawak Petchem Methanol Project",
+          1
+        ],
+        [
+          "Rio Grande do Sul Petrochemical Complex",
+          1
+        ],
+        [
+          "Pusri II-B",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Other plants names used for chemical plants that do not conform to our standard naming convention, in English lanugage. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other plant names (other language)",
+      "code_friendly_name_guess": "other_plant_names_other_language",
+      "n_total": 868,
+      "n_null": 862,
+      "n_non_null": 6,
+      "null_rate": 0.9931,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Polo Petroquímico de Capuava (Portuguese)",
+          1
+        ],
+        [
+          "Planta Etileno Cangrejera (Spanish)",
+          1
+        ],
+        [
+          "Phosagro, Cherepovets Azot (Russian)",
+          1
+        ],
+        [
+          "Complejo petroquímico de Braskem Idesa (Spanish)",
+          1
+        ],
+        [
+          "Complejo Industrial de Sines (Spanish)",
+          1
+        ],
+        [
+          "Compejo José (Spanish)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Other plants names used for chemical plants that do not conform to our standard naming convention, in other lanugage. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "SFI ID",
+      "code_friendly_name_guess": "sfi_id",
+      "n_total": 868,
+      "n_null": 664,
+      "n_non_null": 204,
+      "null_rate": 0.765,
+      "n_unique": 204,
+      "top_values": [
+        [
+          "GEPDUSA0052",
+          1
+        ],
+        [
+          "GEPDUSA0051",
+          1
+        ],
+        [
+          "GEPDUSA0049",
+          1
+        ],
+        [
+          "GEPDUSA0048",
+          1
+        ],
+        [
+          "GEPDUSA0047",
+          1
+        ],
+        [
+          "GEPDUSA0044",
+          1
+        ],
+        [
+          "GEPDUSA0043",
+          1
+        ],
+        [
+          "GEPDUSA0041",
+          1
+        ],
+        [
+          "GEPDUSA0037",
+          1
+        ],
+        [
+          "GEPDUSA0034",
+          1
+        ],
+        [
+          "GEPDUSA0033",
+          1
+        ],
+        [
+          "GEPDUSA0032",
+          1
+        ],
+        [
+          "GEPDUSA0030",
+          1
+        ],
+        [
+          "GEPDUSA0029",
+          1
+        ],
+        [
+          "GEPDUSA0028",
+          1
+        ],
+        [
+          "GEPDUSA0027",
+          1
+        ],
+        [
+          "GEPDUSA0026",
+          1
+        ],
+        [
+          "GEPDUSA0023",
+          1
+        ],
+        [
+          "GEPDUSA0021",
+          1
+        ],
+        [
+          "GEPDUSA0019",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Tracker ID from Spatial Finance Initiative's Global Ethylene Production Database (if applicable), found at https://www.cgfi.ac.uk/spatial-finance-initiative/geoasset-project/petrochemicals/.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner (English)",
+      "code_friendly_name_guess": "owner_english",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 745,
+      "top_values": [
+        [
+          "PETRONAS Chemicals Group Berhad [100%]",
+          7
+        ],
+        [
+          "Sibur Holding PAO",
+          6
+        ],
+        [
+          "CF Industries Holdings Inc [100%]",
+          6
+        ],
+        [
+          "Reliance Industries Limited [100%]",
+          5
+        ],
+        [
+          "LyondellBasell Industries NV [100%]",
+          5
+        ],
+        [
+          "Koch Ag & Energy Solutions LLC",
+          5
+        ],
+        [
+          "Dow Inc [100%]",
+          5
+        ],
+        [
+          "Yara International ASA",
+          4
+        ],
+        [
+          "Turkmenhimiya State Concern",
+          4
+        ],
+        [
+          "Pemex Transformación Industrial SA de CV [100%]",
+          4
+        ],
+        [
+          "Nutrien Ltd [100%]",
+          4
+        ],
+        [
+          "Nutrien Ltd",
+          4
+        ],
+        [
+          "National Fertilizers Ltd [100%]",
+          4
+        ],
+        [
+          "Gazprom PAO",
+          4
+        ],
+        [
+          "Braskem SA [100%]",
+          4
+        ],
+        [
+          "Versalis SpA",
+          3
+        ],
+        [
+          "State Oil Company of Azerbaijan Republic",
+          3
+        ],
+        [
+          "SABIC Agri-Nutrients Company",
+          3
+        ],
+        [
+          "Royal Dutch Shell PLC [100%]",
+          3
+        ],
+        [
+          "Repsol SA [100%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of the chemical plant in English, followed by the ownership percentage in brackets (if known).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner (other language)",
+      "code_friendly_name_guess": "owner_other_language",
+      "n_total": 868,
+      "n_null": 394,
+      "n_non_null": 474,
+      "null_rate": 0.4539,
+      "n_unique": 435,
+      "top_values": [
+        [
+          "ПАО СИБУР Холдинг (Russian)",
+          6
+        ],
+        [
+          "Газпром ПАО (Russian)",
+          4
+        ],
+        [
+          "\"Türkmenhimiýa\" Döwlet konserni (Turkmen)",
+          4
+        ],
+        [
+          "台灣化學纖維股份有限公司 (Chinese)",
+          3
+        ],
+        [
+          "中油石化 (Chinese)",
+          3
+        ],
+        [
+          "东华能源股份有限公司 (Chinese)",
+          3
+        ],
+        [
+          "АО МХК ЕвроХим (Russian)",
+          3
+        ],
+        [
+          "한국석유화학공업(주) (Korean)",
+          2
+        ],
+        [
+          "여천NCC(주) (Korean)",
+          2
+        ],
+        [
+          "롯데MCC (Korean)",
+          2
+        ],
+        [
+          "辽宁华锦化工（集团）有限责任公司 (Chinese)",
+          2
+        ],
+        [
+          "独山子石化公司 (Chinese)",
+          2
+        ],
+        [
+          "浙江石油化工有限公司 (Chinese)",
+          2
+        ],
+        [
+          "河南能源集团有限公司 (Chinese)",
+          2
+        ],
+        [
+          "恒力石化股份有限公司 (Chinese)",
+          2
+        ],
+        [
+          "山西天脊潞安化工有限公司 (Chinese)",
+          2
+        ],
+        [
+          "山东联盟化工集团有限公司 (Chinese)",
+          2
+        ],
+        [
+          "宁夏宝丰能源集团股份有限公司 (Chinese)",
+          2
+        ],
+        [
+          "出光興産株式会社 (Japanese)",
+          2
+        ],
+        [
+          "内蒙古远兴能源股份有限公司 (Chinese)",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Immediate owner/operator of the chemical plant in other language. Language indicated in parentheses following owner name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner GEM entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 739,
+      "top_values": [
+        [
+          "E100002018197 [100%]",
+          7
+        ],
+        [
+          "E100002017907 [100%]",
+          6
+        ],
+        [
+          "E100000000865",
+          6
+        ],
+        [
+          "E100002018112",
+          5
+        ],
+        [
+          "E100002000031 [100%]",
+          5
+        ],
+        [
+          "E100000121175 [100%]",
+          5
+        ],
+        [
+          "E100000000741 [100%]",
+          5
+        ],
+        [
+          "E100002018390",
+          4
+        ],
+        [
+          "E100002018183 [100%]",
+          4
+        ],
+        [
+          "E100002018183",
+          4
+        ],
+        [
+          "E100002018169 [100%]",
+          4
+        ],
+        [
+          "E100000003796 [100%]",
+          4
+        ],
+        [
+          "E100000001492",
+          4
+        ],
+        [
+          "E100000001213 [100%]",
+          4
+        ],
+        [
+          "E100000000774",
+          4
+        ],
+        [
+          "E100000000060 [100%]",
+          4
+        ],
+        [
+          "E100002018394",
+          3
+        ],
+        [
+          "E100002018253",
+          3
+        ],
+        [
+          "E100002018210 [100%]",
+          3
+        ],
+        [
+          "E100002018123 [100%]",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Global Energy Monitor's entity ID for each unique owner/operator of the chemical plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Municipality",
+      "code_friendly_name_guess": "municipality",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 550,
+      "top_values": [
+        [
+          "Ordos",
+          19
+        ],
+        [
+          "Asaluyeh",
+          16
+        ],
+        [
+          "Al Jubail Industrial City",
+          12
+        ],
+        [
+          "Dongying",
+          10
+        ],
+        [
+          "Panjin",
+          7
+        ],
+        [
+          "Zibo",
+          6
+        ],
+        [
+          "Point Lisas",
+          6
+        ],
+        [
+          "Ningbo",
+          6
+        ],
+        [
+          "Nanjing",
+          6
+        ],
+        [
+          "Bandar Imam Khomeini",
+          6
+        ],
+        [
+          "Aksu",
+          6
+        ],
+        [
+          "Yinchuan",
+          5
+        ],
+        [
+          "Yeosu",
+          5
+        ],
+        [
+          "Weinan",
+          5
+        ],
+        [
+          "Weifang",
+          5
+        ],
+        [
+          "Tangshan",
+          5
+        ],
+        [
+          "Shanghai",
+          5
+        ],
+        [
+          "Lianyungang",
+          5
+        ],
+        [
+          "Kunming",
+          5
+        ],
+        [
+          "Jincheng",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Municipality (city, village, town).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 286,
+      "top_values": [
+        [
+          "Shandong",
+          42
+        ],
+        [
+          "Inner Mongolia",
+          32
+        ],
+        [
+          "Shanxi",
+          27
+        ],
+        [
+          "Texas",
+          22
+        ],
+        [
+          "Jiangsu",
+          21
+        ],
+        [
+          "Henan",
+          21
+        ],
+        [
+          "Xinjiang",
+          20
+        ],
+        [
+          "Liaoning",
+          20
+        ],
+        [
+          "Bushehr Province",
+          19
+        ],
+        [
+          "Zhejiang",
+          18
+        ],
+        [
+          "Hebei",
+          18
+        ],
+        [
+          "Yunnan",
+          14
+        ],
+        [
+          "Shaanxi",
+          13
+        ],
+        [
+          "Louisiana",
+          13
+        ],
+        [
+          "Hubei",
+          13
+        ],
+        [
+          "Eastern Province",
+          13
+        ],
+        [
+          "Guangdong",
+          12
+        ],
+        [
+          "Anhui",
+          11
+        ],
+        [
+          "Alberta",
+          10
+        ],
+        [
+          "Shanghai",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Subnational unit (province, state).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "China",
+          365
+        ],
+        [
+          "United States",
+          64
+        ],
+        [
+          "India",
+          48
+        ],
+        [
+          "Russia",
+          47
+        ],
+        [
+          "Iran",
+          36
+        ],
+        [
+          "Germany",
+          18
+        ],
+        [
+          "Saudi Arabia",
+          17
+        ],
+        [
+          "Japan",
+          17
+        ],
+        [
+          "Canada",
+          17
+        ],
+        [
+          "Indonesia",
+          15
+        ],
+        [
+          "South Korea",
+          14
+        ],
+        [
+          "Malaysia",
+          11
+        ],
+        [
+          "Taiwan",
+          9
+        ],
+        [
+          "Pakistan",
+          8
+        ],
+        [
+          "Vietnam",
+          7
+        ],
+        [
+          "Bangladesh",
+          7
+        ],
+        [
+          "Trinidad and Tobago",
+          6
+        ],
+        [
+          "Thailand",
+          6
+        ],
+        [
+          "Spain",
+          6
+        ],
+        [
+          "France",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country or territory.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Asia Pacific",
+          530
+        ],
+        [
+          "North America",
+          86
+        ],
+        [
+          "Europe",
+          83
+        ],
+        [
+          "Middle East",
+          64
+        ],
+        [
+          "Eurasia",
+          64
+        ],
+        [
+          "Africa",
+          25
+        ],
+        [
+          "Central and South America",
+          16
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "World Economic Outlook (WEO) region.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ISO3 code",
+      "code_friendly_name_guess": "iso3_code",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "CHN",
+          365
+        ],
+        [
+          "USA",
+          64
+        ],
+        [
+          "IND",
+          48
+        ],
+        [
+          "RUS",
+          47
+        ],
+        [
+          "IRN",
+          36
+        ],
+        [
+          "DEU",
+          18
+        ],
+        [
+          "SAU",
+          17
+        ],
+        [
+          "JPN",
+          17
+        ],
+        [
+          "CAN",
+          17
+        ],
+        [
+          "IDN",
+          15
+        ],
+        [
+          "KOR",
+          14
+        ],
+        [
+          "MYS",
+          11
+        ],
+        [
+          "TWN",
+          9
+        ],
+        [
+          "PAK",
+          8
+        ],
+        [
+          "VNM",
+          7
+        ],
+        [
+          "BGD",
+          7
+        ],
+        [
+          "TTO",
+          6
+        ],
+        [
+          "THA",
+          6
+        ],
+        [
+          "FRA",
+          6
+        ],
+        [
+          "ESP",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "ISO 3166-1 alpha-3 code published by the International Organization for Standardization (ISO) to represent countries, dependent territories, and special areas of geographical interest.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinates",
+      "code_friendly_name_guess": "coordinates",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 868,
+      "top_values": [
+        [
+          "9.965318, 76.383388",
+          1
+        ],
+        [
+          "9.965317, 76.379019",
+          1
+        ],
+        [
+          "9.237424, 105.063706",
+          1
+        ],
+        [
+          "7.075213, -73.885799",
+          1
+        ],
+        [
+          "63.876734, -22.423624",
+          1
+        ],
+        [
+          "63.575497, 53.951132",
+          1
+        ],
+        [
+          "61.288972, 73.004918",
+          1
+        ],
+        [
+          "60.312635, 25.525042",
+          1
+        ],
+        [
+          "6.441889, 4.049642",
+          1
+        ],
+        [
+          "59.484700, 32.054248",
+          1
+        ],
+        [
+          "59.407380, 27.233833",
+          1
+        ],
+        [
+          "59.403608, 56.741981",
+          1
+        ],
+        [
+          "59.398261, 28.488257",
+          1
+        ],
+        [
+          "59.151308, 37.827069",
+          1
+        ],
+        [
+          "59.136111, 37.876964",
+          1
+        ],
+        [
+          "59.121411, 9.630221",
+          1
+        ],
+        [
+          "59.098076, 9.591608",
+          1
+        ],
+        [
+          "58.619185, 31.220208",
+          1
+        ],
+        [
+          "58.240994, 68.445307",
+          1
+        ],
+        [
+          "58.190211, 56.391142",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Coordinates (latitude, longitude) of chemical plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinate accuracy",
+      "code_friendly_name_guess": "coordinate_accuracy",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          715
+        ],
+        [
+          "approximate",
+          153
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Coordinate accuracy defined as \"exact\" = location confirmed via satellite imagery, \"approximate\" = location estimated or undefined.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 868,
+      "top_values": [
+        [
+          "https://gem.wiki/Zibo_Qixiang_Tengda_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhuhai_Changlian_Petrochemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhongtian_Hechuang_Coal-to-Chemicals_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhongke_Guangdong_Refining_and_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhongjiao_(Inner_Mongolia)_New_Material_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhong'an_United_Coal_Chemical_Company_Huainan_Methanol_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhenyuan_County_Hydrogen-to-Methanol_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhenxiong_Chishuiyuan_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhenjiang_Dagang_Fusheng_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhejiang_Xingxing_New_Energy_Technology_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhejiang_Petrochemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhejiang_Petrochemical_Daishan_Complex",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhejiang_Jinhua_Zhongyuan_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zhejiang_Jiangshan_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zapsibneftekhim_Chemical_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Zagros_Asaluyeh_Methanol_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Yuntian_International_Red_Phosphorus_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Yunnan_Yuxi_Yinhe_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Yunnan_Yunwei_Ammonia_Plant",
+          1
+        ],
+        [
+          "https://gem.wiki/Yunnan_Yunfeng_Ammonia_Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM wiki page.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Primary products",
+      "code_friendly_name_guess": "primary_products",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 68,
+      "top_values": [
+        [
+          "ammonia",
+          309
+        ],
+        [
+          "methanol",
+          81
+        ],
+        [
+          "ethylene",
+          60
+        ],
+        [
+          "ethylene; propylene",
+          52
+        ],
+        [
+          "benzene; toluene; xylene",
+          34
+        ],
+        [
+          "xylene",
+          29
+        ],
+        [
+          "ammonia; methanol",
+          28
+        ],
+        [
+          "benzene",
+          24
+        ],
+        [
+          "propylene",
+          21
+        ],
+        [
+          "ethylene; propylene; butadiene; benzene; toluene; xylene",
+          21
+        ],
+        [
+          "ethylene; propylene; butadiene",
+          20
+        ],
+        [
+          "butadiene",
+          15
+        ],
+        [
+          "ethylene; propylene; benzene; toluene; xylene",
+          14
+        ],
+        [
+          "benzene; xylene",
+          14
+        ],
+        [
+          "ethylene; propylene; benzene",
+          13
+        ],
+        [
+          "ethylene; propylene; butadiene; benzene",
+          12
+        ],
+        [
+          "benzene; toluene",
+          9
+        ],
+        [
+          "olefins (unknown type)",
+          6
+        ],
+        [
+          "ethylene; butadiene",
+          6
+        ],
+        [
+          "propylene; benzene; toluene; xylene",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Any of the 8 tracked chemicals produced on-site: ethylene, propylene, and butadiene (\"olefins\"); benzene, toluene, and xylene (\"aromatics\"); methanol; and ammonia. Note they are denoted as \"primary\" even if they are consumed immediately downstream. In the few instances where the exact type of olefin or aromatic is unconfirmed, the primary product is listed as \"olefins (unknown type)\" or \"aromatics (unknown type),\" respectively.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Secondary products",
+      "code_friendly_name_guess": "secondary_products",
+      "n_total": 868,
+      "n_null": 333,
+      "n_non_null": 535,
+      "null_rate": 0.3836,
+      "n_unique": 296,
+      "top_values": [
+        [
+          "urea",
+          110
+        ],
+        [
+          "polyethylene",
+          23
+        ],
+        [
+          "polypropylene",
+          22
+        ],
+        [
+          "polyethylene; polypropylene",
+          22
+        ],
+        [
+          "fertilizer (unknown type)",
+          9
+        ],
+        [
+          "ammonium nitrate; urea",
+          6
+        ],
+        [
+          "NPK fertilizer; urea",
+          6
+        ],
+        [
+          "butene-1; polyethylene; polypropylene",
+          4
+        ],
+        [
+          "ammonium nitrate",
+          4
+        ],
+        [
+          "nitric acid; urea ammonium nitrate (UAN)",
+          3
+        ],
+        [
+          "melamine; NPK fertilizer; urea",
+          3
+        ],
+        [
+          "ethylene glycol; ethylene oxide; polyethylene",
+          3
+        ],
+        [
+          "diesel exhaust fluid; nitric acid; urea; urea ammonium nitrate (UAN)",
+          3
+        ],
+        [
+          "ammonium sulfate; urea",
+          3
+        ],
+        [
+          "ammonium phosphate; urea",
+          3
+        ],
+        [
+          "ammonium nitrate; nitric acid; urea",
+          3
+        ],
+        [
+          "ammonium nitrate; nitric acid",
+          3
+        ],
+        [
+          "acetone; isophthalic acid; phenol; styrene monomer; terephthalic acid",
+          3
+        ],
+        [
+          "urea ammonium nitrate (UAN)",
+          2
+        ],
+        [
+          "polypropylene; styrene",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Any chemical other than the primary products made on-site (e.g., polyethylene, fertilizers, gasoline). They are denoted as \"secondary\" even if they are the main economic product at the chemical plant. Not comprehensive.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Feedstock",
+      "code_friendly_name_guess": "feedstock",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 89,
+      "top_values": [
+        [
+          "natural gas",
+          222
+        ],
+        [
+          "coal",
+          146
+        ],
+        [
+          "unknown",
+          121
+        ],
+        [
+          "naphtha",
+          70
+        ],
+        [
+          "crude oil",
+          54
+        ],
+        [
+          "ethane",
+          34
+        ],
+        [
+          "ethane; propane",
+          20
+        ],
+        [
+          "green hydrogen",
+          15
+        ],
+        [
+          "methanol",
+          10
+        ],
+        [
+          "methane",
+          10
+        ],
+        [
+          "ethane; naphtha",
+          10
+        ],
+        [
+          "naphtha; natural gas",
+          9
+        ],
+        [
+          "propane",
+          8
+        ],
+        [
+          "crude oil; natural gas",
+          8
+        ],
+        [
+          "natural gas liquids (NGL)",
+          7
+        ],
+        [
+          "coke oven gas",
+          7
+        ],
+        [
+          "liquid petroleum gas (LPG); naphtha",
+          6
+        ],
+        [
+          "liquid petroleum gas (LPG)",
+          6
+        ],
+        [
+          "ethane; naphtha; propane",
+          5
+        ],
+        [
+          "naphtha; natural gas liquids (NGL)",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Main feedstock(s) used to produce the primary products at the chemical plant. There are 42 feedstock options included in this database: acetic acid, benzene, bio-oils, bioethanol, biogas, biomass, biomethane, butane, carbon dioxide, coal, coal bed methane, coke, coke oven gas, condensate, crude oil, ethane, ethylene, fuel oil, gas oil, green hydrogen, heavy fuel oil, heavy oil, hydrogen, hydrotreated residue, light oil, liquefied natural gas (LNG), liquid petroleum gas (LPG), methane, methanol, mixed c4, mixed xylenes, naphtha, natural gas, natural gas liquids (NGL), propane, propylene, pyrolysis gasoline, pyrolysis oil, reformate, sulfuric acid, vacuum gas oil, or unknown.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Feedstock accuracy",
+      "code_friendly_name_guess": "feedstock_accuracy",
+      "n_total": 868,
+      "n_null": 0,
+      "n_non_null": 868,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "exact",
+          693
+        ],
+        [
+          "unknown",
+          121
+        ],
+        [
+          "assumed",
+          54
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Indicates the confidence level of the identified feedstock: \"exact\" = feedstock explicitly confirmed by a credible source (e.g., company reports, government data); \"assumed\" = feedstock inferred based on process type and/or region (e.g., steam methane reforming implies natural gas) but not explicitly stated; \"unknown\" = no sufficient basis to identify the feedstock.",
+      "notes_from_readme": null
+    }
+  ]
+}

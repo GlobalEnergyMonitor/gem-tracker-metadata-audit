@@ -1,0 +1,3278 @@
+{
+  "table_name": "global_oil_and_gas_plant_tracker_gogpt_january_2026__sub_threshold_units",
+  "tracker_slug": "global_oil_and_gas_plant_tracker_gogpt_january_2026",
+  "tab_slug": "sub_threshold_units",
+  "n_rows": 1111,
+  "analyzed_at": "2026-07-07T21:45:19.242741+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Plant Tracker - January 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Oil and Gas Plant Tracker, January 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Jenny Martos, Project Manager, Global Energy Monitor - jenny.martos@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Plant Tracker, January 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 432,
+      "top_values": [
+        [
+          "https://www.gem.wiki/PW_Mobile_power_plant",
+          42
+        ],
+        [
+          "https://www.gem.wiki/Termomacaé_power_station",
+          20
+        ],
+        [
+          "https://www.gem.wiki/Rey_power_station",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Tehama_Central_power_station",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Baghdad_South_2_power_plant",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Hallett_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Mulla_Abdullah_Power_Plant",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Makkah_2_power_plant",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Jeddah_PP3_power_plant",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Coolidge_generation_station",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Layyah_power_station",
+          11
+        ],
+        [
+          "https://www.gem.wiki/Argyle_Diamonds_power_station",
+          11
+        ],
+        [
+          "https://www.gem.wiki/Zahedan1_power_station",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Tashan_power_plant",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Moín_power_station",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Salalah_Power_Plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Hyundai_Diesel_power_plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Guangdong_Energy_Jieyang_Dananhai_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Fort_Victoria_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/CTG_González_Ortega_power_station",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "GEM.wiki URL for plant",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 91,
+      "top_values": [
+        [
+          "Iran",
+          170
+        ],
+        [
+          "Australia",
+          90
+        ],
+        [
+          "Iraq",
+          83
+        ],
+        [
+          "Saudi Arabia",
+          79
+        ],
+        [
+          "United States",
+          73
+        ],
+        [
+          "Algeria",
+          53
+        ],
+        [
+          "Brazil",
+          40
+        ],
+        [
+          "China",
+          27
+        ],
+        [
+          "United Arab Emirates",
+          26
+        ],
+        [
+          "Kuwait",
+          25
+        ],
+        [
+          "Oman",
+          24
+        ],
+        [
+          "Mauritius",
+          24
+        ],
+        [
+          "Mexico",
+          20
+        ],
+        [
+          "Canada",
+          19
+        ],
+        [
+          "Papua New Guinea",
+          18
+        ],
+        [
+          "Yemen",
+          17
+        ],
+        [
+          "Taiwan",
+          17
+        ],
+        [
+          "Indonesia",
+          17
+        ],
+        [
+          "Syria",
+          13
+        ],
+        [
+          "Bolivia",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country/area location of the power station (unabbreviated). The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name",
+      "code_friendly_name_guess": "plant_name",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 432,
+      "top_values": [
+        [
+          "PW Mobile power plant",
+          42
+        ],
+        [
+          "Termomacaé power station",
+          20
+        ],
+        [
+          "Rey power station",
+          18
+        ],
+        [
+          "Tehama Central power station",
+          17
+        ],
+        [
+          "Baghdad South 2 power plant",
+          16
+        ],
+        [
+          "Hallett power station",
+          13
+        ],
+        [
+          "Mulla Abdullah Power Plant",
+          12
+        ],
+        [
+          "Makkah 2 power plant",
+          12
+        ],
+        [
+          "Jeddah PP3 power plant",
+          12
+        ],
+        [
+          "Coolidge generation station",
+          12
+        ],
+        [
+          "Layyah power station",
+          11
+        ],
+        [
+          "Argyle Diamonds power station",
+          11
+        ],
+        [
+          "Zahedan1 power station",
+          9
+        ],
+        [
+          "Tashan power plant",
+          9
+        ],
+        [
+          "Moín power station",
+          9
+        ],
+        [
+          "Salalah Power Plant",
+          8
+        ],
+        [
+          "Hyundai Diesel power plant",
+          8
+        ],
+        [
+          "Guangdong Energy Jieyang Dananhai power station",
+          8
+        ],
+        [
+          "Fort Victoria power station",
+          8
+        ],
+        [
+          "CTG González Ortega power station",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Commonly used name",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant Name in Local Language / Script",
+      "code_friendly_name_guess": "plant_name_in_local_language_script",
+      "n_total": 1111,
+      "n_null": 565,
+      "n_non_null": 546,
+      "null_rate": 0.5086,
+      "n_unique": 140,
+      "top_values": [
+        [
+          "محطة كهرباء الحامة المتنقلة",
+          42
+        ],
+        [
+          "Usina Termelétrica Termomacaé",
+          20
+        ],
+        [
+          "نیروگاه برق ری",
+          18
+        ],
+        [
+          "محطة كهرباء تهامة المركزية",
+          17
+        ],
+        [
+          "محطة كهرباء جنوب بغداد الغازية الثانية",
+          16
+        ],
+        [
+          "محطة كهرباء مكة ٢",
+          12
+        ],
+        [
+          "محطة كهرباء الشهيد عبدالله، محطة كهرباء عبدالله القديمة، محطة كهرباء عبدالله الغازية",
+          12
+        ],
+        [
+          "محطة توليد الكهرباء الثالثة جدة",
+          12
+        ],
+        [
+          "محطة كهرباء اللية , محطة اللية لتوليد الطاقة",
+          11
+        ],
+        [
+          "塔山發電廠",
+          9
+        ],
+        [
+          "نیروگاه سیکل ترکیبی زاهدان",
+          9
+        ],
+        [
+          "Planta Térmica Moín Gas",
+          9
+        ],
+        [
+          "广东能源揭阳大南海天然气热电联产项目",
+          8
+        ],
+        [
+          "محطة كهرباء صلالة ١، محطة كهرباء صلالة",
+          8
+        ],
+        [
+          "محطة ديزالت هونداي",
+          8
+        ],
+        [
+          "Usina Termelétrica Barbosa Lima Sobrinho",
+          8
+        ],
+        [
+          "Central TG González Ortega",
+          8
+        ],
+        [
+          "نیروگاه گازی شیراز",
+          7
+        ],
+        [
+          "محطة كهرباء تبوك ١",
+          7
+        ],
+        [
+          "Central Eléctrica Puerto Sandino",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Commonly used name in the locally used script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 1111,
+      "n_null": 843,
+      "n_non_null": 268,
+      "null_rate": 0.7588,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "Hamma Mobile power plant (Units 29, 30)",
+          42
+        ],
+        [
+          "Mário Lago",
+          20
+        ],
+        [
+          "Tehran-Rey, Tehran-2 power plant",
+          18
+        ],
+        [
+          "Baghdad South Gas Power Plant-2",
+          16
+        ],
+        [
+          "Old Mullah Abdullah Power Plant",
+          12
+        ],
+        [
+          "Al Layyah power plant",
+          11
+        ],
+        [
+          "PAWA PNG Power Island Project",
+          8
+        ],
+        [
+          "Eletrobolt, Seropédica",
+          8
+        ],
+        [
+          "Yibal Power  Plant",
+          6
+        ],
+        [
+          "Shuwaikh Emergency Power Plant",
+          6
+        ],
+        [
+          "Shams Pasargad power gerneration (Unit 1)",
+          6
+        ],
+        [
+          "SBCC 5 (Unit CC5), SBOC 8 (Unit SBOC-8), SBCC 1 (Units CC1-1, CC1-2, CC1-3), SBCC 4 (Unit CC4), SBCC 3 (Units 4-GT1, 4-GT2, 4-ST1), SBOC 2 (Units 2-GT1, 2-GT2, 2-GT3, 2-GT4)",
+          6
+        ],
+        [
+          "Ennis power station",
+          6
+        ],
+        [
+          "Dibs (Units 1-1, 2-1, 2-2, 2-3)",
+          6
+        ],
+        [
+          "日照旭日发电有限公司3×135MW煤气综合利用电厂1#机组工程项目 (Unit 5), 旭日发电有限公司日照钢铁5号135MW煤气发电机组 (Unit 7)",
+          4
+        ],
+        [
+          "ZSCC 9 (Unit CC3), ZSCC1 (Units CC1-1, CC1-2), ZSCC2 (Units CC2-1, CC2-2)",
+          4
+        ],
+        [
+          "Qudus, Qudis, Quods",
+          4
+        ],
+        [
+          "PAWA PNG Power Island Project, Power Island FSRP Project",
+          4
+        ],
+        [
+          "El Golea Power Plant",
+          4
+        ],
+        [
+          "Derweze",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternative names",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 252,
+      "top_values": [
+        [
+          "1.0",
+          260
+        ],
+        [
+          "2.0",
+          141
+        ],
+        [
+          "3.0",
+          91
+        ],
+        [
+          "4.0",
+          62
+        ],
+        [
+          "5.0",
+          40
+        ],
+        [
+          "6.0",
+          31
+        ],
+        [
+          "7.0",
+          25
+        ],
+        [
+          "8.0",
+          17
+        ],
+        [
+          "9.0",
+          15
+        ],
+        [
+          "12.0",
+          14
+        ],
+        [
+          "10.0",
+          13
+        ],
+        [
+          "11.0",
+          10
+        ],
+        [
+          "GT",
+          9
+        ],
+        [
+          "2026-02-02 00:00:00",
+          9
+        ],
+        [
+          "2026-01-02 00:00:00",
+          8
+        ],
+        [
+          "13.0",
+          8
+        ],
+        [
+          "GT2",
+          7
+        ],
+        [
+          "16.0",
+          7
+        ],
+        [
+          "15.0",
+          7
+        ],
+        [
+          "14.0",
+          7
+        ]
+      ],
+      "portion_numeric": 0.816,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "Sequential numbers, grouped by blocks with emdash is necessary (e.g. 1-1, 2-1)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "fossil gas: natural gas",
+          557
+        ],
+        [
+          "fossil liquids: diesel",
+          114
+        ],
+        [
+          "fossil liquids: heavy fuel oil",
+          68
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: fuel oil",
+          64
+        ],
+        [
+          "fossil liquids: fuel oil",
+          47
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: diesel",
+          45
+        ],
+        [
+          "fossil gas: LNG",
+          33
+        ],
+        [
+          "fossil liquids: crude oil, fossil liquids: diesel",
+          29
+        ],
+        [
+          "fossil liquids: heavy fuel oil, fossil liquids: diesel",
+          17
+        ],
+        [
+          "fossil liquids: diesel, fossil liquids: fuel oil",
+          13
+        ],
+        [
+          "fossil gas: waste heat from natural gas",
+          11
+        ],
+        [
+          "fossil liquids: diesel, fossil liquids: heavy fuel oil",
+          10
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+          9
+        ],
+        [
+          "fossil gas: unknown",
+          8
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (unknown) [10%]",
+          8
+        ],
+        [
+          "fossil gas: LNG, fossil liquids: diesel",
+          8
+        ],
+        [
+          "fossil liquids: light fuel oil",
+          6
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: crude oil",
+          6
+        ],
+        [
+          "industrial by-product: blast furnace gas",
+          5
+        ],
+        [
+          "fossil liquids: diesel, fossil liquids: crude oil",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "All fuel types supported. See Abbreviations tab for mapping to previous abbreviations.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 145,
+      "top_values": [
+        [
+          "25.0",
+          139
+        ],
+        [
+          "30.0",
+          64
+        ],
+        [
+          "45.0",
+          59
+        ],
+        [
+          "20.0",
+          56
+        ],
+        [
+          "0.0",
+          44
+        ],
+        [
+          "40.0",
+          38
+        ],
+        [
+          "24.0",
+          31
+        ],
+        [
+          "48.0",
+          26
+        ],
+        [
+          "32.0",
+          25
+        ],
+        [
+          "18.0",
+          21
+        ],
+        [
+          "46.1",
+          20
+        ],
+        [
+          "33.0",
+          20
+        ],
+        [
+          "43.0",
+          19
+        ],
+        [
+          "42.0",
+          19
+        ],
+        [
+          "15.0",
+          19
+        ],
+        [
+          "37.0",
+          17
+        ],
+        [
+          "10.0",
+          17
+        ],
+        [
+          "47.0",
+          15
+        ],
+        [
+          "37.5",
+          15
+        ],
+        [
+          "17.0",
+          15
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Installed capacity of the unit, in megawatts",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          945
+        ],
+        [
+          "construction",
+          50
+        ],
+        [
+          "pre-construction",
+          39
+        ],
+        [
+          "announced",
+          31
+        ],
+        [
+          "cancelled - inferred 4 y",
+          22
+        ],
+        [
+          "mothballed",
+          11
+        ],
+        [
+          "retired",
+          8
+        ],
+        [
+          "shelved - inferred 2 y",
+          4
+        ],
+        [
+          "shelved",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "Current status of plant, see definitions in About tab",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "construction",
+          "definition": "Site preparation and other activities are underway."
+        },
+        {
+          "name": "operating",
+          "definition": "The plant has been formally commissioned; commercial operation has begun."
+        },
+        {
+          "name": "shelved",
+          "definition": "Two years have passed with no action on a project after the project proposal."
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made. The status is marked as ‘cancelled – inferred 4 y’ if no progress has been observed for at least four years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "The project is disused, but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "The project has been decommissioned; this term is also used if the plant has been destroyed by war."
+        }
+      ]
+    },
+    {
+      "field_name": "Turbine/Engine Technology",
+      "code_friendly_name_guess": "turbine_engine_technology",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "gas turbine",
+          748
+        ],
+        [
+          "internal combustion",
+          183
+        ],
+        [
+          "steam turbine",
+          71
+        ],
+        [
+          "unknown",
+          44
+        ],
+        [
+          "combined cycle",
+          37
+        ],
+        [
+          "ICCC",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Equipment technology. Options include: internal combustion, combined cycle, gas turbine, internal combustion combined cycle, integrated solar combined cycle, steam turbine, Allam-Fetvedt Cycle",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Equipment Manufacturer/Model",
+      "code_friendly_name_guess": "equipment_manufacturer_model",
+      "n_total": 1111,
+      "n_null": 842,
+      "n_non_null": 269,
+      "null_rate": 0.7579,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "not found",
+          61
+        ],
+        [
+          "GE Vernova: LM6000PC",
+          12
+        ],
+        [
+          "GE Power: MS7001B",
+          11
+        ],
+        [
+          "Mapna Group: MGT-40",
+          9
+        ],
+        [
+          "Siemens Energy: SGT-A45",
+          8
+        ],
+        [
+          "Pratt & Whitney: FT8",
+          8
+        ],
+        [
+          "GE Vernova: LM6000",
+          8
+        ],
+        [
+          "MAN Energy Solutions",
+          7
+        ],
+        [
+          "GE Power: TM2500",
+          7
+        ],
+        [
+          "GE Power: LM6000",
+          7
+        ],
+        [
+          "GE Power: PG6581B",
+          6
+        ],
+        [
+          "GE Power",
+          6
+        ],
+        [
+          "Siemens Energy: SGT-800",
+          5
+        ],
+        [
+          "GE Power: GT-5 MS6000",
+          5
+        ],
+        [
+          "GE Power: Frame 6B",
+          5
+        ],
+        [
+          "GE Power: Frame 6",
+          5
+        ],
+        [
+          "GE Power: Frame 5",
+          5
+        ],
+        [
+          "EthosEnergy: TG20 B7/8",
+          5
+        ],
+        [
+          "not found: SGT-600",
+          4
+        ],
+        [
+          "not found: 6B",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Equpment manufacturer and model.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CHP",
+      "code_friendly_name_guess": "chp",
+      "n_total": 1111,
+      "n_null": 258,
+      "n_non_null": 853,
+      "null_rate": 0.2322,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "not found",
+          686
+        ],
+        [
+          "yes",
+          112
+        ],
+        [
+          "no",
+          55
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Combined heat and power/cogeneration. Options include: yes, no, not found",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Hydrogen capable?",
+      "code_friendly_name_guess": "hydrogen_capable",
+      "n_total": 1111,
+      "n_null": 348,
+      "n_non_null": 763,
+      "null_rate": 0.3132,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "not found",
+          718
+        ],
+        [
+          "hydrogen capable: turbine",
+          23
+        ],
+        [
+          "no",
+          22
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nN - The plant is not capable of using hydrogen. \nnot found - no information found",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CCS attachment?",
+      "code_friendly_name_guess": "ccs_attachment",
+      "n_total": 1111,
+      "n_null": 383,
+      "n_non_null": 728,
+      "null_rate": 0.3447,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "not found",
+          700
+        ],
+        [
+          "no",
+          27
+        ],
+        [
+          "yes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Carbon capture and storage (CCS) is most relevant for in development projects. Options include: yes, no, not found",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion/replacement?",
+      "code_friendly_name_guess": "conversion_replacement",
+      "n_total": 1111,
+      "n_null": 1100,
+      "n_non_null": 11,
+      "null_rate": 0.9901,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "conversion",
+          7
+        ],
+        [
+          "replacement",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion from/replacement of (fuel)",
+      "code_friendly_name_guess": "conversion_from_replacement_of_fuel",
+      "n_total": 1111,
+      "n_null": 1101,
+      "n_non_null": 10,
+      "null_rate": 0.991,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "coal: unknown",
+          5
+        ],
+        [
+          "coal: unknown, fossil liquids: petroleum coke",
+          2
+        ],
+        [
+          "fossil liquids: fuel oil",
+          1
+        ],
+        [
+          "coal: subbituminous",
+          1
+        ],
+        [
+          "coal: lignite",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Fuel that unit is converted from, or being replaced",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion from/replacement of (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_from_replacement_of_gem_unit_id",
+      "n_total": 1111,
+      "n_null": 1101,
+      "n_non_null": 10,
+      "null_rate": 0.991,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "G100000113823",
+          2
+        ],
+        [
+          "G100000414077",
+          1
+        ],
+        [
+          "G100000113951",
+          1
+        ],
+        [
+          "G100000113950",
+          1
+        ],
+        [
+          "G100000113102",
+          1
+        ],
+        [
+          "G100000110969",
+          1
+        ],
+        [
+          "G100000110968",
+          1
+        ],
+        [
+          "G100000109540",
+          1
+        ],
+        [
+          "G100000100160",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "GEM Unit ID of unit that is being converted from, or being replaced",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion to (fuel)",
+      "code_friendly_name_guess": "conversion_to_fuel",
+      "n_total": 1111,
+      "n_null": 1109,
+      "n_non_null": 2,
+      "null_rate": 0.9982,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "bioenergy: bio-heavy oil",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Conversion to (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_to_gem_unit_id",
+      "n_total": 1111,
+      "n_null": 1109,
+      "n_non_null": 2,
+      "null_rate": 0.9982,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "G100001054767",
+          1
+        ],
+        [
+          "G100001054766",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 1111,
+      "n_null": 341,
+      "n_non_null": 770,
+      "null_rate": 0.3069,
+      "n_unique": 69,
+      "top_values": [
+        [
+          "2001.0",
+          58
+        ],
+        [
+          "2026.0",
+          26
+        ],
+        [
+          "2015.0",
+          26
+        ],
+        [
+          "2002.0",
+          25
+        ],
+        [
+          "2010.0",
+          24
+        ],
+        [
+          "2003.0",
+          24
+        ],
+        [
+          "2018.0",
+          23
+        ],
+        [
+          "1991.0",
+          23
+        ],
+        [
+          "2016.0",
+          22
+        ],
+        [
+          "2021.0",
+          21
+        ],
+        [
+          "2012.0",
+          20
+        ],
+        [
+          "2007.0",
+          20
+        ],
+        [
+          "2022.0",
+          19
+        ],
+        [
+          "2017.0",
+          18
+        ],
+        [
+          "2008.0",
+          18
+        ],
+        [
+          "2004.0",
+          18
+        ],
+        [
+          "1976.0",
+          17
+        ],
+        [
+          "2011.0",
+          16
+        ],
+        [
+          "1992.0",
+          16
+        ],
+        [
+          "2027.0",
+          15
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year for the unit's commissioning; For combined cycle sets, which are composed of multiple gas and steam turbines which may not have all been built at the same time, the start year reflects when they began combined cycle operation together.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 1111,
+      "n_null": 1103,
+      "n_non_null": 8,
+      "null_rate": 0.9928,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "2022.0",
+          5
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2021.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the plant is decommissioned",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Planned retire",
+      "code_friendly_name_guess": "planned_retire",
+      "n_total": 1111,
+      "n_null": 1063,
+      "n_non_null": 48,
+      "null_rate": 0.9568,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "2032.0",
+          11
+        ],
+        [
+          "2027.0",
+          8
+        ],
+        [
+          "2045.0",
+          4
+        ],
+        [
+          "2033.0",
+          4
+        ],
+        [
+          "2026.0",
+          4
+        ],
+        [
+          "2040.0",
+          3
+        ],
+        [
+          "2028.0",
+          3
+        ],
+        [
+          "2054.0",
+          2
+        ],
+        [
+          "2042.0",
+          2
+        ],
+        [
+          "2030.0",
+          2
+        ],
+        [
+          "2055.0",
+          1
+        ],
+        [
+          "2053.0",
+          1
+        ],
+        [
+          "2050.0",
+          1
+        ],
+        [
+          "2034.0",
+          1
+        ],
+        [
+          "2025.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Future date for the unit's planned retirement",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operator(s)",
+      "code_friendly_name_guess": "operator_s",
+      "n_total": 1111,
+      "n_null": 989,
+      "n_non_null": 122,
+      "null_rate": 0.8902,
+      "n_unique": 51,
+      "top_values": [
+        [
+          "Petroleum Development Oman",
+          12
+        ],
+        [
+          "Dhofar Generating Company",
+          8
+        ],
+        [
+          "CFE Generación III",
+          7
+        ],
+        [
+          "Songas",
+          6
+        ],
+        [
+          "Tanzania Electric Supply Company",
+          5
+        ],
+        [
+          "Sudanese Thermal Power Generating Company",
+          4
+        ],
+        [
+          "Sharjah Electricity & Water Authority",
+          4
+        ],
+        [
+          "Masila Petroleum Exploration & Production",
+          4
+        ],
+        [
+          "Iberdrola Australia",
+          4
+        ],
+        [
+          "Amazonas Geração e Transmissão de Energia",
+          4
+        ],
+        [
+          "Verve Energy",
+          3
+        ],
+        [
+          "Utico Middle East",
+          3
+        ],
+        [
+          "Sonelgaz",
+          3
+        ],
+        [
+          "NAWEC",
+          3
+        ],
+        [
+          "Ministry of Oil (Iraq)",
+          3
+        ],
+        [
+          "K-Energie",
+          3
+        ],
+        [
+          "EthnosEnergy",
+          3
+        ],
+        [
+          "East Delta Electricity Production",
+          3
+        ],
+        [
+          "West Delta Electricity Production",
+          2
+        ],
+        [
+          "Samra Electric Power",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that is responsible for day-to-day operations at a plant. This is usually only one company.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 1111,
+      "n_null": 38,
+      "n_non_null": 1073,
+      "null_rate": 0.0342,
+      "n_unique": 271,
+      "top_values": [
+        [
+          "Ministry of Electricity (Iraq) [100%]",
+          74
+        ],
+        [
+          "Saudi Electricity Co [100%]",
+          72
+        ],
+        [
+          "Thermal Power Plants Holding Co [100%]",
+          65
+        ],
+        [
+          "Société Algérienne de Production de l'Electricité SpA [100%]",
+          42
+        ],
+        [
+          "Petróleo Brasileiro SA [100%]",
+          30
+        ],
+        [
+          "Central Electricity Board (Mauritius) [100%]",
+          24
+        ],
+        [
+          "Sharjah Electricity & Water Authority [100%]",
+          23
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          20
+        ],
+        [
+          "Ministry of Electricity and Water and Renewable Energy (Kuwait) [100%]",
+          15
+        ],
+        [
+          "Salt River Project [100%]",
+          14
+        ],
+        [
+          "PT PLN (Persero)",
+          13
+        ],
+        [
+          "EnergyAustralia Ecogen Pty Ltd",
+          13
+        ],
+        [
+          "Twenty20 Energy Systems Pte Ltd [100%]",
+          12
+        ],
+        [
+          "Petroleum Development Oman LLC",
+          12
+        ],
+        [
+          "National Iranian Oil Co [100%]",
+          12
+        ],
+        [
+          "Electricité de France SA [100%]",
+          12
+        ],
+        [
+          "Public Establishment of Electricity Generation [100%]",
+          11
+        ],
+        [
+          "Argyle Diamonds Ltd",
+          11
+        ],
+        [
+          "Turkmenenergo [100%]",
+          10
+        ],
+        [
+          "Taiwan Power Co [100%]",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner(s) GEM Entity ID",
+      "code_friendly_name_guess": "owner_s_gem_entity_id",
+      "n_total": 1111,
+      "n_null": 38,
+      "n_non_null": 1073,
+      "null_rate": 0.0342,
+      "n_unique": 271,
+      "top_values": [
+        [
+          "E100000001354 [100%]",
+          74
+        ],
+        [
+          "E100000000890 [100%]",
+          72
+        ],
+        [
+          "E100000000551 [100%]",
+          65
+        ],
+        [
+          "E100000004059 [100%]",
+          42
+        ],
+        [
+          "E100000000084 [100%]",
+          30
+        ],
+        [
+          "E100001011792 [100%]",
+          24
+        ],
+        [
+          "E100000002161 [100%]",
+          23
+        ],
+        [
+          "E100000002016 [100%]",
+          20
+        ],
+        [
+          "E100000002002 [100%]",
+          15
+        ],
+        [
+          "E100000001291 [100%]",
+          14
+        ],
+        [
+          "E100000002956",
+          13
+        ],
+        [
+          "E100000000537",
+          13
+        ],
+        [
+          "E100001012032 [100%]",
+          12
+        ],
+        [
+          "E100000003810",
+          12
+        ],
+        [
+          "E100000001870 [100%]",
+          12
+        ],
+        [
+          "E100000000556 [100%]",
+          12
+        ],
+        [
+          "E100001011248",
+          11
+        ],
+        [
+          "E100000002125 [100%]",
+          11
+        ],
+        [
+          "E100000002138 [100%]",
+          10
+        ],
+        [
+          "E100000002128 [100%]",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 1111,
+      "n_null": 37,
+      "n_non_null": 1074,
+      "null_rate": 0.0333,
+      "n_unique": 253,
+      "top_values": [
+        [
+          "Ministry of Electricity (Iraq) [100.0%]",
+          74
+        ],
+        [
+          "Saudi Electricity Co [100.0%]",
+          72
+        ],
+        [
+          "Thermal Power Plants Holding Co [100.0%]",
+          69
+        ],
+        [
+          "Sonelgaz SpA [100.0%]",
+          49
+        ],
+        [
+          "Petróleo Brasileiro SA [100.0%]",
+          30
+        ],
+        [
+          "Central Electricity Board (Mauritius) [100.0%]",
+          24
+        ],
+        [
+          "Sharjah Electricity & Water Authority [100.0%]",
+          23
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100.0%]",
+          20
+        ],
+        [
+          "National Iranian Oil Co [100.0%]",
+          16
+        ],
+        [
+          "Ministry of Electricity and Water and Renewable Energy (Kuwait) [100.0%]",
+          15
+        ],
+        [
+          "Salt River Project [100.0%]",
+          14
+        ],
+        [
+          "PT PLN (Persero)",
+          13
+        ],
+        [
+          "CLP Holdings Ltd",
+          13
+        ],
+        [
+          "T20 Holdings Ltd [100.0%]",
+          12
+        ],
+        [
+          "Energy Development Oman SAOC; Shell PLC; small shareholder(s)",
+          12
+        ],
+        [
+          "Electricité de France SA [100.0%]",
+          12
+        ],
+        [
+          "Rio Tinto PLC",
+          11
+        ],
+        [
+          "Public Establishment of Electricity Generation [100.0%]",
+          11
+        ],
+        [
+          "Turkmenenergo [100.0%]",
+          10
+        ],
+        [
+          "Taiwan Power Co [100.0%]",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 1111,
+      "n_null": 15,
+      "n_non_null": 1096,
+      "null_rate": 0.0135,
+      "n_unique": 254,
+      "top_values": [
+        [
+          "E100000001354 [100.0%]",
+          74
+        ],
+        [
+          "E100000000890 [100.0%]",
+          72
+        ],
+        [
+          "E100000000551 [100.0%]",
+          69
+        ],
+        [
+          "E100000001755 [100.0%]",
+          49
+        ],
+        [
+          "E100000000084 [100.0%]",
+          30
+        ],
+        [
+          "E100001011792 [100.0%]",
+          24
+        ],
+        [
+          "E100000002161 [100.0%]",
+          23
+        ],
+        [
+          "E100000001362",
+          22
+        ],
+        [
+          "E100000002016 [100.0%]",
+          20
+        ],
+        [
+          "E100000000556 [100.0%]",
+          16
+        ],
+        [
+          "E100000002002 [100.0%]",
+          15
+        ],
+        [
+          "E100000001291 [100.0%]",
+          14
+        ],
+        [
+          "E100000000537",
+          13
+        ],
+        [
+          "E100000000481",
+          13
+        ],
+        [
+          "E100001012033 [100.0%]",
+          12
+        ],
+        [
+          "E100000133187; E100000000746; E100001015587",
+          12
+        ],
+        [
+          "E100000001870 [100.0%]",
+          12
+        ],
+        [
+          "E100000002125 [100.0%]",
+          11
+        ],
+        [
+          "E100000001119",
+          11
+        ],
+        [
+          "E100000002138 [100.0%]",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 453,
+      "top_values": [
+        [
+          "-22.305404",
+          20
+        ],
+        [
+          "35.5207",
+          18
+        ],
+        [
+          "19.099353",
+          17
+        ],
+        [
+          "33.286584",
+          16
+        ],
+        [
+          "-33.352127",
+          13
+        ],
+        [
+          "35.419362",
+          12
+        ],
+        [
+          "32.917399",
+          12
+        ],
+        [
+          "21.4731",
+          12
+        ],
+        [
+          "21.433094",
+          12
+        ],
+        [
+          "25.3527",
+          11
+        ],
+        [
+          "-16.720173",
+          11
+        ],
+        [
+          "9.993248",
+          9
+        ],
+        [
+          "29.457259",
+          9
+        ],
+        [
+          "24.41373",
+          9
+        ],
+        [
+          "32.56682",
+          8
+        ],
+        [
+          "22.9340697",
+          8
+        ],
+        [
+          "17.054642",
+          8
+        ],
+        [
+          "-22.720035",
+          8
+        ],
+        [
+          "-20.16324",
+          8
+        ],
+        [
+          "33.511354",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Latitude, assumed WGS84 (google maps)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 451,
+      "top_values": [
+        [
+          "-41.876774",
+          20
+        ],
+        [
+          "51.4078",
+          18
+        ],
+        [
+          "41.158411",
+          17
+        ],
+        [
+          "44.459037",
+          16
+        ],
+        [
+          "138.753608",
+          13
+        ],
+        [
+          "44.193499",
+          12
+        ],
+        [
+          "39.7992",
+          12
+        ],
+        [
+          "39.203892",
+          12
+        ],
+        [
+          "-111.5033",
+          12
+        ],
+        [
+          "55.3705",
+          11
+        ],
+        [
+          "128.38498",
+          11
+        ],
+        [
+          "60.76013",
+          9
+        ],
+        [
+          "118.281358",
+          9
+        ],
+        [
+          "-83.100095",
+          9
+        ],
+        [
+          "57.47711",
+          8
+        ],
+        [
+          "54.094055",
+          8
+        ],
+        [
+          "116.2221658",
+          8
+        ],
+        [
+          "-43.649059",
+          8
+        ],
+        [
+          "-115.289874",
+          8
+        ],
+        [
+          "57.47931",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Longitude, assumed WGS84 (google maps)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          815
+        ],
+        [
+          "approximate",
+          296
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Location is \"approximate\" based by using nearest city or other information in research, or Location is \"exact\" based on visibility on map or given in research",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 1111,
+      "n_null": 125,
+      "n_non_null": 986,
+      "null_rate": 0.1125,
+      "n_unique": 336,
+      "top_values": [
+        [
+          "Port-Louis",
+          24
+        ],
+        [
+          "Baghdad",
+          23
+        ],
+        [
+          "Macaé",
+          20
+        ],
+        [
+          "Sharjah",
+          19
+        ],
+        [
+          "Tehran",
+          18
+        ],
+        [
+          "Al Qunfudhah",
+          17
+        ],
+        [
+          "Canowie",
+          13
+        ],
+        [
+          "kirkuk",
+          12
+        ],
+        [
+          "Zahedan",
+          12
+        ],
+        [
+          "Makkah",
+          12
+        ],
+        [
+          "Jeddah",
+          12
+        ],
+        [
+          "Coolidge",
+          12
+        ],
+        [
+          "Lake Argyle",
+          11
+        ],
+        [
+          "Dar es Salaam",
+          11
+        ],
+        [
+          "Al-Taji",
+          11
+        ],
+        [
+          "Tabuk",
+          10
+        ],
+        [
+          "Moín",
+          9
+        ],
+        [
+          "Mashhad",
+          9
+        ],
+        [
+          "Kharg Island",
+          9
+        ],
+        [
+          "Jincheng Township",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, or village where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 1111,
+      "n_null": 974,
+      "n_non_null": 137,
+      "null_rate": 0.8767,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "Pinal",
+          16
+        ],
+        [
+          "Huilai",
+          8
+        ],
+        [
+          "Shuwaikh Port",
+          6
+        ],
+        [
+          "Clare",
+          6
+        ],
+        [
+          "Kern",
+          4
+        ],
+        [
+          "Bolivar",
+          4
+        ],
+        [
+          "Yakh",
+          3
+        ],
+        [
+          "Solano",
+          3
+        ],
+        [
+          "Sarakhs",
+          3
+        ],
+        [
+          "Riverside",
+          3
+        ],
+        [
+          "Norfolk",
+          3
+        ],
+        [
+          "Gorgan",
+          3
+        ],
+        [
+          "Gavkan",
+          3
+        ],
+        [
+          "Daliao District",
+          3
+        ],
+        [
+          "Al-Qurna",
+          3
+        ],
+        [
+          "Sutter",
+          2
+        ],
+        [
+          "Shwedaung",
+          2
+        ],
+        [
+          "Queensland",
+          2
+        ],
+        [
+          "Polk",
+          2
+        ],
+        [
+          "Miaoli County",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "county/taluk where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 1111,
+      "n_null": 978,
+      "n_non_null": 133,
+      "null_rate": 0.8803,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "Aden",
+          10
+        ],
+        [
+          "Jieyang",
+          8
+        ],
+        [
+          "Taleb Larbi",
+          6
+        ],
+        [
+          "Shuwaikh",
+          6
+        ],
+        [
+          "Rizhao",
+          6
+        ],
+        [
+          "Dibis",
+          6
+        ],
+        [
+          "Hadramout",
+          5
+        ],
+        [
+          "Frankfurt am Main",
+          5
+        ],
+        [
+          "Sharjah",
+          4
+        ],
+        [
+          "Pilbara",
+          4
+        ],
+        [
+          "Lanshan District",
+          4
+        ],
+        [
+          "Derweze",
+          4
+        ],
+        [
+          "Chaohu",
+          4
+        ],
+        [
+          "Behshahr",
+          4
+        ],
+        [
+          "Rigan",
+          3
+        ],
+        [
+          "Norfolk",
+          3
+        ],
+        [
+          "Kaohsiung City",
+          3
+        ],
+        [
+          "El Ménia",
+          3
+        ],
+        [
+          "Al Batinah South",
+          3
+        ],
+        [
+          "departamento Rio Cuarto",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 1111,
+      "n_null": 237,
+      "n_non_null": 874,
+      "null_rate": 0.2133,
+      "n_unique": 186,
+      "top_values": [
+        [
+          "Baghdad",
+          42
+        ],
+        [
+          "Rio de Janeiro",
+          28
+        ],
+        [
+          "South Australia",
+          26
+        ],
+        [
+          "Tehran",
+          22
+        ],
+        [
+          "Mazandaran",
+          19
+        ],
+        [
+          "California",
+          19
+        ],
+        [
+          "Southern Region",
+          18
+        ],
+        [
+          "Sharjah",
+          17
+        ],
+        [
+          "Hormozgan",
+          17
+        ],
+        [
+          "Arizona",
+          16
+        ],
+        [
+          "Kerman",
+          15
+        ],
+        [
+          "Al Jahra",
+          15
+        ],
+        [
+          "Khuzestan",
+          13
+        ],
+        [
+          "kirkuk",
+          12
+        ],
+        [
+          "Western Australia",
+          12
+        ],
+        [
+          "Sistan & Baluchestan",
+          12
+        ],
+        [
+          "Shandong",
+          12
+        ],
+        [
+          "Makkah",
+          12
+        ],
+        [
+          "Kirkuk",
+          12
+        ],
+        [
+          "Jeddah",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Province or state where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Western Asia",
+          278
+        ],
+        [
+          "Southern Asia",
+          194
+        ],
+        [
+          "Latin America and the Caribbean",
+          136
+        ],
+        [
+          "Australia and New Zealand",
+          98
+        ],
+        [
+          "Northern America",
+          93
+        ],
+        [
+          "Sub-Saharan Africa",
+          88
+        ],
+        [
+          "Northern Africa",
+          72
+        ],
+        [
+          "Eastern Asia",
+          48
+        ],
+        [
+          "Melanesia",
+          27
+        ],
+        [
+          "South-eastern Asia",
+          26
+        ],
+        [
+          "Central Asia",
+          14
+        ],
+        [
+          "Southern Europe",
+          9
+        ],
+        [
+          "Northern Europe",
+          9
+        ],
+        [
+          "Western Europe",
+          8
+        ],
+        [
+          "Eastern Europe",
+          7
+        ],
+        [
+          "Polynesia",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          560
+        ],
+        [
+          "Americas",
+          229
+        ],
+        [
+          "Africa",
+          160
+        ],
+        [
+          "Oceania",
+          129
+        ],
+        [
+          "Europe",
+          33
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 1111,
+      "n_null": 748,
+      "n_non_null": 363,
+      "null_rate": 0.6733,
+      "n_unique": 119,
+      "top_values": [
+        [
+          "ANEEL: UTE.GN.RJ.028029-1.1",
+          20
+        ],
+        [
+          "World Resources Institute: WRI1008175",
+          18
+        ],
+        [
+          "World Resources Institute: WRI1030717",
+          17
+        ],
+        [
+          "World Resources Institute: WRI1030675",
+          12
+        ],
+        [
+          "World Resources Institute: WRI1030661",
+          12
+        ],
+        [
+          "EIA: 56948",
+          12
+        ],
+        [
+          "World Resources Institute: WRI1023584",
+          11
+        ],
+        [
+          "CRE: E/2255/GEN/2021",
+          8
+        ],
+        [
+          "ANEEL: UTE.EG.RJ.027952-8",
+          8
+        ],
+        [
+          "World Resources Institute: WRI1030712",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1008704",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1008191",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1008149",
+          7
+        ],
+        [
+          "CRE: E/1654/GEN/2015, CRE: E/1686/GEN/2015",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1023583",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1008695",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1008189",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1008164",
+          6
+        ],
+        [
+          "Global Energy Observatory: GEO42831, Global Energy Observatory: GEO5204, World Resources Institute: WRI1008692, Global Energy Observatory: GEO42829",
+          6
+        ],
+        [
+          "World Resources Institute: WRI1030678",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "For example, government database ID",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other IDs (unit)",
+      "code_friendly_name_guess": "other_ids_unit",
+      "n_total": 1111,
+      "n_null": 1043,
+      "n_non_null": 68,
+      "null_rate": 0.9388,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "EIA: GEN1",
+          6
+        ],
+        [
+          "Registre national d'électricité: 17W0000000332083",
+          5
+        ],
+        [
+          "EIA: CTG1",
+          3
+        ],
+        [
+          "EIA: CT1",
+          3
+        ],
+        [
+          "EIA: 1",
+          3
+        ],
+        [
+          "EIA: IC4, EIA: IC14, EIA: IC2, EIA: IC16, EIA: IC8, EIA: IC11, EIA: IC5, EIA: IC7, EIA: IC9, EIA: IC15, EIA: IC10, EIA: IC6, EIA: IC3, EIA: IC13, EIA: IC12, EIA: IC1",
+          2
+        ],
+        [
+          "SEA: GEN1",
+          1
+        ],
+        [
+          "Registre national d'électricité: 17W0000013359454",
+          1
+        ],
+        [
+          "Registre national d'électricité: 17W0000013328869",
+          1
+        ],
+        [
+          "Registre national d'électricité: 17W0000013310877",
+          1
+        ],
+        [
+          "Registre national d'électricité: 17W0000000382459",
+          1
+        ],
+        [
+          "MaStR: SEE919137629452, Beyond Fossil Fuels: DE-46-5",
+          1
+        ],
+        [
+          "MaStR: SEE909438607068, Beyond Fossil Fuels: DE-46-2",
+          1
+        ],
+        [
+          "MaStR: SEE905366486355, Beyond Fossil Fuels: DE-46-2",
+          1
+        ],
+        [
+          "EIA: WES1, EIA: WES2, EIA: WES4, EIA: WES5",
+          1
+        ],
+        [
+          "EIA: UOO1",
+          1
+        ],
+        [
+          "EIA: SQA01, EIA: SQA05, EIA: SQA04, EIA: SQA02, EIA: SQA03",
+          1
+        ],
+        [
+          "EIA: N01",
+          1
+        ],
+        [
+          "EIA: MPS03, EIA: MPS04",
+          1
+        ],
+        [
+          "EIA: MPS01, EIA: MPS02",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "For example, government database ID",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Captive industry use",
+      "code_friendly_name_guess": "captive_industry_use",
+      "n_total": 1111,
+      "n_null": 907,
+      "n_non_null": 204,
+      "null_rate": 0.8164,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "power",
+          173
+        ],
+        [
+          "both",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Captive industry type",
+      "code_friendly_name_guess": "captive_industry_type",
+      "n_total": 1111,
+      "n_null": 869,
+      "n_non_null": 242,
+      "null_rate": 0.7822,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "chemicals",
+          69
+        ],
+        [
+          "oil & refining",
+          59
+        ],
+        [
+          "other metals & mining",
+          44
+        ],
+        [
+          "other",
+          21
+        ],
+        [
+          "industrial park",
+          21
+        ],
+        [
+          "cement & building",
+          7
+        ],
+        [
+          "data center",
+          6
+        ],
+        [
+          "nutrition",
+          2
+        ],
+        [
+          "iron & steel",
+          2
+        ],
+        [
+          "electronics",
+          2
+        ],
+        [
+          "cryptocurrency",
+          2
+        ],
+        [
+          "automobiles",
+          2
+        ],
+        [
+          "aluminum",
+          2
+        ],
+        [
+          "agriculture",
+          2
+        ],
+        [
+          "chemicals, industrial park",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct",
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Captive non-industry use",
+      "code_friendly_name_guess": "captive_non_industry_use",
+      "n_total": 1111,
+      "n_null": 698,
+      "n_non_null": 413,
+      "null_rate": 0.6283,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "power",
+          411
+        ],
+        [
+          "none",
+          1
+        ],
+        [
+          "both",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, none. 'None' indicates an entirely captive plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 432,
+      "top_values": [
+        [
+          "L100000408946",
+          42
+        ],
+        [
+          "L100000408547",
+          20
+        ],
+        [
+          "L100000407004",
+          18
+        ],
+        [
+          "L100000408010",
+          17
+        ],
+        [
+          "L100000409087",
+          16
+        ],
+        [
+          "L100000408956",
+          13
+        ],
+        [
+          "L100001016390",
+          12
+        ],
+        [
+          "L100000409133",
+          12
+        ],
+        [
+          "L100000409074",
+          12
+        ],
+        [
+          "L100000401832",
+          12
+        ],
+        [
+          "L100000408971",
+          11
+        ],
+        [
+          "L100000405587",
+          11
+        ],
+        [
+          "L100001023556",
+          9
+        ],
+        [
+          "L100000409088",
+          9
+        ],
+        [
+          "L100000408901",
+          9
+        ],
+        [
+          "L100001023570",
+          8
+        ],
+        [
+          "L100000409183",
+          8
+        ],
+        [
+          "L100000409153",
+          8
+        ],
+        [
+          "L100000408897",
+          8
+        ],
+        [
+          "L100000407754",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Internal generated ID for the power station (non-unique)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 1111,
+      "top_values": [
+        [
+          "G100001074213",
+          1
+        ],
+        [
+          "G100001074104",
+          1
+        ],
+        [
+          "G100001074066",
+          1
+        ],
+        [
+          "G100001074050",
+          1
+        ],
+        [
+          "G100001073841",
+          1
+        ],
+        [
+          "G100001073580",
+          1
+        ],
+        [
+          "G100001073484",
+          1
+        ],
+        [
+          "G100001073483",
+          1
+        ],
+        [
+          "G100001072951",
+          1
+        ],
+        [
+          "G100001072926",
+          1
+        ],
+        [
+          "G100001072921",
+          1
+        ],
+        [
+          "G100001072818",
+          1
+        ],
+        [
+          "G100001072817",
+          1
+        ],
+        [
+          "G100001072642",
+          1
+        ],
+        [
+          "G100001072641",
+          1
+        ],
+        [
+          "G100001072627",
+          1
+        ],
+        [
+          "G100001072626",
+          1
+        ],
+        [
+          "G100001072624",
+          1
+        ],
+        [
+          "G100001072623",
+          1
+        ],
+        [
+          "G100001072622",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Internal generated ID for the unit (unique)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel classification?",
+      "code_friendly_name_guess": "fuel_classification",
+      "n_total": 1111,
+      "n_null": 0,
+      "n_non_null": 1111,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Gas",
+          581
+        ],
+        [
+          "Oil",
+          324
+        ],
+        [
+          "Multi fuel",
+          173
+        ],
+        [
+          "LNG only",
+          33
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel.   Note \"Gas only\" does not include LNG.",
+      "notes_from_readme": null
+    }
+  ]
+}

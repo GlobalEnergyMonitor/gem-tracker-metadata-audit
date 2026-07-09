@@ -1,0 +1,829 @@
+{
+  "table_name": "global_oil_and_gas_extraction_tracker_march_2026__field_level_production_data",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "tab_slug": "field_level_production_data",
+  "n_rows": 11834,
+  "analyzed_at": "2026-07-07T21:45:18.924315+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Unit ID",
+      "code_friendly_name_guess": "unit_id",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 6045,
+      "top_values": [
+        [
+          "L100000322245",
+          4
+        ],
+        [
+          "L100000322242",
+          4
+        ],
+        [
+          "L100000322241",
+          4
+        ],
+        [
+          "L100000322239",
+          4
+        ],
+        [
+          "L100000322237",
+          4
+        ],
+        [
+          "L100000322220",
+          4
+        ],
+        [
+          "L100000322208",
+          4
+        ],
+        [
+          "L100000322204",
+          4
+        ],
+        [
+          "L100000322188",
+          4
+        ],
+        [
+          "L100000322172",
+          4
+        ],
+        [
+          "L100000322171",
+          4
+        ],
+        [
+          "L100000322170",
+          4
+        ],
+        [
+          "L100000322166",
+          4
+        ],
+        [
+          "L100000322160",
+          4
+        ],
+        [
+          "L100000322156",
+          4
+        ],
+        [
+          "L100000322151",
+          4
+        ],
+        [
+          "L100000322147",
+          4
+        ],
+        [
+          "L100000322145",
+          4
+        ],
+        [
+          "L100000322127",
+          4
+        ],
+        [
+          "L100000322119",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Unique project ID number",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 6045,
+      "top_values": [
+        [
+          "Íride Oil and Gas Field (Tabasco, Mexico)",
+          4
+        ],
+        [
+          "Ébano Oil and Gas Field (Mexico)",
+          4
+        ],
+        [
+          "Ærfugl Oil and Gas Field (Norway)",
+          4
+        ],
+        [
+          "Ærfugl Nord Oil and Gas Field (Norway)",
+          4
+        ],
+        [
+          "Åsgard Oil and Gas Field (Norway)",
+          4
+        ],
+        [
+          "[Field not stated] - Xto Energy (Unconventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Xto Energy (Conventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Wildfire Energy Operating (Unconventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Sabinal Energy Operating Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Pioneer Natural Res. Usa Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Oxy Usa Wtp (Conventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Oxy Usa Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Operator [Field not stated] (Conventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Occidental Permian (Onshore) (Unconventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Occidental Permian (Onshore) (Conventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Magnolia Oil & Gas Operating (Unconventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Magnolia Oil & Gas Operating (Conventional) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Lrr Pecos Valley Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Denbury Onshore, (Onshore) Oil and Gas Asset (Texas, United States)",
+          4
+        ],
+        [
+          "[Field not stated] - Denbury Onshore, (Offshore) Oil Asset (Texas, United States)",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 74,
+      "top_values": [
+        [
+          "United States",
+          4516
+        ],
+        [
+          "Canada",
+          1622
+        ],
+        [
+          "United Kingdom",
+          1062
+        ],
+        [
+          "Mexico",
+          788
+        ],
+        [
+          "Colombia",
+          458
+        ],
+        [
+          "Argentina",
+          442
+        ],
+        [
+          "Norway",
+          378
+        ],
+        [
+          "Nigeria",
+          297
+        ],
+        [
+          "Netherlands",
+          263
+        ],
+        [
+          "Russia",
+          208
+        ],
+        [
+          "Brazil",
+          203
+        ],
+        [
+          "China",
+          192
+        ],
+        [
+          "Australia",
+          156
+        ],
+        [
+          "Ecuador",
+          127
+        ],
+        [
+          "Poland",
+          122
+        ],
+        [
+          "Iran",
+          83
+        ],
+        [
+          "Venezuela",
+          81
+        ],
+        [
+          "Pakistan",
+          65
+        ],
+        [
+          "Germany",
+          61
+        ],
+        [
+          "Angola",
+          55
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "oil",
+          4314
+        ],
+        [
+          "gas",
+          3869
+        ],
+        [
+          "condensate",
+          790
+        ],
+        [
+          "NGL",
+          735
+        ],
+        [
+          "oil and condensate",
+          545
+        ],
+        [
+          "associated gas",
+          486
+        ],
+        [
+          "gas condensate",
+          249
+        ],
+        [
+          "dry gas",
+          246
+        ],
+        [
+          "Non-associated gas",
+          191
+        ],
+        [
+          "sales gas",
+          181
+        ],
+        [
+          "coal seam gas",
+          50
+        ],
+        [
+          "crude oil",
+          49
+        ],
+        [
+          "hydrocarbons",
+          46
+        ],
+        [
+          "LPG",
+          36
+        ],
+        [
+          "crude oil and condensate",
+          22
+        ],
+        [
+          "liquids",
+          7
+        ],
+        [
+          "oil and gas condensate",
+          5
+        ],
+        [
+          "oil, NGL, and gas",
+          4
+        ],
+        [
+          "oil and gas",
+          3
+        ],
+        [
+          "total liquids",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Quantity (original)",
+      "code_friendly_name_guess": "quantity_original",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 7397,
+      "top_values": [
+        [
+          "0.0",
+          2069
+        ],
+        [
+          "0.02",
+          69
+        ],
+        [
+          "0.01",
+          69
+        ],
+        [
+          "1.0",
+          53
+        ],
+        [
+          "0.03",
+          50
+        ],
+        [
+          "0.08",
+          27
+        ],
+        [
+          "0.04",
+          27
+        ],
+        [
+          "3.0",
+          26
+        ],
+        [
+          "2.0",
+          26
+        ],
+        [
+          "0.09",
+          26
+        ],
+        [
+          "0.12",
+          25
+        ],
+        [
+          "0.05",
+          25
+        ],
+        [
+          "0.1",
+          24
+        ],
+        [
+          "0.06",
+          24
+        ],
+        [
+          "0.4",
+          22
+        ],
+        [
+          "0.07",
+          20
+        ],
+        [
+          "5.0",
+          19
+        ],
+        [
+          "20.0",
+          19
+        ],
+        [
+          "0.2",
+          19
+        ],
+        [
+          "0.8",
+          18
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The quantity of fuel, as specified by the source documents",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Units (original)",
+      "code_friendly_name_guess": "units_original",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 59,
+      "top_values": [
+        [
+          "bbl/y",
+          1708
+        ],
+        [
+          "million bbl/y",
+          1480
+        ],
+        [
+          "thousand cubic feet/y",
+          1314
+        ],
+        [
+          "million m³/y",
+          1185
+        ],
+        [
+          "m³/y",
+          1163
+        ],
+        [
+          "thousand m³/y",
+          1068
+        ],
+        [
+          "bbl/d",
+          510
+        ],
+        [
+          "thousand bbl/d",
+          505
+        ],
+        [
+          "million cubic feet/d",
+          503
+        ],
+        [
+          "m³/d",
+          284
+        ],
+        [
+          "million Sm³/y",
+          282
+        ],
+        [
+          "thousand m³/d",
+          195
+        ],
+        [
+          "million m³/d",
+          182
+        ],
+        [
+          "million cubic feet/y",
+          177
+        ],
+        [
+          "thousand Sm³/y",
+          167
+        ],
+        [
+          "Sm³/y",
+          133
+        ],
+        [
+          "million tonnes/y",
+          126
+        ],
+        [
+          "bcm/y",
+          124
+        ],
+        [
+          "thousand scf/y",
+          110
+        ],
+        [
+          "billion Sm³/y",
+          95
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The units of measurement, as specified by the source documents",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 6131,
+      "top_values": [
+        [
+          "0.0",
+          2225
+        ],
+        [
+          "0.001",
+          62
+        ],
+        [
+          "0.01",
+          61
+        ],
+        [
+          "0.02",
+          56
+        ],
+        [
+          "0.003",
+          41
+        ],
+        [
+          "0.002",
+          40
+        ],
+        [
+          "0.03",
+          36
+        ],
+        [
+          "0.005",
+          36
+        ],
+        [
+          "1.0",
+          30
+        ],
+        [
+          "0.04",
+          28
+        ],
+        [
+          "0.006",
+          28
+        ],
+        [
+          "0.06",
+          25
+        ],
+        [
+          "0.004",
+          25
+        ],
+        [
+          "0.009",
+          24
+        ],
+        [
+          "0.007",
+          24
+        ],
+        [
+          "0.031",
+          23
+        ],
+        [
+          "0.015",
+          22
+        ],
+        [
+          "0.012",
+          22
+        ],
+        [
+          "0.008",
+          21
+        ],
+        [
+          "7.3",
+          20
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 11834,
+      "n_null": 0,
+      "n_non_null": 11834,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million bbl/y",
+          6749
+        ],
+        [
+          "million m³/y",
+          5025
+        ],
+        [
+          "million boe/y",
+          60
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "The common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Data Year",
+      "code_friendly_name_guess": "data_year",
+      "n_total": 11834,
+      "n_null": 20,
+      "n_non_null": 11814,
+      "null_rate": 0.0017,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "2024.0",
+          4654
+        ],
+        [
+          "2023.0",
+          2860
+        ],
+        [
+          "2022.0",
+          1609
+        ],
+        [
+          "2025.0",
+          737
+        ],
+        [
+          "2020.0",
+          522
+        ],
+        [
+          "2021.0",
+          302
+        ],
+        [
+          "2015.0",
+          302
+        ],
+        [
+          "2019.0",
+          267
+        ],
+        [
+          "2017.0",
+          152
+        ],
+        [
+          "2018.0",
+          69
+        ],
+        [
+          "2014.0",
+          62
+        ],
+        [
+          "2016.0",
+          45
+        ],
+        [
+          "1998.0",
+          43
+        ],
+        [
+          "2007.0",
+          30
+        ],
+        [
+          "2005.0",
+          26
+        ],
+        [
+          "2012.0",
+          21
+        ],
+        [
+          "2011.0",
+          14
+        ],
+        [
+          "2002.0",
+          12
+        ],
+        [
+          "2013.0",
+          11
+        ],
+        [
+          "2010.0",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the data refers to, or if not listed, year of the source document",
+      "notes_from_readme": null
+    }
+  ]
+}

@@ -1,0 +1,2347 @@
+{
+  "table_name": "global_oil_and_gas_extraction_tracker_march_2026__field_level_main_data",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "tab_slug": "field_level_main_data",
+  "n_rows": 7673,
+  "analyzed_at": "2026-07-07T21:45:18.879126+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Unit ID",
+      "code_friendly_name_guess": "unit_id",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 7673,
+      "top_values": [
+        [
+          "L100001082607",
+          1
+        ],
+        [
+          "L100001082605",
+          1
+        ],
+        [
+          "L100001082590",
+          1
+        ],
+        [
+          "L100001082493",
+          1
+        ],
+        [
+          "L100001082487",
+          1
+        ],
+        [
+          "L100001082486",
+          1
+        ],
+        [
+          "L100001082485",
+          1
+        ],
+        [
+          "L100001082484",
+          1
+        ],
+        [
+          "L100001082483",
+          1
+        ],
+        [
+          "L100001082462",
+          1
+        ],
+        [
+          "L100001082461",
+          1
+        ],
+        [
+          "L100001082459",
+          1
+        ],
+        [
+          "L100001082457",
+          1
+        ],
+        [
+          "L100001082456",
+          1
+        ],
+        [
+          "L100001082455",
+          1
+        ],
+        [
+          "L100001082454",
+          1
+        ],
+        [
+          "L100001082453",
+          1
+        ],
+        [
+          "L100001082452",
+          1
+        ],
+        [
+          "L100001082451",
+          1
+        ],
+        [
+          "L100001082450",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Unique Unit ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 7673,
+      "top_values": [
+        [
+          "Șincai Gas Field (Romania)",
+          1
+        ],
+        [
+          "Șaroș Gas Field (Romania)",
+          1
+        ],
+        [
+          "Șamșud Oil and Gas Field (Romania)",
+          1
+        ],
+        [
+          "Żuchlów Gas Field (Poland)",
+          1
+        ],
+        [
+          "Żołynia-Leżajsk Gas Field (Poland)",
+          1
+        ],
+        [
+          "Żakowo Oil and Gas Field (Poland)",
+          1
+        ],
+        [
+          "Środa Wielkopolska Gas Field (Poland)",
+          1
+        ],
+        [
+          "Łękawica Gas Field (Poland)",
+          1
+        ],
+        [
+          "Łukowa Gas Field (Poland)",
+          1
+        ],
+        [
+          "Øst Frigg Oil and Gas Field (Norway)",
+          1
+        ],
+        [
+          "Ørn Oil and Gas Field (Norway)",
+          1
+        ],
+        [
+          "Íride Oil and Gas Field (Tabasco, Mexico)",
+          1
+        ],
+        [
+          "Ébano Oil and Gas Field (Mexico)",
+          1
+        ],
+        [
+          "Ébano Chapacao Oil and Gas Field (Mexico)",
+          1
+        ],
+        [
+          "Çaycuma Gas Field (Türkiye)",
+          1
+        ],
+        [
+          "Ærfugl Oil and Gas Field (Norway)",
+          1
+        ],
+        [
+          "Ærfugl Nord Oil and Gas Field (Norway)",
+          1
+        ],
+        [
+          "Åsgard Oil and Gas Field (Norway)",
+          1
+        ],
+        [
+          "Água Grande Oil and Gas Field (Bahia, Brazil)",
+          1
+        ],
+        [
+          "al-Tanak Oil Field (Syria)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Name of the unit as it is reported by sources, appended to fuel type and country/area information.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit name local script",
+      "code_friendly_name_guess": "unit_name_local_script",
+      "n_total": 7673,
+      "n_null": 5579,
+      "n_non_null": 2094,
+      "null_rate": 0.7271,
+      "n_unique": 2062,
+      "top_values": [
+        [
+          "قطرغاز",
+          4
+        ],
+        [
+          "مرجان",
+          3
+        ],
+        [
+          "فهد",
+          3
+        ],
+        [
+          "حقل الشمال",
+          3
+        ],
+        [
+          "بلطيم",
+          3
+        ],
+        [
+          "الانتصار",
+          3
+        ],
+        [
+          "环江",
+          2
+        ],
+        [
+          "غرب القرنة",
+          2
+        ],
+        [
+          "عكاز",
+          2
+        ],
+        [
+          "شرقي بغداد",
+          2
+        ],
+        [
+          "سطح الرزبوط",
+          2
+        ],
+        [
+          "زاكوم السفلي",
+          2
+        ],
+        [
+          "روضتين",
+          2
+        ],
+        [
+          "حليبة",
+          2
+        ],
+        [
+          "جسيورة",
+          2
+        ],
+        [
+          "العد الشرقي",
+          2
+        ],
+        [
+          "الظلوف",
+          2
+        ],
+        [
+          "السفانية",
+          2
+        ],
+        [
+          "Хвалынское",
+          2
+        ],
+        [
+          "Đại Hùng",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The name of the unit in the local script (e.g., Chinese).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel type",
+      "code_friendly_name_guess": "fuel_type",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "oil and gas",
+          4945
+        ],
+        [
+          "oil",
+          1376
+        ],
+        [
+          "gas",
+          1296
+        ],
+        [
+          "gas and condensate",
+          56
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "A determination of whether the unit is a gas, oil, or oil and gas unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "United States",
+          2009
+        ],
+        [
+          "Canada",
+          1216
+        ],
+        [
+          "Russia",
+          332
+        ],
+        [
+          "United Kingdom",
+          320
+        ],
+        [
+          "Colombia",
+          285
+        ],
+        [
+          "Nigeria",
+          265
+        ],
+        [
+          "China",
+          263
+        ],
+        [
+          "Mexico",
+          236
+        ],
+        [
+          "Argentina",
+          203
+        ],
+        [
+          "Australia",
+          186
+        ],
+        [
+          "Netherlands",
+          165
+        ],
+        [
+          "Brazil",
+          164
+        ],
+        [
+          "Norway",
+          139
+        ],
+        [
+          "Venezuela",
+          138
+        ],
+        [
+          "Poland",
+          116
+        ],
+        [
+          "Iran",
+          114
+        ],
+        [
+          "Egypt",
+          91
+        ],
+        [
+          "Ecuador",
+          90
+        ],
+        [
+          "Indonesia",
+          81
+        ],
+        [
+          "Malaysia",
+          78
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 7673,
+      "n_null": 2885,
+      "n_non_null": 4788,
+      "null_rate": 0.376,
+      "n_unique": 140,
+      "top_values": [
+        [
+          "Alberta",
+          523
+        ],
+        [
+          "Saskatchewan",
+          464
+        ],
+        [
+          "Texas",
+          444
+        ],
+        [
+          "Louisiana",
+          360
+        ],
+        [
+          "New Mexico",
+          202
+        ],
+        [
+          "Federal offshore",
+          201
+        ],
+        [
+          "British Columbia",
+          193
+        ],
+        [
+          "North Dakota",
+          186
+        ],
+        [
+          "Wyoming",
+          179
+        ],
+        [
+          "Oklahoma",
+          141
+        ],
+        [
+          "Queensland",
+          105
+        ],
+        [
+          "Casanare",
+          96
+        ],
+        [
+          "Yamalo-Nenets Autonomous Okrug",
+          75
+        ],
+        [
+          "Khanty-Mansi Autonomous Okrug",
+          72
+        ],
+        [
+          "Rio de Janeiro",
+          71
+        ],
+        [
+          "Neuquén",
+          70
+        ],
+        [
+          "Pennsylvania",
+          66
+        ],
+        [
+          "Colorado",
+          65
+        ],
+        [
+          "Federal Offshore",
+          62
+        ],
+        [
+          "California",
+          57
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The subnational state that the unit is in (province, state, etc.).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production Type",
+      "code_friendly_name_guess": "production_type",
+      "n_total": 7673,
+      "n_null": 2530,
+      "n_non_null": 5143,
+      "null_rate": 0.3297,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "conventional",
+          3800
+        ],
+        [
+          "unconventional",
+          1343
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Tag stating if production from a field uses conventional or unconventional methods.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 7673,
+      "n_null": 213,
+      "n_non_null": 7460,
+      "null_rate": 0.0278,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          6481
+        ],
+        [
+          "discovered",
+          455
+        ],
+        [
+          "mothballed",
+          240
+        ],
+        [
+          "in-development",
+          229
+        ],
+        [
+          "abandoned",
+          21
+        ],
+        [
+          "decommissioning",
+          17
+        ],
+        [
+          "cancelled",
+          10
+        ],
+        [
+          "underground gas storage",
+          6
+        ],
+        [
+          "exploration",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "The status of development of a unit, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Discovered",
+          "definition": "A unit is typically considered to be discovered when there has been a well drilled into a particular formation, and it yielded some significant quantity of oil and/or gas. Discovered units are not necessarily economic to exploit."
+        },
+        {
+          "name": "In-development",
+          "definition": "Following discovery, the process of moving toward commercial production has begun. This means that a company is planning to develop the project, as evidenced by one or more of the following criteria being reached: the company has applied for approval for commercial production (if needed in the jurisdiction), the project has reached the Final Investment Decision (FID), a final environmental impact statement has been published, and/or the drilling of development (not appraisal) wells and/or adding takeaway capacity (infrastructure such as pipelines, storage tanks, etc.) to enable commercial production has begun."
+        },
+        {
+          "name": "Operating",
+          "definition": "The unit has commercial production of oil/gas (that is, quantities that are being sold to market)."
+        },
+        {
+          "name": "Abandoned",
+          "definition": "Operations have ceased, but the wells/unit were not decommissioned following all the usual steps, such as plugging the wells (including filling the well with cement)."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Operations temporarily shut down; may be restarted."
+        },
+        {
+          "name": "Decommissioning",
+          "definition": "Operations permanently ceased; infrastructure is typically removed."
+        },
+        {
+          "name": "UGS",
+          "definition": "Exhausted units may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS.”"
+        },
+        {
+          "name": "Exploration",
+          "definition": "An unproven concessionary block or region that potentially contains an undiscovered field is actively being explored for reserves."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A discovered or in-development field that did not reach commercial production. This is evidenced by a formal acknowledgment by a company involved that a project is not going forward."
+        },
+        {
+          "name": "Underground gas storage",
+          "definition": "Exhausted fields may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS” or “UGS (converted).”"
+        }
+      ]
+    },
+    {
+      "field_name": "Status detail",
+      "code_friendly_name_guess": "status_detail",
+      "n_total": 7673,
+      "n_null": 7549,
+      "n_non_null": 124,
+      "null_rate": 0.9838,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "ramp up",
+          49
+        ],
+        [
+          "actual",
+          22
+        ],
+        [
+          "early",
+          17
+        ],
+        [
+          "decline",
+          15
+        ],
+        [
+          "advanced",
+          12
+        ],
+        [
+          "plateau",
+          3
+        ],
+        [
+          "stated",
+          2
+        ],
+        [
+          "in progress",
+          2
+        ],
+        [
+          "complete",
+          1
+        ],
+        [
+          "assumed",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Additional information on the status, see methodology for details.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status year",
+      "code_friendly_name_guess": "status_year",
+      "n_total": 7673,
+      "n_null": 222,
+      "n_non_null": 7451,
+      "null_rate": 0.0289,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "2024.0",
+          2638
+        ],
+        [
+          "2023.0",
+          1374
+        ],
+        [
+          "2022.0",
+          1058
+        ],
+        [
+          "2025.0",
+          975
+        ],
+        [
+          "2020.0",
+          388
+        ],
+        [
+          "2021.0",
+          376
+        ],
+        [
+          "2015.0",
+          188
+        ],
+        [
+          "2019.0",
+          175
+        ],
+        [
+          "2017.0",
+          122
+        ],
+        [
+          "2018.0",
+          51
+        ],
+        [
+          "2016.0",
+          32
+        ],
+        [
+          "2014.0",
+          12
+        ],
+        [
+          "2013.0",
+          12
+        ],
+        [
+          "2011.0",
+          7
+        ],
+        [
+          "2007.0",
+          7
+        ],
+        [
+          "2002.0",
+          5
+        ],
+        [
+          "2012.0",
+          4
+        ],
+        [
+          "2009.0",
+          4
+        ],
+        [
+          "2006.0",
+          4
+        ],
+        [
+          "2026.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year of the source of the status information.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Discovery year",
+      "code_friendly_name_guess": "discovery_year",
+      "n_total": 7673,
+      "n_null": 2459,
+      "n_non_null": 5214,
+      "null_rate": 0.3205,
+      "n_unique": 127,
+      "top_values": [
+        [
+          "2009.0",
+          137
+        ],
+        [
+          "1976.0",
+          113
+        ],
+        [
+          "1949.0",
+          99
+        ],
+        [
+          "1968.0",
+          91
+        ],
+        [
+          "1975.0",
+          89
+        ],
+        [
+          "1969.0",
+          85
+        ],
+        [
+          "1973.0",
+          83
+        ],
+        [
+          "1965.0",
+          83
+        ],
+        [
+          "1979.0",
+          79
+        ],
+        [
+          "1974.0",
+          79
+        ],
+        [
+          "1982.0",
+          78
+        ],
+        [
+          "1971.0",
+          78
+        ],
+        [
+          "1959.0",
+          78
+        ],
+        [
+          "2008.0",
+          77
+        ],
+        [
+          "1980.0",
+          77
+        ],
+        [
+          "1985.0",
+          75
+        ],
+        [
+          "1962.0",
+          75
+        ],
+        [
+          "1951.0",
+          73
+        ],
+        [
+          "2023.0",
+          72
+        ],
+        [
+          "1990.0",
+          72
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the unit was discovered.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FID Year",
+      "code_friendly_name_guess": "fid_year",
+      "n_total": 7673,
+      "n_null": 7017,
+      "n_non_null": 656,
+      "null_rate": 0.9145,
+      "n_unique": 51,
+      "top_values": [
+        [
+          "2024.0",
+          89
+        ],
+        [
+          "2023.0",
+          54
+        ],
+        [
+          "2022.0",
+          53
+        ],
+        [
+          "2025.0",
+          38
+        ],
+        [
+          "2019.0",
+          34
+        ],
+        [
+          "2021.0",
+          30
+        ],
+        [
+          "2018.0",
+          27
+        ],
+        [
+          "2012.0",
+          24
+        ],
+        [
+          "2017.0",
+          15
+        ],
+        [
+          "2013.0",
+          15
+        ],
+        [
+          "2011.0",
+          15
+        ],
+        [
+          "1995.0",
+          15
+        ],
+        [
+          "2020.0",
+          14
+        ],
+        [
+          "2010.0",
+          14
+        ],
+        [
+          "2014.0",
+          13
+        ],
+        [
+          "2002.0",
+          13
+        ],
+        [
+          "2015.0",
+          12
+        ],
+        [
+          "2008.0",
+          12
+        ],
+        [
+          "2005.0",
+          12
+        ],
+        [
+          "2004.0",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the unit reach final investment decision.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production start year",
+      "code_friendly_name_guess": "production_start_year",
+      "n_total": 7673,
+      "n_null": 5301,
+      "n_non_null": 2372,
+      "null_rate": 0.6909,
+      "n_unique": 94,
+      "top_values": [
+        [
+          "2016.0",
+          78
+        ],
+        [
+          "2009.0",
+          70
+        ],
+        [
+          "2017.0",
+          68
+        ],
+        [
+          "2015.0",
+          64
+        ],
+        [
+          "2014.0",
+          63
+        ],
+        [
+          "2013.0",
+          62
+        ],
+        [
+          "2021.0",
+          58
+        ],
+        [
+          "2019.0",
+          58
+        ],
+        [
+          "2007.0",
+          58
+        ],
+        [
+          "2008.0",
+          55
+        ],
+        [
+          "2023.0",
+          54
+        ],
+        [
+          "2022.0",
+          53
+        ],
+        [
+          "2012.0",
+          53
+        ],
+        [
+          "2006.0",
+          52
+        ],
+        [
+          "2003.0",
+          52
+        ],
+        [
+          "1998.0",
+          51
+        ],
+        [
+          "1999.0",
+          50
+        ],
+        [
+          "1996.0",
+          49
+        ],
+        [
+          "2020.0",
+          48
+        ],
+        [
+          "2018.0",
+          48
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the unit started commercial production.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 7673,
+      "n_null": 1273,
+      "n_non_null": 6400,
+      "null_rate": 0.1659,
+      "n_unique": 1518,
+      "top_values": [
+        [
+          "Petróleos Mexicanos",
+          171
+        ],
+        [
+          "ORLEN",
+          88
+        ],
+        [
+          "Ecopetrol",
+          84
+        ],
+        [
+          "CNOOC",
+          84
+        ],
+        [
+          "Petróleo Brasileiro",
+          82
+        ],
+        [
+          "Shell",
+          72
+        ],
+        [
+          "Equinor Energy",
+          68
+        ],
+        [
+          "EP Petroecuador",
+          61
+        ],
+        [
+          "Eni",
+          59
+        ],
+        [
+          "YPF",
+          58
+        ],
+        [
+          "Canadian Natural Resources",
+          56
+        ],
+        [
+          "XTO Energy",
+          52
+        ],
+        [
+          "TotalEnergies",
+          47
+        ],
+        [
+          "Hilcorp Energy",
+          47
+        ],
+        [
+          "EOG Resources",
+          45
+        ],
+        [
+          "Continental Resources",
+          45
+        ],
+        [
+          "Nederlandse Aardolie Maatschappij",
+          43
+        ],
+        [
+          "BP",
+          39
+        ],
+        [
+          "Petronas Carigali",
+          33
+        ],
+        [
+          "Apache",
+          33
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that is the designated operator of the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 7673,
+      "n_null": 3752,
+      "n_non_null": 3921,
+      "null_rate": 0.489,
+      "n_unique": 1756,
+      "top_values": [
+        [
+          "National Iranian Oil Co [100%]",
+          112
+        ],
+        [
+          "ORLEN SA [100%]",
+          90
+        ],
+        [
+          "CNOOC Ltd [100%]",
+          78
+        ],
+        [
+          "Petróleo Brasileiro SA [100%]",
+          60
+        ],
+        [
+          "Petróleos Mexicanos EPE [100%]",
+          52
+        ],
+        [
+          "Nigerian Agip Oil Company Ltd [20%]; Oando Energy Resources Inc [20%]; NNPC Ltd [60%]",
+          32
+        ],
+        [
+          "NNPC Ltd [55%]; The Shell Petroleum Development Company of Nigeria Ltd [30%]; TotalEnergies EP Nigeria Ltd [10%]; Nigerian Agip Oil Company Ltd [5%]",
+          30
+        ],
+        [
+          "Saudi Arabian Oil Co [100%]",
+          28
+        ],
+        [
+          "Rosneft PJSC [100%]",
+          27
+        ],
+        [
+          "EP Petroecuador [100%]",
+          26
+        ],
+        [
+          "Mobil Producing Nigeria Unlimited [40%]; NNPC Ltd [60%]",
+          24
+        ],
+        [
+          "China Petrochemical Corp [25%]; Origin Energy Ltd [27%]; ConocoPhillips Corp [47%]",
+          23
+        ],
+        [
+          "Ecopetrol SA [100%]",
+          22
+        ],
+        [
+          "PetroChina Changqing Oilfield Branch Co [100%]",
+          21
+        ],
+        [
+          "Chevron Nigeria Ltd [40%]; NNPC Ltd [60%]",
+          21
+        ],
+        [
+          "CNOOC Petroleum Guyana Ltd [25%]; Hess Guyana Exploration Ltd [30%]; ExxonMobil Guyana Ltd [45%]",
+          21
+        ],
+        [
+          "PetroChina Co Ltd [100%]",
+          20
+        ],
+        [
+          "NNPC Ltd [100%]",
+          19
+        ],
+        [
+          "LUKOIL-West Siberia LLC [100%]",
+          19
+        ],
+        [
+          "Apache Corp [100%]",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company (or companies) that own the unit. Often multiple companies will collaborate to fund a project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 7673,
+      "n_null": 3752,
+      "n_non_null": 3921,
+      "null_rate": 0.489,
+      "n_unique": 1563,
+      "top_values": [
+        [
+          "National Iranian Oil Co [100.0%]",
+          113
+        ],
+        [
+          "ORLEN SA [100.0%]",
+          90
+        ],
+        [
+          "PetroChina Co Ltd [100.0%]",
+          80
+        ],
+        [
+          "CNOOC Ltd [100.0%]",
+          78
+        ],
+        [
+          "Rosneft PJSC [100.0%]",
+          68
+        ],
+        [
+          "Petróleo Brasileiro SA [100.0%]",
+          60
+        ],
+        [
+          "Petróleos Mexicanos EPE [100.0%]",
+          52
+        ],
+        [
+          "Gazprom PJSC [100.0%]",
+          40
+        ],
+        [
+          "PetroChina Co Ltd",
+          38
+        ],
+        [
+          "NNPC Ltd [60.0%]; Oando PLC [20.0%]",
+          32
+        ],
+        [
+          "NNPC Ltd [55.0%]; TotalEnergies SE [10.0%]; Oando PLC [5.0%]; Aradel Holdings PLC; First Exploration & Petroleum Development Co Ltd; ND Western Ltd; Petrolin Group; Waltersmith Petroman Oil Ltd",
+          30
+        ],
+        [
+          "Saudi Arabian Oil Co [100.0%]",
+          28
+        ],
+        [
+          "LUKOIL PJSC [100.0%]",
+          28
+        ],
+        [
+          "EP Petroecuador [100.0%]",
+          26
+        ],
+        [
+          "NNPC Ltd [60.0%]; Seplat Energy PLC [40.0%]",
+          24
+        ],
+        [
+          "Ecopetrol SA [100.0%]",
+          24
+        ],
+        [
+          "ConocoPhillips Corp [47.5%]; Origin Energy Ltd [27.5%]; China Petrochemical Corp [25.0%]",
+          23
+        ],
+        [
+          "NNPC Ltd [60.0%]; Chevron Corp [40.0%]",
+          21
+        ],
+        [
+          "Hess Corp [30.0%]; China National Offshore Oil Corp; Exxon Mobil Corp",
+          21
+        ],
+        [
+          "Exxon Mobil Corp [100.0%]",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company (or companies) that own the owner companies listed.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Government unit ID",
+      "code_friendly_name_guess": "government_unit_id",
+      "n_total": 7673,
+      "n_null": 4053,
+      "n_non_null": 3620,
+      "null_rate": 0.5282,
+      "n_unique": 3480,
+      "top_values": [
+        [
+          "UKCS: P13",
+          8
+        ],
+        [
+          "CA WellSTAR: 190",
+          6
+        ],
+        [
+          "UKCS: P90",
+          4
+        ],
+        [
+          "UKCS: P8",
+          4
+        ],
+        [
+          "UKCS: P710",
+          4
+        ],
+        [
+          "UKCS: P324",
+          4
+        ],
+        [
+          "UKCS: P236",
+          4
+        ],
+        [
+          "UKCS: P225",
+          4
+        ],
+        [
+          "UKCS: P201",
+          4
+        ],
+        [
+          "UKCS: P103",
+          4
+        ],
+        [
+          "Rosnedra License ID: ШКС11386НР",
+          4
+        ],
+        [
+          "CA WellSTAR: 464",
+          4
+        ],
+        [
+          "UKCS: PL179",
+          3
+        ],
+        [
+          "UKCS: P54",
+          3
+        ],
+        [
+          "UKCS: P246",
+          3
+        ],
+        [
+          "UKCS: P1430",
+          3
+        ],
+        [
+          "UKCS: P11",
+          3
+        ],
+        [
+          "Rosnedra License ID: СЛХ02080НЭ",
+          3
+        ],
+        [
+          "CA WellSTAR: 849",
+          3
+        ],
+        [
+          "CA WellSTAR: 52",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The ID assigned by some governments to the asset.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL (project)",
+      "code_friendly_name_guess": "wiki_url_project",
+      "n_total": 7673,
+      "n_null": 5150,
+      "n_non_null": 2523,
+      "null_rate": 0.6712,
+      "n_unique": 965,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Bakken_Oil_and_Gas_Project_(United_States,_Canada)",
+          177
+        ],
+        [
+          "https://www.gem.wiki/Wolfcamp_Oil_and_Gas_Project_(United_States)",
+          92
+        ],
+        [
+          "https://www.gem.wiki/Trend_Area_Oil_and_Gas_Project_(United_States)",
+          76
+        ],
+        [
+          "https://www.gem.wiki/Bone_Spring_Oil_and_Gas_Project_(United_States)",
+          45
+        ],
+        [
+          "https://www.gem.wiki/Marcellus_Oil_and_Gas_Project_(United_States)",
+          44
+        ],
+        [
+          "https://www.gem.wiki/Athabasca_Oil_Project_(Canada)",
+          38
+        ],
+        [
+          "https://www.gem.wiki/Cold_Lake_Oil_Project_(Canada)",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Austin_Chalk_Oil_and_Gas_Project_(United_States)",
+          25
+        ],
+        [
+          "https://www.gem.wiki/Eagle_Ford-1_Oil_and_Gas_Project_(United_States)",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Vaca_Muerta_Project_()",
+          22
+        ],
+        [
+          "https://www.gem.wiki/Wolfcamp_(Gas)_Gas_Project_(United_States)",
+          19
+        ],
+        [
+          "https://www.gem.wiki/Eagleford_Oil_and_Gas_Project_(United_States)",
+          19
+        ],
+        [
+          "https://www.gem.wiki/Haynesville_Shale_Oil_and_Gas_Project_(United_States)",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Barnett_Shale_Oil_Project_(United_States)",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Upper_Wolfcamp_Oil_and_Gas_Project_()",
+          17
+        ],
+        [
+          "https://www.gem.wiki/North_Field_Oil_and_Gas_Project_(Qatar)",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Daqing_Oil_and_Gas_Project_(Heilongjiang,_China)",
+          15
+        ],
+        [
+          "https://www.gem.wiki/South_Pars_Oil_and_Gas_Project_(Iran)",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Eagleford_Shale_Project_()",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Eagle_Ford-2_Oil_and_Gas_Project_(United_States)",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "URL for the GEM.wiki page for an associated project, if relevant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL (field)",
+      "code_friendly_name_guess": "wiki_url_field",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 7673,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Șincai_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Șaroș_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Șamșud_Oil_and_Gas_Field_(Romania)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żuchlów_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żołynia-Leżajsk_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Żakowo_Oil_and_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Środa_Wielkopolska_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Łękawica_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Łukowa_Gas_Field_(Poland)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Øst_Frigg_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ørn_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Íride_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ébano_Oil_and_Gas_Field_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ébano_Chapacao_Oil_and_Gas_Field_(Mexico)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Çaycuma_Gas_Field_(Türkiye)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ærfugl_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Ærfugl_Nord_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Åsgard_Oil_and_Gas_Field_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Água_Grande_Oil_and_Gas_Field_(Bahia,_Brazil)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/not_stated_-_Wapiti_Operating_Gas_Asset_(New_Mexico,_United_States)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL for the GEM.wiki page for the field-level unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Name Other",
+      "code_friendly_name_guess": "name_other",
+      "n_total": 7673,
+      "n_null": 7155,
+      "n_non_null": 518,
+      "null_rate": 0.9325,
+      "n_unique": 505,
+      "top_values": [
+        [
+          "Murzuq",
+          4
+        ],
+        [
+          "White Lion",
+          2
+        ],
+        [
+          "West Tarkosalinskoye",
+          2
+        ],
+        [
+          "Platong II",
+          2
+        ],
+        [
+          "Odoptu-sea, Одоптинское, Одопту",
+          2
+        ],
+        [
+          "Miamte",
+          2
+        ],
+        [
+          "Gunashli",
+          2
+        ],
+        [
+          "Ety-Purovskoye",
+          2
+        ],
+        [
+          "East Urengoyskoye",
+          2
+        ],
+        [
+          "EMZ",
+          2
+        ],
+        [
+          "Ahwaz",
+          2
+        ],
+        [
+          "Өзен, Uzen'",
+          1
+        ],
+        [
+          "северная оконечность месторождения Чайво, Нефтегазоконденсатное месторождение Северное Чайво, Северный купол Чайво",
+          1
+        ],
+        [
+          "им. А. Усольцева, Usoltseva",
+          1
+        ],
+        [
+          "Янги Узбекистан",
+          1
+        ],
+        [
+          "Южный Кемачи, South Kemachi",
+          1
+        ],
+        [
+          "Шуртан",
+          1
+        ],
+        [
+          "Шимолий Бердак, Shimoliy Berdakh, Шимолий Бердах, Северный Бердах",
+          1
+        ],
+        [
+          "Тымпучиканский лицензионный участок Чонской группы месторождений",
+          1
+        ],
+        [
+          "Тимано-Печорская НГП (шельф Баренцева моря), Приразломное (Газпром Нефть)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternate names for a field-level unit",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 7673,
+      "n_null": 618,
+      "n_non_null": 7055,
+      "null_rate": 0.0805,
+      "n_unique": 6406,
+      "top_values": [
+        [
+          "26.8614000",
+          14
+        ],
+        [
+          "26.5712000",
+          13
+        ],
+        [
+          "20.3293000",
+          11
+        ],
+        [
+          "53.3650000",
+          7
+        ],
+        [
+          "4.0520000",
+          7
+        ],
+        [
+          "53.2760000",
+          6
+        ],
+        [
+          "31.8800000",
+          6
+        ],
+        [
+          "13.0955000",
+          6
+        ],
+        [
+          "9.6320000",
+          5
+        ],
+        [
+          "70.2222000",
+          5
+        ],
+        [
+          "7.1670000",
+          5
+        ],
+        [
+          "6.8840000",
+          5
+        ],
+        [
+          "6.3210000",
+          5
+        ],
+        [
+          "55.8930000",
+          5
+        ],
+        [
+          "53.4400000",
+          5
+        ],
+        [
+          "4.4100000",
+          5
+        ],
+        [
+          "32.1700000",
+          5
+        ],
+        [
+          "32.1500000",
+          5
+        ],
+        [
+          "32.1300000",
+          5
+        ],
+        [
+          "3.8940000",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 7673,
+      "n_null": 618,
+      "n_non_null": 7055,
+      "null_rate": 0.0805,
+      "n_unique": 6489,
+      "top_values": [
+        [
+          "52.1813000",
+          14
+        ],
+        [
+          "51.8521000",
+          13
+        ],
+        [
+          "56.0697000",
+          11
+        ],
+        [
+          "-73.4380000",
+          7
+        ],
+        [
+          "-93.7200000",
+          6
+        ],
+        [
+          "-93.3500000",
+          6
+        ],
+        [
+          "-59.4759000",
+          6
+        ],
+        [
+          "-109.5280000",
+          6
+        ],
+        [
+          "-109.4080000",
+          6
+        ],
+        [
+          "-109.1820000",
+          6
+        ],
+        [
+          "101.1580000",
+          5
+        ],
+        [
+          "-93.9400000",
+          5
+        ],
+        [
+          "-93.7500000",
+          5
+        ],
+        [
+          "-93.4700000",
+          5
+        ],
+        [
+          "-75.3040000",
+          5
+        ],
+        [
+          "-74.4780000",
+          5
+        ],
+        [
+          "-73.8400000",
+          5
+        ],
+        [
+          "-72.6520000",
+          5
+        ],
+        [
+          "-71.2140000",
+          5
+        ],
+        [
+          "-148.4529000",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the unit. Since each unit spans some area (often many miles), the coordinates provided are approximately the middle of the unit.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 7673,
+      "n_null": 617,
+      "n_non_null": 7056,
+      "null_rate": 0.0804,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          6035
+        ],
+        [
+          "approximate",
+          1021
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Locations are designated as \"exact\" if there is information about where exactly the unit is (e.g., coordinates explicitly stated, or unit shown on a map). If only general information is available (e.g., which state or county the unit is in), an \"approximate\" designation is used.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Onshore/Offshore",
+      "code_friendly_name_guess": "onshore_offshore",
+      "n_total": 7673,
+      "n_null": 0,
+      "n_non_null": 7673,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "onshore",
+          5181
+        ],
+        [
+          "offshore",
+          2049
+        ],
+        [
+          "unknown",
+          443
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Tag stating if a field predominantly located on or offshore",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Field outline (WKT)",
+      "code_friendly_name_guess": "field_outline_wkt",
+      "n_total": 7673,
+      "n_null": 6563,
+      "n_non_null": 1110,
+      "null_rate": 0.8553,
+      "n_unique": 1102,
+      "top_values": [
+        [
+          "POLYGON ((2.1826311727593604 58.71625244953658, 2.180688100265388 58.716432612551614, 2.1807783593545733 58.715457996822245, 2.1813367426075105 58.71400515042241, 2.1820063812793187 58.71143286423352, 2.183684342262583 58.708971594908164, 2.1858094945002695 58.70695774771574, 2.187934641397614 58.70505770471248, 2.190506979704711 58.703602083727816, 2.193079302154652 58.70248537521342, 2.194198858957644 58.70192426874459, 2.195204428231151 58.70102984856725, 2.195762801010261 58.69979921035562, 2.195876787750456 58.69801024597431, 2.1956518704216057 58.69611017321614, 2.1950936126939036 58.694879620872356, 2.1944214413429783 58.69387397536199, 2.194310374916865 58.69309064513667, 2.194310401007095 58.69253232459665, 2.194646541597152 58.691860004119064, 2.1956520847470875 58.69152390448718, 2.1965466143538155 58.69141281172715, 2.196882749613886 58.69085449544371, 2.198113345885323 58.68951276166606, 2.1988968038608614 58.68872944276986, 2.200013460548818 58.68816833626694, 2.200908000537417 58.687834935328155, 2.2024747277274814 58.688168367429924, 2.205158038174255 58.689512850862045, 2.206835800408745 58.69130183791796, 2.2080662609391157 58.69286581103538, 2.208849624835936 58.69409636622748, 2.2097440074608627 58.69499091046335, 2.21119681052871 58.69577425767801, 2.212538400172828 58.69677991166502, 2.213435672365259 58.69789936421542, 2.214330002670253 58.69991334964645, 2.2154466756507274 58.70114400906993, 2.217013271439829 58.7021495659066, 2.2182438632401396 58.70304411440524, 2.2200327860073874 58.703602457599374, 2.2214856047887874 58.70404969244964, 2.2238356166542856 58.7051692634011, 2.2253995070499637 58.70628872439843, 2.226966102839773 58.707294381242214, 2.2294272386593432 58.70796663713805, 2.230210602661498 58.70919449224776, 2.2318882909733353 58.710425058778576, 2.233677192709554 58.71143351854237, 2.234907800235427 58.711991854670956, 2.23624951599389 58.712439088116035, 2.237813390166808 58.71176688316431, 2.2396051809602593 58.710872372913386, 2.2411691603254296 58.71008906387235, 2.242399851356577 58.70886123425064, 2.2435193708863053 58.70695847837982, 2.245197316051083 58.704833421395314, 2.246761321486178 58.70349169180179, 2.248216903057827 58.702597177296525, 2.248439166617463 58.701366634819394, 2.2486642824100738 58.69901935128064, 2.2486643712817798 58.697116481253886, 2.249111793115677 58.69476920053597, 2.2504535186174 58.692866347489804, 2.253137070263193 58.69118851970031, 2.255934477118861 58.6883940522644, 2.257498503328539 58.6866051062265, 2.2586180278781374 58.68459114628927, 2.259959910574686 58.68146044808293, 2.260965521479488 58.67967149498907, 2.261637834659475 58.67978270758308, 2.2634267209605596 58.681124379564665, 2.2653267259687526 58.68213004059104, 2.2676767327841016 58.683360615583666, 2.26969053041012 58.684591286329166, 2.271143380474817 58.68436909652649, 2.2722629581015257 58.68336067358175, 2.2738269737736423 58.681796735819155, 2.2772937780812534 58.679446693195516, 2.279307785301634 58.67832727747705, 2.2808745593194293 58.67765787265909, 2.282999627877381 58.6774328912483, 2.2852357941684587 58.67732171542765, 2.287696997935894 58.676538417724196, 2.2910499416081485 58.675421719026204, 2.2937361463432477 58.67474952825101, 2.296641746590891 58.67430234852471, 2.2996613551320078 58.67374406615009, 2.301786428872893 58.6734079806427, 2.3055893953177766 58.672066279343746, 2.3082728208063115 58.67094677206942, 2.3101757092984325 58.67016346729892, 2.3120758132361003 58.66904675022786, 2.313417470732095 58.66859955072902, 2.314537022156166 58.66815234842352, 2.318228838722276 58.66781628270305, 2.3210233464078898 58.66714409327976, 2.323259549177039 58.666249588624396, 2.3257207789027 58.66490797036404, 2.32695149062534 58.663230124193234, 2.3270626664330516 58.66166616807261, 2.326168240848806 58.65954107861455, 2.324043260818004 58.657863190064745, 2.3222544899745436 58.656185305764055, 2.3192349906637713 58.654396301833955, 2.3139794615233185 58.6519350449407, 2.310287780285072 58.6493627037215, 2.3067099709021295 58.64746258866118, 2.3038016747750394 58.64567078604332, 2.3023489026392774 58.644218014280234, 2.3001100143335393 58.642651228396105, 2.2995517353766135 58.641870592645816, 2.2979877979610492 58.64175676870268, 2.295748821199272 58.64209285276894, 2.2929542928502045 58.64321225860989, 2.290270757189311 58.64455397402442, 2.288256750270657 58.6456705896235, 2.2861316401781218 58.646790103924694, 2.2832232191639688 58.64768450004965, 2.279198088458949 58.64813176562063, 2.276848003492906 58.648578952357205, 2.274053495925393 58.64925114174677, 2.2722645002930006 58.650256756103126, 2.271592145486082 58.651040076402296, 2.2702504620621275 58.65204559640966, 2.2685726057844353 58.652270583470525, 2.2648807841814316 58.65271785324152, 2.2637641328821547 58.65316505556541, 2.2620862767367607 58.653387242520765, 2.260408415289386 58.65372333366318, 2.259625052261264 58.65461785664623, 2.2586193570391635 58.65607339744542, 2.2566053395828027 58.657415121310706, 2.254144146397882 58.65797341071524, 2.251907969704229 58.658309494793976, 2.2492245444432406 58.65942620191756, 2.247099449948825 58.66020950384233, 2.2453104749785933 58.66077060184712, 2.2421797478513055 58.661665095138886, 2.2401657512059727 58.662559502551325, 2.2387101749713905 58.663342912945424, 2.2364739514116345 58.664684533990155, 2.2349099722110997 58.66546794301236, 2.2334542856102515 58.666473461571776, 2.2309930715562127 58.667479067412756, 2.2286457761522653 58.66815126243326, 2.2250678472920105 58.668820641777685, 2.2211538247997744 58.66915680461264, 2.2183565119335187 58.66994009801846, 2.216342515258909 58.67083450542189, 2.2137701981583464 58.67184010984771, 2.2120923001511703 58.67295952977834, 2.2098560608479247 58.6746373631781, 2.20661418890583 58.676426287934554, 2.2043752651912003 58.6777680089387, 2.20258625375054 58.679109635634774, 2.200127744905933 58.680004137409966, 2.197441540224393 58.680676328124584, 2.19475813043078 58.681459622959466, 2.1940885755801474 58.682243043296396, 2.1937524403368722 58.68280135957575, 2.1921857506249043 58.68380697672637, 2.18905500253712 58.685148586430024, 2.1864826852447523 58.6861569909476, 2.184132563634277 58.687387506447976, 2.1797712558577564 58.68928752110259, 2.176640502542182 58.690740334890386, 2.173284853473006 58.69197083764984, 2.171943085438017 58.69264314538467, 2.1700430023042068 58.69331254593957, 2.168476238651234 58.693759742542184, 2.166909585389918 58.693984730971316, 2.165231723900463 58.694320822078076, 2.1638899715757587 58.69465701744643, 2.162437074529135 58.695884744203404, 2.1607592869243 58.69677925585268, 2.1597536280498173 58.69745146784011, 2.1588563460103565 58.698682101744815, 2.1578506819328234 58.699465417819845, 2.157067313522021 58.700470944887314, 2.1559505464026523 58.70125435955848, 2.1556144059118645 58.701923779927995, 2.1550560540225616 58.70270720167634, 2.153600393382278 58.70315439968274, 2.1521476170913125 58.70393771009188, 2.150469692788995 58.70561555056082, 2.1490167327427447 58.70818782679386, 2.14890279816459 58.70886005008541, 2.1496860463153054 58.71042401756336, 2.1508055192420397 58.71165467703946, 2.1511387864554243 58.71254911417882, 2.151138707882599 58.714226975925094, 2.151138618761964 58.71612984595462, 2.151138545505597 58.71769380351378, 2.151921851589836 58.72015500402914, 2.152482904046699 58.72149666052384, 2.152930063797351 58.722616207400854, 2.153377234093472 58.72351064599292, 2.1537105222309285 58.723957966683486, 2.153717490356508 58.72395934582262, 2.15243820587858 58.72569961466751, 2.1493463932226797 58.72843577619879, 2.149696287129328 58.73090257144853, 2.150698945606768 58.73237203826012, 2.1519433824088345 58.734444430337646, 2.153762728391888 58.736655634818746, 2.1534932130173736 58.73895851619853, 2.1547735886096118 58.742355857536026, 2.1565263195732305 58.74484757151951, 2.157187310919235 58.74754767934296, 2.157512150027476 58.75116451667727, 2.157842684200403 58.75275907960268, 2.161817779906489 58.75303414013179, 2.169834689086886 58.75111467105616, 2.1747295200746257 58.74691177828981, 2.1770658129279368 58.74416170661067, 2.1798549570704897 58.740581110087014, 2.183635835556803 58.73471144184288, 2.1857916885516677 58.7305697166526, 2.1873029767700016 58.727433520328304, 2.1908337768000763 58.72522228364706, 2.192764454552786 58.722552809826574, 2.1946841227436886 58.720080543130074, 2.1938535853623775 58.71825826552897, 2.1920313903371738 58.71708869939598, 2.18838959607526 58.716977549173926, 2.185917339091319 58.716752509572764, 2.1826311727593604 58.71625244953658))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-93.422671450357 18.5117207318058,-93.4225894209194 18.5116950903224,-93.422491645121 18.5117082153039,-93.4223678079307 18.5116995947179,-93.4222773843936 18.511671329166,-93.4221696030785 18.5116857970602,-93.4221144079115 18.5116868111344,-93.4220520145761 18.5116879574376,-93.4219544072057 18.5116943580369,-93.4218836874026 18.5117093445318,-93.4217900266662 18.5117212446884,-93.4216562562365 18.5117382409381,-93.4216065930495 18.5117445508873,-93.4213128109342 18.5117543579642,-93.421311873525 18.5117544688823,-93.4213092474295 18.5117547796124,-93.4210336853799 18.5117873850019,-93.4209449771513 18.511792761183,-93.4207451651023 18.5118048706813,-93.4206814415388 18.5118048472705,-93.4206045443981 18.5118133927935,-93.4204629456481 18.5118316393839,-93.4203630817238 18.5118491856804,-93.4202044827588 18.511889457338,-93.420191655937 18.5118920970087,-93.4199428534532 18.5119432986414,-93.4198739862442 18.5119638024189,-93.419731050544 18.5120063584521,-93.4197079064427 18.5120132499222,-93.4196970036511 18.5120170250028,-93.4196670782878 18.5120264003132,-93.4194525799209 18.5120936002918,-93.4192302485163 18.5121542723217,-93.4192028477818 18.5121617496887,-93.4190479802 18.512203163075,-93.4189526349118 18.5122294569647,-93.4187956766339 18.5122524401657,-93.4186801882474 18.5122661790738,-93.4185752692553 18.5122786605465,-93.4184400952541 18.5122947411561,-93.4184197145911 18.5122974347318,-93.4184041939693 18.5122990120386,-93.4181572733955 18.5122833023029,-93.4181277720131 18.5122771233259,-93.4180803368009 18.5122643946301,-93.417991004246 18.512242440524,-93.4179371528202 18.5122292061328,-93.4178520392821 18.5122113792311,-93.4177169803515 18.5121751374504,-93.4177163379406 18.5121749191725,-93.4177150354065 18.5121744765989,-93.4175840711906 18.5121271074249,-93.4175321025522 18.5120979269294,-93.4173953972023 18.5120407213556,-93.4173473587555 18.5120206192059,-93.4173291663953 18.5120091976489,-93.4172572577924 18.5119590582512,-93.4172113721233 18.5119277071028,-93.4172002208537 18.5119200880517,-93.4171819094883 18.5119075768964,-93.4170476096555 18.5118213667281,-93.4169848095139 18.5117748978157,-93.4169077751377 18.5117178962295,-93.4168087265352 18.5116446051135,-93.4167655572443 18.5116153321634,-93.4166359974772 18.5115159311538,-93.4166296694423 18.5115110761456,-93.4166017290738 18.5114896396713,-93.4164877355339 18.5114122756565,-93.4164556530748 18.5113902877433,-93.4163435641086 18.5113186583732,-93.4162629432267 18.5112671382993,-93.4161975961918 18.5112253787959,-93.416075191877 18.5111479918282,-93.4160537764093 18.5111367749338,-93.4160039195778 18.5111106611384,-93.4158971294214 18.5110547269811,-93.415854896804 18.5110318406619,-93.4157475461887 18.5109736661135,-93.4156487238504 18.5109201130481,-93.4155955069425 18.5108927932836,-93.4154571811968 18.5108059052342,-93.4154542191909 18.5108040446752,-93.4154438279658 18.5107975175143,-93.4153090167692 18.5107213143348,-93.4152698778283 18.5106960676425,-93.4151685516097 18.5106362172726,-93.4150824387006 18.5105853528738,-93.4150251291395 18.5105515017386,-93.4148882721283 18.5104827267696,-93.4148798288924 18.5104781935803,-93.4148748295929 18.5104755094467,-93.4148553160918 18.5104650326077,-93.4147318106158 18.5103987221859,-93.4146863330577 18.5103790053989,-93.4145811939941 18.5103334223174,-93.4144735916455 18.5102867711916,-93.4144292958139 18.5102669036355,-93.4143417147108 18.5102425291842,-93.4142624279323 18.5102281945453,-93.4142015113721 18.5102171811226,-93.4140931674954 18.5101975930154,-93.413954927542 18.5101789006176,-93.4139289607838 18.5101753894577,-93.4138171869768 18.5101610937109,-93.4137588567646 18.5101530109523,-93.4135760933402 18.5101340325754,-93.4135009290179 18.5101293250997,-93.4134390949756 18.5101223074073,-93.4134879055729 18.5100555060091,-93.4137637935176 18.5096992874292,-93.4140512471063 18.5093481222101,-93.4143486875713 18.5090009458615,-93.4146273142469 18.5086238050824,-93.4149482207018 18.5083024602156,-93.4152771624861 18.507984027512,-93.415667167527 18.507674351416,-93.4160262025342 18.5073797116966,-93.4163978606878 18.5071108514191,-93.4167717972348 18.5068561967537,-93.4171492335765 18.5066321940726,-93.4175272098367 18.5063981288345,-93.4179086605194 18.5061346949079,-93.4182946118116 18.505829879662,-93.4186845284658 18.5054827205449,-93.4188696354544 18.5053039856703,-93.4190775253588 18.5051032521581,-93.4194720746175 18.5047126046277,-93.4198640581301 18.5043298628042,-93.4202507474041 18.5039670042944,-93.4206295296777 18.5036273774316,-93.4210027961351 18.5033132428937,-93.4213687500855 18.5030188662781,-93.4217271499246 18.5027383507409,-93.4220847784159 18.5024727207026,-93.4224402282235 18.502211208948,-93.4227971152133 18.5019478130317,-93.4229193535126 18.501856944099,-93.4231567309737 18.5016804835572,-93.4235197886574 18.5013991089184,-93.4238817037333 18.5011041527942,-93.4242432734893 18.5008049665873,-93.4245978982439 18.5005008111539,-93.4249418676017 18.5001898730847,-93.4252779799488 18.4998741557035,-93.4255988472488 18.4995448792309,-93.4259028783439 18.4991937652767,-93.4261885096776 18.498805457518,-93.4264695203526 18.4983604472458,-93.4267437847068 18.4978523566111,-93.4270219776419 18.4973015773336,-93.4273079362647 18.4967221030055,-93.4276021344092 18.4961217818995,-93.4279062144061 18.495511973069,-93.4282218438919 18.4949085401182,-93.4285517087687 18.4943357841548,-93.4288991316781 18.4938309323803,-93.4292682140542 18.4934226046432,-93.4294538521631 18.4932740157818,-93.4295523807572 18.4938371199343,-93.4296373737053 18.4939969961011,-93.4297846809638 18.4942502212876,-93.4298112152527 18.4942958343581,-93.4299442285333 18.4945244869037,-93.4299984927747 18.4945842126155,-93.4300341045379 18.4946416011986,-93.4301781821616 18.4948737827345,-93.4303098577682 18.4950859777202,-93.4303630482168 18.4951595976042,-93.430510885761 18.495370461826,-93.4305546311346 18.4954328567733,-93.4305964502933 18.495519921194,-93.4307360719074 18.4957155173586,-93.4307801024344 18.4957917095295,-93.4309027411139 18.4960039279457,-93.430962693084 18.4961251059976,-93.4310621483535 18.4962995781549,-93.431131299131 18.4964155023461,-93.4311422479281 18.496433856882,-93.4312295451274 18.4965802014049,-93.4313209353957 18.4967382968787,-93.4313952778197 18.4968631456853,-93.4314706642396 18.4969764118349,-93.4315716330025 18.4971281145064,-93.4316504518497 18.4972465373357,-93.4317376100761 18.4974035802755,-93.4318026301751 18.4974971852612,-93.4319063433639 18.4976464937757,-93.4319695021254 18.497737418802,-93.4320668121856 18.4978997880621,-93.4321307884697 18.4979857227568,-93.4322534256322 18.4981504520396,-93.432338499954 18.4982647257444,-93.4324361166093 18.4984046342088,-93.4325210351723 18.4985479275748,-93.4325953218283 18.4986732802044,-93.4326645235289 18.4987900521934,-93.4327682525355 18.4989281761338,-93.432931865666 18.4990792119532,-93.4329874511709 18.4991305243804,-93.433096035114 18.4992307609083,-93.4332509090323 18.4992900141241,-93.4333510964843 18.499408454127,-93.4334668073963 18.4994901895769,-93.4335831641984 18.4995723811165,-93.4337108816491 18.4996625973586,-93.4337496478701 18.4997253892025,-93.4338539066541 18.4998942627859,-93.4338982299308 18.4999660554699,-93.4340057107601 18.5001159783339,-93.434105014217 18.5002211173196,-93.4341997291203 18.5003213979354,-93.434360359051 18.5004914665461,-93.4343917125133 18.5005285975136,-93.4344963334831 18.5006313223143,-93.4345595806581 18.5006749797408,-93.4345981983246 18.5007016362131,-93.4347470843931 18.5008044070895,-93.4348290463023 18.5009130798042,-93.4349182425769 18.5009850572845,-93.4350139684491 18.5010623036873,-93.435111143939 18.501140719865,-93.4351124214327 18.5011417507424,-93.43511293782 18.5011421722037,-93.4352862660562 18.5012836377717,-93.4353611779879 18.5013447786328,-93.4354757211599 18.5014095070474,-93.4355851068213 18.5014470733393,-93.4356104379163 18.5014539469345,-93.4357312500618 18.5014867293229,-93.4359231044333 18.5015387888261,-93.4359957394582 18.5015584982124,-93.4361030233173 18.5016108915696,-93.436219808635 18.5016679249716,-93.4363149087409 18.501714368078,-93.4365381062508 18.5017060323196,-93.4366029898671 18.5018592644922,-93.436679489021 18.5018871566284,-93.4367131066751 18.5018994138516,-93.4369332072804 18.5019796638234,-93.4370948950371 18.502076597858,-93.437113905777 18.502087995058,-93.4371503332699 18.5021047907258,-93.4372058940027 18.5021304081591,-93.4373903901881 18.5022154737956,-93.4375278766955 18.5022968416555,-93.4376099442592 18.5023454111505,-93.4376875465523 18.5023913379359,-93.437845783898 18.502461969813,-93.4379491340356 18.5025162668835,-93.4381247538134 18.5025542931074,-93.4382749315645 18.5025868103314,-93.4384410916403 18.5026227879725,-93.4385896228991 18.5027414412965,-93.4386349018173 18.5027776120377,-93.438724979246 18.502849569671,-93.4388620204423 18.5029115657721,-93.4388944688936 18.5029784419156,-93.4390408143987 18.5030795047555,-93.4392469079035 18.5032218277901,-93.4392520140726 18.5032253539773,-93.4392551278092 18.5032277785784,-93.4394528171362 18.5033817148505,-93.4395652873271 18.503469292662,-93.4396691922052 18.5035272632006,-93.4397565153582 18.5035781769873,-93.4399446842449 18.5036655791269,-93.4401393200333 18.5037559847694,-93.4402304641181 18.5037983198387,-93.4403903153334 18.5038789341466,-93.4404884516412 18.5039284250037,-93.4405496966911 18.5039593112891,-93.4407765690639 18.5040429313279,-93.4409714614005 18.5041743838336,-93.4410032797298 18.5041958448703,-93.4410293238595 18.5042134112785,-93.4412649558835 18.5043270682942,-93.4414557557112 18.5044935749179,-93.4414603525873 18.5044975864996,-93.4414712902979 18.5045071315715,-93.4417001531173 18.5046449864296,-93.4417702312943 18.5047474896481,-93.4418759459267 18.5048284878941,-93.4420535106365 18.5049645371521,-93.442087924287 18.5049909046866,-93.4420973609451 18.5050037032163,-93.4422350632933 18.505190462655,-93.4422531221795 18.5052149550634,-93.4424250927343 18.5053645216274,-93.4425112490796 18.5054524339736,-93.4426038712902 18.5055469438221,-93.4427367027097 18.5056824820765,-93.4427877657163 18.5057259188559,-93.4429336974712 18.5058705848091,-93.442982361134 18.5059004739904,-93.443034916426 18.5059327533811,-93.4432279310466 18.5060513024731,-93.443375965648 18.506198269939,-93.4434241541733 18.5062283427973,-93.4434705403012 18.5062572908175,-93.443668326927 18.5063807225487,-93.4437632212891 18.5064771751433,-93.4438498982256 18.5065652752373,-93.4439931391164 18.5067108677246,-93.4440442472776 18.5067434186993,-93.4441121626371 18.5068007800626,-93.4442821101675 18.506903948803,-93.4444825831835 18.5070256480544,-93.444535852658 18.5070579857831,-93.4446054355308 18.5071220825477,-93.4447329369703 18.5072395312231,-93.4447807691095 18.507283592005,-93.4449635958023 18.5074046685139,-93.4450207640127 18.5074743532936,-93.4451246442106 18.5076009771221,-93.4452532055601 18.5077576854721,-93.4452897505354 18.5077948756386,-93.4453119427895 18.5078274145401,-93.4454290899091 18.50799917866,-93.4455480424683 18.5081735895251,-93.4455707306494 18.5082019390333,-93.4456908429849 18.5083787193135,-93.4457088349517 18.5084051996934,-93.4458294909565 18.5085827796185,-93.4458465497576 18.5086080544376,-93.4459651712761 18.5087841488992,-93.4459827586362 18.5088102574186,-93.4461009984251 18.5089857846894,-93.4461177137883 18.5090123233654,-93.446235225277 18.5091848333205,-93.4462539408919 18.5092123082958,-93.4463713754677 18.5093847048427,-93.44639281158 18.509410784237,-93.4465400450695 18.5095931600569,-93.4465472041052 18.5096020278293,-93.4466265768478 18.5097003453772,-93.4468142422783 18.5097557861117,-93.4468230985627 18.5098334980966,-93.4469789617958 18.5099193493317,-93.4470279877874 18.5099463533585,-93.4471220083483 18.5099981408028,-93.4472252568809 18.5100550110131,-93.4472280544419 18.5100892047083,-93.4472335168961 18.5101559704999,-93.4472408526276 18.5102456326522,-93.4471993873976 18.5103044555661,-93.4471275335595 18.5104063878916,-93.4471732259342 18.51052184897,-93.4471813871202 18.5105475017244,-93.4472180146906 18.5106862788404,-93.447239219979 18.5107666228178,-93.4472613627511 18.510850518708,-93.4472355163571 18.5109666029699,-93.4472310693279 18.5109865759572,-93.4472274491769 18.5110028351746,-93.4472076045685 18.5111261224116,-93.4471437013256 18.5112340531518,-93.4471400624775 18.5112587307196,-93.4471383288723 18.5113025883493,-93.4471235500511 18.5114911182574,-93.447125183785 18.5115322950337,-93.4471282391785 18.511609303382,-93.4471309868513 18.5116785558349,-93.4471345290837 18.511713950541,-93.4471455923182 18.511824496528,-93.4471560015041 18.5119285069862,-93.4471743908474 18.5119755539047,-93.4472464495295 18.5121229868985,-93.4472556692706 18.5121418505869,-93.4473145362251 18.5122622928907,-93.4473403309518 18.5123094217757,-93.4473432991006 18.5123146478582,-93.4474494890889 18.5124829768509,-93.4474594730057 18.5124988030178,-93.4475590878347 18.5126567088777,-93.4475769166441 18.5126819653756,-93.4476732215542 18.5128292812648,-93.447695015764 18.5128626194326,-93.4477857959851 18.5130014839548,-93.4478155135528 18.5130415874172,-93.4479055166884 18.5131731278038,-93.4479364685339 18.5132183641445,-93.4480224972826 18.513344095613,-93.4480630314737 18.5133924800561,-93.4480962350941 18.513443081146,-93.4481779794164 18.5135676563146,-93.4482176791059 18.5136266722135,-93.4482928715016 18.5137411050047,-93.4483632465008 18.5138429123232,-93.4484112662672 18.513912379572,-93.4484585476452 18.5139932441601,-93.4485206205583 18.5140836239386,-93.4485942945145 18.5141704577128,-93.4486592399405 18.5142470037472,-93.4487117078058 18.5143153653817,-93.4487370062035 18.5143450469296,-93.4487856435795 18.5144021111209,-93.4488686548858 18.5144850671824,-93.4489257376471 18.5145421118856,-93.4490178564637 18.5146341691665,-93.4490564840746 18.5146873318504,-93.4486585661496 18.5147093985335,-93.4483831703486 18.514726140171,-93.4481776396474 18.5147386346263,-93.4477014378119 18.5147725652411,-93.4472276869033 18.5148111338137,-93.446758306592 18.5148662222405,-93.4464528076209 18.5149098779319,-93.4462897889719 18.5149331732371,-93.4458235453051 18.5150181967746,-93.4453570098303 18.5151141505149,-93.4448918111161 18.5152205557631,-93.44442608688 18.5153343912378,-93.443959946246 18.5154549334318,-93.4434924728624 18.5155782334395,-93.4430229197363 18.5157002687904,-93.4425507976923 18.5158169420768,-93.4420643491368 18.5159402146417,-93.4415852116426 18.5160299912715,-93.4411046277545 18.5161130515282,-93.4406211622987 18.5161855694704,-93.440137085342 18.5162578073,-93.4396510481778 18.5163253520309,-93.4391649448792 18.5163976833624,-93.4386788858209 18.5164754545794,-93.4381929252792 18.5165562481042,-93.4377071618964 18.5166326080506,-93.4373749243604 18.5166914608595,-93.4372225653066 18.5167184498577,-93.4367399905871 18.5168187674494,-93.4362609785148 18.5169392501188,-93.4357853250957 18.5170807204236,-93.4353157928207 18.5172498471101,-93.4348545371723 18.5174519512684,-93.434417265812 18.5176900246213,-93.4339755495608 18.5179470717291,-93.4335457970569 18.5182410335318,-93.4331168294365 18.5185503658345,-93.4326931446178 18.5188804481689,-93.4322683225441 18.5192170853173,-93.431842140407 18.5195543838351,-93.4314111155493 18.5198805175116,-93.4309733967958 18.5201885184786,-93.4300989139647 18.5206975551794,-93.429649604463 18.5209362685143,-93.429237390264 18.5211372684064,-93.4292152943299 18.5211226515892,-93.4291377636022 18.5210713637208,-93.4290820408701 18.5210342934,-93.4289732206104 18.520961899117,-93.4289252984669 18.5209300181644,-93.4288535057177 18.5208747211697,-93.4287793239081 18.5208241665944,-93.4286437197551 18.5207317528088,-93.4286274436878 18.5207206607089,-93.4285838524366 18.5206897666746,-93.4285029805453 18.5206324510113,-93.4284820535626 18.5206176195929,-93.4283893607036 18.5205471413121,-93.4283406814048 18.5205132751604,-93.4283116802908 18.5204626586176,-93.4282677610574 18.5203860049518,-93.4282425148094 18.5203419418178,-93.4281825109882 18.520263610299,-93.4281572332797 18.5202205809793,-93.4281095346701 18.5201393853089,-93.4280873908663 18.5201016906569,-93.4280244325383 18.5200200252212,-93.4280030421443 18.5199824714838,-93.4279547057736 18.5198976103593,-93.427936610582 18.5198658417444,-93.4278811257268 18.5197766421054,-93.4278277200135 18.5196781570287,-93.4278154630724 18.5196555540769,-93.4277532865629 18.5195547038449,-93.4277436099715 18.5195369929066,-93.4276856817016 18.5194284866528,-93.4276801427397 18.5194181115375,-93.4276136171865 18.5193072010535,-93.427610732444 18.5193018331868,-93.4275611008094 18.5192060153512,-93.427550940071 18.5191863992188,-93.4275504414369 18.5191853615751,-93.4274986302331 18.5190775437953,-93.4274934390232 18.5190667410128,-93.4274455122273 18.5189692134002,-93.4274377173675 18.5189538062806,-93.4273920566092 18.5188635543332,-93.4273806087122 18.5188409266806,-93.4273662580595 18.5188162249462,-93.4273186179362 18.5187156916005,-93.4272640097008 18.5186213069664,-93.4272503631403 18.5185977202922,-93.4272088183858 18.5185099679649,-93.427214549233 18.5184885725653,-93.4272321861015 18.5184227274944,-93.4272419367857 18.5183863244975,-93.4272772421197 18.5182278940927,-93.4272768201499 18.5182191477076,-93.4272789603244 18.5182145148448,-93.4272814009501 18.5182092315911,-93.4273763324355 18.5180961854967,-93.4275200303493 18.5179250545867,-93.4275322970308 18.5178925649146,-93.4275332648506 18.517889982382,-93.4275769410756 18.5177734875668,-93.4275916262791 18.5177337792406,-93.4276108121312 18.517681648052,-93.4277097225453 18.5174176018458,-93.427755444383 18.5172914251585,-93.4277716570028 18.5172458702976,-93.4277931066408 18.5171851271477,-93.4278853471549 18.5169298620185,-93.4279347481782 18.516787864505,-93.4279510579061 18.5167399447189,-93.4279752819652 18.5166814882905,-93.4280767776409 18.5164588764659,-93.4281277613217 18.5162946877105,-93.4281423150696 18.5162490812625,-93.4281604787807 18.5161910994865,-93.4282397147856 18.5159277757458,-93.4282964077289 18.5157379418853,-93.4283059671761 18.5157071102259,-93.4283178197284 18.5156694544681,-93.4284035180921 18.5153842065545,-93.4284700437082 18.5151687533104,-93.4284719090859 18.5151629351668,-93.4284743658092 18.5151555888899,-93.4285059028276 18.5150579239804,-93.4285052006227 18.5150576865935,-93.4283720092952 18.5150126000972,-93.4283576064232 18.5150092478495,-93.4282178682512 18.5149767239276,-93.4280882517133 18.514946555702,-93.4280717360373 18.5149427582174,-93.4280517179675 18.5149381589432,-93.4278218796642 18.5148853337147,-93.4277810850203 18.5148759536472,-93.427731639271 18.5148645930939,-93.427559169969 18.5148215506221,-93.4274941027567 18.5147965852851,-93.4273872779172 18.5147574755421,-93.4273559298287 18.5147457900972,-93.4273366745388 18.5147386124112,-93.4272560990872 18.5147085767258,-93.4271146834695 18.5146552655539,-93.4270276328594 18.5146251084339,-93.4269419856181 18.5146007300693,-93.4268846446491 18.5145811101562,-93.426685280499 18.5145197644645,-93.4266510785753 18.5145092402765,-93.4265304340882 18.5144651625431,-93.4264364118976 18.5144308112556,-93.4263298857607 18.5143918915401,-93.4262608288957 18.5143713003506,-93.4262140846905 18.5143573622725,-93.4260556878755 18.5142956861449,-93.4260092001462 18.514278298509,-93.4259755083152 18.5142656968667,-93.4258014230599 18.5142005842181,-93.4257357455973 18.5141737669146,-93.425612673916 18.5141235144223,-93.4256060389176 18.5141203324457,-93.4256002804348 18.514117570823,-93.4254238174076 18.5140329434998,-93.4253615013729 18.5140000307723,-93.4252587422563 18.5139267546238,-93.4251548027769 18.5138663702356,-93.4250905149044 18.5138290216829,-93.4250599511726 18.5138088280678,-93.4249355217646 18.5137266168143,-93.4248394216108 18.513663122757,-93.4247754269544 18.5136227542829,-93.4247445854615 18.5136020389994,-93.424643544445 18.5135341727812,-93.4246284957978 18.513523240325,-93.4246228379911 18.5135191300728,-93.4244870386074 18.5134204751756,-93.4244152393544 18.5133545386162,-93.4243712346178 18.5133044522919,-93.4243051549202 18.5132417240536,-93.4242514751606 18.5131907667957,-93.4242158682228 18.5131516108964,-93.424146703394 18.5130701835926,-93.4240569824776 18.5129707801249,-93.4240390444923 18.5129509062789,-93.4240254872403 18.5129348023809,-93.4239361767326 18.512831020463,-93.4238810494229 18.5127656661984,-93.4238344055131 18.5127103690809,-93.4238289285019 18.5127045408111,-93.4237264434219 18.512595482925,-93.4236526609882 18.5124973377532,-93.4236294978895 18.5124733544346,-93.4235894275505 18.512436339705,-93.4234829972096 18.5123380252105,-93.4234064234458 18.5122388784289,-93.4233522650738 18.5121912919483,-93.4232759154258 18.5121264258746,-93.4231991373006 18.512061195688,-93.4231490128611 18.5119957877799,-93.4230565226566 18.5119236269636,-93.4230146836871 18.5118979956608,-93.4228793339005 18.5118150778375,-93.422876997398 18.5118137720091,-93.4228759057029 18.5118135219842,-93.422734405493 18.5117493034499,-93.422671450357 18.5117207318058)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-92.4522905463827 18.6325255395026,-92.4563555867922 18.6337010672832,-92.4579701797705 18.637778798449,-92.4584621935806 18.6430170195637,-92.4592594169927 18.6482561154621,-92.458930267722 18.6558194311656,-92.457488138578 18.6614399760875,-92.4583877567545 18.6664854072912,-92.4574554543983 18.6717195031219,-92.4582564530364 18.675794870856,-92.4583421788052 18.6808379456676,-92.4571079305495 18.6850044071029,-92.4583209154565 18.6875293241904,-92.458809652213 18.6938342609502,-92.4566598032111 18.6979010900356,-92.4510550147799 18.7004061731171,-92.4455565618875 18.7014567431338,-92.4393457256052 18.7025050213404,-92.4323259075191 18.7019990144376,-92.4273452352145 18.7003352628594,-92.4230818926776 18.6972189374863,-92.4193347518217 18.6919706274762,-92.415897410104 18.685462511454,-92.4130704641898 18.6790532208902,-92.4098216573025 18.6770065206093,-92.406779113736 18.6741846030848,-92.4048639388636 18.6690387710961,-92.4043785987637 18.6623458292277,-92.4029736369077 18.6568136856572,-92.4045188954042 18.6512909018707,-92.4069728457531 18.6477105103057,-92.4101411079964 18.6434534852917,-92.4157472183419 18.6401737644494,-92.4224697489733 18.6375761437646,-92.4283754063183 18.6358485935448,-92.4353985785586 18.6345121231274,-92.441706133749 18.6342400194986,-92.4473022671621 18.6337716590433,-92.4522905463827 18.6325255395026)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-68.798227375 -46.5033043889999,-68.797994014 -46.566275291,-68.774516724 -46.566231425,-68.773657009 -46.7725728739999,-68.8869588439999 -46.75266003,-69.0027820939999 -46.732172729,-69.002780674 -46.704529647,-69.002127849 -46.7041574099999,-69.000535479 -46.701330285,-68.9963454959999 -46.698815382,-68.990842715 -46.6986301589999,-68.9893833789999 -46.697812298,-68.98784366 -46.697536827,-68.986251744 -46.696624398,-68.98406955 -46.6966693169999,-68.981538407 -46.6961141909999,-68.9794089809999 -46.695156378,-68.976291562 -46.694247635,-68.974899092 -46.693010461,-68.9719811109999 -46.6916373019999,-68.9706443599999 -46.6909589439999,-68.9681944 -46.6895816969999,-68.9658661669999 -46.689120792,-68.963419464 -46.6883927019999,-68.960233193 -46.6870643569999,-68.9581085249999 -46.6854116879999,-68.9567162879999 -46.684687944,-68.955442557 -46.684223112,-68.952458056 -46.68417671,-68.9501266889999 -46.683727811,-68.9484031819999 -46.6828065789999,-68.947548954 -46.681803536,-68.946292765 -46.681396139,-68.9442962909999 -46.681300672,-68.942303263 -46.681254483,-68.941179372 -46.68120871,-68.940041983 -46.6807437749999,-68.938716007 -46.680389678,-68.935937672 -46.680338846,-68.9331349619999 -46.680246838,-68.9306222069999 -46.679965915,-68.9283593339999 -46.680786368,-68.926832212 -46.682108576,-68.925711232 -46.682481794,-68.923979088 -46.6830641669999,-68.922973266 -46.6834333259999,-68.9220511349999 -46.683851843,-68.9209796379999 -46.683756596,-68.920191022 -46.6835711329999,-68.918868898 -46.683015457,-68.9173271499999 -46.682291128,-68.91593478 -46.6820558869999,-68.915014989 -46.680962151,-68.914482313 -46.6800947039999,-68.913627821 -46.6796790299999,-68.9125564949999 -46.6795385029999,-68.911768325 -46.6791351919999,-68.911231718 -46.6785800289999,-68.910244636 -46.6781683359999,-68.908719451 -46.6781219279999,-68.907780563 -46.6781211749999,-68.906595382 -46.678322113,-68.906188519 -46.6783910899999,-68.904124924 -46.678853724,-68.902529839 -46.6788523769999,-68.90134355 -46.6786171329999,-68.90047213 -46.677983555,-68.899282882 -46.677477079,-68.898544226 -46.6767942929999,-68.8982316569999 -46.675968058,-68.898233292 -46.6750969,-68.898098454 -46.674418755,-68.8974293269999 -46.6739086109999,-68.8965086599999 -46.6735420599999,-68.895235954 -46.67294917,-68.893980203 -46.672623383,-68.8922529449999 -46.672490274,-68.890996569 -46.6724890839999,-68.8896040879999 -46.672487749,-68.888012682 -46.6724862029999,-68.886422124 -46.67207782,-68.885617328 -46.6714277579999,-68.884295451 -46.6710607059999,-68.883091759 -46.670919769,-68.8816319059999 -46.6714237049999,-68.880908387 -46.6719325,-68.8797038819999 -46.6721531389999,-68.8781088929999 -46.672196653,-68.876517494 -46.6721949459999,-68.87505892 -46.672102959,-68.872091735 -46.6731845209999,-68.872185496 -46.633400932,-68.860432292 -46.633387199,-68.840853008 -46.609496915,-68.8409082489999 -46.590627105,-68.863785088 -46.5906566309999,-68.863917826 -46.537597229,-68.8880256699999 -46.537623368,-68.8880965179999 -46.503427613,-68.798227375 -46.5033043889999)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-68.214114917 -37.493835668,-68.217482155 -37.4938580209999,-68.217418368 -37.498729184,-68.21909806 -37.503044373,-68.2302655729999 -37.499767096,-68.2304948999999 -37.480523225,-68.252567805 -37.480676812,-68.251605067 -37.428751635,-68.244602964 -37.4289150819999,-68.1969082749999 -37.446513427,-68.199382762 -37.457586998,-68.201625383 -37.4594911629999,-68.209784112 -37.4774122009999,-68.214152392 -37.4896010959999,-68.214114917 -37.493835668)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-67.975389696 -46.56164322,-67.973737786 -46.5627497049999,-67.951023958 -46.5625436609999,-67.8016160079999 -46.5610758989999,-67.778146084 -46.560827592,-67.777742033 -46.578815181,-67.814263002 -46.579199596,-67.813693956 -46.6052818429999,-67.801949361 -46.605159441,-67.801393742 -46.6303420749999,-67.8248938949999 -46.630585885,-67.8312862289999 -46.636948462,-67.87204459 -46.623863824,-67.917717344 -46.625204621,-67.952965745 -46.62553266,-67.953018118 -46.622816396,-67.996098165 -46.623202551,-67.995898245 -46.634013781,-68.0494338 -46.634471128,-68.0502046619999 -46.590397895,-68.0505815669999 -46.5688108759999,-68.0101521999999 -46.568468169,-68.010348505 -46.557674756,-67.9816757099999 -46.557432083,-67.975389696 -46.56164322)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-67.778549749 -46.542839944,-67.7792753699999 -46.510462026,-67.667249286 -46.5092114179999,-67.667556982 -46.4966204999999,-67.47574245 -46.4942247179999,-67.3817541889999 -46.6040616989999,-67.486039864 -46.602754831,-67.5187746889999 -46.602742626,-67.518199431 -46.528068284,-67.592260416 -46.537100328,-67.6116023549999 -46.545433192,-67.611510616 -46.5490304859999,-67.659763257 -46.5487064939999,-67.6599403399999 -46.5415117589999,-67.778549749 -46.542839944)))",
+          2
+        ],
+        [
+          "MULTIPOLYGON (((-67.178378712 -46.6936978849999,-67.12900862 -46.717603792,-67.1260588599999 -46.722371734,-67.502410337 -46.79365403,-67.504985329 -46.700618392,-67.488728011 -46.700773618,-67.486039864 -46.602754831,-67.3817541889999 -46.6040616989999,-67.2906020409999 -46.637055388,-67.178378712 -46.6936978849999)))",
+          2
+        ],
+        [
+          "POLYGON ((8.095765626034305 66.11611573352394, 8.096027209529158 66.11792495430164, 8.094224285587101 66.11866106400458, 8.096015839692766 66.12157231061877, 8.103813132579251 66.12438922604483, 8.105590883409002 66.12598371601143, 8.106285182954794 66.12770599832022, 8.109946362330621 66.12854497872085, 8.11317111093974 66.13363133605688, 8.118201702355396 66.13637601483232, 8.126018662878876 66.13558437565585, 8.129041241643272 66.13339261826135, 8.134080186466527 66.13542056636746, 8.136505354687875 66.13441225250246, 8.137466639401636 66.13241497845712, 8.136508514691544 66.12818698543735, 8.133378180755344 66.12430068075629, 8.130150480059687 66.12126711148574, 8.127036672047002 66.11839195039612, 8.118807883403447 66.10982644321635, 8.12105926869095 66.10988881318835, 8.110856906101862 66.09997436427207, 8.102743333525638 66.09531595911632, 8.098557041438246 66.09170166036589, 8.097923990482812 66.08663193531483, 8.09623525654863 66.08349288024975, 8.096046375246624 66.08314006283265, 8.094443671156965 66.08235670981053, 8.091526934436043 66.08132883036753, 8.08903598026397 66.08042135324987, 8.047168967064104 66.05359380342216, 8.03562148106817 66.05008241279303, 8.020237719272568 66.04831825041956, 8.016745930792505 66.04769598135466, 8.011212489387505 66.04672637260931, 8.002284455950686 66.0452346002524, 7.99367578369134 66.04579841982037, 7.9939756601627305 66.04763460212746, 7.997567380289983 66.04923741443386, 7.998214582269451 66.0495486356305, 7.998736785992556 66.04977085149528, 7.999386792788451 66.0500180699839, 8.00032009800343 66.05043479917674, 8.007322958731992 66.05326830564942, 8.014558899096455 66.05921864850453, 8.006153029855417 66.05984357317523, 8.000291571737938 66.06164637921502, 7.994232844473779 66.06292686046699, 7.991313118160485 66.0658325495002, 7.987551693396591 66.06827700853978, 7.9812374463778655 66.0696908923835, 7.983984695911874 66.07045205839563, 7.985631945538708 66.07063818639365, 7.988073676780482 66.0714882525005, 7.990732052194896 66.07185220040638, 7.991556946915136 66.07371069008028, 7.993456943607301 66.07474685757872, 7.994101357179773 66.07625523005697, 7.996812503917281 66.07703589646304, 7.997748590361074 66.07770813665073, 7.997742922132924 66.07863037610967, 7.998573513527165 66.07918040977812, 8.001470800219607 66.07951655939264, 8.004379264811377 66.08015832224044, 8.008326593771752 66.08046948353802, 8.010904420258113 66.08145565712779, 8.01345443215312 66.0826252382408, 8.015393188976628 66.08422253026217, 8.016995949664528 66.08559200843742, 8.01918487778982 66.08635316765672, 8.021282091521766 66.08726163207619, 8.022818179150937 66.0882310922945, 8.024684929509954 66.08852282747549, 8.02645722664934 66.08813113221007, 8.027993346658894 66.08866177361567, 8.028026579279212 66.09094797203018, 8.02580138658863 66.09239800716851, 8.02934300655232 66.09397591783436, 8.03315699237531 66.09480369964604, 8.037134808454578 66.0966622276384, 8.041084901188128 66.09746781014647, 8.040937606122668 66.09867896028837, 8.043504305164873 66.10003184946461, 8.044176463188407 66.10095139705547, 8.047779316936323 66.10210419023316, 8.049815349794022 66.10407659953239, 8.049942804461306 66.10746554640673, 8.053259529941808 66.1088518461267, 8.058720648256745 66.11145472405383, 8.059834512203826 66.11252428344648, 8.062873460450193 66.11345766036818, 8.064409509693686 66.11494664287527, 8.064684423832027 66.11625230221213, 8.066345488561334 66.11759678004118, 8.078434877301552 66.11729411378873, 8.083821088455823 66.11860263527633, 8.085832205936303 66.11941649458909, 8.091163031960457 66.11914154747528, 8.095765626034305 66.11611573352394))",
+          1
+        ],
+        [
+          "POLYGON ((780853.6205 271851.323899999,782897.5307 271350.4189,783196.9848 270999.785399999,783532.3733 270080.7336,785320.3864 269472.0251,785405.3225 269189.993799999,785249.6064 268760.957800001,784266.3081 268098.892100001,783692.4452 268140.271199999,783005.3342 268556.2401,782551.2529 268127.2041,780593.3676 269990.3529,780066.6007 270773.017000001,779951.447 271576.642899999,780853.6205 271851.323899999))",
+          1
+        ],
+        [
+          "POLYGON ((779090.3202 284618.5823,781586.3872 283341.7543,782020.772 283011.0296,782038.8714 282825.0997,781226.0453 282802.064200001,779919.6002 283274.293099999,778433.8068 284182.552200001,777907.6911 284824.7326,778212.4238 284948.2916,779090.3202 284618.5823))",
+          1
+        ],
+        [
+          "POLYGON ((778579.285 277521.473300001,778617.3369 277678.3212,778803.8837 277592.0085,780507.8639 276472.727299999,782538.5332 274835.5699,783270.7992 273815.594799999,783291.2172 273507.467700001,782928.7971 273500.8144,782172.8642 273850.862400001,781537.12 274342.7521,779473.9675 276184.0902,778579.285 277521.473300001))",
+          1
+        ],
+        [
+          "POLYGON ((771095.7302 262860.965299999,771292.1726 263108.215299999,771645.1519 262965.665999999,774605.3647 261337.1479,772353.3732 261365.1229,771838.7146 262088.977299999,771051.2992 262416.0385,771095.7302 262860.965299999))",
+          1
+        ],
+        [
+          "POLYGON ((763235.0119 295732.0967,765719.861 294410.0032,765901.8635 293994.4881,765635.3844 293867.4297,764408.7563 294381.8443,763721.2676 294467.0077,763160.1505 295264.3847,763096.9648 295592.675899999,763235.0119 295732.0967))",
+          1
+        ],
+        [
+          "POLYGON ((760923.51 227528.380000001,761224.82 227153.15,761278.32 226457.310000001,761153.28 226218.130000001,760540.6 226736.85,760393.15 227171.09,760923.51 227528.380000001))",
+          1
+        ],
+        [
+          "POLYGON ((756939.3863 385467.842,757425.4844 385562.481000001,757922.2295 386100.772500001,758682.7312 386245.5046,759304.5135 385548.888,760454.5945 384777.021600001,761805.3606 382704.5604,762171.9972 381388.528200001,763217.8761 380172.8386,763433.9987 378721.729800001,763109.8148 377926.7075,762716.163 378050.2061,761010.3383 379663.4068,760273.2059 380570.3498,759813.9454 380242.306600001,758190.4678 382325.954399999,757316.9576 383816.048,757556.2362 383974.2806,756696.523 385422.249700001,756939.3863 385467.842))",
+          1
+        ],
+        [
+          "POLYGON ((756284.456 290178.8345,757038.7972 289948.451099999,757296.8266 290249.9243,758148.5871 289668.0415,758959.5367 288720.178300001,758925.3083 288197.537,758625.1516 288070.3325,757920.1783 288114.763499999,756822.2367 288516.618100001,756549.7261 288787.153999999,756673.1457 289183.0844,756139.9727 289995.6797,756284.456 290178.8345))",
+          1
+        ],
+        [
+          "POLYGON ((756099.9001 275774.800000001,756330.1 275684.9,757365.6 274879.100099999,755999.7001 274557.5,755495.5 274671.5,755360.1 275393.300100001,755643.0 275655.199999999,756099.9001 275774.800000001))",
+          1
+        ],
+        [
+          "POLYGON ((754100.25 281509.6,754717.52 281387.029999999,755088.78 280979.220000001,754864.63 280276.42,754452.98 280054.75,754188.43 280106.039999999,753669.16 280715.67,753764.37 281242.77,754100.25 281509.6))",
+          1
+        ],
+        [
+          "POLYGON ((752447.25 246177.4,752868.4 245780.75,753820.65 245475.0,754487.62 245000.0,755279.22 244075.0,756025.0 243640.07,756296.02 242845.109999999,757158.71 242347.380000001,757651.77 241650.0,758198.15 241601.42,758295.49 240874.18,757961.84 240236.470000001,757501.02 240022.289999999,756072.36 240077.300000001,755734.08 240875.0,754700.32 241755.15,754724.7 242509.82,754383.9 242697.51,754248.69 243018.529999999,752855.04 243996.359999999,752626.25 244970.33,751860.87 245272.42,751950.02 245862.619999999,752447.25 246177.4))",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Field-level units outline in well-known-text format.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Basin",
+      "code_friendly_name_guess": "basin",
+      "n_total": 7673,
+      "n_null": 5332,
+      "n_non_null": 2341,
+      "null_rate": 0.6949,
+      "n_unique": 219,
+      "top_values": [
+        [
+          "Permian",
+          304
+        ],
+        [
+          "TX-LA-MS Salt",
+          201
+        ],
+        [
+          "Western Gulf",
+          199
+        ],
+        [
+          "Cuencas del Sureste",
+          125
+        ],
+        [
+          "Neuquina",
+          109
+        ],
+        [
+          "Greater Green River",
+          83
+        ],
+        [
+          "West Siberian",
+          74
+        ],
+        [
+          "Golfo San Jorge",
+          56
+        ],
+        [
+          "Powder River",
+          55
+        ],
+        [
+          "Campos",
+          49
+        ],
+        [
+          "Zhujiangkou",
+          37
+        ],
+        [
+          "Tampico-Misantla",
+          35
+        ],
+        [
+          "Sichuan",
+          34
+        ],
+        [
+          "Santos",
+          32
+        ],
+        [
+          "Northern Carnarvon",
+          31
+        ],
+        [
+          "Appalachian",
+          30
+        ],
+        [
+          "Ordos",
+          29
+        ],
+        [
+          "Denver",
+          29
+        ],
+        [
+          "Maturin",
+          27
+        ],
+        [
+          "Uinta-Piceance",
+          26
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Each field-level unit is within a particular basin (short for sedimentary basin), when available, shown here.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Block(s)",
+      "code_friendly_name_guess": "block_s",
+      "n_total": 7673,
+      "n_null": 5347,
+      "n_non_null": 2326,
+      "null_rate": 0.6969,
+      "n_unique": 1577,
+      "top_values": [
+        [
+          "Stabroek Block",
+          21
+        ],
+        [
+          "Block 6",
+          17
+        ],
+        [
+          "Anticlinal Grande - Cerro Dragon",
+          15
+        ],
+        [
+          "North Slope Unit",
+          14
+        ],
+        [
+          "OML 61",
+          13
+        ],
+        [
+          "Noord-Friesland",
+          13
+        ],
+        [
+          "Block 15",
+          13
+        ],
+        [
+          "OML 67",
+          11
+        ],
+        [
+          "B57 - SHUSHUFINDI LIBERTADOR",
+          11
+        ],
+        [
+          "B15 - INDILLANA",
+          11
+        ],
+        [
+          "OML 70",
+          10
+        ],
+        [
+          "OML 123",
+          10
+        ],
+        [
+          "Lla 34",
+          10
+        ],
+        [
+          "Block 2",
+          10
+        ],
+        [
+          "Block 17",
+          10
+        ],
+        [
+          "Tal Block",
+          9
+        ],
+        [
+          "OML 35",
+          9
+        ],
+        [
+          "Block 58",
+          9
+        ],
+        [
+          "B61 - AUCA",
+          9
+        ],
+        [
+          "OML 63",
+          8
+        ]
+      ],
+      "portion_numeric": 0.008,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

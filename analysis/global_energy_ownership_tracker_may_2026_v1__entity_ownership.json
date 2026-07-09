@@ -1,0 +1,615 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__entity_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "entity_ownership",
+  "n_rows": 26332,
+  "analyzed_at": "2026-07-07T21:45:13.183263+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Subject Entity ID",
+      "code_friendly_name_guess": "subject_entity_id",
+      "n_total": 26332,
+      "n_null": 1981,
+      "n_non_null": 24351,
+      "null_rate": 0.0752,
+      "n_unique": 15613,
+      "top_values": [
+        [
+          "E100001012161",
+          12
+        ],
+        [
+          "E100001015532",
+          11
+        ],
+        [
+          "E100002021528",
+          10
+        ],
+        [
+          "E100001010170",
+          10
+        ],
+        [
+          "E100000125281",
+          10
+        ],
+        [
+          "E100000002711",
+          10
+        ],
+        [
+          "E100001000402",
+          9
+        ],
+        [
+          "E100000128081",
+          9
+        ],
+        [
+          "E100000124969",
+          9
+        ],
+        [
+          "E100000124055",
+          9
+        ],
+        [
+          "E100000123498",
+          9
+        ],
+        [
+          "E100002016620",
+          8
+        ],
+        [
+          "E100002007314",
+          8
+        ],
+        [
+          "E100001016083",
+          8
+        ],
+        [
+          "E100001014311",
+          8
+        ],
+        [
+          "E100001011696",
+          8
+        ],
+        [
+          "E100000149640",
+          8
+        ],
+        [
+          "E100000131391",
+          8
+        ],
+        [
+          "E100000130703",
+          8
+        ],
+        [
+          "E100000128857",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subject Entity Name",
+      "code_friendly_name_guess": "subject_entity_name",
+      "n_total": 26332,
+      "n_null": 1981,
+      "n_non_null": 24351,
+      "null_rate": 0.0752,
+      "n_unique": 15564,
+      "top_values": [
+        [
+          "Orissa Metaliks",
+          12
+        ],
+        [
+          "Trading Hub Europe",
+          11
+        ],
+        [
+          "Lucky Cement",
+          10
+        ],
+        [
+          "Infotech Ventures",
+          10
+        ],
+        [
+          "Core Scientific",
+          10
+        ],
+        [
+          "Chung Chia Power",
+          10
+        ],
+        [
+          "Bowen Coking Coal",
+          10
+        ],
+        [
+          "Sanfame Group",
+          9
+        ],
+        [
+          "Peabody Energy",
+          9
+        ],
+        [
+          "Green Coal Electricity",
+          9
+        ],
+        [
+          "Fujian Lanrun Investment",
+          9
+        ],
+        [
+          "Fugu Magnesium Industry (GROUP)",
+          9
+        ],
+        [
+          "Woodside Energy Group",
+          8
+        ],
+        [
+          "Vlaamse Energieholding",
+          8
+        ],
+        [
+          "Trianel",
+          8
+        ],
+        [
+          "Shanxi Financial Asset Management",
+          8
+        ],
+        [
+          "Shanghai Caixiang Equity Investment Center",
+          8
+        ],
+        [
+          "Savannah Energy",
+          8
+        ],
+        [
+          "Ranhill Holdings",
+          8
+        ],
+        [
+          "Qiqihar Guohong Investment Center",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Interested Party ID",
+      "code_friendly_name_guess": "interested_party_id",
+      "n_total": 26332,
+      "n_null": 1981,
+      "n_non_null": 24351,
+      "null_rate": 0.0752,
+      "n_unique": 12013,
+      "top_values": [
+        [
+          "E100000123261",
+          2461
+        ],
+        [
+          "E100001015587",
+          1380
+        ],
+        [
+          "E100001000348",
+          170
+        ],
+        [
+          "E100001010595",
+          128
+        ],
+        [
+          "E100002001974",
+          82
+        ],
+        [
+          "E100001000178",
+          73
+        ],
+        [
+          "E100001010596",
+          63
+        ],
+        [
+          "E100000000217",
+          61
+        ],
+        [
+          "E100000000213",
+          48
+        ],
+        [
+          "E100001000571",
+          46
+        ],
+        [
+          "E100001000179",
+          44
+        ],
+        [
+          "E100000000181",
+          44
+        ],
+        [
+          "E100000000414",
+          43
+        ],
+        [
+          "E100000000651",
+          41
+        ],
+        [
+          "E100000000382",
+          39
+        ],
+        [
+          "E100000122607",
+          37
+        ],
+        [
+          "E100000000310",
+          37
+        ],
+        [
+          "E100000001322",
+          35
+        ],
+        [
+          "E100000000746",
+          35
+        ],
+        [
+          "E100000000175",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Interested Party Name",
+      "code_friendly_name_guess": "interested_party_name",
+      "n_total": 26332,
+      "n_null": 1982,
+      "n_non_null": 24350,
+      "null_rate": 0.0753,
+      "n_unique": 11955,
+      "top_values": [
+        [
+          "natural person(s)",
+          2461
+        ],
+        [
+          "small shareholder(s)",
+          1380
+        ],
+        [
+          "BlackRock",
+          170
+        ],
+        [
+          "The Vanguard Group",
+          128
+        ],
+        [
+          "member/employee owned",
+          82
+        ],
+        [
+          "The Master Trust Bank of Japan",
+          73
+        ],
+        [
+          "State Street",
+          63
+        ],
+        [
+          "Huaneng Power International",
+          61
+        ],
+        [
+          "Huadian Power International",
+          48
+        ],
+        [
+          "Holcim",
+          46
+        ],
+        [
+          "Datang International Power Generation",
+          44
+        ],
+        [
+          "Custody Bank of Japan",
+          44
+        ],
+        [
+          "Heidelberg Materials",
+          43
+        ],
+        [
+          "Mitsui &",
+          41
+        ],
+        [
+          "ENGIE",
+          39
+        ],
+        [
+          "Zhejiang Zheneng Electric Power",
+          37
+        ],
+        [
+          "China Resources Power Investment",
+          37
+        ],
+        [
+          "Vistra",
+          35
+        ],
+        [
+          "Shell",
+          35
+        ],
+        [
+          "China Shenhua Energy",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "% Share of Ownership",
+      "code_friendly_name_guess": "share_of_ownership",
+      "n_total": 26332,
+      "n_null": 1981,
+      "n_non_null": 24351,
+      "null_rate": 0.0752,
+      "n_unique": 990,
+      "top_values": [
+        [
+          "100",
+          9746
+        ],
+        [
+          "50",
+          1134
+        ],
+        [
+          "10",
+          490
+        ],
+        [
+          "20",
+          417
+        ],
+        [
+          "25",
+          379
+        ],
+        [
+          "51",
+          365
+        ],
+        [
+          "5",
+          272
+        ],
+        [
+          "30",
+          256
+        ],
+        [
+          "49",
+          254
+        ],
+        [
+          "40",
+          242
+        ],
+        [
+          "33.3",
+          228
+        ],
+        [
+          "90",
+          215
+        ],
+        [
+          "60",
+          190
+        ],
+        [
+          "70",
+          170
+        ],
+        [
+          "15",
+          158
+        ],
+        [
+          "80",
+          137
+        ],
+        [
+          "35",
+          127
+        ],
+        [
+          "99",
+          125
+        ],
+        [
+          "75",
+          122
+        ],
+        [
+          "6",
+          113
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Data Source URL",
+      "code_friendly_name_guess": "data_source_url",
+      "n_total": 26332,
+      "n_null": 2498,
+      "n_non_null": 23834,
+      "null_rate": 0.0949,
+      "n_unique": 10140,
+      "top_values": [
+        [
+          "https://www.gsxt.gov.cn",
+          8061
+        ],
+        [
+          "https://www.gov.uk/get-information-about-a-company",
+          438
+        ],
+        [
+          "https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_Solicitacao.asp",
+          56
+        ],
+        [
+          "https://www.epa.gov/ghgreporting/data-sets",
+          23
+        ],
+        [
+          "https://www.holcim.com/sites/holcim/files/2024-02/28022024-finance-holcim-fy-2023-report-full-en.pdf",
+          19
+        ],
+        [
+          "https://www.banpu.com/investor-relations/publications/annual-report/",
+          19
+        ],
+        [
+          "https://www.msha.gov/data-and-reports/mine-data-retrieval-system",
+          18
+        ],
+        [
+          "https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_qsa.asp",
+          16
+        ],
+        [
+          "https://www.pfcindia.com/DocumentRepository/ckfinder/files/Investors/Annual_Reports/PFC%20AR%202022_C2C_Design_v5_07_09_2022_Single_8MB.pdf",
+          13
+        ],
+        [
+          "https://www.buzzi.com/documents/20143/0/Annual%20Report%20Buzzi%20SpA%202023.pdf/5a434c84-4e5d-7c4d-7d98-dd227270570e?version=1.0",
+          13
+        ],
+        [
+          "https://vlhold.be/over-veh/aandeelhouders/",
+          12
+        ],
+        [
+          "https://links.sgx.com/FileOpen/Annual%20Report%202024.ashx?App=Announcement&FileID=838567",
+          12
+        ],
+        [
+          "https://www.publicatiesgasunie.nl/en/2023-annual-report/additional-notes-to-the-consolidated-financial-statements,https://www.tradinghub.eu/en-gb/About-us/Company-Profile-Shareholder",
+          11
+        ],
+        [
+          "https://www.heidelbergmaterials.com/en/company/annual-reports-sustainability-reports",
+          11
+        ],
+        [
+          "https://www.cemex.com/documents/d/cemex/corporate-structure-oct-2024-eng",
+          11
+        ],
+        [
+          "https://www.bayan.com.sg/cfind/source/files/annual-report/ar-bayan-2023_v2.pdf",
+          11
+        ],
+        [
+          "https://www.sec.gov/Archives/edgar/data/1061219/000106121925000006/exhibit21_1.htm",
+          10
+        ],
+        [
+          "https://www.findcompany.com.tw/%E4%B8%AD%E4%BD%B3%E9%9B%BB%E5%8A%9B%E4%BA%8B%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          10
+        ],
+        [
+          "https://gallantventure.listedcompany.com/newsroom/20250410_183110_5IG_3DEUBX7IREC8PUU3.1.pdf",
+          10
+        ],
+        [
+          "https://ecollection.ferc.gov/api/DownloadDocument/246620/7?filename=2023%2001%2006%20-%20OE%20Organization%20Chart.pdf",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Share Imputed?",
+      "code_friendly_name_guess": "share_imputed",
+      "n_total": 26332,
+      "n_null": 1981,
+      "n_non_null": 24351,
+      "null_rate": 0.0752,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "known value, not imputed",
+          20207
+        ],
+        [
+          "imputed value",
+          4144
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

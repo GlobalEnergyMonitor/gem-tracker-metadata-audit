@@ -1,0 +1,396 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_bioenergy",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_bioenergy",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.164362+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Bioenergy Power Tracker - September 24, 2025",
+      "code_friendly_name_guess": "global_bioenergy_power_tracker_september_24_2025",
+      "n_total": 999,
+      "n_null": 883,
+      "n_non_null": 116,
+      "null_rate": 0.8839,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "shelved - inferred 2 y",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "other - tires",
+          1
+        ],
+        [
+          "other - solar thermal",
+          1
+        ],
+        [
+          "other - other",
+          1
+        ],
+        [
+          "other - hydrogen (unknown)",
+          1
+        ],
+        [
+          "other - hydrogen (green)",
+          1
+        ],
+        [
+          "other - hydrogen (gray)",
+          1
+        ],
+        [
+          "other - hydrogen (blue)",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "oil to bioenergy conversion",
+          1
+        ],
+        [
+          "no conversion",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "industrial by-product - coke oven gas",
+          1
+        ],
+        [
+          "industrial by-product - blast furnace gas",
+          1
+        ],
+        [
+          "gas to bioenergy conversion",
+          1
+        ],
+        [
+          "fossil liquids - waste/other oil",
+          1
+        ],
+        [
+          "fossil liquids - unknown",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 926,
+      "n_non_null": 73,
+      "null_rate": 0.9269,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "n/a",
+          26
+        ],
+        [
+          "yyyy",
+          3
+        ],
+        [
+          "Notes",
+          3
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "when a unit has been or will be converted from gas to bioenergy",
+          1
+        ],
+        [
+          "when a unit has been or will be converted from fossil oil to bioenergy",
+          1
+        ],
+        [
+          "when a unit has been or will be converted from coal to bioenergy",
+          1
+        ],
+        [
+          "unit is not associated with a conversion",
+          1
+        ],
+        [
+          "approximate, exact",
+          1
+        ],
+        [
+          "Wastewater sludge can produce biogas through a process of thermal hydrolysis and anaerobic digestion.",
+          1
+        ],
+        [
+          "Units",
+          1
+        ],
+        [
+          "This fuel type category captures agricultural wastes whose specifics are unknown.",
+          1
+        ],
+        [
+          "This category is used when the coal type is unknown",
+          1
+        ],
+        [
+          "This category is used when the bioenergy fuel source is unknown",
+          1
+        ],
+        [
+          "The unit is disused, but not dismantled.",
+          1
+        ],
+        [
+          "The unit is actively moving forward in seeking governmental approvals, land rights, or financing.",
+          1
+        ],
+        [
+          "The unit has site preparation and equipment installation underway.",
+          1
+        ],
+        [
+          "The unit has had suspension of operation announced, or no progress has been observed for at least two years.",
+          1
+        ],
+        [
+          "The unit has been formally commissioned; commercial operation has begun.",
+          1
+        ],
+        [
+          "The unit has been described in corporate or government plans but concrete steps such as applying for permits have not yet been taken.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 962,
+      "n_non_null": 37,
+      "null_rate": 0.963,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "see rows 81-85 above",
+          1
+        ],
+        [
+          "see rows 30-79 above",
+          1
+        ],
+        [
+          "see rows 18-28 above",
+          1
+        ],
+        [
+          "Year the unit was or is projected to be converted to bioenergy",
+          1
+        ],
+        [
+          "Year the plant is taken offline",
+          1
+        ],
+        [
+          "URL of existing or planned GEM.wiki pages",
+          1
+        ],
+        [
+          "The year the unit was commissioned, regardless of fuel type",
+          1
+        ],
+        [
+          "The immdiate owner of the plant",
+          1
+        ],
+        [
+          "The company that operates the project",
+          1
+        ],
+        [
+          "Subregion location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/",
+          1
+        ],
+        [
+          "Subnational unit where project is located",
+          1
+        ],
+        [
+          "Region location based on definitions by the United Nations Statistics Division https://unstats.un.org/unsd/methodology/m49/",
+          1
+        ],
+        [
+          "Prefecture or district where project is located",
+          1
+        ],
+        [
+          "Parent company of the Owner",
+          1
+        ],
+        [
+          "Longitude, assumed WGS84 (google maps), of the project (not by unit)",
+          1
+        ],
+        [
+          "Location is Approximate based by using nearest city or other information in research, or Location is Exact based on visibility on map or given in research",
+          1
+        ],
+        [
+          "Lists of power station unit IDs from other systems.",
+          1
+        ],
+        [
+          "Lists of power station IDs from other systems. For example, an ID from the World Resources Institute is reported as \"WRI: WRI1002265\"",
+          1
+        ],
+        [
+          "Latitude, assumed WGS84 (google maps), of the project (not by unit)",
+          1
+        ],
+        [
+          "If the unit is capable of producing hydrogen",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "https://www.iea.org/reports/outlook-for-biogas-and-biomethane-prospects-for-organic-growth/an-introduction-to-biogas-and-biomethane",
+          2
+        ],
+        [
+          "Semi-colon separated",
+          2
+        ],
+        [
+          "1) https://worldsteel.org/publications/policy-papers/co-product-position-paper/\n2) https://www.ispatguru.com/blast-furnace-gas-its-characteristics-and-safety-requirements/\n3) https://www.sciencedirect.com/topics/engineering/blast-furnace",
+          2
+        ],
+        [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0959652619303166#:~:text=rights%20and%20content-,Abstract,power%20generation%20from%20inexpensive%20feedstock.",
+          1
+        ],
+        [
+          "https://www.epa.gov/lmop/basic-information-about-landfill-gas",
+          1
+        ],
+        [
+          "https://www.epa.gov/agstar/how-does-anaerobic-digestion-work",
+          1
+        ],
+        [
+          "https://www.eia.gov/energyexplained/biomass/wood-and-wood-waste.php",
+          1
+        ],
+        [
+          "https://www.eia.gov/energyexplained/biomass/waste-to-energy.php",
+          1
+        ],
+        [
+          "https://www.eia.gov/energyexplained/biomass/landfill-gas-and-biogas.php; https://www.veolia.com/en/solution/sewage-sludge-green-energy-biogas-wastewater",
+          1
+        ],
+        [
+          "https://www.eia.gov/energyexplained/biofuels/ethanol.php",
+          1
+        ],
+        [
+          "https://netl.doe.gov/research/coal/energy-systems/gasification/gasifipedia/waste",
+          1
+        ],
+        [
+          "https://feeco.com/biocoal-biomass-emerging-opportunity-renewable-energy/",
+          1
+        ],
+        [
+          "https://en.wikipedia.org/wiki/Bagasse",
+          1
+        ],
+        [
+          "https://afdc.energy.gov/fuels/biodiesel_basics.html",
+          1
+        ],
+        [
+          "This includes mothballed plants - whenever the unit stops operating.",
+          1
+        ],
+        [
+          "Roman numerals are changed to numbers. If the Sponsor uses non-sequential numbers or other characters, those are used.",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information use the name the owner or operating company uses.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_coal_terminals",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_coal_terminals",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.168694+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Coal Terminals Tracker - December 2024",
+      "code_friendly_name_guess": "global_coal_terminals_tracker_december_2024",
+      "n_total": 999,
+      "n_null": 980,
+      "n_non_null": 19,
+      "null_rate": 0.981,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Units",
+          1
+        ],
+        [
+          "Status Definitions",
+          1
+        ],
+        [
+          "Shelved",
+          1
+        ],
+        [
+          "Retired",
+          1
+        ],
+        [
+          "Recommended Citation: \"Global Energy Monitor, Global Coal Terminals Tracker, December 2024 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+          1
+        ],
+        [
+          "Proposed",
+          1
+        ],
+        [
+          "Operating",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Mt",
+          1
+        ],
+        [
+          "Mothballed",
+          1
+        ],
+        [
+          "Copyright © Global Energy Monitor. Global Coal Terminals Tracker, December 2024 release. Distributed under a Creative Commons Attribution 4.0 International License.",
+          1
+        ],
+        [
+          "Contact: Coal Program Director, Global Energy Monitor - flora.champenois@globalenergymonitor.org",
+          1
+        ],
+        [
+          "Construction",
+          1
+        ],
+        [
+          "Cancelled",
+          1
+        ],
+        [
+          "5. For summaries of this data, see the Summary Tables: https://globalenergymonitor.org/projects/global-coal-terminals-tracker/summary-tables/",
+          1
+        ],
+        [
+          "4. For a map of this data, see the Global Coal Terminals Tracker map: https://globalenergymonitor.org/projects/global-coal-terminals-tracker/tracker-map/",
+          1
+        ],
+        [
+          "3. For background and references, see GEM Wiki URLs (Column D)",
+          1
+        ],
+        [
+          "2. For an explanation of the compilation of this data, see \"Methodology,\" at see https://globalenergymonitor.org/projects/global-coal-terminals-tracker/methodology/",
+          1
+        ],
+        [
+          "1. This database includes all known coal terminals with a capacity of 1 million tonnes or more. Smaller terminals are only included at discretion.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 991,
+      "n_non_null": 8,
+      "null_rate": 0.992,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Terminals that have been permanently shut down.",
+          1
+        ],
+        [
+          "Terminals that have been formally commissioned or that have entered commercial operation.",
+          1
+        ],
+        [
+          "Terminals that have been deactivated or put into an inactive state but are not retired.",
+          1
+        ],
+        [
+          "Projects where physical construction has begun.",
+          1
+        ],
+        [
+          "Projects officially shelved by a sponsor, or that show no activity over a period of 2 years.",
+          1
+        ],
+        [
+          "Projects officially cancelled by a sponsor, or that show no activity over a period of 4 years.",
+          1
+        ],
+        [
+          "Projects announced or in planning, but not yet under physical construction.",
+          1
+        ],
+        [
+          "Million tonnes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

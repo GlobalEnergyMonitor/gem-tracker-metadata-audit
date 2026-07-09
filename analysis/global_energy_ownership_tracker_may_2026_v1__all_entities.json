@@ -1,0 +1,2289 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__all_entities",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "all_entities",
+  "n_rows": 28214,
+  "analyzed_at": "2026-07-07T21:45:11.873711+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Entity ID",
+      "code_friendly_name_guess": "entity_id",
+      "n_total": 28214,
+      "n_null": 1964,
+      "n_non_null": 26250,
+      "null_rate": 0.0696,
+      "n_unique": 26250,
+      "top_values": [
+        [
+          "E100002023106",
+          1
+        ],
+        [
+          "E100002023105",
+          1
+        ],
+        [
+          "E100002023094",
+          1
+        ],
+        [
+          "E100002023089",
+          1
+        ],
+        [
+          "E100002023088",
+          1
+        ],
+        [
+          "E100002023080",
+          1
+        ],
+        [
+          "E100002023077",
+          1
+        ],
+        [
+          "E100002023035",
+          1
+        ],
+        [
+          "E100002023014",
+          1
+        ],
+        [
+          "E100002023013",
+          1
+        ],
+        [
+          "E100002023011",
+          1
+        ],
+        [
+          "E100002022988",
+          1
+        ],
+        [
+          "E100002022987",
+          1
+        ],
+        [
+          "E100002022986",
+          1
+        ],
+        [
+          "E100002022985",
+          1
+        ],
+        [
+          "E100002022970",
+          1
+        ],
+        [
+          "E100002022964",
+          1
+        ],
+        [
+          "E100002022963",
+          1
+        ],
+        [
+          "E100002022961",
+          1
+        ],
+        [
+          "E100002022928",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Full Name",
+      "code_friendly_name_guess": "full_name",
+      "n_total": 28214,
+      "n_null": 1965,
+      "n_non_null": 26249,
+      "null_rate": 0.0696,
+      "n_unique": 26224,
+      "top_values": [
+        [
+          "other ",
+          2
+        ],
+        [
+          "Yiyuan Yuanneng Thermal Power Co Ltd",
+          2
+        ],
+        [
+          "Xiongya (Virgin) ",
+          2
+        ],
+        [
+          "Xinjiang Jinlong Electric Power Group Co Ltd",
+          2
+        ],
+        [
+          "Unified Information Settlement and Consulting Center JSC",
+          2
+        ],
+        [
+          "Termoelectrica SA",
+          2
+        ],
+        [
+          "Shuifa Group Co Ltd",
+          2
+        ],
+        [
+          "Shengyuan Environmental Protection Co Ltd",
+          2
+        ],
+        [
+          "Montour LLC",
+          2
+        ],
+        [
+          "Industrial Bank Co Ltd",
+          2
+        ],
+        [
+          "Huizhou Municipal People's Government State-owned Assets Supervision and Administration Commission ",
+          2
+        ],
+        [
+          "Hua Xia Bank Co Ltd",
+          2
+        ],
+        [
+          "Horizon Oil ",
+          2
+        ],
+        [
+          "Henan Nengxin Thermal Power Co Ltd",
+          2
+        ],
+        [
+          "Hankou Bank Co Ltd",
+          2
+        ],
+        [
+          "Hangzhou Jinjiang Group Co Ltd",
+          2
+        ],
+        [
+          "Guangdong Datang International Leizhou Power Generation Co Ltd",
+          2
+        ],
+        [
+          "Evergrowing Bank Co Ltd",
+          2
+        ],
+        [
+          "Energy Infrastructure Trust ",
+          2
+        ],
+        [
+          "China Resources Co Ltd",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Name",
+      "code_friendly_name_guess": "name",
+      "n_total": 28214,
+      "n_null": 1965,
+      "n_non_null": 26249,
+      "null_rate": 0.0696,
+      "n_unique": 26141,
+      "top_values": [
+        [
+          "Siemens Energy",
+          4
+        ],
+        [
+          "Asia Cement",
+          4
+        ],
+        [
+          "National Cement Company",
+          3
+        ],
+        [
+          "INEOS",
+          3
+        ],
+        [
+          "CEMEX",
+          3
+        ],
+        [
+          "Énergir",
+          2
+        ],
+        [
+          "other",
+          2
+        ],
+        [
+          "Zementwerk Lübeck",
+          2
+        ],
+        [
+          "Yiyuan Yuanneng Thermal Power",
+          2
+        ],
+        [
+          "Xiongya (Virgin)",
+          2
+        ],
+        [
+          "Xinjiang Jinlong Electric Power Group",
+          2
+        ],
+        [
+          "Vedanta",
+          2
+        ],
+        [
+          "Vattenfall",
+          2
+        ],
+        [
+          "Varme Energy",
+          2
+        ],
+        [
+          "Valero Energy",
+          2
+        ],
+        [
+          "VNG",
+          2
+        ],
+        [
+          "Usina Monte Alegre",
+          2
+        ],
+        [
+          "United Energy",
+          2
+        ],
+        [
+          "Unified Information Settlement and Consulting Center",
+          2
+        ],
+        [
+          "ThomasLloyd Climate Solutions",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Name Local",
+      "code_friendly_name_guess": "name_local",
+      "n_total": 28214,
+      "n_null": 20641,
+      "n_non_null": 7573,
+      "null_rate": 0.7316,
+      "n_unique": 7534,
+      "top_values": [
+        [
+          "鄂尔多斯市乌兰煤炭（集团）有限责任公司",
+          3
+        ],
+        [
+          "شرکت سرمایه",
+          3
+        ],
+        [
+          "龙口市泛林水泥有限公司",
+          2
+        ],
+        [
+          "黑龙江龙煤矿业集团股份有限公司鹤岗分公司",
+          2
+        ],
+        [
+          "黑龙江龙煤矿业集团股份有限公司",
+          2
+        ],
+        [
+          "黑龙江省新产业投资集团有限公司",
+          2
+        ],
+        [
+          "高密万仁热电有限公司",
+          2
+        ],
+        [
+          "马钢南山矿业公司",
+          2
+        ],
+        [
+          "霍州煤电集团有限责任公司",
+          2
+        ],
+        [
+          "郑州公用事业投资发展集团有限公司",
+          2
+        ],
+        [
+          "甘肃能化股份有限公司",
+          2
+        ],
+        [
+          "湖南益阳海螺水泥有限责任公司",
+          2
+        ],
+        [
+          "水发集团有限公司",
+          2
+        ],
+        [
+          "杭州锦江集团有限公司",
+          2
+        ],
+        [
+          "晋能控股装备制造集团有限公司",
+          2
+        ],
+        [
+          "山东如意科技集团有限公司",
+          2
+        ],
+        [
+          "安徽华塑股份有限公司",
+          2
+        ],
+        [
+          "大唐华银电力股份有限公司",
+          2
+        ],
+        [
+          "国家能源集团广东电力有限公司",
+          2
+        ],
+        [
+          "国家能源投资集团有限责任公司",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Name Other",
+      "code_friendly_name_guess": "name_other",
+      "n_total": 28214,
+      "n_null": 23417,
+      "n_non_null": 4797,
+      "null_rate": 0.83,
+      "n_unique": 4787,
+      "top_values": [
+        [
+          "Balangan Coal",
+          3
+        ],
+        [
+          "legal entity",
+          2
+        ],
+        [
+          "TAPCO",
+          2
+        ],
+        [
+          "Rio Tinto Group",
+          2
+        ],
+        [
+          "Rayburn Electric Cooperative",
+          2
+        ],
+        [
+          "MEA",
+          2
+        ],
+        [
+          "KAMO Power",
+          2
+        ],
+        [
+          "HPL",
+          2
+        ],
+        [
+          "Black Hills Energy",
+          2
+        ],
+        [
+          "한국중부발전",
+          1
+        ],
+        [
+          "한국석유공사",
+          1
+        ],
+        [
+          "유니온 주식회사; Union Cement",
+          1
+        ],
+        [
+          "龙岩工贸发展集团有限公司 [former]; 龙岩工贸发展有限公司 [former]",
+          1
+        ],
+        [
+          "龙口矿务局 [former]",
+          1
+        ],
+        [
+          "龙口嘉元投资有限公司 [former]; 山东仲盛投资有限公司 [former]",
+          1
+        ],
+        [
+          "龙南县福鑫钢铁有限公司 [former]",
+          1
+        ],
+        [
+          "龙华启富投资有限责任公司 [former]",
+          1
+        ],
+        [
+          "齐鲁交通能源发展有限公司 [former]",
+          1
+        ],
+        [
+          "黔西南州聚鑫工贸总公司 [former]; Guizhou Juxin Iron and Steel (Group)",
+          1
+        ],
+        [
+          "黔西南州炜煜投资有限公司 [former]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Abbreviation",
+      "code_friendly_name_guess": "abbreviation",
+      "n_total": 28214,
+      "n_null": 26381,
+      "n_non_null": 1833,
+      "null_rate": 0.935,
+      "n_unique": 1760,
+      "top_values": [
+        [
+          "EEC",
+          5
+        ],
+        [
+          "MMC",
+          4
+        ],
+        [
+          "MEC",
+          3
+        ],
+        [
+          "MCM",
+          3
+        ],
+        [
+          "MCL",
+          3
+        ],
+        [
+          "FCC",
+          3
+        ],
+        [
+          "AEL",
+          3
+        ],
+        [
+          "ZPC",
+          2
+        ],
+        [
+          "WEPCO",
+          2
+        ],
+        [
+          "TPI",
+          2
+        ],
+        [
+          "TEP",
+          2
+        ],
+        [
+          "TCL",
+          2
+        ],
+        [
+          "SWK",
+          2
+        ],
+        [
+          "SULB",
+          2
+        ],
+        [
+          "SSP",
+          2
+        ],
+        [
+          "SPPC",
+          2
+        ],
+        [
+          "SMART",
+          2
+        ],
+        [
+          "SIG",
+          2
+        ],
+        [
+          "SEPC",
+          2
+        ],
+        [
+          "SECL",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Entity Type",
+      "code_friendly_name_guess": "entity_type",
+      "n_total": 28214,
+      "n_null": 1983,
+      "n_non_null": 26231,
+      "null_rate": 0.0703,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "legal entity",
+          24816
+        ],
+        [
+          "state",
+          669
+        ],
+        [
+          "state body",
+          593
+        ],
+        [
+          "arrangement",
+          126
+        ],
+        [
+          "unknown entity",
+          25
+        ],
+        [
+          "person",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Legal Entity Type",
+      "code_friendly_name_guess": "legal_entity_type",
+      "n_total": 28214,
+      "n_null": 6383,
+      "n_non_null": 21831,
+      "null_rate": 0.2262,
+      "n_unique": 145,
+      "top_values": [
+        [
+          "Co Ltd",
+          8152
+        ],
+        [
+          "Ltd",
+          2573
+        ],
+        [
+          "LLC",
+          1719
+        ],
+        [
+          "SA",
+          1120
+        ],
+        [
+          "Co",
+          986
+        ],
+        [
+          "Inc",
+          735
+        ],
+        [
+          "Corp",
+          684
+        ],
+        [
+          "Pty Ltd",
+          527
+        ],
+        [
+          "Pvt Ltd",
+          477
+        ],
+        [
+          "LP",
+          444
+        ],
+        [
+          "JSC",
+          424
+        ],
+        [
+          "AŞ",
+          325
+        ],
+        [
+          "GmbH",
+          322
+        ],
+        [
+          "Ltda",
+          309
+        ],
+        [
+          "SpA",
+          193
+        ],
+        [
+          "AG",
+          172
+        ],
+        [
+          "BV",
+          149
+        ],
+        [
+          "PLC",
+          141
+        ],
+        [
+          "Sdn Bhd",
+          139
+        ],
+        [
+          "Pte Ltd",
+          130
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PubliclyListed",
+      "code_friendly_name_guess": "publiclylisted",
+      "n_total": 28214,
+      "n_null": 11646,
+      "n_non_null": 16568,
+      "null_rate": 0.4128,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "False",
+          14423
+        ],
+        [
+          "True",
+          2145
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Home Page",
+      "code_friendly_name_guess": "home_page",
+      "n_total": 28214,
+      "n_null": 18248,
+      "n_non_null": 9966,
+      "null_rate": 0.6468,
+      "n_unique": 9604,
+      "top_values": [
+        [
+          "China",
+          45
+        ],
+        [
+          "United States",
+          10
+        ],
+        [
+          "India",
+          6
+        ],
+        [
+          "http://www.yfgt.cn",
+          4
+        ],
+        [
+          "http://www.ndpaper.com",
+          4
+        ],
+        [
+          "Indonesia",
+          4
+        ],
+        [
+          "https://www.ynkg.com/front",
+          3
+        ],
+        [
+          "https://www.tecpetrol.com/es",
+          3
+        ],
+        [
+          "https://www.sms-group.com/",
+          3
+        ],
+        [
+          "https://www.shell.us/",
+          3
+        ],
+        [
+          "https://www.shell.com",
+          3
+        ],
+        [
+          "https://www.rwe.com/",
+          3
+        ],
+        [
+          "https://www.reenergyholdings.com/",
+          3
+        ],
+        [
+          "https://www.lafargeukpensions.com",
+          3
+        ],
+        [
+          "https://www.jsw.in/",
+          3
+        ],
+        [
+          "https://www.ineos.com/",
+          3
+        ],
+        [
+          "https://www.duke-energy.com/",
+          3
+        ],
+        [
+          "https://www.duferco.com/",
+          3
+        ],
+        [
+          "https://www.csn.com.br/",
+          3
+        ],
+        [
+          "https://www.canfor.com/",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Registration Country",
+      "code_friendly_name_guess": "registration_country",
+      "n_total": 28214,
+      "n_null": 3801,
+      "n_non_null": 24413,
+      "null_rate": 0.1347,
+      "n_unique": 189,
+      "top_values": [
+        [
+          "China",
+          8769
+        ],
+        [
+          "United States",
+          2603
+        ],
+        [
+          "India",
+          1120
+        ],
+        [
+          "Indonesia",
+          858
+        ],
+        [
+          "United Kingdom",
+          620
+        ],
+        [
+          "Russia",
+          599
+        ],
+        [
+          "Germany",
+          507
+        ],
+        [
+          "Australia",
+          505
+        ],
+        [
+          "Brazil",
+          468
+        ],
+        [
+          "Türkiye",
+          399
+        ],
+        [
+          "Japan",
+          376
+        ],
+        [
+          "Iran",
+          326
+        ],
+        [
+          "Canada",
+          283
+        ],
+        [
+          "South Africa",
+          241
+        ],
+        [
+          "Malaysia",
+          204
+        ],
+        [
+          "Philippines",
+          203
+        ],
+        [
+          "Italy",
+          203
+        ],
+        [
+          "Vietnam",
+          199
+        ],
+        [
+          "Thailand",
+          197
+        ],
+        [
+          "South Korea",
+          197
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Registration Subdivision",
+      "code_friendly_name_guess": "registration_subdivision",
+      "n_total": 28214,
+      "n_null": 25590,
+      "n_non_null": 2624,
+      "null_rate": 0.907,
+      "n_unique": 120,
+      "top_values": [
+        [
+          "Delaware",
+          1282
+        ],
+        [
+          "Texas",
+          118
+        ],
+        [
+          "Pennsylvania",
+          108
+        ],
+        [
+          "Alberta",
+          73
+        ],
+        [
+          "Ontario",
+          58
+        ],
+        [
+          "California",
+          53
+        ],
+        [
+          "British Columbia",
+          49
+        ],
+        [
+          "Kentucky",
+          46
+        ],
+        [
+          "West Virginia",
+          40
+        ],
+        [
+          "Michigan",
+          38
+        ],
+        [
+          "New York",
+          37
+        ],
+        [
+          "Quebec",
+          29
+        ],
+        [
+          "Illinois",
+          28
+        ],
+        [
+          "Virginia",
+          27
+        ],
+        [
+          "Ohio",
+          26
+        ],
+        [
+          "Indiana",
+          25
+        ],
+        [
+          "Maryland",
+          24
+        ],
+        [
+          "Shandong Sheng",
+          22
+        ],
+        [
+          "Nevada",
+          22
+        ],
+        [
+          "Colorado",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Headquarters Country",
+      "code_friendly_name_guess": "headquarters_country",
+      "n_total": 28214,
+      "n_null": 2967,
+      "n_non_null": 25247,
+      "null_rate": 0.1052,
+      "n_unique": 191,
+      "top_values": [
+        [
+          "China",
+          9150
+        ],
+        [
+          "United States",
+          2648
+        ],
+        [
+          "India",
+          1167
+        ],
+        [
+          "Indonesia",
+          876
+        ],
+        [
+          "United Kingdom",
+          619
+        ],
+        [
+          "Russia",
+          591
+        ],
+        [
+          "Germany",
+          529
+        ],
+        [
+          "Australia",
+          519
+        ],
+        [
+          "Brazil",
+          513
+        ],
+        [
+          "Türkiye",
+          409
+        ],
+        [
+          "Japan",
+          385
+        ],
+        [
+          "Iran",
+          329
+        ],
+        [
+          "Canada",
+          290
+        ],
+        [
+          "South Africa",
+          249
+        ],
+        [
+          "Italy",
+          208
+        ],
+        [
+          "Malaysia",
+          207
+        ],
+        [
+          "Philippines",
+          204
+        ],
+        [
+          "Vietnam",
+          199
+        ],
+        [
+          "South Korea",
+          199
+        ],
+        [
+          "Thailand",
+          195
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Headquarters Subdivision",
+      "code_friendly_name_guess": "headquarters_subdivision",
+      "n_total": 28214,
+      "n_null": 16384,
+      "n_non_null": 11830,
+      "null_rate": 0.5807,
+      "n_unique": 1186,
+      "top_values": [
+        [
+          "Texas",
+          464
+        ],
+        [
+          "Jakarta Raya",
+          311
+        ],
+        [
+          "London, City of",
+          247
+        ],
+        [
+          "Mahārāshtra",
+          195
+        ],
+        [
+          "New York",
+          165
+        ],
+        [
+          "New South Wales",
+          149
+        ],
+        [
+          "Delaware",
+          149
+        ],
+        [
+          "Tôkyô [Tokyo]",
+          138
+        ],
+        [
+          "California",
+          137
+        ],
+        [
+          "Pennsylvania",
+          135
+        ],
+        [
+          "São Paulo",
+          133
+        ],
+        [
+          "West Bengal",
+          127
+        ],
+        [
+          "İstanbul",
+          115
+        ],
+        [
+          "Central Singapore",
+          111
+        ],
+        [
+          "Nordrhein-Westfalen",
+          109
+        ],
+        [
+          "Delhi",
+          109
+        ],
+        [
+          "Krung Thep Maha Nakhon [Bangkok]",
+          106
+        ],
+        [
+          "Queensland",
+          104
+        ],
+        [
+          "Moskva",
+          102
+        ],
+        [
+          "Beijing Shi",
+          99
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Gem parents",
+      "code_friendly_name_guess": "gem_parents",
+      "n_total": 28214,
+      "n_null": 10773,
+      "n_non_null": 17441,
+      "null_rate": 0.3818,
+      "n_unique": 13503,
+      "top_values": [
+        [
+          "China Energy Investment Corp [100.0%]",
+          55
+        ],
+        [
+          "China Huadian Corp Ltd [100.0%]",
+          40
+        ],
+        [
+          "Huaneng Power International Inc [100.0%]",
+          39
+        ],
+        [
+          "China Datang Corp Ltd [100.0%]",
+          38
+        ],
+        [
+          "Constellation Energy Corp",
+          37
+        ],
+        [
+          "State Power Investment Corp Ltd [100.0%]",
+          34
+        ],
+        [
+          "Vistra Corp [100.0%]",
+          26
+        ],
+        [
+          "Datang International Power Generation Co Ltd [100.0%]",
+          25
+        ],
+        [
+          "China Resources Power Holdings Co Ltd [100.0%]",
+          23
+        ],
+        [
+          "China Huaneng Group Co Ltd [100.0%]",
+          22
+        ],
+        [
+          "Huadian Power International Co Ltd [100.0%]",
+          20
+        ],
+        [
+          "BP PLC",
+          20
+        ],
+        [
+          "Shell PLC [100.0%]",
+          18
+        ],
+        [
+          "Midwood Holdings LLC; Strategic Value Partners LLC",
+          18
+        ],
+        [
+          "Holcim AG [100.0%]",
+          18
+        ],
+        [
+          "China Petrochemical Corp [100.0%]",
+          18
+        ],
+        [
+          "Banpu PCL [100.0%]",
+          18
+        ],
+        [
+          "ACH GP LLC; ACHP II LP; ACHP LP; ArcLight Capital Partners LLC",
+          18
+        ],
+        [
+          "LS Power Development LLC",
+          17
+        ],
+        [
+          "KKR & Co. Inc",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Gem parents IDs",
+      "code_friendly_name_guess": "gem_parents_ids",
+      "n_total": 28214,
+      "n_null": 10029,
+      "n_non_null": 18185,
+      "null_rate": 0.3555,
+      "n_unique": 13722,
+      "top_values": [
+        [
+          "not found",
+          492
+        ],
+        [
+          "E100000000239 [100.0%]",
+          55
+        ],
+        [
+          "E100000000170 [100.0%]",
+          40
+        ],
+        [
+          "E100000000217 [100.0%]",
+          39
+        ],
+        [
+          "E100000000163 [100.0%]",
+          38
+        ],
+        [
+          "E100001000208",
+          37
+        ],
+        [
+          "E100000000273 [100.0%]",
+          34
+        ],
+        [
+          "E100000001322 [100.0%]",
+          26
+        ],
+        [
+          "E100000000181 [100.0%]",
+          25
+        ],
+        [
+          "E100000000174 [100.0%]",
+          23
+        ],
+        [
+          "E100000000171 [100.0%]",
+          22
+        ],
+        [
+          "E100000000213 [100.0%]",
+          21
+        ],
+        [
+          "E100000001096",
+          20
+        ],
+        [
+          "E100002022053; E100002022052; E100002022051; E100000001143",
+          18
+        ],
+        [
+          "E100002003624; E100002003623",
+          18
+        ],
+        [
+          "E100001001130 [100.0%]",
+          18
+        ],
+        [
+          "E100001000571 [100.0%]",
+          18
+        ],
+        [
+          "E100000000746 [100.0%]",
+          18
+        ],
+        [
+          "E100000001248",
+          17
+        ],
+        [
+          "E100000001247",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Brazil - National Registry of Legal Entities (Federal Revenue Service)",
+      "code_friendly_name_guess": "brazil_national_registry_of_legal_entities_federal_revenue_service",
+      "n_total": 28214,
+      "n_null": 28054,
+      "n_non_null": 160,
+      "null_rate": 0.9943,
+      "n_unique": 160,
+      "top_values": [
+        [
+          "97.482.897/0001-79",
+          1
+        ],
+        [
+          "97.481.113/0001-98",
+          1
+        ],
+        [
+          "92.724.145/0001-53",
+          1
+        ],
+        [
+          "87.153.730/0002-91",
+          1
+        ],
+        [
+          "87.040.598/0001-20",
+          1
+        ],
+        [
+          "86.445.665/0001-24",
+          1
+        ],
+        [
+          "85.003.747/0001-56",
+          1
+        ],
+        [
+          "76.630.573/0022-95",
+          1
+        ],
+        [
+          "72.116.353/0001-62",
+          1
+        ],
+        [
+          "71.324.784/0001-51",
+          1
+        ],
+        [
+          "71.241.731/0001-77",
+          1
+        ],
+        [
+          "68.631.514/0001-89",
+          1
+        ],
+        [
+          "61.194.148/0001-07",
+          1
+        ],
+        [
+          "60.869.336/0001-17",
+          1
+        ],
+        [
+          "60.651.809/0001-05",
+          1
+        ],
+        [
+          "60.078.060/0001-59",
+          1
+        ],
+        [
+          "60.078.045/0001-00",
+          1
+        ],
+        [
+          "57.641.016/0001-09",
+          1
+        ],
+        [
+          "57.640.256/0001-80",
+          1
+        ],
+        [
+          "57.591.412/0001-60",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0312,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Global Legal Entity Identifier Index",
+      "code_friendly_name_guess": "global_legal_entity_identifier_index",
+      "n_total": 28214,
+      "n_null": 11792,
+      "n_non_null": 16422,
+      "null_rate": 0.4179,
+      "n_unique": 5449,
+      "top_values": [
+        [
+          "not found",
+          10972
+        ],
+        [
+          "not applicable",
+          3
+        ],
+        [
+          "not sure",
+          1
+        ],
+        [
+          "not ofund",
+          1
+        ],
+        [
+          "ZXZE9GCS2BB547GJW219",
+          1
+        ],
+        [
+          "ZXTILKJKG63JELOEG630",
+          1
+        ],
+        [
+          "ZXLTQRYIK6IJH3R0IK66",
+          1
+        ],
+        [
+          "ZSN2LWNPYW6ISMRUC664",
+          1
+        ],
+        [
+          "ZQUIP1CSZO8LXRBSOU78",
+          1
+        ],
+        [
+          "ZMMMIWGPLCGM02OPGM14",
+          1
+        ],
+        [
+          "ZJ7R6QPB3TTLPEIX5V27",
+          1
+        ],
+        [
+          "ZGEN8HJFCYNRVN1XCJ08",
+          1
+        ],
+        [
+          "YLF139GXSRKPBBTNZL03",
+          1
+        ],
+        [
+          "YH0V7ZHY352ITDGEYB83",
+          1
+        ],
+        [
+          "YG6VT0TPHRH4TFVAQV64",
+          1
+        ],
+        [
+          "YDHER8SKF7V7YW8KZB55",
+          1
+        ],
+        [
+          "YBTK58LGTGR80SX17C37",
+          1
+        ],
+        [
+          "Y0GUHBV6Q7GN8ZQINB16",
+          1
+        ],
+        [
+          "XWTZDRYZPBUHIQBKDB46",
+          1
+        ],
+        [
+          "XRZQ5S7HYJFPHJ78L959",
+          1
+        ]
+      ],
+      "portion_numeric": 0.008,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "India - Corporate Identification Number (Ministry of Corporate Affairs)",
+      "code_friendly_name_guess": "india_corporate_identification_number_ministry_of_corporate_affairs",
+      "n_total": 28214,
+      "n_null": 27978,
+      "n_non_null": 236,
+      "null_rate": 0.9916,
+      "n_unique": 236,
+      "top_values": [
+        [
+          "not found",
+          1
+        ],
+        [
+          "U99999MH1917PTC000478",
+          1
+        ],
+        [
+          "U93000UP2009PTC039070",
+          1
+        ],
+        [
+          "U74999TZ2012PTC018160",
+          1
+        ],
+        [
+          "U74999MH2020PTC352064",
+          1
+        ],
+        [
+          "U74999MH2017PTC291304",
+          1
+        ],
+        [
+          "U74999MH2017PTC290913",
+          1
+        ],
+        [
+          "U74999MH2017PTC289996",
+          1
+        ],
+        [
+          "U74999GJ2016PLC094589",
+          1
+        ],
+        [
+          "U74900TN1986PLC013431",
+          1
+        ],
+        [
+          "U74900MH2010PLC202725",
+          1
+        ],
+        [
+          "U74899DL1995PTC070245",
+          1
+        ],
+        [
+          "U74899DL1995PLC144059",
+          1
+        ],
+        [
+          "U74899DL1994PTC062766",
+          1
+        ],
+        [
+          "U74899DL1965GOI004343",
+          1
+        ],
+        [
+          "U74140UP2011PTC052975",
+          1
+        ],
+        [
+          "U74140TG1994PLC018833",
+          1
+        ],
+        [
+          "U74120DL2010PTC200149",
+          1
+        ],
+        [
+          "U74110MH2013PTC412386",
+          1
+        ],
+        [
+          "U73100MH1999PTC118379",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PermID: Refinitiv Permanent Identifier",
+      "code_friendly_name_guess": "permid_refinitiv_permanent_identifier",
+      "n_total": 28214,
+      "n_null": 9949,
+      "n_non_null": 18265,
+      "null_rate": 0.3526,
+      "n_unique": 12853,
+      "top_values": [
+        [
+          "not found",
+          5411
+        ],
+        [
+          "not applicable",
+          3
+        ],
+        [
+          "PT Adaro Strategic Capital",
+          1
+        ],
+        [
+          "8589934577",
+          1
+        ],
+        [
+          "8589934524",
+          1
+        ],
+        [
+          "8589934522",
+          1
+        ],
+        [
+          "8589934347",
+          1
+        ],
+        [
+          "8589934339",
+          1
+        ],
+        [
+          "8589934333",
+          1
+        ],
+        [
+          "8589934326",
+          1
+        ],
+        [
+          "8589934316",
+          1
+        ],
+        [
+          "8589934312",
+          1
+        ],
+        [
+          "8589934275",
+          1
+        ],
+        [
+          "8589934262",
+          1
+        ],
+        [
+          "8589934213",
+          1
+        ],
+        [
+          "8589934205",
+          1
+        ],
+        [
+          "8589934180",
+          1
+        ],
+        [
+          "8589934160",
+          1
+        ],
+        [
+          "8589934159",
+          1
+        ],
+        [
+          "8589934155",
+          1
+        ]
+      ],
+      "portion_numeric": 0.758,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Russia - Uniform State Register of Legal Entities of Russian Federation",
+      "code_friendly_name_guess": "russia_uniform_state_register_of_legal_entities_of_russian_federation",
+      "n_total": 28214,
+      "n_null": 27795,
+      "n_non_null": 419,
+      "null_rate": 0.9851,
+      "n_unique": 419,
+      "top_values": [
+        [
+          "9731011220",
+          1
+        ],
+        [
+          "9731001285",
+          1
+        ],
+        [
+          "9729291114",
+          1
+        ],
+        [
+          "9725134329",
+          1
+        ],
+        [
+          "9725118461",
+          1
+        ],
+        [
+          "9725090791",
+          1
+        ],
+        [
+          "9717102362",
+          1
+        ],
+        [
+          "9717083575",
+          1
+        ],
+        [
+          "9715308826",
+          1
+        ],
+        [
+          "9706002704",
+          1
+        ],
+        [
+          "9705207321",
+          1
+        ],
+        [
+          "9705156684",
+          1
+        ],
+        [
+          "9705138011",
+          1
+        ],
+        [
+          "9705131087",
+          1
+        ],
+        [
+          "9705094910",
+          1
+        ],
+        [
+          "9705068572",
+          1
+        ],
+        [
+          "9705005124",
+          1
+        ],
+        [
+          "9704242813",
+          1
+        ],
+        [
+          "9704235615",
+          1
+        ],
+        [
+          "9704207209",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "S&P Capital IQ",
+      "code_friendly_name_guess": "s_p_capital_iq",
+      "n_total": 28214,
+      "n_null": 27869,
+      "n_non_null": 345,
+      "null_rate": 0.9878,
+      "n_unique": 324,
+      "top_values": [
+        [
+          "not found",
+          22
+        ],
+        [
+          "98779213",
+          1
+        ],
+        [
+          "9664478",
+          1
+        ],
+        [
+          "9394700",
+          1
+        ],
+        [
+          "9377472",
+          1
+        ],
+        [
+          "9328698",
+          1
+        ],
+        [
+          "878252",
+          1
+        ],
+        [
+          "876838",
+          1
+        ],
+        [
+          "8403400",
+          1
+        ],
+        [
+          "83966231",
+          1
+        ],
+        [
+          "8292734",
+          1
+        ],
+        [
+          "81596125",
+          1
+        ],
+        [
+          "8081460",
+          1
+        ],
+        [
+          "79740747",
+          1
+        ],
+        [
+          "79237829",
+          1
+        ],
+        [
+          "79230811",
+          1
+        ],
+        [
+          "716908311",
+          1
+        ],
+        [
+          "713550836",
+          1
+        ],
+        [
+          "709907177",
+          1
+        ],
+        [
+          "707971779",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9362,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "UK Companies House",
+      "code_friendly_name_guess": "uk_companies_house",
+      "n_total": 28214,
+      "n_null": 27667,
+      "n_non_null": 547,
+      "null_rate": 0.9806,
+      "n_unique": 547,
+      "top_values": [
+        [
+          "SL035244",
+          1
+        ],
+        [
+          "SL033900",
+          1
+        ],
+        [
+          "SL033444",
+          1
+        ],
+        [
+          "SL030196",
+          1
+        ],
+        [
+          "SC870950",
+          1
+        ],
+        [
+          "SC836755",
+          1
+        ],
+        [
+          "SC760986",
+          1
+        ],
+        [
+          "SC664055",
+          1
+        ],
+        [
+          "SC637445",
+          1
+        ],
+        [
+          "SC631531",
+          1
+        ],
+        [
+          "SC576143",
+          1
+        ],
+        [
+          "SC574147",
+          1
+        ],
+        [
+          "SC560225",
+          1
+        ],
+        [
+          "SC559529",
+          1
+        ],
+        [
+          "SC527272",
+          1
+        ],
+        [
+          "SC473190",
+          1
+        ],
+        [
+          "SC471024",
+          1
+        ],
+        [
+          "SC470677",
+          1
+        ],
+        [
+          "SC460892",
+          1
+        ],
+        [
+          "SC448438",
+          1
+        ]
+      ],
+      "portion_numeric": 0.848,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "US SEC Central Index Key",
+      "code_friendly_name_guess": "us_sec_central_index_key",
+      "n_total": 28214,
+      "n_null": 27899,
+      "n_non_null": 315,
+      "null_rate": 0.9888,
+      "n_unique": 278,
+      "top_values": [
+        [
+          "not found",
+          38
+        ],
+        [
+          "CIK0001422849",
+          1
+        ],
+        [
+          "CIK0001422848",
+          1
+        ],
+        [
+          "CIK0000902219",
+          1
+        ],
+        [
+          "1735321",
+          1
+        ],
+        [
+          "0002045908",
+          1
+        ],
+        [
+          "0002028336",
+          1
+        ],
+        [
+          "0002024235",
+          1
+        ],
+        [
+          "0002024218",
+          1
+        ],
+        [
+          "0002024037",
+          1
+        ],
+        [
+          "0002016373",
+          1
+        ],
+        [
+          "0002012383",
+          1
+        ],
+        [
+          "0002004863",
+          1
+        ],
+        [
+          "0001996810",
+          1
+        ],
+        [
+          "0001993004",
+          1
+        ],
+        [
+          "0001972714",
+          1
+        ],
+        [
+          "0001969822",
+          1
+        ],
+        [
+          "0001966545",
+          1
+        ],
+        [
+          "0001955722",
+          1
+        ],
+        [
+          "0001937926",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8698,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "US-EIA",
+      "code_friendly_name_guess": "us_eia",
+      "n_total": 28214,
+      "n_null": 28195,
+      "n_non_null": 19,
+      "null_rate": 0.9993,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "not found",
+          2
+        ],
+        [
+          "9324",
+          1
+        ],
+        [
+          "9269",
+          1
+        ],
+        [
+          "733",
+          1
+        ],
+        [
+          "6455",
+          1
+        ],
+        [
+          "55729",
+          1
+        ],
+        [
+          "5416",
+          1
+        ],
+        [
+          "343",
+          1
+        ],
+        [
+          "3046",
+          1
+        ],
+        [
+          "22053",
+          1
+        ],
+        [
+          "19876",
+          1
+        ],
+        [
+          "17698",
+          1
+        ],
+        [
+          "17539",
+          1
+        ],
+        [
+          "15474",
+          1
+        ],
+        [
+          "15470",
+          1
+        ],
+        [
+          "14015",
+          1
+        ],
+        [
+          "14006",
+          1
+        ],
+        [
+          "13100",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8947,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    }
+  ]
+}

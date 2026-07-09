@@ -1,0 +1,645 @@
+{
+  "table_name": "global_oil_and_gas_extraction_tracker_march_2026__project_level_reserves_data",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "tab_slug": "project_level_reserves_data",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:18.976613+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 291,
+      "top_values": [
+        [
+          "L100000323374",
+          4
+        ],
+        [
+          "L100000323371",
+          4
+        ],
+        [
+          "L100000323360",
+          4
+        ],
+        [
+          "L100000321103",
+          4
+        ],
+        [
+          "L100000319176",
+          4
+        ],
+        [
+          "L100000319158",
+          4
+        ],
+        [
+          "L100000312071",
+          4
+        ],
+        [
+          "L100000312043",
+          4
+        ],
+        [
+          "L100001062462",
+          3
+        ],
+        [
+          "L100001061729",
+          3
+        ],
+        [
+          "L100000324221",
+          3
+        ],
+        [
+          "L100000324152",
+          3
+        ],
+        [
+          "L100000321059",
+          3
+        ],
+        [
+          "L100000318403",
+          3
+        ],
+        [
+          "L100000317461",
+          3
+        ],
+        [
+          "L100000314110",
+          3
+        ],
+        [
+          "L100000313123",
+          3
+        ],
+        [
+          "L100000312794",
+          3
+        ],
+        [
+          "L100000312653",
+          3
+        ],
+        [
+          "L100000311930",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unique project ID number.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 291,
+      "top_values": [
+        [
+          "Yurubcheno-Tokhomskoye Oil and Gas Project (Krasnoyarsk Krai, Russia)",
+          4
+        ],
+        [
+          "Urengoyskoye Oil and Gas Project (Yamalo-Nenets Autonomous Okrug, Russia)",
+          4
+        ],
+        [
+          "Srednebotuobinskoye Oil and Gas Project (Sakha Republic, Russia)",
+          4
+        ],
+        [
+          "Orenburgskoye Oil and Gas Project (Orenburg region, Russia)",
+          4
+        ],
+        [
+          "Kurdistan Oil and Gas Project (Iraq)",
+          4
+        ],
+        [
+          "Etinde Oil and Gas Project (Cameroon)",
+          4
+        ],
+        [
+          "Chayvo Oil and Gas Project (Russia)",
+          4
+        ],
+        [
+          "Azadegan Oil Project (Iran)",
+          4
+        ],
+        [
+          "West Delta Deep Marine Oil and Gas Project (Egypt)",
+          3
+        ],
+        [
+          "South Pars Oil and Gas Project (Iran)",
+          3
+        ],
+        [
+          "Sanga-Sanga Block Oil and Gas Project (Indonesia)",
+          3
+        ],
+        [
+          "Rospan Oil and Gas Project (Russia)",
+          3
+        ],
+        [
+          "Oritupano-Leona Oil and Gas Project (Venezuela)",
+          3
+        ],
+        [
+          "Nene Marine Oil and Gas Project (Republic of the Congo)",
+          3
+        ],
+        [
+          "Madura Strait Block Oil and Gas Project (Indonesia)",
+          3
+        ],
+        [
+          "Juniper Oil and Gas Project (Trinidad and Tobago)",
+          3
+        ],
+        [
+          "In Amenas Oil and Gas Project (Algeria)",
+          3
+        ],
+        [
+          "Greater Plutonio Oil and Gas Project (Angola)",
+          3
+        ],
+        [
+          "Golfinho/Atum Oil and Gas Project (Mozambique)",
+          3
+        ],
+        [
+          "Block A-18 Oil and Gas Project (Malaysia, Thailand)",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of the unit as it is reported by sources.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 56,
+      "top_values": [
+        [
+          "Russia",
+          58
+        ],
+        [
+          "Australia",
+          36
+        ],
+        [
+          "Nigeria",
+          28
+        ],
+        [
+          "Malaysia",
+          26
+        ],
+        [
+          "Indonesia",
+          26
+        ],
+        [
+          "China",
+          23
+        ],
+        [
+          "Angola",
+          22
+        ],
+        [
+          "Venezuela",
+          12
+        ],
+        [
+          "India",
+          12
+        ],
+        [
+          "Trinidad and Tobago",
+          11
+        ],
+        [
+          "Iran",
+          10
+        ],
+        [
+          "Colombia",
+          10
+        ],
+        [
+          "Algeria",
+          10
+        ],
+        [
+          "Kazakhstan",
+          9
+        ],
+        [
+          "Saudi Arabia",
+          8
+        ],
+        [
+          "Iraq",
+          8
+        ],
+        [
+          "United States",
+          7
+        ],
+        [
+          "Mozambique",
+          7
+        ],
+        [
+          "Egypt",
+          7
+        ],
+        [
+          "Azerbaijan",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "gas",
+          194
+        ],
+        [
+          "oil",
+          134
+        ],
+        [
+          "hydrocarbons",
+          29
+        ],
+        [
+          "crude oil and condensate",
+          23
+        ],
+        [
+          "condensate",
+          19
+        ],
+        [
+          "liquids",
+          7
+        ],
+        [
+          "crude oil",
+          5
+        ],
+        [
+          "coal seam gas",
+          5
+        ],
+        [
+          "oil and condensate",
+          4
+        ],
+        [
+          "gas condensate",
+          3
+        ],
+        [
+          "NGL",
+          2
+        ],
+        [
+          "LPG",
+          2
+        ],
+        [
+          "oil and gas condensate",
+          1
+        ],
+        [
+          "oil and gas",
+          1
+        ],
+        [
+          "gas and condensate",
+          1
+        ],
+        [
+          "coal bed methane",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ],
+      "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Reserves classification",
+      "code_friendly_name_guess": "reserves_classification",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "reserves",
+          61
+        ],
+        [
+          "2P reserves",
+          35
+        ],
+        [
+          "Remaining recoverable reserves",
+          30
+        ],
+        [
+          "remaining recoverable reserves",
+          29
+        ],
+        [
+          "recoverable reserves",
+          25
+        ],
+        [
+          "EUR",
+          24
+        ],
+        [
+          "B2 + C2",
+          23
+        ],
+        [
+          "A + B1 + C1",
+          23
+        ],
+        [
+          "remaining reserves",
+          22
+        ],
+        [
+          "1P reserves",
+          21
+        ],
+        [
+          "estimated",
+          13
+        ],
+        [
+          "resources",
+          10
+        ],
+        [
+          "2C resources",
+          9
+        ],
+        [
+          "Remaining reserves",
+          8
+        ],
+        [
+          "proved reserves",
+          5
+        ],
+        [
+          "geological reserves",
+          5
+        ],
+        [
+          "estimated recoverable reserves",
+          5
+        ],
+        [
+          "recoverable resources",
+          4
+        ],
+        [
+          "proven reserves",
+          4
+        ],
+        [
+          "original oil in place",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 399,
+      "top_values": [
+        [
+          "1000.0",
+          6
+        ],
+        [
+          "28317.0",
+          4
+        ],
+        [
+          "113268.0",
+          4
+        ],
+        [
+          "45307.2",
+          3
+        ],
+        [
+          "100.0",
+          3
+        ],
+        [
+          "99109.5",
+          2
+        ],
+        [
+          "891985.5",
+          2
+        ],
+        [
+          "850.0",
+          2
+        ],
+        [
+          "800.0",
+          2
+        ],
+        [
+          "750.0",
+          2
+        ],
+        [
+          "70.0",
+          2
+        ],
+        [
+          "60.0",
+          2
+        ],
+        [
+          "56634.0",
+          2
+        ],
+        [
+          "5167.852",
+          2
+        ],
+        [
+          "500000.0",
+          2
+        ],
+        [
+          "500.0",
+          2
+        ],
+        [
+          "356.971",
+          2
+        ],
+        [
+          "300.0",
+          2
+        ],
+        [
+          "18000.0",
+          2
+        ],
+        [
+          "1099.5",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million m³",
+          201
+        ],
+        [
+          "million bbl",
+          199
+        ],
+        [
+          "million boe",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The common set of units.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Data source type",
+      "code_friendly_name_guess": "data_source_type",
+      "n_total": 999,
+      "n_null": 568,
+      "n_non_null": 431,
+      "null_rate": 0.5686,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level reserves",
+          375
+        ],
+        [
+          "reserves summed from fields",
+          56
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If the reserves of the project is calculated from the the field-level projects which make it up, it is tagged as \"reserves summed from fields\". If data for the location is at the project level, this is tagged as \"project level reserves\" - if both data types are available, only the project level data is shown here.",
+      "notes_from_readme": null
+    }
+  ]
+}

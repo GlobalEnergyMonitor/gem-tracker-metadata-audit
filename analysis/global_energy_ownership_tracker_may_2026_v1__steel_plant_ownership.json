@@ -1,0 +1,1295 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__steel_plant_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "steel_plant_ownership",
+  "n_rows": 9476,
+  "analyzed_at": "2026-07-07T21:45:14.336101+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 1340,
+      "top_values": [
+        [
+          "E100000123261",
+          1039
+        ],
+        [
+          "E100001015587",
+          544
+        ],
+        [
+          "E100000132388",
+          340
+        ],
+        [
+          "E100001010595",
+          197
+        ],
+        [
+          "E100001015833",
+          192
+        ],
+        [
+          "E100001000348",
+          192
+        ],
+        [
+          "E100002001974",
+          136
+        ],
+        [
+          "E100001010596",
+          132
+        ],
+        [
+          "E100002022203",
+          99
+        ],
+        [
+          "E100002011285",
+          99
+        ],
+        [
+          "E100001016498",
+          99
+        ],
+        [
+          "E100001016492",
+          99
+        ],
+        [
+          "E100001016257",
+          99
+        ],
+        [
+          "E100001016256",
+          99
+        ],
+        [
+          "E100001016255",
+          99
+        ],
+        [
+          "E100001016126",
+          99
+        ],
+        [
+          "E100001016125",
+          99
+        ],
+        [
+          "E100001011617",
+          99
+        ],
+        [
+          "E100001000382",
+          99
+        ],
+        [
+          "E100001000179",
+          99
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 1340,
+      "top_values": [
+        [
+          "natural person(s) ",
+          1039
+        ],
+        [
+          "small shareholder(s) ",
+          544
+        ],
+        [
+          "unknown ",
+          340
+        ],
+        [
+          "The Vanguard Group Inc",
+          197
+        ],
+        [
+          "Blackrock Advisors LLC",
+          192
+        ],
+        [
+          "BlackRock Inc",
+          192
+        ],
+        [
+          "member/employee owned ",
+          136
+        ],
+        [
+          "State Street Corp",
+          132
+        ],
+        [
+          "The Norinchukin Trust & Banking Co Ltd",
+          99
+        ],
+        [
+          "The Master Trust Bank of Japan Ltd",
+          99
+        ],
+        [
+          "The Dai-ichi Life Insurance Co Ltd",
+          99
+        ],
+        [
+          "Sumitomo Mitsui Trust Group ",
+          99
+        ],
+        [
+          "State Street Bank and Trust Co",
+          99
+        ],
+        [
+          "Resonac Holdings Corp",
+          99
+        ],
+        [
+          "Resona Bank Ltd",
+          99
+        ],
+        [
+          "Norinchukin Bank ",
+          99
+        ],
+        [
+          "Nippon Life Insurance Co",
+          99
+        ],
+        [
+          "Mizuho Financial Group Inc",
+          99
+        ],
+        [
+          "Mitsubishi UFJ Trust and Banking Corp",
+          99
+        ],
+        [
+          "Mitsubishi UFJ Financial Group Inc",
+          99
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 9476,
+      "n_null": 2410,
+      "n_non_null": 7066,
+      "null_rate": 0.2543,
+      "n_unique": 91,
+      "top_values": [
+        [
+          "Japan",
+          1663
+        ],
+        [
+          "China",
+          1526
+        ],
+        [
+          "United States",
+          1040
+        ],
+        [
+          "India",
+          926
+        ],
+        [
+          "Luxembourg",
+          279
+        ],
+        [
+          "Brazil",
+          152
+        ],
+        [
+          "Iran",
+          133
+        ],
+        [
+          "Singapore",
+          88
+        ],
+        [
+          "Russia",
+          78
+        ],
+        [
+          "Jersey",
+          78
+        ],
+        [
+          "South Korea",
+          74
+        ],
+        [
+          "Austria",
+          73
+        ],
+        [
+          "Italy",
+          57
+        ],
+        [
+          "Germany",
+          56
+        ],
+        [
+          "Türkiye",
+          52
+        ],
+        [
+          "Netherlands",
+          41
+        ],
+        [
+          "United Kingdom",
+          40
+        ],
+        [
+          "Taiwan",
+          40
+        ],
+        [
+          "Sweden",
+          34
+        ],
+        [
+          "Mauritius",
+          32
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 9476,
+      "n_null": 2183,
+      "n_non_null": 7293,
+      "null_rate": 0.2304,
+      "n_unique": 92,
+      "top_values": [
+        [
+          "China",
+          1690
+        ],
+        [
+          "Japan",
+          1663
+        ],
+        [
+          "United States",
+          1040
+        ],
+        [
+          "India",
+          943
+        ],
+        [
+          "Luxembourg",
+          279
+        ],
+        [
+          "Brazil",
+          154
+        ],
+        [
+          "Iran",
+          137
+        ],
+        [
+          "Singapore",
+          88
+        ],
+        [
+          "Jersey",
+          78
+        ],
+        [
+          "Russia",
+          75
+        ],
+        [
+          "South Korea",
+          74
+        ],
+        [
+          "Austria",
+          73
+        ],
+        [
+          "Türkiye",
+          59
+        ],
+        [
+          "Germany",
+          59
+        ],
+        [
+          "Italy",
+          57
+        ],
+        [
+          "Netherlands",
+          41
+        ],
+        [
+          "United Kingdom",
+          40
+        ],
+        [
+          "Taiwan",
+          40
+        ],
+        [
+          "Hong Kong",
+          35
+        ],
+        [
+          "Sweden",
+          34
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 1105,
+      "top_values": [
+        [
+          "Lloyds Metals and Energy Ltd Ghugus steel plant",
+          96
+        ],
+        [
+          "Kobe Kakogawa Works steel plant",
+          96
+        ],
+        [
+          "ArcelorMittal Nippon Steel Hazira plant",
+          87
+        ],
+        [
+          "Fushun New Steel Co Ltd",
+          80
+        ],
+        [
+          "Nippon Setouchi Works (Hirohata Area) steel plant",
+          72
+        ],
+        [
+          "Nippon Kyushu Works (Yawata Area, Tobata) steel plant",
+          72
+        ],
+        [
+          "Nippon East Japan Works (Kashima) steel plant",
+          72
+        ],
+        [
+          "JFE West Japan Works (Kurashiki) steel plant",
+          72
+        ],
+        [
+          "Benxi Beiying Iron and Steel Group Co Ltd Beitai Town",
+          66
+        ],
+        [
+          "Lloyds Metals and Energy Ltd Konsari steel plant",
+          64
+        ],
+        [
+          "Voestalpine Stahl Linz steel plant",
+          63
+        ],
+        [
+          "Voestalpine Stahl Donawitz steel plant",
+          63
+        ],
+        [
+          "Formosa Ha Tinh Steel plant",
+          62
+        ],
+        [
+          "Lianfeng Steel Zhangjiagang Co Ltd",
+          60
+        ],
+        [
+          "Usiminas Ipatinga steel plant",
+          58
+        ],
+        [
+          "JSW Steel Vijayanagar steel plant",
+          57
+        ],
+        [
+          "JSW Steel Dolvi steel plant",
+          57
+        ],
+        [
+          "JSW Green Steel Salav plant",
+          57
+        ],
+        [
+          "Sunflag Iron and Steel plant",
+          54
+        ],
+        [
+          "Nakayama Steel Works Osaka",
+          52
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 9476,
+      "n_null": 1639,
+      "n_non_null": 7837,
+      "null_rate": 0.173,
+      "n_unique": 1208,
+      "top_values": [
+        [
+          "100",
+          1185
+        ],
+        [
+          "0",
+          361
+        ],
+        [
+          "0.01",
+          150
+        ],
+        [
+          "0.02",
+          125
+        ],
+        [
+          "0.03",
+          84
+        ],
+        [
+          "0.07",
+          79
+        ],
+        [
+          "1.36",
+          75
+        ],
+        [
+          "0.06",
+          73
+        ],
+        [
+          "32.34",
+          68
+        ],
+        [
+          "0.55",
+          60
+        ],
+        [
+          "0.1",
+          53
+        ],
+        [
+          "6.32",
+          50
+        ],
+        [
+          "0.04",
+          49
+        ],
+        [
+          "5",
+          48
+        ],
+        [
+          "0.12",
+          47
+        ],
+        [
+          "0.08",
+          47
+        ],
+        [
+          "0.05",
+          42
+        ],
+        [
+          "1.38",
+          41
+        ],
+        [
+          "10.82",
+          38
+        ],
+        [
+          "7.46",
+          34
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 6463,
+      "top_values": [
+        [
+          "Xinjiang Investment Development (Group) Co Ltd -> E100000128499 [10.37%] -> Xinjiang Tianshan Iron and Steel United Co Ltd [50.0%] -> Xinxing Ductile Iron Pipes Xinjiang Co Ltd [100.0%] -> Xinjiang Tianshan Iron and Steel Bazhou Co Ltd [100.0%]",
+          6
+        ],
+        [
+          "Gansu Highway Aviation Tourism Investment Group Co Ltd -> Gansu Financial Holding Group Co Ltd [28.12%] -> EVERBRIGHT Xinglong Trust Co Ltd [21.58%] -> Hebei Iron and Steel Industry Transformation and Upgrading Master Fund LP [41.53%] -> Hebei Iron and Steel Industry Transformation and Upgrading Fund LP [99.92%] -> HBIS Laoting Steel Co Ltd [30.9%] -> Hbis Laoting Steel Co Ltd [100.0%]",
+          6
+        ],
+        [
+          "Bank of China Ltd -> Boc Financial Assets Investment Co Ltd [100.0%] -> E100000128499 [7.69%] -> Xinjiang Tianshan Iron and Steel United Co Ltd [50.0%] -> Xinxing Ductile Iron Pipes Xinjiang Co Ltd [100.0%] -> Xinjiang Tianshan Iron and Steel Bazhou Co Ltd [100.0%]",
+          6
+        ],
+        [
+          "unknown  -> Rizhao Steel Holding Group Co Ltd [1.23%] -> Rizhao Steel Holding Group Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "unknown  -> Jiangsu Yonggang Group Co Ltd [4.74%] -> Jiangsu Lianfeng Industry Co Ltd [100.0%] -> Lianfeng Steel (Zhangjiagang) Co Ltd [57.29%] -> Lianfeng Steel Zhangjiagang Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "unknown  -> Guangxi Guigang Iron and Steel Group Co Ltd [1.72%] -> Guangxi Guigang Iron and Steel Group Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "unknown  -> Fushun New Steel Corp Ltd [0.72%] -> Fushun New Steel Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "small shareholder(s)  -> EVRAZ PLC [33.64%] -> Evraz NTMK JSC [100.0%] -> Evraz ZSMK JSC [100.0%] -> Evraz ZSMK steel plant [100.0%]",
+          5
+        ],
+        [
+          "small shareholder(s)  -> ArcelorMittal SA [60.12%] -> ArcelorMittal Dofasco GP  [100.0%] -> ArcelorMittal Dofasco steel plant [100.0%]",
+          5
+        ],
+        [
+          "small shareholder(s)  -> ArcelorMittal España SA [0.15%] -> ArcelorMittal Asturias (Gijón) steel plant [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> Yunnan Desheng Steel Co Ltd [29.54%] -> Yunnan Desheng Iron and Steel Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> Jinghua Rigang Holding Group Co Ltd [100.0%] -> Rizhao Steel Holding Group Co Ltd [98.77%] -> Rizhao Steel Holding Group Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> Jiangsu Shagang Group Co Ltd [29.32%] -> Jiangsu Yonggang Group Co Ltd [15.79%] -> Jiangsu Lianfeng Industry Co Ltd [100.0%] -> Lianfeng Steel (Zhangjiagang) Co Ltd [57.29%] -> Lianfeng Steel Zhangjiagang Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> HSBC Trustee (C.I.) Ltd [unknown %] -> Grandel Singapore  [unknown %] -> Lumen Investments SARL [100.0%] -> ArcelorMittal SA [32.34%] -> ArcelorMittal España SA [99.85%] -> ArcelorMittal Asturias (Gijón) steel plant [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> HSBC Trustee (C.I.) Ltd [unknown %] -> Grandel Singapore  [unknown %] -> Lumen Investments SARL [100.0%] -> ArcelorMittal SA [32.34%] -> ArcelorMittal Dofasco GP  [100.0%] -> ArcelorMittal Dofasco steel plant [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> Guangxi Guigang Iron and Steel Group Co Ltd [43.96%] -> Guangxi Guigang Iron and Steel Group Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> EVRAZ PLC [66.36%] -> Evraz NTMK JSC [100.0%] -> Evraz ZSMK JSC [100.0%] -> Evraz ZSMK steel plant [100.0%]",
+          5
+        ],
+        [
+          "natural person(s)  -> Beijing Jianlong Investment Co Ltd [95.1%] -> Beijing Jianlong Heavy Industry Group Co Ltd [94.0%] -> Tianjin Jianlong Iron & Steel Industrial Co Ltd [82.79%] -> Tangshan Jianlong Steel SPECIAL Steel Co Ltd [100.0%] -> Fushun New Steel Corp Ltd [5.0%] -> Fushun New Steel Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "Zhonglianya New Energy Holding Co Ltd -> Leshan Zhonglianya Industrial Co Ltd [100.0%] -> Yunnan Desheng Steel Co Ltd [28.38%] -> Yunnan Desheng Iron and Steel Co Ltd [100.0%]",
+          5
+        ],
+        [
+          "Zhejiang Jianlong Steel Industry Co Ltd -> Fushun New Steel Corp Ltd [60.0%] -> Fushun New Steel Co Ltd [100.0%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 898,
+      "top_values": [
+        [
+          "Nippon Steel Corp",
+          408
+        ],
+        [
+          "JFE Steel Corp",
+          216
+        ],
+        [
+          "ArcelorMittal Nippon Steel India Ltd",
+          203
+        ],
+        [
+          "JSW Steel Ltd",
+          189
+        ],
+        [
+          "Lloyds Metals and Energy Ltd",
+          160
+        ],
+        [
+          "United States Steel Corp",
+          144
+        ],
+        [
+          "Kobe Steel Ltd",
+          120
+        ],
+        [
+          "Nucor Corp",
+          104
+        ],
+        [
+          "JFE Bars & Shapes Corp",
+          96
+        ],
+        [
+          "Tata Steel Ltd",
+          88
+        ],
+        [
+          "Usinas Siderurgicas de Minas Gerais SA",
+          87
+        ],
+        [
+          "Gerdau Ameristeel Corp",
+          81
+        ],
+        [
+          "Fushun New Steel Corp Ltd",
+          80
+        ],
+        [
+          "Godo Steel Ltd",
+          78
+        ],
+        [
+          "Kyoei Steel Ltd",
+          75
+        ],
+        [
+          "Cleveland-Cliffs Inc",
+          75
+        ],
+        [
+          "Orissa Metaliks Pvt Ltd",
+          72
+        ],
+        [
+          "ArcelorMittal SA",
+          69
+        ],
+        [
+          "Siam Yamato Steel Co Ltd",
+          66
+        ],
+        [
+          "Benxi Beiying Iron & Steel (GROUP) Co Ltd",
+          66
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 898,
+      "top_values": [
+        [
+          "E100000000652",
+          408
+        ],
+        [
+          "E100000003335",
+          216
+        ],
+        [
+          "E100000002455",
+          203
+        ],
+        [
+          "E100001000516",
+          189
+        ],
+        [
+          "E100001012204",
+          160
+        ],
+        [
+          "E100000001319",
+          144
+        ],
+        [
+          "E100000000647",
+          120
+        ],
+        [
+          "E100001010181",
+          104
+        ],
+        [
+          "E100001010145",
+          96
+        ],
+        [
+          "E100001010018",
+          88
+        ],
+        [
+          "E100000130691",
+          87
+        ],
+        [
+          "E100001010298",
+          81
+        ],
+        [
+          "E100000124695",
+          80
+        ],
+        [
+          "E100000130709",
+          78
+        ],
+        [
+          "E100001000649",
+          75
+        ],
+        [
+          "E100000130707",
+          75
+        ],
+        [
+          "E100001012161",
+          72
+        ],
+        [
+          "E100000000687",
+          69
+        ],
+        [
+          "E100001000504",
+          66
+        ],
+        [
+          "E100000130802",
+          66
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Iron and Steel Plant Tracker",
+          9476
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          4906
+        ],
+        [
+          "announced",
+          1713
+        ],
+        [
+          "retired",
+          905
+        ],
+        [
+          "operating pre-retirement",
+          607
+        ],
+        [
+          "construction",
+          564
+        ],
+        [
+          "mothballed",
+          388
+        ],
+        [
+          "cancelled",
+          371
+        ],
+        [
+          "mothballed pre-retirement",
+          22
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "Nominal crude steel capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_crude_steel_capacity_ttpa",
+      "n_total": 9476,
+      "n_null": 1167,
+      "n_non_null": 8309,
+      "null_rate": 0.1232,
+      "n_unique": 449,
+      "top_values": [
+        [
+          "500",
+          307
+        ],
+        [
+          "3000",
+          299
+        ],
+        [
+          "1000",
+          297
+        ],
+        [
+          "2000",
+          286
+        ],
+        [
+          "1200",
+          278
+        ],
+        [
+          "600",
+          265
+        ],
+        [
+          "1500",
+          208
+        ],
+        [
+          "2700",
+          157
+        ],
+        [
+          "6000",
+          144
+        ],
+        [
+          "800",
+          139
+        ],
+        [
+          "1400",
+          122
+        ],
+        [
+          "1300",
+          122
+        ],
+        [
+          "2600",
+          119
+        ],
+        [
+          "1700",
+          108
+        ],
+        [
+          "1100",
+          107
+        ],
+        [
+          "5000",
+          106
+        ],
+        [
+          "750",
+          105
+        ],
+        [
+          "1600",
+          104
+        ],
+        [
+          "700",
+          101
+        ],
+        [
+          ">0",
+          97
+        ]
+      ],
+      "portion_numeric": 0.988,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Nominal iron capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_iron_capacity_ttpa",
+      "n_total": 9476,
+      "n_null": 3965,
+      "n_non_null": 5511,
+      "null_rate": 0.4184,
+      "n_unique": 497,
+      "top_values": [
+        [
+          ">0",
+          185
+        ],
+        [
+          "2500",
+          180
+        ],
+        [
+          "2000",
+          143
+        ],
+        [
+          "1700",
+          116
+        ],
+        [
+          "500",
+          91
+        ],
+        [
+          "4500",
+          82
+        ],
+        [
+          "1100",
+          81
+        ],
+        [
+          "4896",
+          80
+        ],
+        [
+          "4543",
+          72
+        ],
+        [
+          "1200",
+          72
+        ],
+        [
+          "1600",
+          69
+        ],
+        [
+          "1500",
+          62
+        ],
+        [
+          "1000",
+          62
+        ],
+        [
+          "3000",
+          56
+        ],
+        [
+          "1300",
+          56
+        ],
+        [
+          "1040",
+          56
+        ],
+        [
+          "7800",
+          53
+        ],
+        [
+          "5000",
+          49
+        ],
+        [
+          "1220",
+          42
+        ],
+        [
+          "840",
+          40
+        ]
+      ],
+      "portion_numeric": 0.962,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Steel Plant ID",
+      "code_friendly_name_guess": "steel_plant_id",
+      "n_total": 9476,
+      "n_null": 0,
+      "n_non_null": 9476,
+      "null_rate": 0.0,
+      "n_unique": 1105,
+      "top_values": [
+        [
+          "P100000120655",
+          96
+        ],
+        [
+          "P100000120522",
+          96
+        ],
+        [
+          "P100000120513",
+          87
+        ],
+        [
+          "P100000120226",
+          80
+        ],
+        [
+          "P100000120664",
+          72
+        ],
+        [
+          "P100000120663",
+          72
+        ],
+        [
+          "P100000120658",
+          72
+        ],
+        [
+          "P100000120648",
+          72
+        ],
+        [
+          "P100000120224",
+          66
+        ],
+        [
+          "P100000121179",
+          64
+        ],
+        [
+          "P100000120011",
+          63
+        ],
+        [
+          "P100000120010",
+          63
+        ],
+        [
+          "P100000121011",
+          62
+        ],
+        [
+          "P100000120192",
+          60
+        ],
+        [
+          "P100000120043",
+          58
+        ],
+        [
+          "P100000120570",
+          57
+        ],
+        [
+          "P100000120519",
+          57
+        ],
+        [
+          "P100000120517",
+          57
+        ],
+        [
+          "P100000120575",
+          54
+        ],
+        [
+          "P100000120683",
+          52
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

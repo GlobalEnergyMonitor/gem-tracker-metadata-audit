@@ -1,0 +1,1850 @@
+{
+  "table_name": "global_coal_terminals_tracker_december_2024__terminals",
+  "tracker_slug": "global_coal_terminals_tracker_december_2024",
+  "tab_slug": "terminals",
+  "n_rows": 521,
+  "analyzed_at": "2026-07-07T21:45:11.641825+00:00",
+  "tracker_info": {
+    "title": "Global Coal Terminals Tracker - December 2024",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Terminals Tracker, December 2024 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Coal Program Director, Global Energy Monitor - flora.champenois@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Terminals Tracker, December 2024 release. Distributed under a Creative Commons Attribution 4.0 International License"
+  },
+  "fields": [
+    {
+      "field_name": "Coal Terminal Name",
+      "code_friendly_name_guess": "coal_terminal_name",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 468,
+      "top_values": [
+        [
+          "Meizhouwan Coal Terminal",
+          3
+        ],
+        [
+          "Krishnapatnam Port Coal Terminal",
+          3
+        ],
+        [
+          "Jaigarh Port Coal Terminal",
+          3
+        ],
+        [
+          "JSW Dharamtar Port Coal Terminal",
+          3
+        ],
+        [
+          "Dhamra Port Coal Terminal",
+          3
+        ],
+        [
+          "Yenisey Seaport Coal Terminal",
+          2
+        ],
+        [
+          "Wiggins Island Coal Terminal",
+          2
+        ],
+        [
+          "Vysotsk Port Coal Terminal",
+          2
+        ],
+        [
+          "Vera Port Coal Terminal",
+          2
+        ],
+        [
+          "VaninoTransUgol Coal Terminal",
+          2
+        ],
+        [
+          "United Bulk Coal Terminal",
+          2
+        ],
+        [
+          "Tuticorin Port Coal Terminal",
+          2
+        ],
+        [
+          "Trombay Coal Terminal",
+          2
+        ],
+        [
+          "Tarahan Coal Port Coal Terminal",
+          2
+        ],
+        [
+          "Suzhou Port Taicang Huaneng Coal Terminal",
+          2
+        ],
+        [
+          "Sukhodol Coal Terminal",
+          2
+        ],
+        [
+          "Shipyard River Coal Terminal",
+          2
+        ],
+        [
+          "Shakhtersk Coal Terminal",
+          2
+        ],
+        [
+          "Richards Bay Coal Terminal",
+          2
+        ],
+        [
+          "RG Tanna Coal Terminal",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Terminal Name (detail or other)",
+      "code_friendly_name_guess": "coal_terminal_name_detail_or_other",
+      "n_total": 521,
+      "n_null": 390,
+      "n_non_null": 131,
+      "null_rate": 0.7486,
+      "n_unique": 109,
+      "top_values": [
+        [
+          "Phase II",
+          3
+        ],
+        [
+          "Ennore Port",
+          3
+        ],
+        [
+          "Wiggins Island Coal Export Terminal (WICET)",
+          2
+        ],
+        [
+          "Vanino Bulk Terminal",
+          2
+        ],
+        [
+          "UTT Ust-Luga",
+          2
+        ],
+        [
+          "Tonghae Port",
+          2
+        ],
+        [
+          "Terminal de Carbón de Puerto Brisa",
+          2
+        ],
+        [
+          "Taymyr, Chaika, Severnaya Zvezda",
+          2
+        ],
+        [
+          "RBT Grindrod Terminal",
+          2
+        ],
+        [
+          "RBCT",
+          2
+        ],
+        [
+          "Puerto de Buenaventura",
+          2
+        ],
+        [
+          "Phase III",
+          2
+        ],
+        [
+          "Phase I",
+          2
+        ],
+        [
+          "Phase 2",
+          2
+        ],
+        [
+          "PIBT",
+          2
+        ],
+        [
+          "Krievu Island Terminal",
+          2
+        ],
+        [
+          "Clinton Coal Facility",
+          2
+        ],
+        [
+          "Chumikan",
+          2
+        ],
+        [
+          "BCT",
+          2
+        ],
+        [
+          "Abbot Point Coal Terminal, Adani Abbot Point Terminal ",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Port Name",
+      "code_friendly_name_guess": "parent_port_name",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 288,
+      "top_values": [
+        [
+          "-",
+          87
+        ],
+        [
+          "Vanino Port",
+          8
+        ],
+        [
+          "Port of Ust-Luga",
+          7
+        ],
+        [
+          "Vostochny Port",
+          6
+        ],
+        [
+          "Port of New Orleans",
+          6
+        ],
+        [
+          "Port of Vancouver",
+          5
+        ],
+        [
+          "Port of Gladstone",
+          5
+        ],
+        [
+          "Port Qasim",
+          5
+        ],
+        [
+          "Vladivostok Port",
+          4
+        ],
+        [
+          "Tangshan Port",
+          4
+        ],
+        [
+          "Port of Rotterdam",
+          4
+        ],
+        [
+          "Port of Richards Bay",
+          4
+        ],
+        [
+          "Port of Ningbo-Zhoushan",
+          4
+        ],
+        [
+          "Port of Newcastle",
+          4
+        ],
+        [
+          "Port of Nakhodka",
+          4
+        ],
+        [
+          "Port of Mobile",
+          4
+        ],
+        [
+          "Port of Hay Point",
+          4
+        ],
+        [
+          "Port of Hampton Roads",
+          4
+        ],
+        [
+          "Paradip Port",
+          4
+        ],
+        [
+          "Visakhapatnam Port",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 436,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Port_of_Ust-Luga",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Paradip_Port",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Caofeidian_Coal_Terminal",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Visakhapatnam_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Riga_Free_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/North_Sea_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Meizhouwan_port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Matola_Coal_Terminal",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Krishnapatnam_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Kamarajar_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Jaigarh_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/JSW_Dharamtar_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Dhamra_Port",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Yenisey_Seaport",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Wiggins_Island_Coal_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Vysotsk_Port",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Vera_Port",
+          2
+        ],
+        [
+          "https://www.gem.wiki/VaninoTransUgol_coal_terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/United_Bulk_Terminal",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Tuticorin_Port",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Operating",
+          369
+        ],
+        [
+          "Cancelled",
+          54
+        ],
+        [
+          "Proposed",
+          40
+        ],
+        [
+          "Retired",
+          21
+        ],
+        [
+          "Construction",
+          20
+        ],
+        [
+          "Shelved",
+          13
+        ],
+        [
+          "Mothballed",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Proposed",
+          "definition": "Projects announced or in planning, but not yet under physical construction."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects officially shelved by a sponsor, or that show no activity over a period of 2 years."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Projects officially cancelled by a sponsor, or that show no activity over a period of 4 years."
+        },
+        {
+          "name": "Operating",
+          "definition": "Terminals that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Terminals that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Terminals that have been permanently shut down."
+        },
+        {
+          "name": "Mt",
+          "definition": "Million tonnes"
+        }
+      ]
+    },
+    {
+      "field_name": "Project Type",
+      "code_friendly_name_guess": "project_type",
+      "n_total": 521,
+      "n_null": 459,
+      "n_non_null": 62,
+      "null_rate": 0.881,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Expansion",
+          62
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 338,
+      "top_values": [
+        [
+          "-",
+          54
+        ],
+        [
+          "Adani Group",
+          17
+        ],
+        [
+          "Kinder Morgan",
+          13
+        ],
+        [
+          "Gujarat Maritime Board",
+          7
+        ],
+        [
+          "JSW Group",
+          6
+        ],
+        [
+          "Grindrod Limited",
+          5
+        ],
+        [
+          "SunCoke Energy",
+          4
+        ],
+        [
+          "Shenhua Group",
+          4
+        ],
+        [
+          "SDIC",
+          4
+        ],
+        [
+          "PT PLN Persero",
+          4
+        ],
+        [
+          "PT Bukit Asam Tbk",
+          4
+        ],
+        [
+          "Schramm Group",
+          3
+        ],
+        [
+          "Robindale Energy",
+          3
+        ],
+        [
+          "Port Waratah Coal Services",
+          3
+        ],
+        [
+          "North Sea Port",
+          3
+        ],
+        [
+          "Norfolk Southern",
+          3
+        ],
+        [
+          "Gladstone Ports Corporation",
+          3
+        ],
+        [
+          "Watco Companies",
+          2
+        ],
+        [
+          "VaninoTransUgol JSC",
+          2
+        ],
+        [
+          "V.O. Chidambaranar Port Trust",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (Mt)",
+      "code_friendly_name_guess": "capacity_mt",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 187,
+      "top_values": [
+        [
+          "*",
+          69
+        ],
+        [
+          "5",
+          21
+        ],
+        [
+          "20",
+          18
+        ],
+        [
+          "12",
+          15
+        ],
+        [
+          "6",
+          14
+        ],
+        [
+          "8",
+          12
+        ],
+        [
+          "2",
+          12
+        ],
+        [
+          "50",
+          10
+        ],
+        [
+          "4",
+          10
+        ],
+        [
+          "30",
+          10
+        ],
+        [
+          "3",
+          10
+        ],
+        [
+          "25",
+          10
+        ],
+        [
+          "1",
+          10
+        ],
+        [
+          "9.1",
+          9
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "2.5",
+          8
+        ],
+        [
+          "18",
+          8
+        ],
+        [
+          "14",
+          8
+        ],
+        [
+          "40",
+          7
+        ],
+        [
+          "15",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Product Type",
+      "code_friendly_name_guess": "product_type",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Coal",
+          426
+        ],
+        [
+          "All Cargo",
+          86
+        ],
+        [
+          "Dry Bulk",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Terminal Type",
+      "code_friendly_name_guess": "terminal_type",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Exports",
+          234
+        ],
+        [
+          "Imports",
+          201
+        ],
+        [
+          "Domestic",
+          36
+        ],
+        [
+          "Exports, Imports",
+          22
+        ],
+        [
+          "Domestic, Imports",
+          10
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          "Exports, Domestic",
+          2
+        ],
+        [
+          "Domestic, Exports, Imports",
+          2
+        ],
+        [
+          "Domestic, Exports",
+          2
+        ],
+        [
+          "Imports, Domestic",
+          1
+        ],
+        [
+          "Exports, Imports, Domestic",
+          1
+        ],
+        [
+          "Exports, Imports, ",
+          1
+        ],
+        [
+          "Domestic, Imports ",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:7_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "-",
+          322
+        ],
+        [
+          "2025",
+          11
+        ],
+        [
+          "2021",
+          9
+        ],
+        [
+          "2017",
+          8
+        ],
+        [
+          "2015",
+          8
+        ],
+        [
+          "2020",
+          7
+        ],
+        [
+          "2007",
+          7
+        ],
+        [
+          "2027",
+          6
+        ],
+        [
+          "2023",
+          6
+        ],
+        [
+          "2014",
+          6
+        ],
+        [
+          "2008",
+          6
+        ],
+        [
+          "2006",
+          6
+        ],
+        [
+          "2024",
+          5
+        ],
+        [
+          "2019",
+          5
+        ],
+        [
+          "2018",
+          5
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2012",
+          5
+        ],
+        [
+          "2011",
+          5
+        ],
+        [
+          "1983",
+          5
+        ],
+        [
+          "2016",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "-",
+          507
+        ],
+        [
+          "2016",
+          4
+        ],
+        [
+          "2017",
+          2
+        ],
+        [
+          "2014",
+          2
+        ],
+        [
+          "2013",
+          2
+        ],
+        [
+          "2023",
+          1
+        ],
+        [
+          "2021",
+          1
+        ],
+        [
+          "2019",
+          1
+        ],
+        [
+          "2018",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 521,
+      "n_null": 235,
+      "n_non_null": 286,
+      "null_rate": 0.4511,
+      "n_unique": 212,
+      "top_values": [
+        [
+          "Paradip",
+          4
+        ],
+        [
+          "Muchka Bay",
+          4
+        ],
+        [
+          "Luannan",
+          4
+        ],
+        [
+          "Visakhapatnam",
+          3
+        ],
+        [
+          "Taicang",
+          3
+        ],
+        [
+          "Putian",
+          3
+        ],
+        [
+          "Plaquemine's Parish",
+          3
+        ],
+        [
+          "North Sea Port",
+          3
+        ],
+        [
+          "Newport News",
+          3
+        ],
+        [
+          "Krishnapatnam",
+          3
+        ],
+        [
+          "Jaigarh",
+          3
+        ],
+        [
+          "Gladstone",
+          3
+        ],
+        [
+          "Fangchenggang",
+          3
+        ],
+        [
+          "Ennore",
+          3
+        ],
+        [
+          "Dolvi",
+          3
+        ],
+        [
+          "Dhamra",
+          3
+        ],
+        [
+          "Ciénaga",
+          3
+        ],
+        [
+          "Buenaventura",
+          3
+        ],
+        [
+          "Beilun",
+          3
+        ],
+        [
+          "Yenisey Bay",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0035,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 521,
+      "n_null": 10,
+      "n_non_null": 511,
+      "null_rate": 0.0192,
+      "n_unique": 178,
+      "top_values": [
+        [
+          "East Kalimantan",
+          17
+        ],
+        [
+          "Gujarat",
+          16
+        ],
+        [
+          "Primorsky",
+          15
+        ],
+        [
+          "South Kalimantan",
+          14
+        ],
+        [
+          "Queensland",
+          14
+        ],
+        [
+          "Maharashtra",
+          12
+        ],
+        [
+          "Guangdong",
+          12
+        ],
+        [
+          "Jiangsu",
+          11
+        ],
+        [
+          "Sumatra",
+          10
+        ],
+        [
+          "Khabarovsk",
+          10
+        ],
+        [
+          "Zhejiang",
+          9
+        ],
+        [
+          "Hebei",
+          9
+        ],
+        [
+          "Tamil Nadu",
+          8
+        ],
+        [
+          "Andhra Pradesh",
+          8
+        ],
+        [
+          "Texas",
+          7
+        ],
+        [
+          "Shandong",
+          7
+        ],
+        [
+          "Odisha",
+          7
+        ],
+        [
+          "Leningrad",
+          7
+        ],
+        [
+          "Krasnodar",
+          6
+        ],
+        [
+          "Guangxi",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "China",
+          73
+        ],
+        [
+          "United States",
+          69
+        ],
+        [
+          "India",
+          61
+        ],
+        [
+          "Russia",
+          58
+        ],
+        [
+          "Indonesia",
+          57
+        ],
+        [
+          "Australia",
+          26
+        ],
+        [
+          "Colombia",
+          15
+        ],
+        [
+          "Germany",
+          14
+        ],
+        [
+          "South Korea",
+          13
+        ],
+        [
+          "Netherlands",
+          10
+        ],
+        [
+          "Japan",
+          8
+        ],
+        [
+          "Canada",
+          8
+        ],
+        [
+          "Ukraine",
+          7
+        ],
+        [
+          "South Africa",
+          7
+        ],
+        [
+          "Pakistan",
+          7
+        ],
+        [
+          "Mozambique",
+          7
+        ],
+        [
+          "Vietnam",
+          6
+        ],
+        [
+          "Latvia",
+          6
+        ],
+        [
+          "Bangladesh",
+          6
+        ],
+        [
+          "United Kingdom",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Eastern Asia",
+          104
+        ],
+        [
+          "Northern America",
+          77
+        ],
+        [
+          "Southern Asia",
+          74
+        ],
+        [
+          "Eastern Europe",
+          70
+        ],
+        [
+          "South-eastern Asia",
+          67
+        ],
+        [
+          "Australia and New Zealand",
+          31
+        ],
+        [
+          "Western Europe",
+          30
+        ],
+        [
+          "Latin America and the Caribbean",
+          27
+        ],
+        [
+          "Sub-Saharan Africa",
+          18
+        ],
+        [
+          "Northern Europe",
+          12
+        ],
+        [
+          "Northern Africa",
+          5
+        ],
+        [
+          "Southern Europe",
+          4
+        ],
+        [
+          "Western Asia",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          247
+        ],
+        [
+          "Europe",
+          116
+        ],
+        [
+          "Americas",
+          104
+        ],
+        [
+          "Oceania",
+          31
+        ],
+        [
+          "Africa",
+          23
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 435,
+      "top_values": [
+        [
+          "59.6866260517347",
+          4
+        ],
+        [
+          "38.9628793",
+          4
+        ],
+        [
+          "24.77263",
+          4
+        ],
+        [
+          "-28.81437502677",
+          4
+        ],
+        [
+          "45.1280414885685",
+          3
+        ],
+        [
+          "25.99755",
+          3
+        ],
+        [
+          "20.823283",
+          3
+        ],
+        [
+          "20.278703",
+          3
+        ],
+        [
+          "18.704952",
+          3
+        ],
+        [
+          "17.68333",
+          3
+        ],
+        [
+          "17.303945",
+          3
+        ],
+        [
+          "14.251926",
+          3
+        ],
+        [
+          "13.258618",
+          3
+        ],
+        [
+          "-25.959202",
+          3
+        ],
+        [
+          "9.961316",
+          2
+        ],
+        [
+          "9.58517",
+          2
+        ],
+        [
+          "8.75676531066479",
+          2
+        ],
+        [
+          "72.8487208560961",
+          2
+        ],
+        [
+          "67.526111",
+          2
+        ],
+        [
+          "63.0638891578792",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 436,
+      "top_values": [
+        [
+          "67.344432",
+          4
+        ],
+        [
+          "32.054393330413",
+          4
+        ],
+        [
+          "28.4215101509767",
+          4
+        ],
+        [
+          "118.4412003",
+          4
+        ],
+        [
+          "86.964602",
+          3
+        ],
+        [
+          "86.671786",
+          3
+        ],
+        [
+          "83.2833",
+          3
+        ],
+        [
+          "80.340732",
+          3
+        ],
+        [
+          "80.125759",
+          3
+        ],
+        [
+          "73.208429",
+          3
+        ],
+        [
+          "73.027153",
+          3
+        ],
+        [
+          "36.6852625815614",
+          3
+        ],
+        [
+          "32.502",
+          3
+        ],
+        [
+          "119.489172",
+          3
+        ],
+        [
+          "88.091404",
+          2
+        ],
+        [
+          "80.8482420690019",
+          2
+        ],
+        [
+          "80.3469393425913",
+          2
+        ],
+        [
+          "78.2120019418624",
+          2
+        ],
+        [
+          "76.265212",
+          2
+        ],
+        [
+          "72.908227",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          483
+        ],
+        [
+          "Approximate",
+          38
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Source",
+      "code_friendly_name_guess": "coal_source",
+      "n_total": 521,
+      "n_null": 275,
+      "n_non_null": 246,
+      "null_rate": 0.5278,
+      "n_unique": 144,
+      "top_values": [
+        [
+          "Indonesia",
+          20
+        ],
+        [
+          "Russia",
+          17
+        ],
+        [
+          "Australia",
+          9
+        ],
+        [
+          "South Africa",
+          5
+        ],
+        [
+          "Indonesia, Australia",
+          5
+        ],
+        [
+          "Illinois",
+          5
+        ],
+        [
+          "Colombia",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "Australia, Indonesia",
+          4
+        ],
+        [
+          "Shanxi, Shaanxi, and Inner Mongolia",
+          3
+        ],
+        [
+          "PTBA Coal Mines",
+          3
+        ],
+        [
+          "Colorado and Utah",
+          3
+        ],
+        [
+          "Cienaga, Colombia",
+          3
+        ],
+        [
+          "Botswana",
+          3
+        ],
+        [
+          "Australia, Indonesia, Mozambique",
+          3
+        ],
+        [
+          "mines in Mpumalanga, KwaZulu-Natal",
+          2
+        ],
+        [
+          "Yakutugol and Yuzhny Kuzbass, Elga coal field",
+          2
+        ],
+        [
+          "Tabang Coal Mines",
+          2
+        ],
+        [
+          "Syradasaysky coal mine",
+          2
+        ],
+        [
+          "Surat and southern Bowen Basins, Australia",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Terminal ID",
+      "code_friendly_name_guess": "gem_terminal_id",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 468,
+      "top_values": [
+        [
+          "T1171",
+          3
+        ],
+        [
+          "T1170",
+          3
+        ],
+        [
+          "T1059",
+          3
+        ],
+        [
+          "T1054",
+          3
+        ],
+        [
+          "T1053",
+          3
+        ],
+        [
+          "T1445",
+          2
+        ],
+        [
+          "T1399",
+          2
+        ],
+        [
+          "T1392",
+          2
+        ],
+        [
+          "T1336",
+          2
+        ],
+        [
+          "T1325",
+          2
+        ],
+        [
+          "T1301",
+          2
+        ],
+        [
+          "T1292",
+          2
+        ],
+        [
+          "T1291",
+          2
+        ],
+        [
+          "T1284",
+          2
+        ],
+        [
+          "T1283",
+          2
+        ],
+        [
+          "T1279",
+          2
+        ],
+        [
+          "T1273",
+          2
+        ],
+        [
+          "T1265",
+          2
+        ],
+        [
+          "T1254",
+          2
+        ],
+        [
+          "T1243",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Unit/Phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 521,
+      "n_null": 0,
+      "n_non_null": 521,
+      "null_rate": 0.0,
+      "n_unique": 521,
+      "top_values": [
+        [
+          "T11409",
+          1
+        ],
+        [
+          "T11408",
+          1
+        ],
+        [
+          "T11406",
+          1
+        ],
+        [
+          "T11405",
+          1
+        ],
+        [
+          "T11404",
+          1
+        ],
+        [
+          "T11403",
+          1
+        ],
+        [
+          "T11402",
+          1
+        ],
+        [
+          "T11401",
+          1
+        ],
+        [
+          "T11400",
+          1
+        ],
+        [
+          "T11399",
+          1
+        ],
+        [
+          "T11392",
+          1
+        ],
+        [
+          "T11380",
+          1
+        ],
+        [
+          "T11379",
+          1
+        ],
+        [
+          "T11378",
+          1
+        ],
+        [
+          "T11377",
+          1
+        ],
+        [
+          "T11376",
+          1
+        ],
+        [
+          "T11375",
+          1
+        ],
+        [
+          "T11374",
+          1
+        ],
+        [
+          "T11373",
+          1
+        ],
+        [
+          "T11372",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "_col23",
+      "code_friendly_name_guess": "col23",
+      "n_total": 521,
+      "n_null": 521,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,2663 @@
+{
+  "table_name": "global_wind_power_tracker_february_2026__below_threshold",
+  "tracker_slug": "global_wind_power_tracker_february_2026",
+  "tab_slug": "below_threshold",
+  "n_rows": 1841,
+  "analyzed_at": "2026-07-07T21:45:21.015022+00:00",
+  "tracker_info": {
+    "title": "Global Wind Power Tracker - February 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Wind Power Tracker, February 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Janna E. Smith, Project Manager, Global Wind Power tracker (GWPT), Global Energy Monitor - janna.smith@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 139,
+      "top_values": [
+        [
+          "2025/08/14",
+          739
+        ],
+        [
+          "2025/08/04",
+          244
+        ],
+        [
+          "2025/09/09",
+          168
+        ],
+        [
+          "2024/06/04",
+          63
+        ],
+        [
+          "2025/06/26",
+          51
+        ],
+        [
+          "2024/12/03",
+          51
+        ],
+        [
+          "2023/03/13",
+          50
+        ],
+        [
+          "2025/04/05",
+          49
+        ],
+        [
+          "2023/03/14",
+          44
+        ],
+        [
+          "2024/09/03",
+          24
+        ],
+        [
+          "2024/08/28",
+          23
+        ],
+        [
+          "2024/09/11",
+          21
+        ],
+        [
+          "2022/09/06",
+          19
+        ],
+        [
+          "2025/11/21",
+          16
+        ],
+        [
+          "2024/09/13",
+          14
+        ],
+        [
+          "2025/04/04",
+          10
+        ],
+        [
+          "2024/04/15",
+          9
+        ],
+        [
+          "2025/12/17",
+          8
+        ],
+        [
+          "2025/11/20",
+          8
+        ],
+        [
+          "2025/10/21",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that this project was last researched by the researcher",
+      "notes_from_readme": "Units: yyyy/mm/dd."
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "United Kingdom",
+          815
+        ],
+        [
+          "United States",
+          398
+        ],
+        [
+          "Greece",
+          204
+        ],
+        [
+          "Portugal",
+          163
+        ],
+        [
+          "Brazil",
+          58
+        ],
+        [
+          "France",
+          46
+        ],
+        [
+          "Türkiye",
+          37
+        ],
+        [
+          "China",
+          23
+        ],
+        [
+          "Australia",
+          13
+        ],
+        [
+          "Taiwan",
+          9
+        ],
+        [
+          "Colombia",
+          9
+        ],
+        [
+          "Germany",
+          8
+        ],
+        [
+          "Spain",
+          7
+        ],
+        [
+          "New Caledonia",
+          6
+        ],
+        [
+          "Cabo Verde",
+          5
+        ],
+        [
+          "Sweden",
+          3
+        ],
+        [
+          "Namibia",
+          3
+        ],
+        [
+          "Dominican Republic",
+          3
+        ],
+        [
+          "Cuba",
+          3
+        ],
+        [
+          "Chile",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country/Area the project is located in (Unabbreviated)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1605,
+      "top_values": [
+        [
+          "Alto Douro wind farm",
+          10
+        ],
+        [
+          "Raia wind farm",
+          7
+        ],
+        [
+          "Rives Charentaises wind farm",
+          6
+        ],
+        [
+          "Col De Prony wind farm",
+          5
+        ],
+        [
+          "Cody Road wind farm",
+          5
+        ],
+        [
+          "Arada-Montemuro wind farm",
+          5
+        ],
+        [
+          "Huerfano River Wind wind farm",
+          4
+        ],
+        [
+          "Gordon Butte Wind",
+          4
+        ],
+        [
+          "GE - Tehachapi wind farm",
+          4
+        ],
+        [
+          "Fairmont Wind wind farm",
+          4
+        ],
+        [
+          "Easter Drumclair Wood wind farm",
+          4
+        ],
+        [
+          "Coelhos wind farm",
+          4
+        ],
+        [
+          "Cabeço Da Rainha wind farm",
+          4
+        ],
+        [
+          "Bowling Green Wind wind farm",
+          4
+        ],
+        [
+          "Zephyr Wind wind farm",
+          3
+        ],
+        [
+          "Zephyr Wind Project - 2.0 wind farm",
+          3
+        ],
+        [
+          "Xirolimni wind farm",
+          3
+        ],
+        [
+          "Whirlpool Corporation - Marion wind farm",
+          3
+        ],
+        [
+          "Whirlpool Corp-Greenville wind farm",
+          3
+        ],
+        [
+          "WED Coventry 6 wind farm",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Commonly used name",
+      "notes_from_readme": "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken."
+    },
+    {
+      "field_name": "Phase Name",
+      "code_friendly_name_guess": "phase_name",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 287,
+      "top_values": [
+        [
+          "--",
+          1015
+        ],
+        [
+          "1.0",
+          229
+        ],
+        [
+          "2.0",
+          148
+        ],
+        [
+          "3.0",
+          32
+        ],
+        [
+          "WTG1",
+          23
+        ],
+        [
+          "WT1",
+          16
+        ],
+        [
+          "Expansion",
+          16
+        ],
+        [
+          "RP1",
+          9
+        ],
+        [
+          "GEN1",
+          8
+        ],
+        [
+          "4.0",
+          8
+        ],
+        [
+          "WTG2",
+          7
+        ],
+        [
+          "EXIS",
+          7
+        ],
+        [
+          "extension",
+          4
+        ],
+        [
+          "WTG3",
+          4
+        ],
+        [
+          "WIND1",
+          4
+        ],
+        [
+          "WGNS",
+          4
+        ],
+        [
+          "W1",
+          4
+        ],
+        [
+          "T-1",
+          4
+        ],
+        [
+          "2b",
+          4
+        ],
+        [
+          "I",
+          3
+        ]
+      ],
+      "portion_numeric": 0.212,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Common name of the project phase",
+      "notes_from_readme": "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used."
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 1841,
+      "n_null": 1511,
+      "n_non_null": 330,
+      "null_rate": 0.8207,
+      "n_unique": 304,
+      "top_values": [
+        [
+          "Προφητης Ηλιας",
+          4
+        ],
+        [
+          "Ξηρολιμνη",
+          4
+        ],
+        [
+          "Μεγαλο Βουνο",
+          4
+        ],
+        [
+          "Parque Eólico Coelhos",
+          4
+        ],
+        [
+          "竹南二期風力發電廠, 竹南風力發電廠",
+          2
+        ],
+        [
+          "京能查干淖尔风电制氢一体化项目",
+          2
+        ],
+        [
+          "Σωρος",
+          2
+        ],
+        [
+          "Σκαμνιουδα - Υψωμα Μαδερα, Σκαμνιουδα - Υψωμα Παχυς",
+          2
+        ],
+        [
+          "Πυργουλοψη Λιαζαρι",
+          2
+        ],
+        [
+          "Μεγαλο Βουνo",
+          2
+        ],
+        [
+          "Λογγας",
+          2
+        ],
+        [
+          "Κλοκοβα",
+          2
+        ],
+        [
+          "Βιγλι",
+          2
+        ],
+        [
+          "Parque Eólico Verace",
+          2
+        ],
+        [
+          "Parque Eólico Los Cocos",
+          2
+        ],
+        [
+          "Parque Eólico Gibara",
+          2
+        ],
+        [
+          "Parque Eólico Céfiro",
+          2
+        ],
+        [
+          "Parque Eólico Aura Mirim",
+          2
+        ],
+        [
+          "铁岭煜盛昌图县前双井镇5MW分散式风力发电项目",
+          1
+        ],
+        [
+          "铁岭恒枫清河区5MW分散式风电项目",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Commonly used name in the locally used script",
+      "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible."
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 1841,
+      "n_null": 1528,
+      "n_non_null": 313,
+      "null_rate": 0.83,
+      "n_unique": 228,
+      "top_values": [
+        [
+          "Chavaes (Phase Serra de Chavães), Parque Eólico Alto Douro",
+          10
+        ],
+        [
+          "Parque Eólico Raia",
+          7
+        ],
+        [
+          "Lizant (Phase 1), Le Bouchage (Phase 6), Surin (Phase 3), Taizé-Aizie (Phase 4), Genouillé (Phase 2), Nanteuil-en-Vallée (Phase 5)",
+          6
+        ],
+        [
+          "Parque Eólico de Arada-Montemuro (Phases Arada, Carvalhosa, Picão), A-M wind farm (Phases Arada, Carvalhosa, Picão)",
+          5
+        ],
+        [
+          "Parque Eóilco Cabeço da Rainha",
+          4
+        ],
+        [
+          "Parque Eólico Beira Interior",
+          3
+        ],
+        [
+          "Oak Creek Energy Systems I",
+          3
+        ],
+        [
+          "Forss Wind Farm (Extension) (Phase 2)",
+          3
+        ],
+        [
+          "Corkey Wind Farm Extension (Phases 2, 3)",
+          3
+        ],
+        [
+          "Torrance Farm Wind Park Extension (Phase 2)",
+          2
+        ],
+        [
+          "Thornog wind farm",
+          2
+        ],
+        [
+          "Strath of Brydock - Extension (Phase 2)",
+          2
+        ],
+        [
+          "Skelmonae Wind Farm Extension (Phase 2)",
+          2
+        ],
+        [
+          "Ranson Moor (phase 1) (Phase 1)",
+          2
+        ],
+        [
+          "Quincy",
+          2
+        ],
+        [
+          "Parque Eólico da Serra do Barroso (Phase 1), Parque Eólico da Serra do Barroso 3 (Phase 3), Parque Eólico da Serra do Barroso 2 (Phases 2, 2.2, 3.2)",
+          2
+        ],
+        [
+          "Parque Eólico Serra do Mú, Almodôvar wind farm",
+          2
+        ],
+        [
+          "Parque Eólico Pena Suar",
+          2
+        ],
+        [
+          "Parque Eólico Mosqueiros (Phase 2)",
+          2
+        ],
+        [
+          "Parque Eólico Lourinhã",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternative names, including the name in local script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 85,
+      "top_values": [
+        [
+          "1.5",
+          143
+        ],
+        [
+          "2.0",
+          113
+        ],
+        [
+          "6.0",
+          92
+        ],
+        [
+          "4.0",
+          77
+        ],
+        [
+          "3.0",
+          75
+        ],
+        [
+          "9.0",
+          74
+        ],
+        [
+          "8.0",
+          66
+        ],
+        [
+          "5.0",
+          65
+        ],
+        [
+          "1.0",
+          63
+        ],
+        [
+          "2.3",
+          54
+        ],
+        [
+          "2.4",
+          52
+        ],
+        [
+          "1.8",
+          51
+        ],
+        [
+          "1.6",
+          46
+        ],
+        [
+          "2.5",
+          44
+        ],
+        [
+          "4.6",
+          43
+        ],
+        [
+          "6.9",
+          41
+        ],
+        [
+          "7.5",
+          39
+        ],
+        [
+          "1.7",
+          32
+        ],
+        [
+          "9.2",
+          31
+        ],
+        [
+          "2.7",
+          28
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Nameplate capacity, or best available data, of the phase in megawatts",
+      "notes_from_readme": "Units: MW. Cut-offs: >=10MW globally"
+    },
+    {
+      "field_name": "Installation Type",
+      "code_friendly_name_guess": "installation_type",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Onshore",
+          1833
+        ],
+        [
+          "Offshore mount unknown",
+          4
+        ],
+        [
+          "Offshore floating",
+          3
+        ],
+        [
+          "Offshore hard mount",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "definition_from_readme": "How the wind turbines are installed",
+      "notes_from_readme": "Units: onshore, offshore hard mount, offshore floating, offshore mount unknown. Hard mount vs floating is dependant on the depth of the water."
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          1276
+        ],
+        [
+          "cancelled",
+          182
+        ],
+        [
+          "pre-construction",
+          177
+        ],
+        [
+          "shelved",
+          93
+        ],
+        [
+          "retired",
+          61
+        ],
+        [
+          "construction",
+          30
+        ],
+        [
+          "shelved - inferred 2 y",
+          9
+        ],
+        [
+          "announced",
+          9
+        ],
+        [
+          "mothballed",
+          3
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "see rows 19-26 above",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved"
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase II” at a location where “Phase I” is currently under pre-construction, (2) Projects that are described in long-range company or governmental planning documents."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of operation has been announced. The status is marked as ‘shelved - inferred 2 y’ if no progress has been observed for at least two years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled"
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made. The status is marked as 'cancelled - inferred 4 y’ if no progress has been observed for at least four years."
+        }
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 1841,
+      "n_null": 539,
+      "n_non_null": 1302,
+      "null_rate": 0.2928,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "2017.0",
+          84
+        ],
+        [
+          "2013.0",
+          80
+        ],
+        [
+          "2012.0",
+          80
+        ],
+        [
+          "2014.0",
+          77
+        ],
+        [
+          "2011.0",
+          76
+        ],
+        [
+          "2009.0",
+          70
+        ],
+        [
+          "2015.0",
+          67
+        ],
+        [
+          "2016.0",
+          59
+        ],
+        [
+          "2010.0",
+          57
+        ],
+        [
+          "2018.0",
+          54
+        ],
+        [
+          "2004.0",
+          47
+        ],
+        [
+          "2019.0",
+          44
+        ],
+        [
+          "2003.0",
+          44
+        ],
+        [
+          "2006.0",
+          41
+        ],
+        [
+          "2001.0",
+          38
+        ],
+        [
+          "2008.0",
+          37
+        ],
+        [
+          "2007.0",
+          37
+        ],
+        [
+          "2021.0",
+          34
+        ],
+        [
+          "2023.0",
+          32
+        ],
+        [
+          "2020.0",
+          30
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the project is or is expected to be commissioned",
+      "notes_from_readme": "Units: yyyy. Latest date was taken when original data source provided a range; Start years not included for projects that are cancelled or shelved."
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 1841,
+      "n_null": 1791,
+      "n_non_null": 50,
+      "null_rate": 0.9728,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "2020.0",
+          9
+        ],
+        [
+          "2019.0",
+          8
+        ],
+        [
+          "2015.0",
+          5
+        ],
+        [
+          "2023.0",
+          4
+        ],
+        [
+          "2022.0",
+          3
+        ],
+        [
+          "2013.0",
+          3
+        ],
+        [
+          "2021.0",
+          2
+        ],
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2016.0",
+          2
+        ],
+        [
+          "2005.0",
+          2
+        ],
+        [
+          "2035.0",
+          1
+        ],
+        [
+          "2025.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2014.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ],
+        [
+          "2003.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the plant is taken offline",
+      "notes_from_readme": "Units: yyyy."
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 1841,
+      "n_null": 1578,
+      "n_non_null": 263,
+      "null_rate": 0.8571,
+      "n_unique": 164,
+      "top_values": [
+        [
+          "Renewable Energy Systems (RES)",
+          11
+        ],
+        [
+          "Eólica do Alto Douro",
+          10
+        ],
+        [
+          "EDP Renováveis Portugal",
+          10
+        ],
+        [
+          "Green Cat Renewables",
+          8
+        ],
+        [
+          "Finerge",
+          7
+        ],
+        [
+          "Voltalia",
+          6
+        ],
+        [
+          "Alizés Energie",
+          6
+        ],
+        [
+          "Ventient Energy",
+          5
+        ],
+        [
+          "RWE",
+          5
+        ],
+        [
+          "REG Windpower",
+          4
+        ],
+        [
+          "Cabeólica",
+          4
+        ],
+        [
+          "Airvolution Energy",
+          4
+        ],
+        [
+          "Scottish and Southern Energy (SSE)",
+          3
+        ],
+        [
+          "Huaneng Morin Dawa New Energy",
+          3
+        ],
+        [
+          "Colgeólica",
+          3
+        ],
+        [
+          "Broadview Energy LTD (BVE)",
+          3
+        ],
+        [
+          "Boralex",
+          3
+        ],
+        [
+          "BlairFox",
+          3
+        ],
+        [
+          "Volkswind",
+          2
+        ],
+        [
+          "Shanyin Fengguang Infinite New Energy Co.",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that operates the project",
+      "notes_from_readme": "Company that performs day-to-day operations and maintenance of the project."
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 1841,
+      "n_null": 1819,
+      "n_non_null": 22,
+      "null_rate": 0.988,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "华能莫力达瓦新能源有限公司",
+          3
+        ],
+        [
+          "苗栗風力股份有限公司",
+          2
+        ],
+        [
+          "山阴风光无限新能源有限责任公司",
+          2
+        ],
+        [
+          "京能锡林郭勒能源有限公司",
+          2
+        ],
+        [
+          "達德能源股份有限公司",
+          1
+        ],
+        [
+          "通威風力發電股份有限公司",
+          1
+        ],
+        [
+          "立為風力發電股份有限公司",
+          1
+        ],
+        [
+          "崎威風力發電股份有限公司",
+          1
+        ],
+        [
+          "岢岚风脉拓风能源有限公司",
+          1
+        ],
+        [
+          "岢岚县能裕新能源有限公司",
+          1
+        ],
+        [
+          "天威（大安）新能源有限公司",
+          1
+        ],
+        [
+          "台灣電力公司",
+          1
+        ],
+        [
+          "中电建电力投资集团有限公司",
+          1
+        ],
+        [
+          "中国石化集团江苏石油勘探局有限公司",
+          1
+        ],
+        [
+          "三峡巴州若羌能源有限公司",
+          1
+        ],
+        [
+          "Empresa Nacional de Electricidad (ENDE)",
+          1
+        ],
+        [
+          "Elektrik Üretim AŞ",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name that operates the project in the locally used script",
+      "notes_from_readme": "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script is included if possible."
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 1841,
+      "n_null": 1391,
+      "n_non_null": 450,
+      "null_rate": 0.7556,
+      "n_unique": 210,
+      "top_values": [
+        [
+          "Finerge SA",
+          27
+        ],
+        [
+          "Public Power Corporation SA [100%]",
+          22
+        ],
+        [
+          "Finerge SA [100%]",
+          18
+        ],
+        [
+          "EDP Renováveis [100%]",
+          17
+        ],
+        [
+          "Nadara Ltd",
+          13
+        ],
+        [
+          "Acciona Energía SAU",
+          13
+        ],
+        [
+          "EDP Renováveis Portugal SA",
+          12
+        ],
+        [
+          "Vale dos Ventos Geradora Eólica SA [100%]",
+          10
+        ],
+        [
+          "Enel Green Power Greece SA [100%]",
+          8
+        ],
+        [
+          "EDP Renováveis",
+          7
+        ],
+        [
+          "Voltalia SA [100%]",
+          6
+        ],
+        [
+          "Ventient Energy [100%]",
+          6
+        ],
+        [
+          "Trustenergy SA",
+          6
+        ],
+        [
+          "Terna Energy [100%]",
+          6
+        ],
+        [
+          "Rokas Aeoliki North Hellas II Ave [100%]",
+          5
+        ],
+        [
+          "Generg",
+          5
+        ],
+        [
+          "EDF Renewables [100%]",
+          5
+        ],
+        [
+          "Cavalum",
+          5
+        ],
+        [
+          "RWE AG [100%]",
+          4
+        ],
+        [
+          "Gordon Butte Wind LLC",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that directly owns the plant",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 1841,
+      "n_null": 1749,
+      "n_non_null": 92,
+      "null_rate": 0.95,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "ΔΗΜΟΣΙΑ ΕΠΙΧΕΙΡΗΣΗ ΗΛΕΚΤΡΙΣΜΟΥ ΑΕ",
+          22
+        ],
+        [
+          "Enel Green Power Hellas A.E.",
+          8
+        ],
+        [
+          "Τερνα Ενεργειακη Ανωνυμη Βιομηχανικη Εμπορικη Τεχνικη Εταιρεια Α Ε",
+          6
+        ],
+        [
+          "法國電力再生能源公司",
+          5
+        ],
+        [
+          "Ροκας Αιολικη Βορειος Ελλας Ιι Αβεε",
+          5
+        ],
+        [
+          "達德能源股份有限公司",
+          3
+        ],
+        [
+          "华能内蒙古东部能源有限公司",
+          3
+        ],
+        [
+          "Wre Ελλας Α.Ε.",
+          3
+        ],
+        [
+          "英華威風力發電集團",
+          2
+        ],
+        [
+          "台汽電綠能股份有限公司",
+          2
+        ],
+        [
+          "冀中能源峰峰集团有限公司; 北京能源集团有限责任公司",
+          2
+        ],
+        [
+          "Αιολικη Ζαρακα Ραχη Γκιωνη ΑΕ",
+          2
+        ],
+        [
+          "Αιολικη Αδερες Α.Ε.",
+          2
+        ],
+        [
+          "Vatora Ενεργεια Α.Ε.",
+          2
+        ],
+        [
+          "AIMS ΗΕΑΤ ΕΝΕΡΓΕΙΑΚΗ ΚΟΙΝΟΤΗΤΑ",
+          2
+        ],
+        [
+          "電源開発株式会社; 関西電力株式会社",
+          1
+        ],
+        [
+          "河北吉卓新能源科技有限责任公司; 国电投清能一号股权投资基金（天津）合伙企业（有限合伙）",
+          1
+        ],
+        [
+          "国电投宁夏盐池县能源科技有限公司",
+          1
+        ],
+        [
+          "台灣電力公司",
+          1
+        ],
+        [
+          "内蒙古京科发电有限公司",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company name that directly owns the project in the locally used script",
+      "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible."
+    },
+    {
+      "field_name": "Hydrogen",
+      "code_friendly_name_guess": "hydrogen",
+      "n_total": 1841,
+      "n_null": 1836,
+      "n_non_null": 5,
+      "null_rate": 0.9973,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "True if a project phase is dedicated for green hydrogen production",
+      "notes_from_readme": "Units: True, blank."
+    },
+    {
+      "field_name": "Associated Storage",
+      "code_friendly_name_guess": "associated_storage",
+      "n_total": 1841,
+      "n_null": 1837,
+      "n_non_null": 4,
+      "null_rate": 0.9978,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "True if storage is associated with a project phase",
+      "notes_from_readme": "Units: True, blank."
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1634,
+      "top_values": [
+        [
+          "41.0696",
+          10
+        ],
+        [
+          "40.4192",
+          7
+        ],
+        [
+          "42.9671",
+          5
+        ],
+        [
+          "40.9654",
+          5
+        ],
+        [
+          "58.6024",
+          4
+        ],
+        [
+          "58.4024",
+          4
+        ],
+        [
+          "55.9242",
+          4
+        ],
+        [
+          "46.4119",
+          4
+        ],
+        [
+          "43.575",
+          4
+        ],
+        [
+          "41.3786",
+          4
+        ],
+        [
+          "37.7722",
+          4
+        ],
+        [
+          "35.1553",
+          4
+        ],
+        [
+          "50.4154",
+          3
+        ],
+        [
+          "43.9811",
+          3
+        ],
+        [
+          "43.6514",
+          3
+        ],
+        [
+          "43.4",
+          3
+        ],
+        [
+          "41.8353",
+          3
+        ],
+        [
+          "41.677",
+          3
+        ],
+        [
+          "41.6725",
+          3
+        ],
+        [
+          "41.6697",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Latitude, assumed WGS84 (google maps), of the project phase",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1638,
+      "top_values": [
+        [
+          "-7.5769",
+          10
+        ],
+        [
+          "-7.2627",
+          7
+        ],
+        [
+          "-8.0294",
+          5
+        ],
+        [
+          "-75.7559",
+          5
+        ],
+        [
+          "-94.4467",
+          4
+        ],
+        [
+          "-83.7383",
+          4
+        ],
+        [
+          "-3.812",
+          4
+        ],
+        [
+          "-3.4169",
+          4
+        ],
+        [
+          "-118.3694",
+          4
+        ],
+        [
+          "-118.3417",
+          4
+        ],
+        [
+          "-110.3378",
+          4
+        ],
+        [
+          "-104.8322",
+          4
+        ],
+        [
+          "2.5504",
+          3
+        ],
+        [
+          "166.7644",
+          3
+        ],
+        [
+          "-97.6427",
+          3
+        ],
+        [
+          "-97.391",
+          3
+        ],
+        [
+          "-96.4269",
+          3
+        ],
+        [
+          "-95.6333",
+          3
+        ],
+        [
+          "-84.6126",
+          3
+        ],
+        [
+          "-84.6099",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Longitude, assumed WGS84 (google maps), of the project phase",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          1741
+        ],
+        [
+          "approximate",
+          100
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Location is Approximate based on using nearest city or other information in data sources, or Location is Exact when explicitly provided in data source",
+      "notes_from_readme": "Units: approximate, exact."
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 1841,
+      "n_null": 1631,
+      "n_non_null": 210,
+      "null_rate": 0.8859,
+      "n_unique": 147,
+      "top_values": [
+        [
+          "Dimotiki Enotita Dervenochorion",
+          12
+        ],
+        [
+          "Mataraca ",
+          11
+        ],
+        [
+          "Distomo Municipal Unit",
+          8
+        ],
+        [
+          "Santa Vitória do Palmar ",
+          5
+        ],
+        [
+          "Água Doce ",
+          4
+        ],
+        [
+          "Pindaí ",
+          3
+        ],
+        [
+          "Maicao",
+          3
+        ],
+        [
+          "London",
+          3
+        ],
+        [
+          "Hermin",
+          3
+        ],
+        [
+          "Hatay",
+          3
+        ],
+        [
+          "Gravatá ",
+          3
+        ],
+        [
+          "Caetité ",
+          3
+        ],
+        [
+          "Zhunan Town",
+          2
+        ],
+        [
+          "Xianxi Town",
+          2
+        ],
+        [
+          "Tubarão ",
+          2
+        ],
+        [
+          "Teillay",
+          2
+        ],
+        [
+          "Sitionuevo",
+          2
+        ],
+        [
+          "Santana do Livramento ",
+          2
+        ],
+        [
+          "Quincy-le-Vicomte",
+          2
+        ],
+        [
+          "Palmares do Sul ",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, village, or township (China) where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 1841,
+      "n_null": 236,
+      "n_non_null": 1605,
+      "null_rate": 0.1282,
+      "n_unique": 396,
+      "top_values": [
+        [
+          "Grampian",
+          86
+        ],
+        [
+          "Strathclyde",
+          53
+        ],
+        [
+          "Cumbria",
+          39
+        ],
+        [
+          "Highland",
+          33
+        ],
+        [
+          "Co. Tyrone",
+          27
+        ],
+        [
+          "Regional Unit of Boeotia",
+          25
+        ],
+        [
+          "Cornwall",
+          25
+        ],
+        [
+          "Lisboa",
+          24
+        ],
+        [
+          "County Durham",
+          24
+        ],
+        [
+          "Humberside",
+          22
+        ],
+        [
+          "Viseu",
+          21
+        ],
+        [
+          "Pipestone County",
+          21
+        ],
+        [
+          "Aberdeenshire",
+          20
+        ],
+        [
+          "Orkney Islands",
+          19
+        ],
+        [
+          "Lancashire",
+          19
+        ],
+        [
+          "Kern County",
+          19
+        ],
+        [
+          "Karystos Municipality",
+          19
+        ],
+        [
+          "Co. Antrim",
+          18
+        ],
+        [
+          "Tayside",
+          17
+        ],
+        [
+          "Cambridgeshire",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 1841,
+      "n_null": 626,
+      "n_non_null": 1215,
+      "null_rate": 0.34,
+      "n_unique": 126,
+      "top_values": [
+        [
+          "Scotland",
+          325
+        ],
+        [
+          "Wales",
+          75
+        ],
+        [
+          "North West",
+          64
+        ],
+        [
+          "South West",
+          59
+        ],
+        [
+          "Northern Ireland",
+          58
+        ],
+        [
+          "Eastern",
+          53
+        ],
+        [
+          "Yorkshire and Humber",
+          52
+        ],
+        [
+          "North East",
+          45
+        ],
+        [
+          "East Midlands",
+          43
+        ],
+        [
+          "Central Greece",
+          30
+        ],
+        [
+          "Euboea Regional Unit",
+          29
+        ],
+        [
+          "Regional Unit of Boeotia",
+          25
+        ],
+        [
+          "Lisbon",
+          24
+        ],
+        [
+          "Viseu",
+          21
+        ],
+        [
+          "Lasithi Regional Unit",
+          17
+        ],
+        [
+          "West Midlands",
+          15
+        ],
+        [
+          "South East",
+          15
+        ],
+        [
+          "Região Geográfica Intermediária de João Pessoa",
+          11
+        ],
+        [
+          "Região Geográfica Intermediária de Guanambi",
+          10
+        ],
+        [
+          "Guarda",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 1841,
+      "n_null": 259,
+      "n_non_null": 1582,
+      "null_rate": 0.1407,
+      "n_unique": 118,
+      "top_values": [
+        [
+          "England",
+          353
+        ],
+        [
+          "Scotland",
+          327
+        ],
+        [
+          "Minnesota",
+          88
+        ],
+        [
+          "Wales",
+          75
+        ],
+        [
+          "Central Greece",
+          60
+        ],
+        [
+          "Northern Ireland",
+          59
+        ],
+        [
+          "California",
+          57
+        ],
+        [
+          "Iowa",
+          46
+        ],
+        [
+          "Region of Crete",
+          35
+        ],
+        [
+          "Ohio",
+          34
+        ],
+        [
+          "Thessaly and Central Greece",
+          30
+        ],
+        [
+          "Massachusetts",
+          24
+        ],
+        [
+          "Rhode Island",
+          23
+        ],
+        [
+          "South Aegean",
+          17
+        ],
+        [
+          "Texas",
+          16
+        ],
+        [
+          "Nebraska",
+          16
+        ],
+        [
+          "Oregon",
+          13
+        ],
+        [
+          "Peloponnese Region",
+          12
+        ],
+        [
+          "Northern Aegean",
+          12
+        ],
+        [
+          "Bahia",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "Northern Europe",
+          819
+        ],
+        [
+          "Northern America",
+          398
+        ],
+        [
+          "Southern Europe",
+          374
+        ],
+        [
+          "Latin America and the Caribbean",
+          85
+        ],
+        [
+          "Western Europe",
+          55
+        ],
+        [
+          "Western Asia",
+          37
+        ],
+        [
+          "Eastern Asia",
+          32
+        ],
+        [
+          "Australia and New Zealand",
+          15
+        ],
+        [
+          "Sub-Saharan Africa",
+          13
+        ],
+        [
+          "Melanesia",
+          7
+        ],
+        [
+          "Eastern Europe",
+          2
+        ],
+        [
+          "Central Asia",
+          2
+        ],
+        [
+          "South-eastern Asia",
+          1
+        ],
+        [
+          "Polynesia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:7_values_below_1pct"
+      ],
+      "definition_from_readme": "Subregion location based on United Nations definition",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Europe",
+          1250
+        ],
+        [
+          "Americas",
+          483
+        ],
+        [
+          "Asia",
+          72
+        ],
+        [
+          "Oceania",
+          23
+        ],
+        [
+          "Africa",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Region location based on United Nations definition",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1605,
+      "top_values": [
+        [
+          "L100000907707",
+          10
+        ],
+        [
+          "L100000909983",
+          7
+        ],
+        [
+          "L100000919922",
+          6
+        ],
+        [
+          "L100001017914",
+          5
+        ],
+        [
+          "L100000912015",
+          5
+        ],
+        [
+          "L100000906244",
+          5
+        ],
+        [
+          "L100001017936",
+          4
+        ],
+        [
+          "L100001017795",
+          4
+        ],
+        [
+          "L100001017759",
+          4
+        ],
+        [
+          "L100001017710",
+          4
+        ],
+        [
+          "L100001017698",
+          4
+        ],
+        [
+          "L100000921006",
+          4
+        ],
+        [
+          "L100000916435",
+          4
+        ],
+        [
+          "L100000908273",
+          4
+        ],
+        [
+          "L100001025821",
+          3
+        ],
+        [
+          "L100001017937",
+          3
+        ],
+        [
+          "L100001017932",
+          3
+        ],
+        [
+          "L100001017898",
+          3
+        ],
+        [
+          "L100001017880",
+          3
+        ],
+        [
+          "L100001017878",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1841,
+      "top_values": [
+        [
+          "G100001092183",
+          1
+        ],
+        [
+          "G100001091049",
+          1
+        ],
+        [
+          "G100001091021",
+          1
+        ],
+        [
+          "G100001089998",
+          1
+        ],
+        [
+          "G100001089981",
+          1
+        ],
+        [
+          "G100001071168",
+          1
+        ],
+        [
+          "G100001070697",
+          1
+        ],
+        [
+          "G100001070688",
+          1
+        ],
+        [
+          "G100001070630",
+          1
+        ],
+        [
+          "G100001070629",
+          1
+        ],
+        [
+          "G100001070628",
+          1
+        ],
+        [
+          "G100001070627",
+          1
+        ],
+        [
+          "G100001070626",
+          1
+        ],
+        [
+          "G100001070623",
+          1
+        ],
+        [
+          "G100001070622",
+          1
+        ],
+        [
+          "G100001070613",
+          1
+        ],
+        [
+          "G100001070259",
+          1
+        ],
+        [
+          "G100001070258",
+          1
+        ],
+        [
+          "G100001070257",
+          1
+        ],
+        [
+          "G100001070256",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 1841,
+      "n_null": 1308,
+      "n_non_null": 533,
+      "null_rate": 0.7105,
+      "n_unique": 411,
+      "top_values": [
+        [
+          "World Resources Institute: WRI1023275",
+          10
+        ],
+        [
+          "World Resources Institute: WRI1023430",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1023281",
+          5
+        ],
+        [
+          "EIA: 61592",
+          5
+        ],
+        [
+          "World Resources Institute: WRI1023308,World Resources Institute: WRI1023309",
+          4
+        ],
+        [
+          "EIA: 58548",
+          4
+        ],
+        [
+          "EIA: 57748",
+          4
+        ],
+        [
+          "EIA: 57566",
+          4
+        ],
+        [
+          "EIA: 56415",
+          4
+        ],
+        [
+          "EIA: 56226",
+          4
+        ],
+        [
+          "World Resources Institute: WRI1023294",
+          3
+        ],
+        [
+          "EIA: 692",
+          3
+        ],
+        [
+          "EIA: 66261",
+          3
+        ],
+        [
+          "EIA: 62752",
+          3
+        ],
+        [
+          "EIA: 62653",
+          3
+        ],
+        [
+          "EIA: 62642",
+          3
+        ],
+        [
+          "EIA: 61677",
+          3
+        ],
+        [
+          "EIA: 61668",
+          3
+        ],
+        [
+          "EIA: 61660",
+          3
+        ],
+        [
+          "EIA: 61005",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location identifier from external dataset",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 1841,
+      "n_null": 753,
+      "n_non_null": 1088,
+      "null_rate": 0.409,
+      "n_unique": 1080,
+      "top_values": [
+        [
+          "REPD: 8134",
+          2
+        ],
+        [
+          "REPD: 6725",
+          2
+        ],
+        [
+          "REPD: 5459",
+          2
+        ],
+        [
+          "REPD: 4145",
+          2
+        ],
+        [
+          "REPD: 4116",
+          2
+        ],
+        [
+          "REPD: 3645",
+          2
+        ],
+        [
+          "REPD: 3639",
+          2
+        ],
+        [
+          "REPD: 15662",
+          2
+        ],
+        [
+          "SIEL ID: 3541",
+          1
+        ],
+        [
+          "SIEL ID: 3540",
+          1
+        ],
+        [
+          "SIEL ID: 1697",
+          1
+        ],
+        [
+          "SIEL ID: 1668",
+          1
+        ],
+        [
+          "SIEL ID: 1667",
+          1
+        ],
+        [
+          "SIEL ID: 1574",
+          1
+        ],
+        [
+          "SIEL ID: 1469",
+          1
+        ],
+        [
+          "SIEL ID: 1007",
+          1
+        ],
+        [
+          "REPD: 9864",
+          1
+        ],
+        [
+          "REPD: 9725",
+          1
+        ],
+        [
+          "REPD: 9685",
+          1
+        ],
+        [
+          "REPD: 9499",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unit or Phase identifier from external dataset",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 1841,
+      "n_null": 0,
+      "n_non_null": 1841,
+      "null_rate": 0.0,
+      "n_unique": 1605,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Alto_Douro_wind_farm",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Raia_wind_farm",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Rives_Charentaises_wind_farm",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Col_De_Prony_wind_farm",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Cody_Road_wind_farm",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Arada-Montemuro_wind_farm",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Huerfano_River_Wind_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Gordon_Butte_Wind",
+          4
+        ],
+        [
+          "https://www.gem.wiki/GE_-_Tehachapi_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Fairmont_Wind_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Easter_Drumclair_Wood_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Coelhos_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Cabeço_Da_Rainha_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Bowling_Green_Wind_wind_farm",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Zephyr_Wind_wind_farm",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Zephyr_Wind_Project_-_2.0_wind_farm",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Xirolimni_wind_farm",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Whirlpool_Corporation_-_Marion_wind_farm",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Whirlpool_Corp-Greenville_wind_farm",
+          3
+        ],
+        [
+          "https://www.gem.wiki/WED_Coventry_6_wind_farm",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL of existing or planned GEM.wiki page",
+      "notes_from_readme": null
+    }
+  ]
+}

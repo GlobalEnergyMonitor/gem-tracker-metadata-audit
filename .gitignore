@@ -1,0 +1,23 @@
+# Source spreadsheets (large, raw data — not tracked)
+gem-data/
+
+# Large binary files
+researchDBfiles/report_snapshot.duckdb
+
+# Generated databases (regenerate with ingest.py)
+tracker_data.db
+tracker_data.db-shm
+tracker_data.db-wal
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor
+.vscode/

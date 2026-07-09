@@ -1,0 +1,1303 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__bioenergy_power_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "bioenergy_power_ownership",
+  "n_rows": 14459,
+  "analyzed_at": "2026-07-07T21:45:12.161786+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 2199,
+      "top_values": [
+        [
+          "E100000123261",
+          995
+        ],
+        [
+          "E100001015587",
+          846
+        ],
+        [
+          "E100001010595",
+          414
+        ],
+        [
+          "E100001015833",
+          412
+        ],
+        [
+          "E100001000348",
+          412
+        ],
+        [
+          "E100000132388",
+          384
+        ],
+        [
+          "E100002001974",
+          290
+        ],
+        [
+          "E100001010596",
+          214
+        ],
+        [
+          "E100002022203",
+          134
+        ],
+        [
+          "E100002011285",
+          134
+        ],
+        [
+          "E100001016498",
+          134
+        ],
+        [
+          "E100001016492",
+          134
+        ],
+        [
+          "E100001016257",
+          134
+        ],
+        [
+          "E100001016256",
+          134
+        ],
+        [
+          "E100001016255",
+          134
+        ],
+        [
+          "E100001016126",
+          134
+        ],
+        [
+          "E100001016125",
+          134
+        ],
+        [
+          "E100001011617",
+          134
+        ],
+        [
+          "E100001000382",
+          134
+        ],
+        [
+          "E100001000179",
+          134
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 2199,
+      "top_values": [
+        [
+          "natural person(s) ",
+          995
+        ],
+        [
+          "small shareholder(s) ",
+          846
+        ],
+        [
+          "The Vanguard Group Inc",
+          414
+        ],
+        [
+          "Blackrock Advisors LLC",
+          412
+        ],
+        [
+          "BlackRock Inc",
+          412
+        ],
+        [
+          "unknown ",
+          384
+        ],
+        [
+          "member/employee owned ",
+          290
+        ],
+        [
+          "State Street Corp",
+          214
+        ],
+        [
+          "The Norinchukin Trust & Banking Co Ltd",
+          134
+        ],
+        [
+          "The Master Trust Bank of Japan Ltd",
+          134
+        ],
+        [
+          "The Dai-ichi Life Insurance Co Ltd",
+          134
+        ],
+        [
+          "Sumitomo Mitsui Trust Group ",
+          134
+        ],
+        [
+          "State Street Bank and Trust Co",
+          134
+        ],
+        [
+          "Resonac Holdings Corp",
+          134
+        ],
+        [
+          "Resona Bank Ltd",
+          134
+        ],
+        [
+          "Norinchukin Bank ",
+          134
+        ],
+        [
+          "Nippon Life Insurance Co",
+          134
+        ],
+        [
+          "Mizuho Financial Group Inc",
+          134
+        ],
+        [
+          "Mitsubishi UFJ Trust and Banking Corp",
+          134
+        ],
+        [
+          "Mitsubishi UFJ Financial Group Inc",
+          134
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 14459,
+      "n_null": 3240,
+      "n_non_null": 11219,
+      "null_rate": 0.2241,
+      "n_unique": 95,
+      "top_values": [
+        [
+          "United States",
+          2474
+        ],
+        [
+          "Japan",
+          2346
+        ],
+        [
+          "China",
+          2274
+        ],
+        [
+          "Sweden",
+          434
+        ],
+        [
+          "Brazil",
+          344
+        ],
+        [
+          "India",
+          291
+        ],
+        [
+          "United Kingdom",
+          242
+        ],
+        [
+          "Finland",
+          234
+        ],
+        [
+          "France",
+          227
+        ],
+        [
+          "Germany",
+          204
+        ],
+        [
+          "Hong Kong",
+          172
+        ],
+        [
+          "Spain",
+          141
+        ],
+        [
+          "Singapore",
+          135
+        ],
+        [
+          "Thailand",
+          112
+        ],
+        [
+          "South Africa",
+          103
+        ],
+        [
+          "Norway",
+          97
+        ],
+        [
+          "South Korea",
+          78
+        ],
+        [
+          "Canada",
+          72
+        ],
+        [
+          "Australia",
+          72
+        ],
+        [
+          "Malaysia",
+          67
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 14459,
+      "n_null": 2872,
+      "n_non_null": 11587,
+      "null_rate": 0.1986,
+      "n_unique": 96,
+      "top_values": [
+        [
+          "China",
+          2491
+        ],
+        [
+          "United States",
+          2486
+        ],
+        [
+          "Japan",
+          2353
+        ],
+        [
+          "Sweden",
+          446
+        ],
+        [
+          "Brazil",
+          346
+        ],
+        [
+          "India",
+          296
+        ],
+        [
+          "Finland",
+          246
+        ],
+        [
+          "United Kingdom",
+          245
+        ],
+        [
+          "Germany",
+          231
+        ],
+        [
+          "France",
+          228
+        ],
+        [
+          "Hong Kong",
+          197
+        ],
+        [
+          "Spain",
+          142
+        ],
+        [
+          "Singapore",
+          132
+        ],
+        [
+          "Thailand",
+          112
+        ],
+        [
+          "South Africa",
+          103
+        ],
+        [
+          "Norway",
+          97
+        ],
+        [
+          "South Korea",
+          82
+        ],
+        [
+          "Canada",
+          73
+        ],
+        [
+          "Australia",
+          72
+        ],
+        [
+          "Malaysia",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 2639,
+      "top_values": [
+        [
+          "Shandong Rizhao power station 1",
+          42
+        ],
+        [
+          "Yala power station --",
+          39
+        ],
+        [
+          "Rauma power station TG6",
+          38
+        ],
+        [
+          "Porin Prosessivoiman power station 1",
+          38
+        ],
+        [
+          "Kuusankoski power station --",
+          38
+        ],
+        [
+          "Kaukan Voima power station --",
+          38
+        ],
+        [
+          "Alholmens Kraft power station AK2",
+          37
+        ],
+        [
+          "Alholmens Kraft power station AK1",
+          37
+        ],
+        [
+          "Purkhali Biomass power station --",
+          36
+        ],
+        [
+          "Tahara Biomass power station 1",
+          35
+        ],
+        [
+          "Vinca Waste-to-Energy power station 1",
+          34
+        ],
+        [
+          "Cramlington CHP power station --",
+          34
+        ],
+        [
+          "RExus power station --",
+          33
+        ],
+        [
+          "Sakaide Biomass power station 1",
+          32
+        ],
+        [
+          "Rookery South Energy Recovery power station --",
+          32
+        ],
+        [
+          "ENE Tosa Biomass power station --",
+          32
+        ],
+        [
+          "Wilton EFW power station 1",
+          31
+        ],
+        [
+          "Wakayama Gobo power station 1",
+          31
+        ],
+        [
+          "Nakagusuku power station 1",
+          30
+        ],
+        [
+          "Keihin power station 1",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 14459,
+      "n_null": 7844,
+      "n_non_null": 6615,
+      "null_rate": 0.5425,
+      "n_unique": 1083,
+      "top_values": [
+        [
+          "100",
+          886
+        ],
+        [
+          "0",
+          183
+        ],
+        [
+          "10",
+          101
+        ],
+        [
+          "11.08",
+          99
+        ],
+        [
+          "0.01",
+          89
+        ],
+        [
+          "10.1",
+          78
+        ],
+        [
+          "5.5",
+          74
+        ],
+        [
+          "50",
+          70
+        ],
+        [
+          "8.77",
+          68
+        ],
+        [
+          "8.49",
+          66
+        ],
+        [
+          "20",
+          63
+        ],
+        [
+          "5",
+          58
+        ],
+        [
+          "0.02",
+          57
+        ],
+        [
+          "12.6",
+          54
+        ],
+        [
+          "0.4",
+          52
+        ],
+        [
+          "49",
+          49
+        ],
+        [
+          "25",
+          44
+        ],
+        [
+          "0.03",
+          44
+        ],
+        [
+          "7.15",
+          38
+        ],
+        [
+          "65.39",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 14332,
+      "top_values": [
+        [
+          "Jinneng Holding Shanxi Electric Power Co Ltd -> Shanxi SDIC Innovative Green Energy Equity Investment Partnership LP [9.96%] -> Shanxi Guoyao New Energy Group Co Ltd [66.23%] -> Shanxi Wuzhai power station 1 [100.0%]",
+          3
+        ],
+        [
+          "Jinneng Holding Shanxi Electric Power Co Ltd -> Shanxi SDIC Innovative Green Energy Equity Investment Partnership LP [9.96%] -> Shanxi Guoyao New Energy Group Co Ltd [66.23%] -> Shanxi Linyi power station 1 [100.0%]",
+          3
+        ],
+        [
+          "Jinneng Holding Shanxi Electric Power Co Ltd -> Shanxi SDIC Innovative Green Energy Equity Investment Partnership LP [9.96%] -> Shanxi Guoyao New Energy Group Co Ltd [66.23%] -> Shanxi Hongdong guoyao power station 1 [100.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> Liaoning Qingyuan power station 1 [100.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> Henan Ye County power station 1 [49.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> Heilongjiang Suihua Beilin power station 1900-01-05 02:24:00 [80.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> Heilongjiang Suihua Beilin power station 1900-01-04 02:24:00 [80.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> Guangxi Xing'An power station 1 [100.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> China Energy Construction Investment Suihua Clean Energy Co Ltd [80.0%] -> Heilongjiang Zhaodong (China Energy Construction Investment) power station 1900-01-05 02:24:00 [100.0%]",
+          3
+        ],
+        [
+          "China Energy Engineering Group Co Ltd -> China Energy Engineering Corp Ltd [44.82%] -> China Energy Construction Group Investment Co Ltd [100.0%] -> China Energy Construction Investment Suihua Clean Energy Co Ltd [80.0%] -> Heilongjiang Zhaodong (China Energy Construction Investment) power station 1900-01-04 02:24:00 [100.0%]",
+          3
+        ],
+        [
+          "Zhejiang Zheneng Electric Power Co Ltd -> Zhejiang Fuzhe Investment Co Ltd [10.0%] -> Zhejiang Guotong Investment Co Ltd [14.27%] -> Guangdong Run Innovation Energy Equity Investment Fund Partnership LP [19.33%] -> Guangdong Rundian Environmental Protection Co Ltd [100.0%] -> Shandong Rizhao power station 1 [70.0%]",
+          2
+        ],
+        [
+          "Zhejiang Zheneng Electric Power Co Ltd -> Zhejiang Fuzhe Investment Co Ltd [10.0%] -> Zhejiang Guotong Investment Co Ltd [14.27%] -> Guangdong Run Innovation Energy Equity Investment Fund Partnership LP [19.33%] -> Guangdong Rundian Environmental Protection Co Ltd [100.0%] -> Henan Yanshi power station 1 [100.0%]",
+          2
+        ],
+        [
+          "Zhejiang Zheneng Electric Power Co Ltd -> Zhejiang Fuzhe Investment Co Ltd [10.0%] -> Zhejiang Guotong Investment Co Ltd [14.27%] -> Guangdong Run Innovation Energy Equity Investment Fund Partnership LP [19.33%] -> Guangdong Rundian Environmental Protection Co Ltd [100.0%] -> Hebei Tangshan Caofeidian power station 1 [100.0%]",
+          2
+        ],
+        [
+          "Zhejiang Chint Electrics Co Ltd -> Zhejiang Chint New Energy Development Co Ltd [98.4%] -> Zhejiang Shentai Energy Investment Co Ltd [100.0%] -> Zhejiang Shentai Biomass Energy Development Co Ltd [90.0%] -> Jilin Liuhe power station 1 [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Switzerland AG [unknown %] -> UBS Singapore Branch AG [unknown %] -> Gulf Development PCL [10.14%] -> Chana Songkhla power station -- [unknown %]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Partners Group AG [5.01%] -> Gren Oy [unknown %] -> Tartu power station -- [unknown %]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Partners Group AG [5.01%] -> Gren Oy [unknown %] -> Pärnu power station -- [unknown %]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Partners Group AG [5.01%] -> Gren Oy [unknown %] -> Klaipėda power station -- [unknown %]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Partners Group AG [5.01%] -> Gren Oy [unknown %] -> Gren Lietuva  [unknown %] -> Kaunas cogeneration power station -- [49.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Partners Group AG [5.01%] -> Gren Oy [unknown %] -> Gren Jelgava power station -- [unknown %]",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 1300,
+      "top_values": [
+        [
+          "Chongqing Sanfeng Environment Group Corp Ltd",
+          798
+        ],
+        [
+          "eRex Co Ltd",
+          513
+        ],
+        [
+          "International Paper Co",
+          429
+        ],
+        [
+          "Shanghai SUS Environment Co Ltd",
+          260
+        ],
+        [
+          "Tianjin TEDA Environmental Protection Co Ltd",
+          189
+        ],
+        [
+          "Metsä Fibre Oy",
+          162
+        ],
+        [
+          "National Bio Energy Group Ltd",
+          152
+        ],
+        [
+          "Nippon Paper Industries Co Ltd",
+          121
+        ],
+        [
+          "Westrock Co SA",
+          112
+        ],
+        [
+          "Veolia NV/SA",
+          110
+        ],
+        [
+          "Wilmar Sugar Australia Ltd",
+          104
+        ],
+        [
+          "Stora Enso Oyj",
+          90
+        ],
+        [
+          "unknown ",
+          89
+        ],
+        [
+          "Guangdong Rundian Environmental Protection Co Ltd",
+          87
+        ],
+        [
+          "UPM SA",
+          85
+        ],
+        [
+          "Utilitas OÜ",
+          84
+        ],
+        [
+          "MVV Environment Ltd",
+          78
+        ],
+        [
+          "Kansai Electric Power Co",
+          75
+        ],
+        [
+          "Alholmens Kraft AB Oy",
+          74
+        ],
+        [
+          "Billerud AB",
+          72
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 1300,
+      "top_values": [
+        [
+          "E100000129850",
+          798
+        ],
+        [
+          "E100000121583",
+          513
+        ],
+        [
+          "E100000001241",
+          429
+        ],
+        [
+          "E100000129639",
+          260
+        ],
+        [
+          "E100000129868",
+          189
+        ],
+        [
+          "E100001000052",
+          162
+        ],
+        [
+          "E100000129738",
+          152
+        ],
+        [
+          "E100000120931",
+          121
+        ],
+        [
+          "E100001001078",
+          112
+        ],
+        [
+          "E100002001036",
+          110
+        ],
+        [
+          "E100001000187",
+          104
+        ],
+        [
+          "E100000000369",
+          90
+        ],
+        [
+          "E100000132388",
+          89
+        ],
+        [
+          "E100000129793",
+          87
+        ],
+        [
+          "E100001010593",
+          85
+        ],
+        [
+          "E100000151550",
+          84
+        ],
+        [
+          "E100002010249",
+          78
+        ],
+        [
+          "E100000000646",
+          75
+        ],
+        [
+          "E100000132520",
+          74
+        ],
+        [
+          "E100001001070",
+          72
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Bioenergy Power Tracker",
+          14459
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          12037
+        ],
+        [
+          "announced",
+          670
+        ],
+        [
+          "construction",
+          581
+        ],
+        [
+          "pre-construction",
+          492
+        ],
+        [
+          "retired",
+          215
+        ],
+        [
+          "cancelled - inferred 4 y",
+          159
+        ],
+        [
+          "mothballed",
+          144
+        ],
+        [
+          "shelved - inferred 2 y",
+          72
+        ],
+        [
+          "cancelled",
+          56
+        ],
+        [
+          "shelved",
+          33
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 332,
+      "top_values": [
+        [
+          "30",
+          1556
+        ],
+        [
+          "50",
+          1007
+        ],
+        [
+          "12",
+          620
+        ],
+        [
+          "75",
+          595
+        ],
+        [
+          "20",
+          566
+        ],
+        [
+          "40",
+          551
+        ],
+        [
+          "25",
+          528
+        ],
+        [
+          "10",
+          492
+        ],
+        [
+          "35",
+          447
+        ],
+        [
+          "15",
+          412
+        ],
+        [
+          "18",
+          341
+        ],
+        [
+          "45",
+          214
+        ],
+        [
+          "60",
+          200
+        ],
+        [
+          "49",
+          181
+        ],
+        [
+          "28",
+          151
+        ],
+        [
+          "37",
+          141
+        ],
+        [
+          "80",
+          132
+        ],
+        [
+          "8",
+          131
+        ],
+        [
+          "41",
+          130
+        ],
+        [
+          "9",
+          129
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 2039,
+      "top_values": [
+        [
+          "L100001018727",
+          108
+        ],
+        [
+          "L100000201162",
+          74
+        ],
+        [
+          "L100000103754",
+          64
+        ],
+        [
+          "L100001047446",
+          56
+        ],
+        [
+          "L100001047590",
+          54
+        ],
+        [
+          "L100001047573",
+          54
+        ],
+        [
+          "L100001047058",
+          54
+        ],
+        [
+          "L100000201273",
+          52
+        ],
+        [
+          "L100000200466",
+          50
+        ],
+        [
+          "L100000104800",
+          50
+        ],
+        [
+          "L100001047675",
+          48
+        ],
+        [
+          "L100000200409",
+          48
+        ],
+        [
+          "L100000102949",
+          48
+        ],
+        [
+          "L100001046630",
+          42
+        ],
+        [
+          "L100001046618",
+          42
+        ],
+        [
+          "L100000201692",
+          42
+        ],
+        [
+          "L100000201672",
+          42
+        ],
+        [
+          "L100000201582",
+          42
+        ],
+        [
+          "L100001046540",
+          40
+        ],
+        [
+          "L100001048164",
+          39
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 14459,
+      "n_null": 0,
+      "n_non_null": 14459,
+      "null_rate": 0.0,
+      "n_unique": 2639,
+      "top_values": [
+        [
+          "G100000201932",
+          42
+        ],
+        [
+          "G100001055214",
+          39
+        ],
+        [
+          "G100001052787",
+          38
+        ],
+        [
+          "G100001052786",
+          38
+        ],
+        [
+          "G100000201384",
+          38
+        ],
+        [
+          "G100000201382",
+          38
+        ],
+        [
+          "G100001052857",
+          37
+        ],
+        [
+          "G100000201381",
+          37
+        ],
+        [
+          "G100001053883",
+          36
+        ],
+        [
+          "G100000200080",
+          35
+        ],
+        [
+          "G100001052459",
+          34
+        ],
+        [
+          "G100000200353",
+          34
+        ],
+        [
+          "G100001054657",
+          33
+        ],
+        [
+          "G100001054549",
+          32
+        ],
+        [
+          "G100000200783",
+          32
+        ],
+        [
+          "G100000200320",
+          32
+        ],
+        [
+          "G100000200797",
+          31
+        ],
+        [
+          "G100000200357",
+          31
+        ],
+        [
+          "G100001053705",
+          30
+        ],
+        [
+          "G100001053593",
+          30
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

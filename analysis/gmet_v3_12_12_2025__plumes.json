@@ -1,0 +1,2395 @@
+{
+  "table_name": "gmet_v3_12_12_2025__plumes",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "tab_slug": "plumes",
+  "n_rows": 3474,
+  "analyzed_at": "2026-07-07T21:45:22.006680+00:00",
+  "tracker_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Methane Plume ID",
+      "code_friendly_name_guess": "gem_methane_plume_id",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 3474,
+      "top_values": [
+        [
+          "CH4T999",
+          1
+        ],
+        [
+          "CH4T998",
+          1
+        ],
+        [
+          "CH4T997",
+          1
+        ],
+        [
+          "CH4T996",
+          1
+        ],
+        [
+          "CH4T995",
+          1
+        ],
+        [
+          "CH4T994",
+          1
+        ],
+        [
+          "CH4T993",
+          1
+        ],
+        [
+          "CH4T992",
+          1
+        ],
+        [
+          "CH4T991",
+          1
+        ],
+        [
+          "CH4T990",
+          1
+        ],
+        [
+          "CH4T99",
+          1
+        ],
+        [
+          "CH4T989",
+          1
+        ],
+        [
+          "CH4T988",
+          1
+        ],
+        [
+          "CH4T987",
+          1
+        ],
+        [
+          "CH4T986",
+          1
+        ],
+        [
+          "CH4T985",
+          1
+        ],
+        [
+          "CH4T984",
+          1
+        ],
+        [
+          "CH4T983",
+          1
+        ],
+        [
+          "CH4T982",
+          1
+        ],
+        [
+          "CH4T981",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Unique ID for the methane plume satellite observation",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Name",
+      "code_friendly_name_guess": "name",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 3474,
+      "top_values": [
+        [
+          "Śląskie Voivodship Methane Observation 2025-07-02, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-06-20, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-05-16, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-04-23, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-04-16, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-04-09, 2",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-04-09, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-28, 5",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-28, 4",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-28, 3",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-28, 2",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-28, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 7",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 6",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 5",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 4",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 3",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 2",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-26, 1",
+          1
+        ],
+        [
+          "Śląskie Voivodship Methane Observation 2025-03-21, 9",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki",
+      "code_friendly_name_guess": "gem_wiki",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 3474,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-07-02%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-06-20%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-05-16%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-04-23%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-04-16%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-04-09%2C_2",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-04-09%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-28%2C_5",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-28%2C_4",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-28%2C_3",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-28%2C_2",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-28%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_7",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_6",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_5",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_4",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_3",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_2",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-26%2C_1",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Śląskie_Voivodship_Methane_Observation_2025-03-21%2C_9",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to project's GEM.wiki page",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Satellite Data Provider",
+      "code_friendly_name_guess": "satellite_data_provider",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "CarbonMapper",
+          3205
+        ],
+        [
+          "IMEO",
+          269
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The organization which created the methane plume imagery",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Instrument",
+      "code_friendly_name_guess": "instrument",
+      "n_total": 3474,
+      "n_null": 3,
+      "n_non_null": 3471,
+      "null_rate": 0.0009,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "AVIRIS-NG",
+          934
+        ],
+        [
+          "Tanager",
+          895
+        ],
+        [
+          "Global Airborne Observatory",
+          787
+        ],
+        [
+          "NASA-JPL EMIT",
+          589
+        ],
+        [
+          "PRISMA - ASI",
+          188
+        ],
+        [
+          "EnMAP - DLR",
+          77
+        ],
+        [
+          "Sentinel-2 - ESA",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "The instrument used by the satellite data provider to create the imagery, i.e. the type of imaging spectrometer",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Observation Date",
+      "code_friendly_name_guess": "observation_date",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 1624,
+      "top_values": [
+        [
+          "2025-06-04T02:53:57+00",
+          27
+        ],
+        [
+          "2025-04-05T03:34:28+00",
+          25
+        ],
+        [
+          "2024-12-30T03:27:56+00",
+          25
+        ],
+        [
+          "2025-03-22T03:32:42+00",
+          22
+        ],
+        [
+          "2025-07-12T03:48:20+00",
+          21
+        ],
+        [
+          "2025-05-03T03:38:00+00",
+          18
+        ],
+        [
+          "2024-12-17T04:55:23+00",
+          18
+        ],
+        [
+          "2024-04-05T03:04:55+00",
+          18
+        ],
+        [
+          "2025-02-03T03:45:34+00",
+          16
+        ],
+        [
+          "2025-02-05T03:57:28+00",
+          15
+        ],
+        [
+          "2025-07-05T03:47:30+00",
+          14
+        ],
+        [
+          "2025-06-23T03:58:38+00",
+          14
+        ],
+        [
+          "2025-06-01T06:04:47+00",
+          14
+        ],
+        [
+          "2025-05-12T03:53:32+00",
+          14
+        ],
+        [
+          "2025-03-08T03:31:18+00",
+          14
+        ],
+        [
+          "2025-05-01T03:26:05+00",
+          13
+        ],
+        [
+          "2025-04-19T03:36:23+00",
+          13
+        ],
+        [
+          "2025-04-14T03:49:57+00",
+          13
+        ],
+        [
+          "2025-03-01T03:30:13+00",
+          13
+        ],
+        [
+          "2024-02-17T05:27:31+00",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The date and time when the plume imagery was created",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Provider ID",
+      "code_friendly_name_guess": "provider_id",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 3474,
+      "top_values": [
+        [
+          "tan20250716t041551c58s4001-A",
+          1
+        ],
+        [
+          "tan20250714t011015c43s4001-B",
+          1
+        ],
+        [
+          "tan20250714t011015c43s4001-A",
+          1
+        ],
+        [
+          "tan20250713t170925c58s4001-A",
+          1
+        ],
+        [
+          "tan20250713t031730c96s4001-A",
+          1
+        ],
+        [
+          "tan20250712t065105c33s4001-D",
+          1
+        ],
+        [
+          "tan20250712t065105c33s4001-C",
+          1
+        ],
+        [
+          "tan20250712t065105c33s4001-A",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-Z",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-W",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-V",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-U",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-T",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-S",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-O",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-N",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-M",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-J",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-H",
+          1
+        ],
+        [
+          "tan20250712t034820c55s4001-G",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The unique ID for the plume as created by the data provider",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Satellite Data Provider Ref",
+      "code_friendly_name_guess": "satellite_data_provider_ref",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "https://data.carbonmapper.org/",
+          3205
+        ],
+        [
+          "https://methanedata.unep.org/",
+          269
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The URL corresponding to the satellite data provider's website",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Emissions (kg/hr)",
+      "code_friendly_name_guess": "emissions_kg_hr",
+      "n_total": 3474,
+      "n_null": 398,
+      "n_non_null": 3076,
+      "null_rate": 0.1146,
+      "n_unique": 3064,
+      "top_values": [
+        [
+          "887.0",
+          2
+        ],
+        [
+          "870.0",
+          2
+        ],
+        [
+          "717.0",
+          2
+        ],
+        [
+          "475.0",
+          2
+        ],
+        [
+          "412.2296607",
+          2
+        ],
+        [
+          "3146.0",
+          2
+        ],
+        [
+          "23.7760346",
+          2
+        ],
+        [
+          "2218.0",
+          2
+        ],
+        [
+          "1863.0",
+          2
+        ],
+        [
+          "1523.0",
+          2
+        ],
+        [
+          "1291.0",
+          2
+        ],
+        [
+          "1062.0",
+          2
+        ],
+        [
+          "999.7069",
+          1
+        ],
+        [
+          "997.2544",
+          1
+        ],
+        [
+          "997.1965133",
+          1
+        ],
+        [
+          "995.5486",
+          1
+        ],
+        [
+          "993.6375978",
+          1
+        ],
+        [
+          "992.9513855",
+          1
+        ],
+        [
+          "991.6858",
+          1
+        ],
+        [
+          "991.1122",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The emissions of the plume, as determined by the satellite data provider",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Emissions Uncertainty (kg/hr)",
+      "code_friendly_name_guess": "emissions_uncertainty_kg_hr",
+      "n_total": 3474,
+      "n_null": 394,
+      "n_non_null": 3080,
+      "null_rate": 0.1134,
+      "n_unique": 3053,
+      "top_values": [
+        [
+          "617.0",
+          3
+        ],
+        [
+          "376.0",
+          3
+        ],
+        [
+          "959.0",
+          2
+        ],
+        [
+          "862.0",
+          2
+        ],
+        [
+          "73.97715789",
+          2
+        ],
+        [
+          "694.0",
+          2
+        ],
+        [
+          "673.0",
+          2
+        ],
+        [
+          "640.0",
+          2
+        ],
+        [
+          "618.0",
+          2
+        ],
+        [
+          "604.0",
+          2
+        ],
+        [
+          "535.0",
+          2
+        ],
+        [
+          "5.26206022",
+          2
+        ],
+        [
+          "397.0",
+          2
+        ],
+        [
+          "350.0",
+          2
+        ],
+        [
+          "285.0",
+          2
+        ],
+        [
+          "258.0",
+          2
+        ],
+        [
+          "249.0",
+          2
+        ],
+        [
+          "223.0",
+          2
+        ],
+        [
+          "215.0",
+          2
+        ],
+        [
+          "184.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Type of Infrastructure",
+      "code_friendly_name_guess": "type_of_infrastructure",
+      "n_total": 3474,
+      "n_null": 616,
+      "n_non_null": 2858,
+      "null_rate": 0.1773,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "coal mine",
+          1690
+        ],
+        [
+          "landfill",
+          303
+        ],
+        [
+          "wellpad",
+          130
+        ],
+        [
+          "Wellpad",
+          116
+        ],
+        [
+          "oil and gas facility",
+          105
+        ],
+        [
+          "livestock or dairy",
+          104
+        ],
+        [
+          "Landfill",
+          99
+        ],
+        [
+          "offshore platform",
+          64
+        ],
+        [
+          "pipeline",
+          48
+        ],
+        [
+          "no visible infrastructure",
+          42
+        ],
+        [
+          "gas or oil plant",
+          23
+        ],
+        [
+          "Offshore, basemap imagery unavailable or unclear",
+          19
+        ],
+        [
+          "natural gas station",
+          17
+        ],
+        [
+          "power plant",
+          14
+        ],
+        [
+          "compressor station",
+          11
+        ],
+        [
+          "LNG terminal",
+          10
+        ],
+        [
+          "refinery",
+          9
+        ],
+        [
+          "flarestack",
+          8
+        ],
+        [
+          "No visible infrastructure",
+          8
+        ],
+        [
+          "coal plant",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine feature category (BETA)",
+      "code_friendly_name_guess": "mine_feature_category_beta",
+      "n_total": 3474,
+      "n_null": 2353,
+      "n_non_null": 1121,
+      "null_rate": 0.6773,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "ventilation system",
+          669
+        ],
+        [
+          "degasification system",
+          274
+        ],
+        [
+          "mine boundary",
+          147
+        ],
+        [
+          "other",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Describes the general categorization of the coal mine feature where a methane plume was observed, e.g., mine boundary, degasification system, ventilation system, or other. For a complete explanation of the referenced coal mine feature categories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Feature certainty 1 to 3 (3 = most certain)",
+      "code_friendly_name_guess": "feature_certainty_1_to_3_3_most_certain",
+      "n_total": 3474,
+      "n_null": 2342,
+      "n_non_null": 1132,
+      "null_rate": 0.6742,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "3.0",
+          859
+        ],
+        [
+          "2.0",
+          269
+        ],
+        [
+          "1.0",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates the certainty of the mine feature categorization",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Mine feature subcategory (BETA)",
+      "code_friendly_name_guess": "mine_feature_subcategory_beta",
+      "n_total": 3474,
+      "n_null": 2366,
+      "n_non_null": 1108,
+      "null_rate": 0.6811,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "shaft",
+          663
+        ],
+        [
+          "drainage station",
+          165
+        ],
+        [
+          "surface",
+          147
+        ],
+        [
+          "drainage pipeline",
+          49
+        ],
+        [
+          "gas well",
+          22
+        ],
+        [
+          "gas to electric station",
+          18
+        ],
+        [
+          "preparation plant",
+          14
+        ],
+        [
+          "slope access or production shaft",
+          9
+        ],
+        [
+          "flare",
+          6
+        ],
+        [
+          "coal storage",
+          4
+        ],
+        [
+          "regenerative thermal oxidizer (RTO)",
+          3
+        ],
+        [
+          "combined heat and power plant",
+          3
+        ],
+        [
+          "vent",
+          2
+        ],
+        [
+          "adit or drift",
+          2
+        ],
+        [
+          "mine entrance or exit",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ],
+      "definition_from_readme": "Describes the subcategory of the coal mine feature where a methane plume was observed, e.g., ventilation shaft, drainage station, flare, etc. For a complete explanation of the referenced coal mine feature subcategories, see the data and visual dictionary from GEM's research on coal mine boundaries and potential point source emitters of coal mine methane.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Feature subcategory certainty 1 to 3 (3 = most certain)",
+      "code_friendly_name_guess": "feature_subcategory_certainty_1_to_3_3_most_certain",
+      "n_total": 3474,
+      "n_null": 2358,
+      "n_non_null": 1116,
+      "null_rate": 0.6788,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "3.0",
+          826
+        ],
+        [
+          "2.0",
+          276
+        ],
+        [
+          "1.0",
+          14
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates the certainty of the mine feature's subcategory categorization",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Infrastructure Notes",
+      "code_friendly_name_guess": "infrastructure_notes",
+      "n_total": 3474,
+      "n_null": 944,
+      "n_non_null": 2530,
+      "null_rate": 0.2717,
+      "n_unique": 1569,
+      "top_values": [
+        [
+          "not clear if there is specific infrastructure besides the cleared mine",
+          60
+        ],
+        [
+          "unidentified infrastructure",
+          36
+        ],
+        [
+          "Plume over coal mine vent",
+          26
+        ],
+        [
+          "Plume origin is within the footprint of what appears to be a landfill",
+          25
+        ],
+        [
+          "livestock or dairy",
+          24
+        ],
+        [
+          "South Vent",
+          19
+        ],
+        [
+          "Offshore plume. No other layer information available.",
+          18
+        ],
+        [
+          "Within 200m of multiple pumpjacks (at least four visible imagery) alongside numerous well data points (including, but not limited to: 0403064654, 0403064714, 0402923818, 402980401, 0402980401) and multiple piplines between wellpads",
+          17
+        ],
+        [
+          "plume origin near shelved mine (Jingfu Bachigou Coal Mine), basemap blurry; no identifiable infrastructure",
+          13
+        ],
+        [
+          "Plume origin is within the surface mining area",
+          13
+        ],
+        [
+          "Plume origin amongst other observations scattered ~10m apart from each other on a wellpad with no visible pumpjack/wellhead, but well data point (API #0402911967) present in center of the wellpad, which is ~150m in diameter. A pipeline runs along the west side of the wellpad",
+          13
+        ],
+        [
+          "Plume origin among many other observations all within 20m of pipelines/gathering lines, and within 20m of a well datapoint (0402946997) with no wellhead or pumpjack in imagery",
+          13
+        ],
+        [
+          "On storage/compressor station adjacent (~100m) to power plant PWP000205",
+          13
+        ],
+        [
+          "Nansu return air shaft",
+          13
+        ],
+        [
+          "unidentified industrial facility",
+          12
+        ],
+        [
+          "Plume over facility with storage tanks within landfill polygon",
+          12
+        ],
+        [
+          "Plume origin appears to be at the perimeter of a landfill or quarry",
+          12
+        ],
+        [
+          "ventilation shaft",
+          11
+        ],
+        [
+          "can't identify infrastructure.",
+          11
+        ],
+        [
+          "Over pipeline on path between wellpads",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Qualitative observations of plume location, proximity to infrastructure, and possible attribution recorded by GEM researchers",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM Infrastructure Name (Nearby)",
+      "code_friendly_name_guess": "gem_infrastructure_name_nearby",
+      "n_total": 3474,
+      "n_null": 1847,
+      "n_non_null": 1627,
+      "null_rate": 0.5317,
+      "n_unique": 268,
+      "top_values": [
+        [
+          "No. 7 Coal Mine",
+          77
+        ],
+        [
+          "Buchanan #1 Coal Mine",
+          52
+        ],
+        [
+          "Cumberland Coal Mine",
+          47
+        ],
+        [
+          "Shanxi Lu'an Gucheng Coal Mine",
+          43
+        ],
+        [
+          "Fording River Operations",
+          43
+        ],
+        [
+          "Shaqu No.1 Coal Mine",
+          40
+        ],
+        [
+          "Yuwu Coal Mine",
+          34
+        ],
+        [
+          "Lu'an Licun Coal Mine",
+          34
+        ],
+        [
+          "Gaohe Coal Mine",
+          34
+        ],
+        [
+          "Oak Grove Mine",
+          32
+        ],
+        [
+          "Appin Coal Mine",
+          32
+        ],
+        [
+          "Zhaozhuang Coal Mine",
+          31
+        ],
+        [
+          "Changcun Coal Mine",
+          27
+        ],
+        [
+          "Raspadskaya Coal Mine",
+          26
+        ],
+        [
+          "KWK Pniówek Coal Mine",
+          25
+        ],
+        [
+          "Xinjing Coal Mine",
+          24
+        ],
+        [
+          "Tashan Coal Mine",
+          21
+        ],
+        [
+          "Sijiazhuang Coal Mine",
+          21
+        ],
+        [
+          "No. 4 Coal Mine (AL)",
+          19
+        ],
+        [
+          "KWK Borynia-Zofiówka-Bzie Coal Mine",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The name of the GEM asset in which the plume origin falls",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM Infrastructure Wiki",
+      "code_friendly_name_guess": "gem_infrastructure_wiki",
+      "n_total": 3474,
+      "n_null": 1847,
+      "n_non_null": 1627,
+      "null_rate": 0.5317,
+      "n_unique": 271,
+      "top_values": [
+        [
+          "https://www.gem.wiki/No._7_Coal_Mine",
+          77
+        ],
+        [
+          "https://www.gem.wiki/Buchanan_1_Coal_Mine",
+          52
+        ],
+        [
+          "https://www.gem.wiki/Cumberland_Coal_Mine",
+          47
+        ],
+        [
+          "https://www.gem.wiki/Shanxi_Lu'an_Gucheng_Coal_Mine",
+          43
+        ],
+        [
+          "https://www.gem.wiki/Fording_River_Operations",
+          43
+        ],
+        [
+          "https://www.gem.wiki/Shaqu_No.1_Coal_Mine",
+          40
+        ],
+        [
+          "https://www.gem.wiki/Yuwu_Coal_Mine",
+          34
+        ],
+        [
+          "https://www.gem.wiki/Gaohe_Coal_Mine",
+          34
+        ],
+        [
+          "https://www.gem.wiki/Oak_Grove_Mine",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Appin_Coal_Mine",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Zhaozhuang_Coal_Mine",
+          31
+        ],
+        [
+          "https://www.gem.wiki/Lu%27an_Licun_Coal_Mine",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Changcun_Coal_Mine",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Raspadskaya_Coal_Mine",
+          26
+        ],
+        [
+          "https://www.gem.wiki/KWK_Pniówek_Coal_Mine",
+          25
+        ],
+        [
+          "https://www.gem.wiki/Xinjing_Coal_Mine",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Tashan_Coal_Mine",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Sijiazhuang_Coal_Mine",
+          21
+        ],
+        [
+          "https://www.gem.wiki/No._4_Coal_Mine_(AL)",
+          19
+        ],
+        [
+          "https://www.gem.wiki/KWK_Borynia-Zofiówka-Bzie_Coal_Mine",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The GEM wiki page for the GEM asset in which the plume origin falls",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Government Well ID (Nearby)",
+      "code_friendly_name_guess": "government_well_id_nearby",
+      "n_total": 3474,
+      "n_null": 3282,
+      "n_non_null": 192,
+      "null_rate": 0.9447,
+      "n_unique": 148,
+      "top_values": [
+        [
+          "40290879200",
+          6
+        ],
+        [
+          "17075039970000",
+          6
+        ],
+        [
+          "40303986900",
+          4
+        ],
+        [
+          "17109020390000",
+          4
+        ],
+        [
+          "40304759700",
+          3
+        ],
+        [
+          "403039869.0",
+          3
+        ],
+        [
+          "3003929438.0",
+          3
+        ],
+        [
+          "17725005650000",
+          3
+        ],
+        [
+          "843416.0",
+          2
+        ],
+        [
+          "777164.0",
+          2
+        ],
+        [
+          "734548.0",
+          2
+        ],
+        [
+          "706355.0",
+          2
+        ],
+        [
+          "40932766.0",
+          2
+        ],
+        [
+          "40305507100",
+          2
+        ],
+        [
+          "403042699.0",
+          2
+        ],
+        [
+          "40303658500",
+          2
+        ],
+        [
+          "40301991100",
+          2
+        ],
+        [
+          "40295269900",
+          2
+        ],
+        [
+          "40294107000",
+          2
+        ],
+        [
+          "3004535152.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The ID of a well on the same wellpad as the plume. For multi-well pads, this is typically the closest well with few exceptions, elaborated in the notes column. For most American wells, this is the American Petroleum Instiute (API) number. (The exception is for Pennsylvania, for which we've provided the Primary_FID listed in the Pennsylvania Department Environmental Protection oil and gas well GIS dataset.) Note that these numbers are provided if the plume origin is within 10m of the well with no other obvious sources of methane, or the plume is within a clearly defined wellpad. These IDs are used as a stand-in for the entire wellpad, and so it is possible that the actual source of the emission is a storage tank, pipeline leading from the well, or another well on the wellpad.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "California VISTA and other Government ID Assets (Nearby)",
+      "code_friendly_name_guess": "california_vista_and_other_government_id_assets_nearby",
+      "n_total": 3474,
+      "n_null": 2807,
+      "n_non_null": 667,
+      "null_rate": 0.808,
+      "n_unique": 122,
+      "top_values": [
+        [
+          "FLD000140",
+          88
+        ],
+        [
+          "FLD000112",
+          68
+        ],
+        [
+          "FLD000285",
+          47
+        ],
+        [
+          "FLD000207",
+          38
+        ],
+        [
+          "FLD000045",
+          31
+        ],
+        [
+          "LNF000251",
+          28
+        ],
+        [
+          "FLD000277",
+          25
+        ],
+        [
+          "LNF000615",
+          19
+        ],
+        [
+          "FLD000344",
+          15
+        ],
+        [
+          "LNF000638",
+          13
+        ],
+        [
+          "LNF000043; FLD000208",
+          12
+        ],
+        [
+          "PWP000135",
+          10
+        ],
+        [
+          "LNF000438",
+          10
+        ],
+        [
+          "LNF000332",
+          9
+        ],
+        [
+          "FAB003082",
+          9
+        ],
+        [
+          "COM000219",
+          9
+        ],
+        [
+          "FAB001296",
+          8
+        ],
+        [
+          "COM000488",
+          8
+        ],
+        [
+          "FLD000265",
+          7
+        ],
+        [
+          "FLD000027",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "ID for assets within California's VISTA database or other government infrastructure databases. See methodology wiki for details.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Auto-attribution for edge cases",
+      "code_friendly_name_guess": "auto_attribution_for_edge_cases",
+      "n_total": 3474,
+      "n_null": 3342,
+      "n_non_null": 132,
+      "null_rate": 0.962,
+      "n_unique": 39,
+      "top_values": [
+        [
+          "Jingfu Bachigou Coal Mine",
+          13
+        ],
+        [
+          "['West Well of Sihe Coal Mine', 'East Well of Sihe Coal Mine']",
+          12
+        ],
+        [
+          "['Wenjiazhuang Coal Mine', 'Qiyuan Coal Mine']",
+          9
+        ],
+        [
+          "['Zhengbang Liangshun Coal Mine', 'Liyang Coal Mine', 'Boli Coal Mine']",
+          8
+        ],
+        [
+          "['ZG Brzeszcze Coal Mine', 'KWK Brzeszcze East']",
+          8
+        ],
+        [
+          "['Huineng Coal Mine', 'Dongsheng Yangsheng Coal Mine', 'Dongsheng Yangsheng Coal Mine']",
+          8
+        ],
+        [
+          "['Yangquan No. 2 Coal Mine', 'Xinjing Coal Mine']",
+          6
+        ],
+        [
+          "['Shanxi Xiyang Leping Coal Mine', 'Xiyang Huangyanhui Coal Mine', 'Sijiazhuang Coal Mine']",
+          6
+        ],
+        [
+          "['Pribbenow Coal Mine', 'El Corozo Coal Mine']",
+          6
+        ],
+        [
+          "['Maojiazhuang Coal Mine', 'Shanxi Liulin Xinfei Hechang Coal Mine', 'Liulin Coal Mine']",
+          4
+        ],
+        [
+          "['Hujiahe Coal Mine', 'Mengcun Coal Mine']",
+          4
+        ],
+        [
+          "['Chain Valley Coal Mine', 'Chain Valley Coal Mine', 'Mannering Colliery']",
+          4
+        ],
+        [
+          "Otvalny Yuzhny No.2 Coal Mine",
+          4
+        ],
+        [
+          "['Zhengbang Shenlei Coal Mine', 'Tianchi Coal Mine']",
+          3
+        ],
+        [
+          "['Dongsheng Xingyu Coal Mine', 'Wukuang Guishigou Coal Mine']",
+          3
+        ],
+        [
+          "['Bogatyr Coal Mine (Kazakhstan)', 'Vostochny Coal Mine (Kazakhstan)']",
+          3
+        ],
+        [
+          "['Yueliangtian Coal Mine', 'Shanjiaoshu Coal Mine']",
+          2
+        ],
+        [
+          "['Taldinskaya-Zapadnaya Coal Mine No. 1', 'Taldinskaya-Zapadnaya Coal Mine No. 2', 'Otvalny Yuzhny No.2 Coal Mine']",
+          2
+        ],
+        [
+          "['Sibirskaya Coal Mine', 'Oktyabrskaya Coal Mine']",
+          2
+        ],
+        [
+          "['Olzherasskaya Novaya Coal Mine', 'Raspadskaya Coal Mine', 'Olzherasskaya Novaya Coal Mine']",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "This column lists the multiple coal mines adjacent to the plume in cases where the plume cannot be more definitively associated with either mine through the bulk review attribution methodology",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational Unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 105,
+      "top_values": [
+        [
+          "California State",
+          811
+        ],
+        [
+          "Shanxi Province",
+          775
+        ],
+        [
+          "New Mexico State",
+          225
+        ],
+        [
+          "Louisiana and Western Gulf",
+          217
+        ],
+        [
+          "Pennsylvania State",
+          156
+        ],
+        [
+          "Alabama State",
+          141
+        ],
+        [
+          "Kemerovskaja Administrative Region",
+          133
+        ],
+        [
+          "Texas State",
+          101
+        ],
+        [
+          "Ohio State",
+          91
+        ],
+        [
+          "New South Wales State",
+          86
+        ],
+        [
+          "Śląskie Voivodship",
+          84
+        ],
+        [
+          "Queensland State",
+          71
+        ],
+        [
+          "British Columbia Province",
+          59
+        ],
+        [
+          "Virginia State",
+          54
+        ],
+        [
+          "Anhui Province",
+          51
+        ],
+        [
+          "Shaanxi Province",
+          33
+        ],
+        [
+          "Cesar Department",
+          25
+        ],
+        [
+          "Guizhou Province",
+          24
+        ],
+        [
+          "Mpumalanga Province",
+          23
+        ],
+        [
+          "Ouargla Province",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The subnational unit in which the methane plume was observed",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "United States",
+          1823
+        ],
+        [
+          "China",
+          922
+        ],
+        [
+          "Australia",
+          157
+        ],
+        [
+          "Russia",
+          142
+        ],
+        [
+          "Poland",
+          98
+        ],
+        [
+          "Canada",
+          61
+        ],
+        [
+          "Colombia",
+          31
+        ],
+        [
+          "Algeria",
+          25
+        ],
+        [
+          "South Africa",
+          23
+        ],
+        [
+          "Kazakhstan",
+          23
+        ],
+        [
+          "India",
+          22
+        ],
+        [
+          "Ukraine",
+          16
+        ],
+        [
+          "Saudi Arabia",
+          12
+        ],
+        [
+          "Uzbekistan",
+          11
+        ],
+        [
+          "Iraq",
+          11
+        ],
+        [
+          "Mexico",
+          8
+        ],
+        [
+          "Yemen",
+          7
+        ],
+        [
+          "Senegal",
+          7
+        ],
+        [
+          "Peru",
+          7
+        ],
+        [
+          "Israel",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plume Origin Latitude",
+      "code_friendly_name_guess": "plume_origin_latitude",
+      "n_total": 3474,
+      "n_null": 1,
+      "n_non_null": 3473,
+      "null_rate": 0.0003,
+      "n_unique": 3275,
+      "top_values": [
+        [
+          "-34.1814",
+          13
+        ],
+        [
+          "36.01124",
+          11
+        ],
+        [
+          "37.23384",
+          10
+        ],
+        [
+          "-34.2446",
+          10
+        ],
+        [
+          "36.06471",
+          8
+        ],
+        [
+          "37.48406",
+          6
+        ],
+        [
+          "49.98038",
+          5
+        ],
+        [
+          "49.97543",
+          5
+        ],
+        [
+          "37.43618",
+          5
+        ],
+        [
+          "-22.9878",
+          5
+        ],
+        [
+          "-21.888",
+          5
+        ],
+        [
+          "39.92442",
+          4
+        ],
+        [
+          "37.47037",
+          4
+        ],
+        [
+          "-23.2995",
+          4
+        ],
+        [
+          "49.9681",
+          3
+        ],
+        [
+          "37.938",
+          3
+        ],
+        [
+          "37.48456",
+          3
+        ],
+        [
+          "37.23377",
+          3
+        ],
+        [
+          "37.1741",
+          3
+        ],
+        [
+          "36.38908",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Latitude of origin of the plume, as estimated by the data provider",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plume Origin Longitude",
+      "code_friendly_name_guess": "plume_origin_longitude",
+      "n_total": 3474,
+      "n_null": 1,
+      "n_non_null": 3473,
+      "null_rate": 0.0003,
+      "n_unique": 3100,
+      "top_values": [
+        [
+          "150.72",
+          13
+        ],
+        [
+          "112.8327",
+          11
+        ],
+        [
+          "150.604",
+          10
+        ],
+        [
+          "-81.851",
+          10
+        ],
+        [
+          "112.8627",
+          8
+        ],
+        [
+          "110.8424",
+          8
+        ],
+        [
+          "110.8496",
+          6
+        ],
+        [
+          "-87.2399",
+          6
+        ],
+        [
+          "18.7354",
+          5
+        ],
+        [
+          "18.67612",
+          5
+        ],
+        [
+          "148.5817",
+          5
+        ],
+        [
+          "112.9201",
+          5
+        ],
+        [
+          "-87.3351",
+          5
+        ],
+        [
+          "-87.2397",
+          5
+        ],
+        [
+          "-87.1992",
+          5
+        ],
+        [
+          "-114.897",
+          5
+        ],
+        [
+          "-114.892",
+          5
+        ],
+        [
+          "148.323",
+          4
+        ],
+        [
+          "148.0217",
+          4
+        ],
+        [
+          "112.9916",
+          4
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Longitude of origin of the plume, as estimated by the data provider",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "For map only (has attribution information)",
+      "code_friendly_name_guess": "for_map_only_has_attribution_information",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "has attribution data",
+          2399
+        ],
+        [
+          "no atttribution data",
+          1075
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Workflow version",
+      "code_friendly_name_guess": "workflow_version",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Original",
+          1766
+        ],
+        [
+          "Bulk review",
+          1708
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Indicates which methodology (\"Original\" or \"Bulk review\") was used by GEM researchers to review and potentially attribute the methane plume satellite observation. See the tracker's \"Methodology\" wiki for details.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Improvements implemented between versions",
+      "code_friendly_name_guess": "improvements_implemented_between_versions",
+      "n_total": 3474,
+      "n_null": 3378,
+      "n_non_null": 96,
+      "null_rate": 0.9724,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "added mine feature category and attribution data through pseudo-boundary workflow",
+          37
+        ],
+        [
+          "added mine feature category data through pseudo-boundary workflow",
+          23
+        ],
+        [
+          "added attribution through pseudo-boundary research",
+          20
+        ],
+        [
+          "added mine feature category  and attribution data through pseudo-boundary workflow",
+          4
+        ],
+        [
+          "updated notes through pseudo-boundary research",
+          3
+        ],
+        [
+          "added mine feature category through pseudo-boundary workflow",
+          3
+        ],
+        [
+          "changed attribution based on pseudo-boundary - had been associated with Fording River Operations",
+          2
+        ],
+        [
+          "added feature category",
+          2
+        ],
+        [
+          "Plume was originally attributed to Genesee Coal Mine; this was corrected through pseudo-boundary research",
+          1
+        ],
+        [
+          "Dugout Canyon Coal Mine is now classified as \"closed\" and does not have a wiki associated with it",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "Provides details of changes made to plume attributions due to updated research processes",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Satellite Imagery Dates",
+      "code_friendly_name_guess": "satellite_imagery_dates",
+      "n_total": 3474,
+      "n_null": 1769,
+      "n_non_null": 1705,
+      "null_rate": 0.5092,
+      "n_unique": 345,
+      "top_values": [
+        [
+          "9/1/2013, 10/17/2022",
+          38
+        ],
+        [
+          "2024-08-20 00:00:00",
+          34
+        ],
+        [
+          "03/07/2023",
+          32
+        ],
+        [
+          "01/10/2022",
+          32
+        ],
+        [
+          "03/22/2021",
+          31
+        ],
+        [
+          "03/27/2021",
+          30
+        ],
+        [
+          "08/20/2024",
+          29
+        ],
+        [
+          "3/28/2022",
+          27
+        ],
+        [
+          "2022-03-28 00:00:00",
+          27
+        ],
+        [
+          "10/21/2019",
+          23
+        ],
+        [
+          "3/7/2023, 8/7/2025",
+          22
+        ],
+        [
+          "03/28/2023",
+          22
+        ],
+        [
+          "10/31/2021",
+          21
+        ],
+        [
+          "2022-05-24 00:00:00",
+          20
+        ],
+        [
+          "05/21/2022",
+          20
+        ],
+        [
+          "12/06/2022",
+          19
+        ],
+        [
+          "03/20/2023",
+          19
+        ],
+        [
+          "11/16/2023",
+          18
+        ],
+        [
+          "10/24/2024",
+          18
+        ],
+        [
+          "2024-10-03 00:00:00",
+          17
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The date or dates of basemap imagery against which the methane plume was visually reviewed.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "for internal use - is chinese coal mine",
+      "code_friendly_name_guess": "for_internal_use_is_chinese_coal_mine",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "n",
+          2703
+        ],
+        [
+          "y",
+          771
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "for internal use - auto attributed to PPSE",
+      "code_friendly_name_guess": "for_internal_use_auto_attributed_to_ppse",
+      "n_total": 3474,
+      "n_null": 3298,
+      "n_non_null": 176,
+      "null_rate": 0.9493,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Y",
+          176
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "for internal use - gem subnational unit",
+      "code_friendly_name_guess": "for_internal_use_gem_subnational_unit",
+      "n_total": 3474,
+      "n_null": 0,
+      "n_non_null": 3474,
+      "null_rate": 0.0,
+      "n_unique": 105,
+      "top_values": [
+        [
+          "US-CA",
+          811
+        ],
+        [
+          "CN-SX",
+          775
+        ],
+        [
+          "US-NM",
+          225
+        ],
+        [
+          "GMET Specific - LAWG",
+          217
+        ],
+        [
+          "US-PA",
+          156
+        ],
+        [
+          "US-AL",
+          141
+        ],
+        [
+          "RU-KEM",
+          133
+        ],
+        [
+          "US-TX",
+          101
+        ],
+        [
+          "US-OH",
+          91
+        ],
+        [
+          "AU-NSW",
+          86
+        ],
+        [
+          "PL-24",
+          84
+        ],
+        [
+          "AU-QLD",
+          71
+        ],
+        [
+          "CA-BC",
+          59
+        ],
+        [
+          "US-VA",
+          54
+        ],
+        [
+          "CN-AH",
+          51
+        ],
+        [
+          "CN-SN",
+          33
+        ],
+        [
+          "CO-CES",
+          25
+        ],
+        [
+          "CN-GZ",
+          24
+        ],
+        [
+          "ZA-MP",
+          23
+        ],
+        [
+          "DZ-30",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

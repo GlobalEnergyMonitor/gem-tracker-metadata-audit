@@ -1,0 +1,2635 @@
+{
+  "table_name": "global_wind_power_tracker_february_2026__data",
+  "tracker_slug": "global_wind_power_tracker_february_2026",
+  "tab_slug": "data",
+  "n_rows": 33248,
+  "analyzed_at": "2026-07-07T21:45:21.781248+00:00",
+  "tracker_info": {
+    "title": "Global Wind Power Tracker - February 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Wind Power Tracker, February 2026 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Janna E. Smith, Project Manager, Global Wind Power tracker (GWPT), Global Energy Monitor - janna.smith@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 845,
+      "top_values": [
+        [
+          "2022/04/05",
+          5137
+        ],
+        [
+          "2025/08/14",
+          1196
+        ],
+        [
+          "2025/09/09",
+          1191
+        ],
+        [
+          "2025/06/26",
+          988
+        ],
+        [
+          "2021/12/08",
+          949
+        ],
+        [
+          "2021/11/01",
+          917
+        ],
+        [
+          "2025/08/04",
+          769
+        ],
+        [
+          "2021/12/23",
+          475
+        ],
+        [
+          "2021/11/04",
+          460
+        ],
+        [
+          "2024/09/04",
+          334
+        ],
+        [
+          "2021/10/19",
+          315
+        ],
+        [
+          "2025/01/06",
+          247
+        ],
+        [
+          "2025/01/30",
+          220
+        ],
+        [
+          "2022/04/01",
+          195
+        ],
+        [
+          "2021/08/06",
+          183
+        ],
+        [
+          "2022/06/10",
+          178
+        ],
+        [
+          "2025/12/17",
+          177
+        ],
+        [
+          "2022/03/15",
+          172
+        ],
+        [
+          "2026/01/14",
+          167
+        ],
+        [
+          "2025/02/12",
+          163
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 165,
+      "top_values": [
+        [
+          "China",
+          10569
+        ],
+        [
+          "Germany",
+          2685
+        ],
+        [
+          "Spain",
+          2171
+        ],
+        [
+          "Brazil",
+          1904
+        ],
+        [
+          "France",
+          1817
+        ],
+        [
+          "United States",
+          1814
+        ],
+        [
+          "United Kingdom",
+          1372
+        ],
+        [
+          "Greece",
+          1265
+        ],
+        [
+          "India",
+          967
+        ],
+        [
+          "Vietnam",
+          481
+        ],
+        [
+          "Australia",
+          481
+        ],
+        [
+          "Sweden",
+          477
+        ],
+        [
+          "Türkiye",
+          436
+        ],
+        [
+          "Italy",
+          434
+        ],
+        [
+          "Canada",
+          401
+        ],
+        [
+          "Philippines",
+          374
+        ],
+        [
+          "Japan",
+          357
+        ],
+        [
+          "Poland",
+          326
+        ],
+        [
+          "Finland",
+          308
+        ],
+        [
+          "South Korea",
+          303
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 27010,
+      "top_values": [
+        [
+          "Serra do Assuruá wind farm",
+          24
+        ],
+        [
+          "Serra da Palmeira wind farm",
+          23
+        ],
+        [
+          "Alto Sertão 3 wind farm",
+          23
+        ],
+        [
+          "Serra Das Almas wind farm",
+          21
+        ],
+        [
+          "Lagoa Dos Ventos wind farm",
+          21
+        ],
+        [
+          "Castanheira wind farm (Brazil)",
+          20
+        ],
+        [
+          "Ventos de São Rafael wind farm",
+          19
+        ],
+        [
+          "União Dos Ventos wind farm",
+          18
+        ],
+        [
+          "Ventos de Santa Rosa wind farm",
+          17
+        ],
+        [
+          "Ventos de Santa Luzia wind farm",
+          17
+        ],
+        [
+          "Umburanas wind farm",
+          17
+        ],
+        [
+          "Três Divisas Wind Complex",
+          17
+        ],
+        [
+          "Assuruá wind farm",
+          16
+        ],
+        [
+          "Delta Maranhão wind farm",
+          15
+        ],
+        [
+          "Chafariz wind farm",
+          15
+        ],
+        [
+          "Alto Sertão 2 wind farm",
+          15
+        ],
+        [
+          "Ventos de Acaraú wind farm",
+          14
+        ],
+        [
+          "Ventos Do Araripe 3 wind farm",
+          14
+        ],
+        [
+          "Ventos De São Vitor wind farm",
+          14
+        ],
+        [
+          "Serra Da Babilônia wind farm",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Phase Name",
+      "code_friendly_name_guess": "phase_name",
+      "n_total": 33248,
+      "n_null": 2,
+      "n_non_null": 33246,
+      "null_rate": 0.0001,
+      "n_unique": 1485,
+      "top_values": [
+        [
+          "--",
+          20786
+        ],
+        [
+          "1.0",
+          5098
+        ],
+        [
+          "2.0",
+          3086
+        ],
+        [
+          "3.0",
+          840
+        ],
+        [
+          "4.0",
+          335
+        ],
+        [
+          "5.0",
+          176
+        ],
+        [
+          "RP1",
+          148
+        ],
+        [
+          "RP",
+          146
+        ],
+        [
+          "6.0",
+          113
+        ],
+        [
+          "7.0",
+          70
+        ],
+        [
+          "8.0",
+          62
+        ],
+        [
+          "9.0",
+          47
+        ],
+        [
+          "10.0",
+          41
+        ],
+        [
+          "11.0",
+          31
+        ],
+        [
+          "12.0",
+          30
+        ],
+        [
+          "RP2",
+          25
+        ],
+        [
+          "B",
+          25
+        ],
+        [
+          "A",
+          25
+        ],
+        [
+          "Ampliación",
+          24
+        ],
+        [
+          "1A",
+          24
+        ]
+      ],
+      "portion_numeric": 0.356,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 33248,
+      "n_null": 16710,
+      "n_non_null": 16538,
+      "null_rate": 0.5026,
+      "n_unique": 14662,
+      "top_values": [
+        [
+          "Parque Eólico Serra da Palmeira",
+          23
+        ],
+        [
+          "Complexo Eólico Alto Sertão 3",
+          23
+        ],
+        [
+          "Parque Eólico Lagoa dos Ventos",
+          21
+        ],
+        [
+          "Complexo Eólico Serra das Almas",
+          21
+        ],
+        [
+          "Parque Eólico Ventos de Santa Rosa, Complexo Eólico Dom Inocêncio Sul",
+          17
+        ],
+        [
+          "Complexo Eólico Umburanas",
+          17
+        ],
+        [
+          "Complexo Eólico Três Divisas",
+          17
+        ],
+        [
+          "Complexo Eólico Assuruá",
+          16
+        ],
+        [
+          "Complexo Eólico Delta Maranhão",
+          15
+        ],
+        [
+          "Complexo Eólico Chafariz",
+          15
+        ],
+        [
+          "Complexo Eólico Alto Sertão 2",
+          15
+        ],
+        [
+          "Parque Eólico Ventos de Acaraú",
+          14
+        ],
+        [
+          "Complexo Eólico Ventos de São Vitor",
+          14
+        ],
+        [
+          "Complexo Eólico Ventos do Araripe 3",
+          14
+        ],
+        [
+          "Complexo Eólico Serra da Babilônia",
+          14
+        ],
+        [
+          "Conjunto Eólico Santo Agostinho",
+          13
+        ],
+        [
+          "Parque Eólico Ventos de São Carlos, Parque Eólico Sento Se I",
+          12
+        ],
+        [
+          "Parque Eólico Ventos de Santo Elias",
+          12
+        ],
+        [
+          "Parque Eólico Fenix",
+          12
+        ],
+        [
+          "Conjunto Eólico GPEXPAN",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 33248,
+      "n_null": 25172,
+      "n_non_null": 8076,
+      "null_rate": 0.7571,
+      "n_unique": 5804,
+      "top_values": [
+        [
+          "Maestrazgo project, Clúster Maestrazgo",
+          22
+        ],
+        [
+          "Serra do Tigre wind farm",
+          19
+        ],
+        [
+          "Karystia wind project",
+          18
+        ],
+        [
+          "Dom Inocêncio Sul wind farm",
+          17
+        ],
+        [
+          "ex Delta 5-5 (Phase Delta 5 - 2)",
+          15
+        ],
+        [
+          "Zhangjiakou Wind/Solar/Hydrogen Demonstration project, 张家口风电光伏发电综合利用(制氢)示范项目",
+          14
+        ],
+        [
+          "Serra Babilonia",
+          14
+        ],
+        [
+          "PEol-482-AC project",
+          14
+        ],
+        [
+          "Ningxia Haiyuan Shangmaying wind farm 宁夏海原上马营风电场 (Phase 3), Ningxia Haiyuan Tuoliepu wind farm 宁夏海原脱列堡风电项目 (Phases 1, 1RP), Ningxia Haiyuan Langshuigou wind farm宁夏海原狼水沟风电场 (Phases 7, 7RP), Ningxia Haiyuan Songjiayao wind farm 宁夏海原宋家窑风电项目 (Phases 2, 2RP), Ningxia Haiyuan Xiayangwa wind farm 宁夏海原下阳洼风电场 (Phase 4), Ningxia Haiyuan Beishanwa wind farm宁夏海原北山洼风电场 (Phases 8, 8RP), Ningxia Haiyuan Jiajiashan wind farm 宁夏海原贾家山风电场 (Phases 5, 5RP), Ningxia Haiyuan Lijiawa wind farm 宁夏海原李家洼风电场 (Phases 6, 6RP)",
+          14
+        ],
+        [
+          "Compostilla Node",
+          13
+        ],
+        [
+          "12, EDF Serra Do Seridó (Phases 11, 14)",
+          13
+        ],
+        [
+          "Sento Sé I wind farm",
+          12
+        ],
+        [
+          "Alto Minho wind farm, Altto Minho, Santo Antonio Viana (Phase Santo António), Parque Eólico Ventominho",
+          12
+        ],
+        [
+          "Ningxia Zhongwei Hongshiwan Wind-farm 宁夏中卫香山红石湾风电场 (Phase 6), Ningxia Zhongwei Fanjiazhai Wind-farm 宁夏中卫香山范家寨风电场 (Phase 5), Ningxia Zhongwei Liujiashan Wind-farm 宁夏中卫香山刘家山风电场 (Phase 4), Ningxia Zhongwei Zaiganliang Wind-farm 宁夏中卫香山栽杆梁风电场 (Phase 7)",
+          11
+        ],
+        [
+          "Ningxia Ningdong Yangjiayao Windfarm Phase I (Phases 1, 1RP), Ningxia Lingwu Majiatan Windfarm (Phases 4, 4RP), Ningxia Ningdong Yangjiayao Windfarm Phase II (Phases 2, 2RP), Ningxia Lingwu Majiatan Windfarm 宁夏灵武马家滩宁东风电场三期 (Phases 3, 3RP), Ningxia Ningdong Xihuoshi Windfarm 宁夏宁东西火石风电场 (Phase 8), Ningxia Lingwu Baitugang Windfarm (Huadian) (Phase 5)",
+          11
+        ],
+        [
+          "Jacobina wind farm",
+          11
+        ],
+        [
+          "EXC Wind 1 (Phase 1-3), Exelon 4 (Phase 4-11)",
+          11
+        ],
+        [
+          "Can Gio phase 1I Floating Wind Farm (Phase 1I), Can Gio phase 1J Floating Wind Farm (Phase 1J), Can Gio phase 2 Floating Wind Farm (Phase 2), Can Gio phase 1F Floating Wind Farm (Phase 1F), Can Gio phase 1A (Phase 1A), Can Gio phase 1G Floating Wind Farm (Phase 1G), Can Gio phase 1A Floating Wind Farm (Phase 1A), Can Gio phase 1H Floating Wind Farm (Phase 1H), Can Gio phase 1D Floating Wind Farm (Phase 1D), Can Gio phase 1C Floating Wind Farm (Phase 1C), Can Gio phase 1E Floating Wind Farm (Phase 1E), Can Gio phase 1B Floating Wind Farm (Phase 1B)",
+          11
+        ],
+        [
+          "Ventos de São Cléofas",
+          10
+        ],
+        [
+          "Ventos Do Araripe 4 wind farm, Feijão wind farm",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 1581,
+      "top_values": [
+        [
+          "50.0",
+          4074
+        ],
+        [
+          "100.0",
+          2127
+        ],
+        [
+          "12.0",
+          1110
+        ],
+        [
+          "10.0",
+          1050
+        ],
+        [
+          "20.0",
+          841
+        ],
+        [
+          "30.0",
+          826
+        ],
+        [
+          "200.0",
+          795
+        ],
+        [
+          "48.0",
+          744
+        ],
+        [
+          "18.0",
+          622
+        ],
+        [
+          "15.0",
+          584
+        ],
+        [
+          "14.0",
+          530
+        ],
+        [
+          "150.0",
+          515
+        ],
+        [
+          "40.0",
+          463
+        ],
+        [
+          "24.0",
+          459
+        ],
+        [
+          "21.0",
+          397
+        ],
+        [
+          "16.0",
+          397
+        ],
+        [
+          "300.0",
+          365
+        ],
+        [
+          "22.0",
+          331
+        ],
+        [
+          "11.0",
+          330
+        ],
+        [
+          "60.0",
+          322
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Installation Type",
+      "code_friendly_name_guess": "installation_type",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Onshore",
+          30868
+        ],
+        [
+          "Offshore hard mount",
+          917
+        ],
+        [
+          "Offshore mount unknown",
+          724
+        ],
+        [
+          "Offshore floating",
+          436
+        ],
+        [
+          "Unknown",
+          303
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          18127
+        ],
+        [
+          "pre-construction",
+          6449
+        ],
+        [
+          "announced",
+          2257
+        ],
+        [
+          "cancelled",
+          1780
+        ],
+        [
+          "construction",
+          1585
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1128
+        ],
+        [
+          "shelved - inferred 2 y",
+          1070
+        ],
+        [
+          "shelved",
+          469
+        ],
+        [
+          "retired",
+          349
+        ],
+        [
+          "mothballed",
+          34
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "operating",
+          "definition": "Commercial operation date achieved"
+        },
+        {
+          "name": "construction",
+          "definition": "Equipment installation has begun"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing. Examples: (1) projects are the potential “Phase II” at a location where “Phase I” is currently under pre-construction, (2) Projects that are described in long-range company or governmental planning documents."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of operation has been announced. The status is marked as ‘shelved - inferred 2 y’ if no progress has been observed for at least two years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused but not dismantled"
+        },
+        {
+          "name": "retired",
+          "definition": "Dismantled"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made. The status is marked as 'cancelled - inferred 4 y’ if no progress has been observed for at least four years."
+        }
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 33248,
+      "n_null": 13825,
+      "n_non_null": 19423,
+      "null_rate": 0.4158,
+      "n_unique": 62,
+      "top_values": [
+        [
+          "2020.0",
+          1259
+        ],
+        [
+          "2021.0",
+          1087
+        ],
+        [
+          "2016.0",
+          1034
+        ],
+        [
+          "2015.0",
+          1030
+        ],
+        [
+          "2023.0",
+          962
+        ],
+        [
+          "2014.0",
+          938
+        ],
+        [
+          "2017.0",
+          928
+        ],
+        [
+          "2012.0",
+          891
+        ],
+        [
+          "2026.0",
+          859
+        ],
+        [
+          "2022.0",
+          858
+        ],
+        [
+          "2019.0",
+          833
+        ],
+        [
+          "2018.0",
+          757
+        ],
+        [
+          "2024.0",
+          754
+        ],
+        [
+          "2011.0",
+          745
+        ],
+        [
+          "2013.0",
+          742
+        ],
+        [
+          "2009.0",
+          673
+        ],
+        [
+          "2025.0",
+          636
+        ],
+        [
+          "2010.0",
+          556
+        ],
+        [
+          "2008.0",
+          509
+        ],
+        [
+          "2027.0",
+          483
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 33248,
+      "n_null": 32918,
+      "n_non_null": 330,
+      "null_rate": 0.9901,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "2020.0",
+          56
+        ],
+        [
+          "2021.0",
+          40
+        ],
+        [
+          "2022.0",
+          36
+        ],
+        [
+          "2019.0",
+          35
+        ],
+        [
+          "2023.0",
+          28
+        ],
+        [
+          "2017.0",
+          28
+        ],
+        [
+          "2024.0",
+          23
+        ],
+        [
+          "2018.0",
+          14
+        ],
+        [
+          "2025.0",
+          13
+        ],
+        [
+          "2013.0",
+          13
+        ],
+        [
+          "2015.0",
+          11
+        ],
+        [
+          "2016.0",
+          9
+        ],
+        [
+          "2014.0",
+          7
+        ],
+        [
+          "2012.0",
+          4
+        ],
+        [
+          "2027.0",
+          2
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "2043.0",
+          1
+        ],
+        [
+          "2029.0",
+          1
+        ],
+        [
+          "2028.0",
+          1
+        ],
+        [
+          "2026.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 33248,
+      "n_null": 13891,
+      "n_non_null": 19357,
+      "null_rate": 0.4178,
+      "n_unique": 9210,
+      "top_values": [
+        [
+          "EDF Renewables",
+          251
+        ],
+        [
+          "NextEra Energy",
+          178
+        ],
+        [
+          "Acciona Energía",
+          123
+        ],
+        [
+          "AES",
+          120
+        ],
+        [
+          "Enel Green Power",
+          119
+        ],
+        [
+          "WPD",
+          105
+        ],
+        [
+          "EDPR Renewable Energy Sources of Greece 1 Sole Proprietorship",
+          100
+        ],
+        [
+          "Enel Green Power Brasil Participações",
+          85
+        ],
+        [
+          "RWE",
+          81
+        ],
+        [
+          "ENGIE",
+          73
+        ],
+        [
+          "Iberdrola Renovables Energia",
+          69
+        ],
+        [
+          "ABO Wind",
+          67
+        ],
+        [
+          "Invenergy",
+          66
+        ],
+        [
+          "RWE Renewables",
+          64
+        ],
+        [
+          "Boralex",
+          64
+        ],
+        [
+          "Avangrid Renewables",
+          64
+        ],
+        [
+          "Omega Geração",
+          60
+        ],
+        [
+          "Enertrag",
+          57
+        ],
+        [
+          "Ventient Energy",
+          54
+        ],
+        [
+          "Enel Green Power España",
+          51
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 33248,
+      "n_null": 24115,
+      "n_non_null": 9133,
+      "null_rate": 0.7253,
+      "n_unique": 5259,
+      "top_values": [
+        [
+          "法國電力再生能源公司",
+          262
+        ],
+        [
+          "達德能源股份有限公司",
+          104
+        ],
+        [
+          "EDPR Ανανεωσιμες Πηγες Ενεργειας Ελλας 1 Μονοπροσωπη Ανωνυμη Εταιρεια",
+          102
+        ],
+        [
+          "Siemens Gamesa Renewable Energy A.E.",
+          42
+        ],
+        [
+          "株式会社ユーラスエナジーホールディングス",
+          41
+        ],
+        [
+          "Τερνα Ενεργειακη Ανωνυμη Βιομηχανικη Εμπορικη Τεχνικη Εταιρεια Α Ε",
+          32
+        ],
+        [
+          "安顺现代联鑫能源开发有限公司",
+          24
+        ],
+        [
+          "Καλλιστη Ενεργειακη Αε",
+          22
+        ],
+        [
+          "中广核风电有限公司",
+          20
+        ],
+        [
+          "远景能源有限公司",
+          17
+        ],
+        [
+          "华电国际宁夏新能源发电有限公司六盘山分公司",
+          17
+        ],
+        [
+          "中广核新能源（玉林）有限公司",
+          17
+        ],
+        [
+          "华润新能源（黎平）风能有限责任公司",
+          16
+        ],
+        [
+          "中广核贵州龙里风力发电有限公司",
+          16
+        ],
+        [
+          "晋能清洁能源风力发电有限责任公司",
+          15
+        ],
+        [
+          "新天绿色能源股份有限公司",
+          15
+        ],
+        [
+          "华能通辽风力发电有限公司",
+          14
+        ],
+        [
+          "龙源贵州风力发电有限公司",
+          13
+        ],
+        [
+          "四川盐源华电新能源有限公司",
+          13
+        ],
+        [
+          "台灣電力公司",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 33248,
+      "n_null": 9154,
+      "n_non_null": 24094,
+      "null_rate": 0.2753,
+      "n_unique": 8519,
+      "top_values": [
+        [
+          "Iberdrola Renovables Energia SA [100%]",
+          255
+        ],
+        [
+          "EDF Renewables [100%]",
+          227
+        ],
+        [
+          "ENGIE SA [100%]",
+          215
+        ],
+        [
+          "NextEra Energy Inc [100%]",
+          208
+        ],
+        [
+          "Acciona Energía SAU [100%]",
+          170
+        ],
+        [
+          "WPD AG [100%]",
+          160
+        ],
+        [
+          "Terna Energy [100%]",
+          139
+        ],
+        [
+          "AES Corp [100%]",
+          133
+        ],
+        [
+          "Enel Green Power SpA [100%]",
+          131
+        ],
+        [
+          "Enel Green Power España SL [100%]",
+          124
+        ],
+        [
+          "EDPR Renewable Energy Sources of Greece 1 Sole Proprietorship [100%]",
+          123
+        ],
+        [
+          "China Longyuan Power Group Corp Ltd [100%]",
+          123
+        ],
+        [
+          "Forestalia SL [100%]",
+          116
+        ],
+        [
+          "RWE AG [100%]",
+          114
+        ],
+        [
+          "RWE Renewables [100%]",
+          101
+        ],
+        [
+          "ABO Wind AG [100%]",
+          100
+        ],
+        [
+          "Statkraft AS [100%]",
+          96
+        ],
+        [
+          "Naturgy Energy Group SA [100%]",
+          91
+        ],
+        [
+          "Enel Green Power Brasil Participações Ltda [100%]",
+          90
+        ],
+        [
+          "EDP Renovables España [100%]",
+          90
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 33248,
+      "n_null": 24129,
+      "n_non_null": 9119,
+      "null_rate": 0.7257,
+      "n_unique": 3574,
+      "top_values": [
+        [
+          "法國電力再生能源公司",
+          305
+        ],
+        [
+          "達德能源股份有限公司",
+          179
+        ],
+        [
+          "华能新能源股份有限公司",
+          149
+        ],
+        [
+          "龙源电力集团股份有限公司",
+          148
+        ],
+        [
+          "EDPR Ανανεωσιμες Πηγες Ενεργειας Ελλας 1 Μονοπροσωπη Ανωνυμη Εταιρεια",
+          143
+        ],
+        [
+          "Τερνα Ενεργειακη Ανωνυμη Βιομηχανικη Εμπορικη Τεχνικη Εταιρεια Α Ε",
+          139
+        ],
+        [
+          "中广核风电有限公司",
+          130
+        ],
+        [
+          "华润电力新能源投资有限公司",
+          95
+        ],
+        [
+          "株式会社ユーラスエナジーホールディングス",
+          74
+        ],
+        [
+          "Ροκας Αιολικη Βορειος Ελλας Ιι Αβεε",
+          69
+        ],
+        [
+          "华电新能源集团股份有限公司",
+          59
+        ],
+        [
+          "中国三峡新能源（集团）股份有限公司",
+          58
+        ],
+        [
+          "华能国际电力股份有限公司",
+          54
+        ],
+        [
+          "北京天润新能投资有限公司",
+          48
+        ],
+        [
+          "中国大唐集团新能源股份有限公司",
+          44
+        ],
+        [
+          "Κ. Σαρρας & Σια - Θεση Μαδαρα Ο.Ε.",
+          44
+        ],
+        [
+          "三一重能股份有限公司",
+          43
+        ],
+        [
+          "中广核新能源投资（深圳）有限公司",
+          39
+        ],
+        [
+          "国家能源集团新能源有限责任公司",
+          37
+        ],
+        [
+          "中节能风力发电股份有限公司",
+          37
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Hydrogen",
+      "code_friendly_name_guess": "hydrogen",
+      "n_total": 33248,
+      "n_null": 32993,
+      "n_non_null": 255,
+      "null_rate": 0.9923,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          255
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Associated Storage",
+      "code_friendly_name_guess": "associated_storage",
+      "n_total": 33248,
+      "n_null": 32426,
+      "n_non_null": 822,
+      "null_rate": 0.9753,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "True",
+          822
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 27076,
+      "top_values": [
+        [
+          "36.0001",
+          112
+        ],
+        [
+          "43.2443",
+          102
+        ],
+        [
+          "37.0001",
+          92
+        ],
+        [
+          "34.0001",
+          88
+        ],
+        [
+          "27.6662",
+          58
+        ],
+        [
+          "24.0001",
+          47
+        ],
+        [
+          "23.0949",
+          47
+        ],
+        [
+          "23.1358",
+          40
+        ],
+        [
+          "-4.867",
+          36
+        ],
+        [
+          "42.4805",
+          35
+        ],
+        [
+          "38.0001",
+          35
+        ],
+        [
+          "40.8814",
+          34
+        ],
+        [
+          "33.0001",
+          32
+        ],
+        [
+          "10.3261",
+          30
+        ],
+        [
+          "32.0001",
+          29
+        ],
+        [
+          "45.9852",
+          28
+        ],
+        [
+          "37.7718",
+          27
+        ],
+        [
+          "26.545",
+          26
+        ],
+        [
+          "-7.8563",
+          25
+        ],
+        [
+          "40.9975",
+          20
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 27604,
+      "top_values": [
+        [
+          "119.0001",
+          111
+        ],
+        [
+          "114.3252",
+          100
+        ],
+        [
+          "112.0001",
+          90
+        ],
+        [
+          "114.0001",
+          72
+        ],
+        [
+          "111.7487",
+          58
+        ],
+        [
+          "69.6126",
+          47
+        ],
+        [
+          "109.0001",
+          47
+        ],
+        [
+          "113.1983",
+          40
+        ],
+        [
+          "102.0001",
+          39
+        ],
+        [
+          "120.0001",
+          38
+        ],
+        [
+          "-39.6514",
+          36
+        ],
+        [
+          "85.4633",
+          35
+        ],
+        [
+          "116.0921",
+          33
+        ],
+        [
+          "116.0001",
+          31
+        ],
+        [
+          "77.9851",
+          30
+        ],
+        [
+          "117.0001",
+          29
+        ],
+        [
+          "24.6859",
+          28
+        ],
+        [
+          "117.8428",
+          27
+        ],
+        [
+          "107.5132",
+          27
+        ],
+        [
+          "-43.3796",
+          26
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          16810
+        ],
+        [
+          "approximate",
+          16438
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 33248,
+      "n_null": 17029,
+      "n_non_null": 16219,
+      "null_rate": 0.5122,
+      "n_unique": 9271,
+      "top_values": [
+        [
+          "Sento Sé",
+          60
+        ],
+        [
+          "Gentio do Ouro",
+          59
+        ],
+        [
+          "Santanghu",
+          49
+        ],
+        [
+          "Santa Vitória do Palmar ",
+          45
+        ],
+        [
+          "Dom Inocêncio",
+          45
+        ],
+        [
+          "Sento Sé ",
+          42
+        ],
+        [
+          "Uribia",
+          32
+        ],
+        [
+          "Morro do Chapéu ",
+          32
+        ],
+        [
+          "Morro do Chapéu",
+          32
+        ],
+        [
+          "Trairi ",
+          31
+        ],
+        [
+          "Lajes",
+          31
+        ],
+        [
+          "João Câmara ",
+          29
+        ],
+        [
+          "Serra do Mel ",
+          28
+        ],
+        [
+          "Campo Formoso ",
+          25
+        ],
+        [
+          "Jhimpir",
+          24
+        ],
+        [
+          "Naomaohu",
+          22
+        ],
+        [
+          "Parazinho ",
+          21
+        ],
+        [
+          "Caetité ",
+          21
+        ],
+        [
+          "Tuoli",
+          20
+        ],
+        [
+          "Jandaíra ",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 33248,
+      "n_null": 10498,
+      "n_non_null": 22750,
+      "null_rate": 0.3157,
+      "n_unique": 5030,
+      "top_values": [
+        [
+          "Strathclyde",
+          157
+        ],
+        [
+          "Highland",
+          147
+        ],
+        [
+          "Regional Unit of Boeotia",
+          122
+        ],
+        [
+          "Euboea Regional Unit",
+          122
+        ],
+        [
+          "Somme",
+          98
+        ],
+        [
+          "Rodopi Regional Unit",
+          96
+        ],
+        [
+          "Dumfries and Galloway",
+          86
+        ],
+        [
+          "Evros Regional Unit",
+          81
+        ],
+        [
+          "Aisne",
+          81
+        ],
+        [
+          "Damao Banner",
+          76
+        ],
+        [
+          "Barköl",
+          73
+        ],
+        [
+          "Mori",
+          65
+        ],
+        [
+          "Zhangbei",
+          64
+        ],
+        [
+          "Yizhou District",
+          64
+        ],
+        [
+          "Weichang",
+          63
+        ],
+        [
+          "Marne",
+          61
+        ],
+        [
+          "Guazhou",
+          61
+        ],
+        [
+          "Aetolia-Acarnania Regional Unit",
+          60
+        ],
+        [
+          "Weining",
+          59
+        ],
+        [
+          "Kangbao",
+          56
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 33248,
+      "n_null": 15197,
+      "n_non_null": 18051,
+      "null_rate": 0.4571,
+      "n_unique": 1410,
+      "top_values": [
+        [
+          "Scotland",
+          698
+        ],
+        [
+          "Central Greece",
+          341
+        ],
+        [
+          "Zhangjiakou",
+          298
+        ],
+        [
+          "Yulin",
+          291
+        ],
+        [
+          "Região Geográfica Intermediária de Natal",
+          211
+        ],
+        [
+          "Xilingol League",
+          188
+        ],
+        [
+          "Eastern Macedonia and Thrace",
+          188
+        ],
+        [
+          "Bijie",
+          186
+        ],
+        [
+          "Wuzhong",
+          178
+        ],
+        [
+          "Hami",
+          174
+        ],
+        [
+          "Ulanqab",
+          167
+        ],
+        [
+          "Jiuquan",
+          158
+        ],
+        [
+          "Região Geográfica Intermediária de Irecê",
+          143
+        ],
+        [
+          "Baicheng",
+          123
+        ],
+        [
+          "Zaragoza",
+          120
+        ],
+        [
+          "Chifeng",
+          118
+        ],
+        [
+          "Xinzhou",
+          117
+        ],
+        [
+          "Shuozhou",
+          113
+        ],
+        [
+          "Northern Ireland",
+          113
+        ],
+        [
+          "Guilin",
+          111
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 33248,
+      "n_null": 4905,
+      "n_non_null": 28343,
+      "null_rate": 0.1475,
+      "n_unique": 1123,
+      "top_values": [
+        [
+          "Inner Mongolia",
+          1120
+        ],
+        [
+          "Scotland",
+          746
+        ],
+        [
+          "Guizhou",
+          712
+        ],
+        [
+          "Guangxi",
+          701
+        ],
+        [
+          "Hebei",
+          694
+        ],
+        [
+          "Henan",
+          673
+        ],
+        [
+          "Shanxi",
+          653
+        ],
+        [
+          "Bahia",
+          640
+        ],
+        [
+          "Xinjiang",
+          619
+        ],
+        [
+          "Hunan",
+          511
+        ],
+        [
+          "Gansu",
+          502
+        ],
+        [
+          "Shaanxi",
+          470
+        ],
+        [
+          "Aragón",
+          461
+        ],
+        [
+          "Thessaly and Central Greece",
+          449
+        ],
+        [
+          "Rio Grande do Norte",
+          440
+        ],
+        [
+          "Shandong",
+          416
+        ],
+        [
+          "Lower Saxony",
+          399
+        ],
+        [
+          "England",
+          342
+        ],
+        [
+          "Texas",
+          331
+        ],
+        [
+          "Galicia",
+          327
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Eastern Asia",
+          11369
+        ],
+        [
+          "Western Europe",
+          5142
+        ],
+        [
+          "Southern Europe",
+          4347
+        ],
+        [
+          "Northern Europe",
+          3080
+        ],
+        [
+          "Latin America and the Caribbean",
+          2698
+        ],
+        [
+          "Northern America",
+          2218
+        ],
+        [
+          "Southern Asia",
+          1093
+        ],
+        [
+          "South-eastern Asia",
+          989
+        ],
+        [
+          "Eastern Europe",
+          682
+        ],
+        [
+          "Western Asia",
+          561
+        ],
+        [
+          "Australia and New Zealand",
+          552
+        ],
+        [
+          "Sub-Saharan Africa",
+          275
+        ],
+        [
+          "Northern Africa",
+          134
+        ],
+        [
+          "Central Asia",
+          103
+        ],
+        [
+          "Melanesia",
+          3
+        ],
+        [
+          "Polynesia",
+          1
+        ],
+        [
+          "Micronesia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          14115
+        ],
+        [
+          "Europe",
+          13251
+        ],
+        [
+          "Americas",
+          4916
+        ],
+        [
+          "Oceania",
+          557
+        ],
+        [
+          "Africa",
+          409
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 27010,
+      "top_values": [
+        [
+          "L100000916499",
+          24
+        ],
+        [
+          "L100000916497",
+          23
+        ],
+        [
+          "L100000905463",
+          23
+        ],
+        [
+          "L100000905439",
+          21
+        ],
+        [
+          "L100000905202",
+          21
+        ],
+        [
+          "L100001021060",
+          20
+        ],
+        [
+          "L100000916520",
+          19
+        ],
+        [
+          "L100000905471",
+          18
+        ],
+        [
+          "L100000921816",
+          17
+        ],
+        [
+          "L100000916514",
+          17
+        ],
+        [
+          "L100000916506",
+          17
+        ],
+        [
+          "L100000905273",
+          17
+        ],
+        [
+          "L100000905417",
+          16
+        ],
+        [
+          "L100000905418",
+          15
+        ],
+        [
+          "L100000905336",
+          15
+        ],
+        [
+          "L100000904956",
+          15
+        ],
+        [
+          "L100000921811",
+          14
+        ],
+        [
+          "L100000918614",
+          14
+        ],
+        [
+          "L100000905505",
+          14
+        ],
+        [
+          "L100000905468",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 33248,
+      "top_values": [
+        [
+          "G100001092248",
+          1
+        ],
+        [
+          "G100001092215",
+          1
+        ],
+        [
+          "G100001092182",
+          1
+        ],
+        [
+          "G100001092149",
+          1
+        ],
+        [
+          "G100001092116",
+          1
+        ],
+        [
+          "G100001092097",
+          1
+        ],
+        [
+          "G100001092087",
+          1
+        ],
+        [
+          "G100001092085",
+          1
+        ],
+        [
+          "G100001092084",
+          1
+        ],
+        [
+          "G100001092083",
+          1
+        ],
+        [
+          "G100001092081",
+          1
+        ],
+        [
+          "G100001092079",
+          1
+        ],
+        [
+          "G100001092078",
+          1
+        ],
+        [
+          "G100001092077",
+          1
+        ],
+        [
+          "G100001092076",
+          1
+        ],
+        [
+          "G100001092075",
+          1
+        ],
+        [
+          "G100001092074",
+          1
+        ],
+        [
+          "G100001092073",
+          1
+        ],
+        [
+          "G100001092072",
+          1
+        ],
+        [
+          "G100001092071",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 33248,
+      "n_null": 27751,
+      "n_non_null": 5497,
+      "null_rate": 0.8347,
+      "n_unique": 4423,
+      "top_values": [
+        [
+          "World Resources Institute: WRI1023276",
+          12
+        ],
+        [
+          "EIA: 56557,EIA: 56560,EIA: 56839,EIA: 56835,EIA: 56561,EIA: 56838,EIA: 56559,EIA: 56562,EIA: 56558,EIA: 56836,EIA: 56837",
+          11
+        ],
+        [
+          "World Resources Institute: WRI1025866",
+          9
+        ],
+        [
+          "World Resources Institute: WRI1023275",
+          8
+        ],
+        [
+          "World Resources Institute: WRI1000087",
+          8
+        ],
+        [
+          "EPDK: EÜ/1149-7/827",
+          8
+        ],
+        [
+          "EIA: 61837,EIA: 61836,EIA: 58203,EIA: 57956,EIA: 57590",
+          8
+        ],
+        [
+          "EIA: 58395,EIA: 57294,EIA: 57282,EIA: 57292,EIA: 58394,EIA: 57293,EIA: 57291,EIA: 57835",
+          8
+        ],
+        [
+          "EIA: 56311,EIA: 56211,EIA: 56372,EIA: 56337,EIA: 56212",
+          8
+        ],
+        [
+          "World Resources Institute: WRI1023412",
+          7
+        ],
+        [
+          "World Resources Institute: WRI1023297,World Resources Institute: WRI1023300,World Resources Institute: WRI1023295,World Resources Institute: WRI1023296,World Resources Institute: WRI1023301,World Resources Institute: WRI1023302,World Resources Institute: WRI1023299",
+          7
+        ],
+        [
+          "VindMS: 2581-V-015,VindMS: 2581-V-012,VindMS: 2581-V-021,VindMS: 2581-V-009,VindMS: 2581-V-016",
+          7
+        ],
+        [
+          "ANEEL: EOL.CV.PI.031688-1,ANEEL: EOL.CV.PI.031687-3,ANEEL: EOL.CV.PI.031686-5,ANEEL: EOL.CV.PI.031691-1,ANEEL: EOL.CV.PI.031690-3,ANEEL: EOL.CV.PI.031689-0,ANEEL: EOL.CV.PI.031685-7",
+          7
+        ],
+        [
+          "World Resources Institute: 1024058,World Resources Institute: 1024046,World Resources Institute: 1024079,World Resources Institute: 1024078",
+          6
+        ],
+        [
+          "The Wind Power: 38067,38068,38069",
+          6
+        ],
+        [
+          "GSRN: 570715000000058035,GSRN: 571313113162867506,GSRN: 570715000000056802,GSRN: 570715000000057953,GSRN: 570715000000056680,GSRN: 571313113162956873,GSRN: 571313113162956910,GSRN: 570715000000064371,GSRN: 571313113162980564,GSRN: 570715000000084355,GSRN: 570715000000056697,GSRN: 571313113162980427,GSRN: 571313113162867599,GSRN: 571313113162867605,GSRN: 571313113162867575,GSRN: 571313113162980625,GSRN: 570715000000084409,GSRN: 570715000000064357,GSRN: 570715000000064524,GSRN: 571313113162867568,GSRN: 571313113162867612,GSRN: 570715000000057960,GSRN: 571313113162980595,GSRN: 570715000000084331,GSRN: 571313113162867643,GSRN: 570715000000064364,GSRN: 570715000000084348,GSRN: 570715000000058042,GSRN: 571313113162980533,GSRN: 570715000000064340,GSRN: 571313113162956859,GSRN: 571313113162867551,GSRN: 570715000000064388,GSRN: 571313113162867544,GSRN: 571313113162980502,GSRN: 571313113162956897,GSRN: 570715000000084386,GSRN: 571313113162956958,GSRN: 570715000000057977,GSRN: 570715000000056796,GSRN: 570715000000056765,GSRN: 571313113162867582,GSRN: 571313113162867667,GSRN: 570715000000057984,GSRN: 570715000000084317,GSRN: 571313113162956590,GSRN: 571313113162980243,GSRN: 571313113162867650,GSRN: 571313113162980656,GSRN: 570715000000084362,GSRN: 570715000000084416,GSRN: 571313113162867520,GSRN: 570715000000084393,GSRN: 571313113162980465,GSRN: 571313113162867537,GSRN: 571313113162867636,GSRN: 571313113162867629,GSRN: 570715000000056789,GSRN: 570715000000084324,GSRN: 570715000000064333",
+          6
+        ],
+        [
+          "EIA: 7526",
+          6
+        ],
+        [
+          "EIA: 64407,EIA: 68222,EIA: 56879,EIA: 56819,EIA: 57787,EIA: 68590",
+          6
+        ],
+        [
+          "EIA: 60342",
+          6
+        ],
+        [
+          "EIA: 60326",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 33248,
+      "n_null": 26937,
+      "n_non_null": 6311,
+      "null_rate": 0.8102,
+      "n_unique": 6269,
+      "top_values": [
+        [
+          "NEA: ",
+          5
+        ],
+        [
+          "REPD: 9309",
+          2
+        ],
+        [
+          "REPD: 5481",
+          2
+        ],
+        [
+          "REPD: 5325",
+          2
+        ],
+        [
+          "REPD: 4810",
+          2
+        ],
+        [
+          "REPD: 4408,REPD: 3993",
+          2
+        ],
+        [
+          "REPD: 4406",
+          2
+        ],
+        [
+          "REPD: 4103",
+          2
+        ],
+        [
+          "REPD: 3848",
+          2
+        ],
+        [
+          "REPD: 3499",
+          2
+        ],
+        [
+          "REPD: 3484",
+          2
+        ],
+        [
+          "REPD: 2903",
+          2
+        ],
+        [
+          "REPD: 2764",
+          2
+        ],
+        [
+          "REPD: 2541",
+          2
+        ],
+        [
+          "REPD: 2514",
+          2
+        ],
+        [
+          "RAE: 41438",
+          2
+        ],
+        [
+          "RAE: 40390",
+          2
+        ],
+        [
+          "ODRE: 17W000000057269P",
+          2
+        ],
+        [
+          "NEA: PWD23116201220010",
+          2
+        ],
+        [
+          "NEA: PWC23056212260016",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 33248,
+      "n_null": 0,
+      "n_non_null": 33248,
+      "null_rate": 0.0,
+      "n_unique": 26999,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Serra_do_Assuruá_wind_farm",
+          24
+        ],
+        [
+          "https://www.gem.wiki/Serra_da_Palmeira_wind_farm",
+          23
+        ],
+        [
+          "https://www.gem.wiki/Alto_Sertão_3_wind_farm",
+          23
+        ],
+        [
+          "https://www.gem.wiki/Serra_Das_Almas_wind_farm",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Lagoa_Dos_Ventos_wind_farm",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Castanheira_wind_farm_(Brazil)",
+          20
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_São_Rafael_wind_farm",
+          19
+        ],
+        [
+          "https://www.gem.wiki/União_Dos_Ventos_wind_farm",
+          18
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Santa_Rosa_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Santa_Luzia_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Umburanas_wind_farm",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Três_Divisas_Wind_Complex",
+          17
+        ],
+        [
+          "https://www.gem.wiki/Assuruá_wind_farm",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Delta_Maranhão_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Chafariz_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Alto_Sertão_2_wind_farm",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Ventos_de_Acaraú_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Ventos_Do_Araripe_3_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Ventos_De_São_Vitor_wind_farm",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Serra_Da_Babilônia_wind_farm",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

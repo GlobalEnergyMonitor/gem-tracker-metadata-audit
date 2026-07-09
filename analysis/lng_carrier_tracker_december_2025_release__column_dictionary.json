@@ -1,0 +1,202 @@
+{
+  "table_name": "lng_carrier_tracker_december_2025_release__column_dictionary",
+  "tracker_slug": "lng_carrier_tracker_december_2025_release",
+  "tab_slug": "column_dictionary",
+  "n_rows": 33,
+  "analyzed_at": "2026-07-07T21:45:22.047445+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Column",
+      "code_friendly_name_guess": "column",
+      "n_total": 33,
+      "n_null": 0,
+      "n_non_null": 33,
+      "null_rate": 0.0,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "Yard location plus code",
+          1
+        ],
+        [
+          "Yard location longitude",
+          1
+        ],
+        [
+          "Yard location latitude",
+          1
+        ],
+        [
+          "Yard location lat/lon [ref]",
+          1
+        ],
+        [
+          "Yard location accuracy",
+          1
+        ],
+        [
+          "Vessel type [ref]",
+          1
+        ],
+        [
+          "Vessel Type",
+          1
+        ],
+        [
+          "Status [ref]",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "Shipowner country/area [ref]",
+          1
+        ],
+        [
+          "Shipowner country/area",
+          1
+        ],
+        [
+          "Shipowner [ref]",
+          1
+        ],
+        [
+          "Shipowner",
+          1
+        ],
+        [
+          "Shipbuilder yard country/area [ref]",
+          1
+        ],
+        [
+          "Shipbuilder yard country/area",
+          1
+        ],
+        [
+          "Shipbuilder [ref]",
+          1
+        ],
+        [
+          "Shipbuilder",
+          1
+        ],
+        [
+          "Propulsion type [ref]",
+          1
+        ],
+        [
+          "Propulsion type",
+          1
+        ],
+        [
+          "Other names [ref]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Description",
+      "code_friendly_name_guess": "description",
+      "n_total": 33,
+      "n_null": 0,
+      "n_non_null": 33,
+      "null_rate": 0.0,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "conventional, FSRU, FSU, icebreaker, supporting, q-flex, q-max",
+          1
+        ],
+        [
+          "Year construction was complete and vessel was delivered for service",
+          1
+        ],
+        [
+          "Yard location lat/lon reference",
+          1
+        ],
+        [
+          "Vessel type reference",
+          1
+        ],
+        [
+          "Status reference",
+          1
+        ],
+        [
+          "Status (currently proposed, on order, active)",
+          1
+        ],
+        [
+          "Shipowner reference",
+          1
+        ],
+        [
+          "Shipowner country/area reference",
+          1
+        ],
+        [
+          "Shipbuilder yard country/area reference",
+          1
+        ],
+        [
+          "Shipbuilder reference",
+          1
+        ],
+        [
+          "Propulsion type reference",
+          1
+        ],
+        [
+          "Plus code from Google Maps, for easier lookup online",
+          1
+        ],
+        [
+          "Owner",
+          1
+        ],
+        [
+          "Other names reference",
+          1
+        ],
+        [
+          "Name reference",
+          1
+        ],
+        [
+          "Name of LNG carrier, with a preference given to the most common name available in an IMO number lookup. Note if the ship is not yet named, and is only identified by a hull number without more specific characteristics, we add an abbreviated name of the shipyard in parentheses to distinguish any hull numbers that might be duplicated across shipyards. This ensures that all carrier names are unique in the data set. Note also that if a ship has not been formally named yet, we do not consider it active. Alternatively, if a naming ceremony has occurred, we consider construction complete and mark the carrier active unless public evidence points to the contrary, e.g., for Arctic LNG 2 sanctioned ships built by Zvezda.",
+          1
+        ],
+        [
+          "Longitude of shipyard (rounded to 6 decimal places)",
+          1
+        ],
+        [
+          "Latitude of shipyard (rounded to 6 decimal places)",
+          1
+        ],
+        [
+          "LNG carrying capacity of vessel (stripped of units)",
+          1
+        ],
+        [
+          "IMO number reference",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

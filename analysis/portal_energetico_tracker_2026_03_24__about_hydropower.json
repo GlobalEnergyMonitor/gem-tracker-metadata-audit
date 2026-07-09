@@ -1,0 +1,356 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_hydropower",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_hydropower",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.171816+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Hydropower Tracker - March 2026",
+      "code_friendly_name_guess": "global_hydropower_tracker_march_2026",
+      "n_total": 999,
+      "n_null": 925,
+      "n_non_null": 74,
+      "null_rate": 0.9259,
+      "n_unique": 55,
+      "top_values": [
+        [
+          "Status",
+          11
+        ],
+        [
+          "Technology Type",
+          7
+        ],
+        [
+          "Column",
+          3
+        ],
+        [
+          "Hydropower project capacity cut-off, global",
+          2
+        ],
+        [
+          "Wiki URL",
+          1
+        ],
+        [
+          "Turbines",
+          1
+        ],
+        [
+          "Thresholds for Data Tab",
+          1
+        ],
+        [
+          "Thresholds for Below Threshold Tab",
+          1
+        ],
+        [
+          "This update now includes all operating and prospective projects with a capacity of at least 30 MW, lowering the capacity threshold for project inclusion from 45 MW to 30 MW.",
+          1
+        ],
+        [
+          "This update covers all regions of the globe, and uses the United Nations’ Statistics Division definitions of region and subregion. All prospective facilities, as well as any for which there was an indication of changed status, were researched for updates.",
+          1
+        ],
+        [
+          "The column name “Country/Area” continues to be used in place of “Country”. The “Country/Area” column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
+          1
+        ],
+        [
+          "Subregion 2",
+          1
+        ],
+        [
+          "Subregion 1",
+          1
+        ],
+        [
+          "State/Province 2",
+          1
+        ],
+        [
+          "State/Province 1",
+          1
+        ],
+        [
+          "Start Year",
+          1
+        ],
+        [
+          "Shelved and cancelled statuses continue to be specified using two subcategories, depending on if there was an announcement of delay or cancellation, or if the status is inferred by lack of observed progress.",
+          1
+        ],
+        [
+          "River / Watercourse",
+          1
+        ],
+        [
+          "Retired Year",
+          1
+        ],
+        [
+          "Region 2",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 939,
+      "n_non_null": 60,
+      "null_rate": 0.9399,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "n/a",
+          27
+        ],
+        [
+          "MW",
+          3
+        ],
+        [
+          "yyyy",
+          2
+        ],
+        [
+          "decimal degrees",
+          2
+        ],
+        [
+          "Full Name",
+          2
+        ],
+        [
+          "yyyy-mm-dd",
+          1
+        ],
+        [
+          "unknown",
+          1
+        ],
+        [
+          "shelved - inferred 2 y",
+          1
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "run-of-river",
+          1
+        ],
+        [
+          "retired",
+          1
+        ],
+        [
+          "pumped storage",
+          1
+        ],
+        [
+          "pre-construction",
+          1
+        ],
+        [
+          "operating",
+          1
+        ],
+        [
+          "mothballed",
+          1
+        ],
+        [
+          "conventional storage",
+          1
+        ],
+        [
+          "conventional and run-of-river",
+          1
+        ],
+        [
+          "conventional and pumped storage",
+          1
+        ],
+        [
+          "construction",
+          1
+        ],
+        [
+          "cancelled - inferred 4 y",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 999,
+      "n_null": 941,
+      "n_non_null": 58,
+      "null_rate": 0.9419,
+      "n_unique": 57,
+      "top_values": [
+        [
+          "Notes",
+          2
+        ],
+        [
+          "see rows 34-39 above",
+          1
+        ],
+        [
+          "see rows 22-31 above",
+          1
+        ],
+        [
+          "Year the project was or will be taken offline",
+          1
+        ],
+        [
+          "Year the project was or will be commissioned",
+          1
+        ],
+        [
+          "URL of GEM.wiki pages",
+          1
+        ],
+        [
+          "Turbine number and capacity",
+          1
+        ],
+        [
+          "Total nameplate capacity, or best available data, of the project, in megawatts",
+          1
+        ],
+        [
+          "The project typically or entirely generates electricty from flowing water with little to no storage capacity.",
+          1
+        ],
+        [
+          "The project typically or entirely generates electricity from water stored in a reservoir.",
+          1
+        ],
+        [
+          "The project has both conventional storage and run-of-river capability.",
+          1
+        ],
+        [
+          "The project has both conventional storage and pumped storage capability.",
+          1
+        ],
+        [
+          "The project generates electricity using water which is cycled between a lower and an upper reservoir by a pumping system.",
+          1
+        ],
+        [
+          "The name of the river or watercourse on which the project is located",
+          1
+        ],
+        [
+          "The company(ies) that operates the project",
+          1
+        ],
+        [
+          "The company that directly owns the project",
+          1
+        ],
+        [
+          "Technology type not specified.",
+          1
+        ],
+        [
+          "Suspension of progress has been announced.",
+          1
+        ],
+        [
+          "Subregion (using UN Population and Statistics definitions) where project is located within Country/Area 2, if applicable",
+          1
+        ],
+        [
+          "Subregion (using UN Population and Statistics definitions) where project is located within Country/Area 1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 999,
+      "n_null": 988,
+      "n_non_null": 11,
+      "null_rate": 0.989,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within the boundaries of one country/area.",
+          2
+        ],
+        [
+          "Wiki page links not included for Below Threshold projects.",
+          1
+        ],
+        [
+          "Used to link together multiple projects that are part of a collection of related power-generating infrastructure but which should be considered different plants due to distinct physical infrastructure, geographic separation, and/or other factors such as ownership or operation. Left blank if not part of a complex.",
+          1
+        ],
+        [
+          "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed.",
+          1
+        ],
+        [
+          "Notes",
+          1
+        ],
+        [
+          "Information about the project's turbines, semicolon-separated.",
+          1
+        ],
+        [
+          "If project is binational, Country/Area 2 is either the country/area listed second in alphabetical order for projects where capacity is shared equally, or the country/area with a smaller portion of the total project capacity.",
+          1
+        ],
+        [
+          "If project is binational, Country/Area 1 is either the country/area listed first in alphabetical order for projects where capacity is shared equally, or the country/area with a larger portion of the total project capacity.",
+          1
+        ],
+        [
+          "If percent ownership is known, format is CompanyA [X%]; CompanyB [Y%].",
+          1
+        ],
+        [
+          "Company that performs day-to-day operations and maintenance of the project.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    }
+  ]
+}

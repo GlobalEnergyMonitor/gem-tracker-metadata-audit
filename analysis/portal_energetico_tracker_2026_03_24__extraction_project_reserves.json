@@ -1,0 +1,546 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__extraction_project_reserves",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "extraction_project_reserves",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.311419+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "L100000318403",
+          3
+        ],
+        [
+          "L100000309197",
+          3
+        ],
+        [
+          "L100001063693",
+          2
+        ],
+        [
+          "L100000324830",
+          2
+        ],
+        [
+          "L100000324400",
+          2
+        ],
+        [
+          "L100000324165",
+          2
+        ],
+        [
+          "L100000310908",
+          2
+        ],
+        [
+          "L100000305040",
+          2
+        ],
+        [
+          "L100001080895",
+          1
+        ],
+        [
+          "L100001080894",
+          1
+        ],
+        [
+          "L100001055776",
+          1
+        ],
+        [
+          "L100001055766",
+          1
+        ],
+        [
+          "L100000324417",
+          1
+        ],
+        [
+          "L100000324242",
+          1
+        ],
+        [
+          "L100000324240",
+          1
+        ],
+        [
+          "L100000324239",
+          1
+        ],
+        [
+          "L100000324238",
+          1
+        ],
+        [
+          "L100000324167",
+          1
+        ],
+        [
+          "L100000324158",
+          1
+        ],
+        [
+          "L100000323392",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "Oritupano-Leona Oil and Gas Project (Venezuela)",
+          3
+        ],
+        [
+          "Juniper Oil and Gas Project (Trinidad and Tobago)",
+          3
+        ],
+        [
+          "Sergipe-Alagoas Deepwater Oil and Gas Project (Brazil)",
+          2
+        ],
+        [
+          "Sea Lion Oil and Gas Project (Falkland Islands)",
+          2
+        ],
+        [
+          "Ruby Oil and Gas Project (Trinidad and Tobago)",
+          2
+        ],
+        [
+          "Margarita - Huacaya Gas Project (Tarija, Bolivia)",
+          2
+        ],
+        [
+          "Greater Angostura Gas Project (Trinidad and Tobago)",
+          2
+        ],
+        [
+          "Camisea Oil and Gas Project (Peru)",
+          2
+        ],
+        [
+          "Yumuri-Seboruco Oil Project (Matanzas, Cuba)",
+          1
+        ],
+        [
+          "Yellowtail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Whiptail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Velásquez-Palagua Oil Project (Boyaca, Colombia)",
+          1
+        ],
+        [
+          "Uaru Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Tigana/Jacana Oil Project (Casanare, Colombia)",
+          1
+        ],
+        [
+          "Sirius Gas Project (Guajira, Colombia)",
+          1
+        ],
+        [
+          "Sacha Oil and Gas Project (Ecuador)",
+          1
+        ],
+        [
+          "Polok-Chinwol Oil Project (Mexico)",
+          1
+        ],
+        [
+          "Pit-Baksha Oil and Gas Project (Mexico)",
+          1
+        ],
+        [
+          "Payara-Pacora Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Parque das Baleias Oil and Gas Project (Espírito Santo, Brazil)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Venezuela",
+          12
+        ],
+        [
+          "Trinidad and Tobago",
+          11
+        ],
+        [
+          "Colombia",
+          10
+        ],
+        [
+          "Brazil",
+          6
+        ],
+        [
+          "Guyana",
+          5
+        ],
+        [
+          "Ecuador",
+          3
+        ],
+        [
+          "Bolivia",
+          3
+        ],
+        [
+          "Peru",
+          2
+        ],
+        [
+          "Mexico",
+          2
+        ],
+        [
+          "Falkland Islands",
+          2
+        ],
+        [
+          "Cuba",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "oil",
+          25
+        ],
+        [
+          "gas",
+          20
+        ],
+        [
+          "hydrocarbons",
+          7
+        ],
+        [
+          "oil and condensate",
+          2
+        ],
+        [
+          "crude oil and condensate",
+          2
+        ],
+        [
+          "crude oil",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reserves classification",
+      "code_friendly_name_guess": "reserves_classification",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "reserves",
+          9
+        ],
+        [
+          "recoverable reserves",
+          5
+        ],
+        [
+          "resources",
+          4
+        ],
+        [
+          "remaining recoverable reserves",
+          4
+        ],
+        [
+          "estimated oil-in-place",
+          4
+        ],
+        [
+          "1P reserves",
+          4
+        ],
+        [
+          "probable reserves",
+          3
+        ],
+        [
+          "2P reserves",
+          3
+        ],
+        [
+          "volume in place",
+          2
+        ],
+        [
+          "EUR",
+          2
+        ],
+        [
+          "3P reserves",
+          2
+        ],
+        [
+          "2C Contingent Resources",
+          2
+        ],
+        [
+          "remaining reserves",
+          1
+        ],
+        [
+          "proven reserves",
+          1
+        ],
+        [
+          "original oil in place",
+          1
+        ],
+        [
+          "original gas in place",
+          1
+        ],
+        [
+          "oil in place",
+          1
+        ],
+        [
+          "geological reserves",
+          1
+        ],
+        [
+          "expected recoverable reserves",
+          1
+        ],
+        [
+          "estimated recoverable reserves",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 54,
+      "top_values": [
+        [
+          "800.0",
+          2
+        ],
+        [
+          "28317.0",
+          2
+        ],
+        [
+          "1000.0",
+          2
+        ],
+        [
+          "925.0",
+          1
+        ],
+        [
+          "87782.7",
+          1
+        ],
+        [
+          "8778.27",
+          1
+        ],
+        [
+          "87000.0",
+          1
+        ],
+        [
+          "850.0",
+          1
+        ],
+        [
+          "84.0",
+          1
+        ],
+        [
+          "83611.323",
+          1
+        ],
+        [
+          "819.0",
+          1
+        ],
+        [
+          "621.0",
+          1
+        ],
+        [
+          "600.0",
+          1
+        ],
+        [
+          "6.92",
+          1
+        ],
+        [
+          "56634.0",
+          1
+        ],
+        [
+          "56.98",
+          1
+        ],
+        [
+          "557000.0",
+          1
+        ],
+        [
+          "504.0",
+          1
+        ],
+        [
+          "489000.0",
+          1
+        ],
+        [
+          "45307.2",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "million bbl",
+          30
+        ],
+        [
+          "million m³",
+          20
+        ],
+        [
+          "million boe",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Data source type",
+      "code_friendly_name_guess": "data_source_type",
+      "n_total": 999,
+      "n_null": 942,
+      "n_non_null": 57,
+      "null_rate": 0.9429,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level reserves",
+          48
+        ],
+        [
+          "reserves summed from fields",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

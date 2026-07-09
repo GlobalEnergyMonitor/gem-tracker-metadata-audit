@@ -1,0 +1,412 @@
+{
+  "table_name": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1__6_fin_by_type",
+  "tracker_slug": "global_coal_project_finance_tracker_november_2025_global_energy_monitor_1",
+  "tab_slug": "6_fin_by_type",
+  "n_rows": 21,
+  "analyzed_at": "2026-07-07T21:45:11.432064+00:00",
+  "tracker_info": {
+    "title": "Global Coal Project Finance Tracker - November 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": null,
+    "license": "Copyright © Global Energy Monitor. Global Coal Project Tracker, November 2025 release."
+  },
+  "fields": [
+    {
+      "field_name": "_col0",
+      "code_friendly_name_guess": "col0",
+      "n_total": 21,
+      "n_null": 21,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Project Financing ($USD) by Finance Type and Financier Type (2010-April 2025)",
+      "code_friendly_name_guess": "coal_project_financing_usd_by_finance_type_and_financier_type_2010_april_2025",
+      "n_total": 21,
+      "n_null": 21,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col2",
+      "code_friendly_name_guess": "col2",
+      "n_total": 21,
+      "n_null": 7,
+      "n_non_null": 14,
+      "null_rate": 0.3333,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Closed",
+          6
+        ],
+        [
+          "Financing",
+          3
+        ],
+        [
+          "Stopped",
+          2
+        ],
+        [
+          "Grand Total",
+          1
+        ],
+        [
+          "Financing Status",
+          1
+        ],
+        [
+          "*Retirement Refinancing Loans and Insurance have also been identified for projects, although financing values for these categories could not be determined. ",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col3",
+      "code_friendly_name_guess": "col3",
+      "n_total": 21,
+      "n_null": 7,
+      "n_non_null": 14,
+      "null_rate": 0.3333,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Loan",
+          3
+        ],
+        [
+          "Equity",
+          3
+        ],
+        [
+          "Grant",
+          2
+        ],
+        [
+          "Type of Finance",
+          1
+        ],
+        [
+          "Refinancing loan",
+          1
+        ],
+        [
+          "Refinancing bond",
+          1
+        ],
+        [
+          "Global Coal Project Finance Tracker, Global Energy Monitor",
+          1
+        ],
+        [
+          "Download full dataset here",
+          1
+        ],
+        [
+          "Bond",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col4",
+      "code_friendly_name_guess": "col4",
+      "n_total": 21,
+      "n_null": 9,
+      "n_non_null": 12,
+      "null_rate": 0.4286,
+      "n_unique": 12,
+      "top_values": [
+        [
+          "Government Policy Institution",
+          1
+        ],
+        [
+          "Financier Type",
+          1
+        ],
+        [
+          "925802002.105",
+          1
+        ],
+        [
+          "89693730591.8315",
+          1
+        ],
+        [
+          "812000000.0",
+          1
+        ],
+        [
+          "8005400000.0",
+          1
+        ],
+        [
+          "625557263.0",
+          1
+        ],
+        [
+          "4641974627.0",
+          1
+        ],
+        [
+          "390000000.0",
+          1
+        ],
+        [
+          "2720191476.0",
+          1
+        ],
+        [
+          "1464110000.0",
+          1
+        ],
+        [
+          "109278765959.93651",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8333,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "_col5",
+      "code_friendly_name_guess": "col5",
+      "n_total": 21,
+      "n_null": 10,
+      "n_non_null": 11,
+      "null_rate": 0.4762,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Government-owned commercial institution",
+          1
+        ],
+        [
+          "9956135479.39",
+          1
+        ],
+        [
+          "953073967.0",
+          1
+        ],
+        [
+          "940000000.0",
+          1
+        ],
+        [
+          "89981570155.9445",
+          1
+        ],
+        [
+          "7395741853.999999",
+          1
+        ],
+        [
+          "4720857243.000008",
+          1
+        ],
+        [
+          "19427793957.66667",
+          1
+        ],
+        [
+          "193750000.0",
+          1
+        ],
+        [
+          "134903302582.00089",
+          1
+        ],
+        [
+          "1334379925.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9091,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "_col6",
+      "code_friendly_name_guess": "col6",
+      "n_total": 21,
+      "n_null": 10,
+      "n_non_null": 11,
+      "null_rate": 0.4762,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Privately-owned commercial institution",
+          1
+        ],
+        [
+          "913832962.0000001",
+          1
+        ],
+        [
+          "59010067326.00001",
+          1
+        ],
+        [
+          "5160388749.000001",
+          1
+        ],
+        [
+          "4702709483.0",
+          1
+        ],
+        [
+          "28883811324.00004",
+          1
+        ],
+        [
+          "2485730338.4",
+          1
+        ],
+        [
+          "1891500000.0",
+          1
+        ],
+        [
+          "1415001283.2",
+          1
+        ],
+        [
+          "105474291465.60002",
+          1
+        ],
+        [
+          "1011250000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9091,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "_col7",
+      "code_friendly_name_guess": "col7",
+      "n_total": 21,
+      "n_null": 8,
+      "n_non_null": 13,
+      "null_rate": 0.381,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Grand Total",
+          1
+        ],
+        [
+          "8375974926.0",
+          1
+        ],
+        [
+          "625557263.0",
+          1
+        ],
+        [
+          "52953579908.66662",
+          1
+        ],
+        [
+          "390000000.0",
+          1
+        ],
+        [
+          "3561381208.2",
+          1
+        ],
+        [
+          "349656360007.53735",
+          1
+        ],
+        [
+          "238685368073.7765",
+          1
+        ],
+        [
+          "1853832962.0",
+          1
+        ],
+        [
+          "17292641854.000008",
+          1
+        ],
+        [
+          "13367667819.894997",
+          1
+        ],
+        [
+          "1205000000.0",
+          1
+        ],
+        [
+          "11345355991.999992",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9231,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "_col8",
+      "code_friendly_name_guess": "col8",
+      "n_total": 21,
+      "n_null": 21,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

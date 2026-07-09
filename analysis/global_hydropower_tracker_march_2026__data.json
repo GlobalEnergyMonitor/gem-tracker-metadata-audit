@@ -1,0 +1,3265 @@
+{
+  "table_name": "global_hydropower_tracker_march_2026__data",
+  "tracker_slug": "global_hydropower_tracker_march_2026",
+  "tab_slug": "data",
+  "n_rows": 7027,
+  "analyzed_at": "2026-07-07T21:45:14.452854+00:00",
+  "tracker_info": {
+    "title": "Global Hydropower Tracker - March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Hydropower Tracker, March 2026 release\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Joe Bernardi, Project Manager, Global Hydro and Nuclear Trackers, Global Energy Monitor: joe.bernardi@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Hydropower Tracker, March 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 312,
+      "top_values": [
+        [
+          "2022-09-14 00:00:00",
+          479
+        ],
+        [
+          "2023-03-08 00:00:00",
+          232
+        ],
+        [
+          "2022-05-20 00:00:00",
+          144
+        ],
+        [
+          "2023-02-22 00:00:00",
+          136
+        ],
+        [
+          "2025-12-08 00:00:00",
+          134
+        ],
+        [
+          "2025-12-15 00:00:00",
+          128
+        ],
+        [
+          "2025-11-06 00:00:00",
+          101
+        ],
+        [
+          "2025-11-10 00:00:00",
+          93
+        ],
+        [
+          "2025-12-02 00:00:00",
+          92
+        ],
+        [
+          "2025-11-05 00:00:00",
+          83
+        ],
+        [
+          "2022-09-23 00:00:00",
+          83
+        ],
+        [
+          "2025-12-09 00:00:00",
+          80
+        ],
+        [
+          "2022-11-21 00:00:00",
+          78
+        ],
+        [
+          "2022-06-17 00:00:00",
+          78
+        ],
+        [
+          "2022-09-16 00:00:00",
+          74
+        ],
+        [
+          "2025-12-04 00:00:00",
+          73
+        ],
+        [
+          "2022-06-02 00:00:00",
+          72
+        ],
+        [
+          "2025-11-13 00:00:00",
+          71
+        ],
+        [
+          "2025-10-14 00:00:00",
+          71
+        ],
+        [
+          "2022-05-24 00:00:00",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 1",
+      "code_friendly_name_guess": "country_area_1",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "China",
+          1386
+        ],
+        [
+          "India",
+          527
+        ],
+        [
+          "United States",
+          519
+        ],
+        [
+          "Norway",
+          239
+        ],
+        [
+          "Brazil",
+          226
+        ],
+        [
+          "Japan",
+          219
+        ],
+        [
+          "Canada",
+          217
+        ],
+        [
+          "Türkiye",
+          186
+        ],
+        [
+          "Nepal",
+          184
+        ],
+        [
+          "France",
+          156
+        ],
+        [
+          "Italy",
+          143
+        ],
+        [
+          "Spain",
+          133
+        ],
+        [
+          "Vietnam",
+          123
+        ],
+        [
+          "Sweden",
+          123
+        ],
+        [
+          "Switzerland",
+          108
+        ],
+        [
+          "Austria",
+          95
+        ],
+        [
+          "Russia",
+          92
+        ],
+        [
+          "Pakistan",
+          86
+        ],
+        [
+          "Laos",
+          84
+        ],
+        [
+          "Indonesia",
+          78
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 2",
+      "code_friendly_name_guess": "country_area_2",
+      "n_total": 7027,
+      "n_null": 6952,
+      "n_non_null": 75,
+      "null_rate": 0.9893,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "Germany",
+          10
+        ],
+        [
+          "Thailand",
+          5
+        ],
+        [
+          "Serbia",
+          5
+        ],
+        [
+          "Rwanda",
+          5
+        ],
+        [
+          "Switzerland",
+          4
+        ],
+        [
+          "Paraguay",
+          4
+        ],
+        [
+          "North Korea",
+          4
+        ],
+        [
+          "Zambia",
+          3
+        ],
+        [
+          "Portugal",
+          3
+        ],
+        [
+          "Iran",
+          3
+        ],
+        [
+          "Zimbabwe",
+          2
+        ],
+        [
+          "Uzbekistan",
+          2
+        ],
+        [
+          "Spain",
+          2
+        ],
+        [
+          "Romania",
+          2
+        ],
+        [
+          "DR Congo",
+          2
+        ],
+        [
+          "Croatia",
+          2
+        ],
+        [
+          "Bosnia and Herzegovina",
+          2
+        ],
+        [
+          "Angola",
+          2
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "Turkmenistan",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6709,
+      "top_values": [
+        [
+          "Kuttiyadi hydroelectric plant",
+          3
+        ],
+        [
+          "Zhouning hydroelectric plant",
+          2
+        ],
+        [
+          "Yixian hydroelectric plant",
+          2
+        ],
+        [
+          "Yinpan hydroelectric plant",
+          2
+        ],
+        [
+          "Wanapum hydroelectric plant",
+          2
+        ],
+        [
+          "Uri-I hydroelectric plant",
+          2
+        ],
+        [
+          "Tri An hydroelectric plant",
+          2
+        ],
+        [
+          "Tiantai hydroelectric plant",
+          2
+        ],
+        [
+          "Tagake hydroelectric plant",
+          2
+        ],
+        [
+          "Svetlinsk hydroelectric plant",
+          2
+        ],
+        [
+          "Srinagarind hydroelectric plant",
+          2
+        ],
+        [
+          "Shaping Stage 1 hydroelectric plant",
+          2
+        ],
+        [
+          "Rogun hydroelectric plant",
+          2
+        ],
+        [
+          "Ranganadi hydroelectric plant",
+          2
+        ],
+        [
+          "Porjus hydroelectric plant",
+          2
+        ],
+        [
+          "Pankou hydroelectric plant",
+          2
+        ],
+        [
+          "Panjiakou hydroelectric plant",
+          2
+        ],
+        [
+          "Pallivasal hydroelectric plant",
+          2
+        ],
+        [
+          "Nam Emeun hydroelectric plant",
+          2
+        ],
+        [
+          "Messaure hydroelectric plant",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name (local lang/script)",
+      "code_friendly_name_guess": "project_name_local_lang_script",
+      "n_total": 7027,
+      "n_null": 4458,
+      "n_non_null": 2569,
+      "null_rate": 0.6344,
+      "n_unique": 2522,
+      "top_values": [
+        [
+          "희천발전소",
+          3
+        ],
+        [
+          "청평수력, 청평양수발전소",
+          2
+        ],
+        [
+          "안변청년발전소, 금강산발전소",
+          2
+        ],
+        [
+          "黄龙滩抽水蓄能电站",
+          2
+        ],
+        [
+          "高滩水电站",
+          2
+        ],
+        [
+          "靖安洪屏抽水蓄能电站",
+          2
+        ],
+        [
+          "青龙水电站",
+          2
+        ],
+        [
+          "葛野川発電所",
+          2
+        ],
+        [
+          "红水河龙滩水电站",
+          2
+        ],
+        [
+          "紧水滩混合式抽水蓄能电站",
+          2
+        ],
+        [
+          "神流川発電所",
+          2
+        ],
+        [
+          "白山抽水蓄能电站",
+          2
+        ],
+        [
+          "潘家口抽水蓄能电站",
+          2
+        ],
+        [
+          "潘口抽水蓄能电站",
+          2
+        ],
+        [
+          "洛宁抽水蓄能电站",
+          2
+        ],
+        [
+          "棉花滩水电站",
+          2
+        ],
+        [
+          "易县抽水蓄能电站",
+          2
+        ],
+        [
+          "安曇発電所",
+          2
+        ],
+        [
+          "安康混合式抽水蓄能电站",
+          2
+        ],
+        [
+          "天台抽水蓄能电站",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 7027,
+      "n_null": 5154,
+      "n_non_null": 1873,
+      "null_rate": 0.7335,
+      "n_unique": 1830,
+      "top_values": [
+        [
+          "Yadkin",
+          3
+        ],
+        [
+          "Santiago",
+          3
+        ],
+        [
+          "Ohau",
+          3
+        ],
+        [
+          "North Umpqua",
+          3
+        ],
+        [
+          "Kakkayam",
+          3
+        ],
+        [
+          "Камбар-Ата-1 ГЭСи",
+          2
+        ],
+        [
+          "Zhouning Muyangxi",
+          2
+        ],
+        [
+          "Yuqori Pskem PSPP",
+          2
+        ],
+        [
+          "West Suriname",
+          2
+        ],
+        [
+          "Vilyuisk-3 hydroelectric plant",
+          2
+        ],
+        [
+          "Veytaux-Hongrin",
+          2
+        ],
+        [
+          "Tekapo",
+          2
+        ],
+        [
+          "San Gabán 4",
+          2
+        ],
+        [
+          "Porjus Nya",
+          2
+        ],
+        [
+          "Panyor Lower",
+          2
+        ],
+        [
+          "Nzilo",
+          2
+        ],
+        [
+          "Nurabad",
+          2
+        ],
+        [
+          "Masjed-e-Soleiman",
+          2
+        ],
+        [
+          "La Angostura II (Phase 2)",
+          2
+        ],
+        [
+          "Kvarnsveden 2, Kvarnsveden III",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 763,
+      "top_values": [
+        [
+          "1200",
+          229
+        ],
+        [
+          "30",
+          219
+        ],
+        [
+          "40",
+          138
+        ],
+        [
+          "60",
+          135
+        ],
+        [
+          "100",
+          132
+        ],
+        [
+          "50",
+          130
+        ],
+        [
+          "120",
+          112
+        ],
+        [
+          "32",
+          102
+        ],
+        [
+          "45",
+          100
+        ],
+        [
+          "36",
+          92
+        ],
+        [
+          "80",
+          84
+        ],
+        [
+          "1000",
+          83
+        ],
+        [
+          "300",
+          82
+        ],
+        [
+          "42",
+          79
+        ],
+        [
+          "38",
+          78
+        ],
+        [
+          "180",
+          77
+        ],
+        [
+          "150",
+          77
+        ],
+        [
+          "600",
+          76
+        ],
+        [
+          "48",
+          75
+        ],
+        [
+          "90",
+          73
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Binational",
+      "code_friendly_name_guess": "binational",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "No",
+          6700
+        ],
+        [
+          "Yes",
+          72
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 1 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_1_capacity_mw",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 765,
+      "top_values": [
+        [
+          "1200",
+          231
+        ],
+        [
+          "30",
+          218
+        ],
+        [
+          "40",
+          140
+        ],
+        [
+          "60",
+          135
+        ],
+        [
+          "50",
+          133
+        ],
+        [
+          "100",
+          129
+        ],
+        [
+          "120",
+          111
+        ],
+        [
+          "32",
+          101
+        ],
+        [
+          "45",
+          100
+        ],
+        [
+          "36",
+          91
+        ],
+        [
+          "80",
+          83
+        ],
+        [
+          "1000",
+          83
+        ],
+        [
+          "300",
+          81
+        ],
+        [
+          "42",
+          80
+        ],
+        [
+          "38",
+          78
+        ],
+        [
+          "150",
+          78
+        ],
+        [
+          "600",
+          76
+        ],
+        [
+          "48",
+          76
+        ],
+        [
+          "180",
+          76
+        ],
+        [
+          "90",
+          74
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area 2 Capacity (MW)",
+      "code_friendly_name_guess": "country_area_2_capacity_mw",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 54,
+      "top_values": [
+        [
+          "0",
+          6712
+        ],
+        [
+          "50",
+          3
+        ],
+        [
+          "51",
+          2
+        ],
+        [
+          "40",
+          2
+        ],
+        [
+          "18",
+          2
+        ],
+        [
+          "15",
+          2
+        ],
+        [
+          "1200",
+          2
+        ],
+        [
+          "971",
+          1
+        ],
+        [
+          "96",
+          1
+        ],
+        [
+          "945",
+          1
+        ],
+        [
+          "90",
+          1
+        ],
+        [
+          "80",
+          1
+        ],
+        [
+          "76",
+          1
+        ],
+        [
+          "74",
+          1
+        ],
+        [
+          "73",
+          1
+        ],
+        [
+          "7000",
+          1
+        ],
+        [
+          "67.5",
+          1
+        ],
+        [
+          "66",
+          1
+        ],
+        [
+          "63",
+          1
+        ],
+        [
+          "61",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Turbines",
+      "code_friendly_name_guess": "turbines",
+      "n_total": 7027,
+      "n_null": 1974,
+      "n_non_null": 5053,
+      "null_rate": 0.2809,
+      "n_unique": 1301,
+      "top_values": [
+        [
+          "2",
+          749
+        ],
+        [
+          "3",
+          506
+        ],
+        [
+          "4",
+          341
+        ],
+        [
+          "1",
+          242
+        ],
+        [
+          "4 x 300 MW",
+          137
+        ],
+        [
+          "6",
+          105
+        ],
+        [
+          "5",
+          88
+        ],
+        [
+          "2 x 15 MW",
+          49
+        ],
+        [
+          "4 x 350 MW",
+          43
+        ],
+        [
+          "8",
+          40
+        ],
+        [
+          "4 x 250 MW",
+          40
+        ],
+        [
+          "2 x 50 MW",
+          37
+        ],
+        [
+          "2 x 25 MW",
+          36
+        ],
+        [
+          "3 x 40 MW",
+          29
+        ],
+        [
+          "7",
+          26
+        ],
+        [
+          "2 x 20 MW",
+          26
+        ],
+        [
+          "3 x 20 MW",
+          25
+        ],
+        [
+          "2 x 60 MW",
+          25
+        ],
+        [
+          "6 x 300 MW",
+          23
+        ],
+        [
+          "3 x 80 MW",
+          23
+        ]
+      ],
+      "portion_numeric": 0.578,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          4746
+        ],
+        [
+          "pre-construction",
+          604
+        ],
+        [
+          "announced",
+          528
+        ],
+        [
+          "construction",
+          345
+        ],
+        [
+          "shelved - inferred 2 y",
+          170
+        ],
+        [
+          "cancelled - inferred 4 y",
+          167
+        ],
+        [
+          "cancelled",
+          92
+        ],
+        [
+          "shelved",
+          84
+        ],
+        [
+          "mothballed",
+          23
+        ],
+        [
+          "retired",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "announced",
+          "definition": "Described in corporate or government plans but have not yet taken concrete steps such as applying for permits."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Actively moving forward in seeking governmental approvals, land rights, or financing."
+        },
+        {
+          "name": "construction",
+          "definition": "Site preparation and equipment installation are underway."
+        },
+        {
+          "name": "operating",
+          "definition": "Formally commissioned; commercial operation has begun."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of progress has been announced."
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "Inferred to be shelved if no progress has been observed for at least two years."
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made."
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "Inferred to be cancelled if no progress has been observed for at least four years."
+        },
+        {
+          "name": "mothballed",
+          "definition": "Disused, but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "Decommissioned."
+        }
+      ]
+    },
+    {
+      "field_name": "Complex",
+      "code_friendly_name_guess": "complex",
+      "n_total": 7027,
+      "n_null": 6616,
+      "n_non_null": 411,
+      "null_rate": 0.9415,
+      "n_unique": 148,
+      "top_values": [
+        [
+          "Mahaweli Complex",
+          8
+        ],
+        [
+          "Derwent Complex",
+          8
+        ],
+        [
+          "Cuenca Media Del Río Grande Complex",
+          7
+        ],
+        [
+          "Big Creek Complex",
+          7
+        ],
+        [
+          "Snowy Complex",
+          6
+        ],
+        [
+          "Sevan-Hrazdan Cascade Complex",
+          6
+        ],
+        [
+          "Mersey-Forth Complex",
+          6
+        ],
+        [
+          "Laxapana Complex",
+          6
+        ],
+        [
+          "Kayan Cascade Complex",
+          5
+        ],
+        [
+          "Dospat-Vacha Cascade Complex",
+          5
+        ],
+        [
+          "Daja River Complex",
+          5
+        ],
+        [
+          "Complexo Hidrelétrico Do Tapajós",
+          5
+        ],
+        [
+          "Complexo De Paulo Afonso",
+          5
+        ],
+        [
+          "Vltava Cascade Complex",
+          4
+        ],
+        [
+          "Vartsikhe Complex",
+          4
+        ],
+        [
+          "Upper-Naryn Complex",
+          4
+        ],
+        [
+          "Tummel Valley Complex",
+          4
+        ],
+        [
+          "Romaine Complex",
+          4
+        ],
+        [
+          "Pieman Complex",
+          4
+        ],
+        [
+          "Paute Complex",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 7027,
+      "n_null": 1804,
+      "n_non_null": 5223,
+      "null_rate": 0.2567,
+      "n_unique": 142,
+      "top_values": [
+        [
+          "2012",
+          108
+        ],
+        [
+          "2010",
+          100
+        ],
+        [
+          "2009",
+          98
+        ],
+        [
+          "2028",
+          97
+        ],
+        [
+          "2011",
+          96
+        ],
+        [
+          "2013",
+          95
+        ],
+        [
+          "2027",
+          93
+        ],
+        [
+          "2029",
+          91
+        ],
+        [
+          "2016",
+          90
+        ],
+        [
+          "2015",
+          88
+        ],
+        [
+          "2008",
+          88
+        ],
+        [
+          "2030",
+          87
+        ],
+        [
+          "2026",
+          81
+        ],
+        [
+          "2006",
+          78
+        ],
+        [
+          "2007",
+          75
+        ],
+        [
+          "2014",
+          74
+        ],
+        [
+          "1973",
+          71
+        ],
+        [
+          "1965",
+          70
+        ],
+        [
+          "1960",
+          69
+        ],
+        [
+          "1958",
+          69
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 7027,
+      "n_null": 7013,
+      "n_non_null": 14,
+      "null_rate": 0.998,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "2024",
+          3
+        ],
+        [
+          "2033",
+          2
+        ],
+        [
+          "2023",
+          1
+        ],
+        [
+          "2019",
+          1
+        ],
+        [
+          "2014",
+          1
+        ],
+        [
+          "2013",
+          1
+        ],
+        [
+          "2010",
+          1
+        ],
+        [
+          "2004",
+          1
+        ],
+        [
+          "1994",
+          1
+        ],
+        [
+          "1992",
+          1
+        ],
+        [
+          "1974",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 7027,
+      "n_null": 1128,
+      "n_non_null": 5899,
+      "null_rate": 0.1605,
+      "n_unique": 2405,
+      "top_values": [
+        [
+          "Enel SpA [100%]",
+          79
+        ],
+        [
+          "EDF Energy Ltd [100%]",
+          55
+        ],
+        [
+          "State Grid Xinyuan Co Ltd [100%]",
+          51
+        ],
+        [
+          "Electricité de France SA [100%]",
+          49
+        ],
+        [
+          "Vattenfall AB [100%]",
+          47
+        ],
+        [
+          "Hydro Quebec [100%]",
+          47
+        ],
+        [
+          "Iberdrola SA [100%]",
+          42
+        ],
+        [
+          "Statkraft [100%]",
+          37
+        ],
+        [
+          "PJSC RusHydro [100%]",
+          35
+        ],
+        [
+          "NHPC Ltd [100%]",
+          33
+        ],
+        [
+          "Elektrik Üretim AS (EÜAŞ) [100%]",
+          33
+        ],
+        [
+          "Verbund Hydro Power GmbH [100%]",
+          32
+        ],
+        [
+          "Ethiopian Electric Power Corp [100%]",
+          32
+        ],
+        [
+          "Nepal Electricity Authority (NEA) [100%]",
+          31
+        ],
+        [
+          "Tamil Nadu Power Distribution Corp Ltd [100%]",
+          28
+        ],
+        [
+          "Vietnam Electricity (EVN) [100%]",
+          27
+        ],
+        [
+          "Kansai Electric Power Co [100%]",
+          27
+        ],
+        [
+          "J-Power [100%]",
+          27
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          27
+        ],
+        [
+          "Electricité de France SA",
+          26
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name (local lang/script)",
+      "code_friendly_name_guess": "owner_name_local_lang_script",
+      "n_total": 7027,
+      "n_null": 5173,
+      "n_non_null": 1854,
+      "null_rate": 0.7362,
+      "n_unique": 636,
+      "top_values": [
+        [
+          "Électricité de France",
+          81
+        ],
+        [
+          "Hydro-Québec",
+          56
+        ],
+        [
+          "国网新源控股有限公司",
+          51
+        ],
+        [
+          "関西電力株式会社",
+          42
+        ],
+        [
+          "電源開発株式会社",
+          38
+        ],
+        [
+          "ኢትዮጵያ ኤሌክትሪክ ኃይል",
+          36
+        ],
+        [
+          "Tập đoàn Điện lực Việt Nam",
+          34
+        ],
+        [
+          "中国长江三峡集团有限公司",
+          27
+        ],
+        [
+          "中部電力株式会社",
+          23
+        ],
+        [
+          "ОАО «Электрические станции»",
+          23
+        ],
+        [
+          "PT Perusahaan Listrik Negara",
+          21
+        ],
+        [
+          "ENDE Corporación",
+          21
+        ],
+        [
+          "한국수력원자력",
+          20
+        ],
+        [
+          "東北電力株式会社",
+          20
+        ],
+        [
+          "«ЎЗБЕКГИДРОЭНЕРГО»",
+          19
+        ],
+        [
+          "ΔΗΜΟΣΙΑ ΕΠΙΧΕΙΡΗΣΗ ΗΛΕΚΤΡΙΣΜΟΥ ΑΕ",
+          18
+        ],
+        [
+          "ໄຟຟ້າລາວ",
+          17
+        ],
+        [
+          "国能大渡河流域水电开发有限公司",
+          16
+        ],
+        [
+          "台灣電力公司",
+          16
+        ],
+        [
+          "北陸電力株式会社",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 7027,
+      "n_null": 4247,
+      "n_non_null": 2780,
+      "null_rate": 0.6044,
+      "n_unique": 1427,
+      "top_values": [
+        [
+          "Electricité de France",
+          68
+        ],
+        [
+          "Enel Green Power",
+          57
+        ],
+        [
+          "Statkraft",
+          35
+        ],
+        [
+          "US Bureau of Reclamation",
+          32
+        ],
+        [
+          "Verbund Hydro Power",
+          29
+        ],
+        [
+          "J-Power",
+          27
+        ],
+        [
+          "Iberdrola",
+          26
+        ],
+        [
+          "Pacific Gas and Electric",
+          24
+        ],
+        [
+          "Tennessee Valley Authority",
+          22
+        ],
+        [
+          "Huaneng Langcangjiang River Hydropower Shareholding",
+          21
+        ],
+        [
+          "Hafslund Kraft",
+          21
+        ],
+        [
+          "Hydro Energi",
+          19
+        ],
+        [
+          "Comisión Federal de Electricidad",
+          19
+        ],
+        [
+          "Vattenfall",
+          17
+        ],
+        [
+          "Empresa Nicaragüense de Electricidad",
+          17
+        ],
+        [
+          "Corporación Eléctrica del Ecuador",
+          17
+        ],
+        [
+          "Chubu Electric Power",
+          17
+        ],
+        [
+          "Kerala State Electricity Board LTD (KSEB)",
+          14
+        ],
+        [
+          "Alabama Power",
+          14
+        ],
+        [
+          "Å Energi Vannkraft",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name (local lang/script)",
+      "code_friendly_name_guess": "operator_name_local_lang_script",
+      "n_total": 7027,
+      "n_null": 5915,
+      "n_non_null": 1112,
+      "null_rate": 0.8418,
+      "n_unique": 752,
+      "top_values": [
+        [
+          "Électricité de France",
+          68
+        ],
+        [
+          "電源開発株式会社",
+          27
+        ],
+        [
+          "华能澜沧江水电股份有限公司",
+          21
+        ],
+        [
+          "中部電力株式会社",
+          17
+        ],
+        [
+          "雅砻江流域水电开发有限公司",
+          13
+        ],
+        [
+          "関西電力株式会社",
+          13
+        ],
+        [
+          "東北電力株式会社",
+          11
+        ],
+        [
+          "贵州乌江水电开发有限责任公司",
+          9
+        ],
+        [
+          "المكتب الوطنى للكهرباء والماء الصالح للشرب",
+          8
+        ],
+        [
+          "华电金沙江上游水电开发有限公司",
+          7
+        ],
+        [
+          "九州電力株式会社",
+          7
+        ],
+        [
+          "Elektrik Üretim AŞ",
+          7
+        ],
+        [
+          "四川华能宝兴河水电有限责任公司",
+          6
+        ],
+        [
+          "四川久隆水电开发有限公司",
+          6
+        ],
+        [
+          "云南大唐国际李仙江流域水电开发有限公司",
+          6
+        ],
+        [
+          "中国长江电力股份有限公司",
+          6
+        ],
+        [
+          "国家能源集团新疆吉林台水电开发有限公司",
+          5
+        ],
+        [
+          "四川凉山水洛河电力开发有限公司",
+          5
+        ],
+        [
+          "ПАО «ТГК-1»",
+          5
+        ],
+        [
+          "贵州北盘江电力股份有限公司",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Technology Type",
+      "code_friendly_name_guess": "technology_type",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "conventional storage",
+          3312
+        ],
+        [
+          "run-of-river",
+          1581
+        ],
+        [
+          "pumped storage",
+          1044
+        ],
+        [
+          "unknown",
+          699
+        ],
+        [
+          "conventional and run-of-river",
+          116
+        ],
+        [
+          "conventional and pumped storage",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "conventional storage",
+          "definition": "The project typically or entirely generates electricity from water stored in a reservoir."
+        },
+        {
+          "name": "pumped storage",
+          "definition": "The project generates electricity using water which is cycled between a lower and an upper reservoir by a pumping system."
+        },
+        {
+          "name": "run-of-river",
+          "definition": "The project typically or entirely generates electricty from flowing water with little to no storage capacity."
+        },
+        {
+          "name": "unknown",
+          "definition": "Technology type not specified."
+        },
+        {
+          "name": "conventional and pumped storage",
+          "definition": "The project has both conventional storage and pumped storage capability."
+        },
+        {
+          "name": "conventional and run-of-river",
+          "definition": "The project has both conventional storage and run-of-river capability."
+        }
+      ]
+    },
+    {
+      "field_name": "River / Watercourse",
+      "code_friendly_name_guess": "river_watercourse",
+      "n_total": 7027,
+      "n_null": 2105,
+      "n_non_null": 4922,
+      "null_rate": 0.2996,
+      "n_unique": 2667,
+      "top_values": [
+        [
+          "Yellow River",
+          37
+        ],
+        [
+          "Jinshajiang River",
+          25
+        ],
+        [
+          "Dadu River",
+          23
+        ],
+        [
+          "Lancangjiang (Mekong) River",
+          22
+        ],
+        [
+          "Indus River",
+          21
+        ],
+        [
+          "Chenab River",
+          18
+        ],
+        [
+          "Satluj River",
+          17
+        ],
+        [
+          "Rio Grande",
+          17
+        ],
+        [
+          "Columbia River",
+          17
+        ],
+        [
+          "Olt River",
+          16
+        ],
+        [
+          "Snake River",
+          15
+        ],
+        [
+          "Nile River",
+          15
+        ],
+        [
+          "Lule Älv",
+          13
+        ],
+        [
+          "Inn River",
+          13
+        ],
+        [
+          "Naryn River",
+          12
+        ],
+        [
+          "Missouri River",
+          12
+        ],
+        [
+          "Mekong River",
+          12
+        ],
+        [
+          "Danube River",
+          12
+        ],
+        [
+          "Cauvery River",
+          12
+        ],
+        [
+          "Beas River",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6422,
+      "top_values": [
+        [
+          "4.5694",
+          10
+        ],
+        [
+          "29",
+          7
+        ],
+        [
+          "-18.9038",
+          7
+        ],
+        [
+          "33.7128",
+          6
+        ],
+        [
+          "-3.0661",
+          6
+        ],
+        [
+          "42.668",
+          5
+        ],
+        [
+          "33.8441",
+          5
+        ],
+        [
+          "32.1978",
+          5
+        ],
+        [
+          "30.4877",
+          5
+        ],
+        [
+          "2.6048",
+          5
+        ],
+        [
+          "5.0618",
+          4
+        ],
+        [
+          "47.9565",
+          4
+        ],
+        [
+          "28.278",
+          4
+        ],
+        [
+          "27.6528",
+          4
+        ],
+        [
+          "27",
+          4
+        ],
+        [
+          "12.9288",
+          4
+        ],
+        [
+          "65.3333",
+          3
+        ],
+        [
+          "48.5136",
+          3
+        ],
+        [
+          "43.0084",
+          3
+        ],
+        [
+          "42.4143",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6451,
+      "top_values": [
+        [
+          "102.2657",
+          10
+        ],
+        [
+          "120",
+          8
+        ],
+        [
+          "-63.3978",
+          7
+        ],
+        [
+          "71.2679",
+          6
+        ],
+        [
+          "100.3663",
+          6
+        ],
+        [
+          "79.6705",
+          5
+        ],
+        [
+          "76.3212",
+          5
+        ],
+        [
+          "73.7966",
+          5
+        ],
+        [
+          "43.5349",
+          5
+        ],
+        [
+          "117.8146",
+          5
+        ],
+        [
+          "85.3933",
+          4
+        ],
+        [
+          "107",
+          4
+        ],
+        [
+          "100.6504",
+          4
+        ],
+        [
+          "-75.5034",
+          4
+        ],
+        [
+          "-118.981",
+          4
+        ],
+        [
+          "9.047",
+          3
+        ],
+        [
+          "86.6667",
+          3
+        ],
+        [
+          "82.4721",
+          3
+        ],
+        [
+          "80.6673",
+          3
+        ],
+        [
+          "79.8089",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          4942
+        ],
+        [
+          "approximate",
+          1830
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "City 1",
+      "code_friendly_name_guess": "city_1",
+      "n_total": 7027,
+      "n_null": 4275,
+      "n_non_null": 2752,
+      "null_rate": 0.6084,
+      "n_unique": 2242,
+      "top_values": [
+        [
+          "Toyama",
+          8
+        ],
+        [
+          "Unorganized North Cochrane",
+          7
+        ],
+        [
+          "Kurobe",
+          7
+        ],
+        [
+          "Hamamatsu",
+          7
+        ],
+        [
+          "Taichung",
+          6
+        ],
+        [
+          "Rivière-aux-Outardes",
+          6
+        ],
+        [
+          "Nanto",
+          6
+        ],
+        [
+          "Jiangkou",
+          6
+        ],
+        [
+          "Glarus Süd",
+          6
+        ],
+        [
+          "Unorganized Thunder Bay District",
+          5
+        ],
+        [
+          "Unorganized North Algoma",
+          5
+        ],
+        [
+          "Tanah Kuning Village",
+          5
+        ],
+        [
+          "Shizuoka",
+          5
+        ],
+        [
+          "Paulo Afonso",
+          5
+        ],
+        [
+          "Matsumoto",
+          5
+        ],
+        [
+          "Kongyu",
+          5
+        ],
+        [
+          "Hakusan",
+          5
+        ],
+        [
+          "Yulin",
+          4
+        ],
+        [
+          "Xinglong",
+          4
+        ],
+        [
+          "Xiaguan",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Area 1",
+      "code_friendly_name_guess": "local_area_1",
+      "n_total": 7027,
+      "n_null": 2306,
+      "n_non_null": 4721,
+      "null_rate": 0.3282,
+      "n_unique": 2545,
+      "top_values": [
+        [
+          "Vestland",
+          55
+        ],
+        [
+          "Trøndelag",
+          24
+        ],
+        [
+          "Innlandet",
+          24
+        ],
+        [
+          "Nordland",
+          23
+        ],
+        [
+          "Agder",
+          20
+        ],
+        [
+          "Norrbotten County",
+          19
+        ],
+        [
+          "Västerbotten County",
+          18
+        ],
+        [
+          "Jämtland County",
+          18
+        ],
+        [
+          "Viken",
+          16
+        ],
+        [
+          "Savoy",
+          16
+        ],
+        [
+          "Rogaland",
+          16
+        ],
+        [
+          "Yingjiang",
+          15
+        ],
+        [
+          "Sondrio",
+          15
+        ],
+        [
+          "Muli",
+          15
+        ],
+        [
+          "Västernorrland County",
+          14
+        ],
+        [
+          "Shimian",
+          14
+        ],
+        [
+          "Fresno County",
+          14
+        ],
+        [
+          "Kangding City",
+          13
+        ],
+        [
+          "Isère",
+          13
+        ],
+        [
+          "South Tyrol",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major Area 1",
+      "code_friendly_name_guess": "major_area_1",
+      "n_total": 7027,
+      "n_null": 3954,
+      "n_non_null": 3073,
+      "null_rate": 0.5627,
+      "n_unique": 1185,
+      "top_values": [
+        [
+          "Garze AP",
+          62
+        ],
+        [
+          "Ngawa AP",
+          43
+        ],
+        [
+          "Liangshan AP",
+          43
+        ],
+        [
+          "Ya'an",
+          33
+        ],
+        [
+          "Leshan",
+          25
+        ],
+        [
+          "Ili AP",
+          25
+        ],
+        [
+          "Sanming",
+          23
+        ],
+        [
+          "Gandaki Zone",
+          23
+        ],
+        [
+          "Ningde",
+          21
+        ],
+        [
+          "Enshi AP",
+          20
+        ],
+        [
+          "Diqing AP",
+          20
+        ],
+        [
+          "Dehong AP",
+          20
+        ],
+        [
+          "Lishui",
+          19
+        ],
+        [
+          "Northeastern Ontario",
+          18
+        ],
+        [
+          "Shiyan",
+          17
+        ],
+        [
+          "Ankang",
+          17
+        ],
+        [
+          "Huaihua",
+          16
+        ],
+        [
+          "Zhaotong",
+          15
+        ],
+        [
+          "Mianyang",
+          15
+        ],
+        [
+          "Bagmati Zone",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province 1",
+      "code_friendly_name_guess": "state_province_1",
+      "n_total": 7027,
+      "n_null": 1179,
+      "n_non_null": 5848,
+      "null_rate": 0.1678,
+      "n_unique": 1161,
+      "top_values": [
+        [
+          "Sichuan",
+          273
+        ],
+        [
+          "Yunnan",
+          161
+        ],
+        [
+          "California",
+          96
+        ],
+        [
+          "Hunan",
+          81
+        ],
+        [
+          "Fujian",
+          77
+        ],
+        [
+          "Hubei",
+          76
+        ],
+        [
+          "Quebec",
+          72
+        ],
+        [
+          "Himachal Pradesh",
+          72
+        ],
+        [
+          "Xinjiang",
+          66
+        ],
+        [
+          "Arunachal Pradesh",
+          61
+        ],
+        [
+          "Guangxi",
+          60
+        ],
+        [
+          "Guizhou",
+          59
+        ],
+        [
+          "Guangdong",
+          58
+        ],
+        [
+          "Gansu",
+          58
+        ],
+        [
+          "Zhejiang",
+          53
+        ],
+        [
+          "British Columbia",
+          53
+        ],
+        [
+          "Auvergne-Rhône-Alpes",
+          53
+        ],
+        [
+          "Uttarakhand",
+          52
+        ],
+        [
+          "Khyber Pakhtunkhwa",
+          48
+        ],
+        [
+          "Washington",
+          46
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion 1",
+      "code_friendly_name_guess": "subregion_1",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Eastern Asia",
+          1682
+        ],
+        [
+          "Southern Asia",
+          871
+        ],
+        [
+          "Northern America",
+          738
+        ],
+        [
+          "Latin America and the Caribbean",
+          704
+        ],
+        [
+          "South-eastern Asia",
+          494
+        ],
+        [
+          "Southern Europe",
+          462
+        ],
+        [
+          "Northern Europe",
+          454
+        ],
+        [
+          "Western Europe",
+          410
+        ],
+        [
+          "Sub-Saharan Africa",
+          267
+        ],
+        [
+          "Western Asia",
+          265
+        ],
+        [
+          "Eastern Europe",
+          209
+        ],
+        [
+          "Australia and New Zealand",
+          97
+        ],
+        [
+          "Central Asia",
+          78
+        ],
+        [
+          "Northern Africa",
+          29
+        ],
+        [
+          "Melanesia",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region 1",
+      "code_friendly_name_guess": "region_1",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          3390
+        ],
+        [
+          "Europe",
+          1535
+        ],
+        [
+          "Americas",
+          1442
+        ],
+        [
+          "Africa",
+          296
+        ],
+        [
+          "Oceania",
+          109
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "City 2",
+      "code_friendly_name_guess": "city_2",
+      "n_total": 7027,
+      "n_null": 7019,
+      "n_non_null": 8,
+      "null_rate": 0.9989,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "دهستان منجوان شرقی",
+          1
+        ],
+        [
+          "Silistra",
+          1
+        ],
+        [
+          "Pancheshwar Village",
+          1
+        ],
+        [
+          "Negotin Municipality",
+          1
+        ],
+        [
+          "Ljubovija Municipality",
+          1
+        ],
+        [
+          "Kladovo Municipality",
+          1
+        ],
+        [
+          "Brazzaville",
+          1
+        ],
+        [
+          "Bajina Basta Municipality",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Area 2",
+      "code_friendly_name_guess": "local_area_2",
+      "n_total": 7027,
+      "n_null": 7001,
+      "n_non_null": 26,
+      "null_rate": 0.9963,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Landkreis Passau",
+          3
+        ],
+        [
+          "Sakju County",
+          2
+        ],
+        [
+          "Rusizi",
+          2
+        ],
+        [
+          "Khoda Afarin County",
+          2
+        ],
+        [
+          "Bor Administrative District",
+          2
+        ],
+        [
+          "Bezirk Rheinfelden",
+          2
+        ],
+        [
+          "Zlatibor Administrative District",
+          1
+        ],
+        [
+          "Wiwon County",
+          1
+        ],
+        [
+          "Spitamen District",
+          1
+        ],
+        [
+          "Saint-Maurice",
+          1
+        ],
+        [
+          "Ortenaukreis",
+          1
+        ],
+        [
+          "Macva Administrative District",
+          1
+        ],
+        [
+          "Landkreis Rottal-Inn",
+          1
+        ],
+        [
+          "Landkreis Rastatt",
+          1
+        ],
+        [
+          "Hwange",
+          1
+        ],
+        [
+          "Dubrovnik-Neretva County",
+          1
+        ],
+        [
+          "Chasong County",
+          1
+        ],
+        [
+          "Bezirk Laufenburg",
+          1
+        ],
+        [
+          "Baitadi District",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major Area 2",
+      "code_friendly_name_guess": "major_area_2",
+      "n_total": 7027,
+      "n_null": 7018,
+      "n_non_null": 9,
+      "null_rate": 0.9987,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Zamora",
+          2
+        ],
+        [
+          "Mwense District",
+          2
+        ],
+        [
+          "Região Geográfica Intermediária de Ijui",
+          1
+        ],
+        [
+          "Ngara",
+          1
+        ],
+        [
+          "Milenge District",
+          1
+        ],
+        [
+          "Mahakali Zone",
+          1
+        ],
+        [
+          "Ileje",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province 2",
+      "code_friendly_name_guess": "state_province_2",
+      "n_total": 7027,
+      "n_null": 6964,
+      "n_non_null": 63,
+      "null_rate": 0.991,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "Bavaria",
+          5
+        ],
+        [
+          "Central Serbia",
+          4
+        ],
+        [
+          "Luapula Province",
+          3
+        ],
+        [
+          "Baden-Württemberg",
+          3
+        ],
+        [
+          "Aargau",
+          3
+        ],
+        [
+          "Western Province",
+          2
+        ],
+        [
+          "Republika Srpska",
+          2
+        ],
+        [
+          "North Pyongan",
+          2
+        ],
+        [
+          "Itapúa",
+          2
+        ],
+        [
+          "East Azerbaijan Province",
+          2
+        ],
+        [
+          "Chagang",
+          2
+        ],
+        [
+          "Castile and León",
+          2
+        ],
+        [
+          "Bragança",
+          2
+        ],
+        [
+          "Bayern",
+          2
+        ],
+        [
+          "Wallis",
+          1
+        ],
+        [
+          "Trat Province",
+          1
+        ],
+        [
+          "Teleorman",
+          1
+        ],
+        [
+          "Sughd Region",
+          1
+        ],
+        [
+          "Sudurpashchim Province",
+          1
+        ],
+        [
+          "Songwe Region",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion 2",
+      "code_friendly_name_guess": "subregion_2",
+      "n_total": 7027,
+      "n_null": 6952,
+      "n_non_null": 75,
+      "null_rate": 0.9893,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Sub-Saharan Africa",
+          17
+        ],
+        [
+          "Western Europe",
+          16
+        ],
+        [
+          "Southern Europe",
+          14
+        ],
+        [
+          "Latin America and the Caribbean",
+          7
+        ],
+        [
+          "South-eastern Asia",
+          5
+        ],
+        [
+          "Southern Asia",
+          4
+        ],
+        [
+          "Eastern Europe",
+          4
+        ],
+        [
+          "Eastern Asia",
+          4
+        ],
+        [
+          "Central Asia",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region 2",
+      "code_friendly_name_guess": "region_2",
+      "n_total": 7027,
+      "n_null": 6952,
+      "n_non_null": 75,
+      "null_rate": 0.9893,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Europe",
+          34
+        ],
+        [
+          "Asia",
+          17
+        ],
+        [
+          "Africa",
+          17
+        ],
+        [
+          "Americas",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6709,
+      "top_values": [
+        [
+          "L100000601934",
+          3
+        ],
+        [
+          "L100001081937",
+          2
+        ],
+        [
+          "L100001064088",
+          2
+        ],
+        [
+          "L100001056247",
+          2
+        ],
+        [
+          "L100001054863",
+          2
+        ],
+        [
+          "L100001054742",
+          2
+        ],
+        [
+          "L100001046159",
+          2
+        ],
+        [
+          "L100001045585",
+          2
+        ],
+        [
+          "L100001045456",
+          2
+        ],
+        [
+          "L100001042786",
+          2
+        ],
+        [
+          "L100001025619",
+          2
+        ],
+        [
+          "L100001023273",
+          2
+        ],
+        [
+          "L100001022906",
+          2
+        ],
+        [
+          "L100000604157",
+          2
+        ],
+        [
+          "L100000604046",
+          2
+        ],
+        [
+          "L100000603976",
+          2
+        ],
+        [
+          "L100000603956",
+          2
+        ],
+        [
+          "L100000603688",
+          2
+        ],
+        [
+          "L100000603685",
+          2
+        ],
+        [
+          "L100000603622",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6772,
+      "top_values": [
+        [
+          "G100001093010",
+          1
+        ],
+        [
+          "G100001093009",
+          1
+        ],
+        [
+          "G100001092944",
+          1
+        ],
+        [
+          "G100001092943",
+          1
+        ],
+        [
+          "G100001092942",
+          1
+        ],
+        [
+          "G100001092825",
+          1
+        ],
+        [
+          "G100001092824",
+          1
+        ],
+        [
+          "G100001092806",
+          1
+        ],
+        [
+          "G100001092292",
+          1
+        ],
+        [
+          "G100001092291",
+          1
+        ],
+        [
+          "G100001092290",
+          1
+        ],
+        [
+          "G100001092280",
+          1
+        ],
+        [
+          "G100001092279",
+          1
+        ],
+        [
+          "G100001092277",
+          1
+        ],
+        [
+          "G100001092268",
+          1
+        ],
+        [
+          "G100001092267",
+          1
+        ],
+        [
+          "G100001092266",
+          1
+        ],
+        [
+          "G100001092265",
+          1
+        ],
+        [
+          "G100001092264",
+          1
+        ],
+        [
+          "G100001092263",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 7027,
+      "n_null": 255,
+      "n_non_null": 6772,
+      "null_rate": 0.0363,
+      "n_unique": 6709,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Kuttiyadi_hydroelectric_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Zhouning_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Yixian_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Yinpan_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Wanapum_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Uri-I_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Tri_An_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Tiantai_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Tagake_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Svetlinsk_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Srinagarind_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Shaping_Stage_1_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Rogun_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Ranganadi_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Porjus_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Pankou_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Panjiakou_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Pallivasal_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Nam_Emeun_hydroelectric_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Messaure_hydroelectric_plant",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

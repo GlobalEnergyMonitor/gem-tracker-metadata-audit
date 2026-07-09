@@ -1,0 +1,1491 @@
+{
+  "table_name": "gmet_v3_12_12_2025__oil_and_gas_reserves",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "tab_slug": "oil_and_gas_reserves",
+  "n_rows": 2338,
+  "analyzed_at": "2026-07-07T21:45:21.905047+00:00",
+  "tracker_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "fields": [
+    {
+      "field_name": "Unit ID",
+      "code_friendly_name_guess": "unit_id",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 672,
+      "top_values": [
+        [
+          "OG0017226",
+          10
+        ],
+        [
+          "OG0017224",
+          8
+        ],
+        [
+          "OG0004499",
+          8
+        ],
+        [
+          "OG0002689",
+          8
+        ],
+        [
+          "OG0002508",
+          8
+        ],
+        [
+          "OG0002459",
+          8
+        ],
+        [
+          "OG0002423",
+          8
+        ],
+        [
+          "OG0002415",
+          8
+        ],
+        [
+          "OG0002374",
+          8
+        ],
+        [
+          "OG0002370",
+          8
+        ],
+        [
+          "OG0002369",
+          8
+        ],
+        [
+          "OG0002364",
+          8
+        ],
+        [
+          "OG0002361",
+          8
+        ],
+        [
+          "OG0002358",
+          8
+        ],
+        [
+          "OG0002344",
+          8
+        ],
+        [
+          "OG0002339",
+          8
+        ],
+        [
+          "OG0002327",
+          8
+        ],
+        [
+          "OG0002325",
+          8
+        ],
+        [
+          "OG0002321",
+          8
+        ],
+        [
+          "OG0002316",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Unit name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 672,
+      "top_values": [
+        [
+          "Campo Indio",
+          10
+        ],
+        [
+          "Íride",
+          8
+        ],
+        [
+          "Ébano Chapacao",
+          8
+        ],
+        [
+          "Zaap",
+          8
+        ],
+        [
+          "Xux",
+          8
+        ],
+        [
+          "Xanab",
+          8
+        ],
+        [
+          "Tlacame",
+          8
+        ],
+        [
+          "Tizón",
+          8
+        ],
+        [
+          "Terra",
+          8
+        ],
+        [
+          "Teotleco",
+          8
+        ],
+        [
+          "Tamaulipas Constituciones",
+          8
+        ],
+        [
+          "Tajín",
+          8
+        ],
+        [
+          "Sini",
+          8
+        ],
+        [
+          "Sihil",
+          8
+        ],
+        [
+          "Santuario",
+          8
+        ],
+        [
+          "Samaria",
+          8
+        ],
+        [
+          "Rabasa",
+          8
+        ],
+        [
+          "Puerto Ceiba",
+          8
+        ],
+        [
+          "Poza Rica",
+          8
+        ],
+        [
+          "Onel",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 44,
+      "top_values": [
+        [
+          "Mexico",
+          1101
+        ],
+        [
+          "Argentina",
+          826
+        ],
+        [
+          "Australia",
+          62
+        ],
+        [
+          "Peru",
+          61
+        ],
+        [
+          "Russia",
+          31
+        ],
+        [
+          "Canada",
+          28
+        ],
+        [
+          "Israel",
+          17
+        ],
+        [
+          "Ukraine",
+          16
+        ],
+        [
+          "Iraq",
+          16
+        ],
+        [
+          "Algeria",
+          16
+        ],
+        [
+          "Kazakhstan",
+          15
+        ],
+        [
+          "United States",
+          12
+        ],
+        [
+          "Saudi Arabia",
+          11
+        ],
+        [
+          "Nigeria",
+          11
+        ],
+        [
+          "Indonesia",
+          10
+        ],
+        [
+          "Norway",
+          9
+        ],
+        [
+          "India",
+          9
+        ],
+        [
+          "Ecuador",
+          9
+        ],
+        [
+          "Denmark",
+          8
+        ],
+        [
+          "United Kingdom",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Closest Match OCI+ Region",
+      "code_friendly_name_guess": "closest_match_oci_region",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "North America",
+          1141
+        ],
+        [
+          "South America",
+          905
+        ],
+        [
+          "Australia and New Zealand",
+          67
+        ],
+        [
+          "Middle East",
+          49
+        ],
+        [
+          "Russia and the Caspian",
+          31
+        ],
+        [
+          "Northern Europe",
+          25
+        ],
+        [
+          "Northern Africa",
+          24
+        ],
+        [
+          "South-Eastern Asia",
+          17
+        ],
+        [
+          "Eastern Europe",
+          16
+        ],
+        [
+          "Central Asia",
+          15
+        ],
+        [
+          "Western Africa",
+          12
+        ],
+        [
+          "Southern Asia",
+          11
+        ],
+        [
+          "Middle Africa",
+          5
+        ],
+        [
+          "Caribbean",
+          5
+        ],
+        [
+          "Southern Europe",
+          4
+        ],
+        [
+          "Eastern Africa",
+          4
+        ],
+        [
+          "Melanesia",
+          3
+        ],
+        [
+          "Western Europe",
+          2
+        ],
+        [
+          "Caucasus",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:12_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Production/reserves",
+      "code_friendly_name_guess": "production_reserves",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "reserves",
+          2338
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 672,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Campo_Indio_Oil_and_Gas_Field_(Argentina)",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Íride_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Ébano_Chapacao_Oil_and_Gas_Field_(Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Zaap_Oil_and_Gas_Field_(Federal_Offshore,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Xux_Oil_and_Gas_Field_(Federal_Offshore,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Xanab_Oil_and_Gas_Field_(Federal_Offshore,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tlacame_Oil_and_Gas_Field_(Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tizón_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Terra_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Teotleco_Oil_and_Gas_Field_(Chiapas;_Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tamaulipas_Constituciones_Oil_and_Gas_Field_(Tamaulipas,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Tajín_Oil_and_Gas_Field_(Veracruz,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sini_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Sihil_Oil_and_Gas_Field_(Federal_Offshore,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Santuario_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Samaria_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Rabasa_Oil_and_Gas_Field_(Veracruz,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Ceiba_Oil_and_Gas_Field_(Tabasco,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Poza_Rica_Oil_and_Gas_Field_(Veracruz,_Mexico)",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Onel_Oil_and_Gas_Field_(Federal_Offshore,_Mexico)",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel description",
+      "code_friendly_name_guess": "fuel_description",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "gas",
+          1041
+        ],
+        [
+          "oil",
+          880
+        ],
+        [
+          "condensate",
+          417
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Reserves classification (original)",
+      "code_friendly_name_guess": "reserves_classification_original",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "2P reserves",
+          1700
+        ],
+        [
+          "2p reserves",
+          632
+        ],
+        [
+          "2P",
+          5
+        ],
+        [
+          "proved and probable reserves",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Quantity (original)",
+      "code_friendly_name_guess": "quantity_original",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 1772,
+      "top_values": [
+        [
+          "0.0",
+          418
+        ],
+        [
+          "4.0",
+          7
+        ],
+        [
+          "18.0",
+          7
+        ],
+        [
+          "79.0",
+          5
+        ],
+        [
+          "23.0",
+          5
+        ],
+        [
+          "2.0",
+          5
+        ],
+        [
+          "15.0",
+          5
+        ],
+        [
+          "1.0",
+          5
+        ],
+        [
+          "81.0",
+          4
+        ],
+        [
+          "52.0",
+          4
+        ],
+        [
+          "0.1",
+          4
+        ],
+        [
+          "0.08",
+          4
+        ],
+        [
+          "0.06",
+          4
+        ],
+        [
+          "0.03",
+          4
+        ],
+        [
+          "88.0",
+          3
+        ],
+        [
+          "61.0",
+          3
+        ],
+        [
+          "420.0",
+          3
+        ],
+        [
+          "349.0",
+          3
+        ],
+        [
+          "33.0",
+          3
+        ],
+        [
+          "289.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Units (original)",
+      "code_friendly_name_guess": "units_original",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "million bbl",
+          797
+        ],
+        [
+          "bcf",
+          478
+        ],
+        [
+          "thousand m3",
+          413
+        ],
+        [
+          "million m3",
+          413
+        ],
+        [
+          "bcm",
+          58
+        ],
+        [
+          "petajoules",
+          28
+        ],
+        [
+          "thousand bbl",
+          27
+        ],
+        [
+          "million boe",
+          22
+        ],
+        [
+          "tcf",
+          20
+        ],
+        [
+          "billion bbl",
+          15
+        ],
+        [
+          "million m³",
+          10
+        ],
+        [
+          "billion scf",
+          9
+        ],
+        [
+          "million tonnes",
+          8
+        ],
+        [
+          "bbl",
+          8
+        ],
+        [
+          "thousand m³",
+          7
+        ],
+        [
+          "million Sm³",
+          6
+        ],
+        [
+          "giga m³",
+          4
+        ],
+        [
+          "billion Sm³",
+          3
+        ],
+        [
+          "trillion cubic feet",
+          2
+        ],
+        [
+          "million tons",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Data year",
+      "code_friendly_name_guess": "data_year",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "2020.0",
+          737
+        ],
+        [
+          "2024.0",
+          592
+        ],
+        [
+          "2022.0",
+          528
+        ],
+        [
+          "2023.0",
+          224
+        ],
+        [
+          "2019.0",
+          59
+        ],
+        [
+          "2021.0",
+          28
+        ],
+        [
+          "2007.0",
+          21
+        ],
+        [
+          "2012.0",
+          20
+        ],
+        [
+          "2016.0",
+          17
+        ],
+        [
+          "2015.0",
+          17
+        ],
+        [
+          "2009.0",
+          17
+        ],
+        [
+          "2004.0",
+          15
+        ],
+        [
+          "2008.0",
+          11
+        ],
+        [
+          "[not stated]",
+          10
+        ],
+        [
+          "2018.0",
+          8
+        ],
+        [
+          "2017.0",
+          8
+        ],
+        [
+          "2005.0",
+          6
+        ],
+        [
+          "1998.0",
+          5
+        ],
+        [
+          "2014.0",
+          3
+        ],
+        [
+          "2006.0",
+          3
+        ]
+      ],
+      "portion_numeric": 0.998,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity (converted)",
+      "code_friendly_name_guess": "quantity_converted",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 1845,
+      "top_values": [
+        [
+          "0.0",
+          418
+        ],
+        [
+          "15.0",
+          5
+        ],
+        [
+          "79.0",
+          4
+        ],
+        [
+          "23.0",
+          4
+        ],
+        [
+          "0.1",
+          4
+        ],
+        [
+          "0.06",
+          4
+        ],
+        [
+          "0.03",
+          4
+        ],
+        [
+          "52.0",
+          3
+        ],
+        [
+          "4.0",
+          3
+        ],
+        [
+          "289.0",
+          3
+        ],
+        [
+          "2.1951402",
+          3
+        ],
+        [
+          "10.0",
+          3
+        ],
+        [
+          "0.08",
+          3
+        ],
+        [
+          "0.0251592",
+          3
+        ],
+        [
+          "9.0",
+          2
+        ],
+        [
+          "84.0",
+          2
+        ],
+        [
+          "81.0",
+          2
+        ],
+        [
+          "80.0",
+          2
+        ],
+        [
+          "755.769503",
+          2
+        ],
+        [
+          "7246.302907",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Units (converted)",
+      "code_friendly_name_guess": "units_converted",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "million bbl",
+          1297
+        ],
+        [
+          "million m³",
+          1041
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Quantity (BOE)",
+      "code_friendly_name_guess": "quantity_boe",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 1855,
+      "top_values": [
+        [
+          "0.0",
+          418
+        ],
+        [
+          "60000.0",
+          4
+        ],
+        [
+          "30000.0",
+          4
+        ],
+        [
+          "135309.0",
+          4
+        ],
+        [
+          "100000.0",
+          4
+        ],
+        [
+          "88245.0",
+          3
+        ],
+        [
+          "80000.0",
+          3
+        ],
+        [
+          "58830.0",
+          3
+        ],
+        [
+          "464757.0",
+          3
+        ],
+        [
+          "305916.0",
+          3
+        ],
+        [
+          "25159.2",
+          3
+        ],
+        [
+          "2195140.2",
+          3
+        ],
+        [
+          "1700187.0",
+          3
+        ],
+        [
+          "799499700.0",
+          2
+        ],
+        [
+          "741258.0",
+          2
+        ],
+        [
+          "732980320.1436",
+          2
+        ],
+        [
+          "611832.0",
+          2
+        ],
+        [
+          "590000000.0",
+          2
+        ],
+        [
+          "5572762.8",
+          2
+        ],
+        [
+          "5163925.800000001",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Upstream Emissions Factors, kgCH4/BOE",
+      "code_friendly_name_guess": "upstream_emissions_factors_kgch4_boe",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 66,
+      "top_values": [
+        [
+          "2.757428",
+          413
+        ],
+        [
+          "2.139151",
+          413
+        ],
+        [
+          "1.065545",
+          402
+        ],
+        [
+          "1.597882",
+          388
+        ],
+        [
+          "1.704349",
+          311
+        ],
+        [
+          "0.60559",
+          37
+        ],
+        [
+          "0.536076",
+          33
+        ],
+        [
+          "0.993195",
+          28
+        ],
+        [
+          "0.649064",
+          18
+        ],
+        [
+          "6.813419914",
+          16
+        ],
+        [
+          "1.266891",
+          16
+        ],
+        [
+          "0.576903",
+          16
+        ],
+        [
+          "1.160727",
+          15
+        ],
+        [
+          "1.667067",
+          13
+        ],
+        [
+          "1.095337",
+          13
+        ],
+        [
+          "0.676361",
+          13
+        ],
+        [
+          "2.250794",
+          12
+        ],
+        [
+          "0.447144",
+          11
+        ],
+        [
+          "1.388374",
+          10
+        ],
+        [
+          "1.03206",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Emissions for whole reserves with latest emissions factors (tonnes)",
+      "code_friendly_name_guess": "emissions_for_whole_reserves_with_latest_emissions_factors_tonnes",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 1863,
+      "top_values": [
+        [
+          "0.0",
+          418
+        ],
+        [
+          "95.87292",
+          4
+        ],
+        [
+          "47.93646",
+          4
+        ],
+        [
+          "373.104825252",
+          4
+        ],
+        [
+          "159.78820000000002",
+          4
+        ],
+        [
+          "843.5413440479999",
+          3
+        ],
+        [
+          "53.8193278392",
+          3
+        ],
+        [
+          "4695.736353970201",
+          3
+        ],
+        [
+          "4688.1432390360005",
+          3
+        ],
+        [
+          "243.32923386000002",
+          3
+        ],
+        [
+          "1281.5339649960001",
+          3
+        ],
+        [
+          "127.83055999999999",
+          3
+        ],
+        [
+          "973.3169354400001",
+          2
+        ],
+        [
+          "9256.9243883424",
+          2
+        ],
+        [
+          "889732.98",
+          2
+        ],
+        [
+          "820.7447495478",
+          2
+        ],
+        [
+          "80818.67871356604",
+          2
+        ],
+        [
+          "70549.25587047599",
+          2
+        ],
+        [
+          "6749.131525471997",
+          2
+        ],
+        [
+          "64.887795696",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "EF Derivation Method",
+      "code_friendly_name_guess": "ef_derivation_method",
+      "n_total": 2338,
+      "n_null": 0,
+      "n_non_null": 2338,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Averaged by country and fuel type",
+          1868
+        ],
+        [
+          "Averaged by country",
+          418
+        ],
+        [
+          "Averaged closest OCI+ region and fuel type",
+          52
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 2338,
+      "n_null": 59,
+      "n_non_null": 2279,
+      "null_rate": 0.0252,
+      "n_unique": 621,
+      "top_values": [
+        [
+          "-50.81124",
+          14
+        ],
+        [
+          "18.509",
+          10
+        ],
+        [
+          "25.9301",
+          8
+        ],
+        [
+          "25.7067",
+          8
+        ],
+        [
+          "24.7443",
+          8
+        ],
+        [
+          "22.4418",
+          8
+        ],
+        [
+          "22.308",
+          8
+        ],
+        [
+          "22.2437",
+          8
+        ],
+        [
+          "20.5375",
+          8
+        ],
+        [
+          "20.5058",
+          8
+        ],
+        [
+          "20.4473",
+          8
+        ],
+        [
+          "20.443",
+          8
+        ],
+        [
+          "19.62534572",
+          8
+        ],
+        [
+          "19.5969",
+          8
+        ],
+        [
+          "19.5895",
+          8
+        ],
+        [
+          "19.5659",
+          8
+        ],
+        [
+          "19.5531",
+          8
+        ],
+        [
+          "19.5078002",
+          8
+        ],
+        [
+          "19.5063",
+          8
+        ],
+        [
+          "19.445",
+          8
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 2338,
+      "n_null": 59,
+      "n_non_null": 2279,
+      "null_rate": 0.0252,
+      "n_unique": 621,
+      "top_values": [
+        [
+          "-70.79485",
+          14
+        ],
+        [
+          "-93.441",
+          10
+        ],
+        [
+          "-98.8073",
+          8
+        ],
+        [
+          "-98.4704",
+          8
+        ],
+        [
+          "-98.355",
+          8
+        ],
+        [
+          "-98.0231",
+          8
+        ],
+        [
+          "-97.9293",
+          8
+        ],
+        [
+          "-97.6546",
+          8
+        ],
+        [
+          "-97.5975",
+          8
+        ],
+        [
+          "-97.5247",
+          8
+        ],
+        [
+          "-97.4672",
+          8
+        ],
+        [
+          "-97.4197",
+          8
+        ],
+        [
+          "-96.1021",
+          8
+        ],
+        [
+          "-94.2072",
+          8
+        ],
+        [
+          "-93.93228741",
+          8
+        ],
+        [
+          "-93.7858",
+          8
+        ],
+        [
+          "-93.4852",
+          8
+        ],
+        [
+          "-93.454",
+          8
+        ],
+        [
+          "-93.4527",
+          8
+        ],
+        [
+          "-93.3825",
+          8
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

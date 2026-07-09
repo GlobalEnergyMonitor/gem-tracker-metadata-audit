@@ -1,0 +1,2271 @@
+{
+  "table_name": "gas_finance_tracker_data_december_2025__gas_power_plants",
+  "tracker_slug": "gas_finance_tracker_data_december_2025",
+  "tab_slug": "gas_power_plants",
+  "n_rows": 1358,
+  "analyzed_at": "2026-07-07T21:45:10.370511+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Country",
+      "code_friendly_name_guess": "country",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Vietnam",
+          101
+        ],
+        [
+          "Bangladesh",
+          70
+        ],
+        [
+          "Philippines",
+          60
+        ],
+        [
+          "Taiwan",
+          49
+        ],
+        [
+          "South Korea",
+          40
+        ],
+        [
+          "Indonesia",
+          39
+        ],
+        [
+          "Australia",
+          39
+        ],
+        [
+          "Mexico",
+          30
+        ],
+        [
+          "Japan",
+          30
+        ],
+        [
+          "Canada",
+          28
+        ],
+        [
+          "Singapore",
+          15
+        ],
+        [
+          "Thailand",
+          13
+        ],
+        [
+          "Myanmar",
+          8
+        ],
+        [
+          "Cambodia",
+          6
+        ],
+        [
+          "Malaysia",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "GEM Project ID",
+      "code_friendly_name_guess": "gem_project_id",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 227,
+      "top_values": [
+        [
+          "L100000405443",
+          22
+        ],
+        [
+          "L100000405158",
+          16
+        ],
+        [
+          "L100001025899",
+          12
+        ],
+        [
+          "L100000407925",
+          12
+        ],
+        [
+          "L100000406341",
+          12
+        ],
+        [
+          "L100000406357",
+          10
+        ],
+        [
+          "L100000405452",
+          9
+        ],
+        [
+          "L100000407608",
+          8
+        ],
+        [
+          "L100000405980",
+          8
+        ],
+        [
+          "L100000405434",
+          8
+        ],
+        [
+          "L100000103162",
+          8
+        ],
+        [
+          "L100000407927",
+          7
+        ],
+        [
+          "L100000405444",
+          7
+        ],
+        [
+          "L100000407981",
+          6
+        ],
+        [
+          "L100000406379",
+          6
+        ],
+        [
+          "L100000406364",
+          6
+        ],
+        [
+          "L100000104595",
+          6
+        ],
+        [
+          "L100000103546",
+          6
+        ],
+        [
+          "L100000103485",
+          6
+        ],
+        [
+          "L100000103483",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 392,
+      "top_values": [
+        [
+          "G100000409389",
+          12
+        ],
+        [
+          "G100000404523",
+          11
+        ],
+        [
+          "G100000404522",
+          11
+        ],
+        [
+          "G100000400848",
+          10
+        ],
+        [
+          "G100000414318",
+          6
+        ],
+        [
+          "G100000410589",
+          6
+        ],
+        [
+          "G100000404004",
+          6
+        ],
+        [
+          "G100000404003",
+          6
+        ],
+        [
+          "G100000405995",
+          5
+        ],
+        [
+          "G100001018477",
+          4
+        ],
+        [
+          "G100000411261",
+          4
+        ],
+        [
+          "G100000410693",
+          4
+        ],
+        [
+          "G100000410611",
+          4
+        ],
+        [
+          "G100000410599",
+          4
+        ],
+        [
+          "G100000406002",
+          4
+        ],
+        [
+          "G100000406001",
+          4
+        ],
+        [
+          "G100000405992",
+          4
+        ],
+        [
+          "G100000404544",
+          4
+        ],
+        [
+          "G100001048329",
+          3
+        ],
+        [
+          "G100000411798",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 227,
+      "top_values": [
+        [
+          "Nhon Trach power station",
+          22
+        ],
+        [
+          "Himeji Natural Gas power station",
+          16
+        ],
+        [
+          "Navotas LNG power station",
+          12
+        ],
+        [
+          "Fong Der power station",
+          12
+        ],
+        [
+          "Brigalow Peaking Power Plant",
+          12
+        ],
+        [
+          "Reliance Meghnaghat power station",
+          10
+        ],
+        [
+          "Son My II power station",
+          9
+        ],
+        [
+          "Thai Binh Combined Cycle power station",
+          8
+        ],
+        [
+          "Balikpapan Refinery power plant",
+          8
+        ],
+        [
+          "Bac Lieu Project power station",
+          8
+        ],
+        [
+          "Atimonan power station",
+          8
+        ],
+        [
+          "O Mon Power Complex",
+          7
+        ],
+        [
+          "Batangas Combined Cycle power plant",
+          7
+        ],
+        [
+          "Taichung power station",
+          6
+        ],
+        [
+          "Taean power station",
+          6
+        ],
+        [
+          "Rupsha power station",
+          6
+        ],
+        [
+          "Patuakhali power station (Ashuganj)",
+          6
+        ],
+        [
+          "Munshiganj power station",
+          6
+        ],
+        [
+          "Keppel Sakra cogeneration power station",
+          6
+        ],
+        [
+          "Hadong power station",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Alternate Project Name(s)",
+      "code_friendly_name_guess": "alternate_project_name_s",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 91,
+      "top_values": [
+        [
+          "N/A",
+          344
+        ],
+        [
+          "Sun Ba Power Plant",
+          12
+        ],
+        [
+          "Atimonan LNG Power Station",
+          8
+        ],
+        [
+          "Zhonghuo power station",
+          6
+        ],
+        [
+          "Tae-An Power Station",
+          6
+        ],
+        [
+          "Royal Group power station",
+          6
+        ],
+        [
+          "Munsiganj power station",
+          6
+        ],
+        [
+          "Keppel Sakra Cogen Plant",
+          6
+        ],
+        [
+          "Tongxiao",
+          5
+        ],
+        [
+          "Sonagazi Feni combined cycle power station",
+          4
+        ],
+        [
+          "Samcheonpo power station",
+          4
+        ],
+        [
+          "Mirsarai combined cycle power station",
+          4
+        ],
+        [
+          "Marulan Gas-Fired Power Station",
+          4
+        ],
+        [
+          "Hai Hau power station",
+          4
+        ],
+        [
+          "Chan May-Lang",
+          4
+        ],
+        [
+          "Xingda power station",
+          3
+        ],
+        [
+          "Saidpur power plant",
+          3
+        ],
+        [
+          "Moheshkhali",
+          3
+        ],
+        [
+          "Loyola Nuevo CC, Central CC Jorge Luque",
+          3
+        ],
+        [
+          "Crossfield Energy Park, Lone Pine",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Language Name(s)",
+      "code_friendly_name_guess": "local_language_name_s",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "N/A",
+          377
+        ],
+        [
+          "Điện lực Dầu khí Nhơn Trạch",
+          22
+        ],
+        [
+          "森霸二期燃氣複循環發電計畫（2-1）, 森霸電力, 豐德天然氣發電廠",
+          12
+        ],
+        [
+          "Nhà máy Nhiệt điện Sơn Mỹ 2",
+          9
+        ],
+        [
+          "Nhà Máy Nhiệt Điện Ô Môn",
+          7
+        ],
+        [
+          "하동 발전소",
+          6
+        ],
+        [
+          "태안화력",
+          6
+        ],
+        [
+          "당진 발전소",
+          6
+        ],
+        [
+          "臺灣電力台中發電廠, 台中火力發電廠",
+          6
+        ],
+        [
+          "波东沙哥煤电站",
+          6
+        ],
+        [
+          "通霄電廠更新擴建(NEW4-NEW8), 通霄發電廠",
+          5
+        ],
+        [
+          "삼천포 발전소",
+          4
+        ],
+        [
+          "中佳發電廠, 中佳燃氣複循環電廠興建計畫",
+          4
+        ],
+        [
+          "Nhà máy Nhiệt điện Sơn Mỹ 1",
+          4
+        ],
+        [
+          "興達燃氣機組更新改建計畫(NEW1, NEW2, NEW3), 臺灣電力興達發電廠",
+          3
+        ],
+        [
+          "南港発電所",
+          3
+        ],
+        [
+          "โรงไฟฟ้าพระนครใต้",
+          3
+        ],
+        [
+          "Pembangkit Listrik Tenaga Gas dan Uap Sumbagut",
+          3
+        ],
+        [
+          "청주열병합",
+          2
+        ],
+        [
+          "영흥 발전소",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "1",
+          194
+        ],
+        [
+          "2",
+          67
+        ],
+        [
+          "3",
+          41
+        ],
+        [
+          "4",
+          29
+        ],
+        [
+          "2025-02-01 00:00:00",
+          20
+        ],
+        [
+          "2025-01-01 00:00:00",
+          14
+        ],
+        [
+          "CC1",
+          10
+        ],
+        [
+          "CC3",
+          9
+        ],
+        [
+          "CC2",
+          9
+        ],
+        [
+          "CC 2",
+          6
+        ],
+        [
+          "CC 1",
+          6
+        ],
+        [
+          "2025-02-02 00:00:00",
+          6
+        ],
+        [
+          "CC5",
+          5
+        ],
+        [
+          "8",
+          5
+        ],
+        [
+          "6",
+          5
+        ],
+        [
+          "5",
+          5
+        ],
+        [
+          "2025-01-02 00:00:00",
+          5
+        ],
+        [
+          "Unit 2, timepoint 2",
+          4
+        ],
+        [
+          "CC6",
+          4
+        ],
+        [
+          "CC4",
+          4
+        ]
+      ],
+      "portion_numeric": 0.6573,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "announced",
+          183
+        ],
+        [
+          "pre-construction",
+          148
+        ],
+        [
+          "construction",
+          107
+        ],
+        [
+          "operating",
+          45
+        ],
+        [
+          "shelved-inferred",
+          27
+        ],
+        [
+          "shelved",
+          16
+        ],
+        [
+          "shelved - inferred 2 y",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 140,
+      "top_values": [
+        [
+          "600",
+          37
+        ],
+        [
+          "750",
+          36
+        ],
+        [
+          "500",
+          25
+        ],
+        [
+          "1500",
+          23
+        ],
+        [
+          "812",
+          22
+        ],
+        [
+          "800",
+          20
+        ],
+        [
+          "622.6",
+          16
+        ],
+        [
+          "1100",
+          15
+        ],
+        [
+          "1200",
+          14
+        ],
+        [
+          "650",
+          12
+        ],
+        [
+          "541",
+          12
+        ],
+        [
+          "33.3 MW",
+          12
+        ],
+        [
+          "450",
+          11
+        ],
+        [
+          "700",
+          10
+        ],
+        [
+          "170.0 MW",
+          10
+        ],
+        [
+          "660",
+          9
+        ],
+        [
+          "300",
+          9
+        ],
+        [
+          "640",
+          8
+        ],
+        [
+          "56",
+          8
+        ],
+        [
+          "400",
+          8
+        ]
+      ],
+      "portion_numeric": 0.802,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "Expected Start Year",
+      "code_friendly_name_guess": "expected_start_year",
+      "n_total": 1358,
+      "n_null": 828,
+      "n_non_null": 530,
+      "null_rate": 0.6097,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Not available",
+          117
+        ],
+        [
+          "2025",
+          89
+        ],
+        [
+          "2028",
+          54
+        ],
+        [
+          "2026",
+          52
+        ],
+        [
+          "2030",
+          51
+        ],
+        [
+          "2027",
+          51
+        ],
+        [
+          "2029",
+          45
+        ],
+        [
+          "2024",
+          28
+        ],
+        [
+          "2034",
+          8
+        ],
+        [
+          "2031",
+          7
+        ],
+        [
+          "2041",
+          5
+        ],
+        [
+          "2035",
+          5
+        ],
+        [
+          "2032",
+          5
+        ],
+        [
+          "2036",
+          4
+        ],
+        [
+          "2023",
+          3
+        ],
+        [
+          "2037",
+          2
+        ],
+        [
+          "2033",
+          2
+        ],
+        [
+          "2080",
+          1
+        ],
+        [
+          "2038",
+          1
+        ]
+      ],
+      "portion_numeric": 0.766,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Cost (US$ Million)",
+      "code_friendly_name_guess": "project_cost_us_million",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "Not available",
+          357
+        ],
+        [
+          "1400",
+          22
+        ],
+        [
+          "965",
+          12
+        ],
+        [
+          "1000",
+          11
+        ],
+        [
+          "1183",
+          10
+        ],
+        [
+          "700",
+          9
+        ],
+        [
+          "3120 across all units",
+          8
+        ],
+        [
+          "1000 including LNG terminal",
+          8
+        ],
+        [
+          "1200",
+          7
+        ],
+        [
+          "536.8",
+          6
+        ],
+        [
+          "1342 including associated LNG terminal",
+          6
+        ],
+        [
+          "2200",
+          5
+        ],
+        [
+          "2000",
+          5
+        ],
+        [
+          "910",
+          4
+        ],
+        [
+          "6000",
+          4
+        ],
+        [
+          "2230",
+          4
+        ],
+        [
+          "900",
+          3
+        ],
+        [
+          "708",
+          3
+        ],
+        [
+          "4400",
+          3
+        ],
+        [
+          "1330",
+          3
+        ]
+      ],
+      "portion_numeric": 0.236,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FID Status",
+      "code_friendly_name_guess": "fid_status",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Not available",
+          420
+        ],
+        [
+          "FID",
+          68
+        ],
+        [
+          "Financing",
+          24
+        ],
+        [
+          "Pre-FID",
+          18
+        ],
+        [
+          "FID (inferred)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "FID Date",
+      "code_friendly_name_guess": "fid_date",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Not available",
+          486
+        ],
+        [
+          "2019-09-01 00:00:00",
+          12
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2022-08-01 00:00:00",
+          6
+        ],
+        [
+          "2021",
+          6
+        ],
+        [
+          "2021-10-01 00:00:00",
+          5
+        ],
+        [
+          "2024",
+          3
+        ],
+        [
+          "2023-07-01 00:00:00",
+          3
+        ],
+        [
+          "2024-11-01 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.008,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 158,
+      "top_values": [
+        [
+          "Vietnam Oil and Gas Group Co",
+          33
+        ],
+        [
+          "Taiwan Power Co [100%]",
+          20
+        ],
+        [
+          "Himeji Natural Gas Power Generation Co",
+          16
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          16
+        ],
+        [
+          "San Miguel Global Power Holdings Corp [100%]",
+          13
+        ],
+        [
+          "Sun Ba Power Corp [100%]",
+          12
+        ],
+        [
+          "CS Energy Ltd",
+          12
+        ],
+        [
+          "Kalina Distributed Power Ltd",
+          10
+        ],
+        [
+          "JERA JV [100%]",
+          10
+        ],
+        [
+          "Electricity Generation Company of Bangladesh Ltd [100%]",
+          10
+        ],
+        [
+          "Ashuganj Power Station Co Ltd [100%]",
+          10
+        ],
+        [
+          "AES Vietnam",
+          9
+        ],
+        [
+          "Thai Binh LNG Power JSC",
+          8
+        ],
+        [
+          "Rural Power Co Ltd [100%]",
+          8
+        ],
+        [
+          "PT PLN Nusantara Power",
+          8
+        ],
+        [
+          "Korea East-West Power Co Ltd [100%]",
+          8
+        ],
+        [
+          "Electricity Generating Authority of Thailand",
+          8
+        ],
+        [
+          "Balikpapan Refinery",
+          8
+        ],
+        [
+          "Bac Lieu LNG Power Company Ltd.",
+          8
+        ],
+        [
+          "Atimonan One Energy Inc [100%]",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Company",
+      "code_friendly_name_guess": "parent_company",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 145,
+      "top_values": [
+        [
+          "Vietnam Oil and Gas Group Co",
+          33
+        ],
+        [
+          "Korea Electric Power Corp [100.0%]",
+          30
+        ],
+        [
+          "Taiwan Power Co [100.0%]",
+          20
+        ],
+        [
+          "San Miguel Corp [100.0%]",
+          20
+        ],
+        [
+          "Osaka Gas Co Ltd",
+          16
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100.0%]",
+          16
+        ],
+        [
+          "PT PLN (Persero)",
+          15
+        ],
+        [
+          "CS Energy Ltd",
+          13
+        ],
+        [
+          "Taiwan Cogeneration Corp [43.0%]; Taiwan Sugar Corp [20.0%]; Tokyo Electric Power Company International BV [19.5%]; Mega International Commercial Bank Co Ltd [12.3%]; Ta Ya Electric Wire & Cable Co Ltd [5.0%]",
+          12
+        ],
+        [
+          "Reliance Power Ltd [51.0%]; Chubu Electric Power Co Inc [24.5%]; Tokyo Electric Power Co [24.5%]",
+          10
+        ],
+        [
+          "Kalina Distributed Power Ltd",
+          10
+        ],
+        [
+          "Electricity Generation Company of Bangladesh Ltd [100.0%]",
+          10
+        ],
+        [
+          "Ashuganj Power Station Co Ltd [100.0%]",
+          10
+        ],
+        [
+          "Manila Electric Co [100.0%]",
+          9
+        ],
+        [
+          "AES Corp",
+          9
+        ],
+        [
+          "Thai Binh LNG Power JSC",
+          8
+        ],
+        [
+          "Rural Power Co Ltd [100.0%]",
+          8
+        ],
+        [
+          "PT Pertamina (Persero)",
+          8
+        ],
+        [
+          "Electricity Generating Authority of Thailand",
+          8
+        ],
+        [
+          "Delta Offshore Energy Pte Ltd",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Financier",
+      "code_friendly_name_guess": "financier",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 144,
+      "top_values": [
+        [
+          "Not available",
+          265
+        ],
+        [
+          "Taiwan Power Co",
+          20
+        ],
+        [
+          "Federal Electricity Commission",
+          16
+        ],
+        [
+          "State of Queensland (QREHJF)",
+          12
+        ],
+        [
+          "Asian Development Bank",
+          5
+        ],
+        [
+          "Various commerical banks and ECAs",
+          4
+        ],
+        [
+          "Various",
+          4
+        ],
+        [
+          "Royal Group",
+          4
+        ],
+        [
+          "PT Pertamina (Persero)",
+          4
+        ],
+        [
+          "Meralco PowerGen Corp",
+          4
+        ],
+        [
+          "Delta Offshore Energy Pte Ltd",
+          4
+        ],
+        [
+          "Atimonan One Energy",
+          4
+        ],
+        [
+          "The Central Trading & Development Group Corp",
+          3
+        ],
+        [
+          "Sumitomo Mitsubishi Banking Corporation ",
+          3
+        ],
+        [
+          "San Miguel Global Power",
+          3
+        ],
+        [
+          "Pemex",
+          3
+        ],
+        [
+          "Osaka Gas Co Ltd",
+          3
+        ],
+        [
+          "Government of Australia",
+          3
+        ],
+        [
+          "Generadora Fénix",
+          3
+        ],
+        [
+          "Exim Bank",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Type of Financier",
+      "code_friendly_name_guess": "type_of_financier",
+      "n_total": 1358,
+      "n_null": 840,
+      "n_non_null": 518,
+      "null_rate": 0.6186,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "Not available",
+          275
+        ],
+        [
+          "Owner",
+          51
+        ],
+        [
+          "Commercial bank",
+          51
+        ],
+        [
+          "Parent company",
+          27
+        ],
+        [
+          "Parent",
+          24
+        ],
+        [
+          "State-owned utility",
+          18
+        ],
+        [
+          "Parent ",
+          13
+        ],
+        [
+          "ECA",
+          8
+        ],
+        [
+          "Development bank",
+          7
+        ],
+        [
+          "Bank",
+          6
+        ],
+        [
+          "Financial institution",
+          4
+        ],
+        [
+          "State-owned company",
+          3
+        ],
+        [
+          "Private company",
+          3
+        ],
+        [
+          "Multilateral ank",
+          3
+        ],
+        [
+          "State",
+          2
+        ],
+        [
+          "Multilateral bank",
+          2
+        ],
+        [
+          "Government",
+          2
+        ],
+        [
+          "Former owner",
+          2
+        ],
+        [
+          "EPC contractor",
+          2
+        ],
+        [
+          "Commerical bank",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Public/Private",
+      "code_friendly_name_guess": "public_private",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Not available",
+          395
+        ],
+        [
+          "Public",
+          81
+        ],
+        [
+          "Private",
+          44
+        ],
+        [
+          "Private ",
+          5
+        ],
+        [
+          "SOE",
+          3
+        ],
+        [
+          "Government-owned",
+          2
+        ],
+        [
+          "Unknown",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Country_2",
+      "code_friendly_name_guess": "country_2",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "Not available",
+          270
+        ],
+        [
+          "Taiwan",
+          33
+        ],
+        [
+          "Japan",
+          31
+        ],
+        [
+          "Mexico",
+          23
+        ],
+        [
+          "Philippines",
+          22
+        ],
+        [
+          "United States",
+          20
+        ],
+        [
+          "Australia",
+          19
+        ],
+        [
+          "Vietnam",
+          12
+        ],
+        [
+          "Singapore",
+          12
+        ],
+        [
+          "South Korea",
+          10
+        ],
+        [
+          "Germany",
+          8
+        ],
+        [
+          "Unknown",
+          7
+        ],
+        [
+          "Indonesia",
+          7
+        ],
+        [
+          "Bangladesh",
+          7
+        ],
+        [
+          "Multilateral",
+          6
+        ],
+        [
+          "Japan ",
+          5
+        ],
+        [
+          "Unknown ",
+          4
+        ],
+        [
+          "Cambodia",
+          4
+        ],
+        [
+          "Thailand",
+          3
+        ],
+        [
+          "Taiwan ",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "All Known Project Finance This Plant (US$ Million)",
+      "code_friendly_name_guess": "all_known_project_finance_this_plant_us_million",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "Not available",
+          397
+        ],
+        [
+          "1400",
+          22
+        ],
+        [
+          "965",
+          12
+        ],
+        [
+          "25.9",
+          12
+        ],
+        [
+          "1183",
+          10
+        ],
+        [
+          "1991",
+          8
+        ],
+        [
+          "1200",
+          6
+        ],
+        [
+          "909",
+          4
+        ],
+        [
+          "564",
+          4
+        ],
+        [
+          "2000",
+          4
+        ],
+        [
+          "900",
+          3
+        ],
+        [
+          "708",
+          3
+        ],
+        [
+          "1466",
+          3
+        ],
+        [
+          "112.3",
+          3
+        ],
+        [
+          "103.2",
+          3
+        ],
+        [
+          "615",
+          2
+        ],
+        [
+          "37.7",
+          2
+        ],
+        [
+          "300",
+          2
+        ],
+        [
+          "2570",
+          2
+        ],
+        [
+          "1300",
+          2
+        ]
+      ],
+      "portion_numeric": 0.248,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "This Financier's Total Financing Per Transaction (US$ Million)",
+      "code_friendly_name_guess": "this_financier_s_total_financing_per_transaction_us_million",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "Not available",
+          417
+        ],
+        [
+          "311",
+          12
+        ],
+        [
+          "75.81818181818181",
+          11
+        ],
+        [
+          "100",
+          6
+        ],
+        [
+          "68",
+          4
+        ],
+        [
+          "44.85",
+          4
+        ],
+        [
+          "44.25",
+          4
+        ],
+        [
+          "300",
+          4
+        ],
+        [
+          "4399",
+          3
+        ],
+        [
+          "315",
+          3
+        ],
+        [
+          "846",
+          2
+        ],
+        [
+          "75.4",
+          2
+        ],
+        [
+          "59.800000000000004",
+          2
+        ],
+        [
+          "500",
+          2
+        ],
+        [
+          "400",
+          2
+        ],
+        [
+          "38",
+          2
+        ],
+        [
+          "237.5",
+          2
+        ],
+        [
+          "172.5",
+          2
+        ],
+        [
+          "101.5",
+          2
+        ],
+        [
+          "Unknown",
+          1
+        ]
+      ],
+      "portion_numeric": 0.204,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "This Financier's Unit Share Per Transaction (US$ Million)",
+      "code_friendly_name_guess": "this_financier_s_unit_share_per_transaction_us_million",
+      "n_total": 1358,
+      "n_null": 828,
+      "n_non_null": 530,
+      "null_rate": 0.6097,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "Not available",
+          484
+        ],
+        [
+          "75.81818181818181",
+          11
+        ],
+        [
+          "44.25",
+          4
+        ],
+        [
+          "34",
+          4
+        ],
+        [
+          "86.25",
+          2
+        ],
+        [
+          "50.75",
+          2
+        ],
+        [
+          "50",
+          2
+        ],
+        [
+          "38",
+          2
+        ],
+        [
+          "250",
+          2
+        ],
+        [
+          "200",
+          2
+        ],
+        [
+          "150",
+          2
+        ],
+        [
+          "118.75",
+          2
+        ],
+        [
+          "100",
+          2
+        ],
+        [
+          "602",
+          1
+        ],
+        [
+          "46.6",
+          1
+        ],
+        [
+          "36.3",
+          1
+        ],
+        [
+          "31.09",
+          1
+        ],
+        [
+          "309.89",
+          1
+        ],
+        [
+          "265",
+          1
+        ],
+        [
+          "25.5",
+          1
+        ]
+      ],
+      "portion_numeric": 0.092,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:20_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Finance Type",
+      "code_friendly_name_guess": "finance_type",
+      "n_total": 1358,
+      "n_null": 829,
+      "n_non_null": 529,
+      "null_rate": 0.6105,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Not available",
+          296
+        ],
+        [
+          "Equity",
+          124
+        ],
+        [
+          "Loan",
+          82
+        ],
+        [
+          "Equity ",
+          10
+        ],
+        [
+          "Loan ",
+          5
+        ],
+        [
+          "Bond",
+          4
+        ],
+        [
+          "Unknown",
+          2
+        ],
+        [
+          "Lease",
+          2
+        ],
+        [
+          "Debt",
+          2
+        ],
+        [
+          "Unknown ",
+          1
+        ],
+        [
+          "Debt, Equity",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:7_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Finance Status",
+      "code_friendly_name_guess": "finance_status",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Not available",
+          298
+        ],
+        [
+          "Closed",
+          98
+        ],
+        [
+          "Financing ",
+          65
+        ],
+        [
+          "Financing",
+          50
+        ],
+        [
+          "Unknown ",
+          16
+        ],
+        [
+          "FID",
+          3
+        ],
+        [
+          "Unknown",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Close Year",
+      "code_friendly_name_guess": "close_year",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Not available",
+          445
+        ],
+        [
+          "2023",
+          19
+        ],
+        [
+          "2024",
+          17
+        ],
+        [
+          "2021",
+          17
+        ],
+        [
+          "2021-01-01 00:00:00",
+          10
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2018",
+          8
+        ],
+        [
+          "2018, 2023",
+          3
+        ],
+        [
+          "2025",
+          1
+        ],
+        [
+          "2023, 2024",
+          1
+        ],
+        [
+          "2011-11-01 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.142,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki Link",
+      "code_friendly_name_guess": "gem_wiki_link",
+      "n_total": 1358,
+      "n_null": 827,
+      "n_non_null": 531,
+      "null_rate": 0.609,
+      "n_unique": 227,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Nhon_Trach_power_station",
+          22
+        ],
+        [
+          "https://www.gem.wiki/Himeji_Natural_Gas_power_station",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Navotas_LNG_power_station",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Fong_Der_power_station",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Brigalow_Peaking_Power_Plant",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Reliance_Meghnaghat_power_station",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Son_My_II_power_station",
+          9
+        ],
+        [
+          "https://www.gem.wiki/Thai_Binh_Combined_Cycle_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Balikpapan_Refinery_power_plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Bac_Lieu_Project_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Atimonan_power_station",
+          8
+        ],
+        [
+          "https://www.gem.wiki/O_Mon_Power_Complex",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Batangas_Combined_Cycle_power_plant",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Taichung_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Taean_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Rupsha_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Patuakhali_power_station_(Ashuganj)",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Munshiganj_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Keppel_Sakra_cogeneration_power_station",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Hadong_power_station",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col26",
+      "code_friendly_name_guess": "col26",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col27",
+      "code_friendly_name_guess": "col27",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col28",
+      "code_friendly_name_guess": "col28",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col29",
+      "code_friendly_name_guess": "col29",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col30",
+      "code_friendly_name_guess": "col30",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col31",
+      "code_friendly_name_guess": "col31",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col32",
+      "code_friendly_name_guess": "col32",
+      "n_total": 1358,
+      "n_null": 1358,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

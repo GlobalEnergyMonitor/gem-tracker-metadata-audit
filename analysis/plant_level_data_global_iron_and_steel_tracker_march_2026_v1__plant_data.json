@@ -1,0 +1,4071 @@
+{
+  "table_name": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1__plant_data",
+  "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "plant_data",
+  "n_rows": 1293,
+  "analyzed_at": "2026-07-07T21:45:22.151665+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "P100001082556",
+          1
+        ],
+        [
+          "P100001082548",
+          1
+        ],
+        [
+          "P100001082547",
+          1
+        ],
+        [
+          "P100001082544",
+          1
+        ],
+        [
+          "P100001081899",
+          1
+        ],
+        [
+          "P100001081803",
+          1
+        ],
+        [
+          "P100001080915",
+          1
+        ],
+        [
+          "P100001080914",
+          1
+        ],
+        [
+          "P100001080714",
+          1
+        ],
+        [
+          "P100001080248",
+          1
+        ],
+        [
+          "P100001064486",
+          1
+        ],
+        [
+          "P100001064479",
+          1
+        ],
+        [
+          "P100001064435",
+          1
+        ],
+        [
+          "P100001064279",
+          1
+        ],
+        [
+          "P100001064274",
+          1
+        ],
+        [
+          "P100001064261",
+          1
+        ],
+        [
+          "P100001064248",
+          1
+        ],
+        [
+          "P100001064195",
+          1
+        ],
+        [
+          "P100001064139",
+          1
+        ],
+        [
+          "P100001064114",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (English)",
+      "code_friendly_name_guess": "plant_name_english",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "İÇDAŞ Biga steel plant",
+          1
+        ],
+        [
+          "İDÇ Izdemir Aliaga steel plant",
+          1
+        ],
+        [
+          "Zunyi Fuxin Special Steel Equipment Manufacturing Co Ltd",
+          1
+        ],
+        [
+          "Zunyi Changling Special Steel Co Ltd",
+          1
+        ],
+        [
+          "Zonouz Steel Complex",
+          1
+        ],
+        [
+          "Zijin County Dongri Casting Co Ltd",
+          1
+        ],
+        [
+          "Zibo Qilin Fushan Iron and Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhuhai Yueyufeng Iron and Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhongye Dongfang Jiangsu Heavy Industry Co Ltd",
+          1
+        ],
+        [
+          "Zhongxin Iron and Steel Group Co Ltd",
+          1
+        ],
+        [
+          "Zhongpu Handan Iron and Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhenshi Group Eastern Special Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhengzhou Yongtong Special Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhejiang Yuxin Industrial Co Ltd",
+          1
+        ],
+        [
+          "Zhejiang Wantai Special Steel Co Ltd",
+          1
+        ],
+        [
+          "Zhejiang Tsingshan Iron and Steel Co Ltd",
+          1
+        ],
+        [
+          "Zenith Steel Group Nantong Co Ltd",
+          1
+        ],
+        [
+          "Zenith Steel Group Co Ltd",
+          1
+        ],
+        [
+          "Zarand Iranian Steel Company Kerman plant",
+          1
+        ],
+        [
+          "Yuzovsky Metallurgical Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (other language)",
+      "code_friendly_name_guess": "plant_name_other_language",
+      "n_total": 1293,
+      "n_null": 502,
+      "n_non_null": 791,
+      "null_rate": 0.3882,
+      "n_unique": 786,
+      "top_values": [
+        [
+          "美锦钢铁公司",
+          2
+        ],
+        [
+          "包头市大安钢铁有限责任公司",
+          2
+        ],
+        [
+          "เหล็กสยามยามาโตะ",
+          2
+        ],
+        [
+          "جندال شديد للحديد و الصلب",
+          2
+        ],
+        [
+          "YK스틸",
+          2
+        ],
+        [
+          "황해제철련합기업소",
+          1
+        ],
+        [
+          "환양스틸",
+          1
+        ],
+        [
+          "한국철강",
+          1
+        ],
+        [
+          "청진제강소",
+          1
+        ],
+        [
+          "천리마제강연합기업소",
+          1
+        ],
+        [
+          "세아창원특수강은",
+          1
+        ],
+        [
+          "세아베스틸군산공장",
+          1
+        ],
+        [
+          "동국제강 포항",
+          1
+        ],
+        [
+          "동국제강 인천제강소 가동",
+          1
+        ],
+        [
+          "대한제강 녹산",
+          1
+        ],
+        [
+          "김책제철소",
+          1
+        ],
+        [
+          "龙川县航辉钢业有限公司",
+          1
+        ],
+        [
+          "龙山桥钢铁总厂",
+          1
+        ],
+        [
+          "龙南市福鑫钢铁有限公司",
+          1
+        ],
+        [
+          "龙南市源兴钢铁有限公司",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other plant names (English)",
+      "code_friendly_name_guess": "other_plant_names_english",
+      "n_total": 1293,
+      "n_null": 551,
+      "n_non_null": 742,
+      "null_rate": 0.4261,
+      "n_unique": 738,
+      "top_values": [
+        [
+          "Meijin Steel Company",
+          2
+        ],
+        [
+          "Jiuquan Iron and Steel Group",
+          2
+        ],
+        [
+          "JFE NKK Joukou",
+          2
+        ],
+        [
+          "Gerdau Chaparral Steel",
+          2
+        ],
+        [
+          "İstanbul Çelik Demir İzabe Sanayi Inc, Icdas Steel, Energy, Shipyard, and Transportation",
+          1
+        ],
+        [
+          "Zouping County Changshan Metal Material Co., Ltd., Shandong Zouping Chuanyang Group Co., Ltd., Zouping Chuanyang Group Co., Ltd.",
+          1
+        ],
+        [
+          "Zhongye Dongfang Heavy Industry Danyang Co., Ltd.",
+          1
+        ],
+        [
+          "Zhenjiang Hongtai Metals Ware Co., Ltd.",
+          1
+        ],
+        [
+          "Zhelezny Ozon 32, Pervouralsky Novotrubny Plant, Pervouralsk New Pipe Plant, PNTZ",
+          1
+        ],
+        [
+          "Zhejiang Yuanli Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Zhejiang Jiaxing Iron and Steel Group Co., Ltd., Jiaxing Dongfang Iron and Steel Co., Ltd., Zhenshi Group Dongfang Special Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Zhejiang Guanfu Industrial Co., Ltd.",
+          1
+        ],
+        [
+          "Zhangzhou Sanbao Iron and Steel Co.",
+          1
+        ],
+        [
+          "Zhangjiagang Pohang Stainless Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Zaporizhstal Iron & Steel Works PJSC, Zaporizhstal Integrated Iron & Steel Works (P)JSC",
+          1
+        ],
+        [
+          "ZISCO",
+          1
+        ],
+        [
+          "Yunnan Yongchang Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Yun County Rongfeng Iron and Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Yongfeng Group Lingang Iron and Steel Co., Ltd.",
+          1
+        ],
+        [
+          "Yingkou Tiansheng Heavy Industry Equipment Co., Ltd.",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Other plant names for iron/steel plant in English language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other plant names (other language)",
+      "code_friendly_name_guess": "other_plant_names_other_language",
+      "n_total": 1293,
+      "n_null": 958,
+      "n_non_null": 335,
+      "null_rate": 0.7409,
+      "n_unique": 334,
+      "top_values": [
+        [
+          "山西美锦钢铁有限公司",
+          2
+        ],
+        [
+          "김책제철연합기업소, 金策製鐵聯合企業所",
+          1
+        ],
+        [
+          "黄石新港重科, 黄石恒特装备科技有限公司",
+          1
+        ],
+        [
+          "黃海製鐵聯合企業所",
+          1
+        ],
+        [
+          "顺乐钢铁二期, 湖北金盛兰冶金优特钢项目, 武汉顺乐不锈钢有限公司",
+          1
+        ],
+        [
+          "韶关市宏德热轧带钢有限公司",
+          1
+        ],
+        [
+          "鞍钢集团朝阳钢铁有限公司",
+          1
+        ],
+        [
+          "鞍钢股份有限公司鲅鱼圈钢铁厂",
+          1
+        ],
+        [
+          "鞍钢股份有限公司",
+          1
+        ],
+        [
+          "鞍钢联众(广州)不锈钢有限公司",
+          1
+        ],
+        [
+          "陕钢集团汉中钢铁有限责任公司",
+          1
+        ],
+        [
+          "陕西汉中钢铁有限公司",
+          1
+        ],
+        [
+          "长治钢铁厂",
+          1
+        ],
+        [
+          "长治市兴宝钢铁有限责任公司",
+          1
+        ],
+        [
+          "镇江鸿泰金属制品有限公司",
+          1
+        ],
+        [
+          "锦州锦兴特钢有限公司",
+          1
+        ],
+        [
+          "铜山县兴达冶炼铸造有限公司",
+          1
+        ],
+        [
+          "金烨钢铁有限公司, 金烨钢铁集团有限公司",
+          1
+        ],
+        [
+          "重庆足航金属制品有限公司, 重庆足航钒钛钢铁集团有限公司",
+          1
+        ],
+        [
+          "重庆永航金属制品有限公司",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Other plant names for iron/steel plant in other language. Language indicated in parentheses following plant name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1069,
+      "top_values": [
+        [
+          "Nucor Corp",
+          13
+        ],
+        [
+          "Cleveland-Cliffs Inc",
+          12
+        ],
+        [
+          "Nippon Steel Corp",
+          10
+        ],
+        [
+          "Steel Authority of India Ltd",
+          8
+        ],
+        [
+          "Gerdau Ameristeel Corp",
+          8
+        ],
+        [
+          "Commercial Metals Co",
+          8
+        ],
+        [
+          "SteelAsia Manufacturing Corp",
+          7
+        ],
+        [
+          "United States Steel Corp",
+          6
+        ],
+        [
+          "Tata Steel Ltd",
+          6
+        ],
+        [
+          "Steel Dynamics Inc",
+          6
+        ],
+        [
+          "Liberty Steel Group",
+          6
+        ],
+        [
+          "ArcelorMittal SA",
+          6
+        ],
+        [
+          "ArcelorMittal Brasil SA",
+          6
+        ],
+        [
+          "Rungta Mines Ltd",
+          5
+        ],
+        [
+          "Jindal Steel Limited Ltd",
+          5
+        ],
+        [
+          "JSW Steel Ltd",
+          5
+        ],
+        [
+          "JFE Steel Corp",
+          5
+        ],
+        [
+          "ArcelorMittal Nippon Steel India Ltd",
+          5
+        ],
+        [
+          "Tokyo Steel Manufacturing Co Ltd",
+          4
+        ],
+        [
+          "Ternium México SA de CV",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Owner (other language)",
+      "code_friendly_name_guess": "owner_other_language",
+      "n_total": 1293,
+      "n_null": 715,
+      "n_non_null": 578,
+      "null_rate": 0.553,
+      "n_unique": 525,
+      "top_values": [
+        [
+          "日本製鉄株式会社",
+          10
+        ],
+        [
+          "ＪＦＥスチール株式会社",
+          5
+        ],
+        [
+          "현대제철(주)",
+          4
+        ],
+        [
+          "شرکت فولاد مبارکه",
+          4
+        ],
+        [
+          "Gerdau Aços Longos",
+          4
+        ],
+        [
+          "포스코홀딩스(주)",
+          3
+        ],
+        [
+          "鞍钢股份有限公司",
+          3
+        ],
+        [
+          "東和鋼鐵企業股份有限公司",
+          3
+        ],
+        [
+          "ООО \"Промсорт\"",
+          3
+        ],
+        [
+          "와이케이스틸(주)",
+          2
+        ],
+        [
+          "동국제강 주식회사",
+          2
+        ],
+        [
+          "邢台钢铁有限责任公司",
+          2
+        ],
+        [
+          "福建恒旺投资有限公司",
+          2
+        ],
+        [
+          "石家庄钢铁有限责任公司",
+          2
+        ],
+        [
+          "湖南华菱涟源钢铁有限公司",
+          2
+        ],
+        [
+          "河源德润钢铁有限公司",
+          2
+        ],
+        [
+          "河北新武安钢铁集团文安钢铁有限公司",
+          2
+        ],
+        [
+          "河北唐银钢铁有限公司",
+          2
+        ],
+        [
+          "武钢集团昆明钢铁股份有限公司安宁分公司",
+          2
+        ],
+        [
+          "武汉钢铁有限公司",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of immediate owner/operator of iron/steel plant in other language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner GEM entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1069,
+      "top_values": [
+        [
+          "E100001010181",
+          13
+        ],
+        [
+          "E100001000649",
+          12
+        ],
+        [
+          "E100000000652",
+          10
+        ],
+        [
+          "E100001010298",
+          8
+        ],
+        [
+          "E100001000703",
+          8
+        ],
+        [
+          "E100000130754",
+          8
+        ],
+        [
+          "E100000131011",
+          7
+        ],
+        [
+          "E100001010336",
+          6
+        ],
+        [
+          "E100001010018",
+          6
+        ],
+        [
+          "E100001000493",
+          6
+        ],
+        [
+          "E100000130950",
+          6
+        ],
+        [
+          "E100000001319",
+          6
+        ],
+        [
+          "E100000000687",
+          6
+        ],
+        [
+          "E100001000516",
+          5
+        ],
+        [
+          "E100001000439",
+          5
+        ],
+        [
+          "E100000130898",
+          5
+        ],
+        [
+          "E100000003335",
+          5
+        ],
+        [
+          "E100000002455",
+          5
+        ],
+        [
+          "E100001013041",
+          4
+        ],
+        [
+          "E100001010277",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Global Energy Monitor's entity ID for the owner/operator of the iron/steel plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner PermID",
+      "code_friendly_name_guess": "owner_permid",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 541,
+      "top_values": [
+        [
+          "unknown",
+          551
+        ],
+        [
+          "4295904636",
+          13
+        ],
+        [
+          "4295903753",
+          12
+        ],
+        [
+          "4295877313",
+          10
+        ],
+        [
+          "4295903763",
+          8
+        ],
+        [
+          "4295872623",
+          8
+        ],
+        [
+          "4295861819",
+          8
+        ],
+        [
+          "5041063881",
+          7
+        ],
+        [
+          "5076098979",
+          6
+        ],
+        [
+          "5000030092",
+          6
+        ],
+        [
+          "4295908010",
+          6
+        ],
+        [
+          "4295903049",
+          6
+        ],
+        [
+          "4295872420",
+          6
+        ],
+        [
+          "4295859712",
+          6
+        ],
+        [
+          "5082050876",
+          5
+        ],
+        [
+          "4298502619",
+          5
+        ],
+        [
+          "4295877328",
+          5
+        ],
+        [
+          "4295874065",
+          5
+        ],
+        [
+          "4295872888",
+          5
+        ],
+        [
+          "5001424116",
+          4
+        ]
+      ],
+      "portion_numeric": 0.564,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "PermID of the immediate owner/operator of the iron/steel plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "SOE status",
+      "code_friendly_name_guess": "soe_status",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "N/A",
+          1081
+        ],
+        [
+          "Partial",
+          157
+        ],
+        [
+          "Full",
+          55
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Identifies an iron/steel plant as a \"full\" or \"partial\" state-owned enterprise (SOE)/government linked company (GLC).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent (English)",
+      "code_friendly_name_guess": "parent_english",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 919,
+      "top_values": [
+        [
+          "Nucor Corp [100.0%]",
+          20
+        ],
+        [
+          "ArcelorMittal SA [100.0%]",
+          19
+        ],
+        [
+          "Nippon Steel Corp [100.0%]",
+          17
+        ],
+        [
+          "JSW Steel Ltd [100.0%]",
+          12
+        ],
+        [
+          "Cleveland-Cliffs Inc [100.0%]",
+          12
+        ],
+        [
+          "GFG Alliance Ltd",
+          9
+        ],
+        [
+          "Commercial Metals Co [100.0%]",
+          9
+        ],
+        [
+          "Steel Authority of India Ltd [100.0%]",
+          8
+        ],
+        [
+          "Riva Forni Elettrici SpA",
+          8
+        ],
+        [
+          "JFE Holdings Inc [100.0%]",
+          8
+        ],
+        [
+          "Gerdau SA [98.2%]",
+          8
+        ],
+        [
+          "Tata Steel Ltd [100.0%]",
+          7
+        ],
+        [
+          "SteelAsia Manufacturing Corp [100.0%]",
+          7
+        ],
+        [
+          "Jindal Steel Limited Ltd [100.0%]",
+          7
+        ],
+        [
+          "Iranian Mines & Mining Industries Development & Renovation Organization",
+          7
+        ],
+        [
+          "Steel Dynamics Inc [100.0%]",
+          6
+        ],
+        [
+          "Beijing Jianlong Investment Co Ltd [90.2%]; unknown [9.8%]",
+          6
+        ],
+        [
+          "ArcelorMittal SA [97.1%]; small shareholder(s) [2.9%]",
+          6
+        ],
+        [
+          "SSAB AB [100.0%]",
+          5
+        ],
+        [
+          "Rungta Mines Ltd [100.0%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Parent companies and respective ownership shares.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent GEM entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 919,
+      "top_values": [
+        [
+          "E100001010181 [100.0%]",
+          20
+        ],
+        [
+          "E100000000687 [100.0%]",
+          19
+        ],
+        [
+          "E100000000652 [100.0%]",
+          17
+        ],
+        [
+          "E100001000649 [100.0%]",
+          12
+        ],
+        [
+          "E100001000516 [100.0%]",
+          12
+        ],
+        [
+          "E100001000556",
+          9
+        ],
+        [
+          "E100000130754 [100.0%]",
+          9
+        ],
+        [
+          "E100001010270 [98.2%]",
+          8
+        ],
+        [
+          "E100001000703 [100.0%]",
+          8
+        ],
+        [
+          "E100000131000",
+          8
+        ],
+        [
+          "E100000000643 [100.0%]",
+          8
+        ],
+        [
+          "E100001010018 [100.0%]",
+          7
+        ],
+        [
+          "E100001000439 [100.0%]",
+          7
+        ],
+        [
+          "E100000131011 [100.0%]",
+          7
+        ],
+        [
+          "E100000000547",
+          7
+        ],
+        [
+          "E100001010336 [100.0%]",
+          6
+        ],
+        [
+          "E100000000687 [97.1%]; E100001015587 [2.9%]",
+          6
+        ],
+        [
+          "E100000000155 [90.2%]; E100000132388 [9.8%]",
+          6
+        ],
+        [
+          "E100002003621; E100002003627; E100002003626; E100000136992; E100002003622; E100002003624; E100002003623",
+          5
+        ],
+        [
+          "E100000130898 [100.0%]",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Global Energy Monitor's entity ID for the parent companies and respective ownership shares.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent PermID",
+      "code_friendly_name_guess": "parent_permid",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 601,
+      "top_values": [
+        [
+          "unknown [100.0%]",
+          303
+        ],
+        [
+          "unknown",
+          23
+        ],
+        [
+          "4295904636 [100.0%]",
+          20
+        ],
+        [
+          "5000030092 [100.0%]",
+          19
+        ],
+        [
+          "4295877313 [100.0%]",
+          17
+        ],
+        [
+          "4295903753 [100.0%]",
+          12
+        ],
+        [
+          "4295872888 [100.0%]",
+          12
+        ],
+        [
+          "5057811578",
+          9
+        ],
+        [
+          "4295903763 [100.0%]",
+          9
+        ],
+        [
+          "unknown; unknown",
+          8
+        ],
+        [
+          "5039934846",
+          8
+        ],
+        [
+          "5000004542 [98.2%]",
+          8
+        ],
+        [
+          "4295880726 [100.0%]",
+          8
+        ],
+        [
+          "4295872623 [100.0%]",
+          8
+        ],
+        [
+          "5041063881 [100.0%]",
+          7
+        ],
+        [
+          "5000935267",
+          7
+        ],
+        [
+          "4295874065 [100.0%]",
+          7
+        ],
+        [
+          "4295872420 [100.0%]",
+          7
+        ],
+        [
+          "unknown [90.2%]; unknown [9.8%]",
+          6
+        ],
+        [
+          "5000030092 [97.1%]; unknown [2.9%]",
+          6
+        ]
+      ],
+      "portion_numeric": 0.072,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "PermIDs of Parent companies and respective ownership shares.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Location address",
+      "code_friendly_name_guess": "location_address",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1126,
+      "top_values": [
+        [
+          "unknown",
+          143
+        ],
+        [
+          "Ras Al-Khair, Industrial City, Eastern Province, Saudi Arabia",
+          4
+        ],
+        [
+          "Xindu Town, Babu District, Hezhou City, Guangxi Zhuang Autonomous Region",
+          3
+        ],
+        [
+          "Sandur Taluk, Vijyanagar Post, Bellary, Toranagallu, Karnataka 583275, India",
+          2
+        ],
+        [
+          "Pingqiao Industrial Park, Honghuagang District, Zunyi City, Guizhou Province",
+          2
+        ],
+        [
+          "Pinglang Village, Changzhou District, Wuzhou City, Guangxi Zhuang Autonomous Region",
+          2
+        ],
+        [
+          "Phu My Industrial Park, Tan Thanh District, Ba Ria Vung Tau Province, Vietnam",
+          2
+        ],
+        [
+          "No. 288 Kunlun North Road",
+          2
+        ],
+        [
+          "Nanping Middle Road, Gangbei District, Guigang City, Guangxi Zhuang Autonomous Region",
+          2
+        ],
+        [
+          "Majiao Village, Jinhu Street, Daye City, Huangshi City, Hubei Province",
+          2
+        ],
+        [
+          "Largo Caduti sul Lavoro, 21 57025 Piombino (LI), Italy",
+          2
+        ],
+        [
+          "Industrial Area, Durgapur, West Bengal 713203, India",
+          2
+        ],
+        [
+          "Harbor economic development zone, Tangshan City, Hebei Province",
+          2
+        ],
+        [
+          "Fukang Industrial Park",
+          2
+        ],
+        [
+          "Erbil, Kurdistan, Iraq",
+          2
+        ],
+        [
+          "Donetsk, Ukraine, 83062",
+          2
+        ],
+        [
+          "Dammam, 31472, Saudi Arabia",
+          2
+        ],
+        [
+          "Chongyi Village, Wu'an, Handan City, Hebei Province",
+          2
+        ],
+        [
+          "Caofeidian Small and Medium-sized Enterprise Park, Tangshan City, Hebei Province",
+          2
+        ],
+        [
+          "Bhugaon Link Road, Wardha, Maharashtra, India",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Physical address of iron/steel plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Location address (other language)",
+      "code_friendly_name_guess": "location_address_other_language",
+      "n_total": 1293,
+      "n_null": 794,
+      "n_non_null": 499,
+      "null_rate": 0.6141,
+      "n_unique": 490,
+      "top_values": [
+        [
+          "广西壮族自治区贺州市八步区信都镇工业区",
+          3
+        ],
+        [
+          "湖北省大冶市金湖街马叫村",
+          2
+        ],
+        [
+          "河北省承德市宽城满族自治县板城镇岔沟村2号",
+          2
+        ],
+        [
+          "河北省唐山市曹妃甸中小企业园区",
+          2
+        ],
+        [
+          "江苏省溧阳市昆仑北路288号",
+          2
+        ],
+        [
+          "江苏省徐州市铜山区104国道",
+          2
+        ],
+        [
+          "广西壮族自治区贵港市港北区南平中路",
+          2
+        ],
+        [
+          "广西壮族自治区梧州市长洲区平浪村",
+          2
+        ],
+        [
+          "黑龙江省齐齐哈尔市富拉尔基区红岸大街7号",
+          1
+        ],
+        [
+          "黑龙江省哈尔滨市阿城区北环路2号",
+          1
+        ],
+        [
+          "黑龙江省双鸭山市岭东区双选路64号",
+          1
+        ],
+        [
+          "黑龙江省伊春市西林区新兴大街",
+          1
+        ],
+        [
+          "高雄市小港區沿海二路12號",
+          1
+        ],
+        [
+          "高雄市小港區光陽街7號",
+          1
+        ],
+        [
+          "马鞍山市当涂县龙山桥工业园",
+          1
+        ],
+        [
+          "韶关市曲江区马坝镇演山石场旁",
+          1
+        ],
+        [
+          "韶关市曲江区白土工业园",
+          1
+        ],
+        [
+          "青海省西宁市城北区柴达木西路52号",
+          1
+        ],
+        [
+          "陕西省渭南市韩城市龙门镇",
+          1
+        ],
+        [
+          "陕西省汉中市略阳县城关镇大沟口",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Physical address of iron/steel plant in local language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Municipality",
+      "code_friendly_name_guess": "municipality",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 875,
+      "top_values": [
+        [
+          "unknown",
+          112
+        ],
+        [
+          "Tangshan",
+          41
+        ],
+        [
+          "Handan",
+          25
+        ],
+        [
+          "Heyuan",
+          10
+        ],
+        [
+          "Qingyuan",
+          7
+        ],
+        [
+          "Phu My Town",
+          7
+        ],
+        [
+          "Anyang",
+          7
+        ],
+        [
+          "Kharagpur",
+          6
+        ],
+        [
+          "Fuzhou",
+          6
+        ],
+        [
+          "Aliağa",
+          6
+        ],
+        [
+          "Shijiazhuang",
+          5
+        ],
+        [
+          "Ningde",
+          5
+        ],
+        [
+          "Kalinganagar",
+          5
+        ],
+        [
+          "Huangshi",
+          5
+        ],
+        [
+          "Himeji",
+          5
+        ],
+        [
+          "Hezhou",
+          5
+        ],
+        [
+          "Ciudad Guayana",
+          5
+        ],
+        [
+          "Zunyi",
+          4
+        ],
+        [
+          "Yangjiang",
+          4
+        ],
+        [
+          "Wuzhou",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Municipality (city, village, town).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 417,
+      "top_values": [
+        [
+          "Hebei",
+          91
+        ],
+        [
+          "Guangdong",
+          41
+        ],
+        [
+          "Jiangsu",
+          37
+        ],
+        [
+          "Shandong",
+          29
+        ],
+        [
+          "Shanxi",
+          26
+        ],
+        [
+          "Odisha",
+          26
+        ],
+        [
+          "West Bengal",
+          21
+        ],
+        [
+          "Guangxi",
+          21
+        ],
+        [
+          "Hubei",
+          20
+        ],
+        [
+          "Henan",
+          20
+        ],
+        [
+          "Liaoning",
+          19
+        ],
+        [
+          "unknown",
+          18
+        ],
+        [
+          "Yunnan",
+          17
+        ],
+        [
+          "Fujian",
+          17
+        ],
+        [
+          "Inner Mongolia",
+          16
+        ],
+        [
+          "Chhattisgarh",
+          15
+        ],
+        [
+          "Anhui",
+          14
+        ],
+        [
+          "Maharashtra",
+          13
+        ],
+        [
+          "Sichuan",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Subnational unit (province, state).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 91,
+      "top_values": [
+        [
+          "China",
+          458
+        ],
+        [
+          "India",
+          113
+        ],
+        [
+          "United States",
+          90
+        ],
+        [
+          "Iran",
+          56
+        ],
+        [
+          "Japan",
+          42
+        ],
+        [
+          "Russia",
+          31
+        ],
+        [
+          "Türkiye",
+          30
+        ],
+        [
+          "Vietnam",
+          28
+        ],
+        [
+          "Brazil",
+          25
+        ],
+        [
+          "Italy",
+          24
+        ],
+        [
+          "Germany",
+          19
+        ],
+        [
+          "South Korea",
+          18
+        ],
+        [
+          "Spain",
+          17
+        ],
+        [
+          "Malaysia",
+          16
+        ],
+        [
+          "Indonesia",
+          16
+        ],
+        [
+          "Mexico",
+          15
+        ],
+        [
+          "Saudi Arabia",
+          14
+        ],
+        [
+          "France",
+          14
+        ],
+        [
+          "Ukraine",
+          13
+        ],
+        [
+          "Thailand",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Asia Pacific",
+          765
+        ],
+        [
+          "Europe",
+          184
+        ],
+        [
+          "North America",
+          113
+        ],
+        [
+          "Middle East",
+          90
+        ],
+        [
+          "Africa",
+          51
+        ],
+        [
+          "Eurasia",
+          47
+        ],
+        [
+          "Central & South America",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "WEO region.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinates",
+      "code_friendly_name_guess": "coordinates",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1286,
+      "top_values": [
+        [
+          "47.9822760, 37.8106340",
+          2
+        ],
+        [
+          "47.5695970, -122.3673950",
+          2
+        ],
+        [
+          "42.9365200, 10.5377940",
+          2
+        ],
+        [
+          "39.8527100, 118.1812790",
+          2
+        ],
+        [
+          "39.1604010, 118.4298060",
+          2
+        ],
+        [
+          "36.7189520, 114.1116770",
+          2
+        ],
+        [
+          "31.4711230, 119.4859410",
+          2
+        ],
+        [
+          "9.4627150, 7.3680000",
+          1
+        ],
+        [
+          "9.0820000, 8.6753000",
+          1
+        ],
+        [
+          "8.7811550, 38.9320650",
+          1
+        ],
+        [
+          "8.5266660, 124.7557110",
+          1
+        ],
+        [
+          "8.3909930, 4.6744750",
+          1
+        ],
+        [
+          "8.3346800, -62.7288420",
+          1
+        ],
+        [
+          "8.3001590, -62.7801360",
+          1
+        ],
+        [
+          "8.2976620, -62.7801490",
+          1
+        ],
+        [
+          "8.2901420, -62.8054190",
+          1
+        ],
+        [
+          "8.2749650, -62.8192820",
+          1
+        ],
+        [
+          "8.2590730, -62.8411260",
+          1
+        ],
+        [
+          "7.7169940, 122.9986710",
+          1
+        ],
+        [
+          "7.6934600, 6.8069370",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Coordinates of iron/steel plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coordinate accuracy",
+      "code_friendly_name_guess": "coordinate_accuracy",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          1141
+        ],
+        [
+          "approximate",
+          152
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Coordinate accuracy defined as \"exact\" = location confirmed via satellite imagery, \"approximate\" = location estimated or undefined.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM wiki page",
+      "code_friendly_name_guess": "gem_wiki_page",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "https://www.gem.wiki/İÇDAŞ_Biga_steel_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/İDÇ_Izdemir_Aliaga_steel_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zunyi_Fuxin_Special_Steel_Equipment_Manufacturing_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zunyi_Changling_Special_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zonouz_Steel_Complex",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zijin_County_Dongri_Casting_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zibo_Qilin_Fushan_Iron_and_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhuhai_Yueyufeng_Iron_and_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongye_Dongfang_Jiangsu_Heavy_Industry_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongxin_Iron_and_Steel_Group_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhongpu_Handan_Iron_and_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhenshi_Group_Eastern_Special_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhengzhou_Yongtong_Special_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Yuxin_Industrial_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Wantai_Special_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Tsingshan_Iron_and_Steel_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zenith_Steel_Group_Nantong_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zenith_Steel_Group_Co_Ltd",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zarand_Iranian_Steel_Company_Kerman_plant",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yuzovsky_Metallurgical_Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Link to GEM wiki page.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant age",
+      "code_friendly_name_guess": "plant_age",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 389,
+      "top_values": [
+        [
+          "unknown",
+          107
+        ],
+        [
+          "N/A",
+          61
+        ],
+        [
+          "23",
+          27
+        ],
+        [
+          "24",
+          25
+        ],
+        [
+          "25",
+          21
+        ],
+        [
+          "19",
+          21
+        ],
+        [
+          "0",
+          21
+        ],
+        [
+          "68",
+          20
+        ],
+        [
+          "33",
+          20
+        ],
+        [
+          "20",
+          19
+        ],
+        [
+          "15",
+          18
+        ],
+        [
+          "4",
+          16
+        ],
+        [
+          "17",
+          16
+        ],
+        [
+          "16",
+          16
+        ],
+        [
+          "57",
+          15
+        ],
+        [
+          "56",
+          14
+        ],
+        [
+          "27",
+          14
+        ],
+        [
+          "22",
+          14
+        ],
+        [
+          "18",
+          14
+        ],
+        [
+          "5",
+          13
+        ]
+      ],
+      "portion_numeric": 0.9066,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ],
+      "definition_from_readme": "Age of plant in years.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Announced date",
+      "code_friendly_name_guess": "announced_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 141,
+      "top_values": [
+        [
+          "unknown",
+          1027
+        ],
+        [
+          "2021",
+          14
+        ],
+        [
+          "2018",
+          12
+        ],
+        [
+          "2022",
+          10
+        ],
+        [
+          "2008",
+          8
+        ],
+        [
+          "2019",
+          7
+        ],
+        [
+          "2024",
+          6
+        ],
+        [
+          "2007",
+          6
+        ],
+        [
+          "2020",
+          5
+        ],
+        [
+          "2014",
+          5
+        ],
+        [
+          "2010",
+          5
+        ],
+        [
+          "2023-02-01 00:00:00",
+          4
+        ],
+        [
+          "2023",
+          4
+        ],
+        [
+          "2017",
+          4
+        ],
+        [
+          "2016",
+          4
+        ],
+        [
+          "2006",
+          4
+        ],
+        [
+          "2004",
+          4
+        ],
+        [
+          "2003",
+          4
+        ],
+        [
+          "2025",
+          3
+        ],
+        [
+          "2023-05-01 00:00:00",
+          3
+        ]
+      ],
+      "portion_numeric": 0.086,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date of announcement/proposal of iron/steel plant in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Construction date",
+      "code_friendly_name_guess": "construction_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 115,
+      "top_values": [
+        [
+          "unknown",
+          1120
+        ],
+        [
+          "2025",
+          7
+        ],
+        [
+          "2026",
+          5
+        ],
+        [
+          "2024",
+          4
+        ],
+        [
+          "2023",
+          4
+        ],
+        [
+          "2022",
+          4
+        ],
+        [
+          "2018",
+          4
+        ],
+        [
+          "2012",
+          4
+        ],
+        [
+          "2011",
+          4
+        ],
+        [
+          "2008",
+          4
+        ],
+        [
+          "2027",
+          3
+        ],
+        [
+          "2023-07-01 00:00:00",
+          3
+        ],
+        [
+          "2022-07-01 00:00:00",
+          3
+        ],
+        [
+          "2020",
+          3
+        ],
+        [
+          "2019",
+          3
+        ],
+        [
+          "2014",
+          3
+        ],
+        [
+          "2010",
+          3
+        ],
+        [
+          "2005",
+          3
+        ],
+        [
+          "2025-06-01 00:00:00",
+          2
+        ],
+        [
+          "2025-04-01 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.076,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that construction on the iron/steel plant began in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 399,
+      "top_values": [
+        [
+          "unknown",
+          107
+        ],
+        [
+          "2003",
+          33
+        ],
+        [
+          "2002",
+          31
+        ],
+        [
+          "2001",
+          23
+        ],
+        [
+          "1958",
+          23
+        ],
+        [
+          "2026",
+          21
+        ],
+        [
+          "1993",
+          21
+        ],
+        [
+          "2027",
+          19
+        ],
+        [
+          "2011",
+          19
+        ],
+        [
+          "2006",
+          19
+        ],
+        [
+          "2022",
+          16
+        ],
+        [
+          "2007",
+          16
+        ],
+        [
+          "2004",
+          16
+        ],
+        [
+          "2008",
+          15
+        ],
+        [
+          "2000",
+          15
+        ],
+        [
+          "1999",
+          15
+        ],
+        [
+          "1969",
+          15
+        ],
+        [
+          "2028",
+          14
+        ],
+        [
+          "2010",
+          14
+        ],
+        [
+          "2009",
+          14
+        ]
+      ],
+      "portion_numeric": 0.77,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that the plant began producing iron/steel in the format YYYY-MM-DD. For announced or construction capacity, this is the earliest start date of any units under development.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Pre-retirement announcement date",
+      "code_friendly_name_guess": "pre_retirement_announcement_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "unknown",
+          1257
+        ],
+        [
+          "2021-12-23 00:00:00",
+          3
+        ],
+        [
+          "2021",
+          3
+        ],
+        [
+          "2025-01-07 00:00:00",
+          2
+        ],
+        [
+          "2022",
+          2
+        ],
+        [
+          "2020",
+          2
+        ],
+        [
+          "2024-08-02 00:00:00",
+          1
+        ],
+        [
+          "2024-08-01 00:00:00",
+          1
+        ],
+        [
+          "2024-07-18 00:00:00",
+          1
+        ],
+        [
+          "2023-06-07 00:00:00",
+          1
+        ],
+        [
+          "2023-03-21 00:00:00",
+          1
+        ],
+        [
+          "2023",
+          1
+        ],
+        [
+          "2022-12-05 00:00:00",
+          1
+        ],
+        [
+          "2022-12-01 00:00:00",
+          1
+        ],
+        [
+          "2022-11-29 00:00:00",
+          1
+        ],
+        [
+          "2022-11-09 00:00:00",
+          1
+        ],
+        [
+          "2022-08-01 00:00:00",
+          1
+        ],
+        [
+          "2022-05-25 00:00:00",
+          1
+        ],
+        [
+          "2022-04-26 00:00:00",
+          1
+        ],
+        [
+          "2022-04-13 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.006,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date the company announced its plans to retire the plant in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Idled date",
+      "code_friendly_name_guess": "idled_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 36,
+      "top_values": [
+        [
+          "unknown",
+          1245
+        ],
+        [
+          "2022",
+          4
+        ],
+        [
+          "2021",
+          4
+        ],
+        [
+          "2016",
+          4
+        ],
+        [
+          "2023",
+          2
+        ],
+        [
+          "2018",
+          2
+        ],
+        [
+          "2017",
+          2
+        ],
+        [
+          "2013",
+          2
+        ],
+        [
+          "2025-03-01 00:00:00",
+          1
+        ],
+        [
+          "2025",
+          1
+        ],
+        [
+          "2024-10-24 00:00:00",
+          1
+        ],
+        [
+          "2024-09-16 00:00:00",
+          1
+        ],
+        [
+          "2024-07-01 00:00:00",
+          1
+        ],
+        [
+          "2024-06-10 00:00:00",
+          1
+        ],
+        [
+          "2024-06-01 00:00:00",
+          1
+        ],
+        [
+          "2024-03-01 00:00:00",
+          1
+        ],
+        [
+          "2024",
+          1
+        ],
+        [
+          "2023-12-28 00:00:00",
+          1
+        ],
+        [
+          "2023-10-01 00:00:00",
+          1
+        ],
+        [
+          "2023-08-01 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.018,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that iron/steel plant stops iron or steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Retired date",
+      "code_friendly_name_guess": "retired_date",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 53,
+      "top_values": [
+        [
+          "unknown",
+          1185
+        ],
+        [
+          "2022",
+          14
+        ],
+        [
+          "2021",
+          13
+        ],
+        [
+          "2020",
+          11
+        ],
+        [
+          "2023",
+          7
+        ],
+        [
+          "2025",
+          5
+        ],
+        [
+          "2019",
+          5
+        ],
+        [
+          "2026-01-01 00:00:00",
+          2
+        ],
+        [
+          "2025-11-01 00:00:00",
+          2
+        ],
+        [
+          "2025-10-01 00:00:00",
+          2
+        ],
+        [
+          "2023-09-01 00:00:00",
+          2
+        ],
+        [
+          "2018",
+          2
+        ],
+        [
+          "2017",
+          2
+        ],
+        [
+          "2016",
+          2
+        ],
+        [
+          "2027",
+          1
+        ],
+        [
+          "2026-07-01 00:00:00",
+          1
+        ],
+        [
+          "2025-11-04 00:00:00",
+          1
+        ],
+        [
+          "2025-11-03 00:00:00",
+          1
+        ],
+        [
+          "2025-10-13 00:00:00",
+          1
+        ],
+        [
+          "2025-06-01 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.046,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that iron/steel plant was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Ferronickel capacity (ttpa)",
+      "code_friendly_name_guess": "ferronickel_capacity_ttpa",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "N/A",
+          694
+        ],
+        [
+          "unknown",
+          579
+        ],
+        [
+          ">0",
+          6
+        ],
+        [
+          "300",
+          3
+        ],
+        [
+          "1000",
+          2
+        ],
+        [
+          "60",
+          1
+        ],
+        [
+          "55",
+          1
+        ],
+        [
+          "54",
+          1
+        ],
+        [
+          "3400",
+          1
+        ],
+        [
+          "2500",
+          1
+        ],
+        [
+          "250",
+          1
+        ],
+        [
+          "220",
+          1
+        ],
+        [
+          "150",
+          1
+        ],
+        [
+          "100",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0235,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:12_values_below_1pct"
+      ],
+      "definition_from_readme": "Plant-level capacity for ferronickel (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Sinter plant capacity (ttpa)",
+      "code_friendly_name_guess": "sinter_plant_capacity_ttpa",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "unknown",
+          553
+        ],
+        [
+          "N/A",
+          512
+        ],
+        [
+          ">0",
+          50
+        ],
+        [
+          "6000",
+          5
+        ],
+        [
+          "4000",
+          4
+        ],
+        [
+          "2800",
+          4
+        ],
+        [
+          "2300",
+          3
+        ],
+        [
+          "2000",
+          3
+        ],
+        [
+          "1000",
+          3
+        ],
+        [
+          ">2400",
+          2
+        ],
+        [
+          "800",
+          2
+        ],
+        [
+          "7660",
+          2
+        ],
+        [
+          "6300",
+          2
+        ],
+        [
+          "5775",
+          2
+        ],
+        [
+          "5600",
+          2
+        ],
+        [
+          "5000",
+          2
+        ],
+        [
+          "500",
+          2
+        ],
+        [
+          "4400",
+          2
+        ],
+        [
+          "3000",
+          2
+        ],
+        [
+          "2100",
+          2
+        ]
+      ],
+      "portion_numeric": 0.2014,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for sinter (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Coking plant capacity (ttpa)",
+      "code_friendly_name_guess": "coking_plant_capacity_ttpa",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 97,
+      "top_values": [
+        [
+          "N/A",
+          689
+        ],
+        [
+          "unknown",
+          436
+        ],
+        [
+          ">0",
+          29
+        ],
+        [
+          "1200",
+          10
+        ],
+        [
+          "800",
+          8
+        ],
+        [
+          "500",
+          7
+        ],
+        [
+          "1100",
+          5
+        ],
+        [
+          "880",
+          3
+        ],
+        [
+          "3000",
+          3
+        ],
+        [
+          "1800",
+          3
+        ],
+        [
+          "1400",
+          3
+        ],
+        [
+          "1000",
+          3
+        ],
+        [
+          "700",
+          2
+        ],
+        [
+          "600",
+          2
+        ],
+        [
+          "280",
+          2
+        ],
+        [
+          "2500",
+          2
+        ],
+        [
+          "2100",
+          2
+        ],
+        [
+          "2000",
+          2
+        ],
+        [
+          "200",
+          2
+        ],
+        [
+          "1900",
+          2
+        ]
+      ],
+      "portion_numeric": 0.2143,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant level capacity for coke (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Pelletizing plant capacity (ttpa)",
+      "code_friendly_name_guess": "pelletizing_plant_capacity_ttpa",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "unknown",
+          627
+        ],
+        [
+          "N/A",
+          528
+        ],
+        [
+          ">0",
+          18
+        ],
+        [
+          "1200",
+          13
+        ],
+        [
+          "5000",
+          8
+        ],
+        [
+          "2000",
+          7
+        ],
+        [
+          "2500",
+          6
+        ],
+        [
+          "4000",
+          5
+        ],
+        [
+          "3000",
+          5
+        ],
+        [
+          ">",
+          4
+        ],
+        [
+          "8000",
+          4
+        ],
+        [
+          "600",
+          3
+        ],
+        [
+          "1600",
+          3
+        ],
+        [
+          "6400",
+          2
+        ],
+        [
+          "4800",
+          2
+        ],
+        [
+          "4500",
+          2
+        ],
+        [
+          "300",
+          2
+        ],
+        [
+          "2200",
+          2
+        ],
+        [
+          "2100",
+          2
+        ],
+        [
+          "1800",
+          2
+        ]
+      ],
+      "portion_numeric": 0.1185,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant level capacity for pellets (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Category steel product",
+      "code_friendly_name_guess": "category_steel_product",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "semi-finished, finished rolled",
+          478
+        ],
+        [
+          "finished rolled",
+          454
+        ],
+        [
+          "unknown",
+          131
+        ],
+        [
+          "semi-finished",
+          92
+        ],
+        [
+          "crude, semi-finished, finished rolled",
+          58
+        ],
+        [
+          "crude",
+          46
+        ],
+        [
+          "crude, semi-finished",
+          31
+        ],
+        [
+          "crude, finished rolled",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Categorizes steel products as \"crude\", \"semi-finished\", or \"finished rolled\" steel products.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Steel products",
+      "code_friendly_name_guess": "steel_products",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 759,
+      "top_values": [
+        [
+          "unknown",
+          133
+        ],
+        [
+          "rebar",
+          44
+        ],
+        [
+          "billet, rebar",
+          35
+        ],
+        [
+          "billet",
+          29
+        ],
+        [
+          "billet, wire rod, rebar",
+          18
+        ],
+        [
+          "HBI",
+          18
+        ],
+        [
+          "bar",
+          16
+        ],
+        [
+          "plate",
+          13
+        ],
+        [
+          "coil",
+          10
+        ],
+        [
+          "DRI",
+          10
+        ],
+        [
+          "pipe",
+          9
+        ],
+        [
+          "wire, bar",
+          8
+        ],
+        [
+          "pig iron",
+          8
+        ],
+        [
+          "billet, bar",
+          8
+        ],
+        [
+          "sheet",
+          7
+        ],
+        [
+          "rebar, wire",
+          7
+        ],
+        [
+          "wire rod, rebar",
+          6
+        ],
+        [
+          "wire rod, bar",
+          6
+        ],
+        [
+          "slab",
+          6
+        ],
+        [
+          "coil, hot rolled",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Lists steel products produced at plant. Not comprehensive.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Steel sector end users",
+      "code_friendly_name_guess": "steel_sector_end_users",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "unknown",
+          594
+        ],
+        [
+          "building and infrastructure",
+          164
+        ],
+        [
+          "automotive, building and infrastructure, energy, steel packaging, tools and machinery, transport",
+          82
+        ],
+        [
+          "automotive, building and infrastructure, energy, tools and machinery, transport",
+          47
+        ],
+        [
+          "automotive, building and infrastructure, tools and machinery",
+          40
+        ],
+        [
+          "building and infrastructure, tools and machinery",
+          39
+        ],
+        [
+          "building and infrastructure, transport",
+          30
+        ],
+        [
+          "building and infrastructure, tools and machinery, transport",
+          25
+        ],
+        [
+          "building and infrastructure, energy, tools and machinery, transport",
+          22
+        ],
+        [
+          "automotive, building and infrastructure, tools and machinery, transport",
+          17
+        ],
+        [
+          "automotive, building and infrastructure, energy, tools and machinery",
+          16
+        ],
+        [
+          "automotive, building and infrastructure",
+          16
+        ],
+        [
+          "building and infrastructure, energy, steel packaging, tools and machinery, transport",
+          14
+        ],
+        [
+          "automotive, energy, tools and machinery, transport",
+          14
+        ],
+        [
+          "automotive, building and infrastructure, energy",
+          13
+        ],
+        [
+          "tools and machinery",
+          12
+        ],
+        [
+          "automotive, tools and machinery",
+          12
+        ],
+        [
+          "automotive",
+          12
+        ],
+        [
+          "building and infrastructure, energy, tools and machinery",
+          11
+        ],
+        [
+          "building and infrastructure, energy",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Steel sector end user market. Categories are \"automotive\", \"building and infrastructure\", \"energy\", \"steel packaging\", \"transport\", \"tools and machinery\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Workforce size",
+      "code_friendly_name_guess": "workforce_size",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 689,
+      "top_values": [
+        [
+          "unknown",
+          257
+        ],
+        [
+          "1000",
+          23
+        ],
+        [
+          "700",
+          21
+        ],
+        [
+          "500",
+          20
+        ],
+        [
+          "1500",
+          19
+        ],
+        [
+          "800",
+          16
+        ],
+        [
+          "2000",
+          13
+        ],
+        [
+          "3000",
+          12
+        ],
+        [
+          "300",
+          11
+        ],
+        [
+          "2500",
+          11
+        ],
+        [
+          "600",
+          10
+        ],
+        [
+          "400",
+          10
+        ],
+        [
+          "1200",
+          10
+        ],
+        [
+          "350",
+          8
+        ],
+        [
+          "8000",
+          7
+        ],
+        [
+          "1300",
+          7
+        ],
+        [
+          "750",
+          6
+        ],
+        [
+          "650",
+          6
+        ],
+        [
+          "150",
+          6
+        ],
+        [
+          "1400",
+          6
+        ]
+      ],
+      "portion_numeric": 0.834,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ],
+      "definition_from_readme": "Number of workers at the plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ISO 14001",
+      "code_friendly_name_guess": "iso_14001",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 399,
+      "top_values": [
+        [
+          "unknown",
+          385
+        ],
+        [
+          "yes",
+          177
+        ],
+        [
+          "expired",
+          124
+        ],
+        [
+          "no",
+          46
+        ],
+        [
+          "2022",
+          26
+        ],
+        [
+          "2023",
+          17
+        ],
+        [
+          "2021",
+          14
+        ],
+        [
+          "2024-11-15 00:00:00",
+          5
+        ],
+        [
+          "2024-08-06 00:00:00",
+          5
+        ],
+        [
+          "2025-06-19 00:00:00",
+          4
+        ],
+        [
+          "2025-05-16 00:00:00",
+          4
+        ],
+        [
+          "2024-08-19 00:00:00",
+          4
+        ],
+        [
+          "2024-07-01 00:00:00",
+          4
+        ],
+        [
+          "2024",
+          4
+        ],
+        [
+          "2023-11-30 00:00:00",
+          4
+        ],
+        [
+          "2024-08-30 00:00:00",
+          3
+        ],
+        [
+          "2024-07-30 00:00:00",
+          3
+        ],
+        [
+          "2024-02-14 00:00:00",
+          3
+        ],
+        [
+          "2023-11-20 00:00:00",
+          3
+        ],
+        [
+          "2023-07-13 00:00:00",
+          3
+        ]
+      ],
+      "portion_numeric": 0.058,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Certification year for current ISO 14001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ISO 50001",
+      "code_friendly_name_guess": "iso_50001",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 299,
+      "top_values": [
+        [
+          "unknown",
+          671
+        ],
+        [
+          "no",
+          108
+        ],
+        [
+          "expired",
+          71
+        ],
+        [
+          "yes",
+          66
+        ],
+        [
+          "2022",
+          9
+        ],
+        [
+          "2024-08-06 00:00:00",
+          5
+        ],
+        [
+          "2023",
+          5
+        ],
+        [
+          "2024-12-16 00:00:00",
+          4
+        ],
+        [
+          "2025-06-19 00:00:00",
+          3
+        ],
+        [
+          "2024-12-10 00:00:00",
+          3
+        ],
+        [
+          "2024-07-19 00:00:00",
+          3
+        ],
+        [
+          "2024-07-08 00:00:00",
+          3
+        ],
+        [
+          "2024-06-06 00:00:00",
+          3
+        ],
+        [
+          "2024",
+          3
+        ],
+        [
+          "2023-07-18 00:00:00",
+          3
+        ],
+        [
+          "2023-01-17 00:00:00",
+          3
+        ],
+        [
+          "2021",
+          3
+        ],
+        [
+          "2025-07-06 00:00:00",
+          2
+        ],
+        [
+          "2025-06-24 00:00:00",
+          2
+        ],
+        [
+          "2025-06-23 00:00:00",
+          2
+        ]
+      ],
+      "portion_numeric": 0.022,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Certification year for current ISO 50001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ResponsibleSteel certification",
+      "code_friendly_name_guess": "responsiblesteel_certification",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "no",
+          1248
+        ],
+        [
+          "2027-07-18 00:00:00",
+          4
+        ],
+        [
+          "2025-01-20 00:00:00",
+          4
+        ],
+        [
+          "Y",
+          3
+        ],
+        [
+          "2028-02-17 00:00:00",
+          3
+        ],
+        [
+          "expired",
+          2
+        ],
+        [
+          "2028-08-24 00:00:00",
+          2
+        ],
+        [
+          "2028-05-10 00:00:00",
+          2
+        ],
+        [
+          "2028-03-11 00:00:00",
+          2
+        ],
+        [
+          "2027-09-19 00:00:00",
+          2
+        ],
+        [
+          "2027-03-14 00:00:00",
+          2
+        ],
+        [
+          "2028-06-12 00:00:00",
+          1
+        ],
+        [
+          "2028-06-07 00:00:00",
+          1
+        ],
+        [
+          "2028-06-05 00:00:00",
+          1
+        ],
+        [
+          "2028-03-30 00:00:00",
+          1
+        ],
+        [
+          "2028-01-31 00:00:00",
+          1
+        ],
+        [
+          "2027-10-06 00:00:00",
+          1
+        ],
+        [
+          "2027-04-28 00:00:00",
+          1
+        ],
+        [
+          "2027-03-26 00:00:00",
+          1
+        ],
+        [
+          "2027-03-04 00:00:00",
+          1
+        ]
+      ],
+      "portion_numeric": 0.002,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Certification month and year for current ResponsibleSteel certification.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Main production equipment",
+      "code_friendly_name_guess": "main_production_equipment",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 87,
+      "top_values": [
+        [
+          "EAF",
+          513
+        ],
+        [
+          "BF; BOF",
+          312
+        ],
+        [
+          "DRI; EAF",
+          92
+        ],
+        [
+          "BF; BOF; EAF",
+          73
+        ],
+        [
+          "DRI",
+          38
+        ],
+        [
+          "BF; EAF",
+          22
+        ],
+        [
+          "BF",
+          19
+        ],
+        [
+          "EAF; BF; BOF",
+          15
+        ],
+        [
+          "IF",
+          14
+        ],
+        [
+          "BF; BOF; DRI; EAF",
+          14
+        ],
+        [
+          "Iron other/unspecified; Steel other/unspecified",
+          11
+        ],
+        [
+          "EAF; DRI",
+          10
+        ],
+        [
+          "DRI; EAF; BF; BOF",
+          9
+        ],
+        [
+          "DRI; IF",
+          8
+        ],
+        [
+          "Steel other/unspecified",
+          7
+        ],
+        [
+          "BF; BOF; DRI",
+          7
+        ],
+        [
+          "BF; DRI; EAF",
+          6
+        ],
+        [
+          "EAF; IF",
+          5
+        ],
+        [
+          "BOF",
+          5
+        ],
+        [
+          "BOF; Iron other/unspecified",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Lists the main iron and steel production equipment at the plant corresponding to the row's operating status, from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Power source",
+      "code_friendly_name_guess": "power_source",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 431,
+      "top_values": [
+        [
+          "unknown",
+          807
+        ],
+        [
+          "State Grid",
+          14
+        ],
+        [
+          "Distributed Photovoltaic Power Generation",
+          9
+        ],
+        [
+          "Photovoltaic Power Generation",
+          7
+        ],
+        [
+          "Waste Heat Power Generation",
+          5
+        ],
+        [
+          "Captive power plant",
+          5
+        ],
+        [
+          "Self-owned power generation",
+          4
+        ],
+        [
+          "the world's first 180-megawatt split-type blast furnace gas combined cycle power generation",
+          3
+        ],
+        [
+          "WindSeeG project",
+          3
+        ],
+        [
+          "Rooftop Distributed Photovoltaic Power Generation",
+          3
+        ],
+        [
+          "Roof-Top Distributed Photovoltaic Power Generation Project",
+          3
+        ],
+        [
+          "waste heat power generation&400 megawatts rooftop distributed photovoltaic",
+          2
+        ],
+        [
+          "waste heat power generation",
+          2
+        ],
+        [
+          "state grid",
+          2
+        ],
+        [
+          "solar panels",
+          2
+        ],
+        [
+          "State Grid Shijiazhuang Power Supply Company",
+          2
+        ],
+        [
+          "Southern Power Grid North Bay Power Supply Bureau in Guangxi",
+          2
+        ],
+        [
+          "Self-owned Power Plant",
+          2
+        ],
+        [
+          "Self-owned Power Generation",
+          2
+        ],
+        [
+          "Renewable energy",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Information about plant power system/source or utility that plant provides power to, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Iron ore source",
+      "code_friendly_name_guess": "iron_ore_source",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 172,
+      "top_values": [
+        [
+          "unknown",
+          1089
+        ],
+        [
+          "N/A",
+          16
+        ],
+        [
+          "Imported from Australia, Brazil and India",
+          10
+        ],
+        [
+          "Barbil-Joda, Odisha",
+          3
+        ],
+        [
+          "Xuan Thien's own mines in Angola and other African countries",
+          2
+        ],
+        [
+          "Ternium Mexico mining operations",
+          2
+        ],
+        [
+          "NLMK Stoilensky Mine (P100000128605)",
+          2
+        ],
+        [
+          "Metalloinvest Mikhailovsky Mine (P100000128817); Metalloinvest Lebedinsky Mine (P100000128790)",
+          2
+        ],
+        [
+          "JSPL TRB Mine (P100000128505)",
+          2
+        ],
+        [
+          "Carajás mine",
+          2
+        ],
+        [
+          "Australia, Brazil and India",
+          2
+        ],
+        [
+          "various owned or partially owned mines in Michigan and Minnesota and one in West Virginia (Hibbing Taconite, Minorca, Northshore, Tilden, and United Taconite mines) totalling 20,300 thousand metric tonnes of ore mined for Cleveland Cliffs in 2022",
+          1
+        ],
+        [
+          "north Iran",
+          1
+        ],
+        [
+          "iron ore mines nationwide",
+          1
+        ],
+        [
+          "domestic iron ore mines",
+          1
+        ],
+        [
+          "central eastern Anatolia",
+          1
+        ],
+        [
+          "a global mining company with operations near the site",
+          1
+        ],
+        [
+          "Zanjan, Hamdan, and Bijar",
+          1
+        ],
+        [
+          "Zaker iron ore mine",
+          1
+        ],
+        [
+          "Western Australian Iron Ore",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Mine and/or company providing iron ore for iron/steel production, if known.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Met coal source",
+      "code_friendly_name_guess": "met_coal_source",
+      "n_total": 1293,
+      "n_null": 0,
+      "n_non_null": 1293,
+      "null_rate": 0.0,
+      "n_unique": 80,
+      "top_values": [
+        [
+          "unknown",
+          1085
+        ],
+        [
+          "N/A",
+          115
+        ],
+        [
+          "Australia and Canada",
+          10
+        ],
+        [
+          "Australia",
+          3
+        ],
+        [
+          "Western Coalfields Ltd",
+          2
+        ],
+        [
+          "Mozambique, Australia and Canada",
+          2
+        ],
+        [
+          "Imported",
+          2
+        ],
+        [
+          "BCCL, Dhanbad or imported",
+          2
+        ],
+        [
+          "imports",
+          1
+        ],
+        [
+          "imported and domestic",
+          1
+        ],
+        [
+          "imported",
+          1
+        ],
+        [
+          "domestic",
+          1
+        ],
+        [
+          "Zamboanga del Sur and Zamboanga del Norte",
+          1
+        ],
+        [
+          "Xstrata Coal Queensland Pvt. Ltd, Australia",
+          1
+        ],
+        [
+          "West Bokaro (Domestic) / Dhamra or Paradip (Import)",
+          1
+        ],
+        [
+          "Vertical integration - Henan Longcheng Group Co., Ltd. has rights to 12 mining areas including Lushan and Xincai",
+          1
+        ],
+        [
+          "Use charcoal (biomass) from cultivated eucalyptus forests produced by Aperam BioGenergia as a substitute for coke.",
+          1
+        ],
+        [
+          "Tikhova Coal Mine (M0856); Kostromovskaya Coal Mine (M1343 )",
+          1
+        ],
+        [
+          "Tanoma coal mine",
+          1
+        ],
+        [
+          "Talcher",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Mine and/or company providing metallurgical coal for iron/steel production, if known.",
+      "notes_from_readme": null
+    }
+  ]
+}

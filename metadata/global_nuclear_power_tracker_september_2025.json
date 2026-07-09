@@ -1,0 +1,368 @@
+{
+  "source_file": "Global-Nuclear-Power-Tracker-September-2025.xlsx",
+  "tracker_slug": "global_nuclear_power_tracker_september_2025",
+  "header_info": {
+    "title": "Global Nuclear Power Tracker - September 4, 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Nuclear Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Joe Bernardi, Project Manager, Global Hydro and Nuclear Trackers, Global Energy Monitor - joe.bernardi@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Nuclear Power Tracker, September 2025 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "data": "Data"
+  },
+  "metadata_tabs": {
+    "about": "About"
+  },
+  "sections": [
+    {
+      "section_name": "Definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "announced",
+          "definition": "The unit has been described in corporate or government plans but concrete steps such as applying for permits have not yet been taken.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "The unit is actively moving forward in seeking governmental approvals, land rights, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "construction",
+          "definition": "The unit has site preparation and equipment installation underway.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "operating",
+          "definition": "The unit has been formally commissioned; commercial operation has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved",
+          "definition": "Unit suspension has been announced.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "The unit is inferred to be shelved because no progress has been observed for at least two years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement for the unit has been made.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "The unit is inferred to be cancelled because no progress has been observed for at least four years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "mothballed",
+          "definition": "The unit is disused, but not dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "retired",
+          "definition": "The unit has been decommissioned.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Columns",
+      "section_type": "columns",
+      "tab_key": "data",
+      "entries": [
+        {
+          "name": "Date Last Researched",
+          "definition": "Date that this unit was last researched by the researcher",
+          "notes": "Units: yyyy-mm-dd.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country/area where the project is located (unabbreviated)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name",
+          "definition": "Commonly used name",
+          "notes": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit Name",
+          "definition": "Common name of the unit",
+          "notes": "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Project Name in Local Language / Script",
+          "definition": "Commonly used name in the locally used script",
+          "notes": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other Name(s)",
+          "definition": "Alternative names, including the name in local script",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (MW)",
+          "definition": "Nameplate capacity, or best available data, of the unit in megawatts",
+          "notes": "Units: MW. No capacity threshold",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "see rows 14-23 above",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reactor Type",
+          "definition": "Classification of power reactors by coolant and moderator material",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Model",
+          "definition": "Specific design series of the reactor",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start Year",
+          "definition": "Year the unit is commissioned",
+          "notes": "Units: yyyy.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retirement Year",
+          "definition": "Year the unit is taken offline",
+          "notes": "Units: yyyy.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Planned Retirement",
+          "definition": "Indicates if the Retirement Year is planned or actual",
+          "notes": "Units: Y or N.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Cancellation Year",
+          "definition": "Year the unit is cancelled",
+          "notes": "Units: yyyy.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction Start Date",
+          "definition": "Date that unit construction begins",
+          "notes": "Units: yyyy-mm-dd [when available].",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "First Criticality Date",
+          "definition": "Date that the unit first achieves criticality",
+          "notes": "Units: yyyy-mm-dd [when available].",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "First Grid Connection",
+          "definition": "Date that the unit first connects to the grid",
+          "notes": "Units: yyyy-mm-dd [when available].",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Commercial Operation Date",
+          "definition": "Date that the unit begins commercial operation",
+          "notes": "Units: yyyy-mm-dd [when available].",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retirement Date",
+          "definition": "Date that the unit is retired",
+          "notes": "Units: yyyy-mm-dd [when available].",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "The company(ies) that directly own(s) the unit",
+          "notes": "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner Name in Local Language / Script",
+          "definition": "Company name(s) of owner(s) in the locally used script",
+          "notes": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise owner name(s) in local script included if possible",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator",
+          "definition": "The company(ies) that operates the unit",
+          "notes": "Company that performs day-to-day operations and maintenance of the unit",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator Name in Local Language / Script",
+          "definition": "Company name(s) of operator(s) in the locally used script",
+          "notes": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise operator name(s) in local script included if possible",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Reference Net Capacity (MW)",
+          "definition": "Net capacity of the unit for the reference period",
+          "notes": "Units: MW.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Design Net Capacity (MW)",
+          "definition": "Net capacity of the unit as originally designed by the manufacturer",
+          "notes": "Units: MW.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Thermal Capacity (MWt)",
+          "definition": "Net capacity for heat transferred from nuclear fuel to coolant",
+          "notes": "Units: MWt.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Latitude, assumed WGS84 (google maps)",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Latitude, assumed WGS84 (google maps)",
+          "notes": "Units: decimal degrees.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location Accuracy",
+          "definition": "Location is Approximate based by using nearest city or other information in research, or Location is Exact based on visibility on map or given in research",
+          "notes": "Units: approximate, exact.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "City",
+          "definition": "City, town, or village where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Local Area (taluk, county)",
+          "definition": "County/taluk where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Major Area (prefecture, district)",
+          "definition": "Prefecture or district where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "State/Province",
+          "definition": "Subnational unit where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subregion",
+          "definition": "Subregion (using UN Population and Statistics definitions) where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "Region (using UN Population and Statistics definitions) where unit is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM location ID",
+          "definition": "GEM-generated ID unique for each project",
+          "notes": "Units: L100000500001 - L100000599999 for nuclear projects.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "GEM-generated ID unique for each unit",
+          "notes": "Units: G100000500001 - G100000599999 for nuclear units.",
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL",
+          "definition": "URL of corresponding GEM.wiki pages",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

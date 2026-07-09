@@ -1,0 +1,7203 @@
+{
+  "table_name": "global_coal_mine_tracker_may_2026__non_closed_mines",
+  "tracker_slug": "global_coal_mine_tracker_may_2026",
+  "tab_slug": "non_closed_mines",
+  "n_rows": 5382,
+  "analyzed_at": "2026-07-07T21:45:11.026404+00:00",
+  "tracker_info": {
+    "title": "Global Coal Mine Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, May 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Dorothy Lan Mei, Project Manager, Global Energy Monitor - dorothy.mei@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Coal Mine Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Mine ID",
+      "code_friendly_name_guess": "gem_mine_id",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5176,
+      "top_values": [
+        [
+          "M0738",
+          4
+        ],
+        [
+          "M4265",
+          3
+        ],
+        [
+          "M3339",
+          3
+        ],
+        [
+          "M2501",
+          3
+        ],
+        [
+          "M1448",
+          3
+        ],
+        [
+          "M1444",
+          3
+        ],
+        [
+          "M1443",
+          3
+        ],
+        [
+          "M0336",
+          3
+        ],
+        [
+          "M0158",
+          3
+        ],
+        [
+          "M0023",
+          3
+        ],
+        [
+          "M7232",
+          2
+        ],
+        [
+          "M6769",
+          2
+        ],
+        [
+          "M6768",
+          2
+        ],
+        [
+          "M6690",
+          2
+        ],
+        [
+          "M5701",
+          2
+        ],
+        [
+          "M5572",
+          2
+        ],
+        [
+          "M5228",
+          2
+        ],
+        [
+          "M4742",
+          2
+        ],
+        [
+          "M4511",
+          2
+        ],
+        [
+          "M4432",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A static unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM Mine ID",
+        "definition": "A unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
+        "is_required": true,
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "^M\\d+$",
+        "category": "IDs",
+        "code_friendly_name": "gem_mine_id",
+        "taxonomy": "location"
+      }
+    },
+    {
+      "field_name": "MSHA ID",
+      "code_friendly_name_guess": "msha_id",
+      "n_total": 5382,
+      "n_null": 4806,
+      "n_non_null": 576,
+      "null_rate": 0.893,
+      "n_unique": 555,
+      "top_values": [
+        [
+          "503672.0",
+          2
+        ],
+        [
+          "4801337.0",
+          2
+        ],
+        [
+          "4801180.0",
+          2
+        ],
+        [
+          "4609537.0",
+          2
+        ],
+        [
+          "4609277.0",
+          2
+        ],
+        [
+          "4407217.0",
+          2
+        ],
+        [
+          "4202519.0",
+          2
+        ],
+        [
+          "4201566.0",
+          2
+        ],
+        [
+          "3200595.0",
+          2
+        ],
+        [
+          "3200491.0",
+          2
+        ],
+        [
+          "2401950.0",
+          2
+        ],
+        [
+          "2401747.0",
+          2
+        ],
+        [
+          "2401457.0",
+          2
+        ],
+        [
+          "1519094.0",
+          2
+        ],
+        [
+          "1518826.0",
+          2
+        ],
+        [
+          "1517216.0",
+          2
+        ],
+        [
+          "1516734.0",
+          2
+        ],
+        [
+          "1502709.0",
+          2
+        ],
+        [
+          "1103203.0",
+          2
+        ],
+        [
+          "103448.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "A static unique numerical identifier assigned to each US coal mine by the US Mine Safety and Health Administration (MSHA) for identification purposes nationwide.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "MSHA ID",
+        "definition": "A unique numerical identifier assigned to each US coal mine by the US Mine Safety and Health Administration (MSHA) for identification purposes nationwide.",
+        "is_required": false,
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "data_type": "numeric",
+        "category": "IDs",
+        "code_friendly_name": "msha_id",
+        "data_sub_type": null,
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Country / Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "China",
+          2582
+        ],
+        [
+          "United States",
+          599
+        ],
+        [
+          "India",
+          552
+        ],
+        [
+          "Indonesia",
+          482
+        ],
+        [
+          "Russia",
+          257
+        ],
+        [
+          "Australia",
+          199
+        ],
+        [
+          "South Africa",
+          140
+        ],
+        [
+          "Canada",
+          43
+        ],
+        [
+          "Türkiye",
+          42
+        ],
+        [
+          "Ukraine",
+          36
+        ],
+        [
+          "Mongolia",
+          33
+        ],
+        [
+          "Vietnam",
+          30
+        ],
+        [
+          "Colombia",
+          28
+        ],
+        [
+          "Poland",
+          26
+        ],
+        [
+          "Kazakhstan",
+          26
+        ],
+        [
+          "New Zealand",
+          24
+        ],
+        [
+          "Serbia",
+          19
+        ],
+        [
+          "Iran",
+          18
+        ],
+        [
+          "Zimbabwe",
+          16
+        ],
+        [
+          "North Korea",
+          15
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Country / Area",
+        "definition": "The geographic country or area where a coal mine or proposed coal mine project is located.",
+        "is_required": true,
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "allowed_values": [],
+        "code_friendly_name": "country_area",
+        "category": "Geography",
+        "taxonomy": "country_area"
+      }
+    },
+    {
+      "field_name": "Mine Name",
+      "code_friendly_name_guess": "mine_name",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5176,
+      "top_values": [
+        [
+          "Benga Coal Mine",
+          4
+        ],
+        [
+          "Vista Coal Mine",
+          3
+        ],
+        [
+          "Somkhele Coal Mine",
+          3
+        ],
+        [
+          "Shengli East No.2 Coal Mine",
+          3
+        ],
+        [
+          "Magdalena Colliery",
+          3
+        ],
+        [
+          "Lokuchakitsky Coal Mine",
+          3
+        ],
+        [
+          "Kopuku Coal Mine",
+          3
+        ],
+        [
+          "Escarpment Coal Mine",
+          3
+        ],
+        [
+          "Carmichael Coal Project",
+          3
+        ],
+        [
+          "Awaroa Coal Mine",
+          3
+        ],
+        [
+          "Zuoyun Shuimowan Coal Mine",
+          2
+        ],
+        [
+          "Zhalyn Coal Mine",
+          2
+        ],
+        [
+          "Zashulansky Coal Mine",
+          2
+        ],
+        [
+          "Zambeze Gas and Coal Mine",
+          2
+        ],
+        [
+          "Yitai Yili Coal Mine",
+          2
+        ],
+        [
+          "Xinyuan UG Coal Mine",
+          2
+        ],
+        [
+          "Wilpinjong Coal Mine",
+          2
+        ],
+        [
+          "Western Coal Project",
+          2
+        ],
+        [
+          "West Elk Coal Mine",
+          2
+        ],
+        [
+          "Vulcan Coal Mine",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The name of a coal mine or proposed coal mine project.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Mine Name",
+        "definition": "The name of a coal mine or proposed coal mine project.",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "is_required": true,
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "code_friendly_name": "mine_name",
+        "other_rules": "Must be unique unless the Mine ID is the same, then we consider it a unit within the mine project parent, duplicates can occur because official Mine names are duplicated within the industry",
+        "category": "Names"
+      }
+    },
+    {
+      "field_name": "Mine Name AKAs",
+      "code_friendly_name_guess": "mine_name_akas",
+      "n_total": 5382,
+      "n_null": 3857,
+      "n_non_null": 1525,
+      "null_rate": 0.7166,
+      "n_unique": 1358,
+      "top_values": [
+        [
+          "2023 Tranche",
+          20
+        ],
+        [
+          "Coal Auction 2021 (12 Tranche)",
+          10
+        ],
+        [
+          "Oltenia Energy Complex",
+          8
+        ],
+        [
+          "Coal Auction 2020 (11 Tranche)",
+          8
+        ],
+        [
+          "Coal Auction 2022 (15 Tranche)",
+          7
+        ],
+        [
+          "Cluster 5",
+          6
+        ],
+        [
+          "Cluster 12",
+          6
+        ],
+        [
+          "Cluster 10",
+          6
+        ],
+        [
+          "limited data",
+          5
+        ],
+        [
+          "Cluster 6",
+          5
+        ],
+        [
+          "Cluster 3",
+          5
+        ],
+        [
+          "Cluster 11",
+          5
+        ],
+        [
+          "Bokaro & Kargali Area",
+          5
+        ],
+        [
+          "Barka Sayal Area",
+          5
+        ],
+        [
+          "Tuvinskaya GRK",
+          4
+        ],
+        [
+          "Shubarkol Komir",
+          4
+        ],
+        [
+          "North Karanpura Area",
+          4
+        ],
+        [
+          "Kolubara Mine Complex",
+          4
+        ],
+        [
+          "Hazaribagh Area",
+          4
+        ],
+        [
+          "Cluster 9",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The nickname or alias of a coal mine or proposed coal mine project. AKAs are often used with proposed projects which have not yet been assigned an official name.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Mine Name AKAs",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "null_is_what": "Not found, Not applicable, Not yet researched",
+        "definition": "The nickname or alias of a coal mine or proposed coal mine project. AKAs are often used with proposed projects which have not yet been assigned an official name.",
+        "category": "Names",
+        "code_friendly_name": "mine_name_akas",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "other_rules": "",
+        "other_notes": ""
+      }
+    },
+    {
+      "field_name": "Mine Name (Non-ENG)",
+      "code_friendly_name_guess": "mine_name_non_eng",
+      "n_total": 5382,
+      "n_null": 2318,
+      "n_non_null": 3064,
+      "null_rate": 0.4307,
+      "n_unique": 2992,
+      "top_values": [
+        [
+          "УОГР Локучакитский",
+          3
+        ],
+        [
+          "贵州轿子山顶新煤业有限公司轿子山煤矿",
+          2
+        ],
+        [
+          "贵州盘江马依煤业有限公司马依西一井",
+          2
+        ],
+        [
+          "山西汾西矿业(集团)有限责任公司曙光煤矿",
+          2
+        ],
+        [
+          "山西水磨湾煤业有限公司",
+          2
+        ],
+        [
+          "山西新元煤炭有限责任公司新元矿",
+          2
+        ],
+        [
+          "国能蒙西煤化工股份有限公司棋盘井煤矿",
+          2
+        ],
+        [
+          "内蒙古白音华海州露天煤矿有限公司",
+          2
+        ],
+        [
+          "六盘水化乐煤业有限公司",
+          2
+        ],
+        [
+          "伊泰伊犁矿业有限公司煤矿",
+          2
+        ],
+        [
+          "云南能投威信煤炭有限公司观音山煤矿一井",
+          2
+        ],
+        [
+          "шахта Сибиргинская",
+          2
+        ],
+        [
+          "шахта Северная, ш/у Ургальское",
+          2
+        ],
+        [
+          "шахта Межегейуголь, Угледобывающий комплекс Межегейуголь, УК Межегейуголь",
+          2
+        ],
+        [
+          "шахта Дальняя, Донской Антрацит",
+          2
+        ],
+        [
+          "шахта Анжерская-Южная",
+          2
+        ],
+        [
+          "рудник Штаваљ",
+          2
+        ],
+        [
+          "разрезоуправление Новошахтинское, разрез Павловский № 2, разрез Северная депрессия",
+          2
+        ],
+        [
+          "разрез Тугнуйский и Никольский",
+          2
+        ],
+        [
+          "разрез Северный",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The non-English name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Mine Name (Non-ENG)",
+        "definition": "The non-english name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "category": "Names",
+        "code_friendly_name": "mine_name_non_eng",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "other_notes": "",
+        "other_rules": ""
+      }
+    },
+    {
+      "field_name": "Complex Name",
+      "code_friendly_name_guess": "complex_name",
+      "n_total": 5382,
+      "n_null": 5239,
+      "n_non_null": 143,
+      "null_rate": 0.9734,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "Elk Creek Complex",
+          14
+        ],
+        [
+          "Logan County Mine Complex",
+          10
+        ],
+        [
+          "Virginia Complex",
+          8
+        ],
+        [
+          "Marfork Complex",
+          6
+        ],
+        [
+          "Secunda Mining Complex",
+          5
+        ],
+        [
+          "Rockwell Complex",
+          5
+        ],
+        [
+          "Фон-Ягноб",
+          4
+        ],
+        [
+          "Nariin Sukhait mining complex",
+          4
+        ],
+        [
+          "Maben Complex",
+          4
+        ],
+        [
+          "Isaac Plains Complex",
+          4
+        ],
+        [
+          "Hunter Valley Operations",
+          4
+        ],
+        [
+          "Aracoma Complex",
+          4
+        ],
+        [
+          "River View Complex",
+          3
+        ],
+        [
+          "Pennsylvania Mining Complex",
+          3
+        ],
+        [
+          "Mt Owen Complex",
+          3
+        ],
+        [
+          "Maritsa Coal Mines",
+          3
+        ],
+        [
+          "La Loma mining complex",
+          3
+        ],
+        [
+          "Knox Creek Complex",
+          3
+        ],
+        [
+          "Katlego Complex",
+          3
+        ],
+        [
+          "Blue Diamond Complex",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The name of the larger mining complex or group that an individual coal mine belongs to (if any).",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Complex Name",
+        "definition": "The name of the larger mining complex or group to which one or more coal mines belong.",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "category": "Names",
+        "code_friendly_name": "complex_name",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "other_notes": "",
+        "other_rules": ""
+      }
+    },
+    {
+      "field_name": "GEM Wiki Page (ENG)",
+      "code_friendly_name_guess": "gem_wiki_page_eng",
+      "n_total": 5382,
+      "n_null": 2582,
+      "n_non_null": 2800,
+      "null_rate": 0.4797,
+      "n_unique": 2593,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Bokaro_and_Kargali_coal_mines",
+          5
+        ],
+        [
+          "https://www.gem.wiki/North_Karanpura_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Magadh_Amrapali_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/JSW_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Benga_coal_mine",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Vista_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Tauron_mines",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Somkhele_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Rotowaro_Opencast_Mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Magdalena_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Lokuchakitsky_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Kopako_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Integrated_Isaac_Plains_Project",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Escarpment_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Carmichael_Coal_Project",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Angus_Place_Colliery",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Zhalyn_coal_mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Zashulansky_coal_mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Zambeze_Gas_and_Coal_Mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Wilpinjong_Mine",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The URL corresponding to a coal mine's or proposed coal mine project's English GEM wiki page.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM Wiki Page (ENG)",
+        "definition": "The URL corresponding to a coal mine's or proposed coal mine project's English GEM wiki page.",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "^https://www.gem.wiki/.*",
+        "category": "Reference",
+        "code_friendly_name": "gem_wiki_page_eng",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "GEM Wiki Page (Non-ENG)",
+      "code_friendly_name_guess": "gem_wiki_page_non_eng",
+      "n_total": 5382,
+      "n_null": 2800,
+      "n_non_null": 2582,
+      "null_rate": 0.5203,
+      "n_unique": 2571,
+      "top_values": [
+        [
+          "https://www.gem.wiki/%E8%B4%B5%E5%B7%9E%E9%92%B0%E7%A5%A5%E7%9F%BF%E4%B8%9A%E9%9B%86%E5%9B%A2%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%87%91%E6%B2%99%E5%8E%BF%E9%AB%98%E5%9D%AA%E4%B9%A1%E7%A1%AB%E7%92%9C%E5%9D%A1%E7%85%A4%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E7%BA%B3%E9%9B%8D%E5%8E%BF%E8%B4%B5%E5%B7%9E%E5%85%B4%E8%85%BE%E7%9F%BF%E4%B8%9A%E5%85%AC%E5%8F%B8%E9%9B%8D%E6%B1%AA%E5%85%B4%E8%85%BE%E7%85%A4%E7%9F%BF%E4%B8%80%E5%8F%B7%E4%BA%95",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E7%A5%9E%E5%8D%8E%E8%92%99%E8%A5%BF%E7%85%A4%E5%8C%96%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%A3%8B%E7%9B%98%E4%BA%95%E7%85%A4%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B1%BE%E8%A5%BF%E7%9F%BF%E4%B8%9A(%E9%9B%86%E5%9B%A2)%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%9B%99%E5%85%89%E7%85%A4%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%B0%B4%E7%A3%A8%E6%B9%BE%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%B1%B1%E8%A5%BF%E6%96%B0%E5%85%83%E7%85%A4%E7%82%AD%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8%E6%96%B0%E5%85%83%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%AD%90%E9%95%BF%E5%8E%BF%E5%A4%A9%E4%BB%BB%E7%85%A4%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%A4%A7%E5%94%90%E5%9B%BD%E9%99%85%E5%8F%91%E7%94%B5%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%83%9C%E5%88%A9%E4%B8%9C%E4%BA%8C%E5%8F%B7%E9%9C%B2%E5%A4%A9%E7%85%A4%E7%9F%BF%EF%BC%88%E4%B8%80%E6%9C%9F%EF%BC%89",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%86%85%E8%92%99%E5%8F%A4%E7%99%BD%E9%9F%B3%E5%8D%8E%E6%B5%B7%E5%B7%9E%E9%9C%B2%E5%A4%A9%E7%85%A4%E7%9F%BF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%9B%9B%E5%8F%B7%E9%9C%B2%E5%A4%A9%E7%9F%BF",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E5%85%AD%E7%9B%98%E6%B0%B4%E5%8C%96%E4%B9%90%E7%85%A4%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          2
+        ],
+        [
+          "https://www.gem.wiki/%E4%BA%91%E5%8D%97%E8%83%BD%E6%8A%95%E5%A8%81%E4%BF%A1%E7%85%A4%E7%82%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%A7%82%E9%9F%B3%E5%B1%B1%E7%85%A4%E7%9F%BF%E4%B8%80%E4%BA%95",
+          2
+        ],
+        [
+          "https://www.gem.wiki/黔西市耳海矿业有限公司黔西市花溪乡耳海煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/黔西县谷里镇石桥煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/黔西县观音洞镇高坡煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/黔西县仁和乡中心煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/黑龙江龙兴国际资源开发集团有限公司龙兴集团绥滨一矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/黑龙江省宝清县双柳煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/青海隆安煤业股份有限公司绿草沟煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/青海省能源发展集团有限责任公司团鱼山北部露天煤矿",
+          1
+        ],
+        [
+          "https://www.gem.wiki/青海省海西州团鱼山矿区团鱼山一号井",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The URL corresponding to a coal mine's or proposed coal mine project's non-English GEM wiki page.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM Wiki Page (Non-ENG)",
+        "definition": "The URL corresponding to a coal mine's or proposed coal mine project's non-English GEM wiki page.",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "^https://www.gem.wiki/.*",
+        "category": "Reference",
+        "null_is_what": "Required if country/name is China",
+        "code_friendly_name": "gem_wiki_page_non_eng",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Operating",
+          3734
+        ],
+        [
+          "Proposed",
+          837
+        ],
+        [
+          "Mothballed",
+          583
+        ],
+        [
+          "Shelved",
+          120
+        ],
+        [
+          "Cancelled",
+          108
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "\"Status\" describes the various active/inactive stages of a coal mine or mine project.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Operating",
+          "definition": "A coal mine where coal removal is occurring for commercial purposes. This includes mines that have produced coal within the year, even if operations were temporarily suspended for several months."
+        },
+        {
+          "name": "Proposed",
+          "definition": "A coal mine project that has not yet begun operation. This includes projects that have been announced (via corporate or government planning documents), projects that are under permitting (including feasibility studies), projects that are under construction, as well as those in test operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "A coal mine that is neither operating nor retired, such as those that are idled or put on \"care and maintenance.\" Such mines could return to operation, but are not currently operating."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A proposed coal mine project for which a cancellation announcement has been made by the owning company or government authorities. GEM also assigns a status of \"cancelled\" to projects when no progress has been observed for 4+ years."
+        },
+        {
+          "name": "Shelved",
+          "definition": "A proposed coal mine project for which no public updates nor progress has been observed for 2+ years."
+        },
+        {
+          "name": "Closed",
+          "definition": "A previously operating coal mine that has been permanently closed."
+        }
+      ],
+      "api_metadata": {
+        "name": "Status",
+        "definition": "\"Status\" describes the various active/inactive stages of a coal mine or mine project.",
+        "is_required": true,
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "category": "Main",
+        "code_friendly_name": "status",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Cancelled",
+          "Operating",
+          "Shelved",
+          "Proposed",
+          "Mothballed",
+          "Closed"
+        ],
+        "values_definitions": {
+          "Operating": "A coal mine where coal removal is occurring for commercial purposes. This includes mines that have produced coal within the year, even if operations were temporarily suspended for several months.",
+          "Proposed": "A coal mine project that has not yet begun operation. This includes projects that have been announced (via corporate or government planning documents), projects that are under permitting (including feasibility studies), projects that are under construction, as well as those in test operation.",
+          "Mothballed": "A coal mine that is neither operating nor retired, such as those that are idled or put on \"care and maintenance.\" Such mines could return to operation, but are not currently operating.",
+          "Cancelled": "A proposed coal mine project for which a cancellation announcement has been made by the owning company or government authorities. GEM also assigns a status of \"cancelled\" to projects when no progress has been observed for 4+ years.",
+          "Shelved": "A proposed coal mine project for which no public updates nor progress has been observed for 2+ years.",
+          "Retired": "A previously operating coal mine that has been permanently closed."
+        },
+        "taxonomy": "status"
+      }
+    },
+    {
+      "field_name": "Status Detail",
+      "code_friendly_name_guess": "status_detail",
+      "n_total": 5382,
+      "n_null": 4339,
+      "n_non_null": 1043,
+      "null_rate": 0.8062,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Pre-Permit",
+          363
+        ],
+        [
+          "Construction",
+          327
+        ],
+        [
+          "Permitted",
+          204
+        ],
+        [
+          "Announced",
+          83
+        ],
+        [
+          "Care and Maintenance",
+          35
+        ],
+        [
+          "Test Operation",
+          29
+        ],
+        [
+          "Exploration",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "\"Status detail\" describes the mine status on a granular level, such as which planning stage a proposed coal mine project has progressed to, or whether an operating mine is experiencing temporary work stoppages.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "A status assigned when a coal mine project has been described in corporate or government plans, but full details remain unknown."
+        },
+        {
+          "name": "Pre-Permit",
+          "definition": "A status assigned when permit applications (environmental assessments, land use rights, water licenses, etc.) for a coal mine project have been filed, but not yet obtained."
+        },
+        {
+          "name": "Permitted",
+          "definition": "A status assigned to a coal mine project that has been granted permit approvals, but has not yet begun construction."
+        },
+        {
+          "name": "Construction",
+          "definition": "A status assigned when a coal mine project has begun construction of its mining infrastructure and facilities."
+        },
+        {
+          "name": "Test Operation",
+          "definition": "A status assigned when a coal mine project begins coal removal, but not yet for commercial purposes."
+        },
+        {
+          "name": "Care and Maintenance",
+          "definition": "A status assigned when an operating mine temporarily closes, but there is potential to recommence operations at a later date. During the care and maintenance period, coal production stops but the mine site is still managed by minimal staff to ensure it remains in a safe and stable condition."
+        }
+      ],
+      "api_metadata": {
+        "name": "Status Detail",
+        "definition": "\"Status detail\" describes the mine status on a granular level, such as which planning stage a proposed coal mine project has progressed to, or whether an operating mine is experiencing temporary work stoppages.",
+        "data_type": "text",
+        "data_sub_type": "ordinal",
+        "category": "Main",
+        "code_friendly_name": "status_detail",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Announced",
+          "Exploration",
+          "Pre-Permit",
+          "Permitted",
+          "Construction",
+          "Test Operation",
+          "Care and Maintenance"
+        ],
+        "order_of_values": [
+          "Announced",
+          "Exploration",
+          "Pre-Permit",
+          "Permitted",
+          "Construction",
+          "Test Operation",
+          "Care and Maintenance"
+        ],
+        "values_definitions": {
+          "Announced": "A status assigned when a coal mine project has been described in corporate or government plans, but full details remain unknown.",
+          "Exploration": "A status assigned when the economic viability of a coal mine project is being explored. During the exploration stage, information is gathered about a potential mine site's characteristics via geological surveys, pre-feasability studies, and the drilling of boreholes.",
+          "Pre-Permit": "A status assigned when permit applications (environmental assessments, land use rights, water licenses, etc.) for a coal mine project have been filed, but not yet obtained.",
+          "Permitted": "A status assigned to a coal mine project that has been granted permit approvals, but has not yet begun construction.",
+          "Construction": "A status assigned when a coal mine project has begun construction of its mining infrastructure and facilities.",
+          "Test Operation": "A status assigned when a coal mine project begins coal removal, but not yet for commercial purposes.",
+          "Care and Maintenance": "A status assigned when an operating mine temporarily closes, but there is potential to recommence operations at a later date. During the care and maintenance period, coal production stops but the mine site is still managed by minimal staff to ensure it remains in a safe and stable condition."
+        }
+      }
+    },
+    {
+      "field_name": "Project Type",
+      "code_friendly_name_guess": "project_type",
+      "n_total": 5382,
+      "n_null": 3542,
+      "n_non_null": 1840,
+      "null_rate": 0.6581,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "New",
+          739
+        ],
+        [
+          "Resource Consolidation and Restructuring",
+          719
+        ],
+        [
+          "Expansion",
+          332
+        ],
+        [
+          "Extension",
+          43
+        ],
+        [
+          "Recommission",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Refers to the type of coal mine project: expansion, extension, or new.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "New",
+          "definition": "A \"new\" mine is a greenfield mine planned to be developed in an area where there was no previous mining activity."
+        },
+        {
+          "name": "Expansion",
+          "definition": "An \"expansion\" is when an existing mine seeks to increase its existing coal capacity."
+        },
+        {
+          "name": "Extension",
+          "definition": "An \"extension\" is when an existing mine seeks to mine new areas to extend its mine life."
+        },
+        {
+          "name": "Resource Consolidation and Restructuring",
+          "definition": "A mine that has been established, expanded, or reorganized through the consolidation of fragmented mining rights, resources, assets, or production capacity. This type of asset is predominantly found in China."
+        }
+      ],
+      "api_metadata": {
+        "name": "Project Type",
+        "definition": "Refers to the type of coal mine project: expansion, extension, or new.",
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "category": "Main",
+        "code_friendly_name": "project_type",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Expansion",
+          "New",
+          "Extension",
+          "Recommission"
+        ],
+        "values_definitions": {
+          "New": "A \"new\" mine is a greenfield mine planned to be developed in an area where there was no previous mining activity.",
+          "Expansion": "An \"expansion\" is when an existing mine seeks to increase its existing coal capacity.",
+          "Extension": "An \"extension\" is when an existing mine seeks to mine new areas to extend its mine life."
+        }
+      }
+    },
+    {
+      "field_name": "Project Phase",
+      "code_friendly_name_guess": "project_phase",
+      "n_total": 5382,
+      "n_null": 5268,
+      "n_non_null": 114,
+      "null_rate": 0.9788,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Phase 1",
+          68
+        ],
+        [
+          "Phase 2",
+          35
+        ],
+        [
+          "Phase 3",
+          10
+        ],
+        [
+          "Phase 4",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Refers to proposed coal mine projects that will be developed in stages, often with initial development followed by subsequent expansions over time (e.g., Phase I, II, III).",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Project Phase",
+        "definition": "Refers to proposed coal mine projects that will be developed in stages, often with initial development followed by subsequent expansions over time (e.g., Phase I, II, III).",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "category": "Main",
+        "code_friendly_name": "project_phase",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Owners",
+      "code_friendly_name_guess": "owners",
+      "n_total": 5382,
+      "n_null": 23,
+      "n_non_null": 5359,
+      "null_rate": 0.0043,
+      "n_unique": 3844,
+      "top_values": [
+        [
+          "South Eastern Coalfields Ltd",
+          75
+        ],
+        [
+          "Eastern Coalfields Ltd",
+          72
+        ],
+        [
+          "Western Coalfields Ltd",
+          60
+        ],
+        [
+          "Central Coalfields Ltd",
+          56
+        ],
+        [
+          "The Singareni Collieries Co Ltd",
+          44
+        ],
+        [
+          "Bharat Coking Coal Ltd",
+          39
+        ],
+        [
+          "Mahanadi Coalfields Ltd",
+          27
+        ],
+        [
+          "Ramaco Resources LLC",
+          21
+        ],
+        [
+          "Rosebud Mining Co",
+          17
+        ],
+        [
+          "Northern Coalfields Ltd",
+          13
+        ],
+        [
+          "Clintwood JOD LLC",
+          13
+        ],
+        [
+          "Southern Kuzbass Coal Company PJSC",
+          12
+        ],
+        [
+          "Kerman Coal Company",
+          12
+        ],
+        [
+          "Kuzbassrazrezugol JSC",
+          11
+        ],
+        [
+          "China Shenhua Energy",
+          11
+        ],
+        [
+          "SUEK-Kuzbass JSC",
+          10
+        ],
+        [
+          "Mega Highwall Mining LLC",
+          10
+        ],
+        [
+          "JP PEU Resavica",
+          10
+        ],
+        [
+          "Huozhou Coal and Electricity Group",
+          10
+        ],
+        [
+          "Canyon Coal Pty Ltd",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Owners",
+        "definition": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "",
+        "category": "Ownership",
+        "code_friendly_name": "owners",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "taxonomy": "owner_name"
+      }
+    },
+    {
+      "field_name": "Owners GEM Entity ID",
+      "code_friendly_name_guess": "owners_gem_entity_id",
+      "n_total": 5382,
+      "n_null": 1470,
+      "n_non_null": 3912,
+      "null_rate": 0.2731,
+      "n_unique": 2530,
+      "top_values": [
+        [
+          "E100001000806",
+          76
+        ],
+        [
+          "E100001000804",
+          72
+        ],
+        [
+          "E100001000801",
+          61
+        ],
+        [
+          "E100001000803",
+          56
+        ],
+        [
+          "E100001000809",
+          44
+        ],
+        [
+          "E100001000805",
+          39
+        ],
+        [
+          "E100001000807",
+          27
+        ],
+        [
+          "E100001013705",
+          21
+        ],
+        [
+          "E100000132142",
+          17
+        ],
+        [
+          "E100001013233",
+          13
+        ],
+        [
+          "E100001000802",
+          13
+        ],
+        [
+          "E100002022873",
+          12
+        ],
+        [
+          "E100001010638",
+          12
+        ],
+        [
+          "E100001000740",
+          11
+        ],
+        [
+          "E100002010294",
+          10
+        ],
+        [
+          "E100001013014",
+          10
+        ],
+        [
+          "E100001010312",
+          10
+        ],
+        [
+          "E100001000839",
+          10
+        ],
+        [
+          "E100001000440",
+          10
+        ],
+        [
+          "E100000132118",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Owners GEM Entity ID",
+        "definition": "Unique identifier assigned by the GEM's Global Energy Ownership Tracker team. Renamed from 'Owner GEM Entity ID' in the May-2026 release; format also changed from 'E12345 [100%]' to 'E12345' (ownership percentages are now exclusively in the Global Energy Ownership Tracker, not denormalized into this cell).",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "",
+        "category": "Ownership",
+        "code_friendly_name": "owners_gem_entity_id",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "taxonomy": "owner_entity_id"
+      }
+    },
+    {
+      "field_name": "Owners (Non-ENG)",
+      "code_friendly_name_guess": "owners_non_eng",
+      "n_total": 5382,
+      "n_null": 3992,
+      "n_non_null": 1390,
+      "null_rate": 0.7417,
+      "n_unique": 1163,
+      "top_values": [
+        [
+          "شرکت معادن زغال سنگ کرمان",
+          12
+        ],
+        [
+          "贵州水城矿业股份有限公司",
+          8
+        ],
+        [
+          "六盘水恒鼎实业有限公司",
+          8
+        ],
+        [
+          "黑龙江龙煤矿业集团股份有限公司双鸭山分公司",
+          7
+        ],
+        [
+          "贵州大西南矿业有限公司",
+          7
+        ],
+        [
+          "贵州盘江马依煤业有限公司",
+          6
+        ],
+        [
+          "贵州天健矿业集团股份有限公司",
+          6
+        ],
+        [
+          "盘州市煤炭开发总公司",
+          6
+        ],
+        [
+          "毕节中城能源有限责任公司",
+          6
+        ],
+        [
+          "黑龙江龙煤鸡西矿业有限责任公司",
+          5
+        ],
+        [
+          "黑龙江龙煤矿业集团股份有限公司七台河分公司",
+          5
+        ],
+        [
+          "贵州黔宜能源集团有限公司",
+          5
+        ],
+        [
+          "贵州马幺坡矿业有限公司",
+          5
+        ],
+        [
+          "贵州钰祥矿业集团投资有限公司",
+          5
+        ],
+        [
+          "贵州邦达能源开发有限公司",
+          5
+        ],
+        [
+          "贵州省朗月矿业投资有限公司",
+          5
+        ],
+        [
+          "贵州盘江精煤股份有限公司",
+          5
+        ],
+        [
+          "黑龙江龙煤矿业集团股份有限公司鹤岗分公司",
+          4
+        ],
+        [
+          "贵州黎明能源集团有限责任公司",
+          4
+        ],
+        [
+          "贵州鲁中矿业有限责任公司",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The non-English name of the immediate owner of the coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Owners (Non-ENG)",
+        "definition": "The non-english name of the immediate owner of the coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "",
+        "category": "Ownership",
+        "code_friendly_name": "owners_non_eng",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Parent Company",
+      "code_friendly_name_guess": "parent_company",
+      "n_total": 5382,
+      "n_null": 1467,
+      "n_non_null": 3915,
+      "null_rate": 0.2726,
+      "n_unique": 2313,
+      "top_values": [
+        [
+          "Coal India Ltd [100.0%]",
+          305
+        ],
+        [
+          "The Singareni Collieries Co Ltd [100.0%]",
+          44
+        ],
+        [
+          "Bharat Coking Coal Ltd [100.0%]",
+          39
+        ],
+        [
+          "Ramaco Resources Inc [100.0%]",
+          26
+        ],
+        [
+          "Linea (CY) Ltd; Linetrust PTC Ltd",
+          24
+        ],
+        [
+          "Indenelem establishment [100.0%]",
+          22
+        ],
+        [
+          "Glencore PLC [100.0%]",
+          18
+        ],
+        [
+          "Coronado Global Resources Inc [100.0%]",
+          18
+        ],
+        [
+          "Rosebud Mining Co [100.0%]",
+          17
+        ],
+        [
+          "Alpha Metallurgical Resources Inc [100.0%]",
+          17
+        ],
+        [
+          "Vietnam National Coal and Mineral Industries Holding Corp Ltd; small shareholder(s)",
+          16
+        ],
+        [
+          "Peabody Energy Corp [100.0%]",
+          15
+        ],
+        [
+          "Alpha Metallurgical Resources Inc",
+          15
+        ],
+        [
+          "JOD Holdings LLC",
+          13
+        ],
+        [
+          "unknown; Alliance Resource Partners LP [99.0%]",
+          12
+        ],
+        [
+          "Southern Kuzbass Coal Company PJSC [100.0%]",
+          12
+        ],
+        [
+          "Raspadskaya PJSC [100.0%]",
+          12
+        ],
+        [
+          "Kerman Coal Co [100.0%]",
+          12
+        ],
+        [
+          "Stanmore Resources Ltd [100.0%]",
+          11
+        ],
+        [
+          "Robindale Energy Services Inc",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The highest-level owner of a coal mine or coal mine project. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Parent Company",
+        "definition": "The highest-level owner of a coal mine or coal mine project. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "code_friendly_name": "parent_company",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "category": "Ownership",
+        "taxonomy": "parent_name"
+      }
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 5382,
+      "n_null": 1467,
+      "n_non_null": 3915,
+      "null_rate": 0.2726,
+      "n_unique": 2313,
+      "top_values": [
+        [
+          "E100001000396 [100.0%]",
+          305
+        ],
+        [
+          "E100001000809 [100.0%]",
+          44
+        ],
+        [
+          "E100001000805 [100.0%]",
+          39
+        ],
+        [
+          "E100000132107 [100.0%]",
+          26
+        ],
+        [
+          "E100001000857; E100001016421",
+          24
+        ],
+        [
+          "E100002021919 [100.0%]",
+          22
+        ],
+        [
+          "E100001000488 [100.0%]",
+          18
+        ],
+        [
+          "E100001000400 [100.0%]",
+          18
+        ],
+        [
+          "E100000132142 [100.0%]",
+          17
+        ],
+        [
+          "E100000131246 [100.0%]",
+          17
+        ],
+        [
+          "E100001000537; E100001015587",
+          16
+        ],
+        [
+          "E100001000402 [100.0%]",
+          15
+        ],
+        [
+          "E100000131246",
+          15
+        ],
+        [
+          "E100000131725",
+          13
+        ],
+        [
+          "E100002022873 [100.0%]",
+          12
+        ],
+        [
+          "E100001010638 [100.0%]",
+          12
+        ],
+        [
+          "E100001010074 [100.0%]",
+          12
+        ],
+        [
+          "E100000132388; E100001000638 [99.0%]",
+          12
+        ],
+        [
+          "E100001010097 [100.0%]",
+          11
+        ],
+        [
+          "E100001000740 [100.0%]",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Parent GEM Entity ID",
+        "definition": "A static unique identifier assigned by GEM's Global Energy Ownership Tracker (GEOT) to the highest-level parent owner of a coal mine.",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "",
+        "category": "Ownership",
+        "code_friendly_name": "parent_gem_entity_id",
+        "present_in_tabs": [
+          "Non-closed mines"
+        ],
+        "taxonomy": "parent_entity_id"
+      }
+    },
+    {
+      "field_name": "Company HQs",
+      "code_friendly_name_guess": "company_hqs",
+      "n_total": 5382,
+      "n_null": 506,
+      "n_non_null": 4876,
+      "null_rate": 0.094,
+      "n_unique": 143,
+      "top_values": [
+        [
+          "China",
+          2138
+        ],
+        [
+          "India",
+          560
+        ],
+        [
+          "USA",
+          551
+        ],
+        [
+          "Indonesia",
+          447
+        ],
+        [
+          "Russia",
+          259
+        ],
+        [
+          "Australia",
+          119
+        ],
+        [
+          "South Africa",
+          99
+        ],
+        [
+          "Turkey",
+          43
+        ],
+        [
+          "Czech Republic",
+          31
+        ],
+        [
+          "Vietnam",
+          30
+        ],
+        [
+          "UK",
+          28
+        ],
+        [
+          "Mongolia",
+          25
+        ],
+        [
+          "Poland",
+          24
+        ],
+        [
+          "New Zealand",
+          24
+        ],
+        [
+          "Canada",
+          22
+        ],
+        [
+          "Kazakhstan",
+          21
+        ],
+        [
+          "Ukraine",
+          20
+        ],
+        [
+          "Thailand",
+          20
+        ],
+        [
+          "Switzerland",
+          20
+        ],
+        [
+          "Serbia",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The geographic country or area where a coal mine or coal mine project’s parent company is headquartered in.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Owner/Parent GEM Entity ID",
+          "definition": "A static unique identifier assigned by GEM's Global Energy Ownership Tracker team for internal ownership identification purposes."
+        }
+      ],
+      "api_metadata": {
+        "name": "Company HQs",
+        "definition": "The geographic country or area where the parent company is headquartered in.",
+        "data_type": "text",
+        "data_sub_type": "structured",
+        "required_format_regex": "",
+        "category": "Ownership",
+        "code_friendly_name": "company_hqs",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Capacity (Mtpa)",
+      "code_friendly_name_guess": "capacity_mtpa",
+      "n_total": 5382,
+      "n_null": 1285,
+      "n_non_null": 4097,
+      "null_rate": 0.2388,
+      "n_unique": 293,
+      "top_values": [
+        [
+          "0.9",
+          516
+        ],
+        [
+          "0.6",
+          463
+        ],
+        [
+          "1.2",
+          413
+        ],
+        [
+          "0.45",
+          239
+        ],
+        [
+          "1.5",
+          187
+        ],
+        [
+          "3.0",
+          179
+        ],
+        [
+          "1.8",
+          157
+        ],
+        [
+          "4.0",
+          121
+        ],
+        [
+          "2.4",
+          103
+        ],
+        [
+          "5.0",
+          99
+        ],
+        [
+          "8.0",
+          86
+        ],
+        [
+          "10.0",
+          86
+        ],
+        [
+          "6.0",
+          80
+        ],
+        [
+          "15.0",
+          56
+        ],
+        [
+          "2.0",
+          51
+        ],
+        [
+          "1.0",
+          48
+        ],
+        [
+          "20.0",
+          47
+        ],
+        [
+          "0.3",
+          47
+        ],
+        [
+          "2.1",
+          43
+        ],
+        [
+          "12.0",
+          40
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The maximum amount of coal a mine or mine project is engineered to produce, expressed in millions of tonnes per year.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Capacity (Mtpa)",
+        "definition": "The maximum amount of coal a mine or mine project is engineered to produce, expressed in millions of tonnes per year.",
+        "flags": "field includes * instead of UA",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "category": "Size",
+        "code_friendly_name": "capacity_mtpa",
+        "unit_name_short": "mtpa",
+        "unit_name_full": "million tons per annum",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Production (Mtpa)",
+      "code_friendly_name_guess": "production_mtpa",
+      "n_total": 5382,
+      "n_null": 3357,
+      "n_non_null": 2025,
+      "null_rate": 0.6237,
+      "n_unique": 615,
+      "top_values": [
+        [
+          "0.0",
+          214
+        ],
+        [
+          "0.01",
+          63
+        ],
+        [
+          "0.05",
+          51
+        ],
+        [
+          "0.03",
+          43
+        ],
+        [
+          "0.02",
+          42
+        ],
+        [
+          "0.08",
+          34
+        ],
+        [
+          "0.04",
+          29
+        ],
+        [
+          "0.5",
+          28
+        ],
+        [
+          "0.12",
+          28
+        ],
+        [
+          "0.06",
+          28
+        ],
+        [
+          "0.15",
+          25
+        ],
+        [
+          "0.09",
+          24
+        ],
+        [
+          "0.2",
+          23
+        ],
+        [
+          "2.0",
+          22
+        ],
+        [
+          "0.07",
+          22
+        ],
+        [
+          "0.11",
+          20
+        ],
+        [
+          "0.1",
+          18
+        ],
+        [
+          "0.6",
+          17
+        ],
+        [
+          "0.18",
+          17
+        ],
+        [
+          "0.14",
+          17
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The actual amount of coal produced by a mine, expressed in millions of tonnes per year.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Production (Mtpa)",
+        "definition": "The amount of coal produced by a mine, expressed in millions of tonnes per year.",
+        "flags": "field includes * instead of UA",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "unit_name_short": "mtpa",
+        "unit_name_full": "million tons per annum",
+        "category": "Size",
+        "code_friendly_name": "production_mtpa",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Year of Production",
+      "code_friendly_name_guess": "year_of_production",
+      "n_total": 5382,
+      "n_null": 1451,
+      "n_non_null": 3931,
+      "null_rate": 0.2696,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "2025.0",
+          1012
+        ],
+        [
+          "2024.0",
+          1002
+        ],
+        [
+          "2022.0",
+          805
+        ],
+        [
+          "2023.0",
+          499
+        ],
+        [
+          "2020.0",
+          246
+        ],
+        [
+          "2026.0",
+          212
+        ],
+        [
+          "2021.0",
+          86
+        ],
+        [
+          "2019.0",
+          50
+        ],
+        [
+          "2017.0",
+          7
+        ],
+        [
+          "2015.0",
+          4
+        ],
+        [
+          "2005.0",
+          3
+        ],
+        [
+          "2018.0",
+          2
+        ],
+        [
+          "2016.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The calendar year (or financial year, depending on the country) during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Year of Production",
+        "definition": "The year during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
+        "data_type": "datetime",
+        "data_sub_type": "year",
+        "category": "Size",
+        "code_friendly_name": "year_of_production",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "datetime_format": "YYYY"
+      }
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst)",
+      "code_friendly_name_guess": "coal_output_annual_mst",
+      "n_total": 5382,
+      "n_null": 4828,
+      "n_non_null": 554,
+      "null_rate": 0.8971,
+      "n_unique": 138,
+      "top_values": [
+        [
+          "0.0",
+          177
+        ],
+        [
+          "0.01",
+          43
+        ],
+        [
+          "0.02",
+          18
+        ],
+        [
+          "0.09",
+          17
+        ],
+        [
+          "0.04",
+          15
+        ],
+        [
+          "0.05",
+          13
+        ],
+        [
+          "0.03",
+          13
+        ],
+        [
+          "0.12",
+          12
+        ],
+        [
+          "0.13",
+          11
+        ],
+        [
+          "0.1",
+          10
+        ],
+        [
+          "0.08",
+          10
+        ],
+        [
+          "0.16",
+          8
+        ],
+        [
+          "0.07",
+          7
+        ],
+        [
+          "0.06",
+          7
+        ],
+        [
+          "0.2",
+          6
+        ],
+        [
+          "0.19",
+          6
+        ],
+        [
+          "0.32",
+          5
+        ],
+        [
+          "0.24",
+          5
+        ],
+        [
+          "0.21",
+          5
+        ],
+        [
+          "0.15",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The actual amount of coal produced by a US mine, expressed in millions of short tons per year. This value applies to US coal mines only.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coal Output (Annual, Mst)",
+        "definition": "The amount of coal produced by a US mine, expressed in millions of short tons per year. This value applies to US coal mines only.",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "unit_name_short": "Mst",
+        "unit_name_full": "annual million short tons",
+        "category": "Size",
+        "code_friendly_name": "coal_output_annual_mst",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Mine Type",
+      "code_friendly_name_guess": "mine_type",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Underground",
+          3075
+        ],
+        [
+          "Surface",
+          2124
+        ],
+        [
+          "Underground & Surface",
+          178
+        ],
+        [
+          "Not found",
+          3
+        ],
+        [
+          "Not Found",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct",
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "The classification of a coal mine or coal mine project based upon the mining method it uses to extract coal.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Surface",
+          "definition": "A coal mine or coal mine project that extracts coal from shallow seams near the earth’s surface."
+        },
+        {
+          "name": "Underground",
+          "definition": "A coal mine or coal mine project that extracts coal from deep below the earth’s surface via shafts or tunnels. Also known as “UG” mines."
+        },
+        {
+          "name": "Underground & Surface",
+          "definition": "A coal mine or coal mine project that extracts coal from both underground and surface methods."
+        }
+      ],
+      "api_metadata": {
+        "name": "Mine Type",
+        "definition": "The classification of coal mines by mining method, including \"Surface,\" \"Underground,\" and combined \"Underground & Surface\" facilities.",
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "category": "Main",
+        "code_friendly_name": "mine_type",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "other_notes": "should potentially convert from string to array, since there are two types, but mines can be either or both",
+        "allowed_values": [
+          "Surface",
+          "Underground",
+          "Underground & Surface"
+        ]
+      }
+    },
+    {
+      "field_name": "Mining Method",
+      "code_friendly_name_guess": "mining_method",
+      "n_total": 5382,
+      "n_null": 1377,
+      "n_non_null": 4005,
+      "null_rate": 0.2559,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Open Pit",
+          1887
+        ],
+        [
+          "Longwall",
+          1797
+        ],
+        [
+          "Mixed",
+          183
+        ],
+        [
+          "Bord and Pillar",
+          118
+        ],
+        [
+          "Strip",
+          10
+        ],
+        [
+          "Not Found",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "The specific technique used to extract coal from the earth.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Open Pit",
+          "definition": "A surface mining method that extracts coal from open pits near ground level. Also known as “open cast” mining."
+        },
+        {
+          "name": "Strip",
+          "definition": "A surface mining method where the overlying vegetation, rock, and soil (overburden) is removed in order to reach the underlying coal seam, which usually lies a few feet beneath the surface."
+        },
+        {
+          "name": "Mountaintop Removal",
+          "definition": "A surface mining method that extracts coal at the summit or summit ridge of a mountain, often by using explosives to remove their “tops” and expose underlying coal seams."
+        },
+        {
+          "name": "Board and Pillar",
+          "definition": "An underground mining method in which seams of coal are partially mined, leaving large pillars of coal intact to support the overlying layers of rock. Also known as “room and pillar.”"
+        },
+        {
+          "name": "Longwall",
+          "definition": "An underground mining method in which a large “wall” of coal is progressively sheared off."
+        },
+        {
+          "name": "Mixed",
+          "definition": "Indicates a coal mine or coal mine project uses more than one mining method."
+        }
+      ],
+      "api_metadata": {
+        "name": "Mining Method",
+        "definition": "The specific technique used to extract coal from the earth.",
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "category": "Main",
+        "code_friendly_name": "mining_method",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Strip",
+          "Board and Pillar",
+          "Mixed",
+          "Longwall",
+          "Open Pit",
+          "Mountaintop Removal"
+        ],
+        "values_definitions": {
+          "Open Pit": "also known as “Open Cast”, refers to mining directly on the ground surface",
+          "Strip": "is a type of surface mining where the overlying vegetation, rock, and soil (overburden) is removed in order to reach the underlying coal seam, which usually lies a few feet beneath the surface.",
+          "Mountain Top Removal": "is a mining practice where the tops of mountains are removed, exposing the seams of coal. It is a form of surface mining at the summit or summit ridge of a mountain.",
+          "Board and Pillar": "also known as “Room and Pillar”, it’s a method of underground mining. In this method, seams of coal are mined partially, leaving large pillars of coal intact to support the overlying layers of rock",
+          "Longwall": "is a type of underground mining method used to extract coal from a seam that is too deep for open-pit mining",
+          "Mixed": "More than one mining method."
+        }
+      }
+    },
+    {
+      "field_name": "Mine Size (Km2)",
+      "code_friendly_name_guess": "mine_size_km2",
+      "n_total": 5382,
+      "n_null": 1557,
+      "n_non_null": 3825,
+      "null_rate": 0.2893,
+      "n_unique": 3026,
+      "top_values": [
+        [
+          "50.0",
+          18
+        ],
+        [
+          "2.0",
+          17
+        ],
+        [
+          "1.0",
+          15
+        ],
+        [
+          "20.0",
+          14
+        ],
+        [
+          "10.0",
+          13
+        ],
+        [
+          "4.0",
+          10
+        ],
+        [
+          "3.0",
+          10
+        ],
+        [
+          "6.0",
+          8
+        ],
+        [
+          "5.0",
+          8
+        ],
+        [
+          "17.0",
+          8
+        ],
+        [
+          "1.99",
+          8
+        ],
+        [
+          "12.0",
+          7
+        ],
+        [
+          "11.0",
+          7
+        ],
+        [
+          "8.0",
+          6
+        ],
+        [
+          "70.0",
+          6
+        ],
+        [
+          "5.9",
+          6
+        ],
+        [
+          "5.6",
+          6
+        ],
+        [
+          "4.5",
+          6
+        ],
+        [
+          "4.25",
+          6
+        ],
+        [
+          "4.1",
+          6
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The total surface area of the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Mine Size (Km2)",
+        "definition": "The total surface area of the mining covered by the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "unit_name_short": "Km2",
+        "unit_name_full": "square kilometer",
+        "category": "Size",
+        "code_friendly_name": "mine_size_km2",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Mine Depth (m)",
+      "code_friendly_name_guess": "mine_depth_m",
+      "n_total": 5382,
+      "n_null": 5,
+      "n_non_null": 5377,
+      "null_rate": 0.0009,
+      "n_unique": 572,
+      "top_values": [
+        [
+          "50.0",
+          976
+        ],
+        [
+          "456.0",
+          748
+        ],
+        [
+          "60.0",
+          520
+        ],
+        [
+          "75.0",
+          383
+        ],
+        [
+          "373.0",
+          208
+        ],
+        [
+          "300.0",
+          196
+        ],
+        [
+          "494.0",
+          123
+        ],
+        [
+          "500.0",
+          90
+        ],
+        [
+          "280.0",
+          86
+        ],
+        [
+          "448.0",
+          57
+        ],
+        [
+          "600.0",
+          50
+        ],
+        [
+          "700.0",
+          46
+        ],
+        [
+          "400.0",
+          43
+        ],
+        [
+          "80.0",
+          42
+        ],
+        [
+          "1000.0",
+          41
+        ],
+        [
+          "800.0",
+          34
+        ],
+        [
+          "730.0",
+          32
+        ],
+        [
+          "200.0",
+          32
+        ],
+        [
+          "250.0",
+          31
+        ],
+        [
+          "550.0",
+          29
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The vertical distance between the ground surface and the coal seam that is being mined.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Mine Depth (m)",
+        "definition": "The vertical distance from the ground surface down to the coal seam that is being mined.",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "unit_name_short": "m",
+        "unit_name_full": "meters",
+        "category": "Size",
+        "code_friendly_name": "mine_depth_m",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Depth Accuracy",
+      "code_friendly_name_guess": "depth_accuracy",
+      "n_total": 5382,
+      "n_null": 3,
+      "n_non_null": 5379,
+      "null_rate": 0.0006,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Estimate",
+          3329
+        ],
+        [
+          "Exact",
+          2050
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates the confidence level in the reported depth of the coal mine. \"Exact\" means the depth is directly stated in a reliable source, while \"Estimated\" means it is inferred from averages at the national level in a variety of industry and government reports.",
+      "notes_from_readme": "For more details, please refer to GEM’s methodology wiki page on estimating methane emissions from coal mines.",
+      "api_metadata": {
+        "name": "Depth Accuracy",
+        "definition": "Indicates the confidence level in the reported depth of the coal mine. \"Exact\" means the depth is directly stated in a reliable source, while \"Estimated\" means it is inferred from averages at the national level in a variety of industry and government reports.",
+        "data_type": "text",
+        "data_sub_type": "accuracy",
+        "category": "Size",
+        "code_friendly_name": "depth_accuracy",
+        "accuracy_for_field": "mine_depth_m",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Exact",
+          "Estimate"
+        ]
+      }
+    },
+    {
+      "field_name": "Workforce Size",
+      "code_friendly_name_guess": "workforce_size",
+      "n_total": 5382,
+      "n_null": 1014,
+      "n_non_null": 4368,
+      "null_rate": 0.1884,
+      "n_unique": 1626,
+      "top_values": [
+        [
+          "0.0",
+          47
+        ],
+        [
+          "1.0",
+          28
+        ],
+        [
+          "3.0",
+          27
+        ],
+        [
+          "500.0",
+          24
+        ],
+        [
+          "50.0",
+          22
+        ],
+        [
+          "4.0",
+          22
+        ],
+        [
+          "300.0",
+          21
+        ],
+        [
+          "2.0",
+          20
+        ],
+        [
+          "250.0",
+          18
+        ],
+        [
+          "5.0",
+          17
+        ],
+        [
+          "223.0",
+          17
+        ],
+        [
+          "210.0",
+          17
+        ],
+        [
+          "9.0",
+          16
+        ],
+        [
+          "7.0",
+          16
+        ],
+        [
+          "400.0",
+          16
+        ],
+        [
+          "200.0",
+          16
+        ],
+        [
+          "1000.0",
+          15
+        ],
+        [
+          "350.0",
+          14
+        ],
+        [
+          "231.0",
+          14
+        ],
+        [
+          "211.0",
+          14
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The total number of personnel employed by a coal mining operation, including those directly involved in extraction and those supporting operations.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Workforce Size",
+        "definition": "The total number of personnel employed by a coal mining operation, including both direct employees and contractors working on-site.",
+        "flags": "",
+        "data_type": "numeric",
+        "data_sub_type": "measurement",
+        "unit_name_short": "workers",
+        "unit_name_full": "workers",
+        "category": "Size",
+        "code_friendly_name": "workforce_size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Workforce Accuracy",
+      "code_friendly_name_guess": "workforce_accuracy",
+      "n_total": 5382,
+      "n_null": 1014,
+      "n_non_null": 4368,
+      "null_rate": 0.1884,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          2849
+        ],
+        [
+          "Estimate",
+          1519
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates the accuracy level of workforce data. \"Exact\" means the workforce size is explicitly reported in data sources, while \"Estimated\" refers to figures generated using GEM’s machine learning model when official data is unavailable.",
+      "notes_from_readme": "For more details, please refer to GEM's wiki page on estimating coal mine workforce size.",
+      "api_metadata": {
+        "name": "Workforce Accuracy",
+        "definition": "Indicates the accuracy level of workforce data. \"Exact\" means the workforce size is explicitly reported in data sources, while \"Estimated\" refers to figures generated using GEM’s machine learning model when official data is unavailable.",
+        "data_type": "text",
+        "data_sub_type": "accuracy",
+        "category": "Size",
+        "code_friendly_name": "workforce_accuracy",
+        "accuracy_for_field": "workforce_size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "allowed_values": [
+          "Exact",
+          "Estimate"
+        ]
+      }
+    },
+    {
+      "field_name": "Coal Type",
+      "code_friendly_name_guess": "coal_type",
+      "n_total": 5382,
+      "n_null": 31,
+      "n_non_null": 5351,
+      "null_rate": 0.0058,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Bituminous",
+          3208
+        ],
+        [
+          "Subbituminous",
+          1110
+        ],
+        [
+          "Anthracite",
+          659
+        ],
+        [
+          "Lignite",
+          374
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The classification of coal based on its physical and chemical properties, particularly its carbon content, calorific value, moisture, volatile matter, and ash content. Global Coal Mine Tracker uses British coal types (lignite, subbituminous, bituminous, anthracite).",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coal Type",
+        "definition": "The classification of coal based on its physical and chemical properties, particularly its carbon content, calorific value, moisture, volatile matter, and ash content. Global Coal Mine Tracker use British coal type (lignite, subbituminous, bituminous, anthracite).",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Bituminous",
+          "Subbituminous",
+          "Anthracite",
+          "Lignite"
+        ],
+        "multiple_values_separator": "&",
+        "code_friendly_name": "coal_type",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Coal Grade",
+      "code_friendly_name_guess": "coal_grade",
+      "n_total": 5382,
+      "n_null": 475,
+      "n_non_null": 4907,
+      "null_rate": 0.0883,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Thermal",
+          3274
+        ],
+        [
+          "Met",
+          945
+        ],
+        [
+          "Thermal & Met",
+          458
+        ],
+        [
+          "Thermal & Chemical",
+          172
+        ],
+        [
+          "Chemical",
+          58
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ],
+      "definition_from_readme": "The classification of coal based on its  reported or intended end use, as indicated by coal type, stated use, or project design information.:\n- Thermal Coal: Used for power generation or industrial heating.\n- Metallurgical Coal (Coking Coal): Used for steelmaking and other industrial processes.\n- Chemical Coal: Coal used primarily as a feedstock in coal-to-chemicals processes, which convert coal into gaseous, liquid, or solid fuels and chemical products, particularly in China. In the GCMT, this category includes coal-to-liquids and coal-to-natural gas.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coal Grade",
+        "definition": "The classification of coal based on its primary use: -Thermal Coal: Used for power generation or industrial heating. -Metallurgical Coal (Coking Coal): Used for steelmaking and other industrial processes.",
+        "is_required": true,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Thermal",
+          "Met"
+        ],
+        "multiple_values_separator": "&",
+        "code_friendly_name": "coal_grade",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Percentage of Met Coal",
+      "code_friendly_name_guess": "percentage_of_met_coal",
+      "n_total": 5382,
+      "n_null": 5006,
+      "n_non_null": 376,
+      "null_rate": 0.9301,
+      "n_unique": 45,
+      "top_values": [
+        [
+          "50.0",
+          214
+        ],
+        [
+          "100.0",
+          24
+        ],
+        [
+          "20.0",
+          19
+        ],
+        [
+          "80.0",
+          18
+        ],
+        [
+          "0.0",
+          13
+        ],
+        [
+          "90.0",
+          8
+        ],
+        [
+          "70.0",
+          8
+        ],
+        [
+          "30.0",
+          6
+        ],
+        [
+          "25.0",
+          5
+        ],
+        [
+          "56.0",
+          4
+        ],
+        [
+          "12.0",
+          4
+        ],
+        [
+          "10.0",
+          4
+        ],
+        [
+          "88.0",
+          3
+        ],
+        [
+          "60.0",
+          3
+        ],
+        [
+          "55.0",
+          3
+        ],
+        [
+          "35.0",
+          3
+        ],
+        [
+          "97.0",
+          2
+        ],
+        [
+          "78.0",
+          2
+        ],
+        [
+          "75.0",
+          2
+        ],
+        [
+          "71.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The proportion (expressed as a percentage) of metallurgical coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines. Applies to mines that produce a blend of “Thermal & Met” coal only.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Percentage of Met Coal",
+        "definition": "The proportion of metallurgical coal within the \"Thermal & Met\" classification under Coal Grades for opearting coal mines.",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "percentage_of_met_coal",
+        "data_sub_type": "percent",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Percentage of Thermal Coal",
+      "code_friendly_name_guess": "percentage_of_thermal_coal",
+      "n_total": 5382,
+      "n_null": 5012,
+      "n_non_null": 370,
+      "null_rate": 0.9313,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "50.0",
+          212
+        ],
+        [
+          "0.0",
+          20
+        ],
+        [
+          "80.0",
+          19
+        ],
+        [
+          "20.0",
+          18
+        ],
+        [
+          "100.0",
+          13
+        ],
+        [
+          "30.0",
+          8
+        ],
+        [
+          "10.0",
+          8
+        ],
+        [
+          "70.0",
+          6
+        ],
+        [
+          "75.0",
+          5
+        ],
+        [
+          "90.0",
+          4
+        ],
+        [
+          "88.0",
+          4
+        ],
+        [
+          "44.0",
+          4
+        ],
+        [
+          "45.0",
+          3
+        ],
+        [
+          "40.0",
+          3
+        ],
+        [
+          "12.0",
+          3
+        ],
+        [
+          "95.0",
+          2
+        ],
+        [
+          "65.0",
+          2
+        ],
+        [
+          "60.0",
+          2
+        ],
+        [
+          "59.0",
+          2
+        ],
+        [
+          "55.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The proportion (expressed as a percentage) of thermal coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines. Applies to mines that produce a blend of “Thermal & Met” coal only.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Percentage of Thermal Coal",
+        "definition": "The proportion of thermal coal within the \"Thermal & Met\" classification under Coal Grades for operating coal mines.",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "percentage_of_thermal_coal",
+        "data_sub_type": "percent",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Accuracy Rating",
+      "code_friendly_name_guess": "accuracy_rating",
+      "n_total": 5382,
+      "n_null": 5004,
+      "n_non_null": 378,
+      "null_rate": 0.9298,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Estimated",
+          297
+        ],
+        [
+          "Reported",
+          78
+        ],
+        [
+          "Reported, Estimated",
+          2
+        ],
+        [
+          "15.99",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0026,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Indicates the confidence level in the accuracy of the information provided. A percentage split is marked as \"Exact\" when it is explicitly stated in the data source, and \"Estimated\" when it is based on the researcher’s interpretation or experience drawn from available sources. If no data is found, a 50/50 split is assumed and this default is also classified as “Estimated”. Applies to “Thermal & Met” coal mines only.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Accuracy Rating",
+        "definition": "Indicates the confidence level in the accuracy of the information provided. A percentage split is marked as \"Exact\" when it is explicitly stated in the data source, and \"Estimated\" when it is based on the researcher’s interpretation or experience drawn from available sources.",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Estimated",
+          "Reported"
+        ],
+        "accuracy_for_field": [
+          "Percentage of Met Coal",
+          "Percentage of Thermal Coal"
+        ],
+        "order_of_values": "",
+        "code_friendly_name": "accuracy_rating",
+        "data_sub_type": "accuracy"
+      }
+    },
+    {
+      "field_name": "Reported Year of Percentage Split",
+      "code_friendly_name_guess": "reported_year_of_percentage_split",
+      "n_total": 5382,
+      "n_null": 5079,
+      "n_non_null": 303,
+      "null_rate": 0.9437,
+      "n_unique": 26,
+      "top_values": [
+        [
+          "2024.0",
+          46
+        ],
+        [
+          "2021.0",
+          36
+        ],
+        [
+          "2020.0",
+          31
+        ],
+        [
+          "2019.0",
+          30
+        ],
+        [
+          "2025.0",
+          25
+        ],
+        [
+          "2023.0",
+          20
+        ],
+        [
+          "2022.0",
+          18
+        ],
+        [
+          "2018.0",
+          15
+        ],
+        [
+          "2011.0",
+          13
+        ],
+        [
+          "2017.0",
+          12
+        ],
+        [
+          "2008.0",
+          9
+        ],
+        [
+          "2012.0",
+          8
+        ],
+        [
+          "2015.0",
+          7
+        ],
+        [
+          "2013.0",
+          7
+        ],
+        [
+          "2009.0",
+          7
+        ],
+        [
+          "2010.0",
+          6
+        ],
+        [
+          "2016.0",
+          3
+        ],
+        [
+          "2014.0",
+          2
+        ],
+        [
+          "https://www.toutiao.com/article/7298340507334607400/?&source=m_redirect",
+          1
+        ],
+        [
+          "https://www.mongolianminingjournal.com/a/74845",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9934,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the percentage breakdown of coal grade was reported or documented. Applies to “Thermal & Met” coal mines only.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reported Year of Percentage Split",
+        "definition": "The year in which the percentage breakdown of coal grade was reported or deocumented.",
+        "is_required": false,
+        "category": "Details",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "associated_field": [
+          "Percentage of Met Coal",
+          "Percentage of Thermal Coal"
+        ],
+        "code_friendly_name": "reported_year_of_percentage_split",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Total Reserves (Proven and Probable, Mt)",
+      "code_friendly_name_guess": "total_reserves_proven_and_probable_mt",
+      "n_total": 5382,
+      "n_null": 1592,
+      "n_non_null": 3790,
+      "null_rate": 0.2958,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "7.0",
+          55
+        ],
+        [
+          "6.0",
+          52
+        ],
+        [
+          "12.0",
+          48
+        ],
+        [
+          "8.0",
+          47
+        ],
+        [
+          "9.0",
+          46
+        ],
+        [
+          "17.0",
+          46
+        ],
+        [
+          "11.0",
+          46
+        ],
+        [
+          "13.0",
+          45
+        ],
+        [
+          "20.0",
+          43
+        ],
+        [
+          "5.0",
+          42
+        ],
+        [
+          "25.0",
+          42
+        ],
+        [
+          "15.0",
+          42
+        ],
+        [
+          "10.0",
+          42
+        ],
+        [
+          "18.0",
+          40
+        ],
+        [
+          "2.0",
+          39
+        ],
+        [
+          "1.0",
+          39
+        ],
+        [
+          "4.0",
+          38
+        ],
+        [
+          "3.0",
+          38
+        ],
+        [
+          "16.0",
+          38
+        ],
+        [
+          "22.0",
+          37
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The total amount of economically recoverable or minable coal. (This includes the measured coal quantities that are sufficiently \"proven\" plus indicated coal quantities that are \"probable.\")",
+      "notes_from_readme": "Please see GEM's wiki on coal reserves for details.",
+      "api_metadata": {
+        "name": "Total Reserves (Proven and Probable, Mt)",
+        "definition": "The combined amount of economically recoverable or minable coal.",
+        "is_required": false,
+        "category": "Size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "Mt",
+        "unit_name_long": "Million tons (proven and possible)",
+        "code_friendly_name": "total_reserves_proven_and_probable_mt",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Year of Total Reserves Recorded",
+      "code_friendly_name_guess": "year_of_total_reserves_recorded",
+      "n_total": 5382,
+      "n_null": 2161,
+      "n_non_null": 3221,
+      "null_rate": 0.4015,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "2024.0",
+          393
+        ],
+        [
+          "2023.0",
+          382
+        ],
+        [
+          "2022.0",
+          370
+        ],
+        [
+          "2020.0",
+          326
+        ],
+        [
+          "2021.0",
+          296
+        ],
+        [
+          "2018.0",
+          273
+        ],
+        [
+          "2019.0",
+          239
+        ],
+        [
+          "2025.0",
+          167
+        ],
+        [
+          "2017.0",
+          154
+        ],
+        [
+          "2012.0",
+          109
+        ],
+        [
+          "2015.0",
+          95
+        ],
+        [
+          "2016.0",
+          91
+        ],
+        [
+          "2013.0",
+          84
+        ],
+        [
+          "2014.0",
+          63
+        ],
+        [
+          "2011.0",
+          56
+        ],
+        [
+          "2010.0",
+          31
+        ],
+        [
+          "2009.0",
+          30
+        ],
+        [
+          "2008.0",
+          19
+        ],
+        [
+          "2006.0",
+          17
+        ],
+        [
+          "2007.0",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the total coal reserves of the mine were reported or evaluated.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Year of Total Reserves Recorded",
+        "definition": "The year in which the total coal reserves of the mine were reported or evaluated.",
+        "is_required": false,
+        "category": "Size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "associated_field": [
+          "Year of Total Reserves Recorded"
+        ],
+        "code_friendly_name": "year_of_total_reserves_recorded",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Total Resource (Inferred, Indicated, Measured)",
+      "code_friendly_name_guess": "total_resource_inferred_indicated_measured",
+      "n_total": 5382,
+      "n_null": 2852,
+      "n_non_null": 2530,
+      "null_rate": 0.5299,
+      "n_unique": 1036,
+      "top_values": [
+        [
+          "26.0",
+          28
+        ],
+        [
+          "17.0",
+          23
+        ],
+        [
+          "23.0",
+          22
+        ],
+        [
+          "43.0",
+          21
+        ],
+        [
+          "36.0",
+          21
+        ],
+        [
+          "31.0",
+          21
+        ],
+        [
+          "35.0",
+          20
+        ],
+        [
+          "21.0",
+          20
+        ],
+        [
+          "30.0",
+          19
+        ],
+        [
+          "25.0",
+          19
+        ],
+        [
+          "40.0",
+          18
+        ],
+        [
+          "38.0",
+          18
+        ],
+        [
+          "27.0",
+          18
+        ],
+        [
+          "12.0",
+          18
+        ],
+        [
+          "44.0",
+          17
+        ],
+        [
+          "14.0",
+          17
+        ],
+        [
+          "46.0",
+          16
+        ],
+        [
+          "29.0",
+          16
+        ],
+        [
+          "28.0",
+          16
+        ],
+        [
+          "9.0",
+          15
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The total estimated volume of a coal deposit in the ground. Also known as “geological reserves” in some countries.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Total Resource (Inferred, Indicated, Measured)",
+        "definition": "The total estimated volume of a coal deposit in the ground",
+        "is_required": false,
+        "category": "Size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "Mt(?)",
+        "unit_name_long": "Million tons (Inferred, Indicated, Measured)",
+        "code_friendly_name": "total_resource_inferred_indicated_measured",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Reserve to Production Ratio (R/P)",
+      "code_friendly_name_guess": "reserve_to_production_ratio_r_p",
+      "n_total": 5382,
+      "n_null": 1864,
+      "n_non_null": 3518,
+      "null_rate": 0.3463,
+      "n_unique": 336,
+      "top_values": [
+        [
+          "0.0",
+          167
+        ],
+        [
+          "10.0",
+          85
+        ],
+        [
+          "9.0",
+          81
+        ],
+        [
+          "13.0",
+          76
+        ],
+        [
+          "16.0",
+          74
+        ],
+        [
+          "24.0",
+          71
+        ],
+        [
+          "12.0",
+          65
+        ],
+        [
+          "19.0",
+          63
+        ],
+        [
+          "8.0",
+          62
+        ],
+        [
+          "20.0",
+          62
+        ],
+        [
+          "18.0",
+          61
+        ],
+        [
+          "14.0",
+          61
+        ],
+        [
+          "11.0",
+          61
+        ],
+        [
+          "15.0",
+          58
+        ],
+        [
+          "17.0",
+          56
+        ],
+        [
+          "7.0",
+          55
+        ],
+        [
+          "6.0",
+          55
+        ],
+        [
+          "5.0",
+          55
+        ],
+        [
+          "21.0",
+          53
+        ],
+        [
+          "31.0",
+          50
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "A measure of how long a coal reserve will last at the current annual rate of production.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reserve to Production Ratio (R/P)",
+        "definition": "A measure of how long a coal reserve will last at the current annual rate of production.",
+        "is_required": false,
+        "category": "Size",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "reserve_to_production_ratio_r_p",
+        "data_sub_type": null,
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Opening Year",
+      "code_friendly_name_guess": "opening_year",
+      "n_total": 5382,
+      "n_null": 1273,
+      "n_non_null": 4109,
+      "null_rate": 0.2365,
+      "n_unique": 137,
+      "top_values": [
+        [
+          "2018.0",
+          166
+        ],
+        [
+          "2011.0",
+          159
+        ],
+        [
+          "2010.0",
+          159
+        ],
+        [
+          "2014.0",
+          151
+        ],
+        [
+          "2009.0",
+          148
+        ],
+        [
+          "2016.0",
+          145
+        ],
+        [
+          "2013.0",
+          143
+        ],
+        [
+          "2021.0",
+          142
+        ],
+        [
+          "2012.0",
+          142
+        ],
+        [
+          "2017.0",
+          141
+        ],
+        [
+          "2019.0",
+          134
+        ],
+        [
+          "2022.0",
+          126
+        ],
+        [
+          "2015.0",
+          126
+        ],
+        [
+          "2008.0",
+          122
+        ],
+        [
+          "2023.0",
+          109
+        ],
+        [
+          "2007.0",
+          108
+        ],
+        [
+          "2024.0",
+          103
+        ],
+        [
+          "2020.0",
+          101
+        ],
+        [
+          "2006.0",
+          83
+        ],
+        [
+          "2005.0",
+          78
+        ]
+      ],
+      "portion_numeric": 0.998,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year when the mine commenced its commercial operations.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Opening Year",
+        "definition": "The year when the mine commenced its commercial operations.",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "",
+        "code_friendly_name": "opening_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Closing Year",
+      "code_friendly_name_guess": "closing_year",
+      "n_total": 5382,
+      "n_null": 4847,
+      "n_non_null": 535,
+      "null_rate": 0.9006,
+      "n_unique": 38,
+      "top_values": [
+        [
+          "2027.0",
+          69
+        ],
+        [
+          "2028.0",
+          66
+        ],
+        [
+          "2030.0",
+          57
+        ],
+        [
+          "2026.0",
+          46
+        ],
+        [
+          "2029.0",
+          40
+        ],
+        [
+          "2032.0",
+          36
+        ],
+        [
+          "2033.0",
+          33
+        ],
+        [
+          "2031.0",
+          22
+        ],
+        [
+          "2034.0",
+          21
+        ],
+        [
+          "2038.0",
+          18
+        ],
+        [
+          "2039.0",
+          15
+        ],
+        [
+          "2035.0",
+          13
+        ],
+        [
+          "2044.0",
+          11
+        ],
+        [
+          "2037.0",
+          11
+        ],
+        [
+          "2049.0",
+          10
+        ],
+        [
+          "2040.0",
+          10
+        ],
+        [
+          "2036.0",
+          10
+        ],
+        [
+          "2042.0",
+          7
+        ],
+        [
+          "2047.0",
+          5
+        ],
+        [
+          "2041.0",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the coal mine is scheduled to permanently close or did close in, if it has already ceased operations.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Closing Year",
+        "definition": "The year in which the coal mine is scheduled to close or has already ceased operations.",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "code_friendly_name": "closing_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Reported Life of Mine",
+      "code_friendly_name_guess": "reported_life_of_mine",
+      "n_total": 5382,
+      "n_null": 2742,
+      "n_non_null": 2640,
+      "null_rate": 0.5095,
+      "n_unique": 170,
+      "top_values": [
+        [
+          "25.0",
+          95
+        ],
+        [
+          "20.0",
+          93
+        ],
+        [
+          "10.0",
+          88
+        ],
+        [
+          "15.0",
+          78
+        ],
+        [
+          "9.0",
+          73
+        ],
+        [
+          "30.0",
+          73
+        ],
+        [
+          "12.0",
+          72
+        ],
+        [
+          "8.0",
+          71
+        ],
+        [
+          "14.0",
+          71
+        ],
+        [
+          "7.0",
+          64
+        ],
+        [
+          "11.0",
+          64
+        ],
+        [
+          "16.0",
+          63
+        ],
+        [
+          "5.0",
+          61
+        ],
+        [
+          "13.0",
+          61
+        ],
+        [
+          "18.0",
+          60
+        ],
+        [
+          "17.0",
+          55
+        ],
+        [
+          "4.0",
+          54
+        ],
+        [
+          "6.0",
+          51
+        ],
+        [
+          "24.0",
+          50
+        ],
+        [
+          "21.0",
+          50
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The expected operational lifespan of a mine, expressed in years, based on the currently known and economically recoverable reserves, and the planned annual production rate.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reported Life of Mine",
+        "definition": "The expected operational lifespan of a mine, expressed in year, based on the currently known and economically recoverable reserves, and the planned annual production rate.",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "year",
+        "unit_name_long": "year",
+        "code_friendly_name": "reported_life_of_mine",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Reported Year of Mine Life",
+      "code_friendly_name_guess": "reported_year_of_mine_life",
+      "n_total": 5382,
+      "n_null": 3446,
+      "n_non_null": 1936,
+      "null_rate": 0.6403,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "2024.0",
+          262
+        ],
+        [
+          "2023.0",
+          249
+        ],
+        [
+          "2022.0",
+          222
+        ],
+        [
+          "2020.0",
+          205
+        ],
+        [
+          "2021.0",
+          169
+        ],
+        [
+          "2018.0",
+          166
+        ],
+        [
+          "2019.0",
+          164
+        ],
+        [
+          "2025.0",
+          146
+        ],
+        [
+          "2017.0",
+          67
+        ],
+        [
+          "2016.0",
+          61
+        ],
+        [
+          "2015.0",
+          48
+        ],
+        [
+          "2012.0",
+          40
+        ],
+        [
+          "2014.0",
+          37
+        ],
+        [
+          "2013.0",
+          32
+        ],
+        [
+          "2011.0",
+          21
+        ],
+        [
+          "2010.0",
+          9
+        ],
+        [
+          "2009.0",
+          9
+        ],
+        [
+          "2008.0",
+          8
+        ],
+        [
+          "2026.0",
+          5
+        ],
+        [
+          "2006.0",
+          3
+        ]
+      ],
+      "portion_numeric": 0.998,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the life of mine is reported or evaluated.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reported Year of Mine Life",
+        "definition": "The year in which the life of mine is reported or evaluated.",
+        "is_required": false,
+        "category": "Age",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "associated_field": [
+          "Reported Life of Mine"
+        ],
+        "code_friendly_name": "reported_year_of_mine_life",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Coalfield",
+      "code_friendly_name_guess": "coalfield",
+      "n_total": 5382,
+      "n_null": 2302,
+      "n_non_null": 3080,
+      "null_rate": 0.4277,
+      "n_unique": 655,
+      "top_values": [
+        [
+          "Qinshui",
+          230
+        ],
+        [
+          "Appalachia",
+          154
+        ],
+        [
+          "Hedong",
+          78
+        ],
+        [
+          "Dongsheng",
+          76
+        ],
+        [
+          "Ningwu",
+          71
+        ],
+        [
+          "Bowen",
+          68
+        ],
+        [
+          "Zhina Coal Field",
+          56
+        ],
+        [
+          "Datong",
+          49
+        ],
+        [
+          "Witbank",
+          47
+        ],
+        [
+          "Huoxi",
+          45
+        ],
+        [
+          "Northern Shaanxi Jurassic",
+          40
+        ],
+        [
+          "Northern Shaanxi Jurassic Coalfield",
+          38
+        ],
+        [
+          "Liupanshui Coalfield",
+          35
+        ],
+        [
+          "Xishan",
+          31
+        ],
+        [
+          "Sohagpur",
+          30
+        ],
+        [
+          "Qianxibei Coal Field",
+          30
+        ],
+        [
+          "Jharia",
+          30
+        ],
+        [
+          "Liupanshui Coal Field",
+          29
+        ],
+        [
+          "Northern Shaanxi Jurassic Coal Field",
+          28
+        ],
+        [
+          "Zhuozishan",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The coalfield to which a coal mine belongs.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Coalfield",
+        "definition": "Coalfield to which a coal mine belongs.",
+        "is_required": false,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "coalfield",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 5382,
+      "n_null": 972,
+      "n_non_null": 4410,
+      "null_rate": 0.1806,
+      "n_unique": 3307,
+      "top_values": [
+        [
+          "Moranbah",
+          25
+        ],
+        [
+          "Xuejiawan",
+          23
+        ],
+        [
+          "Narisong",
+          21
+        ],
+        [
+          "Neryungri",
+          14
+        ],
+        [
+          "Emerald",
+          13
+        ],
+        [
+          "Pikeville",
+          11
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市鄂托克旗棋盘井镇",
+          10
+        ],
+        [
+          "Talahao",
+          10
+        ],
+        [
+          "Nalintaohai",
+          10
+        ],
+        [
+          "Karakan",
+          10
+        ],
+        [
+          "Delmas",
+          10
+        ],
+        [
+          "Verner",
+          9
+        ],
+        [
+          "Ulan Mulun",
+          9
+        ],
+        [
+          "Middelburg",
+          9
+        ],
+        [
+          "Kiselyovsk",
+          9
+        ],
+        [
+          "Gillette",
+          9
+        ],
+        [
+          "Clearfield",
+          9
+        ],
+        [
+          "Bolshaya Talda",
+          9
+        ],
+        [
+          "Bethal",
+          9
+        ],
+        [
+          "Zarand",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Prefecture, District",
+      "code_friendly_name_guess": "prefecture_district",
+      "n_total": 5382,
+      "n_null": 708,
+      "n_non_null": 4674,
+      "null_rate": 0.1315,
+      "n_unique": 732,
+      "top_values": [
+        [
+          "Ordos",
+          315
+        ],
+        [
+          "Yulin",
+          215
+        ],
+        [
+          "Bijie",
+          165
+        ],
+        [
+          "Lüliang",
+          113
+        ],
+        [
+          "Liupanshui",
+          113
+        ],
+        [
+          "Jinzhong",
+          104
+        ],
+        [
+          "Jincheng",
+          104
+        ],
+        [
+          "Changzhi",
+          103
+        ],
+        [
+          "Linfen",
+          88
+        ],
+        [
+          "Kutai Kartanegara",
+          86
+        ],
+        [
+          "Shuozhou",
+          70
+        ],
+        [
+          "Xinzhou",
+          54
+        ],
+        [
+          "Nkangala",
+          50
+        ],
+        [
+          "Datong",
+          46
+        ],
+        [
+          "Taiyuan",
+          42
+        ],
+        [
+          "Yangquan",
+          41
+        ],
+        [
+          "Jining",
+          38
+        ],
+        [
+          "Dhanbad",
+          38
+        ],
+        [
+          "Yan'an",
+          34
+        ],
+        [
+          "Weinan",
+          33
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State, Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 296,
+      "top_values": [
+        [
+          "Shanxi",
+          775
+        ],
+        [
+          "Inner Mongolia",
+          423
+        ],
+        [
+          "Guizhou",
+          397
+        ],
+        [
+          "Shaanxi",
+          327
+        ],
+        [
+          "West Virginia",
+          185
+        ],
+        [
+          "East Kalimantan",
+          176
+        ],
+        [
+          "Xinjiang",
+          156
+        ],
+        [
+          "Jharkhand",
+          149
+        ],
+        [
+          "Kemerovo",
+          133
+        ],
+        [
+          "Queensland",
+          124
+        ],
+        [
+          "Pennsylvania",
+          124
+        ],
+        [
+          "Mpumalanga",
+          106
+        ],
+        [
+          "Kentucky",
+          99
+        ],
+        [
+          "South Kalimantan",
+          98
+        ],
+        [
+          "Henan",
+          88
+        ],
+        [
+          "Madhya Pradesh",
+          79
+        ],
+        [
+          "Central Kalimantan",
+          73
+        ],
+        [
+          "Chhattisgarh",
+          72
+        ],
+        [
+          "West Bengal",
+          70
+        ],
+        [
+          "Shandong",
+          70
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location (Non-ENG)",
+      "code_friendly_name_guess": "location_non_eng",
+      "n_total": 5382,
+      "n_null": 2802,
+      "n_non_null": 2580,
+      "null_rate": 0.5206,
+      "n_unique": 2193,
+      "top_values": [
+        [
+          "内蒙古自治区鄂尔多斯市鄂托克旗棋盘井镇",
+          15
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市伊金霍洛旗纳林陶亥镇",
+          15
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市准格尔旗纳日松镇",
+          10
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市伊金霍洛旗乌兰木伦镇",
+          10
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市准格尔旗薛家湾镇",
+          8
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市东胜区铜川镇",
+          8
+        ],
+        [
+          "内蒙古自治区乌海市海南区",
+          8
+        ],
+        [
+          "陕西省榆林市神木市孙家岔镇",
+          6
+        ],
+        [
+          "内蒙古自治区自治区鄂尔多斯市乌审旗",
+          6
+        ],
+        [
+          "陕西省榆林市神木市孙家岔镇刘石畔村",
+          5
+        ],
+        [
+          "新疆维吾尔自治区昌吉州奇台县",
+          5
+        ],
+        [
+          "内蒙古自治区鄂尔多斯市准格尔旗准格尔召镇",
+          5
+        ],
+        [
+          "青海省海西州大柴旦行委",
+          4
+        ],
+        [
+          "陕西省榆林市榆阳区金鸡滩镇",
+          4
+        ],
+        [
+          "陕西省榆林市榆阳区牛家梁镇常乐堡村",
+          4
+        ],
+        [
+          "陕西省榆林市榆阳区",
+          4
+        ],
+        [
+          "陕西省延安市黄陵县店头镇",
+          4
+        ],
+        [
+          "贵州省黔西南布依族苗族自治州普安县地瓜镇",
+          4
+        ],
+        [
+          "贵州省六盘水市盘州市柏果镇",
+          4
+        ],
+        [
+          "新疆维吾尔自治区塔城地区和布克赛尔蒙古自治县",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Location (Non-ENG)",
+        "definition": "The non-English name of the closest city/town to a coal mine or proposed coal mine project.",
+        "data_type": "text",
+        "data_sub_type": "unstructured",
+        "category": "Geography",
+        "code_friendly_name": "location_non_eng",
+        "present_in_tabs": [
+          "Non-closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Eastern Asia",
+          2632
+        ],
+        [
+          "Northern America",
+          642
+        ],
+        [
+          "Southern Asia",
+          593
+        ],
+        [
+          "South-eastern Asia",
+          538
+        ],
+        [
+          "Eastern Europe",
+          342
+        ],
+        [
+          "Australia and New Zealand",
+          223
+        ],
+        [
+          "Sub-Saharan Africa",
+          206
+        ],
+        [
+          "Southern Europe",
+          50
+        ],
+        [
+          "Central Asia",
+          48
+        ],
+        [
+          "Latin America and the Caribbean",
+          45
+        ],
+        [
+          "Western Asia",
+          44
+        ],
+        [
+          "Northern Europe",
+          10
+        ],
+        [
+          "Western Europe",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:6_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          3855
+        ],
+        [
+          "Americas",
+          687
+        ],
+        [
+          "Europe",
+          411
+        ],
+        [
+          "Oceania",
+          223
+        ],
+        [
+          "Africa",
+          206
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5080,
+      "top_values": [
+        [
+          "22.11866",
+          7
+        ],
+        [
+          "23.889479",
+          5
+        ],
+        [
+          "49.017346",
+          4
+        ],
+        [
+          "37.251111",
+          4
+        ],
+        [
+          "23.650069",
+          4
+        ],
+        [
+          "-16.167428",
+          4
+        ],
+        [
+          "56.943611",
+          3
+        ],
+        [
+          "56.84695253",
+          3
+        ],
+        [
+          "53.218325",
+          3
+        ],
+        [
+          "44.06697",
+          3
+        ],
+        [
+          "40.9863606",
+          3
+        ],
+        [
+          "37.8333604",
+          3
+        ],
+        [
+          "37.428333",
+          3
+        ],
+        [
+          "30.1753837",
+          3
+        ],
+        [
+          "25.535868",
+          3
+        ],
+        [
+          "24.135",
+          3
+        ],
+        [
+          "23.798166",
+          3
+        ],
+        [
+          "23.775944",
+          3
+        ],
+        [
+          "23.685074",
+          3
+        ],
+        [
+          "20.962009",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The location of the coal mine or coal mine project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Latitude",
+        "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "latitude",
+        "data_sub_type": null,
+        "taxonomy": "latitude",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 5084,
+      "top_values": [
+        [
+          "83.53358",
+          7
+        ],
+        [
+          "85.00171",
+          5
+        ],
+        [
+          "87.071513",
+          4
+        ],
+        [
+          "68.614549",
+          4
+        ],
+        [
+          "33.661022",
+          4
+        ],
+        [
+          "85.911907",
+          3
+        ],
+        [
+          "85.586162",
+          3
+        ],
+        [
+          "85.178092",
+          3
+        ],
+        [
+          "84.989074",
+          3
+        ],
+        [
+          "82.599444",
+          3
+        ],
+        [
+          "78.8044863231452",
+          3
+        ],
+        [
+          "67.0025703",
+          3
+        ],
+        [
+          "32.0661844",
+          3
+        ],
+        [
+          "30.18051493",
+          3
+        ],
+        [
+          "175.200942",
+          3
+        ],
+        [
+          "175.074334",
+          3
+        ],
+        [
+          "171.779895",
+          3
+        ],
+        [
+          "150.9819012",
+          3
+        ],
+        [
+          "146.329722",
+          3
+        ],
+        [
+          "124.774917354844",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The location of the coal mine or coal mine project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Longitude",
+        "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "code_friendly_name": "longitude",
+        "data_sub_type": null,
+        "taxonomy": "longitude",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          4334
+        ],
+        [
+          "Approximate",
+          1048
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Indicates whether the location is \"Approximate\" or \"Exact\". Location is \"Approximate\" based on using nearest city or inferred from contextual information in the data source. Location is \"Exact\" when explicitly provided in the source materials.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Location Accuracy",
+        "definition": "Indicates whether the location is \"Approximate\" or \"Exact\". Location is \"Approximate\" based on using nearest city or inferred from contextual information in the data source. Location is \"Exact\" when explicitly provided in the source materials.",
+        "is_required": true,
+        "category": "Geography",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Exact",
+          "Approximate"
+        ],
+        "accuracy_for_field": [
+          "Latitude",
+          "Longitude"
+        ],
+        "code_friendly_name": "location_accuracy",
+        "data_sub_type": "accuracy"
+      }
+    },
+    {
+      "field_name": "Primary Consumer, Destination",
+      "code_friendly_name_guess": "primary_consumer_destination",
+      "n_total": 5382,
+      "n_null": 4226,
+      "n_non_null": 1156,
+      "null_rate": 0.7852,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "Coal Plant",
+          632
+        ],
+        [
+          "Terminal (Export)",
+          240
+        ],
+        [
+          "Export / Domestic",
+          99
+        ],
+        [
+          "Steel Plant",
+          81
+        ],
+        [
+          "Other Industrial",
+          48
+        ],
+        [
+          "Chemical Plant",
+          42
+        ],
+        [
+          "Domestic Market",
+          9
+        ],
+        [
+          "Multi-sector Use",
+          3
+        ],
+        [
+          "Shitoumei power station (Unit 1)",
+          1
+        ],
+        [
+          "Shandong Yankuang International Coking Co., Ltd.；No. 1 International Avenue, Yanzhou District, Jining City, Shandong Province",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "The main end user or receiving entity of the coal produced by the mine. This may include coal power plants, steel plants, chemical plants, export terminals, or industrial facilities that rely on coal as a primary source.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Primary Consumer, DestinationName",
+          "definition": "The name of the end user or receiving entity of the coal. The project name should match exactly with those documented by GEM to ensure consistency wherever possible."
+        }
+      ],
+      "api_metadata": {
+        "name": "Primary Consumer, Destination",
+        "definition": "The main end user or receiving entity of the coal produced by the mine. This may include coal power plants, steel plants, export terminals, or industrial facilities that rely on coal as a primary source.",
+        "is_required": false,
+        "category": "End Users",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "primary_consumer_destination",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Primary Consumer, Destination Name",
+      "code_friendly_name_guess": "primary_consumer_destination_name",
+      "n_total": 5382,
+      "n_null": 4469,
+      "n_non_null": 913,
+      "null_rate": 0.8304,
+      "n_unique": 560,
+      "top_values": [
+        [
+          "Richards Bay Coal Terminal",
+          16
+        ],
+        [
+          "Port of Gladstone",
+          16
+        ],
+        [
+          "Eskom",
+          16
+        ],
+        [
+          "Dalrymple Bay Coal Terminal",
+          16
+        ],
+        [
+          "织金电厂",
+          12
+        ],
+        [
+          "Port of Newcastle",
+          12
+        ],
+        [
+          "武汉钢铁有限公司",
+          11
+        ],
+        [
+          "Hay Point Coal Terminal",
+          11
+        ],
+        [
+          "安顺电厂",
+          9
+        ],
+        [
+          "黔北电厂",
+          8
+        ],
+        [
+          "ArcelorMittal Temirtau steel plant",
+          8
+        ],
+        [
+          "Wiggins Island Coal Terminal",
+          7
+        ],
+        [
+          "Port Waratah Coal Services",
+          7
+        ],
+        [
+          "黔西电厂",
+          6
+        ],
+        [
+          "VaninoTransUgol coal terminal",
+          6
+        ],
+        [
+          "Hwange power station",
+          6
+        ],
+        [
+          "Cement Industry",
+          6
+        ],
+        [
+          "盘南电厂",
+          5
+        ],
+        [
+          "大方电厂",
+          5
+        ],
+        [
+          "兴义电厂",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Primary Consumer, Destination Name",
+        "definition": "The name of the end user or receiving entity of the coal. The project name should match exactly with those documented by GEM to ensure consistency. Renamed from 'Coal Plant, Steel Plant, Terminal' in the May-2026 release; same field, broader scope (any primary consumer/destination, not just plants/terminals).",
+        "is_required": false,
+        "category": "End Users",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "primary_consumer_destination_name",
+        "data_sub_type": "unstructured"
+      }
+    },
+    {
+      "field_name": "Primary Consumer, Destination GEM Wiki",
+      "code_friendly_name_guess": "primary_consumer_destination_gem_wiki",
+      "n_total": 5382,
+      "n_null": 4637,
+      "n_non_null": 745,
+      "null_rate": 0.8616,
+      "n_unique": 378,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Richards_Bay_Coal_Terminal",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Gladstone",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Dalrymple_Bay_Coal_Terminal",
+          16
+        ],
+        [
+          "https://www.gem.wiki/Eskom",
+          15
+        ],
+        [
+          "https://www.gem.wiki/Guodian_Zhijin_power_station",
+          14
+        ],
+        [
+          "https://www.gem.wiki/Qianbei_power_station",
+          13
+        ],
+        [
+          "https://www.gem.wiki/Wuhan_Iron_and_Steel_Co_Ltd",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Port_of_Newcastle",
+          12
+        ],
+        [
+          "https://www.gem.wiki/Hay_Point_Coal_Terminal",
+          11
+        ],
+        [
+          "https://www.gem.wiki/Xingyi_power_station",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Qianxi_power_station",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Dafang_power_station",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Anshun_power_station",
+          9
+        ],
+        [
+          "https://www.gem.wiki/ArcelorMittal_Temirtau_steel_plant",
+          8
+        ],
+        [
+          "https://www.gem.wiki/Wiggins_Island_Coal_Terminal",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Port_Waratah_Coal_Services",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Nayong_General_Power_Station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/Liuzhi_power_station",
+          7
+        ],
+        [
+          "https://www.gem.wiki/VaninoTransUgol_coal_terminal",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Hwange_power_station",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "GEM's Wiki URLs of end user or receiving entity of the coal",
+      "notes_from_readme": "Previously listed as “Coal Plant, Steel Plant, Terminal GEM Wiki” for this column",
+      "api_metadata": {
+        "name": "Primary Consumer, Destination GEM Wiki",
+        "definition": "GEM's Wiki URLs of end user or receiving entity of the coal. Renamed from 'Coal Plant, Steel Plant, Terminal GEM Wiki' in the May-2026 release.",
+        "is_required": false,
+        "category": "End Users",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "required_format_regex": "^https://www.gem.wiki/.*",
+        "code_friendly_name": "primary_consumer_destination_gem_wiki",
+        "data_sub_type": "structured"
+      }
+    },
+    {
+      "field_name": "Gas-level Rating",
+      "code_friendly_name_guess": "gas_level_rating",
+      "n_total": 5382,
+      "n_null": 3255,
+      "n_non_null": 2127,
+      "null_rate": 0.6048,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "低瓦斯",
+          1192
+        ],
+        [
+          "突出矿井",
+          497
+        ],
+        [
+          "高瓦斯",
+          438
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The gas-level rating of a coal mine is a classification system that indicates the methane content and gas-related risk level of a coal mine.",
+      "notes_from_readme": "In this release, this indicator is available only for coal mines in China, where mines are typically classified into three levels: Low-gas, High-gas, and Outburst. For a detailed explanation of the methodology, please visit the wiki page here.",
+      "api_metadata": {
+        "name": "Gas-level Rating",
+        "definition": "The gas-level rating of a coal mine is a classification system that indicates the methane content and gas-related risk level of a coal mine.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Low-gas",
+          "Outburst",
+          "High-gas"
+        ],
+        "order_of_values": [
+          "Low-gas",
+          "High-gas",
+          "Outburst"
+        ],
+        "code_friendly_name": "gas-level_rating",
+        "data_sub_type": "ordinal"
+      }
+    },
+    {
+      "field_name": "Gas-level Rating Appraisal Year",
+      "code_friendly_name_guess": "gas_level_rating_appraisal_year",
+      "n_total": 5382,
+      "n_null": 3341,
+      "n_non_null": 2041,
+      "null_rate": 0.6208,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "2024.0",
+          902
+        ],
+        [
+          "2025.0",
+          384
+        ],
+        [
+          "2023.0",
+          222
+        ],
+        [
+          "2022.0",
+          127
+        ],
+        [
+          "2019.0",
+          99
+        ],
+        [
+          "2020.0",
+          67
+        ],
+        [
+          "2011.0",
+          65
+        ],
+        [
+          "2021.0",
+          45
+        ],
+        [
+          "2018.0",
+          33
+        ],
+        [
+          "2012.0",
+          21
+        ],
+        [
+          "2016.0",
+          20
+        ],
+        [
+          "2017.0",
+          12
+        ],
+        [
+          "2014.0",
+          10
+        ],
+        [
+          "2013.0",
+          10
+        ],
+        [
+          "2015.0",
+          6
+        ],
+        [
+          "2010.0",
+          5
+        ],
+        [
+          "2007.0",
+          5
+        ],
+        [
+          "2009.0",
+          3
+        ],
+        [
+          "2026.0",
+          2
+        ],
+        [
+          "2008.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the gas-level rating of the coal mine was appraised or officially reported.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Gas-level Rating Appraisal Year",
+        "definition": "The year in which the gas-level rating of the coal mine was appraised or officially reported.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "",
+        "associated_field": [
+          "Gas-level Rating"
+        ],
+        "code_friendly_name": "gas-level_rating_appraisal_year",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+      "code_friendly_name_guess": "reported_coal_mine_methane_emissions_thousand_tonnes_ch4",
+      "n_total": 5382,
+      "n_null": 5212,
+      "n_non_null": 170,
+      "null_rate": 0.9684,
+      "n_unique": 156,
+      "top_values": [
+        [
+          "0.0",
+          9
+        ],
+        [
+          "0.002",
+          5
+        ],
+        [
+          "0.603",
+          2
+        ],
+        [
+          "0.003",
+          2
+        ],
+        [
+          "92.247",
+          1
+        ],
+        [
+          "9.834",
+          1
+        ],
+        [
+          "9.723",
+          1
+        ],
+        [
+          "89.314",
+          1
+        ],
+        [
+          "83.341",
+          1
+        ],
+        [
+          "81.341",
+          1
+        ],
+        [
+          "80.21",
+          1
+        ],
+        [
+          "8.988",
+          1
+        ],
+        [
+          "8.187",
+          1
+        ],
+        [
+          "7.834",
+          1
+        ],
+        [
+          "7.398",
+          1
+        ],
+        [
+          "7.092",
+          1
+        ],
+        [
+          "64.764",
+          1
+        ],
+        [
+          "6.873",
+          1
+        ],
+        [
+          "6.83",
+          1
+        ],
+        [
+          "6.702",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes per year.",
+      "notes_from_readme": "Column name changed from \"Reported Coal Mine Methane Emissions (thousand tonnes per year)\" to \"Reported Coal Mine Methane Emissions (thousand tonnes CH4) \"",
+      "api_metadata": {
+        "name": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+        "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes per year.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "ttpy CH4",
+        "unit_name_long": "thousand tonnes CH4 per year",
+        "code_friendly_name": "reported_coal_mine_methane_emissions_thousand_tonnes_ch4",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+      "code_friendly_name_guess": "reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent",
+      "n_total": 5382,
+      "n_null": 5215,
+      "n_non_null": 167,
+      "null_rate": 0.969,
+      "n_unique": 154,
+      "top_values": [
+        [
+          "0.0",
+          9
+        ],
+        [
+          "0.166",
+          5
+        ],
+        [
+          "0.249",
+          2
+        ],
+        [
+          "993.4104",
+          1
+        ],
+        [
+          "959.24843",
+          1
+        ],
+        [
+          "9227.71341",
+          1
+        ],
+        [
+          "867.516",
+          1
+        ],
+        [
+          "866.52",
+          1
+        ],
+        [
+          "859.3345714285714",
+          1
+        ],
+        [
+          "85.656",
+          1
+        ],
+        [
+          "832.7241785714286",
+          1
+        ],
+        [
+          "816.2220000000001",
+          1
+        ],
+        [
+          "807.009",
+          1
+        ],
+        [
+          "7656.4595",
+          1
+        ],
+        [
+          "745.9743571428571",
+          1
+        ],
+        [
+          "7413.062000000001",
+          1
+        ],
+        [
+          "7.674535714285714",
+          1
+        ],
+        [
+          "6917.322920000001",
+          1
+        ],
+        [
+          "68.309",
+          1
+        ],
+        [
+          "679.5417500000001",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes of carbon dioxide equivalents (CO₂e) per year.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
+        "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes of carbon dioxide equivalents (CO₂e) per year.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "ttpy CO2e",
+        "unit_name_long": "thousand tonnes CO2 equivalent per year",
+        "code_friendly_name": "reported_coal_mine_methane_emissions_thousand_tonnes_co2_equivalent",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Year of Reported Coal Mine Methane Emissions",
+      "code_friendly_name_guess": "year_of_reported_coal_mine_methane_emissions",
+      "n_total": 5382,
+      "n_null": 5211,
+      "n_non_null": 171,
+      "null_rate": 0.9682,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "2024-25",
+          58
+        ],
+        [
+          "2023.0",
+          56
+        ],
+        [
+          "2024.0",
+          48
+        ],
+        [
+          "2015.0",
+          3
+        ],
+        [
+          "2025.0",
+          1
+        ],
+        [
+          "2022.0",
+          1
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.6608,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year in which the coal mine methane emissions were reported or released.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Year of Reported Coal Mine Methane Emissions",
+        "definition": "The year in which the coal mine methane emissions were reported or released.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "datetime",
+        "datetime_format": "YYYY",
+        "associated_field": [
+          "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
+          "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)"
+        ],
+        "code_friendly_name": "year_of_reported_coal_mine_methane_emissions",
+        "data_sub_type": "year"
+      }
+    },
+    {
+      "field_name": "Reference Type",
+      "code_friendly_name_guess": "reference_type",
+      "n_total": 5382,
+      "n_null": 5212,
+      "n_non_null": 170,
+      "null_rate": 0.9684,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "national government data",
+          157
+        ],
+        [
+          "company report",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicates the official source (national government data or company report) where the reported coal mine methane figures were found.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Reference Type",
+        "definition": "Indicates the official source (national government data or company report) where the reported coal mine methane figures were found.",
+        "data_type": "text",
+        "data_sub_type": "categorical",
+        "category": "Reference",
+        "allowed_values": [],
+        "code_friendly_name": "reference_type",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ]
+      }
+    },
+    {
+      "field_name": "Source ID",
+      "code_friendly_name_guess": "source_id",
+      "n_total": 5382,
+      "n_null": 5315,
+      "n_non_null": 67,
+      "null_rate": 0.9876,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "G12447",
+          1
+        ],
+        [
+          "G10916",
+          1
+        ],
+        [
+          "G10650",
+          1
+        ],
+        [
+          "G10611",
+          1
+        ],
+        [
+          "G10534",
+          1
+        ],
+        [
+          "G10528",
+          1
+        ],
+        [
+          "G10399",
+          1
+        ],
+        [
+          "G10388",
+          1
+        ],
+        [
+          "G10359",
+          1
+        ],
+        [
+          "G10131",
+          1
+        ],
+        [
+          "G10115",
+          1
+        ],
+        [
+          "G10105",
+          1
+        ],
+        [
+          "1014917.0",
+          1
+        ],
+        [
+          "1014681.0",
+          1
+        ],
+        [
+          "1014367.0",
+          1
+        ],
+        [
+          "1014015.0",
+          1
+        ],
+        [
+          "1013995.0",
+          1
+        ],
+        [
+          "1013994.0",
+          1
+        ],
+        [
+          "1013982.0",
+          1
+        ],
+        [
+          "1013900.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8209,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "The identifier assigned by the reporting agency to the coal mine associated with the reported methane emissions.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "Source ID",
+        "definition": "The identifier assigned by the reporting agency to the coal mine associated with the reported methane emissions.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "code_friendly_name": "source_id",
+        "data_sub_type": "unstructured",
+        "taxonomy": "source_id"
+      }
+    },
+    {
+      "field_name": "Has mine boundary and methane emissions sources data",
+      "code_friendly_name_guess": "has_mine_boundary_and_methane_emissions_sources_data",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "N",
+          5125
+        ],
+        [
+          "Y",
+          257
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A “Yes” in this field indicates that a coal mine boundary/boundaries and potential sources of coal mine methane have been identified for this GCMT asset.",
+      "notes_from_readme": "See methodology wiki page here for more information"
+    },
+    {
+      "field_name": "Has associated plume data",
+      "code_friendly_name_guess": "has_associated_plume_data",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "N",
+          5151
+        ],
+        [
+          "Y",
+          231
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A “Yes” in this field indicates that the GCMT asset has been associated with a remotely sensed methane plume detailed in the Global Methane Emitters Tracker. Yes* refers to the one mine (Mandalong Coal Mine) which had methane plumes associated with it in the December 2024 briefing which were not included in the version of GMET public at the time due to minor differences in query methodology.",
+      "notes_from_readme": "Some mines may have multiple plumes from different dates/times of observation associated with them. See the wiki page for each GCMT asset for details and download the full Global Methane Emitters Tracker here.",
+      "api_metadata": {
+        "name": "Has associated plume data",
+        "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a remotely sensed methane plume detailed in the Global Methane Emitters Tracker. Yes* refers to the one mine (Mandalong Coal Mine) which had methane plumes associated with it in the December 2024 briefing which were not included in the version of GMET public at the time due to minor differences in query methodology.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "text",
+        "allowed_values": [
+          "Yes",
+          "Yes*"
+        ],
+        "code_friendly_name": "has_associated_plume_data",
+        "data_sub_type": "categorical"
+      }
+    },
+    {
+      "field_name": "Has associated CMM mitigation data",
+      "code_friendly_name_guess": "has_associated_cmm_mitigation_data",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "N",
+          5217
+        ],
+        [
+          "Y",
+          165
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A “Yes” in this field indicates that the GCMT asset has been associated with a known coal mine methane mitigation project (e.g., pre-mining drainage, flaring, ventilation air methane destruction, utilization, etc.).",
+      "notes_from_readme": "Some mitigation projects span multiple mines, and some mines are associated with multiple mitigation projects. See this companion dataset for more details, and methodology wiki page here.",
+      "api_metadata": {
+        "name": "Has associated CMM mitigation data",
+        "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a known coal mine methane mitigation project (e.g., pre-mining drainage, flaring, ventilation air methane destruction, utilization, etc.).",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "boolean",
+        "yes_value": "Yes",
+        "no_value": "null",
+        "code_friendly_name": "has_associated_cmm_mitigation_data",
+        "data_sub_type": null
+      }
+    },
+    {
+      "field_name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+      "code_friendly_name_guess": "gem_coal_mine_methane_emissions_estimate_mcm_yr",
+      "n_total": 5382,
+      "n_null": 35,
+      "n_non_null": 5347,
+      "null_rate": 0.0065,
+      "n_unique": 2106,
+      "top_values": [
+        [
+          "0.0",
+          466
+        ],
+        [
+          "13.35",
+          109
+        ],
+        [
+          "17.81",
+          75
+        ],
+        [
+          "8.9",
+          69
+        ],
+        [
+          "118.7",
+          38
+        ],
+        [
+          "44.51",
+          35
+        ],
+        [
+          "22.26",
+          34
+        ],
+        [
+          "23.69",
+          33
+        ],
+        [
+          "0.06",
+          29
+        ],
+        [
+          "15.79",
+          28
+        ],
+        [
+          "26.71",
+          27
+        ],
+        [
+          "0.02",
+          26
+        ],
+        [
+          "0.03",
+          25
+        ],
+        [
+          "35.61",
+          23
+        ],
+        [
+          "89.03",
+          21
+        ],
+        [
+          "74.19",
+          21
+        ],
+        [
+          "0.01",
+          21
+        ],
+        [
+          "59.35",
+          20
+        ],
+        [
+          "0.72",
+          20
+        ],
+        [
+          "0.04",
+          19
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "An estimate of annual methane emissions from a coal mine calculated by GEM, expressed in million cubic meters per year (MCM/yr). This estimate is based on the Model for Calculating Coal Mine Methane (MC2M).",
+      "notes_from_readme": "Due to limited production data for Chinese coal mines, CMM emissions are estimated using the latest annual capacity utilization rate—72.8% for the coal mining and washing industry—as reported by the National Bureau of Statistics of China in 2024.",
+      "api_metadata": {
+        "name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+        "definition": "An estimate of annual methane emissions from a coal mine calculated by GEM, expressed in million cubic meters per year (MCM/yr). This estimate is based on the Model for Calculating Coal Mine Methane (MC2M).",
+        "is_required": true,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "MCM/yr",
+        "unit_name_long": "million cubic meters per year",
+        "code_friendly_name": "gem_coal_mine_methane_emissions_estimate_mcm_yr",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+      "code_friendly_name_guess": "gem_coal_mine_methane_emissions_estimate_m_tonnes_yr",
+      "n_total": 5382,
+      "n_null": 35,
+      "n_non_null": 5347,
+      "null_rate": 0.0065,
+      "n_unique": 644,
+      "top_values": [
+        [
+          "0.0",
+          614
+        ],
+        [
+          "0.0001",
+          165
+        ],
+        [
+          "0.0002",
+          131
+        ],
+        [
+          "0.0089",
+          121
+        ],
+        [
+          "0.0003",
+          95
+        ],
+        [
+          "0.0119",
+          90
+        ],
+        [
+          "0.006",
+          85
+        ],
+        [
+          "0.0005",
+          77
+        ],
+        [
+          "0.0004",
+          77
+        ],
+        [
+          "0.0007",
+          55
+        ],
+        [
+          "0.0006",
+          53
+        ],
+        [
+          "0.0012",
+          52
+        ],
+        [
+          "0.0008",
+          49
+        ],
+        [
+          "0.0032",
+          43
+        ],
+        [
+          "0.0014",
+          41
+        ],
+        [
+          "0.001",
+          41
+        ],
+        [
+          "0.0106",
+          40
+        ],
+        [
+          "0.0011",
+          40
+        ],
+        [
+          "0.0795",
+          38
+        ],
+        [
+          "0.0018",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "An estimate of annual methane emissions from a coal mine, expressed in million metric tonnes per year.",
+      "notes_from_readme": null,
+      "api_metadata": {
+        "name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+        "definition": "An estimate of annual methane emissions from a coal mine, expressed in million metric tonnes per year.",
+        "is_required": false,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "M tonnes/yr",
+        "unit_name_long": "million metric tonnes per year",
+        "code_friendly_name": "gem_coal_mine_methane_emissions_estimate_m_tonnes_yr",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Methane Gas Content (m^3/tonne)",
+      "code_friendly_name_guess": "methane_gas_content_m_3_tonne",
+      "n_total": 5382,
+      "n_null": 35,
+      "n_non_null": 5347,
+      "null_rate": 0.0065,
+      "n_unique": 278,
+      "top_values": [
+        [
+          "0.8",
+          945
+        ],
+        [
+          "13.3",
+          592
+        ],
+        [
+          "3.5",
+          407
+        ],
+        [
+          "4.2",
+          304
+        ],
+        [
+          "12.1",
+          213
+        ],
+        [
+          "3.3",
+          146
+        ],
+        [
+          "23.6",
+          128
+        ],
+        [
+          "0.9",
+          89
+        ],
+        [
+          "13.8",
+          73
+        ],
+        [
+          "4.5",
+          70
+        ],
+        [
+          "10.5",
+          66
+        ],
+        [
+          "9.4",
+          60
+        ],
+        [
+          "13.2",
+          58
+        ],
+        [
+          "13.7",
+          48
+        ],
+        [
+          "15.6",
+          40
+        ],
+        [
+          "17.3",
+          37
+        ],
+        [
+          "1.1",
+          37
+        ],
+        [
+          "10.9",
+          36
+        ],
+        [
+          "4.4",
+          34
+        ],
+        [
+          "15.8",
+          34
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Methane Gas Content (m^3/tonne)",
+        "definition": "Methane Gas Content (m^3/tonne)",
+        "is_required": false,
+        "category": "Methane",
+        "data_type": "numeric",
+        "unit_name_short": "m^3/tonne",
+        "unit_name_long": "cubic meters per tonne",
+        "code_friendly_name": "methane_gas_content_m_3_tonne",
+        "data_sub_type": "measurement",
+        "present_in_tabs": [
+          "Non-closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "Methane Emissions Factor",
+      "code_friendly_name_guess": "methane_emissions_factor",
+      "n_total": 5382,
+      "n_null": 4,
+      "n_non_null": 5378,
+      "null_rate": 0.0007,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "1.6",
+          3171
+        ],
+        [
+          "1.5",
+          2205
+        ],
+        [
+          "#N/A",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "api_metadata": {
+        "name": "Methane Emissions Factor",
+        "definition": "Methane Emissions Factor",
+        "is_required": false,
+        "category": "Methane",
+        "data_type": "numeric",
+        "unit_name_short": "",
+        "unit_name_long": "",
+        "code_friendly_name": "methane_emissions_factor",
+        "data_sub_type": "measurement",
+        "present_in_tabs": [
+          "Non-closed mines"
+        ],
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "CMM Emissions (CO2e 20 years)",
+      "code_friendly_name_guess": "cmm_emissions_co2e_20_years",
+      "n_total": 5382,
+      "n_null": 35,
+      "n_non_null": 5347,
+      "null_rate": 0.0065,
+      "n_unique": 571,
+      "top_values": [
+        [
+          "0.0",
+          629
+        ],
+        [
+          "0.01",
+          192
+        ],
+        [
+          "0.02",
+          130
+        ],
+        [
+          "0.74",
+          118
+        ],
+        [
+          "0.03",
+          115
+        ],
+        [
+          "0.49",
+          98
+        ],
+        [
+          "0.04",
+          91
+        ],
+        [
+          "0.98",
+          88
+        ],
+        [
+          "0.06",
+          73
+        ],
+        [
+          "0.05",
+          62
+        ],
+        [
+          "0.1",
+          58
+        ],
+        [
+          "0.08",
+          50
+        ],
+        [
+          "0.12",
+          46
+        ],
+        [
+          "0.87",
+          43
+        ],
+        [
+          "0.09",
+          43
+        ],
+        [
+          "0.15",
+          42
+        ],
+        [
+          "0.26",
+          41
+        ],
+        [
+          "0.17",
+          41
+        ],
+        [
+          "0.11",
+          39
+        ],
+        [
+          "6.56",
+          38
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 20-year time horizon.",
+      "notes_from_readme": "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 20-year Global Warming Potential (GWP) of 82.5.",
+      "api_metadata": {
+        "name": "CMM Emissions (CO2e 20 years)",
+        "definition": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 20-year time horizon.",
+        "is_required": true,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": "CO2e 20 years",
+        "unit_name_long": "carbon dioxide equivalents over a 20-year time horizon.",
+        "code_friendly_name": "cmm_emissions_co2e_20_years",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "CMM Emissions (CO2e 100 years)",
+      "code_friendly_name_guess": "cmm_emissions_co2e_100_years",
+      "n_total": 5382,
+      "n_null": 35,
+      "n_non_null": 5347,
+      "null_rate": 0.0065,
+      "n_unique": 300,
+      "top_values": [
+        [
+          "0.0",
+          806
+        ],
+        [
+          "0.01",
+          329
+        ],
+        [
+          "0.02",
+          176
+        ],
+        [
+          "0.27",
+          142
+        ],
+        [
+          "0.04",
+          135
+        ],
+        [
+          "0.18",
+          130
+        ],
+        [
+          "0.03",
+          119
+        ],
+        [
+          "0.36",
+          112
+        ],
+        [
+          "0.06",
+          94
+        ],
+        [
+          "0.05",
+          93
+        ],
+        [
+          "0.13",
+          78
+        ],
+        [
+          "0.1",
+          76
+        ],
+        [
+          "0.07",
+          75
+        ],
+        [
+          "0.09",
+          74
+        ],
+        [
+          "0.08",
+          71
+        ],
+        [
+          "0.24",
+          67
+        ],
+        [
+          "0.12",
+          66
+        ],
+        [
+          "0.17",
+          65
+        ],
+        [
+          "0.23",
+          64
+        ],
+        [
+          "0.21",
+          63
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "An estimate of coal mine methane emissions, expressed in carbon dioxide equivalents (CO₂e) over a 100-year time horizon.",
+      "notes_from_readme": "Starting in 2022, the Global Coal Mine Tracker adopted the latest conversion factor from the IPCC’s Sixth Assessment Report (2022), using a 100-year Global Warming Potential (GWP) of 29.8.",
+      "api_metadata": {
+        "name": "CMM Emissions (CO2e 100 years)",
+        "definition": "CMM Emissions (CO2e 100 years)",
+        "is_required": true,
+        "category": "Methane",
+        "present_in_tabs": [
+          "Non-closed mines",
+          "Closed mines"
+        ],
+        "flags": "",
+        "other_notes": "",
+        "other_rules": "",
+        "data_type": "numeric",
+        "unit_name_short": " CO2e 20 years",
+        "unit_name_long": "carbon dioxide equivalents over a 20-year time horizon.",
+        "code_friendly_name": "cmm_emissions_co2e_100_years",
+        "data_sub_type": "measurement",
+        "histogram_weight": 0.5
+      }
+    },
+    {
+      "field_name": "ISO Code",
+      "code_friendly_name_guess": "iso_code",
+      "n_total": 5382,
+      "n_null": 0,
+      "n_non_null": 5382,
+      "null_rate": 0.0,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "156.0",
+          2582
+        ],
+        [
+          "840.0",
+          599
+        ],
+        [
+          "356.0",
+          552
+        ],
+        [
+          "360.0",
+          482
+        ],
+        [
+          "643.0",
+          257
+        ],
+        [
+          "36.0",
+          199
+        ],
+        [
+          "710.0",
+          140
+        ],
+        [
+          "124.0",
+          43
+        ],
+        [
+          "792.0",
+          42
+        ],
+        [
+          "804.0",
+          36
+        ],
+        [
+          "496.0",
+          33
+        ],
+        [
+          "704.0",
+          30
+        ],
+        [
+          "170.0",
+          28
+        ],
+        [
+          "616.0",
+          26
+        ],
+        [
+          "398.0",
+          26
+        ],
+        [
+          "554.0",
+          24
+        ],
+        [
+          "688.0",
+          19
+        ],
+        [
+          "364.0",
+          18
+        ],
+        [
+          "716.0",
+          16
+        ],
+        [
+          "70.0",
+          15
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

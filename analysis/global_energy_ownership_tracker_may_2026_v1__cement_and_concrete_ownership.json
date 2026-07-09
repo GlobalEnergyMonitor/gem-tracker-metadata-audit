@@ -1,0 +1,1293 @@
+{
+  "table_name": "global_energy_ownership_tracker_may_2026_v1__cement_and_concrete_ownership",
+  "tracker_slug": "global_energy_ownership_tracker_may_2026_v1",
+  "tab_slug": "cement_and_concrete_ownership",
+  "n_rows": 10052,
+  "analyzed_at": "2026-07-07T21:45:12.247522+00:00",
+  "tracker_info": {
+    "title": "Global Energy Ownership Tracker - May 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Anna Mowat, Global Energy Ownership Tracker Project Manager, anna.mowat@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Energy Ownership Tracker, May 2026 release. Distributed under a Creative Commons Attribution 4.0 International Public License."
+  },
+  "fields": [
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 1177,
+      "top_values": [
+        [
+          "E100001015587",
+          1191
+        ],
+        [
+          "E100000123261",
+          1091
+        ],
+        [
+          "E100001015833",
+          316
+        ],
+        [
+          "E100001010595",
+          316
+        ],
+        [
+          "E100001000348",
+          316
+        ],
+        [
+          "E100000001005",
+          288
+        ],
+        [
+          "E100002001932",
+          155
+        ],
+        [
+          "E100000000414",
+          155
+        ],
+        [
+          "E100000132388",
+          146
+        ],
+        [
+          "E100002006770",
+          144
+        ],
+        [
+          "E100001000571",
+          144
+        ],
+        [
+          "E100001000397",
+          121
+        ],
+        [
+          "E100001000520",
+          111
+        ],
+        [
+          "E100002001974",
+          85
+        ],
+        [
+          "E100001014849",
+          71
+        ],
+        [
+          "E100000120031",
+          70
+        ],
+        [
+          "E100001010420",
+          69
+        ],
+        [
+          "E100001010419",
+          69
+        ],
+        [
+          "E100000153045",
+          69
+        ],
+        [
+          "E100000120517",
+          66
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 1177,
+      "top_values": [
+        [
+          "small shareholder(s) ",
+          1191
+        ],
+        [
+          "natural person(s) ",
+          1091
+        ],
+        [
+          "The Vanguard Group Inc",
+          316
+        ],
+        [
+          "Blackrock Advisors LLC",
+          316
+        ],
+        [
+          "BlackRock Inc",
+          316
+        ],
+        [
+          "UBS Group AG",
+          288
+        ],
+        [
+          "Spohn Cement Beteiligungen GmbH",
+          155
+        ],
+        [
+          "Heidelberg Materials AG",
+          155
+        ],
+        [
+          "unknown ",
+          146
+        ],
+        [
+          "UBS Fund Management (Switzerland) AG",
+          144
+        ],
+        [
+          "Holcim AG",
+          144
+        ],
+        [
+          "Government of India ",
+          121
+        ],
+        [
+          "Life Insurance Corporation of India Ltd",
+          111
+        ],
+        [
+          "member/employee owned ",
+          85
+        ],
+        [
+          "FMR LLC",
+          71
+        ],
+        [
+          "Aditya Birla Management Corporation Pvt Ltd",
+          70
+        ],
+        [
+          "IGH Holdings Pvt Ltd",
+          69
+        ],
+        [
+          "Essel Mining & Industries Ltd",
+          69
+        ],
+        [
+          "Birla Group Holdings Pvt Ltd",
+          69
+        ],
+        [
+          "UltraTech Cement Ltd",
+          66
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Registration Country",
+      "code_friendly_name_guess": "parent_registration_country",
+      "n_total": 10052,
+      "n_null": 2861,
+      "n_non_null": 7191,
+      "null_rate": 0.2846,
+      "n_unique": 130,
+      "top_values": [
+        [
+          "India",
+          1315
+        ],
+        [
+          "United States",
+          1137
+        ],
+        [
+          "Japan",
+          627
+        ],
+        [
+          "Brazil",
+          465
+        ],
+        [
+          "Switzerland",
+          437
+        ],
+        [
+          "Germany",
+          351
+        ],
+        [
+          "Mauritius",
+          135
+        ],
+        [
+          "South Africa",
+          125
+        ],
+        [
+          "Türkiye",
+          122
+        ],
+        [
+          "Spain",
+          120
+        ],
+        [
+          "Mexico",
+          111
+        ],
+        [
+          "Thailand",
+          110
+        ],
+        [
+          "Colombia",
+          109
+        ],
+        [
+          "Iran",
+          94
+        ],
+        [
+          "China",
+          87
+        ],
+        [
+          "Vietnam",
+          86
+        ],
+        [
+          "Morocco",
+          80
+        ],
+        [
+          "Italy",
+          74
+        ],
+        [
+          "Nigeria",
+          72
+        ],
+        [
+          "Philippines",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Headquarters Country",
+      "code_friendly_name_guess": "parent_headquarters_country",
+      "n_total": 10052,
+      "n_null": 2746,
+      "n_non_null": 7306,
+      "null_rate": 0.2732,
+      "n_unique": 133,
+      "top_values": [
+        [
+          "India",
+          1315
+        ],
+        [
+          "United States",
+          1137
+        ],
+        [
+          "Japan",
+          618
+        ],
+        [
+          "Brazil",
+          465
+        ],
+        [
+          "Switzerland",
+          438
+        ],
+        [
+          "Germany",
+          351
+        ],
+        [
+          "Mauritius",
+          135
+        ],
+        [
+          "South Africa",
+          128
+        ],
+        [
+          "Türkiye",
+          124
+        ],
+        [
+          "Spain",
+          120
+        ],
+        [
+          "Mexico",
+          111
+        ],
+        [
+          "Thailand",
+          110
+        ],
+        [
+          "Colombia",
+          109
+        ],
+        [
+          "Iran",
+          107
+        ],
+        [
+          "China",
+          93
+        ],
+        [
+          "Vietnam",
+          87
+        ],
+        [
+          "Morocco",
+          80
+        ],
+        [
+          "Italy",
+          74
+        ],
+        [
+          "Nigeria",
+          72
+        ],
+        [
+          "Philippines",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project",
+      "code_friendly_name_guess": "project",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 2007,
+      "top_values": [
+        [
+          "Nghi Son Cement Tĩnh Gia Cement Plant",
+          28
+        ],
+        [
+          "Solusi Bangun Indonesia Tuban Cement Plant",
+          27
+        ],
+        [
+          "Solusi Bangun Indonesia Narogong Cement Plant",
+          27
+        ],
+        [
+          "Solusi Bangun Indonesia Cilacap Cement Plant",
+          27
+        ],
+        [
+          "Solusi Bangun Cilegon Cement Plant",
+          27
+        ],
+        [
+          "Solusi Bangun Andalas Lhoknga Cement Plant",
+          27
+        ],
+        [
+          "Ube Industries Ube Cement Plant",
+          26
+        ],
+        [
+          "Ube Industries Kanda Cement Plant",
+          26
+        ],
+        [
+          "Ube Industries Isa Cement Plant",
+          26
+        ],
+        [
+          "Mitsubishi Materials Yokoze Cement Plant",
+          26
+        ],
+        [
+          "Mitsubishi Materials Kanda Cement Plant",
+          26
+        ],
+        [
+          "Mitsubishi Materials Iwate Cement Plant",
+          26
+        ],
+        [
+          "Mitsubishi Materials Aomori Cement Plant",
+          26
+        ],
+        [
+          "Nippon Steel Muroran Cement Plant",
+          25
+        ],
+        [
+          "Mitsubishi Lucerne Valley Cement Plant",
+          25
+        ],
+        [
+          "Tsuruga Cement Tsuruga Cement Plant",
+          24
+        ],
+        [
+          "Tosoh Nanyo Cement Plant",
+          24
+        ],
+        [
+          "Tokuyama Cement Shunan Cement Plant",
+          24
+        ],
+        [
+          "Taiheiyo Cement San Fernando Cement Plant",
+          24
+        ],
+        [
+          "Taiheiyo Cement Saitama Cement Plant",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Share",
+      "code_friendly_name_guess": "share",
+      "n_total": 10052,
+      "n_null": 2400,
+      "n_non_null": 7652,
+      "null_rate": 0.2388,
+      "n_unique": 1136,
+      "top_values": [
+        [
+          "100",
+          1394
+        ],
+        [
+          "3.73",
+          168
+        ],
+        [
+          "5.6",
+          157
+        ],
+        [
+          "25",
+          143
+        ],
+        [
+          "71.6",
+          76
+        ],
+        [
+          "28.4",
+          76
+        ],
+        [
+          "0.26",
+          62
+        ],
+        [
+          "28.54",
+          60
+        ],
+        [
+          "0.45",
+          58
+        ],
+        [
+          "57.02",
+          57
+        ],
+        [
+          "13.01",
+          57
+        ],
+        [
+          "56.11",
+          56
+        ],
+        [
+          "50",
+          56
+        ],
+        [
+          "40.59",
+          56
+        ],
+        [
+          "4.11",
+          56
+        ],
+        [
+          "3.97",
+          56
+        ],
+        [
+          "82.7",
+          52
+        ],
+        [
+          "6.5",
+          52
+        ],
+        [
+          "5.2",
+          52
+        ],
+        [
+          "5.34",
+          49
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Ownership Path",
+      "code_friendly_name_guess": "ownership_path",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 9908,
+      "top_values": [
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Societe Nouvelle Du Littoral SAS [unknown %] -> Catumbela Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> LafargeHolcim Guinee SA [unknown %] -> LafargeHolcim Conarky Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> LafargeHolcim Cote d’ivoire  [unknown %] -> Lafarge Abidjan Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge SA [100.0%] -> Surma Holding BV [50.0%] -> LafargeHolcim Bangladesh PLC [58.87%] -> LafargeHolcim Sunamganj Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge SA [100.0%] -> Surma Holding BV [50.0%] -> LafargeHolcim Bangladesh PLC [58.87%] -> LafargeHolcim Mongla Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge SA [100.0%] -> Surma Holding BV [50.0%] -> LafargeHolcim Bangladesh PLC [58.87%] -> LafargeHolcim Meghnaghat-2 Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge SA [100.0%] -> Surma Holding BV [50.0%] -> LafargeHolcim Bangladesh PLC [58.87%] -> LafargeHolcim Meghnaghat-1 Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge SA [100.0%] -> Cementos Catatumbo CA [23.32%] -> Jardin de Venezuela Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Tetouan Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Tanger Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Mghizrate Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Meknes Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> LafargeHolcim Laayoune Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Lafarge Taroudant Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Lafarge Settat Cement Plant 2 [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Lafarge Settat Cement Plant 1 [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Lafarge Selouane Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> Lafarge Laayoun Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> CimenCam SA [unknown %] -> Mfoundi Cement Plant [100.0%]",
+          2
+        ],
+        [
+          "UBS Group AG -> UBS Fund Management (Switzerland) AG [100.0%] -> Holcim AG [5.6%] -> Lafarge Maroc SAS [50.0%] -> LafargeHolcim Maroc SA [64.68%] -> CimenCam SA [unknown %] -> Figuil Cement Plant [100.0%]",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner",
+      "code_friendly_name_guess": "immediate_project_owner",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 968,
+      "top_values": [
+        [
+          "UltraTech Cement Ltd",
+          510
+        ],
+        [
+          "ACC Ltd",
+          228
+        ],
+        [
+          "Votorantim Cimentos SA",
+          224
+        ],
+        [
+          "Ambuja Cements Ltd",
+          209
+        ],
+        [
+          "Mitsubishi UBE Cement Corp",
+          182
+        ],
+        [
+          "Taiheiyo Cement Corp",
+          168
+        ],
+        [
+          "Holcim (US) Inc",
+          135
+        ],
+        [
+          "LafargeHolcim Maroc SA",
+          132
+        ],
+        [
+          "Lafarge France ",
+          117
+        ],
+        [
+          "India Cements Ltd",
+          117
+        ],
+        [
+          "CSN Cimentos Brasil SA",
+          117
+        ],
+        [
+          "PT Solusi Bangun Indonesia Tbk",
+          108
+        ],
+        [
+          "Shree Cement Ltd",
+          102
+        ],
+        [
+          "CEMEX SAB de CV",
+          99
+        ],
+        [
+          "CalPortland Co",
+          96
+        ],
+        [
+          "Cementos Argos SA",
+          90
+        ],
+        [
+          "Republic Cement & Building Materials Inc",
+          84
+        ],
+        [
+          "Dangote Cement PLC",
+          84
+        ],
+        [
+          "Ash Grove Cement Co",
+          77
+        ],
+        [
+          "Lafarge Canada Inc",
+          72
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Immediate Project Owner GEM Entity ID",
+      "code_friendly_name_guess": "immediate_project_owner_gem_entity_id",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 968,
+      "top_values": [
+        [
+          "E100000000531",
+          510
+        ],
+        [
+          "E100002004994",
+          228
+        ],
+        [
+          "E100000187709",
+          224
+        ],
+        [
+          "E100001000639",
+          209
+        ],
+        [
+          "E100002007347",
+          182
+        ],
+        [
+          "E100001000932",
+          168
+        ],
+        [
+          "E100002006815",
+          135
+        ],
+        [
+          "E100002006206",
+          132
+        ],
+        [
+          "E100002007048",
+          117
+        ],
+        [
+          "E100002005926",
+          117
+        ],
+        [
+          "E100002002166",
+          117
+        ],
+        [
+          "E100002006343",
+          108
+        ],
+        [
+          "E100000121281",
+          102
+        ],
+        [
+          "E100001014342",
+          99
+        ],
+        [
+          "E100002003952",
+          96
+        ],
+        [
+          "E100000135427",
+          90
+        ],
+        [
+          "E100002006955",
+          84
+        ],
+        [
+          "E100001000659",
+          84
+        ],
+        [
+          "E100002005626",
+          77
+        ],
+        [
+          "E100002007039",
+          72
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Tracker",
+      "code_friendly_name_guess": "tracker",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Global Cement and Concrete Tracker",
+          10052
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "operating",
+          9357
+        ],
+        [
+          "announced",
+          211
+        ],
+        [
+          "retired",
+          147
+        ],
+        [
+          "mothballed",
+          144
+        ],
+        [
+          "construction",
+          92
+        ],
+        [
+          "unknown",
+          73
+        ],
+        [
+          "operating pre-retirement",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ],
+      "value_definitions": [
+        {
+          "name": "Announced",
+          "definition": "Projects that have appeared in corporate or governmental planning documents but have not yet moved actively forward by applying for permits or seeking land, coal, or financing."
+        },
+        {
+          "name": "Pre-permit",
+          "definition": "Projects that have actively moved forward in one or more of the following ways: applying for environmental permits, acquiring land, acquiring coal, acquiring water rights, acquiring transmission arrangements, or securing financing. In India the key criterion for moving a project from \"announced\" to \"pre-permit\" is the existence of a \"terms of reference\" (TOR) letter by the Ministry of Environment, Forests, and Climate Change. In China, \"pre-permit\" means a feasibility study has been completed."
+        },
+        {
+          "name": "Permitted",
+          "definition": "Projects that have secured all environmental permits but have not broken ground. In India the key criterion for moving a project from \"pre-permit\" to \"permitted\" is the approval of an \"environmental clearance\" (EC) by the Ministry of Environment, Forests, and Climate Change. In China, \"permitted\" means a plant has received a permit from the National Development and Reform Commission (NDRC), allowing for construction, or the equivalent approval at the province level."
+        },
+        {
+          "name": "Construction",
+          "definition": "Projects where physical construction (i.e. concrete and steel, not just a ground-breaking ceremony or early site preparation) has begun."
+        },
+        {
+          "name": "Shelved",
+          "definition": "Projects where sufficient evidence is found to indicate that a project is no longer moving forward, but not enough to declare it definitively cancelled. Projects where construction has been put on hold are also considered \"shelved.\" A project that shows no activity over a period of 2 years is categorized as \"shelved\" unless there is evidence to the contrary."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "In some cases a sponsor announces that it has cancelled a project. More often a project fails to advance and then quietly disappears from related documents. In addition, a plant that shows no activity or with no known developments over a period of 4 years is categorized as \"cancelled,\" unless there is evidence to the contrary. Proposed projects that are switched to natural gas are considered \"cancelled\" as coal plants."
+        },
+        {
+          "name": "Operating",
+          "definition": "Units that have been formally commissioned or that have entered commercial operation."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Units that have been deactivated or put into an inactive state but are not retired."
+        },
+        {
+          "name": "Retired",
+          "definition": "Units that have been permanently decommissioned or converted to another fuel."
+        },
+        {
+          "name": "MW",
+          "definition": "Mega watts"
+        },
+        {
+          "name": "Mtpa",
+          "definition": "Million tonnes per annum"
+        },
+        {
+          "name": "Ttpa",
+          "definition": "Nominal crude steel capacity (ttpa)"
+        },
+        {
+          "name": "Bcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year"
+        },
+        {
+          "name": "BOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day"
+        }
+      ]
+    },
+    {
+      "field_name": "Cement Capacity (millions metric tonnes per annum)",
+      "code_friendly_name_guess": "cement_capacity_millions_metric_tonnes_per_annum",
+      "n_total": 10052,
+      "n_null": 36,
+      "n_non_null": 10016,
+      "null_rate": 0.0036,
+      "n_unique": 372,
+      "top_values": [
+        [
+          "1",
+          586
+        ],
+        [
+          ">0",
+          458
+        ],
+        [
+          "1.5",
+          421
+        ],
+        [
+          "2",
+          411
+        ],
+        [
+          "0.5",
+          303
+        ],
+        [
+          "1.2",
+          301
+        ],
+        [
+          "3",
+          264
+        ],
+        [
+          "1.6",
+          254
+        ],
+        [
+          "0.6",
+          254
+        ],
+        [
+          "1.8",
+          226
+        ],
+        [
+          "1.3",
+          216
+        ],
+        [
+          "0.7",
+          204
+        ],
+        [
+          "0.8",
+          199
+        ],
+        [
+          "2.5",
+          191
+        ],
+        [
+          "1.1",
+          182
+        ],
+        [
+          "0.9",
+          172
+        ],
+        [
+          "0.2",
+          171
+        ],
+        [
+          "4",
+          170
+        ],
+        [
+          "2.2",
+          165
+        ],
+        [
+          "1.7",
+          156
+        ]
+      ],
+      "portion_numeric": 0.942,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ]
+    },
+    {
+      "field_name": "Clinker Capacity (millions metric tonnes per annum)",
+      "code_friendly_name_guess": "clinker_capacity_millions_metric_tonnes_per_annum",
+      "n_total": 10052,
+      "n_null": 3017,
+      "n_non_null": 7035,
+      "null_rate": 0.3001,
+      "n_unique": 326,
+      "top_values": [
+        [
+          ">0",
+          2392
+        ],
+        [
+          "unknown",
+          208
+        ],
+        [
+          "1",
+          119
+        ],
+        [
+          "2.2",
+          112
+        ],
+        [
+          "1.1",
+          109
+        ],
+        [
+          "1.2",
+          103
+        ],
+        [
+          "1.5",
+          81
+        ],
+        [
+          "4",
+          77
+        ],
+        [
+          "3",
+          75
+        ],
+        [
+          "1.3",
+          75
+        ],
+        [
+          "2",
+          70
+        ],
+        [
+          "1.46",
+          68
+        ],
+        [
+          "2.19",
+          65
+        ],
+        [
+          "1.825",
+          63
+        ],
+        [
+          "0.876",
+          63
+        ],
+        [
+          "0.9",
+          57
+        ],
+        [
+          "1.8",
+          51
+        ],
+        [
+          "1.095",
+          51
+        ],
+        [
+          "3.3",
+          50
+        ],
+        [
+          "1.396",
+          48
+        ]
+      ],
+      "portion_numeric": 0.646,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 10052,
+      "n_null": 0,
+      "n_non_null": 10052,
+      "null_rate": 0.0,
+      "n_unique": 2007,
+      "top_values": [
+        [
+          "P100000124410",
+          28
+        ],
+        [
+          "P100000123891",
+          27
+        ],
+        [
+          "P100000123890",
+          27
+        ],
+        [
+          "P100000123889",
+          27
+        ],
+        [
+          "P100000123888",
+          27
+        ],
+        [
+          "P100000123874",
+          27
+        ],
+        [
+          "P100000124202",
+          26
+        ],
+        [
+          "P100000124201",
+          26
+        ],
+        [
+          "P100000124200",
+          26
+        ],
+        [
+          "P100000124185",
+          26
+        ],
+        [
+          "P100000124184",
+          26
+        ],
+        [
+          "P100000124183",
+          26
+        ],
+        [
+          "P100000124182",
+          26
+        ],
+        [
+          "P100000126602",
+          25
+        ],
+        [
+          "P100000124208",
+          25
+        ],
+        [
+          "P100000126610",
+          24
+        ],
+        [
+          "P100000126609",
+          24
+        ],
+        [
+          "P100000126608",
+          24
+        ],
+        [
+          "P100000126575",
+          24
+        ],
+        [
+          "P100000125601",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

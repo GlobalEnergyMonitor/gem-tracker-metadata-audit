@@ -1,0 +1,686 @@
+{
+  "source_file": "Plant-level-data-Global-Iron-and-Steel-Tracker-March-2026-V1.xlsx",
+  "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
+  "header_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "plant_data": "Plant data",
+    "plant_capacities_and_status": "Plant capacities and status",
+    "plant_production": "Plant production"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "metadata": "Metadata"
+  },
+  "sections": [
+    {
+      "section_name": "Acronym definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "BF",
+          "definition": "Blast furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "BOF",
+          "definition": "Basic oxygen furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "DRI",
+          "definition": "Direct reduced iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "EAF",
+          "definition": "Electric arc furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "HBI",
+          "definition": "Hot briquetted iron",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "IF",
+          "definition": "Induction furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "mtpa",
+          "definition": "million tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "OHF",
+          "definition": "Open hearth furnace",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "ttpa",
+          "definition": "thousand tonnes per annum",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Capacity",
+          "definition": "Capacity is the tonnes of crude iron or steel per annum that a steel plant is capable of producing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Production",
+          "definition": "Production is actual tonnes of crude iron or steel per annum produced at a plant in a given year.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        },
+        {
+          "name": "Note",
+          "definition": "Additional information about the research method and estimations of capacity and production are available on the GEM website at https://globalenergymonitor.org/projects/global-iron-and-steel-tracker/methodology/.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Acronym"
+        }
+      ]
+    },
+    {
+      "section_name": "Capacity status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "Announced",
+          "definition": "Capacity that has been announced in corporate or governmental planning documents, but has not begun construction.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Construction",
+          "definition": "Physical furnace structure building has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating",
+          "definition": "Furnace(s) currently operating and producing iron or steel.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Operating pre-retirement",
+          "definition": "Company has announced plans to retire this iron or steelmaking capacity but it has not yet ceased operations.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately, but is not retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Mothballed pre-retirement",
+          "definition": "Iron or steelmaking has been idled such that it cannot be brought into operation immediately. It has not yet been permanently retired/decommissioned, but the plant has announced plans to do so in the future.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Retired",
+          "definition": "Furnace(s) ceased operations and is no longer has ability to produce iron or steel. If the capacity has been mothballed for over 5 years it is considered retired.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        },
+        {
+          "name": "Cancelled",
+          "definition": "Capacity previously planned or under development that has been cancelled. If no progress or announcements for announced capacity are made after 5 years it is considered to be cancelled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Capacity status"
+        }
+      ]
+    },
+    {
+      "section_name": "\"Plant data\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (English)",
+          "definition": "Common plant name for iron/steel plant in English language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (other language)",
+          "definition": "Common plant name for iron/steel plant in other language. Language indicated in parentheses following plant name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other plant names (English)",
+          "definition": "Other plant names for iron/steel plant in English language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other plant names (other language)",
+          "definition": "Other plant names for iron/steel plant in other language. Language indicated in parentheses following plant name.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner (English)",
+          "definition": "Immediate owner/operator of iron/steel plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner (other language)",
+          "definition": "Name of immediate owner/operator of iron/steel plant in other language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner GEM entity ID",
+          "definition": "Global Energy Monitor's entity ID for the owner/operator of the iron/steel plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner PermID",
+          "definition": "PermID of the immediate owner/operator of the iron/steel plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "SOE status",
+          "definition": "Identifies an iron/steel plant as a \"full\" or \"partial\" state-owned enterprise (SOE)/government linked company (GLC).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent (English)",
+          "definition": "Parent companies and respective ownership shares.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent GEM entity ID",
+          "definition": "Global Energy Monitor's entity ID for the parent companies and respective ownership shares.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent PermID",
+          "definition": "PermIDs of Parent companies and respective ownership shares.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location address",
+          "definition": "Physical address of iron/steel plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location address (other language)",
+          "definition": "Physical address of iron/steel plant in local language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Municipality",
+          "definition": "Municipality (city, village, town).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subnational unit",
+          "definition": "Subnational unit (province, state).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "Country or territory.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "WEO region.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinates",
+          "definition": "Coordinates of iron/steel plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coordinate accuracy",
+          "definition": "Coordinate accuracy defined as \"exact\" = location confirmed via satellite imagery, \"approximate\" = location estimated or undefined.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM wiki page",
+          "definition": "Link to GEM wiki page.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant age",
+          "definition": "Age of plant in years.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Announced date",
+          "definition": "Date of announcement/proposal of iron/steel plant in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Construction date",
+          "definition": "Date that construction on the iron/steel plant began in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that the plant began producing iron/steel in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pre-retirement announcement date",
+          "definition": "Date the company announced its plans to retire the plant in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Idled date",
+          "definition": "Date that iron/steel plant stops iron or steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired date",
+          "definition": "Date that iron/steel plant was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Ferronickel capacity (ttpa)",
+          "definition": "Plant-level capacity for ferronickel (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Sinter plant capacity (ttpa)",
+          "definition": "Plant-level capacity for sinter (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Coking plant capacity (ttpa)",
+          "definition": "Plant level capacity for coke (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Pelletizing plant capacity (ttpa)",
+          "definition": "Plant level capacity for pellets (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Category steel product",
+          "definition": "Categorizes steel products as \"crude\", \"semi-finished\", or \"finished rolled\" steel products.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Steel products",
+          "definition": "Lists steel products produced at plant. Not comprehensive.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Steel sector end users",
+          "definition": "Steel sector end user market. Categories are \"automotive\", \"building and infrastructure\", \"energy\", \"steel packaging\", \"transport\", \"tools and machinery\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Workforce size",
+          "definition": "Number of workers at the plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ISO 14001",
+          "definition": "Certification year for current ISO 14001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ISO 50001",
+          "definition": "Certification year for current ISO 50001 environmental management certification. Plants known to be certified but with unknown year of certification enter \"yes\". Plants with previous certification that appears expired enter \"expired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ResponsibleSteel certification",
+          "definition": "Certification month and year for current ResponsibleSteel certification.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Main production equipment",
+          "definition": "Lists the main iron and steel production equipment operating at the plant from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Power source",
+          "definition": "Information about plant power system/source or utility that plant provides power to, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Iron ore source",
+          "definition": "Mine and/or company providing iron ore for iron/steel production, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Met coal source",
+          "definition": "Mine and/or company providing metallurgical coal for iron/steel production, if known.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    },
+    {
+      "section_name": "\"Plant capacities and status\" tab",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM plant ID",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (English)",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (other language)",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/area",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Main production equipment",
+          "definition": "Lists the main iron and steel production equipment at the plant corresponding to the row's operating status, from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "Operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start date",
+          "definition": "Date that the plant began producing iron/steel in the format YYYY-MM-DD. For announced or construction capacity, this is the earliest start date of any units under development.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal crude steel capacity (ttpa)",
+          "definition": "Plant-level capacity across all steelmaking processes (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal BOF steel capacity (ttpa)",
+          "definition": "Plant-level capacity for steel produced by BOF route (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal EAF steel capacity (ttpa)",
+          "definition": "Plant-level capacity for steel produced by EAF route (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal IF steel capacity (ttpa)",
+          "definition": "Plant-level capacity for steel produced by IF route (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other/unspecified steel capacity (ttpa)",
+          "definition": "Plant-level capacity for steel produced by technology that is not tracked in the GIST (i.e. induction furnace) or for which the production route is unknown.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal iron capacity (ttpa)",
+          "definition": "Plant-level operating capacity across all ironmaking processes (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal BF capacity (ttpa)",
+          "definition": "Plant-level capacity for iron produced by BF route (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Nominal DRI capacity (ttpa)",
+          "definition": "Plant-level capacity for iron produced by DRI route (ttpa).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other/unspecified iron capacity (ttpa)",
+          "definition": "Plant-level capacity for iron produced by technology that is not tracked in the GIST (i.e. smelting reduction) or for which the production route is unknown.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "\"Plant Production\" tab",
+          "definition": "Yearly Production provides time series data of reported production of iron and steel. Each plant has several rows representing summed production via each technology type (e.g. BF, BOF, EAF, etc.). \"N/A\" indicates that the plant does not have this type of iron/steel unit. \"Unknown\" indicates that the plant does have this type of iron/steel unit, but the production amount was not found.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM plant ID",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name (English)",
+          "definition": "See definition above.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Type of production",
+          "definition": "The category or technology route of the reported production. Options include: Crude steel production (ttpa), EAF steel production (ttpa), BOF steel production (ttpa), IF steel production (ttpa), Other/Unknown steel production (ttpa), Iron production (ttpa), BF iron production (ttpa), DRI iron production (ttpa), and Other/Unknown iron production (ttpa). Crude steel production and iron production are the sum total production values for all technology routes at the plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2019",
+          "definition": "Plant-level production in 2019 (fiscal year 2020) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2020",
+          "definition": "Plant-level production in 2020 (fiscal year 2021) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2021",
+          "definition": "Plant-level production in 2021 (fiscal year 2022) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2022",
+          "definition": "Plant-level production in 2022 (fiscal year 2023) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2023",
+          "definition": "Plant-level production in 2023 (fiscal year 2024) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2024",
+          "definition": "Plant-level production in 2024 (fiscal year 2025) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "2025",
+          "definition": "Plant-level production in 2025 (fiscal year 2026) in thousands of metric tonnes.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

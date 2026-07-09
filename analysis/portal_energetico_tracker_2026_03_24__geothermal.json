@@ -1,0 +1,2134 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__geothermal",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "geothermal",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.353707+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Date Last Researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "5/2/2023",
+          21
+        ],
+        [
+          "5/18/2023",
+          8
+        ],
+        [
+          "5/1/2023",
+          7
+        ],
+        [
+          "10/16/2025",
+          7
+        ],
+        [
+          "10/15/2025",
+          7
+        ],
+        [
+          "1/6/2025",
+          7
+        ],
+        [
+          "3/13/2024",
+          6
+        ],
+        [
+          "10/21/2025",
+          5
+        ],
+        [
+          "1/14/2025",
+          5
+        ],
+        [
+          "12/17/2024",
+          3
+        ],
+        [
+          "4/9/2024",
+          2
+        ],
+        [
+          "11/17/2025",
+          2
+        ],
+        [
+          "1/7/2025",
+          2
+        ],
+        [
+          "5/16/2023",
+          1
+        ],
+        [
+          "2/11/2025",
+          1
+        ],
+        [
+          "1/5/2026",
+          1
+        ],
+        [
+          "1/14/2026",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "Mexico",
+          28
+        ],
+        [
+          "El Salvador",
+          14
+        ],
+        [
+          "Costa Rica",
+          9
+        ],
+        [
+          "Nicaragua",
+          7
+        ],
+        [
+          "Chile",
+          5
+        ],
+        [
+          "Guadeloupe",
+          3
+        ],
+        [
+          "Ecuador",
+          3
+        ],
+        [
+          "Bolivia",
+          3
+        ],
+        [
+          "Saint Kitts and Nevis",
+          2
+        ],
+        [
+          "Guatemala",
+          2
+        ],
+        [
+          "Dominica",
+          2
+        ],
+        [
+          "Colombia",
+          2
+        ],
+        [
+          "Saint Vincent and the Grenadines",
+          1
+        ],
+        [
+          "Peru",
+          1
+        ],
+        [
+          "Montserrat",
+          1
+        ],
+        [
+          "Honduras",
+          1
+        ],
+        [
+          "Grenada",
+          1
+        ],
+        [
+          "Argentina",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "Los Azufres geothermal power plant",
+          6
+        ],
+        [
+          "Cerro Prieto 1 geothermal power plant",
+          5
+        ],
+        [
+          "Miravalles geothermal power plant",
+          4
+        ],
+        [
+          "Cerro Prieto 4 geothermal power plant",
+          4
+        ],
+        [
+          "Berlín geothermal power plant",
+          4
+        ],
+        [
+          "Ahuachapán geothermal power plant",
+          4
+        ],
+        [
+          "San Jacinto - Tizate geothermal power plant",
+          3
+        ],
+        [
+          "Momotombo geothermal power plant",
+          3
+        ],
+        [
+          "Laguna Colorada geothermal power plant",
+          3
+        ],
+        [
+          "Cerro Pabellón geothermal power plant",
+          3
+        ],
+        [
+          "Bouillante geothermal power plant",
+          3
+        ],
+        [
+          "Tres Virgenes geothermal power plant",
+          2
+        ],
+        [
+          "San Vicente geothermal power plant",
+          2
+        ],
+        [
+          "Nevis geothermal power plant",
+          2
+        ],
+        [
+          "Mariposa geothermal power plant",
+          2
+        ],
+        [
+          "Los Humeros 3 geothermal power plant",
+          2
+        ],
+        [
+          "Los Humeros 2 geothermal power plant",
+          2
+        ],
+        [
+          "Las Pailas geothermal power plant",
+          2
+        ],
+        [
+          "Chinameca geothermal power plant",
+          2
+        ],
+        [
+          "Chachimbiro geothermal power plant",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 27,
+      "top_values": [
+        [
+          "1.0",
+          17
+        ],
+        [
+          "--",
+          17
+        ],
+        [
+          "2.0",
+          14
+        ],
+        [
+          "3.0",
+          6
+        ],
+        [
+          "4.0",
+          3
+        ],
+        [
+          "Expansion",
+          2
+        ],
+        [
+          "Binary",
+          2
+        ],
+        [
+          "B",
+          2
+        ],
+        [
+          "A",
+          2
+        ],
+        [
+          "5.0",
+          2
+        ],
+        [
+          "11.0",
+          2
+        ],
+        [
+          "10.0",
+          2
+        ],
+        [
+          "phase 2",
+          1
+        ],
+        [
+          "phase 1",
+          1
+        ],
+        [
+          "U-2",
+          1
+        ],
+        [
+          "U-16",
+          1
+        ],
+        [
+          "U-15",
+          1
+        ],
+        [
+          "U-14",
+          1
+        ],
+        [
+          "Pilot",
+          1
+        ],
+        [
+          "Phase 2, U-18",
+          1
+        ]
+      ],
+      "portion_numeric": 0.6047,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 999,
+      "n_null": 923,
+      "n_non_null": 76,
+      "null_rate": 0.9239,
+      "n_unique": 35,
+      "top_values": [
+        [
+          "Central geotérmica Los Azufres 3",
+          6
+        ],
+        [
+          "Central geotérmica Cerro Prieto 1",
+          5
+        ],
+        [
+          "Planta geotérmica Miravalles",
+          4
+        ],
+        [
+          "Central geotérmica Cerro Prieto 4",
+          4
+        ],
+        [
+          "Central geotérmica Berlín",
+          4
+        ],
+        [
+          "Central geotérmica Ahuachapán",
+          4
+        ],
+        [
+          "Planta Geotérmica San Jacinto-Tizate, Central geotérmica San Jacinto - Tizate",
+          3
+        ],
+        [
+          "Centrale géothermique de Bouillante",
+          3
+        ],
+        [
+          "Central geotérmica Momotombo",
+          3
+        ],
+        [
+          "Central geotérmica Laguna Colorada",
+          3
+        ],
+        [
+          "Central geotérmica Cerro Pabellón",
+          3
+        ],
+        [
+          "Proyecto geotérmico Chachimbiro",
+          2
+        ],
+        [
+          "Planta geotérmica Las Pailas",
+          2
+        ],
+        [
+          "Central geotérmica San Vicente",
+          2
+        ],
+        [
+          "Central geotérmica Mariposa, Proyecto Geotérmico Mariposa",
+          2
+        ],
+        [
+          "Central geotérmica Chinameca",
+          2
+        ],
+        [
+          "Central geotérmica Cerro Prieto 5",
+          2
+        ],
+        [
+          "Central geotérmica Cerro Prieto 3",
+          2
+        ],
+        [
+          "Central geotérmica Cerro Prieto 2",
+          2
+        ],
+        [
+          "Central geotérmica Borinquen",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 999,
+      "n_null": 981,
+      "n_non_null": 18,
+      "null_rate": 0.982,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Planta De Energía Geotérmica LaGeo De Berlín",
+          4
+        ],
+        [
+          "Tres Virgenes Geo",
+          2
+        ],
+        [
+          "Planta De Vapor Chachimbiro",
+          2
+        ],
+        [
+          "Hamilton Geothermal Plant",
+          2
+        ],
+        [
+          "Calabozo geothermal power plant",
+          2
+        ],
+        [
+          "Tufiño-Chiles-Cerro Negro geothermal project",
+          1
+        ],
+        [
+          "Roseau Valley Binary Geothermal Power Plant, Laudat geothermal power plant",
+          1
+        ],
+        [
+          "Planta Geotérmica Orzunil 1",
+          1
+        ],
+        [
+          "La Soufriere Geothermal Plant",
+          1
+        ],
+        [
+          "Grenada Geothermal Energy Development Project",
+          1
+        ],
+        [
+          "Casita geothermal project",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Capacity (MW)",
+      "code_friendly_name_guess": "unit_capacity_mw",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 32,
+      "top_values": [
+        [
+          "25.0",
+          9
+        ],
+        [
+          "50.0",
+          8
+        ],
+        [
+          "5.0",
+          8
+        ],
+        [
+          "35.0",
+          6
+        ],
+        [
+          "30.0",
+          6
+        ],
+        [
+          "55.0",
+          5
+        ],
+        [
+          "10.0",
+          5
+        ],
+        [
+          "38.0",
+          4
+        ],
+        [
+          "26.0",
+          4
+        ],
+        [
+          "110.0",
+          4
+        ],
+        [
+          "24.0",
+          3
+        ],
+        [
+          "36.0",
+          2
+        ],
+        [
+          "28.1",
+          2
+        ],
+        [
+          "17.0",
+          2
+        ],
+        [
+          "90.0",
+          1
+        ],
+        [
+          "9.2",
+          1
+        ],
+        [
+          "7.5",
+          1
+        ],
+        [
+          "6.2",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "44.8",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Technology",
+      "code_friendly_name_guess": "technology",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "flash steam - single",
+          29
+        ],
+        [
+          "unknown type",
+          26
+        ],
+        [
+          "binary cycle",
+          16
+        ],
+        [
+          "flash steam - double",
+          13
+        ],
+        [
+          "flash steam - unknown",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          53
+        ],
+        [
+          "construction",
+          9
+        ],
+        [
+          "pre-construction",
+          8
+        ],
+        [
+          "retired",
+          5
+        ],
+        [
+          "announced",
+          5
+        ],
+        [
+          "cancelled - inferred 4 y",
+          3
+        ],
+        [
+          "shelved - inferred 2 y",
+          2
+        ],
+        [
+          "cancelled",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 999,
+      "n_null": 935,
+      "n_non_null": 64,
+      "null_rate": 0.9359,
+      "n_unique": 35,
+      "top_values": [
+        [
+          "2026.0",
+          10
+        ],
+        [
+          "2000.0",
+          5
+        ],
+        [
+          "2017.0",
+          4
+        ],
+        [
+          "1999.0",
+          3
+        ],
+        [
+          "1986.0",
+          3
+        ],
+        [
+          "2027.0",
+          2
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2013.0",
+          2
+        ],
+        [
+          "2012.0",
+          2
+        ],
+        [
+          "2001.0",
+          2
+        ],
+        [
+          "1994.0",
+          2
+        ],
+        [
+          "1987.0",
+          2
+        ],
+        [
+          "1979.0",
+          2
+        ],
+        [
+          "1973.0",
+          2
+        ],
+        [
+          "2030.0",
+          1
+        ],
+        [
+          "2028.0",
+          1
+        ],
+        [
+          "2025.0",
+          1
+        ],
+        [
+          "2022.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2016.0",
+          4
+        ],
+        [
+          "2021.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 999,
+      "n_null": 940,
+      "n_non_null": 59,
+      "null_rate": 0.9409,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "Comision Federal De Electricidad",
+          27
+        ],
+        [
+          "LaGeo",
+          9
+        ],
+        [
+          "Costa Rican Electricity Institute (ICE)",
+          6
+        ],
+        [
+          "Geotérmica Del Norte (GDN)",
+          3
+        ],
+        [
+          "Energy Development CORP (EDC)",
+          3
+        ],
+        [
+          "Polaris Energy Nicaragua",
+          2
+        ],
+        [
+          "Ormat Technology",
+          2
+        ],
+        [
+          "Empresa Nacional de Electricidad SA (ENDE)",
+          2
+        ],
+        [
+          "DisNorte-DisSur",
+          2
+        ],
+        [
+          "Corporación Eléctrica del Ecuador",
+          2
+        ],
+        [
+          "Empresa Nicaragüense de Electricidad",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_in_local_language_script",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator GEM Entity ID",
+      "code_friendly_name_guess": "operator_gem_entity_id",
+      "n_total": 999,
+      "n_null": 940,
+      "n_non_null": 59,
+      "null_rate": 0.9409,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "E100000186226",
+          27
+        ],
+        [
+          "E100000185987",
+          9
+        ],
+        [
+          "E100000185985",
+          6
+        ],
+        [
+          "E100000186105",
+          3
+        ],
+        [
+          "E100000185981",
+          3
+        ],
+        [
+          "E100000186046",
+          2
+        ],
+        [
+          "E100000186045",
+          2
+        ],
+        [
+          "E100000185993",
+          2
+        ],
+        [
+          "E100000185975",
+          2
+        ],
+        [
+          "E100000150173",
+          2
+        ],
+        [
+          "E100000186044",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 999,
+      "n_null": 928,
+      "n_non_null": 71,
+      "null_rate": 0.9289,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "Comision Federal De Electricidad [100%]",
+          15
+        ],
+        [
+          "Comision Federal De Electricidad",
+          12
+        ],
+        [
+          "LaGeo [100%]",
+          9
+        ],
+        [
+          "Costa Rican Electricity Institute (ICE) [100%]",
+          6
+        ],
+        [
+          "Enel Chile [50%]; Empresa Nacional del Petróleo [50%]",
+          3
+        ],
+        [
+          "Polaris Energy Nicaragua [100%]",
+          2
+        ],
+        [
+          "Ormat Technology Inc [100%]",
+          2
+        ],
+        [
+          "Ormat Technology Inc",
+          2
+        ],
+        [
+          "Nevis Island Administration (NIA) [50%]; Nevis Electric Company Limited (NEVLEC) [50%]",
+          2
+        ],
+        [
+          "Energy Development CORP (EDC) [70%]; Innergex [30%]",
+          2
+        ],
+        [
+          "Empresa Nacional de Electricidad SA (ENDE) [100%]",
+          2
+        ],
+        [
+          "DisNorte-DisSur [100%]",
+          2
+        ],
+        [
+          "Corporación Eléctrica del Ecuador SA [100%]",
+          2
+        ],
+        [
+          "LaGeo",
+          1
+        ],
+        [
+          "Instituto Costarricense de Electricidad",
+          1
+        ],
+        [
+          "Government of Saint Vincent and the Grenadines; Reykjavik Geothermal; Emera Caribbean Holdings Ltd",
+          1
+        ],
+        [
+          "Government of Dominica",
+          1
+        ],
+        [
+          "Energy Development CORP (EDC) [100%]",
+          1
+        ],
+        [
+          "Empresa Nicaragüense de Electricidad [50%]; Polaris Energy Nicaragua [50%]",
+          1
+        ],
+        [
+          "DisNorte-DisSur",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Owner Name in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_in_local_language_script",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 999,
+      "n_null": 928,
+      "n_non_null": 71,
+      "null_rate": 0.9289,
+      "n_unique": 24,
+      "top_values": [
+        [
+          "E100000186226 [100%]",
+          15
+        ],
+        [
+          "E100000186226",
+          12
+        ],
+        [
+          "E100000185987 [100%]",
+          9
+        ],
+        [
+          "E100000185985 [100%]",
+          6
+        ],
+        [
+          "E100000185980 [50%]; E100000001835 [50%]",
+          3
+        ],
+        [
+          "E100000186061 [50%]; E100000186062 [50%]",
+          2
+        ],
+        [
+          "E100000186046 [100%]",
+          2
+        ],
+        [
+          "E100000186045 [100%]",
+          2
+        ],
+        [
+          "E100000185993 [100%]",
+          2
+        ],
+        [
+          "E100000185975 [100%]",
+          2
+        ],
+        [
+          "E100000150173 [100%]",
+          2
+        ],
+        [
+          "E100000136115 [30%]; E100000185981 [70%]",
+          2
+        ],
+        [
+          "E100002019297",
+          1
+        ],
+        [
+          "E100002019296",
+          1
+        ],
+        [
+          "E100002005490; E100000185989; E100001000184",
+          1
+        ],
+        [
+          "E100001013824",
+          1
+        ],
+        [
+          "E100000186046",
+          1
+        ],
+        [
+          "E100000186045 [50%]; E100000186044 [50%]",
+          1
+        ],
+        [
+          "E100000185993",
+          1
+        ],
+        [
+          "E100000185987",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Parent GEM Entity ID",
+      "code_friendly_name_guess": "parent_gem_entity_id",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Green Hydrogen Producing",
+      "code_friendly_name_guess": "green_hydrogen_producing",
+      "n_total": 999,
+      "n_null": 993,
+      "n_non_null": 6,
+      "null_rate": 0.994,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "not found",
+          3
+        ],
+        [
+          "no",
+          2
+        ],
+        [
+          "yes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Data Center PPA",
+      "code_friendly_name_guess": "data_center_ppa",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "32.3985",
+          5
+        ],
+        [
+          "19.7904",
+          5
+        ],
+        [
+          "32.3916",
+          4
+        ],
+        [
+          "13.5248",
+          4
+        ],
+        [
+          "13.9202",
+          3
+        ],
+        [
+          "12.6088",
+          3
+        ],
+        [
+          "12.394",
+          3
+        ],
+        [
+          "-22.5357",
+          3
+        ],
+        [
+          "-21.8576",
+          3
+        ],
+        [
+          "32.4126",
+          2
+        ],
+        [
+          "32.4047",
+          2
+        ],
+        [
+          "32.39169",
+          2
+        ],
+        [
+          "27.50709126",
+          2
+        ],
+        [
+          "19.67128",
+          2
+        ],
+        [
+          "19.6465",
+          2
+        ],
+        [
+          "17.1421",
+          2
+        ],
+        [
+          "16.1272",
+          2
+        ],
+        [
+          "15.3001",
+          2
+        ],
+        [
+          "13.6419",
+          2
+        ],
+        [
+          "13.513",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "-100.667",
+          6
+        ],
+        [
+          "-115.238",
+          5
+        ],
+        [
+          "-88.5073",
+          4
+        ],
+        [
+          "-115.225",
+          4
+        ],
+        [
+          "-89.8174",
+          3
+        ],
+        [
+          "-86.773",
+          3
+        ],
+        [
+          "-86.5418",
+          3
+        ],
+        [
+          "-68.1515",
+          3
+        ],
+        [
+          "-67.6491",
+          3
+        ],
+        [
+          "-97.4557",
+          2
+        ],
+        [
+          "-97.4375",
+          2
+        ],
+        [
+          "-88.7825",
+          2
+        ],
+        [
+          "-88.3493",
+          2
+        ],
+        [
+          "-85.1944",
+          2
+        ],
+        [
+          "-85.1814",
+          2
+        ],
+        [
+          "-78.2364",
+          2
+        ],
+        [
+          "-71.4849",
+          2
+        ],
+        [
+          "-62.6062",
+          2
+        ],
+        [
+          "-61.7691",
+          2
+        ],
+        [
+          "-61.3691",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          62
+        ],
+        [
+          "approximate",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 999,
+      "n_null": 985,
+      "n_non_null": 14,
+      "null_rate": 0.986,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Berlín",
+          4
+        ],
+        [
+          "Ahuachapan",
+          4
+        ],
+        [
+          "Ollagüe",
+          3
+        ],
+        [
+          "Charlestown",
+          2
+        ],
+        [
+          "Liberia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 999,
+      "n_null": 955,
+      "n_non_null": 44,
+      "null_rate": 0.956,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "Municipio de Mexicali",
+          13
+        ],
+        [
+          "Hidalgo",
+          6
+        ],
+        [
+          "Municipio de Ahuachapán",
+          4
+        ],
+        [
+          "Tepeyahualco",
+          3
+        ],
+        [
+          "Provincia de El Loa",
+          3
+        ],
+        [
+          "Cantón Bagaces",
+          3
+        ],
+        [
+          "Bouillante",
+          3
+        ],
+        [
+          "San Celemente",
+          2
+        ],
+        [
+          "Hamilton Estate",
+          2
+        ],
+        [
+          "Cantón Liberia",
+          2
+        ],
+        [
+          "Perote",
+          1
+        ],
+        [
+          "La Unión",
+          1
+        ],
+        [
+          "Cabanaconde",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 999,
+      "n_null": 976,
+      "n_non_null": 23,
+      "null_rate": 0.977,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Sud Lípez",
+          3
+        ],
+        [
+          "Talca",
+          2
+        ],
+        [
+          "San Vicente",
+          2
+        ],
+        [
+          "Liberia",
+          2
+        ],
+        [
+          "Imbabura",
+          2
+        ],
+        [
+          "Ejido Hidalgo",
+          2
+        ],
+        [
+          "Chinameca",
+          2
+        ],
+        [
+          "San Cristóbal",
+          1
+        ],
+        [
+          "Saint Peter Parish",
+          1
+        ],
+        [
+          "Saint George",
+          1
+        ],
+        [
+          "Roseau Valley",
+          1
+        ],
+        [
+          "Neridas Valley",
+          1
+        ],
+        [
+          "Conchagua",
+          1
+        ],
+        [
+          "Caylloma",
+          1
+        ],
+        [
+          "Bagaces",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 999,
+      "n_null": 936,
+      "n_non_null": 63,
+      "null_rate": 0.9369,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "Baja California",
+          15
+        ],
+        [
+          "Michoacán",
+          6
+        ],
+        [
+          "Leon",
+          6
+        ],
+        [
+          "Departamento de Usulután",
+          4
+        ],
+        [
+          "Departamento de Ahuachapán",
+          4
+        ],
+        [
+          "Puebla",
+          3
+        ],
+        [
+          "Potosí",
+          3
+        ],
+        [
+          "Guadeloupe",
+          3
+        ],
+        [
+          "Antofagasta Region",
+          3
+        ],
+        [
+          "Urcuquí",
+          2
+        ],
+        [
+          "San Miguel",
+          2
+        ],
+        [
+          "Maule",
+          2
+        ],
+        [
+          "Guanacaste",
+          2
+        ],
+        [
+          "Veracruz",
+          1
+        ],
+        [
+          "San Vicente",
+          1
+        ],
+        [
+          "La Union",
+          1
+        ],
+        [
+          "Guanacaste Province",
+          1
+        ],
+        [
+          "Copán",
+          1
+        ],
+        [
+          "Chinadega",
+          1
+        ],
+        [
+          "Caldas Department",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          86
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          86
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "L100000700089",
+          6
+        ],
+        [
+          "L100000700027",
+          5
+        ],
+        [
+          "L100000700221",
+          4
+        ],
+        [
+          "L100000700107",
+          4
+        ],
+        [
+          "L100000700010",
+          4
+        ],
+        [
+          "L100000700001",
+          4
+        ],
+        [
+          "L100000700154",
+          3
+        ],
+        [
+          "L100000700110",
+          3
+        ],
+        [
+          "L100000700084",
+          3
+        ],
+        [
+          "L100000700026",
+          3
+        ],
+        [
+          "L100000700020",
+          3
+        ],
+        [
+          "L100001043020",
+          2
+        ],
+        [
+          "L100000700237",
+          2
+        ],
+        [
+          "L100000700223",
+          2
+        ],
+        [
+          "L100000700222",
+          2
+        ],
+        [
+          "L100000700155",
+          2
+        ],
+        [
+          "L100000700096",
+          2
+        ],
+        [
+          "L100000700086",
+          2
+        ],
+        [
+          "L100000700032",
+          2
+        ],
+        [
+          "L100000700031",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM unit ID",
+      "code_friendly_name_guess": "gem_unit_id",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 86,
+      "top_values": [
+        [
+          "G100001070481",
+          1
+        ],
+        [
+          "G100001070472",
+          1
+        ],
+        [
+          "G100001070468",
+          1
+        ],
+        [
+          "G100001070467",
+          1
+        ],
+        [
+          "G100001070440",
+          1
+        ],
+        [
+          "G100001070439",
+          1
+        ],
+        [
+          "G100001070437",
+          1
+        ],
+        [
+          "G100001048522",
+          1
+        ],
+        [
+          "G100001048521",
+          1
+        ],
+        [
+          "G100001048503",
+          1
+        ],
+        [
+          "G100001048500",
+          1
+        ],
+        [
+          "G100001048499",
+          1
+        ],
+        [
+          "G100001048272",
+          1
+        ],
+        [
+          "G100001048271",
+          1
+        ],
+        [
+          "G100001048257",
+          1
+        ],
+        [
+          "G100001048256",
+          1
+        ],
+        [
+          "G100001048255",
+          1
+        ],
+        [
+          "G100001031304",
+          1
+        ],
+        [
+          "G100001031215",
+          1
+        ],
+        [
+          "G100000700426",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 999,
+      "n_null": 963,
+      "n_non_null": 36,
+      "null_rate": 0.964,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "World Resources Institute: MEX0006611",
+          5
+        ],
+        [
+          "World Resources Institute: Mex0001868",
+          4
+        ],
+        [
+          "World Resources Institute: MEX0001868",
+          4
+        ],
+        [
+          "World Resources Institute: GEODB0043616",
+          4
+        ],
+        [
+          "World Resources Institute: GEODB0043615",
+          4
+        ],
+        [
+          "World Resources Institute: GEODB0004310",
+          4
+        ],
+        [
+          "World Resources Institute: GEODB0043607",
+          3
+        ],
+        [
+          "World Resources Institute: GEODB0043595",
+          3
+        ],
+        [
+          "World Resources Institute: Mex0006617",
+          2
+        ],
+        [
+          "World Resources Institute: GEODB0043643",
+          2
+        ],
+        [
+          "World Resources Institute: WRI1029382",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (unit/phase)",
+      "code_friendly_name_guess": "other_ids_unit_phase",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "SIEL ID: 3677",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 999,
+      "n_null": 913,
+      "n_non_null": 86,
+      "null_rate": 0.9139,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Los_Azufres_geothermal_power_plant",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Cerro_Prieto_1_geothermal_power_plant",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Miravalles_geothermal_power_plant",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Cerro_Prieto_4_geothermal_power_plant",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Berlín_geothermal_power_plant",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Ahuachapán_geothermal_power_plant",
+          4
+        ],
+        [
+          "https://www.gem.wiki/San_Jacinto_-_Tizate_geothermal_power_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Momotombo_geothermal_power_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Laguna_Colorada_geothermal_power_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Cerro_Pabellón_geothermal_power_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Bouillante_geothermal_power_plant",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Tres_Virgenes_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/San_Vicente_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Nevis_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Mariposa_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Los_Humeros_3_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Los_Humeros_2_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Las_Pailas_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Chinameca_geothermal_power_plant",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Chachimbiro_geothermal_power_plant",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "source_file": "Global-Oil-and-Gas-Plant-Tracker-GOGPT-January-2026.xlsx",
+  "tracker_slug": "global_oil_and_gas_plant_tracker_gogpt_january_2026",
+  "header_info": {
+    "title": "Global Oil and Gas Plant Tracker - January 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Oil and Gas Plant Tracker, January 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Jenny Martos, Project Manager, Global Energy Monitor - jenny.martos@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Plant Tracker, January 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "data_tabs": {
+    "gas_oil_units": "Gas & Oil Units",
+    "sub_threshold_units": "sub-threshold units"
+  },
+  "metadata_tabs": {
+    "about": "About",
+    "column_key": "Column key"
+  },
+  "sections": [
+    {
+      "section_name": "Status definitions",
+      "section_type": "definitions",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported but have not yet moved actively forward by applying for permits or seeking land, material, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "construction",
+          "definition": "Site preparation and other activities are underway.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "operating",
+          "definition": "The plant has been formally commissioned; commercial operation has begun.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "shelved",
+          "definition": "Two years have passed with no action on a project after the project proposal.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement has been made. The status is marked as ‘cancelled – inferred 4 y’ if no progress has been observed for at least four years.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "mothballed",
+          "definition": "The project is disused, but not dismantled.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        },
+        {
+          "name": "retired",
+          "definition": "The project has been decommissioned; this term is also used if the plant has been destroyed by war.",
+          "notes": null,
+          "entry_type": "definition",
+          "parent_field": "Status"
+        }
+      ]
+    },
+    {
+      "section_name": "Field Definitions",
+      "section_type": "flat",
+      "tab_key": null,
+      "entries": [
+        {
+          "name": "GEM location ID",
+          "definition": "Internal generated ID for the power station (non-unique)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "GEM unit ID",
+          "definition": "Internal generated ID for the unit (unique)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki URL",
+          "definition": "GEM.wiki URL for plant",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Country/Area",
+          "definition": "Country/area location of the power station (unabbreviated). The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant name",
+          "definition": "Commonly used name",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Plant Name in Local Language / Script",
+          "definition": "Commonly used name in the locally used script",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other Name(s)",
+          "definition": "Alternative names",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Unit name",
+          "definition": "Sequential numbers, grouped by blocks with emdash is necessary (e.g. 1-1, 2-1)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel",
+          "definition": "All fuel types supported. See Abbreviations tab for mapping to previous abbreviations.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity (MW)",
+          "definition": "Installed capacity of the unit, in megawatts",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "Current status of plant, see definitions in About tab",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Turbine/Engine Technology",
+          "definition": "Equipment technology. Options include: internal combustion, combined cycle, gas turbine, internal combustion combined cycle, integrated solar combined cycle, steam turbine, Allam-Fetvedt Cycle",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Equipment Manufacturer/Model",
+          "definition": "Equpment manufacturer and model.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CHP",
+          "definition": "Combined heat and power/cogeneration. Options include: yes, no, not found",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Hydrogen capable?",
+          "definition": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nN - The plant is not capable of using hydrogen. \nnot found - no information found",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CCS attachment?",
+          "definition": "Carbon capture and storage (CCS) is most relevant for in development projects. Options include: yes, no, not found",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion/replacement?",
+          "definition": "Options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion from/replacement of (fuel)",
+          "definition": "Fuel that unit is converted from, or being replaced",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Conversion from/replacement of (GEM unit ID)",
+          "definition": "GEM Unit ID of unit that is being converted from, or being replaced",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Start year",
+          "definition": "Year for the unit's commissioning; For combined cycle sets, which are composed of multiple gas and steam turbines which may not have all been built at the same time, the start year reflects when they began combined cycle operation together.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Retired year",
+          "definition": "Year the plant is decommissioned",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Planned retire",
+          "definition": "Future date for the unit's planned retirement",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Operator(s)",
+          "definition": "The company that is responsible for day-to-day operations at a plant. This is usually only one company.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner(s)",
+          "definition": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent(s)",
+          "definition": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Latitude",
+          "definition": "Latitude, assumed WGS84 (google maps)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Longitude",
+          "definition": "Longitude, assumed WGS84 (google maps)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Location accuracy",
+          "definition": "Location is \"approximate\" based by using nearest city or other information in research, or Location is \"exact\" based on visibility on map or given in research",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "City",
+          "definition": "City, town, or village where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Local area (taluk, county)",
+          "definition": "county/taluk where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Major area (prefecture, district)",
+          "definition": "Prefecture or district where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "State/Province",
+          "definition": "Province or state where project is located",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Subregion",
+          "definition": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Region",
+          "definition": "Based on definitons of sub-regions from the United National Statistics Division M49: https://unstats.un.org/unsd/methodology/m49/",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other IDs (location)",
+          "definition": "For example, government database ID",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Other IDs (unit)",
+          "definition": "For example, government database ID",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive industry use",
+          "definition": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive industry type",
+          "definition": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Captive non-industry use",
+          "definition": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, none. 'None' indicates an entirely captive plant.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel classification?",
+          "definition": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel.   Note \"Gas only\" does not include LNG.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

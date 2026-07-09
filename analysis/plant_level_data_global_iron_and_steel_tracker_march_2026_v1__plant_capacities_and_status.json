@@ -1,0 +1,1542 @@
+{
+  "table_name": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1__plant_capacities_and_status",
+  "tracker_slug": "plant_level_data_global_iron_and_steel_tracker_march_2026_v1",
+  "tab_slug": "plant_capacities_and_status",
+  "n_rows": 1845,
+  "analyzed_at": "2026-07-07T21:45:22.104876+00:00",
+  "tracker_info": {
+    "title": "Global Iron and Steel Tracker, March 2026 (V1)",
+    "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
+    "contact": "Contacts: Astrid Grigsby-Schulte, Steel Project Manager, astrid.grigsby-schulte@globalenergymonitor.org,  Caitlin Swalec, Heavy Industry Program Director, caitlin.swalec@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Iron and Steel Tracker, March 2026 (V1) release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "GEM plant ID",
+      "code_friendly_name_guess": "gem_plant_id",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "P100000120822",
+          5
+        ],
+        [
+          "P100000120452",
+          5
+        ],
+        [
+          "P100000120301",
+          5
+        ],
+        [
+          "P100000120240",
+          5
+        ],
+        [
+          "P100000120226",
+          5
+        ],
+        [
+          "P100000120192",
+          5
+        ],
+        [
+          "P100000120095",
+          5
+        ],
+        [
+          "P100000120058",
+          5
+        ],
+        [
+          "P100001045282",
+          4
+        ],
+        [
+          "P100000121207",
+          4
+        ],
+        [
+          "P100000121165",
+          4
+        ],
+        [
+          "P100000120655",
+          4
+        ],
+        [
+          "P100000120620",
+          4
+        ],
+        [
+          "P100000120499",
+          4
+        ],
+        [
+          "P100000120473",
+          4
+        ],
+        [
+          "P100000120472",
+          4
+        ],
+        [
+          "P100000120352",
+          4
+        ],
+        [
+          "P100000120304",
+          4
+        ],
+        [
+          "P100000120283",
+          4
+        ],
+        [
+          "P100000120274",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (English)",
+      "code_friendly_name_guess": "plant_name_english",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 1293,
+      "top_values": [
+        [
+          "Yunnan Desheng Iron and Steel Co Ltd",
+          5
+        ],
+        [
+          "Rizhao Steel Holding Group Co Ltd",
+          5
+        ],
+        [
+          "Lianfeng Steel Zhangjiagang Co Ltd",
+          5
+        ],
+        [
+          "Guangxi Guigang Iron and Steel Group Co Ltd",
+          5
+        ],
+        [
+          "Fushun New Steel Co Ltd",
+          5
+        ],
+        [
+          "Evraz ZSMK steel plant",
+          5
+        ],
+        [
+          "ArcelorMittal Dofasco steel plant",
+          5
+        ],
+        [
+          "ArcelorMittal Asturias (Gijón) steel plant",
+          5
+        ],
+        [
+          "Yunnan Tiangao Nickel Alloy Co Ltd",
+          4
+        ],
+        [
+          "Xinyu Iron and Steel Group Co Ltd",
+          4
+        ],
+        [
+          "Tianjin Rockcheck Steel Group Co Ltd",
+          4
+        ],
+        [
+          "Tangshan Ganglu Iron and Steel Co Ltd",
+          4
+        ],
+        [
+          "Tangshan Donghua Iron and Steel Enterprise Group Co Ltd",
+          4
+        ],
+        [
+          "Shanxi Xintai Iron and Steel Co Ltd",
+          4
+        ],
+        [
+          "Shanxi Jianlong Industrial Co Ltd",
+          4
+        ],
+        [
+          "Shagang Group Anyang Yongxing Special Steel Co Ltd",
+          4
+        ],
+        [
+          "Shaanxi Longmen Steel Co Ltd",
+          4
+        ],
+        [
+          "Quzhou Yuanli Metal Products Co Ltd",
+          4
+        ],
+        [
+          "Nilachal Iron & Power Gamharia steel plant",
+          4
+        ],
+        [
+          "Maanshan Iron and Steel Co Ltd",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant name (other language)",
+      "code_friendly_name_guess": "plant_name_other_language",
+      "n_total": 1845,
+      "n_null": 695,
+      "n_non_null": 1150,
+      "null_rate": 0.3767,
+      "n_unique": 786,
+      "top_values": [
+        [
+          "联峰钢铁(张家港)有限公司",
+          5
+        ],
+        [
+          "日照钢铁控股集团有限公司",
+          5
+        ],
+        [
+          "抚顺新钢铁有限责任公司",
+          5
+        ],
+        [
+          "广西贵港钢铁集团",
+          5
+        ],
+        [
+          "云南德胜钒钛新材料有限公司",
+          5
+        ],
+        [
+          "Новокузнецкий металлургический комбинат",
+          5
+        ],
+        [
+          "马鞍山钢铁股份有限公司(本部)",
+          4
+        ],
+        [
+          "陕西龙门钢铁有限责任公司",
+          4
+        ],
+        [
+          "迁安市荣信工贸有限责任公司",
+          4
+        ],
+        [
+          "衢州元立金属制品有限公司",
+          4
+        ],
+        [
+          "河南济源钢铁(集团)有限公司",
+          4
+        ],
+        [
+          "河南亚新钢铁集团有限公司",
+          4
+        ],
+        [
+          "河北新武安钢铁集团普阳钢铁有限公司",
+          4
+        ],
+        [
+          "沙钢集团安阳永兴特钢有限公司",
+          4
+        ],
+        [
+          "江阴兴澄特种钢铁有限公司",
+          4
+        ],
+        [
+          "江苏金凯钢铁有限公司",
+          4
+        ],
+        [
+          "江苏淮钢集团有限公司",
+          4
+        ],
+        [
+          "江苏沙钢集团",
+          4
+        ],
+        [
+          "林州凤宝钢铁有限公司",
+          4
+        ],
+        [
+          "本溪钢铁厂",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 91,
+      "top_values": [
+        [
+          "China",
+          704
+        ],
+        [
+          "India",
+          195
+        ],
+        [
+          "United States",
+          98
+        ],
+        [
+          "Iran",
+          85
+        ],
+        [
+          "Japan",
+          62
+        ],
+        [
+          "Russia",
+          47
+        ],
+        [
+          "Türkiye",
+          37
+        ],
+        [
+          "Brazil",
+          33
+        ],
+        [
+          "Germany",
+          31
+        ],
+        [
+          "Vietnam",
+          30
+        ],
+        [
+          "Italy",
+          29
+        ],
+        [
+          "South Korea",
+          23
+        ],
+        [
+          "Indonesia",
+          23
+        ],
+        [
+          "Malaysia",
+          22
+        ],
+        [
+          "Spain",
+          21
+        ],
+        [
+          "France",
+          21
+        ],
+        [
+          "Ukraine",
+          20
+        ],
+        [
+          "Mexico",
+          18
+        ],
+        [
+          "Saudi Arabia",
+          16
+        ],
+        [
+          "Pakistan",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "See definition above.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Main production equipment",
+      "code_friendly_name_guess": "main_production_equipment",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "EAF",
+          680
+        ],
+        [
+          "BF; BOF",
+          452
+        ],
+        [
+          "BF",
+          153
+        ],
+        [
+          "DRI; EAF",
+          117
+        ],
+        [
+          "DRI",
+          85
+        ],
+        [
+          "BOF",
+          70
+        ],
+        [
+          "BF; BOF; EAF",
+          52
+        ],
+        [
+          "BF; EAF",
+          36
+        ],
+        [
+          "IF",
+          30
+        ],
+        [
+          "DRI; IF",
+          25
+        ],
+        [
+          "Steel other/unspecified",
+          15
+        ],
+        [
+          "Iron other/unspecified; Steel other/unspecified",
+          14
+        ],
+        [
+          "BF; BOF; DRI",
+          12
+        ],
+        [
+          "BF; DRI; IF",
+          9
+        ],
+        [
+          "EAF; IF",
+          8
+        ],
+        [
+          "BF; DRI; EAF",
+          7
+        ],
+        [
+          "DRI; EAF; IF",
+          6
+        ],
+        [
+          "BOF; Iron other/unspecified",
+          6
+        ],
+        [
+          "BF; BOF; DRI; EAF",
+          6
+        ],
+        [
+          "Iron other/unspecified",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Lists the main iron and steel production equipment at the plant corresponding to the row's operating status, from the following list: BF, DRI, BOF, EAF, IF, other/unspecified steel, other/unspecified iron.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "operating",
+          934
+        ],
+        [
+          "announced",
+          290
+        ],
+        [
+          "retired",
+          229
+        ],
+        [
+          "construction",
+          140
+        ],
+        [
+          "operating pre-retirement",
+          100
+        ],
+        [
+          "cancelled",
+          75
+        ],
+        [
+          "mothballed",
+          70
+        ],
+        [
+          "mothballed pre-retirement",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Start date",
+      "code_friendly_name_guess": "start_date",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 405,
+      "top_values": [
+        [
+          "unknown",
+          274
+        ],
+        [
+          "2026",
+          50
+        ],
+        [
+          "2002",
+          47
+        ],
+        [
+          "2003",
+          46
+        ],
+        [
+          "2027",
+          38
+        ],
+        [
+          "1958",
+          35
+        ],
+        [
+          "2030",
+          33
+        ],
+        [
+          "2001",
+          31
+        ],
+        [
+          "1993",
+          27
+        ],
+        [
+          "2025",
+          23
+        ],
+        [
+          "2011",
+          22
+        ],
+        [
+          "2006",
+          21
+        ],
+        [
+          "1969",
+          21
+        ],
+        [
+          "2000",
+          20
+        ],
+        [
+          "2004",
+          18
+        ],
+        [
+          "2029",
+          17
+        ],
+        [
+          "2028",
+          17
+        ],
+        [
+          "2009",
+          17
+        ],
+        [
+          "2007",
+          17
+        ],
+        [
+          "1999",
+          17
+        ]
+      ],
+      "portion_numeric": 0.71,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Date that the plant began producing iron/steel in the format YYYY-MM-DD. For announced or construction capacity, this is the earliest start date of any units under development.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal crude steel capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_crude_steel_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 473,
+      "top_values": [
+        [
+          "N/A",
+          247
+        ],
+        [
+          "1000",
+          87
+        ],
+        [
+          "500",
+          75
+        ],
+        [
+          "1200",
+          60
+        ],
+        [
+          "2000",
+          51
+        ],
+        [
+          "3000",
+          50
+        ],
+        [
+          "1500",
+          47
+        ],
+        [
+          "600",
+          44
+        ],
+        [
+          "800",
+          35
+        ],
+        [
+          "2700",
+          27
+        ],
+        [
+          "1100",
+          26
+        ],
+        [
+          "1400",
+          25
+        ],
+        [
+          "700",
+          22
+        ],
+        [
+          "750",
+          19
+        ],
+        [
+          "2500",
+          19
+        ],
+        [
+          "1350",
+          19
+        ],
+        [
+          "1700",
+          18
+        ],
+        [
+          "1600",
+          18
+        ],
+        [
+          "1300",
+          18
+        ],
+        [
+          "720",
+          17
+        ]
+      ],
+      "portion_numeric": 0.9863,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity across all steelmaking processes (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal BOF steel capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_bof_steel_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 255,
+      "top_values": [
+        [
+          "N/A",
+          1220
+        ],
+        [
+          "3000",
+          32
+        ],
+        [
+          "2700",
+          27
+        ],
+        [
+          "2000",
+          19
+        ],
+        [
+          "1350",
+          19
+        ],
+        [
+          "2300",
+          16
+        ],
+        [
+          "1700",
+          15
+        ],
+        [
+          "1200",
+          15
+        ],
+        [
+          "1500",
+          14
+        ],
+        [
+          "1000",
+          11
+        ],
+        [
+          "5000",
+          10
+        ],
+        [
+          "2600",
+          10
+        ],
+        [
+          "3600",
+          9
+        ],
+        [
+          "1600",
+          9
+        ],
+        [
+          "1150",
+          9
+        ],
+        [
+          "1100",
+          9
+        ],
+        [
+          "6000",
+          8
+        ],
+        [
+          "1400",
+          8
+        ],
+        [
+          "600",
+          7
+        ],
+        [
+          "3500",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for steel produced by BOF route (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal EAF steel capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_eaf_steel_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 239,
+      "top_values": [
+        [
+          "N/A",
+          904
+        ],
+        [
+          "1000",
+          77
+        ],
+        [
+          "500",
+          65
+        ],
+        [
+          "1200",
+          47
+        ],
+        [
+          "800",
+          34
+        ],
+        [
+          "1500",
+          34
+        ],
+        [
+          "600",
+          32
+        ],
+        [
+          "2000",
+          28
+        ],
+        [
+          "700",
+          24
+        ],
+        [
+          "3000",
+          22
+        ],
+        [
+          "750",
+          21
+        ],
+        [
+          "1100",
+          18
+        ],
+        [
+          "720",
+          17
+        ],
+        [
+          "1400",
+          17
+        ],
+        [
+          "1300",
+          17
+        ],
+        [
+          "1250",
+          15
+        ],
+        [
+          "650",
+          13
+        ],
+        [
+          "2500",
+          13
+        ],
+        [
+          "850",
+          11
+        ],
+        [
+          ">0",
+          10
+        ]
+      ],
+      "portion_numeric": 0.9925,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for steel produced by EAF route (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal IF steel capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_if_steel_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 74,
+      "top_values": [
+        [
+          "N/A",
+          1749
+        ],
+        [
+          "500",
+          8
+        ],
+        [
+          ">0",
+          6
+        ],
+        [
+          "600",
+          6
+        ],
+        [
+          "96",
+          2
+        ],
+        [
+          "800",
+          2
+        ],
+        [
+          "770",
+          2
+        ],
+        [
+          "498",
+          2
+        ],
+        [
+          "288",
+          2
+        ],
+        [
+          "126",
+          2
+        ],
+        [
+          "99",
+          1
+        ],
+        [
+          "924",
+          1
+        ],
+        [
+          "92",
+          1
+        ],
+        [
+          "900",
+          1
+        ],
+        [
+          "840",
+          1
+        ],
+        [
+          "821",
+          1
+        ],
+        [
+          "788",
+          1
+        ],
+        [
+          "78",
+          1
+        ],
+        [
+          "750",
+          1
+        ],
+        [
+          "730",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8519,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "Plant-level capacity for steel produced by IF route (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other/unspecified steel capacity (ttpa)",
+      "code_friendly_name_guess": "other_unspecified_steel_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "N/A",
+          1794
+        ],
+        [
+          "1500",
+          7
+        ],
+        [
+          "500",
+          4
+        ],
+        [
+          "3000",
+          3
+        ],
+        [
+          "1000",
+          3
+        ],
+        [
+          "800",
+          2
+        ],
+        [
+          "5000",
+          2
+        ],
+        [
+          "4500",
+          2
+        ],
+        [
+          "4000",
+          2
+        ],
+        [
+          "250",
+          2
+        ],
+        [
+          "1200",
+          2
+        ],
+        [
+          "9000",
+          1
+        ],
+        [
+          "844",
+          1
+        ],
+        [
+          "7500",
+          1
+        ],
+        [
+          "750",
+          1
+        ],
+        [
+          "7125",
+          1
+        ],
+        [
+          "7000",
+          1
+        ],
+        [
+          "6500",
+          1
+        ],
+        [
+          "613",
+          1
+        ],
+        [
+          "6000",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for steel produced by technology that is not tracked in the GIST (i.e. induction furnace) or for which the production route is unknown.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal iron capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_iron_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 525,
+      "top_values": [
+        [
+          "N/A",
+          809
+        ],
+        [
+          "2500",
+          35
+        ],
+        [
+          ">0",
+          32
+        ],
+        [
+          "2000",
+          32
+        ],
+        [
+          "1200",
+          21
+        ],
+        [
+          "1100",
+          19
+        ],
+        [
+          "1000",
+          19
+        ],
+        [
+          "1500",
+          18
+        ],
+        [
+          "500",
+          17
+        ],
+        [
+          "3000",
+          14
+        ],
+        [
+          "1700",
+          12
+        ],
+        [
+          "1040",
+          12
+        ],
+        [
+          "800",
+          11
+        ],
+        [
+          "550",
+          10
+        ],
+        [
+          "2200",
+          10
+        ],
+        [
+          "1400",
+          10
+        ],
+        [
+          "1300",
+          10
+        ],
+        [
+          "1220",
+          10
+        ],
+        [
+          "5000",
+          9
+        ],
+        [
+          "2400",
+          9
+        ]
+      ],
+      "portion_numeric": 0.9842,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level operating capacity across all ironmaking processes (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal BF capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_bf_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 444,
+      "top_values": [
+        [
+          "N/A",
+          1078
+        ],
+        [
+          "1100",
+          17
+        ],
+        [
+          "1000",
+          14
+        ],
+        [
+          "500",
+          13
+        ],
+        [
+          "2500",
+          13
+        ],
+        [
+          "2000",
+          13
+        ],
+        [
+          "3000",
+          12
+        ],
+        [
+          "1200",
+          12
+        ],
+        [
+          "1040",
+          11
+        ],
+        [
+          "550",
+          10
+        ],
+        [
+          "1220",
+          10
+        ],
+        [
+          "1300",
+          9
+        ],
+        [
+          "2400",
+          8
+        ],
+        [
+          "1400",
+          8
+        ],
+        [
+          "700",
+          7
+        ],
+        [
+          "4500",
+          7
+        ],
+        [
+          "2200",
+          7
+        ],
+        [
+          "1500",
+          7
+        ],
+        [
+          "1370",
+          7
+        ],
+        [
+          "1130",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for iron produced by BF route (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Nominal DRI capacity (ttpa)",
+      "code_friendly_name_guess": "nominal_dri_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 145,
+      "top_values": [
+        [
+          "N/A",
+          1553
+        ],
+        [
+          "2500",
+          22
+        ],
+        [
+          "2000",
+          20
+        ],
+        [
+          ">0",
+          17
+        ],
+        [
+          "1200",
+          12
+        ],
+        [
+          "1500",
+          9
+        ],
+        [
+          "800",
+          8
+        ],
+        [
+          "1000",
+          7
+        ],
+        [
+          "1700",
+          6
+        ],
+        [
+          "1600",
+          6
+        ],
+        [
+          "1800",
+          5
+        ],
+        [
+          "900",
+          4
+        ],
+        [
+          "600",
+          4
+        ],
+        [
+          "5000",
+          4
+        ],
+        [
+          "500",
+          4
+        ],
+        [
+          "2100",
+          4
+        ],
+        [
+          "400",
+          3
+        ],
+        [
+          "250",
+          3
+        ],
+        [
+          "2200",
+          3
+        ],
+        [
+          "180",
+          3
+        ]
+      ],
+      "portion_numeric": 0.961,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Plant-level capacity for iron produced by DRI route (ttpa).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Other/unspecified iron capacity (ttpa)",
+      "code_friendly_name_guess": "other_unspecified_iron_capacity_ttpa",
+      "n_total": 1845,
+      "n_null": 0,
+      "n_non_null": 1845,
+      "null_rate": 0.0,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "N/A",
+          1806
+        ],
+        [
+          ">0",
+          12
+        ],
+        [
+          "1500",
+          5
+        ],
+        [
+          "1700",
+          3
+        ],
+        [
+          "7000",
+          2
+        ],
+        [
+          "9000",
+          1
+        ],
+        [
+          "800",
+          1
+        ],
+        [
+          "760",
+          1
+        ],
+        [
+          "7500",
+          1
+        ],
+        [
+          "680",
+          1
+        ],
+        [
+          "6500",
+          1
+        ],
+        [
+          "500",
+          1
+        ],
+        [
+          "4300",
+          1
+        ],
+        [
+          "427",
+          1
+        ],
+        [
+          "3300",
+          1
+        ],
+        [
+          "325",
+          1
+        ],
+        [
+          "3000",
+          1
+        ],
+        [
+          "25000",
+          1
+        ],
+        [
+          "1650",
+          1
+        ],
+        [
+          "1200",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8333,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "mostly_numeric_with_outliers",
+        "categorical_rare_values:21_values_below_1pct"
+      ],
+      "definition_from_readme": "Plant-level capacity for iron produced by technology that is not tracked in the GIST (i.e. smelting reduction) or for which the production route is unknown.",
+      "notes_from_readme": null
+    }
+  ]
+}

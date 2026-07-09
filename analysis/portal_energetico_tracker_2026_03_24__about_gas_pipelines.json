@@ -1,0 +1,202 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__about_gas_pipelines",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "about_gas_pipelines",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.169749+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Global Gas Infrastructure Tracker - Gas Pipelines - November 2025 release",
+      "code_friendly_name_guess": "global_gas_infrastructure_tracker_gas_pipelines_november_2025_release",
+      "n_total": 999,
+      "n_null": 927,
+      "n_non_null": 72,
+      "null_rate": 0.9279,
+      "n_unique": 70,
+      "top_values": [
+        [
+          "mtpa",
+          3
+        ],
+        [
+          "mmscf/d",
+          1
+        ],
+        [
+          "bpd",
+          1
+        ],
+        [
+          "bcm/year",
+          1
+        ],
+        [
+          "bcm/y",
+          1
+        ],
+        [
+          "bbl/d",
+          1
+        ],
+        [
+          "Wiki",
+          1
+        ],
+        [
+          "VariableName",
+          1
+        ],
+        [
+          "StopYear",
+          1
+        ],
+        [
+          "Status",
+          1
+        ],
+        [
+          "StartYear3",
+          1
+        ],
+        [
+          "StartYear2",
+          1
+        ],
+        [
+          "StartYear1",
+          1
+        ],
+        [
+          "StartSubRegion",
+          1
+        ],
+        [
+          "StartState/Province",
+          1
+        ],
+        [
+          "StartRegion",
+          1
+        ],
+        [
+          "StartPrefecture/District",
+          1
+        ],
+        [
+          "StartLocation",
+          1
+        ],
+        [
+          "StartCountryOrArea",
+          1
+        ],
+        [
+          "ShelvedYear",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col1",
+      "code_friendly_name_guess": "col1",
+      "n_total": 999,
+      "n_null": 930,
+      "n_non_null": 69,
+      "null_rate": 0.9309,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "billion cubic meters per year",
+          2
+        ],
+        [
+          "barrels per day",
+          2
+        ],
+        [
+          "million tons* per annum",
+          1
+        ],
+        [
+          "million tonnes* per annum",
+          1
+        ],
+        [
+          "million standard cubic feet per day",
+          1
+        ],
+        [
+          "million metric tons* per annum",
+          1
+        ],
+        [
+          "million cubic feet per day",
+          1
+        ],
+        [
+          "low: basic point A to point B connection\nmedium: route is not a straight line, but hasn't been traced\nhigh: route has been digitally traced in GIS software or the shapefile has been obtained from a reliable source\nno route: we don't have a route for it, either because it's unavailabe/unknown or is a capacity/directionality expansion",
+          1
+        ],
+        [
+          "barrels of oil equivalent per day",
+          1
+        ],
+        [
+          "barrels of oil equivalent",
+          1
+        ],
+        [
+          "barrels of oil",
+          1
+        ],
+        [
+          "Year operations initiated for second expansion project, or expected to initiate, if expansion not listed as separate observation",
+          1
+        ],
+        [
+          "Year operations initiated for first expansion project, or expected to initiate, if expansion not listed as separate observation",
+          1
+        ],
+        [
+          "Year operations ended (if Status=\"Mothballed\", Status=\"Idle\", or Status=\"Retired\") or the year the project was cancelled (if Status=\"Cancelled\"). If Status=\"Cancelled\" due to 4-year rule* (as opposed to a formal cancellation), then StopYear=\"presumed\"",
+          1
+        ],
+        [
+          "Units that \"Capacity\" is reported in (bpd, bcm/year, mtpa, MMcf/d, or TJ/d)",
+          1
+        ],
+        [
+          "Type of route (whether it's mapped, unmapped but could be, etc.). If \"Included in other ProjectID\", this row's route is included in another project in the tracker, and the length of it is not included in overall totals.",
+          1
+        ],
+        [
+          "Town, city, or village the pipeline starts in",
+          1
+        ],
+        [
+          "Town, city, or village the pipeline ends in",
+          1
+        ],
+        [
+          "State or province the pipeline ends in",
+          1
+        ],
+        [
+          "State or province pipeline starts in",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

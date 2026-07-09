@@ -1,0 +1,3411 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__oil_pipelines",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "oil_pipelines",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.449331+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 182,
+      "top_values": [
+        [
+          "P7212",
+          1
+        ],
+        [
+          "P7211",
+          1
+        ],
+        [
+          "P7210",
+          1
+        ],
+        [
+          "P7209",
+          1
+        ],
+        [
+          "P7208",
+          1
+        ],
+        [
+          "P7199",
+          1
+        ],
+        [
+          "P7198",
+          1
+        ],
+        [
+          "P7197",
+          1
+        ],
+        [
+          "P7196",
+          1
+        ],
+        [
+          "P7195",
+          1
+        ],
+        [
+          "P7183",
+          1
+        ],
+        [
+          "P7163",
+          1
+        ],
+        [
+          "P7162",
+          1
+        ],
+        [
+          "P6493",
+          1
+        ],
+        [
+          "P6475",
+          1
+        ],
+        [
+          "P6474",
+          1
+        ],
+        [
+          "P6473",
+          1
+        ],
+        [
+          "P6469",
+          1
+        ],
+        [
+          "P6468",
+          1
+        ],
+        [
+          "P6461",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Oil",
+          152
+        ],
+        [
+          "NGL",
+          27
+        ],
+        [
+          "NGL, oil products",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartPrefecture/District",
+      "code_friendly_name_guess": "startprefecture_district",
+      "n_total": 999,
+      "n_null": 993,
+      "n_non_null": 6,
+      "null_rate": 0.994,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Macaé",
+          2
+        ],
+        [
+          "Edimburg",
+          1
+        ],
+        [
+          "Duque de Caixas",
+          1
+        ],
+        [
+          "Araucária",
+          1
+        ],
+        [
+          "Angra dos Reis",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EndState/Province",
+      "code_friendly_name_guess": "endstate_province",
+      "n_total": 999,
+      "n_null": 839,
+      "n_non_null": 160,
+      "null_rate": 0.8398,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "Anzoátegui",
+          15
+        ],
+        [
+          "São Paulo",
+          11
+        ],
+        [
+          "Río Negro",
+          11
+        ],
+        [
+          "Casanare",
+          8
+        ],
+        [
+          "Sucre",
+          6
+        ],
+        [
+          "Buenos Aires",
+          6
+        ],
+        [
+          "Santa Cruz",
+          5
+        ],
+        [
+          "Neuquén",
+          5
+        ],
+        [
+          "Zulia",
+          4
+        ],
+        [
+          "Santander",
+          4
+        ],
+        [
+          "Rio de Janeiro",
+          4
+        ],
+        [
+          "Mato Grosso",
+          4
+        ],
+        [
+          "Veracruz",
+          3
+        ],
+        [
+          "Tamaulipas",
+          3
+        ],
+        [
+          "Sucumbios",
+          3
+        ],
+        [
+          "Falcón",
+          3
+        ],
+        [
+          "Antioquia",
+          3
+        ],
+        [
+          "Valle del Cauca",
+          2
+        ],
+        [
+          "Santa Catarina",
+          2
+        ],
+        [
+          "Rio Grande do Sul",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Countries",
+      "code_friendly_name_guess": "countries",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "Colombia",
+          39
+        ],
+        [
+          "Brazil",
+          32
+        ],
+        [
+          "Argentina",
+          32
+        ],
+        [
+          "Venezuela",
+          25
+        ],
+        [
+          "Mexico",
+          15
+        ],
+        [
+          "Bolivia",
+          12
+        ],
+        [
+          "Ecuador",
+          8
+        ],
+        [
+          "Peru",
+          5
+        ],
+        [
+          "Panama",
+          2
+        ],
+        [
+          "Cuba",
+          2
+        ],
+        [
+          "Chile",
+          2
+        ],
+        [
+          "Venezuela, Colombia",
+          1
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States, Mexico",
+          1
+        ],
+        [
+          "Trinidad and Tobago",
+          1
+        ],
+        [
+          "Guatemala",
+          1
+        ],
+        [
+          "Colombia, Ecuador",
+          1
+        ],
+        [
+          "Bolivia, Chile",
+          1
+        ],
+        [
+          "Argentina, Chile",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:8_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Wiki",
+      "code_friendly_name_guess": "wiki",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 143,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Oldelval_Oil_Pipeline",
+          10
+        ],
+        [
+          "https://www.gem.wiki/Arauc%C3%A1ria-Cuiab%C3%A1_Oil_Pipeline",
+          5
+        ],
+        [
+          "https://www.gem.wiki/Uberaba-Cuiab%C3%A1_Oil_Pipeline",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Northern_Peruvian_Oil_Pipeline",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Gal%C3%A1n-Mansilla_LPG_Pipeline",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Vaca_Muerta_Sur_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/V%C3%ADbora-Sirari-Yapacan%C3%AD-Humberto_Su%C3%A1rez_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Sebastopol-Tocancip%C3%A1_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Salgar-Yumbo_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Pascuales-Cuenca_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Nuevo_Teapa-Tula_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Nuevo_Teapa-Salina_Cruz_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Nuevo_Teapa-Minatitl%C3%A1n_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Madero-Cadereyta_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Bicentenario_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Arauc%C3%A1ria-Itaja%C3%AD_Oil_Pipeline",
+          2
+        ],
+        [
+          "https://www.gem.wiki/ZPS-JPS_oil_pipeline",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yaguar%C3%A1-Tenay_Oil_Pipeline",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Venezuela_Colombia_Oil_Pipeline",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Vel%C3%A1squez-Gal%C3%A1n_Oil_Pipeline",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "PipelineName",
+      "code_friendly_name_guess": "pipelinename",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "Oldelval Oil Pipeline",
+          10
+        ],
+        [
+          "OSSP Pipeline System",
+          5
+        ],
+        [
+          "Araucária-Cuiabá Oil Pipeline",
+          5
+        ],
+        [
+          "Uberaba–Cuiabá Oil Pipeline",
+          3
+        ],
+        [
+          "Northern Peruvian Oil Pipeline",
+          3
+        ],
+        [
+          "Galán-Mansilla LPG Pipeline",
+          3
+        ],
+        [
+          "Víbora-Sirari-Yapacaní-Humberto Suárez Oil Pipeline",
+          2
+        ],
+        [
+          "Vaca Muerta Sur Oil Pipeline",
+          2
+        ],
+        [
+          "Sebastopol-Tocancipá Pipeline",
+          2
+        ],
+        [
+          "Puerto Salgar-Yumbo Pipeline",
+          2
+        ],
+        [
+          "Pascuales-Cuenca Pipeline",
+          2
+        ],
+        [
+          "Nuevo Teapa-Tula Oil Pipeline",
+          2
+        ],
+        [
+          "Nuevo Teapa-Salina Cruz Oil Pipeline",
+          2
+        ],
+        [
+          "Nuevo Teapa-Minatitlán Oil Pipeline",
+          2
+        ],
+        [
+          "Bicentenario Oil Pipeline",
+          2
+        ],
+        [
+          "Araucária-Itajaí Oil Pipeline",
+          2
+        ],
+        [
+          "ZPS-JPS Oil Pipeline",
+          1
+        ],
+        [
+          "Yaguará-Tenay Oil Pipeline",
+          1
+        ],
+        [
+          "Venezuela Colombia Oil Pipeline",
+          1
+        ],
+        [
+          "Velásquez-Galán Oil Pipeline",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "SegmentName",
+      "code_friendly_name_guess": "segmentname",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 42,
+      "top_values": [
+        [
+          "Line 2",
+          4
+        ],
+        [
+          "Line 1",
+          4
+        ],
+        [
+          "Rondonópolis-Cuiabá",
+          2
+        ],
+        [
+          "Campo Grande-Rondonópolis",
+          2
+        ],
+        [
+          "Uberaba-Campo Grande",
+          1
+        ],
+        [
+          "Tramo ORN / Ramal Norte",
+          1
+        ],
+        [
+          "Tramo II",
+          1
+        ],
+        [
+          "Tramo I",
+          1
+        ],
+        [
+          "Sutamarchán-Tocancipá",
+          1
+        ],
+        [
+          "Sebastopol-Sutamarchán",
+          1
+        ],
+        [
+          "Sebastopol-Salgar 8\" ",
+          1
+        ],
+        [
+          "Salgar-Mansilla 8\" ",
+          1
+        ],
+        [
+          "Salgar-Cartago",
+          1
+        ],
+        [
+          "Puesto Hernández-Medanito",
+          1
+        ],
+        [
+          "Proyecto Triplicar",
+          1
+        ],
+        [
+          "Proyecto Duplicar",
+          1
+        ],
+        [
+          "Presidente Prudente-Campo Grande",
+          1
+        ],
+        [
+          "Plaza Huincul-Allen",
+          1
+        ],
+        [
+          "Phase 2",
+          1
+        ],
+        [
+          "Phase 1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "operating",
+          159
+        ],
+        [
+          "proposed",
+          16
+        ],
+        [
+          "cancelled",
+          3
+        ],
+        [
+          "construction",
+          2
+        ],
+        [
+          "shelved",
+          1
+        ],
+        [
+          "idle",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "PDVSA [100.00%]",
+          25
+        ],
+        [
+          "Cenit SAS [100.00%]",
+          25
+        ],
+        [
+          "unknown [unknown %]",
+          22
+        ],
+        [
+          "Pemex [100.00%]",
+          15
+        ],
+        [
+          "YPFB Transporte [100.00%]",
+          13
+        ],
+        [
+          "Petrobras [100.00%]",
+          11
+        ],
+        [
+          "Oleoductos del Valle SA [100.00%]",
+          8
+        ],
+        [
+          "EP Petroecuador [100.00%]",
+          7
+        ],
+        [
+          "YPF [100.00%]",
+          6
+        ],
+        [
+          "CGC (Compañía General de Combustibles) [100.00%]",
+          4
+        ],
+        [
+          "Petroperú [100.00%]",
+          3
+        ],
+        [
+          "Vista Energy Argentina SAU [unknown %]",
+          2
+        ],
+        [
+          "Sonacol [100.00%]",
+          2
+        ],
+        [
+          "Perenco [100.00%]",
+          2
+        ],
+        [
+          "Hocol SA [100.00%]",
+          2
+        ],
+        [
+          "CUPET [100.00%]",
+          2
+        ],
+        [
+          "YPF [85.00%]; Tecpetrol [15.00%]",
+          1
+        ],
+        [
+          "YPF S.A. [100.00%]",
+          1
+        ],
+        [
+          "Woodside Energy [45.00%]; National Gas Company of Trinidad and Tobago [30.00%]; Chaoyang Petroleum [25.00%]",
+          1
+        ],
+        [
+          "VMOS S.A. [100.00%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 40,
+      "top_values": [
+        [
+          "Ecopetrol SA [100.00%]",
+          28
+        ],
+        [
+          "unknown [unknown %]",
+          27
+        ],
+        [
+          "Petróleos de Venezuela SA [100.00%]",
+          25
+        ],
+        [
+          "Petróleos Mexicanos EPE [100.00%]",
+          15
+        ],
+        [
+          "Yacimientos Petrolíferos Fiscales Bolivianos Corp [98.60%]; small shareholder(s) [1.40%]",
+          13
+        ],
+        [
+          "Petróleo Brasileiro SA [100.00%]",
+          11
+        ],
+        [
+          "unknown [39.90%]; YPF SA [37.00%]; Exxon Mobil Corp [14.70%]; small shareholder(s) [2.10%]",
+          8
+        ],
+        [
+          "EP Petroecuador [100.00%]",
+          8
+        ],
+        [
+          "YPF SA [100.00%]",
+          7
+        ],
+        [
+          "Latin Exploration SLU [70.00%]; Sociedad Comercial del Plata SA [30.00%]",
+          4
+        ],
+        [
+          "Petróleos del Perú - PETROPERÚ SA [100.00%]",
+          3
+        ],
+        [
+          "Vista Energy SAB de CV [unknown %]",
+          2
+        ],
+        [
+          "Perenco SA [100.00%]",
+          2
+        ],
+        [
+          "Empresas Copec SA [52.80%]; Esmax Inversiones SpA [22.20%]; Quiñenco SA [13.40%]; small shareholder(s) [1.60%]; Empresa Nacional del Petróleo [unknown %]",
+          2
+        ],
+        [
+          "Cuba Petróleo SA [100.00%]",
+          2
+        ],
+        [
+          "YPF SA [85.00%]; Tecpetrol Internacional SL [14.40%]; unknown [0.60%]",
+          1
+        ],
+        [
+          "YPF SA [38.00%]; Petróleo Brasileiro SA [34.00%]; Dow Inc [unknown %]",
+          1
+        ],
+        [
+          "Woodside Energy Group Ltd [45.00%]; National Gas Company of Trinidad and Tobago Ltd [30.00%]; CNOOC Ltd [12.50%]; Sinopec Overseas Oil and Gas Ltd [12.50%]",
+          1
+        ],
+        [
+          "Sunoco LP [100.00%]",
+          1
+        ],
+        [
+          "Shell PLC [60.00%]; BC Energy Investments Corp [12.50%]; BP PLC [12.50%]; Century Holdings SARL [5.06%]; Endurance Corporation SARL [5.06%]; unknown [2.58%]; Willow Tree SARL [2.31%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "OwnerEntityIDs",
+      "code_friendly_name_guess": "ownerentityids",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 47,
+      "top_values": [
+        [
+          "E100001014393",
+          25
+        ],
+        [
+          "E100000001332",
+          25
+        ],
+        [
+          "unknown",
+          22
+        ],
+        [
+          "E100000000720",
+          15
+        ],
+        [
+          "E100001016100",
+          13
+        ],
+        [
+          "E100000000084",
+          12
+        ],
+        [
+          "E100001015656",
+          8
+        ],
+        [
+          "E100001010998",
+          7
+        ],
+        [
+          "E100000000013",
+          7
+        ],
+        [
+          "E100001014345",
+          4
+        ],
+        [
+          "E100001010516",
+          3
+        ],
+        [
+          "E100002004498",
+          2
+        ],
+        [
+          "E100002001295",
+          2
+        ],
+        [
+          "E100001015012",
+          2
+        ],
+        [
+          "E100000002166",
+          2
+        ],
+        [
+          "E100000000329",
+          2
+        ],
+        [
+          "E100002007876",
+          1
+        ],
+        [
+          "E100002004444",
+          1
+        ],
+        [
+          "E100002004332",
+          1
+        ],
+        [
+          "E100001015865",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ProposalYear",
+      "code_friendly_name_guess": "proposalyear",
+      "n_total": 999,
+      "n_null": 980,
+      "n_non_null": 19,
+      "null_rate": 0.981,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "2022",
+          12
+        ],
+        [
+          "2024",
+          2
+        ],
+        [
+          "2023",
+          1
+        ],
+        [
+          "2021",
+          1
+        ],
+        [
+          "2019",
+          1
+        ],
+        [
+          "2018",
+          1
+        ],
+        [
+          "2011",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ConstructionYear",
+      "code_friendly_name_guess": "constructionyear",
+      "n_total": 999,
+      "n_null": 990,
+      "n_non_null": 9,
+      "null_rate": 0.991,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "2025",
+          3
+        ],
+        [
+          "2013",
+          2
+        ],
+        [
+          "2024",
+          1
+        ],
+        [
+          "2023",
+          1
+        ],
+        [
+          "2008",
+          1
+        ],
+        [
+          "1979",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Diameter",
+      "code_friendly_name_guess": "diameter",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 69,
+      "top_values": [
+        [
+          "8",
+          15
+        ],
+        [
+          "24",
+          14
+        ],
+        [
+          "12",
+          12
+        ],
+        [
+          "10",
+          12
+        ],
+        [
+          "14",
+          10
+        ],
+        [
+          "16",
+          9
+        ],
+        [
+          "30",
+          6
+        ],
+        [
+          "16.0",
+          6
+        ],
+        [
+          "6",
+          5
+        ],
+        [
+          "20.0",
+          5
+        ],
+        [
+          "30.0",
+          4
+        ],
+        [
+          "18",
+          4
+        ],
+        [
+          "6.625",
+          3
+        ],
+        [
+          "6, 8",
+          3
+        ],
+        [
+          "26.0",
+          3
+        ],
+        [
+          "20",
+          3
+        ],
+        [
+          "12, 14",
+          3
+        ],
+        [
+          "36.0",
+          2
+        ],
+        [
+          "36",
+          2
+        ],
+        [
+          "24.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.763,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "DiameterUnits",
+      "code_friendly_name_guess": "diameterunits",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "in",
+          172
+        ],
+        [
+          "mm",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "StartYear1",
+      "code_friendly_name_guess": "startyear1",
+      "n_total": 999,
+      "n_null": 910,
+      "n_non_null": 89,
+      "null_rate": 0.9109,
+      "n_unique": 49,
+      "top_values": [
+        [
+          "1979",
+          6
+        ],
+        [
+          "1977",
+          5
+        ],
+        [
+          "2000",
+          4
+        ],
+        [
+          "1982",
+          4
+        ],
+        [
+          "1975",
+          4
+        ],
+        [
+          "2025",
+          3
+        ],
+        [
+          "2016",
+          3
+        ],
+        [
+          "1992",
+          3
+        ],
+        [
+          "1989",
+          3
+        ],
+        [
+          "1976",
+          3
+        ],
+        [
+          "1968",
+          3
+        ],
+        [
+          "1966",
+          3
+        ],
+        [
+          "2005",
+          2
+        ],
+        [
+          "2002",
+          2
+        ],
+        [
+          "2001",
+          2
+        ],
+        [
+          "1999",
+          2
+        ],
+        [
+          "1996",
+          2
+        ],
+        [
+          "1993",
+          2
+        ],
+        [
+          "1980",
+          2
+        ],
+        [
+          "1969",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartYear2",
+      "code_friendly_name_guess": "startyear2",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "2023",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartYear3",
+      "code_friendly_name_guess": "startyear3",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CancelledYear",
+      "code_friendly_name_guess": "cancelledyear",
+      "n_total": 999,
+      "n_null": 996,
+      "n_non_null": 3,
+      "null_rate": 0.997,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "2023",
+          1
+        ],
+        [
+          "2018",
+          1
+        ],
+        [
+          "2017",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "DelayType",
+      "code_friendly_name_guess": "delaytype",
+      "n_total": 999,
+      "n_null": 995,
+      "n_non_null": 4,
+      "null_rate": 0.996,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "confirmed",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StopYear",
+      "code_friendly_name_guess": "stopyear",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2044",
+          1
+        ],
+        [
+          "2006",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ShelvedYear",
+      "code_friendly_name_guess": "shelvedyear",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2021",
+          1
+        ],
+        [
+          "2016",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity",
+      "code_friendly_name_guess": "capacity",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 145,
+      "top_values": [
+        [
+          "6,720.00",
+          4
+        ],
+        [
+          "500,000.00",
+          3
+        ],
+        [
+          "160,000.00",
+          3
+        ],
+        [
+          "9,960.00",
+          2
+        ],
+        [
+          "80,000.00",
+          2
+        ],
+        [
+          "75,800.00",
+          2
+        ],
+        [
+          "70,000.00",
+          2
+        ],
+        [
+          "7.46",
+          2
+        ],
+        [
+          "67,000.00",
+          2
+        ],
+        [
+          "60,000.00",
+          2
+        ],
+        [
+          "5,000.00",
+          2
+        ],
+        [
+          "400,000.00",
+          2
+        ],
+        [
+          "40,000.00",
+          2
+        ],
+        [
+          "30,000.00",
+          2
+        ],
+        [
+          "240,000.00",
+          2
+        ],
+        [
+          "24,000.00",
+          2
+        ],
+        [
+          "22,000.00",
+          2
+        ],
+        [
+          "20,000.00",
+          2
+        ],
+        [
+          "2.98",
+          2
+        ],
+        [
+          "17,160.00",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CapacityUnits",
+      "code_friendly_name_guess": "capacityunits",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "bpd",
+          113
+        ],
+        [
+          "mtpa",
+          36
+        ],
+        [
+          "m3/day",
+          13
+        ],
+        [
+          "m3/month",
+          6
+        ],
+        [
+          "thousand m3/year",
+          2
+        ],
+        [
+          "m3/year",
+          2
+        ],
+        [
+          "tn/h",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "CapacityBOEd",
+      "code_friendly_name_guess": "capacityboed",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 140,
+      "top_values": [
+        [
+          "--",
+          22
+        ],
+        [
+          "500000.0",
+          3
+        ],
+        [
+          "160000.0",
+          3
+        ],
+        [
+          "80000.0",
+          2
+        ],
+        [
+          "75800.0",
+          2
+        ],
+        [
+          "70000.0",
+          2
+        ],
+        [
+          "60000.0",
+          2
+        ],
+        [
+          "59844.93",
+          2
+        ],
+        [
+          "400000.0",
+          2
+        ],
+        [
+          "40000.0",
+          2
+        ],
+        [
+          "30000.0",
+          2
+        ],
+        [
+          "240000.0",
+          2
+        ],
+        [
+          "24000.0",
+          2
+        ],
+        [
+          "22000.0",
+          2
+        ],
+        [
+          "20000.0",
+          2
+        ],
+        [
+          "15000.0",
+          2
+        ],
+        [
+          "149813.15",
+          2
+        ],
+        [
+          "14400.0",
+          2
+        ],
+        [
+          "12000.0",
+          2
+        ],
+        [
+          "115000.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.8791,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "LengthKnown",
+      "code_friendly_name_guess": "lengthknown",
+      "n_total": 999,
+      "n_null": 820,
+      "n_non_null": 179,
+      "null_rate": 0.8208,
+      "n_unique": 152,
+      "top_values": [
+        [
+          "26.0",
+          3
+        ],
+        [
+          "230.0",
+          3
+        ],
+        [
+          "189.0",
+          3
+        ],
+        [
+          "130.0",
+          3
+        ],
+        [
+          "98.0",
+          2
+        ],
+        [
+          "72.0",
+          2
+        ],
+        [
+          "68.0",
+          2
+        ],
+        [
+          "471.0",
+          2
+        ],
+        [
+          "43.0",
+          2
+        ],
+        [
+          "425.0",
+          2
+        ],
+        [
+          "281.0",
+          2
+        ],
+        [
+          "267.0",
+          2
+        ],
+        [
+          "260.0",
+          2
+        ],
+        [
+          "180.0",
+          2
+        ],
+        [
+          "159.0",
+          2
+        ],
+        [
+          "156.0",
+          2
+        ],
+        [
+          "153.0",
+          2
+        ],
+        [
+          "150.0",
+          2
+        ],
+        [
+          "135.0",
+          2
+        ],
+        [
+          "123.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LengthKnownUnits",
+      "code_friendly_name_guess": "lengthknownunits",
+      "n_total": 999,
+      "n_null": 820,
+      "n_non_null": 179,
+      "null_rate": 0.8208,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "km",
+          177
+        ],
+        [
+          "mi",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LengthKnownKm",
+      "code_friendly_name_guess": "lengthknownkm",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 153,
+      "top_values": [
+        [
+          "26.0",
+          3
+        ],
+        [
+          "230.0",
+          3
+        ],
+        [
+          "189.0",
+          3
+        ],
+        [
+          "130.0",
+          3
+        ],
+        [
+          "--",
+          3
+        ],
+        [
+          "98.0",
+          2
+        ],
+        [
+          "72.0",
+          2
+        ],
+        [
+          "68.0",
+          2
+        ],
+        [
+          "471.0",
+          2
+        ],
+        [
+          "43.0",
+          2
+        ],
+        [
+          "425.0",
+          2
+        ],
+        [
+          "281.0",
+          2
+        ],
+        [
+          "267.0",
+          2
+        ],
+        [
+          "260.0",
+          2
+        ],
+        [
+          "180.0",
+          2
+        ],
+        [
+          "159.0",
+          2
+        ],
+        [
+          "156.0",
+          2
+        ],
+        [
+          "153.0",
+          2
+        ],
+        [
+          "150.0",
+          2
+        ],
+        [
+          "135.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.9835,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LengthEstimateKm",
+      "code_friendly_name_guess": "lengthestimatekm",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 155,
+      "top_values": [
+        [
+          "--",
+          17
+        ],
+        [
+          "99.51",
+          2
+        ],
+        [
+          "90.52",
+          2
+        ],
+        [
+          "615.6",
+          2
+        ],
+        [
+          "507.09",
+          2
+        ],
+        [
+          "484.24",
+          2
+        ],
+        [
+          "459.3",
+          2
+        ],
+        [
+          "261.59",
+          2
+        ],
+        [
+          "24.94",
+          2
+        ],
+        [
+          "206.07",
+          2
+        ],
+        [
+          "146.32",
+          2
+        ],
+        [
+          "131.47",
+          2
+        ],
+        [
+          "983.48",
+          1
+        ],
+        [
+          "97.88",
+          1
+        ],
+        [
+          "96.97",
+          1
+        ],
+        [
+          "96.81",
+          1
+        ],
+        [
+          "96.61",
+          1
+        ],
+        [
+          "94.52",
+          1
+        ],
+        [
+          "93.09",
+          1
+        ],
+        [
+          "88.24",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9066,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "numeric_null_proxies"
+      ]
+    },
+    {
+      "field_name": "LengthMergedKm",
+      "code_friendly_name_guess": "lengthmergedkm",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 155,
+      "top_values": [
+        [
+          "26.0",
+          3
+        ],
+        [
+          "230.0",
+          3
+        ],
+        [
+          "189.0",
+          3
+        ],
+        [
+          "130.0",
+          3
+        ],
+        [
+          "98.0",
+          2
+        ],
+        [
+          "72.0",
+          2
+        ],
+        [
+          "68.0",
+          2
+        ],
+        [
+          "471.0",
+          2
+        ],
+        [
+          "43.0",
+          2
+        ],
+        [
+          "425.0",
+          2
+        ],
+        [
+          "281.0",
+          2
+        ],
+        [
+          "267.0",
+          2
+        ],
+        [
+          "260.0",
+          2
+        ],
+        [
+          "180.0",
+          2
+        ],
+        [
+          "159.0",
+          2
+        ],
+        [
+          "156.0",
+          2
+        ],
+        [
+          "153.0",
+          2
+        ],
+        [
+          "150.0",
+          2
+        ],
+        [
+          "135.0",
+          2
+        ],
+        [
+          "123.0",
+          2
+        ]
+      ],
+      "portion_numeric": 0.9945,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Diameter [ref]",
+      "code_friendly_name_guess": "diameter_ref",
+      "n_total": 999,
+      "n_null": 945,
+      "n_non_null": 54,
+      "null_rate": 0.9459,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-705/NT-EPE-DPG-SDB-2022-05_PIO_2022.11.16.pdf",
+          10
+        ],
+        [
+          "https://cenit-transporte.com/poliductos/",
+          9
+        ],
+        [
+          "https://transpetro.com.br/transpetro-institucional/informacoes-legais/informacoes-em-atendimento-a-anp/dutos-e-terminais.htm",
+          6
+        ],
+        [
+          "https://www.eppetroecuador.ec/wp-content/uploads/downloads/2021/04/PGN-2020-aprobado.pdf",
+          4
+        ],
+        [
+          "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/zoneamento-nacional-de-recursos-de-oleo-e-gas-2017-2019",
+          2
+        ],
+        [
+          "https://sonacol.cl/operacion/",
+          2
+        ],
+        [
+          "https://mase.lmneuquen.com/vaca-muerta/oldelval-licitara-duplicar-norte-un-nuevo-oleoducto-vaca-muerta-n1093880",
+          2
+        ],
+        [
+          "https://cetesb.sp.gov.br/emergencias-quimicas/tipos-de-acidentes/dutos/dutos-no-estado-de-sao-paulo/",
+          2
+        ],
+        [
+          "https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2020/PDF2020/TP2020/1892-D-2020.pdf, https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_sectores/direccion_exploracion/jornada_sobre_transportepdf/presentaciones_empresas/transport_puros/comp_mega_sa.pdf ",
+          1
+        ],
+        [
+          "https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2020/PDF2020/TP2020/1892-D-2020.pdf",
+          1
+        ],
+        [
+          "https://www1.upme.gov.co/Hidrocarburos/publicaciones/Plan_liquidos_2018/Plan_de_Abastecimiento_de_Combustibles_Liquidos.pdf",
+          1
+        ],
+        [
+          "https://www.nustarenergy.com/Business/AssetSheets?assetid=PL_2PAISES&assettype=Pipeline",
+          1
+        ],
+        [
+          "https://www.minutoneuquen.com/neuquen/2023/5/26/neuquen-ya-envia-petroleo-de-vaca-muerta-chile-por-el-oleoducto-trasandino-332419.html ",
+          1
+        ],
+        [
+          "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_sectores/direccion_exploracion/jornada_sobre_transportepdf/presentaciones_empresas/transport_puros/oi_tanking_ebytem.pdf ",
+          1
+        ],
+        [
+          "https://www.energia.gob.ar/contenidos/archivos/Reorganizacion/informacion_sectores/direccion_exploracion/jornada_sobre_transportepdf/presentaciones_empresas/empresas_transportistas_integradas/ypf/direc_terminales_Ductos.pdf ",
+          1
+        ],
+        [
+          "https://www.boletinoficial.gob.ar/detalleAviso/primera/180447/20180320",
+          1
+        ],
+        [
+          "https://vacamuertanews.com/actualidad/oldelva-lanza-proyecto-duplicar-el-desarrollo-que-busca-duplicar-el-transporte-de-crudo.htm",
+          1
+        ],
+        [
+          "https://transpetro.com.br/lumis/portal/file/fileDownload.jsp?fileId=402890867DDE674B017E0B07CD74061E",
+          1
+        ],
+        [
+          "https://rein.umcc.cu/bitstream/handle/123456789/1175/TD15%20Rachel.pdf?sequence=1&isAllowed=y, https://rein.umcc.cu/bitstream/handle/123456789/1059/TD20%20Daniela.pdf?sequence=1&isAllowed=y  ",
+          1
+        ],
+        [
+          "https://mase.lmneuquen.com/shale-oil/vaca-muerta-sur-y-la-competitividad-del-crudo-medanito-punta-colorada-n1153291",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FuelSource",
+      "code_friendly_name_guess": "fuelsource",
+      "n_total": 999,
+      "n_null": 934,
+      "n_non_null": 65,
+      "null_rate": 0.9349,
+      "n_unique": 50,
+      "top_values": [
+        [
+          "Neuquén basin",
+          9
+        ],
+        [
+          "Loma Campana oil field",
+          3
+        ],
+        [
+          "Quintero terminal",
+          2
+        ],
+        [
+          "Neuquen basin",
+          2
+        ],
+        [
+          "Llanos basin in Colombia",
+          2
+        ],
+        [
+          "El Chorrillo Station",
+          2
+        ],
+        [
+          "Caño Limón (Arauca) Oil and Gas Field",
+          2
+        ],
+        [
+          "Velasquez Oil and Gas Field",
+          1
+        ],
+        [
+          "Varadero Oil Field",
+          1
+        ],
+        [
+          "Vaca muerta (several areas)",
+          1
+        ],
+        [
+          "Vaca Muerta shale fields",
+          1
+        ],
+        [
+          "Upper Magdalena Valley",
+          1
+        ],
+        [
+          "Shushufindi Oil Field",
+          1
+        ],
+        [
+          "Sardinas Oil Field",
+          1
+        ],
+        [
+          "San Jose de Saramuro, Andoas",
+          1
+        ],
+        [
+          "San Jose de Saramuro",
+          1
+        ],
+        [
+          "Rubiales, Pirirí and Quifa fields",
+          1
+        ],
+        [
+          "Replan Refinery",
+          1
+        ],
+        [
+          "Puesto Hernández oil field",
+          1
+        ],
+        [
+          "Puerto Rosales",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "FuelSource [ref]",
+      "code_friendly_name_guess": "fuelsource_ref",
+      "n_total": 999,
+      "n_null": 983,
+      "n_non_null": 16,
+      "null_rate": 0.984,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "https://www.eppetroecuador.ec/wp-content/uploads/downloads/2016/12/Petroecuador_Pascuales_FINAL_FINAL.pdf",
+          2
+        ],
+        [
+          "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/zoneamento-nacional-de-recursos-de-oleo-e-gas-2017-2019",
+          2
+        ],
+        [
+          "https://www.cmfchile.cl/documentos/cor/cor_2014120138328.pdf",
+          2
+        ],
+        [
+          "https://www.rumbominero.com/peru/noticias/hidrocarburos/ecuador-poliducto-shushufindi-quito/",
+          1
+        ],
+        [
+          "https://www.refinor.com/contenidos1/74/quienes-somos, https://www.argentina.gob.ar/ciencia/conae/educacion-y-formacion-masiva/materiales-educativos/campo-duran-salta-sentinel-2a-msi-4-de-noviembre-de-2016#:~:text=En%20Campo%20Dur%C3%A1n%20se%20encuentra,un%20gasoducto%20y%20un%20poliducto.  ",
+          1
+        ],
+        [
+          "https://www.ogj.com/home/article/17233948/argentinas-lpg-ngl-capacities-leap-with-completion-of-mega-project",
+          1
+        ],
+        [
+          "https://www.infobae.com/economia/2023/02/14/sierras-blancas-allen-inauguraron-un-oleoducto-que-permitira-dar-salida-al-aumento-de-produccion-de-vaca-muerta/",
+          1
+        ],
+        [
+          "https://www.bnamericas.com/en/news/argentinas-oldelval-planning-us1bn-oil-pipeline-project ",
+          1
+        ],
+        [
+          "https://www.ambiente.gba.gob.ar/ParticipacionCiudadana/EIA_CAMINOVERGARA_YPF.pdf ",
+          1
+        ],
+        [
+          "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1328_web.pdf",
+          1
+        ],
+        [
+          "https://transpetro.com.br/transpetro-institucional/informacoes-legais/informacoes-em-atendimento-a-anp/dutos-e-terminais.htm",
+          1
+        ],
+        [
+          "https://tnpetroleo.com.br/noticia/maior-poliduto-do-pais-completa-10-anos/",
+          1
+        ],
+        [
+          "https://ekosnegocios.com/articulo/visitamos-a-sistema-de-glp-monteverde-chorrillo",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartLocation",
+      "code_friendly_name_guess": "startlocation",
+      "n_total": 999,
+      "n_null": 821,
+      "n_non_null": 178,
+      "null_rate": 0.8218,
+      "n_unique": 126,
+      "top_values": [
+        [
+          "Nuevo Teapa",
+          8
+        ],
+        [
+          "Barrancabermeja",
+          6
+        ],
+        [
+          "Patio de Tanques Oficina, El Tigre",
+          5
+        ],
+        [
+          "Santos",
+          4
+        ],
+        [
+          "Puesto Hernández",
+          4
+        ],
+        [
+          "Potrerito",
+          3
+        ],
+        [
+          "Medanito",
+          3
+        ],
+        [
+          "El Tejero",
+          3
+        ],
+        [
+          "Camiri",
+          3
+        ],
+        [
+          "Allen",
+          3
+        ],
+        [
+          "Tía Juana",
+          2
+        ],
+        [
+          "São Sebastião",
+          2
+        ],
+        [
+          "Sutamarchán",
+          2
+        ],
+        [
+          "Río San Miguel",
+          2
+        ],
+        [
+          "Rondonópolis",
+          2
+        ],
+        [
+          "Puerto Salgar",
+          2
+        ],
+        [
+          "Puerto Berrío",
+          2
+        ],
+        [
+          "Poza Rica",
+          2
+        ],
+        [
+          "Offshore Mexico",
+          2
+        ],
+        [
+          "Loma La Lata",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartCountry",
+      "code_friendly_name_guess": "startcountry",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 15,
+      "top_values": [
+        [
+          "Colombia",
+          40
+        ],
+        [
+          "Argentina",
+          33
+        ],
+        [
+          "Brazil",
+          32
+        ],
+        [
+          "Venezuela",
+          26
+        ],
+        [
+          "Mexico",
+          15
+        ],
+        [
+          "Bolivia",
+          13
+        ],
+        [
+          "Ecuador",
+          8
+        ],
+        [
+          "Peru",
+          5
+        ],
+        [
+          "Panama",
+          2
+        ],
+        [
+          "Cuba",
+          2
+        ],
+        [
+          "Chile",
+          2
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States",
+          1
+        ],
+        [
+          "Trinidad and Tobago",
+          1
+        ],
+        [
+          "Guatemala",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartSubRegion",
+      "code_friendly_name_guess": "startsubregion",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          181
+        ],
+        [
+          "Northern America",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "StartRegion",
+      "code_friendly_name_guess": "startregion",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          182
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EndLocation",
+      "code_friendly_name_guess": "endlocation",
+      "n_total": 999,
+      "n_null": 819,
+      "n_non_null": 180,
+      "null_rate": 0.8198,
+      "n_unique": 119,
+      "top_values": [
+        [
+          "Cubatão",
+          6
+        ],
+        [
+          "Coveñas",
+          6
+        ],
+        [
+          "Allen",
+          6
+        ],
+        [
+          "Puerto La Cruz",
+          5
+        ],
+        [
+          "Barcelona",
+          5
+        ],
+        [
+          "Punta Loyola",
+          4
+        ],
+        [
+          "Araguaney",
+          4
+        ],
+        [
+          "Puesto Hernández",
+          3
+        ],
+        [
+          "Puerto Miranda",
+          3
+        ],
+        [
+          "Puerto Berrío",
+          3
+        ],
+        [
+          "Medanito",
+          3
+        ],
+        [
+          "Barrancabermeja",
+          3
+        ],
+        [
+          "Saramiriza",
+          2
+        ],
+        [
+          "Santa Cruz",
+          2
+        ],
+        [
+          "Salina Cruz",
+          2
+        ],
+        [
+          "Salamanca",
+          2
+        ],
+        [
+          "Rondonópolis",
+          2
+        ],
+        [
+          "Orito",
+          2
+        ],
+        [
+          "Offshore Mexico",
+          2
+        ],
+        [
+          "Monterrey",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EndPrefecture/District",
+      "code_friendly_name_guess": "endprefecture_district",
+      "n_total": 999,
+      "n_null": 988,
+      "n_non_null": 11,
+      "null_rate": 0.989,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Duque de Caixas",
+          3
+        ],
+        [
+          "Nueva Loja",
+          2
+        ],
+        [
+          "Reynosa",
+          1
+        ],
+        [
+          "Paranaguá",
+          1
+        ],
+        [
+          "Guamaré",
+          1
+        ],
+        [
+          "Cuenca",
+          1
+        ],
+        [
+          "Biobío",
+          1
+        ],
+        [
+          "Araucária",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EndCountry",
+      "code_friendly_name_guess": "endcountry",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 14,
+      "top_values": [
+        [
+          "Colombia",
+          40
+        ],
+        [
+          "Brazil",
+          32
+        ],
+        [
+          "Argentina",
+          32
+        ],
+        [
+          "Venezuela",
+          25
+        ],
+        [
+          "Mexico",
+          16
+        ],
+        [
+          "Bolivia",
+          12
+        ],
+        [
+          "Ecuador",
+          9
+        ],
+        [
+          "Peru",
+          5
+        ],
+        [
+          "Chile",
+          4
+        ],
+        [
+          "Panama",
+          2
+        ],
+        [
+          "Cuba",
+          2
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "Trinidad and Tobago",
+          1
+        ],
+        [
+          "Guatemala",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostUSD",
+      "code_friendly_name_guess": "costusd",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "--",
+          164
+        ],
+        [
+          "623000000.0",
+          2
+        ],
+        [
+          "357000000.0",
+          2
+        ],
+        [
+          "85000000.0",
+          1
+        ],
+        [
+          "75000000.0",
+          1
+        ],
+        [
+          "715000000.0",
+          1
+        ],
+        [
+          "6700000000.0",
+          1
+        ],
+        [
+          "560000000.0",
+          1
+        ],
+        [
+          "50000000.0",
+          1
+        ],
+        [
+          "3000000000.0",
+          1
+        ],
+        [
+          "250000000.0",
+          1
+        ],
+        [
+          "220000000.0",
+          1
+        ],
+        [
+          "190000000.0",
+          1
+        ],
+        [
+          "1650000000.0",
+          1
+        ],
+        [
+          "1300000000.0",
+          1
+        ],
+        [
+          "1200000000.0",
+          1
+        ],
+        [
+          "1000000000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0989,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:14_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "EndRegion",
+      "code_friendly_name_guess": "endregion",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          182
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostEuro",
+      "code_friendly_name_guess": "costeuro",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "--",
+          164
+        ],
+        [
+          "571559633.03",
+          2
+        ],
+        [
+          "327522935.78",
+          2
+        ],
+        [
+          "917431192.66",
+          1
+        ],
+        [
+          "77981651.38",
+          1
+        ],
+        [
+          "68807339.45",
+          1
+        ],
+        [
+          "655963302.75",
+          1
+        ],
+        [
+          "6146788990.83",
+          1
+        ],
+        [
+          "513761467.89",
+          1
+        ],
+        [
+          "45871559.63",
+          1
+        ],
+        [
+          "2752293577.98",
+          1
+        ],
+        [
+          "229357798.17",
+          1
+        ],
+        [
+          "201834862.39",
+          1
+        ],
+        [
+          "174311926.61",
+          1
+        ],
+        [
+          "1513761467.89",
+          1
+        ],
+        [
+          "1192660550.46",
+          1
+        ],
+        [
+          "1100917431.19",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0989,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:14_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "OtherLanguagePrimaryPipelineName",
+      "code_friendly_name_guess": "otherlanguageprimarypipelinename",
+      "n_total": 999,
+      "n_null": 844,
+      "n_non_null": 155,
+      "null_rate": 0.8448,
+      "n_unique": 142,
+      "top_values": [
+        [
+          "Sistema de Oleoductos OldelVal",
+          4
+        ],
+        [
+          "Oleoducto Norperuano",
+          3
+        ],
+        [
+          "Sistema de Oleoductos Oldelval",
+          2
+        ],
+        [
+          "Poliducto Puerto Salgar-Yumbo, Poliducto Salgar-Yumbo, ODECA",
+          2
+        ],
+        [
+          "Oleoducto Víbora-Sirari-Yapacaní-Humberto Suárez",
+          2
+        ],
+        [
+          "Oleoducto Vaca Muerta Sur",
+          2
+        ],
+        [
+          "Oleoducto Nuevo Teapa-Salina Cruz",
+          2
+        ],
+        [
+          "Oleoducto Nuevo Teapa-Minatitlán",
+          2
+        ],
+        [
+          "Oleoducto Madero-Cadereyta",
+          2
+        ],
+        [
+          "Oleoducto Bicentenario",
+          2
+        ],
+        [
+          "Sistema de Oleoductos Oldelval, Fase II, Proyecto Duplicar Plus",
+          1
+        ],
+        [
+          "Sistema de Oleoductos OldelVal, Oleoducto Medanito - Allen",
+          1
+        ],
+        [
+          "Sistema Estacionario de Transporte de Hidrocarburos",
+          1
+        ],
+        [
+          "Red de Oleoductos del Yacimiento Petrolífero Ku-Maloob-Zaap",
+          1
+        ],
+        [
+          "Red de Oleoductos del Yacimiento Cantarell",
+          1
+        ],
+        [
+          "Red de Oleoductos del Distrito Amazónico (RODA)",
+          1
+        ],
+        [
+          "Poliducto Sutamarchán-Tocancipá",
+          1
+        ],
+        [
+          "Poliducto Sutamarchán-Apiay",
+          1
+        ],
+        [
+          "Poliducto Sebastopol-Sutamarchán",
+          1
+        ],
+        [
+          "Poliducto Sebastopol-Salgar, Propanoducto Sebastopol-Salgar, Propanoducto Galán-Mansilla, Poliducto Galán-Mansilla",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "EndSubRegion",
+      "code_friendly_name_guess": "endsubregion",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          182
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "RouteType",
+      "code_friendly_name_guess": "routetype",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Mapped route (at any accuracy)",
+          182
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "RouteAccuracy",
+      "code_friendly_name_guess": "routeaccuracy",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "high",
+          87
+        ],
+        [
+          "medium",
+          42
+        ],
+        [
+          "low",
+          40
+        ],
+        [
+          "no route",
+          12
+        ],
+        [
+          "very high (within meters)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Cost",
+      "code_friendly_name_guess": "cost",
+      "n_total": 999,
+      "n_null": 981,
+      "n_non_null": 18,
+      "null_rate": 0.982,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "623000000",
+          2
+        ],
+        [
+          "357,000,000",
+          2
+        ],
+        [
+          "85000000.0",
+          1
+        ],
+        [
+          "75000000.0",
+          1
+        ],
+        [
+          "715000000",
+          1
+        ],
+        [
+          "6700000000.0",
+          1
+        ],
+        [
+          "560000000.0",
+          1
+        ],
+        [
+          "50000000.0",
+          1
+        ],
+        [
+          "3,000,000,000 ",
+          1
+        ],
+        [
+          "250,000,000 ",
+          1
+        ],
+        [
+          "220000000.0",
+          1
+        ],
+        [
+          "190,000,000.00",
+          1
+        ],
+        [
+          "1300000000.0",
+          1
+        ],
+        [
+          "1200000000.0",
+          1
+        ],
+        [
+          "1,650,000,000",
+          1
+        ],
+        [
+          "1,000,000,000.00",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CostUnits",
+      "code_friendly_name_guess": "costunits",
+      "n_total": 999,
+      "n_null": 981,
+      "n_non_null": 18,
+      "null_rate": 0.982,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "USD",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "LastUpdated",
+      "code_friendly_name_guess": "lastupdated",
+      "n_total": 999,
+      "n_null": 817,
+      "n_non_null": 182,
+      "null_rate": 0.8178,
+      "n_unique": 43,
+      "top_values": [
+        [
+          "2023-03-31",
+          15
+        ],
+        [
+          "2023-03-24",
+          13
+        ],
+        [
+          "2023-03-17",
+          11
+        ],
+        [
+          "2023-03-09",
+          11
+        ],
+        [
+          "2023-03-15",
+          10
+        ],
+        [
+          "2023-03-29",
+          9
+        ],
+        [
+          "2023-03-07",
+          9
+        ],
+        [
+          "2024-02-05",
+          7
+        ],
+        [
+          "2023-03-16",
+          7
+        ],
+        [
+          "2023-03-14",
+          7
+        ],
+        [
+          "2023-03-10",
+          7
+        ],
+        [
+          "2023-03-13",
+          6
+        ],
+        [
+          "2025-01-13",
+          5
+        ],
+        [
+          "2025-01-10",
+          5
+        ],
+        [
+          "2025-01-07",
+          5
+        ],
+        [
+          "2024-03-13",
+          5
+        ],
+        [
+          "2024-01-29",
+          5
+        ],
+        [
+          "2024-03-12",
+          4
+        ],
+        [
+          "2025-01-03",
+          3
+        ],
+        [
+          "2024-02-22",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "geometry",
+      "code_friendly_name_guess": "geometry",
+      "n_total": 999,
+      "n_null": 818,
+      "n_non_null": 181,
+      "null_rate": 0.8188,
+      "n_unique": 158,
+      "top_values": [
+        [
+          "GEOMETRYCOLLECTION EMPTY",
+          12
+        ],
+        [
+          "MULTILINESTRING ((-68.425363 -37.725656, -68.425358 -37.725659, -68.425356 -37.72566, -68.425351 -37.725663, -68.425335 -37.725672, -68.42533 -37.725674, -68.42528 -37.7257, -68.425187 -37.725749, -68.425076 -37.725808, -68.424968 -37.725867, -68.424873 -37.725917, -68.424764 -37.725973, -68.424653 -37.726031, -68.424544 -37.72609, -68.424433 -37.726149, -68.424319 -37.726208, -68.424206 -37.726266, -68.4241 -37.726323, -68.423998 -37.726377, -68.423886 -37.726435, -68.423774 -37.726492, -68.423665 -37.72655, -68.423564 -37.726605, -68.423452 -37.726663, -68.423337 -37.726723, -68.423227 -37.726782, -68.423113 -37.726842, -68.422998 -37.726901, -68.422886 -37.726959, -68.422781 -37.727015, -68.422707 -37.727055, -68.422595 -37.727114, -68.422484 -37.727171, -68.422406 -37.727212, -68.422298 -37.727271, -68.422186 -37.72733, -68.422071 -37.72739, -68.42196 -37.72745, -68.421856 -37.727506, -68.421743 -37.727566, -68.421636 -37.727621, -68.421526 -37.72768, -68.421411 -37.727741, -68.421299 -37.727799, -68.421184 -37.727858, -68.421072 -37.727917, -68.420987 -37.727964, -68.420962 -37.727977, -68.420858 -37.728032, -68.420744 -37.728091, -68.420637 -37.728149, -68.42053 -37.728207, -68.420418 -37.728264, -68.420332 -37.728309, -68.420233 -37.72836, -68.420157 -37.728401, -68.420055 -37.728456, -68.419945 -37.728515, -68.419834 -37.728572, -68.419728 -37.72863, -68.419619 -37.728688, -68.419508 -37.728745, -68.419417 -37.728793, -68.41931 -37.728851, -68.419208 -37.728906, -68.419134 -37.728946, -68.419026 -37.729002, -68.418912 -37.729062, -68.418801 -37.729123, -68.418689 -37.729182, -68.418591 -37.729234, -68.418479 -37.729294, -68.418374 -37.72935, -68.418273 -37.729404, -68.418168 -37.729457, -68.418066 -37.729511, -68.417965 -37.729565, -68.417881 -37.729612, -68.417767 -37.729671, -68.417656 -37.729728, -68.417544 -37.729788, -68.417443 -37.729842, -68.41733 -37.7299, -68.417217 -37.72996, -68.417113 -37.730016, -68.417001 -37.730076, -68.416902 -37.730127, -68.416798 -37.730182, -68.416687 -37.730242, -68.416574 -37.730302, -68.41646 -37.730362, -68.416345 -37.730421, -68.416238 -37.730479, -68.416129 -37.730538, -68.416018 -37.730596, -68.415904 -37.730654, -68.415802 -37.730709, -68.415691 -37.730768, -68.415578 -37.730827, -68.415465 -37.730886, -68.415434 -37.730904, -68.415323 -37.730964, -68.415214 -37.731022, -68.415101 -37.731081, -68.414998 -37.731136, -68.41489 -37.731195, -68.414802 -37.731242, -68.41469 -37.731301, -68.414584 -37.731357, -68.41447 -37.731419, -68.41436 -37.731478, -68.414247 -37.731536, -68.414134 -37.731596, -68.414021 -37.731656, -68.413918 -37.731712, -68.413807 -37.73177, -68.413733 -37.731809, -68.413622 -37.731868, -68.413535 -37.731914, -68.413429 -37.73197, -68.413333 -37.732021, -68.413222 -37.73208, -68.41312 -37.732135, -68.413057 -37.732169, -68.413002 -37.732197, -68.412895 -37.732252, -68.412783 -37.732311, -68.412687 -37.732364, -68.412577 -37.732422, -68.41247 -37.732478, -68.412357 -37.732539, -68.412248 -37.732598, -68.41214 -37.732655, -68.412034 -37.732709, -68.411924 -37.732767, -68.411816 -37.732825, -68.411712 -37.732881, -68.411607 -37.732936, -68.411553 -37.732964, -68.411496 -37.732994, -68.411384 -37.733055, -68.411273 -37.733114, -68.411169 -37.733168, -68.411055 -37.733228, -68.410962 -37.733277, -68.410856 -37.733335, -68.410743 -37.733394, -68.410636 -37.73345, -68.410523 -37.733512, -68.410412 -37.733572, -68.410301 -37.733631, -68.410198 -37.733684, -68.410084 -37.733744, -68.409979 -37.7338, -68.409887 -37.733848, -68.409785 -37.733903, -68.409675 -37.733962, -68.409564 -37.734023, -68.409452 -37.734082, -68.409351 -37.734133, -68.409238 -37.734192, -68.409135 -37.734249, -68.409046 -37.734297, -68.408968 -37.734337, -68.408856 -37.734396, -68.408758 -37.734448, -68.408676 -37.734492, -68.408561 -37.734552, -68.408471 -37.734599, -68.408363 -37.734657, -68.408258 -37.734714, -68.408154 -37.734769, -68.408041 -37.734829, -68.407928 -37.734889, -68.407821 -37.734947, -68.407707 -37.735007, -68.407602 -37.735062, -68.407491 -37.73512, -68.407396 -37.735171, -68.407285 -37.735231, -68.407179 -37.735286, -68.407065 -37.735345, -68.40696 -37.735401, -68.406848 -37.735462, -68.406737 -37.735521, -68.406624 -37.735581, -68.406512 -37.735641, -68.406397 -37.735702, -68.406292 -37.735757, -68.406192 -37.735809, -68.406093 -37.735862, -68.405979 -37.735924, -68.405868 -37.735982, -68.405756 -37.736041, -68.405645 -37.736101, -68.405539 -37.736158, -68.405429 -37.736215, -68.405322 -37.736271, -68.405214 -37.736329, -68.405107 -37.736388, -68.404994 -37.736447, -68.40488 -37.736505, -68.404769 -37.736565, -68.40466 -37.736624, -68.404551 -37.736681, -68.404446 -37.736736, -68.40437 -37.736777, -68.404261 -37.736836, -68.404156 -37.736892, -68.404055 -37.736944, -68.403944 -37.737002, -68.403848 -37.737054, -68.403734 -37.737116, -68.403622 -37.737176, -68.403515 -37.737231, -68.403408 -37.737288, -68.403295 -37.737349, -68.403192 -37.737404, -68.403077 -37.737464, -68.402963 -37.737525, -68.402856 -37.737582, -68.402745 -37.73764, -68.402634 -37.737699, -68.402526 -37.737756, -68.402419 -37.737816, -68.402315 -37.737872, -68.402204 -37.73793, -68.402123 -37.737971, -68.402087 -37.73799, -68.401979 -37.738048, -68.401874 -37.738104, -68.401764 -37.738161, -68.401662 -37.738214, -68.401549 -37.738274, -68.401438 -37.738333, -68.401408 -37.738349, -68.401302 -37.738404, -68.40119 -37.738462, -68.401081 -37.738521, -68.400969 -37.738582, -68.400864 -37.738637, -68.400761 -37.73869, -68.400672 -37.738737, -68.40056 -37.738796, -68.400451 -37.738854, -68.400344 -37.738909, -68.400233 -37.738968, -68.400132 -37.739022, -68.400019 -37.739082, -68.399909 -37.739139, -68.399809 -37.73919, -68.399704 -37.739247, -68.399595 -37.739307, -68.399488 -37.739365, -68.399387 -37.739418, -68.399289 -37.739469, -68.399176 -37.739528, -68.399076 -37.739581, -68.398964 -37.739639, -68.398849 -37.7397, -68.398737 -37.739761, -68.39863 -37.73982, -68.398518 -37.739879, -68.398406 -37.739938, -68.3983 -37.739994, -68.39819 -37.740056, -68.398083 -37.740114, -68.397971 -37.740171, -68.397858 -37.74023, -68.397749 -37.740287, -68.397641 -37.740344, -68.397532 -37.7404, -68.397423 -37.740458, -68.397312 -37.740519, -68.397208 -37.740574, -68.3971 -37.74063, -68.396992 -37.740686, -68.396887 -37.740742, -68.396779 -37.740801, -68.396665 -37.740861, -68.396555 -37.740919, -68.396447 -37.740976, -68.396365 -37.741019, -68.396253 -37.741077, -68.396145 -37.741133, -68.396039 -37.74119, -68.395928 -37.741249, -68.395818 -37.741308, -68.395706 -37.741367, -68.395593 -37.741428, -68.39549 -37.741483, -68.395379 -37.74154, -68.395269 -37.741595, -68.395162 -37.741651, -68.395057 -37.741708, -68.39495 -37.741766, -68.394842 -37.741825, -68.394735 -37.741882, -68.394625 -37.741942, -68.394514 -37.742002, -68.394405 -37.742059, -68.394302 -37.742112, -68.394198 -37.742168, -68.394088 -37.742227, -68.393976 -37.742285, -68.39388 -37.742335, -68.393768 -37.742396, -68.393674 -37.742447, -68.393568 -37.742504, -68.393459 -37.742561, -68.393347 -37.74262, -68.393243 -37.742677, -68.393131 -37.742737, -68.393019 -37.742795, -68.392906 -37.742854, -68.3928 -37.74291, -68.392689 -37.742969, -68.392686 -37.74297, -68.392573 -37.743029, -68.392461 -37.743089, -68.392357 -37.743146, -68.392249 -37.743205, -68.392143 -37.74326, -68.392034 -37.743316, -68.391924 -37.743374, -68.39182 -37.743431, -68.391714 -37.743487, -68.391601 -37.743545, -68.391497 -37.743601, -68.39139 -37.743658, -68.391286 -37.743713, -68.391174 -37.743772, -68.391073 -37.743824, -68.390966 -37.743882, -68.390861 -37.743938, -68.390748 -37.743997, -68.390638 -37.744055, -68.390536 -37.744111, -68.390437 -37.744164, -68.390327 -37.74422, -68.390233 -37.744268, -68.390119 -37.74433, -68.39001 -37.744389, -68.389899 -37.744448, -68.389787 -37.744506, -68.389685 -37.74456, -68.389592 -37.74461, -68.389499 -37.74466, -68.389397 -37.744715, -68.389285 -37.744773, -68.389188 -37.744825, -68.389085 -37.744879, -68.388972 -37.744938, -68.38886 -37.744996, -68.388748 -37.745056, -68.388639 -37.745115, -68.38854 -37.745168, -68.388431 -37.745225, -68.388315 -37.745285, -68.388202 -37.745346, -68.388096 -37.745402, -68.38799 -37.745458, -68.387886 -37.745513, -68.387774 -37.745575, -68.387668 -37.745632, -68.387556 -37.74569, -68.387445 -37.745747, -68.387333 -37.745807, -68.387228 -37.745863, -68.387117 -37.745922, -68.387005 -37.745981, -68.386896 -37.746039, -68.386785 -37.746099, -68.386676 -37.746156, -68.386564 -37.746215, -68.386451 -37.746276, -68.386346 -37.746333, -68.38624 -37.746389, -68.386132 -37.746445, -68.386023 -37.746503, -68.385913 -37.746562, -68.3858 -37.746622, -68.38572 -37.746663, -68.385615 -37.746718, -68.385504 -37.746778, -68.385392 -37.746838, -68.385282 -37.746896, -68.385179 -37.746949, -68.385074 -37.747005, -68.384962 -37.747065, -68.38485 -37.747125, -68.384736 -37.747184, -68.38463 -37.74724, -68.384525 -37.747296, -68.384416 -37.747354, -68.384305 -37.747413, -68.384207 -37.747464, -68.384097 -37.747522, -68.383992 -37.747578, -68.383887 -37.747633, -68.383788 -37.747686, -68.383684 -37.747741, -68.383573 -37.747802, -68.38346 -37.747862, -68.38335 -37.747918, -68.383249 -37.747972, -68.383243 -37.747975, -68.383144 -37.748029, -68.383038 -37.748086, -68.382926 -37.748145, -68.382813 -37.748204, -68.382698 -37.748266, -68.382586 -37.748327, -68.382471 -37.748386, -68.382362 -37.748442, -68.382248 -37.748504, -68.38215 -37.748557, -68.382036 -37.748616, -68.381931 -37.74867, -68.381821 -37.748728, -68.381714 -37.748785, -68.381612 -37.748839, -68.381498 -37.7489, -68.381386 -37.748959, -68.381281 -37.749017, -68.381169 -37.749075, -68.38107 -37.749126, -68.380962 -37.749182, -68.380871 -37.749231, -68.380772 -37.749284, -68.380658 -37.749343, -68.38055 -37.749401, -68.380444 -37.749459, -68.380337 -37.749518, -68.380223 -37.749577, -68.380111 -37.749635, -68.38 -37.749694, -68.379889 -37.749754, -68.379815 -37.749792, -68.379704 -37.74985, -68.3796 -37.749905, -68.379493 -37.749962, -68.379381 -37.750021, -68.379268 -37.750079, -68.379187 -37.750121, -68.379077 -37.750181, -68.379001 -37.750222, -68.378896 -37.750278, -68.378811 -37.750323, -68.378706 -37.750379, -68.378605 -37.750434, -68.378502 -37.750489, -68.378391 -37.750546, -68.378289 -37.750599, -68.378176 -37.750659, -68.378065 -37.750718, -68.377957 -37.750775, -68.377848 -37.750833, -68.37774 -37.750892, -68.377626 -37.750953, -68.377518 -37.751009, -68.377405 -37.751068, -68.377296 -37.751126, -68.377185 -37.751184, -68.377076 -37.75124, -68.376974 -37.751294, -68.376867 -37.751351, -68.376754 -37.751411, -68.376652 -37.751464, -68.376542 -37.751522, -68.376432 -37.751582, -68.376323 -37.751641, -68.376229 -37.75169, -68.376122 -37.751745, -68.376012 -37.751803, -68.375903 -37.751862, -68.37579 -37.751922, -68.37568 -37.751979, -68.375606 -37.752019, -68.3755 -37.752076, -68.375395 -37.752132, -68.375283 -37.75219, -68.375204 -37.752231, -68.375092 -37.752291, -68.374988 -37.752348, -68.374883 -37.752404, -68.374775 -37.752461, -68.374664 -37.75252, -68.374595 -37.752556, -68.374493 -37.752609, -68.374423 -37.752645, -68.374314 -37.752702, -68.37424 -37.752742, -68.374129 -37.752802, -68.374069 -37.752834, -68.373957 -37.752894, -68.373863 -37.752943, -68.373812 -37.752971, -68.373751 -37.753004, -68.373643 -37.753062, -68.37353 -37.75312, -68.373423 -37.753175, -68.373313 -37.753233, -68.373204 -37.753292, -68.373094 -37.75335, -68.372982 -37.753408, -68.372874 -37.753466, -68.372767 -37.753524, -68.372654 -37.753584, -68.37254 -37.753644, -68.372426 -37.753704, -68.372317 -37.753762, -68.372226 -37.75381, -68.372112 -37.753869, -68.372001 -37.753928, -68.371908 -37.753978, -68.371796 -37.754037, -68.371683 -37.754096, -68.371579 -37.754151, -68.371474 -37.754208, -68.371368 -37.754265, -68.371256 -37.754323, -68.371156 -37.754375, -68.371046 -37.754434, -68.370933 -37.754495, -68.37082 -37.754554, -68.37071 -37.754612, -68.370598 -37.754671, -68.370486 -37.754732, -68.370385 -37.754784, -68.370273 -37.754842, -68.370171 -37.754896, -68.370062 -37.754955, -68.369972 -37.755003, -68.369859 -37.755062, -68.369751 -37.755119, -68.369641 -37.755178, -68.36953 -37.755238, -68.369417 -37.755297, -68.369329 -37.755342, -68.369226 -37.755397, -68.369151 -37.755437, -68.369042 -37.755495, -68.368947 -37.755545, -68.368835 -37.755603, -68.368751 -37.755648, -68.36864 -37.755708, -68.368527 -37.755766, -68.368419 -37.755822, -68.368308 -37.755882, -68.368237 -37.755921, -68.36813 -37.755977, -68.368017 -37.756036, -68.367908 -37.756093, -68.367803 -37.75615, -68.367693 -37.756209, -68.367588 -37.756263, -68.367478 -37.75632, -68.367366 -37.756381, -68.36727 -37.756433, -68.367154 -37.756493, -68.36705 -37.756546, -68.366947 -37.756601, -68.366838 -37.75666, -68.366728 -37.756718, -68.366623 -37.756773, -68.366522 -37.756826, -68.366421 -37.756881, -68.366327 -37.756932, -68.366216 -37.756989, -68.366113 -37.757043, -68.365998 -37.757105, -68.365886 -37.757164, -68.365794 -37.757213, -68.365682 -37.757271, -68.36557 -37.757331, -68.365478 -37.75738, -68.36539 -37.757426, -68.365278 -37.757485, -68.365168 -37.757542, -68.365056 -37.757603, -68.364945 -37.757663, -68.364835 -37.757721, -68.364724 -37.75778, -68.364641 -37.757824, -68.36455 -37.757872, -68.36446 -37.757919, -68.364372 -37.757965, -68.364359 -37.757972, -68.36427 -37.75802, -68.364185 -37.758066, -68.364075 -37.758125, -68.363965 -37.758183, -68.363857 -37.758239, -68.363756 -37.758293, -68.363644 -37.758353, -68.36353 -37.758413, -68.363421 -37.758471, -68.363315 -37.758527, -68.363205 -37.758586, -68.3631 -37.758641, -68.362988 -37.758699, -68.362879 -37.758759, -68.362766 -37.758819, -68.362661 -37.758874, -68.362552 -37.75893, -68.362448 -37.758987, -68.362337 -37.759047, -68.36223 -37.759104, -68.362125 -37.759158, -68.362018 -37.759214, -68.361908 -37.759273, -68.361801 -37.75933, -68.361688 -37.759389, -68.361576 -37.759448, -68.361462 -37.759509, -68.361359 -37.759563, -68.361271 -37.759609, -68.361196 -37.759649, -68.361086 -37.759708, -68.360975 -37.759767, -68.360865 -37.759825, -68.360751 -37.759885, -68.360641 -37.759943, -68.360532 -37.760002, -68.360448 -37.760046, -68.360366 -37.760089, -68.360252 -37.760149, -68.360173 -37.760192, -68.360069 -37.760248, -68.359957 -37.760307, -68.359871 -37.760352, -68.359768 -37.760407, -68.359655 -37.760467, -68.359542 -37.760525, -68.359437 -37.760579, -68.359323 -37.76064, -68.359212 -37.760699, -68.359102 -37.760757, -68.358996 -37.760813, -68.358891 -37.760868, -68.35878 -37.760928, -68.358676 -37.760983, -68.358566 -37.76104, -68.358454 -37.761098, -68.35835 -37.761154, -68.358248 -37.761209, -68.35815 -37.761261, -68.35804 -37.761318, -68.357926 -37.761378, -68.35782 -37.761435, -68.357715 -37.76149, -68.357635 -37.761531, -68.357524 -37.76159, -68.357415 -37.761649, -68.357306 -37.761707, -68.357193 -37.761766, -68.35708 -37.761824, -68.356968 -37.761884, -68.356858 -37.761942, -68.356746 -37.762, -68.356638 -37.762057, -68.356526 -37.762117, -68.356427 -37.76217, -68.356331 -37.76222, -68.356222 -37.762277, -68.356111 -37.762336, -68.355998 -37.762397, -68.355886 -37.762455, -68.355778 -37.762512, -68.355678 -37.762565, -68.355566 -37.762625, -68.355476 -37.762673, -68.355369 -37.762728, -68.355279 -37.762775, -68.355172 -37.762832, -68.355064 -37.76289, -68.354984 -37.762932, -68.354922 -37.762964, -68.354886 -37.762983, -68.354778 -37.763039, -68.354669 -37.763098, -68.354558 -37.763157, -68.354455 -37.763211, -68.354342 -37.763271, -68.354251 -37.76332, -68.354141 -37.763378, -68.354032 -37.763435, -68.353942 -37.763482, -68.353838 -37.763538, -68.353742 -37.76359, -68.353627 -37.76365, -68.353574 -37.763678, -68.353479 -37.763726, -68.353365 -37.763786, -68.353252 -37.763847, -68.353153 -37.7639, -68.353077 -37.76394, -68.352985 -37.763988, -68.352878 -37.764045, -68.352784 -37.764095, -68.352676 -37.764152, -68.352568 -37.764208, -68.352497 -37.764245, -68.352388 -37.764305, -68.352292 -37.764357, -68.352191 -37.764409, -68.352083 -37.764466, -68.351973 -37.764524, -68.351864 -37.764582, -68.351754 -37.76464, -68.351653 -37.764693, -68.351549 -37.764748, -68.351473 -37.764789, -68.351364 -37.764847, -68.351252 -37.764905, -68.35115 -37.764959, -68.351056 -37.765009, -68.350948 -37.765068, -68.350835 -37.765127, -68.350722 -37.765186, -68.350612 -37.765245, -68.350516 -37.765297, -68.350436 -37.765339, -68.35033 -37.765395, -68.350232 -37.765446, -68.350132 -37.765499, -68.350052 -37.765542, -68.349956 -37.765593, -68.34986 -37.765643, -68.349749 -37.765701, -68.349636 -37.765762, -68.349524 -37.765823, -68.349417 -37.765879, -68.349314 -37.765932, -68.349201 -37.765992, -68.349096 -37.766048, -68.348982 -37.766109, -68.348868 -37.766168, -68.348756 -37.766228, -68.348665 -37.766277, -68.348563 -37.766331, -68.348456 -37.766387, -68.348346 -37.766444, -68.34823 -37.766506, -68.348119 -37.766566, -68.348009 -37.766623, -68.347898 -37.766681, -68.34779 -37.76674, -68.347679 -37.766799, -68.347566 -37.766858, -68.34746 -37.766914, -68.347348 -37.766974, -68.347244 -37.76703, -68.347137 -37.767086, -68.347026 -37.767142, -68.346912 -37.767201, -68.346801 -37.767261, -68.346688 -37.767322, -68.346576 -37.76738, -68.346462 -37.767439, -68.346353 -37.767498, -68.346248 -37.767554, -68.346168 -37.767595, -68.34607 -37.767643, -68.345964 -37.7677, -68.345853 -37.76776, -68.34574 -37.767821, -68.345625 -37.76788, -68.345513 -37.767938, -68.345468 -37.767962, -68.3454 -37.767998, -68.345287 -37.768059, -68.345178 -37.768116, -68.345066 -37.768175, -68.344958 -37.768233, -68.344855 -37.768289, -68.344744 -37.768348, -68.344639 -37.768404, -68.344536 -37.76846, -68.344424 -37.768521, -68.344315 -37.768578, -68.344201 -37.768638, -68.344089 -37.768697, -68.343977 -37.768757, -68.343866 -37.768816, -68.343752 -37.768875, -68.343649 -37.76893, -68.34354 -37.768988, -68.34343 -37.769046, -68.343327 -37.7691, -68.343216 -37.769159, -68.343106 -37.769218, -68.342993 -37.769278, -68.342886 -37.769334, -68.342778 -37.76939, -68.342665 -37.769451, -68.342555 -37.769509, -68.342496 -37.76954, -68.342386 -37.769597, -68.342315 -37.769634, -68.342204 -37.769693, -68.342099 -37.76975, -68.342067 -37.769767, -68.341955 -37.769825, -68.341845 -37.769882, -68.341775 -37.76992, -68.341673 -37.769975, -68.34161 -37.770008, -68.3415 -37.770066, -68.341422 -37.770107, -68.341311 -37.770166, -68.341199 -37.770227, -68.341087 -37.770286, -68.340988 -37.770338, -68.340875 -37.770397, -68.340802 -37.770436, -68.340689 -37.770495, -68.340626 -37.770528, -68.340516 -37.770586, -68.340442 -37.770625, -68.340339 -37.770681, -68.340268 -37.770719, -68.340153 -37.770779, -68.340039 -37.770838, -68.339927 -37.770897, -68.339815 -37.770957, -68.339706 -37.771015, -68.339593 -37.771074, -68.33948 -37.771134, -68.339367 -37.771194, -68.339255 -37.771254, -68.339143 -37.771313, -68.339028 -37.771373, -68.338916 -37.771434, -68.338806 -37.771492, -68.338693 -37.771551, -68.338597 -37.771601, -68.338485 -37.77166, -68.338373 -37.77172, -68.338265 -37.771776, -68.338151 -37.771837, -68.338041 -37.771896, -68.337928 -37.771957, -68.337823 -37.772011, -68.337713 -37.772069, -68.337601 -37.77213, -68.337489 -37.772191, -68.337375 -37.77225, -68.337273 -37.772303, -68.33716 -37.772362, -68.337057 -37.772417, -68.336941 -37.772479, -68.336831 -37.772536, -68.336716 -37.772598, -68.33661 -37.772656, -68.336508 -37.772709, -68.336402 -37.772763, -68.336292 -37.77282, -68.336189 -37.772875, -68.336091 -37.772929, -68.336027 -37.772962, -68.335985 -37.772984, -68.335889 -37.773035, -68.335786 -37.773089, -68.3357 -37.773134, -68.335597 -37.773188, -68.335487 -37.773245, -68.335401 -37.77329, -68.335297 -37.773346, -68.335185 -37.773406, -68.335072 -37.773465, -68.334958 -37.773524, -68.334844 -37.773584, -68.334733 -37.773643, -68.334621 -37.773702, -68.33451 -37.77376, -68.334399 -37.773819, -68.334286 -37.77388, -68.334178 -37.773936, -68.334073 -37.773991, -68.333963 -37.774049, -68.333854 -37.774107, -68.333748 -37.774164, -68.333649 -37.774215, -68.333534 -37.774276, -68.333439 -37.774326, -68.33335 -37.774374, -68.333258 -37.774422, -68.333151 -37.774478, -68.333041 -37.774535, -68.33294 -37.774589, -68.332835 -37.774646, -68.33273 -37.7747, -68.332616 -37.774759, -68.332508 -37.774816, -68.332428 -37.77486, -68.332353 -37.7749, -68.332242 -37.774958, -68.332166 -37.774997, -68.332061 -37.775053, -68.331951 -37.775113, -68.331847 -37.775168, -68.331736 -37.775226, -68.331631 -37.77528, -68.331531 -37.775334, -68.331444 -37.775381, -68.331355 -37.775428, -68.331238 -37.775488, -68.331158 -37.77553, -68.331055 -37.775585, -68.330973 -37.775629, -68.330861 -37.775687, -68.330748 -37.775747, -68.330649 -37.7758, -68.330538 -37.77586, -68.330427 -37.775919, -68.330315 -37.775977, -68.330199 -37.776037, -68.330093 -37.776093, -68.329988 -37.776149, -68.329896 -37.776198, -68.329785 -37.776257, -68.329682 -37.776313, -68.329571 -37.776373, -68.329464 -37.776429, -68.329359 -37.776483, -68.329259 -37.776536, -68.329147 -37.776595, -68.329038 -37.776653, -68.328922 -37.776714, -68.328822 -37.776766, -68.328715 -37.776823, -68.328602 -37.776884, -68.328495 -37.776939, -68.328381 -37.776999, -68.328277 -37.777053, -68.328165 -37.777113, -68.328057 -37.777171, -68.327945 -37.777229, -68.327841 -37.777285, -68.327727 -37.777346, -68.327616 -37.777404, -68.327521 -37.777453, -68.327416 -37.777509, -68.327307 -37.777567, -68.327204 -37.777622, -68.327094 -37.777681, -68.326984 -37.777738, -68.326867 -37.777801, -68.326778 -37.777849, -68.326668 -37.777907, -68.326579 -37.777953, -68.326559 -37.777963, -68.326454 -37.778018, -68.326421 -37.778035, -68.326314 -37.778093, -68.326203 -37.778152, -68.326091 -37.77821, -68.326004 -37.778256, -68.325891 -37.778316, -68.325779 -37.778374, -68.325669 -37.778432, -68.325558 -37.778491, -68.325446 -37.778552, -68.325334 -37.778612, -68.325234 -37.778665, -68.325123 -37.778723, -68.325014 -37.778781, -68.324904 -37.778839, -68.3248 -37.778894, -68.324687 -37.778952, -68.324574 -37.779012, -68.324464 -37.779071, -68.324349 -37.779132, -68.324243 -37.779187, -68.32414 -37.779242, -68.324036 -37.779298, -68.323936 -37.779351, -68.323829 -37.779406, -68.323717 -37.779465, -68.323605 -37.779525, -68.323498 -37.779582, -68.323394 -37.779636, -68.323289 -37.77969, -68.323178 -37.779749, -68.323068 -37.779808, -68.322978 -37.779855, -68.322897 -37.779898, -68.322787 -37.779956, -68.322676 -37.780016, -68.322572 -37.780071, -68.322462 -37.780129, -68.322358 -37.780184, -68.322261 -37.780236, -68.322149 -37.780295, -68.322036 -37.780354, -68.321942 -37.780403, -68.321867 -37.780442, -68.321786 -37.780486, -68.32168 -37.780543, -68.321591 -37.78059, -68.321478 -37.78065, -68.32137 -37.780708, -68.321258 -37.78077, -68.321145 -37.780829, -68.321035 -37.780886, -68.320926 -37.780944, -68.320816 -37.781003, -68.320702 -37.781063, -68.320597 -37.781119, -68.320486 -37.781178, -68.32038 -37.781235, -68.320282 -37.781286, -68.320168 -37.781344, -68.320052 -37.781404, -68.319943 -37.781462, -68.319832 -37.781521, -68.319722 -37.781577, -68.319619 -37.781632, -68.31951 -37.781691, -68.319405 -37.781748, -68.319294 -37.781807, -68.31919 -37.781862, -68.319078 -37.781921, -68.318964 -37.781981, -68.318851 -37.78204, -68.318742 -37.782097, -68.318631 -37.782157, -68.318522 -37.782217, -68.318422 -37.782269, -68.318317 -37.782323, -68.318204 -37.782383, -68.318099 -37.782439, -68.318015 -37.782484, -68.317905 -37.782542, -68.317796 -37.7826, -68.31769 -37.782656, -68.317577 -37.782716, -68.317465 -37.782774, -68.317377 -37.78282, -68.317266 -37.78288, -68.317181 -37.782926, -68.317137 -37.782949, -68.317095 -37.782971, -68.317033 -37.783004, -68.316924 -37.783062, -68.316814 -37.78312, -68.316727 -37.783165, -68.316615 -37.783221, -68.316502 -37.78328, -68.31639 -37.78334, -68.316279 -37.783401, -68.316169 -37.783459, -68.316056 -37.783519, -68.315944 -37.783578, -68.315835 -37.783636, -68.315722 -37.783694, -68.315609 -37.783751, -68.315496 -37.783812, -68.315389 -37.78387, -68.315277 -37.78393, -68.315163 -37.78399, -68.315051 -37.78405, -68.314939 -37.78411, -68.31483 -37.784168, -68.314718 -37.784226, -68.314604 -37.784286, -68.314494 -37.784344, -68.314392 -37.784397, -68.314279 -37.784456, -68.314168 -37.784515, -68.314061 -37.784572, -68.313969 -37.78462, -68.313859 -37.784676, -68.313746 -37.784735, -68.313646 -37.78479, -68.31354 -37.784848, -68.313428 -37.784906, -68.313314 -37.784965, -68.313202 -37.785025, -68.313088 -37.785086, -68.312978 -37.785143, -68.312868 -37.7852, -68.31278 -37.785246, -68.312667 -37.785307, -68.312577 -37.785355, -68.312491 -37.7854, -68.312386 -37.785455, -68.312282 -37.78551, -68.312176 -37.785566, -68.31207 -37.78562, -68.311959 -37.785678, -68.311848 -37.785737, -68.311736 -37.785798, -68.311631 -37.785853, -68.311523 -37.785908, -68.311421 -37.785963, -68.311309 -37.786023, -68.311199 -37.786082, -68.311085 -37.786141, -68.310978 -37.786198, -68.310866 -37.786258, -68.31076 -37.786313, -68.310651 -37.786369, -68.310542 -37.786428, -68.310429 -37.786488, -68.310315 -37.786548, -68.310211 -37.786602, -68.310122 -37.786649, -68.310027 -37.7867, -68.310011 -37.786709, -68.309904 -37.786765, -68.309789 -37.786824, -68.30968 -37.786881, -68.309569 -37.78694, -68.309457 -37.786999, -68.309342 -37.78706, -68.309239 -37.787114, -68.309127 -37.787174, -68.309015 -37.787234, -68.308901 -37.787294, -68.30879 -37.787351, -68.30869 -37.787403, -68.308577 -37.787464, -68.308473 -37.787519, -68.308459 -37.787526, -68.308451 -37.787531, -68.308438 -37.787538, -68.308343 -37.787587, -68.308237 -37.787643, -68.308134 -37.787699, -68.308023 -37.787757, -68.307911 -37.787815, -68.307803 -37.787871, -68.307702 -37.787925, -68.307682 -37.787936, -68.307633 -37.787962, -68.307522 -37.788021, -68.307419 -37.788075, -68.307317 -37.788128, -68.30721 -37.788184, -68.307101 -37.788242, -68.307 -37.788295, -68.306888 -37.788354, -68.306776 -37.788412, -68.306663 -37.788472, -68.306549 -37.788532, -68.306438 -37.78859, -68.306326 -37.788649, -68.306224 -37.788704, -68.306115 -37.788761, -68.306001 -37.78882, -68.305894 -37.788875, -68.30579 -37.78893, -68.30568 -37.78899, -68.305576 -37.789045, -68.305463 -37.789105, -68.305354 -37.789162, -68.305249 -37.789218, -68.305137 -37.789278, -68.305025 -37.789336, -68.304914 -37.789395, -68.304803 -37.789454, -68.304691 -37.789514, -68.30458 -37.789572, -68.304475 -37.789627, -68.304364 -37.789686, -68.304253 -37.789746, -68.304145 -37.789804, -68.304031 -37.789863, -68.303921 -37.789921, -68.303811 -37.78998, -68.303698 -37.790038, -68.303586 -37.790096, -68.303472 -37.790155, -68.303361 -37.790215, -68.303249 -37.790274, -68.303138 -37.790332, -68.303023 -37.790392, -68.302911 -37.790452, -68.302803 -37.790511, -68.302724 -37.790553, -68.302633 -37.7906, -68.302522 -37.790658, -68.302414 -37.790715, -68.302306 -37.790773, -68.302192 -37.790832, -68.302113 -37.790874, -68.302018 -37.790923, -68.301931 -37.790969, -68.301821 -37.791028, -68.301737 -37.791072, -68.301625 -37.791132, -68.301512 -37.791193, -68.301425 -37.791239, -68.301312 -37.791299, -68.301205 -37.791354, -68.301103 -37.791407, -68.301002 -37.79146, -68.300898 -37.791516, -68.300786 -37.791575, -68.300673 -37.791635, -68.300568 -37.791691, -68.300456 -37.791751, -68.300348 -37.791808, -68.30025 -37.791859, -68.300141 -37.791916, -68.300043 -37.791968, -68.299938 -37.792025, -68.299824 -37.792084, -68.299722 -37.792137, -68.299609 -37.792197, -68.299498 -37.792257, -68.299387 -37.792315, -68.299276 -37.792373, -68.299165 -37.792433, -68.299052 -37.792494, -68.298939 -37.792554, -68.298825 -37.792612, -68.298717 -37.792669, -68.298611 -37.792726, -68.298499 -37.792786, -68.298418 -37.792828, -68.298305 -37.792888, -68.298233 -37.792927, -68.298211 -37.792939, -68.298101 -37.792998, -68.297994 -37.793054, -68.297881 -37.793113, -68.29777 -37.793172, -68.297657 -37.793232, -68.297553 -37.793287, -68.297446 -37.793343, -68.29734 -37.793399, -68.297231 -37.793459, -68.297155 -37.7935, -68.297042 -37.793559, -68.29693 -37.793616, -68.296817 -37.793675, -68.296703 -37.793735, -68.296599 -37.79379, -68.2965 -37.793841, -68.296389 -37.7939, -68.296295 -37.793951, -68.296182 -37.794011, -68.296097 -37.794056, -68.295991 -37.794111, -68.295916 -37.794151, -68.295805 -37.794211, -68.295693 -37.79427, -68.29558 -37.794329, -68.295473 -37.794387, -68.295361 -37.794446, -68.29526 -37.794499, -68.295153 -37.794556, -68.295041 -37.794615, -68.294939 -37.794669, -68.294826 -37.794728, -68.294714 -37.794785, -68.294612 -37.794838, -68.294507 -37.794894, -68.294398 -37.794953, -68.294288 -37.795012, -68.294173 -37.795072, -68.294075 -37.795124, -68.293963 -37.795183, -68.293852 -37.795241, -68.293742 -37.795298, -68.293649 -37.795347, -68.293542 -37.795405, -68.293429 -37.795465, -68.29332 -37.795522, -68.293209 -37.795579, -68.293103 -37.795637, -68.293003 -37.795691, -68.292926 -37.795731, -68.292812 -37.79579, -68.292701 -37.795848, -68.292601 -37.795902, -68.292489 -37.795962, -68.29238 -37.796019, -68.292266 -37.796078, -68.292182 -37.796123, -68.292072 -37.796181, -68.291977 -37.796231, -68.291897 -37.796273, -68.291784 -37.796332, -68.291675 -37.79639, -68.291572 -37.796445, -68.291479 -37.796493, -68.291375 -37.796547, -68.291262 -37.796607, -68.291153 -37.796666, -68.291053 -37.796719, -68.29094 -37.796778, -68.290827 -37.796837, -68.290717 -37.796897, -68.290607 -37.796957, -68.290497 -37.797016, -68.290393 -37.797071, -68.290278 -37.797132, -68.290165 -37.797193, -68.290053 -37.797254, -68.289941 -37.797312, -68.289834 -37.797366, -68.28973 -37.79742, -68.289614 -37.797481, -68.289502 -37.79754, -68.289399 -37.797595, -68.289288 -37.797654, -68.289231 -37.797684, -68.289122 -37.797742, -68.28901 -37.7978, -68.2889 -37.797858, -68.288798 -37.797912, -68.288783 -37.79792, -68.288685 -37.797972, -68.288581 -37.798028, -68.288469 -37.798086, -68.288357 -37.798146, -68.288246 -37.798207, -68.288152 -37.798257, -68.288046 -37.798313, -68.28794 -37.798368, -68.287827 -37.798427, -68.287714 -37.798485, -68.287656 -37.798517, -68.287543 -37.798577, -68.28743 -37.798637, -68.287317 -37.798698, -68.287205 -37.798756, -68.28709 -37.798817, -68.286978 -37.798876, -68.286872 -37.798933, -68.286763 -37.798991, -68.286649 -37.79905, -68.286536 -37.79911, -68.286428 -37.799167, -68.286316 -37.799226, -68.286214 -37.799279, -68.286101 -37.799339, -68.285991 -37.799398, -68.285896 -37.799448, -68.28579 -37.799504, -68.285678 -37.799563, -68.285575 -37.799618, -68.285464 -37.799676, -68.285352 -37.799735, -68.285238 -37.799794, -68.285152 -37.799841, -68.285057 -37.799893, -68.284946 -37.799952, -68.284834 -37.80001, -68.284725 -37.800067, -68.28461 -37.800129, -68.284501 -37.800186, -68.284417 -37.80023, -68.284306 -37.800288, -68.284196 -37.800347, -68.284084 -37.800406, -68.283983 -37.800458, -68.283873 -37.800516, -68.283761 -37.800576, -68.28365 -37.800636, -68.283543 -37.800692, -68.283429 -37.800751, -68.283323 -37.800807, -68.283263 -37.800839, -68.283161 -37.800894, -68.283088 -37.800933, -68.282983 -37.800988, -68.282884 -37.80104, -68.282803 -37.801084, -68.28269 -37.801143, -68.282584 -37.801197, -68.282473 -37.801256, -68.282366 -37.801313, -68.282254 -37.801374, -68.282145 -37.801431, -68.282034 -37.80149, -68.281922 -37.801549, -68.281808 -37.80161, -68.281701 -37.801666, -68.281588 -37.801725, -68.281478 -37.801784, -68.281369 -37.801843, -68.28127 -37.801894, -68.281158 -37.801952, -68.281045 -37.802012, -68.280934 -37.802072, -68.280819 -37.802132, -68.280707 -37.802191, -68.280597 -37.802249, -68.280485 -37.80231, -68.28037 -37.80237, -68.280257 -37.802429, -68.280153 -37.802482, -68.280049 -37.802538, -68.279937 -37.802598, -68.279824 -37.802658, -68.279714 -37.802715, -68.279606 -37.802773, -68.279532 -37.802813, -68.27942 -37.802872, -68.279336 -37.802916, -68.279325 -37.802922, -68.279218 -37.802979, -68.279112 -37.803034, -68.278998 -37.803093, -68.27889 -37.803149, -68.278779 -37.803209, -68.278674 -37.803265, -68.278563 -37.803326, -68.278453 -37.803383, -68.278341 -37.803441, -68.278227 -37.8035, -68.278115 -37.803559, -68.278 -37.80362, -68.277901 -37.803672, -68.277789 -37.803733, -68.277685 -37.803789, -68.277579 -37.803845, -68.277465 -37.803903, -68.277353 -37.803962, -68.277254 -37.804016, -68.277145 -37.804074, -68.27703 -37.804134, -68.276918 -37.804193, -68.276808 -37.804253, -68.276697 -37.804312, -68.276588 -37.804368, -68.276484 -37.804422, -68.276373 -37.804481, -68.276268 -37.804536, -68.276157 -37.804594, -68.276044 -37.804653, -68.275935 -37.804712, -68.275824 -37.8047",
+          2
+        ],
+        [
+          "MULTILINESTRING ((-67.865724 -38.468673, -67.865724 -38.468675, -67.865723 -38.468677, -67.86572 -38.468683, -67.865719 -38.468688, -67.865702 -38.468729, -67.865684 -38.468772, -67.86567 -38.468806, -67.865663 -38.468825, -67.865642 -38.468876, -67.865604 -38.468975, -67.865567 -38.46907, -67.865527 -38.469171, -67.865486 -38.46927, -67.865442 -38.469369, -67.865398 -38.469463, -67.865355 -38.469557, -67.865312 -38.469656, -67.865286 -38.469714, -67.865267 -38.469757, -67.865231 -38.469835, -67.865188 -38.469929, -67.865144 -38.470024, -67.8651 -38.470126, -67.865061 -38.470222, -67.865025 -38.47031, -67.865007 -38.470354, -67.864984 -38.470404, -67.864957 -38.470461, -67.864939 -38.470503, -67.864911 -38.470567, -67.86488 -38.470643, -67.864864 -38.470684, -67.864841 -38.470745, -67.86481 -38.470827, -67.864771 -38.470921, -67.864738 -38.470999, -67.86471 -38.471066, -67.864685 -38.471133, -67.864665 -38.471184, -67.864639 -38.471254, -67.864613 -38.471321, -67.864577 -38.471408, -67.86455 -38.471474, -67.864514 -38.471558, -67.864483 -38.471632, -67.864454 -38.471705, -67.864426 -38.471778, -67.864396 -38.471856, -67.86436 -38.471945, -67.864331 -38.472015, -67.864301 -38.472085, -67.864277 -38.472147, -67.864252 -38.472212, -67.864223 -38.472286, -67.864194 -38.472362, -67.864164 -38.472439, -67.864131 -38.472519, -67.864101 -38.472588, -67.864071 -38.472661, -67.864042 -38.472734, -67.864011 -38.472814, -67.863985 -38.47288, -67.863952 -38.472963, -67.863919 -38.473043, -67.863887 -38.47312, -67.863863 -38.473181, -67.863828 -38.473273, -67.863804 -38.473335, -67.863777 -38.473408, -67.863754 -38.473466, -67.863729 -38.473526, -67.863705 -38.473582, -67.863673 -38.473662, -67.863647 -38.473729, -67.863606 -38.473832, -67.863583 -38.473895, -67.863551 -38.473976, -67.863511 -38.474073, -67.863476 -38.474156, -67.863435 -38.474258, -67.863398 -38.474357, -67.863375 -38.474419, -67.863335 -38.474517, -67.863297 -38.474611, -67.863263 -38.474694, -67.863225 -38.47479, -67.863195 -38.47487, -67.863157 -38.474972, -67.863129 -38.475045, -67.863088 -38.475146, -67.863062 -38.475207, -67.863026 -38.475294, -67.862989 -38.475392, -67.86295 -38.475493, -67.86291 -38.475591, -67.862874 -38.475673, -67.862835 -38.475767, -67.862795 -38.475868, -67.862759 -38.475962, -67.862719 -38.476063, -67.862676 -38.476166, -67.862637 -38.476259, -67.862597 -38.47636, -67.862561 -38.476455, -67.862522 -38.476558, -67.862497 -38.476621, -67.862467 -38.476692, -67.86243 -38.476786, -67.862391 -38.476887, -67.862355 -38.476981, -67.862322 -38.477066, -67.862281 -38.477165, -67.86225 -38.477242, -67.862212 -38.477343, -67.862173 -38.477444, -67.862136 -38.477541, -67.862114 -38.477596, -67.862089 -38.477653, -67.86206 -38.477722, -67.86203 -38.4778, -67.861992 -38.477901, -67.861955 -38.478, -67.861914 -38.478102, -67.861872 -38.478204, -67.861844 -38.478274, -67.861811 -38.478361, -67.86178 -38.478442, -67.861741 -38.478543, -67.86171 -38.478623, -67.861671 -38.478721, -67.861635 -38.478818, -67.861605 -38.478899, -67.861575 -38.478979, -67.861539 -38.479072, -67.8615 -38.479168, -67.86147 -38.479242, -67.861429 -38.479344, -67.86139 -38.479447, -67.861352 -38.479543, -67.861314 -38.479638, -67.861275 -38.479729, -67.861238 -38.479822, -67.861204 -38.479907, -67.861167 -38.480003, -67.861129 -38.4801, -67.861089 -38.480199, -67.861065 -38.480258, -67.86103 -38.48035, -67.860991 -38.480449, -67.860953 -38.48054, -67.86092 -38.480619, -67.860881 -38.480711, -67.860843 -38.48081, -67.860806 -38.48091, -67.860768 -38.481009, -67.86073 -38.4811, -67.860689 -38.4812, -67.860651 -38.481302, -67.860614 -38.481402, -67.860577 -38.481498, -67.860546 -38.481573, -67.860507 -38.481669, -67.860474 -38.481753, -67.860439 -38.481846, -67.860406 -38.481932, -67.860377 -38.482008, -67.860354 -38.482064, -67.860323 -38.482137, -67.8603 -38.482192, -67.860297 -38.482199, -67.860265 -38.482281, -67.86023 -38.482382, -67.860205 -38.482449, -67.860182 -38.482508, -67.860149 -38.482587, -67.86011 -38.482681, -67.86007 -38.482783, -67.860031 -38.482884, -67.859991 -38.482982, -67.859952 -38.483071, -67.859911 -38.48317, -67.859872 -38.48327, -67.859834 -38.483368, -67.859797 -38.483461, -67.859759 -38.483554, -67.859718 -38.483652, -67.859681 -38.483745, -67.859645 -38.483842, -67.859608 -38.48394, -67.85957 -38.484039, -67.859533 -38.484126, -67.859498 -38.484212, -67.859461 -38.484308, -67.859425 -38.484402, -67.859387 -38.484498, -67.859353 -38.484578, -67.859312 -38.484676, -67.859275 -38.484772, -67.859238 -38.484875, -67.8592 -38.484973, -67.859164 -38.48506, -67.859128 -38.485147, -67.859088 -38.485246, -67.85905 -38.485346, -67.859028 -38.485399, -67.858986 -38.485499, -67.858941 -38.485598, -67.858899 -38.485696, -67.858858 -38.485799, -67.858819 -38.485897, -67.858779 -38.485995, -67.858738 -38.486094, -67.858698 -38.486197, -67.858661 -38.486294, -67.858622 -38.486391, -67.858589 -38.486471, -67.858551 -38.486569, -67.858512 -38.486671, -67.858473 -38.486771, -67.858435 -38.486872, -67.858412 -38.486932, -67.858371 -38.487035, -67.858331 -38.487135, -67.858294 -38.487234, -67.858256 -38.487334, -67.858223 -38.487414, -67.858184 -38.487507, -67.858144 -38.487609, -67.858105 -38.487709, -67.85807 -38.487802, -67.858031 -38.487899, -67.85799 -38.487996, -67.857952 -38.488089, -67.857915 -38.488188, -67.857879 -38.48829, -67.857841 -38.488392, -67.857801 -38.488494, -67.857759 -38.488595, -67.857725 -38.488684, -67.857688 -38.488778, -67.857649 -38.488871, -67.857608 -38.488961, -67.857567 -38.489052, -67.857539 -38.489115, -67.857499 -38.489218, -67.857459 -38.489317, -67.857417 -38.489418, -67.857377 -38.489517, -67.857339 -38.489616, -67.857304 -38.489707, -67.857264 -38.489808, -67.857228 -38.489895, -67.857188 -38.489992, -67.857151 -38.490089, -67.857114 -38.490188, -67.857085 -38.490259, -67.857047 -38.490351, -67.857007 -38.490451, -67.856983 -38.490514, -67.856953 -38.490596, -67.856928 -38.490662, -67.856889 -38.49076, -67.856875 -38.490795, -67.85685 -38.490859, -67.856822 -38.490934, -67.856788 -38.491024, -67.856758 -38.491102, -67.856719 -38.4912, -67.856696 -38.491257, -67.85666 -38.491346, -67.856624 -38.491442, -67.856593 -38.491526, -67.856554 -38.491624, -67.856516 -38.491717, -67.856477 -38.491814, -67.856437 -38.491919, -67.856402 -38.492012, -67.856362 -38.492114, -67.856328 -38.4922, -67.856291 -38.492294, -67.856256 -38.492392, -67.856217 -38.492493, -67.856175 -38.492593, -67.856133 -38.492694, -67.856096 -38.492789, -67.856068 -38.492864, -67.856039 -38.492942, -67.855998 -38.493043, -67.855969 -38.493112, -67.855928 -38.493211, -67.855895 -38.4933, -67.855857 -38.493398, -67.855819 -38.493488, -67.85579 -38.493559, -67.855753 -38.493652, -67.855723 -38.493726, -67.855684 -38.493826, -67.855657 -38.493897, -67.855616 -38.493993, -67.855579 -38.494083, -67.855542 -38.494177, -67.855505 -38.494273, -67.855464 -38.494374, -67.855421 -38.494473, -67.855381 -38.494571, -67.855343 -38.494668, -67.855311 -38.494751, -67.855272 -38.494843, -67.855234 -38.494933, -67.855195 -38.495026, -67.855155 -38.495125, -67.855118 -38.495218, -67.855077 -38.495318, -67.855043 -38.495396, -67.855002 -38.495494, -67.854963 -38.495593, -67.854923 -38.495694, -67.854882 -38.495796, -67.854841 -38.495891, -67.854799 -38.49599, -67.85476 -38.496086, -67.854722 -38.496181, -67.854681 -38.496277, -67.854654 -38.496338, -67.854626 -38.496403, -67.854597 -38.496471, -67.854558 -38.496566, -67.854522 -38.496659, -67.854484 -38.496753, -67.854449 -38.496837, -67.854408 -38.496939, -67.85437 -38.497039, -67.85433 -38.497141, -67.854294 -38.497233, -67.854252 -38.497334, -67.854212 -38.497434, -67.854175 -38.497533, -67.854138 -38.497635, -67.854097 -38.497738, -67.854064 -38.497819, -67.854029 -38.497906, -67.85399 -38.498005, -67.85395 -38.498106, -67.853929 -38.498157, -67.853903 -38.498217, -67.853862 -38.498314, -67.853825 -38.498406, -67.853787 -38.498503, -67.853752 -38.498591, -67.853711 -38.49869, -67.853681 -38.498762, -67.853643 -38.49886, -67.853615 -38.498933, -67.853576 -38.499033, -67.853544 -38.499116, -67.85352 -38.499177, -67.85349 -38.499257, -67.853464 -38.499328, -67.853454 -38.499354, -67.853417 -38.499458, -67.853379 -38.499559, -67.853341 -38.499658, -67.853303 -38.499757, -67.853267 -38.499854, -67.853235 -38.499937, -67.853201 -38.500021, -67.853169 -38.500099, -67.853134 -38.500185, -67.853096 -38.500281, -67.85306 -38.500375, -67.85302 -38.500474, -67.85298 -38.500574, -67.852944 -38.500665, -67.852911 -38.500755, -67.852886 -38.500825, -67.852848 -38.500923, -67.852807 -38.501026, -67.852768 -38.501121, -67.85273 -38.50122, -67.852692 -38.501318, -67.852653 -38.501416, -67.852621 -38.501494, -67.852581 -38.50159, -67.852541 -38.50169, -67.852501 -38.501794, -67.852459 -38.501897, -67.852422 -38.501987, -67.852391 -38.502068, -67.852354 -38.502165, -67.852323 -38.502243, -67.852284 -38.502342, -67.852245 -38.50244, -67.852205 -38.502539, -67.852168 -38.502633, -67.85214 -38.502704, -67.852107 -38.502786, -67.852067 -38.502887, -67.852027 -38.502988, -67.851992 -38.503079, -67.851956 -38.503167, -67.85192 -38.503257, -67.851894 -38.503318, -67.851855 -38.503413, -67.851828 -38.503481, -67.851799 -38.503553, -67.85176 -38.503651, -67.851721 -38.503748, -67.851679 -38.503849, -67.851641 -38.503945, -67.851607 -38.50403, -67.851566 -38.50413, -67.851522 -38.504233, -67.851482 -38.50433, -67.851448 -38.50442, -67.851416 -38.504502, -67.851374 -38.504604, -67.851336 -38.504692, -67.851293 -38.504791, -67.851254 -38.504892, -67.851215 -38.504994, -67.851175 -38.505094, -67.851135 -38.505195, -67.851094 -38.505296, -67.851057 -38.505394, -67.85103 -38.505461, -67.850996 -38.505546, -67.850962 -38.505627, -67.850932 -38.505702, -67.850893 -38.505802, -67.850855 -38.505899, -67.850821 -38.505985, -67.850781 -38.506084, -67.850742 -38.506185, -67.850704 -38.506283, -67.850665 -38.506381, -67.850624 -38.50648, -67.850583 -38.506581, -67.850549 -38.506665, -67.850514 -38.506759, -67.850479 -38.506851, -67.85044 -38.506951, -67.850398 -38.507049, -67.850357 -38.507149, -67.850326 -38.507228, -67.850286 -38.507327, -67.850248 -38.507421, -67.850207 -38.507521, -67.850177 -38.507597, -67.850149 -38.507669, -67.85011 -38.50777, -67.850086 -38.507829, -67.850069 -38.50787, -67.850027 -38.50797, -67.850001 -38.508035, -67.849962 -38.508133, -67.849928 -38.50822, -67.849889 -38.508318, -67.84985 -38.508411, -67.849812 -38.508507, -67.849775 -38.508607, -67.849737 -38.508706, -67.849699 -38.5088, -67.849661 -38.508894, -67.849624 -38.508989, -67.84959 -38.509081, -67.849563 -38.509151, -67.849524 -38.509252, -67.849484 -38.50935, -67.849449 -38.509438, -67.849414 -38.509529, -67.849376 -38.50963, -67.849338 -38.509729, -67.849297 -38.509831, -67.849257 -38.509929, -67.849226 -38.510009, -67.849187 -38.51011, -67.849148 -38.510206, -67.849107 -38.510307, -67.849069 -38.510401, -67.849031 -38.510496, -67.848992 -38.510595, -67.848959 -38.510673, -67.848918 -38.510774, -67.848879 -38.510871, -67.848848 -38.510953, -67.848821 -38.511022, -67.8488 -38.511079, -67.848772 -38.511149, -67.848746 -38.511213, -67.84872 -38.511277, -67.848679 -38.511376, -67.848639 -38.511474, -67.848604 -38.511562, -67.848565 -38.511657, -67.848524 -38.511753, -67.848485 -38.51185, -67.848445 -38.511953, -67.848409 -38.512044, -67.848387 -38.5121, -67.848346 -38.512199, -67.848308 -38.512295, -67.848268 -38.512397, -67.848231 -38.512491, -67.848206 -38.512555, -67.848165 -38.512655, -67.848141 -38.512714, -67.848111 -38.512791, -67.848075 -38.51289, -67.848051 -38.512954, -67.848017 -38.513038, -67.847976 -38.513138, -67.847934 -38.513238, -67.847896 -38.513336, -67.847858 -38.513434, -67.847818 -38.513532, -67.84778 -38.513624, -67.847738 -38.513723, -67.847697 -38.513823, -67.847666 -38.513899, -67.847629 -38.513987, -67.847604 -38.51405, -67.847562 -38.514151, -67.847527 -38.51424, -67.847488 -38.51434, -67.847463 -38.514401, -67.847423 -38.514498, -67.847384 -38.514595, -67.847359 -38.51466, -67.847323 -38.514753, -67.847288 -38.514844, -67.847248 -38.514944, -67.847211 -38.515036, -67.847185 -38.515102, -67.847152 -38.515187, -67.847113 -38.515287, -67.847071 -38.515387, -67.84703 -38.515486, -67.846991 -38.515581, -67.84695 -38.515682, -67.846909 -38.515783, -67.846867 -38.515883, -67.846825 -38.515983, -67.846784 -38.516084, -67.846756 -38.516154, -67.84673 -38.51622, -67.846705 -38.516283, -67.84668 -38.516346, -67.846655 -38.516406, -67.84662 -38.516496, -67.846584 -38.516588, -67.84655 -38.516672, -67.846544 -38.516688, -67.846505 -38.51678, -67.846466 -38.516875, -67.84643 -38.516968, -67.846392 -38.517068, -67.846369 -38.51713, -67.846346 -38.517187, -67.846309 -38.517277, -67.846267 -38.517381, -67.846227 -38.517482, -67.846189 -38.51758, -67.846144 -38.517689, -67.8461 -38.517796, -67.846055 -38.517908, -67.846013 -38.518018, -67.845968 -38.518128, -67.845924 -38.518236, -67.84588 -38.518345, -67.845837 -38.518455, -67.845793 -38.518564, -67.845747 -38.518673, -67.845703 -38.518782, -67.845661 -38.518892, -67.845617 -38.519002, -67.845573 -38.519111, -67.845532 -38.51922, -67.845492 -38.519328, -67.845449 -38.519437, -67.845405 -38.519547, -67.845364 -38.519648, -67.845321 -38.519754, -67.845275 -38.519865, -67.845232 -38.519972, -67.845189 -38.520081, -67.845147 -38.520192, -67.845102 -38.520305, -67.845057 -38.520415, -67.845022 -38.520501, -67.844993 -38.520576, -67.84496 -38.520661, -67.844918 -38.520768, -67.844888 -38.520844, -67.844845 -38.520952, -67.84481 -38.521046, -67.844771 -38.521152, -67.844733 -38.521249, -67.844686 -38.521359, -67.84464 -38.521468, -67.844597 -38.521577, -67.844565 -38.52166, -67.84452 -38.521768, -67.844474 -38.521878, -67.844428 -38.521987, -67.844382 -38.522096, -67.844336 -38.522206, -67.844292 -38.522316, -67.844256 -38.52241, -67.844214 -38.522521, -67.844172 -38.52263, -67.844131 -38.52274, -67.8441 -38.522824, -67.844064 -38.522927, -67.844038 -38.522999, -67.843995 -38.523108, -67.843953 -38.523218, -67.843914 -38.523322, -67.843873 -38.523432, -67.843831 -38.523542, -67.843794 -38.523637, -67.843755 -38.523738, -67.84372 -38.52383, -67.843676 -38.52394, -67.84363 -38.524048, -67.843594 -38.524134, -67.843557 -38.524227, -67.843514 -38.524336, -67.843469 -38.524445, -67.843425 -38.524554, -67.843384 -38.524659, -67.843346 -38.524759, -67.843302 -38.524868, -67.843256 -38.524976, -67.843211 -38.525084, -67.843179 -38.525162, -67.843166 -38.525195, -67.843122 -38.525304, -67.843076 -38.525413, -67.843031 -38.525524, -67.84299 -38.525626, -67.842951 -38.525725, -67.842913 -38.525818, -67.842872 -38.525917, -67.842833 -38.526016, -67.842795 -38.526117, -67.842765 -38.526195, -67.842729 -38.526284, -67.842687 -38.526381, -67.842646 -38.526479, -67.842605 -38.52658, -67.842566 -38.526678, -67.842529 -38.526773, -67.842488 -38.526873, -67.842465 -38.526928, -67.842425 -38.52703, -67.842388 -38.527122, -67.842348 -38.52722, -67.842307 -38.527315, -67.842268 -38.527412, -67.842228 -38.527511, -67.84219 -38.527605, -67.842151 -38.527702, -67.842115 -38.527793, -67.842076 -38.527889, -67.842038 -38.527985, -67.841999 -38.528081, -67.84196 -38.528175, -67.841934 -38.528237, -67.841895 -38.528335, -67.841859 -38.528427, -67.841832 -38.528495, -67.841808 -38.528554, -67.841776 -38.528632, -67.841749 -38.5287, -67.841712 -38.528794, -67.841676 -38.528883, -67.841646 -38.528963, -67.841623 -38.529022, -67.841589 -38.529108, -67.84155 -38.529208, -67.841509 -38.529305, -67.841483 -38.529369, -67.841446 -38.529459, -67.841406 -38.529557, -67.841378 -38.529625, -67.841346 -38.529707, -67.841315 -38.529788, -67.841287 -38.529857, -67.841251 -38.529949, -67.841212 -38.53005, -67.841184 -38.530118, -67.841157 -38.530188, -67.841119 -38.530282, -67.841079 -38.530384, -67.84104 -38.530482, -67.841004 -38.530572, -67.840971 -38.530655, -67.840939 -38.530739, -67.8409 -38.530836, -67.840859 -38.530936, -67.840819 -38.531035, -67.84078 -38.531134, -67.840741 -38.531235, -67.840701 -38.531335, -67.840662 -38.53143, -67.840622 -38.53153, -67.840586 -38.531623, -67.840546 -38.531727, -67.840507 -38.531824, -67.840465 -38.531924, -67.840428 -38.532014, -67.840388 -38.532118, -67.840356 -38.5322, -67.840326 -38.532274, -67.840287 -38.532369, -67.840245 -38.53247, -67.840208 -38.532565, -67.840173 -38.532654, -67.84015 -38.532711, -67.840112 -38.532808, -67.840072 -38.532908, -67.840033 -38.533008, -67.839998 -38.533101, -67.83996 -38.533198, -67.839936 -38.533258, -67.839898 -38.533359, -67.839862 -38.533451, -67.839837 -38.533517, -67.839803 -38.533599, -67.839764 -38.533695, -67.839737 -38.53376, -67.839702 -38.533846, -67.83968 -38.533904, -67.839664 -38.533947, -67.839636 -38.53402, -67.839608 -38.534094, -67.839577 -38.53417, -67.839543 -38.534254, -67.839511 -38.534335, -67.839471 -38.534436, -67.839432 -38.534532, -67.839392 -38.534628, -67.839358 -38.534717, -67.839316 -38.53482, -67.839281 -38.53491, -67.839243 -38.535004, -67.839206 -38.535095, -67.839165 -38.535195, -67.839125 -38.535297, -67.839086 -38.535397, -67.839052 -38.535482, -67.839025 -38.535549, -67.838984 -38.535649, -67.838956 -38.535722, -67.838922 -38.535806, -67.838882 -38.535906, -67.838845 -38.535997, -67.83881 -38.536087, -67.838774 -38.536177, -67.838735 -38.536275, -67.838704 -38.536355, -67.838668 -38.536438, -67.838643 -38.5365, -67.838603 -38.536601, -67.838561 -38.536702, -67.838521 -38.536802, -67.838483 -38.536898, -67.838445 -38.536999, -67.838405 -38.537101, -67.838368 -38.537198, -67.838348 -38.537249, -67.838342 -38.537265, -67.838304 -38.537363, -67.838263 -38.537465, -67.838223 -38.537567, -67.838183 -38.537667, -67.838143 -38.537765, -67.838112 -38.537841, -67.838076 -38.537932, -67.838036 -38.538034, -67.837996 -38.538133, -67.837959 -38.538224, -67.837927 -38.538306, -67.837921 -38.538321, -67.837882 -38.53842, -67.837845 -38.538513, -67.837818 -38.538579, -67.837788 -38.538655, -67.837752 -38.538741, -67.837715 -38.538834, -67.837683 -38.538918, -67.837642 -38.539019, -67.837618 -38.539078, -67.837594 -38.539137, -67.837572 -38.539196, -67.837546 -38.53926, -67.837505 -38.539362, -67.837466 -38.539463, -67.83743 -38.539552, -67.8374 -38.539628, -67.837374 -38.53969, -67.837341 -38.539773, -67.837305 -38.539865, -67.837265 -38.539965, -67.837242 -38.54002, -67.837207 -38.540107, -67.837176 -38.540185, -67.837137 -38.540284, -67.837099 -38.540382, -67.837062 -38.540475, -67.837019 -38.540576, -67.836979 -38.540676, -67.836955 -38.540738, -67.836929 -38.540806, -67.836891 -38.5409, -67.83685 -38.541, -67.836811 -38.541099, -67.836783 -38.54117, -67.836742 -38.541272, -67.836708 -38.541359, -67.836668 -38.54146, -67.836631 -38.541562, -67.836612 -38.54162, -67.836583 -38.541711, -67.836562 -38.541779, -67.836529 -38.541881, -67.836496 -38.54198, -67.836463 -38.542081, -67.836441 -38.542148, -67.836413 -38.542233, -67.836379 -38.542334, -67.83635 -38.542416, -67.836314 -38.542515, -67.836307 -38.542535, -67.836284 -38.542604, -67.836251 -38.542696, -67.836213 -38.542796, -67.836175 -38.5429, -67.836143 -38.542989, -67.836107 -38.543085, -67.836069 -38.543185, -67.836031 -38.543284, -67.836007 -38.543347, -67.835976 -38.543433, -67.835946 -38.543512, -67.835908 -38.543609, -67.835867 -38.543708, -67.835825 -38.543808, -67.835795 -38.543881, -67.835782 -38.543912, -67.835779 -38.543918, -67.835751 -38.543985, -67.835705 -38.544093, -67.835658 -38.544203, -67.835628 -38.544273, -67.835585 -38.54438, -67.835559 -38.544443, -67.835517 -38.544542, -67.83549 -38.544606, -67.835445 -38.54471, -67.835399 -38.544818, -67.835357 -38.544916, -67.835312 -38.545015, -67.835263 -38.545123, -67.83522 -38.545215, -67.835174 -38.545313, -67.835122 -38.545421, -67.83507 -38.545527, -67.83502 -38.545634, -67.83497 -38.545743, -67.834925 -38.54584, -67.834881 -38.545937, -67.834835 -38.546046, -67.834791 -38.546154, -67.834748 -38.546263, -67.834704 -38.546374, -67.834663 -38.546484, -67.834637 -38.546554, -67.834598 -38.546662, -67.834554 -38.546773, -67.834528 -38.546839, -67.834503 -38.546902, -67.834471 -38.546986, -67.834426 -38.547095, -67.834381 -38.547201, -67.834336 -38.547311, -67.834292 -38.547421, -67.834263 -38.547494, -67.834219 -38.547602, -67.834175 -38.547711, -67.834131 -38.547817, -67.834085 -38.547925, -67.83404 -38.548029, -67.833991 -38.548138, -67.833948 -38.548238, -67.833908 -38.548331, -67.833858 -38.548442, -67.833811 -38.548549, -67.833772 -38.548638, -67.833737 -38.54872, -67.833691 -38.54883, -67.833648 -38.548932, -67.833602 -38.549042, -67.833557 -38.549152, -67.833511 -38.549261, -67.833463 -38.54937, -67.833427 -38.549453, -67.833395 -38.549529, -67.83335 -38.549637, -67.833308 -38.549736, -67.833266 -38.549834, -67.833221 -38.549943, -67.833175 -38.550051, -67.833128 -38.550159, -67.83308 -38.550268, -67.833039 -38.550363, -67.833013 -38.550424, -67.832966 -38.550531, -67.83292 -38.550638, -67.832872 -38.550745, -67.832826 -38.550851, -67.83278 -38.550959, -67.832732 -38.551068, -67.832685 -38.551174, -67.832662 -38.551228, -67.83264 -38.551278, -67.832595 -38.551389, -67.83255 -38.551499, -67.832506 -38.551608, -67.832465 -38.551708, -67.832422 -38.551816, -67.832381 -38.551917, -67.832339 -38.55202, -67.832295 -38.552128, -67.832251 -38.552237, -67.832208 -38.552339, -67.832181 -38.552403, -67.832139 -38.552498, -67.832092 -38.552609, -67.832068 -38.552668, -67.832022 -38.552777, -67.831975 -38.552886, -67.831949 -38.552948, -67.831906 -38.553052, -67.831863 -38.553157, -67.831819 -38.553264, -67.831778 -38.55337, -67.831749 -38.553447, -67.831721 -38.553525, -67.831693 -38.553599, -67.831651 -38.553711, -67.831613 -38.55381, -67.831574 -38.553911, -67.831535 -38.55401, -67.831495 -38.554108, -67.83145 -38.554217, -67.831407 -38.554326, -67.831364 -38.554435, -67.83132 -38.554544, -67.831276 -38.554651, -67.831237 -38.55475, -67.831199 -38.554848, -67.831161 -38.554946, -67.831117 -38.555055, -67.831074 -38.555161, -67.831034 -38.555264, -67.83101 -38.555325, -67.830967 -38.555432, -67.830925 -38.555534, -67.830888 -38.555628, -67.830846 -38.555731, -67.830807 -38.55583, -67.830767 -38.55593, -67.830729 -38.55603, -67.830687 -38.556139, -67.830644 -38.556247, -67.830598 -38.556357, -67.830554 -38.556466, -67.830512 -38.556576, -67.830474 -38.556677, -67.830433 -38.556787, -67.830394 -38.556893, -67.830354 -38.557002, -67.830313 -38.557112, -67.83027 -38.557225, -67.830229 -38.557335, -67.830188 -38.557447, -67.830153 -38.557542, -67.830112 -38.557654, -67.830075 -38.557754, -67.830036 -38.557866, -67.829999 -38.557968, -67.829975 -38.558036, -67.829943 -38.558124, -67.829907 -38.558224, -67.829875 -38.55832, -67.829837 -38.558433, -67.829798 -38.558543, -67.82976 -38.558654, -67.829723 -38.558765, -67.829688 -38.558868, -67.829653 -38.558971, -67.82962 -38.559064, -67.829585 -38.559167, -67.829548 -38.559274, -67.829508 -38.559385, -67.829468 -38.559491, -67.829428 -38.559603, -67.829393 -38.5597, -67.829356 -38.559801, -67.829342 -38.559838, -67.829318 -38.559902, -67.829285 -38.559994, -67.829246 -38.560103, -67.829216 -38.560184, -67.829174 -38.560293, -67.829134 -38.560397, -67.829092 -38.560507, -67.829048 -38.560617, -67.829003 -38.560727, -67.828958 -38.560838, -67.828913 -38.560948, -67.828869 -38.561052, -67.82883 -38.561141, -67.828783 -38.561249, -67.828737 -38.561357, -67.828693 -38.561464, -67.828649 -38.56157, -67.828606 -38.561679, -67.828578 -38.561752, -67.828536 -38.561863, -67.828495 -38.561972, -67.828453 -38.562082, -67.828411 -38.562192, -67.828367 -38.562302, -67.828329 -38.562394, -67.828284 -38.562503, -67.828241 -38.562613, -67.828198 -38.562722, -67.828167 -38.562798, -67.828125 -38.5629, -67.828088 -38.562992, -67.82805 -38.563092, -67.828008 -38.563201, -67.827969 -38.563302, -67.827927 -38.563411, -67.827886 -38.56352, -67.827851 -38.563613, -67.827815 -38.5637, -67.82777 -38.563809, -67.827728 -38.563912, -67.827693 -38.563998, -67.82766 -38.564075, -67.827618 -38.564175, -67.827578 -38.564273, -67.827536 -38.564375, -67.827496 -38.564476, -67.827451 -38.564584, -67.827411 -38.564682, -67.827369 -38.564791, -67.827326 -38.5649, -67.827282 -38.565009, -67.827238 -38.565118, -67.827195 -38.565227, -67.827153 -38.565334, -67.827114 -38.565433, -67.827075 -38.56553, -67.827036 -38.565628, -67.827001 -38.565719, -67.826962 -38.565818, -67.826919 -38.565926, -67.826876 -38.566034, -67.826833 -38.566143, -67.82679 -38.566251, -67.826747 -38.56636, -67.826705 -38.566465, -67.826667 -38.566565, -67.82663 -38.566663, -67.826591 -38.566765, -67.826552 -38.566863, -67.826511 -38.566968, -67.826468 -38.567073, -67.826424 -38.567182, -67.826377 -38.567292, -67.826335 -38.567395, -67.826294 -38.567498, -67.826252 -38.567607, -67.826212 -38.56771, -67.82617 -38.567819, -67.82613 -38.567925, -67.826089 -38.568034, -67.826046 -38.568143, -67.826009 -38.568236, -67.825966 -38.568345, -67.825936 -38.568421, -67.825924 -38.568452, -67.825882 -38.568561, -67.825839 -38.56867, -67.8258 -38.568768, -67.825759 -38.568873, -67.825721 -38.568971, -67.825681 -38.569068, -67.825647 -38.569151, -67.825615 -38.569229, -67.825576 -38.569327, -67.825536 -38.569425, -67.825495 -38.569522, -67.825458 -38.569611, -67.825417 -38.569708, -67.825378 -38.569805, -67.825346 -38.569881, -67.825301 -38.569988, -67.825257 -38.570093, -67.825212 -38.570201, -67.825169 -38.570306, -67.825124 -38.570415, -67.825083 -38.57051, -67.825039 -38.570617, -67.824999 -38.570716, -67.82496 -38.570813, -67.824923 -38.5709, -67.824892 -38.570974, -67.824848 -38.571081, -67.824803 -38.571193, -67.824759 -38.571301, -67.824724 -38.571386, -67.824699 -38.571449, -67.824656 -38.571554, -67.824613 -38.571662, -67.824572 -38.571767, -67.824528 -38.57188, -67.824488 -38.571986, -67.824446 -38.572095, -67.824405 -38.572201, -67.824361 -38.572309, -67.824327 -38.572391, -67.824297 -38.572467, -67.824254 -38.572574, -67.824219 -38.572664, -67.824175 -38.572773, -67.824137 -38.572868, -67.8241 -38.572962, -67.824057 -38.573071, -67.824013 -38.57318, -67.823968 -38.573289, -67.823924 -38.573399, -67.823885 -38.573497, -67.823842 -38.573605, -67.823799 -38.573716, -67.823763 -38.573806, -67.823725 -38.573906, -67.823684 -38.574011, -67.82364 -38.574121, -67.823597 -38.57423, -67.823564 -38.574313, -67.823522 -38.574419, -67.823487 -38.574503, -67.823446 -38.574601, -67.823405 -38.574702, -67.823362 -38.574811, -67.823319 -38.574917, -67.823276 -38.575019, -67.823232 -38.575128, -67.823189 -38.575238, -67.823147 -38.575348, -67.823103 -38.575456, -67.82306 -38.575564, -67.823017 -38.575674, -67.822974 -38.575783, -67.822929 -38.575892, -67.822888 -38.575991, -67.822849 -38.576089, -67.822806 -38.5762, -67.822762 -38.57631, -67.822718 -38.576419, -67.822674 -38.576528, -67.822629 -38.576639, -67.822585 -38.576745, -67.822541 -38.576853, -67.822498 -38.576963, -67.822478 -38.577012, -67.822455 -38.577071, -67.82241 -38.577179, -67.822366 -38.577288, -67.822324 -38.577397, -67.822283 -38.577504, -67.822239 -38.577614, -67.822198 -38.577718, -67.822165 -38.577801, -67.822135 -38.577877, -67.822095 -38.577978, -67.822055 -38.578079, -67.822011 -38.578187, -67.821971 -38.578287, -67.821928 -38.578396, -67.821884 -38.578505, -67.821846 -38.578602, -67.821811 -38.578692, -67.821768 -38.578801, -67.821724 -38.578909, -67.821679 -38.579018, -67.821636 -38.579127, -67.821595 -38.579227, -67.821555 -38.579326, -67.821521 -38.579409, -67.821489 -38.579488, -67.821456 -38.579575, -67.821413 -38.579686, -67.82137 -38.579795, -67.821328 -38.579904, -67.821288 -38.580008, -67.82125 -38.58011, -67.821211 -38.58021, -67.821168 -38.580318, -67.821124 -38.580426, -67.821082 -38.580535, -67.821056 -38.580601, -67.821027 -38.580676, -67.820984 -38.580783, -67.820939 -38.580892, -67.820896 -38.581, -67.820851 -38.581108, -67.820805 -38.581217, -67.820767 -38.581306, -67.820732 -38.581389, -67.820696 -38.581479, -67.820661 -38.581564, -67.820622 -38.581656, -67.820589 -38.581734, -67.820542 -38.581843, -67.820499 -38.581951, -67.820454 -38.582061, -67.820409 -38.582171, -67.820366 -38.582276, -67.820339 -38.582344, -67.820313 -38.582411, -67.820284 -38.582488, -67.820255 -38.582561, -67.820213 -38.58267, -67.820188 -38.582734, -67.820147 -38.582839, -67.820106 -38.582942, -67.820067 -38.583034, -67.820029 -38.583124, -67.819984 -38.583233, -67.81994 -38.58334, -67.819895 -38.58345, -67.819852 -38.583558, -67.819808 -38.583668, -67.819767 -38.583777, -67.819732 -38.583868, -67.819689 -38.583976, -67.819647 -38.584086, -67.819607 -38.584195, -67.819564 -38.584305, -67.819521 -38.584415, -67.819478 -38.584524, -67.819448 -38.584601, -67.819416 -38.584685, -67.819377 -38.584784, -67.819337 -38.584884, -67.819294 -38.584994, -67.819253 -38.5851, -67.819213 -38.585201, -67.819172 -38.585301, -67.81913 -38.585403, -67.819086 -38.585512, -67.819042 -38.585623, -67.819038 -38.585632, -67.818997 -38.585732, -67.818971 -38.585793, -67.818924 -38.585904, -67.818879 -38.586014, -67.818841 -38.586109, -67.818795 -38.586219, -67.818755 -38.58632, -67.818717 -38.586414, -67.818674 -38.586524, -67.818631 -38.586634, -67.81859 -38.586734, -67.818553 -38.586826, -67.81851 -38.586935, -67.818468 -38.587045, -67.818424 -38.587154, -67.81838 -38.587263, -67.818338 -38.587371, -67.818295 -38.58748, -67.818251 -38.587589, -67.818206 -38.587699, -67.818173 -38.587783, -67.818141 -38.587865, -67.818102 -38.587965, -67.818063 -38.588064, -67.81802 -38.588174, -67.817981 -38.588274, -67.817945 -38.588367, -67.817903 -38.588477, -67.81786 -38.588586, -67.817817 -38.588695, -67.81779 -38.588766, -67.817759 -38.588842, -67.817719 -38.588943, -67.817678 -38.589047, -67.817635 -38.589156, -67.81759 -38.589269, -67.817557 -38.589353, -67.817518 -38.589452, -67.817477 -38.589553, -67.817444 -38.589636, -67.817409 -38.589725, -67.817374 -38.589815, -67.81735 -38.589878, -67.817324 -38.589944, -67.817279 -38.590053, -67.817233 -38.590162, -67.817188 -38.590272, -67.817144 -38.590381, -67.817099 -38.59049, -67.817054 -38.5906, -67.817011 -38.590709, -67.816968 -38.590818, -67.816925 -38.590927, -67.816881 -38.591035, -67.816838 -38.591143, -67.816794 -38.591252, -67.816751 -38.591359, -67.816706 -38.591468, -67.816661 -38.591577, -67.816617 -38.591686, -67.816577 -38.591785, -67.816534 -38.591891, -67.816498 -38.591985, -67.816462 -38.592075, -67.816425 -38.59217, -67.816385 -38.592268, -67.816341 -38.592378, -67.816299 -38.592488, -67.816258 -38.592593, -67.816217 -38.592699, -67.816176 -38.592807, -67.816138 -38.592912, -67.816098 -38.593021, -67.816058 -38.593126, -67.816013 -38.593236, -67.815969 -38.593345, -67.815926 -38.593454, -67.815881 -38.593564, -67.815835 -38.593676, -67.815791 -38.593785, -67.815746 -38.593895, -67.815702 -38.594004, -67.815658 -38.594113, -67.815614 -38.594222, -67.815603 -38.59425, -67.815571 -38.594331, -67.815527 -38.594441, -67.815482 -38.59455, -67.815438 -38.594657, -67.815396 -38.594766, -67.815353 -38.594876, -67.815312 -38.594981, -67.815271 -38.595087, -67.815227 -38.595197, -67.815185 -38.595305, -67.815161 -38.595365, -67.815118 -38.595474, -67.815089 -38.595548, -67.815045 -38.595661, -67.815004 -38.595765, -67.814973 -38.595841, -67.81493 -38.59595, -67.814896 -38.596035, -67.814854 -38.59614, -67.814812 -38.596245, -67.814768 -38.596353, -67.814724 -38.596463, -67.814683 -38.596569, -67.81464 -38.596677, -67.814596 -38.596785, -67.814554 -38.596894, -67.814512 -38.597003, -67.81447 -38.597111, -67.814434 -38.597201, -67.814392 -38.597309, -67.81435 -38.597417, -67.814306 -38.597528, -67.814267 -38.597625, -67.814236 -38.597703, -67.814195 -38.597809, -67.814154 -38.59791, -67.814111 -38.598017, -67.814068 -38.598125, -67.814037 -38.598203, -67.813993 -38.598313, -67.81395 -38.598421, -67.813909 -38.598521, -67.813873 -38.598609, -67.813829 -38.598717, -67.813785 -38.598826, -67.81374 -38.598936, -67.813698 -38.599045, -67.813655 -38.599154, -67.813611 -38.599264, -67.813574 -38.599349, -67.813537 -38.599437, -67.81349 -38.599545, -67.813443 -38.599655, -67.813398 -38.599763, -67.813355 -38.599872, -67.813312 -38.599981, -67.81327 -38.600087, -67.813231 -38.600181, -67.813194 -38.600272, -67.81315 -38.600381, -67.813106 -38.60049, -67.813075 -38.600566, -67.813029 -38.600675, -67.812984 -38.600784, -67.812939 -38.600893, -67.812903 -38.60098, -67.812877 -38.60105, -67.812851 -38.601125, -67.812832 -38.601188, -67.812815 -38.601257, -67.81279 -38.601362, -67.812774 -38.601437, -67.812752 -38.601545, -67.812737 -38.601631, -67.812724 -38.601712, -67.812715 -38.601779, -67.812704 -38.601869, -67.812701 -38.601892, -67.812699 -38.601904), (-67.812699 -38.601904, -67.812684 -38.602, -67.812656 -38.602112, -67.81262 -38.602222,",
+          2
+        ],
+        [
+          "LINESTRING (-97.816536 22.27427, -97.93118 22.311758, -97.997631 22.36938, -98.051622 22.446171, -98.097307 22.507574, -98.176217 22.519084, -98.242667 22.565114, -98.329884 22.67629, -98.421253 22.76057, -98.529235 22.848626, -98.645523 22.913674, -98.761812 22.955747, -98.824109 23.039855, -98.840722 23.169736, -98.857334 23.211729, -98.873947 23.360508, -98.911326 23.471982, -98.945317 23.520077, -99.007614 23.596685, -99.032533 23.626153, -99.091443 23.672781, -99.093728 23.701389, -99.099908 23.7765, -99.138821 23.794442, -99.213578 23.817241, -99.268497 23.931175, -99.28511 24.048801, -99.301722 24.090514, -99.330794 24.302657, -99.380632 24.404814, -99.476155 24.522004, -99.542605 24.642859, -99.584137 24.752283, -99.596596 24.789994, -99.633975 24.872916, -99.67966 24.914356, -99.754416 24.959547, -99.812561 24.970843, -99.858245 25.046118, -99.895624 25.121348, -99.90393 25.219077, -99.891471 25.312973, -99.895624 25.429303, -99.920543 25.553015, -99.943797 25.586649)",
+          2
+        ],
+        [
+          "LINESTRING (-94.327403 18.076597, -94.420164 18.059427, -94.43672 18.045491, -94.450266 18.026788, -94.467825 18.018568, -94.488901 18.003676, -94.509976 17.99069, -94.533927 17.986272, -94.733103 17.988424, -94.753656 17.97989, -94.780226 17.9561, -94.814819 17.930399, -94.8454 17.902786, -94.867959 17.875168, -94.886505 17.839913, -94.905052 17.783653, -94.941651 17.708277, -94.984268 17.648152, -95.002814 17.620493, -95.009326 17.48769, -95.013832 17.201636, -95.010314 17.072357, -94.994762 17.025437, -94.989239 16.974669, -94.969674 16.933478, -94.97418 16.867336, -95.00075 16.822281, -94.999239 16.736899, -94.979674 16.695654, -94.964122 16.645794, -94.96161 16.617056, -94.979157 16.565252, -95.010744 16.48844, -95.03832 16.401979, -95.083948 16.313553, -95.174176 16.207907)",
+          2
+        ],
+        [
+          "LINESTRING (-94.327403 18.076597, -94.420164 18.059427, -94.43672 18.045491, -94.450266 18.026788, -94.467825 18.018568, -94.488901 18.003676, -94.509976 17.99069, -94.533927 17.986272)",
+          2
+        ],
+        [
+          "LINESTRING (-94.327403 18.076597, -94.367621 18.080863, -94.468915 18.09991, -94.665486 18.104675, -94.963941 18.118663, -95.118804 18.124675, -95.291306 18.132298, -95.47183 18.145166, -95.527994 18.159921, -95.572122 18.168487, -95.61625 18.172298, -95.676425 18.198977, -95.768693 18.21422, -95.885031 18.301843, -96.061544 18.370387, -96.270151 18.454126, -96.422594 18.549233, -96.55899 18.65189, -96.719457 18.735491, -96.875912 18.800063, -96.92004 18.841832, -96.940098 18.872203, -97.000273 18.879795, -97.048413 18.879795, -97.084518 18.860814, -97.104576 18.830442, -97.124634 18.807658, -97.228938 18.803861, -97.341264 18.830442, -97.401439 18.822847, -97.441556 18.803861, -97.541847 18.849425, -97.79057 18.944311, -98.083421 19.023974, -98.131561 19.035351, -98.288016 19.152871, -98.400343 19.270306, -98.504646 19.414145, -98.602786 19.504925, -98.83331 19.52005, -98.991625 19.52005, -99.083893 19.565417, -99.158313 19.663668, -99.174535 19.727876, -99.208605 19.829801, -99.234651 19.93166, -99.254651 19.98068, -99.272552 20.04956)",
+          2
+        ],
+        [
+          "LINESTRING (-73.876948 7.068156, -73.914884 6.96204, -73.94159 6.935334, -73.998563 6.906848, -74.062657 6.867679, -74.098265 6.830291, -74.139214 6.773318, -74.155237 6.746612, -74.192625 6.705663, -74.285206 6.638008, -74.345739 6.581036, -74.372306 6.549628, -74.382988 6.518026, -74.392113 6.470178)",
+          2
+        ],
+        [
+          "LINESTRING (-71.375722 10.283333, -70.196196 11.73689)",
+          2
+        ],
+        [
+          "LINESTRING (-71.145304 9.950045, -71.53781 10.761453)",
+          2
+        ],
+        [
+          "LINESTRING (-67.671492 -38.934084, -66.933913 -39.035015, -66.191408 -39.039097, -65.406288 -39.030266, -64.720801 -39.033741, -63.950192 -38.973065, -63.222308 -38.889569, -62.518074 -38.712565, -62.244361 -38.683785, -62.052878 -38.923906)",
+          2
+        ],
+        [
+          "LINESTRING (-56.061324 -15.646202, -55.875691 -15.782851, -55.711897 -15.866897, -55.493504 -15.9929, -55.31879 -16.066366, -55.067639 -16.202729, -54.936604 -16.265635, -54.805568 -16.31804, -54.645727 -16.444719)",
+          2
+        ],
+        [
+          "LINESTRING (-54.645727 -16.444719, -54.679985 -16.568447, -54.686437 -16.787157, -54.76189 -17.091983, -54.696372 -17.436095, -54.685452 -17.748363, -54.674533 -18.008171, -54.674533 -18.298701, -54.696372 -18.578395, -54.696372 -18.888628, -54.685452 -19.074493, -54.685452 -19.270458, -54.627371 -19.408148, -54.532578 -19.517658, -54.46706 -19.599975, -54.445221 -19.702811, -54.423381 -19.805581, -54.401542 -19.908285, -54.423381 -20.0417, -54.46706 -20.14425, -54.535561 -20.283984, -54.59861 -20.458476)",
+          2
+        ],
+        [
+          "MULTILINESTRING ((-98.479047 26.019105, -98.476811 26.026707, -98.452435 26.097488, -98.442006 26.134404, -98.44089 26.166262, -98.436556 26.192932, -98.43536 26.1962, -98.432959 26.200679, -98.432582 26.201385, -98.431095 26.215638, -98.428951 26.218192, -98.428775 26.21838, -98.428684 26.218319, -98.428356 26.21871, -98.42799 26.219197, -98.427662 26.219704, -98.430195 26.225578, -98.43035 26.225934, -98.431057 26.227547, -98.43121 26.227951, -98.431377 26.228531, -98.432697 26.23518, -98.432447 26.236549, -98.431888 26.239616, -98.431697 26.239957, -98.430645 26.241645, -98.430436 26.241941, -98.430368 26.242037), (-98.430368 26.242037, -98.430209 26.242259, -98.430183 26.242293), (-98.430183 26.242293, -98.430156 26.24233, -98.429551 26.245757, -98.429287 26.247246, -98.429261 26.247393, -98.429154 26.248001, -98.428249 26.253117, -98.428094 26.253995), (-98.428094 26.253995, -98.428063 26.254169, -98.428004 26.254552), (-98.428004 26.254552, -98.428013 26.254565, -98.429812 26.254757, -98.431294 26.254926, -98.431377 26.255021, -98.429752 26.264704, -98.429951 26.264746, -98.429729 26.266083, -98.42905 26.270136, -98.429035 26.270146, -98.428753 26.27007, -98.426159 26.269364, -98.425953 26.269486, -98.424992 26.274939, -98.424869 26.275196, -98.423536 26.281878, -98.423551 26.282419, -98.423063 26.286073, -98.422534 26.289119, -98.422519 26.289604, -98.421164 26.297364, -98.420482 26.301265, -98.420459 26.301536, -98.420292 26.302163, -98.418636 26.311542, -98.418514 26.311828, -98.416881 26.321238, -98.416858 26.321602, -98.416458 26.323896, -98.409401 26.364284, -98.401935 26.406936, -98.401935 26.407453, -98.401919 26.407547, -98.401508 26.409891, -98.401325 26.410379, -98.400211 26.416778, -98.400196 26.416999, -98.399854 26.417162, -98.399769 26.417203, -98.399677 26.417247, -98.399625 26.41724, -98.399513 26.417224, -98.394771 26.416549, -98.394389 26.416455, -98.394162 26.416423, -98.393913 26.416387, -98.393448 26.416321, -98.390208 26.415857, -98.390002 26.415876, -98.37816 26.414201, -98.377192 26.414064, -98.377078 26.414779, -98.368342 26.413533, -98.367961 26.413768, -98.366167 26.424039, -98.347327 26.421272, -98.347249 26.42126, -98.347119 26.421241, -98.344634 26.420876, -98.344577 26.420867, -98.344571 26.420867, -98.34451 26.420858, -98.34448 26.420853, -98.324006 26.417835, -98.323082 26.417708, -98.315488 26.416616, -98.314997 26.416544, -98.314218 26.41643, -98.314175 26.416423, -98.299363 26.414295, -98.299034 26.414514, -98.292504 26.413606, -98.272087 26.410629, -98.271606 26.413234, -98.256225 26.410959, -98.256072 26.410957, -98.248313 26.409813, -98.247863 26.409483, -98.236617 26.407839, -98.236159 26.407989, -98.222456 26.406048, -98.219588 26.40563, -98.215948 26.405073, -98.215505 26.405022, -98.204343 26.40337, -98.204229 26.403225, -98.184652 26.400425, -98.184384 26.400255, -98.180318 26.3997, -98.18044 26.399031, -98.172391 26.397915, -98.172559 26.397001, -98.167744 26.396283, -98.167401 26.396113, -98.15466 26.394299, -98.156552 26.383269, -98.156346 26.381925, -98.15609 26.381889, -98.147762 26.380721, -98.14779 26.380561, -98.148006 26.379313, -98.146404 26.379088), (-98.428094 26.253995, -98.428004 26.254552), (-98.430183 26.242293, -98.430368 26.242037))",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-92.09 19.431915, -91.9976 19.66), (-92.09 19.431915, -91.72 19.431915), (-92.09 19.431915, -92.196716 19.34), (-92.196716 19.34, -92.45 19.53), (-92.196716 19.34, -91.86 19.19), (-92.45 19.53, -92.72 19.53))",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-90.784979 17.529743, -90.129943 16.767239, -90.046125 15.866917), (-90.046125 15.866917, -89.60237 15.788509, -88.61699 15.695398), (-90.046125 15.866917, -90.449946 15.983147))",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-79.524562 0.402234, -79.524615 0.402332, -79.524625 0.402349, -79.524631 0.402361, -79.524647 0.402389, -79.524652 0.402398, -79.52466 0.402412, -79.524713 0.40251, -79.524766 0.402607, -79.524772 0.402618, -79.524826 0.402716, -79.524879 0.402813, -79.524932 0.402906, -79.524915 0.402965, -79.524904 0.402971, -79.524888 0.403029, -79.524901 0.403054, -79.524959 0.40307, -79.525003 0.403045, -79.525061 0.40306, -79.52507 0.403076, -79.525124 0.403173, -79.52518 0.403268, -79.525195 0.403294, -79.52525 0.403391, -79.525308 0.403484, -79.525367 0.403579, -79.525418 0.403663, -79.525437 0.403694, -79.525495 0.403789, -79.525551 0.403885, -79.525608 0.403982, -79.525623 0.404008, -79.525678 0.404106, -79.525719 0.404199, -79.525753 0.404306, -79.525784 0.404412, -79.525814 0.404517, -79.525843 0.404618, -79.525874 0.404722, -79.525879 0.404738, -79.525908 0.404845, -79.525935 0.404951, -79.525965 0.405059, -79.525994 0.405165, -79.526023 0.405272, -79.526053 0.405379, -79.526082 0.405482, -79.526108 0.405579, -79.526112 0.405592, -79.526142 0.405695, -79.526172 0.405801, -79.526202 0.405908, -79.526233 0.406015, -79.526263 0.406121, -79.526293 0.406227, -79.526323 0.406333, -79.526353 0.406437, -79.526363 0.406471, -79.526393 0.406577, -79.526431 0.406683, -79.52648 0.406782, -79.526489 0.406799, -79.526542 0.406897, -79.526595 0.406994, -79.526649 0.40709, -79.526708 0.407182, -79.526774 0.407266, -79.526842 0.407346, -79.526909 0.407427, -79.526953 0.407482, -79.527021 0.407564, -79.527027 0.407573, -79.527044 0.407593, -79.527053 0.407604, -79.527121 0.407688, -79.527191 0.407772, -79.527259 0.407862, -79.527267 0.407874, -79.527272 0.407881, -79.527274 0.407885, -79.527328 0.407982, -79.527373 0.408084, -79.527412 0.408175, -79.527454 0.408274, -79.527499 0.408375, -79.527545 0.408477, -79.52759 0.408579, -79.527608 0.408621, -79.527642 0.408698, -79.527687 0.408801, -79.527733 0.408904, -79.527777 0.409004, -79.527811 0.409108, -79.527837 0.409217, -79.527862 0.409324, -79.527886 0.409432, -79.52791 0.40954, -79.527933 0.409648, -79.527957 0.409755, -79.527972 0.409829, -79.527995 0.409937, -79.528018 0.410042, -79.528042 0.410147, -79.528067 0.410255, -79.528092 0.410361, -79.528118 0.410466, -79.528144 0.410573, -79.528172 0.410682, -79.5282 0.410791, -79.528229 0.410896, -79.528251 0.410977, -79.52828 0.411081, -79.528309 0.411184, -79.528337 0.41129, -79.528366 0.411398, -79.528394 0.411505, -79.528422 0.411608, -79.52845 0.411711, -79.528476 0.411811, -79.528501 0.411903, -79.528526 0.412002, -79.528553 0.412102, -79.528579 0.412202, -79.528607 0.412303, -79.528637 0.41241, -79.528675 0.412516, -79.528717 0.412616, -79.528724 0.412633, -79.528764 0.412733, -79.528803 0.41283, -79.528844 0.412931, -79.528881 0.413035, -79.528909 0.413142, -79.528931 0.413244, -79.528951 0.413349, -79.528971 0.413448, -79.528993 0.413554, -79.529012 0.413657, -79.529024 0.413764, -79.529034 0.413873, -79.52905 0.413982, -79.529073 0.414088, -79.529097 0.414196, -79.529121 0.414305, -79.52914 0.414388, -79.529167 0.414498, -79.529194 0.414605, -79.52922 0.414711, -79.529246 0.414818, -79.529273 0.414923, -79.5293 0.415032, -79.529326 0.415136, -79.529352 0.415242, -79.529377 0.415344, -79.529403 0.415449, -79.529427 0.415547, -79.529453 0.415651, -79.529479 0.415756, -79.529502 0.41584, -79.529529 0.415942, -79.529556 0.416048, -79.529584 0.416155, -79.529609 0.416261, -79.529637 0.416368, -79.529663 0.416474, -79.529689 0.416576, -79.529712 0.41668, -79.529738 0.416781, -79.529765 0.416884, -79.529792 0.416989, -79.52982 0.417095, -79.529846 0.417194, -79.52986 0.417247, -79.529886 0.417352, -79.529913 0.417455, -79.529938 0.417558, -79.529963 0.417659, -79.529987 0.417759, -79.53001 0.417859, -79.530033 0.417956, -79.530055 0.418045, -79.530077 0.41814, -79.530101 0.418238, -79.530124 0.418328, -79.530148 0.418433, -79.530169 0.418542, -79.530188 0.418653, -79.530214 0.418762, -79.530249 0.418867, -79.530282 0.418968, -79.530316 0.419067, -79.530349 0.419166, -79.530383 0.419264, -79.530415 0.419361, -79.530449 0.419463, -79.530482 0.419564, -79.530516 0.41966, -79.530549 0.419759, -79.530553 0.419771, -79.530561 0.419794, -79.530565 0.419807, -79.530594 0.419907, -79.530623 0.420007, -79.530655 0.420109, -79.530672 0.420161, -79.530705 0.420263, -79.530738 0.420366, -79.530773 0.42047, -79.530814 0.42057, -79.530859 0.420673, -79.530904 0.420775, -79.530948 0.420876, -79.530993 0.420978, -79.531036 0.421077, -79.53108 0.421179, -79.531123 0.421282, -79.531167 0.421385, -79.53121 0.421488, -79.531254 0.421587, -79.531296 0.421682, -79.53134 0.42178, -79.531385 0.42188, -79.531426 0.421974, -79.531466 0.422079, -79.531497 0.422186, -79.531527 0.422293, -79.531545 0.422355, -79.531576 0.422462, -79.531604 0.422558, -79.531635 0.422664, -79.53165 0.422716, -79.531674 0.422823, -79.531684 0.422935, -79.531682 0.423032, -79.531679 0.42314, -79.531682 0.423247, -79.531698 0.423355, -79.531718 0.423463, -79.531739 0.423573, -79.53176 0.42368, -79.531781 0.42379, -79.531794 0.423863, -79.531811 0.423973, -79.531817 0.424012, -79.531845 0.424115, -79.531897 0.424208, -79.531965 0.424285, -79.532046 0.424347, -79.532131 0.424412, -79.532219 0.424476, -79.532236 0.424487, -79.532243 0.424495, -79.532256 0.42451, -79.532313 0.424588, -79.532343 0.424642, -79.532361 0.424665, -79.53237 0.424681, -79.532383 0.424705, -79.532428 0.424786, -79.532436 0.424802, -79.532491 0.424892, -79.532554 0.424972, -79.532627 0.425046, -79.532703 0.425115, -79.532783 0.42519, -79.532858 0.425267, -79.532917 0.425357, -79.532961 0.425456, -79.532997 0.425559, -79.533027 0.425667, -79.533052 0.425777, -79.533067 0.425886, -79.533062 0.425994, -79.533045 0.426098, -79.533036 0.426163, -79.533019 0.426268, -79.533011 0.426369, -79.53302 0.426474, -79.533043 0.426583, -79.533074 0.426691, -79.533105 0.426796, -79.533136 0.426902, -79.533162 0.42701, -79.533175 0.427118, -79.533169 0.427229, -79.533153 0.42734, -79.533136 0.427449, -79.53312 0.427553, -79.533103 0.427661, -79.533087 0.427767, -79.533071 0.42787, -79.533062 0.427975, -79.533069 0.428087, -79.533091 0.428195, -79.533117 0.428301, -79.533143 0.428408, -79.53317 0.428517, -79.533196 0.428623, -79.533222 0.428728, -79.533248 0.428833, -79.533277 0.428941, -79.533308 0.429048, -79.533339 0.429154, -79.533369 0.429262, -79.5334 0.429369, -79.533429 0.429476, -79.533459 0.429583, -79.533485 0.429691, -79.533507 0.429801, -79.533528 0.429911, -79.533539 0.429965, -79.53355 0.43002, -79.533568 0.430108, -79.53359 0.430217, -79.533611 0.430325, -79.533632 0.430433, -79.533654 0.430542, -79.533674 0.430651, -79.533695 0.43076, -79.533721 0.430868, -79.533733 0.430913, -79.533761 0.431018, -79.533777 0.431077, -79.533805 0.431177, -79.533835 0.431277, -79.533864 0.431377, -79.533893 0.43148, -79.533924 0.431584, -79.533954 0.43169, -79.533986 0.431797, -79.534017 0.431904, -79.534047 0.432011, -79.534077 0.432118, -79.534107 0.432224, -79.534138 0.432331, -79.534168 0.432437, -79.534198 0.432544, -79.534229 0.432651, -79.534259 0.432758, -79.534289 0.432864, -79.53432 0.432971, -79.534342 0.433048, -79.53436 0.433157, -79.534365 0.433269, -79.53438 0.433378, -79.534418 0.433479, -79.534472 0.433576, -79.534539 0.433662, -79.534615 0.43374, -79.534692 0.433818, -79.534767 0.433898, -79.534829 0.433988, -79.534874 0.434085, -79.534908 0.434184, -79.534937 0.43428, -79.534965 0.434377, -79.534994 0.434477, -79.535023 0.434579, -79.535053 0.434681, -79.535083 0.434783, -79.535114 0.434885, -79.535144 0.434989, -79.535176 0.435097, -79.535208 0.435204, -79.53524 0.43531, -79.535273 0.435414, -79.535315 0.435517, -79.535367 0.435616, -79.535421 0.435714, -79.535476 0.43581, -79.53553 0.435908, -79.535584 0.436003, -79.535638 0.436099, -79.535692 0.436198, -79.535747 0.436294, -79.535811 0.436386, -79.535879 0.436474, -79.535948 0.436563, -79.536017 0.436648, -79.536086 0.436735, -79.536104 0.436758, -79.536176 0.436844, -79.536246 0.436919, -79.536322 0.436999, -79.536397 0.437079, -79.53647 0.437159, -79.536543 0.437241, -79.536614 0.437324, -79.536681 0.437412, -79.536748 0.437499, -79.536813 0.437586, -79.53688 0.437675, -79.536937 0.437749, -79.537004 0.437838, -79.537072 0.437926, -79.53714 0.438015, -79.537207 0.438103, -79.537273 0.438192, -79.53734 0.438281, -79.537406 0.438369, -79.537466 0.438457, -79.537522 0.438541, -79.537585 0.438633, -79.537615 0.438678, -79.537678 0.43877, -79.537738 0.438859, -79.537801 0.438951, -79.537863 0.439043, -79.537927 0.439133, -79.537994 0.439222, -79.538059 0.439309, -79.538122 0.439395, -79.538186 0.439481, -79.53825 0.439568, -79.538313 0.439657, -79.538374 0.439751, -79.538431 0.439846, -79.538487 0.439939, -79.538525 0.439999, -79.538587 0.440089, -79.538646 0.440181, -79.538704 0.440271, -79.538765 0.440362, -79.538826 0.440454, -79.538856 0.440497, -79.538918 0.440589, -79.53898 0.44068, -79.539039 0.440767, -79.539099 0.440856, -79.539159 0.440946, -79.539219 0.441035, -79.53928 0.441124, -79.539341 0.441215, -79.539403 0.441306, -79.539465 0.441396, -79.539527 0.441486, -79.539591 0.441577, -79.539658 0.441668, -79.539723 0.441757, -79.539788 0.441847, -79.539853 0.441937, -79.539919 0.442027, -79.539985 0.442117, -79.540051 0.442207, -79.540115 0.442294, -79.540178 0.44238, -79.54024 0.442468, -79.540303 0.442559, -79.540362 0.442653, -79.540421 0.442748, -79.540477 0.44284, -79.540532 0.442933, -79.54058 0.443029, -79.540621 0.443131, -79.54066 0.443234, -79.540681 0.443289, -79.540721 0.443393, -79.540761 0.443497, -79.540805 0.443597, -79.540862 0.443693, -79.540928 0.443781, -79.54096 0.443816, -79.541032 0.443896, -79.541103 0.443974, -79.541173 0.444051, -79.541245 0.44413, -79.541322 0.444207, -79.541403 0.444283, -79.541486 0.444355, -79.541565 0.444425, -79.541643 0.444492, -79.541723 0.444563, -79.541741 0.444579, -79.541752 0.444588, -79.54177 0.444604, -79.541848 0.444681, -79.541911 0.444765, -79.541945 0.444822, -79.541997 0.444906, -79.542056 0.444996, -79.542131 0.445077, -79.542218 0.445147, -79.542307 0.445216, -79.542394 0.445284, -79.542479 0.445351, -79.542564 0.445418, -79.542575 0.445427, -79.542583 0.445433, -79.542594 0.445443, -79.542678 0.445511, -79.542744 0.445562, -79.542824 0.445633, -79.542896 0.445713, -79.542963 0.445802, -79.543023 0.445892, -79.543075 0.445982, -79.543117 0.446075, -79.543154 0.446172, -79.543193 0.446274, -79.543231 0.446377, -79.54327 0.446481, -79.543309 0.446583, -79.543352 0.446685, -79.543397 0.446787, -79.543443 0.446887, -79.543487 0.446985, -79.543533 0.447086, -79.543579 0.447187, -79.543611 0.447254, -79.543661 0.447351, -79.54371 0.447437, -79.543717 0.447449, -79.543729 0.447471, -79.543736 0.447483, -79.543787 0.447574, -79.543838 0.447665, -79.543886 0.447747, -79.543928 0.44782, -79.543958 0.447872, -79.544011 0.447961, -79.544064 0.448054, -79.544118 0.448148, -79.544172 0.448243, -79.544227 0.448338, -79.544282 0.448433, -79.544337 0.448527, -79.54439 0.448619, -79.544439 0.448705, -79.544495 0.448797, -79.544556 0.448888, -79.54461 0.448984, -79.544644 0.449092, -79.544659 0.449202, -79.544669 0.449311, -79.544672 0.449355, -79.544681 0.449464, -79.544689 0.449567, -79.544699 0.449677, -79.544708 0.449788, -79.544716 0.449895, -79.544724 0.45, -79.544735 0.450108, -79.544748 0.45022, -79.544759 0.450332, -79.544771 0.450442, -79.544783 0.45055, -79.544794 0.450656, -79.544806 0.450763, -79.544818 0.450869, -79.544829 0.450974, -79.544839 0.451067, -79.54485 0.451167, -79.544862 0.451265, -79.544864 0.451277, -79.544866 0.451301, -79.544868 0.451316, -79.544881 0.451424, -79.544895 0.451534, -79.544909 0.451638, -79.544922 0.451741, -79.544935 0.451844, -79.544947 0.451947, -79.54496 0.452052, -79.544973 0.452157, -79.544985 0.452251, -79.544998 0.452358, -79.545012 0.45247, -79.545024 0.452578, -79.545038 0.45269, -79.545043 0.452753, -79.545049 0.452864, -79.545055 0.452973, -79.545064 0.453082, -79.54508 0.45319, -79.545096 0.453297, -79.545113 0.453405, -79.545126 0.453496, -79.545143 0.453603, -79.545145 0.453616, -79.545149 0.45364, -79.545151 0.453657, -79.545167 0.453759, -79.545182 0.45386, -79.545198 0.453958, -79.545214 0.454061, -79.54523 0.454165, -79.545244 0.45427, -79.545259 0.454375, -79.545269 0.454442, -79.545284 0.454547, -79.545302 0.454656, -79.54532 0.454764, -79.54533 0.454873, -79.545329 0.454974, -79.54532 0.455078, -79.545311 0.455168, -79.545289 0.45527, -79.545257 0.455368, -79.545227 0.455461, -79.545196 0.455551, -79.54517 0.455638, -79.545166 0.455651, -79.545155 0.455687, -79.54515 0.455701, -79.545137 0.455738, -79.545103 0.455837, -79.545068 0.455943, -79.54503 0.456047, -79.544984 0.456146, -79.544935 0.456241, -79.544928 0.456255, -79.544917 0.456277, -79.54491 0.45629, -79.544863 0.456386, -79.544815 0.456481, -79.54477 0.456579, -79.544731 0.456679, -79.544691 0.456782, -79.544651 0.456884, -79.544612 0.456982, -79.544572 0.457083, -79.544532 0.457186, -79.544492 0.457288, -79.544452 0.457389, -79.544412 0.457491, -79.544373 0.45759, -79.544333 0.457686, -79.544292 0.457784, -79.544252 0.457886, -79.544212 0.457979, -79.544162 0.45808, -79.544111 0.458178, -79.544067 0.45828, -79.54404 0.458388, -79.544033 0.4585, -79.544042 0.458612, -79.54406 0.458723, -79.544078 0.458832, -79.544104 0.458941, -79.544141 0.459047, -79.54418 0.459153, -79.544216 0.459248, -79.544224 0.459269, -79.544262 0.459371, -79.544301 0.459476, -79.54434 0.45958, -79.54435 0.459609, -79.544378 0.459718, -79.544388 0.459829, -79.544389 0.459905, -79.54439 0.460015, -79.544397 0.46012, -79.544422 0.460224, -79.544451 0.460327, -79.54448 0.460427, -79.544499 0.460488, -79.54453 0.460589, -79.544562 0.460688, -79.544591 0.460786, -79.54462 0.460879, -79.544623 0.460891, -79.544628 0.460904, -79.544632 0.460917, -79.544663 0.461021, -79.544701 0.461113, -79.544747 0.461196, -79.544791 0.461282, -79.544825 0.461384, -79.544854 0.461484, -79.54489 0.461583, -79.544937 0.461678, -79.544995 0.461765, -79.545063 0.461849, -79.545143 0.461925, -79.545228 0.461995, -79.545312 0.462061, -79.545396 0.462126, -79.545481 0.462189, -79.545572 0.462253, -79.545665 0.462316, -79.545753 0.462377, -79.545845 0.462439, -79.545938 0.462501, -79.546024 0.462558, -79.546119 0.462616, -79.546219 0.462665, -79.546319 0.462707, -79.546416 0.462754, -79.546503 0.462816, -79.546575 0.462898, -79.546634 0.462989, -79.546697 0.463083, -79.546755 0.463178, -79.546806 0.463279, -79.546854 0.463377, -79.546903 0.463475, -79.546953 0.463576, -79.546985 0.46364, -79.547035 0.463741, -79.547065 0.463801, -79.547117 0.463901, -79.547179 0.463991, -79.547255 0.464073, -79.547341 0.464143, -79.547434 0.464201, -79.547529 0.464259, -79.547625 0.464317, -79.54772 0.464375, -79.547817 0.464429, -79.547918 0.464477, -79.547991 0.464513, -79.548091 0.464562, -79.548191 0.464611, -79.548286 0.46466, -79.548383 0.464715, -79.548456 0.46476, -79.548548 0.464823, -79.548636 0.464892, -79.54872 0.464967, -79.548797 0.465046, -79.548865 0.465134, -79.548912 0.465233, -79.548938 0.465343, -79.548951 0.465453, -79.548961 0.465559, -79.548967 0.465619, -79.548976 0.465726, -79.548983 0.465834, -79.548992 0.465943, -79.548998 0.466043, -79.549004 0.46615, -79.549012 0.466258, -79.549019 0.466362, -79.549026 0.466468, -79.549039 0.466574, -79.549055 0.466679, -79.549057 0.466693, -79.549073 0.466797, -79.549089 0.466904, -79.549092 0.466918, -79.549093 0.466928, -79.549095 0.466941, -79.549111 0.467035, -79.549124 0.46711, -79.54914 0.467208, -79.549158 0.467314, -79.549179 0.46742, -79.549203 0.467529, -79.549227 0.467638, -79.549251 0.467748, -79.549275 0.467856, -79.549302 0.467964, -79.549335 0.468069, -79.54937 0.468173, -79.549406 0.468275, -79.549441 0.468373, -79.549476 0.46847, -79.549516 0.468568, -79.549564 0.468659, -79.549619 0.46875, -79.549681 0.468841, -79.549749 0.468929, -79.549825 0.46901, -79.549916 0.469077, -79.550009 0.469133, -79.550104 0.469187, -79.550201 0.469241, -79.550297 0.469293, -79.550391 0.469349, -79.550477 0.469418, -79.550548 0.469505, -79.550607 0.469601, -79.550658 0.469696, -79.550716 0.469792, -79.550783 0.469881, -79.550855 0.469966, -79.55092 0.470055, -79.550969 0.470153, -79.550998 0.470261, -79.551016 0.470369, -79.551032 0.470475, -79.551045 0.47058, -79.551048 0.470688, -79.551057 0.470798, -79.551091 0.470904, -79.551148 0.471001, -79.551217 0.47108, -79.551295 0.471161, -79.551369 0.471246, -79.551438 0.471332, -79.551505 0.471413, -79.551575 0.471497, -79.551648 0.471582, -79.551713 0.471674, -79.551769 0.47177, -79.551824 0.471867, -79.55188 0.471964, -79.551932 0.472058, -79.551986 0.472155, -79.552037 0.472246, -79.552089 0.472341, -79.552142 0.472435, -79.552198 0.472531, -79.552257 0.472618, -79.552332 0.472699, -79.552413 0.472775, -79.552493 0.472851, -79.552573 0.472925, -79.552656 0.473002, -79.552738 0.473077, -79.552817 0.473149, -79.552899 0.473224, -79.552979 0.473297, -79.553054 0.473372, -79.553118 0.473456, -79.553173 0.473553, -79.553222 0.473654, -79.553269 0.473754, -79.553314 0.473847, -79.553363 0.47395, -79.55341 0.47405, -79.553459 0.474143, -79.553519 0.474239, -79.553584 0.47433, -79.553649 0.474402, -79.553658 0.474412, -79.553732 0.474492, -79.553805 0.474571, -79.553874 0.474654, -79.553931 0.474744, -79.55397 0.474815, -79.554019 0.474907, -79.554067 0.475, -79.554101 0.475068, -79.554133 0.475131, -79.554178 0.47522, -79.554225 0.475313, -79.554274 0.475405, -79.554325 0.475503, -79.554377 0.475601, -79.554428 0.475698, -79.554478 0.475794, -79.554521 0.475891, -79.554558 0.475988, -79.554592 0.47608, -79.554626 0.476172, -79.554661 0.476264, -79.554696 0.476356, -79.554731 0.476448, -79.554765 0.476536, -79.554798 0.476622, -79.55483 0.47671, -79.554865 0.476802, -79.5549 0.476899, -79.554937 0.477, -79.554973 0.477102, -79.555004 0.477206, -79.555031 0.477312, -79.555058 0.477419, -79.555089 0.477518, -79.555129 0.477613, -79.555187 0.477708, -79.555254 0.477797, -79.555311 0.477889, -79.555357 0.477986, -79.5554 0.478083, -79.555445 0.478185, -79.555489 0.478287, -79.555533 0.478389, -79.555577 0.478491, -79.555613 0.478573, -79.555656 0.478667, -79.555694 0.47877, -79.555713 0.47888, -79.555715 0.478988, -79.555722 0.479093, -79.555725 0.479107, -79.555756 0.47921, -79.555798 0.479309, -79.555841 0.479408, -79.555868 0.479473, -79.55591 0.479572, -79.555952 0.479676, -79.555994 0.479779, -79.556036 0.479879, -79.556079 0.479981, -79.556118 0.480074, -79.556157 0.480168, -79.556196 0.480261, -79.556236 0.480356, -79.556277 0.480454, -79.556316 0.480559, -79.556343 0.480667, -79.556357 0.480774, -79.556368 0.480879, -79.556379 0.480985, -79.556389 0.481094, -79.556402 0.481204, -79.556412 0.481311, -79.55641 0.48141, -79.556386 0.481505, -79.55638 0.481519, -79.55637 0.481547, -79.556365 0.481562, -79.556329 0.481663, -79.556292 0.481765, -79.556276 0.481807, -79.556238 0.481907, -79.556202 0.482006, -79.556162 0.482102, -79.556123 0.482204, -79.556084 0.482308, -79.556046 0.48241, -79.556009 0.482513, -79.555972 0.482616, -79.555938 0.482721, -79.555911 0.48282, -79.555882 0.482927, -79.555852 0.483034, -79.555824 0.483141, -79.555796 0.483246, -79.555769 0.48335, -79.555741 0.483458, -79.555713 0.483564, -79.555684 0.483671, -79.555659 0.48378, -79.55565 0.483887, -79.555659 0.483995, -79.555681 0.484104, -79.555708 0.484212, -79.555734 0.484317, -79.555765 0.484422, -79.555813 0.48452, -79.555875 0.48461, -79.555938 0.484697, -79.556002 0.484786, -79.556067 0.484874, -79.556133 0.484963, -79.5562 0.485052, -79.556264 0.485135, -79.556325 0.485228, -79.556369 0.485328, -79.556397 0.485434, -79.556416 0.485541, -79.556427 0.485652, -79.556416 0.485763, -79.556393 0.485871, -79.556369 0.485978, -79.556343 0.486084, -79.556318 0.486188, -79.556293 0.486293, -79.556268 0.486397, -79.556243 0.486506, -79.556221 0.486613, -79.556212 0.48672, -79.556219 0.486831, -79.556239 0.486941, -79.556264 0.487046, -79.556291 0.487154, -79.556326 0.487259, -79.556377 0.487354, -79.556446 0.487441, -79.556532 0.487511, -79.556627 0.487565, -79.556725 0.487607, -79.556825 0.487641, -79.556932 0.487669, -79.557035 0.487694, -79.557142 0.487718, -79.557187 0.487729, -79.557294 0.487753, -79.557398 0.487776, -79.557504 0.487807, -79.557604 0.487855, -79.55769 0.487925, -79.557731 0.487974, -79.557787 0.488068, -79.557832 0.488169, -79.557846 0.488202, -79.557888 0.488302, -79.557928 0.488406, -79.557957 0.488514, -79.557981 0.488623, -79.558003 0.488728, -79.558026 0.488837, -79.55805 0.488944, -79.558072 0.489049, -79.558095 0.489158, -79.558118 0.489264, -79.558142 0.489371, -79.558166 0.489479, -79.558176 0.489525, -79.5582 0.489631, -79.558216 0.489741, -79.558214 0.489851, -79.558191 0.489959, -79.55815 0.490062, -79.558093 0.490156, -79.558027 0.490243, -79.557963 0.490325, -79.557895 0.490411, -79.557831 0.490497, -79.557776 0.490587, -79.557729 0.490683, -79.557684 0.490781, -79.557638 0.490881, -79.55761 0.490939, -79.557562 0.49104, -79.55751 0.491139, -79.557454 0.491235, -79.557398 0.491331, -79.557343 0.491427, -79.557288 0.491523, -79.557232 0.491618, -79.55718 0.49171, -79.557135 0.491809, -79.557092 0.491908, -79.557051 0.492005, -79.55701 0.4921, -79.556967 0.492198, -79.556923 0.492299, -79.556878 0.492401, -79.556834 0.492502, -79.55679 0.492604, -79.556746 0.492705, -79.556702 0.492805, -79.556658 0.492905, -79.556614 0.493004, -79.55657 0.4931, -79.556521 0.4932, -79.556474 0.493295, -79.556425 0.493396, -79.556379 0.493497, -79.556341 0.493602, -79.556303 0.493706, -79.556292 0.493735, -79.556256 0.493839, -79.55622 0.493943, -79.556185 0.494047, -79.556149 0.494153, -79.556118 0.494261, -79.556098 0.494371, -79.556082 0.49448, -79.556066 0.494588, -79.55605 0.494696, -79.556033 0.494804, -79.556016 0.49488, -79.555983 0.494984, -79.555944 0.495083, -79.555905 0.495182, -79.555864 0.495282, -79.555859 0.495294, -79.555849 0.495318, -79.555845 0.49533, -79.555808 0.495425, -79.555771 0.495521, -79.555735 0.495617, -79.555695 0.495718, -79.555653 0.495823, -79.555616 0.495918, -79.555584 0.496024, -79.55557 0.496132, -79.555577 0.496234, -79.555611 0.496339, -79.555652 0.49643, -79.555691 0.496534, -79.555723 0.496639, -79.555754 0.496743, -79.555781 0.496836, -79.555809 0.496942, -79.555823 0.497048, -79.55582 0.49716, -79.555801 0.497268, -79.555778 0.497377, -79.555755 0.497486, -79.555732 0.497594, -79.555708 0.497701, -79.555685 0.497809, -79.555665 0.497917, -79.555657 0.498024, -79.555659 0.498134, -79.555665 0.498246, -79.55567 0.498358, -79.555675 0.498468, -79.555681 0.498576, -79.555686 0.498688, -79.555689 0.498799, -79.555678 0.49891, -79.555655 0.499006, -79.555628 0.499107, -79.555601 0.499207, -79.555572 0.499316, -79.555545 0.499424, -79.555531 0.499529, -79.555525 0.499641, -79.555521 0.499753, -79.555519 0.499856, -79.555522 0.499955, -79.55553 0.500063, -79.55555 0.500172, -79.555586 0.500278, -79.555627 0.50037, -79.555643 0.500406, -79.555682 0.500492, -79.555726 0.50059, -79.555771 0.500691, -79.555815 0.500792, -79.55586 0.500894, -79.555905 0.500996, -79.555951 0.501097, -79.555993 0.501187, -79.556033 0.501278, -79.556071 0.50138, -79.556102 0.501486, -79.556133 0.501593, -79.556164 0.501697, -79.556194 0.501802, -79.556223 0.501903, -79.556253 0.502006, -79.556277 0.502109, -79.556295 0.502219, -79.55631 0.502327, -79.556325 0.502437, -79.55634 0.502545, -79.556359 0.502656, -79.556378 0.502766, -79.556396 0.502868, -79.556412 0.502959, -79.556415 0.502973, -79.556434 0.503077, -79.556434 0.50309, -79.556443 0.503115, -79.556443 0.503128, -79.556463 0.503234, -79.556468 0.503258, -79.55649 0.503368, -79.556501 0.503437, -79.55651 0.503547, -79.556507 0.503657, -79.556499 0.503767, -79.556493 0.503823, -79.556474 0.503928, -79.556432 0.504029, -79.556377 0.504126, -79.556322 0.504222, -79.556268 0.50432, -79.556229 0.504425, -79.556213 0.504534, -79.556222 0.504642, -79.556247 0.504744, -79.556274 0.504844, -79.556301 0.504942, -79.556329 0.505038, -79.556357 0.505138, -79.556383 0.505235, -79.556408 0.505338, -79.556424 0.505447, -79.556436 0.505555, -79.556441 0.505667, -79.55644 0.505721, -79.55644 0.505833, -79.556445 0.505946, -79.55646 0.506056, -79.556482 0.506165, -79.556505 0.506274, -79.556529 0.506382, -79.556553 0.506491, -79.556583 0.506598, -79.556625 0.506699, -79.556668 0.5068, -79.556712 0.506901, -79.556743 0.506972, -79.556788 0.507074, -79.556832 0.507174, -79.556872 0.507278, -79.556903 0.507385, -79.556929 0.507491, -79.556955 0.5076, -79.556979 0.507709, -79.557004 0.507818, -79.557025 0.507915, -79.557048 0.508024, -79.557071 0.508132, -79.557097 0.508241, -79.557127 0.50835, -79.557154 0.508459, -79.557169 0.508568, -79.557179 0.508676, -79.557189 0.508786, -79.557198 0.508894, -79.557206 0.508996, -79.557215 0.509105, -79.557223 0.509212, -79.557232 0.509322, -79.557246 0.509428, -79.557267 0.509528, -79.557286 0.509622, -79.557288 0.509726, -79.557272 0.509833, -79.557249 0.509941, -79.557225 0.510048, -79.557195 0.510154, -79.557151 0.510254, -79.557094 0.510352, -79.557038 0.510443, -79.556972 0.510533, -79.556904 0.510619, -79.556835 0.510707, -79.556773 0.5108, -79.556725 0.510901, -79.556685 0.511004, -79.556659 0.511109, -79.556647 0.511212, -79.55664 0.511318, -79.556634 0.511426, -79.556627 0.511533, -79.556621 0.51164, -79.556614 0.511746, -79.556599 0.511852, -79.556578 0.511953, -79.556559 0.512047, -79.556537 0.512154, -79.556515 0.512262, -79.556494 0.51237, -79.556473 0.51248, -79.556451 0.51259, -79.556428 0.5127, -79.556406 0.51281, -79.556384 0.512918, -79.556362 0.513021, -79.55634 0.513131, -79.55632 0.513238, -79.556303 0.513328, -79.556285 0.513427, -79.556268 0.513524, -79.556255 0.513635, -79.556261 0.513747, -79.556281 0.513858, -79.556309 0.513952, -79.556342 0.514054, -79.55637 0.514162, -79.556377 0.514271, -79.556364 0.51438, -79.556346 0.51449, -79.556329 0.514601, -79.556312 0.514709, -79.556294 0.51482, -79.556278 0.514924, -79.556261 0.515036, -79.556244 0.515129, -79.55623 0.515226, -79.556215 0.515321, -79.5562 0.515424, -79.556183 0.515532, -79.556166 0.51564, -79.556148 0.515746, -79.556129 0.515854, -79.556126 0.51587, -79.556126 0.515881, -79.556127 0.515898, -79.556148 0.516004, -79.556186 0.516105, -79.556228 0.516204, -79.556281 0.516301, -79.556344 0.516393, -79.556376 0.51644, -79.556431 0.516537, -79.556477 0.516639, -79.556522 0.516741, -79.556564 0.516844, -79.556597 0.516949, -79.556622 0.517058, -79.556645 0.517166, -79.556668 0.517276, -79.556691 0.517385, -79.556714 0.517494, -79.556736 0.517603, -79.556758 0.517713, -79.55678 0.517822, -79.556802 0.517932, -79.556824 0.518041, -79.556846 0.518151, -79.556869 0.518261, -79.556892 0.518369, -79.556914 0.51847, -79.556938 0.518578, -79.556962 0.518686, -79.556985 0.518786, -79.55701 0.518895, -79.557038 0.519003, -79.557073 0.519104, -79.557111 0.51921, -79.557147 0.519316, -79.557184 0.519422, -79.557198 0.519463, -79.557234 0.51957, -79.557268 0.519676, -79.557301 0.519782, -79.55733 0.519888, -79.557341 0.519999, -79.557333 0.520111, -79.557319 0.52022, -79.557301 0.520327, -79.55727 0.520431, -79.557227 0.520531, -79.557186 0.520632, -79.557157 0.52074, -79.55715 0.520853, -79.557155 0.520963, -79.557166 0.521074, -79.557183 0.521184, -79.557199 0.521288, -79.557218 0.521398, -79.557236 0.521506, -79.557256 0.521616, -79.557275 0.521726, -79.557294 0.521834, -79.557314 0.521945, -79.557333 0.522044, -79.557365 0.522149, -79.557415 0.522249, -79.557473 0.522344, -79.55753 0.522438, -79.557588 0.522532, -79.557644 0.522626, -79.557702 0.522722, -79.557751 0.522821, -79.557783 0.522929, -79.557807 0.523037, -79.55783 0.523147, -79.557854 0.523256, -79.557877 0.523361, -79.557901 0.52347, -79.557925 0.523578, -79.557945 0.52367, -79.557968 0.523777, -79.557989 0.523875, -79.558012 0.523984, -79.558035 0.524093, -79.558058 0.524202, -79.558081 0.524312, -79.558106 0.524422, -79.558131 0.52453, -79.558157 0.52464, -79.558184 0.524747, -79.558219 0.524852, -79.558256 0.524954, -79.558293 0.525057, -79.558333 0.525169, -79.558366 0.525263, -79.558398 0.525369, -79.558416 0.525477, -79.558426 0.525588, -79.558435 0.525696, -79.558442 0.525808, -79.558443 0.525919, -79.558436 0.526031, -79.558429 0.526143, -79.558421 0.526256, -79.558413 0.526368, -79.558404 0.526479, -79.558398 0.526552, -79.558389 0.526663, -79.558382 0.526738, -79.558367 0.526848, -79.558339 0.526956, -79.558301 0.52706, -79.55826 0.527164, -79.558224 0.527271, -79.558201 0.52738, -79.558185 0.527488, -79.558169 0.527597, -79.558152 0.527707, -79.558135 0.527817, -79.558119 0.527924, -79.558105 0.52803, -79.558092 0.52814, -79.558093 0.528252, -79.558105 0.528362, -79.558121 0.528471, -79.558136 0.528578, -79.558153 0.528685, -79.55817 0.52879, -79.558192 0.528895, -79.558216 0.528997, -79.558239 0.529096, -79.558263 0.529197, -79.558287 0.529297, -79.558311 0.529399, -79.558337 0.529505, -79.558363 0.529612, -79.558389 0.529717, -79.558414 0.529821, -79.55844 0.529926, -79.558465 0.530025, -79.558493 0.530133, -79.55853 0.530238, -79.558584 0.530335, -79.558646 0.530428, -79.558676 0.530472, -79.558737 0.530564, -79.558798 0.530655, -79.55886 0.530746, -79.558919 0.530836, -79.55898 0.530928, -79.559041 0.531021, -79.559102 0.531113, -79.559163 0.531204, -79.559224 0.531297, -79.559282 0.531391, -79.559339 0.531484, -79.559396 0.531577, -79.559451 0.531667, -79.55951 0.53176, -79.559568 0.531854, -79.559626 0.531949, -79.559684 0.532044, -79.559741 0.532136, -79.559798 0.532231, -79.559857 0.532325, -79.559917 0.532418, -79.559974 0.532506, -79.560033 0.532596, -79.560093 0.532686, -79.560152 0.532776, -79.560211 0.532867, -79.560269 0.532956, -79.560328 0.533045, -79.560386 0.533135, -79.560445 0.533224, -79.5605 0.533306, -79.560558 0.533395, -79.560618 0.533484, -79.560678 0.533576, -79.560738 0.533667, -79.560799 0.533759, -79.560859 0.533852, -79.560919 0.533942, -79.560979 0.534034, -79.561038 0.534124, -79.561099 0.534215, -79.561156 0.534309, -79.561203 0.53441, -79.561235 0.534516, -79.561262 0.534624, -79.561289 0.534732, -79.561314 0.534833, -79.561341 0.534938, -79.561368 0.535047, -79.561395 0.535151, -79.561422 0.535259, -79.561449 0.535366, -79.561476 0.535474, -79.561503 0.535582, -79.561528 0.535682, -79.561554 0.53579, -79.561579 0.535897, -79.561607 0.536003, -79.561635 0.53611, -79.561661 0.536216, -79.561688 0.536322, -79.561716 0.536431, -79.561744 0.536537, -79.561772 0.536645, -79.561778 0.536673, -79.561804 0.536777, -79.561818 0.53683, -79.561844 0.536936, -79.561869 0.537041, -79.561895 0.537149, -79.56192 0.537257, -79.561947 0.537365, -79.561977 0.537473, -79.562 0.537552, -79.56203 0.537659, -79.562059 0.537757, -79.562088 0.537864, -79.562118 0.537971, -79.562123 0.537988, -79.562148 0.53808, -79.562183 0.538186, -79.562229 0.538284, -79.562287 0.53838, -79.562345 0.538474, -79.562404 0.538568, -79.562433 0.538616, -79.56249 0.538707, -79.562548 0.538799, -79.562605 0.538894, -79.562665 0.538986, -79.562726 0.539079, -79.562787 0.539173, -79.562848 0.539267, -79.562908 0.539361, -79.562968 0.539453, -79.563027 0.539546, -79.563088 0.539639, -79.563149 0.539731, -79.56321 0.53982, -79.56322 0.539836, -79.563233 0.539858, -79.56324 0.539875, -79.563286 0.539974, -79.563327 0.540079, -79.563361 0.540171, -79.563386 0.540236, -79.563422 0.540341, -79.563459 0.540446, -79.563496 0.540551, -79.563531 0.540655, -79.563566 0.540751, -79.563603 0.540856, -79.56364 0.540961, -79.563675 0.54106, -79.563711 0.541166, -79.563744 0.541273, -79.563771 0.541381, -79.563799 0.541488, -79.563824 0.541595, -79.563851 0.541702, -79.563878 0.541809, -79.563911 0.541916, -79.563949 0.542021, -79.563986 0.542125, -79.564025 0.542229, -79.564061 0.542327, -79.564104 0.542441, -79.564141 0.542542, -79.564183 0.542645, -79.564228 0.542748, -79.564273 0.54285, -79.564316 0.542949, -79.564359 0.543049, -79.564391 0.543122, -79.564435 0.543225, -79.564479 0.543327, -79.564524 0.543429, -79.564568 0.543532, -79.564612 0.543634, -79.564654 0.543738, -79.564697 0.54384, -79.564742 0.543942, -79.564785 0.544042, -79.564829 0.544144, -79.564872 0.544246, -79.564914 0.544344, -79.564949 0.54445, -79.564979 0.544557, -79.56501 0.544665, -79.565039 0.544761, -79.565069 0.544869, -79.565095 0.544964, -79.565125 0.545072, -79.565146 0.545182, -79.565162 0.545292, -79.565158 0.545379, -79.565153 0.545486, -79.565152 0.545596, -79.565152 0.545706, -79.565152 0.54576, -79.565151 0.545871, -79.565149 0.545983, -79.565146 0.546093, -79.565142 0.546205, -79.565135 0.546312, -79.565128 0.546424, -79.565111 0.546537, -79.565103 0.546648, -79.565095 0.54674, -79.565086 0.546852, -79.56507 0.546961, -79.565064 0.547073, -79.565081 0.547181, -79.565122 0",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-76.295606 0.299411, -76.281493 0.020599, -76.28176 0.010904, -76.660634 0.059309, -76.718101 0.08059, -76.876216 0.082819), (-76.671808 -0.345964, -76.655698 -0.200988), (-76.128654 -0.529352, -76.655698 -0.200988), (-76.771807 -0.560225, -76.881672 -0.373535), (-76.938223 -0.999003, -76.887395 -0.707233, -76.881672 -0.373535), (-76.881672 -0.373535, -76.655698 -0.200988), (-76.655698 -0.200988, -76.876216 0.082819))",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-75.292888 3.079043, -75.016932 3.928441, -74.995682 4.212065, -75.031511 4.281514), (-75.031511 4.281514, -74.906241 4.863837, -74.664741 5.456319, -74.558448 6.06589), (-75.031511 4.281514, -75.243254 3.897935))",
+          1
+        ],
+        [
+          "MULTILINESTRING ((-74.224499 11.166064, -74.187187 10.9534, -74.135111 10.787155, -74.156476 10.694575, -74.152915 10.512975, -74.092381 10.324253, -74.028287 10.135532, -73.929496 9.974311, -73.861841 9.874609, -73.801308 9.799832, -73.698045 9.664522, -73.630835 9.487818, -73.600568 9.332924, -73.616592 9.251026, -73.645078 9.199395, -73.687808 9.156665, -73.705612 8.889607, -73.726976 8.76676, -73.73302 8.716448, -73.687808 8.663497, -73.612009 8.598307), (-73.876726 7.0681, -73.884618 6.912189, -73.927347 6.823169, -73.980759 6.771538, -74.016367 6.730589, -74.03239 6.680738, -74.080461 6.643349, -74.146335 6.604181, -74.199747 6.563232, -74.254939 6.543647, -74.340398 6.50982, -74.376534 6.482864, -74.391663 6.469999), (-73.876948 7.068156, -73.914884 6.96204, -73.94159 6.935334, -73.998563 6.906848, -74.062657 6.867679, -74.098265 6.830291, -74.139214 6.773318, -74.155237 6.746612, -74.192625 6.705663, -74.285206 6.638008, -74.345739 6.581036, -74.372306 6.549628, -74.382988 6.518026, -74.392113 6.470178), (-74.392231 6.469812, -74.458147 6.356437, -74.540318 6.281368, -74.603249 6.213115, -74.616602 6.126766, -74.602359 6.064452, -74.611261 5.954068, -74.633177 5.881837, -74.668785 5.817743, -74.677136 5.687009, -74.661112 5.64428, -74.656322 5.518637, -74.631179 5.453054), (-74.630164 5.453541, -74.632834 5.4028, -74.620372 5.365412, -74.621262 5.239004, -74.610254 5.137188, -74.55095 5.058781, -74.491307 4.896765, -74.416531 4.851365, -74.344494 4.841128), (-73.581207 5.667828, -73.568285 5.531253, -73.470363 5.378139, -73.390246 5.312264, -73.327932 5.267755, -73.267399 5.178735, -73.151673 5.136006, -73.082238 5.043425, -73.076897 4.963307, -73.023485 4.922358, -72.985486 4.903991, -72.991438 4.858264, -73.062654 4.712272, -73.126748 4.580523, -73.148112 4.487943, -73.195131 4.433262, -73.29625 4.391472, -73.373911 4.357335, -73.41432 4.296721, -73.418361 4.228026, -73.42029 4.158716, -73.378562 4.087389), (-74.391732 6.469596, -74.319736 6.46027, -74.24852 6.383713, -74.141697 6.333862, -74.102528 6.312497, -74.06514 6.319619, -74.049116 6.287572, -74.036653 6.269768, -74.024191 6.246623, -74.008167 6.230599, -73.990363 6.202113, -73.965438 6.205674, -73.944073 6.164725, -73.908465 6.136238, -73.858614 6.127336, -73.837249 6.109532, -73.819445 6.093509, -73.803422 6.070364, -73.781167 6.034311, -73.754461 6.016507, -73.741998 5.989801, -73.722414 5.93995, -73.70461 5.913244, -73.697489 5.858052, -73.692055 5.815736, -73.660286 5.780796, -73.636955 5.735205, -73.622712 5.687134, -73.581443 5.667967), (-73.581379 5.667846, -73.642858 5.629623, -73.658882 5.590454, -73.680246 5.561968, -73.664223 5.52458, -73.680246 5.48185, -73.69805 5.421317, -73.721195 5.332297, -73.765705 5.25574, -73.803093 5.177403, -73.829799 5.125772, -73.910139 5.089496, -73.910251 4.989933), (-73.876856 7.068506, -73.821967 7.082144, -73.77617 7.122553, -73.754619 7.138717, -73.692658 7.149493, -73.628004 7.160269, -73.568737 7.162962, -73.520246 7.157575, -73.477143 7.138717, -73.44751 7.114472, -73.417877 7.111778, -73.404407 7.127941, -73.399019 7.157575, -73.388244 7.179126, -73.361304 7.189902, -73.337059 7.179126, -73.307426 7.157575, -73.264323 7.138717, -73.20775 7.136023), (-74.630737 5.452314, -74.694549 5.446421, -74.753816 5.427563, -74.802307 5.392542, -74.842716 5.352133, -74.872349 5.282091, -74.889312 5.246965, -74.914231 5.228107, -74.955987 5.215984, -74.991682 5.205882, -75.032764 5.191739, -75.084749 5.157381, -75.149951 5.149983, -75.169482 5.150656, -75.186319 5.156044, -75.206397 5.155476, -75.2495 5.1447, -75.295297 5.125843, -75.349176 5.088128, -75.443463 5.080046, -75.48926 5.080046, -75.559302 5.066576, -75.610487 5.042331, -75.645508 5.018085, -75.664366 4.974982, -75.675142 4.937267, -75.707469 4.90494, -75.750572 4.883389, -75.831874 4.851019, -75.849384 4.832835, -75.874977 4.820712, -75.883059 4.802528, -75.916796 4.724552, -75.973305 4.664464, -76.027184 4.602504, -76.100783 4.522401, -76.141192 4.446971, -76.149274 4.390399, -76.162744 4.333826, -76.192377 4.290723, -76.238174 4.242232, -76.246256 4.17219, -76.275889 4.102147, -76.329768 4.026717, -76.407892 3.940511, -76.442913 3.873163, -76.469852 3.797733, -76.47524 3.703445, -76.484732 3.577293))",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

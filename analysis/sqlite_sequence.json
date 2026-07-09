@@ -1,0 +1,50 @@
+{
+  "table_name": "sqlite_sequence",
+  "tracker_slug": "sqlite_sequence",
+  "tab_slug": "data",
+  "n_rows": 1,
+  "analyzed_at": "2026-07-07T21:45:22.613684+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "name",
+      "code_friendly_name_guess": "name",
+      "n_total": 1,
+      "n_null": 0,
+      "n_non_null": 1,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "_tracker_fields",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "seq",
+      "code_friendly_name_guess": "seq",
+      "n_total": 1,
+      "n_null": 0,
+      "n_non_null": 1,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          4277,
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

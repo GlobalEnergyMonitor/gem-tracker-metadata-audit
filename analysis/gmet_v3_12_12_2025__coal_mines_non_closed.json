@@ -1,0 +1,1075 @@
+{
+  "table_name": "gmet_v3_12_12_2025__coal_mines_non_closed",
+  "tracker_slug": "gmet_v3_12_12_2025",
+  "tab_slug": "coal_mines_non_closed",
+  "n_rows": 5424,
+  "analyzed_at": "2026-07-07T21:45:21.820492+00:00",
+  "tracker_info": {
+    "title": "Global Methane Emitters Tracker - December 2025",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: Sarah Lerman-Sinkoff, Global Methane Emitters Tracker Research Analyst, Global Energy Monitor - Sarah.lerman.sinkoff@globalenergymonitor.org",
+    "license": "\"Plumes\" tab: Copyright © Global Energy Monitor & Carbon Mapper. Global Methane Emitters Tracker, December 2025 release. Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Carbon Mapper Data (columns E-J) is also subject to Carbon Mapper's Terms of Use. For commercial uses of Carbon Mapper data, reach out to info@carbonmapper.org."
+  },
+  "fields": [
+    {
+      "field_name": "GEM Mine ID",
+      "code_friendly_name_guess": "gem_mine_id",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5215,
+      "top_values": [
+        [
+          "M0738",
+          4
+        ],
+        [
+          "M6768",
+          3
+        ],
+        [
+          "M4265",
+          3
+        ],
+        [
+          "M2501",
+          3
+        ],
+        [
+          "M1444",
+          3
+        ],
+        [
+          "M1443",
+          3
+        ],
+        [
+          "M0835",
+          3
+        ],
+        [
+          "M0808",
+          3
+        ],
+        [
+          "M0336",
+          3
+        ],
+        [
+          "M0158",
+          3
+        ],
+        [
+          "M0023",
+          3
+        ],
+        [
+          "M6943",
+          2
+        ],
+        [
+          "M6938",
+          2
+        ],
+        [
+          "M6769",
+          2
+        ],
+        [
+          "M6690",
+          2
+        ],
+        [
+          "M5572",
+          2
+        ],
+        [
+          "M5163",
+          2
+        ],
+        [
+          "M4742",
+          2
+        ],
+        [
+          "M4511",
+          2
+        ],
+        [
+          "M4326",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name",
+      "code_friendly_name_guess": "mine_name",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5215,
+      "top_values": [
+        [
+          "Benga Coal Mine",
+          4
+        ],
+        [
+          "Vista Coal Mine",
+          3
+        ],
+        [
+          "Thar Block II Coal Mine",
+          3
+        ],
+        [
+          "Shengli East No.2 Coal Mine",
+          3
+        ],
+        [
+          "Pravoberezhny Coal Mine",
+          3
+        ],
+        [
+          "Magdalena Colliery",
+          3
+        ],
+        [
+          "Lokuchakitsky Coal Mine",
+          3
+        ],
+        [
+          "Kopuku Coal Mine",
+          3
+        ],
+        [
+          "Kirbinskiy Coal Mine",
+          3
+        ],
+        [
+          "Carmichael Coal Project",
+          3
+        ],
+        [
+          "Awaroa Coal Mine",
+          3
+        ],
+        [
+          "Zibulo Coal Mine",
+          2
+        ],
+        [
+          "Zhijin Feitian Coal Mine",
+          2
+        ],
+        [
+          "Zhalyn Coal Mine",
+          2
+        ],
+        [
+          "Zashulansky Coal Mine",
+          2
+        ],
+        [
+          "Zambeze Gas and Coal Mine",
+          2
+        ],
+        [
+          "Xinyuan UG Coal Mine",
+          2
+        ],
+        [
+          "Wilpinjong Coal Mine",
+          2
+        ],
+        [
+          "Western Coal Project",
+          2
+        ],
+        [
+          "West Well of Faer Second Coal Mine",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki URLs",
+      "code_friendly_name_guess": "gem_wiki_urls",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5191,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Bokaro_and_Kargali_coal_mines",
+          6
+        ],
+        [
+          "https://www.gem.wiki/Magadh_Amrapali_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/JSW_coal_mines",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Benga_coal_mine",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Vista_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Thar_Block_II_Coal_Mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Tauron_mines",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Rotowaro_Opencast_Mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Pravoberezhny_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/North_Karanpura_coal_mines",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Magdalena_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Lokuchakitsky_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Kopako_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Kirbinskiy_coal_mine",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Integrated_Isaac_Plains_Project",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Carmichael_Coal_Project",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Angus_Place_Colliery",
+          3
+        ],
+        [
+          "https://www.gem.wiki/%E5%A4%A7%E5%94%90%E5%9B%BD%E9%99%85%E5%8F%91%E7%94%B5%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%83%9C%E5%88%A9%E4%B8%9C%E4%BA%8C%E5%8F%B7%E9%9C%B2%E5%A4%A9%E7%9F%BF",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Zibulo_coal_mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Zhalyn_coal_mine",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Operating",
+          3858
+        ],
+        [
+          "Proposed",
+          885
+        ],
+        [
+          "Mothballed",
+          425
+        ],
+        [
+          "Shelved",
+          155
+        ],
+        [
+          "Cancelled",
+          101
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Production (Mtpa)",
+      "code_friendly_name_guess": "production_mtpa",
+      "n_total": 5424,
+      "n_null": 152,
+      "n_non_null": 5272,
+      "null_rate": 0.028,
+      "n_unique": 620,
+      "top_values": [
+        [
+          "*",
+          3154
+        ],
+        [
+          "0.0",
+          216
+        ],
+        [
+          "0.02",
+          53
+        ],
+        [
+          "0.05",
+          45
+        ],
+        [
+          "0.01",
+          45
+        ],
+        [
+          "0.03",
+          42
+        ],
+        [
+          "0.04",
+          40
+        ],
+        [
+          "0.06",
+          34
+        ],
+        [
+          "0.12",
+          31
+        ],
+        [
+          "0.2",
+          30
+        ],
+        [
+          "0.09",
+          30
+        ],
+        [
+          "0.08",
+          29
+        ],
+        [
+          "0.1",
+          27
+        ],
+        [
+          "0.5",
+          26
+        ],
+        [
+          "0.15",
+          24
+        ],
+        [
+          "0.07",
+          24
+        ],
+        [
+          "0.13",
+          23
+        ],
+        [
+          "2.0",
+          20
+        ],
+        [
+          "0.24",
+          19
+        ],
+        [
+          "0.17",
+          19
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst)",
+      "code_friendly_name_guess": "coal_output_annual_mst",
+      "n_total": 5424,
+      "n_null": 4831,
+      "n_non_null": 593,
+      "null_rate": 0.8907,
+      "n_unique": 224,
+      "top_values": [
+        [
+          "0.0",
+          148
+        ],
+        [
+          "0.01",
+          23
+        ],
+        [
+          "*",
+          15
+        ],
+        [
+          "0.02",
+          13
+        ],
+        [
+          "0.03",
+          12
+        ],
+        [
+          "0.05",
+          10
+        ],
+        [
+          "0.1",
+          9
+        ],
+        [
+          "0.06",
+          9
+        ],
+        [
+          "0.5",
+          7
+        ],
+        [
+          "0.19",
+          7
+        ],
+        [
+          "0.15",
+          7
+        ],
+        [
+          "0.13",
+          7
+        ],
+        [
+          "0.11",
+          7
+        ],
+        [
+          "0.09",
+          7
+        ],
+        [
+          "0.04",
+          7
+        ],
+        [
+          "0.22",
+          6
+        ],
+        [
+          "0.12",
+          6
+        ],
+        [
+          "0.07",
+          6
+        ],
+        [
+          "0.2",
+          5
+        ],
+        [
+          "0.08",
+          5
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owners",
+      "code_friendly_name_guess": "owners",
+      "n_total": 5424,
+      "n_null": 38,
+      "n_non_null": 5386,
+      "null_rate": 0.007,
+      "n_unique": 3873,
+      "top_values": [
+        [
+          "Eastern Coalfields Ltd [100%]",
+          74
+        ],
+        [
+          "South Eastern Coalfields Ltd [100%]",
+          73
+        ],
+        [
+          "Western Coalfields Ltd [100%]",
+          58
+        ],
+        [
+          "Central Coalfields Ltd [100%]",
+          57
+        ],
+        [
+          "The Singareni Collieries Co Ltd [100%]",
+          47
+        ],
+        [
+          "Bharat Coking Coal Ltd [100%]",
+          36
+        ],
+        [
+          "Mahanadi Coalfields Ltd [100%]",
+          28
+        ],
+        [
+          "Ramaco Resources LLC [100%]",
+          22
+        ],
+        [
+          "Rosebud Mining Co [100%]",
+          18
+        ],
+        [
+          "Northern Coalfields Ltd [100%]",
+          15
+        ],
+        [
+          "Clintwood JOD LLC [100%]",
+          13
+        ],
+        [
+          "Southern Kuzbass Coal Company PJSC [100%]",
+          12
+        ],
+        [
+          "China Shenhua Energy [100%]",
+          12
+        ],
+        [
+          "Canyon Coal Pty Ltd [100%]",
+          11
+        ],
+        [
+          "SUEK-Kuzbass JSC [100%]",
+          10
+        ],
+        [
+          "Mega Highwall Mining LLC [100%]",
+          10
+        ],
+        [
+          "JP PEU Resavica [100%]",
+          10
+        ],
+        [
+          "Huozhou Coal and Electricity Group [100%]",
+          10
+        ],
+        [
+          "Huaibei Mining Company [100%]",
+          10
+        ],
+        [
+          "Shanxi Coking Coal Energy Group [100%]",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Coal Mine Methane Emissions Estimate (Mt/yr)",
+      "code_friendly_name_guess": "gem_coal_mine_methane_emissions_estimate_mt_yr",
+      "n_total": 5424,
+      "n_null": 5,
+      "n_non_null": 5419,
+      "null_rate": 0.0009,
+      "n_unique": 136,
+      "top_values": [
+        [
+          "0.0",
+          903
+        ],
+        [
+          "0.001",
+          463
+        ],
+        [
+          "-",
+          300
+        ],
+        [
+          "0.009",
+          296
+        ],
+        [
+          "0.002",
+          275
+        ],
+        [
+          "0.006",
+          249
+        ],
+        [
+          "0.003",
+          211
+        ],
+        [
+          "0.012",
+          208
+        ],
+        [
+          "0.004",
+          204
+        ],
+        [
+          "0.007",
+          155
+        ],
+        [
+          "0.008",
+          151
+        ],
+        [
+          "0.005",
+          135
+        ],
+        [
+          "0.017",
+          124
+        ],
+        [
+          "0.011",
+          113
+        ],
+        [
+          "0.019",
+          104
+        ],
+        [
+          "0.016",
+          87
+        ],
+        [
+          "0.01",
+          86
+        ],
+        [
+          "0.013",
+          82
+        ],
+        [
+          "0.031",
+          72
+        ],
+        [
+          "0.014",
+          67
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Has associated plume data",
+      "code_friendly_name_guess": "has_associated_plume_data",
+      "n_total": 5424,
+      "n_null": 5177,
+      "n_non_null": 247,
+      "null_rate": 0.9545,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Yes",
+          247
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Has associated CMM mitigation data",
+      "code_friendly_name_guess": "has_associated_cmm_mitigation_data",
+      "n_total": 5424,
+      "n_null": 5261,
+      "n_non_null": 163,
+      "null_rate": 0.9699,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Yes",
+          163
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5108,
+      "top_values": [
+        [
+          "22.11866",
+          7
+        ],
+        [
+          "23.889479",
+          5
+        ],
+        [
+          "23.650069",
+          5
+        ],
+        [
+          "49.017346",
+          4
+        ],
+        [
+          "37.251111",
+          4
+        ],
+        [
+          "-16.167428",
+          4
+        ],
+        [
+          "56.943611",
+          3
+        ],
+        [
+          "56.84695253",
+          3
+        ],
+        [
+          "53.36762",
+          3
+        ],
+        [
+          "53.218325",
+          3
+        ],
+        [
+          "51.655495",
+          3
+        ],
+        [
+          "44.06697",
+          3
+        ],
+        [
+          "40.9863606",
+          3
+        ],
+        [
+          "37.8333604",
+          3
+        ],
+        [
+          "37.428333",
+          3
+        ],
+        [
+          "30.1753837",
+          3
+        ],
+        [
+          "27.892792",
+          3
+        ],
+        [
+          "25.535868",
+          3
+        ],
+        [
+          "24.77481439",
+          3
+        ],
+        [
+          "24.135",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 5111,
+      "top_values": [
+        [
+          "83.53358",
+          7
+        ],
+        [
+          "87.071513",
+          5
+        ],
+        [
+          "85.00171",
+          5
+        ],
+        [
+          "68.614549",
+          4
+        ],
+        [
+          "33.661022",
+          4
+        ],
+        [
+          "91.20985",
+          3
+        ],
+        [
+          "85.911907",
+          3
+        ],
+        [
+          "85.586162",
+          3
+        ],
+        [
+          "85.178092",
+          3
+        ],
+        [
+          "84.989074",
+          3
+        ],
+        [
+          "82.599444",
+          3
+        ],
+        [
+          "78.80448632",
+          3
+        ],
+        [
+          "75.4336006",
+          3
+        ],
+        [
+          "70.39244413",
+          3
+        ],
+        [
+          "67.0025703",
+          3
+        ],
+        [
+          "30.18051493",
+          3
+        ],
+        [
+          "175.200942",
+          3
+        ],
+        [
+          "175.074334",
+          3
+        ],
+        [
+          "148.372046",
+          3
+        ],
+        [
+          "146.329722",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "China",
+          2532
+        ],
+        [
+          "United States",
+          626
+        ],
+        [
+          "Indonesia",
+          564
+        ],
+        [
+          "India",
+          543
+        ],
+        [
+          "Russia",
+          256
+        ],
+        [
+          "Australia",
+          210
+        ],
+        [
+          "South Africa",
+          138
+        ],
+        [
+          "Canada",
+          46
+        ],
+        [
+          "Türkiye",
+          43
+        ],
+        [
+          "Ukraine",
+          39
+        ],
+        [
+          "Colombia",
+          30
+        ],
+        [
+          "Mongolia",
+          29
+        ],
+        [
+          "Vietnam",
+          27
+        ],
+        [
+          "Poland",
+          27
+        ],
+        [
+          "Kazakhstan",
+          27
+        ],
+        [
+          "New Zealand",
+          21
+        ],
+        [
+          "Serbia",
+          19
+        ],
+        [
+          "Zimbabwe",
+          16
+        ],
+        [
+          "Bosnia and Herzegovina",
+          15
+        ],
+        [
+          "North Korea",
+          14
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "For internal use - is Chinese coal mine",
+      "code_friendly_name_guess": "for_internal_use_is_chinese_coal_mine",
+      "n_total": 5424,
+      "n_null": 0,
+      "n_non_null": 5424,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "n",
+          2892
+        ],
+        [
+          "y",
+          2532
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

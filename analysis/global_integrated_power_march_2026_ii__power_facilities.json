@@ -1,0 +1,4449 @@
+{
+  "table_name": "global_integrated_power_march_2026_ii__power_facilities",
+  "tracker_slug": "global_integrated_power_march_2026_ii",
+  "tab_slug": "power_facilities",
+  "n_rows": 182428,
+  "analyzed_at": "2026-07-07T21:45:18.666396+00:00",
+  "tracker_info": {
+    "title": "Global Integrated Power Tracker March 2026",
+    "citation": "Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
+    "contact": "Contact: James Norman, Research Analyst, Global Energy Monitor james.norman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Integrated Power Tracker, March 2026 release.  Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Type",
+      "code_friendly_name_guess": "type",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "utility-scale solar",
+          103940
+        ],
+        [
+          "wind",
+          35089
+        ],
+        [
+          "oil/gas",
+          14746
+        ],
+        [
+          "coal",
+          14509
+        ],
+        [
+          "hydropower",
+          7023
+        ],
+        [
+          "bioenergy",
+          4537
+        ],
+        [
+          "nuclear",
+          1749
+        ],
+        [
+          "geothermal",
+          835
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "One of eight power technology groups (coal, oil/gas, utility-scale solar, wind, hydropower, nuclear, bioenergy, geothermal)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 226,
+      "top_values": [
+        [
+          "China",
+          39797
+        ],
+        [
+          "United States",
+          16964
+        ],
+        [
+          "Germany",
+          12088
+        ],
+        [
+          "Japan",
+          12074
+        ],
+        [
+          "Brazil",
+          10414
+        ],
+        [
+          "India",
+          8286
+        ],
+        [
+          "Greece",
+          7242
+        ],
+        [
+          "Spain",
+          6570
+        ],
+        [
+          "United Kingdom",
+          5746
+        ],
+        [
+          "Poland",
+          5472
+        ],
+        [
+          "France",
+          4575
+        ],
+        [
+          "Türkiye",
+          4129
+        ],
+        [
+          "South Korea",
+          3766
+        ],
+        [
+          "Vietnam",
+          2541
+        ],
+        [
+          "Italy",
+          2210
+        ],
+        [
+          "Australia",
+          1882
+        ],
+        [
+          "Russia",
+          1801
+        ],
+        [
+          "Canada",
+          1355
+        ],
+        [
+          "Chile",
+          1300
+        ],
+        [
+          "Philippines",
+          1264
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "The Country/area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Eastern Asia",
+          56697
+        ],
+        [
+          "Western Europe",
+          19156
+        ],
+        [
+          "Northern America",
+          18329
+        ],
+        [
+          "Southern Europe",
+          17919
+        ],
+        [
+          "Latin America and the Caribbean",
+          16292
+        ],
+        [
+          "Eastern Europe",
+          11838
+        ],
+        [
+          "Southern Asia",
+          10770
+        ],
+        [
+          "Northern Europe",
+          9770
+        ],
+        [
+          "Western Asia",
+          7327
+        ],
+        [
+          "South-eastern Asia",
+          6908
+        ],
+        [
+          "Sub-Saharan Africa",
+          3199
+        ],
+        [
+          "Australia and New Zealand",
+          2150
+        ],
+        [
+          "Northern Africa",
+          1123
+        ],
+        [
+          "Central Asia",
+          787
+        ],
+        [
+          "Melanesia",
+          121
+        ],
+        [
+          "Micronesia",
+          24
+        ],
+        [
+          "Polynesia",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "One of 17 GEM-defined subregions of the world",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Asia",
+          82489
+        ],
+        [
+          "Europe",
+          58683
+        ],
+        [
+          "Americas",
+          34621
+        ],
+        [
+          "Africa",
+          4322
+        ],
+        [
+          "Oceania",
+          2313
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "One of five GEM-defined world regions",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Plant / Project name",
+      "code_friendly_name_guess": "plant_project_name",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 145109,
+      "top_values": [
+        [
+          "Solaris (Pacto) solar farm",
+          125
+        ],
+        [
+          "Aurora solar farm (Brazil)",
+          92
+        ],
+        [
+          "Assiros solar project",
+          58
+        ],
+        [
+          "Riyadh 9 power plant",
+          44
+        ],
+        [
+          "Pateiro solar farm",
+          44
+        ],
+        [
+          "PW Mobile power plant",
+          42
+        ],
+        [
+          "Walfrido Avila solar farm",
+          40
+        ],
+        [
+          "Morro Preto solar farm",
+          40
+        ],
+        [
+          "Paineira solar farm",
+          39
+        ],
+        [
+          "Kilkis Vaptistis solar farm",
+          37
+        ],
+        [
+          "Jeddah PP3 power plant",
+          35
+        ],
+        [
+          "Riyadh 8 power plant",
+          34
+        ],
+        [
+          "Jaguar (Uruquê) solar farm",
+          33
+        ],
+        [
+          "Granja solar farm",
+          33
+        ],
+        [
+          "Veredas solar farm",
+          32
+        ],
+        [
+          "Rabigh power plant",
+          32
+        ],
+        [
+          "Johnsonville Fossil Plant",
+          30
+        ],
+        [
+          "Barreiro solar farm",
+          30
+        ],
+        [
+          "Alegria solar farm",
+          30
+        ],
+        [
+          "Santa Luzia solar farm",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Commonly used name",
+      "notes_from_readme": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed"
+    },
+    {
+      "field_name": "Unit / Phase name",
+      "code_friendly_name_guess": "unit_phase_name",
+      "n_total": 182428,
+      "n_null": 7029,
+      "n_non_null": 175399,
+      "null_rate": 0.0385,
+      "n_unique": 7399,
+      "top_values": [
+        [
+          "--",
+          110563
+        ],
+        [
+          "1.0",
+          12114
+        ],
+        [
+          "2.0",
+          7684
+        ],
+        [
+          "1-1",
+          3995
+        ],
+        [
+          "Unit 1",
+          2871
+        ],
+        [
+          "Unit 2",
+          2692
+        ],
+        [
+          "3.0",
+          2550
+        ],
+        [
+          "2-1",
+          1759
+        ],
+        [
+          "4.0",
+          1325
+        ],
+        [
+          "Unit 3",
+          1232
+        ],
+        [
+          "Unit 4",
+          930
+        ],
+        [
+          "3-1",
+          870
+        ],
+        [
+          "5.0",
+          783
+        ],
+        [
+          "4-1",
+          614
+        ],
+        [
+          "Unit 5",
+          588
+        ],
+        [
+          "6.0",
+          538
+        ],
+        [
+          "Unit 6",
+          446
+        ],
+        [
+          "CC1",
+          434
+        ],
+        [
+          "Phase I Unit 1",
+          419
+        ],
+        [
+          "Phase I Unit 2",
+          410
+        ]
+      ],
+      "portion_numeric": 0.826,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "Name or number of phase in plant/project",
+      "notes_from_readme": "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used"
+    },
+    {
+      "field_name": "Plant / Project name (local)",
+      "code_friendly_name_guess": "plant_project_name_local",
+      "n_total": 182428,
+      "n_null": 112587,
+      "n_non_null": 69841,
+      "null_rate": 0.6172,
+      "n_unique": 51126,
+      "top_values": [
+        [
+          "Usina Solar Solaris (Pacto)",
+          125
+        ],
+        [
+          "Ασσηρος",
+          58
+        ],
+        [
+          "محطة الكهرباء التاسعة",
+          44
+        ],
+        [
+          "Usina Solar Pateiro",
+          44
+        ],
+        [
+          "محطة كهرباء الحامة المتنقلة",
+          42
+        ],
+        [
+          "Usina Solar Jaguar",
+          41
+        ],
+        [
+          "Usina Solar Walfrido Avila",
+          40
+        ],
+        [
+          "Usina Solar Morro Preto",
+          40
+        ],
+        [
+          "Βαπτιστης",
+          37
+        ],
+        [
+          "محطة توليد الكهرباء الثالثة جدة",
+          35
+        ],
+        [
+          "محطة الكهرباء الثامنة",
+          34
+        ],
+        [
+          "محطة توليد رابغ الغازية",
+          32
+        ],
+        [
+          "Usina Solar Veredas",
+          32
+        ],
+        [
+          "Usina Solar Barreiro",
+          30
+        ],
+        [
+          "Usina Solar Alegria",
+          30
+        ],
+        [
+          "Ξηροχωρι",
+          29
+        ],
+        [
+          "Μεγαλο Μοναστηρι",
+          29
+        ],
+        [
+          "Usina Solar Santa Luzia",
+          28
+        ],
+        [
+          "محطة الصبية لتوليد الطاقة وتقطير المياه",
+          27
+        ],
+        [
+          "Usina Solar São Miguel",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Commonly used name in the locally used script",
+      "notes_from_readme": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible"
+    },
+    {
+      "field_name": "Plant / Project name (other)",
+      "code_friendly_name_guess": "plant_project_name_other",
+      "n_total": 182428,
+      "n_null": 149693,
+      "n_non_null": 32735,
+      "null_rate": 0.8206,
+      "n_unique": 20213,
+      "top_values": [
+        [
+          "PP9",
+          44
+        ],
+        [
+          "Colinas 1-3 (Phase 41-43)",
+          44
+        ],
+        [
+          "Hamma Mobile power plant (Units 29, 30)",
+          42
+        ],
+        [
+          "Johnsonville Combustion Turbine Plant",
+          40
+        ],
+        [
+          "AC solar farm, Aurora Sol do Cerrado, Aurora Cluster I",
+          35
+        ],
+        [
+          "Riyadh PP8",
+          34
+        ],
+        [
+          "SBCC 5 (Unit CC5), SBOC 8 (Unit SBOC-8), SBCC 1 (Units CC1-1, CC1-2, CC1-3), SBCC 4 (Unit CC4), SBCC 3 (Units 4-GT1, 4-GT2, 4-ST1), SBOC 2 (Units 2-GT1, 2-GT2, 2-GT3, 2-GT4)",
+          27
+        ],
+        [
+          "Luiz Carlos",
+          25
+        ],
+        [
+          "南山宾坦工业园自备电厂",
+          24
+        ],
+        [
+          "Tehran-Rey, Tehran-2 power plant",
+          24
+        ],
+        [
+          "Seventh Power Plant, PP7",
+          24
+        ],
+        [
+          "Maestrazgo project, Clúster Maestrazgo",
+          24
+        ],
+        [
+          "Zhonghuo power station",
+          22
+        ],
+        [
+          "Jaíba 5 (Phases C, CE, CN, CO, CS, L1, L2, N, NE1, NE2, NE3, NO1, NO2, O, S, SE1, SE2, SO)",
+          21
+        ],
+        [
+          "Ufv Janaub (Phases 1, 2, 3, 4, 5, 6, 7, 8, 9)",
+          20
+        ],
+        [
+          "Mário Lago",
+          20
+        ],
+        [
+          "Karystia wind project",
+          20
+        ],
+        [
+          "Bukchang power station",
+          20
+        ],
+        [
+          "Bishkek CHP power station",
+          20
+        ],
+        [
+          "Al Layyah power plant",
+          20
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternative names, including the name in local script",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 3476,
+      "top_values": [
+        [
+          "1.0",
+          16258
+        ],
+        [
+          "50.0",
+          9247
+        ],
+        [
+          "100.0",
+          5834
+        ],
+        [
+          "2.0",
+          5669
+        ],
+        [
+          "30.0",
+          3965
+        ],
+        [
+          "20.0",
+          3655
+        ],
+        [
+          "1.5",
+          3349
+        ],
+        [
+          "10.0",
+          2993
+        ],
+        [
+          "1.2",
+          2624
+        ],
+        [
+          "5.0",
+          2561
+        ],
+        [
+          "200.0",
+          2430
+        ],
+        [
+          "300.0",
+          2010
+        ],
+        [
+          "1.1",
+          1984
+        ],
+        [
+          "60.0",
+          1954
+        ],
+        [
+          "150.0",
+          1949
+        ],
+        [
+          "1.3",
+          1856
+        ],
+        [
+          "12.0",
+          1839
+        ],
+        [
+          "40.0",
+          1751
+        ],
+        [
+          "1.4",
+          1716
+        ],
+        [
+          "3.0",
+          1682
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total nameplate capacity, or best available data, of the project, in megawatts",
+      "notes_from_readme": "Units: MW."
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "operating",
+          127724
+        ],
+        [
+          "pre-construction",
+          21886
+        ],
+        [
+          "announced",
+          7556
+        ],
+        [
+          "cancelled",
+          7128
+        ],
+        [
+          "construction",
+          6173
+        ],
+        [
+          "retired",
+          4251
+        ],
+        [
+          "cancelled - inferred 4 y",
+          2824
+        ],
+        [
+          "shelved - inferred 2 y",
+          2697
+        ],
+        [
+          "shelved",
+          1524
+        ],
+        [
+          "mothballed",
+          665
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "One of 8 status categories, see rows 112-121 below for description",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "announced",
+          "definition": "Projects that have been publicly reported in corporate or governmental planning documents or media coverage but not yet actively moving forward by applying for permits or seeking land, material, or financing."
+        },
+        {
+          "name": "pre-construction",
+          "definition": "Projects that are actively moving forward in seeking governmental approvals, land rights, or financing (the sum of 'pre-permit' and 'permitted' statuses in the Global Coal Plant Tracker)"
+        },
+        {
+          "name": "construction",
+          "definition": "Projects where site preparation and/or equipment installation are underway."
+        },
+        {
+          "name": "shelved",
+          "definition": "Suspension of the project has been announced, or no progress has been observed for at least two years."
+        },
+        {
+          "name": "shelved - inferred 2 y",
+          "definition": "Inferred status based on lack of observed progress for 2 years"
+        },
+        {
+          "name": "operating",
+          "definition": "The project has been formally commissioned; commercial operation has begun."
+        },
+        {
+          "name": "cancelled",
+          "definition": "A cancellation announcement for the project has been made, or no progress has been observed for at least four years."
+        },
+        {
+          "name": "cancelled - inferred 4 y",
+          "definition": "Inferred status based on lack of observed progress for 4 years"
+        },
+        {
+          "name": "mothballed",
+          "definition": "The project is disused, but not dismantled."
+        },
+        {
+          "name": "retired",
+          "definition": "The project has been decommissioned or dismantled; this term is also used if the plant has been destroyed by war."
+        }
+      ]
+    },
+    {
+      "field_name": "Start year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 182428,
+      "n_null": 53200,
+      "n_non_null": 129228,
+      "null_rate": 0.2916,
+      "n_unique": 147,
+      "top_values": [
+        [
+          "2017.0",
+          12470
+        ],
+        [
+          "2023.0",
+          10509
+        ],
+        [
+          "2024.0",
+          8134
+        ],
+        [
+          "2022.0",
+          6700
+        ],
+        [
+          "2021.0",
+          6331
+        ],
+        [
+          "2018.0",
+          6263
+        ],
+        [
+          "2020.0",
+          6074
+        ],
+        [
+          "2016.0",
+          5845
+        ],
+        [
+          "2019.0",
+          5790
+        ],
+        [
+          "2025.0",
+          5789
+        ],
+        [
+          "2015.0",
+          5469
+        ],
+        [
+          "2014.0",
+          4629
+        ],
+        [
+          "2013.0",
+          4228
+        ],
+        [
+          "2026.0",
+          3354
+        ],
+        [
+          "2012.0",
+          3019
+        ],
+        [
+          "2011.0",
+          2601
+        ],
+        [
+          "2010.0",
+          2099
+        ],
+        [
+          "2027.0",
+          1876
+        ],
+        [
+          "2009.0",
+          1774
+        ],
+        [
+          "2008.0",
+          1383
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the project was or will be commissioned",
+      "notes_from_readme": "Units: YYYY."
+    },
+    {
+      "field_name": "Retired year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 182428,
+      "n_null": 166671,
+      "n_non_null": 15757,
+      "null_rate": 0.9136,
+      "n_unique": 106,
+      "top_values": [
+        [
+          "2035.0",
+          1918
+        ],
+        [
+          "2034.0",
+          1584
+        ],
+        [
+          "2033.0",
+          1338
+        ],
+        [
+          "2036.0",
+          1249
+        ],
+        [
+          "2040.0",
+          1061
+        ],
+        [
+          "2037.0",
+          896
+        ],
+        [
+          "2038.0",
+          722
+        ],
+        [
+          "2039.0",
+          568
+        ],
+        [
+          "2041.0",
+          379
+        ],
+        [
+          "2020.0",
+          379
+        ],
+        [
+          "2021.0",
+          289
+        ],
+        [
+          "2042.0",
+          266
+        ],
+        [
+          "2015.0",
+          259
+        ],
+        [
+          "2016.0",
+          254
+        ],
+        [
+          "2019.0",
+          251
+        ],
+        [
+          "2023.0",
+          249
+        ],
+        [
+          "2025.0",
+          245
+        ],
+        [
+          "2024.0",
+          242
+        ],
+        [
+          "2022.0",
+          238
+        ],
+        [
+          "2017.0",
+          225
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the project was or will be taken offline",
+      "notes_from_readme": "Units: YYYY."
+    },
+    {
+      "field_name": "Technology",
+      "code_friendly_name_guess": "technology",
+      "n_total": 182428,
+      "n_null": 4537,
+      "n_non_null": 177891,
+      "null_rate": 0.0249,
+      "n_unique": 55,
+      "top_values": [
+        [
+          "PV",
+          79156
+        ],
+        [
+          "Onshore",
+          32701
+        ],
+        [
+          "Assumed PV",
+          24500
+        ],
+        [
+          "subcritical",
+          8210
+        ],
+        [
+          "combined cycle",
+          5250
+        ],
+        [
+          "gas turbine",
+          5172
+        ],
+        [
+          "unknown",
+          3695
+        ],
+        [
+          "conventional storage",
+          3360
+        ],
+        [
+          "steam turbine",
+          2856
+        ],
+        [
+          "supercritical",
+          2114
+        ],
+        [
+          "ultra-supercritical",
+          1769
+        ],
+        [
+          "run-of-river",
+          1710
+        ],
+        [
+          "pumped storage",
+          1045
+        ],
+        [
+          "pressurized water reactor",
+          941
+        ],
+        [
+          "Offshore hard mount",
+          918
+        ],
+        [
+          "internal combustion",
+          799
+        ],
+        [
+          "Offshore mount unknown",
+          728
+        ],
+        [
+          "Offshore floating",
+          439
+        ],
+        [
+          "unknown type",
+          337
+        ],
+        [
+          "Unknown",
+          303
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "See rows 124-182 below for description",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Coal",
+          "definition": "Subcritical"
+        },
+        {
+          "name": "Coal",
+          "definition": "Supercritical"
+        },
+        {
+          "name": "Coal",
+          "definition": "Ultra-supercritical"
+        },
+        {
+          "name": "Coal",
+          "definition": "CFB"
+        },
+        {
+          "name": "Coal",
+          "definition": "IGCC"
+        },
+        {
+          "name": "Coal",
+          "definition": "Unknown"
+        },
+        {
+          "name": "Coal",
+          "definition": "IGCC/CCS"
+        },
+        {
+          "name": "Coal",
+          "definition": "Ultra-supercritical/CCS"
+        },
+        {
+          "name": "Coal",
+          "definition": "Supercritical/CCS"
+        },
+        {
+          "name": "Coal",
+          "definition": "Subcritical/CCS"
+        },
+        {
+          "name": "Coal",
+          "definition": "Unknown/CCS"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "internal combustion"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "combined cycle"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "gas turbine"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "ICCC"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "ISCC"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "steam turbine"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "AFC"
+        },
+        {
+          "name": "Oil/gas",
+          "definition": "unknown"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "dry steam"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - single"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - double"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - triple"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "flash steam - unknown"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "binary cycle"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "EGS (Enhanced Geothermal Systems)"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "AGS (Advanced Geothermal Systems)"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "GGS (Geopressured Geothermal Systems)"
+        },
+        {
+          "name": "Geothermal",
+          "definition": "unknown type"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "PV"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "Solar Thermal"
+        },
+        {
+          "name": "Utility-scale solar",
+          "definition": "Assumed PV"
+        },
+        {
+          "name": "Wind",
+          "definition": "onshore"
+        },
+        {
+          "name": "Wind",
+          "definition": "unknown"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore mount unknown"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore hard mount"
+        },
+        {
+          "name": "Wind",
+          "definition": "offshore floating"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "pressurized heavy water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "pressurized water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "unknown"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "boiling water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "small modular reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "heavy water light water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "high temperature gas reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "fast breeder reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "molten salt reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "heavy water gas-cooled reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "gas-cooled reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "advanced boiling water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "light water graphite reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "liquid-metal-cooled fast reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "steam-generating heavy water reactor"
+        },
+        {
+          "name": "Nuclear",
+          "definition": "fast neutron reactor"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional storage"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "pumped storage"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "run-of-river"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "unknown"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional and pumped storage"
+        },
+        {
+          "name": "Hydropower",
+          "definition": "conventional and run-of-river"
+        }
+      ]
+    },
+    {
+      "field_name": "Capacity rating (solar only)",
+      "code_friendly_name_guess": "capacity_rating_solar_only",
+      "n_total": 182428,
+      "n_null": 78488,
+      "n_non_null": 103940,
+      "null_rate": 0.4302,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "MWac",
+          46601
+        ],
+        [
+          "unknown",
+          34071
+        ],
+        [
+          "MWp/dc",
+          23268
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Associated storage",
+      "code_friendly_name_guess": "associated_storage",
+      "n_total": 182428,
+      "n_null": 179458,
+      "n_non_null": 2970,
+      "null_rate": 0.9837,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          2970
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel (combustion only)",
+      "code_friendly_name_guess": "fuel_combustion_only",
+      "n_total": 182428,
+      "n_null": 148636,
+      "n_non_null": 33792,
+      "null_rate": 0.8148,
+      "n_unique": 424,
+      "top_values": [
+        [
+          "fossil gas: natural gas",
+          7776
+        ],
+        [
+          "coal: unknown",
+          6798
+        ],
+        [
+          "coal: bituminous",
+          4482
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: fuel oil",
+          1711
+        ],
+        [
+          "bioenergy: refuse (municipal and industrial wastes)",
+          1610
+        ],
+        [
+          "coal: lignite",
+          1270
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          1220
+        ],
+        [
+          "fossil gas: LNG",
+          966
+        ],
+        [
+          "coal: subbituminous",
+          775
+        ],
+        [
+          "coal: anthracite",
+          669
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: diesel",
+          622
+        ],
+        [
+          "fossil liquids: heavy fuel oil",
+          546
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          508
+        ],
+        [
+          "coal: waste coal",
+          482
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+          481
+        ],
+        [
+          "fossil liquids: fuel oil",
+          325
+        ],
+        [
+          "fossil liquids: diesel",
+          322
+        ],
+        [
+          "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+          250
+        ],
+        [
+          "industrial by-product: blast furnace gas",
+          227
+        ],
+        [
+          "bioenergy: paper mill wastes",
+          117
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "See rows 185-239 below for description of fuels.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel classification (oil/gas only)",
+      "code_friendly_name_guess": "fuel_classification_oil_gas_only",
+      "n_total": 182428,
+      "n_null": 167682,
+      "n_non_null": 14746,
+      "null_rate": 0.9192,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Gas",
+          8427
+        ],
+        [
+          "Multi fuel",
+          3771
+        ],
+        [
+          "Oil",
+          1582
+        ],
+        [
+          "LNG only",
+          966
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Fuel classification options include: Oil only, LNG only, Gas only, Multi fuel. Note \"Gas only\" does not include LNG.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Equipment Manufacturer/Model (oil/gas only)",
+      "code_friendly_name_guess": "equipment_manufacturer_model_oil_gas_only",
+      "n_total": 182428,
+      "n_null": 178963,
+      "n_non_null": 3465,
+      "null_rate": 0.981,
+      "n_unique": 636,
+      "top_values": [
+        [
+          "not found",
+          982
+        ],
+        [
+          "Siemens Energy: SGT-800",
+          76
+        ],
+        [
+          "not found: 9F",
+          62
+        ],
+        [
+          "Siemens Energy: SGT5-4000F",
+          50
+        ],
+        [
+          "Siemens Energy: SGT5-2000E",
+          45
+        ],
+        [
+          "GE Power",
+          43
+        ],
+        [
+          "GE Vernova: LM6000",
+          42
+        ],
+        [
+          "GE Power: LM6000",
+          34
+        ],
+        [
+          "Mitsubishi Power: M501JAC",
+          33
+        ],
+        [
+          "GE Power: GT11D5",
+          33
+        ],
+        [
+          "Siemens Energy: not found",
+          32
+        ],
+        [
+          "Siemens Energy",
+          32
+        ],
+        [
+          "Mapna Group: MGT-70",
+          31
+        ],
+        [
+          "GE Vernova",
+          29
+        ],
+        [
+          "not found: 9H",
+          28
+        ],
+        [
+          "Dongfang Electric Corporation: M701F4",
+          28
+        ],
+        [
+          "Shanghai Electric: AE94.3A",
+          27
+        ],
+        [
+          "Shanghai Electric: AE64.3A",
+          24
+        ],
+        [
+          "GE Vernova: 9E",
+          24
+        ],
+        [
+          "GE Power: 9E",
+          23
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Equpment manufacturer and model.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Hydrogen production",
+      "code_friendly_name_guess": "hydrogen_production",
+      "n_total": 182428,
+      "n_null": 181595,
+      "n_non_null": 833,
+      "null_rate": 0.9954,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "yes",
+          756
+        ],
+        [
+          "not found",
+          59
+        ],
+        [
+          "no",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Value of 'yes' if a project phase is dedicated for green hydrogen production, 'no' if not, 'not found' or blank no data found. Only used for wind, solar, and geothermal trackers",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Hydrogen capable",
+      "code_friendly_name_guess": "hydrogen_capable",
+      "n_total": 182428,
+      "n_null": 175292,
+      "n_non_null": 7136,
+      "null_rate": 0.9609,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "not found",
+          6233
+        ],
+        [
+          "hydrogen capable: turbine",
+          723
+        ],
+        [
+          "hydrogen capable: progress",
+          94
+        ],
+        [
+          "no",
+          68
+        ],
+        [
+          "using hydrogen",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Hydrogen capable: turbine - The turbine at the gas plant is capable of burning some % of hydrogen. \nHydrogen capable: progress - The gas plant has made some sort of progress beyond having a gas turbine that is hydrogen capable. This could include partnerships to secure hydrogen, announcements towards hydrogen infrastructure, or an actual hydrogen contract.\nUsing hydrogen - The plant is using hydrogen as a fuel.\nno - The plant is not capable of using hydrogen. \nnot found - no information found",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Data Center PPA (geothermal only)",
+      "code_friendly_name_guess": "data_center_ppa_geothermal_only",
+      "n_total": 182428,
+      "n_null": 182410,
+      "n_non_null": 18,
+      "null_rate": 0.9999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Value of 'yes' if the unit connected to a data center through a PPA. Currently geothermal only data field.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/area 1 (hydropower only)",
+      "code_friendly_name_guess": "country_area_1_hydropower_only",
+      "n_total": 182428,
+      "n_null": 175405,
+      "n_non_null": 7023,
+      "null_rate": 0.9615,
+      "n_unique": 149,
+      "top_values": [
+        [
+          "China",
+          1435
+        ],
+        [
+          "India",
+          535
+        ],
+        [
+          "United States",
+          522
+        ],
+        [
+          "Nepal",
+          271
+        ],
+        [
+          "Norway",
+          251
+        ],
+        [
+          "Brazil",
+          233
+        ],
+        [
+          "Japan",
+          219
+        ],
+        [
+          "Canada",
+          218
+        ],
+        [
+          "Türkiye",
+          192
+        ],
+        [
+          "France",
+          162
+        ],
+        [
+          "Italy",
+          150
+        ],
+        [
+          "Spain",
+          136
+        ],
+        [
+          "Sweden",
+          126
+        ],
+        [
+          "Vietnam",
+          124
+        ],
+        [
+          "Switzerland",
+          110
+        ],
+        [
+          "Russia",
+          97
+        ],
+        [
+          "Austria",
+          97
+        ],
+        [
+          "Pakistan",
+          88
+        ],
+        [
+          "Laos",
+          84
+        ],
+        [
+          "Philippines",
+          79
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Primary country/area where the project is located (unabbreviated)",
+      "notes_from_readme": "If project is binational, Country/area 1 is either the country/area listed first in alphabetical order for projects where capacity is shared equally, or the country/area with a larger portion of the total project capacity."
+    },
+    {
+      "field_name": "Country/area 2 (hydropower only)",
+      "code_friendly_name_guess": "country_area_2_hydropower_only",
+      "n_total": 182428,
+      "n_null": 182353,
+      "n_non_null": 75,
+      "null_rate": 0.9996,
+      "n_unique": 31,
+      "top_values": [
+        [
+          "Germany",
+          10
+        ],
+        [
+          "Thailand",
+          5
+        ],
+        [
+          "Serbia",
+          5
+        ],
+        [
+          "Rwanda",
+          5
+        ],
+        [
+          "Switzerland",
+          4
+        ],
+        [
+          "Paraguay",
+          4
+        ],
+        [
+          "North Korea",
+          4
+        ],
+        [
+          "Zambia",
+          3
+        ],
+        [
+          "Portugal",
+          3
+        ],
+        [
+          "Iran",
+          3
+        ],
+        [
+          "Zimbabwe",
+          2
+        ],
+        [
+          "Uzbekistan",
+          2
+        ],
+        [
+          "Spain",
+          2
+        ],
+        [
+          "Romania",
+          2
+        ],
+        [
+          "DR Congo",
+          2
+        ],
+        [
+          "Croatia",
+          2
+        ],
+        [
+          "Bosnia and Herzegovina",
+          2
+        ],
+        [
+          "Angola",
+          2
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "Turkmenistan",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Additional country/area where the project is located (unabbreviated)",
+      "notes_from_readme": "If project is binational, Country/area 2 is either the country/area listed second in alphabetical order for projects where capacity is shared equally, or the country/area with a smaller portion of the total project capacity."
+    },
+    {
+      "field_name": "Country/area 1 Capacity (MW) (hydropower only)",
+      "code_friendly_name_guess": "country_area_1_capacity_mw_hydropower_only",
+      "n_total": 182428,
+      "n_null": 175405,
+      "n_non_null": 7023,
+      "null_rate": 0.9615,
+      "n_unique": 780,
+      "top_values": [
+        [
+          "1200.0",
+          231
+        ],
+        [
+          "30.0",
+          218
+        ],
+        [
+          "40.0",
+          140
+        ],
+        [
+          "60.0",
+          135
+        ],
+        [
+          "50.0",
+          133
+        ],
+        [
+          "100.0",
+          129
+        ],
+        [
+          "120.0",
+          111
+        ],
+        [
+          "32.0",
+          101
+        ],
+        [
+          "45.0",
+          100
+        ],
+        [
+          "36.0",
+          91
+        ],
+        [
+          "80.0",
+          83
+        ],
+        [
+          "1000.0",
+          83
+        ],
+        [
+          "300.0",
+          81
+        ],
+        [
+          "42.0",
+          80
+        ],
+        [
+          "38.0",
+          78
+        ],
+        [
+          "150.0",
+          78
+        ],
+        [
+          "600.0",
+          76
+        ],
+        [
+          "48.0",
+          76
+        ],
+        [
+          "180.0",
+          76
+        ],
+        [
+          "90.0",
+          74
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 1, in megawatts, rounded to whole number",
+      "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary."
+    },
+    {
+      "field_name": "Country/area 2 Capacity (MW) (hydropower only)",
+      "code_friendly_name_guess": "country_area_2_capacity_mw_hydropower_only",
+      "n_total": 182428,
+      "n_null": 182353,
+      "n_non_null": 75,
+      "null_rate": 0.9996,
+      "n_unique": 54,
+      "top_values": [
+        [
+          "0.0",
+          15
+        ],
+        [
+          "50.0",
+          3
+        ],
+        [
+          "51.0",
+          2
+        ],
+        [
+          "40.0",
+          2
+        ],
+        [
+          "18.0",
+          2
+        ],
+        [
+          "15.0",
+          2
+        ],
+        [
+          "1200.0",
+          2
+        ],
+        [
+          "971.0",
+          1
+        ],
+        [
+          "96.0",
+          1
+        ],
+        [
+          "945.0",
+          1
+        ],
+        [
+          "90.0",
+          1
+        ],
+        [
+          "80.0",
+          1
+        ],
+        [
+          "76.0",
+          1
+        ],
+        [
+          "74.0",
+          1
+        ],
+        [
+          "73.0",
+          1
+        ],
+        [
+          "7000.0",
+          1
+        ],
+        [
+          "67.5",
+          1
+        ],
+        [
+          "66.0",
+          1
+        ],
+        [
+          "63.0",
+          1
+        ],
+        [
+          "61.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Gross capacity, or best available data, of the portion of the project which is located in Country/area 2, in megawatts, rounded to whole number",
+      "notes_from_readme": "Units: MW. Capacity cutoffs mentioned above apply to the project as a whole, not necessarily to the portions of an international project which are within one country/area boundary."
+    },
+    {
+      "field_name": "River / Watercourse (hydropower only)",
+      "code_friendly_name_guess": "river_watercourse_hydropower_only",
+      "n_total": 182428,
+      "n_null": 177312,
+      "n_non_null": 5116,
+      "null_rate": 0.972,
+      "n_unique": 2757,
+      "top_values": [
+        [
+          "Yellow River",
+          37
+        ],
+        [
+          "Jinshajiang River",
+          25
+        ],
+        [
+          "Dadu River",
+          23
+        ],
+        [
+          "Lancangjiang (Mekong) River",
+          22
+        ],
+        [
+          "Indus River",
+          21
+        ],
+        [
+          "Chenab River",
+          18
+        ],
+        [
+          "Satluj River",
+          17
+        ],
+        [
+          "Rio Grande",
+          17
+        ],
+        [
+          "Columbia River",
+          17
+        ],
+        [
+          "Olt River",
+          16
+        ],
+        [
+          "Snake River",
+          15
+        ],
+        [
+          "Nile River",
+          15
+        ],
+        [
+          "Lule Älv",
+          13
+        ],
+        [
+          "Inn River",
+          13
+        ],
+        [
+          "Naryn River",
+          12
+        ],
+        [
+          "Missouri River",
+          12
+        ],
+        [
+          "Mekong River",
+          12
+        ],
+        [
+          "Glomma River",
+          12
+        ],
+        [
+          "Danube River",
+          12
+        ],
+        [
+          "Cauvery River",
+          12
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The name of the river or watercourse on which the project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operator(s)",
+      "code_friendly_name_guess": "operator_s",
+      "n_total": 182428,
+      "n_null": 134802,
+      "n_non_null": 47626,
+      "null_rate": 0.7389,
+      "n_unique": 22279,
+      "top_values": [
+        [
+          "NextEra Energy",
+          293
+        ],
+        [
+          "EDF Renewables",
+          291
+        ],
+        [
+          "Enel Green Power",
+          236
+        ],
+        [
+          "Cypress Creek Renewables",
+          204
+        ],
+        [
+          "AES Distributed Energy",
+          194
+        ],
+        [
+          "AES",
+          177
+        ],
+        [
+          "Electricité de France",
+          148
+        ],
+        [
+          "MN8 Energy",
+          147
+        ],
+        [
+          "Greenbacker Renewable Energy",
+          142
+        ],
+        [
+          "Strata Manager",
+          141
+        ],
+        [
+          "Enel Green Power Brasil Participações",
+          134
+        ],
+        [
+          "EDPR Renewable Energy Sources of Greece 1 Sole Proprietorship",
+          125
+        ],
+        [
+          "Acciona Energía",
+          124
+        ],
+        [
+          "ENGIE",
+          123
+        ],
+        [
+          "Florida Power & Light",
+          119
+        ],
+        [
+          "Altus Power America Management",
+          107
+        ],
+        [
+          "WPD",
+          106
+        ],
+        [
+          "Tesla",
+          104
+        ],
+        [
+          "Invenergy",
+          100
+        ],
+        [
+          "Rosenergoatom",
+          95
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Company that performs day-to-day operations and maintenance of the project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 182428,
+      "n_null": 92743,
+      "n_non_null": 89685,
+      "null_rate": 0.5084,
+      "n_unique": 27850,
+      "top_values": [
+        [
+          "Saudi Electricity Co [100%]",
+          440
+        ],
+        [
+          "NextEra Energy Inc [100%]",
+          379
+        ],
+        [
+          "Ministry of Electricity (Iraq) [100%]",
+          329
+        ],
+        [
+          "ENGIE SA [100%]",
+          312
+        ],
+        [
+          "EDF Renewables [100%]",
+          300
+        ],
+        [
+          "Iberdrola Renovables Energia SA [100%]",
+          256
+        ],
+        [
+          "NTPC Ltd [100%]",
+          247
+        ],
+        [
+          "AES Corp [100%]",
+          240
+        ],
+        [
+          "Enel Green Power SpA [100%]",
+          235
+        ],
+        [
+          "Tennessee Valley Authority [100%]",
+          211
+        ],
+        [
+          "Terna Energy [100%]",
+          203
+        ],
+        [
+          "Electricité de France SA [100%]",
+          195
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100%]",
+          195
+        ],
+        [
+          "PT PLN (Persero) [100%]",
+          191
+        ],
+        [
+          "Acciona Energía SAU [100%]",
+          173
+        ],
+        [
+          "Endesa SA [100%]",
+          165
+        ],
+        [
+          "Enel SpA [100%]",
+          162
+        ],
+        [
+          "T Plus PJSC [100%]",
+          161
+        ],
+        [
+          "EDPR Renewable Energy Sources of Greece 1 Sole Proprietorship [100%]",
+          161
+        ],
+        [
+          "WPD AG [100%]",
+          160
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that directly owns the project (as in, the lowest-level identified owner in the chain of ownership)",
+      "notes_from_readme": "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]"
+    },
+    {
+      "field_name": "Owner(s) GEM Entity ID",
+      "code_friendly_name_guess": "owner_s_gem_entity_id",
+      "n_total": 182428,
+      "n_null": 142978,
+      "n_non_null": 39450,
+      "null_rate": 0.7838,
+      "n_unique": 11430,
+      "top_values": [
+        [
+          "E100000000890 [100%]",
+          438
+        ],
+        [
+          "E100000001354 [100%]",
+          320
+        ],
+        [
+          "E100000001926 [100%]",
+          208
+        ],
+        [
+          "E100000000537 [100%]",
+          188
+        ],
+        [
+          "E100000002329 [100%]",
+          186
+        ],
+        [
+          "E100000002016 [100%]",
+          177
+        ],
+        [
+          "E100000000878 [100%]",
+          155
+        ],
+        [
+          "E100000000608 [100%]",
+          153
+        ],
+        [
+          "E100000001533 [100%]",
+          149
+        ],
+        [
+          "E100000004059 [100%]",
+          138
+        ],
+        [
+          "E100000000921 [100%]",
+          127
+        ],
+        [
+          "E100000002128 [100%]",
+          119
+        ],
+        [
+          "E100000001870 [100%]",
+          112
+        ],
+        [
+          "E100000002005 [100%]",
+          101
+        ],
+        [
+          "E100000002081 [100%]",
+          98
+        ],
+        [
+          "E100000000968 [100%]",
+          93
+        ],
+        [
+          "E100000000551 [100%]",
+          90
+        ],
+        [
+          "E100000003343 [100%]",
+          89
+        ],
+        [
+          "E100000121374 [100%]",
+          88
+        ],
+        [
+          "E100000002087 [100%]",
+          88
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unique identifier assigned by the Global Energy Monitor ownership team",
+      "notes_from_readme": "Units: E1+11 digits."
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 182428,
+      "n_null": 149743,
+      "n_non_null": 32685,
+      "null_rate": 0.8208,
+      "n_unique": 7227,
+      "top_values": [
+        [
+          "Saudi Electricity Co [100.0%]",
+          438
+        ],
+        [
+          "Ministry of Electricity (Iraq) [100.0%]",
+          317
+        ],
+        [
+          "PT PLN (Persero) [100.0%]",
+          223
+        ],
+        [
+          "NTPC Ltd [100.0%]",
+          210
+        ],
+        [
+          "Tennessee Valley Authority [100.0%]",
+          186
+        ],
+        [
+          "Huaneng Power International Inc [100.0%]",
+          184
+        ],
+        [
+          "Duke Energy Corp [100.0%]",
+          182
+        ],
+        [
+          "Korea Electric Power Corp [100.0%]",
+          174
+        ],
+        [
+          "Southern Co [100.0%]",
+          162
+        ],
+        [
+          "China Energy Investment Corp [100.0%]",
+          158
+        ],
+        [
+          "Sonelgaz SpA [100.0%]",
+          156
+        ],
+        [
+          "T Plus PJSC [100.0%]",
+          155
+        ],
+        [
+          "Chubu Electric Power Co Inc [50.0%]; Tokyo Electric Power Co [50.0%]",
+          154
+        ],
+        [
+          "Comisión Federal de Electricidad EPE [100.0%]",
+          150
+        ],
+        [
+          "Inter RAO PJSC [100.0%]",
+          145
+        ],
+        [
+          "Datang International Power Generation Co Ltd [100.0%]",
+          133
+        ],
+        [
+          "Eskom Holdings SOC Ltd [100.0%]",
+          127
+        ],
+        [
+          "China Datang Corp Ltd [100.0%]",
+          127
+        ],
+        [
+          "RWE AG [100.0%]",
+          126
+        ],
+        [
+          "China Huadian Corp Ltd [100.0%]",
+          120
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Highest-level project owner in the chain of ownership and ultimate parents (e.g., corporations, investment firms, and governments).",
+      "notes_from_readme": "If percent ownership is known format is EntityA [X%]; EntityB [Y%]"
+    },
+    {
+      "field_name": "Parent(s) GEM Entity ID",
+      "code_friendly_name_guess": "parent_s_gem_entity_id",
+      "n_total": 182428,
+      "n_null": 149676,
+      "n_non_null": 32752,
+      "null_rate": 0.8205,
+      "n_unique": 7232,
+      "top_values": [
+        [
+          "E100000000890 [100.0%]",
+          438
+        ],
+        [
+          "E100000001354 [100.0%]",
+          317
+        ],
+        [
+          "E100000000537 [100.0%]",
+          223
+        ],
+        [
+          "E100000001926 [100.0%]",
+          210
+        ],
+        [
+          "E100000002329 [100.0%]",
+          186
+        ],
+        [
+          "E100000000217 [100.0%]",
+          184
+        ],
+        [
+          "E100000001194 [100.0%]",
+          182
+        ],
+        [
+          "E100000000947 [100.0%]",
+          174
+        ],
+        [
+          "E100000001309 [100.0%]",
+          162
+        ],
+        [
+          "E100000000239 [100.0%]",
+          158
+        ],
+        [
+          "E100000001755 [100.0%]",
+          156
+        ],
+        [
+          "E100000000878 [100.0%]",
+          155
+        ],
+        [
+          "E100000000630 [50.0%]; E100000000659 [50.0%]",
+          154
+        ],
+        [
+          "E100000002016 [100.0%]",
+          150
+        ],
+        [
+          "E100000000868 [100.0%]",
+          145
+        ],
+        [
+          "E100000000181 [100.0%]",
+          133
+        ],
+        [
+          "E100000000921 [100.0%]",
+          127
+        ],
+        [
+          "E100000000163 [100.0%]",
+          127
+        ],
+        [
+          "E100000000433 [100.0%]",
+          126
+        ],
+        [
+          "E100000000170 [100.0%]",
+          120
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unique identifier assigned by the Global Energy Monitor ownership team",
+      "notes_from_readme": "Units: E1+11 digits."
+    },
+    {
+      "field_name": "CHP",
+      "code_friendly_name_guess": "chp",
+      "n_total": 182428,
+      "n_null": 164043,
+      "n_non_null": 18385,
+      "null_rate": 0.8992,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "yes",
+          8727
+        ],
+        [
+          "not found",
+          6337
+        ],
+        [
+          "no",
+          3321
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Value of 'yes' if a project phase has combined heat and power/cogeneration, 'no' if not, 'not found' or blank if unknown or no data found.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CCS",
+      "code_friendly_name_guess": "ccs",
+      "n_total": 182428,
+      "n_null": 161121,
+      "n_non_null": 21307,
+      "null_rate": 0.8832,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "no",
+          14223
+        ],
+        [
+          "not found",
+          6863
+        ],
+        [
+          "yes",
+          221
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Value of 'yes' if a project has/plans carbon capture and storage (CCS), 'no' if not, 'not found' or blank if unknown or no data found.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion/replacement",
+      "code_friendly_name_guess": "conversion_replacement",
+      "n_total": 182428,
+      "n_null": 181529,
+      "n_non_null": 899,
+      "null_rate": 0.9951,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "replacement",
+          469
+        ],
+        [
+          "conversion",
+          299
+        ],
+        [
+          "coal to bioenergy conversion",
+          75
+        ],
+        [
+          "change of plans",
+          37
+        ],
+        [
+          "use of ST in CC set",
+          7
+        ],
+        [
+          "oil to bioenergy conversion",
+          4
+        ],
+        [
+          "gas to bioenergy conversion",
+          4
+        ],
+        [
+          "coal to bioenergy",
+          3
+        ],
+        [
+          "replacement, conversion",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:5_values_below_1pct"
+      ],
+      "definition_from_readme": "oil/gas options include: \nconversion - converts the steam turbine of an existing plant to burn gas.\nreplacement - existing plant is retired and replaced with a new  gas-fired plant. \nchange of plans - cases in which one or more  units were planned and those plans were cancelled and subsequently gas units were planned at the same location.\nuse of ST in CC set - cases where there is a steam turbine (usually coal) and is then repurposed to be part of a gas-fired combined cycle unit. Can also be referred to as “repowering” into a combined cycle where gas turbine(s) and HSRGs are added to the existing steam turbine. Was labeled as \"partial conversion\" in previous GOGPT data releases\nnot found\nbioenergy options include:\ngas to bioenergy conversion - when a unit has been or will be converted from gas to bioenergy\ncoal to bioenergy conversion - when a unit has been or will be converted from coal to bioenergy\noil to bioenergy conversion - when a unit has been or will be converted from fossil oil to bioenergy\nno conversion - unit is not associated with a conversion",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Unit conversion year",
+      "code_friendly_name_guess": "unit_conversion_year",
+      "n_total": 182428,
+      "n_null": 182366,
+      "n_non_null": 62,
+      "null_rate": 0.9997,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "2013.0",
+          8
+        ],
+        [
+          "2012.0",
+          8
+        ],
+        [
+          "2018.0",
+          7
+        ],
+        [
+          "2016.0",
+          5
+        ],
+        [
+          "2014.0",
+          5
+        ],
+        [
+          "2009.0",
+          5
+        ],
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2015.0",
+          4
+        ],
+        [
+          "2023.0",
+          2
+        ],
+        [
+          "2022.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ],
+        [
+          "2006.0",
+          2
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2005.0",
+          1
+        ],
+        [
+          "1993.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year the unit was or is projected to be converted to bioenergy",
+      "notes_from_readme": "Units: yyyy."
+    },
+    {
+      "field_name": "Conversion from/replacement of (fuel)",
+      "code_friendly_name_guess": "conversion_from_replacement_of_fuel",
+      "n_total": 182428,
+      "n_null": 181753,
+      "n_non_null": 675,
+      "null_rate": 0.9963,
+      "n_unique": 78,
+      "top_values": [
+        [
+          "coal: bituminous",
+          194
+        ],
+        [
+          "coal: unknown",
+          91
+        ],
+        [
+          "coal: subbituminous",
+          72
+        ],
+        [
+          "coal: bituminous, coal: bituminous",
+          39
+        ],
+        [
+          "coal: lignite",
+          30
+        ],
+        [
+          "coal: bituminous, fossil gas: natural gas",
+          20
+        ],
+        [
+          "fossil gas: LNG",
+          17
+        ],
+        [
+          "coal: bituminous, coal: bituminous, coal: bituminous",
+          17
+        ],
+        [
+          "fossil gas: natural gas",
+          15
+        ],
+        [
+          "coal: bituminous, bioenergy: wood & other biomass (solids)",
+          14
+        ],
+        [
+          "coal: lignite, fossil gas: natural gas",
+          13
+        ],
+        [
+          "coal: unknown, fossil gas: natural gas",
+          12
+        ],
+        [
+          "coal: unknown, coal: unknown",
+          12
+        ],
+        [
+          "coal: anthracite",
+          10
+        ],
+        [
+          "fossil gas: natural gas, fossil gas: natural gas",
+          6
+        ],
+        [
+          "coal: unknown, bioenergy: wood & other biomass (solids)",
+          6
+        ],
+        [
+          "coal: lignite, coal: lignite",
+          5
+        ],
+        [
+          "coal: bituminous, coal: bituminous, coal: bituminous, coal: bituminous",
+          5
+        ],
+        [
+          "fossil liquids: fuel oil",
+          4
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Fuel that unit is converted from, or being replaced",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion from/replacement of (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_from_replacement_of_gem_unit_id",
+      "n_total": 182428,
+      "n_null": 181753,
+      "n_non_null": 675,
+      "null_rate": 0.9963,
+      "n_unique": 653,
+      "top_values": [
+        [
+          "G100000100399",
+          4
+        ],
+        [
+          "G100000103926, G100000103927, G100000103928",
+          3
+        ],
+        [
+          "G100001018605, G100001018666",
+          2
+        ],
+        [
+          "G100001000907",
+          2
+        ],
+        [
+          "G100000414077",
+          2
+        ],
+        [
+          "G100000403993",
+          2
+        ],
+        [
+          "G100000403748",
+          2
+        ],
+        [
+          "G100000114141",
+          2
+        ],
+        [
+          "G100000114134",
+          2
+        ],
+        [
+          "G100000113823",
+          2
+        ],
+        [
+          "G100000108013",
+          2
+        ],
+        [
+          "G100000107222",
+          2
+        ],
+        [
+          "G100000106768",
+          2
+        ],
+        [
+          "G100000106765",
+          2
+        ],
+        [
+          "G100000104992",
+          2
+        ],
+        [
+          "G100000103928, G100000103927, G100000103926",
+          2
+        ],
+        [
+          "G100000103927, G100000103926, G100000103928",
+          2
+        ],
+        [
+          "G100000103909",
+          2
+        ],
+        [
+          "G100000101858",
+          2
+        ],
+        [
+          "G100001091020",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "GEM Unit ID of unit that is being converted from, or being replaced",
+      "notes_from_readme": "Units: G1+6/11 digits."
+    },
+    {
+      "field_name": "Conversion to (fuel)",
+      "code_friendly_name_guess": "conversion_to_fuel",
+      "n_total": 182428,
+      "n_null": 181968,
+      "n_non_null": 460,
+      "null_rate": 0.9975,
+      "n_unique": 72,
+      "top_values": [
+        [
+          "fossil gas: natural gas",
+          203
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          29
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (unknown)",
+          21
+        ],
+        [
+          "fossil gas: natural gas, other: hydrogen (green)",
+          17
+        ],
+        [
+          "fossil gas: natural gas, coal: unknown",
+          15
+        ],
+        [
+          "fossil gas: LNG",
+          14
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+          13
+        ],
+        [
+          "fossil gas: natural gas, coal: bituminous",
+          11
+        ],
+        [
+          "other: hydrogen (unknown)",
+          8
+        ],
+        [
+          "fossil gas: natural gas, coal: unknown, fossil liquids: fuel oil",
+          8
+        ],
+        [
+          "bioenergy: agricultural waste (solids)",
+          8
+        ],
+        [
+          "fossil liquids: heavy fuel oil",
+          6
+        ],
+        [
+          "other: hydrogen (green)",
+          5
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: fuel oil",
+          5
+        ],
+        [
+          "fossil gas: natural gas, fossil liquids: diesel, other: hydrogen (green)",
+          5
+        ],
+        [
+          "fossil gas: natural gas [70%], other: hydrogen (unknown) [30%]",
+          5
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+          5
+        ],
+        [
+          "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+          5
+        ],
+        [
+          "other: hydrogen (unknown), fossil gas: natural gas",
+          3
+        ],
+        [
+          "other: hydrogen (green), fossil gas: natural gas",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Fuel details connected to another GEM tracker, used when a project conversion is planned. See rows 168-222 below for description of fuels.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Conversion to (GEM unit ID)",
+      "code_friendly_name_guess": "conversion_to_gem_unit_id",
+      "n_total": 182428,
+      "n_null": 181968,
+      "n_non_null": 460,
+      "null_rate": 0.9975,
+      "n_unique": 460,
+      "top_values": [
+        [
+          "G100001090992",
+          1
+        ],
+        [
+          "G100001090721",
+          1
+        ],
+        [
+          "G100001090720",
+          1
+        ],
+        [
+          "G100001090715",
+          1
+        ],
+        [
+          "G100001073977",
+          1
+        ],
+        [
+          "G100001073482",
+          1
+        ],
+        [
+          "G100001073481",
+          1
+        ],
+        [
+          "G100001073132",
+          1
+        ],
+        [
+          "G100001072702",
+          1
+        ],
+        [
+          "G100001072624",
+          1
+        ],
+        [
+          "G100001072162",
+          1
+        ],
+        [
+          "G100001071461",
+          1
+        ],
+        [
+          "G100001071459",
+          1
+        ],
+        [
+          "G100001071458",
+          1
+        ],
+        [
+          "G100001070647",
+          1
+        ],
+        [
+          "G100001070646",
+          1
+        ],
+        [
+          "G100001070645",
+          1
+        ],
+        [
+          "G100001070644",
+          1
+        ],
+        [
+          "G100001055749",
+          1
+        ],
+        [
+          "G100001055688",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
+      "notes_from_readme": "Units: G1+11 digits."
+    },
+    {
+      "field_name": "Captive Industry Type",
+      "code_friendly_name_guess": "captive_industry_type",
+      "n_total": 182428,
+      "n_null": 177043,
+      "n_non_null": 5385,
+      "null_rate": 0.9705,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "chemicals",
+          1255
+        ],
+        [
+          "aluminum",
+          668
+        ],
+        [
+          "iron & steel",
+          604
+        ],
+        [
+          "oil & refining",
+          554
+        ],
+        [
+          "pulp & paper",
+          463
+        ],
+        [
+          "other",
+          356
+        ],
+        [
+          "other metals & mining",
+          330
+        ],
+        [
+          "data center",
+          236
+        ],
+        [
+          "industrial park",
+          191
+        ],
+        [
+          "sugar",
+          158
+        ],
+        [
+          "cement & building",
+          104
+        ],
+        [
+          "nickel",
+          97
+        ],
+        [
+          "coal mining & coal products",
+          79
+        ],
+        [
+          "agriculture",
+          70
+        ],
+        [
+          "machinery",
+          56
+        ],
+        [
+          "automobiles",
+          50
+        ],
+        [
+          "textiles",
+          23
+        ],
+        [
+          "chemicals, iron & steel, machinery, other metals & mining",
+          12
+        ],
+        [
+          "cryptocurrency",
+          10
+        ],
+        [
+          "aluminum, nickel",
+          9
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The type of captive industry use. Options include: agriculture, aluminum, automobiles, cement & building, chemicals, coal mining & coal products, cryptocurrency, dairy, data center, electronics, hydrogen production, industrial park, iron & steel, machinery, nickel, nutrition, oil & refining, other, other metals & mining, pulp & paper, rubber, sugar, textiles, unknown.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Captive Industry Use",
+      "code_friendly_name_guess": "captive_industry_use",
+      "n_total": 182428,
+      "n_null": 177258,
+      "n_non_null": 5170,
+      "null_rate": 0.9717,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "power",
+          2995
+        ],
+        [
+          "both",
+          2075
+        ],
+        [
+          "heat",
+          100
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"Captive\" power plants are those that are within industrial facilities. These power plants typically supply most of their power (and if they're CHP, most of their heat as well) to the industrial facility. Options include: heat, power, both, blank.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Captive Non Industry Use",
+      "code_friendly_name_guess": "captive_non_industry_use",
+      "n_total": 182428,
+      "n_null": 179087,
+      "n_non_null": 3341,
+      "null_rate": 0.9817,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "power",
+          2588
+        ],
+        [
+          "both",
+          273
+        ],
+        [
+          "none",
+          259
+        ],
+        [
+          "heat",
+          221
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Indicate if heat or power is used outside of the captive industrial facility or complex. Options include: heat, power, both, blank, None. 'None' indicates an entirely captive plant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 116132,
+      "top_values": [
+        [
+          "33.0",
+          165
+        ],
+        [
+          "31.9216",
+          130
+        ],
+        [
+          "29.8622",
+          129
+        ],
+        [
+          "-15.0",
+          125
+        ],
+        [
+          "36.0001",
+          112
+        ],
+        [
+          "30.7474",
+          109
+        ],
+        [
+          "43.2443",
+          106
+        ],
+        [
+          "30.249",
+          100
+        ],
+        [
+          "29.0",
+          96
+        ],
+        [
+          "37.0001",
+          94
+        ],
+        [
+          "31.2323",
+          92
+        ],
+        [
+          "34.0001",
+          91
+        ],
+        [
+          "31.5777",
+          86
+        ],
+        [
+          "31.8666",
+          81
+        ],
+        [
+          "36.399",
+          77
+        ],
+        [
+          "29.9992",
+          76
+        ],
+        [
+          "27.6662",
+          73
+        ],
+        [
+          "31.9828",
+          63
+        ],
+        [
+          "31.8123",
+          61
+        ],
+        [
+          "46.7",
+          60
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Latitude of the project, assumed WGS84 (Google Maps)",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 125674,
+      "top_values": [
+        [
+          "120.0",
+          270
+        ],
+        [
+          "121.6204",
+          129
+        ],
+        [
+          "120.2809",
+          129
+        ],
+        [
+          "-56.0",
+          125
+        ],
+        [
+          "120.0001",
+          111
+        ],
+        [
+          "119.0001",
+          111
+        ],
+        [
+          "120.7511",
+          109
+        ],
+        [
+          "114.3252",
+          104
+        ],
+        [
+          "120.2052",
+          100
+        ],
+        [
+          "121.4691",
+          91
+        ],
+        [
+          "112.0001",
+          90
+        ],
+        [
+          "120.2953",
+          86
+        ],
+        [
+          "117.2814",
+          81
+        ],
+        [
+          "120.5769",
+          76
+        ],
+        [
+          "118.5056",
+          74
+        ],
+        [
+          "114.0001",
+          73
+        ],
+        [
+          "111.7487",
+          73
+        ],
+        [
+          "116.0",
+          67
+        ],
+        [
+          "120.8905",
+          63
+        ],
+        [
+          "119.9692",
+          61
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Longitude of the project, assumed WGS84 (Google Maps)",
+      "notes_from_readme": "Units: decimal degrees."
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "exact",
+          108851
+        ],
+        [
+          "approximate",
+          73506
+        ],
+        [
+          "Approximate",
+          71
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Approximate based on using nearest city or other information in research, or exact based on visibility on map or given in research",
+      "notes_from_readme": "Units: approximate, exact."
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 182428,
+      "n_null": 74459,
+      "n_non_null": 107969,
+      "null_rate": 0.4082,
+      "n_unique": 38284,
+      "top_values": [
+        [
+          "Dimotiki Enotita Domokoy",
+          213
+        ],
+        [
+          "Dimotiki Enotita Xuniados",
+          209
+        ],
+        [
+          "Juazeiro ",
+          150
+        ],
+        [
+          "Municipal Unit Of Nikea",
+          138
+        ],
+        [
+          "Municipal Unit Of Astakos",
+          129
+        ],
+        [
+          "Riyadh",
+          122
+        ],
+        [
+          "Municipal Unit Of Almyros",
+          113
+        ],
+        [
+          "Municipal Unit Of Assiros",
+          109
+        ],
+        [
+          "Municipal Unit Of Agios Athanasios",
+          102
+        ],
+        [
+          "Ichihara",
+          97
+        ],
+        [
+          "Municipal Unit Of Fyteies",
+          96
+        ],
+        [
+          "Bom Jesus da Lapa ",
+          95
+        ],
+        [
+          "Municipal Unit Of Koufalia",
+          91
+        ],
+        [
+          "Icapuí ",
+          89
+        ],
+        [
+          "Arinos ",
+          89
+        ],
+        [
+          "Janaúba ",
+          88
+        ],
+        [
+          "Municipal Unit Of Lamia",
+          85
+        ],
+        [
+          "Moscow",
+          83
+        ],
+        [
+          "Hamamatsu",
+          82
+        ],
+        [
+          "Brasília",
+          79
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "City, town, village or locality where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Local area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 182428,
+      "n_null": 79464,
+      "n_non_null": 102964,
+      "null_rate": 0.4356,
+      "n_unique": 15992,
+      "top_values": [
+        [
+          "Larisa Regional Unit",
+          711
+        ],
+        [
+          "Phthiotis Regional Unit",
+          682
+        ],
+        [
+          "Kilkis Regional Unit",
+          614
+        ],
+        [
+          "Aetolia-Acarnania Regional Unit",
+          458
+        ],
+        [
+          "Thessaloniki Regional Unit",
+          367
+        ],
+        [
+          "Regional Unit of Boeotia",
+          353
+        ],
+        [
+          "Evros Regional Unit",
+          335
+        ],
+        [
+          "Kozani Regional Unit",
+          328
+        ],
+        [
+          "Kern County",
+          253
+        ],
+        [
+          "Regional Unit of Magnesia",
+          232
+        ],
+        [
+          "Strathclyde",
+          221
+        ],
+        [
+          "Highland",
+          193
+        ],
+        [
+          "Região Administrativa Integrada de Desenvolvimento do Polo Petrolina e Juazeiro",
+          172
+        ],
+        [
+          "Los Angeles County",
+          172
+        ],
+        [
+          "Yizhou District",
+          169
+        ],
+        [
+          "Worcester County",
+          169
+        ],
+        [
+          "Devon",
+          167
+        ],
+        [
+          "Riverside County",
+          164
+        ],
+        [
+          "Gonghe",
+          164
+        ],
+        [
+          "Euboea Regional Unit",
+          160
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "County or taluk where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Major area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 182428,
+      "n_null": 94442,
+      "n_non_null": 87986,
+      "null_rate": 0.5177,
+      "n_unique": 7619,
+      "top_values": [
+        [
+          "Central Macedonia",
+          1349
+        ],
+        [
+          "Scotland",
+          1188
+        ],
+        [
+          "Central Greece",
+          1171
+        ],
+        [
+          "Thessaly",
+          934
+        ],
+        [
+          "Ibaraki Prefecture",
+          836
+        ],
+        [
+          "South West",
+          751
+        ],
+        [
+          "Eastern Macedonia and Thrace",
+          704
+        ],
+        [
+          "Yulin",
+          653
+        ],
+        [
+          "Região Geográfica Intermediária de Montes Claros",
+          613
+        ],
+        [
+          "Chiba Prefecture",
+          611
+        ],
+        [
+          "Zhangjiakou",
+          528
+        ],
+        [
+          "Hokkaido Prefecture",
+          509
+        ],
+        [
+          "Tochigi Prefecture",
+          506
+        ],
+        [
+          "Eastern",
+          488
+        ],
+        [
+          "Kagoshima Prefecture",
+          486
+        ],
+        [
+          "Fukuoka Prefecture",
+          480
+        ],
+        [
+          "Hyogo Prefecture",
+          477
+        ],
+        [
+          "East Midlands",
+          461
+        ],
+        [
+          "Western Greece",
+          455
+        ],
+        [
+          "South East",
+          445
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district where project is located",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit (state, province)",
+      "code_friendly_name_guess": "subnational_unit_state_province",
+      "n_total": 182428,
+      "n_null": 29664,
+      "n_non_null": 152764,
+      "null_rate": 0.1626,
+      "n_unique": 4201,
+      "top_values": [
+        [
+          "England",
+          3357
+        ],
+        [
+          "Shandong",
+          3046
+        ],
+        [
+          "Bayern",
+          2863
+        ],
+        [
+          "Jiangsu",
+          2795
+        ],
+        [
+          "Thessaly and Central Greece",
+          2503
+        ],
+        [
+          "Inner Mongolia",
+          2399
+        ],
+        [
+          "Zhejiang",
+          2287
+        ],
+        [
+          "Macedonia and Thrace",
+          2246
+        ],
+        [
+          "Hebei",
+          2210
+        ],
+        [
+          "Minas Gerais",
+          2183
+        ],
+        [
+          "Xinjiang",
+          2072
+        ],
+        [
+          "California",
+          1880
+        ],
+        [
+          "Guangdong",
+          1865
+        ],
+        [
+          "Shanxi",
+          1666
+        ],
+        [
+          "Henan",
+          1663
+        ],
+        [
+          "Guizhou",
+          1614
+        ],
+        [
+          "Yunnan",
+          1556
+        ],
+        [
+          "Guangxi",
+          1538
+        ],
+        [
+          "Anhui",
+          1514
+        ],
+        [
+          "Bahia",
+          1402
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Subnational unit where project is located, usually state or province",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 145106,
+      "top_values": [
+        [
+          "L100000831877",
+          125
+        ],
+        [
+          "L100000807858",
+          92
+        ],
+        [
+          "L100001057803",
+          58
+        ],
+        [
+          "L100000831813",
+          44
+        ],
+        [
+          "L100000405561",
+          44
+        ],
+        [
+          "L100000408946",
+          42
+        ],
+        [
+          "L100000831907",
+          40
+        ],
+        [
+          "L100000831794",
+          40
+        ],
+        [
+          "L100001022231",
+          39
+        ],
+        [
+          "L100001059100",
+          37
+        ],
+        [
+          "L100000409133",
+          35
+        ],
+        [
+          "L100000405560",
+          34
+        ],
+        [
+          "L100001021790",
+          33
+        ],
+        [
+          "L100000831760",
+          33
+        ],
+        [
+          "L100000831905",
+          32
+        ],
+        [
+          "L100000408239",
+          32
+        ],
+        [
+          "L100000831660",
+          30
+        ],
+        [
+          "L100000831636",
+          30
+        ],
+        [
+          "L100000104189",
+          30
+        ],
+        [
+          "L100000831844",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "GEM generated ID unique for each project",
+      "notes_from_readme": "Units: L1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of L812345 is now L100000812345."
+    },
+    {
+      "field_name": "GEM unit/phase ID",
+      "code_friendly_name_guess": "gem_unit_phase_id",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 182425,
+      "top_values": [
+        [
+          "G100001092215",
+          2
+        ],
+        [
+          "G100001092116",
+          2
+        ],
+        [
+          "G100001000022",
+          2
+        ],
+        [
+          "G100001093050",
+          1
+        ],
+        [
+          "G100001093010",
+          1
+        ],
+        [
+          "G100001093009",
+          1
+        ],
+        [
+          "G100001092999",
+          1
+        ],
+        [
+          "G100001092968",
+          1
+        ],
+        [
+          "G100001092966",
+          1
+        ],
+        [
+          "G100001092944",
+          1
+        ],
+        [
+          "G100001092943",
+          1
+        ],
+        [
+          "G100001092942",
+          1
+        ],
+        [
+          "G100001092916",
+          1
+        ],
+        [
+          "G100001092875",
+          1
+        ],
+        [
+          "G100001092873",
+          1
+        ],
+        [
+          "G100001092872",
+          1
+        ],
+        [
+          "G100001092825",
+          1
+        ],
+        [
+          "G100001092824",
+          1
+        ],
+        [
+          "G100001092806",
+          1
+        ],
+        [
+          "G100001092292",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "GEM generated ID unique for each phase",
+      "notes_from_readme": "Units: G1+11 digits. Previous GEM ID numbers have been preserved. For example, a previous GEM ID of G812345 is now G100000812345."
+    },
+    {
+      "field_name": "GEM.Wiki URL",
+      "code_friendly_name_guess": "gem_wiki_url",
+      "n_total": 182428,
+      "n_null": 0,
+      "n_non_null": 182428,
+      "null_rate": 0.0,
+      "n_unique": 145059,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Solaris_(Pacto)_solar_farm",
+          125
+        ],
+        [
+          "https://www.gem.wiki/Aurora_solar_farm_(Brazil)",
+          92
+        ],
+        [
+          "https://www.gem.wiki/Assiros_solar_project",
+          58
+        ],
+        [
+          "https://www.gem.wiki/Riyadh_9_power_plant",
+          44
+        ],
+        [
+          "https://www.gem.wiki/Pateiro_solar_farm",
+          44
+        ],
+        [
+          "https://www.gem.wiki/PW_Mobile_power_plant",
+          42
+        ],
+        [
+          "https://www.gem.wiki/Walfrido_Avila_solar_farm",
+          40
+        ],
+        [
+          "https://www.gem.wiki/Morro_Preto_solar_farm",
+          40
+        ],
+        [
+          "https://www.gem.wiki/Paineira_solar_farm",
+          39
+        ],
+        [
+          "https://www.gem.wiki/Kilkis_Vaptistis_solar_farm",
+          37
+        ],
+        [
+          "https://www.gem.wiki/Jeddah_PP3_power_plant",
+          35
+        ],
+        [
+          "https://www.gem.wiki/Riyadh_8_power_plant",
+          34
+        ],
+        [
+          "https://www.gem.wiki/Jaguar_(Uruquê)_solar_farm",
+          33
+        ],
+        [
+          "https://www.gem.wiki/Granja_solar_farm",
+          33
+        ],
+        [
+          "https://www.gem.wiki/Veredas_solar_farm",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Rabigh_power_plant",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Johnsonville_Fossil_Plant",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Barreiro_solar_farm",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Alegria_solar_farm",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Santa_Luzia_solar_farm",
+          28
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "URL of GEM.wiki pages",
+      "notes_from_readme": null
+    }
+  ]
+}

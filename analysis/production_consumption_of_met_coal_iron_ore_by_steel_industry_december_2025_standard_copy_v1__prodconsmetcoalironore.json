@@ -1,0 +1,927 @@
+{
+  "table_name": "production_consumption_of_met_coal_iron_ore_by_steel_industry_december_2025_standard_copy_v1__prodconsmetcoalironore",
+  "tracker_slug": "production_consumption_of_met_coal_iron_ore_by_steel_industry_december_2025_standard_copy_v1",
+  "tab_slug": "prodconsmetcoalironore",
+  "n_rows": 252,
+  "analyzed_at": "2026-07-07T21:45:22.613144+00:00",
+  "tracker_info": {
+    "title": null,
+    "citation": null,
+    "contact": null,
+    "license": null
+  },
+  "fields": [
+    {
+      "field_name": "Country",
+      "code_friendly_name_guess": "country",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 252,
+      "top_values": [
+        [
+          "Åland Islands",
+          1
+        ],
+        [
+          "Zimbabwe",
+          1
+        ],
+        [
+          "Zambia",
+          1
+        ],
+        [
+          "Yemen",
+          1
+        ],
+        [
+          "Western Sahara",
+          1
+        ],
+        [
+          "Wallis and Futuna",
+          1
+        ],
+        [
+          "Virgin Islands (U.S.)",
+          1
+        ],
+        [
+          "Virgin Islands (British) ",
+          1
+        ],
+        [
+          "Vietnam",
+          1
+        ],
+        [
+          "Venezuela",
+          1
+        ],
+        [
+          "Vanuatu",
+          1
+        ],
+        [
+          "Uzbekistan",
+          1
+        ],
+        [
+          "Uruguay",
+          1
+        ],
+        [
+          "United States Minor Outlying Islands",
+          1
+        ],
+        [
+          "United States",
+          1
+        ],
+        [
+          "United Kingdom",
+          1
+        ],
+        [
+          "United Arab Emirates",
+          1
+        ],
+        [
+          "Ukraine",
+          1
+        ],
+        [
+          "Uganda",
+          1
+        ],
+        [
+          "Türkiye",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Country. Standardized to the GEM Naming Conventions.",
+      "notes_from_readme": "N/A"
+    },
+    {
+      "field_name": "Met coal mined (ttpa)",
+      "code_friendly_name_guess": "met_coal_mined_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "0",
+          224
+        ],
+        [
+          "970364.000000002",
+          1
+        ],
+        [
+          "83.99999999999999",
+          1
+        ],
+        [
+          "800",
+          1
+        ],
+        [
+          "80.00000000000001",
+          1
+        ],
+        [
+          "625",
+          1
+        ],
+        [
+          "60",
+          1
+        ],
+        [
+          "5859.999999999999",
+          1
+        ],
+        [
+          "49151.69999999998",
+          1
+        ],
+        [
+          "4800",
+          1
+        ],
+        [
+          "455.99999999999994",
+          1
+        ],
+        [
+          "40",
+          1
+        ],
+        [
+          "39685.00000000001",
+          1
+        ],
+        [
+          "3875",
+          1
+        ],
+        [
+          "32620.999999999996",
+          1
+        ],
+        [
+          "2996",
+          1
+        ],
+        [
+          "24422.79999999999",
+          1
+        ],
+        [
+          "24360",
+          1
+        ],
+        [
+          "2402",
+          1
+        ],
+        [
+          "233808.72",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Met coal production at country level. Estimated by adding up met coal production by mines in each country. Capacity of the mine was used where production was unknown.",
+      "notes_from_readme": "Global Coal Mine Tracker, Global Energy Monitor, May 2025 release"
+    },
+    {
+      "field_name": "Iron ore mined (ttpa)",
+      "code_friendly_name_guess": "iron_ore_mined_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 48,
+      "top_values": [
+        [
+          "0",
+          201
+        ],
+        [
+          "900",
+          3
+        ],
+        [
+          "450",
+          2
+        ],
+        [
+          "2250",
+          2
+        ],
+        [
+          "9090",
+          1
+        ],
+        [
+          "8659",
+          1
+        ],
+        [
+          "81",
+          1
+        ],
+        [
+          "8055",
+          1
+        ],
+        [
+          "745.2",
+          1
+        ],
+        [
+          "6886.35",
+          1
+        ],
+        [
+          "68085",
+          1
+        ],
+        [
+          "6349.5",
+          1
+        ],
+        [
+          "62948",
+          1
+        ],
+        [
+          "58517.25",
+          1
+        ],
+        [
+          "585",
+          1
+        ],
+        [
+          "5600",
+          1
+        ],
+        [
+          "5400",
+          1
+        ],
+        [
+          "54",
+          1
+        ],
+        [
+          "514",
+          1
+        ],
+        [
+          "4430.65",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Iron ore production data at country level. Estimated by adding up iron ore production by mines in each country. Capacity of the mine multiplied by a 45% capacity utilization rate was used where production was unknown.",
+      "notes_from_readme": "Global Iron Ore Mines Tracker, Global Energy Monitor, August 2025 (V1) release"
+    },
+    {
+      "field_name": "Met coal consumed by pig iron production (ttpa)",
+      "code_friendly_name_guess": "met_coal_consumed_by_pig_iron_production_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 39,
+      "top_values": [
+        [
+          "0",
+          211
+        ],
+        [
+          "3900",
+          2
+        ],
+        [
+          "2652",
+          2
+        ],
+        [
+          "1716",
+          2
+        ],
+        [
+          "858",
+          1
+        ],
+        [
+          "8236.800000000001",
+          1
+        ],
+        [
+          "7956",
+          1
+        ],
+        [
+          "74.88",
+          1
+        ],
+        [
+          "70200",
+          1
+        ],
+        [
+          "664326",
+          1
+        ],
+        [
+          "5538",
+          1
+        ],
+        [
+          "5070",
+          1
+        ],
+        [
+          "4992",
+          1
+        ],
+        [
+          "47580",
+          1
+        ],
+        [
+          "468",
+          1
+        ],
+        [
+          "4524",
+          1
+        ],
+        [
+          "4368",
+          1
+        ],
+        [
+          "4290",
+          1
+        ],
+        [
+          "4094.2200000000003",
+          1
+        ],
+        [
+          "39936",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Met coal consumed at country level for production of pig iron in blast furnaces. Estimated by assuming 780 tonnes met coal consumed per tonne pig iron produced (Raw materials, World Steel Association, https://worldsteel.org/other-topics/raw-materials/, accessed November 2025).",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "Iron ore consumed by pig iron production (ttpa)",
+      "code_friendly_name_guess": "iron_ore_consumed_by_pig_iron_production_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "unknown",
+          196
+        ],
+        [
+          "0",
+          12
+        ],
+        [
+          "960",
+          2
+        ],
+        [
+          "8000",
+          2
+        ],
+        [
+          "5440",
+          2
+        ],
+        [
+          "480",
+          2
+        ],
+        [
+          "3520",
+          2
+        ],
+        [
+          "97600",
+          1
+        ],
+        [
+          "9280",
+          1
+        ],
+        [
+          "8960",
+          1
+        ],
+        [
+          "8800",
+          1
+        ],
+        [
+          "8398.4",
+          1
+        ],
+        [
+          "81920",
+          1
+        ],
+        [
+          "800",
+          1
+        ],
+        [
+          "70720",
+          1
+        ],
+        [
+          "640",
+          1
+        ],
+        [
+          "5760",
+          1
+        ],
+        [
+          "4800",
+          1
+        ],
+        [
+          "4640",
+          1
+        ],
+        [
+          "4480",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2222,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Iron ore consumed at country level by production of pig iron in blast furnaces. Estimated by assuming 1.6 tonnes of iron ore consumed per tonne of pig iron produced (Raw materials, World Steel Association, https://worldsteel.org/other-topics/raw-materials/, accessed November 2025).",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "Iron ore consumed by DRI production (ttpa)",
+      "code_friendly_name_guess": "iron_ore_consumed_by_dri_production_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "unknown",
+          198
+        ],
+        [
+          "0",
+          23
+        ],
+        [
+          "420",
+          2
+        ],
+        [
+          "2380",
+          2
+        ],
+        [
+          "2240",
+          2
+        ],
+        [
+          "140",
+          2
+        ],
+        [
+          "9940",
+          1
+        ],
+        [
+          "9660",
+          1
+        ],
+        [
+          "912.8",
+          1
+        ],
+        [
+          "7699.999999999999",
+          1
+        ],
+        [
+          "76720",
+          1
+        ],
+        [
+          "700",
+          1
+        ],
+        [
+          "6580",
+          1
+        ],
+        [
+          "5880",
+          1
+        ],
+        [
+          "4900",
+          1
+        ],
+        [
+          "47740",
+          1
+        ],
+        [
+          "2800",
+          1
+        ],
+        [
+          "280",
+          1
+        ],
+        [
+          "2100",
+          1
+        ],
+        [
+          "206273.19999999998",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2143,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Iron ore consumed at country level by DRI production in DRI units. Estimated by assuming 1.4 tonnes of iron ore consumed per tonne of DRI (aka sponge iron) produced (Decarbonising Coal-based Direct Reduced Iron Production, CEEW, July 2024; Iron Ore Supply for Direct Reduction: Outlook and Challenges, IIMA, October 2024).",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "Total iron ore consumed by pig iron and DRI production (ttpa)",
+      "code_friendly_name_guess": "total_iron_ore_consumed_by_pig_iron_and_dri_production_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "unknown",
+          195
+        ],
+        [
+          "8000",
+          2
+        ],
+        [
+          "5440",
+          2
+        ],
+        [
+          "480",
+          2
+        ],
+        [
+          "3520",
+          2
+        ],
+        [
+          "2380",
+          2
+        ],
+        [
+          "11360",
+          2
+        ],
+        [
+          "9940",
+          1
+        ],
+        [
+          "98686.4",
+          1
+        ],
+        [
+          "9660",
+          1
+        ],
+        [
+          "960",
+          1
+        ],
+        [
+          "93120",
+          1
+        ],
+        [
+          "8960",
+          1
+        ],
+        [
+          "8801.4",
+          1
+        ],
+        [
+          "8398.4",
+          1
+        ],
+        [
+          "8280",
+          1
+        ],
+        [
+          "7380",
+          1
+        ],
+        [
+          "71140",
+          1
+        ],
+        [
+          "700",
+          1
+        ],
+        [
+          "640",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2262,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Total iron ore consumed by production of pig iron and DRI (sum of \"Iron ore consumed by pig iron production (ttpa)\" and \"Iron ore consumed by DRI production (ttpa)\" columns).",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "Pig iron produced (ttpa)",
+      "code_friendly_name_guess": "pig_iron_produced_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 41,
+      "top_values": [
+        [
+          "unknown",
+          196
+        ],
+        [
+          "0",
+          12
+        ],
+        [
+          "600",
+          2
+        ],
+        [
+          "5000",
+          2
+        ],
+        [
+          "3400",
+          2
+        ],
+        [
+          "300",
+          2
+        ],
+        [
+          "2200",
+          2
+        ],
+        [
+          "96",
+          1
+        ],
+        [
+          "90000",
+          1
+        ],
+        [
+          "851700",
+          1
+        ],
+        [
+          "7100",
+          1
+        ],
+        [
+          "6500",
+          1
+        ],
+        [
+          "6400",
+          1
+        ],
+        [
+          "61000",
+          1
+        ],
+        [
+          "5800",
+          1
+        ],
+        [
+          "5600",
+          1
+        ],
+        [
+          "5500",
+          1
+        ],
+        [
+          "5249",
+          1
+        ],
+        [
+          "51200",
+          1
+        ],
+        [
+          "500",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2222,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Pig iron production at country level as reported by the World Steel Association (WSA). Blast furnace (BF) capacity from GEM's Global Iron and Steel Tracker (GIST) was used where WSA production was unknown.",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "DRI produced (ttpa)",
+      "code_friendly_name_guess": "dri_produced_ttpa",
+      "n_total": 252,
+      "n_null": 0,
+      "n_non_null": 252,
+      "null_rate": 0.0,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "unknown",
+          198
+        ],
+        [
+          "0",
+          23
+        ],
+        [
+          "300",
+          2
+        ],
+        [
+          "1700",
+          2
+        ],
+        [
+          "1600",
+          2
+        ],
+        [
+          "100",
+          2
+        ],
+        [
+          "9",
+          1
+        ],
+        [
+          "8000",
+          1
+        ],
+        [
+          "800",
+          1
+        ],
+        [
+          "776",
+          1
+        ],
+        [
+          "7100",
+          1
+        ],
+        [
+          "6900",
+          1
+        ],
+        [
+          "652",
+          1
+        ],
+        [
+          "5500",
+          1
+        ],
+        [
+          "54800",
+          1
+        ],
+        [
+          "500",
+          1
+        ],
+        [
+          "4700",
+          1
+        ],
+        [
+          "4200",
+          1
+        ],
+        [
+          "3500",
+          1
+        ],
+        [
+          "34100",
+          1
+        ]
+      ],
+      "portion_numeric": 0.2143,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Direct reduced iron (DRI) production at country level as reported by WSA. DRI capacity from GIST was used where WSA production was unknown.",
+      "notes_from_readme": "World Steel in Figures, World Steel Association, 2025; Global Iron and Steel Tracker, Global Energy Monitor, September 2025 (V1) release"
+    },
+    {
+      "field_name": "_col9",
+      "code_friendly_name_guess": "col9",
+      "n_total": 252,
+      "n_null": 252,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "_col10",
+      "code_friendly_name_guess": "col10",
+      "n_total": 252,
+      "n_null": 252,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

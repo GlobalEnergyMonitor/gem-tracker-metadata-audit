@@ -1,0 +1,3466 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__coal_mines",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "coal_mines",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:22.214697+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "GEM Mine ID",
+      "code_friendly_name_guess": "gem_mine_id",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 50,
+      "top_values": [
+        [
+          "M3844",
+          2
+        ],
+        [
+          "M3841",
+          2
+        ],
+        [
+          "M6710",
+          1
+        ],
+        [
+          "M6709",
+          1
+        ],
+        [
+          "M6708",
+          1
+        ],
+        [
+          "M6707",
+          1
+        ],
+        [
+          "M6706",
+          1
+        ],
+        [
+          "M6705",
+          1
+        ],
+        [
+          "M6704",
+          1
+        ],
+        [
+          "M6703",
+          1
+        ],
+        [
+          "M6702",
+          1
+        ],
+        [
+          "M6701",
+          1
+        ],
+        [
+          "M6700",
+          1
+        ],
+        [
+          "M6699",
+          1
+        ],
+        [
+          "M6698",
+          1
+        ],
+        [
+          "M6697",
+          1
+        ],
+        [
+          "M6696",
+          1
+        ],
+        [
+          "M5594",
+          1
+        ],
+        [
+          "M5593",
+          1
+        ],
+        [
+          "M4359",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "MSHA ID",
+      "code_friendly_name_guess": "msha_id",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Country / Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "Colombia",
+          32
+        ],
+        [
+          "Brazil",
+          8
+        ],
+        [
+          "Mexico",
+          6
+        ],
+        [
+          "Venezuela",
+          3
+        ],
+        [
+          "Peru",
+          1
+        ],
+        [
+          "Chile",
+          1
+        ],
+        [
+          "Argentina",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name",
+      "code_friendly_name_guess": "mine_name",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 50,
+      "top_values": [
+        [
+          "San Luis Coal Mine",
+          2
+        ],
+        [
+          "Bijao-La Guacamaya Coal Mine",
+          2
+        ],
+        [
+          "Verdinho Coal Mine",
+          1
+        ],
+        [
+          "Tajo La Conquista Mine",
+          1
+        ],
+        [
+          "Seival Coal Mine",
+          1
+        ],
+        [
+          "Santa Barbara Coal Mine",
+          1
+        ],
+        [
+          "San Luis (Socha) Coal Mine",
+          1
+        ],
+        [
+          "San Juaquin Coal Mine",
+          1
+        ],
+        [
+          "San Juan Coal Mine",
+          1
+        ],
+        [
+          "Río Turbio Coal Mine",
+          1
+        ],
+        [
+          "Río Blanco Coal Mine",
+          1
+        ],
+        [
+          "Rondón Coal Mine",
+          1
+        ],
+        [
+          "Progreso Coal Mine",
+          1
+        ],
+        [
+          "Prodeco Coal Mine",
+          1
+        ],
+        [
+          "Pribbenow Coal Mine",
+          1
+        ],
+        [
+          "Popayán Coal Mine",
+          1
+        ],
+        [
+          "Paso Diablo Coal Mine",
+          1
+        ],
+        [
+          "Papayal Coal Mine",
+          1
+        ],
+        [
+          "Pampahuay Coal Mine",
+          1
+        ],
+        [
+          "Nueva Rosita Coal Mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name AKAs",
+      "code_friendly_name_guess": "mine_name_akas",
+      "n_total": 999,
+      "n_null": 991,
+      "n_non_null": 8,
+      "null_rate": 0.992,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Riesco Island Project",
+          1
+        ],
+        [
+          "Proyecto San Luis",
+          1
+        ],
+        [
+          "Mina San Fernando",
+          1
+        ],
+        [
+          "La Loma",
+          1
+        ],
+        [
+          "La Caypa Coal Mine",
+          1
+        ],
+        [
+          "Circiuma Mine",
+          1
+        ],
+        [
+          "Carbosocha Coal Mine",
+          1
+        ],
+        [
+          "Arroio dos Ratos",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Name (Non-ENG)",
+      "code_friendly_name_guess": "mine_name_non_eng",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 46,
+      "top_values": [
+        [
+          "Mina San Luis",
+          2
+        ],
+        [
+          "Mina Bijao-La Guacamaya",
+          2
+        ],
+        [
+          "Proyecto Río Blanco",
+          1
+        ],
+        [
+          "Proyecto Rondón",
+          1
+        ],
+        [
+          "Proyecto Popayán",
+          1
+        ],
+        [
+          "Proyecto La Ramada",
+          1
+        ],
+        [
+          "Proyecto La Fortuna",
+          1
+        ],
+        [
+          "Proyecto La Camacha",
+          1
+        ],
+        [
+          "Proyecto La Alexandra",
+          1
+        ],
+        [
+          "Proyecto El Cerro",
+          1
+        ],
+        [
+          "Proyecto Cardones",
+          1
+        ],
+        [
+          "Mina do Verdinho",
+          1
+        ],
+        [
+          "Mina do Seival",
+          1
+        ],
+        [
+          "Mina do Cerro",
+          1
+        ],
+        [
+          "Mina do Calombo",
+          1
+        ],
+        [
+          "Mina do Butiá Leste, Mina B3",
+          1
+        ],
+        [
+          "Mina de carbón Santa Bárbara",
+          1
+        ],
+        [
+          "Mina de carbón Progreso, Carbonífera deSan Patricio",
+          1
+        ],
+        [
+          "Mina de carbón Pampahuay",
+          1
+        ],
+        [
+          "Mina de carbón Nueva Rosita, IMMSA Operation",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Complex Name",
+      "code_friendly_name_guess": "complex_name",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki Page (ENG)",
+      "code_friendly_name_guess": "gem_wiki_page_eng",
+      "n_total": 999,
+      "n_null": 969,
+      "n_non_null": 30,
+      "null_rate": 0.97,
+      "n_unique": 29,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Bijao-La_Guacamaya_Coal_Mine",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Verdinho_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Seival_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Santa_Barbara_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/San_Luis_Coal_Mine_(Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/San_Juaquin_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/San_Juan_Mine_(Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/R%C3%ADo_Turbio_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Progreso_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Prodeco_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Pribbenow_coal_mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Paso_Diablo_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Papayal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Pampahuay_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mimosa_coal_mines",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Las_Lajitas_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/La_Francia_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Gua%C3%ADba_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Fontanella_Coal_Mine",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Fila_Maestra_Mine",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Wiki Page (Non-ENG)",
+      "code_friendly_name_guess": "gem_wiki_page_non_eng",
+      "n_total": 999,
+      "n_null": 981,
+      "n_non_null": 18,
+      "null_rate": 0.982,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Mina_do_Cerro",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_do_Calombo",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_de_carbón_El_Cerrejón",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_de_carb%C3%B3n_Santa_B%C3%A1rbara",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_de_carb%C3%B3n_Progreso",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_de_carb%C3%B3n_Pampahuay",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_San_Juaquin",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_San_Juan_(Colombia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Prodeco",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Pribbenow",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Paso_Diablo",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Papayal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Mimosa",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Las_Lajitas",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Fila_Maestra",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_El_Descanso",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_El_Corozo",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Mina_Cañaverales",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Operating",
+          31
+        ],
+        [
+          "Proposed",
+          8
+        ],
+        [
+          "Shelved",
+          4
+        ],
+        [
+          "Mothballed",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Status Detail",
+      "code_friendly_name_guess": "status_detail",
+      "n_total": 999,
+      "n_null": 986,
+      "n_non_null": 13,
+      "null_rate": 0.987,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Exploration",
+          6
+        ],
+        [
+          "Pre-Permit",
+          4
+        ],
+        [
+          "Permitted",
+          2
+        ],
+        [
+          "Care and Maintenance",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Type",
+      "code_friendly_name_guess": "project_type",
+      "n_total": 999,
+      "n_null": 977,
+      "n_non_null": 22,
+      "null_rate": 0.978,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "New",
+          18
+        ],
+        [
+          "Expansion",
+          3
+        ],
+        [
+          "Extenstion",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Project Phase",
+      "code_friendly_name_guess": "project_phase",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owners",
+      "code_friendly_name_guess": "owners",
+      "n_total": 999,
+      "n_null": 948,
+      "n_non_null": 51,
+      "null_rate": 0.9489,
+      "n_unique": 35,
+      "top_values": [
+        [
+          "Copelmi Mineração Ltda [100%]",
+          5
+        ],
+        [
+          "Yildirim Holding AŞ [100%]",
+          3
+        ],
+        [
+          "Drummond Ltd [100%]",
+          3
+        ],
+        [
+          "Carbomas S.A.S [100%]",
+          3
+        ],
+        [
+          "Sator SAS [100%]",
+          2
+        ],
+        [
+          "Prodeco Group",
+          2
+        ],
+        [
+          "Industrial Minera México [IMMSA]",
+          2
+        ],
+        [
+          "Colombia Natural Resources [100%]",
+          2
+        ],
+        [
+          "Carbonera San Luis S.A.S.; Centromin S.A.S.; Mincar S.A.S ; San Luis Coal SA",
+          2
+        ],
+        [
+          "Carboandes [100%]",
+          2
+        ],
+        [
+          "Yacimientos Carboníferos de Río Turbio SA [100%]",
+          1
+        ],
+        [
+          "Ultramar Group",
+          1
+        ],
+        [
+          "SRSS Resources Min S.A.S. [100%]",
+          1
+        ],
+        [
+          "Prodeco Group [100%]",
+          1
+        ],
+        [
+          "Ocimin (Obras Civiles y Mineras S.A.C.) [100%]",
+          1
+        ],
+        [
+          "Montenegro y Leroy Coal Co S.A.S. [100%]",
+          1
+        ],
+        [
+          "Mineria y Energia del Noreste [100%]",
+          1
+        ],
+        [
+          "La Fortuna Coal S.A.S [100%]",
+          1
+        ],
+        [
+          "Inversiones Tomas S.A.S.; Sociedad Central de Activos Mineros S.A.S.",
+          1
+        ],
+        [
+          "Grupo Corporativo Vatia S.A.S (Vatia) [100%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner GEM Entity ID",
+      "code_friendly_name_guess": "owner_gem_entity_id",
+      "n_total": 999,
+      "n_null": 954,
+      "n_non_null": 45,
+      "null_rate": 0.955,
+      "n_unique": 30,
+      "top_values": [
+        [
+          "E100001000654 [100%]",
+          5
+        ],
+        [
+          "E100002011743 [100%]",
+          3
+        ],
+        [
+          "E100001010107 [100%]",
+          3
+        ],
+        [
+          "E100001000241 [100%]",
+          3
+        ],
+        [
+          "E100002011744 [100%]",
+          2
+        ],
+        [
+          "E100002011742 [100%]",
+          2
+        ],
+        [
+          "E100000132167; E100002011747; E100002011751; E100002011891",
+          2
+        ],
+        [
+          "E100000131511 [100%]",
+          2
+        ],
+        [
+          "E100000121252 [100%]",
+          2
+        ],
+        [
+          "E100002011957 [100%]",
+          1
+        ],
+        [
+          "E100002011894 [100%]",
+          1
+        ],
+        [
+          "E100002011870 [100%]",
+          1
+        ],
+        [
+          "E100002011859; E100002012000",
+          1
+        ],
+        [
+          "E100002011752 [100%]",
+          1
+        ],
+        [
+          "E100002011749 [100%]",
+          1
+        ],
+        [
+          "E100002011748 [100%]",
+          1
+        ],
+        [
+          "E100001013245 [100%]",
+          1
+        ],
+        [
+          "E100001013224 [100%]",
+          1
+        ],
+        [
+          "E100001010310 [100%]",
+          1
+        ],
+        [
+          "E100001000824 [100%]",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owners (Non-ENG)",
+      "code_friendly_name_guess": "owners_non_eng",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Carbones de los Andes S.A.",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent Company",
+      "code_friendly_name_guess": "parent_company",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "COPELMI",
+          5
+        ],
+        [
+          "Yildirim Holding AS",
+          3
+        ],
+        [
+          "Drummond Company Inc [100%]",
+          3
+        ],
+        [
+          "Patria Energética",
+          2
+        ],
+        [
+          "Grupo Mexico SAB de CV",
+          2
+        ],
+        [
+          "Grupo Argos",
+          2
+        ],
+        [
+          "Glencore",
+          2
+        ],
+        [
+          "Altos Hornos de México (AHMSA) - Grupo Acerero del Norte S.A. de C.V.",
+          2
+        ],
+        [
+          "Yacimientos Carboníferos Río Turbio (YCRT)",
+          1
+        ],
+        [
+          "Ultramar Group",
+          1
+        ],
+        [
+          "San Luis Coal S.A.",
+          1
+        ],
+        [
+          "Ocimin [Obras Civiles y Mineras S.A.C.]",
+          1
+        ],
+        [
+          "Mineria y Energia del Noreste",
+          1
+        ],
+        [
+          "Grupo Corporativo Vatia S.A.S [Vatia]",
+          1
+        ],
+        [
+          "Government of Venezuela; Carbones Guri Guri",
+          1
+        ],
+        [
+          "Corporación Venezolana de Minería",
+          1
+        ],
+        [
+          "Carbonifera De San Patricio",
+          1
+        ],
+        [
+          "Carbones del Guasare (CDG)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Company HQs",
+      "code_friendly_name_guess": "company_hqs",
+      "n_total": 999,
+      "n_null": 966,
+      "n_non_null": 33,
+      "null_rate": 0.967,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "Brazil",
+          8
+        ],
+        [
+          "Colombia",
+          6
+        ],
+        [
+          "Mexico",
+          5
+        ],
+        [
+          "Venezuela",
+          3
+        ],
+        [
+          "United States",
+          3
+        ],
+        [
+          "Turkey",
+          3
+        ],
+        [
+          "Switzerland",
+          2
+        ],
+        [
+          "Peru",
+          1
+        ],
+        [
+          "Canada",
+          1
+        ],
+        [
+          "Argentina",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (Mtpa)",
+      "code_friendly_name_guess": "capacity_mtpa",
+      "n_total": 999,
+      "n_null": 952,
+      "n_non_null": 47,
+      "null_rate": 0.953,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "*",
+          20
+        ],
+        [
+          "0.6",
+          4
+        ],
+        [
+          "0.9",
+          2
+        ],
+        [
+          "0.548",
+          2
+        ],
+        [
+          "0.5",
+          2
+        ],
+        [
+          "-",
+          2
+        ],
+        [
+          "8.0",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "5.6",
+          1
+        ],
+        [
+          "5.0",
+          1
+        ],
+        [
+          "4.8",
+          1
+        ],
+        [
+          "2.6",
+          1
+        ],
+        [
+          "2.1",
+          1
+        ],
+        [
+          "1.2",
+          1
+        ],
+        [
+          "0.584",
+          1
+        ],
+        [
+          "0.365",
+          1
+        ],
+        [
+          "0.36",
+          1
+        ],
+        [
+          "0.35",
+          1
+        ],
+        [
+          "0.189",
+          1
+        ],
+        [
+          "0.09",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Production (Mtpa)",
+      "code_friendly_name_guess": "production_mtpa",
+      "n_total": 999,
+      "n_null": 960,
+      "n_non_null": 39,
+      "null_rate": 0.961,
+      "n_unique": 25,
+      "top_values": [
+        [
+          "*",
+          13
+        ],
+        [
+          "1.08",
+          2
+        ],
+        [
+          "0.04",
+          2
+        ],
+        [
+          "7.0",
+          1
+        ],
+        [
+          "6.12",
+          1
+        ],
+        [
+          "5.75",
+          1
+        ],
+        [
+          "20.4",
+          1
+        ],
+        [
+          "2.62",
+          1
+        ],
+        [
+          "2.3",
+          1
+        ],
+        [
+          "2.01",
+          1
+        ],
+        [
+          "19.1",
+          1
+        ],
+        [
+          "11.0",
+          1
+        ],
+        [
+          "1.9",
+          1
+        ],
+        [
+          "1.6",
+          1
+        ],
+        [
+          "1.46",
+          1
+        ],
+        [
+          "1.43",
+          1
+        ],
+        [
+          "1.3",
+          1
+        ],
+        [
+          "1.02",
+          1
+        ],
+        [
+          "0.85",
+          1
+        ],
+        [
+          "0.4",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Year of Production",
+      "code_friendly_name_guess": "year_of_production",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "2022.0",
+          7
+        ],
+        [
+          "2021.0",
+          6
+        ],
+        [
+          "2023.0",
+          5
+        ],
+        [
+          "2019.0",
+          3
+        ],
+        [
+          "2024.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ],
+        [
+          "2015.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Output (Annual, Mst)",
+      "code_friendly_name_guess": "coal_output_annual_mst",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Type",
+      "code_friendly_name_guess": "mine_type",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "Surface",
+          28
+        ],
+        [
+          "Underground",
+          17
+        ],
+        [
+          "Underground & Surface",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Mining Method",
+      "code_friendly_name_guess": "mining_method",
+      "n_total": 999,
+      "n_null": 969,
+      "n_non_null": 30,
+      "null_rate": 0.97,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Open Pit",
+          24
+        ],
+        [
+          "Mixed",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Size (Km2)",
+      "code_friendly_name_guess": "mine_size_km2",
+      "n_total": 999,
+      "n_null": 972,
+      "n_non_null": 27,
+      "null_rate": 0.973,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "-",
+          23
+        ],
+        [
+          "699.0",
+          1
+        ],
+        [
+          "65.6",
+          1
+        ],
+        [
+          "315.59",
+          1
+        ],
+        [
+          "163.97",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Depth (m)",
+      "code_friendly_name_guess": "mine_depth_m",
+      "n_total": 999,
+      "n_null": 955,
+      "n_non_null": 44,
+      "null_rate": 0.956,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "50.0",
+          17
+        ],
+        [
+          "494.0",
+          13
+        ],
+        [
+          "60.0",
+          11
+        ],
+        [
+          "170.0",
+          1
+        ],
+        [
+          "150.0",
+          1
+        ],
+        [
+          "1000.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Depth Accuracy",
+      "code_friendly_name_guess": "depth_accuracy",
+      "n_total": 999,
+      "n_null": 949,
+      "n_non_null": 50,
+      "null_rate": 0.9499,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Estimate",
+          46
+        ],
+        [
+          "Exact",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Workforce Size",
+      "code_friendly_name_guess": "workforce_size",
+      "n_total": 999,
+      "n_null": 959,
+      "n_non_null": 40,
+      "null_rate": 0.96,
+      "n_unique": 37,
+      "top_values": [
+        [
+          "50.0",
+          2
+        ],
+        [
+          "300.0",
+          2
+        ],
+        [
+          "200.0",
+          2
+        ],
+        [
+          "98.0",
+          1
+        ],
+        [
+          "85.0",
+          1
+        ],
+        [
+          "5373.0",
+          1
+        ],
+        [
+          "527.0",
+          1
+        ],
+        [
+          "52.0",
+          1
+        ],
+        [
+          "48.0",
+          1
+        ],
+        [
+          "458.0",
+          1
+        ],
+        [
+          "457.0",
+          1
+        ],
+        [
+          "430.0",
+          1
+        ],
+        [
+          "40.0",
+          1
+        ],
+        [
+          "394.0",
+          1
+        ],
+        [
+          "39.0",
+          1
+        ],
+        [
+          "366.0",
+          1
+        ],
+        [
+          "3500.0",
+          1
+        ],
+        [
+          "3452.0",
+          1
+        ],
+        [
+          "296.0",
+          1
+        ],
+        [
+          "287.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Workforce Accuracy",
+      "code_friendly_name_guess": "workforce_accuracy",
+      "n_total": 999,
+      "n_null": 959,
+      "n_non_null": 40,
+      "null_rate": 0.96,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          24
+        ],
+        [
+          "Estimate",
+          16
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Type",
+      "code_friendly_name_guess": "coal_type",
+      "n_total": 999,
+      "n_null": 955,
+      "n_non_null": 44,
+      "null_rate": 0.956,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Bituminous",
+          26
+        ],
+        [
+          "Subbituminous",
+          18
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Grade",
+      "code_friendly_name_guess": "coal_grade",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Thermal",
+          33
+        ],
+        [
+          "Met",
+          9
+        ],
+        [
+          "Thermal & Met",
+          6
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Percentage of Met Coal",
+      "code_friendly_name_guess": "percentage_of_met_coal",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "50%",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Percentage of Thermal Coal",
+      "code_friendly_name_guess": "percentage_of_thermal_coal",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "50%",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Accuracy Rating",
+      "code_friendly_name_guess": "accuracy_rating",
+      "n_total": 999,
+      "n_null": 997,
+      "n_non_null": 2,
+      "null_rate": 0.998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Estimated",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reported Year of Percentage Split",
+      "code_friendly_name_guess": "reported_year_of_percentage_split",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Total Reserves (Proven and Probable, Mt)",
+      "code_friendly_name_guess": "total_reserves_proven_and_probable_mt",
+      "n_total": 999,
+      "n_null": 963,
+      "n_non_null": 36,
+      "null_rate": 0.964,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "-",
+          18
+        ],
+        [
+          "450.0",
+          2
+        ],
+        [
+          "8.96",
+          1
+        ],
+        [
+          "78.0",
+          1
+        ],
+        [
+          "561.0",
+          1
+        ],
+        [
+          "310.0",
+          1
+        ],
+        [
+          "283.0",
+          1
+        ],
+        [
+          "25.0",
+          1
+        ],
+        [
+          "22.5",
+          1
+        ],
+        [
+          "1763.0",
+          1
+        ],
+        [
+          "175.0",
+          1
+        ],
+        [
+          "166.0",
+          1
+        ],
+        [
+          "121.0",
+          1
+        ],
+        [
+          "12.48",
+          1
+        ],
+        [
+          "12.0",
+          1
+        ],
+        [
+          "11.0",
+          1
+        ],
+        [
+          "1.08",
+          1
+        ],
+        [
+          "0.26",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Year of Total Reserves Recorded",
+      "code_friendly_name_guess": "year_of_total_reserves_recorded",
+      "n_total": 999,
+      "n_null": 991,
+      "n_non_null": 8,
+      "null_rate": 0.992,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2022.0",
+          5
+        ],
+        [
+          "2021.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Total Resource (Inferred, Indicated, Measured)",
+      "code_friendly_name_guess": "total_resource_inferred_indicated_measured",
+      "n_total": 999,
+      "n_null": 963,
+      "n_non_null": 36,
+      "null_rate": 0.964,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "-",
+          18
+        ],
+        [
+          "26.0",
+          2
+        ],
+        [
+          "1.0",
+          2
+        ],
+        [
+          "632.0",
+          1
+        ],
+        [
+          "5354.0",
+          1
+        ],
+        [
+          "5150.0",
+          1
+        ],
+        [
+          "51.0",
+          1
+        ],
+        [
+          "46.0",
+          1
+        ],
+        [
+          "43.0",
+          1
+        ],
+        [
+          "405.0",
+          1
+        ],
+        [
+          "28.0",
+          1
+        ],
+        [
+          "25.0",
+          1
+        ],
+        [
+          "19.0",
+          1
+        ],
+        [
+          "12.0",
+          1
+        ],
+        [
+          "118.0",
+          1
+        ],
+        [
+          "114.0",
+          1
+        ],
+        [
+          "102.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reserve to Production Ratio (R/P)",
+      "code_friendly_name_guess": "reserve_to_production_ratio_r_p",
+      "n_total": 999,
+      "n_null": 970,
+      "n_non_null": 29,
+      "null_rate": 0.971,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "-",
+          18
+        ],
+        [
+          "86.0",
+          2
+        ],
+        [
+          "98.0",
+          1
+        ],
+        [
+          "85.0",
+          1
+        ],
+        [
+          "529.0",
+          1
+        ],
+        [
+          "37.0",
+          1
+        ],
+        [
+          "36.0",
+          1
+        ],
+        [
+          "33.0",
+          1
+        ],
+        [
+          "237.0",
+          1
+        ],
+        [
+          "16.0",
+          1
+        ],
+        [
+          "13.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Opening Year",
+      "code_friendly_name_guess": "opening_year",
+      "n_total": 999,
+      "n_null": 968,
+      "n_non_null": 31,
+      "null_rate": 0.969,
+      "n_unique": 22,
+      "top_values": [
+        [
+          "TBD",
+          6
+        ],
+        [
+          "2004.0",
+          4
+        ],
+        [
+          "1985.0",
+          2
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2020.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2017.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2008.0",
+          1
+        ],
+        [
+          "2005.0",
+          1
+        ],
+        [
+          "1995.0",
+          1
+        ],
+        [
+          "1987.0",
+          1
+        ],
+        [
+          "1982.0",
+          1
+        ],
+        [
+          "1950.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.8065,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Closing Year",
+      "code_friendly_name_guess": "closing_year",
+      "n_total": 999,
+      "n_null": 995,
+      "n_non_null": 4,
+      "null_rate": 0.996,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2021.0",
+          2
+        ],
+        [
+          "2020.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reported Life of Mine",
+      "code_friendly_name_guess": "reported_life_of_mine",
+      "n_total": 999,
+      "n_null": 958,
+      "n_non_null": 41,
+      "null_rate": 0.959,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "-",
+          15
+        ],
+        [
+          "15.0",
+          4
+        ],
+        [
+          "14.0",
+          4
+        ],
+        [
+          "30.0",
+          3
+        ],
+        [
+          "16.0",
+          2
+        ],
+        [
+          "9.0",
+          1
+        ],
+        [
+          "8.0",
+          1
+        ],
+        [
+          "7.0",
+          1
+        ],
+        [
+          "50.0",
+          1
+        ],
+        [
+          "28.0",
+          1
+        ],
+        [
+          "27.0",
+          1
+        ],
+        [
+          "22.0",
+          1
+        ],
+        [
+          "20.0",
+          1
+        ],
+        [
+          "19.0",
+          1
+        ],
+        [
+          "17.0",
+          1
+        ],
+        [
+          "13.0",
+          1
+        ],
+        [
+          "12.0",
+          1
+        ],
+        [
+          "11.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reported Year of Mine Life",
+      "code_friendly_name_guess": "reported_year_of_mine_life",
+      "n_total": 999,
+      "n_null": 982,
+      "n_non_null": 17,
+      "null_rate": 0.983,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "2021.0",
+          10
+        ],
+        [
+          "2022.0",
+          7
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coalfield",
+      "code_friendly_name_guess": "coalfield",
+      "n_total": 999,
+      "n_null": 992,
+      "n_non_null": 7,
+      "null_rate": 0.993,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Cesar-Ranchería Basin",
+          2
+        ],
+        [
+          "Cesar Coal Basin",
+          2
+        ],
+        [
+          "Río Turbio",
+          1
+        ],
+        [
+          "Guasare",
+          1
+        ],
+        [
+          "Charqueadas",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location",
+      "code_friendly_name_guess": "location",
+      "n_total": 999,
+      "n_null": 951,
+      "n_non_null": 48,
+      "null_rate": 0.952,
+      "n_unique": 40,
+      "top_values": [
+        [
+          "Puerto Libertador",
+          3
+        ],
+        [
+          "El Paso",
+          3
+        ],
+        [
+          "La Jagua de Ibírico",
+          2
+        ],
+        [
+          "La Jagua de Ibirico",
+          2
+        ],
+        [
+          "El Carmen de Chucurí",
+          2
+        ],
+        [
+          "Candiota",
+          2
+        ],
+        [
+          "Toledo",
+          1
+        ],
+        [
+          "Socha",
+          1
+        ],
+        [
+          "Sativasur",
+          1
+        ],
+        [
+          "San Juan del Cesar",
+          1
+        ],
+        [
+          "Sabinas",
+          1
+        ],
+        [
+          "Rondón",
+          1
+        ],
+        [
+          "Rio Verde",
+          1
+        ],
+        [
+          "Rafael Urdaneta",
+          1
+        ],
+        [
+          "Paso Diablo",
+          1
+        ],
+        [
+          "Papayal",
+          1
+        ],
+        [
+          "Oyón",
+          1
+        ],
+        [
+          "Nueva Rosita",
+          1
+        ],
+        [
+          "Nava",
+          1
+        ],
+        [
+          "Múzquiz",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Prefecture, District",
+      "code_friendly_name_guess": "prefecture_district",
+      "n_total": 999,
+      "n_null": 994,
+      "n_non_null": 5,
+      "null_rate": 0.995,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Sabinas",
+          1
+        ],
+        [
+          "Río Turbio",
+          1
+        ],
+        [
+          "Riesco Island",
+          1
+        ],
+        [
+          "Forquilhinha",
+          1
+        ],
+        [
+          "Cesar",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State, Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "Cesar",
+          11
+        ],
+        [
+          "Rio Grande do Sul",
+          6
+        ],
+        [
+          "Coahuila",
+          6
+        ],
+        [
+          "La Guajira",
+          5
+        ],
+        [
+          "Santander",
+          4
+        ],
+        [
+          "Córdoba",
+          3
+        ],
+        [
+          "Boyacá",
+          3
+        ],
+        [
+          "Santa Catarina",
+          2
+        ],
+        [
+          "Norte de Santander",
+          2
+        ],
+        [
+          "Cundinamarca",
+          2
+        ],
+        [
+          "Zulia",
+          1
+        ],
+        [
+          "Santa Cruz",
+          1
+        ],
+        [
+          "Magallanes",
+          1
+        ],
+        [
+          "Lima",
+          1
+        ],
+        [
+          "Cordoba",
+          1
+        ],
+        [
+          "Aragua",
+          1
+        ],
+        [
+          "Anzoátegui",
+          1
+        ],
+        [
+          "Antioquia",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          52
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          52
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 51,
+      "top_values": [
+        [
+          "7.882676",
+          2
+        ],
+        [
+          "9.7050912",
+          1
+        ],
+        [
+          "9.70122664",
+          1
+        ],
+        [
+          "9.652258",
+          1
+        ],
+        [
+          "9.65021801",
+          1
+        ],
+        [
+          "9.643868",
+          1
+        ],
+        [
+          "9.629849",
+          1
+        ],
+        [
+          "9.575297",
+          1
+        ],
+        [
+          "9.57506711",
+          1
+        ],
+        [
+          "9.57381151",
+          1
+        ],
+        [
+          "9.518954",
+          1
+        ],
+        [
+          "9.496821",
+          1
+        ],
+        [
+          "9.27165578",
+          1
+        ],
+        [
+          "7.97365216",
+          1
+        ],
+        [
+          "7.96914095",
+          1
+        ],
+        [
+          "7.90543811",
+          1
+        ],
+        [
+          "7.32106475",
+          1
+        ],
+        [
+          "6.71603597",
+          1
+        ],
+        [
+          "6.69674",
+          1
+        ],
+        [
+          "6.22910989",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 51,
+      "top_values": [
+        [
+          "-75.699816",
+          2
+        ],
+        [
+          "-76.72691979",
+          1
+        ],
+        [
+          "-75.6932",
+          1
+        ],
+        [
+          "-75.66710285",
+          1
+        ],
+        [
+          "-75.40111188",
+          1
+        ],
+        [
+          "-74.48739858",
+          1
+        ],
+        [
+          "-73.81766745",
+          1
+        ],
+        [
+          "-73.80708248",
+          1
+        ],
+        [
+          "-73.76964899",
+          1
+        ],
+        [
+          "-73.70392379",
+          1
+        ],
+        [
+          "-73.57893771",
+          1
+        ],
+        [
+          "-73.56112297",
+          1
+        ],
+        [
+          "-73.560634",
+          1
+        ],
+        [
+          "-73.534805",
+          1
+        ],
+        [
+          "-73.5231884",
+          1
+        ],
+        [
+          "-73.516186",
+          1
+        ],
+        [
+          "-73.49205",
+          1
+        ],
+        [
+          "-73.484914",
+          1
+        ],
+        [
+          "-73.480045",
+          1
+        ],
+        [
+          "-73.47650699",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 947,
+      "n_non_null": 52,
+      "null_rate": 0.9479,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Exact",
+          29
+        ],
+        [
+          "Approximate",
+          23
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Primary Consumer, Destination",
+      "code_friendly_name_guess": "primary_consumer_destination",
+      "n_total": 999,
+      "n_null": 987,
+      "n_non_null": 12,
+      "null_rate": 0.988,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "Terminal (Export)",
+          6
+        ],
+        [
+          "Other Industrial",
+          3
+        ],
+        [
+          "Coal Plant",
+          2
+        ],
+        [
+          "Steel Plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Plant, Steel Plant, Terminal",
+      "code_friendly_name_guess": "coal_plant_steel_plant_terminal",
+      "n_total": 999,
+      "n_null": 988,
+      "n_non_null": 11,
+      "null_rate": 0.989,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "Puerto Drummond coal port",
+          2
+        ],
+        [
+          "Nueva Rosita Coking Plant",
+          2
+        ],
+        [
+          "Santa Cruz de Mara export terminal",
+          1
+        ],
+        [
+          "Puerto Nuevo coal terminal",
+          1
+        ],
+        [
+          "Puerto Bolivar coal export terminal",
+          1
+        ],
+        [
+          "Pampa Sul/Miroel Wolowski thermoelectric plant",
+          1
+        ],
+        [
+          "José López Portillo power station",
+          1
+        ],
+        [
+          "Andino Cement Company, Tarma",
+          1
+        ],
+        [
+          "Altos Hornos de México (AHMSA) steel plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Coal Plant, Steel Plant, Terminal GEM Wiki",
+      "code_friendly_name_guess": "coal_plant_steel_plant_terminal_gem_wiki",
+      "n_total": 999,
+      "n_null": 992,
+      "n_non_null": 7,
+      "null_rate": 0.993,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Puerto_Drummond_coal_port",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Santa_Cruz_de_Mara_export_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Nuevo_coal_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Puerto_Bolivar_coal_export_terminal",
+          1
+        ],
+        [
+          "https://www.gem.wiki/José_López_Portillo_power_station",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Altos_Hornos_de_México_(AHMSA)_steel_plant",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Gas-level Rating",
+      "code_friendly_name_guess": "gas_level_rating",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Gas-level Rating Appraisal Year",
+      "code_friendly_name_guess": "gas_level_rating_appraisal_year",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reported Coal Mine Methane Emissions (thousand tonnes per year)",
+      "code_friendly_name_guess": "reported_coal_mine_methane_emissions_thousand_tonnes_per_year",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Year of Reported Coal Mine Methane Emissions",
+      "code_friendly_name_guess": "year_of_reported_coal_mine_methane_emissions",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Source ID",
+      "code_friendly_name_guess": "source_id",
+      "n_total": 999,
+      "n_null": 999,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Has associated plume data",
+      "code_friendly_name_guess": "has_associated_plume_data",
+      "n_total": 999,
+      "n_null": 995,
+      "n_non_null": 4,
+      "null_rate": 0.996,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Yes",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Has associated CMM mitigation data",
+      "code_friendly_name_guess": "has_associated_cmm_mitigation_data",
+      "n_total": 999,
+      "n_null": 998,
+      "n_non_null": 1,
+      "null_rate": 0.999,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Yes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Coal Mine Methane Emissions Estimate (MCM/yr)",
+      "code_friendly_name_guess": "gem_coal_mine_methane_emissions_estimate_mcm_yr",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 33,
+      "top_values": [
+        [
+          "-",
+          11
+        ],
+        [
+          "1.3",
+          2
+        ],
+        [
+          "1.1",
+          2
+        ],
+        [
+          "0.3",
+          2
+        ],
+        [
+          "9.4",
+          1
+        ],
+        [
+          "8.0",
+          1
+        ],
+        [
+          "7.2",
+          1
+        ],
+        [
+          "6.7",
+          1
+        ],
+        [
+          "6.1",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "42.0",
+          1
+        ],
+        [
+          "4.7",
+          1
+        ],
+        [
+          "30.2",
+          1
+        ],
+        [
+          "3.4",
+          1
+        ],
+        [
+          "25.2",
+          1
+        ],
+        [
+          "24.8",
+          1
+        ],
+        [
+          "2.3",
+          1
+        ],
+        [
+          "2.1",
+          1
+        ],
+        [
+          "2.0",
+          1
+        ],
+        [
+          "16.2",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "GEM Coal Mine Methane Emissions Estimate (M tonnes/yr)",
+      "code_friendly_name_guess": "gem_coal_mine_methane_emissions_estimate_m_tonnes_yr",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "0.0",
+          21
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "0.01",
+          7
+        ],
+        [
+          "0.02",
+          3
+        ],
+        [
+          "0.07",
+          2
+        ],
+        [
+          "0.08",
+          1
+        ],
+        [
+          "0.03",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Methane Gas Content (m^3/tonne) (Updated)",
+      "code_friendly_name_guess": "methane_gas_content_m_3_tonne_updated",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "0.8",
+          13
+        ],
+        [
+          "3.5",
+          10
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          "13.7",
+          7
+        ],
+        [
+          "4.5",
+          4
+        ],
+        [
+          "7.7",
+          1
+        ],
+        [
+          "7.1",
+          1
+        ],
+        [
+          "3.0",
+          1
+        ],
+        [
+          "17.3",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Methane Emissions Factor (Updated)",
+      "code_friendly_name_guess": "methane_emissions_factor_updated",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "1.5",
+          23
+        ],
+        [
+          "1.6",
+          20
+        ],
+        [
+          "-",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CMM Emissions (CO2e 20 years)",
+      "code_friendly_name_guess": "cmm_emissions_co2e_20_years",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "0.1",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "0.0",
+          6
+        ],
+        [
+          "0.4",
+          3
+        ],
+        [
+          "0.3",
+          3
+        ],
+        [
+          "1.4",
+          2
+        ],
+        [
+          "6.8",
+          1
+        ],
+        [
+          "5.9",
+          1
+        ],
+        [
+          "5.5",
+          1
+        ],
+        [
+          "2.3",
+          1
+        ],
+        [
+          "1.7",
+          1
+        ],
+        [
+          "0.9",
+          1
+        ],
+        [
+          "0.8",
+          1
+        ],
+        [
+          "0.7",
+          1
+        ],
+        [
+          "0.5",
+          1
+        ],
+        [
+          "0.2",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "CMM Emissions (CO2e 100 years)",
+      "code_friendly_name_guess": "cmm_emissions_co2e_100_years",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 11,
+      "top_values": [
+        [
+          "0.0",
+          17
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "0.1",
+          6
+        ],
+        [
+          "0.3",
+          3
+        ],
+        [
+          "0.5",
+          2
+        ],
+        [
+          "0.2",
+          2
+        ],
+        [
+          "2.5",
+          1
+        ],
+        [
+          "2.1",
+          1
+        ],
+        [
+          "2.0",
+          1
+        ],
+        [
+          "0.8",
+          1
+        ],
+        [
+          "0.6",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "ISO Code",
+      "code_friendly_name_guess": "iso_code",
+      "n_total": 999,
+      "n_null": 953,
+      "n_non_null": 46,
+      "null_rate": 0.954,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "170.0",
+          30
+        ],
+        [
+          "76.0",
+          8
+        ],
+        [
+          "862.0",
+          3
+        ],
+        [
+          "484.0",
+          3
+        ],
+        [
+          "604.0",
+          1
+        ],
+        [
+          "32.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Size (Km2)_2",
+      "code_friendly_name_guess": "mine_size_km2_2",
+      "n_total": 999,
+      "n_null": 995,
+      "n_non_null": 4,
+      "null_rate": 0.996,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "6.1",
+          1
+        ],
+        [
+          "14.86",
+          1
+        ],
+        [
+          "10.92",
+          1
+        ],
+        [
+          "1.35",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Depth (m)_2",
+      "code_friendly_name_guess": "mine_depth_m_2",
+      "n_total": 999,
+      "n_null": 993,
+      "n_non_null": 6,
+      "null_rate": 0.994,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "60.0",
+          5
+        ],
+        [
+          "50.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Reason for Closure",
+      "code_friendly_name_guess": "reason_for_closure",
+      "n_total": 999,
+      "n_null": 996,
+      "n_non_null": 3,
+      "null_rate": 0.997,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "Economically unviable",
+          2
+        ],
+        [
+          "Government order",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Mine Site Status",
+      "code_friendly_name_guess": "mine_site_status",
+      "n_total": 999,
+      "n_null": 996,
+      "n_non_null": 3,
+      "null_rate": 0.997,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Rehabilitation",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

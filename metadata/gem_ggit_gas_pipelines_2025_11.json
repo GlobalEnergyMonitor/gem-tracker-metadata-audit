@@ -1,0 +1,398 @@
+{
+  "source_file": "GEM-GGIT-Gas-Pipelines-2025-11.xlsx",
+  "tracker_slug": "gem_ggit_gas_pipelines_2025_11",
+  "header_info": {
+    "title": null,
+    "citation": null,
+    "contact": null,
+    "license": null
+  },
+  "data_tabs": {
+    "pipelines": "Pipelines"
+  },
+  "metadata_tabs": {
+    "data_dictionary": "Data dictionary",
+    "acronyms": "Acronyms",
+    "copyright": "Copyright"
+  },
+  "sections": [
+    {
+      "section_name": "Field Definitions",
+      "section_type": "flat",
+      "tab_key": "pipelines",
+      "entries": [
+        {
+          "name": "PipelineName",
+          "definition": "Name of the pipeline (or pipeline system, when it has multiple pieces, phases, segments, or expansions)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "SegmentName",
+          "definition": "Name of the pipeline segment (which can be a segment of a bigger pipeline system/network, or an expansion project)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Wiki",
+          "definition": "Link to project's GEM.wiki page",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ProjectID",
+          "definition": "A unique ID for each project (all the phases, segments, expansions, etc. belonging to the same overall pipeline do not necesssarily share a ProjectID, but they should share the same PipelineName)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Status",
+          "definition": "Operating, Proposed, Retired, Construction, Shelved, Cancelled, Idle, or Mothballed\n\nIf there have been no development updates in the two years following the project's proposal, then the status is assumed to be \"Shelved\". If there have been no development updates in the 4 years following the project's proposal or longer, the status is assumed to be \"Cancelled\". If Shelved, Cancelled, or Retired, these are associated with ShelvedYear, CancelledYear, and StopYear",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LastUpdated",
+          "definition": "Date this was last checked/updated (filled in by Researcher)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Fuel",
+          "definition": "Gas, Hydrogen, or Gas and Hydrogen (for projects that are billed as H2 pipelines but will first transport gas...)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "OtherEnglishNames",
+          "definition": "Alternate pipeline names in English, if applicable; if there are multiple, separate by a semicolon (;)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "OtherLanguagePrimaryPipelineName",
+          "definition": "Primary name in other relevant search language.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "OtherLanguageSegmentName",
+          "definition": "Pipeline segment/expansion name in other relevant search languages.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CountriesOrAreas",
+          "definition": "Countries that the pipeline passes through, in order from beginning to end (where possible); note Hong Kong and Macao are recognized as sovereign states here",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Owner",
+          "definition": "Auto-filled: immediate owner name(s), percent ownership if available; here \"owner\" means lowest/most immediate level of ownership that we're able to find in our research.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ParentEntityIDs",
+          "definition": "Parent company entity IDs in the GEM Ownership Tracker.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Parent",
+          "definition": "Parent company name(s), percent ownership if available; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartYear1",
+          "definition": "First year operations initiated, or expected to initiate",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartYear2",
+          "definition": "Year operations initiated for first expansion project, or expected to initiate, if expansion not listed as separate observation",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartYear3",
+          "definition": "Year operations initiated for second expansion project, or expected to initiate, if expansion not listed as separate observation",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ShelvedYear",
+          "definition": "If Status=Shelved, the year this became true",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CancelledYear",
+          "definition": "If Status=Cancelled, the year this became true",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StopYear",
+          "definition": "Year operations ended (if Status=\"Mothballed\", Status=\"Idle\", or Status=\"Retired\") or the year the project was cancelled (if Status=\"Cancelled\"). If Status=\"Cancelled\" due to 4-year rule* (as opposed to a formal cancellation), then StopYear=\"presumed\"",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Capacity",
+          "definition": "Maximum potential capacity",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CapacityUnits",
+          "definition": "Units that \"Capacity\" is reported in (bpd, bcm/year, mtpa, MMcf/d, or TJ/d)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CapacityBcm/y",
+          "definition": "Capacity converted to billion cubic meters (bcm) per year",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CapacityBOEd",
+          "definition": "Capacity converted to barrels of oil equivalent (BOE) per day",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LengthKnownKm",
+          "definition": "Publicly available length, converted to km",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LengthEstimateKm",
+          "definition": "Estimated length in km, calulated using route coordinates with Geopandas Python package and taken from \"Length Estimates by Pipeline\" tab)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "LengthMergedKm",
+          "definition": "Merge between LengthKnownKm and LengthEstimateKm (LengthKnownKm is priotized when available; otherwise LengthEstimateKm is used).",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "Diameter",
+          "definition": "Pipeline's diameter (without units); when multiple values are reported, they are separated by a comma",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "DiameterUnits",
+          "definition": "Pipeline's diameter units",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FuelSource",
+          "definition": "Name of oil or gas field, or pipeline, the fuel is sourced from",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartLocation",
+          "definition": "Town, city, or village the pipeline starts in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartPrefecture/District",
+          "definition": "Prefecture or district the pipeline starts in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartState/Province",
+          "definition": "State or province pipeline starts in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartCountryOrArea",
+          "definition": "Country the pipeline starts in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartRegion",
+          "definition": "Pipeline's start region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "StartSubRegion",
+          "definition": "Pipeline's start subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndLocation",
+          "definition": "Town, city, or village the pipeline ends in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndPrefecture/District",
+          "definition": "Prefecture or district the pipeline ends in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndState/Province",
+          "definition": "State or province the pipeline ends in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndCountryOrArea",
+          "definition": "Country the pipeline ends in",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndRegion",
+          "definition": "Pipeline's end region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "EndSubRegion",
+          "definition": "Pipeline's end subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ProjectLevelCost",
+          "definition": "Cost of the project (either estimated or actual)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "ProjectLevelCostUnits",
+          "definition": "Cost units/currency 3-letter code name (USD, EUR, etc.)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "CostUSD",
+          "definition": "Cost of construction converted to USD",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FIDStatus",
+          "definition": "Has the project received its Final Investment Decision (FID) yet? (if Status=\"Proposed\" then option: \"Pre-FID\"/\"FID\", if Status is anything other than \"Proposed\", then leave blank)",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "FIDYear",
+          "definition": "If Pre-FID status, then enter the year FID is expected; if FID already made, then enter year of decision.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "PCI3",
+          "definition": "\"yes\" if project is on the EU's 3rd PCI list",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "PCI4",
+          "definition": "\"yes\" if project is on the EU's 4th PCI list",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "PCI5",
+          "definition": "\"yes\" if project is on the EU's 5th PCI list",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "PCI6",
+          "definition": "\"yes\" if project is on the EU's 6th PCI list",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "RouteAccuracy",
+          "definition": "low: basic point A to point B connection\nmedium: route is not a straight line, but hasn't been traced\nhigh: route has been digitally traced in GIS software or the shapefile has been obtained from a reliable source\nno route: we don't have a route for it, either because it's unavailabe/unknown or is a capacity/directionality expansion",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        },
+        {
+          "name": "RouteType",
+          "definition": "Type of route (whether it's mapped, unmapped but could be, etc.). If \"Included in other ProjectID\", this row's route is included in another project in the tracker, and the length of it is not included in overall totals.",
+          "notes": null,
+          "entry_type": "field",
+          "parent_field": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2253 @@
+{
+  "table_name": "global_oil_and_gas_extraction_tracker_march_2026__project_level_main_data",
+  "tracker_slug": "global_oil_and_gas_extraction_tracker_march_2026",
+  "tab_slug": "project_level_main_data",
+  "n_rows": 999,
+  "analyzed_at": "2026-07-07T21:45:18.967310+00:00",
+  "tracker_info": {
+    "title": "Global Oil and Gas Extraction Tracker - March 2026",
+    "citation": null,
+    "contact": "Contact: Scott Zimmerman, Global Oil and Gas Extraction Tracker Project Manager, Global Energy Monitor - scott.zimmerman@globalenergymonitor.org",
+    "license": "Copyright © Global Energy Monitor. Global Oil and Gas Extraction Tracker, 2026 release. Distributed under a Creative Commons Attribution 4.0 International License."
+  },
+  "fields": [
+    {
+      "field_name": "Project ID",
+      "code_friendly_name_guess": "project_id",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 359,
+      "top_values": [
+        [
+          "L100001080895",
+          1
+        ],
+        [
+          "L100001080894",
+          1
+        ],
+        [
+          "L100001080422",
+          1
+        ],
+        [
+          "L100001080246",
+          1
+        ],
+        [
+          "L100001064342",
+          1
+        ],
+        [
+          "L100001064234",
+          1
+        ],
+        [
+          "L100001064130",
+          1
+        ],
+        [
+          "L100001064072",
+          1
+        ],
+        [
+          "L100001063693",
+          1
+        ],
+        [
+          "L100001063486",
+          1
+        ],
+        [
+          "L100001063412",
+          1
+        ],
+        [
+          "L100001062766",
+          1
+        ],
+        [
+          "L100001062749",
+          1
+        ],
+        [
+          "L100001062471",
+          1
+        ],
+        [
+          "L100001062462",
+          1
+        ],
+        [
+          "L100001062453",
+          1
+        ],
+        [
+          "L100001061729",
+          1
+        ],
+        [
+          "L100001061726",
+          1
+        ],
+        [
+          "L100001061661",
+          1
+        ],
+        [
+          "L100001056042",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Unique project ID number. Reformatted for this release.  Users can convert from the old format to the new by appending L1000003 to the right five digits from the old IDs.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 359,
+      "top_values": [
+        [
+          "Zhongyuan Oil Project (Henan, China)",
+          1
+        ],
+        [
+          "Zeagli-Darvaza Gas Project (Turkmenistan)",
+          1
+        ],
+        [
+          "Zawtika Gas Project (Myanmar)",
+          1
+        ],
+        [
+          "Zabazaba and Etan Oil and Gas Project (Nigeria)",
+          1
+        ],
+        [
+          "Yurubcheno-Tokhomskoye Oil and Gas Project (Krasnoyarsk Krai, Russia)",
+          1
+        ],
+        [
+          "Yumuri-Seboruco Oil Project (Matanzas, Cuba)",
+          1
+        ],
+        [
+          "Yibal Khuff Oil and Gas Project (Oman)",
+          1
+        ],
+        [
+          "Yggdrasil Oil and Gas Project (Norway)",
+          1
+        ],
+        [
+          "Yellowtail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Yazzi and Python Gas Project (Egypt)",
+          1
+        ],
+        [
+          "Yaran Joint Oil Project (Iran)",
+          1
+        ],
+        [
+          "Yakaar-Teranga Gas Project (Senegal)",
+          1
+        ],
+        [
+          "Xinjiang Oil and Gas Project (Xinjiang, China)",
+          1
+        ],
+        [
+          "Wushi 23-5 Oil Project (Guangdong, China)",
+          1
+        ],
+        [
+          "Who Dat (MC503) Oil and Gas Project (Federal offshore, United States)",
+          1
+        ],
+        [
+          "Whiptail Oil and Gas Project (Guyana)",
+          1
+        ],
+        [
+          "Wheatstone/Iago Gas Project (Western Australia, Australia)",
+          1
+        ],
+        [
+          "Western Surat Gas Project (Queensland, Australia)",
+          1
+        ],
+        [
+          "West White Rose Oil and Gas Project (Newfoundland & Labrador, Canada)",
+          1
+        ],
+        [
+          "West Nile Delta Oil and Gas Project (Egypt)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of the project as it is reported by sources, appended to fuel type and country/area information.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project local script",
+      "code_friendly_name_guess": "project_local_script",
+      "n_total": 999,
+      "n_null": 893,
+      "n_non_null": 106,
+      "null_rate": 0.8939,
+      "n_unique": 106,
+      "top_values": [
+        [
+          "青海",
+          1
+        ],
+        [
+          "陆丰油田群二期",
+          1
+        ],
+        [
+          "辽河",
+          1
+        ],
+        [
+          "苏里格",
+          1
+        ],
+        [
+          "胜利",
+          1
+        ],
+        [
+          "绥中36-1/旅大5-2二次调整",
+          1
+        ],
+        [
+          "渤中34-2/4综合调整",
+          1
+        ],
+        [
+          "渤中34-1综合调整",
+          1
+        ],
+        [
+          "渤中34-1",
+          1
+        ],
+        [
+          "渤中28-2南综合调整",
+          1
+        ],
+        [
+          "渤中28-2南二次调整",
+          1
+        ],
+        [
+          "渤中26-3扩建项目",
+          1
+        ],
+        [
+          "涩北",
+          1
+        ],
+        [
+          "涠洲12-2",
+          1
+        ],
+        [
+          "流花11-1/4-1二次开发",
+          1
+        ],
+        [
+          "歧口18-1",
+          1
+        ],
+        [
+          "曹妃甸11-1/11-6调整",
+          1
+        ],
+        [
+          "新疆",
+          1
+        ],
+        [
+          "文昌油田群",
+          1
+        ],
+        [
+          "恩平15-1",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel type",
+      "code_friendly_name_guess": "fuel_type",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "oil and gas",
+          187
+        ],
+        [
+          "oil",
+          93
+        ],
+        [
+          "gas",
+          74
+        ],
+        [
+          "gas and condensate",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "A determination of whether the project is a gas, oil, or oil and gas project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 61,
+      "top_values": [
+        [
+          "Australia",
+          30
+        ],
+        [
+          "China",
+          28
+        ],
+        [
+          "Russia",
+          25
+        ],
+        [
+          "Malaysia",
+          22
+        ],
+        [
+          "Canada",
+          21
+        ],
+        [
+          "Indonesia",
+          20
+        ],
+        [
+          "Angola",
+          17
+        ],
+        [
+          "Nigeria",
+          16
+        ],
+        [
+          "Venezuela",
+          11
+        ],
+        [
+          "United States",
+          11
+        ],
+        [
+          "India",
+          11
+        ],
+        [
+          "Algeria",
+          11
+        ],
+        [
+          "Colombia",
+          10
+        ],
+        [
+          "Kazakhstan",
+          8
+        ],
+        [
+          "Trinidad and Tobago",
+          7
+        ],
+        [
+          "Egypt",
+          7
+        ],
+        [
+          "Oman",
+          6
+        ],
+        [
+          "United Arab Emirates",
+          5
+        ],
+        [
+          "Mozambique",
+          5
+        ],
+        [
+          "Iran",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The country/area that the project is in. If a project spans country borders, both countries are listed in the project name.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Subnational unit",
+      "code_friendly_name_guess": "subnational_unit",
+      "n_total": 999,
+      "n_null": 865,
+      "n_non_null": 134,
+      "null_rate": 0.8659,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "Alberta",
+          20
+        ],
+        [
+          "Western Australia",
+          16
+        ],
+        [
+          "Queensland",
+          9
+        ],
+        [
+          "Yamalo-Nenets Autonomous Okrug",
+          8
+        ],
+        [
+          "Bohai",
+          6
+        ],
+        [
+          "Alaska",
+          6
+        ],
+        [
+          "Khanty-Mansi Autonomous Okrug",
+          5
+        ],
+        [
+          "Shandong",
+          4
+        ],
+        [
+          "South China Sea",
+          3
+        ],
+        [
+          "Mumbai",
+          3
+        ],
+        [
+          "Meta",
+          3
+        ],
+        [
+          "Victoria",
+          2
+        ],
+        [
+          "Rio de Janeiro",
+          2
+        ],
+        [
+          "Rajasthan",
+          2
+        ],
+        [
+          "Qinghai",
+          2
+        ],
+        [
+          "Northern Territory",
+          2
+        ],
+        [
+          "Liaoning",
+          2
+        ],
+        [
+          "Guangdong",
+          2
+        ],
+        [
+          "Federal Offshore",
+          2
+        ],
+        [
+          "Casanare",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The subnational state that the project is in (province, state, etc.).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production Type",
+      "code_friendly_name_guess": "production_type",
+      "n_total": 999,
+      "n_null": 671,
+      "n_non_null": 328,
+      "null_rate": 0.6717,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "conventional",
+          286
+        ],
+        [
+          "unconventional",
+          34
+        ],
+        [
+          "mixed",
+          8
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Tag stating if production from a field uses conventional or unconventional methods.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 999,
+      "n_null": 647,
+      "n_non_null": 352,
+      "null_rate": 0.6476,
+      "n_unique": 4,
+      "top_values": [
+        [
+          "operating",
+          270
+        ],
+        [
+          "in-development",
+          39
+        ],
+        [
+          "discovered",
+          38
+        ],
+        [
+          "mothballed",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The status of development of a project, e.g., discovered, in development, operating, mothballed, decommissioned, abandoned, or UGS.",
+      "notes_from_readme": null,
+      "value_definitions": [
+        {
+          "name": "Discovered",
+          "definition": "A unit is typically considered to be discovered when there has been a well drilled into a particular formation, and it yielded some significant quantity of oil and/or gas. Discovered units are not necessarily economic to exploit."
+        },
+        {
+          "name": "In-development",
+          "definition": "Following discovery, the process of moving toward commercial production has begun. This means that a company is planning to develop the project, as evidenced by one or more of the following criteria being reached: the company has applied for approval for commercial production (if needed in the jurisdiction), the project has reached the Final Investment Decision (FID), a final environmental impact statement has been published, and/or the drilling of development (not appraisal) wells and/or adding takeaway capacity (infrastructure such as pipelines, storage tanks, etc.) to enable commercial production has begun."
+        },
+        {
+          "name": "Operating",
+          "definition": "The unit has commercial production of oil/gas (that is, quantities that are being sold to market)."
+        },
+        {
+          "name": "Abandoned",
+          "definition": "Operations have ceased, but the wells/unit were not decommissioned following all the usual steps, such as plugging the wells (including filling the well with cement)."
+        },
+        {
+          "name": "Mothballed",
+          "definition": "Operations temporarily shut down; may be restarted."
+        },
+        {
+          "name": "Decommissioning",
+          "definition": "Operations permanently ceased; infrastructure is typically removed."
+        },
+        {
+          "name": "UGS",
+          "definition": "Exhausted units may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS.”"
+        },
+        {
+          "name": "Exploration",
+          "definition": "An unproven concessionary block or region that potentially contains an undiscovered field is actively being explored for reserves."
+        },
+        {
+          "name": "Cancelled",
+          "definition": "A discovered or in-development field that did not reach commercial production. This is evidenced by a formal acknowledgment by a company involved that a project is not going forward."
+        },
+        {
+          "name": "Underground gas storage",
+          "definition": "Exhausted fields may be converted from producing to serving as underground gas storage (UGS) facilities; these are labeled as “UGS” or “UGS (converted).”"
+        }
+      ]
+    },
+    {
+      "field_name": "Status detail",
+      "code_friendly_name_guess": "status_detail",
+      "n_total": 999,
+      "n_null": 979,
+      "n_non_null": 20,
+      "null_rate": 0.98,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "ramp up",
+          9
+        ],
+        [
+          "actual",
+          6
+        ],
+        [
+          "decline",
+          2
+        ],
+        [
+          "advanced",
+          2
+        ],
+        [
+          "early",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Additional information on the status, see methodology for details.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status year",
+      "code_friendly_name_guess": "status_year",
+      "n_total": 999,
+      "n_null": 649,
+      "n_non_null": 350,
+      "null_rate": 0.6496,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "2024.0",
+          107
+        ],
+        [
+          "2025.0",
+          82
+        ],
+        [
+          "2023.0",
+          60
+        ],
+        [
+          "2020.0",
+          27
+        ],
+        [
+          "2021.0",
+          22
+        ],
+        [
+          "2022.0",
+          21
+        ],
+        [
+          "2019.0",
+          12
+        ],
+        [
+          "2018.0",
+          8
+        ],
+        [
+          "2015.0",
+          4
+        ],
+        [
+          "2017.0",
+          3
+        ],
+        [
+          "2013.0",
+          2
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The year of the source of the status information.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Discovery year",
+      "code_friendly_name_guess": "discovery_year",
+      "n_total": 999,
+      "n_null": 826,
+      "n_non_null": 173,
+      "null_rate": 0.8268,
+      "n_unique": 75,
+      "top_values": [
+        [
+          "2023.0",
+          7
+        ],
+        [
+          "1999.0",
+          7
+        ],
+        [
+          "2014.0",
+          5
+        ],
+        [
+          "2012.0",
+          5
+        ],
+        [
+          "2007.0",
+          5
+        ],
+        [
+          "2024.0",
+          4
+        ],
+        [
+          "2022.0",
+          4
+        ],
+        [
+          "2011.0",
+          4
+        ],
+        [
+          "2010.0",
+          4
+        ],
+        [
+          "2008.0",
+          4
+        ],
+        [
+          "2005.0",
+          4
+        ],
+        [
+          "1989.0",
+          4
+        ],
+        [
+          "1987.0",
+          4
+        ],
+        [
+          "1983.0",
+          4
+        ],
+        [
+          "1979.0",
+          4
+        ],
+        [
+          "1976.0",
+          4
+        ],
+        [
+          "2021.0",
+          3
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2018.0",
+          3
+        ],
+        [
+          "2006.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the project was discovered. If the project is made up of multiple fields, the earliest discovery year is listed here.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FID Year",
+      "code_friendly_name_guess": "fid_year",
+      "n_total": 999,
+      "n_null": 931,
+      "n_non_null": 68,
+      "null_rate": 0.9319,
+      "n_unique": 19,
+      "top_values": [
+        [
+          "2023.0",
+          11
+        ],
+        [
+          "2024.0",
+          9
+        ],
+        [
+          "2025.0",
+          6
+        ],
+        [
+          "2022.0",
+          6
+        ],
+        [
+          "2018.0",
+          6
+        ],
+        [
+          "2021.0",
+          5
+        ],
+        [
+          "2019.0",
+          5
+        ],
+        [
+          "2020.0",
+          4
+        ],
+        [
+          "2011.0",
+          4
+        ],
+        [
+          "2014.0",
+          2
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2009.0",
+          1
+        ],
+        [
+          "2008.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2004.0",
+          1
+        ],
+        [
+          "2003.0",
+          1
+        ],
+        [
+          "1997.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the project reach final investment decision. If the project is made up of multiple fields, the earliest FID year is listed here.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Production start year",
+      "code_friendly_name_guess": "production_start_year",
+      "n_total": 999,
+      "n_null": 843,
+      "n_non_null": 156,
+      "null_rate": 0.8438,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "2021.0",
+          9
+        ],
+        [
+          "2017.0",
+          8
+        ],
+        [
+          "2025.0",
+          7
+        ],
+        [
+          "2024.0",
+          7
+        ],
+        [
+          "2003.0",
+          6
+        ],
+        [
+          "2023.0",
+          5
+        ],
+        [
+          "2016.0",
+          5
+        ],
+        [
+          "2015.0",
+          5
+        ],
+        [
+          "2008.0",
+          5
+        ],
+        [
+          "2006.0",
+          5
+        ],
+        [
+          "2018.0",
+          4
+        ],
+        [
+          "2014.0",
+          4
+        ],
+        [
+          "2013.0",
+          4
+        ],
+        [
+          "2011.0",
+          4
+        ],
+        [
+          "2007.0",
+          4
+        ],
+        [
+          "2005.0",
+          4
+        ],
+        [
+          "1984.0",
+          4
+        ],
+        [
+          "2022.0",
+          3
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2019.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year in which the project started commercial production.If the project is made up of multiple fields, the earliest FID year is listed here.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Operator",
+      "code_friendly_name_guess": "operator",
+      "n_total": 999,
+      "n_null": 682,
+      "n_non_null": 317,
+      "null_rate": 0.6827,
+      "n_unique": 203,
+      "top_values": [
+        [
+          "CNOOC",
+          17
+        ],
+        [
+          "Eni",
+          11
+        ],
+        [
+          "Woodside Energy",
+          9
+        ],
+        [
+          "TotalEnergies",
+          8
+        ],
+        [
+          "Canadian Natural Resources",
+          7
+        ],
+        [
+          "Petronas Carigali",
+          6
+        ],
+        [
+          "Oil and Natural Gas Corporation",
+          6
+        ],
+        [
+          "Petroleum Development Oman",
+          5
+        ],
+        [
+          "ExxonMobil Guyana",
+          5
+        ],
+        [
+          "Ecopetrol",
+          5
+        ],
+        [
+          "BP",
+          5
+        ],
+        [
+          "Azule Energy Holdings",
+          5
+        ],
+        [
+          "Saudi Arabian Oil",
+          4
+        ],
+        [
+          "BP Trinidad & Tobago",
+          4
+        ],
+        [
+          "TotalEnergies E&P Angola",
+          3
+        ],
+        [
+          "Shell",
+          3
+        ],
+        [
+          "Exxon Mobil",
+          3
+        ],
+        [
+          "EP Petroecuador",
+          3
+        ],
+        [
+          "ConocoPhillips",
+          3
+        ],
+        [
+          "Chevron",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company that is the designated operator of the project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 999,
+      "n_null": 706,
+      "n_non_null": 293,
+      "null_rate": 0.7067,
+      "n_unique": 239,
+      "top_values": [
+        [
+          "CNOOC Ltd [100%]",
+          17
+        ],
+        [
+          "Oil and Natural Gas Corporation Ltd [100%]",
+          6
+        ],
+        [
+          "Petroleum Development Oman LLC [100%]",
+          5
+        ],
+        [
+          "National Iranian Oil Co [100%]",
+          5
+        ],
+        [
+          "CNOOC Petroleum Guyana Ltd [25%]; Hess Guyana Exploration Ltd [30%]; ExxonMobil Guyana Ltd [45%]",
+          5
+        ],
+        [
+          "Saudi Arabian Oil Co [100%]",
+          4
+        ],
+        [
+          "Ecopetrol SA [100%]",
+          4
+        ],
+        [
+          "BP Trinidad & Tobago LLC [100%]",
+          3
+        ],
+        [
+          "TotalEnergies SE [26%]; ENH Rovuma Área Um SA [15%]; ONGC Videsh Rovuma Ltd [10%]; Other [28%]; Mitsui E&P Mozambique Area1 Ltd [20%]",
+          2
+        ],
+        [
+          "Petronas Carigali Sdn Bhd [100%]",
+          2
+        ],
+        [
+          "PetroChina Co Ltd [100%]",
+          2
+        ],
+        [
+          "Other [33%]; BP Developments Australia Pty Ltd [16%]; Chevron Australia Pty Ltd [16%]; BHP Billiton Petroleum [16%]; Woodside Energy Ltd [16%]",
+          2
+        ],
+        [
+          "Oil India Ltd [100%]",
+          2
+        ],
+        [
+          "LUKOIL PJSC [25%]; Eni SpA [65%]; Société Nationale Des Pétroles Du Congo [10%]",
+          2
+        ],
+        [
+          "Hilcorp Alaska LLC [26%]; Chevron Corp [1%]; ConocoPhillips Corp [36%]; Exxon Mobil Corp [36%]",
+          2
+        ],
+        [
+          "Gazprom Dobycha Nadym LLC [100%]",
+          2
+        ],
+        [
+          "Galkynyshnebit [100%]",
+          2
+        ],
+        [
+          "Energean PLC [100%]",
+          2
+        ],
+        [
+          "BP PLC [26%]; Exxon Mobil Corp [40%]; Eni SpA [20%]; Equinor ASA [13%]",
+          2
+        ],
+        [
+          "BG International Ltd [11%]; Queensland Gas Co Ltd [47%]; Origin Energy Ltd [40%]",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company (or companies) that own the project. Often multiple companies will collaborate to fund a project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 999,
+      "n_null": 706,
+      "n_non_null": 293,
+      "null_rate": 0.7067,
+      "n_unique": 228,
+      "top_values": [
+        [
+          "CNOOC Ltd [100.0%]",
+          17
+        ],
+        [
+          "PetroChina Co Ltd [100.0%]",
+          9
+        ],
+        [
+          "Oil and Natural Gas Corporation Ltd [100.0%]",
+          6
+        ],
+        [
+          "National Iranian Oil Co [100.0%]",
+          5
+        ],
+        [
+          "Hess Corp [30.0%]; China National Offshore Oil Corp; Exxon Mobil Corp",
+          5
+        ],
+        [
+          "Energy Development Oman SAOC [60.0%]; Shell PLC [34.0%]; small shareholder(s) [6.0%]",
+          5
+        ],
+        [
+          "Saudi Arabian Oil Co [100.0%]",
+          4
+        ],
+        [
+          "Ecopetrol SA [100.0%]",
+          4
+        ],
+        [
+          "Other [28.5%]; TotalEnergies SE [26.5%]; Mitsui & Co Ltd [20.0%]; Empresa Nacional de Hidrocarbonetos de Mozambique [15.0%]; Oil and Natural Gas Corporation (ONGC) [10.0%]",
+          3
+        ],
+        [
+          "Gazprom PJSC [100.0%]",
+          3
+        ],
+        [
+          "BP PLC [70.0%]; Repsol SA [30.0%]",
+          3
+        ],
+        [
+          "Shell PLC [100.0%]",
+          2
+        ],
+        [
+          "Rosneft PJSC [100.0%]",
+          2
+        ],
+        [
+          "Petroliam Nasional Bhd [100.0%]",
+          2
+        ],
+        [
+          "Other [33.3%]; BHP Group Ltd [16.7%]; BP PLC [16.7%]; Chevron Corp [16.7%]; Woodside Energy Group Ltd [16.7%]",
+          2
+        ],
+        [
+          "Origin Energy Ltd [40.6%]; Shell PLC [11.9%]",
+          2
+        ],
+        [
+          "Oil India Ltd [100.0%]",
+          2
+        ],
+        [
+          "Galkynyshnebit [100.0%]",
+          2
+        ],
+        [
+          "Exxon Mobil Corp [40.0%]; BP PLC [26.7%]; Eni SpA [20.0%]; Equinor ASA [13.3%]",
+          2
+        ],
+        [
+          "Exxon Mobil Corp [36.4%]; ConocoPhillips Corp [36.1%]; Chevron Corp [1.1%]; Hilcorp Energy Co",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The company (or companies) that own the owner companies listed.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Government unit ID",
+      "code_friendly_name_guess": "government_unit_id",
+      "n_total": 999,
+      "n_null": 990,
+      "n_non_null": 9,
+      "null_rate": 0.991,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "UKCS: P198",
+          1
+        ],
+        [
+          "TX RRC: 1000148164",
+          1
+        ],
+        [
+          "Rosnedra License ID: СЛХ16173НЭ",
+          1
+        ],
+        [
+          "Rosnedra License ID: СЛХ02516НЭ",
+          1
+        ],
+        [
+          "Rosnedra License ID: СЛХ02071НЭ",
+          1
+        ],
+        [
+          "Rosnedra License ID: КРР02915НР, Rosnedra License ID: КРР11087НР, Rosnedra License ID: КРР02895НР",
+          1
+        ],
+        [
+          "Rosnedra License ID: АСТ14553НР, Rosnedra License ID: АСТ14552НР, Rosnedra License ID: АСТ16480НР, Rosnedra License ID: АСТ16065НР",
+          1
+        ],
+        [
+          "COGIS: 90750",
+          1
+        ],
+        [
+          "ANEEL: 1620",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "The ID assigned by some governments to the asset.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Units (list of IDs)",
+      "code_friendly_name_guess": "units_list_of_ids",
+      "n_total": 999,
+      "n_null": 689,
+      "n_non_null": 310,
+      "null_rate": 0.6897,
+      "n_unique": 310,
+      "top_values": [
+        [
+          "L100001082606, L100001082607, L100001082605",
+          1
+        ],
+        [
+          "L100001081837, L100001081838",
+          1
+        ],
+        [
+          "L100001064083, L100001064085, L100001064086, L100001064104, L100000312021",
+          1
+        ],
+        [
+          "L100001062748, L100000312852",
+          1
+        ],
+        [
+          "L100001062518, L100000312850, L100000312821",
+          1
+        ],
+        [
+          "L100001062417, L100000304952",
+          1
+        ],
+        [
+          "L100001062170, L100000312856",
+          1
+        ],
+        [
+          "L100001061662, L100000312229",
+          1
+        ],
+        [
+          "L100001061482, L100001061483",
+          1
+        ],
+        [
+          "L100001056022, L100001056024",
+          1
+        ],
+        [
+          "L100000323377, L100000317485, L100000317486",
+          1
+        ],
+        [
+          "L100000323369, L100000323370, L100000323371, L100000312433",
+          1
+        ],
+        [
+          "L100000323359, L100000323360, L100000323376, L100000312434",
+          1
+        ],
+        [
+          "L100000323358, L100000312385, L100000323357",
+          1
+        ],
+        [
+          "L100000322544, L100000322543, L100000321400",
+          1
+        ],
+        [
+          "L100000321388",
+          1
+        ],
+        [
+          "L100000321385, L100000321383, L100000321387, L100000310830, L100000320810, L100000321386, L100000320809",
+          1
+        ],
+        [
+          "L100000321370, L100000310831, L100000321371",
+          1
+        ],
+        [
+          "L100000321362, L100000321368, L100000321369, L100000320820, L100000321279, L100000321360, L100000321361, L100000310878, L100000321366, L100000321367, L100000321359, L100000310820, L100000320804, L100000320816, L100000321268, L100000321358, L100000321357, L100000319169, L100000319170",
+          1
+        ],
+        [
+          "L100000321306, L100000321381, L100000321382",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Project IDs of all field-level projects that make up the project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki URL (project)",
+      "code_friendly_name_guess": "wiki_url_project",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 359,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Zhongyuan_Oil_Project_(Henan,_China)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zeagli-Darvaza_Gas_Project_(Turkmenistan)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zawtika_Gas_Project_(Myanmar)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Zabazaba_and_Etan_Oil_and_Gas_Project_(Nigeria)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yurubcheno-Tokhomskoye_Oil_and_Gas_Project_(Krasnoyarsk_Krai,_Russia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yumuri-Seboruco_Oil_Project_(Matanzas,_Cuba)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yibal_Khuff_Oil_and_Gas_Project_(Oman)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yggdrasil_Oil_and_Gas_Project_(Norway)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yellowtail_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yazzi_and_Python_Gas_Project_(Egypt)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yaran_Joint_Oil_Project_(Iran)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Yakaar-Teranga_Gas_Project_(Senegal)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Xinjiang_Oil_and_Gas_Project_(Xinjiang,_China)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Wushi_23-5_Oil_Project_(Guangdong,_China)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Who_Dat_(MC503)_Oil_and_Gas_Project_(Federal_offshore,_United_States)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Whiptail_Oil_and_Gas_Project_(Guyana)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Wheatstone/Iago_Gas_Project_(Western_Australia,_Australia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/Western_Surat_Gas_Project_(Queensland,_Australia)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/West_White_Rose_Oil_and_Gas_Project_(Newfoundland_&_Labrador,_Canada)",
+          1
+        ],
+        [
+          "https://www.gem.wiki/West_Nile_Delta_Oil_and_Gas_Project_(Egypt)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "URL for the GEM.wiki page for an associated project, if relevant.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Name Other",
+      "code_friendly_name_guess": "name_other",
+      "n_total": 999,
+      "n_null": 936,
+      "n_non_null": 63,
+      "null_rate": 0.9369,
+      "n_unique": 63,
+      "top_values": [
+        [
+          "Красноленинская группа месторождений",
+          1
+        ],
+        [
+          "Кандым-Хаузак-Шады-Кунград, Dengizkol-Hauzak-Shodi",
+          1
+        ],
+        [
+          "Камчатский центр газодобычи (ЦГД) Газпрома",
+          1
+        ],
+        [
+          "АГКМ",
+          1
+        ],
+        [
+          "WDDM",
+          1
+        ],
+        [
+          "Vietnam Gas Project, Block B-O Mon",
+          1
+        ],
+        [
+          "Vasai & Satellite",
+          1
+        ],
+        [
+          "Uchuva",
+          1
+        ],
+        [
+          "Talakan",
+          1
+        ],
+        [
+          "South Yoloten, South Ýolöten – Osman, Lolotan",
+          1
+        ],
+        [
+          "South Pars (all Phases)",
+          1
+        ],
+        [
+          "Sergipe Deepwater Project II",
+          1
+        ],
+        [
+          "Salym project",
+          1
+        ],
+        [
+          "SNP",
+          1
+        ],
+        [
+          "Reggane",
+          1
+        ],
+        [
+          "Phase II, Girrahween Development",
+          1
+        ],
+        [
+          "Palas-Astraea-Juno",
+          1
+        ],
+        [
+          "ONWJ",
+          1
+        ],
+        [
+          "Northern Gas Complex",
+          1
+        ],
+        [
+          "North Urengoyskoye, Urengoyskoye Severnoye",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternate names for a project-level project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 999,
+      "n_null": 663,
+      "n_non_null": 336,
+      "null_rate": 0.6637,
+      "n_unique": 328,
+      "top_values": [
+        [
+          "8.4187000",
+          2
+        ],
+        [
+          "38.1600000",
+          2
+        ],
+        [
+          "35.1366000",
+          2
+        ],
+        [
+          "3.8940000",
+          2
+        ],
+        [
+          "26.4178000",
+          2
+        ],
+        [
+          "20.3293000",
+          2
+        ],
+        [
+          "-6.1041000",
+          2
+        ],
+        [
+          "-19.7867000",
+          2
+        ],
+        [
+          "9.9740000",
+          1
+        ],
+        [
+          "9.9694000",
+          1
+        ],
+        [
+          "9.8730000",
+          1
+        ],
+        [
+          "9.6500000",
+          1
+        ],
+        [
+          "9.0319000",
+          1
+        ],
+        [
+          "8.8100000",
+          1
+        ],
+        [
+          "8.7740000",
+          1
+        ],
+        [
+          "8.6483887",
+          1
+        ],
+        [
+          "8.5521000",
+          1
+        ],
+        [
+          "8.4704",
+          1
+        ],
+        [
+          "8.4658120",
+          1
+        ],
+        [
+          "8.4308",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 999,
+      "n_null": 663,
+      "n_non_null": 336,
+      "null_rate": 0.6637,
+      "n_unique": 328,
+      "top_values": [
+        [
+          "9.0796000",
+          2
+        ],
+        [
+          "56.0697000",
+          2
+        ],
+        [
+          "40.3434000",
+          2
+        ],
+        [
+          "119.5551000",
+          2
+        ],
+        [
+          "115.7811000",
+          2
+        ],
+        [
+          "10.6341000",
+          2
+        ],
+        [
+          "-73.6660000",
+          2
+        ],
+        [
+          "-64.7396000",
+          2
+        ],
+        [
+          "97.0833000",
+          1
+        ],
+        [
+          "95.4720000",
+          1
+        ],
+        [
+          "95.0060000",
+          1
+        ],
+        [
+          "94.9688000",
+          1
+        ],
+        [
+          "94.1960000",
+          1
+        ],
+        [
+          "92.55",
+          1
+        ],
+        [
+          "90.9099000",
+          1
+        ],
+        [
+          "9.4627000",
+          1
+        ],
+        [
+          "9.0450000",
+          1
+        ],
+        [
+          "86.0374000",
+          1
+        ],
+        [
+          "83.5013000",
+          1
+        ],
+        [
+          "83.28695",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Location of the project. Since each project spans some area (often many miles), the coordinates provided are approximately the middle of the project.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Location accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 999,
+      "n_null": 663,
+      "n_non_null": 336,
+      "null_rate": 0.6637,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "approximate",
+          180
+        ],
+        [
+          "exact",
+          156
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Locations are designated as \"exact\" if there is information about where exactly the project is (e.g., coordinates explicitly stated, or project shown on a map). If only general information  is available (e.g., which state or county the project is in), an \"approximate\" designation is used.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project location type",
+      "code_friendly_name_guess": "project_location_type",
+      "n_total": 999,
+      "n_null": 663,
+      "n_non_null": 336,
+      "null_rate": 0.6637,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "project level location",
+          312
+        ],
+        [
+          "location derived from fields",
+          24
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If the location of the project is calculated from the location of the field-level projects which make it up, it is tagged as \"location derived from fields\". If data for the location is at the project level, this is tagged as \"project level location\".",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Onshore/Offshore",
+      "code_friendly_name_guess": "onshore_offshore",
+      "n_total": 999,
+      "n_null": 640,
+      "n_non_null": 359,
+      "null_rate": 0.6406,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "onshore",
+          173
+        ],
+        [
+          "offshore",
+          173
+        ],
+        [
+          "unknown",
+          13
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Tag stating if a field predominantly located on or offshore.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Project outline (WKT)",
+      "code_friendly_name_guess": "project_outline_wkt",
+      "n_total": 999,
+      "n_null": 964,
+      "n_non_null": 35,
+      "null_rate": 0.965,
+      "n_unique": 35,
+      "top_values": [
+        [
+          "POLYGON ((-63.3689232971724 8.61619220620542,-63.35983358755 8.61621442665448,-63.3598620259118 8.62524329534187,-63.2235879757044 8.62555695908645,-63.2235438567635 8.60751717757573,-63.15539035608 8.60767838644841,-63.1554240905493 8.58965193378975,-63.0876860784497 8.58968767554585,-63.0876658005362 8.50091752002759,-63.3361474521432 8.50078227458238,-63.3362085457877 8.57061370425907,-63.3698999842969 8.57058290967359,-63.3689232971724 8.61619220620542))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((48.4920330296193 31.496375489121,48.5243481209254 31.4853531545026,48.7228551103773 31.3435218135508,48.7893318696356 31.3017195266765,48.8535004080862 31.2677908308325,48.9199771673445 31.2176645091859,48.9887621474104 31.1639564442395,49.0266169686547 31.1145655455845,49.0146142204553 31.0706848731953,48.9859922824413 31.0778020345669,48.932903203867 31.1355104277112,48.8548853405708 31.2137164250656,48.7833304955358 31.2571362807128,48.6739208292566 31.3143410406337,48.5811303527919 31.3754525564795,48.5220399001178 31.4117064151086,48.4814152139044 31.4656671838189,48.4929563179423 31.4955882225836,48.4920330296193 31.496375489121)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((47.7977202106993 31.5396649391627,47.8605038166655 31.5373042136661,47.8646586141191 31.4802352004896,47.8581955958579 31.3703285999795,47.9034367236864 31.3474644673221,47.8715832765418 31.2133216075863,47.8983586379098 31.1311637569175,47.8715832765418 31.0315309649165,47.8235722837442 31.0307398108831,47.788487327469 31.0568444233373,47.7847941741769 31.1406471454768,47.7413996229944 31.2038454935467,47.7450927762865 31.2756823146089,47.7940270574072 31.3506184713555,47.7737147143005 31.4317976303926,47.7977202106993 31.5396649391627)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((47.7229338565337 31.3947634192639,47.7372448255407 31.3833350208511,47.7220105682107 31.3407618575899,47.7178557707571 31.3005361730494,47.7086228875267 31.2780496310136,47.6809242378358 31.2748931959372,47.6666132688288 31.2934357392283,47.6827708144819 31.3289325578908,47.7072379550422 31.3793938713407,47.7229338565337 31.3947634192639)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((148.501300500726 -38.1551604733432,148.501301915656 -38.1463385278105,148.502331635513 -38.1462293608804,148.504023299501 -38.1458240829553,148.507890241829 -38.1449115841762,148.511093299328 -38.1441990854216,148.512907188967 -38.1438401980924,148.515095242184 -38.1439557540589,148.517032464313 -38.1436910327748,148.518475244702 -38.1430010330739,148.519611636915 -38.1421713111417,148.523362450847 -38.1415474211093,148.527842701226 -38.1409618637497,148.532078229871 -38.1402832515442,148.534182382034 -38.1392968618844,148.536363214753 -38.1390765836311,148.538429610571 -38.1391932505804,148.541361008948 -38.1400179726083,148.542955179881 -38.1407640836691,148.545957411122 -38.1420671397706,148.548696586904 -38.1424146397366,148.550530479562 -38.1430138068382,148.555176865187 -38.1445343625218,148.557610752726 -38.1447899187967,148.558265196723 -38.144157973763,148.559149085941 -38.1428996406555,148.559057697789 -38.141462418426,148.560096032638 -38.1389074181345,148.561070198032 -38.1390385292492,148.562362141885 -38.1398363074969,148.561948530816 -38.1403690845384,148.562043806866 -38.1419979737976,148.562482140287 -38.1426154739347,148.563405750448 -38.143226585118,148.564191583106 -38.1430721411704,148.565274914108 -38.1426263082325,148.566728516471 -38.1424629744871,148.568130450984 -38.1427321417952,148.568560448023 -38.1429660309106,148.56948321968 -38.1435290861646,148.569905994905 -38.1434274202305,148.569649884813 -38.1428076980965,148.569762107205 -38.1423746420584,148.570183770429 -38.1422251981191,148.570982931947 -38.1426938093361,148.571657927361 -38.1430204755083,148.572210145622 -38.1433007536498,148.573127917463 -38.1436240868647,148.573615414215 -38.1437135319677,148.574594851683 -38.1440838101971,148.57587345522 -38.1442585324567,148.576787893179 -38.1444379766477,148.576855948732 -38.1447726996986,148.576437339436 -38.1450660326537,148.575469290703 -38.1452229764919,148.57444568619 -38.1456201993469,148.5740867994 -38.1458646433083,148.573048750388 -38.1455910320906,148.572692641494 -38.1459793650704,148.572706252028 -38.1466024211441,148.572837917874 -38.1470801992216,148.572545697474 -38.1476113102316,148.572557919046 -38.1481865872999,148.572576529403 -38.149049365402,148.572956248474 -38.1497635325456,148.573277079874 -38.1505743656881,148.574099295543 -38.1520974219825,148.574963456458 -38.1527571441818,148.575828727335 -38.1534646443807,148.57638122353 -38.1537449224882,148.576634277574 -38.1542210335704,148.576282612536 -38.1548010335773,148.575062342732 -38.1545299223798,148.574879288964 -38.1544843663493,148.574954288064 -38.1551546444295,148.574795955436 -38.1562593665234,148.574260958634 -38.1567940885099,148.573897626995 -38.1568468664684,148.573042632761 -38.156618533332,148.57212097314 -38.1561035331514,148.569193769759 -38.155519365686,148.568339886489 -38.155339087546,148.568036277485 -38.155342976505,148.567937388502 -38.1563990876353,148.567948777111 -38.1569265877086,148.567478502772 -38.1576518657481,148.566949616762 -38.1584740877971,148.566477396496 -38.1591035328293,148.566177954351 -38.1592993658219,148.564533795451 -38.1590815876053,148.563686851804 -38.159236865547,148.560514908883 -38.1585596431404,148.559419076539 -38.1584304760157,148.557895188504 -38.1581629758289,148.556251023504 -38.1579451986381,148.552464914117 -38.1569404751228,148.550207693615 -38.1564429748308,148.548021298706 -38.1564238088599,148.546374349901 -38.1560618638488,148.545516291489 -38.155689641816,148.542474893332 -38.1554418638593,148.539862663379 -38.1553804749192,148.537081265657 -38.1559440860741,148.536052373463 -38.1561015861237,148.534412373086 -38.1560749203008,148.532954602981 -38.1560460316745,148.531311554845 -38.1558757540804,148.529901283987 -38.1552229763779,148.527841293645 -38.1554415879442,148.527423240336 -38.1557824220846,148.526214356818 -38.1560379774208,148.524754363847 -38.1559132557906,148.523971311217 -38.1562110340133,148.522877427412 -38.1561771452936,148.521723266894 -38.1561443675901,148.520202440237 -38.1560202019786,148.518377441126 -38.1558518674572,148.516802996517 -38.1560640889231,148.515595773699 -38.1564152005323,148.514078273348 -38.1564349220141,148.513165773315 -38.1563507546931,148.512066051713 -38.1560293652803,148.510667717618 -38.1559513097864,148.508596052028 -38.1555943640166,148.507802718312 -38.1554129747115,148.505802439632 -38.1555824190357,148.504346607051 -38.1556490847077,148.504040218734 -38.155509084655,148.503554386244 -38.1555151966115,148.501300500726 -38.1551604733432)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((142.68978689777 -38.5635475417318,142.69249523012 -38.5624200417999,142.692498003944 -38.561428375828,142.6939424469 -38.5608669868917,142.699889674415 -38.5608783760875,142.702953277209 -38.5608836534413,142.705294940745 -38.5617367096117,142.708356322094 -38.5625919878246,142.714484078372 -38.5633117103222,142.718270183427 -38.5634586547194,142.720611847628 -38.5634644889881,142.723856287862 -38.5641756002488,142.726197952267 -38.5646058784643,142.728536836104 -38.5657422677707,142.732500720225 -38.5668811563141,142.735922665057 -38.5677339348212,142.737906276289 -38.5683033801733,142.739342107415 -38.5701450467971,142.742945166311 -38.5711422706421,142.743845166628 -38.5721339371029,142.743480997871 -38.5735506044715,142.740594881864 -38.5736867149159,142.738614601496 -38.5731172703742,142.736089319863 -38.5733978249278,142.735005981749 -38.5743867138817,142.733558754541 -38.5753728247167,142.732478195994 -38.575514491484,142.732475415419 -38.576786713656,142.731750686651 -38.5782006026469,142.729228462173 -38.5773478239882,142.727244850996 -38.5767783796974,142.725625684011 -38.5763506014631,142.724545131561 -38.5755006012503,142.722922908881 -38.5753561560426,142.720219852184 -38.5750672676914,142.718959021237 -38.5745006004835,142.717156245281 -38.5739311552098,142.716078192014 -38.5733617110221,142.715000700076 -38.5719450437468,142.713017092213 -38.5719422665874,142.709592098824 -38.5717950432969,142.707431274635 -38.5712228210611,142.705811566908 -38.5700894878056,142.704011586302 -38.5686700425007,142.701669931226 -38.5682422652588,142.699867441706 -38.5678117090748,142.697348009028 -38.5666755979753,142.694825791875 -38.5658228198693,142.692667463171 -38.5649669867285,142.69158412762 -38.5648255977283,142.689964677109 -38.5641144867287,142.68978689777 -38.5635475417318)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((122.08333 -1.7,122.11667 -1.7,122.11667 -1.71667,122.13333 -1.71667,122.13333 -1.73333,122.15 -1.73333,122.15 -1.78333,122.13333 -1.78333,122.13333 -1.8,122.1 -1.8,122.1 -1.81667,122.08333 -1.81667,122.08333 -1.83333,122.03333 -1.83333,122.03333 -1.85,122.01667 -1.85,122.01667 -1.86667,122.0 -1.86667,122.0 -1.88333,121.98333 -1.88333,121.98333 -1.9,121.96667 -1.9,121.96667 -1.91667,121.93333 -1.91667,121.93333 -1.9,121.91667 -1.9,121.91667 -1.85,121.93333 -1.85,121.93333 -1.83333,121.95 -1.83333,121.95 -1.81667,121.96667 -1.81667,121.96667 -1.8,121.98333 -1.8,121.98333 -1.78333,122.0 -1.78333,122.0 -1.76667,122.01667 -1.76667,122.01667 -1.75,122.05 -1.75,122.05 -1.73333,122.06667 -1.73333,122.06667 -1.71667,122.08333 -1.71667,122.08333 -1.7)),((122.43333 -1.33333,122.5 -1.33333,122.5 -1.41667,122.48333 -1.41667,122.48333 -1.43333,122.46667 -1.43333,122.46667 -1.45,122.43333 -1.45,122.43333 -1.46667,122.41667 -1.46667,122.41667 -1.48333,122.4 -1.48333,122.4 -1.5,122.36667 -1.5,122.36667 -1.48333,122.33333 -1.48333,122.33333 -1.43333,122.35 -1.43333,122.35 -1.41667,122.36667 -1.41667,122.36667 -1.4,122.41667 -1.4,122.41667 -1.36667,122.43333 -1.36667,122.43333 -1.33333)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((118.05 -0.636306,118.05 -0.786667,118.033592 -0.838917,118.030547 -0.838917,118.030547 -0.837672,118.027911 -0.837672,118.027911 -0.834111,118.021319 -0.834111,118.021319 -0.850081,118.003206 -0.850081,118.003206 -0.860825,118.005 -0.860825,118.005 -0.863875,118.012419 -0.863875,118.012419 -0.868867,118.01765 -0.868867,118.01765 -0.873042,118.022794 -0.873042,118.017403 -0.890089,118.006161 -0.890089,118.006161 -0.892958,118.002119 -0.892958,118.002119 -0.899181,118.005239 -0.899181,118.005239 -0.900511,118.008986 -0.900511,118.008986 -0.902869,118.010875 -0.902869,118.010875 -0.904981,118.012692 -0.904981,118.011181 -0.909689,117.999219 -0.9097,117.999219 -0.919069,117.994461 -0.919069,117.994461 -0.933361,117.981431 -0.933361,117.981431 -0.927981,117.975511 -0.927981,117.975511 -0.933361,117.971764 -0.933361,117.971764 -0.941931,117.9827 -0.941931,117.9827 -0.947833,117.988131 -0.947833,117.988131 -0.951461,117.99235 -0.951461,117.99235 -0.956569,117.999139 -0.956569,117.999139 -0.96115,118.002669 -0.96115,118.002681 -0.98795,118.007331 -0.98795,118.007331 -0.996528,117.998089 -0.996528,117.998089 -0.991444,117.966667 -0.991444,117.966667 -0.983333,117.95 -0.983333,117.95 -0.95,117.966667 -0.95,117.966667 -0.833333,117.916667 -0.833333,117.916667 -0.766667,117.966667 -0.766667,117.966667 -0.666667,117.949583 -0.666667,117.949583 -0.658667,117.951944 -0.658667,117.951944 -0.650694,117.955917 -0.650694,117.955917 -0.640333,117.959861 -0.640333,117.959861 -0.629944,117.993917 -0.629944,117.993917 -0.641889,118.02725 -0.641889,118.02725 -0.636306,118.05 -0.636306)),((117.833333 -1.083333,117.833333 -1.2,117.8 -1.2,117.8 -1.216667,117.766667 -1.216667,117.766667 -1.283333,117.75 -1.283333,117.75 -1.3,117.733333 -1.3,117.733333 -1.35,117.716667 -1.35,117.716667 -1.366667,117.683333 -1.366667,117.683333 -1.316667,117.6 -1.316667,117.6 -1.266667,117.65 -1.266667,117.65 -1.216667,117.733333 -1.216667,117.805131 -1.083333,117.833333 -1.083333)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((117.567033 -0.332886,117.567035 -0.299657,117.583671 -0.299657,117.583671 -0.291258,117.600369 -0.291258,117.600369 -0.283658,117.624167 -0.283658,117.624167 -0.306111,117.676389 -0.306111,117.676389 -0.283333,117.684722 -0.283333,117.684722 -0.25,117.725353 -0.25,117.725353 -0.27466,117.708655 -0.27466,117.708655 -0.291258,117.7 -0.291258,117.7 -0.332961,117.691957 -0.332954,117.691979 -0.366221,117.683685 -0.366221,117.683658 -0.457941,117.675359 -0.457941,117.675359 -0.46621,117.667023 -0.46621,117.667022 -0.55793,117.658661 -0.55793,117.658661 -0.6,117.65 -0.6,117.65 -0.633333,117.641964 -0.633333,117.641964 -0.65,117.633333 -0.65,117.633333 -0.75,117.616667 -0.75,117.616667 -0.783333,117.6 -0.783333,117.6 -0.816667,117.583333 -0.816667,117.583333 -0.85,117.566667 -0.85,117.566667 -0.883333,117.550368 -0.883333,117.550375 -0.991185,117.541976 -0.991185,117.541976 -1.016183,117.533677 -1.016183,117.533677 -1.032881,117.525378 -1.032881,117.525378 -1.04118,117.516979 -1.04118,117.516979 -1.049479,117.50868 -1.049479,117.50868 -1.066177,117.500381 -1.066177,117.500381 -1.074476,117.491982 -1.074476,117.491982 -1.082876,117.483683 -1.082876,117.483683 -1.091175,117.475384 -1.091175,117.475384 -1.107873,117.466985 -1.107873,117.466985 -1.116172,117.458686 -1.116172,117.458686 -1.13287,117.450387 -1.13287,117.450387 -1.141169,117.441989 -1.141169,117.441989 -1.150023,117.416667 -1.150023,117.416667 -1.166684,117.4 -1.166684,117.4 -1.183345,117.383333 -1.183345,117.383333 -1.216667,117.333333 -1.216667,117.333333 -1.183345,117.3 -1.183345,117.3 -1.166684,117.283333 -1.166684,117.283328 -1.125127,117.333333 -0.991745,117.316911 -0.974639,117.333731 -0.966159,117.333731 -0.957889,117.342001 -0.957889,117.342001 -0.949494,117.350396 -0.949493,117.350396 -0.932891,117.358699 -0.932891,117.358699 -0.916163,117.36706 -0.916162,117.36706 -0.899495,117.375397 -0.899495,117.375397 -0.882896,117.383725 -0.882896,117.383725 -0.857899,117.391995 -0.857899,117.392045 -0.841151,117.400394 -0.841151,117.400394 -0.816203,117.408693 -0.816203,117.408693 -0.799507,117.417054 -0.799508,117.417054 -0.774508,117.425391 -0.774508,117.425391 -0.766209,117.433718 -0.766182,117.433717 -0.71618,117.450382 -0.71618,117.450381 -0.682851,117.467047 -0.682851,117.467047 -0.65792,117.475384 -0.65792,117.475384 -0.632923,117.483711 -0.632923,117.483711 -0.607925,117.491982 -0.607925,117.491982 -0.566201,117.500388 -0.566201,117.500379 -0.46621,117.517043 -0.46621,117.517046 -0.432877,117.533706 -0.432876,117.53371 -0.399547,117.550384 -0.399546,117.55038 -0.36625,117.558674 -0.36625,117.558674 -0.332954,117.567033 -0.332886)),((117.247895 -0.908333,117.249264 -0.905878,117.252118 -0.901359,117.250732 -0.893445,117.2507 -0.89325,117.2506 -0.89274,117.2501 -0.88645,117.2498 -0.88245,117.2496 -0.87897,117.25026 -0.872289,117.250673 -0.861137,117.2509 -0.85145,117.251 -0.84853,117.2508 -0.84619,117.2507 -0.84351,117.2506 -0.84019,117.2505 -0.83745,117.2506 -0.83529,117.250845 -0.832812,117.251175 -0.829123,117.252738 -0.813841,117.263373 -0.810649,117.2638 -0.81087,117.272154 -0.805786,117.2783 -0.79644,117.283172 -0.774205,117.282747 -0.77414,117.283153 -0.77414,117.283209 -0.773416,117.283618 -0.76471,117.2836 -0.76404,117.2835 -0.76096,117.2833 -0.75365,117.2833 -0.74904,117.284326 -0.745374,117.28527 -0.74442,117.286945 -0.730607,117.286981 -0.728255,117.287307 -0.722848,117.288857 -0.717116,117.289004 -0.716667,117.308705 -0.716667,117.308705 -0.641222,117.316667 -0.641222,117.316667 -0.607925,117.325403 -0.607925,117.325403 -0.591635,117.344444 -0.585019,117.349075 -0.585465,117.3501 -0.58427,117.3497 -0.58318,117.3486 -0.58204,117.3487 -0.58095,117.3492 -0.57993,117.3498 -0.57924,117.3506 -0.57839,117.3518 -0.57765,117.3535 -0.57714,117.3551 -0.57657,117.3566 -0.57617,117.3586 -0.57555,117.3603 -0.57516,117.3618 -0.57511,117.3636 -0.57511,117.3653 -0.575,117.3701 -0.57262,117.3774 -0.56607,117.3785 -0.56481,117.379197 -0.564119,117.380148 -0.563087,117.3809 -0.56219,117.3823 -0.56065,117.3836 -0.55911,117.3849 -0.55757,117.3864 -0.55598,117.388 -0.55427,117.3891 -0.55325,117.39 -0.55239,117.3927 -0.55012,117.3941 -0.54915,117.3951 -0.54846,117.3963 -0.54772,117.3973 -0.5471,117.3988 -0.54664,117.4007 -0.54643,117.4026 -0.54625,117.4039 -0.54603,117.404118 -0.545984,117.4114 -0.54268,117.4139 -0.5388,117.4149 -0.53698,117.416 -0.53515,117.4173 -0.53322,117.4186 -0.53162,117.419442 -0.530722,117.4201 -0.53002,117.422592 -0.527895,117.427 -0.52394,117.43 -0.51863,117.4295 -0.5172,117.4304 -0.51703,117.4314 -0.516,117.4324 -0.51418,117.4378 -0.50192,117.4384 -0.49644,117.4369 -0.48787,117.4374 -0.48615,117.4379 -0.48501,117.4392 -0.48279,117.441019 -0.480619,117.440869 -0.481095,117.44087 -0.481094,117.44102 -0.480618,117.4423 -0.47909,117.4433 -0.47789,117.4504 -0.46997,117.4543 -0.46232,117.4551 -0.45336,117.4534 -0.44988,117.4511 -0.44861,117.4505 -0.44816,117.4499 -0.4477,117.4488 -0.44746,117.4477 -0.44717,117.4462 -0.44655,117.4452 -0.44574,117.4443 -0.44431,117.4439 -0.44288,117.4439 -0.4414,117.4436 -0.44077,117.4432 -0.4406,117.4427 -0.44071,117.442 -0.44105,117.4414 -0.44151,117.4406 -0.44231,117.4395 -0.44288,117.438 -0.44338,117.4367 -0.44344,117.4359 -0.44292,117.4355 -0.44189,117.4351 -0.44052,117.4345 -0.43972,117.4336 -0.43914,117.4323 -0.43909,117.4307 -0.43925,117.4287 -0.4393,117.4274 -0.43919,117.4261 -0.43855,117.4252 -0.43787,117.4245 -0.43621,117.4243 -0.43523,117.4248 -0.43381,117.4252 -0.4329,117.4259 -0.43216,117.4274 -0.43165,117.4294 -0.43148,117.4315 -0.43177,117.4333 -0.43195,117.4348 -0.43178,117.4362 -0.43058,117.4371 -0.42887,117.4374 -0.42751,117.4374 -0.42556,117.437 -0.42374,117.4361 -0.42282,117.4352 -0.42219,117.4344 -0.4219,117.4321 -0.4207,117.4313 -0.41961,117.4309 -0.41846,117.4307 -0.41658,117.431 -0.41504,117.4313 -0.41258,117.4311 -0.4103,117.4298 -0.40676,117.429 -0.40441,117.4288 -0.40304,117.4291 -0.40128,117.4299 -0.39962,117.4305 -0.39865,117.4334 -0.39689,117.4347 -0.39637,117.4357 -0.39569,117.4364 -0.39483,117.4366 -0.39352,117.4364 -0.39278,117.4357 -0.39164,117.4352 -0.39089,117.4347 -0.38963,117.4346 -0.38855,117.4349 -0.38689,117.4359 -0.38541,117.4386 -0.38388,117.4403 -0.38354,117.4413 -0.38348,117.4429 -0.38366,117.4443 -0.38383,117.4461 -0.38407,117.4477 -0.38458,117.4493 -0.38539,117.4521 -0.38723,117.4547 -0.38951,117.4558 -0.39026,117.4571 -0.39073,117.4595 -0.39021,117.4612 -0.38908,117.4622 -0.38794,117.4632 -0.38617,117.4641 -0.38394,117.4646 -0.38189,117.4649 -0.37972,117.465 -0.37606,117.465 -0.37349,117.4648 -0.37115,117.4644 -0.36944,117.4636 -0.36801,117.4627 -0.36693,117.4619 -0.36624,117.4608 -0.36554,117.4593 -0.36497,117.4582 -0.36451,117.457 -0.36377,117.4561 -0.36268,117.4547 -0.36022,117.4527 -0.35542,117.4524 -0.35291,117.452 -0.35039,117.4519 -0.34702,117.45189 -0.34677,117.4513 -0.33966,117.4483 -0.33046,117.4477 -0.3276,117.4477 -0.32508,117.448 -0.32252,117.4488 -0.31926,117.449437 -0.316961,117.44971 -0.316975,117.452006 -0.311214,117.4514 -0.30688,117.4465 -0.30275,117.4448 -0.30069,117.444449 -0.300151,117.44011 -0.294651,117.4364 -0.29033,117.4353 -0.28919,117.4331 -0.28627,117.4308 -0.2829,117.428251 -0.278757,117.4272 -0.27717,117.4253 -0.27409,117.424777 -0.273111,117.423889 -0.271667,117.424007 -0.271667,117.4238 -0.27128,117.423785 -0.271228,117.42428 -0.271227,117.466219 -0.271227,117.466219 -0.396214,117.480106 -0.396214,117.480106 -0.566667,117.441988 -0.566667,117.441988 -0.582928,117.43369 -0.582928,117.43369 -0.607925,117.425391 -0.607925,117.425391 -0.624523,117.416992 -0.624523,117.416992 -0.632923,117.417053 -0.632983,117.417053 -0.641222,117.408693 -0.641222,117.408693 -0.649521,117.400394 -0.649521,117.400394 -0.65792,117.391995 -0.65792,117.391995 -0.666219,117.383696 -0.666219,117.383696 -0.674518,117.375397 -0.674518,117.375397 -0.682917,117.366998 -0.682917,117.366998 -0.691216,117.358699 -0.691216,117.358699 -0.75791,117.3504 -0.75791,117.3504 -0.766209,117.342001 -0.766209,117.342001 -0.774508,117.333702 -0.774508,117.333702 -0.799505,117.325403 -0.799505,117.325403 -0.841201,117.317004 -0.841201,117.317004 -0.849499,117.308705 -0.849498,117.308705 -0.857899,117.300406 -0.857899,117.300405 -0.882835,117.300402 -0.882835,117.300402 -0.882896,117.292007 -0.882896,117.292007 -0.899495,117.292013 -0.8995,117.283737 -0.8995,117.283708 -0.916193,117.275409 -0.916193,117.275409 -0.933902,117.247895 -0.908333)),((117.66666 -0.96139,117.66666 -1.10972,117.65 -1.14012,117.65 -1.01083,117.59302 -1.01083,117.60055 -1,117.81889 -0.50417,117.86222 -0.57111,117.66666 -0.96139)),((117.66666 -0.96139,117.823034 -0.649521,117.841939 -0.649521,117.841939 -0.671225,117.870335 -0.687017,117.843653 -0.741211,117.868959 -0.741211,117.858637 -0.760022,117.858637 -0.74951,117.850338 -0.74951,117.850338 -0.757909,117.841939 -0.757909,117.841939 -0.774508,117.850687 -0.774508,117.841524 -0.791206,117.818716 -0.791206,117.816942 -0.794762,117.816942 -0.799505,117.825341 -0.799505,117.825341 -0.807904,117.832361 -0.807904,117.827807 -0.816203,117.816942 -0.816203,117.816942 -0.836003,117.768384 -0.924492,117.752233 -0.924492,117.75035 -0.928267,117.75035 -0.949489,117.754666 -0.949489,117.736232 -0.982886,117.725219 -0.982886,117.725219 -0.991185,117.731683 -0.991185,117.713426 -1.024483,117.700356 -1.024482,117.700356 -1.016183,117.683658 -1.016183,117.683658 -1.007883,117.675359 -1.007883,117.675359 -1,117.666667 -1,117.66666 -0.96139)),((117.033739 -1.532729,117.033739 -1.52443,117.042138 -1.52443,117.042138 -1.51613,117.04217 -1.516098,117.067103 -1.5161,117.100429 -1.516097,117.100429 -1.532763,117.117096 -1.532762,117.1171 -1.599422,117.067106 -1.599424,117.067106 -1.616088,117.058736 -1.616088,117.058736 -1.599422,117.050437 -1.599422,117.050437 -1.591123,117.042138 -1.591123,117.042138 -1.582723,117.03374 -1.582723,117.03374 -1.574424,117.025441 -1.574424,117.025441 -1.532729,117.033739 -1.532729)),((117.000444 -1.432777,117.000444 -1.466106,117.01711 -1.466106,117.01711 -1.449441,117.050436 -1.449439,117.050436 -1.48277,117.033772 -1.482771,117.033772 -1.516098,117.033739 -1.51613,117.033739 -1.52443,117.017142 -1.52443,117.017142 -1.51613,116.983746 -1.51613,116.983746 -1.507731,116.975447 -1.507731,116.975447 -1.491133,116.983746 -1.491133,116.983746 -1.482734,116.992145 -1.482734,116.992145 -1.457737,116.983746 -1.457737,116.983746 -1.466136,116.967148 -1.466136,116.967148 -1.457737,116.95045 -1.457737,116.95045 -1.466136,116.923577 -1.466136,116.97859 -1.416112,116.983779 -1.416108,116.983779 -1.432776,117.000444 -1.432777)),((116.892157 -1.507731,116.925453 -1.507731,116.925453 -1.51613,116.942151 -1.51613,116.942151 -1.52443,116.975447 -1.52443,116.975447 -1.532729,117.017142 -1.532729,117.017142 -1.566125,116.983746 -1.566125,116.983746 -1.557726,116.95045 -1.557726,116.95045 -1.549427,116.933782 -1.549427,116.933783 -1.532763,116.925453 -1.532763,116.925453 -1.52443,116.900456 -1.52443,116.900456 -1.516097,116.892157 -1.516097,116.892157 -1.507731)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((116.9 -1.083333,116.916667 -1.083333,116.916667 -1.066667,116.966667 -1.066667,116.966667 -1.05,116.983333 -1.05,116.983333 -0.983333,117.016667 -0.983333,117.016667 -0.966667,117.033333 -0.966667,117.033333 -0.933333,117.05 -0.933333,117.05 -0.916667,117.066667 -0.916667,117.066667 -0.883333,117.1 -0.883333,117.1 -0.866667,117.116667 -0.866667,117.116667 -0.85,117.133333 -0.85,117.133333 -0.833333,117.15 -0.833333,117.15 -0.8,117.166667 -0.8,117.166667 -0.783333,117.183333 -0.783333,117.183333 -0.716667,117.2 -0.716667,117.2 -0.683333,117.216667 -0.683333,117.216667 -0.666667,117.233333 -0.666667,117.233333 -0.616667,117.25 -0.616667,117.25 -0.583333,117.266667 -0.583333,117.266667 -0.55,117.283333 -0.55,117.283333 -0.4,117.266667 -0.4,117.266667 -0.333333,117.266667 -0.3,117.283333 -0.3,117.283333 -0.25,117.25 -0.25,117.25 -0.216667,117.3 -0.216667,117.3 -0.2,117.316667 -0.2,117.316667 -0.166667,117.333333 -0.166667,117.333333 -0.116667,117.35 -0.116667,117.35 -0.083333,117.366667 -0.083333,117.366667 -0.05,117.383333 -0.05,117.383333 -0.033333,117.4 -0.033333,117.4 0.0,117.516667 0.0,117.516667 -0.033333,117.5 -0.033333,117.499861 -0.065306,117.49045 -0.0658,117.49045 -0.070756,117.481039 -0.070756,117.481522 -0.083333,117.477217 -0.083331,117.477217 -0.097997,117.4746 -0.097997,117.4746 -0.119297,117.470142 -0.119297,117.470142 -0.132672,117.464197 -0.132672,117.464197 -0.144064,117.460792 -0.144064,117.460236 -0.160403,117.457261 -0.160411,117.457261 -0.174278,117.450822 -0.174278,117.450822 -0.184681,117.444883 -0.184681,117.444883 -0.215392,117.437944 -0.215392,117.437944 -0.222822,117.424281 -0.222822,117.424281 -0.271211,117.423544 -0.27119,117.424072 -0.272104,117.425446 -0.274484,117.427729 -0.278122,117.430677 -0.282622,117.433055 -0.28626,117.435242 -0.288845,117.438571 -0.293058,117.442281 -0.297558,117.444754 -0.300718,117.446466 -0.302632,117.449224 -0.305218,117.451316 -0.306462,117.451982 -0.311154,117.450841 -0.31393,117.4497 -0.316707,117.449034 -0.318335,117.448178 -0.32159,117.447703 -0.324463,117.447513 -0.326186,117.447989 -0.328867,117.44932 -0.33375,117.450271 -0.335952,117.451223 -0.339208,117.451508 -0.341123,117.451603 -0.343995,117.451984 -0.346963,117.451984 -0.349931,117.452365 -0.352229,117.45265 -0.355102,117.453316 -0.357017,117.454743 -0.360272,117.456074 -0.362474,117.457025 -0.363719,117.458737 -0.364676,117.46102 -0.365633,117.462922 -0.367165,117.464159 -0.368889,117.464825 -0.370995,117.464825 -0.373101,117.465015 -0.376644,117.46492 -0.379229,117.46454 -0.382102,117.463732 -0.384965,117.462305 -0.387358,117.460165 -0.389752,117.456837 -0.390231,117.453746 -0.388795,117.452081 -0.386641,117.448514 -0.384965,117.446374 -0.383769,117.443046 -0.383529,117.439717 -0.38353,117.437101 -0.384727,117.435199 -0.386881,117.434724 -0.389753,117.436151 -0.392147,117.436151 -0.394541,117.4352 -0.396216,117.432109 -0.397174,117.430207 -0.399807,117.429018 -0.40268,117.429732 -0.405552,117.430683 -0.409142,117.431396 -0.412494,117.430445 -0.415845,117.430921 -0.418478,117.43211 -0.420393,117.434488 -0.421589,117.436152 -0.422786,117.437579 -0.424701,117.437579 -0.427573,117.436628 -0.429967,117.435202 -0.431403,117.432348 -0.431643,117.429733 -0.431164,117.42688 -0.431165,117.425215 -0.432601,117.424264 -0.434995,117.425453 -0.437149,117.427356 -0.439064,117.431636 -0.439063,117.434013 -0.439063,117.435202 -0.440739,117.436391 -0.442893,117.438531 -0.443132,117.440909 -0.441217,117.443762 -0.440499,117.444238 -0.443132,117.444951 -0.445765,117.44828 -0.447201,117.450896 -0.448637,117.453749 -0.450073,117.455176 -0.453424,117.454225 -0.461563,117.451135 -0.468505,117.445191 -0.475686,117.438771 -0.483346,117.437107 -0.487655,117.438059 -0.492682,117.438297 -0.498426,117.436395 -0.504411,117.432591 -0.513986,117.429976 -0.517816,117.429025 -0.520688,117.424983 -0.525476,117.420228 -0.529545,117.416186 -0.534572,117.411669 -0.542951,117.401445 -0.546542,117.398354 -0.546542,117.389794 -0.551809,117.383612 -0.559708,117.371962 -0.57096,117.366969 -0.574072,117.362926 -0.575269,117.35936 -0.575269,117.355793 -0.576466,117.351513 -0.577663,117.349135 -0.579578,117.348422 -0.582451,117.350087 -0.584366,117.347947 -0.585323,117.344296 -0.584845,117.3438 -0.585019,117.336183 -0.587704,117.325403 -0.591636,117.325403 -0.607925,117.316667 -0.607925,117.316667 -0.641222,117.308706 -0.641222,117.308706 -0.716506,117.289432 -0.716506,117.289378 -0.716667,117.28707 -0.723487,117.28707 -0.729591,117.286001 -0.74144,117.284575 -0.744671,117.283148 -0.749698,117.283149 -0.760829,117.282793 -0.77555,117.280297 -0.785245,117.278158 -0.796017,117.272451 -0.805353,117.263178 -0.81038,117.252689 -0.813842,117.250434 -0.836867,117.251037 -0.852489,117.250322 -0.866667,117.25 -0.866667,117.249597 -0.866667,117.249597 -0.905292,117.233333 -0.905292,117.233333 -0.916667,117.216667 -0.916667,117.216667 -0.933333,117.15 -0.933333,117.15 -0.95,117.133333 -0.95,117.133333 -0.983333,117.116667 -0.983333,117.116667 -1,117.083333 -1,117.083333 -1.016667,117.066667 -1.016667,117.066667 -1.059678,117.064242 -1.059678,117.064242 -1.058439,117.061272 -1.058439,117.061272 -1.057094,117.0583 -1.057094,117.0583 -1.055719,117.055328 -1.055719,117.055328 -1.054372,117.051936 -1.054372,117.051936 -1.052792,117.048722 -1.052792,117.048722 -1.051336,117.046247 -1.051336,117.046247 -1.050183,117.043603 -1.050183,117.043603 -1.055772,117.041411 -1.055772,117.041411 -1.062011,117.0397 -1.062011,117.0397 -1.065953,117.037003 -1.065953,117.037003 -1.086147,117.039131 -1.086147,117.039131 -1.085306,117.043058 -1.085306,117.043058 -1.083747,117.045967 -1.083747,117.045967 -1.081839,117.048606 -1.081839,117.048606 -1.089547,117.046489 -1.089547,117.046489 -1.094669,117.048033 -1.094669,117.048033 -1.1,117.05 -1.1,117.05 -1.116667,117.033333 -1.116667,117.033333 -1.133333,117.016667 -1.133333,117.016667 -1.183333,117.0 -1.183333,117.0 -1.2,116.983333 -1.2,116.983333 -1.233333,116.933333 -1.233333,116.933333 -1.183334,116.939253 -1.183333,116.939253 -1.116531,116.921733 -1.116531,116.921733 -1.112122,116.914883 -1.112122,116.914883 -1.107703,116.908192 -1.107703,116.908192 -1.1,116.9 -1.1,116.9 -1.083333)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((113.8773 -7.387769,113.738811 -7.3875,113.738811 -7.417919,113.514719 -7.417919,113.514781 -7.386189,113.398661 -7.386061,113.398639 -7.399039,113.253611 -7.398819,113.253419 -7.507689,113.478619 -7.50785,113.478611 -7.583611,113.229169 -7.583611,113.229161 -7.409961,113.17095 -7.40985,113.170861 -7.4335,113.096111 -7.433461,113.096111 -7.388469,113.211111 -7.261669,113.332219 -7.34,113.487 -7.340061,113.486811 -7.371539,113.533411 -7.371589,113.533431 -7.385269,113.57975 -7.385269,113.5797 -7.397061,113.687981 -7.397119,113.687869 -7.367069,113.778231 -7.367139,113.778231 -7.31905,113.743919 -7.319011,113.743889 -7.230469,113.775919 -7.230461,113.775919 -7.237031,113.798181 -7.237039,113.798161 -7.246839,113.8132 -7.246861,113.813161 -7.350611,113.853381 -7.350681,113.853361 -7.369669,113.8772 -7.369711,113.8773 -7.387769)),((114.9 -7.236461,114.9 -7.457781,114.611661 -7.457781,114.611661 -7.561919,114.499989 -7.561919,114.500269 -7.544461,114.424019 -7.544539,114.42395 -7.477519,114.534911 -7.4774,114.534919 -7.498269,114.585281 -7.498189,114.60825 -7.498194,114.60825 -7.453333,114.74625 -7.453333,114.74625 -7.440169,114.746189 -7.405169,114.894361 -7.404881,114.894161 -7.304889,114.762739 -7.305131,114.762789 -7.336469,114.618789 -7.336689,114.618811 -7.354331,114.451619 -7.354331,114.451619 -7.34215,114.427969 -7.342181,114.427939 -7.303289,114.6474 -7.303031,114.647319 -7.254431,114.600911 -7.254519,114.600911 -7.246939,114.498081 -7.247,114.498081 -7.181667,114.685933 -7.181667,114.685933 -7.158161,114.796661 -7.158139,114.796839 -7.256519,114.770089 -7.256569,114.770139 -7.292511,114.85065 -7.292369,114.850489 -7.261281,114.872469 -7.261239,114.872419 -7.236389,114.9 -7.236461)),((114.418419 -7.387489,114.23125 -7.387569,114.2313 -7.365639,114.117061 -7.365619,114.117061 -7.35805,114.036019 -7.358031,114.03605 -7.3197,114.117531 -7.319681,114.117611 -7.298019,114.184231 -7.297961,114.184231 -7.31295,114.250519 -7.312919,114.250519 -7.295669,114.340211 -7.295611,114.340261 -7.343439,114.407089 -7.343389,114.407111 -7.356061,114.418389 -7.35605,114.418419 -7.387489)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((113.129881 -7.351242,113.089297 -7.396128,113.065833 -7.4025,113.05 -7.425728,113.0 -7.425728,113.0 -7.416667,113.033333 -7.416667,113.033333 -7.383333,113.0 -7.383333,112.933333 -7.4,112.933333 -7.416667,112.9 -7.416667,112.9 -7.433333,112.863611 -7.433333,112.863611 -7.37425,112.884656 -7.374153,112.884656 -7.369461,112.911617 -7.369461,112.911617 -7.359486,112.920531 -7.359486,113.01045 -7.359069,113.01045 -7.328258,112.992839 -7.328447,112.992839 -7.314678,113.011486 -7.295853,113.111222 -7.295425,113.111269 -7.304303,113.129658 -7.304303,113.129881 -7.351242)),((113.427333 -7.233333,113.427333 -7.312975,113.355556 -7.312869,113.333333 -7.331208,113.318719 -7.331208,113.263917 -7.295814,113.209494 -7.260708,113.209494 -7.233333,113.427333 -7.233333)),((113.743869 -7.297714,113.743869 -7.305833,113.717222 -7.305833,113.717222 -7.320128,113.644444 -7.320128,113.644444 -7.335169,113.580833 -7.335169,113.580833 -7.302617,113.643128 -7.302617,113.643128 -7.283333,113.683333 -7.283333,113.683333 -7.297714,113.743869 -7.297714)),((113.877222 -7.32825,113.877222 -7.351217,113.853639 -7.350667,113.853639 -7.351217,113.853417 -7.346031,113.834797 -7.346031,113.834831 -7.341183,113.825614 -7.341183,113.825614 -7.324022,113.852856 -7.324022,113.852856 -7.32825,113.877222 -7.32825)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((111.577686 -7.061536,111.652231 -7.061878,111.652231 -7.116053,111.717719 -7.115956,111.717681 -7.087533,111.722528 -7.087531,111.722531 -7.089792,111.740636 -7.089789,111.740639 -7.103353,111.749692 -7.103353,111.749692 -7.101092,111.763269 -7.101089,111.763272 -7.103347,111.779111 -7.103344,111.779111 -7.084967,111.865683 -7.084814,111.908333 -7.108333,111.9093 -7.149078,111.8769 -7.149142,111.877 -7.171167,111.9093 -7.171106,111.908333 -7.216753,111.870608 -7.216828,111.870656 -7.237208,111.908333 -7.237178,111.908333 -7.257186,111.886114 -7.257186,111.886144 -7.274158,111.846939 -7.274233,111.846978 -7.294331,111.753481 -7.294497,111.644767 -7.251433,111.644767 -7.227889,111.635414 -7.227903,111.635392 -7.215633,111.624531 -7.215647,111.624508 -7.200797,111.520422 -7.200928,111.5155 -7.198267,111.5155 -7.182578,111.5119 -7.174614,111.4997 -7.172294,111.4772 -7.182703,111.446583 -7.170961,111.454544 -7.170953,111.455117 -7.164219,111.471917 -7.164203,111.471917 -7.158636,111.481256 -7.158628,111.481233 -7.147069,111.559161 -7.146981,111.559125 -7.100994,111.565236 -7.100994,111.577683 -7.083731,111.577683 -7.070578,111.581081 -7.070581,111.581081 -7.063797,111.577686 -7.063797,111.577686 -7.061536)),((111.313342 -7.000319,111.448964 -6.936903,111.448983 -6.960369,111.441481 -6.960378,111.441481 -6.970178,111.431011 -6.970186,111.43105 -7.007439,111.420681 -7.00745,111.420681 -7.032869,111.376261 -7.032911,111.376275 -7.050261,111.334194 -7.050294,111.334175 -7.025606,111.313358 -7.025619,111.313342 -7.000319)),((111.524461 -6.920833,111.568333 -6.920833,111.599472 -6.938006,111.599489 -6.946417,111.582944 -6.946436,111.582947 -6.952356,111.578339 -6.952306,111.578369 -6.966275,111.573014 -6.966308,111.573025 -6.969936,111.558278 -6.969969,111.558269 -6.981342,111.535928 -6.981369,111.539397 -6.967806,111.538925 -6.949939,111.524497 -6.950228,111.524461 -6.920833)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((108.6 6.709444,108.75 6.737283,108.75 6.666667,108.733333 6.666667,108.733333 6.616667,108.833333 6.616667,108.833333 6.666667,108.883333 6.666667,108.883333 6.633333,108.866667 6.633333,108.866667 6.6,108.85 6.6,108.85 6.516667,108.833333 6.516667,108.833333 6.5,108.8 6.5,108.8 6.483333,108.783333 6.483333,108.783333 6.45,108.766667 6.45,108.766667 6.416667,108.75 6.416667,108.75 6.333333,108.583333 6.333333,108.583333 6.266667,108.533333 6.266667,108.533333 6.283333,108.5 6.283333,108.5 6.316667,108.483333 6.316667,108.483333 6.383333,108.533333 6.383333,108.533333 6.416667,108.55 6.416667,108.55 6.433333,108.566667 6.433333,108.566667 6.45,108.633333 6.45,108.633333 6.416667,108.683333 6.416667,108.683333 6.433333,108.7 6.433333,108.7 6.483333,108.716667 6.483333,108.716667 6.5,108.733333 6.5,108.733333 6.516667,108.75 6.516667,108.75 6.533333,108.716667 6.533333,108.716667 6.516667,108.683333 6.516667,108.683333 6.533333,108.65 6.533333,108.65 6.516667,108.55 6.516667,108.55 6.55,108.566667 6.55,108.566667 6.583333,108.583333 6.583333,108.583333 6.6,108.6 6.6,108.6 6.709444)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((108.413041 -6.395758,108.411621 -6.393607,108.409592 -6.39114,108.406288 -6.387817,108.402008 -6.383125,108.400146 -6.380134,108.398232 -6.376574,108.395439 -6.370948,108.391258 -6.365154,108.387558 -6.361377,108.383339 -6.358403,108.382874 -6.357488,108.381302 -6.354905,108.379967 -6.353299,108.378456 -6.349731,108.377808 -6.346745,108.377274 -6.342947,108.375641 -6.339108,108.373199 -6.335608,108.371231 -6.33314,108.369438 -6.331244,108.368279 -6.329412,108.368263 -6.326131,108.368301 -6.323022,108.367767 -6.319287,108.366661 -6.317104,108.365547 -6.313547,108.365417 -6.309804,108.365921 -6.306634,108.366821 -6.302896,108.367622 -6.301219,108.369164 -6.298911,108.372673 -6.297462,108.374565 -6.296134,108.37455 -6.292906,108.373672 -6.290092,108.372566 -6.288252,108.371002 -6.286826,108.369156 -6.286022,108.367256 -6.285806,108.365929 -6.285176,108.364418 -6.283109,108.363136 -6.280301,108.362259 -6.277595,108.361443 -6.274672,108.361603 -6.272367,108.362968 -6.268966,108.366287 -6.26504,108.370132 -6.261912,108.371216 -6.259666,108.369774 -6.258692,108.368164 -6.259336,108.365692 -6.260437,108.363556 -6.259469,108.362396 -6.258379,108.360382 -6.258163,108.358772 -6.259321,108.356361 -6.26082,108.354286 -6.260775,108.352966 -6.261067,108.352051 -6.262112,108.350319 -6.261887,108.349907 -6.260448,108.349152 -6.258266,108.34816 -6.255912,108.346474 -6.252867,108.345078 -6.249652,108.345123 -6.247926,108.345856 -6.244468,108.346191 -6.242282,108.346344 -6.237971,108.345406 -6.23446,108.344193 -6.234003,108.342758 -6.235452,108.342026 -6.238097,108.341171 -6.241039,108.339058 -6.243696,108.337738 -6.245254,108.33828 -6.250662,108.338821 -6.254225,108.339127 -6.257499,108.3377 -6.261424,108.336563 -6.264357,108.336639 -6.268497,108.337929 -6.272407,108.339615 -6.275912,108.339455 -6.278668,108.337677 -6.280351,108.336121 -6.280181,108.334328 -6.278347,108.333168 -6.276055,108.332237 -6.274614,108.33033 -6.27353,108.329697 -6.27285,108.32917 -6.271753,108.327606 -6.269803,108.326157 -6.267853,108.325684 -6.265555,108.324921 -6.262795,108.322838 -6.261078,108.320358 -6.260344,108.317764 -6.259374,108.315506 -6.25818,108.313141 -6.256976,108.310249 -6.254342,108.308159 -6.251133,108.306419 -6.248667,108.303986 -6.246198,108.301331 -6.245291,108.299034 -6.245706,108.295807 -6.24589,108.293617 -6.245212,108.291138 -6.245047,108.287392 -6.245464,108.28521 -6.246105,108.283485 -6.246866,108.281067 -6.247732,108.277855 -6.24976,108.27504 -6.252017,108.271423 -6.25341,108.267395 -6.254125,108.264572 -6.25413,108.26123 -6.253799,108.257309 -6.252896,108.254478 -6.251988,108.251419 -6.250565,108.249397 -6.249706,108.246803 -6.248339,108.244377 -6.247026,108.2416 -6.245541,108.238945 -6.243423,108.237724 -6.24142,108.237946 -6.239577,108.238228 -6.23796,108.237526 -6.23699,108.235855 -6.23682,108.233788 -6.237001,108.231766 -6.236377,108.230385 -6.236208,108.228073 -6.235873,108.225655 -6.234967,108.224327 -6.23422,108.222824 -6.233192,108.220917 -6.23171,108.219467 -6.230791,108.217735 -6.23034,108.216476 -6.231672,108.216133 -6.232186,108.216255 -6.233054,108.216949 -6.234142,108.218742 -6.235226,108.22094 -6.236311,108.222549 -6.237104,108.224922 -6.23848,108.227341 -6.238987,108.228844 -6.239962,108.229485 -6.241564,108.22892 -6.243125,108.229271 -6.244501,108.230888 -6.244725,108.232323 -6.24455,108.233192 -6.245232,108.232735 -6.246676,108.232109 -6.247541,108.232056 -6.248689,108.233269 -6.249951,108.235352 -6.250746,108.235931 -6.252358,108.235077 -6.253909,108.232552 -6.25519,108.230598 -6.256121,108.22876 -6.257622,108.227379 -6.258665,108.226578 -6.258381,108.226112 -6.257692,108.225472 -6.256885,108.223625 -6.256036,108.221436 -6.255701,108.21965 -6.255765,108.218094 -6.255767,108.216133 -6.255723,108.214058 -6.25555,108.21273 -6.253891,108.211685 -6.252693,108.210411 -6.250852,108.208153 -6.248962,108.206703 -6.247184,108.205544 -6.245353,108.204506 -6.244662,108.203873 -6.245527,108.203537 -6.247658,108.204063 -6.249324,108.205399 -6.251508,108.207253 -6.252998,108.208412 -6.254197,108.208588 -6.255517,108.207504 -6.257022,108.204918 -6.258411,108.201752 -6.25969,108.199394 -6.260104,108.197899 -6.259763,108.196045 -6.258968,108.194664 -6.259089,108.194038 -6.259954,108.19416 -6.261509,108.195557 -6.263856,108.19735 -6.26569,108.200638 -6.267006,108.203514 -6.26682,108.206116 -6.267555,108.206467 -6.269047,108.205147 -6.270551,108.203186 -6.270506,108.201347 -6.270453,108.20015 -6.272698,108.20108 -6.274709,108.201668 -6.276664,108.200523 -6.278457,108.198624 -6.278575,108.196724 -6.278983,108.194313 -6.280952,108.191666 -6.281771,108.188728 -6.281496,108.186256 -6.282027,108.183502 -6.284049,108.181374 -6.285495,108.179192 -6.286018,108.177063 -6.287753,108.176613 -6.28983,108.177025 -6.291269,108.178474 -6.292469,108.180382 -6.293787,108.181992 -6.294581,108.183327 -6.295671,108.183678 -6.297797,108.184669 -6.298886,108.186852 -6.29905,108.189217 -6.29916,108.189796 -6.300418,108.190506 -6.302718,108.19281 -6.303279,108.194878 -6.30224,108.196251 -6.30033,108.197624 -6.298257,108.199348 -6.297903,108.200104 -6.299452,108.199997 -6.30135,108.200989 -6.303307,108.203529 -6.304041,108.204857 -6.30496,108.204575 -6.30588,108.203308 -6.306634,108.201523 -6.306581,108.199738 -6.30613,108.197891 -6.305507,108.19593 -6.305282,108.19455 -6.306441,108.193871 -6.308454,108.193939 -6.310181,108.194122 -6.312486,108.194077 -6.314384,108.19368 -6.315937,108.192879 -6.317379,108.192123 -6.316752,108.191605 -6.315892,108.190964 -6.314397,108.189804 -6.312847,108.187668 -6.312737,108.184563 -6.312869,108.181625 -6.313054,108.178116 -6.313355,108.176727 -6.313358,108.175636 -6.314112,108.173805 -6.316192,108.1726 -6.316195,108.171623 -6.316725,108.171631 -6.318216,108.172554 -6.319992,108.17366 -6.322121,108.173492 -6.323331,108.172401 -6.32339,108.171768 -6.322763,108.170723 -6.321674,108.169571 -6.321099,108.167496 -6.321452,108.165138 -6.322959,108.163246 -6.324641,108.160378 -6.327006,108.158203 -6.329265,108.156311 -6.331516,108.154358 -6.332556,108.151772 -6.333376,108.149071 -6.334711,108.146484 -6.335522,108.14389 -6.336052,108.140846 -6.336644,108.136932 -6.337404,108.133247 -6.338229,108.129158 -6.338644,108.12542 -6.338664,108.121552 -6.33833,108.118156 -6.337999,108.113487 -6.336984,108.108528 -6.335859,108.103218 -6.334497,108.100273 -6.333011,108.096687 -6.330383,108.093567 -6.32792,108.089294 -6.325352,108.087334 -6.3249,108.085548 -6.325308,108.083588 -6.324269,108.082428 -6.32383,108.080353 -6.32326,108.078506 -6.322402,108.077293 -6.321665,108.076309 -6.321263,108.074234 -6.32035,108.071579 -6.319389,108.067482 -6.317617,108.062866 -6.315509,108.057724 -6.313344,108.055649 -6.312494,108.05172 -6.310895,108.047104 -6.308732,108.041679 -6.306105,108.038445 -6.304563,108.034287 -6.302457,108.032608 -6.301654,108.030479 -6.300686,108.027878 -6.299319,108.023781 -6.297556,108.022163 -6.296979,108.019501 -6.294979,108.016205 -6.292,108.013023 -6.289021,108.009323 -6.285932,108.006546 -6.284338,108.002968 -6.282622,108.000313 -6.282059,107.99968 -6.282093,107.997231 -6.280347,107.994469 -6.278301,107.990952 -6.276418,107.988121 -6.275048,107.980103 -6.270148,107.977737 -6.269065,107.973694 -6.267249,107.965912 -6.263089,107.962158 -6.261154,107.957542 -6.258942,107.955238 -6.257858,107.952812 -6.256549,107.947617 -6.253066,107.940582 -6.249246,107.937294 -6.248294,107.93383 -6.247333,107.930954 -6.246542,107.927956 -6.246211,107.924324 -6.245947,107.921791 -6.245732,107.919426 -6.245517,107.91597 -6.245017,107.912048 -6.244294,107.908707 -6.243278,107.906342 -6.242312,107.903458 -6.241467,107.901443 -6.24096,107.893303 -6.238593,107.892838 -6.238305,107.891106 -6.237571,107.890121 -6.236997,107.887932 -6.236148,107.885277 -6.23484,107.883316 -6.233294,107.882217 -6.231347,107.881287 -6.229851,107.879555 -6.228711,107.877831 -6.228203,107.875923 -6.227525,107.875511 -6.225104,107.876488 -6.224124,107.877525 -6.224227,107.878273 -6.224342,107.879143 -6.224338,107.880348 -6.224043,107.881729 -6.223287,107.883514 -6.221887,107.885239 -6.221365,107.886452 -6.221467,107.888237 -6.221631,107.889847 -6.221389,107.892494 -6.22051,107.893814 -6.219699,107.895767 -6.218245,107.896461 -6.217319,107.896515 -6.216397,107.895706 -6.215651,107.894722 -6.215374,107.89357 -6.214684,107.893166 -6.21417,107.892357 -6.213659,107.891151 -6.213547,107.889763 -6.213788,107.888733 -6.214317,107.887405 -6.214666,107.886139 -6.214392,107.885162 -6.214044,107.884293 -6.213884,107.883141 -6.213998,107.881935 -6.214239,107.880608 -6.21419,107.879745 -6.213905,107.879166 -6.213338,107.878349 -6.211154,107.878914 -6.207229,107.879486 -6.204922,107.879997 -6.202678,107.881027 -6.200594,107.882919 -6.197992,107.883781 -6.196551,107.884232 -6.19372,107.883484 -6.192747,107.882156 -6.192003,107.881058 -6.191438,107.879791 -6.19035,107.878922 -6.189604,107.877304 -6.188291,107.876091 -6.187375,107.874245 -6.185892,107.872803 -6.184,107.872162 -6.182855,107.871124 -6.181938,107.870087 -6.181996,107.869797 -6.182405,107.870033 -6.184075,107.870438 -6.184824,107.870903 -6.185509,107.871132 -6.186194,107.871078 -6.187234,107.870796 -6.188275,107.870224 -6.18891,107.869591 -6.188624,107.869301 -6.18811,107.869179 -6.186899,107.869118 -6.185689,107.868881 -6.184252,107.868073 -6.183452,107.867554 -6.183626,107.867332 -6.184783,107.867737 -6.186454,107.867867 -6.18996,107.867638 -6.192149,107.867477 -6.194689,107.867653 -6.197047,107.867828 -6.198773,107.867607 -6.200563,107.866577 -6.202873,107.864792 -6.204092,107.86261 -6.204509,107.861282 -6.20475,107.85984 -6.205163,107.857605 -6.206673,107.8564 -6.208061,107.855309 -6.209567,107.854042 -6.210205,107.852142 -6.210213,107.850754 -6.209415,107.849884 -6.207864,107.849419 -6.206492,107.848785 -6.204706,107.848259 -6.202693,107.847328 -6.199244,107.847092 -6.197283,107.84726 -6.195385,107.848167 -6.192497,107.849487 -6.190476,107.850517 -6.188573,107.850342 -6.186784,107.849533 -6.18564,107.848206 -6.185131,107.846649 -6.185192,107.844063 -6.185963,107.841934 -6.186379,107.838936 -6.186564,107.835999 -6.186522,107.833405 -6.186543,107.831047 -6.186382,107.828682 -6.18548,107.826538 -6.18313,107.825554 -6.181119,107.822433 -6.178484,107.819672 -6.178795,107.817772 -6.179843,107.815537 -6.181407,107.813698 -6.182916,107.811745 -6.184886,107.810425 -6.187025,107.810081 -6.189159,107.810608 -6.191173,107.810616 -6.192502,107.809921 -6.193653,107.807159 -6.195057,107.804916 -6.195121,107.802841 -6.195139,107.800941 -6.19578,107.799393 -6.196881,107.798302 -6.198332,107.797035 -6.199549,107.795143 -6.200714,107.793358 -6.201183,107.791397 -6.201255,107.789093 -6.200633,107.786613 -6.200589,107.78437 -6.201124,107.782356 -6.202226,107.780693 -6.203391,107.778679 -6.204674,107.775398 -6.20561,107.771942 -6.205635,107.767792 -6.205888,107.764801 -6.206652,107.760948 -6.207889,107.757668 -6.209747,107.754051 -6.214039,107.752098 -6.21675,107.750031 -6.219073,107.746704 -6.222143,107.743309 -6.224065,107.739914 -6.225581,107.736176 -6.227098,107.733757 -6.228437,107.730133 -6.230361,107.726051 -6.232114,107.722885 -6.232824,107.71833 -6.232799,107.714531 -6.232246,107.711014 -6.231169,107.708878 -6.230148,107.705994 -6.228208,107.704315 -6.22695,107.701897 -6.225063,107.699699 -6.22312,107.69854 -6.221797,107.69664 -6.220603,107.694618 -6.220675,107.693413 -6.221485,107.693245 -6.221603,107.692375 -6.221897,107.691055 -6.221785,107.690247 -6.222023,107.689446 -6.222606,107.689102 -6.223294,107.688988 -6.224216,107.688988 -6.224967,107.689224 -6.226466,107.68969 -6.227784,107.689926 -6.229509,107.689873 -6.231245,107.689476 -6.232512,107.688667 -6.234241,107.687347 -6.235693,107.684769 -6.238064,107.683159 -6.239518,107.680855 -6.2412,107.677521 -6.243239,107.674988 -6.244408,107.672112 -6.244764,107.666641 -6.244797,107.663643 -6.244648,107.657478 -6.243645,107.654709 -6.242166,107.653435 -6.241078,107.651649 -6.239359,107.649742 -6.237072,107.648064 -6.23472,107.64679 -6.232656,107.646149 -6.231737,107.644478 -6.229503,107.643257 -6.227376,107.641808 -6.224047,107.640999 -6.222089,107.640183 -6.219851,107.639771 -6.217141,107.640068 -6.215838,107.640457 -6.214146,107.641144 -6.212932,107.64241 -6.212231,107.642639 -6.21194,107.642921 -6.211017,107.642746 -6.210557,107.642227 -6.209818,107.641533 -6.209414,107.640266 -6.209248,107.639343 -6.209316,107.637962 -6.209376,107.636467 -6.20922,107.634789 -6.208649,107.633469 -6.208086,107.631447 -6.207118,107.630234 -6.206256,107.628326 -6.204023,107.627403 -6.202472,107.626297 -6.200525,107.625145 -6.198225,107.6241 -6.195699,107.622818 -6.192369,107.622009 -6.190701,107.621086 -6.189385,107.619873 -6.189219,107.617561 -6.187964,107.616531 -6.188429,107.615669 -6.189184,107.614861 -6.189937,107.613541 -6.190983,107.610435 -6.192325,107.606804 -6.192115,107.60421 -6.191901,107.600815 -6.191518,107.597122 -6.190965,107.592628 -6.19019,107.588303 -6.189404,107.584152 -6.18851,107.580757 -6.187956,107.576202 -6.186828,107.568413 -6.183022,107.564087 -6.180745,107.561836 -6.180068,107.558609 -6.179965,107.556419 -6.179866,107.553429 -6.179482,107.55204 -6.179144,107.549278 -6.178352,107.547714 -6.177907,107.544205 -6.177634,107.541031 -6.176681,107.535149 -6.175098,107.531631 -6.174138,107.528229 -6.172607,107.525177 -6.171418,107.520332 -6.169081,107.51519 -6.166175,107.510002 -6.163333,107.505325 -6.160706,107.499908 -6.158144,107.495117 -6.156105,107.489578 -6.153834,107.486061 -6.152476,107.481567 -6.151059,107.47805 -6.149466,107.47493 -6.14788,107.470718 -6.145657,107.467659 -6.143889,107.465004 -6.141714,107.462753 -6.139021,107.460785 -6.136445,107.458298 -6.13294,107.456215 -6.130075,107.452217 -6.122844,107.450539 -6.119914,107.448631 -6.116994,107.445969 -6.112514,107.443878 -6.108555,107.4422 -6.105625,107.441101 -6.103732,107.440292 -6.102298,107.438957 -6.099945,107.437279 -6.097187,107.435249 -6.093346,107.433052 -6.089324,107.431023 -6.085302,107.429573 -6.082606,107.427437 -6.078937,107.425758 -6.07635,107.422806 -6.072856,107.42067 -6.070281,107.414879 -6.061557,107.412796 -6.058114,107.411179 -6.05484,107.40921 -6.051803,107.407532 -6.048927,107.405212 -6.045258,107.402435 -6.040381,107.400696 -6.037053,107.397568 -6.03131,107.39566 -6.028327,107.392418 -6.023396,107.390396 -6.020414,107.387733 -6.01634,107.3853 -6.013531,107.3834 -6.011985,107.381668 -6.010212,107.379234 -6.007638,107.377159 -6.005107,107.374672 -6.001846,107.373062 -6.00006,107.370079 -5.997137,107.367714 -5.995426,107.365005 -5.993774,107.362358 -5.992064,107.359642 -5.99001,107.357277 -5.987839,107.354851 -5.985438,107.351433 -5.98149,107.348717 -5.978803,107.343346 -5.974177,107.338806 -5.970688,107.334351 -5.967617,107.329216 -5.964541,107.32502 -5.962554,107.320068 -5.960857,107.315811 -5.959502,107.311905 -5.958375,107.30851 -5.957647,107.305412 -5.956975,107.302711 -5.956646,107.299667 -5.956722,107.295654 -5.956975,107.2929 -5.956934,107.289742 -5.95701,107.286072 -5.957089,107.280968 -5.957349,107.277069 -5.957603,107.273567 -5.957911,107.269615 -5.958336,107.266403 -5.958758,107.263992 -5.959232,107.261765 -5.96005,107.259132 -5.961331,107.256676 -5.962495,107.253471 -5.963894,107.250786 -5.965348,107.248444 -5.966914,107.246155 -5.967906,107.243469 -5.969014,107.240257 -5.970125,107.237053 -5.971294,107.23381 -5.972418,107.23053 -5.973173,107.226341 -5.973945,107.22377 -5.975053,107.221481 -5.975814,107.218903 -5.976577,107.215691 -5.977113,107.21254 -5.977477,107.208183 -5.97825,107.205605 -5.978898,107.202805 -5.979892,107.201035 -5.981052,107.197777 -5.983142,107.195892 -5.984188,107.191887 -5.985764,107.188797 -5.986278,107.186783 -5.986542,107.183342 -5.986907,107.18026 -5.98708,107.176865 -5.987233,107.174622 -5.987188,107.172386 -5.987029,107.16951 -5.986816,107.166931 -5.986486,107.164001 -5.985871,107.163479 -5.985794,107.159859 -5.985262,107.154289 -5.983915,107.148598 -5.982396,107.145714 -5.981205,107.139267 -5.978195,107.134659 -5.975347,107.131889 -5.973466,107.127739 -5.9705,107.121841 -5.965014,107.116801 -5.958695,107.116226 -5.957916,107.11367 -5.953619,107.111404 -5.949319,107.109482 -5.945937,107.107803 -5.943187,107.10582 -5.939518,107.104362 -5.936192,107.103302 -5.932775,107.100883 -5.930922,107.09848 -5.931338,107.09613 -5.932674,107.093033 -5.932635,107.089417 -5.931679,107.086479 -5.931064,107.083153 -5.931256,107.080544 -5.931582,107.080639 -5.896086,107.148017 -5.896317,107.147897 -5.850722,107.130069 -5.850664,107.130128 -5.841756,107.112044 -5.841678,107.112114 -5.833067,107.094092 -5.819897,107.094083 -5.823533,107.085122 -5.823519,107.085144 -5.814361,107.066911 -5.8143,107.075869 -5.841564,107.030744 -5.841417,107.030586 -5.886744,107.016669 -5.886694,107.016669 -5.866667,106.949722 -5.866669,106.949997 -5.899997,106.916664 -5.9,106.916664 -5.916664,106.883331 -5.916664,106.883331 -5.933336,106.849997 -5.933333,106.849997 -5.966667,106.833336 -5.966667,106.833336 -6.033333,106.816664 -6.033331,106.816664 -6.066664,106.849997 -6.066669,106.849997 -6.083333,106.866667 -6.083336,106.866667 -6.108333,106.783331 -6.105836,106.783333 -6.066047,106.797406 -6.066106,106.797803 -5.967158,106.786558 -5.967114,106.786703 -5.930961,106.795581 -5.930994,106.79565 -5.913222,106.813925 -5.913322,106.814083 -5.903828,106.822889 -5.9038,106.822925 -5.894922,106.831792 -5.894958,106.831825 -5.886142,106.850225 -5.886158,106.850261 -5.876622,106.859278 -5.876647,106.859247 -5.858964,106.940286 -5.859167,106.940317 -5.850425,106.949706 -5.850386,106.949794 -5.841533,106.958694 -5.841514,106.958692 -5.833331,106.966672 -5.833331,106.966667 -5.783331,107.016669 -5.783336,107.016639 -5.75425,107.085344 -5.754519,107.085211 -5.796447,107.139386 -5.796628,107.139511 -5.760458,107.220833 -5.760833,107.221389 -5.570833,107.194264 -5.570736,107.194319 -5.552622,107.016678 -5.552081,107.016669 -5.466669,106.966667 -5.466664,106.966667 -5.35,107.033331 -5.35,107.033331 -5.333336,107.300003 -5.333333,107.299844 -5.670528,107.327928 -5.670617,107.328058 -5.600014,107.356161 -5.599994,107.356075 -5.625164,107.371247 -5.625214,107.371144 -5.67075,107.383106 -5.670783,107.382972 -5.715747,107.428489 -5.715867,107.428611 -5.670833,107.419764 -5.670911,107.419864 -5.634836,107.401536 -5.634786,107.401639 -5.598728,107.39215 -5.598703,107.392181 -5.589839,107.428181 -5.589936,107.428139 -5.607644,107.473633 -5.607775,107.473503 -5.652706,107.455781 -5.652642,107.455642 -5.707075,107.536525 -5.707269,107.5365 -5.725647,107.563947 -5.725708,107.563972 -5.716844,107.599622 -5.716869,107.5996 -5.725797,107.626861 -5.725961,107.626625 -5.780256,107.662703 -5.780361,107.662881 -5.725956,107.690044 -5.726019,107.689931 -5.770956,107.744906 -5.771069,107.744867 -5.789475,107.789089 -5.789572,107.789108 -5.798383,107.808081 -5.798422,107.808036 -5.807911,107.816625 -5.806981,107.816586 -5.816539,107.879864 -5.816678,107.879806 -5.82575,107.915928 -5.825786,107.915867 -5.856767,107.879783 -5.856758,107.87975 -5.843786,107.81655 -5.843639,107.816439 -5.870758,107.906842 -5.870994,107.906772 -5.880683,107.982558 -5.880744,107.982339 -5.970642,108.060244 -5.970781,108.060414 -5.871267,108.159786 -5.871406,108.159758 -5.889525,108.233328 -5.889469,108.233328 -5.934864,108.168722 -5.934769,108.168531 -6.061372,108.213528 -6.061439,108.213514 -6.070514,108.267983 -6.070589,108.267958 -6.088764,108.313347 -6.088822,108.313336 -6.097925,108.330961 -6.097947,108.330822 -6.206442,108.421092 -6.206547,108.421133 -6.152022,108.430761 -6.152033,108.430828 -6.095844,108.484808 -6.095853,108.484764 -6.143231,108.520919 -6.143264,108.52085 -6.216661,108.466667 -6.216664,108.466667 -6.266667,108.550003 -6.266672,108.550003 -6.3,108.616667 -6.3,108.616667 -6.35,108.602117 -6.349908,108.602056 -6.42375,108.710447 -6.42375,108.710603 -6.369575,108.746792 -6.369594,108.782519 -6.401175,108.782519 -6.405792,108.783086 -6.460081,108.692478 -6.460044,108.69245 -6.505269,108.656267 -6.505247,108.656242 -6.541433,108.545303 -6.541344,108.538842 -6.484264,108.538553 -6.423814,108.556828 -6.423831,108.556872 -6.369683,108.529639 -6.369661,108.529672 -6.333447,108.484167 -6.333403,108.484131 -6.369617,108.457242 -6.369589,108.457211 -6.396494,108.417075 -6.39645,108.413041 -6.395758)),((106.5 -5.000003,106.555936 -5.0123,106.555656 -5.062531,106.591556 -5.062864,106.591186 -5.171544,106.627047 -5.171681,106.626944 -5.198428,106.654425 -5.198542,106.654436 -5.207744,106.681117 -5.207842,106.681033 -5.234456,106.686856 -5.234486,106.686661 -5.288953,106.599914 -5.288622,106.599633 -5.361364,106.616819 -5.361431,106.616667 -5.45,106.5 -5.449997,106.5 -5.000003)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((105.351969 4.864219,105.351939 4.713061,105.392061 4.666669,105.5 4.666669,105.5 4.75,105.61195 4.75,105.640369 4.77595,105.75 4.883331,105.936361 4.836561,106.015081 4.810061,105.993331 4.756811,106.04305 4.729775,106.107031 4.776356,106.238558 4.754544,106.033331 4.666669,105.833339 4.666669,105.833339 4.583331,105.766681 4.583153,105.766672 4.466511,105.634583 4.466511,105.634583 4.333331,105.5 4.333331,105.5 4.383331,105.366669 4.45,105.333339 4.45,105.333339 4.5,105.383331 4.5,105.383331 4.633331,105.291661 4.633331,105.291661 4.666669,105.233331 4.666669,105.351969 4.864219)),((105.351969 4.864219,105.4212 4.980939,105.57875 4.933639,105.632231 4.947169,105.695 4.8975,105.562769 4.864219,105.351969 4.864219)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((104.166667 -3.983333,104.166667 -4.016667,104.133333 -4.016667,104.133333 -4,104.116667 -4,104.116667 -3.966667,104.083333 -3.966667,104.083333 -3.983333,104.033333 -3.983333,104.033333 -4,104.025 -4,104.025 -3.954167,103.917861 -3.954167,103.917861 -3.927778,103.941667 -3.927778,103.941667 -3.91,103.99275 -3.91,103.99275 -3.902833,103.979722 -3.902833,103.979722 -3.888889,103.9473 -3.888889,103.9473 -3.877428,104.012667 -3.877428,104.012667 -3.91,104.025 -3.91,104.025 -3.908333,104.083611 -3.908333,104.083611 -3.95,104.1 -3.95,104.1 -3.933333,104.139589 -3.933333,104.139589 -3.950797,104.143425 -3.950797,104.143497 -3.961353,104.150661 -3.961353,104.150661 -3.983333,104.166667 -3.983333)),((104.012667 -3.742883,104.012667 -3.822222,103.941667 -3.822222,103.941667 -3.768539,103.927672 -3.768539,103.927672 -3.732911,103.922131 -3.732911,103.922131 -3.708842,103.83055 -3.708842,103.830556 -3.666389,103.921833 -3.666389,103.921833 -3.708694,103.980833 -3.708694,103.980833 -3.742883,104.012667 -3.742883)),((104.633333 -3.9,104.633333 -3.933333,104.533333 -3.933506,104.533333 -3.916667,104.516667 -3.916667,104.516667 -3.933333,104.460267 -3.933506,104.460267 -3.916981,104.490631 -3.916981,104.490631 -3.893228,104.509264 -3.893228,104.509264 -3.868786,104.53135 -3.868786,104.531406 -3.803822,104.584464 -3.803853,104.584464 -3.8,104.6 -3.8,104.6 -3.833333,104.566667 -3.833333,104.566667 -3.866667,104.583333 -3.866667,104.583333 -3.883333,104.616667 -3.883333,104.616667 -3.9,104.633333 -3.9)),((104.488106 -3.8,104.488106 -3.876264,104.483333 -3.876264,104.483333 -3.85,104.466667 -3.85,104.466667 -3.866667,104.377778 -3.866667,104.377778 -3.7975,104.330833 -3.7975,104.326658 -3.791058,104.333422 -3.791058,104.333422 -3.788289,104.340189 -3.788289,104.340189 -3.785172,104.349036 -3.785172,104.349036 -3.781172,104.355803 -3.781172,104.355803 -3.779114,104.361006 -3.779114,104.361006 -3.776864,104.363956 -3.776864,104.363956 -3.774267,104.367078 -3.774267,104.367078 -3.771361,104.378 -3.771361,104.378 -3.778831,104.384 -3.778831,104.384 -3.7871,104.419 -3.7871,104.419 -3.78325,104.438 -3.78325,104.438 -3.776331,104.45 -3.776331,104.45 -3.783333,104.433333 -3.783333,104.433333 -3.8,104.488106 -3.8)),((104.4 -3.683333,104.4 -3.694369,104.395761 -3.694369,104.395761 -3.702397,104.384717 -3.702397,104.384717 -3.715464,104.380167 -3.715467,104.380167 -3.725522,104.371506 -3.725522,104.371506 -3.762772,104.344431 -3.76275,104.344431 -3.758794,104.3269 -3.758794,104.3269 -3.763303,104.321053 -3.763303,104.321053 -3.769614,104.311339 -3.769614,104.288889 -3.7375,104.3125 -3.658333,104.383333 -3.658333,104.383333 -3.683333,104.4 -3.683333)),((103.816944 -3.859147,103.816944 -3.889722,103.798528 -3.889711,103.798528 -3.846822,103.774411 -3.846822,103.7744 -3.827772,103.743917 -3.827758,103.743917 -3.823369,103.743917 -3.804361,103.757019 -3.804361,103.757019 -3.773689,103.800972 -3.773681,103.800967 -3.800411,103.799853 -3.822606,103.799853 -3.859147,103.816944 -3.859147)),((104.143578 -3.721033,104.143578 -3.740833,104.083611 -3.740833,104.083611 -3.85545,104.072097 -3.85545,104.072097 -3.721033,104.143578 -3.721033)),((104.466667 -3.733333,104.466667 -3.763933,104.398853 -3.763933,104.398853 -3.714986,104.416667 -3.714986,104.416667 -3.716667,104.433333 -3.716667,104.433333 -3.733333,104.466667 -3.733333)),((104.0 -3.666389,104.0 -3.703978,103.935447 -3.703978,103.935447 -3.666389,104.0 -3.666389)),((104.578936 -3.733333,104.578936 -3.763933,104.55 -3.763933,104.55 -3.75,104.566667 -3.75,104.566667 -3.733333,104.578936 -3.733333)),((103.93 -3.970511,103.93 -3.974667,103.893828 -3.974667,103.893828 -3.970511,103.909686 -3.970511,103.909686 -3.959167,103.921097 -3.959167,103.921097 -3.970511,103.93 -3.970511)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((104.141667 -3.666667,104.141667 -3.703333,104.151944 -3.703333,104.151944 -3.740833,104.143578 -3.740833,104.143578 -3.721033,104.072097 -3.721033,104.072097 -3.85545,104.083611 -3.85545,104.083611 -3.908333,104.025 -3.908333,104.025 -3.91,104.012667 -3.91,104.012667 -3.876956,103.941667 -3.876956,103.941667 -3.822222,104.012667 -3.822222,104.012667 -3.742883,103.980833 -3.742883,103.980833 -3.708694,103.921833 -3.708694,103.921833 -3.66639,103.935447 -3.66639,103.935447 -3.703978,104.0 -3.703978,104.0 -3.7125,104.0 -3.712778,104.11889 -3.712778,104.11889 -3.666667,104.141667 -3.666667)),((104.583333 -3.733333,104.583333 -3.8,104.584464 -3.8,104.584464 -3.803853,104.531136 -3.803853,104.531136 -3.838472,104.53135 -3.868786,104.509264 -3.868786,104.509264 -3.893228,104.490631 -3.893506,104.490631 -3.916981,104.460267 -3.916981,104.460267 -3.933506,104.5 -3.933506,104.5 -4,104.483333 -4,104.483333 -4.013747,104.416667 -4.013534,104.416667 -3.95,104.433333 -3.95,104.433333 -3.933333,104.45 -3.933333,104.45 -3.916667,104.466667 -3.916667,104.466667 -3.883333,104.483333 -3.883333,104.483333 -3.876264,104.488098 -3.876264,104.488106 -3.8,104.5 -3.8,104.5 -3.816667,104.516667 -3.816667,104.516667 -3.8,104.533333 -3.8,104.533333 -3.783333,104.55 -3.783333,104.55 -3.763933,104.578936 -3.763933,104.578936 -3.733333,104.583333 -3.733333)),((104.025 -3.954167,104.025 -4,104.023889 -4,103.990556 -3.975,103.93 -3.974728,103.93 -3.970556,103.921111 -3.970556,103.921111 -3.959167,103.909722 -3.959167,103.909722 -3.970556,103.893889 -3.970556,103.893889 -3.974565,103.874389 -3.974477,103.874389 -3.970139,103.883472 -3.970139,103.883472 -3.922222,103.9075 -3.922222,103.9075 -3.916111,103.924139 -3.916111,103.924139 -3.909778,103.931833 -3.909778,103.931833 -3.897889,103.939889 -3.897889,103.939889 -3.888889,103.979722 -3.888889,103.979722 -3.902833,103.99275 -3.902833,103.99275 -3.91,103.941667 -3.91,103.941667 -3.927778,103.917861 -3.927778,103.917861 -3.954167,104.025 -3.954167)),((104.416667 -3.7,104.416667 -3.714986,104.398853 -3.714986,104.398853 -3.763933,104.466667 -3.763933,104.466667 -3.766667,104.45 -3.766667,104.45 -3.776331,104.438 -3.776331,104.438 -3.78325,104.419 -3.78325,104.419 -3.7871,104.384 -3.7871,104.384 -3.778831,104.378 -3.778831,104.378 -3.771361,104.367078 -3.771361,104.367078 -3.774267,104.363956 -3.774267,104.363956 -3.776864,104.361006 -3.776864,104.361006 -3.779114,104.355803 -3.779114,104.355803 -3.781172,104.349036 -3.781172,104.349036 -3.785172,104.340189 -3.785172,104.340189 -3.788289,104.333422 -3.788289,104.333422 -3.791058,104.326658 -3.791058,104.326658 -3.791528,104.311339 -3.769614,104.321053 -3.769614,104.321053 -3.763303,104.3269 -3.763281,104.3269 -3.758794,104.344431 -3.758794,104.344431 -3.76275,104.371506 -3.76275,104.371506 -3.725522,104.380167 -3.725522,104.380167 -3.715467,104.384717 -3.715467,104.384717 -3.702397,104.395761 -3.702397,104.395761 -3.694369,104.4 -3.694369,104.4 -3.7,104.416667 -3.7)),((104.533333 -4.120619,104.533333 -4.133333,104.533333 -4.150508,104.516667 -4.150305,104.516667 -4.133333,104.4 -4.133333,104.4 -4.12074,104.533333 -4.120619)),((104.616667 -3.933506,104.616667 -3.95,104.583333 -3.95,104.583333 -3.966667,104.55 -3.966667,104.55 -3.95,104.533333 -3.95,104.533333 -3.933506,104.616667 -3.933506)),((103.830556 -3.666389,103.830556 -3.708889,103.803889 -3.708889,103.801111 -3.675,103.781944 -3.675,103.781944 -3.666389,103.830556 -3.666389)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((104.05 -2,104.05 -1.88333,104.087 -1.88333,104.087 -1.8,103.981 -1.8,104.035 -1.73333,104.083 -1.73333,104.083 -1.75,104.183 -1.75,104.183 -1.78333,104.233 -1.78333,104.233 -1.81667,104.3 -1.81667,104.3 -1.83333,104.332 -1.83333,104.383 -1.8625,104.383 -1.88333,104.417 -1.88333,104.417 -1.9209,104.317 -1.95924,104.317 -1.91667,104.267 -1.91667,104.267 -1.88333,104.25 -1.88333,104.25 -1.86667,104.183 -1.86667,104.183 -1.9,104.167 -1.9,104.167 -1.98333,104.117 -1.98333,104.117 -2.01667,104.081 -2.01667,104.081 -2.04946,104.01 -2.07691,104.01 -2.03333,103.983 -2.03333,103.983 -2.06667,103.933 -2.06667,103.933 -2.1,103.85 -2.1,103.85 -2.11667,103.75 -2.11667,103.75 -2.1,103.733 -2.1,103.733 -2.08333,103.7 -2.08333,103.7 -2.01667,103.833 -2.01667,103.833 -1.98333,103.883 -1.98333,103.883 -2,104.01 -2,104.05 -2)),((103.633 -1.91667,103.633 -1.95,103.6 -1.95,103.6 -1.91667,103.633 -1.91667)))",
+          1
+        ],
+        [
+          "MULTIPOLYGON (((103.9252 -3.7687,103.925167 -3.876956,103.8755 -3.876956,103.8755 -3.948006,103.86511 -3.948006,103.865112 -3.946908,103.865652 -3.946909,103.865658 -3.942132,103.865097 -3.942152,103.865101 -3.939774,103.863896 -3.939772,103.863898 -3.938395,103.862901 -3.938394,103.862904 -3.936162,103.861429 -3.93616,103.861431 -3.93495,103.860496 -3.934949,103.860498 -3.933655,103.857984 -3.933652,103.857986 -3.932275,103.856076 -3.932231,103.856071 -3.935235,103.856902 -3.935236,103.856899 -3.937572,103.858041 -3.937595,103.858038 -3.939764,103.859596 -3.939766,103.859593 -3.942082,103.860736 -3.942083,103.860733 -3.944044,103.861688 -3.944046,103.861686 -3.94586,103.862226 -3.945861,103.862223 -3.948006,103.817017 -3.948006,103.817016 -3.908743,103.827496 -3.908758,103.827493 -3.911105,103.830168 -3.911109,103.830161 -3.922922,103.832437 -3.922922,103.832437 -3.92564,103.841875 -3.92564,103.841875 -3.922788,103.843513 -3.922788,103.84351 -3.924568,103.846272 -3.924572,103.846269 -3.926929,103.848117 -3.926932,103.848116 -3.927787,103.854555 -3.927796,103.854567 -3.919076,103.851638 -3.919072,103.851642 -3.916397,103.849097 -3.916393,103.8491 -3.913812,103.847014 -3.913809,103.847016 -3.91214,103.843319 -3.912135,103.843321 -3.910487,103.84087 -3.910483,103.840874 -3.907938,103.831881 -3.907926,103.831882 -3.906987,103.830823 -3.906986,103.830824 -3.906005,103.829412 -3.906003,103.829413 -3.905002,103.82744 -3.904999,103.827442 -3.903184,103.825926 -3.903182,103.825929 -3.901388,103.824682 -3.901386,103.824687 -3.898153,103.823067 -3.89813,103.823071 -3.895043,103.821638 -3.895041,103.82164 -3.89381,103.820581 -3.893808,103.820583 -3.891973,103.818859 -3.89197,103.818863 -3.889717,103.817741 -3.889716,103.817742 -3.888986,103.817015 -3.888985,103.817014 -3.869699,103.818298 -3.869701,103.818301 -3.867531,103.819132 -3.867533,103.819152 -3.86043,103.817969 -3.860428,103.817978 -3.853899,103.816513 -3.853886,103.816516 -3.851758,103.815852 -3.851758,103.815854 -3.850485,103.815085 -3.850484,103.815087 -3.849024,103.814215 -3.849023,103.814217 -3.847562,103.812909 -3.84756,103.812913 -3.84416,103.808573 -3.844154,103.808567 -3.848577,103.807341 -3.848596,103.80733 -3.856731,103.806333 -3.85673,103.80633 -3.859011,103.8 -3.859011,103.8 -3.822778,103.848056 -3.822778,103.848006 -3.802729,103.854984 -3.802738,103.854978 -3.807258,103.860475 -3.807266,103.860472 -3.809557,103.864011 -3.809562,103.864007 -3.812852,103.866702 -3.812855,103.866702 -3.813598,103.867612 -3.8136,103.86761 -3.81513,103.869353 -3.815132,103.869351 -3.817083,103.872086 -3.817087,103.872081 -3.82076,103.873467 -3.820756,103.873458 -3.823931,103.876567 -3.823935,103.876563 -3.827248,103.87861 -3.827251,103.878606 -3.830121,103.880244 -3.830123,103.880241 -3.832303,103.88261 -3.832307,103.882605 -3.83606,103.886933 -3.836066,103.886931 -3.837711,103.902116 -3.837731,103.902116 -3.837257,103.904161 -3.83726,103.904162 -3.835816,103.908198 -3.835821,103.908203 -3.831636,103.910072 -3.831638,103.910081 -3.824059,103.907976 -3.824057,103.90798 -3.820708,103.905991 -3.820705,103.905994 -3.818321,103.901256 -3.818315,103.901261 -3.81548,103.898766 -3.815477,103.898769 -3.81274,103.896515 -3.812737,103.896516 -3.811865,103.893291 -3.811861,103.893296 -3.808188,103.88951 -3.808183,103.889516 -3.803667,103.885907 -3.803663,103.885913 -3.799266,103.881535 -3.79926,103.881541 -3.79516,103.879115 -3.795157,103.879121 -3.790433,103.877343 -3.79043,103.877347 -3.786787,103.879256 -3.786789,103.879267 -3.777799,103.877354 -3.777797,103.877357 -3.774351,103.87616 -3.774349,103.876163 -3.772365,103.872571 -3.77236,103.872575 -3.769609,103.870974 -3.769607,103.870965 -3.768011,103.867414 -3.768007,103.867417 -3.765942,103.865018 -3.765938,103.865017 -3.763336,103.862691 -3.763333,103.862692 -3.762457,103.86128 -3.762455,103.861282 -3.760794,103.859824 -3.760792,103.859826 -3.759614,103.85723 -3.759602,103.857231 -3.758714,103.855091 -3.758711,103.855093 -3.756888,103.85273 -3.756884,103.852732 -3.754986,103.850559 -3.754983,103.850564 -3.750702,103.848176 -3.750698,103.848179 -3.748279,103.846435 -3.748276,103.846439 -3.745231,103.844611 -3.745228,103.844605 -3.74261,103.841884 -3.742607,103.841887 -3.740622,103.83898 -3.740619,103.838982 -3.738556,103.830904 -3.738545,103.830904 -3.739108,103.82417 -3.739106,103.82417 -3.736055,103.82037 -3.736055,103.82037 -3.734204,103.814933 -3.734204,103.814933 -3.731477,103.814408 -3.731477,103.814408 -3.7282,103.813939 -3.7282,103.813939 -3.726548,103.812421 -3.726548,103.812421 -3.727567,103.810241 -3.727567,103.810241 -3.727869,103.808971 -3.727869,103.808971 -3.728558,103.808006 -3.728558,103.808006 -3.729164,103.807509 -3.729164,103.807509 -3.733708,103.80795 -3.733708,103.80795 -3.736434,103.809247 -3.736434,103.809247 -3.737054,103.812697 -3.737054,103.812697 -3.747629,103.814067 -3.747629,103.81406 -3.752804,103.81298 -3.752802,103.812979 -3.753762,103.811895 -3.753761,103.811892 -3.755658,103.811107 -3.755657,103.811104 -3.758182,103.81164 -3.758181,103.811641 -3.759997,103.812846 -3.759999,103.812844 -3.761209,103.814256 -3.761211,103.814254 -3.762692,103.816144 -3.762695,103.816143 -3.763675,103.818884 -3.763679,103.818882 -3.764617,103.821395 -3.764642,103.821394 -3.765685,103.827436 -3.765693,103.827436 -3.766591,103.830417 -3.766591,103.830417 -3.773861,103.834299 -3.773861,103.834299 -3.778872,103.832983 -3.778872,103.832983 -3.784623,103.839854 -3.784623,103.839854 -3.776687,103.836185 -3.776687,103.836185 -3.76995,103.839835 -3.769954,103.839841 -3.772979,103.843962 -3.772985,103.843957 -3.776685,103.847695 -3.77669,103.84769 -3.781071,103.849225 -3.781073,103.849221 -3.783879,103.850178 -3.78388,103.850169 -3.79049,103.840507 -3.790477,103.840508 -3.789622,103.839346 -3.78962,103.839347 -3.788724,103.837187 -3.788721,103.837167 -3.788157,103.834903 -3.788154,103.834904 -3.787466,103.831371 -3.787461,103.831371 -3.787878,103.827968 -3.787874,103.827967 -3.788646,103.82643 -3.788643,103.826428 -3.789645,103.82593 -3.789644,103.825927 -3.791626,103.824391 -3.791624,103.824397 -3.8003,103.8011 -3.8003,103.801083 -3.773556,103.782079 -3.773556,103.782075 -3.743123,103.784752 -3.743126,103.784774 -3.726851,103.78207 -3.726849,103.782053 -3.675,103.801083 -3.675,103.801083 -3.709064,103.921833 -3.709061,103.921833 -3.742883,103.888333 -3.742883,103.8883 -3.7687,103.9252 -3.7687)),((103.7568 -3.7903,103.7568 -3.8041,103.7437 -3.8039,103.7437 -3.80805,103.737292 -3.80805,103.737292 -3.7903,103.7568 -3.7903)))",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Field-level projects outline in well-known-text format.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Basin",
+      "code_friendly_name_guess": "basin",
+      "n_total": 999,
+      "n_null": 879,
+      "n_non_null": 120,
+      "null_rate": 0.8799,
+      "n_unique": 65,
+      "top_values": [
+        [
+          "West Siberian",
+          11
+        ],
+        [
+          "Northern Carnarvon",
+          7
+        ],
+        [
+          "Bohai Bay",
+          7
+        ],
+        [
+          "Columbus",
+          5
+        ],
+        [
+          "Rovuma",
+          4
+        ],
+        [
+          "Berkine",
+          4
+        ],
+        [
+          "Zhujiangkou",
+          3
+        ],
+        [
+          "Surat",
+          3
+        ],
+        [
+          "Okhotsk",
+          3
+        ],
+        [
+          "Mumbai Offshore",
+          3
+        ],
+        [
+          "Lena-Tunguska",
+          3
+        ],
+        [
+          "Browse",
+          3
+        ],
+        [
+          "West Siberian; Bolshoi Urengoy",
+          2
+        ],
+        [
+          "Songliao",
+          2
+        ],
+        [
+          "Santos",
+          2
+        ],
+        [
+          "Rajasthan",
+          2
+        ],
+        [
+          "Qaidam",
+          2
+        ],
+        [
+          "Precaspian",
+          2
+        ],
+        [
+          "Pre-Caspian",
+          2
+        ],
+        [
+          "Junggar",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Each field-level project is within a particular basin (short for sedimentary basin), when available, shown here.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Block(s)",
+      "code_friendly_name_guess": "block_s",
+      "n_total": 999,
+      "n_null": 780,
+      "n_non_null": 219,
+      "null_rate": 0.7808,
+      "n_unique": 199,
+      "top_values": [
+        [
+          "Stabroek Block",
+          4
+        ],
+        [
+          "Block 6",
+          4
+        ],
+        [
+          "Block 17",
+          4
+        ],
+        [
+          "Area 1",
+          3
+        ],
+        [
+          "OML 11",
+          2
+        ],
+        [
+          "North Slope",
+          2
+        ],
+        [
+          "East Mayaro Block TT",
+          2
+        ],
+        [
+          "Cubarral",
+          2
+        ],
+        [
+          "Block 31",
+          2
+        ],
+        [
+          "Block 18",
+          2
+        ],
+        [
+          "Block 15",
+          2
+        ],
+        [
+          "Block 1",
+          2
+        ],
+        [
+          "Area 4",
+          2
+        ],
+        [
+          "blocks A-1 and A-3",
+          1
+        ],
+        [
+          "XIX Neptun 2",
+          1
+        ],
+        [
+          "West Nile Delta development",
+          1
+        ],
+        [
+          "West Delta Deep Marine; West Delta Deep Marine (WDDM)",
+          1
+        ],
+        [
+          "WL4-00",
+          1
+        ],
+        [
+          "WA-50-L",
+          1
+        ],
+        [
+          "WA-44-L",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    }
+  ]
+}

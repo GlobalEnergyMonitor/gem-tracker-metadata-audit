@@ -1,0 +1,2721 @@
+{
+  "table_name": "portal_energetico_tracker_2026_03_24__bioenergy",
+  "tracker_slug": "portal_energetico_tracker_2026_03_24",
+  "tab_slug": "bioenergy",
+  "n_rows": 839,
+  "analyzed_at": "2026-07-07T21:45:22.201008+00:00",
+  "tracker_info": {},
+  "fields": [
+    {
+      "field_name": "Date last researched",
+      "code_friendly_name_guess": "date_last_researched",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 40,
+      "top_values": [
+        [
+          "8/18/2025",
+          398
+        ],
+        [
+          "11/3/2022",
+          241
+        ],
+        [
+          "4/17/2025",
+          27
+        ],
+        [
+          "4/15/2025",
+          17
+        ],
+        [
+          "6/26/2023",
+          14
+        ],
+        [
+          "5/6/2025",
+          13
+        ],
+        [
+          "5/7/2025",
+          12
+        ],
+        [
+          "4/16/2025",
+          12
+        ],
+        [
+          "5/1/2025",
+          11
+        ],
+        [
+          "5/13/2025",
+          8
+        ],
+        [
+          "5/14/2025",
+          7
+        ],
+        [
+          "6/22/2023",
+          6
+        ],
+        [
+          "4/30/2025",
+          6
+        ],
+        [
+          "6/25/2024",
+          5
+        ],
+        [
+          "6/15/2023",
+          5
+        ],
+        [
+          "6/14/2023",
+          5
+        ],
+        [
+          "5/8/2025",
+          5
+        ],
+        [
+          "4/7/2025",
+          4
+        ],
+        [
+          "4/28/2025",
+          4
+        ],
+        [
+          "7/2/2024",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Country/Area",
+      "code_friendly_name_guess": "country_area",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "Brazil",
+          676
+        ],
+        [
+          "Mexico",
+          33
+        ],
+        [
+          "Chile",
+          26
+        ],
+        [
+          "Guatemala",
+          18
+        ],
+        [
+          "Uruguay",
+          11
+        ],
+        [
+          "Honduras",
+          9
+        ],
+        [
+          "Argentina",
+          9
+        ],
+        [
+          "Colombia",
+          8
+        ],
+        [
+          "Cuba",
+          7
+        ],
+        [
+          "Peru",
+          6
+        ],
+        [
+          "El Salvador",
+          5
+        ],
+        [
+          "Ecuador",
+          5
+        ],
+        [
+          "Dominican Republic",
+          5
+        ],
+        [
+          "Nicaragua",
+          4
+        ],
+        [
+          "Guadeloupe",
+          3
+        ],
+        [
+          "Puerto Rico",
+          2
+        ],
+        [
+          "Guyana",
+          2
+        ],
+        [
+          "French Guiana",
+          2
+        ],
+        [
+          "Costa Rica",
+          2
+        ],
+        [
+          "Bolivia",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:16_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Project Name",
+      "code_friendly_name_guess": "project_name",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 752,
+      "top_values": [
+        [
+          "Suzano Mucuri power station",
+          4
+        ],
+        [
+          "Magdalena Sugar Mill power station",
+          4
+        ],
+        [
+          "Bonfim power station",
+          4
+        ],
+        [
+          "Barra Bioenergia power station",
+          4
+        ],
+        [
+          "Santa Luzia I power station",
+          3
+        ],
+        [
+          "Le Moule Power Station",
+          3
+        ],
+        [
+          "Jataí power station",
+          3
+        ],
+        [
+          "Cocal II power station",
+          3
+        ],
+        [
+          "Caçú I power station",
+          3
+        ],
+        [
+          "CMPC power station",
+          3
+        ],
+        [
+          "Bracell Star power station",
+          3
+        ],
+        [
+          "Valdez Sugar power station",
+          2
+        ],
+        [
+          "Unidade de Bioenergia Água Emendada power station",
+          2
+        ],
+        [
+          "Unidade de Bioenergia Costa Rica power station",
+          2
+        ],
+        [
+          "UPM power station",
+          2
+        ],
+        [
+          "UPM Paso de los Toros power station",
+          2
+        ],
+        [
+          "Trinidad power station",
+          2
+        ],
+        [
+          "Sérgio Paranhos power station",
+          2
+        ],
+        [
+          "São Martinho power station",
+          2
+        ],
+        [
+          "São Luiz power station",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Name",
+      "code_friendly_name_guess": "unit_name",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "--",
+          461
+        ],
+        [
+          "1.0",
+          290
+        ],
+        [
+          "2.0",
+          48
+        ],
+        [
+          "3.0",
+          13
+        ],
+        [
+          "4.0",
+          7
+        ],
+        [
+          "TG4",
+          2
+        ],
+        [
+          "5.0",
+          2
+        ],
+        [
+          "Unit 3, timepoint 2",
+          1
+        ],
+        [
+          "Unit 2, timepoint 2",
+          1
+        ],
+        [
+          "Unit 1, timepoint 2",
+          1
+        ],
+        [
+          "UG2",
+          1
+        ],
+        [
+          "UG1",
+          1
+        ],
+        [
+          "TG5",
+          1
+        ],
+        [
+          "TG3",
+          1
+        ],
+        [
+          "TG2",
+          1
+        ],
+        [
+          "TG1",
+          1
+        ],
+        [
+          "Ampliacion",
+          1
+        ],
+        [
+          "7.0",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ],
+        [
+          "2-Jan",
+          1
+        ]
+      ],
+      "portion_numeric": 0.428,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:19_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Project Name in Local Language / Script",
+      "code_friendly_name_guess": "project_name_in_local_language_script",
+      "n_total": 839,
+      "n_null": 5,
+      "n_non_null": 834,
+      "null_rate": 0.006,
+      "n_unique": 749,
+      "top_values": [
+        [
+          "Usina sucroenergética Bonfim, Usina de biomassa Bonfim",
+          4
+        ],
+        [
+          "Usina de biomassa Suzano Mucuri",
+          4
+        ],
+        [
+          "Usina de Vapor Cogen Barra Bonita, Usina sucroenergética Barra Bioenergia",
+          4
+        ],
+        [
+          "Planta cogeneradora Magdalena, Planta De Vapor Finca Buganvilla",
+          4
+        ],
+        [
+          "Usina sucroenergética Santa Luzia I, Usina De Cogeração Térmica Santa Luzia",
+          3
+        ],
+        [
+          "Usina sucroenergética Cocal II",
+          3
+        ],
+        [
+          "Usina de biomassa Bracell Star",
+          3
+        ],
+        [
+          "Usina a Vapor Guaíba, Usina de biomassa CMPC",
+          3
+        ],
+        [
+          "Usina De Cogeração Térmica Rio Claro, Usina sucroenergética Caçú I",
+          3
+        ],
+        [
+          "Usina De Cogeração De Vapor De Biomassa De Jatai, Usina sucroenergética Jataí",
+          3
+        ],
+        [
+          "Centrale Thermique du Moule",
+          3
+        ],
+        [
+          "Usina sucroenergética São Martinho",
+          2
+        ],
+        [
+          "Usina sucroenergética Revati",
+          2
+        ],
+        [
+          "Usina sucroenergética Quirinópolis",
+          2
+        ],
+        [
+          "Usina sucroenergética Porto das Águas II",
+          2
+        ],
+        [
+          "Usina sucroenergética Porto das Águas",
+          2
+        ],
+        [
+          "Usina sucroenergética Passa Tempo",
+          2
+        ],
+        [
+          "Usina sucroenergética Laguna, Usina De Cogeração A Vapor Laguna",
+          2
+        ],
+        [
+          "Usina sucroenergética LDC Bioenergia Lagoa da Prata, Usina Lagoa da Prata A Vapor Cogen",
+          2
+        ],
+        [
+          "Usina sucroenergética Gasa",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Other Name(s)",
+      "code_friendly_name_guess": "other_name_s",
+      "n_total": 839,
+      "n_null": 698,
+      "n_non_null": 141,
+      "null_rate": 0.8319,
+      "n_unique": 108,
+      "top_values": [
+        [
+          "Finca Buganvilla",
+          4
+        ],
+        [
+          "Bahia Sul",
+          4
+        ],
+        [
+          "Rio Claro",
+          3
+        ],
+        [
+          "Projeto Star, Project Star",
+          3
+        ],
+        [
+          "Aracruz Unidade Guaíba, Guaíba",
+          3
+        ],
+        [
+          "Usina São Francisco",
+          2
+        ],
+        [
+          "Usina De Cogeração A Vapor Revati, Chapadão Agroenergia, Usina Brejo Alegre, Biopav, Usina Brejo Alegre BioEnergia",
+          2
+        ],
+        [
+          "Usina AZL-São José, Açucareira Zillo Lorenzetti",
+          2
+        ],
+        [
+          "UPM 2, Blanvira",
+          2
+        ],
+        [
+          "Planta incineradora de Arecibo, Cambalache Arecibo. Planta de Generación de Energía Renovable y Recuperación de Recursos de Arecibo",
+          2
+        ],
+        [
+          "Planta De Cogeneración De Vapor Skeldon Power",
+          2
+        ],
+        [
+          "Madhu",
+          2
+        ],
+        [
+          "Louis Dreyfus Rio Brilhante",
+          2
+        ],
+        [
+          "Louis Dreyfus Lagoa da Prata",
+          2
+        ],
+        [
+          "Lençóis Paulista",
+          2
+        ],
+        [
+          "Klabin Puma I",
+          2
+        ],
+        [
+          "Ingenio Trinidad",
+          2
+        ],
+        [
+          "Ingenio Santa Ana",
+          2
+        ],
+        [
+          "Ingenio Pantaleón",
+          2
+        ],
+        [
+          "Ingenio Palo Gordo",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Capacity (MW)",
+      "code_friendly_name_guess": "capacity_mw",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 229,
+      "top_values": [
+        [
+          "40.0",
+          47
+        ],
+        [
+          "30.0",
+          40
+        ],
+        [
+          "50.0",
+          29
+        ],
+        [
+          "35.0",
+          20
+        ],
+        [
+          "5.0",
+          18
+        ],
+        [
+          "45.0",
+          18
+        ],
+        [
+          "25.0",
+          18
+        ],
+        [
+          "20.0",
+          18
+        ],
+        [
+          "10.0",
+          18
+        ],
+        [
+          "4.0",
+          17
+        ],
+        [
+          "1.2",
+          15
+        ],
+        [
+          "12.0",
+          13
+        ],
+        [
+          "8.0",
+          12
+        ],
+        [
+          "3.0",
+          12
+        ],
+        [
+          "60.0",
+          11
+        ],
+        [
+          "33.0",
+          11
+        ],
+        [
+          "15.0",
+          11
+        ],
+        [
+          "38.0",
+          10
+        ],
+        [
+          "3.2",
+          10
+        ],
+        [
+          "16.0",
+          10
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": "measurement",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 23,
+      "top_values": [
+        [
+          "bioenergy: agricultural waste (solids)",
+          566
+        ],
+        [
+          "bioenergy: wood & other biomass (solids)",
+          116
+        ],
+        [
+          "bioenergy: paper mill wastes",
+          50
+        ],
+        [
+          "bioenergy: refuse (landfill gas)",
+          33
+        ],
+        [
+          "bioenergy: refuse (municipal and industrial wastes)",
+          16
+        ],
+        [
+          "bioenergy: biodiesel",
+          10
+        ],
+        [
+          "bioenergy: agricultural waste (solids), coal: unknown, fossil liquids: fuel oil",
+          8
+        ],
+        [
+          "bioenergy: wood & other biomass (biocoal)",
+          7
+        ],
+        [
+          "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+          7
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+          4
+        ],
+        [
+          "bioenergy: agricultural waste (solids), coal: unknown",
+          4
+        ],
+        [
+          "bioenergy: unknown",
+          3
+        ],
+        [
+          "bioenergy: wastewater and sewage sludge (solids or biogas)",
+          2
+        ],
+        [
+          "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids)",
+          2
+        ],
+        [
+          "bioenergy: agricultural waste (solids), fossil liquids: fuel oil",
+          2
+        ],
+        [
+          "bioenergy: agricultural waste (biogas)",
+          2
+        ],
+        [
+          "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes, fossil liquids: heavy fuel oil",
+          1
+        ],
+        [
+          "bioenergy: refuse (syngas)",
+          1
+        ],
+        [
+          "bioenergy: biodiesel, bioenergy: agricultural waste (solids)",
+          1
+        ],
+        [
+          "bioenergy: agricultural waste (unknown)",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:17_values_below_1pct",
+        "potential_multi_value"
+      ]
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 7,
+      "top_values": [
+        [
+          "operating",
+          762
+        ],
+        [
+          "pre-construction",
+          30
+        ],
+        [
+          "construction",
+          29
+        ],
+        [
+          "shelved - inferred 2 y",
+          9
+        ],
+        [
+          "cancelled - inferred 4 y",
+          5
+        ],
+        [
+          "mothballed",
+          2
+        ],
+        [
+          "announced",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:3_values_below_1pct"
+      ]
+    },
+    {
+      "field_name": "Conversion/Replacement?",
+      "code_friendly_name_guess": "conversion_replacement",
+      "n_total": 839,
+      "n_null": 836,
+      "n_non_null": 3,
+      "null_rate": 0.9964,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "coal to bioenergy conversion",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Unit Conversion Year",
+      "code_friendly_name_guess": "unit_conversion_year",
+      "n_total": 839,
+      "n_null": 838,
+      "n_non_null": 1,
+      "null_rate": 0.9988,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "2024.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Start Year",
+      "code_friendly_name_guess": "start_year",
+      "n_total": 839,
+      "n_null": 119,
+      "n_non_null": 720,
+      "null_rate": 0.1418,
+      "n_unique": 64,
+      "top_values": [
+        [
+          "2010.0",
+          51
+        ],
+        [
+          "2008.0",
+          41
+        ],
+        [
+          "2009.0",
+          39
+        ],
+        [
+          "2013.0",
+          35
+        ],
+        [
+          "2011.0",
+          34
+        ],
+        [
+          "2014.0",
+          33
+        ],
+        [
+          "2001.0",
+          33
+        ],
+        [
+          "2022.0",
+          31
+        ],
+        [
+          "2012.0",
+          30
+        ],
+        [
+          "2002.0",
+          30
+        ],
+        [
+          "2015.0",
+          25
+        ],
+        [
+          "2006.0",
+          24
+        ],
+        [
+          "2016.0",
+          23
+        ],
+        [
+          "2021.0",
+          21
+        ],
+        [
+          "2007.0",
+          19
+        ],
+        [
+          "2000.0",
+          19
+        ],
+        [
+          "2023.0",
+          16
+        ],
+        [
+          "2017.0",
+          14
+        ],
+        [
+          "2004.0",
+          14
+        ],
+        [
+          "2019.0",
+          11
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Retired Year",
+      "code_friendly_name_guess": "retired_year",
+      "n_total": 839,
+      "n_null": 839,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Hydrogen Capable",
+      "code_friendly_name_guess": "hydrogen_capable",
+      "n_total": 839,
+      "n_null": 839,
+      "n_non_null": 0,
+      "null_rate": 1.0,
+      "n_unique": 0,
+      "top_values": [],
+      "portion_numeric": null,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator(s)",
+      "code_friendly_name_guess": "operator_s",
+      "n_total": 839,
+      "n_null": 455,
+      "n_non_null": 384,
+      "null_rate": 0.5423,
+      "n_unique": 219,
+      "top_values": [
+        [
+          "Suzano",
+          12
+        ],
+        [
+          "Arauco Bioenergía",
+          10
+        ],
+        [
+          "Biosev",
+          9
+        ],
+        [
+          "Bioenergia Barra",
+          9
+        ],
+        [
+          "Klabin",
+          7
+        ],
+        [
+          "Açucareira Quatá",
+          7
+        ],
+        [
+          "COFCO International Brasil",
+          6
+        ],
+        [
+          "Bracell SP Celulose",
+          6
+        ],
+        [
+          "Atvos Bioenergia Brenco",
+          6
+        ],
+        [
+          "Usina Alto Alegre - Açúcar e Álcool",
+          5
+        ],
+        [
+          "Tereos Açúcar e Energia Brasil",
+          5
+        ],
+        [
+          "Ingenio Magdalena",
+          5
+        ],
+        [
+          "Usina de Açúcar Santa Terezinha",
+          4
+        ],
+        [
+          "Usina Eldorado",
+          4
+        ],
+        [
+          "UPM",
+          4
+        ],
+        [
+          "São Martinho",
+          4
+        ],
+        [
+          "Pedra Agroindustrial",
+          4
+        ],
+        [
+          "FS Agrisolutions Industria de Biocombustiveis",
+          4
+        ],
+        [
+          "Cocal Comércio Indústria Canaã Açúcar e Álcool",
+          4
+        ],
+        [
+          "Cerradinho Bioenergia",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator Name(s) in Local Language / Script",
+      "code_friendly_name_guess": "operator_name_s_in_local_language_script",
+      "n_total": 839,
+      "n_null": 836,
+      "n_non_null": 3,
+      "null_rate": 0.9964,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "São Luiz Termoelétrica S/A",
+          2
+        ],
+        [
+          "Papelera del Pacifico",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Operator(s) GEM Entity ID",
+      "code_friendly_name_guess": "operator_s_gem_entity_id",
+      "n_total": 839,
+      "n_null": 455,
+      "n_non_null": 384,
+      "null_rate": 0.5423,
+      "n_unique": 219,
+      "top_values": [
+        [
+          "E100001000044",
+          12
+        ],
+        [
+          "E100001000112",
+          10
+        ],
+        [
+          "E100001000065",
+          9
+        ],
+        [
+          "E100001000059",
+          9
+        ],
+        [
+          "E100001000074",
+          7
+        ],
+        [
+          "E100001000049",
+          7
+        ],
+        [
+          "E100001000076",
+          6
+        ],
+        [
+          "E100001000070",
+          6
+        ],
+        [
+          "E100001000055",
+          6
+        ],
+        [
+          "E100001000121",
+          5
+        ],
+        [
+          "E100001000066",
+          5
+        ],
+        [
+          "E100000132738",
+          5
+        ],
+        [
+          "E100001010593",
+          4
+        ],
+        [
+          "E100001000169",
+          4
+        ],
+        [
+          "E100001000156",
+          4
+        ],
+        [
+          "E100001000139",
+          4
+        ],
+        [
+          "E100001000134",
+          4
+        ],
+        [
+          "E100001000132",
+          4
+        ],
+        [
+          "E100001000062",
+          4
+        ],
+        [
+          "E100000132667",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner(s)",
+      "code_friendly_name_guess": "owner_s",
+      "n_total": 839,
+      "n_null": 42,
+      "n_non_null": 797,
+      "null_rate": 0.0501,
+      "n_unique": 550,
+      "top_values": [
+        [
+          "Suzano SA [100%]",
+          12
+        ],
+        [
+          "Raízen Energia SA ",
+          10
+        ],
+        [
+          "Arauco Bioenergía SA [100%]",
+          10
+        ],
+        [
+          "Biosev SA [100%]",
+          9
+        ],
+        [
+          "Bioenergia Barra Ltda [100%]",
+          9
+        ],
+        [
+          "Klabin SA [100%]",
+          7
+        ],
+        [
+          "Açucareira Quatá SA [100%]",
+          7
+        ],
+        [
+          "Usina De Acucar Santa Terezinha Ltda ",
+          6
+        ],
+        [
+          "COFCO International Brasil SA [100%]",
+          6
+        ],
+        [
+          "Brasil Biofuels Pará Ii SA ",
+          6
+        ],
+        [
+          "Bracell SP Celulose Ltda [100%]",
+          6
+        ],
+        [
+          "Atvos Bioenergia Brenco SA [100%]",
+          6
+        ],
+        [
+          "Usina Alto Alegre - Açúcar e Álcool SA [100%]",
+          5
+        ],
+        [
+          "Tereos Açúcar e Energia Brasil SA [100%]",
+          5
+        ],
+        [
+          "Pedra Agroindustrial SA [100%]",
+          5
+        ],
+        [
+          "Ingenio Magdalena SA [100%]",
+          5
+        ],
+        [
+          "Eco Business Indústria Comércio E Serviços Ltda ",
+          5
+        ],
+        [
+          "Zucarmex SA de CV",
+          4
+        ],
+        [
+          "Usina de Açúcar Santa Terezinha Ltda [100%]",
+          4
+        ],
+        [
+          "Usina Eldorado SA [100%]",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner Name(s) in Local Language / Script",
+      "code_friendly_name_guess": "owner_name_s_in_local_language_script",
+      "n_total": 839,
+      "n_null": 836,
+      "n_non_null": 3,
+      "null_rate": 0.9964,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "São Luiz Termoelétrica S/A",
+          2
+        ],
+        [
+          "Papelera del Pacifico",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Owner(s) GEM Entity ID",
+      "code_friendly_name_guess": "owner_s_gem_entity_id",
+      "n_total": 839,
+      "n_null": 42,
+      "n_non_null": 797,
+      "null_rate": 0.0501,
+      "n_unique": 550,
+      "top_values": [
+        [
+          "E100001000044 [100%]",
+          12
+        ],
+        [
+          "E100001000112 [100%]",
+          10
+        ],
+        [
+          "E100000190165 ",
+          10
+        ],
+        [
+          "E100001000065 [100%]",
+          9
+        ],
+        [
+          "E100001000059 [100%]",
+          9
+        ],
+        [
+          "E100001000074 [100%]",
+          7
+        ],
+        [
+          "E100001000049 [100%]",
+          7
+        ],
+        [
+          "E100001000076 [100%]",
+          6
+        ],
+        [
+          "E100001000070 [100%]",
+          6
+        ],
+        [
+          "E100001000055 [100%]",
+          6
+        ],
+        [
+          "E100000190160 ",
+          6
+        ],
+        [
+          "E100000190103 ",
+          6
+        ],
+        [
+          "E100001000156 [100%]",
+          5
+        ],
+        [
+          "E100001000121 [100%]",
+          5
+        ],
+        [
+          "E100001000066 [100%]",
+          5
+        ],
+        [
+          "E100000190130 ",
+          5
+        ],
+        [
+          "E100000132738 [100%]",
+          5
+        ],
+        [
+          "E100002010000",
+          4
+        ],
+        [
+          "E100001010593 [100%]",
+          4
+        ],
+        [
+          "E100001000169 [100%]",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent(s)",
+      "code_friendly_name_guess": "parent_s",
+      "n_total": 839,
+      "n_null": 42,
+      "n_non_null": 797,
+      "null_rate": 0.0501,
+      "n_unique": 525,
+      "top_values": [
+        [
+          "Raizen SA [100.0%]",
+          27
+        ],
+        [
+          "Suzano SA [100.0%]",
+          12
+        ],
+        [
+          "Raízen Energia SA",
+          10
+        ],
+        [
+          "Kieppe Participações e Administração Ltda; Kieppe Patrimonial SA",
+          10
+        ],
+        [
+          "Empresas Copec SA [100.0%]",
+          10
+        ],
+        [
+          "São Martinho SA [100.0%]",
+          7
+        ],
+        [
+          "Klabin SA [100.0%]",
+          7
+        ],
+        [
+          "Grupo Zilor [100.0%]",
+          7
+        ],
+        [
+          "Usina De Acucar Santa Terezinha Ltda",
+          6
+        ],
+        [
+          "Royal Golden Eagle Pte Ltd",
+          6
+        ],
+        [
+          "COFCO International Ltd [100.0%]",
+          6
+        ],
+        [
+          "Brasil Biofuels Pará Ii SA",
+          6
+        ],
+        [
+          "natural person(s) [44.4%]; Landire Ltd [33.3%]; Décima Parca Corp [11.1%]; San Patricio Holdings SA [11.1%]",
+          5
+        ],
+        [
+          "Usina Alto Alegre - Açúcar e Álcool SA [100.0%]",
+          5
+        ],
+        [
+          "Tereos Internacional SA [57.0%]",
+          5
+        ],
+        [
+          "Pedra Agroindustrial SA [100.0%]",
+          5
+        ],
+        [
+          "KKR & Co. Inc",
+          5
+        ],
+        [
+          "Eco Business Indústria Comércio E Serviços Ltda",
+          5
+        ],
+        [
+          "Zucarmex SA de CV",
+          4
+        ],
+        [
+          "Usina de Açúcar Santa Terezinha Ltda [100.0%]",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Parent(s) GEM Entity ID",
+      "code_friendly_name_guess": "parent_s_gem_entity_id",
+      "n_total": 839,
+      "n_null": 42,
+      "n_non_null": 797,
+      "null_rate": 0.0501,
+      "n_unique": 526,
+      "top_values": [
+        [
+          "E100002001393 [100.0%]",
+          27
+        ],
+        [
+          "E100001000044 [100.0%]",
+          12
+        ],
+        [
+          "E100002017144; E100002017145",
+          10
+        ],
+        [
+          "E100001010923 [100.0%]",
+          10
+        ],
+        [
+          "E100000190165",
+          10
+        ],
+        [
+          "E100001000139 [100.0%]",
+          7
+        ],
+        [
+          "E100001000075 [100.0%]",
+          7
+        ],
+        [
+          "E100001000049 [100.0%]",
+          7
+        ],
+        [
+          "E100001000077 [100.0%]",
+          6
+        ],
+        [
+          "E100001000056",
+          6
+        ],
+        [
+          "E100000190160",
+          6
+        ],
+        [
+          "E100000190103",
+          6
+        ],
+        [
+          "E100001000156 [100.0%]",
+          5
+        ],
+        [
+          "E100001000121 [100.0%]",
+          5
+        ],
+        [
+          "E100001000067 [57.0%]",
+          5
+        ],
+        [
+          "E100000190130",
+          5
+        ],
+        [
+          "E100000123261 [44.4%]; E100001010950 [33.3%]; E100001010952 [11.1%]; E100001010953 [11.1%]",
+          5
+        ],
+        [
+          "E100000001247",
+          5
+        ],
+        [
+          "E100002010000",
+          4
+        ],
+        [
+          "E100001010906 [71.2%]; E100001010907 [23.7%]",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Latitude",
+      "code_friendly_name_guess": "latitude",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 747,
+      "top_values": [
+        [
+          "14.1216",
+          4
+        ],
+        [
+          "-22.4779",
+          4
+        ],
+        [
+          "-21.4138",
+          4
+        ],
+        [
+          "-18.467",
+          4
+        ],
+        [
+          "-18.0425",
+          4
+        ],
+        [
+          "16.304873",
+          3
+        ],
+        [
+          "-30.1293",
+          3
+        ],
+        [
+          "-22.5414",
+          3
+        ],
+        [
+          "-22.5309",
+          3
+        ],
+        [
+          "-21.4666",
+          3
+        ],
+        [
+          "-17.6918",
+          3
+        ],
+        [
+          "-17.6897008",
+          3
+        ],
+        [
+          "-10.5061",
+          3
+        ],
+        [
+          "5.880331057",
+          2
+        ],
+        [
+          "18.7882808",
+          2
+        ],
+        [
+          "18.4663",
+          2
+        ],
+        [
+          "18.4621",
+          2
+        ],
+        [
+          "18.03979427",
+          2
+        ],
+        [
+          "14.488",
+          2
+        ],
+        [
+          "14.3328",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Longitude",
+      "code_friendly_name_guess": "longitude",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 749,
+      "top_values": [
+        [
+          "-90.9272",
+          4
+        ],
+        [
+          "-52.6091",
+          4
+        ],
+        [
+          "-48.532",
+          4
+        ],
+        [
+          "-48.2786",
+          4
+        ],
+        [
+          "-39.9197",
+          4
+        ],
+        [
+          "-61.326223",
+          3
+        ],
+        [
+          "-54.3828",
+          3
+        ],
+        [
+          "-51.6155",
+          3
+        ],
+        [
+          "-51.5091",
+          3
+        ],
+        [
+          "-51.2975",
+          3
+        ],
+        [
+          "-49.98678374",
+          3
+        ],
+        [
+          "-48.815",
+          3
+        ],
+        [
+          "-96.8976555",
+          2
+        ],
+        [
+          "-91.3986",
+          2
+        ],
+        [
+          "-90.9943",
+          2
+        ],
+        [
+          "-90.8457",
+          2
+        ],
+        [
+          "-90.841",
+          2
+        ],
+        [
+          "-88.55990828",
+          2
+        ],
+        [
+          "-79.5996068",
+          2
+        ],
+        [
+          "-79.4359",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Location Accuracy",
+      "code_friendly_name_guess": "location_accuracy",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 2,
+      "top_values": [
+        [
+          "exact",
+          823
+        ],
+        [
+          "approximate",
+          16
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "City",
+      "code_friendly_name_guess": "city",
+      "n_total": 839,
+      "n_null": 523,
+      "n_non_null": 316,
+      "null_rate": 0.6234,
+      "n_unique": 197,
+      "top_values": [
+        [
+          "Lençóis Paulista",
+          8
+        ],
+        [
+          "Três Lagoas",
+          6
+        ],
+        [
+          "Rio Brilhante",
+          6
+        ],
+        [
+          "Valparaíso",
+          4
+        ],
+        [
+          "Uberaba",
+          4
+        ],
+        [
+          "Quirinópolis",
+          4
+        ],
+        [
+          "Pitangueiras",
+          4
+        ],
+        [
+          "Pirassununga",
+          4
+        ],
+        [
+          "Mucuri",
+          4
+        ],
+        [
+          "Guariba",
+          4
+        ],
+        [
+          "Chapadão do Céu",
+          4
+        ],
+        [
+          "Barra Bonita",
+          4
+        ],
+        [
+          "São Joaquim da Barra",
+          3
+        ],
+        [
+          "Serrana",
+          3
+        ],
+        [
+          "Promissão",
+          3
+        ],
+        [
+          "Pradópolis",
+          3
+        ],
+        [
+          "Ortigueira",
+          3
+        ],
+        [
+          "Nova Alvorada do Sul",
+          3
+        ],
+        [
+          "Narandiba",
+          3
+        ],
+        [
+          "Macatuba",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Local Area (taluk, county)",
+      "code_friendly_name_guess": "local_area_taluk_county",
+      "n_total": 839,
+      "n_null": 810,
+      "n_non_null": 29,
+      "null_rate": 0.9654,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "La Democracia",
+          4
+        ],
+        [
+          "Siquinalá",
+          2
+        ],
+        [
+          "Santa Lucía Cotzumalguapa",
+          2
+        ],
+        [
+          "San Antonio Suchitepéquez",
+          2
+        ],
+        [
+          "Provincia de Talca",
+          2
+        ],
+        [
+          "Provincia de Bío-Bío",
+          2
+        ],
+        [
+          "Provincia de Arauco",
+          2
+        ],
+        [
+          "Masagua",
+          2
+        ],
+        [
+          "Coronel Marcelino Maridueña",
+          2
+        ],
+        [
+          "Região Metropolitana de São José do Rio Preto",
+          1
+        ],
+        [
+          "Região Metropolitana de Ribeirão Preto",
+          1
+        ],
+        [
+          "Região Metropolitana da Baixada Santista",
+          1
+        ],
+        [
+          "Provincia de Valdivia",
+          1
+        ],
+        [
+          "Provincia de Itata",
+          1
+        ],
+        [
+          "Provincia de Diguillín",
+          1
+        ],
+        [
+          "La Troncal",
+          1
+        ],
+        [
+          "Jatibonico",
+          1
+        ],
+        [
+          "El Mante",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Major Area (prefecture, district)",
+      "code_friendly_name_guess": "major_area_prefecture_district",
+      "n_total": 839,
+      "n_null": 811,
+      "n_non_null": 28,
+      "null_rate": 0.9666,
+      "n_unique": 17,
+      "top_values": [
+        [
+          "Região Geográfica Intermediária de Dourados",
+          6
+        ],
+        [
+          "Região Geográfica Intermediária de Rio Verde",
+          3
+        ],
+        [
+          "Região Geográfica Intermediária de Uberaba",
+          2
+        ],
+        [
+          "Região Geográfica Intermediária de São José do Rio Preto",
+          2
+        ],
+        [
+          "Região Geográfica Intermediária de Rondonópolis",
+          2
+        ],
+        [
+          "Região Geográfica Intermediária de Araçatuba",
+          2
+        ],
+        [
+          "São Luís",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Uberlândia",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de São Paulo",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de São Luís de Montes Belos-Iporá",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Ribeirão Preto",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Ponta Grossa",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Itumbiara",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Caxias do Sul",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Campo Grande",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Bauru",
+          1
+        ],
+        [
+          "Região Geográfica Intermediária de Araraquara",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "State/Province",
+      "code_friendly_name_guess": "state_province",
+      "n_total": 839,
+      "n_null": 477,
+      "n_non_null": 362,
+      "null_rate": 0.5685,
+      "n_unique": 67,
+      "top_values": [
+        [
+          "São Paulo",
+          125
+        ],
+        [
+          "Mato Grosso do Sul",
+          36
+        ],
+        [
+          "Goiás",
+          31
+        ],
+        [
+          "Minas Gerais",
+          30
+        ],
+        [
+          "Paraná",
+          15
+        ],
+        [
+          "Escuintla",
+          13
+        ],
+        [
+          "Mato Grosso",
+          9
+        ],
+        [
+          "Bahia",
+          8
+        ],
+        [
+          "Rio Grande do Sul",
+          5
+        ],
+        [
+          "Biobío Region",
+          4
+        ],
+        [
+          "Alagoas",
+          4
+        ],
+        [
+          "Veracruz",
+          3
+        ],
+        [
+          "Santa Catarina",
+          3
+        ],
+        [
+          "Pernambuco",
+          3
+        ],
+        [
+          "Maranhão",
+          3
+        ],
+        [
+          "Guadeloupe",
+          3
+        ],
+        [
+          "Biobío",
+          3
+        ],
+        [
+          "Ñuble Region",
+          2
+        ],
+        [
+          "Tucumán",
+          2
+        ],
+        [
+          "Suchitepéquez",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Subregion",
+      "code_friendly_name_guess": "subregion",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Latin America and the Caribbean",
+          839
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Region",
+      "code_friendly_name_guess": "region",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Americas",
+          839
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM location ID",
+      "code_friendly_name_guess": "gem_location_id",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 752,
+      "top_values": [
+        [
+          "L100000200598",
+          4
+        ],
+        [
+          "L100000200453",
+          4
+        ],
+        [
+          "L100000200442",
+          4
+        ],
+        [
+          "L100000102012",
+          4
+        ],
+        [
+          "L100000200580",
+          3
+        ],
+        [
+          "L100000200528",
+          3
+        ],
+        [
+          "L100000200476",
+          3
+        ],
+        [
+          "L100000200474",
+          3
+        ],
+        [
+          "L100000200461",
+          3
+        ],
+        [
+          "L100000200454",
+          3
+        ],
+        [
+          "L100000102008",
+          3
+        ],
+        [
+          "L100001046828",
+          2
+        ],
+        [
+          "L100001046780",
+          2
+        ],
+        [
+          "L100001046629",
+          2
+        ],
+        [
+          "L100001046628",
+          2
+        ],
+        [
+          "L100001046626",
+          2
+        ],
+        [
+          "L100001046372",
+          2
+        ],
+        [
+          "L100001046247",
+          2
+        ],
+        [
+          "L100001046240",
+          2
+        ],
+        [
+          "L100000201304",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "GEM phase ID",
+      "code_friendly_name_guess": "gem_phase_id",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 839,
+      "top_values": [
+        [
+          "G100001054326",
+          1
+        ],
+        [
+          "G100001053324",
+          1
+        ],
+        [
+          "G100001053321",
+          1
+        ],
+        [
+          "G100001053319",
+          1
+        ],
+        [
+          "G100001053316",
+          1
+        ],
+        [
+          "G100001053312",
+          1
+        ],
+        [
+          "G100001053302",
+          1
+        ],
+        [
+          "G100001053260",
+          1
+        ],
+        [
+          "G100001053259",
+          1
+        ],
+        [
+          "G100001053252",
+          1
+        ],
+        [
+          "G100001053251",
+          1
+        ],
+        [
+          "G100001053250",
+          1
+        ],
+        [
+          "G100001053246",
+          1
+        ],
+        [
+          "G100001053244",
+          1
+        ],
+        [
+          "G100001053243",
+          1
+        ],
+        [
+          "G100001053200",
+          1
+        ],
+        [
+          "G100001053115",
+          1
+        ],
+        [
+          "G100001053098",
+          1
+        ],
+        [
+          "G100001053091",
+          1
+        ],
+        [
+          "G100001053090",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "Other IDs (location)",
+      "code_friendly_name_guess": "other_ids_location",
+      "n_total": 839,
+      "n_null": 99,
+      "n_non_null": 740,
+      "null_rate": 0.118,
+      "n_unique": 669,
+      "top_values": [
+        [
+          "World Resources Institute: BRA0030047, ANEEL: UTE.AI.SP.030047-0.1",
+          4
+        ],
+        [
+          "World Resources Institute: BRA0000187, ANEEL: UTE.FL.BA.000187-2.1",
+          4
+        ],
+        [
+          "ANEEL: UTE.AI.SP.029665-1.1, World Resources Institute: BRA0029665, ANEEL: UTE.FL.RR.044603-3.1",
+          4
+        ],
+        [
+          "World Resources Institute: BRA0029713, ANEEL: UTE.AI.SP.029713-5.1",
+          3
+        ],
+        [
+          "ANEEL: UTE.FL.SP.043249-0.1",
+          3
+        ],
+        [
+          "ANEEL: UTE.FL.RS.030666-5.1, World Resources Institute: BRA0030666",
+          3
+        ],
+        [
+          "ANEEL: UTE.AI.MS.030006-3.1, World Resources Institute: BRA0030006",
+          3
+        ],
+        [
+          "ANEEL: UTE.AI.GO.030043-8.1, World Resources Institute: BRA0030043",
+          3
+        ],
+        [
+          "ANEEL: UTE.AI.GO.030025-0.1, World Resources Institute: BRA0030025",
+          3
+        ],
+        [
+          "World Resources Institute: URY0000857",
+          2
+        ],
+        [
+          "World Resources Institute: URY0000836",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0031098, ANEEL: UTE.FL.PR.031098-0.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030959, ANEEL: UTE.FL.MA.030959-1.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030583, ANEEL: UTE.FL.MS.030583-9.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030453, ANEEL: UTE.AI.SP.030453-0.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030420, ANEEL: UTE.AI.SP.030420-4.1, ANEEL: UTE.AI.SP.029527-2.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030115, ANEEL: UTE.AI.MS.030115-9.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030041, World Resources Institute: BRA0030053",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030039, ANEEL: UTE.AI.GO.030039-0.1",
+          2
+        ],
+        [
+          "World Resources Institute: BRA0030037, ANEEL: UTE.AI.MS.030037-3.1",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": []
+    },
+    {
+      "field_name": "Wiki URL",
+      "code_friendly_name_guess": "wiki_url",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 752,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Suzano_Mucuri_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Magdalena_Sugar_Mill_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Bonfim_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Barra_Bioenergia_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Santa_Luzia_I_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Le_Moule_Power_Station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Jataí_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Cocal_II_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Caçú_I_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/CMPC_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Bracell_Star_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Valdez_Sugar_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Unidade_de_Bioenergia_Água_Emendada_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Unidade_de_Bioenergia_Costa_Rica_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/UPM_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/UPM_Paso_de_los_Toros_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Trinidad_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Sérgio_Paranhos_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/São_Martinho_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/São_Luiz_power_station",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": []
+    },
+    {
+      "field_name": "_col35",
+      "code_friendly_name_guess": "col35",
+      "n_total": 839,
+      "n_null": 0,
+      "n_non_null": 839,
+      "null_rate": 0.0,
+      "n_unique": 752,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Suzano_Mucuri_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Magdalena_Sugar_Mill_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Bonfim_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Barra_Bioenergia_power_station",
+          4
+        ],
+        [
+          "https://www.gem.wiki/Santa_Luzia_I_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Le_Moule_Power_Station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Jataí_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Cocal_II_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Caçú_I_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/CMPC_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Bracell_Star_power_station",
+          3
+        ],
+        [
+          "https://www.gem.wiki/Valdez_Sugar_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Unidade_de_Bioenergia_Água_Emendada_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Unidade_de_Bioenergia_Costa_Rica_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/UPM_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/UPM_Paso_de_los_Toros_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Trinidad_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/Sérgio_Paranhos_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/São_Martinho_power_station",
+          2
+        ],
+        [
+          "https://www.gem.wiki/São_Luiz_power_station",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": []
+    }
+  ]
+}

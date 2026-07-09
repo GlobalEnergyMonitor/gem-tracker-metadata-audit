@@ -1,0 +1,4145 @@
+{
+  "table_name": "gem_ggit_gas_pipelines_2025_11__pipelines",
+  "tracker_slug": "gem_ggit_gas_pipelines_2025_11",
+  "tab_slug": "pipelines",
+  "n_rows": 4246,
+  "analyzed_at": "2026-07-07T21:45:10.474547+00:00",
+  "tracker_info": {
+    "title": null,
+    "citation": null,
+    "contact": null,
+    "license": null
+  },
+  "fields": [
+    {
+      "field_name": "PipelineName",
+      "code_friendly_name_guess": "pipelinename",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 2522,
+      "top_values": [
+        [
+          "Shanxi Gas Pipeline Network",
+          68
+        ],
+        [
+          "Anhui Gas Pipeline Network",
+          54
+        ],
+        [
+          "Guizhou Gas Pipeline Network",
+          48
+        ],
+        [
+          "Inner Mongolia Gas Pipeline Network",
+          43
+        ],
+        [
+          "Chongqing Gas Pipeline Network",
+          38
+        ],
+        [
+          "Zhejiang Natural Gas Pipeline Network",
+          37
+        ],
+        [
+          "Shandong Gas Pipeline Network",
+          36
+        ],
+        [
+          "Guangxi Gas Pipeline Network",
+          33
+        ],
+        [
+          "Hunan Gas Pipeline Network",
+          30
+        ],
+        [
+          "Jiangxi Natural Gas Pipeline Network",
+          28
+        ],
+        [
+          "West-East Gas Pipeline 2",
+          27
+        ],
+        [
+          "Florida Gas Transmission Pipeline",
+          26
+        ],
+        [
+          "Hebei Gas Pipeline Network",
+          25
+        ],
+        [
+          "Yunnan Gas Pipeline Network",
+          24
+        ],
+        [
+          "Shaanxi Gas Pipeline Network",
+          23
+        ],
+        [
+          "Nova Gas Transmission (NGTL) Pipeline",
+          23
+        ],
+        [
+          "Jiangsu Coastal Gas Pipeline",
+          22
+        ],
+        [
+          "Transcontinental Gas Pipeline",
+          21
+        ],
+        [
+          "MGS III Gas Pipelines ",
+          21
+        ],
+        [
+          "Guangdong Pearl River Delta gas pipeline network",
+          21
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Name of the pipeline (or pipeline system, when it has multiple pieces, phases, segments, or expansions)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "SegmentName",
+      "code_friendly_name_guess": "segmentname",
+      "n_total": 4246,
+      "n_null": 2161,
+      "n_non_null": 2085,
+      "null_rate": 0.5089,
+      "n_unique": 1793,
+      "top_values": [
+        [
+          "Main Line",
+          53
+        ],
+        [
+          "I",
+          32
+        ],
+        [
+          "II",
+          31
+        ],
+        [
+          "Phase I",
+          18
+        ],
+        [
+          "Pipeline 2",
+          16
+        ],
+        [
+          "Pipeline 1",
+          15
+        ],
+        [
+          "Phase II",
+          15
+        ],
+        [
+          "Capacity Expansion",
+          15
+        ],
+        [
+          "Expansion",
+          13
+        ],
+        [
+          "Phase 2",
+          12
+        ],
+        [
+          "SYSTEM/NETWORK INFO",
+          11
+        ],
+        [
+          "Phase 1",
+          11
+        ],
+        [
+          "Capacity expansion",
+          9
+        ],
+        [
+          "1.0",
+          8
+        ],
+        [
+          "2.0",
+          6
+        ],
+        [
+          "Mainline",
+          5
+        ],
+        [
+          "III",
+          5
+        ],
+        [
+          "Replacement Line",
+          4
+        ],
+        [
+          "Phase 3",
+          4
+        ],
+        [
+          "IV",
+          4
+        ]
+      ],
+      "portion_numeric": 0.018,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of the pipeline segment (which can be a segment of a bigger pipeline system/network, or an expansion project)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Wiki",
+      "code_friendly_name_guess": "wiki",
+      "n_total": 4246,
+      "n_null": 95,
+      "n_non_null": 4151,
+      "null_rate": 0.0224,
+      "n_unique": 2596,
+      "top_values": [
+        [
+          "https://www.gem.wiki/Shanxi_Natural_Gas_Pipeline_Network",
+          61
+        ],
+        [
+          "https://www.gem.wiki/Anhui_Gas_Pipeline_Network",
+          54
+        ],
+        [
+          "https://www.gem.wiki/Guizhou_Gas_Pipeline_Network",
+          45
+        ],
+        [
+          "https://www.gem.wiki/Chongqing_Gas_Pipeline_Network",
+          38
+        ],
+        [
+          "https://www.gem.wiki/Inner_Mongolia_Gas_Pipeline_Network",
+          32
+        ],
+        [
+          "https://www.gem.wiki/Hunan_Gas_Pipeline_Network",
+          30
+        ],
+        [
+          "https://www.gem.wiki/Zhejiang_Natural_Gas_Pipeline_Network",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Jiangxi_Natural_Gas_Pipeline_Network",
+          27
+        ],
+        [
+          "https://www.gem.wiki/Florida_Gas_Transmission_Pipeline",
+          26
+        ],
+        [
+          "https://www.gem.wiki/Yunnan_Gas_Pipeline_Network",
+          23
+        ],
+        [
+          "https://www.gem.wiki/Shaanxi_Gas_Pipeline_Network",
+          23
+        ],
+        [
+          "https://www.gem.wiki/Nova_Gas_Transmission_(NGTL)_Pipeline",
+          22
+        ],
+        [
+          "https://www.gem.wiki/Transcontinental_Gas_Pipeline",
+          21
+        ],
+        [
+          "https://www.gem.wiki/MGS_III_Gas_Pipelines",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Jiangsu_Coastal_Gas_Pipeline",
+          21
+        ],
+        [
+          "https://www.gem.wiki/China%E2%80%93Russia_Far_East_Gas_Pipeline",
+          21
+        ],
+        [
+          "https://www.gem.wiki/Southern_Algeria_Gas_Transmission_Network",
+          20
+        ],
+        [
+          "https://www.gem.wiki/Sichuan%E2%80%93Shanghai_Parallel_Gas_Pipeline",
+          20
+        ],
+        [
+          "https://www.gem.wiki/TGI_Pipeline_Network",
+          19
+        ],
+        [
+          "https://www.gem.wiki/Sichuan%E2%80%93Shanghai_Gas_Pipeline",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Link to project's GEM.wiki page",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ProjectID",
+      "code_friendly_name_guess": "projectid",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 4246,
+      "top_values": [
+        [
+          "P7863",
+          1
+        ],
+        [
+          "P7862",
+          1
+        ],
+        [
+          "P7861",
+          1
+        ],
+        [
+          "P7860",
+          1
+        ],
+        [
+          "P7859",
+          1
+        ],
+        [
+          "P7858",
+          1
+        ],
+        [
+          "P7857",
+          1
+        ],
+        [
+          "P7856",
+          1
+        ],
+        [
+          "P7855",
+          1
+        ],
+        [
+          "P7854",
+          1
+        ],
+        [
+          "P7853",
+          1
+        ],
+        [
+          "P7852",
+          1
+        ],
+        [
+          "P7851",
+          1
+        ],
+        [
+          "P7850",
+          1
+        ],
+        [
+          "P7849",
+          1
+        ],
+        [
+          "P7848",
+          1
+        ],
+        [
+          "P7847",
+          1
+        ],
+        [
+          "P7846",
+          1
+        ],
+        [
+          "P7845",
+          1
+        ],
+        [
+          "P7844",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "A unique ID for each project (all the phases, segments, expansions, etc. belonging to the same overall pipeline do not necesssarily share a ProjectID, but they should share the same PipelineName)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Status",
+      "code_friendly_name_guess": "status",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 9,
+      "top_values": [
+        [
+          "operating",
+          2975
+        ],
+        [
+          "proposed",
+          611
+        ],
+        [
+          "construction",
+          282
+        ],
+        [
+          "cancelled",
+          243
+        ],
+        [
+          "shelved",
+          103
+        ],
+        [
+          "retired",
+          14
+        ],
+        [
+          "mothballed",
+          9
+        ],
+        [
+          "idle",
+          8
+        ],
+        [
+          "mixed status",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "Operating, Proposed, Retired, Construction, Shelved, Cancelled, Idle, or Mothballed\n\nIf there have been no development updates in the two years following the project's proposal, then the status is assumed to be \"Shelved\". If there have been no development updates in the 4 years following the project's proposal or longer, the status is assumed to be \"Cancelled\". If Shelved, Cancelled, or Retired, these are associated with ShelvedYear, CancelledYear, and StopYear",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LastUpdated",
+      "code_friendly_name_guess": "lastupdated",
+      "n_total": 4246,
+      "n_null": 26,
+      "n_non_null": 4220,
+      "null_rate": 0.0061,
+      "n_unique": 358,
+      "top_values": [
+        [
+          "2022-08-26",
+          71
+        ],
+        [
+          "2025-08-25",
+          70
+        ],
+        [
+          "2025-08-06",
+          55
+        ],
+        [
+          "2025-07-28",
+          55
+        ],
+        [
+          "2025-08-20",
+          48
+        ],
+        [
+          "2023-08-21",
+          45
+        ],
+        [
+          "2025-08-18",
+          42
+        ],
+        [
+          "2025-09-11",
+          41
+        ],
+        [
+          "2023-08-29",
+          41
+        ],
+        [
+          "2023-08-18",
+          41
+        ],
+        [
+          "2025-07-31",
+          39
+        ],
+        [
+          "2022-08-22",
+          39
+        ],
+        [
+          "2025-09-16",
+          38
+        ],
+        [
+          "2025-08-14",
+          38
+        ],
+        [
+          "2023-08-17",
+          38
+        ],
+        [
+          "2023-08-10",
+          38
+        ],
+        [
+          "2025-07-29",
+          37
+        ],
+        [
+          "2022-07-19",
+          37
+        ],
+        [
+          "2025-07-22",
+          36
+        ],
+        [
+          "2025-09-17",
+          35
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Date this was last checked/updated (filled in by Researcher)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Fuel",
+      "code_friendly_name_guess": "fuel",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "Gas",
+          4246
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Gas, Hydrogen, or Gas and Hydrogen (for projects that are billed as H2 pipelines but will first transport gas...)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "OtherEnglishNames",
+      "code_friendly_name_guess": "otherenglishnames",
+      "n_total": 4246,
+      "n_null": 3703,
+      "n_non_null": 543,
+      "null_rate": 0.8721,
+      "n_unique": 501,
+      "top_values": [
+        [
+          "Iran Gas Trunkline",
+          6
+        ],
+        [
+          "Ukhta-Gryazovets",
+          4
+        ],
+        [
+          "Trans-Asia Gas Pipeline",
+          4
+        ],
+        [
+          "Interconnection Croatia/Slovenia (Lučko - Zabok - Jezerišće - Sotla)",
+          4
+        ],
+        [
+          "Southeast Northeast Interconnection Gas Pipeline, Gasoduto da Integração Sudeste-Nordeste",
+          3
+        ],
+        [
+          "Néstor Kirchner Gas Pipeline",
+          3
+        ],
+        [
+          "LNG evacuation pipeline Zlobin-Bosiljevo-Sisak-Kozarac",
+          3
+        ],
+        [
+          "expansion of Algonquin Gas Transmission Pipeline; Maritimes & Northeast Pipeline ",
+          2
+        ],
+        [
+          "Turkey-Eastern Anatolia Project",
+          2
+        ],
+        [
+          "Terminal Montoir Capacity Project",
+          2
+        ],
+        [
+          "Slovenian-Hungarian interconnector, Hungarian enabler, HU hydrogen corridor III",
+          2
+        ],
+        [
+          "Rainbow Intensity Pipelin",
+          2
+        ],
+        [
+          "Phase II",
+          2
+        ],
+        [
+          "Phase I",
+          2
+        ],
+        [
+          "Northern Lights Gas Pipeline",
+          2
+        ],
+        [
+          "Nalka-Bogra Gas Transmission Pipeline",
+          2
+        ],
+        [
+          "Modernization and rehabilitation of the Bulgarian GTS-Phase 2",
+          2
+        ],
+        [
+          "Medvezhye-Nadym-Pungas Gas Pipeline",
+          2
+        ],
+        [
+          "Main Line",
+          2
+        ],
+        [
+          "KKBMPL",
+          2
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Alternate pipeline names in English, if applicable; if there are multiple, separate by a semicolon (;)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "OtherLanguagePrimaryPipelineName",
+      "code_friendly_name_guess": "otherlanguageprimarypipelinename",
+      "n_total": 4246,
+      "n_null": 2377,
+      "n_non_null": 1869,
+      "null_rate": 0.5598,
+      "n_unique": 869,
+      "top_values": [
+        [
+          "山西输气管网",
+          68
+        ],
+        [
+          "安徽输气管网",
+          54
+        ],
+        [
+          "内蒙古输气管网",
+          43
+        ],
+        [
+          "贵州天然气管网",
+          41
+        ],
+        [
+          "重庆输气管网",
+          38
+        ],
+        [
+          "浙江输气管网",
+          37
+        ],
+        [
+          "山东输气管网",
+          36
+        ],
+        [
+          "湖南输气管网",
+          30
+        ],
+        [
+          "江西省天然气管网",
+          28
+        ],
+        [
+          "西气东输二线",
+          27
+        ],
+        [
+          "河北输气管网",
+          27
+        ],
+        [
+          "广西天然气支线管网",
+          25
+        ],
+        [
+          "云南输气管网",
+          24
+        ],
+        [
+          "陕西输气管网",
+          23
+        ],
+        [
+          "江苏沿海输气管道",
+          21
+        ],
+        [
+          "中俄远东天然气管道",
+          21
+        ],
+        [
+          "广东输气管网",
+          20
+        ],
+        [
+          "川气东送二线输气管道",
+          20
+        ],
+        [
+          "河南输气管网",
+          19
+        ],
+        [
+          "川气东送输气管道",
+          19
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Primary name in other relevant search language.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "OtherLanguageSegmentName",
+      "code_friendly_name_guess": "otherlanguagesegmentname",
+      "n_total": 4246,
+      "n_null": 4046,
+      "n_non_null": 200,
+      "null_rate": 0.9529,
+      "n_unique": 181,
+      "top_values": [
+        [
+          "长春—石家庄天然气管道工程（三阶段）",
+          5
+        ],
+        [
+          "Ampliación",
+          5
+        ],
+        [
+          "БГР-ТБА",
+          3
+        ],
+        [
+          "Fase 2",
+          3
+        ],
+        [
+          "Fase 1",
+          3
+        ],
+        [
+          "泗水—沂水天然气管道二期",
+          2
+        ],
+        [
+          "气化南疆天然气管道工程",
+          2
+        ],
+        [
+          "干线（杭锦旗-黄骅）",
+          2
+        ],
+        [
+          "Газопровод-отвод \"Крупки-Новолукомль\", 2-ая нитка",
+          2
+        ],
+        [
+          "Газопровод \"Братское НГКМ-Братск\"",
+          2
+        ],
+        [
+          "黄冈中燃高压管网改造工程",
+          1
+        ],
+        [
+          "青石峁气田青高外输管道",
+          1
+        ],
+        [
+          "青宁输气管道高邮支线",
+          1
+        ],
+        [
+          "霸州—保定天然气输气管线",
+          1
+        ],
+        [
+          "霸保复线 (永清-保定) 天然气输气管道",
+          1
+        ],
+        [
+          "长春—石家庄天然气管道工程（三阶段）, 松原－白城－乌兰浩特天然气管道",
+          1
+        ],
+        [
+          "镇邓管道",
+          1
+        ],
+        [
+          "锦州石化供气支线工程",
+          1
+        ],
+        [
+          "通辽—兴安盟天然气掺氢长输管道",
+          1
+        ],
+        [
+          "通辽-赤峰输气管道\n",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Pipeline segment/expansion name in other relevant search languages.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CountriesOrAreas",
+      "code_friendly_name_guess": "countriesorareas",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 307,
+      "top_values": [
+        [
+          "China",
+          966
+        ],
+        [
+          "United States",
+          494
+        ],
+        [
+          "Russia",
+          226
+        ],
+        [
+          "Australia",
+          148
+        ],
+        [
+          "Italy",
+          141
+        ],
+        [
+          "Japan",
+          118
+        ],
+        [
+          "Algeria",
+          118
+        ],
+        [
+          "Germany",
+          85
+        ],
+        [
+          "India",
+          71
+        ],
+        [
+          "Pakistan",
+          66
+        ],
+        [
+          "Brazil",
+          65
+        ],
+        [
+          "Bangladesh",
+          61
+        ],
+        [
+          "Canada",
+          57
+        ],
+        [
+          "Spain",
+          54
+        ],
+        [
+          "Qatar",
+          54
+        ],
+        [
+          "Mexico",
+          50
+        ],
+        [
+          "Iraq",
+          50
+        ],
+        [
+          "Egypt",
+          50
+        ],
+        [
+          "Indonesia",
+          48
+        ],
+        [
+          "Poland",
+          43
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Countries that the pipeline passes through, in order from beginning to end (where possible); note Hong Kong and Macao are recognized as sovereign states here",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Owner",
+      "code_friendly_name_guess": "owner",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 1001,
+      "top_values": [
+        [
+          "--",
+          501
+        ],
+        [
+          "Gazprom PJSC [100.00%]",
+          225
+        ],
+        [
+          "Snam Rete Gas SpA [100.00%]",
+          127
+        ],
+        [
+          "Sonatrach [100.00%]",
+          112
+        ],
+        [
+          "Sui Northern Gas Pipelines Ltd (SNGPL) [100.00%]",
+          52
+        ],
+        [
+          "Enagás [100.00%]",
+          50
+        ],
+        [
+          "Gaz-System [100.00%]",
+          44
+        ],
+        [
+          "Gas Transmission Co Ltd (GTCL) [100.00%]",
+          42
+        ],
+        [
+          "Qatar Energy [100.00%]",
+          39
+        ],
+        [
+          "Iraq Ministry of Oil [100.00%]",
+          38
+        ],
+        [
+          "Enbridge [100.00%]",
+          37
+        ],
+        [
+          "National Petroleum and Natural Gas Pipeline Network Group Co Ltd [100.00%]",
+          34
+        ],
+        [
+          "PTT Public Co Ltd [100.00%]",
+          32
+        ],
+        [
+          "Guangdong Natural Gas Grid Co Ltd [100.00%]",
+          32
+        ],
+        [
+          "Gasunie Transport Services [100.00%]",
+          32
+        ],
+        [
+          "Saudi Aramco [100.00%]",
+          31
+        ],
+        [
+          "National Pipe Network Group Southwest Pipeline Co Ltd [100.00%]",
+          30
+        ],
+        [
+          "APA Group [100.00%]",
+          30
+        ],
+        [
+          "Tokyo Gas [100.00%]",
+          29
+        ],
+        [
+          "National Pipe Network Group North Pipeline Co Ltd [100.00%]",
+          29
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Auto-filled: immediate owner name(s), percent ownership if available; here \"owner\" means lowest/most immediate level of ownership that we're able to find in our research.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Parent",
+      "code_friendly_name_guess": "parent",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 644,
+      "top_values": [
+        [
+          "unknown [unknown %]",
+          1419
+        ],
+        [
+          "Gazprom PJSC [100.00%]",
+          224
+        ],
+        [
+          "Snam SpA [100.00%]",
+          132
+        ],
+        [
+          "Sonatrach SpA [100.00%]",
+          92
+        ],
+        [
+          "Sui Northern Gas Pipelines Ltd [100.00%]",
+          52
+        ],
+        [
+          "Enagás SA [100.00%]",
+          50
+        ],
+        [
+          "TC Energy Corp [100.00%]",
+          48
+        ],
+        [
+          "Operator Gazociagow Przesylowych GAZ-SYSTEM SP zoo [100.00%]",
+          44
+        ],
+        [
+          "Bangladesh Oil, Gas and Mineral Corp [unknown %]",
+          42
+        ],
+        [
+          "QatarEnergy [100.00%]",
+          39
+        ],
+        [
+          "Nederlandse Gasunie NV [100.00%]",
+          37
+        ],
+        [
+          "Enbridge Inc [100.00%]",
+          37
+        ],
+        [
+          "National Petroleum and Natural Gas Pipeline Network Group Co Ltd [100.00%]",
+          36
+        ],
+        [
+          "PTT PCL [100.00%]",
+          32
+        ],
+        [
+          "Saudi Arabian Oil Co [100.00%]",
+          31
+        ],
+        [
+          "Tokyo Gas Co Ltd [100.00%]",
+          29
+        ],
+        [
+          "Bulgarian Energy Holding EAD [100.00%]",
+          29
+        ],
+        [
+          "PT Pertamina Gas Negara Tbk [51.00%]; PT Pertamina (Persero) [49.00%]; small shareholder(s) [0.00%]",
+          27
+        ],
+        [
+          "GAIL Ltd [100.00%]",
+          27
+        ],
+        [
+          "APA Group Ltd [100.00%]",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Parent company name(s), percent ownership if available; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ParentEntityIDs",
+      "code_friendly_name_guess": "parententityids",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 876,
+      "top_values": [
+        [
+          "unknown",
+          905
+        ],
+        [
+          "E100000001492",
+          223
+        ],
+        [
+          "E100001015687",
+          127
+        ],
+        [
+          "E100000000003",
+          92
+        ],
+        [
+          "E100001015774",
+          52
+        ],
+        [
+          "E100001014505",
+          50
+        ],
+        [
+          "E100001014833",
+          44
+        ],
+        [
+          "E100001014795",
+          42
+        ],
+        [
+          "E100000000846",
+          39
+        ],
+        [
+          "E100000001595",
+          36
+        ],
+        [
+          "E100000000112",
+          35
+        ],
+        [
+          "E100001014897",
+          32
+        ],
+        [
+          "E100001014830",
+          32
+        ],
+        [
+          "E100000001035",
+          32
+        ],
+        [
+          "E100001014318",
+          31
+        ],
+        [
+          "E100001000322",
+          31
+        ],
+        [
+          "E100001015449",
+          29
+        ],
+        [
+          "E100000000660",
+          29
+        ],
+        [
+          "E100000000571",
+          28
+        ],
+        [
+          "E100001015678",
+          27
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "structured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Parent company entity IDs in the GEM Ownership Tracker.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartYear1",
+      "code_friendly_name_guess": "startyear1",
+      "n_total": 4246,
+      "n_null": 1421,
+      "n_non_null": 2825,
+      "null_rate": 0.3347,
+      "n_unique": 102,
+      "top_values": [
+        [
+          "2022.0",
+          154
+        ],
+        [
+          "2023.0",
+          146
+        ],
+        [
+          "2024.0",
+          133
+        ],
+        [
+          "2021.0",
+          111
+        ],
+        [
+          "2025.0",
+          105
+        ],
+        [
+          "2019.0",
+          101
+        ],
+        [
+          "2020.0",
+          99
+        ],
+        [
+          "2026.0",
+          78
+        ],
+        [
+          "2018.0",
+          75
+        ],
+        [
+          "2017.0",
+          75
+        ],
+        [
+          "2027.0",
+          74
+        ],
+        [
+          "2014.0",
+          74
+        ],
+        [
+          "2028.0",
+          73
+        ],
+        [
+          "2011.0",
+          68
+        ],
+        [
+          "2008.0",
+          63
+        ],
+        [
+          "2009.0",
+          62
+        ],
+        [
+          "2015.0",
+          61
+        ],
+        [
+          "2010.0",
+          60
+        ],
+        [
+          "2006.0",
+          60
+        ],
+        [
+          "2012.0",
+          59
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "First year operations initiated, or expected to initiate",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartYear2",
+      "code_friendly_name_guess": "startyear2",
+      "n_total": 4246,
+      "n_null": 4117,
+      "n_non_null": 129,
+      "null_rate": 0.9696,
+      "n_unique": 52,
+      "top_values": [
+        [
+          "2027.0",
+          11
+        ],
+        [
+          "2003.0",
+          7
+        ],
+        [
+          "2010.0",
+          6
+        ],
+        [
+          "2024.0",
+          5
+        ],
+        [
+          "2018.0",
+          5
+        ],
+        [
+          "2016.0",
+          5
+        ],
+        [
+          "2015.0",
+          5
+        ],
+        [
+          "2005.0",
+          5
+        ],
+        [
+          "2025.0",
+          4
+        ],
+        [
+          "2023.0",
+          4
+        ],
+        [
+          "2022.0",
+          4
+        ],
+        [
+          "2020.0",
+          3
+        ],
+        [
+          "2011.0",
+          3
+        ],
+        [
+          "2009.0",
+          3
+        ],
+        [
+          "2004.0",
+          3
+        ],
+        [
+          "2001.0",
+          3
+        ],
+        [
+          "1997.0",
+          3
+        ],
+        [
+          "1996.0",
+          3
+        ],
+        [
+          "2028.0",
+          2
+        ],
+        [
+          "2026.0",
+          2
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year operations initiated for first expansion project, or expected to initiate, if expansion not listed as separate observation",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartYear3",
+      "code_friendly_name_guess": "startyear3",
+      "n_total": 4246,
+      "n_null": 4234,
+      "n_non_null": 12,
+      "null_rate": 0.9972,
+      "n_unique": 10,
+      "top_values": [
+        [
+          "2027.0",
+          3
+        ],
+        [
+          "2026.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2016.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2011.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ],
+        [
+          "1983.0",
+          1
+        ],
+        [
+          "1977.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year operations initiated for second expansion project, or expected to initiate, if expansion not listed as separate observation",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ShelvedYear",
+      "code_friendly_name_guess": "shelvedyear",
+      "n_total": 4246,
+      "n_null": 4149,
+      "n_non_null": 97,
+      "null_rate": 0.9772,
+      "n_unique": 20,
+      "top_values": [
+        [
+          "2020.0",
+          12
+        ],
+        [
+          "2018.0",
+          12
+        ],
+        [
+          "2021.0",
+          11
+        ],
+        [
+          "2023.0",
+          9
+        ],
+        [
+          "Medvezhye Field",
+          7
+        ],
+        [
+          "2024.0",
+          7
+        ],
+        [
+          "2019.0",
+          6
+        ],
+        [
+          "2025.0",
+          5
+        ],
+        [
+          "2022.0",
+          4
+        ],
+        [
+          "2016.0",
+          4
+        ],
+        [
+          "2017.0",
+          3
+        ],
+        [
+          "2015.0",
+          3
+        ],
+        [
+          "2012.0",
+          3
+        ],
+        [
+          "2009.0",
+          3
+        ],
+        [
+          "2014.0",
+          2
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "Koptevskoye and Novo-Koptevskoye gas fields",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2008.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ]
+      ],
+      "portion_numeric": 0.9175,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If Status=Shelved, the year this became true",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CancelledYear",
+      "code_friendly_name_guess": "cancelledyear",
+      "n_total": 4246,
+      "n_null": 4098,
+      "n_non_null": 148,
+      "null_rate": 0.9651,
+      "n_unique": 21,
+      "top_values": [
+        [
+          "2020.0",
+          23
+        ],
+        [
+          "2022.0",
+          18
+        ],
+        [
+          "2025.0",
+          16
+        ],
+        [
+          "2024.0",
+          13
+        ],
+        [
+          "2023.0",
+          13
+        ],
+        [
+          "2021.0",
+          13
+        ],
+        [
+          "2018.0",
+          7
+        ],
+        [
+          "2017.0",
+          7
+        ],
+        [
+          "2016.0",
+          7
+        ],
+        [
+          "2019.0",
+          5
+        ],
+        [
+          "2013.0",
+          5
+        ],
+        [
+          "2014.0",
+          4
+        ],
+        [
+          "2015.0",
+          3
+        ],
+        [
+          "2012.0",
+          3
+        ],
+        [
+          "2011.0",
+          3
+        ],
+        [
+          "2010.0",
+          2
+        ],
+        [
+          "2009.0",
+          2
+        ],
+        [
+          "2008.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2006.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If Status=Cancelled, the year this became true",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StopYear",
+      "code_friendly_name_guess": "stopyear",
+      "n_total": 4246,
+      "n_null": 4230,
+      "n_non_null": 16,
+      "null_rate": 0.9962,
+      "n_unique": 13,
+      "top_values": [
+        [
+          "2017.0",
+          2
+        ],
+        [
+          "2016.0",
+          2
+        ],
+        [
+          "2011.0",
+          2
+        ],
+        [
+          "2023.0",
+          1
+        ],
+        [
+          "2022.0",
+          1
+        ],
+        [
+          "2021.0",
+          1
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2018.0",
+          1
+        ],
+        [
+          "2015.0",
+          1
+        ],
+        [
+          "2013.0",
+          1
+        ],
+        [
+          "2012.0",
+          1
+        ],
+        [
+          "2007.0",
+          1
+        ],
+        [
+          "2004.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Year operations ended (if Status=\"Mothballed\", Status=\"Idle\", or Status=\"Retired\") or the year the project was cancelled (if Status=\"Cancelled\"). If Status=\"Cancelled\" due to 4-year rule* (as opposed to a formal cancellation), then StopYear=\"presumed\"",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Capacity",
+      "code_friendly_name_guess": "capacity",
+      "n_total": 4246,
+      "n_null": 1606,
+      "n_non_null": 2640,
+      "null_rate": 0.3782,
+      "n_unique": 849,
+      "top_values": [
+        [
+          "2.0",
+          41
+        ],
+        [
+          "10.0",
+          40
+        ],
+        [
+          "0.5",
+          37
+        ],
+        [
+          "1.0",
+          36
+        ],
+        [
+          "3.0",
+          30
+        ],
+        [
+          "30.0",
+          29
+        ],
+        [
+          "4.0",
+          28
+        ],
+        [
+          "400.0",
+          26
+        ],
+        [
+          "2000.0",
+          26
+        ],
+        [
+          "200.0",
+          26
+        ],
+        [
+          "8.0",
+          25
+        ],
+        [
+          "5.0",
+          24
+        ],
+        [
+          "250.0",
+          24
+        ],
+        [
+          "12.0",
+          24
+        ],
+        [
+          "1.5",
+          24
+        ],
+        [
+          "150.0",
+          23
+        ],
+        [
+          "350.0",
+          22
+        ],
+        [
+          "20.0",
+          21
+        ],
+        [
+          "0.4",
+          21
+        ],
+        [
+          "500.0",
+          20
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Maximum potential capacity",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CapacityUnits",
+      "code_friendly_name_guess": "capacityunits",
+      "n_total": 4246,
+      "n_null": 1604,
+      "n_non_null": 2642,
+      "null_rate": 0.3778,
+      "n_unique": 18,
+      "top_values": [
+        [
+          "bcm/y",
+          1397
+        ],
+        [
+          "MMcf/d",
+          918
+        ],
+        [
+          "MMSCMD",
+          118
+        ],
+        [
+          "TJ/d",
+          84
+        ],
+        [
+          "mill.Sm3/day",
+          59
+        ],
+        [
+          "GWh/d",
+          28
+        ],
+        [
+          "Mcf/d",
+          10
+        ],
+        [
+          "scm/y",
+          7
+        ],
+        [
+          "mtpa",
+          7
+        ],
+        [
+          "m3/h",
+          3
+        ],
+        [
+          "GWh/h",
+          3
+        ],
+        [
+          "PJ/y",
+          2
+        ],
+        [
+          "scm/yr",
+          1
+        ],
+        [
+          "m3/d",
+          1
+        ],
+        [
+          "Tsd. m³/h",
+          1
+        ],
+        [
+          "MMBtu/d",
+          1
+        ],
+        [
+          "Dth/d",
+          1
+        ],
+        [
+          "BCF/y",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:12_values_below_1pct"
+      ],
+      "definition_from_readme": "Units that \"Capacity\" is reported in (bpd, bcm/year, mtpa, MMcf/d, or TJ/d)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CapacityBcm/y",
+      "code_friendly_name_guess": "capacitybcm_y",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 710,
+      "top_values": [
+        [
+          "--",
+          1617
+        ],
+        [
+          "0.5",
+          37
+        ],
+        [
+          "10.0",
+          36
+        ],
+        [
+          "2.0",
+          35
+        ],
+        [
+          "1.0",
+          34
+        ],
+        [
+          "4.09",
+          28
+        ],
+        [
+          "20.44",
+          28
+        ],
+        [
+          "2.56",
+          28
+        ],
+        [
+          "3.0",
+          26
+        ],
+        [
+          "1.5",
+          25
+        ],
+        [
+          "0.4",
+          25
+        ],
+        [
+          "0.0",
+          25
+        ],
+        [
+          "4.0",
+          24
+        ],
+        [
+          "0.1",
+          23
+        ],
+        [
+          "2.04",
+          22
+        ],
+        [
+          "10.22",
+          22
+        ],
+        [
+          "1.02",
+          22
+        ],
+        [
+          "30.0",
+          21
+        ],
+        [
+          "8.0",
+          20
+        ],
+        [
+          "5.11",
+          20
+        ]
+      ],
+      "portion_numeric": 0.898,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ],
+      "definition_from_readme": "Capacity converted to billion cubic meters (bcm) per year",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CapacityBOEd",
+      "code_friendly_name_guess": "capacityboed",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 1079,
+      "top_values": [
+        [
+          "--",
+          1617
+        ],
+        [
+          "161178.08",
+          36
+        ],
+        [
+          "32235.62",
+          35
+        ],
+        [
+          "16117.81",
+          32
+        ],
+        [
+          "65889.6",
+          28
+        ],
+        [
+          "329448.0",
+          28
+        ],
+        [
+          "41181.0",
+          27
+        ],
+        [
+          "48353.42",
+          26
+        ],
+        [
+          "8058.9",
+          24
+        ],
+        [
+          "64471.23",
+          24
+        ],
+        [
+          "24176.71",
+          24
+        ],
+        [
+          "32944.8",
+          22
+        ],
+        [
+          "164724.0",
+          22
+        ],
+        [
+          "6447.12",
+          21
+        ],
+        [
+          "483534.25",
+          21
+        ],
+        [
+          "82362.0",
+          20
+        ],
+        [
+          "24708.6",
+          20
+        ],
+        [
+          "193413.7",
+          20
+        ],
+        [
+          "128942.47",
+          20
+        ],
+        [
+          "49417.2",
+          18
+        ]
+      ],
+      "portion_numeric": 0.898,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [
+        "numeric_null_proxies"
+      ],
+      "definition_from_readme": "Capacity converted to barrels of oil equivalent (BOE) per day",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LengthKnownKm",
+      "code_friendly_name_guess": "lengthknownkm",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 1763,
+      "top_values": [
+        [
+          "--",
+          487
+        ],
+        [
+          "0.0",
+          119
+        ],
+        [
+          "60.0",
+          28
+        ],
+        [
+          "50.0",
+          26
+        ],
+        [
+          "150.0",
+          23
+        ],
+        [
+          "40.0",
+          22
+        ],
+        [
+          "120.0",
+          22
+        ],
+        [
+          "65.0",
+          21
+        ],
+        [
+          "30.0",
+          21
+        ],
+        [
+          "70.0",
+          20
+        ],
+        [
+          "80.0",
+          19
+        ],
+        [
+          "110.0",
+          19
+        ],
+        [
+          "85.0",
+          18
+        ],
+        [
+          "100.0",
+          18
+        ],
+        [
+          "90.0",
+          17
+        ],
+        [
+          "37.0",
+          17
+        ],
+        [
+          "20.0",
+          17
+        ],
+        [
+          "58.0",
+          15
+        ],
+        [
+          "45.0",
+          15
+        ],
+        [
+          "28.0",
+          15
+        ]
+      ],
+      "portion_numeric": 0.976,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Publicly available length, converted to km",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LengthEstimateKm",
+      "code_friendly_name_guess": "lengthestimatekm",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 3278,
+      "top_values": [
+        [
+          "--",
+          712
+        ],
+        [
+          "51.08",
+          7
+        ],
+        [
+          "1181.82",
+          5
+        ],
+        [
+          "505.06",
+          4
+        ],
+        [
+          "42.29",
+          4
+        ],
+        [
+          "970.51",
+          3
+        ],
+        [
+          "96.71",
+          3
+        ],
+        [
+          "900.36",
+          3
+        ],
+        [
+          "840.48",
+          3
+        ],
+        [
+          "83.93",
+          3
+        ],
+        [
+          "70.49",
+          3
+        ],
+        [
+          "59.55",
+          3
+        ],
+        [
+          "56.79",
+          3
+        ],
+        [
+          "55.07",
+          3
+        ],
+        [
+          "547.69",
+          3
+        ],
+        [
+          "45.08",
+          3
+        ],
+        [
+          "41.88",
+          3
+        ],
+        [
+          "396.21",
+          3
+        ],
+        [
+          "380.08",
+          3
+        ],
+        [
+          "37.45",
+          3
+        ]
+      ],
+      "portion_numeric": 0.99,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Estimated length in km, calulated using route coordinates with Geopandas Python package and taken from \"Length Estimates by Pipeline\" tab)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "LengthMergedKm",
+      "code_friendly_name_guess": "lengthmergedkm",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 2147,
+      "top_values": [
+        [
+          "0.0",
+          119
+        ],
+        [
+          "--",
+          69
+        ],
+        [
+          "60.0",
+          28
+        ],
+        [
+          "50.0",
+          26
+        ],
+        [
+          "150.0",
+          23
+        ],
+        [
+          "40.0",
+          22
+        ],
+        [
+          "120.0",
+          22
+        ],
+        [
+          "65.0",
+          21
+        ],
+        [
+          "30.0",
+          21
+        ],
+        [
+          "70.0",
+          20
+        ],
+        [
+          "80.0",
+          19
+        ],
+        [
+          "110.0",
+          19
+        ],
+        [
+          "85.0",
+          18
+        ],
+        [
+          "100.0",
+          18
+        ],
+        [
+          "90.0",
+          17
+        ],
+        [
+          "37.0",
+          17
+        ],
+        [
+          "20.0",
+          17
+        ],
+        [
+          "58.0",
+          15
+        ],
+        [
+          "45.0",
+          15
+        ],
+        [
+          "28.0",
+          15
+        ]
+      ],
+      "portion_numeric": 0.998,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Merge between LengthKnownKm and LengthEstimateKm (LengthKnownKm is priotized when available; otherwise LengthEstimateKm is used).",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "Diameter",
+      "code_friendly_name_guess": "diameter",
+      "n_total": 4246,
+      "n_null": 1153,
+      "n_non_null": 3093,
+      "null_rate": 0.2715,
+      "n_unique": 456,
+      "top_values": [
+        [
+          "24.0",
+          145
+        ],
+        [
+          "36.0",
+          128
+        ],
+        [
+          "42.0",
+          124
+        ],
+        [
+          "30.0",
+          119
+        ],
+        [
+          "20.0",
+          107
+        ],
+        [
+          "12.0",
+          84
+        ],
+        [
+          "16.0",
+          73
+        ],
+        [
+          "48.0",
+          71
+        ],
+        [
+          "508.0",
+          68
+        ],
+        [
+          "600.0",
+          67
+        ],
+        [
+          "1016.0",
+          62
+        ],
+        [
+          "700.0",
+          60
+        ],
+        [
+          "400.0",
+          59
+        ],
+        [
+          "300.0",
+          55
+        ],
+        [
+          "813.0",
+          48
+        ],
+        [
+          "8.0",
+          47
+        ],
+        [
+          "500.0",
+          46
+        ],
+        [
+          "1200.0",
+          45
+        ],
+        [
+          "610.0",
+          44
+        ],
+        [
+          "1420.0",
+          44
+        ]
+      ],
+      "portion_numeric": 0.822,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [
+        "mostly_numeric_with_outliers"
+      ],
+      "definition_from_readme": "Pipeline's diameter (without units); when multiple values are reported, they are separated by a comma",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "DiameterUnits",
+      "code_friendly_name_guess": "diameterunits",
+      "n_total": 4246,
+      "n_null": 1156,
+      "n_non_null": 3090,
+      "null_rate": 0.2723,
+      "n_unique": 3,
+      "top_values": [
+        [
+          "in",
+          1607
+        ],
+        [
+          "mm",
+          1482
+        ],
+        [
+          "  mm",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:1_values_below_1pct"
+      ],
+      "definition_from_readme": "Pipeline's diameter units",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FuelSource",
+      "code_friendly_name_guess": "fuelsource",
+      "n_total": 4246,
+      "n_null": 2938,
+      "n_non_null": 1308,
+      "null_rate": 0.6919,
+      "n_unique": 785,
+      "top_values": [
+        [
+          "North Field",
+          26
+        ],
+        [
+          "Kirinskoye, Yuzhno-Kirinskoye, Mynginskoye Oil and Gas Fields",
+          25
+        ],
+        [
+          "Urengoy gas field",
+          20
+        ],
+        [
+          "Permian Basin",
+          15
+        ],
+        [
+          "The gas source comes from shale gas in Weiyuan and Luxian.",
+          14
+        ],
+        [
+          "Sino-Myanmar Gas Pipeline",
+          14
+        ],
+        [
+          "Gazli",
+          13
+        ],
+        [
+          "Medvezhye Oil and Gas Field",
+          11
+        ],
+        [
+          "Changqing Gas Field",
+          11
+        ],
+        [
+          "Beetaloo Basin",
+          11
+        ],
+        [
+          "Western Canadian Sedimentary Basin",
+          9
+        ],
+        [
+          "South Pars gas field",
+          9
+        ],
+        [
+          "West-East Gas Pipeline 2",
+          8
+        ],
+        [
+          "The main gas sources for the Sichuan–Shanghai Gas Pipeline include multiple channels such as the Puguang Gas Field, Fuling Shale Gas, and Yuanba Gas Field.\n",
+          8
+        ],
+        [
+          "Levantine Basin",
+          8
+        ],
+        [
+          "Changqing Oil/gas field",
+          8
+        ],
+        [
+          "Dauletabad gas field",
+          7
+        ],
+        [
+          "Vaca Muerta shale fields",
+          6
+        ],
+        [
+          "Uzen",
+          6
+        ],
+        [
+          "Sichuan–Shanghai Gas Pipeline",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Name of oil or gas field, or pipeline, the fuel is sourced from",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartLocation",
+      "code_friendly_name_guess": "startlocation",
+      "n_total": 4246,
+      "n_null": 990,
+      "n_non_null": 3256,
+      "null_rate": 0.2332,
+      "n_unique": 2513,
+      "top_values": [
+        [
+          "Hassi R'Mel",
+          17
+        ],
+        [
+          "Offshore Thailand",
+          11
+        ],
+        [
+          "Waha",
+          10
+        ],
+        [
+          "Asaluyeh",
+          10
+        ],
+        [
+          "Ukhta",
+          9
+        ],
+        [
+          "Gazli",
+          8
+        ],
+        [
+          "Station B",
+          7
+        ],
+        [
+          "Offshore",
+          7
+        ],
+        [
+          "Haynesville",
+          7
+        ],
+        [
+          "Gulf of Mexico",
+          7
+        ],
+        [
+          "Urengoy",
+          6
+        ],
+        [
+          "Torzhok",
+          6
+        ],
+        [
+          "Gryazovets",
+          6
+        ],
+        [
+          "Bovanenkovskoye Oil and Gas Field",
+          6
+        ],
+        [
+          "Baumgarten an der March",
+          6
+        ],
+        [
+          "Yongqing",
+          5
+        ],
+        [
+          "Wijngaarden",
+          5
+        ],
+        [
+          "Taichung",
+          5
+        ],
+        [
+          "Shebelinka",
+          5
+        ],
+        [
+          "Prudhoe Bay",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Town, city, or village the pipeline starts in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartPrefecture/District",
+      "code_friendly_name_guess": "startprefecture_district",
+      "n_total": 4246,
+      "n_null": 2964,
+      "n_non_null": 1282,
+      "null_rate": 0.6981,
+      "n_unique": 699,
+      "top_values": [
+        [
+          "Ordos",
+          23
+        ],
+        [
+          "Zunyi",
+          13
+        ],
+        [
+          "Lvliang",
+          12
+        ],
+        [
+          "Linfen",
+          11
+        ],
+        [
+          "Sylhet",
+          10
+        ],
+        [
+          "Chiba",
+          10
+        ],
+        [
+          "Qiandongnan Miao and Dong Autonomous Prefecture",
+          9
+        ],
+        [
+          "Niigata Prefecture",
+          9
+        ],
+        [
+          "Yulin",
+          8
+        ],
+        [
+          "Nadymsky District",
+          8
+        ],
+        [
+          "Langfang",
+          8
+        ],
+        [
+          "Jinzhong",
+          8
+        ],
+        [
+          "Ulanqab",
+          7
+        ],
+        [
+          "Taizhou",
+          7
+        ],
+        [
+          "Kenai Peninsula",
+          7
+        ],
+        [
+          "Hengshui",
+          7
+        ],
+        [
+          "Guangzhou",
+          7
+        ],
+        [
+          "Xinzhou",
+          6
+        ],
+        [
+          "Tongren",
+          6
+        ],
+        [
+          "Taiyuan",
+          6
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district the pipeline starts in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartState/Province",
+      "code_friendly_name_guess": "startstate_province",
+      "n_total": 4246,
+      "n_null": 1310,
+      "n_non_null": 2936,
+      "null_rate": 0.3085,
+      "n_unique": 603,
+      "top_values": [
+        [
+          "Texas",
+          94
+        ],
+        [
+          "Shanxi",
+          70
+        ],
+        [
+          "Louisiana",
+          62
+        ],
+        [
+          "Anhui",
+          60
+        ],
+        [
+          "Inner Mongolia",
+          53
+        ],
+        [
+          "Chongqing",
+          52
+        ],
+        [
+          "Jiangsu",
+          51
+        ],
+        [
+          "Guizhou",
+          50
+        ],
+        [
+          "Guangxi",
+          48
+        ],
+        [
+          "Guangdong",
+          46
+        ],
+        [
+          "Xinjiang",
+          42
+        ],
+        [
+          "Hebei",
+          42
+        ],
+        [
+          "Zhejiang",
+          40
+        ],
+        [
+          "Shandong",
+          39
+        ],
+        [
+          "Queensland",
+          38
+        ],
+        [
+          "Jiangxi",
+          38
+        ],
+        [
+          "Punjab",
+          37
+        ],
+        [
+          "Sichuan",
+          35
+        ],
+        [
+          "Western Australia",
+          34
+        ],
+        [
+          "Yunnan",
+          32
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "State or province pipeline starts in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartCountryOrArea",
+      "code_friendly_name_guess": "startcountryorarea",
+      "n_total": 4246,
+      "n_null": 1,
+      "n_non_null": 4245,
+      "null_rate": 0.0002,
+      "n_unique": 116,
+      "top_values": [
+        [
+          "China",
+          967
+        ],
+        [
+          "United States",
+          513
+        ],
+        [
+          "Russia",
+          269
+        ],
+        [
+          "Australia",
+          148
+        ],
+        [
+          "Italy",
+          141
+        ],
+        [
+          "Algeria",
+          124
+        ],
+        [
+          "Japan",
+          118
+        ],
+        [
+          "Germany",
+          91
+        ],
+        [
+          "India",
+          73
+        ],
+        [
+          "Canada",
+          69
+        ],
+        [
+          "Pakistan",
+          67
+        ],
+        [
+          "Brazil",
+          65
+        ],
+        [
+          "Bangladesh",
+          61
+        ],
+        [
+          "Spain",
+          60
+        ],
+        [
+          "Qatar",
+          59
+        ],
+        [
+          "Saudi Arabia",
+          57
+        ],
+        [
+          "Iraq",
+          52
+        ],
+        [
+          "Mexico",
+          51
+        ],
+        [
+          "Egypt",
+          51
+        ],
+        [
+          "Indonesia",
+          50
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Country the pipeline starts in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartRegion",
+      "code_friendly_name_guess": "startregion",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Asia",
+          1866
+        ],
+        [
+          "Europe",
+          1080
+        ],
+        [
+          "Americas",
+          838
+        ],
+        [
+          "Africa",
+          299
+        ],
+        [
+          "Oceania",
+          156
+        ],
+        [
+          "--",
+          7
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Pipeline's start region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "StartSubRegion",
+      "code_friendly_name_guess": "startsubregion",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Eastern Asia",
+          1097
+        ],
+        [
+          "Northern America",
+          582
+        ],
+        [
+          "Eastern Europe",
+          457
+        ],
+        [
+          "Western Asia",
+          328
+        ],
+        [
+          "Southern Europe",
+          316
+        ],
+        [
+          "Latin America and the Caribbean",
+          256
+        ],
+        [
+          "Southern Asia",
+          238
+        ],
+        [
+          "Northern Africa",
+          231
+        ],
+        [
+          "Western Europe",
+          177
+        ],
+        [
+          "Australia and New Zealand",
+          151
+        ],
+        [
+          "Northern Europe",
+          130
+        ],
+        [
+          "South-eastern Asia",
+          126
+        ],
+        [
+          "Central Asia",
+          77
+        ],
+        [
+          "Sub-Saharan Africa",
+          68
+        ],
+        [
+          "--",
+          7
+        ],
+        [
+          "Melanesia",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Pipeline's start subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndLocation",
+      "code_friendly_name_guess": "endlocation",
+      "n_total": 4246,
+      "n_null": 1062,
+      "n_non_null": 3184,
+      "null_rate": 0.2501,
+      "n_unique": 2537,
+      "top_values": [
+        [
+          "Ras Laffan Industrial City",
+          26
+        ],
+        [
+          "Ukhta",
+          10
+        ],
+        [
+          "Mount Isa",
+          7
+        ],
+        [
+          "Minerbio",
+          6
+        ],
+        [
+          "Gryazovets",
+          6
+        ],
+        [
+          "Zimella",
+          5
+        ],
+        [
+          "Wallumbilla",
+          5
+        ],
+        [
+          "Shijiazhuang",
+          5
+        ],
+        [
+          "Punga",
+          5
+        ],
+        [
+          "Kagan",
+          5
+        ],
+        [
+          "Gillis Hub",
+          5
+        ],
+        [
+          "Dolyna",
+          5
+        ],
+        [
+          "Chicago",
+          5
+        ],
+        [
+          "Bacton Terminal",
+          5
+        ],
+        [
+          "Yongqing",
+          4
+        ],
+        [
+          "Yakutsk",
+          4
+        ],
+        [
+          "Uzhhorod",
+          4
+        ],
+        [
+          "Uthmaniya",
+          4
+        ],
+        [
+          "Tula",
+          4
+        ],
+        [
+          "Torzhok",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Town, city, or village the pipeline ends in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndPrefecture/District",
+      "code_friendly_name_guess": "endprefecture_district",
+      "n_total": 4246,
+      "n_null": 3228,
+      "n_non_null": 1018,
+      "null_rate": 0.7602,
+      "n_unique": 636,
+      "top_values": [
+        [
+          "Lvliang",
+          15
+        ],
+        [
+          "Qiandongnan Miao and Dong Autonomous Prefecture",
+          12
+        ],
+        [
+          "Xinzhou",
+          11
+        ],
+        [
+          "Linfen",
+          10
+        ],
+        [
+          "Ordos",
+          9
+        ],
+        [
+          "Dhaka",
+          8
+        ],
+        [
+          "Chittagong",
+          8
+        ],
+        [
+          "Zunyi",
+          7
+        ],
+        [
+          "Tongren",
+          7
+        ],
+        [
+          "Yulin",
+          6
+        ],
+        [
+          "Sylhet",
+          6
+        ],
+        [
+          "Guilin",
+          6
+        ],
+        [
+          "Baoding",
+          6
+        ],
+        [
+          "Arzew",
+          6
+        ],
+        [
+          "Zhaotong",
+          5
+        ],
+        [
+          "Yuncheng",
+          5
+        ],
+        [
+          "Wenzhou",
+          5
+        ],
+        [
+          "Taiyuan",
+          5
+        ],
+        [
+          "Norfolk",
+          5
+        ],
+        [
+          "Ningbo",
+          5
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Prefecture or district the pipeline ends in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndState/Province",
+      "code_friendly_name_guess": "endstate_province",
+      "n_total": 4246,
+      "n_null": 1260,
+      "n_non_null": 2986,
+      "null_rate": 0.2967,
+      "n_unique": 683,
+      "top_values": [
+        [
+          "Louisiana",
+          80
+        ],
+        [
+          "Texas",
+          68
+        ],
+        [
+          "Shanxi",
+          66
+        ],
+        [
+          "Anhui",
+          66
+        ],
+        [
+          "Guangdong",
+          52
+        ],
+        [
+          "Guizhou",
+          51
+        ],
+        [
+          "Chongqing",
+          51
+        ],
+        [
+          "Guangxi",
+          50
+        ],
+        [
+          "Inner Mongolia",
+          48
+        ],
+        [
+          "Hebei",
+          48
+        ],
+        [
+          "Jiangsu",
+          46
+        ],
+        [
+          "Punjab",
+          44
+        ],
+        [
+          "Shandong",
+          43
+        ],
+        [
+          "Queensland",
+          42
+        ],
+        [
+          "Xinjiang",
+          39
+        ],
+        [
+          "Western Australia",
+          39
+        ],
+        [
+          "Zhejiang",
+          38
+        ],
+        [
+          "Jiangxi",
+          38
+        ],
+        [
+          "Hunan",
+          34
+        ],
+        [
+          "Yunnan",
+          31
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "State or province the pipeline ends in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndCountryOrArea",
+      "code_friendly_name_guess": "endcountryorarea",
+      "n_total": 4246,
+      "n_null": 1,
+      "n_non_null": 4245,
+      "null_rate": 0.0002,
+      "n_unique": 122,
+      "top_values": [
+        [
+          "China",
+          980
+        ],
+        [
+          "United States",
+          504
+        ],
+        [
+          "Russia",
+          243
+        ],
+        [
+          "Italy",
+          156
+        ],
+        [
+          "Australia",
+          150
+        ],
+        [
+          "Japan",
+          119
+        ],
+        [
+          "Algeria",
+          119
+        ],
+        [
+          "Germany",
+          97
+        ],
+        [
+          "India",
+          73
+        ],
+        [
+          "Brazil",
+          71
+        ],
+        [
+          "Pakistan",
+          67
+        ],
+        [
+          "Canada",
+          67
+        ],
+        [
+          "Mexico",
+          61
+        ],
+        [
+          "Bangladesh",
+          61
+        ],
+        [
+          "Spain",
+          58
+        ],
+        [
+          "Saudi Arabia",
+          57
+        ],
+        [
+          "Qatar",
+          57
+        ],
+        [
+          "Egypt",
+          53
+        ],
+        [
+          "Iraq",
+          51
+        ],
+        [
+          "Indonesia",
+          48
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Country the pipeline ends in",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndRegion",
+      "code_friendly_name_guess": "endregion",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 6,
+      "top_values": [
+        [
+          "Asia",
+          1857
+        ],
+        [
+          "Europe",
+          1089
+        ],
+        [
+          "Americas",
+          838
+        ],
+        [
+          "Africa",
+          294
+        ],
+        [
+          "Oceania",
+          157
+        ],
+        [
+          "--",
+          11
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Pipeline's end region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "EndSubRegion",
+      "code_friendly_name_guess": "endsubregion",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 16,
+      "top_values": [
+        [
+          "Eastern Asia",
+          1111
+        ],
+        [
+          "Northern America",
+          571
+        ],
+        [
+          "Eastern Europe",
+          447
+        ],
+        [
+          "Southern Europe",
+          330
+        ],
+        [
+          "Western Asia",
+          325
+        ],
+        [
+          "Latin America and the Caribbean",
+          267
+        ],
+        [
+          "Southern Asia",
+          236
+        ],
+        [
+          "Northern Africa",
+          229
+        ],
+        [
+          "Western Europe",
+          187
+        ],
+        [
+          "Australia and New Zealand",
+          153
+        ],
+        [
+          "South-eastern Asia",
+          126
+        ],
+        [
+          "Northern Europe",
+          125
+        ],
+        [
+          "Sub-Saharan Africa",
+          65
+        ],
+        [
+          "Central Asia",
+          59
+        ],
+        [
+          "--",
+          11
+        ],
+        [
+          "Melanesia",
+          4
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Pipeline's end subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ProjectLevelCost",
+      "code_friendly_name_guess": "projectlevelcost",
+      "n_total": 4246,
+      "n_null": 4243,
+      "n_non_null": 3,
+      "null_rate": 0.9993,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "2300000000.0",
+          3
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "numeric",
+      "subtype_guess": null,
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Cost of the project (either estimated or actual)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "ProjectLevelCostUnits",
+      "code_friendly_name_guess": "projectlevelcostunits",
+      "n_total": 4246,
+      "n_null": 4243,
+      "n_non_null": 3,
+      "null_rate": 0.9993,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "USD",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "Cost units/currency 3-letter code name (USD, EUR, etc.)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "CostUSD",
+      "code_friendly_name_guess": "costusd",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 1029,
+      "top_values": [
+        [
+          "--",
+          2923
+        ],
+        [
+          "800000000.0",
+          11
+        ],
+        [
+          "200000000.0",
+          10
+        ],
+        [
+          "6540000000.0",
+          8
+        ],
+        [
+          "48000000.0",
+          8
+        ],
+        [
+          "240000000.0",
+          8
+        ],
+        [
+          "2000000000.0",
+          8
+        ],
+        [
+          "96000000.0",
+          7
+        ],
+        [
+          "32000000.0",
+          7
+        ],
+        [
+          "500000000.0",
+          6
+        ],
+        [
+          "192000000.0",
+          6
+        ],
+        [
+          "128000000.0",
+          6
+        ],
+        [
+          "80000000.0",
+          5
+        ],
+        [
+          "75000000.0",
+          5
+        ],
+        [
+          "56000000.0",
+          5
+        ],
+        [
+          "400000000.0",
+          5
+        ],
+        [
+          "40000000.0",
+          5
+        ],
+        [
+          "320000000.0",
+          5
+        ],
+        [
+          "28800000.0",
+          5
+        ],
+        [
+          "160000000.0",
+          5
+        ]
+      ],
+      "portion_numeric": 0.308,
+      "type_guess": "text",
+      "subtype_guess": "unstructured",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "Cost of construction converted to USD",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FIDStatus",
+      "code_friendly_name_guess": "fidstatus",
+      "n_total": 4246,
+      "n_null": 4053,
+      "n_non_null": 193,
+      "null_rate": 0.9545,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "Pre-FID",
+          100
+        ],
+        [
+          "FID",
+          88
+        ],
+        [
+          "Yes",
+          3
+        ],
+        [
+          "in progress",
+          1
+        ],
+        [
+          "https://www.argaam.com/ar/article/articledetail/id/753063",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [
+        "categorical_rare_values:2_values_below_1pct"
+      ],
+      "definition_from_readme": "Has the project received its Final Investment Decision (FID) yet? (if Status=\"Proposed\" then option: \"Pre-FID\"/\"FID\", if Status is anything other than \"Proposed\", then leave blank)",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "FIDYear",
+      "code_friendly_name_guess": "fidyear",
+      "n_total": 4246,
+      "n_null": 4180,
+      "n_non_null": 66,
+      "null_rate": 0.9845,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "2022.0",
+          17
+        ],
+        [
+          "2023.0",
+          16
+        ],
+        [
+          "2025.0",
+          12
+        ],
+        [
+          "2024.0",
+          12
+        ],
+        [
+          "2021.0",
+          6
+        ],
+        [
+          "2019.0",
+          1
+        ],
+        [
+          "2010.0",
+          1
+        ],
+        [
+          "2004.0",
+          1
+        ]
+      ],
+      "portion_numeric": 1.0,
+      "type_guess": "datetime",
+      "subtype_guess": "year",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "If Pre-FID status, then enter the year FID is expected; if FID already made, then enter year of decision.",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "PCI3",
+      "code_friendly_name_guess": "pci3",
+      "n_total": 4246,
+      "n_null": 4245,
+      "n_non_null": 1,
+      "null_rate": 0.9998,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          1
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"yes\" if project is on the EU's 3rd PCI list",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "PCI4",
+      "code_friendly_name_guess": "pci4",
+      "n_total": 4246,
+      "n_null": 4209,
+      "n_non_null": 37,
+      "null_rate": 0.9913,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          37
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"yes\" if project is on the EU's 4th PCI list",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "PCI5",
+      "code_friendly_name_guess": "pci5",
+      "n_total": 4246,
+      "n_null": 4221,
+      "n_non_null": 25,
+      "null_rate": 0.9941,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          25
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"yes\" if project is on the EU's 5th PCI list",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "PCI6",
+      "code_friendly_name_guess": "pci6",
+      "n_total": 4246,
+      "n_null": 4236,
+      "n_non_null": 10,
+      "null_rate": 0.9976,
+      "n_unique": 1,
+      "top_values": [
+        [
+          "yes",
+          10
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": false,
+      "flags": [],
+      "definition_from_readme": "\"yes\" if project is on the EU's 6th PCI list",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "RouteAccuracy",
+      "code_friendly_name_guess": "routeaccuracy",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 5,
+      "top_values": [
+        [
+          "low",
+          1389
+        ],
+        [
+          "high",
+          1286
+        ],
+        [
+          "no route",
+          733
+        ],
+        [
+          "medium",
+          701
+        ],
+        [
+          "very high (within meters)",
+          137
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "accuracy",
+      "is_required_guess": true,
+      "flags": [],
+      "definition_from_readme": "low: basic point A to point B connection\nmedium: route is not a straight line, but hasn't been traced\nhigh: route has been digitally traced in GIS software or the shapefile has been obtained from a reliable source\nno route: we don't have a route for it, either because it's unavailabe/unknown or is a capacity/directionality expansion",
+      "notes_from_readme": null
+    },
+    {
+      "field_name": "RouteType",
+      "code_friendly_name_guess": "routetype",
+      "n_total": 4246,
+      "n_null": 0,
+      "n_non_null": 4246,
+      "null_rate": 0.0,
+      "n_unique": 8,
+      "top_values": [
+        [
+          "Mapped route (at any accuracy)",
+          3502
+        ],
+        [
+          "Not mapped (but could be — route or endpoints are known)",
+          444
+        ],
+        [
+          "Unavailable (cannot find route)",
+          131
+        ],
+        [
+          "Capacity expansion only",
+          131
+        ],
+        [
+          "Included in other ProjectID",
+          15
+        ],
+        [
+          "Bidirectionality upgrade only",
+          13
+        ],
+        [
+          "NETWORK ROUTE",
+          7
+        ],
+        [
+          "N/A",
+          3
+        ]
+      ],
+      "portion_numeric": 0.0,
+      "type_guess": "text",
+      "subtype_guess": "categorical",
+      "is_required_guess": true,
+      "flags": [
+        "categorical_rare_values:4_values_below_1pct"
+      ],
+      "definition_from_readme": "Type of route (whether it's mapped, unmapped but could be, etc.). If \"Included in other ProjectID\", this row's route is included in another project in the tracker, and the length of it is not included in overall totals.",
+      "notes_from_readme": null
+    }
+  ]
+}
