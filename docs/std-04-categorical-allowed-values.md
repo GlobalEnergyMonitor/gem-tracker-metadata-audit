@@ -189,3 +189,8 @@ Several out-of-set flags are artifacts rather than real data issues:
 - **STD-02: Multi-value Separators** — `Thermal & Met`, compound fuel notation
 - **STD-03: Boolean Encoding** — Captive, boolean-adjacent categoricals
 - **STD-06: Date / Year Format** — Status Detail field contains free-text with dates
+
+
+---
+
+**Standardization docs:** [Index](index.md) · [STD-01](std-01-null-encoding.md) · [STD-02](std-02-multi-value-separators.md) · [STD-03](std-03-boolean-encoding.md) · [STD-04](std-04-categorical-allowed-values.md) · [STD-05](std-05-numeric-field-purity.md) · [STD-06](std-06-date-year-format.md) · [STD-07](std-07-required-fields-nullability.md) · [STD-08](std-08-field-naming-conventions.md) · [STD-09](std-09-cross-field-links.md) · [STD-10](std-10-imputed-values.md) · [STD-11](std-11-data-provenance-source-fields.md) · [STD-12](std-12-geographic-hierarchy.md) · [STD-13](std-13-temporal-snapshots.md)

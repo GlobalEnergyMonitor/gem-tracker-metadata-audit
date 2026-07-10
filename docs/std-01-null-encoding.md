@@ -131,3 +131,8 @@ This doesn't resolve the deeper distinction question (Decision 1) but stops the 
 - **STD-05: Numeric Field Purity** — what to do with qualifiers (`>0`, ranges) in numeric fields
 - **STD-10: Imputed Values** — how to represent and flag values that were estimated rather than researched
 - **STD-07: Required Fields / Nullability** — which fields must be non-null, and how that's enforced
+
+
+---
+
+**Standardization docs:** [Index](index.md) · [STD-01](std-01-null-encoding.md) · [STD-02](std-02-multi-value-separators.md) · [STD-03](std-03-boolean-encoding.md) · [STD-04](std-04-categorical-allowed-values.md) · [STD-05](std-05-numeric-field-purity.md) · [STD-06](std-06-date-year-format.md) · [STD-07](std-07-required-fields-nullability.md) · [STD-08](std-08-field-naming-conventions.md) · [STD-09](std-09-cross-field-links.md) · [STD-10](std-10-imputed-values.md) · [STD-11](std-11-data-provenance-source-fields.md) · [STD-12](std-12-geographic-hierarchy.md) · [STD-13](std-13-temporal-snapshots.md)
