@@ -23,13 +23,13 @@ const SKIP_TAB_PREFIX = 'about_';
 /* ── Boot ────────────────────────────────────────────────── */
 async function init() {
   try {
-    const res = await fetch('./analysis/_summary.json');
+    const res = await fetch('./analysis/summary.json');
     if (!res.ok) throw new Error(res.statusText);
     summary = await res.json();
   } catch {
     document.getElementById('content').innerHTML = `
       <div class="state-msg state-error">
-        Could not load <code>analysis/_summary.json</code>.
+        Could not load <code>analysis/summary.json</code>.
         Run <code>python3 analyze.py</code> first, then serve from the project root:
         <code>python3 -m http.server 8080</code>
       </div>`;
@@ -57,7 +57,7 @@ async function init() {
   });
 
   // Load cross-tracker data in background (non-fatal if missing)
-  fetch('./analysis/_cross_tracker.json')
+  fetch('./analysis/cross_tracker.json')
     .then(r => r.ok ? r.json() : null)
     .then(data => {
       crossTrackerData = data;
@@ -683,7 +683,7 @@ async function showCrossTracker() {
 
   if (!crossTrackerData) {
     document.getElementById('content').innerHTML =
-      `<div class="state-msg state-error">Could not load <code>analysis/_cross_tracker.json</code>. Run <code>python3 cross_tracker.py</code> first.</div>`;
+      `<div class="state-msg state-error">Could not load <code>analysis/cross_tracker.json</code>. Run <code>python3 cross_tracker.py</code> first.</div>`;
     return;
   }
   renderCrossTracker();

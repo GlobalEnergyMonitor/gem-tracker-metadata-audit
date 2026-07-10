@@ -74,7 +74,7 @@ def assign_category(code_friendly_name, categories):
 # ── Data loading ──────────────────────────────────────────────────────────────
 
 def load_fields():
-    summary_path = ANALYSIS_DIR / "_summary.json"
+    summary_path = ANALYSIS_DIR / "summary.json"
     db_map = {}
     if summary_path.exists():
         with open(summary_path, encoding="utf-8") as f:
@@ -328,7 +328,7 @@ def main():
         "fuzzy_pairs": fuzzy_pairs,
     }
 
-    out_path = ANALYSIS_DIR / "_cross_tracker.json"
+    out_path = ANALYSIS_DIR / "cross_tracker.json"
     with open(out_path, "w", encoding="utf-8") as f_out:
         json.dump(out, f_out, indent=2, ensure_ascii=False)
     print(f"Output: {out_path}")

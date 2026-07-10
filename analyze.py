@@ -553,7 +553,7 @@ def main():
             "in_research_db": in_research_db(tracker_slug),
         })
 
-    with open(OUTPUT_DIR / "_summary.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_DIR / "summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
 
     conn.close()

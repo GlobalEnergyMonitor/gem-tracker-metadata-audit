@@ -5,8 +5,6 @@ theme: minima
 # Keep the audit app's index.html as the site root
 include:
   - docs/
-  - analysis/_summary.json
-  - analysis/_cross_tracker.json
 
 # Don't process gem-data or analysis as Jekyll content
 exclude:
