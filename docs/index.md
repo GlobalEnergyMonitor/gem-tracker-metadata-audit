@@ -5,13 +5,31 @@ title: Standardization Documentation
 
 # GEM Tracker Metadata — Standardization Docs
 
-These documents cover 13 data standardization topics across GEM's tracker portfolio. Each doc describes the current state of the data, where trackers diverge, and the decision points and tradeoffs for the Data Team to work through.
-
 The [audit tool](/) shows per-tracker field statistics, compliance flags, and cross-tracker field comparisons.
 
 ---
 
+## Interoperability Topics
+
+These documents examine how the 7 key field categories work across trackers — where schemas align well enough to join, and where they diverge in ways that would block a unified query.
+
+| # | Topic | Scope |
+|---|---|---|
+| [IOP-01](iop-01-ids.md) | **Identifier Systems** | GEM-assigned IDs, external reference IDs, cross-tracker linking |
+| [IOP-02](iop-02-names.md) | **Names** | Display names, aliases, deduplication |
+| [IOP-03](iop-03-status.md) | **Status** | Status vocabulary, value sets, lifecycle encoding |
+| [IOP-04](iop-04-capacity.md) | **Capacity** | Capacity fields — units, precision, multi-level aggregation |
+| [IOP-05](iop-05-location.md) | **Location** | Geographic fields — coordinate systems, accuracy, hierarchy |
+| [IOP-06](iop-06-temporal.md) | **Temporal** | Start/end years, date precision, time-varying field patterns |
+| [IOP-07](iop-07-entities.md) | **Entities** | Owner and operator fields — entity IDs, naming, relationships |
+
+---
+
 ## Standardization Topics
+
+These documents cover field-level encoding conventions — how individual values should be represented within a tracker.
+
+| # | Topic | Key questions |
 
 | # | Topic | Key questions |
 |---|---|---|
