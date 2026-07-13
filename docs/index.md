@@ -18,7 +18,7 @@ These documents examine how the 7 key field categories work across trackers — 
 | [IOP-01](iop-01-ids.md) | **Identifier Systems** | GEM-assigned IDs, external reference IDs, cross-tracker linking |
 | [IOP-02](iop-02-names.md) | **Names** | Display names, aliases, deduplication |
 | [IOP-03](iop-03-status.md) | **Status** | Status vocabulary, value sets, lifecycle encoding |
-| [IOP-04](iop-04-capacity.md) | **Capacity** | Capacity fields — units, precision, multi-level aggregation |
+| [IOP-04](iop-04-capacity.md) | **Capacity / Size** | Capacity, throughput, production volume, and physical size fields |
 | [IOP-05](iop-05-location.md) | **Location** | Geographic fields — coordinate systems, accuracy, hierarchy |
 | [IOP-06](iop-06-temporal.md) | **Temporal** | Start/end years, date precision, time-varying field patterns |
 | [IOP-07](iop-07-entities.md) | **Entities** | Owner and operator fields — entity IDs, naming, relationships |
