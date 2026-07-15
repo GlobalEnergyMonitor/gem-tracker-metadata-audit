@@ -287,7 +287,7 @@ function renderWelcome() {
 
   // Category summary table (requires crossTrackerData)
   const cats = crossTrackerData?.categories ?? {};
-  const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal','Entities'];
+  const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal'];
 
   const IOP_DOCS = {
     'IDs':      'docs/iop-01-ids',
@@ -843,7 +843,7 @@ function renderCrossTracker() {
 }
 
 /* ── Category panels ─────────────────────────────────────── */
-const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal','Entities'];
+const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal'];
 
 function renderCategoryPanels() {
   const cats = crossTrackerData?.categories ?? {};
