@@ -4,7 +4,7 @@
   "tab_slug": "gas_pipelines",
   "n_rows": 999,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:18.532688+00:00",
+  "analyzed_at": "2026-07-14T23:38:47.088037+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -102,7 +102,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "SegmentName",
@@ -199,7 +201,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Wiki",
@@ -296,7 +300,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ProjectID",
@@ -393,7 +399,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -440,7 +448,12 @@
       "flags": [
         "out_of_set_categorical:2_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "proposed",
+        "idle"
+      ]
     },
     {
       "field_name": "LastUpdated",
@@ -539,7 +552,9 @@
       "flags": [
         "year_out_of_range:61_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Fuel",
@@ -562,7 +577,11 @@
       "flags": [
         "out_of_set_categorical:1_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "Gas"
+      ]
     },
     {
       "field_name": "OtherEnglishNames",
@@ -659,7 +678,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "OtherLanguagePrimaryPipelineName",
@@ -756,7 +777,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "OtherLanguageSegmentName",
@@ -853,7 +876,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CountriesOrAreas",
@@ -950,7 +975,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner",
@@ -1047,7 +1074,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ParentEntityIDs",
@@ -1144,7 +1173,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent",
@@ -1241,7 +1272,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartYear1",
@@ -1338,7 +1371,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartYear2",
@@ -1359,7 +1394,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartYear3",
@@ -1375,7 +1412,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ShelvedYear",
@@ -1404,7 +1443,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CancelledYear",
@@ -1441,7 +1482,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StopYear",
@@ -1462,7 +1505,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity",
@@ -1561,7 +1606,9 @@
       "flags": [
         "numeric_outliers:1_non_numeric_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CapacityUnits",
@@ -1596,7 +1643,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CapacityBcm/y",
@@ -1695,7 +1744,9 @@
       "flags": [
         "non_standard_null_proxies"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CapacityBOEd",
@@ -1794,7 +1845,9 @@
       "flags": [
         "non_standard_null_proxies"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "LengthKnownKm",
@@ -1891,7 +1944,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "LengthEstimateKm",
@@ -1988,7 +2043,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "LengthMergedKm",
@@ -2085,7 +2142,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Diameter",
@@ -2182,7 +2241,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "DiameterUnits",
@@ -2203,7 +2264,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "FuelSource",
@@ -2300,7 +2363,50 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "Vaca Muerta shale fields",
+        "Vaca Muerta",
+        "Campos basin",
+        "Camisea gas fields",
+        "Tupi gas field",
+        "Jobo Gas fields",
+        "Vaca Muerta gas fields, Argentina",
+        "Tarija gas fields, Bolivia",
+        "Santos basin",
+        "Permian basin, Texas",
+        "Neuquén basin",
+        "Neuquén Basin",
+        "Espírito Santo-Mucuri basin",
+        "Cusiana gas field",
+        "Yacuiba",
+        "Vega Pléyade offshore gas field",
+        "Sergipe-Alagoas basin",
+        "Peru",
+        "Mercedes",
+        "Mayaya gas field",
+        "Margarita field",
+        "Los Ramones gas pipeline",
+        "Loma La Lata",
+        "Liza field",
+        "Lakach field",
+        "Jobo gas fields",
+        "Hibiscus, Poinsettia, Chaconia, Ixora",
+        "Gas block FZA-M-59, Foz do Amazonas basin",
+        "Fénix offshore gas field",
+        "From North Baja Pipeline",
+        "Dragon field",
+        "Dolphin, Dolphin Deep, Starfish",
+        "Carlos Casares",
+        "Camisea Gas fields",
+        "Beachfield",
+        "Ballena gas fields",
+        "Bacalhau Gas Field",
+        "Angostura field",
+        "Angelin field",
+        "Agua Dulce hub, Texas"
+      ]
     },
     {
       "field_name": "StartLocation",
@@ -2399,7 +2505,9 @@
       "flags": [
         "year_out_of_range:100_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartPrefecture/District",
@@ -2482,7 +2590,9 @@
       "flags": [
         "year_out_of_range:16_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartState/Province",
@@ -2581,7 +2691,9 @@
       "flags": [
         "year_out_of_range:72_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartCountryOrArea",
@@ -2668,7 +2780,9 @@
       "flags": [
         "year_out_of_range:17_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "StartRegion",
@@ -2695,7 +2809,9 @@
       "flags": [
         "year_out_of_range:1_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "StartSubRegion",
@@ -2726,7 +2842,9 @@
       "flags": [
         "year_out_of_range:2_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EndLocation",
@@ -2825,7 +2943,9 @@
       "flags": [
         "year_out_of_range:100_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EndPrefecture/District",
@@ -2924,7 +3044,9 @@
       "flags": [
         "year_out_of_range:21_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EndState/Province",
@@ -3023,7 +3145,9 @@
       "flags": [
         "year_out_of_range:87_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EndCountryOrArea",
@@ -3110,7 +3234,9 @@
       "flags": [
         "year_out_of_range:17_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "EndRegion",
@@ -3137,7 +3263,9 @@
       "flags": [
         "year_out_of_range:1_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EndSubRegion",
@@ -3164,7 +3292,9 @@
       "flags": [
         "year_out_of_range:1_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ProjectLevelCost",
@@ -3182,7 +3312,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ProjectLevelCostUnits",
@@ -3200,7 +3332,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CostUSD",
@@ -3297,7 +3431,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "FIDStatus",
@@ -3324,7 +3460,12 @@
       "flags": [
         "out_of_set_categorical:2_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "FID",
+        "Pre-FID"
+      ]
     },
     {
       "field_name": "FIDYear",
@@ -3349,7 +3490,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PCI3",
@@ -3367,7 +3510,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PCI4",
@@ -3385,7 +3530,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PCI5",
@@ -3403,7 +3550,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PCI6",
@@ -3421,7 +3570,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "RouteAccuracy",
@@ -3460,7 +3611,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "RouteType",
@@ -3487,7 +3640,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "geometry",
@@ -3584,7 +3739,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

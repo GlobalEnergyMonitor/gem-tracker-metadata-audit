@@ -4,7 +4,7 @@
   "tab_slug": "basic_oxygen_furnaces",
   "n_rows": 1527,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.854201+00:00",
+  "analyzed_at": "2026-07-14T23:38:47.496911+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each induction furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
       "notes_from_readme": null
     },
@@ -405,6 +411,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to GEM wiki page.",
       "notes_from_readme": null
     },
@@ -504,6 +512,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country or territory.",
       "notes_from_readme": null
     },
@@ -555,6 +565,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "Operating status of the induction furnace. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -656,6 +668,8 @@
         "year_out_of_range:68_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date of announcement/proposal of induction furnace in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -757,6 +771,8 @@
         "year_out_of_range:39_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that construction on the induction furnace began in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -858,6 +874,8 @@
         "year_out_of_range:2_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that induction furnace began producing steel in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -957,6 +975,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Age of induction furnace in years.",
       "notes_from_readme": null
     },
@@ -1057,7 +1077,9 @@
       "flags": [
         "year_out_of_range:68_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Idled date",
@@ -1157,6 +1179,8 @@
         "year_out_of_range:14_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that induction furnace stops steel production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -1258,6 +1282,8 @@
         "year_out_of_range:61_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that induction furnace was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -1336,6 +1362,8 @@
         "multi_value_separator_check:uses_&"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company that manufactured the unit, if known.",
       "notes_from_readme": null
     },
@@ -1413,6 +1441,8 @@
         "categorical_rare_values:12_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The specific model of the unit, if known.",
       "notes_from_readme": null
     },
@@ -1512,6 +1542,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
       "notes_from_readme": null
     },
@@ -1613,6 +1645,8 @@
         "non_standard_null_proxies"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The size of the unit, in volume or load size.",
       "notes_from_readme": null
     },
@@ -1640,6 +1674,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The unit of measurement used for \"current size\". Options are tonnes and m3.",
       "notes_from_readme": null
     }

@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 835,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:05.024848+00:00",
+  "analyzed_at": "2026-07-14T23:38:29.965585+00:00",
   "tracker_info": {
     "title": "Global Geothermal Power Tracker - March 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Geothermal Tracker, March 2026 release\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -110,6 +110,8 @@
         "year_out_of_range:82_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that this project was last researched by the researcher.",
       "notes_from_readme": "Units: mm/dd/yyyy."
     },
@@ -209,6 +211,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country/area the project is located in (Unabbreviated).",
       "notes_from_readme": null
     },
@@ -308,6 +312,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Commonly used name.",
       "notes_from_readme": "Preference is for a government provided name. Without that information, the name the owner or operating company uses was taken."
     },
@@ -407,6 +413,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Common name of the project unit.",
       "notes_from_readme": "Roman numerals are changed to numbers. If the Owner uses non-sequential numbers or other characters, those are used."
     },
@@ -506,6 +514,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Commonly used name in the locally used script.",
       "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise local name in local script provided if possible."
     },
@@ -605,6 +615,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Alternative names, including the name in local script.",
       "notes_from_readme": null
     },
@@ -704,6 +716,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Nameplate capacity, or best available data, of the unit in megawatts rounded to whole number.",
       "notes_from_readme": "Units: Megawatts (MW)."
     },
@@ -765,6 +779,8 @@
         "categorical_rare_values:3_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "dry steam",
@@ -864,6 +880,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "See rows 16-23 above.",
       "notes_from_readme": "Units: see above.",
       "value_definitions": [
@@ -1004,7 +1022,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Retired Year",
@@ -1061,7 +1081,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator",
@@ -1159,6 +1181,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company that operates the project.",
       "notes_from_readme": "The company that performs day-to-day operations and maintenance of the project."
     },
@@ -1230,6 +1254,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Company name that operates the project in the locally used script.",
       "notes_from_readme": "Left blank for local languages use the roman/latin alphabet. Otherwise operator name in local script included if possible."
     },
@@ -1328,7 +1354,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner",
@@ -1426,6 +1454,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company that directly owns the plant. When owned by a special purpose vehicle, the next level of ownership is provided.",
       "notes_from_readme": null
     },
@@ -1525,6 +1555,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Company name that directly owns the project in the locally used script.",
       "notes_from_readme": "Left blank for local languages that use the roman/latin alphabet. Otherwise direct owner name included in local script if possible."
     },
@@ -1623,7 +1655,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent GEM Entity ID",
@@ -1641,7 +1675,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Green Hydrogen Producing",
@@ -1673,6 +1709,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Is green hydrogen produced by the project.",
       "notes_from_readme": "Units: not found, yes, no."
     },
@@ -1698,6 +1736,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Is the unit connected to a data center through a PPA",
       "notes_from_readme": "Units: not found, yes, no."
     },
@@ -1797,6 +1837,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Latitude, assumed WGS84 (google maps), of the project unit.",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -1896,6 +1938,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Longitude, assumed WGS84 (google maps), of the project unit.",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -1922,7 +1966,9 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "City",
@@ -2020,6 +2066,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "City, town, village, or township (China) where the project is located.",
       "notes_from_readme": null
     },
@@ -2118,7 +2166,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -2215,7 +2265,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State/Province",
@@ -2313,6 +2365,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subnational unit where the project is located.",
       "notes_from_readme": null
     },
@@ -2386,6 +2440,8 @@
         "categorical_rare_values:2_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subregion location of the project based on United Nations definition.",
       "notes_from_readme": null
     },
@@ -2425,6 +2481,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Region location of the project based on United Nations definition.",
       "notes_from_readme": null
     },
@@ -2523,7 +2581,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM unit ID",
@@ -2620,7 +2680,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other IDs (location)",
@@ -2718,6 +2780,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Location identifier from external datasets.",
       "notes_from_readme": null
     },
@@ -2753,6 +2817,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Unit identifier from external datasets.",
       "notes_from_readme": null
     },
@@ -2852,6 +2918,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "URL of existing GEM.wiki page.",
       "notes_from_readme": null
     },
@@ -2871,7 +2939,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

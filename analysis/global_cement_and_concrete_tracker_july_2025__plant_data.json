@@ -4,7 +4,7 @@
   "tab_slug": "plant_data",
   "n_rows": 3722,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:05.212585+00:00",
+  "analyzed_at": "2026-07-14T23:38:30.189659+00:00",
   "tracker_info": {
     "title": "Global Cement and Concrete Tracker - July 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Cement and Concrete Tracker, July 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the Global Cement and Concrete Tracker.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The plant name format is \"Location - Cement Plant\" or \"Parent Company - Location - Cement Plant\" (ex. \"XYZ London Cement Plant\" for a cement plant located in London and owned by company XYZ).",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Translation of the asset name into country's native language. Includes language in english in parenthases following translation. (ie \" Zementwerk (German)\").",
       "notes_from_readme": null
     },
@@ -405,6 +411,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Alternate names used for plants that do not conform to our standard naming convention. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
       "notes_from_readme": null
     },
@@ -504,6 +512,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Spatial Finance Initiative (SFI) tracker ID from the Global Database of Cement Production Assets. Some IDs are repeated.",
       "notes_from_readme": null
     },
@@ -603,6 +613,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "LeadIT Project ID from Green Cement Technology Tracker.",
       "notes_from_readme": null
     },
@@ -702,6 +714,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Exact coordinate for center of plant. If exact location is unknown, an approximate central coordinate of lowest level of address known is used (i.e. city, then subnational unit, country as last resort).",
       "notes_from_readme": null
     },
@@ -729,6 +743,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "exact = plant location confirmed via satellite imagery, approximate = location estimated or undefined.",
       "notes_from_readme": null
     },
@@ -827,7 +843,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Municipality",
@@ -925,6 +943,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Municipality (city, village, town) within which the plant resides.",
       "notes_from_readme": null
     },
@@ -1024,6 +1044,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subnational unit (province, state, region, etc) within which the plant resides.",
       "notes_from_readme": null
     },
@@ -1122,7 +1144,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Cement Capacity (millions metric tonnes per annum)",
@@ -1222,6 +1246,8 @@
         "mostly_numeric_with_outliers"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Total cement production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
       "notes_from_readme": null
     },
@@ -1321,6 +1347,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Total clinker production capacity (millions of tonnes per annum). \">0\" is used when the plant is known to be producing, but the capacity of production is unknown. \"unknown \" is used when it cannot be determined if the plant has capacity or not.",
       "notes_from_readme": null
     },
@@ -1355,7 +1383,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Cement Color",
@@ -1389,6 +1419,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Cement color (Grey or White) produced. Typical construction cement is grey. White cement is used commonly for architectural projects and production results in higher emissions. Some plants produce both white and grey cement.",
       "notes_from_readme": null
     },
@@ -1440,6 +1472,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "Current operating status of the plant. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -1540,7 +1574,9 @@
       "flags": [
         "year_out_of_range:1_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner name (English)",
@@ -1638,6 +1674,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of cement plant in English.",
       "notes_from_readme": null
     },
@@ -1737,6 +1775,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of cement plant in local language.",
       "notes_from_readme": null
     },
@@ -1835,7 +1875,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent",
@@ -1932,7 +1974,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent Entity ID",
@@ -2029,7 +2073,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Plant type",
@@ -2065,6 +2111,8 @@
         "categorical_rare_values:1_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The type of cement plant (integrated, grinding, or clinker-only).",
       "notes_from_readme": null
     },
@@ -2110,6 +2158,8 @@
         "categorical_rare_values:2_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The production process used to produce the clinker at integrated plants (wet, dry, semidry, or mixed). Mixed production includes plants that have multiple different production lines, such as wet and dry.",
       "notes_from_readme": null
     },
@@ -2147,6 +2197,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Indicates whether the plant uses a carbon capture storage or utilization (CCS/CCUS) project. \"Unknown\" is used when a CCS/CCUS project could not be confirmed at the site, but there was indication of a potential project. Carbon capture, storage, and utilization can take various forms, but ultimately serves the purpose of capturing carbon emissions at the plant level before they enter the atmosphere. The emissions then either enter permanant storage, or are used for other processes which require carbon. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making CCUS in this context irrelevant.",
       "notes_from_readme": null
     },
@@ -2185,6 +2237,11 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "no",
+        "yes"
+      ],
       "definition_from_readme": "Indicates whether the plant utilizes alternative fuel. \"unknown\" is used when alternative fuel use could not be confirmed at the site, but there was indication of potential usage. Alternative fuels are those that replace the traditional fossil fuels used for clinker production in the kiln, including biomass, waste-derived fuels, industrial by-products, etc.  All grinding plants have 'n/a' listed due to the lack of a kiln, thus making alternative fuel in this context irrelevant.",
       "notes_from_readme": null
     },
@@ -2223,6 +2280,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Indicates whether the plant utilizes clay calcination. \"unknown\" is used when clay calcination could not be confirmed at the site, but there was indication of potential usage. Calcined clay is a supplementary cementitious material (SCM) used in cement manufacturing to partially replace clinker, reducing both emissions and energy use. It is produced by heating clay (typically kaolinite-rich) to around 700–850°C, which activates its pozzolanic properties without generating CO₂ from limestone, unlike clinker production. All grinding plants have 'n/a' listed due to the lack of a kiln, thus making clay calcination in this context irrelevant. Two plants in the tracker (P100000126921 and P100000125604) produce only clacined clay cement and are thus labeled as \"integrated\" while at the same time listing \"n/a\" in the 'clinker capacity' field.",
       "notes_from_readme": null
     },
@@ -2242,7 +2301,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col29",
@@ -2260,7 +2321,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col30",
@@ -2278,7 +2341,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col31",
@@ -2296,7 +2361,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col32",
@@ -2314,7 +2381,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col33",
@@ -2332,7 +2401,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col34",
@@ -2350,7 +2421,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col35",
@@ -2368,7 +2441,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col36",
@@ -2386,7 +2461,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col37",
@@ -2404,7 +2481,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col38",
@@ -2422,7 +2501,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col39",
@@ -2440,7 +2521,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col40",
@@ -2461,7 +2544,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col41",
@@ -2479,7 +2564,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

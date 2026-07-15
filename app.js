@@ -3,6 +3,7 @@ let summary = [];
 let currentData = null;
 let expandedField = null;
 let crossTrackerData = null;
+let referenceSets = {};  // loaded from reference_sets.json
 let currentView = 'welcome'; // 'welcome' | 'table' | 'cross-tracker'
 let ctActiveTab = 'categories'; // 'categories' | 'exact' | 'fuzzy'
 
@@ -52,9 +53,14 @@ async function init() {
   window.addEventListener('beforeunload', e => {
     if (hasUnsavedOverrides) {
       e.preventDefault();
-      e.returnValue = 'You have flag suppressions not yet downloaded to overrides.json.';
     }
   });
+
+  // Load reference sets in background (non-fatal if missing)
+  fetch('./reference_sets.json')
+    .then(r => r.ok ? r.json() : {})
+    .then(data => { referenceSets = data || {}; })
+    .catch(() => {});
 
   // Load cross-tracker data in background (non-fatal if missing)
   fetch('./analysis/cross_tracker.json')
@@ -95,6 +101,7 @@ function toggleFlagSuppression(tableName, fieldName, flagKey, reason) {
   if (!localOverrides[tableName]) localOverrides[tableName] = {};
   const existing = localOverrides[tableName][fieldName] || [];
   const idx = existing.findIndex(o => o.flag === flagKey);
+  const suppressing = idx < 0;
   if (idx >= 0) {
     existing.splice(idx, 1);
   } else {
@@ -105,6 +112,26 @@ function toggleFlagSuppression(tableName, fieldName, flagKey, reason) {
   hasUnsavedOverrides = Object.values(localOverrides).some(
     fields => Object.values(fields).some(arr => arr.length > 0)
   );
+
+  // Update in-memory currentData so re-render reflects the change immediately
+  if (currentData && currentData.table_name === tableName) {
+    const fieldObj = currentData.fields.find(f => f.field_name === fieldName);
+    if (fieldObj) {
+      if (suppressing) {
+        const flagStr = fieldObj.flags.find(f => f.split(':')[0] === flagKey);
+        if (flagStr) {
+          fieldObj.flags = fieldObj.flags.filter(f => f !== flagStr);
+          fieldObj.suppressed_flags = [...(fieldObj.suppressed_flags || []), { flag: flagKey, reason: reason || '' }];
+        }
+      } else {
+        fieldObj.suppressed_flags = (fieldObj.suppressed_flags || []).filter(s => s.flag !== flagKey);
+        // Re-add to active flags (key only; full detail restored on next analyze.py run)
+        if (!fieldObj.flags.some(f => f.split(':')[0] === flagKey)) {
+          fieldObj.flags = [...fieldObj.flags, flagKey];
+        }
+      }
+    }
+  }
 }
 
 function downloadOverrides() {
@@ -119,27 +146,26 @@ function downloadOverrides() {
 
 /* ── Sidebar ─────────────────────────────────────────────── */
 
-/* Canonical flag order and sidebar colors (dark-background friendly) */
-const SIDEBAR_FLAGS = [
-  { key: 'numeric_outliers',             color: '#f6ad55' },
-  { key: 'mostly_numeric_with_outliers', color: '#f6ad55' },
-  { key: 'non_standard_null_proxies',    color: '#90cdf4' },
-  { key: 'numeric_null_proxies',         color: '#90cdf4' },
-  { key: 'out_of_set_categorical',       color: '#fc8181' },
-  { key: 'categorical_rare_values',      color: '#fc8181' },
-  { key: 'wrong_multi_value_separator',  color: '#f6ad55' },
-  { key: 'year_out_of_range',            color: '#f6ad55' },
-  { key: 'boolean_encoding',             color: '#d6bcfa' },
-  { key: 'multi_value_separator_check',  color: '#d6bcfa' },
+/* Flag groups — each group shares a color and collapses to one badge in the sidebar */
+const FLAG_GROUPS = [
+  { color: '#fc8181', label: 'error',   keys: ['out_of_set_categorical', 'categorical_rare_values', 'numeric_outliers'] },
+  { color: '#f6ad55', label: 'warning', keys: ['mostly_numeric_with_outliers', 'wrong_multi_value_separator', 'year_out_of_range', 'non_standard_null_proxies', 'numeric_null_proxies'] },
+  { color: '#d6bcfa', label: 'info',    keys: ['boolean_encoding', 'multi_value_separator_check'] },
 ];
+
+/* Flat map for color lookup in the home page flag table */
+const FLAG_COLOR = {};
+FLAG_GROUPS.forEach(g => g.keys.forEach(k => { FLAG_COLOR[k] = g.color; }));
 
 function sidebarFlagBadges(flagsByType) {
   if (!flagsByType) return '';
-  return SIDEBAR_FLAGS
-    .filter(({ key }) => (flagsByType[key] || 0) > 0)
-    .map(({ key, color }) =>
-      `<span class="sb-flag" style="color:${color}">${flagsByType[key]}</span>`
-    )
+  return FLAG_GROUPS
+    .map(({ color, keys }) => {
+      const total = keys.reduce((s, k) => s + (flagsByType[k] || 0), 0);
+      return total > 0
+        ? `<span class="sb-flag" style="color:${color}" title="${keys.filter(k => flagsByType[k]).map(k => `${k}: ${flagsByType[k]}`).join(', ')}">${total}</span>`
+        : '';
+    })
     .join('');
 }
 
@@ -229,9 +255,48 @@ function renderWelcome() {
   const totalFlagged = validItems.reduce((s, t) => s + t.n_flagged, 0);
   const allTrackers  = [...new Set(validItems.map(i => i.tracker_slug))].sort();
 
+  // Aggregate flag counts by type across all tables
+  const flagTotals = {};
+  validItems.forEach(t => {
+    Object.entries(t.flags_by_type || {}).forEach(([flag, count]) => {
+      flagTotals[flag] = (flagTotals[flag] || 0) + count;
+    });
+  });
+  const FLAG_META = {
+    boolean_encoding:            { label: 'Boolean encoding varies',        tip: 'Field has ≤4 unique values matching multiple boolean encodings (yes/no, True/False, Y/N, 1/0). Values are inconsistent across trackers.' },
+    year_out_of_range:           { label: 'Year values out of range',        tip: 'A field guessed as a year contains values outside 1900–2100, or non-numeric values mixed with years.' },
+    categorical_rare_values:     { label: 'Categorical rare values',         tip: 'A categorical field has values that appear in fewer than 2% of non-null rows — possible typos, variant spellings, or one-off entries.' },
+    out_of_set_categorical:      { label: 'Values outside reference set',    tip: 'A field with a known allowed-value set (country names, status values) contains values not in that set.' },
+    wrong_multi_value_separator: { label: 'Wrong multi-value separator',     tip: 'A multi-value field uses comma (,) as its separator, which conflicts with CSV export. Org standard is & or ;.' },
+    multi_value_separator_check: { label: 'Multi-value separator in use',    tip: 'Informational: field contains & or ; as a separator. Confirms multi-value encoding is present; check that the separator choice is consistent with STD-02.' },
+    non_standard_null_proxies:   { label: 'Non-standard null proxies',       tip: 'A numeric or boolean field contains shorthand null proxies (*, -, UA, --) instead of empty cells. These block numeric aggregation.' },
+    numeric_outliers:            { label: 'Numeric field with outliers',     tip: 'A field that is mostly numeric has a small number of non-numeric, non-null-proxy values — likely data entry errors or stray text.' },
+    mostly_numeric_with_outliers:{ label: 'Mostly numeric with outliers',    tip: 'Field is >50% numeric but below the threshold to be classified as numeric. May be a numeric field with significant non-numeric contamination.' },
+  };
+  const flagRows = Object.entries(flagTotals)
+    .sort((a, b) => b[1] - a[1])
+    .map(([flag, count]) => {
+      const color = FLAG_COLOR[flag] || 'var(--dim)';
+      const { label, tip } = FLAG_META[flag] || { label: flag, tip: '' };
+      return `<tr>
+        <td><span class="flag-dot" style="background:${color}"></span><span title="${escAttr(tip)}">${escHtml(label)}</span></td>
+        <td class="flag-count" style="color:${color}"><strong>${count}</strong></td>
+      </tr>`;
+    })
+    .join('');
+
   // Category summary table (requires crossTrackerData)
   const cats = crossTrackerData?.categories ?? {};
   const CAT_ORDER = ['IDs','Names','Status','Capacity','Location','Temporal','Entities'];
+
+  const IOP_DOCS = {
+    'IDs':      'docs/iop-01-ids',
+    'Names':    'docs/iop-02-names',
+    'Status':   'docs/iop-03-status',
+    'Capacity': 'docs/iop-04-capacity',
+    'Location': 'docs/iop-05-location',
+    'Temporal': 'docs/iop-06-temporal',
+  };
 
   const catRows = CAT_ORDER.filter(c => cats[c]).map(catName => {
     const cat = cats[catName];
@@ -243,9 +308,12 @@ function renderWelcome() {
       : '<span style="color:var(--dim)">—</span>';
     const coveragePct = total > 0 ? Math.round(coverage / total * 100) : 0;
     const covBar = `<div class="welcome-cov-bar"><div style="width:${coveragePct}%;background:var(--accent)"></div></div>`;
+    const docLink = IOP_DOCS[catName]
+      ? `<a class="welcome-cat-doc" href="${escAttr(IOP_DOCS[catName])}" target="_blank">doc ↗</a>`
+      : '';
     return `
       <tr class="welcome-cat-row" data-cat="${escAttr(catName)}">
-        <td><strong>${escHtml(catName)}</strong><div class="welcome-cat-desc">${escHtml(cat.description)}</div></td>
+        <td><strong>${escHtml(catName)}</strong> ${docLink}<div class="welcome-cat-desc">${escHtml(cat.description)}</div></td>
         <td>${coverage}/${total} ${covBar}</td>
         <td>${cat.n_exact_groups}</td>
         <td>${jacStr}</td>
@@ -253,26 +321,9 @@ function renderWelcome() {
     `;
   }).join('');
 
-  // Tracker dot matrix — each dot in its own <td> to align with <th> headers
-  const activeCats = CAT_ORDER.filter(c => cats[c]);
-  const trackerRows = allTrackers.map(slug => {
-    const isDb = validItems.some(i => i.tracker_slug === slug && i.in_research_db);
-    const dbBadge = isDb ? `<span class="sb-db-badge">DB</span>` : '';
-    const dotCells = activeCats.map(catName => {
-      const has = cats[catName]?.trackers_with_field?.includes(slug);
-      return `<td class="welcome-dot-cell"><span class="welcome-dot ${has ? 'welcome-dot-on' : ''}" title="${escAttr(catName)}"></span></td>`;
-    }).join('');
-    return `
-      <tr>
-        <td class="welcome-tracker-name">${escHtml(formatTrackerName(slug))}${dbBadge}</td>
-        ${dotCells}
-      </tr>
-    `;
-  }).join('');
-
-  const dotHeaders = activeCats
-    .map(c => `<th class="welcome-dot-head" title="${escAttr(cats[c]?.description||'')}">${escHtml(c.slice(0,3))}</th>`)
-    .join('');
+  // Tracker dot matrix — commented out pending richer compliance data
+  // const activeCats = CAT_ORDER.filter(c => cats[c]);
+  // const trackerRows = allTrackers.map(slug => { ... }).join('');
 
   const catSection = catRows ? `
     <div class="welcome-section">
@@ -283,13 +334,6 @@ function renderWelcome() {
       </table>
       <p class="welcome-hint">Click <a href="#" id="welcome-ct-link">Cross-tracker analysis</a> for full detail.</p>
     </div>
-    <div class="welcome-section">
-      <h3>Coverage by tracker</h3>
-      <table class="welcome-tracker-table">
-        <thead><tr><th>Tracker</th>${dotHeaders}</tr></thead>
-        <tbody>${trackerRows}</tbody>
-      </table>
-    </div>
   ` : `<p style="color:var(--dim)">Run <code>python3 cross_tracker.py</code> to see category compatibility.</p>`;
 
   document.getElementById('content').innerHTML = `
@@ -299,7 +343,14 @@ function renderWelcome() {
         <div class="summary-card"><div class="sc-val">${allTrackers.length}</div><div class="sc-label">Trackers</div></div>
         <div class="summary-card"><div class="sc-val">${validItems.length}</div><div class="sc-label">Data tabs</div></div>
         <div class="summary-card"><div class="sc-val">${totalFields.toLocaleString()}</div><div class="sc-label">Fields</div></div>
-        <div class="summary-card"><div class="sc-val" style="color:var(--red)">${totalFlagged.toLocaleString()}</div><div class="sc-label">Flagged</div></div>
+        <div class="summary-card"><div class="sc-val" style="color:var(--red)">${totalFlagged.toLocaleString()}</div><div class="sc-label">Flagged fields</div></div>
+      </div>
+      <div class="welcome-section">
+        <h3>Flags by type <span style="font-weight:normal;font-size:0.85em;color:var(--dim)">(across all trackers)</span></h3>
+        <table class="welcome-flag-table">
+          <thead><tr><th>Flag</th><th>Count</th></tr></thead>
+          <tbody>${flagRows}</tbody>
+        </table>
       </div>
       ${catSection}
     </div>
@@ -372,10 +423,17 @@ function renderTable() {
     ? ` · <span style="color:var(--red)" title="Rows where all column values match another row">${dupRows} duplicate row${dupRows !== 1 ? 's' : ''}</span>`
     : '';
 
+  const localCount = Object.values(localOverrides[table_name] || {})
+    .reduce((s, arr) => s + arr.length, 0);
+  const downloadBtn = localCount > 0
+    ? `<button class="download-overrides-btn" onclick="downloadOverrides()" title="Download merged overrides.json to commit to the repo">⬇ Download overrides.json (${localCount} pending)</button>`
+    : '';
+
   const info = document.getElementById('table-info');
   info.innerHTML = `
     <span class="tname">${escHtml(formatTableName(table_name))} ${sourceTag}</span>
     <span class="tmeta">${n_rows.toLocaleString()} rows · ${fields.length} fields · <span style="color:var(--red)">${nFlagged} flagged</span>${dupNote}${subtitle ? ' · ' + subtitle : ''}</span>
+    ${downloadBtn}
   `;
 
   const filters = getFilters();
@@ -508,7 +566,6 @@ function renderDetail(field) {
             ${suppressed && reason ? `<span class="suppress-reason">${escHtml(reason)}</span>` : ''}
           </div>`;
       }).join('')}
-      <button class="download-overrides-btn" onclick="downloadOverrides()">⬇ Download overrides.json</button>
     </div>
   ` : '';
 
@@ -554,18 +611,56 @@ function renderDetail(field) {
 
   /* ── Value distribution ── */
   const maxCount = field.top_values.length > 0 ? Math.max(...field.top_values.map(([,c]) => c)) : 1;
+  const oosSet = new Set((field.out_of_set_values || []).map(v => String(v)));
   const valueBars = field.top_values.map(([val, count]) => {
     const pct = totalNonNull > 0 ? count / totalNonNull * 100 : 0;
     const barW = (count / maxCount * 100).toFixed(1);
-    const isRare = pct < 1 && ['categorical', 'ordinal', 'accuracy'].includes(field.subtype_guess);
+    const isOos = val != null && oosSet.has(String(val));
+    const isRare = !isOos && pct < 1 && ['categorical', 'ordinal', 'accuracy'].includes(field.subtype_guess);
+    const labelStyle = isOos ? ' style="color:#e53e3e;font-weight:600"' : '';
+    const oosIcon = isOos ? ` <span title="Not in reference set" style="color:#e53e3e;font-size:9px;vertical-align:middle">✗</span>` : '';
     return `
       <div class="value-row ${isRare ? 'value-rare' : ''}">
-        <span class="value-label" title="${escAttr(String(val ?? ''))}">${escHtml(val == null ? '(null)' : String(val))}</span>
-        <div class="value-bar-wrap"><div class="value-bar" style="width:${barW}%"></div></div>
+        <span class="value-label"${labelStyle} title="${escAttr(String(val ?? ''))}">${escHtml(val == null ? '(null)' : String(val))}${oosIcon}</span>
+        <div class="value-bar-wrap"><div class="value-bar" style="width:${barW}%${isOos ? ';background:#fc8181' : ''}"></div></div>
         <span class="value-pct">${count.toLocaleString()} <span style="color:var(--dim)">(${pct.toFixed(1)}%)</span></span>
       </div>
     `;
   }).join('');
+
+  /* ── Reference set provenance (shown when out_of_set_categorical is flagged) ── */
+  const refSetHtml = (() => {
+    if (!field.ref_set_source) return '';
+    const srcLabel = {
+      country: 'GEM country/area list',
+      status: 'GEM status taxonomy',
+      fuel_category: 'GEM fuel category taxonomy',
+      api_allowed_values: 'API gold-standard allowed values',
+    }[field.ref_set_source] || field.ref_set_source;
+
+    const refValues = referenceSets[field.ref_set_source];
+    const valuesHtml = refValues
+      ? `<div class="ref-set-values">${refValues.map(v => `<span class="ref-set-chip">${escHtml(v)}</span>`).join('')}</div>`
+      : '';
+
+    const hasOosFlag = (field.flags || []).some(f => f.startsWith('out_of_set_categorical'));
+    if (!hasOosFlag && !field.out_of_set_values?.length) return '';
+
+    return `
+      <div class="detail-panel" style="border-color:#fbb6ce">
+        <div class="panel-head" style="background:#fff5f7;color:#97266d">Reference set: ${escHtml(srcLabel)}</div>
+        <div class="panel-body">
+          ${valuesHtml}
+          ${field.out_of_set_values?.length
+            ? `<div style="margin-top:8px;font-size:11px;color:#e53e3e">Out-of-set values: ${field.out_of_set_values.map(v => `<code>${escHtml(String(v))}</code>`).join(', ')}</div>`
+            : ''}
+          <div style="margin-top:6px;font-size:11px;color:var(--dim)">
+            If the reference set doesn't match this field's domain, add it to <code>overrides.json</code> to suppress the flag.
+          </div>
+        </div>
+      </div>
+    `;
+  })();
 
   const moreNote = field.n_unique > field.top_values.length
     ? `<div class="value-more">Showing ${field.top_values.length} of ${field.n_unique.toLocaleString()} unique values</div>`
@@ -589,6 +684,7 @@ function renderDetail(field) {
       ${flagsHtml}
       ${outliersHtml}
       ${nullProxiesHtml}
+      ${refSetHtml}
       <div class="detail-body">
         ${valuesPanel}
         ${metaPanel}

@@ -145,15 +145,25 @@ def guess_type(field_name, n_unique, portion_numeric, portion_null, top_values):
 
 
 def _get_reference_set_for_field(cfn, ref_sets):
-    """Return the canonical reference set for a field by its code_friendly_name, or None."""
+    """Return (ref_set, source_name) for a field by its code_friendly_name, or (None, None)."""
     cfn_lower = cfn.lower()
     if any(h in cfn_lower for h in COUNTRY_FIELD_HINTS):
-        return ref_sets.get("country")
+        return ref_sets.get("country"), "country"
     if any(h in cfn_lower for h in STATUS_FIELD_HINTS):
-        return ref_sets.get("status")
+        return ref_sets.get("status"), "status"
     if any(h in cfn_lower for h in FUEL_FIELD_HINTS):
-        return ref_sets.get("fuel_category")
-    return None
+        return ref_sets.get("fuel_category"), "fuel_category"
+    return None, None
+
+
+def _compute_out_of_set(top_values, effective_ref):
+    """Return list of values (original case) not present in effective_ref (lowercase set)."""
+    if not effective_ref or not top_values:
+        return []
+    return [
+        v for v, _ in top_values
+        if v and not looks_like_null_proxy(v) and str(v).strip().lower() not in effective_ref
+    ]
 
 
 def _is_url_field(field_name):
@@ -354,7 +364,7 @@ def analyze_table(conn, table_name, ref_sets, overrides):
         data_type, data_sub_type = guess_type(col, n_unique, portion_numeric, null_rate, top_values)
         is_required_guess = null_rate == 0.0
 
-        ref_set = _get_reference_set_for_field(cfn, ref_sets)
+        ref_set, ref_set_source = _get_reference_set_for_field(cfn, ref_sets)
 
         flags = detect_flags(
             col, cfn, n_total, n_null, n_unique, portion_numeric,
@@ -362,6 +372,8 @@ def analyze_table(conn, table_name, ref_sets, overrides):
             allowed_values=None,  # enriched after API metadata is loaded
             ref_set=ref_set,
         )
+
+        out_of_set_values = _compute_out_of_set(top_values, ref_set)
 
         # Apply overrides: mark suppressed flags
         field_overrides = table_overrides.get(col, [])
@@ -388,6 +400,8 @@ def analyze_table(conn, table_name, ref_sets, overrides):
             "is_required_guess": is_required_guess,
             "flags": active_flags,
             "suppressed_flags": suppressed_flags,
+            "ref_set_source": ref_set_source,
+            "out_of_set_values": out_of_set_values if out_of_set_values else None,
         })
 
     return fields, n_duplicate_rows, None
@@ -450,7 +464,7 @@ def _rerun_flags_with_allowed_values(field, ref_sets):
 
     allowed_set = {str(v).strip().lower() for v in allowed_raw}
     cfn = field["code_friendly_name_guess"]
-    ref_set = _get_reference_set_for_field(cfn, ref_sets)
+    ref_set, ref_set_source = _get_reference_set_for_field(cfn, ref_sets)
     col = field["field_name"]
 
     new_flags = detect_flags(
@@ -466,6 +480,12 @@ def _rerun_flags_with_allowed_values(field, ref_sets):
     suppressed_names = {s["flag"] for s in field.get("suppressed_flags", [])}
     field["flags"] = [f for f in new_flags if f.split(":")[0] not in suppressed_names]
     field["allowed_values_from_api"] = sorted(allowed_raw)
+
+    # Update reference set provenance and out-of-set values
+    effective_ref = ref_set or allowed_set
+    field["ref_set_source"] = ref_set_source or "api_allowed_values"
+    oos = _compute_out_of_set(field["top_values"], effective_ref)
+    field["out_of_set_values"] = oos if oos else None
 
 
 def main():

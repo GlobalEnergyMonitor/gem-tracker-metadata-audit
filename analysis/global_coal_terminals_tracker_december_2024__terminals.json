@@ -4,7 +4,7 @@
   "tab_slug": "terminals",
   "n_rows": 521,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:06.236736+00:00",
+  "analyzed_at": "2026-07-14T23:38:31.611781+00:00",
   "tracker_info": {
     "title": "Global Coal Terminals Tracker - December 2024",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Terminals Tracker, December 2024 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -107,7 +107,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Coal Terminal Name (detail or other)",
@@ -204,7 +206,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent Port Name",
@@ -301,7 +305,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Wiki URL",
@@ -398,7 +404,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -446,6 +454,10 @@
         "out_of_set_categorical:1_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "Proposed"
+      ],
       "value_definitions": [
         {
           "name": "Proposed",
@@ -500,7 +512,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner",
@@ -597,7 +611,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity (Mt)",
@@ -694,7 +710,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Product Type",
@@ -723,7 +741,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Terminal Type",
@@ -795,7 +815,9 @@
         "categorical_rare_values:7_values_below_1pct",
         "wrong_multi_value_separator:comma_only"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Start Year",
@@ -892,7 +914,9 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Retired Year",
@@ -945,7 +969,9 @@
       "subtype_guess": "year",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Location",
@@ -1042,7 +1068,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State/Province",
@@ -1139,7 +1167,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/Area",
@@ -1236,7 +1266,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Subregion",
@@ -1307,7 +1339,9 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region",
@@ -1344,7 +1378,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Latitude",
@@ -1441,7 +1477,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Longitude",
@@ -1538,7 +1576,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Location Accuracy",
@@ -1563,7 +1603,9 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Coal Source",
@@ -1660,7 +1702,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM Terminal ID",
@@ -1757,7 +1801,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM Unit/Phase ID",
@@ -1854,7 +1900,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col23",
@@ -1872,7 +1920,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

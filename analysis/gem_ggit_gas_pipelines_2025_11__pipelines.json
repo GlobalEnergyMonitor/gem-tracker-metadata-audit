@@ -4,7 +4,7 @@
   "tab_slug": "pipelines",
   "n_rows": 4246,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:04.857598+00:00",
+  "analyzed_at": "2026-07-14T23:38:29.796987+00:00",
   "tracker_info": {
     "title": null,
     "citation": null,
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Name of the pipeline (or pipeline system, when it has multiple pieces, phases, segments, or expansions)",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Name of the pipeline segment (which can be a segment of a bigger pipeline system/network, or an expansion project)",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to project's GEM.wiki page",
       "notes_from_readme": null
     },
@@ -405,6 +411,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique ID for each project (all the phases, segments, expansions, etc. belonging to the same overall pipeline do not necesssarily share a ProjectID, but they should share the same PipelineName)",
       "notes_from_readme": null
     },
@@ -462,6 +470,12 @@
         "out_of_set_categorical:3_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "proposed",
+        "idle",
+        "mixed status"
+      ],
       "definition_from_readme": "Operating, Proposed, Retired, Construction, Shelved, Cancelled, Idle, or Mothballed\n\nIf there have been no development updates in the two years following the project's proposal, then the status is assumed to be \"Shelved\". If there have been no development updates in the 4 years following the project's proposal or longer, the status is assumed to be \"Cancelled\". If Shelved, Cancelled, or Retired, these are associated with ShelvedYear, CancelledYear, and StopYear",
       "notes_from_readme": null
     },
@@ -563,6 +577,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date this was last checked/updated (filled in by Researcher)",
       "notes_from_readme": null
     },
@@ -588,6 +604,10 @@
         "out_of_set_categorical:1_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "Gas"
+      ],
       "definition_from_readme": "Gas, Hydrogen, or Gas and Hydrogen (for projects that are billed as H2 pipelines but will first transport gas...)",
       "notes_from_readme": null
     },
@@ -687,6 +707,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Alternate pipeline names in English, if applicable; if there are multiple, separate by a semicolon (;)",
       "notes_from_readme": null
     },
@@ -786,6 +808,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Primary name in other relevant search language.",
       "notes_from_readme": null
     },
@@ -885,6 +909,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline segment/expansion name in other relevant search languages.",
       "notes_from_readme": null
     },
@@ -984,6 +1010,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Countries that the pipeline passes through, in order from beginning to end (where possible); note Hong Kong and Macao are recognized as sovereign states here",
       "notes_from_readme": null
     },
@@ -1083,6 +1111,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Auto-filled: immediate owner name(s), percent ownership if available; here \"owner\" means lowest/most immediate level of ownership that we're able to find in our research.",
       "notes_from_readme": null
     },
@@ -1182,6 +1212,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Parent company name(s), percent ownership if available; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders).",
       "notes_from_readme": null
     },
@@ -1281,6 +1313,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Parent company entity IDs in the GEM Ownership Tracker.",
       "notes_from_readme": null
     },
@@ -1382,6 +1416,8 @@
         "year_out_of_range:3_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "First year operations initiated, or expected to initiate",
       "notes_from_readme": null
     },
@@ -1483,6 +1519,8 @@
         "year_out_of_range:1_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year operations initiated for first expansion project, or expected to initiate, if expansion not listed as separate observation",
       "notes_from_readme": null
     },
@@ -1542,6 +1580,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year operations initiated for second expansion project, or expected to initiate, if expansion not listed as separate observation",
       "notes_from_readme": null
     },
@@ -1643,6 +1683,8 @@
         "year_out_of_range:2_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If Status=Shelved, the year this became true",
       "notes_from_readme": null
     },
@@ -1742,6 +1784,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If Status=Cancelled, the year this became true",
       "notes_from_readme": null
     },
@@ -1813,6 +1857,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year operations ended (if Status=\"Mothballed\", Status=\"Idle\", or Status=\"Retired\") or the year the project was cancelled (if Status=\"Cancelled\"). If Status=\"Cancelled\" due to 4-year rule* (as opposed to a formal cancellation), then StopYear=\"presumed\"",
       "notes_from_readme": null
     },
@@ -1912,6 +1958,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Maximum potential capacity",
       "notes_from_readme": null
     },
@@ -2005,6 +2053,8 @@
         "categorical_rare_values:12_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Units that \"Capacity\" is reported in (bpd, bcm/year, mtpa, MMcf/d, or TJ/d)",
       "notes_from_readme": null
     },
@@ -2106,6 +2156,8 @@
         "non_standard_null_proxies"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Capacity converted to billion cubic meters (bcm) per year",
       "notes_from_readme": null
     },
@@ -2207,6 +2259,8 @@
         "non_standard_null_proxies"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Capacity converted to barrels of oil equivalent (BOE) per day",
       "notes_from_readme": null
     },
@@ -2306,6 +2360,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Publicly available length, converted to km",
       "notes_from_readme": null
     },
@@ -2405,6 +2461,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Estimated length in km, calulated using route coordinates with Geopandas Python package and taken from \"Length Estimates by Pipeline\" tab)",
       "notes_from_readme": null
     },
@@ -2504,6 +2562,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Merge between LengthKnownKm and LengthEstimateKm (LengthKnownKm is priotized when available; otherwise LengthEstimateKm is used).",
       "notes_from_readme": null
     },
@@ -2605,6 +2665,8 @@
         "mostly_numeric_with_outliers"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's diameter (without units); when multiple values are reported, they are separated by a comma",
       "notes_from_readme": null
     },
@@ -2638,6 +2700,8 @@
         "categorical_rare_values:1_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's diameter units",
       "notes_from_readme": null
     },
@@ -2737,6 +2801,109 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "North Field",
+        "Kirinskoye, Yuzhno-Kirinskoye, Mynginskoye Oil and Gas Fields",
+        "Urengoy gas field",
+        "Permian Basin",
+        "The gas source comes from shale gas in Weiyuan and Luxian.",
+        "Sino-Myanmar Gas Pipeline",
+        "Gazli",
+        "Medvezhye Oil and Gas Field",
+        "Changqing Gas Field",
+        "Beetaloo Basin",
+        "Western Canadian Sedimentary Basin",
+        "South Pars gas field",
+        "West-East Gas Pipeline 2",
+        "The main gas sources for the Sichuan–Shanghai Gas Pipeline include multiple channels such as the Puguang Gas Field, Fuling Shale Gas, and Yuanba Gas Field.\n",
+        "Levantine Basin",
+        "Changqing Oil/gas field",
+        "Dauletabad gas field",
+        "Vaca Muerta shale fields",
+        "Uzen",
+        "Sichuan–Shanghai Gas Pipeline",
+        "Sichuan Basin",
+        "Shaan-Jing Gas Pipeline 2",
+        "Sebei 1 Gas Field",
+        "Nadym, Urengoy fields and Kovyktinskoye starting 2022",
+        "Haynesville Shale",
+        "Bowen Basin",
+        "Binhai LNG",
+        "https://egyptoil-gas.com/wp-content/uploads/2020/03/The-Western-Desert-Egypt%E2%80%99s-Giant-Petroleum-Reservoir-.pdf",
+        "West-East Gas Pipeline 1",
+        "West-East Gas Pipeline ",
+        "Vuktyl Gas and Condensate Field",
+        "Vaca Muerta",
+        "The primary natural gas supply source in Hunan Province is the Zhongwu Gas Pipeline Qianxiang Branch Line",
+        "Campos basin",
+        "Camisea gas fields",
+        "Yamburg gas field",
+        "West-East Pipeline II/Sichuan-Shanghai Gas Pipeline/Dapeng LNG Terminal Import LNG",
+        "West-East Gas Pipeline",
+        "Urengoy gas field, Bovanenkovo gas field",
+        "Srednevilyuyskoye gas condensate field; Mastakhskoye gas condensate field",
+        "Shah Deniz",
+        "Power of Siberia Gas Pipeline",
+        "Mugardos LNG Terminal",
+        "Messoyakha Gas Field",
+        "Leviathan",
+        "Karachaganak, Tengiz, Kashagan",
+        "Guangxi LNG Terminal",
+        "Erawan Field",
+        "Delaware Basin",
+        "Daniudi Gas Field",
+        "China–Russia East Pipeline",
+        "Carnarvon Basin",
+        "Bowen-Surat Basin",
+        "Bovanenkovo gas field, Kharasaveyskoye gas field ",
+        "Al Maqta'a",
+        "the gas imported from Turkmenistan, Uzbekistan, and Kazakhstan; Coal-to-gas in Xinjiang (produced by Xinwen Company and Qinghua Company)",
+        "[[West-East Pipeline 2]]",
+        "Zhongwei-Guiyang Connecting Gas Pipeline",
+        "West-East Gas Pipeline 3",
+        "Tupi gas field",
+        "Troll A",
+        "Titas Gas Field",
+        "The main gas sources for the Sichuan–Shanghai Gas Pipeline include multiple channels such as the Puguang Gas Field, Fuling Shale Gas, and Yuanba Gas Field",
+        "Tarim Oilfield",
+        "Taichung LNG Terminal imported LNG",
+        "Taichung LNG Terminal",
+        "Surat Basin",
+        "Shah Deniz gas field (Azerbaijan)",
+        "Shaan-Jing Gas Pipeline 2, Shaan-Jing Gas Pipeline 3",
+        "Sebei Oil and Gas Field",
+        "Samotlorskoye Oil and Gas Field ",
+        "Saih Rawl Field",
+        "Rumela",
+        "Ras Laffan",
+        "Otway Basin",
+        "North Slope",
+        "Narrabri Gas Project",
+        "Montney Formation",
+        "Leman Complex Oil and Gas Fields",
+        "Karamay Oil Field",
+        "Jobo Gas fields",
+        "Galkynysh; Dauletabad; Bagtyyarlyk gas fields",
+        "Galilee Basin",
+        "Esfarayen",
+        "Cooper Basin",
+        "Coalbed Methane in Qinshui Coal Field",
+        "Bakken Formation",
+        "Appalachian Basin (Marcellus and Utica shale)",
+        "Anadarko Basin",
+        "Amadeus Basin",
+        "offshore oil&gas field/LNG Terminal",
+        "offshore oil&gas field",
+        "imported natural gas",
+        "https://sonatrach.com/wp-content/uploads/2022/01/DESCRIPTION-DU-RESEAU-DE-TRANSPORT-PAR-CANALISATION-DES-HYDROCARBURES-TARIF-DE-TRANSPORT-ANNEE-2022.pdf",
+        "[[Yulin-Jinan Pipeline]]",
+        "[[West-East Gas Pipeline 2]]",
+        "Zohr Field",
+        "Zhejiang LNG",
+        "Zhangzhou LNG Terminal Transport pipeline & West-East III",
+        "Zhanazhol"
+      ],
       "definition_from_readme": "Name of oil or gas field, or pipeline, the fuel is sourced from",
       "notes_from_readme": null
     },
@@ -2838,6 +3005,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Town, city, or village the pipeline starts in",
       "notes_from_readme": null
     },
@@ -2939,6 +3108,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Prefecture or district the pipeline starts in",
       "notes_from_readme": null
     },
@@ -3040,6 +3211,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "State or province pipeline starts in",
       "notes_from_readme": null
     },
@@ -3141,6 +3314,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country the pipeline starts in",
       "notes_from_readme": null
     },
@@ -3186,6 +3361,8 @@
         "year_out_of_range:5_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's start region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
       "notes_from_readme": null
     },
@@ -3271,6 +3448,8 @@
         "year_out_of_range:15_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's start subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
       "notes_from_readme": null
     },
@@ -3372,6 +3551,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Town, city, or village the pipeline ends in",
       "notes_from_readme": null
     },
@@ -3473,6 +3654,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Prefecture or district the pipeline ends in",
       "notes_from_readme": null
     },
@@ -3574,6 +3757,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "State or province the pipeline ends in",
       "notes_from_readme": null
     },
@@ -3675,6 +3860,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country the pipeline ends in",
       "notes_from_readme": null
     },
@@ -3720,6 +3907,8 @@
         "year_out_of_range:5_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's end region. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
       "notes_from_readme": null
     },
@@ -3805,6 +3994,8 @@
         "year_out_of_range:15_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Pipeline's end subregion. Regions and subregions are as defined by the United Nations Statistics Division, in their M49 specification.",
       "notes_from_readme": null
     },
@@ -3828,6 +4019,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Cost of the project (either estimated or actual)",
       "notes_from_readme": null
     },
@@ -3851,6 +4044,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Cost units/currency 3-letter code name (USD, EUR, etc.)",
       "notes_from_readme": null
     },
@@ -3950,6 +4145,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Cost of construction converted to USD",
       "notes_from_readme": null
     },
@@ -3991,6 +4188,14 @@
         "out_of_set_categorical:5_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "Pre-FID",
+        "FID",
+        "Yes",
+        "in progress",
+        "https://www.argaam.com/ar/article/articledetail/id/753063"
+      ],
       "definition_from_readme": "Has the project received its Final Investment Decision (FID) yet? (if Status=\"Proposed\" then option: \"Pre-FID\"/\"FID\", if Status is anything other than \"Proposed\", then leave blank)",
       "notes_from_readme": null
     },
@@ -4042,6 +4247,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If Pre-FID status, then enter the year FID is expected; if FID already made, then enter year of decision.",
       "notes_from_readme": null
     },
@@ -4067,6 +4274,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "\"yes\" if project is on the EU's 3rd PCI list",
       "notes_from_readme": null
     },
@@ -4092,6 +4301,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "\"yes\" if project is on the EU's 4th PCI list",
       "notes_from_readme": null
     },
@@ -4117,6 +4328,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "\"yes\" if project is on the EU's 5th PCI list",
       "notes_from_readme": null
     },
@@ -4142,6 +4355,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "\"yes\" if project is on the EU's 6th PCI list",
       "notes_from_readme": null
     },
@@ -4181,6 +4396,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "low: basic point A to point B connection\nmedium: route is not a straight line, but hasn't been traced\nhigh: route has been digitally traced in GIS software or the shapefile has been obtained from a reliable source\nno route: we don't have a route for it, either because it's unavailabe/unknown or is a capacity/directionality expansion",
       "notes_from_readme": null
     },
@@ -4234,6 +4451,8 @@
         "categorical_rare_values:4_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Type of route (whether it's mapped, unmapped but could be, etc.). If \"Included in other ProjectID\", this row's route is included in another project in the tracker, and the length of it is not included in overall totals.",
       "notes_from_readme": null
     }

@@ -4,7 +4,7 @@
   "tab_slug": "all_entities",
   "n_rows": 28214,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:06.541932+00:00",
+  "analyzed_at": "2026-07-14T23:38:31.968181+00:00",
   "tracker_info": {
     "title": "Global Energy Ownership Tracker - May 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Energy Ownership Tracker, May 2026 \" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -107,7 +107,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Full Name",
@@ -204,7 +206,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Name",
@@ -301,7 +305,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Name Local",
@@ -398,7 +404,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Name Other",
@@ -495,7 +503,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Abbreviation",
@@ -592,7 +602,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Entity Type",
@@ -635,7 +647,9 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Legal Entity Type",
@@ -732,7 +746,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PubliclyListed",
@@ -759,7 +775,9 @@
       "flags": [
         "boolean_encoding:true_false"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Home Page",
@@ -856,7 +874,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Registration Country",
@@ -953,7 +973,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Registration Subdivision",
@@ -1050,7 +1072,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Headquarters Country",
@@ -1147,7 +1171,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Headquarters Subdivision",
@@ -1244,7 +1270,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Gem parents",
@@ -1341,7 +1369,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Gem parents IDs",
@@ -1438,7 +1468,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Brazil - National Registry of Legal Entities (Federal Revenue Service)",
@@ -1535,7 +1567,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Global Legal Entity Identifier Index",
@@ -1632,7 +1666,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "India - Corporate Identification Number (Ministry of Corporate Affairs)",
@@ -1729,7 +1765,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "PermID: Refinitiv Permanent Identifier",
@@ -1826,7 +1864,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Russia - Uniform State Register of Legal Entities of Russian Federation",
@@ -1923,7 +1963,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "S&P Capital IQ",
@@ -2022,7 +2064,9 @@
       "flags": [
         "non_standard_null_proxies"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "UK Companies House",
@@ -2121,7 +2165,9 @@
       "flags": [
         "mostly_numeric_with_outliers"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "US SEC Central Index Key",
@@ -2220,7 +2266,9 @@
       "flags": [
         "mostly_numeric_with_outliers"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "US-EIA",
@@ -2311,7 +2359,9 @@
       "flags": [
         "non_standard_null_proxies"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

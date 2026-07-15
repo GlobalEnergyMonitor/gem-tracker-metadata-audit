@@ -114,8 +114,7 @@ When two proposed project records are later found to refer to the same asset, it
 - **IOP-01: IDs** — ID assignment and merge decisions when duplicate name records are found; mine complex IDs
 - **STD-02: Multi-value Separators** — `Other Name(s)` and AKA fields contain multiple values
 - **STD-08: Field Naming Conventions** — `(English)` qualifier in asset name fields; `(local)` vs. `(local language / script)`
-- **IOP-07: Entities** — owner and operator name fields follow the same local-language pattern
 
 ---
 
-**Interoperability topics:** [Index](index.md) · [IOP-01: IDs](iop-01-ids.md) · [IOP-02: Names](iop-02-names.md) · [IOP-03: Status](iop-03-status.md) · [IOP-04: Capacity](iop-04-capacity.md) · [IOP-05: Location](iop-05-location.md) · [IOP-06: Temporal](iop-06-temporal.md) · [IOP-07: Entities](iop-07-entities.md)
+**Interoperability topics:** [Index](index.md) · [IOP-01: IDs](iop-01-ids.md) · [IOP-02: Names](iop-02-names.md) · [IOP-03: Status](iop-03-status.md) · [IOP-04: Capacity](iop-04-capacity.md) · [IOP-05: Location](iop-05-location.md) · [IOP-06: Temporal](iop-06-temporal.md)

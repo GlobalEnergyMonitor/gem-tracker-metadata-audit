@@ -4,7 +4,7 @@
   "tab_slug": "oil_gas_plants",
   "n_rows": 1150,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.624888+00:00",
+  "analyzed_at": "2026-07-14T23:38:47.195590+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -102,7 +102,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/Area",
@@ -199,7 +201,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Plant name",
@@ -296,7 +300,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Plant Name in Local Language / Script",
@@ -393,7 +399,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other Name(s)",
@@ -490,7 +498,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Unit name",
@@ -587,7 +597,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Fuel",
@@ -684,7 +696,77 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "fossil gas: natural gas",
+        "fossil gas: natural gas, fossil liquids: diesel",
+        "fossil liquids: heavy fuel oil",
+        "fossil liquids: diesel",
+        "fossil gas: LNG",
+        "fossil gas: natural gas, fossil liquids: fuel oil",
+        "fossil liquids: fuel oil",
+        "fossil liquids: heavy fuel oil, fossil liquids: diesel",
+        "fossil liquids: crude oil, fossil liquids: heavy fuel oil",
+        "fossil liquids: diesel, fossil gas: natural gas",
+        "fossil liquids: heavy fuel oil, fossil gas: natural gas",
+        "fossil liquids: diesel, fossil liquids: heavy fuel oil",
+        "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+        "fossil gas: LNG, fossil liquids: diesel",
+        "fossil gas: natural gas, fossil gas: LNG",
+        "fossil gas: waste heat from natural gas",
+        "fossil gas: natural gas, other: hydrogen (unknown) [10%]",
+        "fossil gas: LNG, fossil gas: natural gas, fossil liquids: heavy fuel oil",
+        "industrial by-product: blast furnace gas",
+        "fossil liquids: heavy fuel oil, fossil gas: LNG",
+        "fossil liquids: fuel oil, fossil gas: natural gas",
+        "fossil gas: natural gas, other: hydrogen (unknown) [30%]",
+        "fossil gas: natural gas, fossil liquids: diesel, other: hydrogen (unknown)",
+        "fossil gas: natural gas, fossil liquids: diesel, fossil liquids: fuel oil",
+        "fossil liquids: diesel, fossil liquids: fuel oil",
+        "fossil liquids: diesel, fossil gas: LNG",
+        "fossil gas: unknown",
+        "fossil gas: natural gas, fossil liquids: diesel, fossil liquids: heavy fuel oil",
+        "industrial by-product: blast furnace gas, industrial by-product: coke oven gas",
+        "fossil liquids: liquefied petroleum gas, fossil gas: natural gas",
+        "fossil liquids: diesel, fossil liquids: jet fuel",
+        "fossil gas: natural gas, fossil liquids: light fuel oil",
+        "fossil gas: natural gas, fossil liquids: fuel oil, fossil liquids: diesel",
+        "fossil gas: LNG, fossil gas: natural gas",
+        "industrial by-product: coke oven gas",
+        "fossil liquids: petroleum coke",
+        "fossil liquids: fuel oil, fossil liquids: diesel, fossil gas: natural gas",
+        "fossil gas: unknown, fossil liquids: naphtha",
+        "fossil gas: natural gas, other: hydrogen (green)",
+        "fossil gas: natural gas, fossil liquids: unknown",
+        "fossil gas: natural gas, fossil liquids: diesel, bioenergy: unknown, other: hydrogen (unknown)",
+        "fossil gas: natural gas [80%], fossil liquids: fuel oil [20%]",
+        "fossil gas: LNG, other: hydrogen (unknown)",
+        "other: other",
+        "fossil liquids: petroleum coke, coal: unknown",
+        "fossil liquids: naphtha, fossil liquids: diesel",
+        "fossil liquids: jet fuel",
+        "fossil liquids: heavy fuel oil, fossil liquids: fuel oil",
+        "fossil liquids: fuel oil, fossil liquids: diesel",
+        "fossil liquids: diesel, fossil liquids: heavy fuel oil, fossil gas: LNG",
+        "fossil liquids: crude oil, fossil liquids: diesel",
+        "fossil liquids: crude oil, fossil gas: natural gas",
+        "fossil gas: unknown, fossil liquids: unknown",
+        "fossil gas: unknown, fossil gas: natural gas",
+        "fossil gas: natural gas, other: hydrogen (unknown) [5%]",
+        "fossil gas: natural gas, other: hydrogen (unknown) [15%]",
+        "fossil gas: natural gas, other: hydrogen (unknown)",
+        "fossil gas: natural gas, fossil liquids: jet fuel",
+        "fossil gas: natural gas, fossil liquids: heavy fuel oil, fossil liquids: light fuel oil",
+        "fossil gas: natural gas, fossil liquids: fuel oil, fossil liquids: diesel, other: hydrogen (unknown) [15%]",
+        "fossil gas: natural gas, fossil liquids: diesel, fossil liquids: jet fuel",
+        "fossil gas: natural gas, fossil gas: unknown, fossil liquids: diesel, fossil liquids: kerosene",
+        "fossil gas: natural gas, coal: unknown, fossil liquids: fuel oil",
+        "fossil gas: natural gas, coal: unknown",
+        "fossil gas: LNG, other: hydrogen (unknown) [30%]",
+        "fossil gas: LNG, fossil liquids: heavy fuel oil, fossil liquids: light fuel oil",
+        "fossil gas: LNG, fossil liquids: fuel oil"
+      ]
     },
     {
       "field_name": "Capacity (MW)",
@@ -781,7 +863,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -838,7 +922,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null
     },
     {
       "field_name": "Turbine/Engine Technology",
@@ -879,7 +965,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Equipment Manufacturer/Model",
@@ -976,7 +1064,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CHP",
@@ -1007,7 +1097,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Hydrogen capable?",
@@ -1038,7 +1130,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CCS attachment?",
@@ -1066,7 +1160,9 @@
         "categorical_rare_values:1_values_below_1pct",
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Conversion/replacement?",
@@ -1087,7 +1183,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Conversion from/replacement of (fuel)",
@@ -1119,7 +1217,13 @@
         "out_of_set_categorical:3_values_not_in_reference",
         "wrong_multi_value_separator:comma_only"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "coal: unknown, fossil liquids: petroleum coke",
+        "coal: unknown",
+        "coal: bituminous"
+      ]
     },
     {
       "field_name": "Conversion from/replacement of (GEM unit ID)",
@@ -1160,7 +1264,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Conversion to (fuel)",
@@ -1178,7 +1284,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": null
     },
     {
       "field_name": "Conversion to (GEM unit ID)",
@@ -1196,7 +1304,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Start year",
@@ -1293,7 +1403,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Retired year",
@@ -1334,7 +1446,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Planned retire",
@@ -1375,7 +1489,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator(s)",
@@ -1472,7 +1588,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner(s)",
@@ -1569,7 +1687,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner(s) GEM Entity ID",
@@ -1666,7 +1786,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent(s)",
@@ -1763,7 +1885,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Parent GEM Entity ID",
@@ -1860,7 +1984,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Latitude",
@@ -1957,7 +2083,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Longitude",
@@ -2054,7 +2182,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Location accuracy",
@@ -2079,7 +2209,9 @@
       "subtype_guess": "accuracy",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "City",
@@ -2176,7 +2308,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Local area (taluk, county)",
@@ -2273,7 +2407,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -2370,7 +2506,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State/Province",
@@ -2467,7 +2605,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Subregion",
@@ -2488,7 +2628,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region",
@@ -2509,7 +2651,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other IDs (location)",
@@ -2606,7 +2750,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other IDs (unit)",
@@ -2703,7 +2849,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Captive industry use",
@@ -2728,7 +2876,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Captive industry type",
@@ -2783,7 +2933,9 @@
       "flags": [
         "multi_value_separator_check:uses_&"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Captive non-industry use",
@@ -2808,7 +2960,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM location ID",
@@ -2905,7 +3059,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM unit ID",
@@ -3002,7 +3158,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Fuel classification?",
@@ -3037,7 +3195,14 @@
       "flags": [
         "out_of_set_categorical:4_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "Gas",
+        "Multi fuel",
+        "Oil",
+        "LNG only"
+      ]
     }
   ]
 }

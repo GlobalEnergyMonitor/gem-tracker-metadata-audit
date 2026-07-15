@@ -4,7 +4,7 @@
   "tab_slug": "closed_mines",
   "n_rows": 1754,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:05.295005+00:00",
+  "analyzed_at": "2026-07-14T23:38:30.279533+00:00",
   "tracker_info": {
     "title": "Global Coal Mine Tracker - May 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Mine Tracker, May 2026 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "GEM Mine ID",
         "definition": "A unique alphanumeric identifier assigned to each coal mine by GEM for internal identification purposes.",
@@ -220,6 +222,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "MSHA ID",
         "definition": "A unique numerical identifier assigned to each US coal mine by the US Mine Safety and Health Administration (MSHA) for identification purposes nationwide.",
@@ -331,6 +335,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Country / Area",
         "definition": "The geographic country or area where a coal mine or proposed coal mine project is located.",
@@ -443,6 +449,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Mine Name",
         "definition": "The name of a coal mine or proposed coal mine project.",
@@ -554,6 +562,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Mine Name AKAs",
         "data_type": "text",
@@ -666,6 +676,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Mine Name (Non-ENG)",
         "definition": "The non-english name of a coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
@@ -777,6 +789,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Owners",
         "definition": "The immediate owner of a coal mine or coal mine project who is responsible for the mining of the coal. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
@@ -888,6 +902,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Owners (Non-ENG)",
         "definition": "The non-english name of the immediate owner of the coal mine or proposed coal mine project, as it appears in the official language of the country or area where the mine is located.",
@@ -998,6 +1014,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Parent Company",
         "definition": "The highest-level owner of a coal mine or coal mine project. The number in brackets next to the owning entity's name denotes the percentage of shares they hold. If an individual rather than a company owns the mine, this is indicated by the term \"natural person(s).\"",
@@ -1108,6 +1126,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "Owner/Parent GEM Entity ID",
@@ -1224,6 +1244,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Capacity (Mtpa)",
         "definition": "The maximum amount of coal a mine or mine project is engineered to produce, expressed in millions of tonnes per year.",
@@ -1337,6 +1359,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Production (Mtpa)",
         "definition": "The amount of coal produced by a mine, expressed in millions of tonnes per year.",
@@ -1452,6 +1476,8 @@
         "year_out_of_range:1_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Year of Production",
         "definition": "The year during which the cited coal production occurred. (If coal output for the current year is unavailable, data for the most recently available year is given.)",
@@ -1498,6 +1524,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "Surface",
@@ -1578,6 +1606,10 @@
         "out_of_set_categorical:1_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": [
+        "Bord and Pillar"
+      ],
       "value_definitions": [
         {
           "name": "Open Pit",
@@ -1737,6 +1769,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Mine Size (Km2)",
         "definition": "The total surface area of the mining covered by the coal mining operation, including surface facilities, access roads, overburden dumps, and the underground or open-pit mine footprint.",
@@ -1849,6 +1883,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Mine Depth (m)",
         "definition": "The vertical distance from the ground surface down to the coal seam that is being mined.",
@@ -1889,6 +1925,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Depth Accuracy",
         "definition": "Indicates the confidence level in the reported depth of the coal mine. \"Exact\" means the depth is directly stated in a reliable source, while \"Estimated\" means it is inferred from averages at the national level in a variety of industry and government reports.",
@@ -2007,6 +2045,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Workforce Size",
         "definition": "The total number of personnel employed by a coal mining operation, including both direct employees and contractors working on-site.",
@@ -2048,6 +2088,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Workforce Accuracy",
         "definition": "Indicates the accuracy level of workforce data. \"Exact\" means the workforce size is explicitly reported in data sources, while \"Estimated\" refers to figures generated using GEM’s machine learning model when official data is unavailable.",
@@ -2102,6 +2144,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Coal Type",
         "definition": "The classification of coal based on its physical and chemical properties, particularly its carbon content, calorific value, moisture, volatile matter, and ash content. Global Coal Mine Tracker use British coal type (lignite, subbituminous, bituminous, anthracite).",
@@ -2163,6 +2207,10 @@
         "multi_value_separator_check:uses_&"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": [
+        "Thermal & Met"
+      ],
       "api_metadata": {
         "name": "Coal Grade",
         "definition": "The classification of coal based on its primary use: -Thermal Coal: Used for power generation or industrial heating. -Metallurgical Coal (Coking Coal): Used for steelmaking and other industrial processes.",
@@ -2287,6 +2335,8 @@
         "year_out_of_range:3_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Opening Year",
         "definition": "The year when the mine commenced its commercial operations.",
@@ -2403,6 +2453,8 @@
         "year_out_of_range:6_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Closing Year",
         "definition": "The year in which the coal mine is scheduled to close or has already ceased operations.",
@@ -2477,6 +2529,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The primary factor or circumstance that led to a coal mine ceasing operations. This may include economic factors such as reserve exhaustion, end of permitted mine life, or economic unviability; regulatory or policy-driven closures such as government-mandated shutdowns or environmental regulations; safety-related closures following accidents or hazardous conditions; or operational factors such as consolidation, acquisition, or closure of an associated power plant.",
       "notes_from_readme": null
     },
@@ -2534,6 +2588,17 @@
         "out_of_set_categorical:8_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "Abandoned",
+        "Rehabilitation",
+        "Demolished",
+        "Renewable energy site",
+        "Reclamation",
+        "Other",
+        "Repurpose",
+        "Historic Landmark/Museum"
+      ],
       "definition_from_readme": "The present condition or land use of a coal mine site following the cessation of mining operations. This reflects what has happened to the site after closure.",
       "notes_from_readme": null
     },
@@ -2633,6 +2698,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Coalfield",
         "definition": "Coalfield to which a coal mine belongs.",
@@ -2745,7 +2812,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Prefecture, District",
@@ -2842,7 +2911,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State, Province",
@@ -2939,7 +3010,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Subregion",
@@ -3022,7 +3095,9 @@
       "flags": [
         "categorical_rare_values:6_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region",
@@ -3065,7 +3140,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Latitude",
@@ -3165,6 +3242,8 @@
         "numeric_outliers:1_non_numeric_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Latitude",
         "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
@@ -3280,6 +3359,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Longitude",
         "definition": "Location of the project expressed in decimal degrees, assumed to use the WGS84 coordinate system (as in Google Maps).",
@@ -3323,6 +3404,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Location Accuracy",
         "definition": "Indicates whether the location is \"Approximate\" or \"Exact\". Location is \"Approximate\" based on using nearest city or inferred from contextual information in the data source. Location is \"Exact\" when explicitly provided in the source materials.",
@@ -3388,6 +3471,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "Primary Consumer, DestinationName",
@@ -3507,6 +3592,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Primary Consumer, Destination Name",
         "definition": "The name of the end user or receiving entity of the coal. The project name should match exactly with those documented by GEM to ensure consistency. Renamed from 'Coal Plant, Steel Plant, Terminal' in the May-2026 release; same field, broader scope (any primary consumer/destination, not just plants/terminals).",
@@ -3620,6 +3707,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Primary Consumer, Destination GEM Wiki",
         "definition": "GEM's Wiki URLs of end user or receiving entity of the coal. Renamed from 'Coal Plant, Steel Plant, Terminal GEM Wiki' in the May-2026 release.",
@@ -3734,6 +3823,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Reported Coal Mine Methane Emissions (thousand tonnes CH4)",
         "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes per year.",
@@ -3850,6 +3941,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Reported Coal Mine Methane Emissions (thousand tonnes CO2 equivalent)",
         "definition": "The amount of methane emissions from a coal mine as reported by an official source or company reports, expressed in thousands of metric tonnes of carbon dioxide equivalents (CO₂e) per year.",
@@ -3940,6 +4033,8 @@
         "year_out_of_range:3_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Year of Reported Coal Mine Methane Emissions",
         "definition": "The year in which the coal mine methane emissions were reported or released.",
@@ -3982,6 +4077,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Reference Type",
         "definition": "Indicates the official source (national government data or company report) where the reported coal mine methane figures were found.",
@@ -4038,6 +4135,8 @@
         "mostly_numeric_with_outliers"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Source ID",
         "definition": "The identifier assigned by the reporting agency to the coal mine associated with the reported methane emissions.",
@@ -4082,7 +4181,9 @@
         "categorical_rare_values:1_values_below_1pct",
         "boolean_encoding:y_n"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Has associated plume data",
@@ -4111,6 +4212,11 @@
         "boolean_encoding:y_n"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": [
+        "N",
+        "Y"
+      ],
       "api_metadata": {
         "name": "Has associated plume data",
         "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a remotely sensed methane plume detailed in the Global Methane Emitters Tracker. Yes* refers to the one mine (Mandalong Coal Mine) which had methane plumes associated with it in the December 2024 briefing which were not included in the version of GMET public at the time due to minor differences in query methodology.",
@@ -4163,6 +4269,8 @@
         "boolean_encoding:y_n"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Has associated CMM mitigation data",
         "definition": "A “Yes” in this field indicates that the GCMT asset has been associated with a known coal mine methane mitigation project (e.g., pre-mining drainage, flaring, ventilation air methane destruction, utilization, etc.).",

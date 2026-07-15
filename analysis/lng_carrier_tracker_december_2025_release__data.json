@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 1143,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.226059+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.716372+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -102,7 +102,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "IMO number [ref]",
@@ -199,7 +201,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Name",
@@ -296,7 +300,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Name [ref]",
@@ -393,7 +399,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other names",
@@ -490,7 +498,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other names [ref]",
@@ -525,7 +535,9 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -556,7 +568,13 @@
       "flags": [
         "out_of_set_categorical:3_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "active",
+        "on order",
+        "proposed"
+      ]
     },
     {
       "field_name": "Last updated",
@@ -595,7 +613,9 @@
       "flags": [
         "year_out_of_range:5_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status [ref]",
@@ -692,7 +712,110 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "https://www.igu.org/igu-reports/2025-world-lng-report",
+        "https://www.imarinenews.com/28729.html",
+        "https://www.rivieramm.com/news-content-hub/news-content-hub/fleet-of-ice-breaking-carriers-propel-russiarsquos-arctic-lng-ambitions-61509",
+        "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+        "https://splash247.com/hyundai-glovis-clinches-15-year-lng-newbuild-deal/",
+        "https://www.vesselfinder.com/vessels/details/9989118",
+        "https://www.vesselfinder.com/vessels/details/9988700",
+        "https://www.vesselfinder.com/vessels/details/9986283",
+        "https://www.vesselfinder.com/vessels/details/9982689",
+        "https://www.vesselfinder.com/vessels/details/9982677",
+        "https://www.vesselfinder.com/vessels/details/9981398",
+        "https://www.vesselfinder.com/vessels/details/9981386",
+        "https://www.vesselfinder.com/vessels/details/9981374",
+        "https://www.vesselfinder.com/vessels/details/9980851",
+        "https://www.vesselfinder.com/vessels/details/9977294",
+        "https://www.vesselfinder.com/vessels/details/9977282",
+        "https://www.vesselfinder.com/vessels/details/9977270",
+        "https://www.vesselfinder.com/vessels/details/9977268",
+        "https://www.vesselfinder.com/vessels/details/9977256",
+        "https://www.vesselfinder.com/vessels/details/9976915",
+        "https://www.vesselfinder.com/vessels/details/9976147",
+        "https://www.vesselfinder.com/vessels/details/9975519",
+        "https://www.vesselfinder.com/vessels/details/9974149",
+        "https://www.vesselfinder.com/vessels/details/9972945",
+        "https://www.vesselfinder.com/vessels/details/9972373",
+        "https://www.vesselfinder.com/vessels/details/9972361",
+        "https://www.vesselfinder.com/vessels/details/9972218",
+        "https://www.vesselfinder.com/vessels/details/9969388",
+        "https://www.vesselfinder.com/vessels/details/9968944",
+        "https://www.vesselfinder.com/vessels/details/9968932",
+        "https://www.vesselfinder.com/vessels/details/9967342",
+        "https://www.vesselfinder.com/vessels/details/9967330",
+        "https://www.vesselfinder.com/vessels/details/9967328",
+        "https://www.vesselfinder.com/vessels/details/9965435",
+        "https://www.vesselfinder.com/vessels/details/9962433",
+        "https://www.vesselfinder.com/vessels/details/9961398",
+        "https://www.vesselfinder.com/vessels/details/9960590",
+        "https://www.vesselfinder.com/vessels/details/9960588",
+        "https://www.vesselfinder.com/vessels/details/9958327",
+        "https://www.vesselfinder.com/vessels/details/9956953",
+        "https://www.vesselfinder.com/vessels/details/9947639",
+        "https://www.vesselfinder.com/vessels/details/9947627",
+        "https://www.vesselfinder.com/vessels/details/9947512",
+        "https://www.vesselfinder.com/vessels/details/9946362",
+        "https://www.vesselfinder.com/vessels/details/9928097",
+        "https://www.vesselfinder.com/vessels/details/9928061",
+        "https://www.vesselfinder.com/vessels/details/9918054",
+        "https://www.vesselfinder.com/vessels/details/9918028",
+        "https://www.vesselfinder.com/vessels/details/9904675",
+        "https://www.vesselfinder.com/vessels/details/9904546",
+        "https://www.vesselfinder.com/vessels/details/1023865",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875743",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875742",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875741",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875740",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875739",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875738",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875737",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875736",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875735",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875734",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875733",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875732",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875731",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875730",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875729",
+        "https://www.tradewindsnews.com/gas/woodside-energy-poised-to-kick-off-hunt-for-large-haul-of-lng-carrier-newbuildings/2-1-1875728",
+        "https://www.shipvault.com/ships/94117",
+        "https://www.shipvault.com/ships/73086",
+        "https://www.shipvault.com/ships/73085",
+        "https://www.shipvault.com/ships/490167",
+        "https://www.shipvault.com/ships/490166",
+        "https://www.shipvault.com/ships/490165",
+        "https://www.shipvault.com/ships/490164",
+        "https://www.shipvault.com/ships/487159",
+        "https://www.shipvault.com/ships/487116",
+        "https://www.shipvault.com/ships/487115",
+        "https://www.shipvault.com/ships/483838",
+        "https://www.shipvault.com/ships/478884",
+        "https://www.shipvault.com/ships/478883",
+        "https://www.shipvault.com/ships/478882",
+        "https://www.shipvault.com/ships/478881",
+        "https://www.shipvault.com/ships/477423",
+        "https://www.shipvault.com/ships/477422",
+        "https://www.shipvault.com/ships/470097",
+        "https://www.shipvault.com/ships/469431",
+        "https://www.shipvault.com/ships/465070",
+        "https://www.shipvault.com/ships/465056",
+        "https://www.shipvault.com/ships/459926",
+        "https://www.shipvault.com/ships/457612",
+        "https://www.shipvault.com/ships/456060",
+        "https://www.shipvault.com/ships/373877",
+        "https://www.shipvault.com/ships/373876",
+        "https://www.shipvault.com/ships/113754",
+        "https://www.rivieramm.com/news-content-hub/news-content-hub/hanwha-ocean-secures-second-us252m-lng-carrier-order-from-affiliate-in-a-month-86306?utm_source=chatgpt.com",
+        "https://www.rivieramm.com/news-content-hub/news-content-hub/hanwha-ocean-bags-us252m-lng-carrier-contract-from-affiliated-company-86029",
+        "https://www.offshore-energy.biz/hanwha-philly-to-build-first-us-lng-carrier-in-nearly-50-years/",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2757/1137484/1",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2754/1137458/1",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2753/1137240/1"
+      ]
     },
     {
       "field_name": "Shipowner",
@@ -789,7 +912,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Shipowner [ref]",
@@ -886,7 +1011,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Shipowner country/area",
@@ -946,7 +1073,11 @@
         "out_of_set_categorical:1_values_not_in_reference",
         "wrong_multi_value_separator:comma_only"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "Singapore, Norway, Greece, Canada, Japan"
+      ]
     },
     {
       "field_name": "Shipowner country/area [ref]",
@@ -1043,7 +1174,42 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "https://www.imarinenews.com/28729.html",
+        "https://www.tradewindsnews.com/gas/shipowners-shortlist-emerges-for-equinor-lng-newbuilding-tender/2-1-1902176",
+        "https://www.sinokor.co.kr/en/",
+        "https://system.new-vessels.com/orderer-45411-TMS_Cardiff_Gas_Ltd.html",
+        "https://www.shipvault.com/ships/490167",
+        "https://www.shipvault.com/ships/490166",
+        "https://www.shipvault.com/ships/490165",
+        "https://www.shipvault.com/ships/490164",
+        "https://www.shipvault.com/ships/487116",
+        "https://www.shipvault.com/ships/487115",
+        "https://www.shipvault.com/ships/483838",
+        "https://www.shipvault.com/ships/478883",
+        "https://www.shipvault.com/ships/478882",
+        "https://www.shipvault.com/ships/478881",
+        "https://www.shipvault.com/ships/477423",
+        "https://www.shipvault.com/ships/477422",
+        "https://www.shipvault.com/ships/470097",
+        "https://www.shipvault.com/ships/469431",
+        "https://www.shipvault.com/ships/465070",
+        "https://www.shipvault.com/ships/465056",
+        "https://www.shipvault.com/ships/373877",
+        "https://www.shipvault.com/ships/373876",
+        "https://www.shipvault.com/ships/113754",
+        "https://www.purus.com/our-services/gas",
+        "https://www.offshore-energy.biz/hanwha-philly-to-build-first-us-lng-carrier-in-nearly-50-years/",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2757/1137484/1",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2753/1137240/1",
+        "https://www.marinevesseltraffic.com/ship-owner-manager-ism-data/SAMSUNG-2752/1137238/1",
+        "https://system.new-vessels.com/groupowner-27274671-Hanwha_Shipping_LLC.html",
+        "https://system.new-vessels.com/Ship-28316327-.html",
+        "https://sg.linkedin.com/company/karmol",
+        "https://adnocls.ae/"
+      ]
     },
     {
       "field_name": "Shipbuilder",
@@ -1140,7 +1306,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Shipbuilder [ref]",
@@ -1237,7 +1405,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Shipbuilder yard country/area",
@@ -1302,7 +1472,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Shipbuilder yard country/area [ref]",
@@ -1399,7 +1571,48 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "https://www.hanwha.com/companies/hanwha-ocean.do",
+        "https://www.samsungshi.com/En/Default.aspx",
+        "https://www.hd.com/en/main",
+        "https://www.shipyards.gr/shipyards/new-buildings-shipyards/newbuilding-farest-pacific-ocean/newbuilding-far-east-china-sea/china-south/hudong-zhonghua-shipbuilding-group-coltd",
+        "https://www.mhi.com/",
+        "https://www.hshi.co.kr/eng/",
+        "https://www.khi.co.jp/corporate/network/sakaide.html",
+        "http://www.dsic.cn/English/CorporateProfile/AboutUs/index.htm",
+        "https://www.sskzvezda.ru/",
+        "https://www.mes.co.jp/en/",
+        "https://www.jnshipyard.com.cn/",
+        "https://chantiers-atlantique.com/en/",
+        "https://www.globalsecurity.org/military/world/europe/es-izar.htm",
+        "https://www.cmhijs.com/en/index.php/about.html",
+        "https://www.new-ships.com/app/shipyards/98141-jinhae-shipyard-k-shipbuilding",
+        "https://www.imazo.co.jp/",
+        "http://macnetkorea.com/sub/eng_sub.aspx?s_code=0503590000",
+        "https://www.jmuc.co.jp/en/",
+        "https://helsinkishipyard.fi/company/history-of-the-shipyard/",
+        "https://www.trusteddocks.com/company-group/102275-yangzijiang-shipbuilding-group-ltd",
+        "https://www.fincantieri.com/it/",
+        "https://splash247.com/hyundai-glovis-clinches-15-year-lng-newbuild-deal/",
+        "https://hanwhaphillyshipyard.com/",
+        "https://en.wikipedia.org/wiki/Japan_Marine_United",
+        "https://www.shipyards.gr/shipyards/new-buildings/stx-offshore-shipbuilding",
+        "https://www.shipvault.com/ships/73086",
+        "https://www.shipvault.com/ships/73085",
+        "https://www.shipvault.com/ships/465070",
+        "https://www.seatrium.com/contact.php",
+        "https://www.rivieramm.com/news-content-hub/news-content-hub/hanwha-ocean-secures-second-us252m-lng-carrier-order-from-affiliate-in-a-month-86306?utm_source=chatgpt.com",
+        "https://www.new-ships.com/app/shipyards/Yard-45666-Xiamen_Shipbuilding_Industry_Co_Ltd.html",
+        "https://www.new-ships.com/app/shipyards/5415-ningbo-xinle-shipbuilding-group-ltd-zhejiang-xinle-shipyard",
+        "https://system.new-vessels.com/Yard-20635702-Jiangsu_Yixiang_Shipbuilding_Co_Ltd.html",
+        "https://no.wikipedia.org/wiki/Rosenberg_Verft",
+        "https://fr.wikipedia.org/wiki/CNIM",
+        "https://en.wikipedia.org/wiki/German_Naval_Yards",
+        "https://en.wikipedia.org/wiki/Fore_River_Shipyard",
+        "https://en.wikipedia.org/wiki/Ateliers_et_Chantiers_de_France"
+      ]
     },
     {
       "field_name": "Yard location latitude",
@@ -1496,7 +1709,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Yard location longitude",
@@ -1593,7 +1808,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Yard location plus code",
@@ -1690,7 +1907,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Yard location accuracy",
@@ -1717,7 +1936,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Yard location lat/lon [ref]",
@@ -1814,7 +2035,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity",
@@ -1911,7 +2134,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity units",
@@ -1932,7 +2157,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity [ref]",
@@ -1953,7 +2180,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Cargo type",
@@ -1988,7 +2217,9 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Cargo type [ref]",
@@ -2009,7 +2240,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Vessel type",
@@ -2064,7 +2297,9 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Vessel type [ref]",
@@ -2091,7 +2326,9 @@
       "flags": [
         "categorical_rare_values:1_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Propulsion type",
@@ -2150,7 +2387,9 @@
       "flags": [
         "categorical_rare_values:3_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Propulsion type [ref]",
@@ -2171,7 +2410,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Delivery year",
@@ -2268,7 +2509,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Delivery year [ref]",
@@ -2367,7 +2610,9 @@
       "flags": [
         "year_out_of_range:53_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

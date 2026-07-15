@@ -4,7 +4,7 @@
   "tab_slug": "regions_area_and_countries",
   "n_rows": 999,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:14.555105+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.047965+00:00",
   "tracker_info": {
     "title": "Global Integrated Power Tracker March 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -107,7 +107,11 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "Sark"
+      ]
     },
     {
       "field_name": "Col A = Col M?",
@@ -134,7 +138,9 @@
       "flags": [
         "boolean_encoding:true_false"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM region",
@@ -171,7 +177,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM subregion",
@@ -256,7 +264,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Global Code (M49)",
@@ -281,7 +291,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Global Name (M49)",
@@ -302,7 +314,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region Code (M49)",
@@ -347,7 +361,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region Name (M49)",
@@ -384,7 +400,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Sub-region Code (M49)",
@@ -477,7 +495,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Sub-region Name (M49)",
@@ -562,7 +582,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Intermediate Region Code (M49)",
@@ -611,7 +633,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Intermediate Region Name (M49)",
@@ -660,7 +684,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country or Area (M49)",
@@ -757,7 +783,25 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "Wallis and Futuna Islands",
+        "Viet Nam",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "United States Virgin Islands",
+        "United Republic of Tanzania",
+        "United Kingdom of Great Britain and Northern Ireland",
+        "Syrian Arab Republic",
+        "Svalbard and Jan Mayen Islands",
+        "State of Palestine",
+        "Sark",
+        "Saint Helena",
+        "Russian Federation",
+        "Republic of Moldova",
+        "Republic of Korea"
+      ]
     },
     {
       "field_name": "M49 Country Code",
@@ -854,7 +898,110 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "96.0",
+        "92.0",
+        "90.0",
+        "894.0",
+        "887.0",
+        "882.0",
+        "876.0",
+        "862.0",
+        "860.0",
+        "86.0",
+        "858.0",
+        "854.0",
+        "850.0",
+        "840.0",
+        "84.0",
+        "834.0",
+        "833.0",
+        "832.0",
+        "831.0",
+        "826.0",
+        "818.0",
+        "807.0",
+        "804.0",
+        "800.0",
+        "8.0",
+        "798.0",
+        "796.0",
+        "795.0",
+        "792.0",
+        "788.0",
+        "784.0",
+        "780.0",
+        "776.0",
+        "772.0",
+        "768.0",
+        "764.0",
+        "762.0",
+        "760.0",
+        "76.0",
+        "756.0",
+        "752.0",
+        "748.0",
+        "744.0",
+        "740.0",
+        "74.0",
+        "732.0",
+        "729.0",
+        "728.0",
+        "724.0",
+        "72.0",
+        "716.0",
+        "710.0",
+        "706.0",
+        "705.0",
+        "704.0",
+        "703.0",
+        "702.0",
+        "70.0",
+        "694.0",
+        "690.0",
+        "688.0",
+        "686.0",
+        "682.0",
+        "680.0",
+        "68.0",
+        "678.0",
+        "674.0",
+        "670.0",
+        "666.0",
+        "663.0",
+        "662.0",
+        "660.0",
+        "659.0",
+        "654.0",
+        "652.0",
+        "646.0",
+        "643.0",
+        "642.0",
+        "64.0",
+        "638.0",
+        "634.0",
+        "630.0",
+        "626.0",
+        "624.0",
+        "620.0",
+        "616.0",
+        "612.0",
+        "608.0",
+        "604.0",
+        "600.0",
+        "60.0",
+        "598.0",
+        "591.0",
+        "586.0",
+        "585.0",
+        "584.0",
+        "583.0",
+        "581.0",
+        "580.0",
+        "578.0"
+      ]
     },
     {
       "field_name": "ISO-alpha2 Code",
@@ -951,7 +1098,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "ISO-alpha3 Code",
@@ -1048,7 +1197,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Least Developed Countries (LDC)",
@@ -1069,7 +1220,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Land Locked Developing Countries (LLDC)",
@@ -1090,7 +1243,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Small Island Developing States (SIDS)",
@@ -1111,7 +1266,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "EU27",
@@ -1132,7 +1289,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "G20 (including EU27 and African Union)",
@@ -1153,7 +1312,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "G7 (excluding EU27)",
@@ -1174,7 +1335,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "G7 (including EU27)",
@@ -1195,7 +1358,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "African Union",
@@ -1216,7 +1381,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "OECD",
@@ -1237,7 +1404,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Non-OECD (exc. China)",
@@ -1258,7 +1427,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "BRICS (Brazil, Russia, India China, South Africa)",
@@ -1279,7 +1450,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "BRICS+ (Brazil, Russia, India, China, South Africa, Ethiopia, the United Arab Emirates, Iran, Egypt, and Indonesia)",
@@ -1300,7 +1473,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

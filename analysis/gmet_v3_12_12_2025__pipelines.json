@@ -4,7 +4,7 @@
   "tab_slug": "pipelines",
   "n_rows": 3908,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.086366+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.552345+00:00",
   "tracker_info": {
     "title": "Global Methane Emitters Tracker - December 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
@@ -107,7 +107,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Pipeline Name",
@@ -204,7 +206,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM Wiki",
@@ -301,7 +305,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -356,7 +362,13 @@
       "flags": [
         "out_of_set_categorical:3_values_not_in_reference"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "proposed",
+        "idle",
+        "mixed status"
+      ]
     },
     {
       "field_name": "Length Merged Km",
@@ -453,7 +465,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "CapacityBcm/y",
@@ -552,7 +566,9 @@
       "flags": [
         "non_standard_null_proxies"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Emissions Factor, 2019 (tonnes/kilometer)",
@@ -573,7 +589,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Emissions if Operational (tonnes/yr)",
@@ -670,7 +688,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Emissions if Operational Lower Bound (tonnes/yr)",
@@ -767,7 +787,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Emissions if Operational Upper Bound (tonnes/yr)",
@@ -864,7 +886,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Countries/Areas",
@@ -961,7 +985,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "WKTFormat",
@@ -1058,7 +1084,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

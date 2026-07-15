@@ -4,7 +4,7 @@
   "tab_slug": "distributed_1_mw",
   "n_rows": 31,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:15.224911+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.943262+00:00",
   "tracker_info": {
     "title": "Global Solar Power Tracker - February 2026",
     "citation": null,
@@ -50,6 +50,8 @@
         "year_out_of_range:5_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that this project was last researched by the researcher",
       "notes_from_readme": "Units: yyyy/mm/dd."
     },
@@ -149,6 +151,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country or area the project is located in (Unabbreviated)",
       "notes_from_readme": "The Country/Area column presents energy data within various economic contexts, and the geographical unit does not strictly follow political boundaries."
     },
@@ -248,6 +252,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Nameplate capacity, or best available data, of the phase in megawatts rounded to its nearest tenth.",
       "notes_from_readme": "Units: Megawatt (MW). Please refer to \"Thresholds for Data Categories\" section above."
     },
@@ -271,6 +277,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The reported capacity rating, unknown selected if not provided",
       "notes_from_readme": "Units: MWac, MWp/dc, unknown. Capacity may be reported as the DC / peak value the arrays could provide or as the AC value of what will be tied into the grid. This is often not specified and could be either value when reported as just 'MW'."
     },
@@ -294,6 +302,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "see rows 20-27 above",
       "notes_from_readme": "Units: see above.",
       "value_definitions": [
@@ -355,6 +365,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Capacity value is accurate as of the end of this year",
       "notes_from_readme": "Units: yyyy. Specific to distributed solar tab."
     },
@@ -418,6 +430,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subregion location based on United Nations definition",
       "notes_from_readme": null
     },
@@ -457,6 +471,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Region location based on United Nations definition",
       "notes_from_readme": null
     },
@@ -556,6 +572,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "URL of existing, footnoted factsheet GEM.wiki page",
       "notes_from_readme": null
     }

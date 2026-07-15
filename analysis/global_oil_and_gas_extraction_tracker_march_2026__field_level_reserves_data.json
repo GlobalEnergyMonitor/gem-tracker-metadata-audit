@@ -4,7 +4,7 @@
   "tab_slug": "field_level_reserves_data",
   "n_rows": 7060,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:14.899889+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.523669+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Unique Unit ID number",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Name of the unit as it is reported by sources.",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
       "notes_from_readme": null
     },
@@ -407,6 +413,30 @@
         "out_of_set_categorical:21_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "oil",
+        "gas",
+        "condensate",
+        "hydrocarbons",
+        "NGL",
+        "crude oil and condensate",
+        "oil and condensate",
+        "coal seam gas",
+        "liquids",
+        "sales gas",
+        "associated gas",
+        "nonassociated gas",
+        "[not stated]",
+        "gas condensate",
+        "crude oil",
+        "oil and gas condensate",
+        "LPG",
+        "oil and gas",
+        "coal bed methane",
+        "Non-associated gas",
+        "liquid hydrocarbons"
+      ],
       "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents",
       "notes_from_readme": null
     },
@@ -506,6 +536,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
       "notes_from_readme": null
     },
@@ -604,7 +636,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Units",
@@ -701,7 +735,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Quantity (converted)",
@@ -799,6 +835,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
       "notes_from_readme": null
     },
@@ -830,6 +868,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The common set of units.",
       "notes_from_readme": null
     },
@@ -929,6 +969,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the data refers to, or if not listed, year of the source document",
       "notes_from_readme": null
     }

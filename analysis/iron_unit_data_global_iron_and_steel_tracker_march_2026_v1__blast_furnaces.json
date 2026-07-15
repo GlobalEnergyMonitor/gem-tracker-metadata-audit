@@ -4,7 +4,7 @@
   "tab_slug": "blast_furnaces",
   "n_rows": 1654,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.179943+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.664465+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000012XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the GIST.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each blast furnace unit. Uses format U10000014XXXX where U stands for \"unit\", and XXXX increases with every new unit added to the tracker.",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If the furnace has a unit name (may be a letter or number) assigned to it. \"Unknown\" indicates that the unit has no known name and the number has been assigned by GEM.",
       "notes_from_readme": null
     },
@@ -404,7 +410,9 @@
       "subtype_guess": "structured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/area",
@@ -502,6 +510,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country or territory.",
       "notes_from_readme": null
     },
@@ -553,6 +563,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "Operating status of the direct reduced iron unit. Categories are \"announced\", \"construction\", \"operating\", \"operating pre-retirement\", \"mothballed\", \"mothballed pre-retirement\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -654,6 +666,8 @@
         "year_out_of_range:80_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date of announcement/proposal of furnace in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -755,6 +769,8 @@
         "year_out_of_range:80_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that construction of the furnace began in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -856,6 +872,8 @@
         "year_out_of_range:2_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Furnace start date in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -955,6 +973,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Furnace age in years.",
       "notes_from_readme": null
     },
@@ -1056,6 +1076,8 @@
         "year_out_of_range:86_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date the company announced its plans to retire the direct reduced iron unit in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -1157,6 +1179,8 @@
         "year_out_of_range:46_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that direct reduced iron unit stops iron production, but has not been disassembled or permanently closed, in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -1258,6 +1282,8 @@
         "year_out_of_range:81_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that direct reduced iron unit was permanently closed, either after being disassembled or after a period of inactivity (after 5 years of “mothballed”), in the format YYYY-MM-DD.",
       "notes_from_readme": null
     },
@@ -1357,6 +1383,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company that manufactured the unit, if known.",
       "notes_from_readme": null
     },
@@ -1456,6 +1484,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The specific model of the unit, if known.",
       "notes_from_readme": null
     },
@@ -1557,6 +1587,8 @@
         "numeric_outliers:1_non_numeric_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Production capacity of unit in thousands of metric tonnes per annum.",
       "notes_from_readme": null
     },
@@ -1658,6 +1690,8 @@
         "non_standard_null_proxies"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Physical furnace size (example: 3000 m3).",
       "notes_from_readme": null
     },
@@ -1761,6 +1795,8 @@
         "multi_value_separator_check:uses_;"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Notes on any carbon capture projects related to the unit.",
       "notes_from_readme": null
     },
@@ -1860,6 +1896,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Most recent relining date in format YYYY-MM-DD where unit has a known relining. \"Unknown\" indicates the unit has no known relinings or only has relining events with no known dates. This date is the stop date of the relining or the start date if stop date is unknown. Further detail on relinings can be found in the \"Blast furnace relinings\" sheet.",
       "notes_from_readme": null
     }

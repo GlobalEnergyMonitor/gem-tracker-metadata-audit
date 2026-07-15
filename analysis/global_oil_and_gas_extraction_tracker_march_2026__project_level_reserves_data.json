@@ -4,7 +4,7 @@
   "tab_slug": "project_level_reserves_data",
   "n_rows": 999,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:14.925860+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.552791+00:00",
   "tracker_info": {
     "title": "Global Oil and Gas Extraction Tracker - March 2026",
     "citation": null,
@@ -108,6 +108,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Unique project ID number.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Name of the unit as it is reported by sources.",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "The country/area that the unit is in. If a unit spans country borders, both countries are listed in the Unit name.",
       "notes_from_readme": null
     },
@@ -391,6 +397,25 @@
         "out_of_set_categorical:16_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "gas",
+        "oil",
+        "hydrocarbons",
+        "crude oil and condensate",
+        "condensate",
+        "liquids",
+        "crude oil",
+        "coal seam gas",
+        "oil and condensate",
+        "gas condensate",
+        "NGL",
+        "LPG",
+        "oil and gas condensate",
+        "oil and gas",
+        "gas and condensate",
+        "coal bed methane"
+      ],
       "definition_from_readme": "Specifies the type of fuel(s), e.g., \"gas,\" \"oil,\" \"gas and condensates,\" \"total hydrocarbons,\" and other possibilities that may be specified by the source documents.",
       "notes_from_readme": null
     },
@@ -490,6 +515,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "For reserves only, a description of the classification of reserves, e.g., 1P reserves, 2P reserves, proved reserves, EUR, or other possibilities (as specified by the source documents)",
       "notes_from_readme": null
     },
@@ -589,6 +616,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The quantity after the conversion of data into a common set of units.",
       "notes_from_readme": null
     },
@@ -620,6 +649,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The common set of units.",
       "notes_from_readme": null
     },
@@ -647,6 +678,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "If the reserves of the project is calculated from the the field-level projects which make it up, it is tagged as \"reserves summed from fields\". If data for the location is at the project level, this is tagged as \"project level reserves\" - if both data types are available, only the project level data is shown here.",
       "notes_from_readme": null
     }

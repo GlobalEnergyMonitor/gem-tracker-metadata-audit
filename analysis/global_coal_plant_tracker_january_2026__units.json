@@ -4,7 +4,7 @@
   "tab_slug": "units",
   "n_rows": 14509,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:06.000711+00:00",
+  "analyzed_at": "2026-07-14T23:38:31.270166+00:00",
   "tracker_info": {
     "title": "Global Coal Plant Tracker, Global Energy Monitor  January 2026 Release",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Plant Tracker, January 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "ID unique to the coal-fired unit",
       "notes_from_readme": null,
       "api_metadata": {
@@ -224,6 +226,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "ID unique to the entire power station",
       "notes_from_readme": null,
       "api_metadata": {
@@ -340,6 +344,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country where the power station is/was located or is/was in development",
       "notes_from_readme": null,
       "api_metadata": {
@@ -455,6 +461,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to GEM's power station wiki page, featuring narrative descriptions and source attribution",
       "notes_from_readme": null,
       "api_metadata": {
@@ -570,6 +578,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Identical label across all units at the same power station",
       "notes_from_readme": null,
       "api_metadata": {
@@ -684,6 +694,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Unique label for each unit at the same power station",
       "notes_from_readme": null,
       "api_metadata": {
@@ -798,6 +810,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Alternative and former labels for the power station",
       "notes_from_readme": null,
       "api_metadata": {
@@ -912,6 +926,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Power station name in a local language or government plan",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1026,6 +1042,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Lowest level, direct power station owner(s)",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1141,6 +1159,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "GEOT ID unique to the entity",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1257,6 +1277,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Highest level power station owner(s) and their share of ownership, if known",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1372,6 +1394,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "GEOT ID unique to the parent or parent configuration",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1488,6 +1512,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Nameplate/gross/installed capacity, in megawatts",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1563,6 +1589,11 @@
         "out_of_set_categorical:2_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "permitted",
+        "pre-permit"
+      ],
       "definition_from_readme": "Status designation, see more details above",
       "notes_from_readme": null,
       "value_definitions": [
@@ -1749,6 +1780,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the unit was commissioned",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1864,6 +1897,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the unit was decommissioned",
       "notes_from_readme": null,
       "api_metadata": {
@@ -1979,6 +2014,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year a specific unit is planned to retire (specific, not national commitments)",
       "notes_from_readme": null,
       "value_definitions": [
@@ -2104,6 +2141,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Coal phaseout year",
         "definition": "Year of planned country-level coal phaseout",
@@ -2165,6 +2204,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Net zero year",
         "definition": "Year of country-level net-zero target",
@@ -2234,6 +2275,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Power station technology type. Fore more info about each type, see https://www.gem.wiki/Coal_power_technologies",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2330,6 +2373,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Anthracite, bituminous, lignite, subbituminous, waste coal, or unknown",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2468,6 +2513,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Mine, region, or country of coal origin, to highest level of known specificity",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2582,6 +2629,55 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids)",
+        "fossil gas: natural gas, coal: unknown",
+        "fossil gas: LNG",
+        "fossil gas: natural gas, fossil liquids: heavy fuel oil",
+        "fossil gas: natural gas, coal: bituminous",
+        "fossil gas: natural gas, coal: unknown, fossil liquids: fuel oil",
+        "bioenergy: agricultural waste (solids)",
+        "fossil liquids: heavy fuel oil",
+        "fossil gas: natural gas, fossil liquids: fuel oil",
+        "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+        "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+        "fossil gas: natural gas, fossil liquids: heavy fuel oil, coal: unknown",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+        "fossil liquids: petroleum coke",
+        "fossil gas: natural gas, other: hydrogen (green)",
+        "fossil gas: natural gas, industrial by-product: coke oven gas, industrial by-product: blast furnace gas",
+        "fossil gas: natural gas, coal: waste coal, fossil liquids: heavy fuel oil, industrial by-product: coke oven gas",
+        "fossil gas: natural gas, bioenergy: unknown",
+        "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes), coal: unknown",
+        "bioenergy: unknown",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "fossil liquids: petroleum coke, fossil liquids: diesel",
+        "fossil liquids: fuel oil",
+        "fossil liquids: diesel, coal: bituminous",
+        "fossil gas: natural gas, coal: waste coal, industrial by-product: coke oven gas, fossil liquids: heavy fuel oil",
+        "fossil gas: natural gas, bioenergy: refuse (landfill gas)",
+        "fossil gas: natural gas, bioenergy: agricultural waste (biogas)",
+        "fossil gas: natural gas [55%], fossil liquids: petroleum coke [45%]",
+        "fossil gas: natural gas [0%], coal: bituminous",
+        "bioenergy: wood & other biomass (solids), other: other, fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), fossil liquids: waste/other oil",
+        "bioenergy: wood & other biomass (solids), coal: waste coal",
+        "bioenergy: wood & other biomass (solids), coal: unknown, fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), coal: bituminous, fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), coal: bituminous",
+        "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes, coal: bituminous",
+        "bioenergy: wood & other biomass (solids) [51%], coal: unknown [49%]",
+        "bioenergy: wood & other biomass (solids) [50%], bioenergy: refuse (municipal and industrial wastes) [50%]",
+        "bioenergy: wood & other biomass (biocoal)",
+        "bioenergy: wastewater and sewage sludge (solids or biogas), bioenergy: wood & other biomass (solids)",
+        "bioenergy: paper mill wastes, other: other, bioenergy: wood & other biomass (solids), coal: bituminous, bioenergy: wastewater and sewage sludge (solids or biogas), fossil liquids: unknown",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, fossil liquids: unknown",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, bioenergy: wood & other biomass (solids), fossil liquids: unknown, other: other",
+        "bioenergy: agricultural waste (solids), bioenergy: agricultural waste (solids)"
+      ],
       "definition_from_readme": "Fuel details connected to another GEM tracker, used when a project conversion is planned",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2696,6 +2792,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Specific ID connected to another GEM tracker, used when a project conversion is planned",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2786,6 +2884,17 @@
         "wrong_multi_value_separator:comma_only"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "fossil gas, fossil liquids",
+        "fossil liquids, bioenergy",
+        "fossil gas, bioenergy",
+        "fossil gas, fossil liquids, bioenergy",
+        "other, bioenergy",
+        "fossil liquids, industrial by-product",
+        "fossil gas, industrial by-product",
+        "other, fossil gas, bioenergy"
+      ],
       "definition_from_readme": "Details about co-firing with another fuel, generally excluding any start-up fuels or cold-start fuels",
       "notes_from_readme": null,
       "api_metadata": {
@@ -2916,6 +3025,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Closest location (e.g. city or town)",
       "notes_from_readme": null,
       "value_definitions": [
@@ -3043,7 +3154,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Major area (prefecture, district)",
@@ -3141,6 +3254,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Major area (prefecture, district)",
         "definition": "Prefecture, district",
@@ -3253,6 +3368,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Subnational unit (province, state)",
         "definition": "Province, state",
@@ -3346,6 +3463,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Global subregion",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3434,6 +3553,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Global region",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3562,6 +3683,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "WGS 84 Decimal latitude",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3678,6 +3801,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "WGS 84 Decimal longitude",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3722,6 +3847,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Whether coordinates are exact or approximate",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3849,6 +3976,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date the power station received environmental clearance",
       "notes_from_readme": null,
       "api_metadata": {
@@ -3965,6 +4094,8 @@
         "year_out_of_range:91_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Permit Date",
         "definition": "",
@@ -4077,6 +4208,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Permit Parsed",
         "definition": "",
@@ -4189,6 +4322,12 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": [
+        "chemicals, iron & steel, machinery, other metals & mining",
+        "aluminum, nickel",
+        "aluminum, iron & steel"
+      ],
       "definition_from_readme": "Industry, if the power station is designated for paricular non-grid use",
       "notes_from_readme": null,
       "api_metadata": {
@@ -4282,6 +4421,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Whether a captive power station provides heat, power, or both",
       "notes_from_readme": null,
       "api_metadata": {
@@ -4342,6 +4483,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Whether the plant sell excess heat, power, or both",
       "notes_from_readme": null,
       "api_metadata": {
@@ -4402,6 +4545,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "api_allowed_values",
+      "out_of_set_values": null,
       "definition_from_readme": "Whether the unit is used for combined heat and power",
       "notes_from_readme": null,
       "api_metadata": {
@@ -4526,6 +4671,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Average capacity factor by country, based on GEM's global operating coal power capacity (2025) and Ember's power generation data (accessed 23 January 2026). Plants that are retired or cancelled are given a capacity factor of 0, i.e. no generation is assumed. Capacity data for Indonesia includes grid plants only, as the generation data excludes captive plants. Because the GCPT excludes coal-fired units under 30 MW, the average capacity factor reported here likely overstates national averages in countries with a non-trivial share of small units.",
       "notes_from_readme": null,
       "value_definitions": [
@@ -4661,6 +4808,8 @@
         "year_out_of_range:78_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Plant age (years)",
         "definition": "The age of the plant. For operating and mothballed plants it is the number of years since the plant began operating. For retired plants it is the age that the plant retired. Age is set to 0 for proposed plants and for plants that have been operating less than a year.",
@@ -4776,6 +4925,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Heat rate (Btu per kWh)",
         "definition": "Heat rate is based on type of combustion technology, with performance penalties for older and smaller units. More discussion at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
@@ -4839,6 +4990,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Emission factor (kg of CO2 per TJ)",
         "definition": "Based on type of coal using the 2006 IPPC Guidelines for National Greenhouse Inventories, Table 2.2, page 2.16.",
@@ -4954,6 +5107,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Annual CO2 (million tonnes / annum)",
         "definition": "For CO2 calculation method, see \"Estimating carbon dioxide emissions from coal plants\" at https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants",
@@ -5071,6 +5226,8 @@
         "year_out_of_range:42_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Remaining plant lifetime (years)",
         "definition": "Lifetime emissions assume a plant lifetime of 35 years, based on the global average retirement age of 37 years. Plants older than 35 years are assumed to operate an additional 5 years. Plants with a planned retirement date are assumed to cease operations that year.",
@@ -5186,6 +5343,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "api_metadata": {
         "name": "Lifetime CO2 (million tonnes)",
         "definition": "",
@@ -5227,6 +5386,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Whether the unit is eligible to receive payments under China's coal capacity payment mechanism. For more info see https://www.gem.wiki/China_Coal_Capacity_Payment_Mechanism",
       "notes_from_readme": null,
       "value_definitions": [

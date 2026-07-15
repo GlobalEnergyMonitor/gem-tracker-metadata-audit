@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 1749,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:14.621794+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.117877+00:00",
   "tracker_info": {
     "title": "Global Nuclear Power Tracker - September 4, 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Nuclear Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -110,6 +110,8 @@
         "year_out_of_range:34_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that this unit was last researched by the researcher",
       "notes_from_readme": "Units: yyyy-mm-dd."
     },
@@ -209,6 +211,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country/area where the project is located (unabbreviated)",
       "notes_from_readme": null
     },
@@ -308,6 +312,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Commonly used name",
       "notes_from_readme": "Preference is for a government provided name. Without that information, the name used by the owner or operating company is listed"
     },
@@ -407,6 +413,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Common name of the unit",
       "notes_from_readme": "Roman numerals are changed to numbers. If the owner uses non-sequential numbers or other characters, those are used"
     },
@@ -506,6 +514,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Commonly used name in the locally used script",
       "notes_from_readme": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise local name(s) in local script provided if possible"
     },
@@ -605,6 +615,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Alternative names, including the name in local script",
       "notes_from_readme": null
     },
@@ -704,6 +716,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Nameplate capacity, or best available data, of the unit in megawatts",
       "notes_from_readme": "Units: MW. No capacity threshold"
     },
@@ -763,6 +777,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "definition_from_readme": "see rows 14-23 above",
       "notes_from_readme": null,
       "value_definitions": [
@@ -894,6 +910,8 @@
         "categorical_rare_values:8_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Classification of power reactors by coolant and moderator material",
       "notes_from_readme": null
     },
@@ -993,6 +1011,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Specific design series of the reactor",
       "notes_from_readme": null
     },
@@ -1092,6 +1112,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the unit is commissioned",
       "notes_from_readme": "Units: yyyy."
     },
@@ -1191,6 +1213,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the unit is taken offline",
       "notes_from_readme": "Units: yyyy."
     },
@@ -1220,6 +1244,8 @@
         "boolean_encoding:y_n"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Indicates if the Retirement Year is planned or actual",
       "notes_from_readme": "Units: Y or N."
     },
@@ -1319,6 +1345,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Year the unit is cancelled",
       "notes_from_readme": "Units: yyyy."
     },
@@ -1420,6 +1448,8 @@
         "year_out_of_range:86_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that unit construction begins",
       "notes_from_readme": "Units: yyyy-mm-dd [when available]."
     },
@@ -1521,6 +1551,8 @@
         "year_out_of_range:97_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that the unit first achieves criticality",
       "notes_from_readme": "Units: yyyy-mm-dd [when available]."
     },
@@ -1620,6 +1652,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that the unit first connects to the grid",
       "notes_from_readme": "Units: yyyy-mm-dd [when available]."
     },
@@ -1721,6 +1755,8 @@
         "year_out_of_range:78_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that the unit begins commercial operation",
       "notes_from_readme": "Units: yyyy-mm-dd [when available]."
     },
@@ -1822,6 +1858,8 @@
         "year_out_of_range:83_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that the unit is retired",
       "notes_from_readme": "Units: yyyy-mm-dd [when available]."
     },
@@ -1921,6 +1959,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company(ies) that directly own(s) the unit",
       "notes_from_readme": "If percent ownership is known format is CompanyA [X%]; CompanyB [Y%]"
     },
@@ -2020,6 +2060,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Company name(s) of owner(s) in the locally used script",
       "notes_from_readme": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise owner name(s) in local script included if possible"
     },
@@ -2119,6 +2161,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The company(ies) that operates the unit",
       "notes_from_readme": "Company that performs day-to-day operations and maintenance of the unit"
     },
@@ -2218,6 +2262,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Company name(s) of operator(s) in the locally used script",
       "notes_from_readme": "Left blank for local languages that use the Roman/Latin alphabet. Otherwise operator name(s) in local script included if possible"
     },
@@ -2317,6 +2363,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Net capacity of the unit for the reference period",
       "notes_from_readme": "Units: MW."
     },
@@ -2416,6 +2464,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Net capacity of the unit as originally designed by the manufacturer",
       "notes_from_readme": "Units: MW."
     },
@@ -2515,6 +2565,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Net capacity for heat transferred from nuclear fuel to coolant",
       "notes_from_readme": "Units: MWt."
     },
@@ -2614,6 +2666,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Latitude, assumed WGS84 (google maps)",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -2713,6 +2767,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Latitude, assumed WGS84 (google maps)",
       "notes_from_readme": "Units: decimal degrees."
     },
@@ -2740,6 +2796,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Location is Approximate based by using nearest city or other information in research, or Location is Exact based on visibility on map or given in research",
       "notes_from_readme": "Units: approximate, exact."
     },
@@ -2839,6 +2897,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "City, town, or village where unit is located",
       "notes_from_readme": null
     },
@@ -2938,6 +2998,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "County/taluk where unit is located",
       "notes_from_readme": null
     },
@@ -3037,6 +3099,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Prefecture or district where unit is located",
       "notes_from_readme": null
     },
@@ -3136,6 +3200,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subnational unit where unit is located",
       "notes_from_readme": null
     },
@@ -3209,6 +3275,8 @@
         "categorical_rare_values:1_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subregion (using UN Population and Statistics definitions) where unit is located",
       "notes_from_readme": null
     },
@@ -3244,6 +3312,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Region (using UN Population and Statistics definitions) where unit is located",
       "notes_from_readme": null
     },
@@ -3343,6 +3413,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "GEM-generated ID unique for each project",
       "notes_from_readme": "Units: L100000500001 - L100000599999 for nuclear projects."
     },
@@ -3442,6 +3514,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "GEM-generated ID unique for each unit",
       "notes_from_readme": "Units: G100000500001 - G100000599999 for nuclear units."
     },
@@ -3541,6 +3615,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "URL of corresponding GEM.wiki pages",
       "notes_from_readme": null
     }

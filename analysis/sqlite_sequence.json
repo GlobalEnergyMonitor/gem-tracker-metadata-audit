@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 1,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.837278+00:00",
+  "analyzed_at": "2026-07-14T23:38:47.476894+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -26,7 +26,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "seq",
@@ -47,7 +49,9 @@
       "subtype_guess": null,
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

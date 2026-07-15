@@ -98,8 +98,7 @@ Inclusion of third-party IDs (`MSHA ID`, `SFI ID`, `LeadIT Project ID`, etc.) is
 
 - **IOP-02: Names** — display names alongside IDs; deduplication by name vs. ID
 - **IOP-03: Status** — status as part of composite keys (Coal Mine)
-- **IOP-07: Entities** — Owner/Operator `GEM Entity ID` fields follow the same naming patterns
 
 ---
 
-**Interoperability topics:** [Index](index.md) · [IOP-01: IDs](iop-01-ids.md) · [IOP-02: Names](iop-02-names.md) · [IOP-03: Status](iop-03-status.md) · [IOP-04: Capacity](iop-04-capacity.md) · [IOP-05: Location](iop-05-location.md) · [IOP-06: Temporal](iop-06-temporal.md) · [IOP-07: Entities](iop-07-entities.md)
+**Interoperability topics:** [Index](index.md) · [IOP-01: IDs](iop-01-ids.md) · [IOP-02: Names](iop-02-names.md) · [IOP-03: Status](iop-03-status.md) · [IOP-04: Capacity](iop-04-capacity.md) · [IOP-05: Location](iop-05-location.md) · [IOP-06: Temporal](iop-06-temporal.md)

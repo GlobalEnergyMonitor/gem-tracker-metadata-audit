@@ -4,7 +4,7 @@
   "tab_slug": "about_coal_terminals",
   "n_rows": 999,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:18.334877+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.841126+00:00",
   "tracker_info": {},
   "fields": [
     {
@@ -100,7 +100,9 @@
       "flags": [
         "wrong_multi_value_separator:comma_only"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "_col1",
@@ -151,7 +153,9 @@
       "flags": [
         "wrong_multi_value_separator:comma_only"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

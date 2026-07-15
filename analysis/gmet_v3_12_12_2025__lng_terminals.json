@@ -4,7 +4,7 @@
   "tab_slug": "lng_terminals",
   "n_rows": 1295,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:17.963959+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.409262+00:00",
   "tracker_info": {
     "title": "Global Methane Emitters Tracker - December 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Methane Emitters Tracker, December 2025 release.\" (See the CC licenses for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Assigned ID number to every whole terminal. Unique to each distinct terminal.",
       "notes_from_readme": null
     },
@@ -203,6 +205,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Assigned ID number to every project within a whole terminal. Unique within each distinct TerminalID.",
       "notes_from_readme": null
     },
@@ -302,6 +306,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Combined TerminalID and ProjectID to create unique index value for every observation.",
       "notes_from_readme": null
     },
@@ -401,6 +407,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to project's GEM.wiki page",
       "notes_from_readme": null
     },
@@ -500,6 +508,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Terminal name",
       "notes_from_readme": null
     },
@@ -599,6 +609,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Smaller unit within a terminal (including trains T1, T2; phases Phase 1, Phase 2; expansions; project revivals/recommissions; etc.)",
       "notes_from_readme": null
     },
@@ -626,6 +638,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Type of facility (import or export terminal)",
       "notes_from_readme": null
     },
@@ -679,6 +693,11 @@
         "out_of_set_categorical:2_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "Proposed",
+        "Idle"
+      ],
       "definition_from_readme": "The status of development of a unit, e.g., discovered, in development, operating, shut in, decommissioned, abandoned, or UGS. For individual status defintions, see GEM's Global Oil and Gas Extraction Tracker",
       "notes_from_readme": null
     },
@@ -778,6 +797,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "The country or area that the unit is in. If a unit spans country borders, it is handled on a case-by-case basis. Some units may be split in the data provided; therefore, the portion in each country is reported separately.",
       "notes_from_readme": null
     },
@@ -877,6 +898,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Owner company name(s), percent ownership if available; here \"owner\" means lowest level of ownership that we're able to trace.",
       "notes_from_readme": null
     },
@@ -976,6 +999,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Parent company name(s), percent ownership if available, taken from the Parent tab; here \"parent\" means highest level of ownership that we're able to trace (e.g., parent companies or ultimate shareholders). For state-owned enterprises, we prioritize the name of the company (e.g., PipeChina) or the ministry (e.g., Iran Ministry of Oil) rather than Government of China or Government of Iran.",
       "notes_from_readme": null
     },
@@ -1075,6 +1100,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Publicly reported capacity value, converted to mtpa",
       "notes_from_readme": null
     },
@@ -1102,6 +1129,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The emission factor for either regassification or liquefaction for the LNG terminal, drawn from Innocenti et al., 2023. See GMET Methodology wiki for more details.",
       "notes_from_readme": null
     },
@@ -1202,7 +1231,9 @@
       "flags": [
         "year_out_of_range:100_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Location",
@@ -1300,6 +1331,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "City, town, or village location",
       "notes_from_readme": null
     },
@@ -1399,6 +1432,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "State or province location",
       "notes_from_readme": null
     },
@@ -1498,6 +1533,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Location of the unit.",
       "notes_from_readme": null
     },
@@ -1597,6 +1634,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Location of the unit.",
       "notes_from_readme": null
     },
@@ -1624,6 +1663,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Are the coordinates known exactly or only approximated? (Options: \"exact\" or \"approximate\"); exact means the coordinate values were found from a citable reference",
       "notes_from_readme": null
     },
@@ -1649,6 +1690,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "\"yes\" if it's import or export only, and doesn't do any regasification or liquefaction; otherwise leave blank",
       "notes_from_readme": null
     },
@@ -1674,6 +1717,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Is there a CCS project associated with the terminal? (yes if operating or proposed; blank otherwise)",
       "notes_from_readme": null
     },
@@ -1775,6 +1820,8 @@
         "year_out_of_range:95_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Date that the project was last researched (filled in by Researcher)",
       "notes_from_readme": null
     }

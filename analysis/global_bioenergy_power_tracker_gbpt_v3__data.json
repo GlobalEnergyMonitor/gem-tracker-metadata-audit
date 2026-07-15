@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 4537,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:05.132306+00:00",
+  "analyzed_at": "2026-07-14T23:38:30.097912+00:00",
   "tracker_info": {
     "title": "Global Bioenergy Power Tracker - September 24, 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Bioenergy Power Tracker, September 2025 release\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -110,6 +110,8 @@
         "year_out_of_range:100_invalid_values"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -213,6 +215,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -316,6 +320,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -419,6 +425,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -522,6 +530,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -625,6 +635,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -728,6 +740,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "MW",
@@ -831,6 +845,109 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "fuel_category",
+      "out_of_set_values": [
+        "bioenergy: refuse (municipal and industrial wastes)",
+        "bioenergy: agricultural waste (solids)",
+        "bioenergy: wood & other biomass (solids)",
+        "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids)",
+        "bioenergy: paper mill wastes",
+        "bioenergy: refuse (landfill gas)",
+        "bioenergy: unknown",
+        "bioenergy: refuse (municipal and industrial wastes), bioenergy: wastewater and sewage sludge (solids or biogas)",
+        "bioenergy: wood & other biomass (solids), bioenergy: agricultural waste (solids)",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids)",
+        "bioenergy: refuse (municipal and industrial wastes), fossil gas: natural gas",
+        "bioenergy: biodiesel",
+        "bioenergy: paper mill wastes, fossil gas: natural gas",
+        "bioenergy: agricultural waste (biogas)",
+        "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+        "bioenergy: wastewater and sewage sludge (solids or biogas)",
+        "bioenergy: wood & other biomass (biocoal)",
+        "bioenergy: refuse (municipal and industrial wastes), bioenergy: wood & other biomass (solids)",
+        "bioenergy: agricultural waste (solids), bioenergy: refuse (municipal and industrial wastes)",
+        "bioenergy: agricultural waste (solids), coal: unknown",
+        "bioenergy: wood & other biomass (solids), other: other, fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), other: other",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, bioenergy: wood & other biomass (solids)",
+        "bioenergy: agricultural waste (solids), coal: unknown, fossil liquids: fuel oil",
+        "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes, fossil gas: natural gas",
+        "bioenergy: refuse (syngas)",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, fossil liquids: unknown",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), bioenergy: wastewater and sewage sludge (solids or biogas)",
+        "bioenergy: agricultural waste (unknown)",
+        "bioenergy: agricultural waste (syngas)",
+        "bioenergy: agricultural waste (solids), fossil liquids: fuel oil",
+        "bioenergy: unknown, fossil gas: natural gas",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), other: other",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil liquids: unknown",
+        "bioenergy: agricultural waste (biogas), fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), fossil liquids: waste/other oil",
+        "bioenergy: wood & other biomass (solids), fossil liquids: heavy fuel oil",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), coal: bituminous",
+        "bioenergy: paper mill wastes, bioenergy: wastewater and sewage sludge (solids or biogas), bioenergy: wood & other biomass (solids)",
+        "bioenergy: paper mill wastes, bioenergy: wastewater and sewage sludge (solids or biogas)",
+        "bioenergy: bio-heavy oil",
+        "bioenergy: agricultural waste (solids), fossil gas: natural gas",
+        "bioenergy: agricultural waste (biogas), fossil gas: natural gas, fossil liquids: fuel oil",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas, fossil liquids: unknown",
+        "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "bioenergy: agricultural waste (solids), bioenergy: agricultural waste (unknown), fossil gas: natural gas",
+        "bioenergy: agricultural waste (solids) [90%], coal: unknown [10%]",
+        "bioenergy: wood & other biomass (solids), other: other, fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), fossil liquids: petroleum coke, coal: bituminous",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas, fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas, coal: bituminous",
+        "bioenergy: wood & other biomass (solids), coal: unknown, fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), coal: subbituminous, fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), coal: subbituminous, bioenergy: wastewater and sewage sludge (solids or biogas), fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), coal: bituminous, fossil liquids: unknown",
+        "bioenergy: wood & other biomass (solids), bioenergy: wood & other biomass (solids)",
+        "bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes), coal: unknown",
+        "bioenergy: wood & other biomass (solids), bioenergy: paper mill wastes, bioenergy: unknown, other: other",
+        "bioenergy: refuse (municipal and industrial wastes), fossil liquids: waste/other oil",
+        "bioenergy: refuse (municipal and industrial wastes), fossil liquids: unknown",
+        "bioenergy: refuse (municipal and industrial wastes), fossil liquids: fuel oil",
+        "bioenergy: refuse (municipal and industrial wastes), fossil gas: natural gas, fossil liquids: unknown",
+        "bioenergy: refuse (municipal and industrial wastes), fossil gas: natural gas, bioenergy: wood & other biomass (solids)",
+        "bioenergy: refuse (municipal and industrial wastes), bioenergy: wood & other biomass (solids), fossil gas: natural gas",
+        "bioenergy: refuse (municipal and industrial wastes), bioenergy: agricultural waste (solids)",
+        "bioenergy: refuse (landfill gas), fossil gas: natural gas",
+        "bioenergy: paper mill wastes, fossil liquids: unknown",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, bioenergy: wood & other biomass (solids), fossil liquids: unknown, other: other",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, bioenergy: wood & other biomass (solids), fossil liquids: unknown",
+        "bioenergy: paper mill wastes, fossil gas: natural gas, bioenergy: wood & other biomass (solids), coal: bituminous, bioenergy: wastewater and sewage sludge (solids or biogas), fossil liquids: unknown",
+        "bioenergy: paper mill wastes, coal: unknown",
+        "bioenergy: paper mill wastes, coal: subbituminous, fossil gas: natural gas, bioenergy: wood & other biomass (solids), bioenergy: unknown",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil liquids: unknown, fossil gas: natural gas, other: other",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas, coal: bituminous",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: natural gas, bioenergy: unknown",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), fossil gas: LNG",
+        "bioenergy: paper mill wastes, bioenergy: wood & other biomass (solids), bioenergy: unknown",
+        "bioenergy: paper mill wastes, bioenergy: agricultural waste (solids), bioenergy: wastewater and sewage sludge (solids or biogas)",
+        "bioenergy: ethanol",
+        "bioenergy: agricultural waste (unknown), fossil gas: natural gas",
+        "bioenergy: agricultural waste (solids), bioenergy: wood & other biomass (solids), coal: unknown",
+        "bioenergy: agricultural waste (solids), bioenergy: unknown",
+        "bioenergy: agricultural waste (solids), bioenergy: agricultural waste (solids)",
+        "bioenergy: wood & other biomass (solids), other: other, coal: bituminous, bioenergy: wastewater and sewage sludge (solids or biogas), bioenergy: unknown, fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), fossil liquids: petroleum coke, other: other",
+        "bioenergy: wood & other biomass (solids), fossil gas: unknown",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas, bioenergy: wastewater and sewage sludge (solids or biogas), fossil liquids: unknown, bioenergy: paper mill wastes",
+        "bioenergy: wood & other biomass (solids), fossil gas: natural gas, bioenergy: paper mill wastes",
+        "bioenergy: wood & other biomass (solids), coal: waste coal",
+        "bioenergy: wood & other biomass (solids), coal: bituminous",
+        "bioenergy: wood & other biomass (solids), coal: anthracite",
+        "bioenergy: wood & other biomass (solids), bioenergy: wood & other biomass (solids), fossil liquids: waste/other oil",
+        "bioenergy: wood & other biomass (solids), bioenergy: wood & other biomass (solids), coal: unknown",
+        "bioenergy: wood & other biomass (solids), bioenergy: wood & other biomass (solids), bioenergy: refuse (municipal and industrial wastes)",
+        "bioenergy: wood & other biomass (solids), bioenergy: wastewater and sewage sludge (solids or biogas), fossil gas: natural gas",
+        "bioenergy: wood & other biomass (solids), bioenergy: wastewater and sewage sludge (solids or biogas)"
+      ],
       "value_definitions": [
         {
           "name": "n/a",
@@ -894,6 +1011,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -932,7 +1051,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Unit Conversion Year",
@@ -1029,7 +1150,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Start Year",
@@ -1126,7 +1249,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Retired Year",
@@ -1215,7 +1340,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Hydrogen Capable",
@@ -1239,6 +1366,8 @@
         "boolean_encoding:yes_no_lower"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -1341,7 +1470,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator Name(s) in Local Language / Script",
@@ -1438,7 +1569,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator(s) GEM Entity ID",
@@ -1536,6 +1669,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -1638,7 +1773,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner Name(s) in Local Language / Script",
@@ -1735,7 +1872,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner(s) GEM Entity ID",
@@ -1833,6 +1972,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -1936,6 +2077,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2039,6 +2182,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2142,6 +2287,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "decimal degrees",
@@ -2245,6 +2392,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "decimal degrees",
@@ -2276,6 +2425,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "approximate, exact",
@@ -2379,6 +2530,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2482,6 +2635,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2585,6 +2740,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2688,6 +2845,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2769,6 +2928,8 @@
         "categorical_rare_values:4_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2812,6 +2973,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -2915,6 +3078,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "L2 + 5 digits",
@@ -3018,6 +3183,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "G2 + 5 digits",
@@ -3121,6 +3288,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -3224,6 +3393,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "n/a",
@@ -3326,7 +3497,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

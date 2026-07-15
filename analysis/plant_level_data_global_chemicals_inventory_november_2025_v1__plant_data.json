@@ -4,7 +4,7 @@
   "tab_slug": "plant_data",
   "n_rows": 868,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:18.244378+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.737400+00:00",
   "tracker_info": {
     "title": "Global Chemicals Inventory - November 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Chemicals Inventory, November 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each plant. Uses format P10000014XXXX where P stands for \"plant\", and XXXX increases with every new plant added to the chemicals inventory list.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Common plant name for chemical plant in English language.",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Common plant name for chemical plant in other language. Language indicated in parentheses following plant name.",
       "notes_from_readme": null
     },
@@ -405,6 +411,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Other plants names used for chemical plants that do not conform to our standard naming convention, in English lanugage. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
       "notes_from_readme": null
     },
@@ -450,6 +458,8 @@
         "wrong_multi_value_separator:comma_only"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Other plants names used for chemical plants that do not conform to our standard naming convention, in other lanugage. For example, if the owning company refers to the plants using an ambiguous term not associated with the location of the plant.",
       "notes_from_readme": null
     },
@@ -549,6 +559,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Tracker ID from Spatial Finance Initiative's Global Ethylene Production Database (if applicable), found at https://www.cgfi.ac.uk/spatial-finance-initiative/geoasset-project/petrochemicals/.",
       "notes_from_readme": null
     },
@@ -648,6 +660,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of the chemical plant in English, followed by the ownership percentage in brackets (if known).",
       "notes_from_readme": null
     },
@@ -747,6 +761,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of the chemical plant in other language. Language indicated in parentheses following owner name.",
       "notes_from_readme": null
     },
@@ -846,6 +862,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Global Energy Monitor's entity ID for each unique owner/operator of the chemical plant.",
       "notes_from_readme": null
     },
@@ -945,6 +963,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Municipality (city, village, town).",
       "notes_from_readme": null
     },
@@ -1044,6 +1064,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subnational unit (province, state).",
       "notes_from_readme": null
     },
@@ -1143,6 +1165,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country or territory.",
       "notes_from_readme": null
     },
@@ -1190,6 +1214,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "World Economic Outlook (WEO) region.",
       "notes_from_readme": null
     },
@@ -1289,6 +1315,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "ISO 3166-1 alpha-3 code published by the International Organization for Standardization (ISO) to represent countries, dependent territories, and special areas of geographical interest.",
       "notes_from_readme": null
     },
@@ -1388,6 +1416,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Coordinates (latitude, longitude) of chemical plant.",
       "notes_from_readme": null
     },
@@ -1415,6 +1445,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Coordinate accuracy defined as \"exact\" = location confirmed via satellite imagery, \"approximate\" = location estimated or undefined.",
       "notes_from_readme": null
     },
@@ -1514,6 +1546,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to GEM wiki page.",
       "notes_from_readme": null
     },
@@ -1613,6 +1647,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Any of the 8 tracked chemicals produced on-site: ethylene, propylene, and butadiene (\"olefins\"); benzene, toluene, and xylene (\"aromatics\"); methanol; and ammonia. Note they are denoted as \"primary\" even if they are consumed immediately downstream. In the few instances where the exact type of olefin or aromatic is unconfirmed, the primary product is listed as \"olefins (unknown type)\" or \"aromatics (unknown type),\" respectively.",
       "notes_from_readme": null
     },
@@ -1712,6 +1748,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Any chemical other than the primary products made on-site (e.g., polyethylene, fertilizers, gasoline). They are denoted as \"secondary\" even if they are the main economic product at the chemical plant. Not comprehensive.",
       "notes_from_readme": null
     },
@@ -1811,6 +1849,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Main feedstock(s) used to produce the primary products at the chemical plant. There are 42 feedstock options included in this database: acetic acid, benzene, bio-oils, bioethanol, biogas, biomass, biomethane, butane, carbon dioxide, coal, coal bed methane, coke, coke oven gas, condensate, crude oil, ethane, ethylene, fuel oil, gas oil, green hydrogen, heavy fuel oil, heavy oil, hydrogen, hydrotreated residue, light oil, liquefied natural gas (LNG), liquid petroleum gas (LPG), methane, methanol, mixed c4, mixed xylenes, naphtha, natural gas, natural gas liquids (NGL), propane, propylene, pyrolysis gasoline, pyrolysis oil, reformate, sulfuric acid, vacuum gas oil, or unknown.",
       "notes_from_readme": null
     },
@@ -1842,6 +1882,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Indicates the confidence level of the identified feedstock: \"exact\" = feedstock explicitly confirmed by a credible source (e.g., company reports, government data); \"assumed\" = feedstock inferred based on process type and/or region (e.g., steam methane reforming implies natural gas) but not explicitly stated; \"unknown\" = no sufficient basis to identify the feedstock.",
       "notes_from_readme": null
     }

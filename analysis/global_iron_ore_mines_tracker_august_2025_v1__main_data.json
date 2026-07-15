@@ -4,7 +4,7 @@
   "tab_slug": "main_data",
   "n_rows": 949,
   "n_duplicate_rows": 0,
-  "analyzed_at": "2026-07-09T01:35:14.576672+00:00",
+  "analyzed_at": "2026-07-14T23:38:42.072604+00:00",
   "tracker_info": {
     "title": "Global Iron Ore Mines Tracker - August 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Iron Ore Mines Tracker, August 2025 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A unique GEM identifier is assigned to each Mine. Uses format P10000012XXXX where P stands for \"project\", and XXXX increases with every new project added to the Global Iron Ore Mines Tracker.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Projects are named using a non-conforming name used by the company or government that supercedes our standards. For all other projects, the project name format is \"Parent Company Location Mine\" (ex. \"XYZ London Mine\" for an iron ore Mine located in London and owned by company XYZ)",
       "notes_from_readme": null
     },
@@ -306,6 +310,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Include language in english (ie \"Stahlwerke (German)\")",
       "notes_from_readme": null
     },
@@ -405,6 +411,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Ideally coordinate for center of Mine. If several Mines are clustered together, do best to identify individual Mine. If exact location is unknown, use central coordinates of lowest level of address known (i.e. city, then subnational unit, country as last resort).",
       "notes_from_readme": null
     },
@@ -432,6 +440,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "exact = location confirmed via satellite imagery, approximate = location estimated or undefined",
       "notes_from_readme": null
     },
@@ -531,6 +541,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Municipality (city, village, town)",
       "notes_from_readme": null
     },
@@ -630,6 +642,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Subnational unit (province, state)",
       "notes_from_readme": null
     },
@@ -729,6 +743,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null,
       "definition_from_readme": "Country or area",
       "notes_from_readme": null
     },
@@ -778,6 +794,8 @@
         "multi_value_separator_check:uses_&"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "WEO Region",
       "notes_from_readme": null
     },
@@ -877,6 +895,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Total production data of the year 2024 (thousands of metric tonnes per annum) of iron ore",
       "notes_from_readme": null
     },
@@ -976,6 +996,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Total production data of the year 2023 (thousands of metric tonnes per annum) of iron ore",
       "notes_from_readme": null
     },
@@ -1075,6 +1097,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Total production data of the year 2022 (thousands of metric tonnes per annum) of iron ore",
       "notes_from_readme": null
     },
@@ -1173,7 +1197,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Total reserves (proven and probable, thousand metric tonnes)",
@@ -1270,7 +1296,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Total resource (inferred, indicated and measured, thousand metric tonnes)",
@@ -1367,7 +1395,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": true,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operating status",
@@ -1415,6 +1445,10 @@
         "out_of_set_categorical:1_values_not_in_reference"
       ],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": [
+        "proposed"
+      ],
       "definition_from_readme": "Categories are \"proposed\", \"operating\", \"shelved\", \"mothballed\", \"cancelled\", and \"retired\".",
       "notes_from_readme": null
     },
@@ -1515,7 +1549,9 @@
       "flags": [
         "year_out_of_range:18_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Stop date",
@@ -1598,7 +1634,9 @@
       "flags": [
         "year_out_of_range:2_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner",
@@ -1696,6 +1734,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of iron ore Mine.",
       "notes_from_readme": null
     },
@@ -1795,6 +1835,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A GEM identifier assigned to each company and owner through the Global Ownership Tracker.",
       "notes_from_readme": null
     },
@@ -1894,6 +1936,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Immediate owner/operator of iron ore Mine in local language",
       "notes_from_readme": null
     },
@@ -1993,6 +2037,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Ends of parent branches for the Mine owner from GEM's Global Energy Ownership Tracker data.",
       "notes_from_readme": null
     },
@@ -2092,6 +2138,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "A GEM identifier assigned to each company and parent through the Global Ownership Tracker.",
       "notes_from_readme": null
     },
@@ -2191,6 +2239,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Link to GEM wiki page in English.",
       "notes_from_readme": null
     }

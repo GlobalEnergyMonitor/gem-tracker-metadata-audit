@@ -4,7 +4,7 @@
   "tab_slug": "1_fin_by_proj_countryarea",
   "n_rows": 67,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:06.003439+00:00",
+  "analyzed_at": "2026-07-14T23:38:31.273722+00:00",
   "tracker_info": {
     "title": "Global Coal Project Finance Tracker - November 2025",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Coal Project Finance Tracker, November 2025 release.\" (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -28,7 +28,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     }
   ]
 }

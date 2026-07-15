@@ -4,7 +4,7 @@
   "tab_slug": "data",
   "n_rows": 7027,
   "n_duplicate_rows": 1,
-  "analyzed_at": "2026-07-09T01:35:09.646716+00:00",
+  "analyzed_at": "2026-07-14T23:38:35.724905+00:00",
   "tracker_info": {
     "title": "Global Hydropower Tracker - March 2026",
     "citation": "Recommended Citation: \"Global Energy Monitor, Global Hydropower Tracker, March 2026 release\"  (See the CC license for attribution requirements if sharing or adapting the data set.)",
@@ -109,7 +109,9 @@
       "flags": [
         "year_out_of_range:100_invalid_values"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/Area 1",
@@ -206,7 +208,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/Area 2",
@@ -303,7 +307,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": null
     },
     {
       "field_name": "Project Name",
@@ -400,7 +406,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Project Name (local lang/script)",
@@ -497,7 +505,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Other name(s)",
@@ -594,7 +604,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Capacity (MW)",
@@ -691,7 +703,9 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Binational",
@@ -718,7 +732,9 @@
       "flags": [
         "boolean_encoding:yes_no_lower"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Country/Area 1 Capacity (MW)",
@@ -815,7 +831,110 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "1200",
+        "30",
+        "40",
+        "60",
+        "50",
+        "100",
+        "120",
+        "32",
+        "45",
+        "36",
+        "80",
+        "1000",
+        "300",
+        "42",
+        "38",
+        "150",
+        "600",
+        "48",
+        "180",
+        "90",
+        "240",
+        "35",
+        "1400",
+        "500",
+        "200",
+        "44",
+        "33",
+        "75",
+        "72",
+        "54",
+        "70",
+        "52",
+        "34",
+        "140",
+        "41",
+        "37",
+        "160",
+        "51",
+        "400",
+        "1800",
+        "46",
+        "39",
+        "110",
+        "55",
+        "43",
+        "31",
+        "66",
+        "130",
+        "62",
+        "210",
+        "1500",
+        "63",
+        "250",
+        "800",
+        "220",
+        "84",
+        "56",
+        "360",
+        "108",
+        "2400",
+        "102",
+        "47",
+        "450",
+        "81",
+        "68",
+        "57",
+        "2000",
+        "132",
+        "900",
+        "320",
+        "78",
+        "65",
+        "135",
+        "88",
+        "105",
+        "74",
+        "64",
+        "49",
+        "96",
+        "58",
+        "86",
+        "82",
+        "700",
+        "270",
+        "87",
+        "420",
+        "128",
+        "76",
+        "53",
+        "280",
+        "112",
+        "85",
+        "61",
+        "59",
+        "170",
+        "94",
+        "93",
+        "230",
+        "225",
+        "165"
+      ]
     },
     {
       "field_name": "Country/Area 2 Capacity (MW)",
@@ -912,7 +1031,64 @@
       "subtype_guess": "measurement",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": "country",
+      "out_of_set_values": [
+        "0",
+        "50",
+        "51",
+        "40",
+        "18",
+        "15",
+        "1200",
+        "971",
+        "96",
+        "945",
+        "90",
+        "80",
+        "76",
+        "74",
+        "73",
+        "7000",
+        "67.5",
+        "66",
+        "63",
+        "61",
+        "60",
+        "57",
+        "53",
+        "48",
+        "450",
+        "440",
+        "420",
+        "42",
+        "36",
+        "33.5",
+        "33",
+        "3240",
+        "315",
+        "30",
+        "288",
+        "270",
+        "27",
+        "265",
+        "23.5",
+        "22",
+        "200",
+        "195",
+        "16",
+        "1550",
+        "150",
+        "1440",
+        "144",
+        "135",
+        "130",
+        "126",
+        "1140",
+        "1050",
+        "103",
+        "101"
+      ]
     },
     {
       "field_name": "Turbines",
@@ -1009,7 +1185,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Status",
@@ -1067,6 +1245,8 @@
       "is_required_guess": false,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": "status",
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "announced",
@@ -1205,7 +1385,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Start Year",
@@ -1302,7 +1484,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Retired Year",
@@ -1363,7 +1547,9 @@
       "subtype_guess": "year",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner",
@@ -1460,7 +1646,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Owner Name (local lang/script)",
@@ -1557,7 +1745,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator",
@@ -1654,7 +1844,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Operator Name (local lang/script)",
@@ -1751,7 +1943,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Technology Type",
@@ -1795,6 +1989,8 @@
         "categorical_rare_values:1_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "value_definitions": [
         {
           "name": "conventional storage",
@@ -1917,7 +2113,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Latitude",
@@ -2014,7 +2212,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Longitude",
@@ -2111,7 +2311,9 @@
       "subtype_guess": null,
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Location Accuracy",
@@ -2136,7 +2338,9 @@
       "subtype_guess": "accuracy",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "City 1",
@@ -2233,7 +2437,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Local Area 1",
@@ -2330,7 +2536,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Major Area 1",
@@ -2427,7 +2635,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State/Province 1",
@@ -2524,7 +2734,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Subregion 1",
@@ -2603,7 +2815,9 @@
       "flags": [
         "categorical_rare_values:2_values_below_1pct"
       ],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region 1",
@@ -2640,7 +2854,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "City 2",
@@ -2689,7 +2905,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Local Area 2",
@@ -2782,7 +3000,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Major Area 2",
@@ -2827,7 +3047,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "State/Province 2",
@@ -2924,7 +3146,9 @@
       "subtype_guess": "unstructured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Subregion 2",
@@ -2977,7 +3201,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Region 2",
@@ -3010,7 +3236,9 @@
       "subtype_guess": "categorical",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM location ID",
@@ -3107,7 +3335,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "GEM unit ID",
@@ -3204,7 +3434,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     },
     {
       "field_name": "Wiki URL",
@@ -3301,7 +3533,9 @@
       "subtype_guess": "structured",
       "is_required_guess": false,
       "flags": [],
-      "suppressed_flags": []
+      "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null
     }
   ]
 }

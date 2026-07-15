@@ -4,7 +4,7 @@
   "tab_slug": "plant_production",
   "n_rows": 1393,
   "n_duplicate_rows": 26,
-  "analyzed_at": "2026-07-09T01:35:18.328761+00:00",
+  "analyzed_at": "2026-07-14T23:38:46.833979+00:00",
   "tracker_info": {
     "title": "Global Iron and Steel Tracker, March 2026 (V1)",
     "citation": "Recommended citation: \"Global Energy Monitor, Global Iron and Steel Tracker, March 2026 (V1) release.\" (See the CC license for attribution requirements if sharing or adapting the data set: https://globalenergymonitor.org/creative-commons-public-license/)",
@@ -108,6 +108,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -207,6 +209,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "See definition above.",
       "notes_from_readme": null
     },
@@ -264,6 +268,8 @@
         "categorical_rare_values:1_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "The category or technology route of the reported production. Options include: Crude steel production (ttpa), EAF steel production (ttpa), BOF steel production (ttpa), IF steel production (ttpa), Other/Unknown steel production (ttpa), Iron production (ttpa), BF iron production (ttpa), DRI iron production (ttpa), and Other/Unknown iron production (ttpa). Crude steel production and iron production are the sum total production values for all technology routes at the plant.",
       "notes_from_readme": null
     },
@@ -363,6 +369,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2019 (fiscal year 2020) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -462,6 +470,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2020 (fiscal year 2021) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -561,6 +571,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2021 (fiscal year 2022) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -660,6 +672,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2022 (fiscal year 2023) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -759,6 +773,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2023 (fiscal year 2024) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -858,6 +874,8 @@
       "is_required_guess": true,
       "flags": [],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2024 (fiscal year 2025) in thousands of metric tonnes.",
       "notes_from_readme": null
     },
@@ -919,6 +937,8 @@
         "categorical_rare_values:8_values_below_1pct"
       ],
       "suppressed_flags": [],
+      "ref_set_source": null,
+      "out_of_set_values": null,
       "definition_from_readme": "Plant-level production in 2025 (fiscal year 2026) in thousands of metric tonnes.",
       "notes_from_readme": null
     }
