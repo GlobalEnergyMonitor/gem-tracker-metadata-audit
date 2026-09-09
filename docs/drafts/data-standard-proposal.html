@@ -43,7 +43,9 @@ a{color:var(--accent)}
 <li><strong>Codelists published alongside</strong>: every vocabulary (status, fuel, technology, country, entity type, and so on) as a CSV of code, title and description. Each list is either closed, where an unknown code is an error, or open, where it is a warning.</li>
 <li><strong>Readable codes, not database ids.</strong> A status is <code>retired</code>, a country is <code>GBR</code>, a fuel is <code>bituminous</code>.</li>
 <li><strong>Stable identifiers.</strong> GEM's existing ids (<code>L…</code> projects, <code>G…</code> units, <code>E…</code> entities) become the standard's ids, with an <code>identifiers</code> list carrying every other scheme such as WEPP, LEI and PermID.</li>
-<li><strong>Snapshots are collections of documents</strong>, not database dumps: a manifest, one file per document type, and the codelists as they stood on that date.</li>
+<li><strong>A release is a collection of these documents, and the release is the truth.</strong> A tracker's data release is the set of project documents (and entity documents) as published, plus a manifest and the codelists as they stood. That collection is the canonical record of the release, above the database itself. The database and the spreadsheets are the <em>current state</em>; a release is a fixed statement of what GEM said on a date.</li>
+<li><strong>The database knows about releases but does not store them.</strong> It records which release was last made from it (name, date, location) and can say at any moment what has changed since, by exporting its current state and comparing with the release files. It does not need to keep a copy of release data internally.</li>
+<li><strong>Every file carries a version, and every version is upgradable.</strong> Each document and manifest states the specification version it was written to. Each new version of the specification comes with an upgrade step from the previous one, so any file from any past release can be brought up to the current specification mechanically, and old releases stay usable as the format evolves.</li>
 <li><strong>Documentation generated from the schema</strong>, so reference tables and codelist pages cannot drift from the definitions.</li>
 <li><strong>Import as well as export.</strong> A document can be loaded back into the database without loss, because every field in the schema has a known home in the data-entry form.</li>
 </ul>
@@ -52,7 +54,7 @@ a{color:var(--accent)}
 <ol>
 <li><strong>A single contract</strong> between the database and everything downstream. Downloads, datahub, wiki and analysis read one documented shape.</li>
 <li><strong>Lossless round trips.</strong> Bulk edits, migrations and research-team corrections stop being per-column spreadsheet mappings.</li>
-<li><strong>Point-in-time comparison</strong> across snapshots, because every snapshot is the same shape.</li>
+<li><strong>Point-in-time comparison</strong> across releases, because every release is the same shape, and the database can always say what has changed since the last one.</li>
 <li><strong>Field standardisation with teeth.</strong> A name exists once, in the schema, with its definition; a sheet column is a projection of it.</li>
 <li><strong>A way in for trackers not in the database yet.</strong> Coal mines, terminals, cement and others would each be an extension when they join.</li>
 </ol>
@@ -394,11 +396,23 @@ a{color:var(--accent)}
 </tr>
 <tr>
 <td>Time</td>
-<td>Current state only per document; history by comparing snapshots.</td>
+<td>Current state only per document; history by comparing releases.</td>
 </tr>
 <tr>
-<td>Snapshot layout</td>
-<td>One directory per snapshot: manifest, one JSON Lines file per document type, codelists folder.</td>
+<td>Releases</td>
+<td>A release is the collection of documents as published; it is the canonical record, above the database. Database and spreadsheets are current state.</td>
+</tr>
+<tr>
+<td>Release awareness</td>
+<td>The database records the last release made from it and can report changes since, without storing release data.</td>
+</tr>
+<tr>
+<td>Versioning</td>
+<td>Every file states its specification version; each version ships an upgrade step from the previous one.</td>
+</tr>
+<tr>
+<td>Release layout</td>
+<td>One directory per release: manifest, one JSON Lines file per document type, codelists folder.</td>
 </tr>
 <tr>
 <td>Naming</td>
