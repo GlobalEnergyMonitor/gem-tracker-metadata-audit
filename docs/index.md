@@ -9,6 +9,9 @@ The [audit tool](/) shows per-tracker field statistics, compliance flags, and cr
 
 ---
 
+## Decision log as of 2026-09-17
+- [Decision Log](decision-log.md) — documented standardization decisions and rationale from Hannah, Maisie, Stephen and Taylor
+
 ## Interoperability Topics
 
 These documents examine how the 7 key field categories work across trackers — where schemas align well enough to join, and where they diverge in ways that would block a unified query.
