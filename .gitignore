@@ -21,3 +21,9 @@ venv/
 
 # Editor
 .vscode/
+
+# Jekyll local install
+vendor/
+.bundle/
+_site/
+Gemfile.lock

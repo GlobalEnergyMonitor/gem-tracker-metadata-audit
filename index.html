@@ -11,7 +11,7 @@
 
   <aside id="sidebar">
     <div id="sidebar-header">
-      <div id="sidebar-title">GEM Metadata Audit</div>
+      <div id="sidebar-title" onclick="showWelcome()" style="cursor:pointer" title="Back to overview">GEM Metadata Audit</div>
       <label class="sidebar-filter">
         <input type="checkbox" id="sidebar-flagged-only"> Flagged tabs only
       </label>
@@ -28,10 +28,21 @@
         <input type="search" id="search" placeholder="Search fields…">
         <select id="filter-flag">
           <option value="">All flags</option>
-          <option value="mostly_numeric_with_outliers">Numeric outliers</option>
-          <option value="numeric_null_proxies">Chars as nulls</option>
-          <option value="categorical_rare_values">Rare categorical values</option>
-          <option value="potential_multi_value">Multi-value</option>
+          <optgroup label="Errors">
+            <option value="numeric_outliers">Non-numeric in numeric field</option>
+            <option value="out_of_set_categorical">Out-of-set values</option>
+            <option value="wrong_multi_value_separator">Wrong separator</option>
+          </optgroup>
+          <optgroup label="Warnings">
+            <option value="non_standard_null_proxies">Non-standard nulls</option>
+            <option value="mostly_numeric_with_outliers">Numeric with outliers</option>
+            <option value="year_out_of_range">Year out of range</option>
+            <option value="categorical_rare_values">Rare categorical values</option>
+          </optgroup>
+          <optgroup label="Info">
+            <option value="boolean_encoding">Boolean encoding</option>
+            <option value="multi_value_separator_check">Separator in use</option>
+          </optgroup>
           <option value="__any__">Any flag</option>
         </select>
         <select id="filter-type">
