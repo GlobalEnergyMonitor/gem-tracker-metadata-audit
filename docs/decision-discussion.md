@@ -84,6 +84,8 @@ Backup detail behind each [decision-log](decision-log.md) entry: the reasoning, 
 
 > "The group agrees that these markers must be removed from numeric columns to prevent interference with mathematical operations and to ensure consistent data ingestion... such signals should be moved to companion boolean fields rather than polluting the numeric columns." — Aug 14 meeting
 
+**Resolved against STD-01, 2026-09-24:** no placeholder token survives in a numeric column — companion column only, enforced by the QC script.
+
 [Background page →](std-05-numeric-field-purity.md)
 
 ---
@@ -209,10 +211,9 @@ Backup detail behind each [decision-log](decision-log.md) entry: the reasoning, 
 
 **Decision:** Replace `Location` with `Address`. Replace `City` with `Nearest City`. Remove parentheses from `Subnational Unit` and put the explainer into metadata; standardize the `Subnational Unit` header name. Leave parentheses for now in Secondary and Tertiary location fields (`Major area`, `Local area`). Use `Country/Area` for the highest national-level location field. Countries, regions, and subregions are established in the database, but we also offer IEA regions. Standardize Start/End location headers for pipelines to align with the other point-based location header names: `Region`, `Subregion`, `Country/Area`, `Subnational Unit`, `Major area (prefecture, district)`, `Local area (taluk, county)`, `Nearest City`, `Lat_Lon`, `Address`. Multi-country assets keep the existing Country 1 / Country 2 pattern, just aligned naming. Basin-style geological hierarchies: out of scope for this standard.
 
-**Discussion:** Geographic hierarchies vary in both structure and naming across trackers — up to eight admin levels, but even identical concepts carry three or more different field names. The IEA/IMF WEO region discrepancy (e.g. Mexico's region placement) was resolved in favor of IEA.
+**Discussion:** Geographic hierarchies vary in both structure and naming across trackers — up to eight admin levels, but even identical concepts carry three or more different field names. **Resolved:** WEO regions are the IEA's definitions — not IMF. The full region/subregion/WEO mapping is maintained in [this sheet](https://docs.google.com/spreadsheets/d/1mtlwSJfWy1gbIwXVgpP3d6CcUEWo2OM0IvPD6yztGXI/edit?gid=0#gid=0).
 
 > "'Location' is too vague and should be replaced with 'address,' and 'city' should explicitly refer to the nearest city rather than being used interchangeably with address." — Sep 25 meeting
-> "Discrepancies between the International Energy Agency (IEA) and International Monetary Fund (IMF) regarding regions like World Economic Outlook (WEO) definitions (e.g., Mexico's placement in North America versus Latin America and Caribbean)." — Sep 25 meeting
 
 **Open:**
 - Have an LLM look into what secondary and tertiary location data exists, to see how to standardize it.
