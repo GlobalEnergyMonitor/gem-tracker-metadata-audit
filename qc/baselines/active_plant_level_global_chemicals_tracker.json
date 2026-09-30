@@ -1,0 +1,2388 @@
+{
+  "tracker": "active_plant_level_global_chemicals_tracker",
+  "releases": [
+    {
+      "label": "2026-09-24",
+      "recorded_at": "2026-09-24T23:04:18+00:00",
+      "sheets": {
+        "Plant data": {
+          "Coordinate accuracy": {
+            "values": [
+              "approximate",
+              "exact"
+            ],
+            "counts": {
+              "approximate": 368,
+              "exact": 915
+            },
+            "n_values": 2,
+            "n_rows": 1283
+          },
+          "Operating status": {
+            "values": [
+              "announced",
+              "cancelled",
+              "construction",
+              "mothballed",
+              "mothballed pre-retirement",
+              "operating",
+              "operating pre-retirement",
+              "retired"
+            ],
+            "counts": {
+              "announced": 229,
+              "cancelled": 7,
+              "construction": 111,
+              "mothballed": 25,
+              "mothballed pre-retirement": 2,
+              "operating": 884,
+              "operating pre-retirement": 8,
+              "retired": 17
+            },
+            "n_values": 8,
+            "n_rows": 1283
+          },
+          "Plant type": {
+            "values": [
+              "chemicals only",
+              "integrated refinery and chemicals",
+              "refinery only"
+            ],
+            "counts": {
+              "chemicals only": 1097,
+              "integrated refinery and chemicals": 115,
+              "refinery only": 71
+            },
+            "n_values": 3,
+            "n_rows": 1283
+          },
+          "CCS/CCUS": {
+            "values": [
+              "developing",
+              "no",
+              "yes"
+            ],
+            "counts": {
+              "developing": 68,
+              "no": 1205,
+              "yes": 10
+            },
+            "n_values": 3,
+            "n_rows": 1283
+          },
+          "Electrified process heat": {
+            "values": [
+              "developing",
+              "no"
+            ],
+            "counts": {
+              "developing": 2,
+              "no": 1281
+            },
+            "n_values": 2,
+            "n_rows": 1283
+          },
+          "Low-carbon hydrogen feedstock or fuel": {
+            "values": [
+              "developing",
+              "no",
+              "yes"
+            ],
+            "counts": {
+              "developing": 252,
+              "no": 1002,
+              "yes": 29
+            },
+            "n_values": 3,
+            "n_rows": 1283
+          },
+          "Bio- or waste-based feedstock or fuel": {
+            "values": [
+              "developing",
+              "no",
+              "yes"
+            ],
+            "counts": {
+              "developing": 69,
+              "no": 1180,
+              "yes": 34
+            },
+            "n_values": 3,
+            "n_rows": 1283
+          },
+          "Research status": {
+            "values": [
+              "complete"
+            ],
+            "counts": {
+              "complete": 1283
+            },
+            "n_values": 1,
+            "n_rows": 1283
+          }
+        },
+        "Removed data": {
+          "Reason for removal": {
+            "values": [
+              "duplicate entry",
+              "out of scope",
+              "plant not operating",
+              "plant status unclear"
+            ],
+            "counts": {
+              "duplicate entry": 226,
+              "out of scope": 231,
+              "plant not operating": 119,
+              "plant status unclear": 38
+            },
+            "n_values": 4,
+            "n_rows": 615
+          },
+          "Other plant names (English)": {
+            "values": [
+              "BASF Nanjing Verbund site",
+              "Barabanki Manufacturing Division",
+              "Bayport (Pasadena) PO/TBA Plant",
+              "Baytown Olefins Plant",
+              "Channel South Side Complex",
+              "Complejo Petroquímico Morelos",
+              "Cromarty Clean Fuels Project",
+              "EFERT EnVen",
+              "EFERT Zarkhez",
+              "Eastman Chemical Longview Operations",
+              "Enterprise Mont Belvieu Complex",
+              "Esmeraldas refinery, REE",
+              "ExxonMobil Singapore Chemical Plant Banyan Facility (SAR 2)",
+              "GSFC Fibre Unit",
+              "GSFC Polymer Unit",
+              "GSFC Sikka Unit",
+              "Hengyi PMB Refinery and Petrochemical Project",
+              "IFFCO Kandla plant",
+              "IFFCO Paradeep plant",
+              "IOCL Gujarat Refinery",
+              "Incitec Pivot Fertilisers Phosphate Hill plant, Gibson Island Site",
+              "Jiangsu Denoir Technology CO.,LTD",
+              "Karakulkimyo nitrogen fertilizers plant",
+              "Kuryk South Complex",
+              "Louisiana Operations",
+              "Manali Petrochemicals Plant I",
+              "Manali Petrochemicals Plant II",
+              "Namie Green Ammonia Integrated Control Demonstration Field",
+              "Olefins-II",
+              "Olefins-III",
+              "PIC",
+              "PIM-2",
+              "PV2Fuel project",
+              "Pars PC, Pars Petrochemical Complex",
+              "Pusri I",
+              "Pusri I-B",
+              "Pusri II",
+              "Pusri III",
+              "Pusri IV",
+              "QAFCO-7",
+              "SOCAR GPC Garadagh Complex",
+              "Sadaf Petrochemicals Complex",
+              "Saudi Arabian Fertilizer Company",
+              "Shaheen project",
+              "Shunbei Crude Oil Steam Cracker",
+              "Singapore Chemical Plant (SCP)",
+              "Sinopec Ningbo Zhenhai Refining & Chemical Co., Ltd.",
+              "St Charles Operation / Union Carbide Corporation (UCC) Taft Plant",
+              "Texas Operations - Freeport",
+              "The Kuwait Olefins Company (TKOC)",
+              "Udmurt oil refinery",
+              "Yeochun NCC Plant - Cracker 2",
+              "Yeochun NCC Plant - Plant 1",
+              "Yeochun NCC Plant - Plant 3"
+            ],
+            "counts": {
+              "BASF Nanjing Verbund site": 1,
+              "Barabanki Manufacturing Division": 1,
+              "Bayport (Pasadena) PO/TBA Plant": 2,
+              "Baytown Olefins Plant": 2,
+              "Channel South Side Complex": 1,
+              "Complejo Petroquímico Morelos": 1,
+              "Cromarty Clean Fuels Project": 1,
+              "EFERT EnVen": 1,
+              "EFERT Zarkhez": 1,
+              "Eastman Chemical Longview Operations": 2,
+              "Enterprise Mont Belvieu Complex": 1,
+              "Esmeraldas refinery, REE": 1,
+              "ExxonMobil Singapore Chemical Plant Banyan Facility (SAR 2)": 1,
+              "GSFC Fibre Unit": 1,
+              "GSFC Polymer Unit": 1,
+              "GSFC Sikka Unit": 1,
+              "Hengyi PMB Refinery and Petrochemical Project": 1,
+              "IFFCO Kandla plant": 1,
+              "IFFCO Paradeep plant": 1,
+              "IOCL Gujarat Refinery": 1,
+              "Incitec Pivot Fertilisers Phosphate Hill plant, Gibson Island Site": 1,
+              "Jiangsu Denoir Technology CO.,LTD": 1,
+              "Karakulkimyo nitrogen fertilizers plant": 1,
+              "Kuryk South Complex": 1,
+              "Louisiana Operations": 1,
+              "Manali Petrochemicals Plant I": 1,
+              "Manali Petrochemicals Plant II": 1,
+              "Namie Green Ammonia Integrated Control Demonstration Field": 1,
+              "Olefins-II": 1,
+              "Olefins-III": 1,
+              "PIC": 1,
+              "PIM-2": 1,
+              "PV2Fuel project": 1,
+              "Pars PC, Pars Petrochemical Complex": 1,
+              "Pusri I": 1,
+              "Pusri I-B": 1,
+              "Pusri II": 1,
+              "Pusri III": 1,
+              "Pusri IV": 1,
+              "QAFCO-7": 1,
+              "SOCAR GPC Garadagh Complex": 1,
+              "Sadaf Petrochemicals Complex": 1,
+              "Saudi Arabian Fertilizer Company": 1,
+              "Shaheen project": 1,
+              "Shunbei Crude Oil Steam Cracker": 1,
+              "Singapore Chemical Plant (SCP)": 1,
+              "Sinopec Ningbo Zhenhai Refining & Chemical Co., Ltd.": 1,
+              "St Charles Operation / Union Carbide Corporation (UCC) Taft Plant": 1,
+              "Texas Operations - Freeport": 2,
+              "The Kuwait Olefins Company (TKOC)": 2,
+              "Udmurt oil refinery": 1,
+              "Yeochun NCC Plant - Cracker 2": 1,
+              "Yeochun NCC Plant - Plant 1": 1,
+              "Yeochun NCC Plant - Plant 3": 1
+            },
+            "n_values": 54,
+            "n_rows": 615
+          },
+          "Coordinate accuracy": {
+            "values": [
+              "approximate",
+              "exact"
+            ],
+            "counts": {
+              "approximate": 211,
+              "exact": 331
+            },
+            "n_values": 2,
+            "n_rows": 615
+          },
+          "Plant status": {
+            "values": [
+              "announced",
+              "cancelled",
+              "construction",
+              "mothballed",
+              "operating",
+              "operating pre-retirement",
+              "retired"
+            ],
+            "counts": {
+              "announced": 46,
+              "cancelled": 3,
+              "construction": 41,
+              "mothballed": 18,
+              "operating": 306,
+              "operating pre-retirement": 2,
+              "retired": 19
+            },
+            "n_values": 7,
+            "n_rows": 615
+          },
+          "Plant type": {
+            "values": [
+              "chemicals only",
+              "integrated refinery and chemicals",
+              "refinery only"
+            ],
+            "counts": {
+              "chemicals only": 87,
+              "integrated refinery and chemicals": 5,
+              "refinery only": 2
+            },
+            "n_values": 3,
+            "n_rows": 615
+          },
+          "Main production equipment": {
+            "values": [
+              "Haber-Bosch reactor",
+              "Haber-Bosch reactor, electrolyzer",
+              "fluid catalytic cracker, catalytic reformer, gasifier (coal)",
+              "methanol synthesis reactor",
+              "methanol synthesis reactor, gasifier (coal)",
+              "other",
+              "steam cracker",
+              "steam methane reformer, Haber-Bosch reactor"
+            ],
+            "counts": {
+              "Haber-Bosch reactor": 6,
+              "Haber-Bosch reactor, electrolyzer": 1,
+              "fluid catalytic cracker, catalytic reformer, gasifier (coal)": 1,
+              "methanol synthesis reactor": 3,
+              "methanol synthesis reactor, gasifier (coal)": 1,
+              "other": 1,
+              "steam cracker": 7,
+              "steam methane reformer, Haber-Bosch reactor": 1
+            },
+            "n_values": 8,
+            "n_rows": 615
+          },
+          "CCS/CCUS": {
+            "values": [
+              "developing",
+              "no"
+            ],
+            "counts": {
+              "developing": 3,
+              "no": 93
+            },
+            "n_values": 2,
+            "n_rows": 615
+          },
+          "Bio- or waste-based feedstock or fuel": {
+            "values": [
+              "developing",
+              "no",
+              "yes"
+            ],
+            "counts": {
+              "developing": 1,
+              "no": 91,
+              "yes": 1
+            },
+            "n_values": 3,
+            "n_rows": 615
+          },
+          "Research status": {
+            "values": [
+              "complete",
+              "in progress",
+              "incomplete"
+            ],
+            "counts": {
+              "complete": 22,
+              "in progress": 9,
+              "incomplete": 581
+            },
+            "n_values": 3,
+            "n_rows": 615
+          }
+        },
+        "Asset Impact plants": {
+          "Municipality": {
+            "values": [
+              "Bayannur",
+              "Bayingolin Mongol Autonomous Prefecture",
+              "Binzhou",
+              "Chengdu",
+              "Chifeng",
+              "Chongqing",
+              "Chuzhou",
+              "Dalian",
+              "Dazhou",
+              "Dingzhou",
+              "Feicheng",
+              "Gaoping",
+              "Guiyang",
+              "Harbin",
+              "Hechi",
+              "Huaibei",
+              "Ili",
+              "Lengshuijiang",
+              "Linfen",
+              "Linyi",
+              "Pingliang",
+              "Qiannan Buyei and Miao Autonomous Prefecture",
+              "Qiqihar",
+              "Quzhou",
+              "Sanming",
+              "Shijiazhuang",
+              "Tangshan",
+              "Tongliao",
+              "Weinan",
+              "Xiangyang",
+              "Xiaogan",
+              "Xingtai",
+              "Xining",
+              "Xinxiang",
+              "Xinyang",
+              "Yichang",
+              "Yichun",
+              "Yueyang",
+              "Zaozhuang",
+              "Zhenjiang",
+              "Zhumadian",
+              "Zhuzhou"
+            ],
+            "counts": {
+              "Bayannur": 1,
+              "Bayingolin Mongol Autonomous Prefecture": 1,
+              "Binzhou": 2,
+              "Chengdu": 2,
+              "Chifeng": 1,
+              "Chongqing": 1,
+              "Chuzhou": 1,
+              "Dalian": 1,
+              "Dazhou": 3,
+              "Dingzhou": 1,
+              "Feicheng": 1,
+              "Gaoping": 1,
+              "Guiyang": 1,
+              "Harbin": 1,
+              "Hechi": 1,
+              "Huaibei": 1,
+              "Ili": 1,
+              "Lengshuijiang": 1,
+              "Linfen": 1,
+              "Linyi": 1,
+              "Pingliang": 1,
+              "Qiannan Buyei and Miao Autonomous Prefecture": 1,
+              "Qiqihar": 1,
+              "Quzhou": 2,
+              "Sanming": 1,
+              "Shijiazhuang": 1,
+              "Tangshan": 1,
+              "Tongliao": 1,
+              "Weinan": 1,
+              "Xiangyang": 1,
+              "Xiaogan": 1,
+              "Xingtai": 1,
+              "Xining": 3,
+              "Xinxiang": 1,
+              "Xinyang": 1,
+              "Yichang": 1,
+              "Yichun": 1,
+              "Yueyang": 1,
+              "Zaozhuang": 2,
+              "Zhenjiang": 1,
+              "Zhumadian": 1,
+              "Zhuzhou": 1
+            },
+            "n_values": 42,
+            "n_rows": 50
+          },
+          "Subnational unit": {
+            "values": [
+              "Anhui",
+              "Chongqing",
+              "Fujian",
+              "Gansu",
+              "Guangxi",
+              "Guizhou",
+              "Hebei",
+              "Heilongjiang",
+              "Henan",
+              "Hubei",
+              "Hunan",
+              "Inner Mongolia",
+              "Jiangsu",
+              "Liaoning",
+              "Qinghai",
+              "Shaanxi",
+              "Shandong",
+              "Shanxi",
+              "Sichuan",
+              "Xinjiang",
+              "Zhejiang"
+            ],
+            "counts": {
+              "Anhui": 2,
+              "Chongqing": 1,
+              "Fujian": 1,
+              "Gansu": 1,
+              "Guangxi": 1,
+              "Guizhou": 2,
+              "Hebei": 4,
+              "Heilongjiang": 3,
+              "Henan": 3,
+              "Hubei": 3,
+              "Hunan": 3,
+              "Inner Mongolia": 3,
+              "Jiangsu": 1,
+              "Liaoning": 1,
+              "Qinghai": 3,
+              "Shaanxi": 1,
+              "Shandong": 6,
+              "Shanxi": 2,
+              "Sichuan": 5,
+              "Xinjiang": 2,
+              "Zhejiang": 2
+            },
+            "n_values": 21,
+            "n_rows": 50
+          },
+          "Country/area": {
+            "values": [
+              "China"
+            ],
+            "counts": {
+              "China": 50
+            },
+            "n_values": 1,
+            "n_rows": 50
+          },
+          "Coordinate accuracy": {
+            "values": [
+              "approximate",
+              "exact"
+            ],
+            "counts": {
+              "approximate": 7,
+              "exact": 43
+            },
+            "n_values": 2,
+            "n_rows": 50
+          },
+          "Operating status": {
+            "values": [
+              "construction",
+              "mothballed",
+              "operating",
+              "retired"
+            ],
+            "counts": {
+              "construction": 1,
+              "mothballed": 4,
+              "operating": 42,
+              "retired": 3
+            },
+            "n_values": 4,
+            "n_rows": 50
+          },
+          "Plant type": {
+            "values": [
+              "chemicals only",
+              "integrated refinery and chemicals"
+            ],
+            "counts": {
+              "chemicals only": 48,
+              "integrated refinery and chemicals": 2
+            },
+            "n_values": 2,
+            "n_rows": 50
+          },
+          "Primary products": {
+            "values": [
+              "ammonia",
+              "ammonia, methanol",
+              "ammonia, methanol, benzene",
+              "methanol",
+              "methanol, ammonia",
+              "methanol, benzene",
+              "methanol, benzene, xylene",
+              "olefins (unknown type)",
+              "propylene, ammonia"
+            ],
+            "counts": {
+              "ammonia": 13,
+              "ammonia, methanol": 17,
+              "ammonia, methanol, benzene": 1,
+              "methanol": 10,
+              "methanol, ammonia": 4,
+              "methanol, benzene": 1,
+              "methanol, benzene, xylene": 1,
+              "olefins (unknown type)": 2,
+              "propylene, ammonia": 1
+            },
+            "n_values": 9,
+            "n_rows": 50
+          },
+          "Secondary products": {
+            "values": [
+              "Amino acids; fertilizers",
+              "Coke, tar, light benzene, ammonium sulfate",
+              "Crude benzene; ammonium sulfate; urea; sulfur; sulfuric acid",
+              "Dimethyl ether",
+              "EVA,PP",
+              "Formaldehyde; Formic Acid; Urea",
+              "Nitrogen Fertilizer; Melamine",
+              "Polyolefins",
+              "Polypropylene; MTBE; high-purity hydrogen; industrial isooctane; o-cresol",
+              "Solvent oil",
+              "Urea",
+              "Urea; surfur"
+            ],
+            "counts": {
+              "Amino acids; fertilizers": 1,
+              "Coke, tar, light benzene, ammonium sulfate": 1,
+              "Crude benzene; ammonium sulfate; urea; sulfur; sulfuric acid": 1,
+              "Dimethyl ether": 2,
+              "EVA,PP": 1,
+              "Formaldehyde; Formic Acid; Urea": 1,
+              "Nitrogen Fertilizer; Melamine": 1,
+              "Polyolefins": 1,
+              "Polypropylene; MTBE; high-purity hydrogen; industrial isooctane; o-cresol": 1,
+              "Solvent oil": 1,
+              "Urea": 1,
+              "Urea; surfur": 1
+            },
+            "n_values": 12,
+            "n_rows": 50
+          },
+          "Feedstock": {
+            "values": [
+              "Coal",
+              "Coal,Coke Oven Gas",
+              "Coal; natural gas",
+              "Coke Oven Gas",
+              "Coke oven gas",
+              "Crude oil",
+              "LPG",
+              "Methanol",
+              "Natural gas",
+              "Natural gas,coal"
+            ],
+            "counts": {
+              "Coal": 18,
+              "Coal,Coke Oven Gas": 1,
+              "Coal; natural gas": 1,
+              "Coke Oven Gas": 4,
+              "Coke oven gas": 2,
+              "Crude oil": 1,
+              "LPG": 1,
+              "Methanol": 2,
+              "Natural gas": 4,
+              "Natural gas,coal": 1
+            },
+            "n_values": 10,
+            "n_rows": 50
+          },
+          "Feedstock accuracy": {
+            "values": [
+              "exact"
+            ],
+            "counts": {
+              "exact": 38
+            },
+            "n_values": 1,
+            "n_rows": 50
+          },
+          "Main production equipment": {
+            "values": [
+              "Haber-Bosch reactor",
+              "Haber-Bosch reactor, gasifier (coal)",
+              "Haber-Bosch reactor, methanol synthesis reactor",
+              "gasifier (coal), methanol synthesis reactor",
+              "methanol synthesis reactor",
+              "methanol synthesis reactor, Haber-Bosch reactor",
+              "methanol-to-olefins",
+              "propane dehydrogenation reactor, Haber-Bosch reactor"
+            ],
+            "counts": {
+              "Haber-Bosch reactor": 12,
+              "Haber-Bosch reactor, gasifier (coal)": 1,
+              "Haber-Bosch reactor, methanol synthesis reactor": 21,
+              "gasifier (coal), methanol synthesis reactor": 1,
+              "methanol synthesis reactor": 11,
+              "methanol synthesis reactor, Haber-Bosch reactor": 1,
+              "methanol-to-olefins": 2,
+              "propane dehydrogenation reactor, Haber-Bosch reactor": 1
+            },
+            "n_values": 8,
+            "n_rows": 50
+          },
+          "Primary process units": {
+            "values": [
+              "Haber-Bosch reactor",
+              "MTO",
+              "methanol synthesis reactor",
+              "methanol synthesis reactor; coal gasifier",
+              "methanol synthesis reactor;Haber-Bosch reactor"
+            ],
+            "counts": {
+              "Haber-Bosch reactor": 7,
+              "MTO": 1,
+              "methanol synthesis reactor": 8,
+              "methanol synthesis reactor; coal gasifier": 1,
+              "methanol synthesis reactor;Haber-Bosch reactor": 18
+            },
+            "n_values": 5,
+            "n_rows": 50
+          },
+          "Research status": {
+            "values": [
+              "complete"
+            ],
+            "counts": {
+              "complete": 50
+            },
+            "n_values": 1,
+            "n_rows": 50
+          }
+        }
+      }
+    }
+  ],
+  "value_history": {
+    "Plant data": {
+      "Coordinate accuracy": {
+        "approximate": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "exact": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Operating status": {
+        "announced": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "cancelled": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "construction": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "mothballed": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "mothballed pre-retirement": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "operating": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "operating pre-retirement": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "retired": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Plant type": {
+        "chemicals only": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "integrated refinery and chemicals": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "refinery only": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "CCS/CCUS": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "yes": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Electrified process heat": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Low-carbon hydrogen feedstock or fuel": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "yes": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Bio- or waste-based feedstock or fuel": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "yes": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Research status": {
+        "complete": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      }
+    },
+    "Removed data": {
+      "Reason for removal": {
+        "duplicate entry": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "out of scope": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "plant not operating": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "plant status unclear": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Other plant names (English)": {
+        "BASF Nanjing Verbund site": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Barabanki Manufacturing Division": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Bayport (Pasadena) PO/TBA Plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Baytown Olefins Plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Channel South Side Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Complejo Petroquímico Morelos": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Cromarty Clean Fuels Project": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "EFERT EnVen": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "EFERT Zarkhez": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Eastman Chemical Longview Operations": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Enterprise Mont Belvieu Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Esmeraldas refinery, REE": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "ExxonMobil Singapore Chemical Plant Banyan Facility (SAR 2)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "GSFC Fibre Unit": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "GSFC Polymer Unit": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "GSFC Sikka Unit": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Hengyi PMB Refinery and Petrochemical Project": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "IFFCO Kandla plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "IFFCO Paradeep plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "IOCL Gujarat Refinery": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Incitec Pivot Fertilisers Phosphate Hill plant, Gibson Island Site": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Jiangsu Denoir Technology CO.,LTD": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Karakulkimyo nitrogen fertilizers plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Kuryk South Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Louisiana Operations": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Manali Petrochemicals Plant I": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Manali Petrochemicals Plant II": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Namie Green Ammonia Integrated Control Demonstration Field": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Olefins-II": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Olefins-III": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "PIC": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "PIM-2": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "PV2Fuel project": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pars PC, Pars Petrochemical Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pusri I": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pusri I-B": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pusri II": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pusri III": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pusri IV": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "QAFCO-7": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "SOCAR GPC Garadagh Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Sadaf Petrochemicals Complex": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Saudi Arabian Fertilizer Company": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shaheen project": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shunbei Crude Oil Steam Cracker": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Singapore Chemical Plant (SCP)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Sinopec Ningbo Zhenhai Refining & Chemical Co., Ltd.": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "St Charles Operation / Union Carbide Corporation (UCC) Taft Plant": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Texas Operations - Freeport": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "The Kuwait Olefins Company (TKOC)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Udmurt oil refinery": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yeochun NCC Plant - Cracker 2": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yeochun NCC Plant - Plant 1": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yeochun NCC Plant - Plant 3": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Coordinate accuracy": {
+        "approximate": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "exact": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Plant status": {
+        "announced": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "cancelled": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "construction": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "mothballed": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "operating": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "operating pre-retirement": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "retired": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Plant type": {
+        "chemicals only": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "integrated refinery and chemicals": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "refinery only": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Main production equipment": {
+        "Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Haber-Bosch reactor, electrolyzer": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "fluid catalytic cracker, catalytic reformer, gasifier (coal)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor, gasifier (coal)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "other": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "steam cracker": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "steam methane reformer, Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "CCS/CCUS": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Bio- or waste-based feedstock or fuel": {
+        "developing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "no": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "yes": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Research status": {
+        "complete": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "in progress": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "incomplete": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      }
+    },
+    "Asset Impact plants": {
+      "Municipality": {
+        "Bayannur": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Bayingolin Mongol Autonomous Prefecture": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Binzhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Chengdu": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Chifeng": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Chongqing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Chuzhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Dalian": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Dazhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Dingzhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Feicheng": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Gaoping": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Guiyang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Harbin": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Hechi": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Huaibei": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Ili": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Lengshuijiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Linfen": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Linyi": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Pingliang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Qiannan Buyei and Miao Autonomous Prefecture": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Qiqihar": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Quzhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Sanming": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shijiazhuang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Tangshan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Tongliao": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Weinan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xiangyang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xiaogan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xingtai": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xining": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xinxiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xinyang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yichang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yichun": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Yueyang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Zaozhuang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Zhenjiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Zhumadian": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Zhuzhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Subnational unit": {
+        "Anhui": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Chongqing": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Fujian": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Gansu": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Guangxi": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Guizhou": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Hebei": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Heilongjiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Henan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Hubei": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Hunan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Inner Mongolia": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Jiangsu": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Liaoning": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Qinghai": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shaanxi": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shandong": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Shanxi": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Sichuan": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Xinjiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Zhejiang": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Country/area": {
+        "China": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Coordinate accuracy": {
+        "approximate": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "exact": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Operating status": {
+        "construction": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "mothballed": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "operating": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "retired": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Plant type": {
+        "chemicals only": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "integrated refinery and chemicals": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Primary products": {
+        "ammonia": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "ammonia, methanol": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "ammonia, methanol, benzene": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol, ammonia": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol, benzene": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol, benzene, xylene": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "olefins (unknown type)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "propylene, ammonia": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Secondary products": {
+        "Amino acids; fertilizers": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Coke, tar, light benzene, ammonium sulfate": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Crude benzene; ammonium sulfate; urea; sulfur; sulfuric acid": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Dimethyl ether": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "EVA,PP": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Formaldehyde; Formic Acid; Urea": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Nitrogen Fertilizer; Melamine": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Polyolefins": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Polypropylene; MTBE; high-purity hydrogen; industrial isooctane; o-cresol": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Solvent oil": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Urea": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Urea; surfur": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Feedstock": {
+        "Coal": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Coal,Coke Oven Gas": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Coal; natural gas": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Coke Oven Gas": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Coke oven gas": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Crude oil": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "LPG": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Methanol": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Natural gas": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Natural gas,coal": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Feedstock accuracy": {
+        "exact": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Main production equipment": {
+        "Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Haber-Bosch reactor, gasifier (coal)": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "Haber-Bosch reactor, methanol synthesis reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "gasifier (coal), methanol synthesis reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor, Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol-to-olefins": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "propane dehydrogenation reactor, Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Primary process units": {
+        "Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "MTO": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor; coal gasifier": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        },
+        "methanol synthesis reactor;Haber-Bosch reactor": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      },
+      "Research status": {
+        "complete": {
+          "first_seen": "2026-09-24",
+          "last_seen": "2026-09-24",
+          "releases": [
+            "2026-09-24"
+          ]
+        }
+      }
+    }
+  },
+  "spreadsheet_id": "1h5I-Qg5N2hnOu52K2jArKHA-hbvS7cHiS5ZUwIkknI0",
+  "spreadsheet_title": "(ACTIVE) Plant-Level Global Chemicals Tracker"
+}
