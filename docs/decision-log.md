@@ -27,10 +27,18 @@ Standardization decisions, ordered STD-01 → STD-13. All 13 items reviewed and 
 
 ## Open items
 
-- **STD-01 vs. STD-05** — resolved 2026-09-24: no placeholder token survives in a numeric column; companion column only, enforced by the QC script.
-- **STD-03** — Maisie to audit how current report-generation code handles `not found` entries before they're excluded from exports.
-- **STD-04** — build an interface mechanism for a PM to request a new allowed value option.
-- **STD-07** — talk further with teams about their own publication rules on top of the universal floor.
-- **STD-08** — settle the header naming pattern for language-variant fields (e.g. `Plant name (English)` / `Plant name (other language)`) without parentheses.
-- **STD-10** — move inferred statuses to interoperability; decide blank vs. `0` for numeric columns; decide wording for historic production that's known-nonzero but unquantified; sort out with GIST how to handle feedstock percentages when one part isn't researched; check whether `not researched` is used by teams beyond Heavy Industry.
-- **STD-12** — LLM-assisted audit of secondary/tertiary administrative division data; confirm `Location` data actually holds addresses before the `Address` rename goes live.
+- STD-03 — Maisie to audit how current report-generation code handles `not found` entries before they're excluded from exports. (Maisie)
+- STD-04 — build an interface mechanism for a PM to request a new allowed value option. (unassigned, but should involve engineer & programs)
+- STD-07 — talk further with teams about their own publication rules on top of the universal floor. (unassigned, but should involve programs)
+- STD-08 — settle the header naming pattern for language-variant fields (e.g. `Plant name (English)` / `Plant name (other language)`) without parentheses. (unassigned, but should involve programs)
+- STD-10 — move inferred statuses and planned statuses discussion to interoperability; decide blank vs. `0` for numeric columns; decide wording for historic production that's known-nonzero but unquantified; sort out with GIST how to handle feedstock percentages when one part isn't researched; check whether `not researched` is used by teams beyond Heavy Industry. (unassigned, but should involve programs)
+- STD-12 — LLM-assisted audit of secondary/tertiary administrative division data; confirm `Location` data actually holds addresses before the `Address` rename goes live. (unassigned)
+
+### Deferred to Interoperability
+
+All of these are STD-10 items that were explicitly pulled out of this standard and pushed to the [IOP-03: Status](iop-03-status.md) interoperability topic — not decided here.
+
+- **STD-10 / Pattern 2 — Rule-based status inference** (e.g. auto-marking a unit "shelved" after 2 years with no update). Struck from imputation entirely; belongs to the statuses topic.
+- **STD-10 / Pattern 3 — Planned vs. actual retirement/start-year milestones.** How delays, plans, and confirmed milestones get communicated to users needs to stay consistent across GEM — handled by the status timeline, not this standard.
+- **STD-10 / Decision point 2 — Inferred statuses at the query layer.** Whether an inferred status should be distinguishable from a researcher-confirmed one in queries — status interoperability topic.
+- **STD-10 / Decision point 3 — `startYearPlanned` as an export column.** Whether to export it to spreadsheets — handled by the status timeline (statuses topic), not exported as its own field here.
