@@ -9,8 +9,8 @@ The [audit tool](/) shows per-tracker field statistics, compliance flags, and cr
 
 ---
 
-## Decision log as of 2026-09-17
-- [Decision Log](decision-log.md) — documented standardization decisions and rationale from Hannah, Maisie, Stephen and Taylor
+## Decision log as of 2026-09-30
+- [Decision Log](decision-log.md) — documented standardization decisions and links to rationale 
 
 ## Interoperability Topics
 
@@ -30,8 +30,6 @@ These documents examine how the 7 key field categories work across trackers — 
 ## Standardization Topics
 
 These documents cover field-level encoding conventions — how individual values should be represented within a tracker.
-
-| # | Topic | Key questions |
 
 | # | Topic | Key questions |
 |---|---|---|
