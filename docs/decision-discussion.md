@@ -54,7 +54,7 @@ Backup detail behind each [decision-log](decision-log.md) entry: the reasoning, 
 > "The group ultimately reached a consensus that boolean fields should be converted into standardized categorical drop-down interfaces to prevent invalid combinations like 'yes' and 'not found.'" — Sep 25 meeting
 > "Maisie Bird also suggested evaluating whether 'not found' entries should be withheld from public releases as internal bookkeeping." — Sep 25 meeting
 
-**Open:** Maisie to audit how current report-generation code handles `not found` entries before this rolls out.
+**Open:** Maisie to audit how current report-generation code handles `not found` entries before this rolls out. Get answer from Joe on what developing means in otherwise boolean columns "CCU/CCUS"
 
 [Background page →](std-03-boolean-encoding.md)
 
